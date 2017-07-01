@@ -1,9 +1,18 @@
 
+"""
+Document analyzers to assist feature functions
+
+Functions in this module extract information from documents so that
+feature functions can use the information to determine which features
+should be turned on.
+"""
+
 import re
 from collections import namedtuple
 import logging
 
 from lgid.util import normalize_characters
+
 
 Mention = namedtuple(
     'Mention',
@@ -16,7 +25,27 @@ Mention = namedtuple(
      'text')        # original text of matched name
 )
 
+
 def language_mentions(doc, lgtable, capitalization):
+    """
+    Find mentions of languages in a document
+
+    When a matching language name is detected in a document, information
+    about that mention is recorded, such as the position, the normalized
+    name and language code, and the original string that matched.
+
+    Args:
+        doc: FrekiDoc instance
+        lgtable: mapping of normalized language names to a list of
+            language codes (e.g., from lgid.util.read_language_table())
+        capitalization: scheme for normalizing language names; valid
+            values are 'upper', 'lower', and 'title'. Using 'title'
+            (uppercase the first letter of each token) helps prevent
+            word-like language names (Even, She, Day, etc.) from
+            over-firing.
+    Yields:
+        Mention objects
+    """
     logging.info('Finding language mentions')
 
     normcaps = {
@@ -34,7 +63,6 @@ def language_mentions(doc, lgtable, capitalization):
     i = 0
     for block in doc.blocks:
         logging.debug(block.block_id)
-        # page = block.page
         for line in block.lines:
             startline = line.lineno
             endline = line.lineno  # same for now
@@ -52,6 +80,17 @@ def language_mentions(doc, lgtable, capitalization):
 
 
 def character_ngrams(s, n, lhs='<', rhs='>'):
+    """
+    Extract character n-grams of length *n* from string *s*
+
+    Args:
+        s: the string whence n-grams are extracted
+        n: the length of each n-gram
+        lhs: left-padding character (to show token boundaries)
+        rhs: right-padding character (to show token boundaries)
+    Returns:
+        list of n-grams in *s*
+    """
     ngrams = []
 
     for word in s.split():
@@ -68,6 +107,17 @@ def character_ngrams(s, n, lhs='<', rhs='>'):
 
 
 def word_ngrams(s, n, lhs='\\n', rhs='\\n'):
+    """
+    Extract word n-grams of length *n* from string *s*
+
+    Args:
+        s: the string whence n-grams are extracted
+        n: the length of each n-gram
+        lhs: left-padding character (to show token boundaries)
+        rhs: right-padding character (to show token boundaries)
+    Returns:
+        list of n-grams in *s*
+    """
     ngrams = [] 
 
     words = [lhs] + s.split() + [rhs]

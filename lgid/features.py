@@ -1,47 +1,28 @@
 
+"""
+Feature functions for language identification
+
+Category-level functions (gl_features(), w_features(), l_features(),
+g_features(), and m_features()) call other functions for specific
+features. Information extracted from documents to be used in
+determining features comes from lgid.analyzers.
+
+See README.md for more information about features.
+"""
+
 from collections import Counter
 
 
-def get_window(mentions, top, bottom):
-    for m in mentions:
-        if m.startline <= bottom and m.endline >= top:
-            yield m
-
-def window_mention(feature, features, mentions, top, bottom):
-    for m in get_window(mentions, top, bottom):
-        features[(m.name, m.code)][feature] = True
-
-
-def frequent_mention(feature, features, mentions, thresh, top, bottom):
-    counts = Counter(
-        (m.name, m.code) for m in get_window(mentions, top, bottom)
-    )
-    if thresh is None:
-        thresh = max(counts.values())
-    for pair, count in counts.items():
-        if count >= thresh:
-            features[pair][feature] = True
-
-
-def closest_mention(feature, features, mentions, top, bottom, ref):
-    window = sorted(
-        (abs(ref - m.startline), m)
-        for m in get_window(mentions, top, bottom)
-    )
-    if window:
-        smallest_delta = window[0][0]
-        for delta, mention in window:
-            if delta > smallest_delta:
-                break
-            features[(mention.name, mention.code)][feature] = True
-
-
-def in_line_mention(feature, features, mentions, line):
-    for m in get_window(mentions, line.lineno, line.lineno):
-        features[(m.name, m.code)][feature] = True
-
-
 def gl_features(features, mentions, context, config):
+    """
+    Set matching global features to `True`
+
+    Args:
+        features: mapping from (lgname, lgcode) pair to features to values
+        mentions: list of language mentions
+        context: contextual information about the document
+        config: model-building parameters
+    """
     wsize = int(config['parameters']['window-size'])
     minfreq = int(config['parameters']['article-frequent-mention-threshold'])
     last = context['last-lineno']
@@ -60,6 +41,15 @@ def gl_features(features, mentions, context, config):
 
 
 def w_features(features, mentions, context, config):
+    """
+    Set matching window features to `True`
+
+    Args:
+        features: mapping from (lgname, lgcode) pair to features to values
+        mentions: list of language mentions
+        context: contextual information about the document
+        config: model-building parameters
+    """
     wsize = int(config['parameters']['window-size'])
     a_wsize = int(config['parameters']['after-window-size'])
     c_wsize = int(config['parameters']['close-window-size'])
@@ -97,17 +87,141 @@ def w_features(features, mentions, context, config):
 
 
 def l_features(features, mentions, olm, clm, context, config):
+    """
+    Set matching language (L) line features to `True`
+
+    Args:
+        features: mapping from (lgname, lgcode) pair to features to values
+        mentions: list of language mentions
+        olm: ODIN language model
+        clm: Crubadan language model
+        context: contextual information about the document
+        config: model-building parameters
+    """
+    line = context['line']
+
     if config['features']['L-in-line']:
         in_line_mention('L-in-line', features, mentions, line)
+
     if olm is not None:
         pass
 
     if clm is not None:
         pass
 
-def g_features():
+
+def g_features(features, olm, context, config):
+    """
+    Set matching gloss (G) line features to `True`
+
+    Args:
+        features: mapping from (lgname, lgcode) pair to features to values
+        olm: ODIN language model
+        context: contextual information about the document
+        config: model-building parameters
+    """
     pass
 
-def m_features(features, mentions, line, config):
+
+def m_features(features, mentions, context, config):
+    """
+    Set matching meta (M) line features to `True`
+
+    Args:
+        features: mapping from (lgname, lgcode) pair to features to values
+        mentions: list of language mentions
+        context: contextual information about the document
+        config: model-building parameters
+    """
+    line = context['line']
     if config['features']['M-in-line']:
         in_line_mention('M-in-line', features, mentions, line)
+
+
+def get_window(mentions, top, bottom):
+    """
+    Return language mentions that occur within a line-number window
+
+    Args:
+        mentions: list of language mentions
+        top: top (i.e. smallest) line number in the window
+        bottom: bottom (i.e. largest) line number in the window
+    """
+    for m in mentions:
+        if m.startline <= bottom and m.endline >= top:
+            yield m
+
+
+def window_mention(feature, features, mentions, top, bottom):
+    """
+    Set *feature* to `True` for mentions that occur within the window
+
+    Args:
+        feature: feature name
+        features: mapping from (lgname, lgcode) pair to features to values
+        mentions: list of language mentions
+        top: top (i.e. smallest) line number in the window
+        bottom: bottom (i.e. largest) line number in the window
+    """
+    for m in get_window(mentions, top, bottom):
+        features[(m.name, m.code)][feature] = True
+
+
+def frequent_mention(feature, features, mentions, thresh, top, bottom):
+    """
+    Set *feature* to `True` for mentions that occur frequently
+
+    Args:
+        feature: feature name
+        features: mapping from (lgname, lgcode) pair to features to values
+        mentions: list of language mentions
+        thresh: frequency threshold
+        top: top (i.e. smallest) line number in the window
+        bottom: bottom (i.e. largest) line number in the window
+    """
+    counts = Counter(
+        (m.name, m.code) for m in get_window(mentions, top, bottom)
+    )
+    if thresh is None:
+        thresh = max(counts.values())
+    for pair, count in counts.items():
+        if count >= thresh:
+            features[pair][feature] = True
+
+
+def closest_mention(feature, features, mentions, top, bottom, ref):
+    """
+    Set *feature* to `True` for mentions that occur closest to *ref*
+
+    Args:
+        feature: feature name
+        features: mapping from (lgname, lgcode) pair to features to values
+        mentions: list of language mentions
+        top: top (i.e. smallest) line number in the window
+        bottom: bottom (i.e. largest) line number in the window
+        ref: the reference line number for calculating distance
+    """
+    window = sorted(
+        (abs(ref - m.startline), m)
+        for m in get_window(mentions, top, bottom)
+    )
+    if window:
+        smallest_delta = window[0][0]
+        for delta, mention in window:
+            if delta > smallest_delta:
+                break
+            features[(mention.name, mention.code)][feature] = True
+
+
+def in_line_mention(feature, features, mentions, line):
+    """
+    Set *feature* to `True` for mentions that occur on *line*
+
+    Args:
+        feature: feature name
+        features: mapping from (lgname, lgcode) pair to features to values
+        mentions: list of language mentions
+        line: FrekiLine object to inspect
+    """
+    for m in get_window(mentions, line.lineno, line.lineno):
+        features[(m.name, m.code)][feature] = True
