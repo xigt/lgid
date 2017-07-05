@@ -2,9 +2,10 @@
 
 USAGE = '''
 Usage:
-  lgid [-v...] train --model=PATH CONFIG INFILE...
-  lgid [-v...] test  --model=PATH CONFIG INFILE...
-  lgid [-v...] list-mentions      CONFIG INFILE...
+  lgid [-v...] train    --model=PATH CONFIG INFILE...
+  lgid [-v...] classify --model=PATH CONFIG INFILE...
+  lgid [-v...] test     --model=PATH CONFIG INFILE...
+  lgid [-v...] list-mentions         CONFIG INFILE...
 
 Commands:
   train                     train a model from supervised data
@@ -25,6 +26,7 @@ Examples:
 
   lgid -v train --model=model.gz parameters.conf 123.freki 456.freki
   lgid -v test --model=model.gz parameters.conf 789.freki
+  lgid -v classify --model=model.gz parameters.conf 1000.freki
   lgid -v list-mentions parameters.conf 123.freki
 
 '''
@@ -46,7 +48,9 @@ from lgid.models import (
 from lgid.util import (
     read_language_table,
     read_odin_language_model,
-    read_crubadan_language_model
+    read_crubadan_language_model,
+    encode_instance_id,
+    decode_instance_id
 )
 from lgid.analyzers import (
     language_mentions,
@@ -110,7 +114,9 @@ def test(infiles, modelpath, config):
     instances = list(get_instances(infiles, config))
     model = Model()
     model.load(modelpath)
-    return model.test(instances)
+    for dist in model.test(instances):
+        print(dir(dist))
+        print(dist.classes())
 
 def list_mentions(infiles, config):
     """
@@ -194,8 +200,8 @@ def get_instances(infiles, config):
                 goldpair = (lgname, lgcode)
                 for pair, feats in l_feats.items():
                     # print(pair, goldpair, pair == goldpair)
-                    id_ = '{}-{}-{}-{}-{}'.format(
-                        os.path.basename(infile),
+                    id_ = encode_instance_id(
+                        os.path.splitext(os.path.basename(infile))[0],
                         l_line.span_id, l_line.lineno,
                         pair[0].replace(' ', '_'), pair[1]
                     )
