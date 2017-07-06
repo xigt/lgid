@@ -2,16 +2,18 @@
 
 USAGE = '''
 Usage:
-  lgid [-v...] train    --model=PATH CONFIG INFILE...
-  lgid [-v...] classify --model=PATH CONFIG INFILE...
-  lgid [-v...] test     --model=PATH CONFIG INFILE...
-  lgid [-v...] list-mentions         CONFIG INFILE...
+  lgid [-v...] train    --model=PATH  CONFIG INFILE...
+  lgid [-v...] classify --model=PATH  CONFIG INFILE...
+  lgid [-v...] test     --model=PATH  CONFIG INFILE...
+  lgid [-v...] list-mentions          CONFIG INFILE...
+  lgid [-v...] download-crubadan-data CONFIG
 
 Commands:
   train                     train a model from supervised data
   test                      test on new data using a saved model
   classify                  output predictions on new data using a saved model
   list-mentions             just print language mentions from input files
+  download-crubadan-data    fetch the Crubadan language model data from the web
 
 Arguments:
   CONFIG                    path to a config file
@@ -23,12 +25,11 @@ Options:
   --model PATH              where to save/load a trained model
 
 Examples:
-
-  lgid -v train --model=model.gz parameters.conf 123.freki 456.freki
-  lgid -v test --model=model.gz parameters.conf 789.freki
-  lgid -v classify --model=model.gz parameters.conf 1000.freki
-  lgid -v list-mentions parameters.conf 123.freki
-
+  lgid -v train --model=model.gz config.ini 123.freki 456.freki
+  lgid -v test --model=model.gz config.ini 789.freki
+  lgid -v classify --model=model.gz config.ini 1000.freki
+  lgid -v list-mentions config.ini 123.freki
+  lgid -v download-crubadan-data config.ini
 '''
 
 import os
@@ -81,6 +82,8 @@ def main():
         test(infiles, modelpath, config)
     elif args['list-mentions']:
         list_mentions(infiles, config)
+    elif args['download-crubadan-data']:
+        download_crubadan_data(config)
 
 
 def train(infiles, modelpath, config):
@@ -230,6 +233,57 @@ def spans(doc):
             span.append(line)
     if span:
         yield span
+
+
+def download_crubadan_data(config):
+    """
+    Download and extract Crubadan language data
+    """
+    from io import BytesIO
+    from zipfile import ZipFile
+    import csv
+    import requests
+
+    logging.info('Downloading Crubadan data')
+
+    index = config['locations']['crubadan-index']
+    baseuri = config['locations']['crubadan-base-uri']
+    output_dir = config['locations']['crubadan-language-model']
+
+    os.makedirs(output_dir, exist_ok=True)
+
+    table = open(index,'r',encoding='utf8')
+    reader = csv.reader(table)
+
+    i = j = 0
+    header = next(reader)  # discard header row
+    for row in reader:
+        code = row[0]
+        iso_code = row[8].strip()
+        url = requests.compat.urljoin(baseuri, code + '.zip')
+        dest = os.path.join(output_dir, iso_code)
+
+        logging.debug(
+            'Downloading Crubadan data for {} from {}'.format(iso_code, url)
+        )
+        response = requests.get(url)
+        file = ZipFile(BytesIO(response.content))
+        i += 1
+        
+        # basic validation (won't cover every scenario!)
+        if any(os.path.exists(os.path.join(dest, p)) for p in file.namelist()):
+            logging.error(
+                'Unzipping the archive for {} will overwrite data! Skipping...'
+                .format(iso_code)
+            )
+            continue
+
+        file.extractall(dest)
+        j += 1
+        logging.debug('Successfully extracted data for {}'.format(iso_code))
+
+    logging.info('Successfully downloaded {} files from Crubadan'.format(i))
+    logging.info('Successfully extracted {} files from Crubadan'.format(j))
 
 
 if __name__ == '__main__':

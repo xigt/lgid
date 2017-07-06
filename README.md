@@ -51,10 +51,11 @@ manages the activation/deactivation of the virtual environment:
 ```bash
 ~/lgid$ ./lgid.sh 
 Usage:
-  lgid [-v...] train    --model=PATH CONFIG INFILE...
-  lgid [-v...] classify --model=PATH CONFIG INFILE...
-  lgid [-v...] test     --model=PATH CONFIG INFILE...
-  lgid [-v...] list-mentions         CONFIG INFILE...
+  lgid [-v...] train    --model=PATH  CONFIG INFILE...
+  lgid [-v...] classify --model=PATH  CONFIG INFILE...
+  lgid [-v...] test     --model=PATH  CONFIG INFILE...
+  lgid [-v...] list-mentions          CONFIG INFILE...
+  lgid [-v...] download-crubadan-data CONFIG
 ```
 
 Try `lgid.sh --help` for more usage information.
@@ -75,6 +76,7 @@ lgid
 │   ├── models.py       # abstraction of the machine learning model(s)
 │   └── util.py         # utility functions for reading/transforming resources
 └── res                 # resources for training
+    ├── Crubadan.csv    # index file for downloading Crubadan data
     └── lang_table.txt  # language name-code mapping
 
 ```
@@ -90,7 +92,9 @@ but they should not be committed to the remote repository.
 ## Configuration
 
 The `config.ini` file contains parameters for managing builds of the
-model. The `[locations]` section contains paths for finding various
+model.
+
+The `[locations]` section contains paths for finding various
 resources.
 
 The `[parameters]` section contains parameters for modifying

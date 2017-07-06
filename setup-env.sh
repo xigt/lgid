@@ -2,26 +2,26 @@
 
 BASE=.
 
-if [ -d "$BASE/env" ]; then
-    echo "Error: virtual environment at '$BASE/env/' already exists."
-    exit 1
+if [ ! -d "$BASE/env" ]; then
+    echo "Creating virtual enviroment"
+    virtualenv -p python3 "$BASE/env"
 fi
-
-echo "Creating virtual enviroment"
-virtualenv -p python3 "$BASE/env"
 
 echo "Entering virtual environment"
 source "$BASE/env/bin/activate"
 
 echo "Fetching dependencies"
-pip install docopt scipy scikit-learn
+pip install docopt scipy scikit-learn requests
 
-TMP=`mktemp -d`
-pushd "$TMP"
-git clone https://github.com/xigt/freki.git
-pip install ./freki
-popd
-rm -rf "$TMP"
+# Freki is not in PyPI, so install it from git if it isn't already installed
+if ! $( python -c "import freki" 2>/dev/null >/dev/null ); then
+    TMP=`mktemp -d`
+    pushd "$TMP"
+    git clone https://github.com/xigt/freki.git
+    pip install ./freki
+    popd
+    rm -rf "$TMP"
+fi
 
 echo "Exiting virtual environment"
 deactivate
