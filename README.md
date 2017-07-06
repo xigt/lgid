@@ -143,7 +143,6 @@ L-LMm            | at least `M%` of morpheme ngrams occur in training data
 L-LMc            | at least `M%` of character ngrams occur in training data
 G-overlap        | at least `M%` of gloss tokens occur in the training data
 L-CR-LMw         | same as L-LMw, but for Crubadan data
-L-CR-LMm         | same as L-LMm, but for Crubadan data
 L-CR-LMc         | same as L-LMc, but for Crubadan data
 W-prevclass      | language is predicted for the previous IGT
 
