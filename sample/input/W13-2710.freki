@@ -1,0 +1,1191 @@
+doc_id=W13-2710 page=1 block_id=1-1 bbox=82.8,744.39,514.75,774.68 label=tt 1 2
+line=1 tag=O fonts=F3-14.3 bbox=82.8,760.33,514.75,774.68              :  Towards  Creating Precision Grammars from Interlinear Glossed Text:
+line=2 tag=O fonts=F3-14.4 iscore=0.00 bbox=161.44,744.39,436.11,758.74:              Inferring Large-Scale Typological Properties
+
+doc_id=W13-2710 page=1 block_id=1-2 bbox=111.61,660.76,485.94,728.51 label=tb 3 7
+line=3 tag=O fonts=F3-12.0 bbox=111.61,716.55,485.94,728.51                    :       Emily M. Bender Michael Wayne Goodman   Joshua Crowgey Fei Xia
+line=4 tag=O fonts=F4-12.0 iscore=0.17 bbox=236.01,702.6,361.53,714.56         :                            Department of Linguistics
+line=5 tag=O fonts=F4-12.0 iscore=0.67 bbox=237.39,688.65,360.15,700.61        :                            University of Washington
+line=6 tag=O fonts=F4-11.9 iscore=0.00 bbox=241.38,674.71,356.16,686.66        :                             Seattle WA 98195-4340
+line=7 tag=O fonts=F5-12.0,F6-12.0 iscore=0.00 bbox=160.09,660.76,437.45,672.71:               {ebender,goodmami,jcrowgey,fxia}@uw.edu
+
+doc_id=W13-2710 page=1 block_id=1-3 bbox=158.89,624.12,203.38,636.08 label=btltt 8 8
+line=8 tag=O fonts=F3-12.0 bbox=158.89,624.12,203.38,636.08:                 Abstract
+
+doc_id=W13-2710 page=1 block_id=1-4 bbox=89.01,483.67,273.26,616.53 label=btltbt 9 18
+line=9 tag=O fonts=F4-10.9 bbox=89.01,605.62,273.26,616.53             :     We propose to bring together two kinds of
+line=10 tag=O fonts=F4-10.9 iscore=0.25 bbox=89.01,592.07,273.26,602.98:     linguistic resources—interlinear glossed
+line=11 tag=O fonts=F4-10.9 iscore=0.20 bbox=89.01,578.52,273.26,589.43:     text (IGT) and  a  language-independent
+line=12 tag=O fonts=F4-10.9 iscore=0.20 bbox=89.01,564.97,273.26,575.88:     precision grammar resource—to  automat-
+line=13 tag=O fonts=F4-10.9 iscore=0.17 bbox=89.01,551.42,273.26,562.33:     ically create precision grammars in the
+line=14 tag=O fonts=F4-10.9 iscore=0.17 bbox=89.01,537.87,273.26,548.78:     context of language documentation. This
+line=15 tag=O fonts=F4-10.9 iscore=0.25 bbox=89.01,524.32,273.26,535.23:     paper takes the first steps in that direction
+line=16 tag=O fonts=F4-10.9 iscore=0.25 bbox=89.01,510.77,273.26,521.68:     by extracting major-constituent word or-
+line=17 tag=O fonts=F4-10.9 iscore=0.29 bbox=89.01,497.22,273.26,508.13:     der and case system properties from IGT
+line=18 tag=O fonts=F4-10.9 iscore=0.14 bbox=89.01,483.67,237.62,494.58:     for a diverse sample of languages.
+
+doc_id=W13-2710 page=1 block_id=1-5 bbox=72.0,464.77,154.81,476.72 label=btltbb 19 19
+line=19 tag=O fonts=F3-12.0 bbox=72.0,464.77,154.81,476.72: 1  Introduction
+
+doc_id=W13-2710 page=1 block_id=1-6 bbox=72.0,78.92,290.27,455.66 label=btlb 20 47
+line=20 tag=O fonts=F4-10.9 bbox=72.0,444.75,290.27,455.66             : Hale  et al. (1992) predicted that more than 90%
+line=21 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,431.2,290.27,442.11  : of the world’s approximately 7,000 languages will
+line=22 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,417.65,290.27,428.56 : become  extinct by the year 2100. This is a crisis
+line=23 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,404.11,290.27,415.01 : not only for the field of linguistics—on track to
+line=24 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,390.56,290.27,401.47 : lose the majority of its primary data—but also a
+line=25 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,377.01,290.27,387.92 : crisis for the social sciences more broadly as lan-
+line=26 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,363.46,290.27,374.37 : guages  are a key piece of cultural heritage. The
+line=27 tag=O fonts=F4-10.9 iscore=0.44 bbox=72.0,349.91,290.27,360.82 : field of linguistics has responded with increased
+line=28 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,336.36,290.27,347.27 : efforts to document endangered  languages. Lan-
+line=29 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,322.81,290.27,333.72 : guage  documentation  not only captures key lin-
+line=30 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,309.26,290.27,320.17 : guistic data (both  primary data  and analytical
+line=31 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,295.71,290.27,306.62 : facts) but also supports language revitalization ef-
+line=32 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,282.16,290.27,293.07 : forts. It must include both primary data collec-
+line=33 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,268.61,290.27,279.52 : tion (as in Abney and Bird’s (2010) universal cor-
+line=34 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,255.06,290.27,265.97 : pus) and analytical work elucidating the linguistic
+line=35 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,241.52,290.27,252.42 : structures of each language. As such, the outputs
+line=36 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,227.97,290.27,238.87 : of documentary   linguistics are dictionaries, de-
+line=37 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,214.42,290.27,225.33 : scriptive (prose) grammars as well as transcribed
+line=38 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,200.87,240.92,211.78 : and translated texts (Woodbury, 2003).
+line=39 tag=O fonts=F4-10.9 iscore=0.17 bbox=82.91,187.32,290.27,198.23:    Traditionally, these outputs were printed ar-
+line=40 tag=O fonts=F4-10.9 iscore=0.00 bbox=72.0,173.77,290.27,184.68 : tifacts, but the field of documentary linguistics
+line=41 tag=O fonts=F4-10.9 iscore=0.57 bbox=72.0,160.22,290.27,171.13 : has increasingly realized the benefits of producing
+line=42 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,146.67,290.27,157.58 : digital artifacts as well (Nordhoff and Poggeman,
+line=43 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,133.12,290.27,144.03 : 2012). Bender  et al. (2012a) argue that the docu-
+line=44 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,119.57,290.27,130.48 : mentary  value of electronic descriptive grammars
+line=45 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,106.02,290.27,116.93 : can be significantly enhanced by pairing them with
+line=46 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,92.47,290.27,103.38  : implemented  (machine-readable)  precision gram-
+line=47 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,78.92,290.27,89.83   : mars  and grammar-derived  treebanks.  However,
+
+doc_id=W13-2710 page=1 block_id=1-7 bbox=307.28,475.08,525.55,635.03 label=btrtt 48 59
+line=48 tag=O fonts=F4-10.9 bbox=307.28,624.12,525.55,635.03            :                                                    the creation of such precision grammars  is time
+line=49 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,610.57,525.55,621.48:                                                    consuming,  and the cost of developing them must
+line=50 tag=O fonts=F4-10.9 iscore=0.30 bbox=307.28,597.02,525.55,607.93:                                                    be brought down  if they are to be effectively inte-
+line=51 tag=O fonts=F4-10.9 iscore=0.20 bbox=307.28,583.48,503.91,594.38:                                                    grated into language documentation projects.
+line=52 tag=O fonts=F4-10.9 iscore=0.12 bbox=318.19,569.93,525.55,580.84:                                                       In this work, we  are interested in leveraging
+line=53 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,556.38,525.55,567.29:                                                    existing linguistic resources of two distinct types
+line=54 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,542.83,525.55,553.74:                                                    in order to facilitate the development of precision
+line=55 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,529.28,525.55,540.19:                                                    grammars   for language documentation.  The first
+line=56 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,515.73,525.55,526.64:                                                    type of linguistic resource is collections of inter-
+line=57 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,502.18,525.55,513.09:                                                    linear glossed text (IGT), a typical format for dis-
+line=58 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,488.63,525.55,499.54:                                                    playing  linguistic examples. A  sample  of IGT
+line=59 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,475.08,428.81,485.99:                                                    from  Shona is shown in (1).
+
+doc_id=W13-2710 page=1 block_id=1-8 bbox=320.45,425.41,517.17,466.33 label=btrtb 60 63
+line=60 tag=O fonts=F4-9.0 bbox=320.45,457.37,514.18,466.33                              :                                                               (1)   Ndakanga        ndakatenga         muchero
+line=61 tag=L span_id=s1 fonts=F4-9.0 iscore=1.00 bbox=341.81,447.4,517.17,456.37        :                                                                     ndi-aka-nga     ndi-aka-teng-a     mu-chero
+line=62 tag=G span_id=s1 fonts=F4-7.2,F4-9.0 iscore=1.00 bbox=342.04,437.44,516.22,446.41:                                                                     SBJ.1SG-RP-AUX  SBJ.1SG-RP-buy-FV  CL3-fruit
+line=63 tag=T span_id=s1 fonts=F4-9.0 iscore=0.14 bbox=341.81,425.41,498.16,434.38       :                                                                     ‘I had bought fruit.’ [sna] (Toews, 2009:34)
+
+doc_id=W13-2710 page=1 block_id=1-9 bbox=307.28,78.92,525.55,415.01 label=btrb 64 88
+line=64 tag=O fonts=F4-10.9 bbox=307.28,404.11,525.55,415.01                   :                                                   The annotations in IGT result from deep linguistic
+line=65 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,390.56,525.55,401.47       :                                                   analysis and represent much effort on the part of
+line=66 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,377.01,525.55,387.92       :                                                   field linguists. These rich annotations include the
+line=67 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,363.46,525.55,374.37       :                                                   segmentation of the source line into morphemes,
+line=68 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,349.91,525.55,360.82       :                                                   the glossing of those individual morphemes, and
+line=69 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,336.36,525.55,347.27       :                                                   the translation into a language of broader commu-
+line=70 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,322.81,525.55,333.72       :                                                   nication. The IGT format was developed to com-
+line=71 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,309.26,525.55,320.17       :                                                   pactly display this information to other linguists.
+line=72 tag=O fonts=F4-10.9 iscore=0.30 bbox=307.28,295.71,525.55,306.62       :                                                   Here, we propose to repurpose such data in the au-
+line=73 tag=O fonts=F4-10.9 iscore=0.10 bbox=307.28,282.16,489.52,293.07       :                                                   tomatic development of further resources.
+line=74 tag=O fonts=F4-10.9 iscore=0.12 bbox=318.19,268.61,525.55,279.52       :                                                     The  second resource we will be working with
+line=75 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,255.06,525.55,265.97       :                                                   is the LinGO  Grammar   Matrix  (Bender et al.,
+line=76 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,241.52,525.55,252.42       :                                                   2002; 2010), an open source repository of imple-
+line=77 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,227.97,525.55,238.88       :                                                   mented linguistic analyses. The Grammar Matrix
+line=78 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,214.42,525.55,225.33       :                                                   pairs a core grammar, shared across all grammars
+line=79 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,200.87,525.55,211.78       :                                                   it creates, with a series of libraries of analyses
+line=80 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,187.32,525.55,198.23       :                                                   of cross-linguistically variable phenomena. Users
+line=81 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,173.77,525.55,184.68       :                                                   access the system through a web-based question-
+line=82 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,160.22,525.55,171.13       :                                                   naire which elicits linguistic descriptions of lan-
+line=83 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,146.67,525.55,157.58       :                                                   guages  and then outputs working  HPSG    (Pol-
+line=84 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,133.12,525.55,144.03       :                                                   lard and Sag, 1994) grammar  fragments compat-
+line=85 tag=O fonts=F4-10.9,F6-9.0 iscore=0.29 bbox=307.28,119.57,525.54,130.48:                                                   ible with DELPH-IN   (www.delph-in.net)   tools
+line=86 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,106.02,525.55,116.93       :                                                   based on those descriptions. For present purposes,
+line=87 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,92.47,525.55,103.38        :                                                   this system can be viewed  as a function which
+line=88 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,78.92,525.55,89.83         :                                                   maps  simple descriptions of languages to preci-
+
+doc_id=W13-2710 page=1 block_id=1-10 bbox=66.21,20.61,529.07,55.82 label=bb 89 91
+line=89 tag=O fonts=F1-10.9 bbox=293.32,44.91,304.23,55.82                 :                                                         74
+line=90 tag=O fonts=F0-9.0,F1-9.0 iscore=0.06 bbox=66.21,29.11,529.07,38.08:Proceedings of the 7th Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities, pages 74–83,
+line=91 tag=O fonts=F1-8.7,F1-9.0 iscore=0.15 bbox=148.57,20.61,446.7,29.57:                     Sofia, Bulgaria, August 8 2013. c○2013 Association for Computational Linguistics
+
+doc_id=W13-2710 page=2 block_id=2-1 bbox=72.0,469.66,290.27,779.03 label=tlt 92 114
+line=92 tag=O fonts=F4-10.9 bbox=72.0,768.12,290.27,779.03                     : sion grammar  fragments. These fragments are rel-
+line=93 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,754.57,290.27,765.48         : atively modest, yet they relate linguistic strings to
+line=94 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,741.02,290.27,751.93         : semantic representations (and vice versa) and are
+line=95 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,727.48,242.94,738.38         : ready to be built out to broad coverage.
+line=96 tag=O fonts=F4-10.9 iscore=0.29 bbox=82.91,713.55,290.27,724.45        :    Thus we  ask whether the information encoded
+line=97 tag=O fonts=F4-10.9 iscore=0.00 bbox=72.0,700.0,290.27,710.91          : by  documentary  linguists in IGT can  be lever-
+line=98 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,686.45,290.27,697.36         : aged  to answer the Grammar   Matrix’s question-
+line=99 tag=O fonts=F4-10.9 iscore=0.57 bbox=72.0,672.9,290.27,683.81          : naire and  create a precision grammar  fragment
+line=100 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,659.35,290.27,670.26        : automatically.  The information required by  the
+line=101 tag=O fonts=F4-10.9 iscore=0.17 bbox=72.0,645.8,290.27,656.71         : Grammar   Matrix questionnaire concerns five dif-
+line=102 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,632.25,290.27,643.16        : ferent aspects of linguistic systems: (i) constituent
+line=103 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,618.7,290.27,629.61         : ordering (including the presence/absence of con-
+line=104 tag=O fonts=F4-10.9 iscore=0.17 bbox=72.0,605.15,290.27,616.06        : stituent types), (ii) morphosyntactic systems, (iii)
+line=105 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,591.6,290.27,602.51         : morphosyntactic  features, (iv) lexical types and
+line=106 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,578.05,290.27,588.96        : their instances and (v) morphological rules. In this
+line=107 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,564.5,290.27,575.41         : initial work, we target examples of types (i) and
+line=108 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,550.96,290.27,561.86        : (ii): the major constituent word order and the gen-
+line=109 tag=O fonts=F4-10.9 iscore=0.10 bbox=72.0,537.41,290.27,548.32        : eral type of case system in a language. The Gram-
+line=110 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,523.86,290.27,534.77        : mar  Matrix and other related work are described
+line=111 tag=O fonts=F4-10.9,F5-10.9 iscore=0.25 bbox=72.0,510.31,290.27,521.22: in further in §2. In §3 we present our test data and
+line=112 tag=O fonts=F4-10.9,F5-10.9 iscore=0.25 bbox=72.0,496.76,290.27,507.67: experimental set-up. §§4–5 describe our method-
+line=113 tag=O fonts=F4-10.9 iscore=0.38 bbox=72.0,483.21,290.27,494.12        : ology and  results for the two tasks, respectively,
+line=114 tag=O fonts=F4-10.9,F5-10.9 iscore=0.12 bbox=72.0,469.66,269.27,480.57: with further discussion and outlook in §§6–7.
+
+doc_id=W13-2710 page=2 block_id=2-2 bbox=72.0,444.58,249.24,456.53 label=tlbt 115 115
+line=115 tag=O fonts=F3-11.9 bbox=72.0,444.58,249.24,456.53: 2  Background and Related Work
+
+doc_id=W13-2710 page=2 block_id=2-3 bbox=72.0,422.72,200.16,433.63 label=tlbbt 116 116
+line=116 tag=O fonts=F3-10.9 bbox=72.0,422.72,200.16,433.63: 2.1 The Grammar Matrix
+
+doc_id=W13-2710 page=2 block_id=2-4 bbox=72.0,78.92,290.27,415.4 label=tlbbb 117 141
+line=117 tag=O fonts=F4-10.9 bbox=72.0,404.49,290.27,415.4                    : The  Grammar   Matrix  produces  precision gram-
+line=118 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,390.94,290.27,401.85       : mars  on  the basis of description of  languages
+line=119 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,377.39,290.27,388.3        : that include both high-level typological informa-
+line=120 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,363.84,290.27,374.75       : tion and  more  specific detail. Among   the for-
+line=121 tag=O fonts=F4-10.9,F5-10.9 iscore=0.22 bbox=72.0,350.29,290.27,361.2: mer  are aspects (i)–(iii) listed in §1. The third
+line=122 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,336.74,290.27,347.65       : of these (morphosyntactic  features) concerns the
+line=123 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,323.19,290.27,334.1        : type and range of grammaticized  information that
+line=124 tag=O fonts=F4-10.9 iscore=0.38 bbox=72.0,309.64,290.27,320.55       : a language  marks in its morphology  and/or syn-
+line=125 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,296.09,290.27,307.0        : tax. This  includes person/number  systems (e.g.,
+line=126 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,282.54,290.27,293.45       : is there an inclusive/exclusive distinction in non-
+line=127 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,268.99,290.27,279.9        : singular first person forms?), the range of aspec-
+line=128 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,255.45,290.27,266.35       : tual distinctions a language marks, and the range
+line=129 tag=O fonts=F4-10.9 iscore=0.18 bbox=72.0,241.9,290.27,252.8         : of cases (if any) in a language, inter alia. The an-
+line=130 tag=O fonts=F4-10.9 iscore=0.27 bbox=72.0,228.35,290.27,239.26       : swers to these questions in turn cause the system
+line=131 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,214.8,290.27,225.71        : to provide relevant features that the user can ref-
+line=132 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,201.25,290.27,212.16       : erence in providing the more specific information
+line=133 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,187.7,290.27,198.61        : elicited by the questionnaire ((iv) and (v) above),
+line=134 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,174.15,290.27,185.06       : viz., the definition of both lexical types (e.g., first
+line=135 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,160.6,290.27,171.51        : person dual exclusive pronouns) and morphologi-
+line=136 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,147.05,290.27,157.96       : cal rules (e.g., nominative case marking on nouns).
+line=137 tag=O fonts=F4-10.9 iscore=0.22 bbox=82.91,133.12,290.27,144.03      :    The information input by the user to the Gram-
+line=138 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,119.57,290.27,130.48       : mar  Matrix questionnaire is stored in a file called
+line=139 tag=O fonts=F4-10.9 iscore=0.10 bbox=72.0,106.02,290.27,116.93       : a ‘choices file’. The choices file is used both in
+line=140 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,92.47,290.27,103.38        : the dynamic  definition of the html pages (so that
+line=141 tag=O fonts=F4-10.9 iscore=0.56 bbox=72.0,78.92,290.27,89.83         : the features available for lexical definitions de-
+
+doc_id=W13-2710 page=2 block_id=2-5 bbox=307.28,170.02,525.55,779.03 label=trt 142 186
+line=142 tag=O fonts=F4-10.9 bbox=307.28,768.12,525.55,779.03                    :                                                    pend on earlier choices) and as the input to the cus-
+line=143 tag=O fonts=F4-10.9 iscore=0.27 bbox=307.28,754.57,525.55,765.48        :                                                    tomization script that actually produces the gram-
+line=144 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,741.02,525.55,751.93        :                                                    mar fragments  to spec. The  customization sys-
+line=145 tag=O fonts=F4-10.9 iscore=0.43 bbox=307.28,727.48,525.55,738.38        :                                                    tem distinguishes between choices files which are
+line=146 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,713.93,525.55,724.84        :                                                    complete and consistent (and can be used to cre-
+line=147 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,700.38,525.55,711.29        :                                                    ate working grammar  fragments) and those which
+line=148 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,686.83,525.55,697.74        :                                                    do not yet have answers to required questions or
+line=149 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,673.28,525.55,684.19        :                                                    give answers which are inconsistent according to
+line=150 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,659.73,525.55,670.64        :                                                    the underlying grammatical theory. The ultimate
+line=151 tag=O fonts=F4-10.9 iscore=0.09 bbox=307.28,646.18,525.55,657.09        :                                                    goal of the present project is to be able to automat-
+line=152 tag=O fonts=F4-10.9 iscore=0.09 bbox=307.28,632.63,525.55,643.54        :                                                    ically create complete and consistent choices files
+line=153 tag=O fonts=F4-10.9 iscore=0.27 bbox=307.28,619.08,525.55,629.99        :                                                    on the basis of IGT, and in fact to create complete
+line=154 tag=O fonts=F4-10.9 iscore=0.27 bbox=307.28,605.53,525.55,616.44        :                                                    and consistent choices files which take maximal
+line=155 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,591.98,525.55,602.89        :                                                    advantage of the analyses stored in the Grammar
+line=156 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,578.43,525.55,589.34        :                                                    Matrix customization system, answering not only
+line=157 tag=O fonts=F4-10.9 iscore=0.10 bbox=307.28,564.89,525.55,575.79        :                                                    the minimal set of questions required but in fact all
+line=158 tag=O fonts=F4-10.9 iscore=0.40 bbox=307.28,551.34,525.55,562.25        :                                                    which are relevant and possible to answer based on
+line=159 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,537.79,424.94,548.7         :                                                    the information in the IGT.
+line=160 tag=O fonts=F4-10.9 iscore=0.00 bbox=318.19,522.3,525.55,533.2          :                                                      Creating such complete and consistent choices
+line=161 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,508.75,525.55,519.66        :                                                    files is a long-term project, with different ap-
+line=162 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,495.2,525.55,506.11         :                                                    proches required for the different types of ques-
+line=163 tag=O fonts=F4-10.9,F5-10.9 iscore=0.11 bbox=307.28,481.65,525.54,492.56:                                                    tions outlined in §1. Bender et al. (2012b) take
+line=164 tag=O fonts=F4-10.9 iscore=0.44 bbox=307.28,468.1,525.55,479.01         :                                                    some initial steps towards answering the questions
+line=165 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,454.55,525.55,465.46        :                                                    which define lexical rules. We envision answering
+line=166 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,441.0,525.55,451.91         :                                                    the questions regarding morphosyntactic features
+line=167 tag=O fonts=F4-10.9 iscore=0.10 bbox=307.28,427.45,525.55,438.36        :                                                    through an analysis of the grams that appear on the
+line=168 tag=O fonts=F4-10.9 iscore=0.20 bbox=307.28,413.9,525.55,424.81         :                                                    gloss line, with reference to the GOLD ontology
+line=169 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,400.35,525.55,411.26        :                                                    (Farrar and Langendoen, 2003). The implementa-
+line=170 tag=O fonts=F4-10.9 iscore=0.36 bbox=307.28,386.8,525.55,397.71         :                                                    tion of such systems in such a way that they are
+line=171 tag=O fonts=F4-10.9 iscore=0.36 bbox=307.28,373.25,525.55,384.16        :                                                    robust to potentially noisy data will undoubtedly
+line=172 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,359.71,525.55,370.61        :                                                    be non-trivial. The contribution of this paper is
+line=173 tag=O fonts=F4-10.9 iscore=0.50 bbox=307.28,346.16,525.55,357.07        :                                                    the development of systems to handle one example
+line=174 tag=O fonts=F4-10.9 iscore=0.10 bbox=307.28,332.61,525.55,343.52        :                                                    each of the questions of types (i) and (ii), namely
+line=175 tag=O fonts=F4-10.9 iscore=0.40 bbox=307.28,319.06,525.55,329.97        :                                                    detecting major constituent word order and the un-
+line=176 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,305.51,525.55,316.42        :                                                    derlying case system. For the first, we build di-
+line=177 tag=O fonts=F4-10.9 iscore=0.20 bbox=307.28,291.96,525.55,302.87        :                                                    rectly on the work of Lewis and Xia (2008) (see
+line=178 tag=O fonts=F4-10.9,F5-10.9 iscore=0.20 bbox=307.28,278.41,525.54,289.32:                                                    §2.2). Our experiment  can be viewed  as an at-
+line=179 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,264.86,525.55,275.77        :                                                    tempt to reproduce their results in the context of
+line=180 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,251.31,525.55,262.22        :                                                    the specific view of word order possibilities devel-
+line=181 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,237.76,525.55,248.67        :                                                    oped in the Grammar Matrix. The second question
+line=182 tag=O fonts=F4-10.9 iscore=0.30 bbox=307.28,224.21,525.55,235.12        :                                                    (that of case systems) is in some ways more sub-
+line=183 tag=O fonts=F4-10.9 iscore=0.40 bbox=307.28,210.66,525.55,221.57        :                                                    tle, requiring not only analysis of IGT instances in
+line=184 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,197.12,525.55,208.02        :                                                    isolation and aggregation of the results, but also
+line=185 tag=O fonts=F4-10.9 iscore=0.50 bbox=307.28,183.57,525.55,194.48        :                                                    identification of particular kinds of IGT instances
+line=186 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,170.02,433.92,180.93        :                                                    and comparison across them.
+
+doc_id=W13-2710 page=2 block_id=2-6 bbox=307.28,140.9,365.76,151.81 label=trbt 187 187
+line=187 tag=O fonts=F3-10.9 bbox=307.28,140.9,365.76,151.81:                                              2.2 RiPLes
+
+doc_id=W13-2710 page=2 block_id=2-7 bbox=307.28,78.93,525.55,130.48 label=trbb 188 191
+line=188 tag=O fonts=F4-10.9 bbox=307.28,119.57,525.55,130.48            :                                                   The  RiPLes  project has two intertwined goals.
+line=189 tag=O fonts=F4-10.9 iscore=0.30 bbox=307.28,106.02,525.55,116.93:                                                   The first goal is to create a framework that allows
+line=190 tag=O fonts=F4-10.9 iscore=0.30 bbox=307.28,92.47,525.55,103.38 :                                                   the rapid development of resources for resource-
+line=191 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,78.93,525.55,89.83  :                                                   poor languages (RPLs), which is accomplished by
+
+doc_id=W13-2710 page=2 block_id=2-8 bbox=293.32,44.91,304.23,55.82 label=b 192 192
+line=192 tag=O fonts=F1-10.9 bbox=293.32,44.91,304.23,55.82:                                          75
+
+doc_id=W13-2710 page=3 block_id=3-1 bbox=72.0,606.59,290.27,631.05 label=tlt 193 194
+line=193 tag=O fonts=F4-10.9 bbox=72.0,620.14,290.27,631.05           : Figure 1: Welsh IGT with alignment and projected
+line=194 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,606.59,151.68,617.5: syntactic structure
+
+doc_id=W13-2710 page=3 block_id=3-2 bbox=72.0,165.58,290.27,583.39 label=tlbt 195 225
+line=195 tag=O fonts=F4-10.9 bbox=72.0,572.49,290.27,583.39                    : bootstrapping NLP  tools with initial seeds created
+line=196 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,558.94,290.27,569.85        : by projecting syntactic information from resource-
+line=197 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,545.39,290.27,556.3         : rich languages to RPLs  through IGT.  Projecting
+line=198 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,531.84,290.27,542.75        : syntactic structures has two steps. First, the words
+line=199 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,518.29,290.27,529.2         : in the language line and the translation line are
+line=200 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,504.74,290.27,515.65        : aligned via the gloss line. Second, the transla-
+line=201 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,491.19,290.27,502.1         : tion line is parsed by a parser for the resource-rich
+line=202 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,477.64,290.27,488.55        : language  and the parse tree is then projected to
+line=203 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,464.09,290.27,475.0         : the language line using word alignment and some
+line=204 tag=O fonts=F4-10.9 iscore=0.38 bbox=72.0,450.54,290.27,461.45        : heuristics as illustrated in Figure 1 (adapted from
+line=205 tag=O fonts=F4-10.9,F4-8.0 iscore=0.38 bbox=72.0,436.99,290.27,448.92 : Xia  and Lewis (2009)).^{1} Previous work has ap-
+line=206 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,423.44,290.27,434.35        : plied these projected trees to enhance the perfor-
+line=207 tag=O fonts=F4-10.9 iscore=0.38 bbox=72.0,409.9,290.27,420.8          : mance  of statistical parsers (Georgi et al., 2012).
+line=208 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,396.35,290.27,407.26        : Though  the projected trees are noisy, they contain
+line=209 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,382.8,226.83,393.71         : enough  information for those tasks.
+line=210 tag=O fonts=F4-10.9 iscore=0.10 bbox=82.91,368.82,290.27,379.73       :    The second  goal of RiPLes  is to use the au-
+line=211 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,355.27,290.27,366.18        : tomatically created resources to perform  cross-
+line=212 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,341.72,290.27,352.63        : lingual study on  a large number   of languages
+line=213 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,328.17,290.27,339.08        : to discover linguistic knowledge.  For instance,
+line=214 tag=O fonts=F4-10.9 iscore=0.44 bbox=72.0,314.62,290.27,325.53        : Lewis  and Xia (2008) showed  that IGT data en-
+line=215 tag=O fonts=F4-10.9 iscore=0.44 bbox=72.0,301.07,290.27,311.98        : riched with the projected syntactic structure could
+line=216 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,287.52,290.27,298.43        : be used to determine the word order property of a
+line=217 tag=O fonts=F4-10.9,F5-10.9 iscore=0.20 bbox=72.0,273.97,290.26,284.88: language with a high accuracy (see §4). Naseem
+line=218 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,260.42,290.27,271.33        : et al. (2012) use this type of information (in their
+line=219 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,246.87,290.27,257.78        : case, drawn  from  the WALS   database (Haspel-
+line=220 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,233.33,290.27,244.23        : math  et al., 2008)) to improve multilingual depen-
+line=221 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,219.78,290.27,230.69        : dency  parsing. Here, we build on this aspect of
+line=222 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,206.23,290.27,217.14        : RiPLes  and begin to extend it towards the wider
+line=223 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,192.68,290.27,203.59        : range of linguistic phenomena and more  detailed
+line=224 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,179.13,290.27,190.04        : classification within phenomena required by the
+line=225 tag=O fonts=F4-10.9 iscore=0.17 bbox=72.0,165.58,210.46,176.49        : Grammar   Matrix questionnaire.
+
+doc_id=W13-2710 page=3 block_id=3-3 bbox=72.0,141.7,192.08,152.61 label=tlbbtt 226 226
+line=226 tag=O fonts=F3-10.9 bbox=72.0,141.7,192.08,152.61: 2.3  Other Related Work
+
+doc_id=W13-2710 page=3 block_id=3-4 bbox=72.0,109.82,290.27,134.28 label=tlbbtb 227 228
+line=227 tag=O fonts=F4-10.9 bbox=72.0,123.37,290.27,134.28            : Our  work is also situated with respect to attempts
+line=228 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,109.82,290.27,120.73: to automatically characterize typological proper-
+
+doc_id=W13-2710 page=3 block_id=3-5 bbox=72.0,78.92,290.27,98.67 label=tlbbb 229 230
+line=229 tag=O fonts=F4-6.0,F4-9.0 bbox=84.65,88.89,290.27,98.67   :     ^{1}The details of the algorithm and experimental results
+line=230 tag=O fonts=F4-9.0 iscore=0.00 bbox=72.0,78.92,215.7,87.89:  were reported in (Xia and Lewis, 2007).
+
+doc_id=W13-2710 page=3 block_id=3-6 bbox=307.28,252.91,525.55,779.03 label=trt 231 269
+line=231 tag=O fonts=F4-10.9 bbox=307.28,768.12,525.55,779.03                  :                                                   ties of languages, including Daumé III and Camp-
+line=232 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,754.57,525.55,765.48      :                                                   bell’s (2007) Bayesian approach to discovering ty-
+line=233 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,741.02,525.55,751.93      :                                                   pological implications and Georgi et al.’s (2010)
+line=234 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,727.48,525.55,738.38      :                                                   work  on predicting (unknown) typological proper-
+line=235 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,713.93,525.55,724.84      :                                                   ties by clustering languages based on known prop-
+line=236 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,700.38,525.55,711.29      :                                                   erties. Both projects use the typological database
+line=237 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,686.83,525.55,697.74      :                                                   WALS   (Haspelmath  et al., 2008), which has in-
+line=238 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,673.28,525.55,684.19      :                                                   formation about 192 different typological proper-
+line=239 tag=O fonts=F4-10.9 iscore=0.43 bbox=307.28,659.73,525.55,670.64      :                                                   ties and about 2,678 different languages (though
+line=240 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,646.18,525.55,657.09      :                                                   the matrix is very sparse). This approach is com-
+line=241 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,632.63,525.55,643.54      :                                                   plementary  to ours, and it remains an interesting
+line=242 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,619.08,525.55,629.99      :                                                   question whether  our results could be improved
+line=243 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,605.53,525.55,616.44      :                                                   by bringing in information about other typological
+line=244 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,591.98,525.55,602.89      :                                                   properties of the language (either extracted from
+line=245 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,578.43,516.52,589.34      :                                                   the IGT or looked up in a typological database).
+line=246 tag=O fonts=F4-10.9 iscore=0.12 bbox=318.19,564.71,525.55,575.62      :                                                      Another strand of related work concerns the col-
+line=247 tag=O fonts=F4-10.9 iscore=0.00 bbox=307.28,551.16,525.55,562.07      :                                                   lection and curation of IGT, including the ODIN
+line=248 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,537.62,525.55,548.52      :                                                   project (Lewis,  2006;  Xia and  Lewis,  2008),
+line=249 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,524.07,525.55,534.98      :                                                   which  harvests IGT from linguistics publications
+line=250 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,510.52,525.55,521.43      :                                                   available over the web and TypeCraft (Beermann
+line=251 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,496.97,525.55,507.88      :                                                   and Mihaylov, 2009), which facilitates the collab-
+line=252 tag=O fonts=F4-10.9 iscore=0.43 bbox=307.28,483.42,525.55,494.33      :                                                   orative development of IGT annotations. TerraL-
+line=253 tag=O fonts=F4-10.9,F4-8.0 iscore=0.17 bbox=307.28,469.87,525.55,481.8:                                                   ing/SSWL^{2} (Syntactic Structures of the World’s
+line=254 tag=O fonts=F4-10.9 iscore=0.43 bbox=307.28,456.32,525.55,467.23      :                                                   Languages)  has begun a database which combines
+line=255 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,442.77,525.55,453.68      :                                                   both typological properties and IGT  illustrating
+line=256 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,429.22,487.66,440.13      :                                                   those properties, contributed by linguists.
+line=257 tag=O fonts=F4-10.9 iscore=0.17 bbox=318.19,415.5,525.55,426.41       :                                                      Finally, Beerman and Hellan (2011) represents
+line=258 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,401.95,525.55,412.86      :                                                   another approach to inducing grammars from IGT,
+line=259 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,388.4,525.55,399.31       :                                                   by  bringing the hand-built linguistic knowledge
+line=260 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,374.85,525.55,385.76      :                                                   sources closer together: On the one hand, their
+line=261 tag=O fonts=F4-10.9 iscore=0.50 bbox=307.28,361.31,525.55,372.21      :                                                   cross-linguistic grammar resource (TypeGram) in-
+line=262 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,347.76,525.55,358.66      :                                                   cludes a  mechanism   for mapping  from  strings
+line=263 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,334.21,525.55,345.12      :                                                   specifying verb valence and valence-altering lex-
+line=264 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,320.66,525.55,331.57      :                                                   ical rules to sets of grammar  constraints. On
+line=265 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,307.11,525.55,318.02      :                                                   the other hand, their IGT authoring environment
+line=266 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,293.56,525.55,304.47      :                                                   (TypeCraft) provides support for annotating exam-
+line=267 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,280.01,525.55,290.92      :                                                   ples with those strings. The approach advocated
+line=268 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,266.46,525.55,277.37      :                                                   here attempts to bridge the gap between IGT and
+line=269 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,252.91,512.3,263.82       :                                                   grammar  specification algorithmically, instead.
+
+doc_id=W13-2710 page=3 block_id=3-7 bbox=307.28,228.55,465.6,240.51 label=trbt 270 270
+line=270 tag=O fonts=F3-12.0 bbox=307.28,228.55,465.6,240.51:                                        3  Development and Test Data
+
+doc_id=W13-2710 page=3 block_id=3-8 bbox=307.28,98.82,525.55,218.13 label=trbbt 271 279
+line=271 tag=O fonts=F4-10.9 bbox=307.28,207.22,525.55,218.13            :                                                  Our  long-term goal is to produce working gram-
+line=272 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,193.67,525.55,204.58:                                                  mar  fragments from IGT  produced in documen-
+line=273 tag=O fonts=F4-10.9 iscore=0.57 bbox=307.28,180.12,525.55,191.03:                                                  tary linguistics projects. However, in order to
+line=274 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,166.57,525.55,177.48:                                                  evaluate the performance of approaches to answer-
+line=275 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,153.02,525.55,163.93:                                                  ing the high-level questions in the Grammar Ma-
+line=276 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,139.47,525.55,150.38:                                                  trix questionnaire, we need both IGT and gold-
+line=277 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,125.92,525.55,136.83:                                                  standard answers for a reasonably-sized sample of
+line=278 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,112.37,525.55,123.28:                                                  languages. We have constructed development and
+line=279 tag=O fonts=F4-10.9 iscore=0.18 bbox=307.28,98.82,525.55,109.73 :                                                  test data for this purpose on the basis of work done
+
+doc_id=W13-2710 page=3 block_id=3-9 bbox=319.93,78.92,522.8,88.71 label=trbbb 280 280
+line=280 tag=O fonts=F4-6.0,F4-9.0,F6-7.0 bbox=319.93,78.92,522.8,88.71:                                                               2http://sswl.railsplayground.net/, accessed 4/25/13
+
+doc_id=W13-2710 page=3 block_id=3-10 bbox=293.32,44.91,304.23,55.82 label=b 281 281
+line=281 tag=O fonts=F1-10.9 bbox=293.32,44.91,304.23,55.82:                                          76
+
+doc_id=W13-2710 page=4 block_id=4-1 bbox=93.65,711.93,373.43,781.08 label=ttl 282 288
+line=282 tag=O fonts=F4-9.0 bbox=93.65,772.11,343.38,781.08             :       Sets of languages       DEV1  (n=10)               DEV2  (n=10)
+line=283 tag=O fonts=F4-9.0 iscore=0.43 bbox=93.65,761.75,322.56,770.71 :       Range of testsuite sizes 16–359                    11–229
+line=284 tag=O fonts=F4-9.0 iscore=0.50 bbox=93.65,751.78,304.63,760.75 :       Median testsuite size   91                         87
+line=285 tag=O fonts=F4-9.0 iscore=0.43 bbox=93.65,741.82,364.38,750.79 :       Language families       Indo-European (4), Niger-  Indo-European (3),
+line=286 tag=O fonts=F4-9.0 iscore=0.33 bbox=189.52,731.86,370.68,740.83:                               Congo  (2), Afro-Asiatic,  Dravidian (2), Algic,
+line=287 tag=O fonts=F4-9.0 iscore=0.33 bbox=189.52,721.9,373.43,730.86 :                               Japanese, Nadahup,         Creole, Niger-Congo,
+line=288 tag=O fonts=F4-9.0 iscore=0.50 bbox=189.52,711.93,366.88,720.9 :                               Sino-Tibetan               Quechuan, Salishan
+
+doc_id=W13-2710 page=4 block_id=4-2 bbox=385.39,711.93,503.9,781.08 label=ttr 289 295
+line=289 tag=O fonts=F4-7.2,F4-9.0 bbox=385.61,772.11,431.0,781.08      :                                                                                   TEST (n=11)
+line=290 tag=O fonts=F4-9.0 iscore=0.00 bbox=385.39,761.75,412.29,770.71:                                                                                  48–216
+line=291 tag=O fonts=F4-9.0 iscore=1.00 bbox=385.39,751.78,394.35,760.75:                                                                                  76
+line=292 tag=O fonts=F4-9.0 iscore=0.33 bbox=385.39,741.82,503.9,750.79 :                                                                                  Indo-European   (2), Afro-Asiatic,
+line=293 tag=O fonts=F4-9.0 iscore=0.67 bbox=385.39,731.86,492.21,740.83:                                                                                  Austro-Asiatic, Austronesian,
+line=294 tag=O fonts=F4-9.0 iscore=0.67 bbox=385.39,721.9,478.12,730.86 :                                                                                  Arauan, Carib,  Karvelian,
+line=295 tag=O fonts=F4-9.0 iscore=0.25 bbox=385.39,711.93,501.69,720.9 :                                                                                  N. Caucasian, Tai-Kadai, Isolate
+
+doc_id=W13-2710 page=4 block_id=4-3 bbox=112.84,685.56,484.71,696.47 label=tb 296 296
+line=296 tag=O fonts=F4-10.9 bbox=112.84,685.56,484.71,696.47:          Table 1: Language families and testsuites sizes (in number of grammatical examples)
+
+doc_id=W13-2710 page=4 block_id=4-4 bbox=72.0,217.37,290.27,663.23 label=btlt 297 329
+line=297 tag=O fonts=F4-10.9 bbox=72.0,652.32,290.27,663.23                  : by students in a class that uses the Grammar Ma-
+line=298 tag=O fonts=F4-10.9 iscore=0.40 bbox=72.0,638.77,290.27,649.68      : trix (Bender, 2007). In this class, students work
+line=299 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,625.22,290.27,636.13      : with descriptive resources for languages they are
+line=300 tag=O fonts=F4-10.9 iscore=0.38 bbox=72.0,611.67,290.27,622.58      : typically not familiar with to create testsuites (cu-
+line=301 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,598.12,290.27,609.03      : rated collections of grammatical and ungrammat-
+line=302 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,584.57,290.27,595.48      : ical examples) and Grammar  Matrix choices files.
+line=303 tag=O fonts=F4-10.9 iscore=0.10 bbox=72.0,571.02,290.27,581.93      : Later on in the class, the students extend the gram-
+line=304 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,557.47,290.27,568.38      : mar fragments output by the customization system
+line=305 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,543.93,290.27,554.83      : to handle a broader fragment of the language. Ac-
+line=306 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,530.38,290.27,541.29      : cordingly, the testsuites cover phenomena which
+line=307 tag=O fonts=F4-10.9 iscore=0.50 bbox=72.0,516.83,233.35,527.74      : go beyond  the customization system.
+line=308 tag=O fonts=F4-10.9 iscore=0.17 bbox=82.91,502.59,290.27,513.5      :    Testsuites for grammars,  especially in their
+line=309 tag=O fonts=F4-10.9 iscore=0.00 bbox=72.0,489.04,290.27,499.95      : early stages of development, require examples that
+line=310 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,475.49,290.27,486.4       : are simple (isolating the phenomena illustrated by
+line=311 tag=O fonts=F4-10.9 iscore=0.44 bbox=72.0,461.95,290.27,472.85      : the examples  to the extent possible), built out of
+line=312 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,448.4,290.27,459.31       : a small vocabulary, and  include both grammati-
+line=313 tag=O fonts=F4-10.9 iscore=0.43 bbox=72.0,434.85,290.27,445.76      : cal and ungrammatical examples  (Lehmann  et al.,
+line=314 tag=O fonts=F4-10.9 iscore=0.43 bbox=72.0,421.3,290.27,432.21       : 1996).  The examples  included in descriptive re-
+line=315 tag=O fonts=F4-10.9 iscore=0.43 bbox=72.0,407.75,290.27,418.66      : sources often don’t fit these requirements exactly.
+line=316 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,394.2,290.27,405.11       : As  a result, the data we are working with include
+line=317 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,380.65,290.27,391.56      : examples  invented by the students on the basis of
+line=318 tag=O fonts=F4-10.9,F4-8.0 iscore=0.22 bbox=72.0,367.1,268.84,379.03: the descriptive statements in their resources.^{3}
+line=319 tag=O fonts=F4-10.9 iscore=0.00 bbox=82.91,352.87,290.27,363.78     :    In total, we  have  testsuites and associated
+line=320 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,339.32,290.27,350.23      : choices files for 31 languages, spanning 17 lan-
+line=321 tag=O fonts=F4-10.9 iscore=0.38 bbox=72.0,325.77,290.27,336.68      : guage  families (plus one creole and one language
+line=322 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,312.22,290.27,323.13      : isolate).  The  most well-represented family  is
+line=323 tag=O fonts=F4-10.9 iscore=0.43 bbox=72.0,298.67,290.27,309.58      : Indo-European,  with nine languages. We used 20
+line=324 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,285.12,290.27,296.03      : languages, in two dev sets, for algorithm develop-
+line=325 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,271.57,290.27,282.48      : ment  (including manual error analysis), and saved
+line=326 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,258.02,290.27,268.93      : 11  languages as a held-out test set to verify the
+line=327 tag=O fonts=F4-10.9 iscore=0.40 bbox=72.0,244.47,290.27,255.38      : generalizability of our approach. Table 1 lists the
+line=328 tag=O fonts=F4-10.9 iscore=0.50 bbox=72.0,230.92,290.27,241.83      : language  families and the range of testsuite sizes
+line=329 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,217.37,224.38,228.28      : for each of these sets of languages.
+
+doc_id=W13-2710 page=4 block_id=4-5 bbox=72.0,191.24,203.93,203.19 label=btlbt 330 330
+line=330 tag=O fonts=F3-11.9 bbox=72.0,191.24,203.93,203.19: 4  Inferring Word Order
+
+doc_id=W13-2710 page=4 block_id=4-6 bbox=72.0,100.88,290.27,179.53 label=btlbbt 331 336
+line=331 tag=O fonts=F4-10.9 bbox=72.0,168.63,290.27,179.53            : Lewis and Xia (2008) show how IGT  from ODIN
+line=332 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,155.08,290.27,165.98: (Lewis, 2006) can be used to determine, with high
+line=333 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,141.53,290.27,152.44: accuracy, the word order properties of a language.
+line=334 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,127.98,290.27,138.89: They identify 14 typological parameters related to
+line=335 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,114.43,290.27,125.34: word  order for which WALS  (Haspelmath et al.,
+line=336 tag=O fonts=F4-10.9 iscore=0.38 bbox=72.0,100.88,290.27,111.79: 2008) or other typological resources provide in-
+
+doc_id=W13-2710 page=4 block_id=4-7 bbox=84.65,78.92,284.23,88.71 label=btlbbb 337 337
+line=337 tag=O fonts=F4-6.0,F4-9.0 bbox=84.65,78.92,284.23,88.71:     ^{3}Such examples are flagged in the testsuites’ meta-data.
+
+doc_id=W13-2710 page=4 block_id=4-8 bbox=307.28,78.92,525.55,663.23 label=btr 338 380
+line=338 tag=O fonts=F4-10.9 bbox=307.28,652.32,525.55,663.23            :                                                    formation. The parameter most closely relevant to
+line=339 tag=O fonts=F4-10.9 iscore=0.10 bbox=307.28,638.77,525.55,649.68:                                                    the present work is Order of Words in a Sentence
+line=340 tag=O fonts=F4-10.9 iscore=0.20 bbox=307.28,625.22,525.55,636.13:                                                    (Dryer, 2011). For this parameter, Lewis and Xia
+line=341 tag=O fonts=F4-10.9 iscore=0.44 bbox=307.28,611.67,525.55,622.58:                                                    tested their method in 97 languages and found that
+line=342 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,598.12,525.55,609.03:                                                    their system had 99% accuracy provided the IGT
+line=343 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,584.57,524.2,595.48 :                                                    collections had at least 40 instances per language.
+line=344 tag=O fonts=F4-10.9 iscore=0.14 bbox=318.19,571.02,525.55,581.93:                                                      The  Grammar   Matrix’s word  order questions
+line=345 tag=O fonts=F4-10.9 iscore=0.17 bbox=307.28,557.47,525.55,568.38:                                                    differ somewhat  from  the typological classifi-
+line=346 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,543.93,525.55,554.83:                                                    cation that Lewis and  Xia  (2008) were  using.
+line=347 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,530.38,525.55,541.29:                                                    Answering  the  Grammar   Matrix  questionnaire
+line=348 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,516.83,525.55,527.74:                                                    amounts to more than making  a descriptive state-
+line=349 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,503.28,525.55,514.19:                                                    ment about a language. The Grammar  Matrix cus-
+line=350 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,489.73,525.55,500.64:                                                    tomization system translates collections of such
+line=351 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,476.18,525.55,487.09:                                                    descriptive statements into working grammar frag-
+line=352 tag=O fonts=F4-10.9 iscore=0.20 bbox=307.28,462.63,525.55,473.54:                                                    ments.  In the case of word order, this most di-
+line=353 tag=O fonts=F4-10.9 iscore=0.20 bbox=307.28,449.08,525.55,459.99:                                                    rectly effects the number and nature of phrase
+line=354 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,435.53,525.55,446.44:                                                    structure rules included in the output grammar, but
+line=355 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,421.98,525.55,432.89:                                                    can also interact with other aspects of the gram-
+line=356 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,408.43,525.55,419.34:                                                    mar (e.g., the treatment of argument optionality).
+line=357 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,394.88,525.55,405.79:                                                    More  broadly, specifying the word order system
+line=358 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,381.34,525.55,392.24:                                                    of a grammar determines both grammaticality (ac-
+line=359 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,367.79,525.55,378.7 :                                                    cepting some strings, ruling out others) and, for
+line=360 tag=O fonts=F4-10.9 iscore=0.20 bbox=307.28,354.24,525.55,365.15:                                                    the fixed word orders at least, aspects of the map-
+line=361 tag=O fonts=F4-10.9 iscore=0.10 bbox=307.28,340.69,483.43,351.6 :                                                    ping of syntactic to semantic arguments.
+line=362 tag=O fonts=F4-10.9 iscore=0.00 bbox=318.19,327.14,525.55,338.05:                                                      Lewis and  Xia (2008), like Dryer (2011), gave
+line=363 tag=O fonts=F4-10.9 iscore=0.17 bbox=307.28,313.59,525.55,324.5 :                                                    the six fixed orders of S, O and V plus “no dom-
+line=364 tag=O fonts=F4-10.9 iscore=0.17 bbox=307.28,300.04,525.55,310.95:                                                    inant order”. In contrast, the Grammar  Matrix
+line=365 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,286.49,525.55,297.4 :                                                    distinguishes Free (pragmatically constrained), V-
+line=366 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,272.94,525.55,283.85:                                                    final, V-initial, and V2 orders, in addition to the
+line=367 tag=O fonts=F4-10.9 iscore=0.30 bbox=307.28,259.39,525.55,270.3 :                                                    six fixed orders. It is important to note that the
+line=368 tag=O fonts=F4-10.9 iscore=0.30 bbox=307.28,245.84,525.55,256.75:                                                    relationship between the word order type of a lan-
+line=369 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,232.29,525.55,243.2 :                                                    guage and the actual orders attested in sentences
+line=370 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,218.74,525.55,229.65:                                                    can be somewhat  indirect. For a fixed word order
+line=371 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,205.2,525.55,216.1  :                                                    language, we would  expect the order declared as
+line=372 tag=O fonts=F4-10.9 iscore=0.30 bbox=307.28,191.65,525.55,202.56:                                                    its type to be the most common  in running text,
+line=373 tag=O fonts=F4-10.9 iscore=0.30 bbox=307.28,178.1,525.55,189.01 :                                                    but not the only type available. English, for exam-
+line=374 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,164.55,525.55,175.46:                                                    ple, is an SVO language, but several constructions
+line=375 tag=O fonts=F4-10.9 iscore=0.50 bbox=307.28,151.0,525.55,161.91 :                                                    allow for other orders, including subject-auxiliary
+line=376 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,137.45,507.86,148.36:                                                    inversion, so-called topicalization, and others:
+line=377 tag=O fonts=F4-9.0 iscore=0.00 bbox=320.45,122.79,398.28,131.76 :                                                       (2) Did Kim leave?
+line=378 tag=O fonts=F4-9.0 iscore=0.60 bbox=320.45,110.72,422.6,119.68  :                                                       (3) The book, Kim forgot.
+line=379 tag=O fonts=F4-10.9 iscore=0.00 bbox=307.28,92.47,525.55,103.38 :                                                    In a language with more word order flexibility in
+line=380 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,78.92,525.55,89.83  :                                                    general, there may still be a preferred word order
+
+doc_id=W13-2710 page=4 block_id=4-9 bbox=293.32,44.91,304.23,55.82 label=bb 381 381
+line=381 tag=O fonts=F1-10.9 bbox=293.32,44.91,304.23,55.82:                                          77
+
+doc_id=W13-2710 page=5 block_id=5-1 bbox=72.0,454.81,290.27,779.03 label=tlt 382 405
+line=382 tag=O fonts=F4-10.9 bbox=72.0,768.12,290.27,779.03             : which  is the most common   due to pragmatic or
+line=383 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,754.57,290.27,765.48 : other constraints. Users of the Grammar  Matrix
+line=384 tag=O fonts=F4-10.9 iscore=0.50 bbox=72.0,741.02,290.27,751.93 : are advised to choose one of the fixed word orders
+line=385 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,727.48,290.27,738.38 : if the deviations from that order can generally be
+line=386 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,713.93,290.27,724.84 : accounted  for by specific syntactic constructions,
+line=387 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,700.38,217.29,711.29 : and a freer word order otherwise.
+line=388 tag=O fonts=F4-10.9 iscore=0.00 bbox=82.91,685.15,290.27,696.06:    The relationship between the correct word or-
+line=389 tag=O fonts=F4-10.9 iscore=0.00 bbox=72.0,671.6,290.27,682.51  : der choice for the Grammar Matrix customization
+line=390 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,658.05,290.27,668.96 : system  and the distribution of actual token word
+line=391 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,644.5,290.27,655.41  : orders in our development and test data is affected
+line=392 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,630.95,290.27,641.86 : by another factor, related to Lewis and Xia’s ‘IGT
+line=393 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,617.4,290.27,628.31  : bias’ which we  dub ‘testsuite bias’. The collec-
+line=394 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,603.85,290.27,614.76 : tions of IGT we are using were constructed as test-
+line=395 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,590.3,290.27,601.21  : suites for grammar engineering projects and thus
+line=396 tag=O fonts=F4-10.9 iscore=0.57 bbox=72.0,576.75,290.27,587.66 : comprise  examples  selected or constructed to il-
+line=397 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,563.2,290.27,574.11  : lustrate specific grammatical properties in a test-
+line=398 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,549.65,290.27,560.56 : ing regime where one example  is enough to repre-
+line=399 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,536.11,290.27,547.01 : sent each sentence type of interest. Therefore, they
+line=400 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,522.56,290.27,533.47 : do not represent a natural distribution of word or-
+line=401 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,509.01,290.27,519.92 : der types. For example, the testsuite authors may
+line=402 tag=O fonts=F4-10.9 iscore=0.10 bbox=72.0,495.46,290.27,506.37 : show  the full range of possible word orders in the
+line=403 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,481.91,290.27,492.82 : word  order section of the testsuite and then default
+line=404 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,468.36,290.27,479.27 : to one particular choice for other portions (those
+line=405 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,454.81,257.52,465.72 : illustrating e.g., case systems or negation).
+
+doc_id=W13-2710 page=5 block_id=5-2 bbox=72.0,426.6,157.76,437.51 label=tlbt 406 406
+line=406 tag=O fonts=F3-10.9 bbox=72.0,426.6,157.76,437.51: 4.1  Methodology
+
+doc_id=W13-2710 page=5 block_id=5-3 bbox=72.0,78.92,290.27,416.7 label=tlbb 407 431
+line=407 tag=O fonts=F4-10.9 bbox=72.0,405.79,290.27,416.7                     : Our  first stpes mirror the RiPLes approach, pars-
+line=408 tag=O fonts=F4-10.9 iscore=0.38 bbox=72.0,392.24,290.27,403.15        : ing parse the English translation of each sentence
+line=409 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,378.69,290.27,389.6         : and projecting the parsed structure onto the source
+line=410 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,365.14,290.27,376.05        : language line. Functional tags, such as SBJ and
+line=411 tag=O fonts=F4-10.9 iscore=0.40 bbox=72.0,351.59,290.27,362.5         : OBJ,  are added to the NP nodes on  the English
+line=412 tag=O fonts=F4-10.9 iscore=0.10 bbox=72.0,338.04,290.27,348.95        : side based on our knowledge of English word or-
+line=413 tag=O fonts=F4-10.9 iscore=0.44 bbox=72.0,324.49,290.27,335.4         : der and then carried over to the source language
+line=414 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,310.94,290.27,321.85        : side during the projection of parse trees. The trees
+line=415 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,297.39,290.27,308.3         : are then searched for any of ten patterns: SOV,
+line=416 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,283.84,290.27,294.75        : SVO,  OSV,  OVS,  VSO,  VOS,  SV, VS,  OV, and
+line=417 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,270.29,290.27,281.2         : VO.  The six ternary patterns match when both ver-
+line=418 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,256.75,290.27,267.65        : bal arguments are present in the same clause. The
+line=419 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,243.2,290.27,254.11         : four binary patterns are for intransitive sentences
+line=420 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,229.65,290.27,240.56        : or those with dropped arguments. These ten pat-
+line=421 tag=O fonts=F4-10.9,F7-10.9 iscore=0.12 bbox=72.0,216.1,249.43,227.01 : terns make up the observed word orders.
+line=422 tag=O fonts=F4-10.9 iscore=0.00 bbox=82.91,200.87,290.27,211.78       :    Given our relatively limited data set (each lan-
+line=423 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,187.32,290.27,198.23        : guage  is one data point), we present an initial
+line=424 tag=O fonts=F4-10.9,F7-10.9 iscore=0.22 bbox=72.0,173.77,290.27,184.68: approach  to determining underlying word order
+line=425 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,160.22,290.27,171.13        : based on  heuristics informed by general linguis-
+line=426 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,146.67,290.27,157.58        : tic knowledge. We compare the distribution of ob-
+line=427 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,133.12,290.27,144.03        : served word  orders to distributions we expect to
+line=428 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,119.57,290.27,130.48        : see for canonical examples of underlying word or-
+line=429 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,106.02,290.27,116.93        : ders. We  accomplish this by first deconstructing
+line=430 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,92.47,290.27,103.38         : the ternary observed-word-orders into binary pat-
+line=431 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,78.92,290.27,89.83          : terns (the four above plus SO and OS). This gives
+
+doc_id=W13-2710 page=5 block_id=5-4 bbox=307.28,428.98,525.55,779.03 label=trttt 432 457
+line=432 tag=O fonts=F4-10.9 bbox=307.28,768.12,525.55,779.03                   :                                                   us three axes: one for the tendency to exhibit VS
+line=433 tag=O fonts=F4-10.9 iscore=0.27 bbox=307.28,754.57,525.55,765.48       :                                                   or SV order, another for VO or OV order, and an-
+line=434 tag=O fonts=F4-10.9 iscore=0.36 bbox=307.28,741.03,525.55,751.93       :                                                   other for OS or SO order. By  counting the ob-
+line=435 tag=O fonts=F4-10.9 iscore=0.30 bbox=307.28,727.48,525.55,738.38       :                                                   served word orders in the IGT examples, we can
+line=436 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,713.93,525.55,724.84       :                                                   place the language in this three-dimensional space.
+line=437 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,700.38,525.55,711.29       :                                                   Figure 4.1 depicts this space with the positions of
+line=438 tag=O fonts=F4-10.9,F4-8.0 iscore=0.22 bbox=307.28,686.83,525.54,698.76:                                                   canonical word orders.^{4} The canonical word order
+line=439 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,673.28,525.55,684.19       :                                                   positions are those found under homogeneous ob-
+line=440 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,659.73,525.55,670.64       :                                                   servations. For example, the canonical position for
+line=441 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,646.18,525.55,657.09       :                                                   SOV  order is when 100% of the sentences exhibit
+line=442 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,632.63,525.55,643.54       :                                                   SO, OV, and SV orders; and the canonical position
+line=443 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,619.08,525.55,629.99       :                                                   for Free word order is when each observed order
+line=444 tag=O fonts=F4-10.9 iscore=0.44 bbox=307.28,605.53,525.55,616.44       :                                                   occurs with equal frequency to its opposite order
+line=445 tag=O fonts=F4-10.9 iscore=0.27 bbox=307.28,591.98,525.55,602.89       :                                                   (on the same axis; e.g. VO and OV). We select the
+line=446 tag=O fonts=F4-10.9 iscore=0.09 bbox=307.28,578.43,525.55,589.34       :                                                   underlying word order by finding which canoni-
+line=447 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,564.89,525.55,575.79       :                                                   cal word order position has the shortest Euclidean
+line=448 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,551.34,503.64,562.25       :                                                   distance to the observed word order position.
+line=449 tag=O fonts=F4-10.9 iscore=0.22 bbox=318.19,537.37,525.55,548.28       :                                                     When  a language is selected as Free word or-
+line=450 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,523.82,525.55,534.73       :                                                   der, we employ a secondary heuristic to decide if
+line=451 tag=O fonts=F4-10.9 iscore=0.40 bbox=307.28,510.27,525.55,521.18       :                                                   it is actually V2 word order. The V2 order cannot
+line=452 tag=O fonts=F4-10.9 iscore=0.10 bbox=307.28,496.72,525.55,507.63       :                                                   be easily recognized only with the binary word or-
+line=453 tag=O fonts=F4-10.9 iscore=0.17 bbox=307.28,483.17,525.55,494.08       :                                                   ders, so it is not given a unique point in the three-
+line=454 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,469.62,525.55,480.53       :                                                   dimensional space. Rather, we try to recognize it
+line=455 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,456.08,525.55,466.98       :                                                   by comparing the ternary orders. A Free-order lan-
+line=456 tag=O fonts=F4-10.9 iscore=0.10 bbox=307.28,442.53,525.55,453.44       :                                                   guage is reclassified as V2 if SVO and OVS occur
+line=457 tag=O fonts=F4-10.9,F4-8.0 iscore=0.20 bbox=307.28,428.98,471.1,440.91 :                                                   more frequently than SOV and OSV.^{5}
+
+doc_id=W13-2710 page=5 block_id=5-5 bbox=372.57,386.66,498.74,413.69 label=trttbt 458 459
+line=458 tag=O fonts=F4-8.7 bbox=372.57,404.97,389.59,413.69            :                                                      OVS
+line=459 tag=O fonts=F4-8.7 iscore=0.00 bbox=414.35,386.66,498.74,400.58:                                                             OS          OSV
+
+doc_id=W13-2710 page=5 block_id=5-6 bbox=329.86,309.64,505.14,377.67 label=trttbbt 460 462
+line=460 tag=O fonts=F4-8.7 bbox=341.46,363.57,441.52,377.67            :                                                               VOS                 OV
+line=461 tag=O fonts=F4-8.7 iscore=0.00 bbox=329.86,327.83,505.14,359.47:                                                            V-initial VS  Free/V2          SV  V-final
+line=462 tag=O fonts=F4-8.7 iscore=0.50 bbox=398.29,309.64,498.3,323.74 :                                                                            VO                 SOV
+
+doc_id=W13-2710 page=5 block_id=5-7 bbox=341.11,273.62,467.37,300.65 label=trttbbb 463 464
+line=463 tag=O fonts=F4-8.7 bbox=341.11,286.73,425.5,300.65             :                                                VSO          SO
+line=464 tag=O fonts=F4-8.7 iscore=0.00 bbox=450.26,273.62,467.37,282.35:                                                                   SVO
+
+doc_id=W13-2710 page=5 block_id=5-8 bbox=307.28,233.53,525.55,257.99 label=trtb 465 466
+line=465 tag=O fonts=F4-10.9 bbox=307.28,247.08,525.55,257.99            :                                                   Figure 2: Three axes of basic word order and the
+line=466 tag=O fonts=F4-10.9 iscore=0.10 bbox=307.28,233.53,460.78,244.44:                                                   positions of canonical word orders.
+
+doc_id=W13-2710 page=5 block_id=5-9 bbox=307.28,192.35,365.76,203.26 label=trbtt 467 467
+line=467 tag=O fonts=F3-10.9 bbox=307.28,192.35,365.76,203.26:                                                   4.2  Results
+
+doc_id=W13-2710 page=5 block_id=5-10 bbox=307.28,160.49,525.55,184.95 label=trbtb 468 469
+line=468 tag=O fonts=F4-10.9 bbox=307.28,174.04,525.55,184.95           :                                                   Table 2 shows the results we obtained for our dev
+line=469 tag=O fonts=F4-10.9 iscore=0.20 bbox=307.28,160.49,525.55,171.4:                                                   and test sets. For comparison, we use a most-
+
+doc_id=W13-2710 page=5 block_id=5-11 bbox=307.28,78.92,525.55,149.4 label=trbb 470 476
+line=470 tag=O fonts=F4-6.0,F4-9.0 bbox=319.93,139.61,525.55,149.4            :                                                                 ^{4}Of the eight vertices of this cube, six represent canoni-
+line=471 tag=O fonts=F4-9.0 iscore=0.10 bbox=307.28,129.65,525.55,138.62      :                                                              cal word orders the other two impossible combinations: The
+line=472 tag=O fonts=F4-9.0 iscore=0.23 bbox=307.28,119.69,524.36,128.65      :                                                              vertex for (SV, VO, OS) (e.g.) has S both before and after O.
+line=473 tag=O fonts=F4-6.0,F4-9.0 iscore=0.17 bbox=319.93,108.81,525.55,118.6:                                                                 ^{5}The VOS and VSO patterns are excluded from this com-
+line=474 tag=O fonts=F4-9.0 iscore=0.10 bbox=307.28,98.85,525.55,107.82       :                                                              parison, since they can go either way—there may  be un-
+line=475 tag=O fonts=F4-9.0 iscore=0.33 bbox=307.28,88.89,525.55,97.85        :                                                              aligned constituents (i.e. not a S, O, or V) before the verb
+line=476 tag=O fonts=F4-9.0 iscore=0.17 bbox=307.28,78.92,426.81,87.89        :                                                              which are ignored by our system.
+
+doc_id=W13-2710 page=5 block_id=5-12 bbox=293.32,44.91,304.23,55.82 label=b 477 477
+line=477 tag=O fonts=F1-10.9 bbox=293.32,44.91,304.23,55.82:                                          78
+
+doc_id=W13-2710 page=6 block_id=6-1 bbox=72.0,713.93,290.27,779.03 label=tltt 478 482
+line=478 tag=O fonts=F4-10.9 bbox=72.0,768.12,290.27,779.03                   : frequent-type baseline, selecting SOV for all lan-
+line=479 tag=O fonts=F4-10.9 iscore=0.38 bbox=72.0,754.57,290.27,765.48       : guages, based on Dryer’s (2011) survey. We  get
+line=480 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,741.02,290.27,751.93       : high accuracy for DEV1, low accuracy for DEV2,
+line=481 tag=O fonts=F4-10.9,F4-8.7 iscore=0.33 bbox=72.0,727.48,290.27,738.38: and moderate  accuracy for TEST, but all are sig-
+line=482 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,713.93,222.59,724.84       : nificantly higher than the baseline.
+
+doc_id=W13-2710 page=6 block_id=6-2 bbox=117.31,662.65,244.95,701.9 label=tltbt 483 486
+line=483 tag=O fonts=F4-9.0 bbox=117.31,692.94,244.95,701.9                    :            Dataset  Inferred WO   Baseline
+line=484 tag=O fonts=F4-9.0 iscore=0.25 bbox=117.54,682.58,244.95,691.54       :            DEV1           0.900      0.200
+line=485 tag=O fonts=F4-9.0 iscore=1.00 bbox=117.54,672.61,244.95,681.58       :            DEV2           0.500      0.100
+line=486 tag=O fonts=F4-7.2,F4-9.0 iscore=1.00 bbox=117.54,662.65,244.95,671.62:            TEST           0.727      0.091
+
+doc_id=W13-2710 page=6 block_id=6-3 bbox=87.63,641.26,274.64,652.17 label=tltbb 487 487
+line=487 tag=O fonts=F4-10.9 bbox=87.63,641.26,274.64,652.17:    Table 2: Accuracy of word-order inference
+
+doc_id=W13-2710 page=6 block_id=6-4 bbox=72.0,421.39,290.27,621.99 label=tlbt 488 502
+line=488 tag=O fonts=F4-10.9 bbox=82.91,611.08,290.27,621.99           :    Hand  analysis of the errors in the dev sets
+line=489 tag=O fonts=F4-10.9 iscore=0.00 bbox=72.0,597.53,290.27,608.44: show  that some languages fall victim to the test-
+line=490 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,583.98,290.27,594.89: suite bias, such as Russian, Quechua, and Tamil.
+line=491 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,570.43,290.27,581.34: All of these languages have Free word order, but
+line=492 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,556.88,290.27,567.79: our system infers SVO  for Russian and SOV  for
+line=493 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,543.33,290.27,554.24: Quechua  and  Tamil, because the authors of the
+line=494 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,529.78,290.27,540.69: testsuites used one order significantly more than
+line=495 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,516.23,290.27,527.14: the others. Similarly, the Free word order lan-
+line=496 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,502.68,290.27,513.59: guage  Nishnaabemwin  is inferred as V2 because
+line=497 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,489.14,290.27,500.04: there are more SVO  and OVS  patterns given than
+line=498 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,475.59,290.27,486.49: others. We  also see errors due to misalignment
+line=499 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,462.04,290.27,472.95: from RiPLes’  syntactic projection. The VSO lan-
+line=500 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,448.49,290.27,459.4 : guage Welsh  is inferred as SVO because the near-
+line=501 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,434.94,290.27,445.85: ubiquitous sentence-initial auxiliary doesn’t align
+line=502 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,421.39,258.49,432.3 : to the main verb of the English translation.
+
+doc_id=W13-2710 page=6 block_id=6-5 bbox=72.0,397.77,208.8,409.73 label=tlbbt 503 503
+line=503 tag=O fonts=F3-12.0 bbox=72.0,397.77,208.8,409.73: 5  Inferring Case Systems
+
+doc_id=W13-2710 page=6 block_id=6-6 bbox=72.0,78.92,290.27,387.92 label=tlbbb 504 526
+line=504 tag=O fonts=F4-10.9 bbox=72.0,377.01,290.27,387.92             : Case  refers to linguistic phenomena in which the
+line=505 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,363.46,290.27,374.37 : form  of a noun phrase (NP) varies depending on
+line=506 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,349.91,290.27,360.82 : the function of the NP in a sentence (Blake, 2001).
+line=507 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,336.36,290.27,347.27 : The  Grammar   Matrix’s case library (Drellishak,
+line=508 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,322.81,290.27,333.72 : 2009) focuses on case marking of core arguments
+line=509 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,309.26,290.27,320.17 : of verbs. Specifying a grammar for case involves
+line=510 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,295.71,290.27,306.62 : both choosing  the high-level case system to be
+line=511 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,282.16,290.27,293.07 : modeled  as well as associating verb types with
+line=512 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,268.61,290.27,279.52 : case frames and defining the lexical items or lex-
+line=513 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,255.06,290.27,265.97 : ical rules which mark the case on the NPs. Here,
+line=514 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,241.52,290.27,252.42 : we  focus on the high-level case system question
+line=515 tag=O fonts=F4-10.9 iscore=0.18 bbox=72.0,227.97,290.27,238.87 : as it is logically prior, and in some ways more in-
+line=516 tag=O fonts=F4-10.9 iscore=0.18 bbox=72.0,214.42,290.27,225.33 : teresting than the lexical details: Answering this
+line=517 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,200.87,290.27,211.78 : question requires identifying case frames of verbs
+line=518 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,187.32,290.27,198.23 : in particular examples and then comparing across
+line=519 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,173.77,229.0,184.68  : those examples, as described below.
+line=520 tag=O fonts=F4-10.9 iscore=0.00 bbox=82.91,160.22,290.27,171.13:    The high-level case system of a language con-
+line=521 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,146.67,290.27,157.58 : cerns the alignment of case marking between tran-
+line=522 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,133.12,290.27,144.03 : sitive and intransitive clauses. The  three ele-
+line=523 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,119.57,290.27,130.48 : ments  in question are the subjects of intransi-
+line=524 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,106.02,290.27,116.93 : tives (dubbed S), the subjects (or agent-like ar-
+line=525 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,92.47,290.27,103.38  : guments)  of transitives (dubbed A) and the ob-
+line=526 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,78.92,290.27,89.83   : jects (or patient-like arguments) of intransitives
+
+doc_id=W13-2710 page=6 block_id=6-7 bbox=345.99,711.93,486.61,781.08 label=trtt 527 533
+line=527 tag=O fonts=F4-9.0 bbox=345.99,772.11,472.69,781.08                          :                                                                Case         Case grams present
+line=528 tag=O fonts=F4-7.2,F4-9.0,F8-9.0 iscore=0.29 bbox=345.99,762.15,486.61,771.11:                                                                system    NOM ∨ ACC    ERG ∨ ABS
+line=529 tag=O fonts=F4-9.0 iscore=0.14 bbox=345.99,751.78,363.42,760.75              :                                                                none
+line=530 tag=O fonts=F4-9.0,F9-9.0 iscore=0.50 bbox=345.99,741.82,414.79,750.79       :                                                                nom-acc       ✓
+line=531 tag=O fonts=F4-9.0,F9-9.0 iscore=0.50 bbox=345.99,731.86,469.78,740.83       :                                                                erg-abs                    ✓
+line=532 tag=O fonts=F4-9.0,F9-9.0 iscore=0.33 bbox=345.99,721.9,469.77,730.86        :                                                                split-erg     ✓           ✓
+line=533 tag=O fonts=F4-9.0 iscore=0.33 bbox=345.99,711.93,414.22,720.9               :                                                                (conditioned on V)
+
+doc_id=W13-2710 page=6 block_id=6-8 bbox=317.81,685.56,515.01,696.47 label=trtb 534 534
+line=534 tag=O fonts=F4-10.9,F4-8.7 bbox=317.81,685.56,515.01,696.47:                                                  Table 3: GRAM case system assignment rules
+
+doc_id=W13-2710 page=6 block_id=6-9 bbox=307.28,300.36,525.55,663.54 label=trbt 535 561
+line=535 tag=O fonts=F4-10.9 bbox=307.28,652.63,525.55,663.54                    :                                                    (O). Among  languages which  make  use of case,
+line=536 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,639.09,525.55,649.99        :                                                    the most common  alignment type is a nominative-
+line=537 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,625.54,525.55,636.45        :                                                    accusative system (Comrie   2011a,b).   In this
+line=538 tag=O fonts=F4-10.9,F4-8.0 iscore=0.40 bbox=307.28,611.99,525.05,623.92 :                                                    type, S takes the same kind of marking  as A.^{6}
+line=539 tag=O fonts=F4-10.9 iscore=0.10 bbox=307.28,598.44,525.55,609.35        :                                                    The Grammar   Matrix case library provides nine
+line=540 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,584.89,525.55,595.8         :                                                    options, including none, nominative-accusative,
+line=541 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,571.34,525.55,582.25        :                                                    ergative-absolutive (S marked like O), tripartite (S,
+line=542 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,557.79,525.55,568.7         :                                                    A and  O all distinct) and several more intricate
+line=543 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,544.24,525.55,555.15        :                                                    types. For example, in a language with one type
+line=544 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,530.69,525.55,541.6         :                                                    of split case system the alignment is nominative-
+line=545 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,517.14,525.55,528.05        :                                                    accusative in non-past tense clauses, but ergative-
+line=546 tag=O fonts=F4-10.9 iscore=0.43 bbox=307.28,503.59,433.8,514.5          :                                                    absolutive in past tense ones.
+line=547 tag=O fonts=F4-10.9 iscore=0.25 bbox=318.19,490.04,525.55,500.95        :                                                      As with major constituent word order, the con-
+line=548 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,476.49,525.55,487.4         :                                                    straints implementing a case system in a grammar
+line=549 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,462.95,525.55,473.85        :                                                    serve to model both grammaticality and the map-
+line=550 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,449.4,525.55,460.31         :                                                    ping between syntactic and semantic arguments.
+line=551 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,435.85,525.55,446.76        :                                                    Here too, the distribution of tokens may be some-
+line=552 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,422.3,525.55,433.21         :                                                    thing other than a pure expression of the case
+line=553 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,408.75,525.55,419.66        :                                                    alignment type.  Sources of noise in the distri-
+line=554 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,395.2,525.55,406.11         :                                                    bution include: argument optionality (e.g., tran-
+line=555 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,381.65,525.55,392.56        :                                                    sitives with one or more covert arguments), ar-
+line=556 tag=O fonts=F4-10.9 iscore=0.50 bbox=307.28,368.1,525.55,379.01         :                                                    gument frames  other than simple intransitives or
+line=557 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,354.55,525.55,365.46        :                                                    transitives, and quirky case (verbs that use a non-
+line=558 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,341.0,525.55,351.91         :                                                    standard case frame for their arguments, such as
+line=559 tag=O fonts=F4-10.9,F7-10.9 iscore=0.22 bbox=307.28,327.45,525.54,338.36:                                                    the German verb helfen which selects a dative ar-
+line=560 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,313.9,525.55,324.81         :                                                    gument, though the language’s general system is
+line=561 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,300.36,493.64,311.26        :                                                    nominative-accusative (Drellishak, 2009)).
+
+doc_id=W13-2710 page=6 block_id=6-10 bbox=307.28,97.98,525.55,288.96 label=trbbt 562 575
+line=562 tag=O fonts=F3-10.9 bbox=307.28,278.05,393.03,288.96                   :                                                   5.1  Methodology
+line=563 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,260.57,525.55,271.48       :                                                   We  explore two possible methodologies for infer-
+line=564 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,247.02,525.55,257.93       :                                                   ring case systems, one relatively naïve and one
+line=565 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,233.47,525.55,244.38       :                                                   more  elaborate, and compare  them  to a most-
+line=566 tag=O fonts=F4-10.9,F4-8.7 iscore=0.12 bbox=307.28,219.92,525.54,230.83:                                                   frequent-type baseline. Method 1, called GRAM,
+line=567 tag=O fonts=F4-10.9 iscore=0.20 bbox=307.28,206.37,525.55,217.28       :                                                   considers only the gloss line of the IGT and as-
+line=568 tag=O fonts=F4-10.9 iscore=0.10 bbox=307.28,192.83,525.55,203.73       :                                                   sumes  that it complies with the Leipzig Glossing
+line=569 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,179.28,525.55,190.18       :                                                   Rules (Bickel et al., 2008). These rules not only
+line=570 tag=O fonts=F4-10.9 iscore=0.44 bbox=307.28,165.73,525.55,176.64       :                                                   prescribe formatting aspects of IGT but also pro-
+line=571 tag=O fonts=F4-10.9 iscore=0.40 bbox=307.28,152.18,525.55,163.09       :                                                   vide a set of licensed ‘grams’, or tags for grammat-
+line=572 tag=O fonts=F4-10.9,F4-8.7 iscore=0.20 bbox=307.28,138.63,525.27,149.54:                                                   ical properties that appear in the gloss line. GRAM
+line=573 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,125.08,525.55,135.99       :                                                   scans for the grams associated with case, and as-
+line=574 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,111.53,483.04,122.44       :                                                   signs case systems according to Table 3.
+line=575 tag=O fonts=F4-10.9 iscore=0.14 bbox=318.19,97.98,525.55,108.89        :                                                     This methodology  is simple to implement and
+
+doc_id=W13-2710 page=6 block_id=6-11 bbox=319.93,78.92,485.3,88.71 label=trbbb 576 576
+line=576 tag=O fonts=F4-6.0,F4-9.0 bbox=319.93,78.92,485.3,88.71:                                                                     ^{6}English’s residual case system is of this type.
+
+doc_id=W13-2710 page=6 block_id=6-12 bbox=293.32,44.91,304.23,55.82 label=b 577 577
+line=577 tag=O fonts=F1-10.9 bbox=293.32,44.91,304.23,55.82:                                          79
+
+doc_id=W13-2710 page=7 block_id=7-1 bbox=72.0,279.2,290.27,779.03 label=tlt 578 614
+line=578 tag=O fonts=F4-10.9 bbox=72.0,768.12,290.27,779.03                    : expected  to work well given  Leipzig-compliant
+line=579 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,754.57,290.27,765.48        : IGT. However,  since it does not model the func-
+line=580 tag=O fonts=F4-10.9 iscore=0.40 bbox=72.0,741.02,290.27,751.93        : tion of case, it is dependent on the IGT authors’
+line=581 tag=O fonts=F4-10.9 iscore=0.40 bbox=72.0,727.48,290.27,738.38        : choice of gram symbols, and may  be confused by
+line=582 tag=O fonts=F4-10.9,F4-8.7 iscore=0.22 bbox=72.0,713.93,290.27,724.84 : either alternative case names (e.g., SBJ and OBJ for
+line=583 tag=O fonts=F4-10.9,F4-8.7 iscore=0.11 bbox=72.0,700.38,290.27,711.29 : nominative and accusative or LOC for ergative in
+line=584 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,686.83,290.27,697.74        : languages where it is homophonous with the loca-
+line=585 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,673.28,290.27,684.19        : tive case) or by other grams which collide with the
+line=586 tag=O fonts=F4-10.9,F4-8.7 iscore=0.10 bbox=72.0,659.73,290.27,670.64 : case name-space  (such as NOM  for nominalizer).
+line=587 tag=O fonts=F4-10.9 iscore=0.10 bbox=72.0,646.18,290.27,657.09        : It also only handles four of the nine case systems
+line=588 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,632.63,208.04,643.54        : (albeit the most frequent ones).
+line=589 tag=O fonts=F4-10.9,F4-8.7 iscore=0.00 bbox=82.91,617.93,290.27,628.84:    Method  2, called SAO, is more  theoretically
+line=590 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,604.38,290.27,615.29        : motivated, builds on the RiPLes  approach used
+line=591 tag=O fonts=F4-10.9 iscore=0.44 bbox=72.0,590.83,290.27,601.74        : in inferring word order, and is designed  to be
+line=592 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,577.28,290.27,588.19        : robust to idiosyncratic glossing conventions. In
+line=593 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,563.73,290.27,574.64        : this methodology, we  first identify the S, A and
+line=594 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,550.18,290.27,561.09        : O  arguments by projecting the information from
+line=595 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,536.63,290.27,547.54        : the parse of  the English translation (including
+line=596 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,523.09,290.27,533.99        : the function tags) to the source sentence (and its
+line=597 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,509.54,290.27,520.45        : glosses). We discard all items which do not appear
+line=598 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,495.99,290.27,506.9         : to be simple transitive or intransitive clauses with
+line=599 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,482.44,290.27,493.35        : all arguments overt, and then collect all grams for
+line=600 tag=O fonts=F4-10.9 iscore=0.56 bbox=72.0,468.89,290.27,479.8         : each argument  type (from all words within in the
+line=601 tag=O fonts=F4-10.9 iscore=0.44 bbox=72.0,455.34,290.27,466.25        : NP, including head nouns as well as determiners
+line=602 tag=O fonts=F4-10.9 iscore=0.38 bbox=72.0,441.79,290.27,452.7         : and adjectives). While there are many grammati-
+line=603 tag=O fonts=F4-10.9 iscore=0.40 bbox=72.0,428.24,290.27,439.15        : cal features that can be marked on NPs (such as
+line=604 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,414.69,290.27,425.6         : number,  definiteness, honorifics, etc.), the only
+line=605 tag=O fonts=F4-10.9 iscore=0.43 bbox=72.0,401.14,290.27,412.05        : ones that should correlate strongly with grammat-
+line=606 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,387.59,290.27,398.5         : ical function are case-marking grams.  Further-
+line=607 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,374.04,290.27,384.95        : more, in any given NP, while case may be multi-
+line=608 tag=O fonts=F4-10.9 iscore=0.10 bbox=72.0,360.5,290.27,371.4          : ply marked, we only expect one type of case gram
+line=609 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,346.95,290.27,357.85        : to appear. We thus assume that the most frequent
+line=610 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,333.4,290.27,344.31         : gram  for each argument   type is a case marker (if
+line=611 tag=O fonts=F4-10.9 iscore=0.60 bbox=72.0,319.85,290.27,330.76        : there are any) and assign the  case system accord-
+line=612 tag=O fonts=F10-8.0,F4-10.9 iscore=0.36 bbox=72.0,304.66,290.27,317.21: ing to the following rules, where S_{g}, O_{g} and A_{g} de-
+line=613 tag=O fonts=F4-10.9 iscore=0.18 bbox=72.0,292.75,290.27,303.66        : note the most frequent grams associated with these
+line=614 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,279.2,215.9,290.11          : argument  positions, respectively:
+
+doc_id=W13-2710 page=7 block_id=7-2 bbox=83.38,151.96,290.27,271.27 label=tlbt 615 623
+line=615 tag=O fonts=F10-8.0,F11-10.9,F4-10.9,F5-10.9 bbox=83.38,258.72,266.39,271.27            :    • Nominative-accusative: S_{g}=A_{g}, S_{g}≠O_{g}
+line=616 tag=O fonts=F10-8.0,F11-10.9,F4-10.9,F5-10.9 iscore=0.50 bbox=83.38,245.17,251.0,257.72 :    • Ergative-absolutive: S_{g}=O_{g}, S_{g}≠A_{g}
+line=617 tag=O fonts=F10-8.0,F11-10.9,F4-10.9,F5-10.9 iscore=0.25 bbox=83.38,231.62,290.27,244.17:    • No case: S_{g}=A_{g}=O_{g}, or S_{g}≠A_{g}≠O_{g} and S_{g},
+line=618 tag=O fonts=F10-8.0,F4-10.9 iscore=0.20 bbox=93.82,218.07,290.27,230.62                 :      A_{g}, O_{g} also present on each of the other ar-
+line=619 tag=O fonts=F4-10.9 iscore=0.20 bbox=93.82,206.16,152.3,217.07                          :      gument types
+line=620 tag=O fonts=F10-8.0,F11-10.9,F4-10.9,F5-10.9 iscore=0.12 bbox=83.38,190.98,290.27,203.52:    • Tripartite: S_{g}≠A_{g}≠O_{g}, and S_{g}, A_{g}, O_{g} (vir-
+line=621 tag=O fonts=F4-10.9 iscore=0.14 bbox=93.82,179.06,287.53,189.97                         :      tually) absent from the other argument types
+line=622 tag=O fonts=F10-8.0,F11-10.9,F4-10.9,F5-10.9 iscore=0.22 bbox=83.38,163.88,290.27,176.42:    • Split-S: S_{g}≠A_{g}≠O_{g}, and A_{g} and O_{g} are both
+line=623 tag=O fonts=F4-10.9 iscore=0.44 bbox=93.82,151.96,274.21,162.87                         :      present in the list for the S argument type
+
+doc_id=W13-2710 page=7 block_id=7-3 bbox=72.0,78.92,290.27,144.03 label=tlbb 624 628
+line=624 tag=O fonts=F4-10.9 bbox=82.91,133.12,290.27,144.03           :    Here, we’re using Split-S to stand in for both
+line=625 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,119.57,290.27,130.48: Split-S and Fluid-S. These are both systems where
+line=626 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,106.02,290.27,116.93: some  S arguments  are marked like A, and some
+line=627 tag=O fonts=F4-10.9 iscore=0.10 bbox=72.0,92.47,290.27,103.38 : like O. In Split-S, which is taken depends on the
+line=628 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,78.92,290.27,89.83  : verb. In Fluid-S, it depends on the interpretation of
+
+doc_id=W13-2710 page=7 block_id=7-4 bbox=307.28,646.18,525.55,779.03 label=trtt 629 638
+line=629 tag=O fonts=F4-10.9 bbox=307.28,768.12,525.55,779.03                   :                                                   the verb. These could be distinguished by looking
+line=630 tag=O fonts=F4-10.9 iscore=0.44 bbox=307.28,754.57,525.55,765.48       :                                                   for intransitive verbs that appear more than once in
+line=631 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,741.03,525.55,751.93       :                                                   the data and checking whether their S arguments
+line=632 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,727.48,470.81,738.38       :                                                   all have consistently A or O marking.
+line=633 tag=O fonts=F4-10.9 iscore=0.20 bbox=318.19,713.93,525.55,724.84       :                                                      This system is agnostic as to the spelling of the
+line=634 tag=O fonts=F4-10.9 iscore=0.20 bbox=307.28,700.38,525.55,711.29       :                                                   case grams.  By  relying on more analysis of the
+line=635 tag=O fonts=F4-10.9,F4-8.7 iscore=0.44 bbox=307.28,686.83,525.55,697.74:                                                   IGT  than GRAM,  it also introduces new kinds of
+line=636 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,673.28,525.55,684.19       :                                                   brittleness. Recognizing the difference between
+line=637 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,659.73,525.55,670.64       :                                                   grams  being present and (virtually) absent makes
+line=638 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,646.18,444.55,657.09       :                                                   the system susceptible to noise.
+
+doc_id=W13-2710 page=7 block_id=7-5 bbox=307.28,437.83,525.55,635.63 label=trtbt 639 653
+line=639 tag=O fonts=F3-10.9 bbox=307.28,624.72,365.76,635.63                   :                                                    5.2  Results
+line=640 tag=O fonts=F4-10.9 iscore=0.20 bbox=307.28,607.25,525.55,618.16       :                                                    Table 4 shows the results for the inference of case-
+line=641 tag=O fonts=F4-10.9,F4-8.7 iscore=0.40 bbox=307.28,593.7,525.55,604.61 :                                                    marking systems. Currently GRAM  performs best,
+line=642 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,580.15,525.55,591.06       :                                                    but both methods  generally perform better than
+line=643 tag=O fonts=F4-10.9,F4-8.7 iscore=0.29 bbox=307.28,566.6,525.27,577.51 :                                                    the baseline. The better performance of GRAM
+line=644 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,553.05,525.55,563.96       :                                                    is expected, given the small size and generally
+line=645 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,539.5,525.55,550.41        :                                                    Leipzig-compliant glossing of our data sets. In
+line=646 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,525.95,525.55,536.86       :                                                    future work, we  plan to incorporate data from
+line=647 tag=O fonts=F4-10.9 iscore=0.50 bbox=307.28,512.4,525.55,523.31        :                                                    ODIN,  which is likely less consistently annotated
+line=648 tag=O fonts=F4-10.9,F4-8.7 iscore=0.22 bbox=307.28,498.85,525.55,509.76:                                                    but more voluminous,  and we  expect SAO to be
+line=649 tag=O fonts=F4-10.9,F4-8.7 iscore=0.11 bbox=307.28,485.3,499.33,496.21 :                                                    more robust than GRAM  to this kind of data.
+line=650 tag=O fonts=F4-7.2,F4-9.0 iscore=0.00 bbox=347.86,468.12,484.96,477.09 :                                                            Dataset  GRAM   SAO    Baseline
+line=651 tag=O fonts=F4-9.0 iscore=1.00 bbox=348.08,457.76,474.26,466.73        :                                                            DEV1     0.900  0.700  0.400
+line=652 tag=O fonts=F4-9.0 iscore=1.00 bbox=348.08,447.8,474.26,456.76         :                                                            DEV2     0.900  0.500  0.500
+line=653 tag=O fonts=F4-7.2,F4-9.0 iscore=1.00 bbox=348.08,437.83,474.26,446.8  :                                                            TEST     0.545  0.545  0.455
+
+doc_id=W13-2710 page=7 block_id=7-6 bbox=318.01,416.45,514.82,427.36 label=trtbb 654 654
+line=654 tag=O fonts=F4-10.9 bbox=318.01,416.45,514.82,427.36:                                                    Table 4: Accuracy of case-marking inference
+
+doc_id=W13-2710 page=7 block_id=7-7 bbox=307.28,250.13,525.55,396.53 label=trbt 655 665
+line=655 tag=O fonts=F4-10.9,F4-8.7 bbox=318.19,385.62,525.54,396.53            :                                                    We find that GRAM is sometimes able to do well
+line=656 tag=O fonts=F4-10.9 iscore=0.20 bbox=307.28,372.07,525.55,382.98       :                                                  when RiPLes  gives alignment errors. For exam-
+line=657 tag=O fonts=F4-10.9,F4-8.7 iscore=0.33 bbox=307.28,358.52,525.55,369.43:                                                  ple, Old Japanese is a NOM-ACC language, but the
+line=658 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,344.97,525.55,355.88       :                                                  case-marking grams (associated to postpositions)
+line=659 tag=O fonts=F4-10.9,F4-8.7 iscore=0.27 bbox=307.28,331.42,525.55,342.33:                                                  are not aligned to the NP arguments, so SAO is not
+line=660 tag=O fonts=F4-10.9 iscore=0.45 bbox=307.28,317.87,525.55,328.78       :                                                  able to judge their distribution. On the other hand,
+line=661 tag=O fonts=F4-10.9,F4-8.7 iscore=0.44 bbox=307.55,304.32,525.55,315.23:                                                  SAO prevails when non-standard grams are used,
+line=662 tag=O fonts=F4-10.9,F4-8.7 iscore=0.25 bbox=307.28,290.77,525.54,301.68:                                                  such as the NOM-ACC language Hupdeh, which is
+line=663 tag=O fonts=F4-10.9,F4-8.7 iscore=0.25 bbox=307.28,277.22,525.54,288.13:                                                  annotated with SUBJ and OBJ grams. This comple-
+line=664 tag=O fonts=F4-10.9 iscore=0.50 bbox=307.28,263.68,525.55,274.58       :                                                  mentarity suggests scope for system combination,
+line=665 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,250.13,442.51,261.04       :                                                  which we leave to future work.
+
+doc_id=W13-2710 page=7 block_id=7-8 bbox=307.28,227.29,471.23,239.24 label=trbbt 666 666
+line=666 tag=O fonts=F3-12.0 bbox=307.28,227.29,471.23,239.24:                                        6  Discussion and Future Work
+
+doc_id=W13-2710 page=7 block_id=7-9 bbox=307.28,180.2,525.55,218.21 label=trbbbt 667 669
+line=667 tag=O fonts=F4-10.9 bbox=307.28,207.3,525.55,218.21             :                                                    Our initial results are promising, but also show
+line=668 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,193.75,525.55,204.66:                                                    remaining room for improvement.  Error analysis
+line=669 tag=O fonts=F4-10.9 iscore=0.17 bbox=307.28,180.2,479.59,191.11 :                                                    suggests two main directions to pursue:
+
+doc_id=W13-2710 page=7 block_id=7-10 bbox=307.28,78.92,525.55,171.13 label=trbbbb 670 676
+line=670 tag=O fonts=F3-10.9,F4-10.9 bbox=307.28,160.22,525.55,171.13    :                                                     Overcoming   testsuite bias In both the word or-
+line=671 tag=O fonts=F4-10.9 iscore=0.40 bbox=307.28,146.67,525.55,157.58:                                                     der and case system  tasks, we see the effect of
+line=672 tag=O fonts=F4-10.9 iscore=0.50 bbox=307.28,133.12,525.55,144.03:                                                     testsuite bias on our system results. The testsuites
+line=673 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,119.57,525.55,130.48:                                                     for freer word order languages can be artificially
+line=674 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,106.02,525.55,116.93:                                                     dominated by a particular word order that the test-
+line=675 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,92.47,525.55,103.38 :                                                     suite author found convenient.  Further, the re-
+line=676 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,78.92,525.55,89.83  :                                                     stricted vocabulary used in testsuites, combined
+
+doc_id=W13-2710 page=7 block_id=7-11 bbox=293.32,44.91,304.23,55.82 label=b 677 677
+line=677 tag=O fonts=F1-10.9 bbox=293.32,44.91,304.23,55.82:                                          80
+
+doc_id=W13-2710 page=8 block_id=8-1 bbox=72.0,373.6,290.27,779.03 label=tlt 678 707
+line=678 tag=O fonts=F4-10.9 bbox=72.0,768.12,290.27,779.03             : with a general preference for animates as subjects,
+line=679 tag=O fonts=F4-10.9 iscore=0.38 bbox=72.0,754.57,290.27,765.48 : leads to stems and certain grams potentially being
+line=680 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,741.02,202.78,751.93 : misidentified as case markers.
+line=681 tag=O fonts=F4-10.9 iscore=0.00 bbox=82.91,726.67,290.27,737.58:    We  believe that these aspects of testsuite bias
+line=682 tag=O fonts=F4-10.9 iscore=0.10 bbox=72.0,713.13,290.27,724.03 : are not typical of our true target input data, viz.,
+line=683 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,699.58,290.27,710.49 : the  larger collections of IGT  created by  field
+line=684 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,686.03,290.27,696.94 : projects. On the other hand, there may be other as-
+line=685 tag=O fonts=F4-10.9 iscore=0.10 bbox=72.0,672.48,290.27,683.39 : pects of testsuites which are simplifying the prob-
+line=686 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,658.93,290.27,669.84 : lem  and to which  our current methods are over-
+line=687 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,645.38,290.27,656.29 : fitted. To address these issues, we intend to look
+line=688 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,631.83,290.27,642.74 : to larger datasets in future work, both IGT collec-
+line=689 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,618.28,290.27,629.19 : tions from field projects and IGT from ODIN. For
+line=690 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,604.73,290.27,615.64 : the field projects, we will need to construct choices
+line=691 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,591.18,290.27,602.09 : files. For ODIN, we  can search for data from the
+line=692 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,577.63,262.78,588.54 : languages we  already have choices files for.
+line=693 tag=O fonts=F4-10.9 iscore=0.00 bbox=82.91,563.28,290.27,574.19:    As  we  move  from  testsuites to test corpora
+line=694 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,549.73,290.27,560.64 : (e.g., narratives collected in documentary linguis-
+line=695 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,536.19,290.27,547.09 : tics projects), we expect to find different distribu-
+line=696 tag=O fonts=F4-10.9 iscore=0.38 bbox=72.0,522.64,290.27,533.55 : tions of word order types. Our current methodol-
+line=697 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,509.09,290.27,520.0  : ogy for extracting word order is based on idealized
+line=698 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,495.54,290.27,506.45 : locations in our word order space for each strict
+line=699 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,481.99,290.27,492.9  : word  order type. Working with naturally occurring
+line=700 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,468.44,290.27,479.35 : corpora it should be possible to gain a more em-
+line=701 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,454.89,290.27,465.8  : pirically based understanding of the relationship
+line=702 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,441.34,290.27,452.25 : between  underlying word order and sentence type
+line=703 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,427.79,290.27,438.7  : distributions. It will be particularly interesting to
+line=704 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,414.24,290.27,425.15 : see how  stable these relationships are across lan-
+line=705 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,400.69,290.27,411.6  : guages  with the same underlying word order type
+line=706 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,387.14,290.27,398.05 : but from  different language families and/or with
+line=707 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,373.6,276.22,384.5   : differences in other typological characteristics.
+
+doc_id=W13-2710 page=8 block_id=8-2 bbox=72.0,78.92,290.27,360.82 label=tlb 708 728
+line=708 tag=O fonts=F3-10.9,F4-10.9 bbox=72.0,349.91,290.27,360.82           : Better handling  of unaligned words   The other
+line=709 tag=O fonts=F4-10.9 iscore=0.11 bbox=72.0,336.36,290.27,347.27       : main  source of error is words  that remain un-
+line=710 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,322.81,290.27,333.72       : aligned in the projected syntactic structure and
+line=711 tag=O fonts=F4-10.9 iscore=0.29 bbox=72.0,309.26,290.27,320.17       : thus only  loosely incorporated into the syntax
+line=712 tag=O fonts=F4-10.9 iscore=0.38 bbox=72.0,295.71,290.27,306.62       : trees. This includes items like case marking adpo-
+line=713 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,282.16,290.27,293.07       : sitions in Japanese, which are unaligned because
+line=714 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,268.61,290.27,279.52       : there is no corresponding word  in English, and
+line=715 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,255.06,290.27,265.97       : auxiliaries in Welsh, which are unaligned when
+line=716 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,241.52,290.27,252.42       : the English translation doesn’t happen to use an
+line=717 tag=O fonts=F4-10.9,F4-8.7 iscore=0.12 bbox=72.0,227.97,290.27,238.88: auxiliary. In the former case, our SAO  method
+line=718 tag=O fonts=F4-10.9 iscore=0.38 bbox=72.0,214.42,290.27,225.33       : for case system extraction doesn’t include the case
+line=719 tag=O fonts=F4-10.9 iscore=0.25 bbox=72.0,200.87,290.27,211.78       : grams in the set of grams for each NP. In the latter,
+line=720 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,187.32,290.27,198.23       : the word order inference system is unable to pick
+line=721 tag=O fonts=F4-10.9 iscore=0.56 bbox=72.0,173.77,290.27,184.68       : up on the VSO  order represented as Aux+S+[VP].
+line=722 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,160.22,290.27,171.13       : Simply fixing the attachment of the auxiliaries will
+line=723 tag=O fonts=F4-10.9 iscore=0.09 bbox=72.0,146.67,290.27,157.58       : not be enough in this case, as the word order infer-
+line=724 tag=O fonts=F4-10.9 iscore=0.45 bbox=72.0,133.12,290.27,144.03       : ence algorithm will need to be extended to han-
+line=725 tag=O fonts=F4-10.9 iscore=0.56 bbox=72.0,119.57,290.27,130.48       : dle auxiliaries, but fixing the alignment is the first
+line=726 tag=O fonts=F4-10.9 iscore=0.22 bbox=72.0,106.02,290.27,116.93       : step. Alignment problems are also the main reason
+line=727 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,92.47,290.27,103.38        : our initial attempts to extract information about
+line=728 tag=O fonts=F4-10.9 iscore=0.38 bbox=72.0,78.92,290.27,89.83         : the order of determiners and  nouns haven’t yet
+
+doc_id=W13-2710 page=8 block_id=8-3 bbox=307.28,305.51,525.55,779.03 label=trt 729 763
+line=729 tag=O fonts=F4-10.9 bbox=307.28,768.12,524.5,779.03             :                                                    been able to beat the most-frequent-type baseline.
+line=730 tag=O fonts=F4-10.9 iscore=0.29 bbox=318.19,753.6,525.55,764.51 :                                                       Better handling of these unaligned  words  is
+line=731 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,740.05,525.55,750.96:                                                    a non-trivial task, and will require bringing in
+line=732 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,726.51,525.55,737.41:                                                    sources of knowledge  other than the structure of
+line=733 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,712.96,525.55,723.87:                                                    the English translation. The information we have
+line=734 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,699.41,525.55,710.32:                                                    to leverage in this regard comes mainly from the
+line=735 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,685.86,525.55,696.77:                                                    gloss line and from general linguistic/typological
+line=736 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,672.31,525.55,683.22:                                                    knowledge  which  can be added to the algorithm.
+line=737 tag=O fonts=F4-10.9 iscore=0.40 bbox=307.28,658.76,525.55,669.67:                                                    That is, there are types of grams which are canon-
+line=738 tag=O fonts=F4-10.9 iscore=0.10 bbox=307.28,645.21,525.55,656.12:                                                    ically associated with verbal projections and types
+line=739 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,631.66,525.55,642.57:                                                    of grams canonically associated with nominal pro-
+line=740 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,618.11,525.55,629.02:                                                    jections. When  these grams  occur on unaligned
+line=741 tag=O fonts=F4-10.9 iscore=0.43 bbox=307.28,604.56,525.55,615.47:                                                    elements, we  can hypothesize  that the elements
+line=742 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,591.01,525.55,601.92:                                                    are auxiliaries and case-marking adpositions re-
+line=743 tag=O fonts=F4-10.9 iscore=0.17 bbox=307.28,577.46,525.55,588.37:                                                    spectively. Further typological considerations will
+line=744 tag=O fonts=F4-10.9 iscore=0.17 bbox=307.28,563.92,525.55,574.82:                                                    motivate heuristics for modifying tree structures
+line=745 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,550.37,437.56,561.27:                                                    based on these classifications.
+line=746 tag=O fonts=F4-10.9 iscore=0.00 bbox=318.19,535.85,525.55,546.76:                                                       Other directions for future work include extend-
+line=747 tag=O fonts=F4-10.9 iscore=0.38 bbox=307.28,522.3,525.55,533.21 :                                                    ing this methodology to other aspects of grammat-
+line=748 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,508.75,525.55,519.66:                                                    ical description, including additional high-level
+line=749 tag=O fonts=F4-10.9 iscore=0.20 bbox=307.28,495.2,525.55,506.11 :                                                    systems (e.g., argument optionality), discovering
+line=750 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,481.65,525.55,492.56:                                                    the range of morphosyntactic features active in a
+line=751 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,468.1,525.55,479.01 :                                                    language, and  describing and populating lexical
+line=752 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,454.55,525.55,465.46:                                                    types (e.g., common nouns  with a particular gen-
+line=753 tag=O fonts=F4-10.9 iscore=0.20 bbox=307.28,441.0,525.55,451.91 :                                                    der). Once  we are able to answer enough  of the
+line=754 tag=O fonts=F4-10.9 iscore=0.20 bbox=307.28,427.45,525.55,438.36:                                                    questionnaire that the customization system is able
+line=755 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,413.9,525.55,424.81 :                                                    to output a grammar,  interesting options for de-
+line=756 tag=O fonts=F4-10.9 iscore=0.50 bbox=307.28,400.35,525.55,411.26:                                                    tailed evaluation will become available. In par-
+line=757 tag=O fonts=F4-10.9 iscore=0.10 bbox=307.28,386.81,525.55,397.71:                                                    ticular, we will be able to parse the IGT (includ-
+line=758 tag=O fonts=F4-10.9 iscore=0.10 bbox=307.28,373.26,525.55,384.16:                                                    ing held-out examples)  with the resulting gram-
+line=759 tag=O fonts=F4-10.9 iscore=0.12 bbox=307.28,359.71,525.55,370.62:                                                    mar, and then compare the resulting semantic rep-
+line=760 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,346.16,525.55,357.07:                                                    resentations to those produced by parsing the En-
+line=761 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,332.61,525.55,343.52:                                                    glish translations with tools that produce compara-
+line=762 tag=O fonts=F4-10.9 iscore=0.43 bbox=307.28,319.06,525.55,329.97:                                                    ble semantic representations for English (using the
+line=763 tag=O fonts=F4-10.9 iscore=0.29 bbox=307.28,305.51,516.5,316.42 :                                                    English Resource Grammar   (Flickinger, 2000)).
+
+doc_id=W13-2710 page=8 block_id=8-4 bbox=307.28,278.38,479.2,290.34 label=trbt 764 764
+line=764 tag=O fonts=F3-12.0 bbox=307.28,278.38,479.2,290.34:                                        7  Conclusions and Future Work
+
+doc_id=W13-2710 page=8 block_id=8-5 bbox=307.28,78.93,525.55,265.97 label=trbb 765 778
+line=765 tag=O fonts=F4-10.9 bbox=307.28,255.06,525.55,265.97            :                                                     In this paper we have presented  an approach to
+line=766 tag=O fonts=F4-10.9 iscore=0.22 bbox=307.28,241.52,525.55,252.42:                                                     combining two types of linguistic resources—IGT,
+line=767 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,227.97,525.55,238.88:                                                     as produced by documentary linguists and a cross-
+line=768 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,214.42,525.55,225.33:                                                     linguistic grammar  resource  supporting  preci-
+line=769 tag=O fonts=F4-10.9 iscore=0.17 bbox=307.28,200.87,525.55,211.78:                                                     sion parsing and generation—to create language-
+line=770 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,187.32,525.55,198.23:                                                     specific resources which can help enrich language
+line=771 tag=O fonts=F4-10.9 iscore=0.14 bbox=307.28,173.77,525.55,184.68:                                                     documentation  and  support language  revitaliza-
+line=772 tag=O fonts=F4-10.9 iscore=0.11 bbox=307.28,160.22,525.55,171.13:                                                     tion efforts. In addition to presenting the broad vi-
+line=773 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,146.67,525.55,157.58:                                                     sion of the project, we have reported initial results
+line=774 tag=O fonts=F4-10.9 iscore=0.33 bbox=307.28,133.12,525.55,144.03:                                                     in two case studies as a proof-of-concept. Though
+line=775 tag=O fonts=F4-10.9 iscore=0.17 bbox=307.28,119.57,525.55,130.48:                                                     there is still a ways to go, we find these initial re-
+line=776 tag=O fonts=F4-10.9 iscore=0.25 bbox=307.28,106.02,525.55,116.93:                                                     sults a promising indication of the approach’s abil-
+line=777 tag=O fonts=F4-10.9 iscore=0.18 bbox=307.28,92.47,525.55,103.38 :                                                     ity to assist in the preservation of the key type of
+line=778 tag=O fonts=F4-10.9 iscore=0.09 bbox=307.28,78.93,490.91,89.83  :                                                     cultural heritage that is linguistic systems.
+
+doc_id=W13-2710 page=8 block_id=8-6 bbox=293.32,44.91,304.23,55.82 label=b 779 779
+line=779 tag=O fonts=F1-10.9 bbox=293.32,44.91,304.23,55.82:                                          81
+
+doc_id=W13-2710 page=9 block_id=9-1 bbox=72.0,768.12,165.53,780.08 label=tltt 780 780
+line=780 tag=O fonts=F3-12.0 bbox=72.0,768.12,165.53,780.08: Acknowledgments
+
+doc_id=W13-2710 page=9 block_id=9-2 bbox=72.0,598.51,290.27,758.46 label=tltb 781 792
+line=781 tag=O fonts=F4-10.9 bbox=72.0,747.55,290.27,758.46             : We  are grateful to the students in Ling 567 at the
+line=782 tag=O fonts=F4-10.9 iscore=0.09 bbox=72.0,734.0,290.27,744.91  : University of Washington  who  created the test-
+line=783 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,720.45,290.27,731.36 : suites and choices files used as development and
+line=784 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,706.91,290.27,717.81 : test data in this work and to the three anonymous
+line=785 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,693.36,279.91,704.27 : reviewers for helpful comments and discussion.
+line=786 tag=O fonts=F4-10.9 iscore=0.00 bbox=82.91,679.81,290.27,690.72:    This material is based upon work  supported
+line=787 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,666.26,290.27,677.17 : by the National Science Foundation under Grant
+line=788 tag=O fonts=F4-10.9 iscore=0.14 bbox=72.0,652.71,290.27,663.62 : No. BCS-1160274.    Any  opinions, findings, and
+line=789 tag=O fonts=F4-10.9 iscore=0.33 bbox=72.0,639.16,290.27,650.07 : conclusions or recommendations expressed in this
+line=790 tag=O fonts=F4-10.9 iscore=0.20 bbox=72.0,625.61,290.27,636.52 : material are those of the author(s) and do not nec-
+line=791 tag=O fonts=F4-10.9 iscore=0.30 bbox=72.0,612.06,290.27,622.97 : essarily reflect the views of the National Science
+line=792 tag=O fonts=F4-10.9 iscore=0.12 bbox=72.0,598.51,124.27,609.42 : Foundation.
+
+doc_id=W13-2710 page=9 block_id=9-3 bbox=72.0,562.36,127.54,574.32 label=tlbttt 793 793
+line=793 tag=O fonts=F3-12.0 bbox=72.0,562.36,127.54,574.32: References
+
+doc_id=W13-2710 page=9 block_id=9-4 bbox=72.0,479.24,290.27,554.95 label=tlbttb 794 800
+line=794 tag=O fonts=F4-10.0 bbox=72.0,544.99,290.27,554.95                     : Steven Abney  and  Steven Bird. 2010.   The human
+line=795 tag=O fonts=F4-10.0 iscore=0.12 bbox=82.91,534.03,290.27,543.99        :    language project: building a universal corpus of the
+line=796 tag=O fonts=F4-10.0,F7-10.0 iscore=0.25 bbox=82.91,523.07,290.27,533.04:    world’s languages. In Proceedings of the 48th An-
+line=797 tag=O fonts=F7-10.0 iscore=0.12 bbox=82.91,512.11,290.27,522.08        :    nual Meeting of the Association for Computational
+line=798 tag=O fonts=F4-10.0,F7-10.0 iscore=0.14 bbox=82.91,501.15,290.27,511.12:    Linguistics, ACL ’10, pages 88–97,  Stroudsburg,
+line=799 tag=O fonts=F4-10.0 iscore=0.33 bbox=82.91,490.2,290.27,500.16         :    PA, USA.  Association for Computational Linguis-
+line=800 tag=O fonts=F4-10.0 iscore=0.17 bbox=82.91,479.24,99.24,489.2          :    tics.
+
+doc_id=W13-2710 page=9 block_id=9-5 bbox=72.0,416.17,290.27,469.97 label=tlbtb 801 805
+line=801 tag=O fonts=F4-10.0 bbox=72.0,460.01,290.27,469.97                     : Dorothee Beerman  and Lars Hellan. 2011.  Induc-
+line=802 tag=O fonts=F4-10.0,F7-10.0 iscore=0.11 bbox=82.91,449.05,290.27,459.01:    ing grammar from IGT. In Proceedings of the 5th
+line=803 tag=O fonts=F7-10.0 iscore=0.22 bbox=82.91,438.09,290.27,448.05        :    Language and Technology Conference: Human Lan-
+line=804 tag=O fonts=F7-10.0 iscore=0.29 bbox=82.91,427.13,290.27,437.09        :    guage Technologies as a Challenge for Computer
+line=805 tag=O fonts=F7-10.0 iscore=0.29 bbox=82.91,416.17,228.55,426.13        :    Science and Linguistics (LTC 2011).
+
+doc_id=W13-2710 page=9 block_id=9-6 bbox=72.0,353.11,290.27,406.9 label=tlbbt 806 810
+line=806 tag=O fonts=F4-10.0 bbox=72.0,396.94,290.27,406.9              : Dorothee Beermann  and Pavel Mihaylov. 2009. Type-
+line=807 tag=O fonts=F4-10.0 iscore=0.43 bbox=82.91,385.98,290.27,395.95:    Craft: Linguistic data and knowledge sharing, open
+line=808 tag=O fonts=F4-10.0 iscore=0.29 bbox=82.91,375.02,290.27,384.99:    access and linguistic methodology. Paper presented
+line=809 tag=O fonts=F4-10.0 iscore=0.50 bbox=82.91,364.06,290.27,374.03:    at the Workshop on Small Tools in Cross-linguistic
+line=810 tag=O fonts=F4-10.0 iscore=0.38 bbox=82.91,353.11,282.82,363.07:    Research, University of Utrecht. The Netherlands.
+
+doc_id=W13-2710 page=9 block_id=9-7 bbox=72.0,246.2,290.27,343.84 label=tlbbbt 811 819
+line=811 tag=O fonts=F4-10.0 bbox=72.0,333.88,290.27,343.84                     : Emily  M. Bender, Dan Flickinger, and Stephan Oepen.
+line=812 tag=O fonts=F4-10.0 iscore=0.43 bbox=82.91,322.92,290.27,332.88        :    2002. The grammar  matrix: An open-source starter-
+line=813 tag=O fonts=F4-10.0 iscore=0.43 bbox=82.91,311.96,290.27,321.92        :    kit for the rapid development of cross-linguistically
+line=814 tag=O fonts=F4-10.0 iscore=0.29 bbox=82.91,301.0,290.27,310.96         :    consistent broad-coverage precision grammars. In
+line=815 tag=O fonts=F4-10.0 iscore=0.14 bbox=82.91,290.04,290.27,300.0         :    John Carroll, Nelleke Oostdijk, and Richard Sut-
+line=816 tag=O fonts=F4-10.0,F7-10.0 iscore=0.29 bbox=82.91,279.08,290.27,289.04:    cliffe, editors, Proceedings of the Workshop on
+line=817 tag=O fonts=F7-10.0 iscore=0.14 bbox=82.91,268.12,290.27,278.09        :    Grammar   Engineering and Evaluation at the 19th
+line=818 tag=O fonts=F7-10.0 iscore=0.29 bbox=82.91,257.16,290.27,267.13        :    International Conference on  Computational  Lin-
+line=819 tag=O fonts=F4-10.0,F7-10.0 iscore=0.20 bbox=82.91,246.2,229.53,256.17 :    guistics, pages 8–14, Taipei, Taiwan.
+
+doc_id=W13-2710 page=9 block_id=9-8 bbox=72.0,194.1,290.27,236.94 label=tlbbbbt 820 823
+line=820 tag=O fonts=F4-10.0 bbox=72.0,226.97,290.27,236.94                     : Emily  M. Bender, Scott Drellishak, Antske Fokkens,
+line=821 tag=O fonts=F4-10.0 iscore=0.00 bbox=82.91,216.02,290.27,225.98        :    Laurie Poulson, and Safiyyah Saleem. 2010. Gram-
+line=822 tag=O fonts=F4-10.0,F7-10.0 iscore=0.43 bbox=82.91,205.06,290.27,215.02:    mar customization. Research on Language & Com-
+line=823 tag=O fonts=F4-10.0,F7-10.0 iscore=0.14 bbox=82.91,194.1,288.51,204.06 :    putation, pages 1–50. 10.1007/s11168-010-9070-1.
+
+doc_id=W13-2710 page=9 block_id=9-9 bbox=72.0,109.11,290.27,184.83 label=tlbbbbbt 824 830
+line=824 tag=O fonts=F4-10.0 bbox=72.0,174.87,290.27,184.83                     : Emily M. Bender, Sumukh  Ghodke, Timothy Baldwin,
+line=825 tag=O fonts=F4-10.0 iscore=0.12 bbox=82.91,163.91,290.27,173.87        :    and Rebecca Dridan. 2012a. From database to tree-
+line=826 tag=O fonts=F4-10.0 iscore=0.12 bbox=82.91,152.95,290.27,162.91        :    bank: Enhancing hypertext grammars with grammar
+line=827 tag=O fonts=F4-10.0 iscore=0.14 bbox=82.91,141.99,290.27,151.95        :    engineering and treebank search. In Sebastian Nord-
+line=828 tag=O fonts=F4-10.0,F7-10.0 iscore=0.14 bbox=82.91,131.03,290.27,140.99:    hoff and Karl-Ludwig G. Poggeman, editors, Elec-
+line=829 tag=O fonts=F4-10.0,F7-10.0 iscore=0.14 bbox=82.91,120.07,290.26,130.04:    tronic Grammaticography, pages 179–206. Univer-
+line=830 tag=O fonts=F4-10.0 iscore=0.40 bbox=82.91,109.11,207.74,119.08        :    sity of Hawaii Press, Honolulu.
+
+doc_id=W13-2710 page=9 block_id=9-10 bbox=72.0,78.92,290.27,99.85 label=tlbbbbbb 831 832
+line=831 tag=O fonts=F4-10.0 bbox=72.0,89.88,290.27,99.85             : Emily M. Bender, David Wax, and Michael Wayne
+line=832 tag=O fonts=F4-10.0 iscore=0.14 bbox=82.91,78.92,290.27,88.89:   Goodman.  2012b. From IGT to precision grammar:
+
+doc_id=W13-2710 page=9 block_id=9-11 bbox=318.19,757.16,525.54,778.09 label=trt 833 834
+line=833 tag=O fonts=F4-10.0,F7-10.0 bbox=318.19,768.12,525.54,778.09            :                                                       French verbal morphology. In LSA Annual Meeting
+line=834 tag=O fonts=F4-10.0,F7-10.0 iscore=0.14 bbox=318.19,757.16,420.14,767.13:                                                       Extended Abstracts 2012.
+
+doc_id=W13-2710 page=9 block_id=9-12 bbox=307.28,690.52,525.55,744.32 label=trbt 835 839
+line=835 tag=O fonts=F4-10.0 bbox=307.28,734.36,525.55,744.32                    :                                                     Emily  M. Bender.  2007.  Combining  research and
+line=836 tag=O fonts=F4-10.0 iscore=0.14 bbox=318.19,723.4,525.55,733.36         :                                                        pedagogy in the development of a crosslinguistic
+line=837 tag=O fonts=F4-10.0 iscore=0.29 bbox=318.19,712.44,525.55,722.41        :                                                        grammar  resource. In Tracy Holloway King and
+line=838 tag=O fonts=F4-10.0,F7-10.0 iscore=0.38 bbox=318.19,701.48,525.55,711.45:                                                        Emily M. Bender, editors, Proceedings of the GEAF
+line=839 tag=O fonts=F4-10.0,F7-10.0 iscore=0.25 bbox=318.19,690.52,519.01,700.49:                                                        2007 Workshop, Stanford, CA. CSLI Publications.
+
+doc_id=W13-2710 page=9 block_id=9-13 bbox=307.28,612.93,525.55,677.68 label=trbbtt 840 845
+line=840 tag=O fonts=F4-10.0 bbox=307.28,667.72,525.55,677.68            :                                                       Balthasar Bickel, Bernard Comrie, and Martin Haspel-
+line=841 tag=O fonts=F4-10.0 iscore=0.14 bbox=318.19,656.76,525.55,666.73:                                                          math.  2008.   The  Leipzig glossing rules: Con-
+line=842 tag=O fonts=F4-10.0 iscore=0.14 bbox=318.19,645.8,525.55,655.77 :                                                          ventions for interlinear morpheme-by-morpheme
+line=843 tag=O fonts=F4-10.0 iscore=0.29 bbox=318.19,634.84,525.55,644.81:                                                          glosses. Max Planck Institute for Evolutionary An-
+line=844 tag=O fonts=F4-10.0 iscore=0.14 bbox=318.19,623.89,525.55,633.85:                                                          thropology and Department of Linguistics, Univer-
+line=845 tag=O fonts=F4-10.0 iscore=0.17 bbox=318.19,612.93,378.79,622.89:                                                          sity of Leipzig.
+
+doc_id=W13-2710 page=9 block_id=9-14 bbox=307.28,579.16,525.54,600.09 label=trbbtb 846 847
+line=846 tag=O fonts=F4-10.0,F7-10.0 bbox=307.28,590.12,525.54,600.09    :                                                       Barry J. Blake. 2001.  Case.  Cambridge  University
+line=847 tag=O fonts=F4-10.0 iscore=0.17 bbox=318.19,579.16,453.78,589.13:                                                          Press, Cambridge, second edition.
+
+doc_id=W13-2710 page=9 block_id=9-15 bbox=307.28,512.52,525.55,566.32 label=trbbbt 848 852
+line=848 tag=O fonts=F4-10.0 bbox=307.28,556.36,525.55,566.32                    :                                                      Bernard Comrie. 2011a. Alignment of case marking of
+line=849 tag=O fonts=F4-10.0 iscore=0.11 bbox=318.19,545.4,525.55,555.36         :                                                         full noun phrases. In Matthew S. Dryer and Martin
+line=850 tag=O fonts=F4-10.0,F7-10.0 iscore=0.33 bbox=318.19,534.44,525.55,544.41:                                                         Haspelmath, editors, The World Atlas of Language
+line=851 tag=O fonts=F4-10.0,F7-10.0 iscore=0.29 bbox=318.19,523.48,525.54,533.45:                                                         Structures Online. Max Planck Digital Library, Mu-
+line=852 tag=O fonts=F4-10.0 iscore=0.14 bbox=318.19,512.52,337.83,522.49        :                                                         nich.
+
+doc_id=W13-2710 page=9 block_id=9-16 bbox=307.28,456.84,525.55,499.68 label=trbbbbtt 853 856
+line=853 tag=O fonts=F4-10.0 bbox=307.28,489.72,525.55,499.68                    :                                                      Bernard Comrie. 2011b. Alignment of case marking of
+line=854 tag=O fonts=F4-10.0 iscore=0.25 bbox=318.19,478.76,525.55,488.72        :                                                        pronouns. In Matthew S. Dryer and Martin Haspel-
+line=855 tag=O fonts=F4-10.0,F7-10.0 iscore=0.38 bbox=318.19,467.8,525.54,477.77 :                                                        math, editors, The World Atlas of Language Struc-
+line=856 tag=O fonts=F4-10.0,F7-10.0 iscore=0.25 bbox=318.19,456.84,520.56,466.81:                                                        tures Online. Max Planck Digital Library, Munich.
+
+doc_id=W13-2710 page=9 block_id=9-17 bbox=307.28,379.25,525.55,444.0 label=trbbbbtb 857 862
+line=857 tag=O fonts=F4-10.0 bbox=307.28,434.04,525.55,444.0                     :                                                       Hal Daumé   III and Lyle Campbell. 2007. A Bayesian
+line=858 tag=O fonts=F4-10.0 iscore=0.00 bbox=318.19,423.08,525.55,433.04        :                                                          model for discovering typological implications. In
+line=859 tag=O fonts=F7-10.0 iscore=0.11 bbox=318.19,412.12,525.55,422.09        :                                                          Proceedings of the 45th Annual Meeting of the As-
+line=860 tag=O fonts=F4-10.0,F7-10.0 iscore=0.44 bbox=318.19,401.16,525.54,411.13:                                                          sociation of Computational Linguistics, pages 65–
+line=861 tag=O fonts=F4-10.0 iscore=0.14 bbox=318.19,390.2,525.55,400.17         :                                                          72, Prague, Czech Republic, June. Association for
+line=862 tag=O fonts=F4-10.0 iscore=0.14 bbox=318.19,379.25,426.68,389.21        :                                                          Computational Linguistics.
+
+doc_id=W13-2710 page=9 block_id=9-18 bbox=307.28,323.56,525.55,366.4 label=trbbbbbt 863 866
+line=863 tag=O fonts=F4-10.0,F7-10.0 bbox=307.28,356.44,525.54,366.4             :                                                       Scott Drellishak. 2009.   Widespread But  Not Uni-
+line=864 tag=O fonts=F7-10.0 iscore=0.00 bbox=318.19,345.48,525.55,355.45        :                                                          versal: Improving the Typological Coverage of the
+line=865 tag=O fonts=F4-10.0,F7-10.0 iscore=0.29 bbox=318.19,334.52,525.54,344.49:                                                          Grammar  Matrix. Ph.D. thesis, University of Wash-
+line=866 tag=O fonts=F4-10.0 iscore=0.14 bbox=318.19,323.56,346.14,333.53        :                                                          ington.
+
+doc_id=W13-2710 page=9 block_id=9-19 bbox=307.28,267.88,525.55,310.72 label=trbbbbbbtt 867 870
+line=867 tag=O fonts=F4-10.0 bbox=307.28,300.76,525.55,310.72                    :                                                       Matthew S. Dryer. 2011. Order of subject, object and
+line=868 tag=O fonts=F4-10.0 iscore=0.12 bbox=318.19,289.8,525.55,299.77         :                                                         verb. In Matthew S. Dryer and Martin Haspelmath,
+line=869 tag=O fonts=F4-10.0,F7-10.0 iscore=0.38 bbox=318.19,278.84,525.54,288.81:                                                         editors, The World Atlas of Language Structures On-
+line=870 tag=O fonts=F4-10.0,F7-10.0 iscore=0.12 bbox=318.19,267.88,486.33,277.85:                                                         line. Max Planck Digital Library, Munich.
+
+doc_id=W13-2710 page=9 block_id=9-20 bbox=307.28,223.16,525.55,255.04 label=trbbbbbbtb 871 873
+line=871 tag=O fonts=F4-10.0 bbox=307.28,245.08,525.55,255.04                    :                                                        Scott Farrar and Terry Langendoen. 2003. A linguistic
+line=872 tag=O fonts=F4-10.0,F7-10.0 iscore=0.14 bbox=318.19,234.12,525.54,244.08:                                                           ontology for the semantic web. Glot International,
+line=873 tag=O fonts=F4-10.0 iscore=0.14 bbox=318.19,223.16,358.31,233.13        :                                                           7:97–100.
+
+doc_id=W13-2710 page=9 block_id=9-21 bbox=307.28,167.48,525.55,210.32 label=trbbbbbbbt 874 877
+line=874 tag=O fonts=F4-10.0 bbox=307.28,200.36,525.55,210.32                   :                                                       Dan  Flickinger. 2000. On  building a more efficient
+line=875 tag=O fonts=F4-10.0,F7-10.0 iscore=0.00 bbox=318.19,189.4,525.55,199.36:                                                          grammar  by exploiting types. Natural Language
+line=876 tag=O fonts=F4-10.0,F7-10.0 iscore=0.12 bbox=318.19,178.44,525.55,188.4:                                                          Engineering, 6 (1) (Special Issue on Efficient Pro-
+line=877 tag=O fonts=F4-10.0 iscore=0.12 bbox=318.19,167.48,432.48,177.45       :                                                          cessing with HPSG):15 – 28.
+
+doc_id=W13-2710 page=9 block_id=9-22 bbox=307.28,78.92,525.55,154.64 label=trbbbbbbbb 878 884
+line=878 tag=O fonts=F4-10.0 bbox=307.28,144.68,525.55,154.64                    :                                                       Ryan  Georgi, Fei Xia, and  William Lewis.   2010.
+line=879 tag=O fonts=F4-10.0 iscore=0.29 bbox=318.19,133.72,525.55,143.68        :                                                          Comparing  language similarity across genetic and
+line=880 tag=O fonts=F4-10.0,F7-10.0 iscore=0.17 bbox=318.19,122.76,525.54,132.72:                                                          typologically-based groupings. In Proceedings of
+line=881 tag=O fonts=F7-10.0 iscore=0.17 bbox=318.19,111.8,525.55,121.76         :                                                          the 23rd International Conference on  Computa-
+line=882 tag=O fonts=F4-10.0,F7-10.0 iscore=0.33 bbox=318.19,100.84,525.54,110.81:                                                          tional Linguistics (Coling 2010), pages 385–393,
+line=883 tag=O fonts=F4-10.0 iscore=0.17 bbox=318.19,89.88,525.55,99.85          :                                                          Beijing, China, August. Coling 2010  Organizing
+line=884 tag=O fonts=F4-10.0 iscore=0.17 bbox=318.19,78.92,364.96,88.89          :                                                          Committee.
+
+doc_id=W13-2710 page=9 block_id=9-23 bbox=293.32,44.91,304.23,55.82 label=b 885 885
+line=885 tag=O fonts=F1-10.9 bbox=293.32,44.91,304.23,55.82:                                          82
+
+doc_id=W13-2710 page=10 block_id=10-1 bbox=72.0,724.29,290.27,778.09 label=tlt 886 890
+line=886 tag=O fonts=F4-10.0 bbox=72.0,768.12,290.27,778.09                     : Ryan  Georgi, Fei Xia, and William Lewis. 2012. Im-
+line=887 tag=O fonts=F4-10.0 iscore=0.25 bbox=82.91,757.16,290.27,767.13        :    proving dependency parsing with interlinear glossed
+line=888 tag=O fonts=F4-10.0,F7-10.0 iscore=0.43 bbox=82.91,746.21,290.27,756.17:    text and syntactic projection. In Proceedings of
+line=889 tag=O fonts=F4-10.0,F7-10.0 iscore=0.29 bbox=82.91,735.25,290.27,745.21:    COLING   2012: Posters, pages 371–380, Mumbai,
+line=890 tag=O fonts=F4-10.0 iscore=0.17 bbox=82.91,724.29,151.24,734.25        :    India, December.
+
+doc_id=W13-2710 page=10 block_id=10-2 bbox=72.0,659.75,290.27,713.55 label=tlbtt 891 895
+line=891 tag=O fonts=F4-10.0 bbox=72.0,703.59,290.27,713.55                     : Ken   Hale,  Michael   Krauss,  Lucille J.  Wata-
+line=892 tag=O fonts=F4-10.0 iscore=0.33 bbox=82.91,692.63,290.27,702.59        :    homigie,  Akira Y.  Yamamoto,   Colette Craig,
+line=893 tag=O fonts=F4-10.0 iscore=0.14 bbox=82.91,681.67,290.27,691.63        :    LaVerne Masayesva Jeanne, and Nora C. England.
+line=894 tag=O fonts=F4-10.0,F7-10.0 iscore=0.29 bbox=82.91,670.71,290.27,680.67:    1992. Endangered languages. Language, 68(1):pp.
+line=895 tag=O fonts=F4-10.0 iscore=0.20 bbox=82.91,659.75,105.33,669.71        :    1–42.
+
+doc_id=W13-2710 page=10 block_id=10-3 bbox=72.0,606.17,290.27,649.01 label=tlbtb 896 899
+line=896 tag=O fonts=F4-10.0 bbox=72.0,639.05,290.27,649.01                     : Martin Haspelmath, Matthew  S. Dryer, David Gil, and
+line=897 tag=O fonts=F4-10.0,F7-10.0 iscore=0.29 bbox=82.91,628.09,290.27,638.05:    Bernard Comrie, editors. 2008.  The World  Atlas
+line=898 tag=O fonts=F4-10.0,F7-10.0 iscore=0.14 bbox=82.91,617.13,290.27,627.1 :    of Language Structures Online. Max Planck Digital
+line=899 tag=O fonts=F4-10.0 iscore=0.14 bbox=82.91,606.17,217.2,616.14         :    Library, Munich. http://wals.info.
+
+doc_id=W13-2710 page=10 block_id=10-4 bbox=72.0,486.84,290.27,595.44 label=tlbbtt 900 909
+line=900 tag=O fonts=F4-10.0 bbox=72.0,585.47,290.27,595.44                     : Sabine  Lehmann,  Stephan  Oepen,  Sylvie Regnier-
+line=901 tag=O fonts=F4-10.0 iscore=0.00 bbox=82.91,574.51,290.27,584.48        :    Prost, Klaus Netter, Veronika Lux, Judith Klein,
+line=902 tag=O fonts=F4-10.0 iscore=0.14 bbox=82.91,563.56,290.27,573.52        :    Kirsten Falkedal, Frederik Fouvry, Dominique Esti-
+line=903 tag=O fonts=F4-10.0 iscore=0.29 bbox=82.91,552.6,290.26,562.56         :    val, Eva Dauphin, Hervè Compagnion, Judith Baur,
+line=904 tag=O fonts=F4-10.0 iscore=0.14 bbox=82.91,541.64,290.27,551.6         :    Lorna Balkan, and Doug  Arnold. 1996.  TSNLP:
+line=905 tag=O fonts=F4-10.0,F7-10.0 iscore=0.12 bbox=82.91,530.68,290.27,540.64:    Test suites for natural language processing. In Pro-
+line=906 tag=O fonts=F7-10.0 iscore=0.12 bbox=82.91,519.72,290.27,529.68        :    ceedings of the 16th conference on Computational
+line=907 tag=O fonts=F4-10.0,F7-10.0 iscore=0.25 bbox=82.91,508.76,290.27,518.72:    linguistics - Volume 2, COLING  ’96, pages 711–
+line=908 tag=O fonts=F4-10.0 iscore=0.25 bbox=82.91,497.8,290.27,507.77         :    716, Stroudsburg, PA, USA. Association for Com-
+line=909 tag=O fonts=F4-10.0 iscore=0.14 bbox=82.91,486.84,172.02,496.81        :    putational Linguistics.
+
+doc_id=W13-2710 page=10 block_id=10-5 bbox=72.0,422.31,290.27,476.11 label=tlbbtb 910 914
+line=910 tag=O fonts=F4-10.0 bbox=72.0,466.14,290.27,476.11                     : William  D. Lewis  and Fei Xia.   2008.   Automati-
+line=911 tag=O fonts=F4-10.0 iscore=0.14 bbox=82.91,455.18,290.27,465.15        :    cally identifying computationally relevant typolog-
+line=912 tag=O fonts=F4-10.0,F7-10.0 iscore=0.38 bbox=82.91,444.22,290.27,454.19:    ical features. In Proceedings of the Third Interna-
+line=913 tag=O fonts=F7-10.0 iscore=0.12 bbox=82.91,433.27,290.27,443.23        :    tional Joint Conference on Natural Language Pro-
+line=914 tag=O fonts=F4-10.0,F7-10.0 iscore=0.43 bbox=82.91,422.31,253.9,432.27 :    cessing, pages 685–690, Hyderabad, India.
+
+doc_id=W13-2710 page=10 block_id=10-6 bbox=72.0,368.73,290.27,411.57 label=tlbbbtt 915 918
+line=915 tag=O fonts=F4-10.0 bbox=72.0,401.61,290.27,411.57                     : William D. Lewis. 2006. ODIN: A  model for adapting
+line=916 tag=O fonts=F4-10.0,F7-10.0 iscore=0.00 bbox=82.91,390.65,290.27,400.61:    and enriching legacy infrastructure. In Proceedings
+line=917 tag=O fonts=F7-10.0 iscore=0.29 bbox=82.91,379.69,290.27,389.65        :    of the e-Humanities Workshop, Held in cooperation
+line=918 tag=O fonts=F4-10.0,F7-10.0 iscore=0.14 bbox=82.91,368.73,194.69,378.69:    with e-Science, Amsterdam.
+
+doc_id=W13-2710 page=10 block_id=10-7 bbox=72.0,282.28,290.27,357.99 label=tlbbbtb 919 925
+line=919 tag=O fonts=F4-10.0 bbox=72.0,348.03,290.27,357.99                     : Tahira Naseem, Regina Barzilay, and Amir Globerson.
+line=920 tag=O fonts=F4-10.0 iscore=0.00 bbox=82.91,337.07,290.27,347.03        :    2012. Selective sharing for multilingual dependency
+line=921 tag=O fonts=F4-10.0,F7-10.0 iscore=0.12 bbox=82.91,326.11,290.27,336.07:    parsing. In Proceedings of the 50th Annual Meet-
+line=922 tag=O fonts=F7-10.0 iscore=0.12 bbox=82.91,315.15,290.27,325.12        :    ing of the Association for Computational Linguis-
+line=923 tag=O fonts=F4-10.0,F7-10.0 iscore=0.25 bbox=82.91,304.19,290.27,314.16:    tics (Volume 1: Long Papers), pages 629–637, Jeju
+line=924 tag=O fonts=F4-10.0 iscore=0.12 bbox=82.91,293.23,290.27,303.2         :    Island, Korea, July. Association for Computational
+line=925 tag=O fonts=F4-10.0 iscore=0.17 bbox=82.91,282.28,129.68,292.24        :    Linguistics.
+
+doc_id=W13-2710 page=10 block_id=10-8 bbox=72.0,239.66,290.27,271.54 label=tlbbbbt 926 928
+line=926 tag=O fonts=F4-10.0 bbox=72.0,261.57,290.27,271.54                     : Sebastian Nordhoff and Karl-Ludwig  G. Poggeman,
+line=927 tag=O fonts=F4-10.0,F7-10.0 iscore=0.20 bbox=82.91,250.62,290.26,260.58:    editors. 2012. Electronic Grammaticography. Uni-
+line=928 tag=O fonts=F4-10.0 iscore=0.20 bbox=82.91,239.66,220.31,249.62        :    versity of Hawaii Press, Honolulu.
+
+doc_id=W13-2710 page=10 block_id=10-9 bbox=72.0,175.12,290.27,228.92 label=tlbbbbbt 929 933
+line=929 tag=O fonts=F4-10.0,F7-10.0 bbox=72.0,218.96,290.27,228.92            : Carl Pollard and Ivan A. Sag.  1994.  Head-Driven
+line=930 tag=O fonts=F4-10.0,F7-10.0 iscore=0.00 bbox=82.91,208.0,290.26,217.96:    Phrase Structure Grammar.  Studies in Contempo-
+line=931 tag=O fonts=F4-10.0 iscore=0.29 bbox=82.91,197.04,290.27,207.0        :    rary Linguistics. The University of Chicago Press
+line=932 tag=O fonts=F4-10.0 iscore=0.29 bbox=82.91,186.08,290.27,196.04       :    and CSLI  Publications, Chicago, IL and Stanford,
+line=933 tag=O fonts=F4-10.0 iscore=0.14 bbox=82.91,175.12,99.24,185.08        :    CA.
+
+doc_id=W13-2710 page=10 block_id=10-10 bbox=72.0,121.54,290.27,164.38 label=tlbbbbbbt 934 937
+line=934 tag=O fonts=F4-10.0 bbox=72.0,154.42,290.27,164.38                     : Carmela  Toews. 2009. The expression of tense and as-
+line=935 tag=O fonts=F4-10.0,F7-10.0 iscore=0.33 bbox=82.91,143.46,290.27,153.42:    pect in Shona. Selected Proceedings of the 39th An-
+line=936 tag=O fonts=F4-10.0,F7-10.0 iscore=0.22 bbox=82.91,132.5,290.27,142.47 :    nual Converence on African Linguistics, pages 32–
+line=937 tag=O fonts=F4-10.0 iscore=0.14 bbox=82.91,121.54,95.36,131.51         :    41.
+
+doc_id=W13-2710 page=10 block_id=10-11 bbox=72.0,78.92,290.27,110.81 label=tlbbbbbbb 938 940
+line=938 tag=O fonts=F4-10.0 bbox=72.0,100.84,290.27,110.81                   : Tony  Woodbury.   2003.  Defining documentary  lin-
+line=939 tag=O fonts=F4-10.0,F7-10.0 iscore=0.00 bbox=82.91,89.88,290.27,99.85:    guistics. Language documentation and description,
+line=940 tag=O fonts=F4-10.0 iscore=0.20 bbox=82.91,78.92,114.73,88.89        :    1(1):35.
+
+doc_id=W13-2710 page=10 block_id=10-12 bbox=307.28,724.29,525.55,778.09 label=trt 941 945
+line=941 tag=O fonts=F4-10.0 bbox=307.28,768.12,525.55,778.09                    :                                                       Fei Xia and William  D. Lewis.   2007.   Multilin-
+line=942 tag=O fonts=F4-10.0 iscore=0.00 bbox=318.19,757.16,525.55,767.13        :                                                         gual structural projection across interlinear text.
+line=943 tag=O fonts=F4-10.0,F7-10.0 iscore=0.25 bbox=318.19,746.21,525.54,756.17:                                                         In Proc. of the Conference on Human   Language
+line=944 tag=O fonts=F4-10.0,F7-10.0 iscore=0.25 bbox=318.19,735.25,525.54,745.21:                                                         Technologies (HLT/NAACL   2007), pages 452–459,
+line=945 tag=O fonts=F4-10.0 iscore=0.20 bbox=318.19,724.29,405.53,734.25        :                                                         Rochester, New York.
+
+doc_id=W13-2710 page=10 block_id=10-13 bbox=307.28,660.53,525.55,714.33 label=trbt 946 950
+line=946 tag=O fonts=F4-10.0 bbox=307.28,704.36,525.55,714.33                    :                                                        Fei Xia and William D. Lewis.  2008.  Repurposing
+line=947 tag=O fonts=F4-10.0 iscore=0.14 bbox=318.19,693.4,525.55,703.37         :                                                          theoretical linguistic data for tool development and
+line=948 tag=O fonts=F4-10.0,F7-10.0 iscore=0.14 bbox=318.19,682.44,525.54,692.41:                                                          search. In Proceedings of the Third International
+line=949 tag=O fonts=F4-10.0,F7-10.0 iscore=0.14 bbox=318.19,671.49,525.54,681.45:                                                          Joint Conference on Natural Language Processing,
+line=950 tag=O fonts=F4-10.0 iscore=0.17 bbox=318.19,660.53,454.86,670.49        :                                                          pages 529–536, Hyderabad, India.
+
+doc_id=W13-2710 page=10 block_id=10-14 bbox=307.28,552.93,525.55,650.56 label=trbb 951 959
+line=951 tag=O fonts=F4-10.0 bbox=307.28,640.6,525.55,650.56                     :                                                      Fei Xia and William Lewis.  2009.  Applying  NLP
+line=952 tag=O fonts=F4-10.0 iscore=0.12 bbox=318.19,629.64,525.55,639.61        :                                                         technologies to the collection and enrichment of lan-
+line=953 tag=O fonts=F4-10.0 iscore=0.20 bbox=318.19,618.68,525.55,628.65        :                                                         guage data on the web to aid linguistic research. In
+line=954 tag=O fonts=F7-10.0 iscore=0.10 bbox=318.19,607.72,525.55,617.69        :                                                         Proceedings of the EACL 2009 Workshop  on Lan-
+line=955 tag=O fonts=F7-10.0 iscore=0.25 bbox=318.19,596.77,525.55,606.73        :                                                         guage Technology and Resources for Cultural Her-
+line=956 tag=O fonts=F7-10.0 iscore=0.29 bbox=318.19,585.81,525.55,595.77        :                                                         itage, Social Sciences, Humanities, and Education
+line=957 tag=O fonts=F4-10.0,F7-10.0 iscore=0.14 bbox=318.19,574.85,525.54,584.81:                                                         (LaTeCH – SHELT&R   2009), pages 51–59, Athens,
+line=958 tag=O fonts=F4-10.0 iscore=0.14 bbox=318.19,563.89,525.55,573.85        :                                                         Greece, March. Association for Computational Lin-
+line=959 tag=O fonts=F4-10.0 iscore=0.17 bbox=318.19,552.93,351.12,562.89        :                                                         guistics.
+
+doc_id=W13-2710 page=10 block_id=10-15 bbox=293.32,44.91,304.23,55.82 label=b 960 960
+line=960 tag=O fonts=F1-10.9 bbox=293.32,44.91,304.23,55.82:                                          83

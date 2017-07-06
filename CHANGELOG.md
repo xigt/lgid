@@ -11,6 +11,7 @@ maintainable and easy to extend.
 
 - Download Crubadan data from the `lgid.sh` command
 - `res/Crubadan.csv` index to help with downloading data
+- `sample/input/W13-2710.freki` example file
 
 ### Removed
 ### Fixed
