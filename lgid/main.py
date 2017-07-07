@@ -66,9 +66,6 @@ from lgid.features import (
     l_features,
     m_features,
 )
-from lgid.buildlms import (
-    build_from_odin
-)
 
 
 def main():
@@ -294,6 +291,8 @@ def download_crubadan_data(config):
 
 
 def build_odin_lm(config):
+    from lgid.buildlms import build_from_odin
+
     """
     Build the LMs from the odin data
     """
