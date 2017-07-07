@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i34262">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bunun" iso-639-3="bnn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3726" line-range="362-364" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="362" tag="L">        (25) iza      tama-su          ma-tashi'i    rumak-su</item>
+    <item id="o2" line="363" tag="G">             where    father-2sPoss AP-build         house-2sPoss</item>
+    <item id="o3" line="364" tag="T">             `Where   did your father build your house?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="362" tag="L">iza      tama-su          ma-tashi'i    rumak-su</item>
+    <item id="c2" line="363" tag="G">where    father-2sPoss AP-build         house-2sPoss</item>
+    <item id="c3" line="364" tag="T">Where   did your father build your house?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41105">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bunun" iso-639-3="bnn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3520" line-range="958-963" line-types="M+AC+LN L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="958" tag="M+AC+LN">          Bunun (Zeitoun 2000c)</item>
+    <item id="o2" line="959" tag="L">          (50)     a.    'is'anat        mas tina'     'uvaz-a'</item>
+    <item id="o3" line="960" tag="G">                         RF-cook-soup Obl mother kid-that.Nom</item>
+    <item id="o4" line="961" tag="L">                         pandian.</item>
+    <item id="o5" line="962" tag="G">                         vegetable</item>
+    <item id="o6" line="963" tag="T">                         `Mother cooks the soup for that kid.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="958" tag="M+AC+LN">Bunun (Zeitoun 2000c)</item>
+    <item id="c2" line="959" tag="L">'is'anat        mas tina'     'uvaz-a</item>
+    <item id="c3" line="960" tag="G">RF-cook-soup Obl mother kid-that.Nom</item>
+    <item id="c4" line="961" tag="L">pandian.</item>
+    <item id="c5" line="962" tag="G">vegetable</item>
+    <item id="c6" line="963" tag="T">Mother cooks the soup for that kid.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:37]"/>
+    <item id="p1" content="c4[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+    <item id="g1" content="c5[0:9]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:35]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i41106">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bunun" iso-639-3="bnn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3520" line-range="964-966" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="964" tag="L">                   b.    'isubu' tina'      baial 'iskaan-tan.</item>
+    <item id="o2" line="965" tag="G">                         RF-wrap mother leaf fish-that.Obl</item>
+    <item id="o3" line="966" tag="T">                         `Mother wraps that fish with the leaf.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="964" tag="L">'isubu' tina'      baial 'iskaan-tan.</item>
+    <item id="c2" line="965" tag="G">RF-wrap mother leaf fish-that.Obl</item>
+    <item id="c3" line="966" tag="T">Mother wraps that fish with the leaf.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i2018">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guyanese creole" iso-639-3="gyn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="557" line-range="528-530" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="528" tag="L+AC">  (29) Shi a aalweez/neva de a sing                           (Gibson 1986: 852f)</item>
+    <item id="o2" line="529" tag="G">        She HAB always/never DUR PROG sing</item>
+    <item id="o3" line="530" tag="T">        `She usually always/never keeps singing'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="528" tag="L+AC">Shi a aalweez/neva de a sing                           (Gibson 1986: 852f</item>
+    <item id="c2" line="529" tag="G">She HAB always/never DUR PROG sing</item>
+    <item id="c3" line="530" tag="T">She usually always/never keeps singing</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i2019">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guyanese creole" iso-639-3="gyn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="557" line-range="535-537" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="535" tag="L+AC">  (30) Jaan shuda bin kyaan get fu gu                      (Gibson 1986: 585)</item>
+    <item id="o2" line="536" tag="G">        J. MODepistemic PAST MODr MODr COMP go</item>
+    <item id="o3" line="537" tag="T">        `J. should not have been able to be allowed to go'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="535" tag="L+AC">Jaan shuda bin kyaan get fu gu                      (Gibson 1986: 585</item>
+    <item id="c2" line="536" tag="G">MODepistemic PAST MODr MODr COMP go</item>
+    <item id="c3" line="537" tag="T">should not have been able to be allowed to go</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i2060">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guyanese creole" iso-639-3="gyn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="557" line-range="1197-1199" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1197" tag="L+AC">  (53) Jaan shuda bin kyaan get fu gu     (Gibson 1986, 585)</item>
+    <item id="o2" line="1198" tag="G">        J. MODepistemic PAST MODr MODr go</item>
+    <item id="o3" line="1199" tag="T">        `J. should not have been able to be allowed to go'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1197" tag="L+AC">Jaan shuda bin kyaan get fu gu     (Gibson 1986, 585</item>
+    <item id="c2" line="1198" tag="G">MODepistemic PAST MODr MODr go</item>
+    <item id="c3" line="1199" tag="T">should not have been able to be allowed to go'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i2132">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guyanese creole" iso-639-3="gyn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="557" line-range="2313-2315" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2313" tag="L">  (31) GC Somtaim wen you don           wok yu go an bai a dringk</item>
+    <item id="o2" line="2314" tag="G">                     Subj [completive] V</item>
+    <item id="o3" line="2315" tag="T">          `Sometimes when you are finished working you go and buy a drink.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2313" tag="L">GC Somtaim wen you don           wok yu go an bai a dringk</item>
+    <item id="c2" line="2314" tag="G">Subj [completive] V</item>
+    <item id="c3" line="2315" tag="T">Sometimes when you are finished working you go and buy a drink.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

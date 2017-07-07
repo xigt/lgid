@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i2513">
+  <metadata type="xigt-meta">
+    <meta type="language" name="!kung" iso-639-3="knw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="567" line-range="846-848" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="846" tag="L">          b.   dz'heu   Xanu</item>
+    <item id="o2" line="847" tag="G">               woman book</item>
+    <item id="o3" line="848" tag="T">               'the woman's book'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="846" tag="L">dz'heu   Xanu</item>
+    <item id="c2" line="847" tag="G">woman book</item>
+    <item id="c3" line="848" tag="T">the woman's book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75615">
+  <metadata type="xigt-meta">
+    <meta type="language" name="!kung" iso-639-3="knw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="1171-1175" line-types="M+AC+LN B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1171" tag="M+AC+LN">  (26) !Kung (Khoisan; S. Africa; Snyman 1970:92):</item>
+    <item id="o2" line="1172" tag="B"></item>
+    <item id="o3" line="1173" tag="L">       dz'heu =xanu</item>
+    <item id="o4" line="1174" tag="G">       woman book</item>
+    <item id="o5" line="1175" tag="T">       `woman's book'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1171" tag="M+AC+LN">!Kung (Khoisan; S. Africa; Snyman 1970:92):</item>
+    <item id="c2" line="1172" tag="B"/>
+    <item id="c3" line="1173" tag="L">dz'heu =xanu</item>
+    <item id="c4" line="1174" tag="G">woman book</item>
+    <item id="c5" line="1175" tag="T">woman's book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77842">
+  <metadata type="xigt-meta">
+    <meta type="language" name="!xu" iso-639-3="knw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="1204-1206" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1204" tag="L">  (76) a. da'ama re ho n!eng?</item>
+    <item id="o2" line="1205" tag="G">               child      Q see eland</item>
+    <item id="o3" line="1206" tag="T">               `does the child see the eland?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1204" tag="L">da'ama re ho n!eng?</item>
+    <item id="c2" line="1205" tag="G">child      Q see eland</item>
+    <item id="c3" line="1206" tag="T">does the child see the eland?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77843">
+  <metadata type="xigt-meta">
+    <meta type="language" name="!xu" iso-639-3="knw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="1207-1209" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1207" tag="L">        b. ||e'ike re da'ama ho n!eng?</item>
+    <item id="o2" line="1208" tag="G">               today Q child             see eland</item>
+    <item id="o3" line="1209" tag="T">               `does the child see the eland today?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1207" tag="L">||e'ike re da'ama ho n!eng?</item>
+    <item id="c2" line="1208" tag="G">today Q child             see eland</item>
+    <item id="c3" line="1209" tag="T">does the child see the eland today?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113478">
+  <metadata type="xigt-meta">
+    <meta type="language" name="!xu" iso-639-3="knw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="1245-1247" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1245" tag="L">  (76) a. da'ama re ho n!eng?</item>
+    <item id="o2" line="1246" tag="G">               child      Q see eland</item>
+    <item id="o3" line="1247" tag="T">               `does the child see the eland?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1245" tag="L">da'ama re ho n!eng?</item>
+    <item id="c2" line="1246" tag="G">child      Q see eland</item>
+    <item id="c3" line="1247" tag="T">does the child see the eland?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113479">
+  <metadata type="xigt-meta">
+    <meta type="language" name="!xu" iso-639-3="knw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="1248-1250" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1248" tag="L">        b. ||e'ike re da'ama ho n!eng?</item>
+    <item id="o2" line="1249" tag="G">               today Q child             see eland</item>
+    <item id="o3" line="1250" tag="T">               `does the child see the eland today?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1248" tag="L">||e'ike re da'ama ho n!eng?</item>
+    <item id="c2" line="1249" tag="G">today Q child             see eland</item>
+    <item id="c3" line="1250" tag="T">does the child see the eland today?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

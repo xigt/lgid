@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i23321">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zaiwa" iso-639-3="atb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1272" line-range="422-425" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="422" tag="M+AC+LN">  (39)    Zaiwa [Sino-Tibetan; Lustig 2002]</item>
+    <item id="o2" line="423" tag="L">          a. Nye11               sing=31        lye31 .</item>
+    <item id="o3" line="424" tag="G">               bamboo.thong split(bamboo) also+I</item>
+    <item id="o4" line="425" tag="T">               `I am/we are splitting bamboo thongs.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="422" tag="M+AC+LN">Zaiwa [Sino-Tibetan; Lustig 2002]</item>
+    <item id="c2" line="423" tag="L">Nye11               sing=31        lye31 .</item>
+    <item id="c3" line="424" tag="G">bamboo.thong split(bamboo) also+I</item>
+    <item id="c4" line="425" tag="T">I am/we are splitting bamboo thongs.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i23322">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zaiwa" iso-639-3="atb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1272" line-range="426-428" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="426" tag="L">          b. Nui31 r55 sing=31              gvan31 -aq1 .</item>
+    <item id="o2" line="427" tag="G">               vine obj split(bamboo) put.into-sim</item>
+    <item id="o3" line="428" tag="T">               `Make thongs out of vines.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="426" tag="L">Nui31 r55 sing=31              gvan31-aq1 .</item>
+    <item id="c2" line="427" tag="G">vine obj split(bamboo) put.into-sim</item>
+    <item id="c3" line="428" tag="T">Make thongs out of vines.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i127081">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zi" iso-639-3="atb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3486" line-range="1552-1555" line-types="L-T L+AL G+CR G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1552" tag="L-T">  (107) vakasakwa vaOsi "Elders must be found."</item>
+    <item id="o2" line="1553" tag="L+AL">       va-       ka-        sak    -w         -a         va-       Osi</item>
+    <item id="o3" line="1554" tag="G+CR">            2-   ADV-       find   -          -               2-   elder</item>
+    <item id="o4" line="1555" tag="G+CR">       SP                              PASS       ADV    IP</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1552" tag="L-T">vakasakwa vaOsi "Elders must be found.</item>
+    <item id="c2" line="1553" tag="L+AL">va-ka-sak-w-a         va-Osi</item>
+    <item id="c3" line="1554 1555" tag="G+CR">SP   2-ADV-find-PASS-ADV    IP   2-elder</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i127083">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zi" iso-639-3="atb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3486" line-range="1572-1574" line-types="L-T L+AL G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1572" tag="L-T">  (109) tkaWEyE "We must go sleep."</item>
+    <item id="o2" line="1573" tag="L+AL">       t-        ka-        WEy    -E</item>
+    <item id="o3" line="1574" tag="G">       SP1PL- INJ-          sleep -    INJ</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1572" tag="L-T">tkaWEyE "We must go sleep.</item>
+    <item id="c2" line="1573" tag="L+AL">t-ka-WEy-E</item>
+    <item id="c3" line="1574" tag="G">SP1PL-INJ-sleep-INJ</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i134477">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zaiwa" iso-639-3="atb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2373" line-range="877-880" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="877" tag="M+AC+LN">       (13)   ZAIWA [Sino-Tibetan; Lustig 2002]</item>
+    <item id="o2" line="878" tag="L">              a. Nye11             sing=31         lye31</item>
+    <item id="o3" line="879" tag="G">                 bamboo.thong split(bamboo) also+I</item>
+    <item id="o4" line="880" tag="T">                 `I am/we are splitting bamboo thongs.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="877" tag="M+AC+LN">ZAIWA [Sino-Tibetan; Lustig 2002]</item>
+    <item id="c2" line="878" tag="L">Nye11             sing=31         lye31</item>
+    <item id="c3" line="879" tag="G">bamboo.thong split(bamboo) also+I</item>
+    <item id="c4" line="880" tag="T">I am/we are splitting bamboo thongs.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i134478">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zaiwa" iso-639-3="atb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2373" line-range="881-883" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="881" tag="L">              b. Nui31 r55     sing=31          gvan31-aq1</item>
+    <item id="o2" line="882" tag="G">                 vine OBJ split(bamboo) put.into-SIM</item>
+    <item id="o3" line="883" tag="T">                 `Make thongs out of vines.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="881" tag="L">Nui31 r55     sing=31          gvan31-aq1</item>
+    <item id="c2" line="882" tag="G">vine OBJ split(bamboo) put.into-SIM</item>
+    <item id="c3" line="883" tag="T">Make thongs out of vines.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

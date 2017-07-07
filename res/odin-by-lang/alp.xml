@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i64760">
+  <metadata type="xigt-meta">
+    <meta type="language" name="alune" iso-639-3="alp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3052" line-range="416-418" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="416" tag="L">         (9) Apa-le e=betu.</item>
+    <item id="o2" line="417" tag="G">               pig-nm     3s.nh=get.up4</item>
+    <item id="o3" line="418" tag="T+AC">             `The pig got up.' (Florey 2001, ex. 36)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="416" tag="L">Apa-le e=betu.</item>
+    <item id="c2" line="417" tag="G">pig-nm     3s.nh=get.up4</item>
+    <item id="c3" line="418" tag="T+AC">The pig got up.' (Florey 2001, ex. 36)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64761">
+  <metadata type="xigt-meta">
+    <meta type="language" name="alune" iso-639-3="alp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3052" line-range="419-422" line-types="L G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="419" tag="L">        (10) ... Uli leu            'ai ami-lua mo                 ne'a.      I='ai ...</item>
+    <item id="o2" line="420" tag="G+CR">                  Uli     return.home     with   1pe-two                      3s=marry</item>
+    <item id="o3" line="421" tag="G+CR">                                                            neg    dm.</item>
+    <item id="o4" line="422" tag="T+AC">             `...Uli didn't return with us two. She married ...' (Florey 2001, ex.3)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="419" tag="L">Uli leu            'ai ami-lua mo                 ne'a.      I='ai ...</item>
+    <item id="c2" line="420 421" tag="G+CR">Uli     return.home     with   1pe-two    neg    dm.        3s=marry</item>
+    <item id="c4" line="422" tag="T+AC">...Uli didn't return with us two. She married ...' (Florey 2001, ex.3)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:70]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64762">
+  <metadata type="xigt-meta">
+    <meta type="language" name="alune" iso-639-3="alp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3052" line-range="423-425" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="423" tag="L">        (11) A=due-le=i           wete-le.</item>
+    <item id="o2" line="424" tag="G">               2s sit/stay with=3s   child-nm</item>
+    <item id="o3" line="425" tag="T+AC">               `You look after the child.' (Florey 2001, ex. 5)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="423" tag="L">A=due-le=i           wete-le.</item>
+    <item id="c2" line="424" tag="G">2s sit/stay with=3s   child-nm</item>
+    <item id="c3" line="425" tag="T+AC">You look after the child.' (Florey 2001, ex. 5)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64763">
+  <metadata type="xigt-meta">
+    <meta type="language" name="alune" iso-639-3="alp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3052" line-range="433-436" line-types="L G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="433" tag="L">        (12) Ami         dulu.</item>
+    <item id="o2" line="434" tag="G+CR">                        descend</item>
+    <item id="o3" line="435" tag="G+CR">              1p.excl</item>
+    <item id="o4" line="436" tag="T+AC">              `We disembarked.' (Florey 2001, ex. 31)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="433" tag="L">Ami         dulu.</item>
+    <item id="c2" line="434 435" tag="G+CR">1p.excl   descend</item>
+    <item id="c4" line="436" tag="T+AC">We disembarked.' (Florey 2001, ex. 31)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i63188">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cubeo" iso-639-3="cub" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2559" line-range="527-533" line-types="M+LN L G L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="527" tag="M+LN">              Cubeo (Tucanoan):</item>
+    <item id="o2" line="528" tag="L">              d.     nocacu         ui     pupui        -buchibure</item>
+    <item id="o3" line="529" tag="G">                     there.one      his    bewitched    -cigar</item>
+    <item id="o4" line="530" tag="L">                     nur -teyu baacu              edameda.</item>
+    <item id="o5" line="531" tag="G">                     smoke -do      who.be.PAST come.3.PAST</item>
+    <item id="o6" line="532" tag="T">                     `He came, having smoked the bewitched cigar of the one who lives there.'</item>
+    <item id="o7" line="533" tag="M+AC">                     (Salser &amp; Salser 1977: 267)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="527" tag="M+LN">Cubeo (Tucanoan):</item>
+    <item id="c2" line="528" tag="L">nocacu         ui     pupui-buchibure</item>
+    <item id="c3" line="529" tag="G">there.one      his    bewitched-cigar</item>
+    <item id="c4" line="530" tag="L">nur-teyu baacu              edameda.</item>
+    <item id="c5" line="531" tag="G">smoke-do      who.be.PAST come.3.PAST</item>
+    <item id="c6" line="532" tag="T">He came, having smoked the bewitched cigar of the one who lives there.</item>
+    <item id="c7" line="533" tag="M+AC">Salser &amp; Salser 1977: 267</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:37]"/>
+    <item id="p1" content="c4[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+    <item id="g1" content="c5[0:37]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:70]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

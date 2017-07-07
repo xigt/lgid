@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i38366">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1201" line-range="489-493" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="489" tag="L+CR">          a. C'amwt                                   tc%kr</item>
+    <item id="o2" line="490" tag="L+CR">                                   nmam ambr</item>
+    <item id="o3" line="491" tag="L+CR">  (35)</item>
+    <item id="o4" line="492" tag="G">              C'.                  normally cabbage    cooks</item>
+    <item id="o5" line="493" tag="T">          `C'amwt normally cooks cabbage'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="489 490 491" tag="L+CR">C'amwt                nmam ambr          tc%kr</item>
+    <item id="c4" line="492" tag="G">normally cabbage    cooks</item>
+    <item id="c5" line="493" tag="T">C'amwt normally cooks cabbage</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38367">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1201" line-range="500-503" line-types="L+CR L+CR G M"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="500" tag="L+CR">          a. *C'am t               nmam ambr</item>
+    <item id="o2" line="501" tag="L+CR">  (36)</item>
+    <item id="o3" line="502" tag="G">              C'.                  normally cabbage   the cooks</item>
+    <item id="o4" line="503" tag="M">                    w            w</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="500 501" tag="L+CR">*C'am t               nmam ambr</item>
+    <item id="c3" line="502" tag="G">normally cabbage   the cooks</item>
+    <item id="c4" line="503" tag="M">w            w</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38368">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1201" line-range="504-508" line-types="L+CR L+CR G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="504" tag="L+CR">                                                          tc%kwnn</item>
+    <item id="o2" line="505" tag="L+CR">          b. C'am t ambr x ta nmam</item>
+    <item id="o3" line="506" tag="G">              C'.       cabbage the normally              cooks</item>
+    <item id="o4" line="507" tag="M">                  w</item>
+    <item id="o5" line="508" tag="T">          `C'am t normally cooks the cabbage'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="504 505" tag="L+CR">C'am t ambr x ta nmam                        tc%kwnn</item>
+    <item id="c3" line="506" tag="G">cabbage the normally              cooks</item>
+    <item id="c4" line="507" tag="M">w</item>
+    <item id="c5" line="508" tag="T">C'am t normally cooks the cabbage</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38369">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1201" line-range="513-515" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="513" tag="L">  (37) a. Gy%                    f%r%z n%k%s%m</item>
+    <item id="o2" line="514" tag="G">            dog                  horse bit</item>
+    <item id="o3" line="515" tag="T">         `A dog bit a (non-specific) horse'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="513" tag="L">Gy%                    f%r%z n%k%s%m</item>
+    <item id="c2" line="514" tag="G">dog                  horse bit</item>
+    <item id="c3" line="515" tag="T">A dog bit a (non-specific) horse</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38370">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1201" line-range="516-519" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="516" tag="L+CR">                                        n%kw%s%nm</item>
+    <item id="o2" line="517" tag="L+CR">         b. Gy% y%-f%r%z</item>
+    <item id="o3" line="518" tag="G">           dog y% horse                 bit</item>
+    <item id="o4" line="519" tag="T">         `A dog bit a (specific) horse'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="516 517" tag="L+CR">Gy% y%-f%r%z                n%kw%s%nm</item>
+    <item id="c3" line="518" tag="G">dog y% horse                 bit</item>
+    <item id="c4" line="519" tag="T">A dog bit a (specific) horse</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38371">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1201" line-range="546-548" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="546" tag="L">  (40) C'amwt y%-at ms fra.k aw%cnm</item>
+    <item id="o2" line="547" tag="G">         C'amwt y% one man money gave</item>
+    <item id="o3" line="548" tag="T">         `C'amwt gave money to a (specific or non-specific) man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="546" tag="L">C'amwt y%-at ms fra.k aw%cnm</item>
+    <item id="c2" line="547" tag="G">C'amwt y% one man money gave</item>
+    <item id="c3" line="548" tag="T">C'amwt gave money to a (specific or non-specific) man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38372">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1201" line-range="551-553" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="551" tag="L">  (41) a. C'amwt y%-tk% xwta gy% aw%cnm</item>
+    <item id="o2" line="552" tag="G">             C'amwt y% child the dog gave</item>
+    <item id="o3" line="553" tag="T">         'C'amwt gave the child a/the dog'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="551" tag="L">C'amwt y%-tk% xwta gy% aw%cnm</item>
+    <item id="c2" line="552" tag="G">C'amwt y% child the dog gave</item>
+    <item id="c3" line="553" tag="T">C'amwt gave the child a/the dog</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38373">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1201" line-range="554-555" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="554" tag="L">         b. *C'amwt y%-tk% xwta y%-gy% aw%cnm</item>
+    <item id="o2" line="555" tag="G">                C'amwt y% child the y% dog gave</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="554" tag="L">*C'amwt y%-tk% xwta y%-gy% aw%cnm</item>
+    <item id="c2" line="555" tag="G">C'amwt y% child the y% dog gave</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38390">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1201" line-range="748-751" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="748" tag="L+CR">         a. *Gy% f%r%z xwta           n%kw%s%nm</item>
+    <item id="o2" line="749" tag="L+CR">  (65)</item>
+    <item id="o3" line="750" tag="G">            dog horse the             bit</item>
+    <item id="o4" line="751" tag="T">         'A dog bit the horse'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="748 749" tag="L+CR">*Gy% f%r%z xwta           n%kw%s%nm</item>
+    <item id="c3" line="750" tag="G">dog horse the             bit</item>
+    <item id="c4" line="751" tag="T">A dog bit the horse</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38993">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1202" line-range="199-203" line-types="L+CR L+CR M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="199" tag="L+CR">          a. C'amwt                                   tc%kr</item>
+    <item id="o2" line="200" tag="L+CR">                                   nmam ambr</item>
+    <item id="o3" line="201" tag="M">  (16)</item>
+    <item id="o4" line="202" tag="G">              C'.                  normally cabbage    cooks</item>
+    <item id="o5" line="203" tag="T">          `C'amwt normally cooks cabbage'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="199 200" tag="L+CR">C'amwt                nmam ambr          tc%kr</item>
+    <item id="c3" line="201" tag="M">16</item>
+    <item id="c4" line="202" tag="G">normally cabbage    cooks</item>
+    <item id="c5" line="203" tag="T">C'amwt normally cooks cabbage</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38994">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1202" line-range="210-212" line-types="L M G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="210" tag="L">          a. *C'am t               nmam ambr</item>
+    <item id="o2" line="211" tag="M">  (17)</item>
+    <item id="o3" line="212" tag="G">              C'.                  normally cabbage   the cooks</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="210" tag="L">*C'am t               nmam ambr</item>
+    <item id="c2" line="211" tag="M">17</item>
+    <item id="c3" line="212" tag="G">normally cabbage   the cooks</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38995">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1202" line-range="214-218" line-types="L+CR L+CR G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="214" tag="L+CR">                                                          tc%kwnn</item>
+    <item id="o2" line="215" tag="L+CR">          b. C'am t ambr x ta nmam</item>
+    <item id="o3" line="216" tag="G">              C'.       cabbage the normally              cooks</item>
+    <item id="o4" line="217" tag="M">                  w</item>
+    <item id="o5" line="218" tag="T">          `C'am t normally cooks the cabbage'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="214 215" tag="L+CR">C'am t ambr x ta nmam                        tc%kwnn</item>
+    <item id="c3" line="216" tag="G">cabbage the normally              cooks</item>
+    <item id="c4" line="217" tag="M">w</item>
+    <item id="c5" line="218" tag="T">C'am t normally cooks the cabbage</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38996">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1202" line-range="223-225" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="223" tag="L">  (18) a. Gy%                    f%r%z n%k%s%m</item>
+    <item id="o2" line="224" tag="G">            dog                  horse bit</item>
+    <item id="o3" line="225" tag="T">         `A dog bit a (non-specific) horse'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="223" tag="L">Gy%                    f%r%z n%k%s%m</item>
+    <item id="c2" line="224" tag="G">dog                  horse bit</item>
+    <item id="c3" line="225" tag="T">A dog bit a (non-specific) horse</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38997">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1202" line-range="226-229" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="226" tag="L+CR">                                        n%kw%s%nm</item>
+    <item id="o2" line="227" tag="L+CR">         b. Gy% y%-f%r%z</item>
+    <item id="o3" line="228" tag="G">           dog y% horse                 bit</item>
+    <item id="o4" line="229" tag="T">         `A dog bit a (specific) horse'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="226 227" tag="L+CR">Gy% y%-f%r%z                n%kw%s%nm</item>
+    <item id="c3" line="228" tag="G">dog y% horse                 bit</item>
+    <item id="c4" line="229" tag="T">A dog bit a (specific) horse</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38998">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1202" line-range="256-258" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="256" tag="L">  (21) C'amwt y%-at ms fra.k aw%cnm</item>
+    <item id="o2" line="257" tag="G">         C'amwt y% one man money gave</item>
+    <item id="o3" line="258" tag="T">         `C'amwt gave money to a (specific or non-specific) man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="256" tag="L">C'amwt y%-at ms fra.k aw%cnm</item>
+    <item id="c2" line="257" tag="G">C'amwt y% one man money gave</item>
+    <item id="c3" line="258" tag="T">C'amwt gave money to a (specific or non-specific) man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38999">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1202" line-range="261-263" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="261" tag="L">  (22) a. C'amwt y%-tk%          xwta gy% aw%cnm</item>
+    <item id="o2" line="262" tag="G">               C'amwt y% child   the dog gave</item>
+    <item id="o3" line="263" tag="T">             ' C'amwt gave the   child a/the dog'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="261" tag="L">C'amwt y%-tk%          xwta gy% aw%cnm</item>
+    <item id="c2" line="262" tag="G">C'amwt y% child   the dog gave</item>
+    <item id="c3" line="263" tag="T">C'amwt gave the   child a/the dog</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i39000">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1202" line-range="264-265" line-types="L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="264" tag="L">         b. * C'amwt y%-tk%      xwta y%-gy% aw%cnm</item>
+    <item id="o2" line="265" tag="T">               C'amwt y% child   the y% dog gave</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="264" tag="L">* C'amwt y%-tk%      xwta y%-gy% aw%cnm</item>
+    <item id="c2" line="265" tag="T">C'amwt y% child   the y% dog gave</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i39017">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1202" line-range="438-441" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="438" tag="L">                 Gy% [vP        f%r%z n%k%s%m ]</item>
+    <item id="o2" line="439" tag="M">         (i)</item>
+    <item id="o3" line="440" tag="G">                 dog            horse bit</item>
+    <item id="o4" line="441" tag="T">                 'A dog bit a horse'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="438" tag="L">Gy% [vP        f%r%z n%k%s%m ]</item>
+    <item id="c2" line="439" tag="M">i</item>
+    <item id="c3" line="440" tag="G">dog            horse bit</item>
+    <item id="c4" line="441" tag="T">A dog bit a horse</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i39018">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1202" line-range="458-461" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="458" tag="L">         a. *Gy% f%r%z xwta           n%kw%s%nm</item>
+    <item id="o2" line="459" tag="M">  (46)</item>
+    <item id="o3" line="460" tag="G">            dog horse the             bit</item>
+    <item id="o4" line="461" tag="T">         'A dog bit the horse'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="458" tag="L">*Gy% f%r%z xwta           n%kw%s%nm</item>
+    <item id="c2" line="459" tag="M">46</item>
+    <item id="c3" line="460" tag="G">dog horse the             bit</item>
+    <item id="c4" line="461" tag="T">A dog bit the horse</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45714">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="20-22" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="20" tag="L">  a. almu       jmta            agata                    k'prnm</item>
+    <item id="o2" line="21" tag="G">     Alemu      dead            cat                      buried.3smS.3smO</item>
+    <item id="o3" line="22" tag="T">    'Alemu buried the dead cat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="20" tag="L">almu       jmta            agata                    k'prnm</item>
+    <item id="c2" line="21" tag="G">Alemu      dead            cat                      buried.3smS.3smO</item>
+    <item id="c3" line="22" tag="T">Alemu buried the dead cat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45715">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="23-25" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="23" tag="L+SY">  b. pro           jmta               agata              k'prnem</item>
+    <item id="o2" line="24" tag="G">                   dead               cat                buried.1plS.3smO</item>
+    <item id="o3" line="25" tag="T">      'We buried the dead cat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="23" tag="L+SY">pro           jmta               agata              k'prnem</item>
+    <item id="c2" line="24" tag="G">dead               cat                buried.1plS.3smO</item>
+    <item id="c3" line="25" tag="T">We buried the dead cat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45716">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="50-53" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="50" tag="M+CN">  a. Simple transitive</item>
+    <item id="o2" line="51" tag="L">    raxel        jmta            agata          k'prtnm</item>
+    <item id="o3" line="52" tag="G">    Rachel       dead            cat            buried.3sfS.3smO</item>
+    <item id="o4" line="53" tag="T">    'Rachel buried the dead cat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="50" tag="M+CN">Simple transitive</item>
+    <item id="c2" line="51" tag="L">raxel        jmta            agata          k'prtnm</item>
+    <item id="c3" line="52" tag="G">Rachel       dead            cat            buried.3sfS.3smO</item>
+    <item id="c4" line="53" tag="T">Rachel buried the dead cat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45717">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="54-57" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="54" tag="M+CN">  b. Accusative causee</item>
+    <item id="o2" line="55" tag="L">    j-raxel      jmta         agata             at-k'prnjam</item>
+    <item id="o3" line="56" tag="G">    ACC-Rachel dead           cat               CAUS-buried.1plS.3sfO</item>
+    <item id="o4" line="57" tag="T">    'We had Rachel bury the dead cat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="54" tag="M+CN">Accusative causee</item>
+    <item id="c2" line="55" tag="L">j-raxel      jmta         agata             at-k'prnjam</item>
+    <item id="c3" line="56" tag="G">ACC-Rachel dead           cat               CAUS-buried.1plS.3sfO</item>
+    <item id="c4" line="57" tag="T">We had Rachel bury the dead cat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45718">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="59-62" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="59" tag="M+CN">  c. Oblique causee</item>
+    <item id="o2" line="60" tag="L">    jmta         agata          b-raxel         at-k'prnem</item>
+    <item id="o3" line="61" tag="G">    dead         cat            OBL-Rachel      CAUS-buried.1plS.3smO</item>
+    <item id="o4" line="62" tag="T">    'We had the dead cat buried by Rachel'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="59" tag="M+CN">Oblique causee</item>
+    <item id="c2" line="60" tag="L">jmta         agata          b-raxel         at-k'prnem</item>
+    <item id="c3" line="61" tag="G">dead         cat            OBL-Rachel      CAUS-buried.1plS.3smO</item>
+    <item id="c4" line="62" tag="T">We had the dead cat buried by Rachel</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45719">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="78-82" line-types="M+CN L+SY G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="78" tag="M+CN">  a. Accusative causee</item>
+    <item id="o2" line="79" tag="L+SY">    [PROi/*arb waga trxe ] j-raxeli jmta agata at-k'prnjam</item>
+    <item id="o3" line="80" tag="G">               money get.3sfS.to ACC-R dead        cat    CAUS-buried.1plS.3sfO</item>
+    <item id="o4" line="81" tag="T">    `We had Rachel bury the dead cat in order for her (Rachel/*someone else)</item>
+    <item id="o5" line="82" tag="T">    to get money'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="78" tag="M+CN">Accusative causee</item>
+    <item id="c2" line="79" tag="L+SY">[PROi/*arb waga trxe ] j-raxeli jmta agata at-k'prnjam</item>
+    <item id="c3" line="80" tag="G">money get.3sfS.to ACC-R dead        cat    CAUS-buried.1plS.3sfO</item>
+    <item id="c4" line="81" tag="T">We had Rachel bury the dead cat in order for her (Rachel/*someone else)</item>
+    <item id="c5" line="82" tag="T">to get money</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:71]" alignment="p1"/>
+    <item id="t1" content="c5[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45720">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="83-87" line-types="M+CN L+SY G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="83" tag="M+CN">  b. Oblique causee</item>
+    <item id="o2" line="84" tag="L+SY">    [PRO*i/arb waga trxe] jmta agata b-raxeli at-k'prnem</item>
+    <item id="o3" line="85" tag="G">               money get.3sfS.to dead    cat       OBL-R CAUS-buried.1plS.3smO</item>
+    <item id="o4" line="86" tag="T">    `We had the dead cat buried by Rachel in order for her (*Rachel/someone</item>
+    <item id="o5" line="87" tag="T">    else) to get money'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="83" tag="M+CN">Oblique causee</item>
+    <item id="c2" line="84" tag="L+SY">[PRO*i/arb waga trxe] jmta agata b-raxeli at-k'prnem</item>
+    <item id="c3" line="85" tag="G">money get.3sfS.to dead    cat       OBL-R CAUS-buried.1plS.3smO</item>
+    <item id="c4" line="86" tag="T">We had the dead cat buried by Rachel in order for her (*Rachel/someone</item>
+    <item id="c5" line="87" tag="T">else) to get money</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:70]" alignment="p1"/>
+    <item id="t1" content="c5[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45723">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="468-469" line-types="M+CN L+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="468" tag="M+CN">  (12) Accusative-marked causee</item>
+    <item id="o2" line="469" tag="L+CR">                                             an-at-nbna</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="468" tag="M+CN">Accusative-marked causee</item>
+    <item id="c2" line="469" tag="L+CR">an-at-nbna</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:10]"/>
+  </tier>
+</igt>
+<igt id="i45724">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="470-472" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="470" tag="L+CR">  a. almu       j-raxel      mt'af</item>
+    <item id="o2" line="471" tag="G">     Alemu      ACC-Rachel book              NEG-CAUS-read.3msS.3fsO</item>
+    <item id="o3" line="472" tag="T">    `Alemu didn't make Rachel read the book'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="470" tag="L+CR">almu       j-raxel      mt'af</item>
+    <item id="c2" line="471" tag="G">Alemu      ACC-Rachel book              NEG-CAUS-read.3msS.3fsO</item>
+    <item id="c3" line="472" tag="T">Alemu didn't make Rachel read the book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45725">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="473-476" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="473" tag="L+CR">                                                        at-an-nbna</item>
+    <item id="o2" line="474" tag="L+CR">  b. *almu     j-raxel       mt'af</item>
+    <item id="o3" line="475" tag="G">     Alemu    ACC-Rachel book                           CAUS-NEG-read.3msS.3fsO</item>
+    <item id="o4" line="476" tag="T">    `Alemu made Rachel not read the book'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="473 474" tag="L+CR">*almu     j-raxel       mt'af                      at-an-nbna</item>
+    <item id="c3" line="475" tag="G">Alemu    ACC-Rachel book                           CAUS-NEG-read.3msS.3fsO</item>
+    <item id="c4" line="476" tag="T">Alemu made Rachel not read the book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45726">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="477-480" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="477" tag="M+CN">  (13) Oblique-marked causee</item>
+    <item id="o2" line="478" tag="L">  a. almu       mt'af         b-raxel       an-at-nbbm</item>
+    <item id="o3" line="479" tag="G">     Alemu     book           OBL-Rachel NEG-CAUS-read.3msS</item>
+    <item id="o4" line="480" tag="T">    `Alemu didn't make the book read by Raxel'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="477" tag="M+CN">Oblique-marked causee</item>
+    <item id="c2" line="478" tag="L">almu       mt'af         b-raxel       an-at-nbbm</item>
+    <item id="c3" line="479" tag="G">Alemu     book           OBL-Rachel NEG-CAUS-read.3msS</item>
+    <item id="c4" line="480" tag="T">Alemu didn't make the book read by Raxel</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45727">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="481-483" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="481" tag="L">  b. *almu     mt'af          b-raxel       at-an-nbbm</item>
+    <item id="o2" line="482" tag="G">     Alemu     book           OBL-Rachel CAUS-NEG-read.3msS</item>
+    <item id="o3" line="483" tag="T">    `Alemu made the book not be read by Raxel'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="481" tag="L">*almu     mt'af          b-raxel       at-an-nbbm</item>
+    <item id="c2" line="482" tag="G">Alemu     book           OBL-Rachel CAUS-NEG-read.3msS</item>
+    <item id="c3" line="483" tag="T">Alemu made the book not be read by Raxel</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45728">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="496-500" line-types="M+CN L+SY L+SY G T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="496" tag="M+CN">  a. Wh-island</item>
+    <item id="o2" line="497" tag="L+SY">                                       xma] j-çin ]</item>
+    <item id="o3" line="498" tag="L+SY">  ?/*zx [[man __ j-k'pr                                      jmta agata u</item>
+    <item id="o4" line="499" tag="G">     this who       REL-buried.3msS that REL-know.1sS.3smO dead cat     is</item>
+    <item id="o5" line="500" tag="T+SY">    *'This is the dead cat [whichi I know [who buried __i]]'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="496" tag="M+CN">Wh-island</item>
+    <item id="c2" line="497" tag="L+SY">xma] j-çin ]</item>
+    <item id="c3" line="498" tag="L+SY">?/*zx [[man __ j-k'pr                                      jmta agata u</item>
+    <item id="c4" line="499" tag="G">this who       REL-buried.3msS that REL-know.1sS.3smO dead cat     is</item>
+    <item id="c5" line="500" tag="T+SY">*'This is the dead cat [whichi I know [who buried __i]]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:12]"/>
+    <item id="p1" content="c3[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:69]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:55]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i45729">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="501-504" line-types="M+CN L+SY G T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="501" tag="M+CN">  b. Long distance dependency</item>
+    <item id="o2" line="502" tag="L+SY">    zx [raxel __ j-k'prtn               xma] j-çirn]             jmta agata u</item>
+    <item id="o3" line="503" tag="G">    this R       REL-buried.3sfS.3smO that REL-know.1sS3msO dead cat        is</item>
+    <item id="o4" line="504" tag="T+SY">    `This is the dead cat [whichi I know [that Rachel buried __i ]'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="501" tag="M+CN">Long distance dependency</item>
+    <item id="c2" line="502" tag="L+SY">zx [raxel __ j-k'prtn               xma] j-çirn]             jmta agata u</item>
+    <item id="c3" line="503" tag="G">this R       REL-buried.3sfS.3smO that REL-know.1sS3msO dead cat        is</item>
+    <item id="c4" line="504" tag="T+SY">This is the dead cat [whichi I know [that Rachel buried __i ]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45730">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="523-526" line-types="L+CR L+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="523" tag="L+CR">                                                                wahek'ar ban</item>
+    <item id="o2" line="524" tag="L+CR+SY">  a. [j-alm       j-at-ktne                 k'awa]</item>
+    <item id="o3" line="525" tag="G">      ACC-Alemu REL-CAUS-made.1plS.3smO coffee                  good-thing pastAUX</item>
+    <item id="o4" line="526" tag="T">    `The coffee we had Alemu make was good'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="523 524" tag="L+CR+SY">[j-alm       j-at-ktne                 k'awa]              wahek'ar ban</item>
+    <item id="c3" line="525" tag="G">ACC-Alemu REL-CAUS-made.1plS.3smO coffee                  good-thing pastAUX</item>
+    <item id="c4" line="526" tag="T">The coffee we had Alemu make was good</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45731">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="528-531" line-types="L+CR+SY L+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="528" tag="L+CR+SY">                 j-at-ktne                ms]                   almu</item>
+    <item id="o2" line="529" tag="L+CR+SY">  b. [k'awa</item>
+    <item id="o3" line="530" tag="G">      coffee     REL-CAUS-made.1plS.3smO man                    Alemu        pastAUX</item>
+    <item id="o4" line="531" tag="T">    `The man we had make coffee was Alemu</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="528 529" tag="L+CR+SY">[k'awa      j-at-ktne                ms]                   almu</item>
+    <item id="c3" line="530" tag="G">coffee     REL-CAUS-made.1plS.3smO man                    Alemu        pastAUX</item>
+    <item id="c4" line="531" tag="T">The man we had make coffee was Alemu</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:78]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45732">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="533-536" line-types="L+CR L+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="533" tag="L+CR">                                                                wahek'ar ban</item>
+    <item id="o2" line="534" tag="L+CR+SY">  a. [b-almu      j-at-ktne                   k'awa]</item>
+    <item id="o3" line="535" tag="G">      OBL-Alemu REL-CAUS-made.1plS.3smO coffee                  good-thing pastAUX</item>
+    <item id="o4" line="536" tag="T">    `The coffee we had made by Alemu was good'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="533 534" tag="L+CR+SY">[b-almu      j-at-ktne                   k'awa]            wahek'ar ban</item>
+    <item id="c3" line="535" tag="G">OBL-Alemu REL-CAUS-made.1plS.3smO coffee                  good-thing pastAUX</item>
+    <item id="c4" line="536" tag="T">The coffee we had made by Alemu was good</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45733">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="343" line-range="538-541" line-types="L+CR+SY L+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="538" tag="L+CR+SY">                 j-at-ktne                    ms]               almu</item>
+    <item id="o2" line="539" tag="L+CR+SY">  b. [k'awa</item>
+    <item id="o3" line="540" tag="G">      coffee     REL-CAUS-made.1plS.3smO man                    Alemu        pastAUX</item>
+    <item id="o4" line="541" tag="T">    `The man by whom we had coffee made was Alemu'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="538 539" tag="L+CR+SY">[k'awa      j-at-ktne                    ms]               almu</item>
+    <item id="c3" line="540" tag="G">coffee     REL-CAUS-made.1plS.3smO man                    Alemu        pastAUX</item>
+    <item id="c4" line="541" tag="T">The man by whom we had coffee made was Alemu</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:78]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i56831">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1289" line-range="40-43" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="40" tag="L+CR">             C'amw^t m^r c´k´r´c´m?</item>
+    <item id="o2" line="41" tag="L+LN+CR">        c.                                                              [Chaha]</item>
+    <item id="o3" line="42" tag="G">             C'amw^t what cooked</item>
+    <item id="o4" line="43" tag="T">             `What did C'amw^t cook?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="40 41" tag="L+CR+LN">C'amw^t m^r c´k´r´c´m?                                 [Chaha]</item>
+    <item id="c3" line="42" tag="G">C'amw^t what cooked</item>
+    <item id="c4" line="43" tag="T">What did C'amw^t cook?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71483">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2950" line-range="950-955" line-types="L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="950" tag="L+CR">  (40) a. C'amwt                                    tc%kr</item>
+    <item id="o2" line="951" tag="L+CR">                                nmam      ambr</item>
+    <item id="o3" line="952" tag="B"></item>
+    <item id="o4" line="953" tag="G">          C'.                   normally cabbage cooks</item>
+    <item id="o5" line="954" tag="B"></item>
+    <item id="o6" line="955" tag="T">       `C'amwt normally cooks cabbage'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="950 951" tag="L+CR">C'amwt                nmam      ambr      tc%kr</item>
+    <item id="c3" line="952" tag="B"/>
+    <item id="c4" line="953" tag="G">normally cabbage cooks</item>
+    <item id="c5" line="954" tag="B"/>
+    <item id="c6" line="955" tag="T">C'amwt normally cooks cabbage</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71484">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2950" line-range="957-960" line-types="L+CR L+CR B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="957" tag="L+CR">       b.*C'amwt ambr                       tc%kr</item>
+    <item id="o2" line="958" tag="L+CR">                              nmam</item>
+    <item id="o3" line="959" tag="B"></item>
+    <item id="o4" line="960" tag="G">          C'.       cabbage normally        cooks</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="957 958" tag="L+CR">b.*C'amwt ambr         nmam          tc%kr</item>
+    <item id="c3" line="959" tag="B"/>
+    <item id="c4" line="960" tag="G">cabbage normally        cooks</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71485">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2950" line-range="962-965" line-types="L+CR L+CR B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="962" tag="L+CR">  (41) a. *C'amwt                                   xwta tc%kwnn</item>
+    <item id="o2" line="963" tag="L+CR">                                nmam      ambr</item>
+    <item id="o3" line="964" tag="B"></item>
+    <item id="o4" line="965" tag="G">           C'.                  normally cabbage the cooks</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="962 963" tag="L+CR">*C'amwt               nmam      ambr      xwta tc%kwnn</item>
+    <item id="c3" line="964" tag="B"/>
+    <item id="c4" line="965" tag="G">normally cabbage the cooks</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71486">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2950" line-range="967-971" line-types="L B G B T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="967" tag="L">       b. C'amwt ambr      xwta nmam                   tc%kwnn</item>
+    <item id="o2" line="968" tag="B"></item>
+    <item id="o3" line="969" tag="G">           C'.       cabbage the normally              cooks</item>
+    <item id="o4" line="970" tag="B"></item>
+    <item id="o5" line="971" tag="T+CR">       `C'am wt normally cooks the cabbage'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="967" tag="L">C'amwt ambr      xwta nmam                   tc%kwnn</item>
+    <item id="c2" line="968" tag="B"/>
+    <item id="c3" line="969" tag="G">cabbage the normally              cooks</item>
+    <item id="c4" line="970" tag="B"/>
+    <item id="c5" line="971" tag="T+CR">C'am wt normally cooks the cabbage</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71487">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2950" line-range="978-982" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="978" tag="L">  (42) a. Gy% y%-f%r%z n%kw%s%nm</item>
+    <item id="o2" line="979" tag="B"></item>
+    <item id="o3" line="980" tag="G">            dog y% horse bit</item>
+    <item id="o4" line="981" tag="B"></item>
+    <item id="o5" line="982" tag="T">       `A dog bit a (specific) horse'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="978" tag="L">Gy% y%-f%r%z n%kw%s%nm</item>
+    <item id="c2" line="979" tag="B"/>
+    <item id="c3" line="980" tag="G">dog y% horse bit</item>
+    <item id="c4" line="981" tag="B"/>
+    <item id="c5" line="982" tag="T">A dog bit a (specific) horse</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71488">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2950" line-range="984-988" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="984" tag="L">       b. Gy% f%r%z n%k%s%m</item>
+    <item id="o2" line="985" tag="B"></item>
+    <item id="o3" line="986" tag="G">            dog horse bit</item>
+    <item id="o4" line="987" tag="B"></item>
+    <item id="o5" line="988" tag="T">       `A dog bit a (non-specific) horse'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="984" tag="L">Gy% f%r%z n%k%s%m</item>
+    <item id="c2" line="985" tag="B"/>
+    <item id="c3" line="986" tag="G">dog horse bit</item>
+    <item id="c4" line="987" tag="B"/>
+    <item id="c5" line="988" tag="T">A dog bit a (non-specific) horse</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71489">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2950" line-range="1006-1012" line-types="L+CR L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1006" tag="L+CR">                                ansy%</item>
+    <item id="o2" line="1007" tag="L+CR">               Namaga attkar</item>
+    <item id="o3" line="1008" tag="L+CR">  (43) a.</item>
+    <item id="o4" line="1009" tag="B"></item>
+    <item id="o5" line="1010" tag="G">               Namaga anything NEG-bought</item>
+    <item id="o6" line="1011" tag="B"></item>
+    <item id="o7" line="1012" tag="T">               'Namaga didn't buy anything'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1006 1007 1008" tag="L+CR">Namaga attkar    ansy%</item>
+    <item id="c4" line="1009" tag="B"/>
+    <item id="c5" line="1010" tag="G">Namaga anything NEG-bought</item>
+    <item id="c6" line="1011" tag="B"/>
+    <item id="c7" line="1012" tag="T">Namaga didn't buy anything</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71490">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2950" line-range="1014-1017" line-types="L+CR L+CR B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1014" tag="L+CR">                                sy%m</item>
+    <item id="o2" line="1015" tag="L+CR">       b. * Namaga attkar</item>
+    <item id="o3" line="1016" tag="B"></item>
+    <item id="o4" line="1017" tag="G">               Namaga anything bought</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1014 1015" tag="L+CR">* Namaga attkar       sy%m</item>
+    <item id="c3" line="1016" tag="B"/>
+    <item id="c4" line="1017" tag="G">Namaga anything bought</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71491">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2950" line-range="1020-1025" line-types="L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1020" tag="L+CR">                atts%" bk'wr% ansy%</item>
+    <item id="o2" line="1021" tag="L+CR">  (44) a.</item>
+    <item id="o3" line="1022" tag="B"></item>
+    <item id="o4" line="1023" tag="G">                anyone mule NEG-bought</item>
+    <item id="o5" line="1024" tag="B"></item>
+    <item id="o6" line="1025" tag="T">                'Anyone didn't buy a mule'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1020 1021" tag="L+CR">atts%" bk'wr% ansy%</item>
+    <item id="c3" line="1022" tag="B"/>
+    <item id="c4" line="1023" tag="G">anyone mule NEG-bought</item>
+    <item id="c5" line="1024" tag="B"/>
+    <item id="c6" line="1025" tag="T">Anyone didn't buy a mule</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71492">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2950" line-range="1027-1029" line-types="L B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1027" tag="L">          b. * atts%" bk'wr% sy%m</item>
+    <item id="o2" line="1028" tag="B"></item>
+    <item id="o3" line="1029" tag="G">                anyone mule bought</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1027" tag="L">* atts%" bk'wr% sy%m</item>
+    <item id="c2" line="1028" tag="B"/>
+    <item id="c3" line="1029" tag="G">anyone mule bought</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71493">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2950" line-range="1103-1107" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1103" tag="L">  (47) C'amwt y%-at ms fra.k aw%cnm</item>
+    <item id="o2" line="1104" tag="B"></item>
+    <item id="o3" line="1105" tag="G">         C'amwt y% one man money gave</item>
+    <item id="o4" line="1106" tag="B"></item>
+    <item id="o5" line="1107" tag="T+EX">          `C'amwt gave money to a (specific or non-specific) man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1103" tag="L">C'amwt y%-at ms fra.k aw%cnm</item>
+    <item id="c2" line="1104" tag="B"/>
+    <item id="c3" line="1105" tag="G">C'amwt y% one man money gave</item>
+    <item id="c4" line="1106" tag="B"/>
+    <item id="c5" line="1107" tag="T+EX">C'amwt gave money to a (specific or non-specific) man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71494">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2950" line-range="1123-1128" line-types="L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1123" tag="L+CR">          a. C'amwt y%-tk%     xwta gy% aw%cnm</item>
+    <item id="o2" line="1124" tag="L+CR">  (48)</item>
+    <item id="o3" line="1125" tag="B"></item>
+    <item id="o4" line="1126" tag="G">             C'amwt y% child the dog gave</item>
+    <item id="o5" line="1127" tag="B"></item>
+    <item id="o6" line="1128" tag="T">          'C'amwt gave the child a/the dog'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1123 1124" tag="L+CR">C'amwt y%-tk%     xwta gy% aw%cnm</item>
+    <item id="c3" line="1125" tag="B"/>
+    <item id="c4" line="1126" tag="G">C'amwt y% child the dog gave</item>
+    <item id="c5" line="1127" tag="B"/>
+    <item id="c6" line="1128" tag="T">C'amwt gave the child a/the dog</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71495">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2950" line-range="1130-1132" line-types="L B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1130" tag="L">          b. *C'amwt y%-tk%      xwta y%-gy% aw%cnm</item>
+    <item id="o2" line="1131" tag="B"></item>
+    <item id="o3" line="1132" tag="G">              C'amwt y% child the      y% dog gave</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1130" tag="L">*C'amwt y%-tk%      xwta y%-gy% aw%cnm</item>
+    <item id="c2" line="1131" tag="B"/>
+    <item id="c3" line="1132" tag="G">C'amwt y% child the      y% dog gave</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71514">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2950" line-range="1312-1318" line-types="L+CR L+CR B B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1312" tag="L+CR">                   f%r%z ] n%k%s%m</item>
+    <item id="o2" line="1313" tag="L+CR">  (56) Gy% [  vP</item>
+    <item id="o3" line="1314" tag="B"></item>
+    <item id="o4" line="1315" tag="B"></item>
+    <item id="o5" line="1316" tag="G">        dog        horse   bit</item>
+    <item id="o6" line="1317" tag="B"></item>
+    <item id="o7" line="1318" tag="T">       `A dog bit a (non-specific) horse'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1312 1313" tag="L+CR">Gy% [  vP   f%r%z ] n%k%s%m</item>
+    <item id="c3" line="1314" tag="B"/>
+    <item id="c4" line="1315" tag="B"/>
+    <item id="c5" line="1316" tag="G">dog        horse   bit</item>
+    <item id="c6" line="1317" tag="B"/>
+    <item id="c7" line="1318" tag="T">A dog bit a (non-specific) horse</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71527">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2950" line-range="1800-1805" line-types="L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1800" tag="L+CR">            y%-"et    w%ka</item>
+    <item id="o2" line="1801" tag="L+CR">  (77)</item>
+    <item id="o3" line="1802" tag="B"></item>
+    <item id="o4" line="1803" tag="G">            y% house roof-beam</item>
+    <item id="o5" line="1804" tag="B"></item>
+    <item id="o6" line="1805" tag="T">         'the house's roof-beams'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1800 1801" tag="L+CR">y%-"et    w%ka</item>
+    <item id="c3" line="1802" tag="B"/>
+    <item id="c4" line="1803" tag="G">y% house roof-beam</item>
+    <item id="c5" line="1804" tag="B"/>
+    <item id="c6" line="1805" tag="T">the house's roof-beams</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i83632">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3622" line-range="233-234" line-types="L G+CN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="233" tag="L">       a. ms napa sEpErEm</item>
+    <item id="o2" line="234" tag="G+CN">          man glass    broke                    (SOV)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="233" tag="L">ms napa sEpErEm</item>
+    <item id="c2" line="234" tag="G+CN">man glass    broke                    (SOV)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i83633">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3622" line-range="235-236" line-types="L G+CN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="235" tag="L">       b. jE-ms     bet</item>
+    <item id="o2" line="236" tag="G+CN">          gen-man house                         (GenN)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="235" tag="L">jE-ms     bet</item>
+    <item id="c2" line="236" tag="G+CN">gen-man house                         (GenN)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i83634">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chaha" iso-639-3="sgw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3622" line-range="237-238" line-types="L+CN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="237" tag="L+CN">       c. mErkama gErEd                         (AdjN)</item>
+    <item id="o2" line="238" tag="T">          beautiful girl</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="237" tag="L+CN">mErkama gErEd                         (AdjN)</item>
+    <item id="c2" line="238" tag="T">beautiful girl</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

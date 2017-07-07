@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i140228">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tulu" iso-639-3="tcy" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2157" line-range="7336-7340" line-types="L+DB C G+DB C T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7336" tag="L+DB">            [yii t kor-na]      kaaji      porlu-uNDu               yeeri beega ba-tt-e-n-aa,      aayagi inaam</item>
+    <item id="o2" line="7337" tag="C">  tikkuNDu</item>
+    <item id="o3" line="7338" tag="G+DB">            you t gave-rel bangle beautiful-be                      who(ever) early come-PA-3sm-Q he-DAT</item>
+    <item id="o4" line="7339" tag="C">  prize get-be(will)</item>
+    <item id="o5" line="7340" tag="T+DB">            'The bangle you gave is beautiful.'                     'Whoever come early, he will get a prize.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7336" tag="L+DB">[yii t kor-na]      kaaji      porlu-uNDu               yeeri beega ba-tt-e-n-aa,      aayagi inaam</item>
+    <item id="c2" line="7337" tag="C">tikkuNDu</item>
+    <item id="c3" line="7338" tag="G+DB">you t gave-rel bangle beautiful-be                      who(ever) early come-PA-3sm-Q he-DAT</item>
+    <item id="c4" line="7339" tag="C">prize get-be(will)</item>
+    <item id="c5" line="7340" tag="T+DB">The bangle you gave is beautiful.'                     'Whoever come early, he will get a prize.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:99]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:92]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:96]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

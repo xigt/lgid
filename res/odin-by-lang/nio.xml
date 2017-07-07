@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i106285">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nganasan" iso-639-3="nio" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1541" line-range="129-132" line-types="L+LN+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="129" tag="L+LN+CR">                 Sürü- ü           donü o.                                             Nganasan</item>
+    <item id="o2" line="130" tag="L+CR">  (6)    a.</item>
+    <item id="o3" line="131" tag="G">                 snow-3SG          melted.3SG</item>
+    <item id="o4" line="132" tag="T+AC">                 The snow has     melted. (Teres enko 1979: 95)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="129 130" tag="L+LN+CR">Sürü-ü           donü o.                                             Nganasan</item>
+    <item id="c3" line="131" tag="G">snow-3SG          melted.3SG</item>
+    <item id="c4" line="132" tag="T+AC">The snow has     melted. (Teres enko 1979: 95)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106307">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nganasan" iso-639-3="nio" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1541" line-range="411-418" line-types="L+CR L+LN+CR L+CR G L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="411" tag="L+CR">                               xonty koptua.</item>
+    <item id="o2" line="412" tag="L+LN+CR">                 Ba:rb u                                                            Nganasan</item>
+    <item id="o3" line="413" tag="L+CR">         b.</item>
+    <item id="o4" line="414" tag="G">                 master.GEN is         girl</item>
+    <item id="o5" line="415" tag="L+CR">                 Koptua-r      t'tuamy</item>
+    <item id="o6" line="416" tag="L+CR">                                 e              e a ku.</item>
+    <item id="o7" line="417" tag="G">                 girl-2SG      very           pretty</item>
+    <item id="o8" line="418" tag="T+AC">                 The master has a daughter. His daughter is very pretty. (Teres enko 1979: 95)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="411 412 413" tag="L+CR+LN">Ba:rb u       xonty koptua.                                        Nganasan</item>
+    <item id="c4" line="414" tag="G">master.GEN is         girl</item>
+    <item id="c5" line="415" tag="L+CR">Koptua-r      t'tuamy</item>
+    <item id="c7" line="417" tag="G">girl-2SG      very           pretty</item>
+    <item id="c8" line="418" tag="T+AC">The master has a daughter. His daughter is very pretty. (Teres enko 1979: 95)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+    <item id="p1" content="c5[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:26]" alignment="p1"/>
+    <item id="g1" content="c7[0:35]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:77]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i118013">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nganasan" iso-639-3="nio" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="1423-1425" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1423" tag="L+CR">  (1)         ,           --              -.</item>
+    <item id="o2" line="1424" tag="G">        here,     food-DEST-1PL.ACC bring-PF</item>
+    <item id="o3" line="1425" tag="T">        Here, he brought us some food</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1423" tag="L+CR">,---.</item>
+    <item id="c2" line="1424" tag="G">here,     food-DEST-1PL.ACC bring-PF</item>
+    <item id="c3" line="1425" tag="T">Here, he brought us some food</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118014">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nganasan" iso-639-3="nio" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="1426-1429" line-types="L+CR G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1426" tag="L+CR">  (2)         -                  -                        -                  -         -</item>
+    <item id="o2" line="1427" tag="G">        child-GEN.PL place-DEST           opposite side-PROL           make-INFER-DU</item>
+    <item id="o3" line="1428" tag="T">        Now, it turns out that they made a place (a bed) for children at the other side of the</item>
+    <item id="o4" line="1429" tag="T">        tent.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1426" tag="L+CR">-----</item>
+    <item id="c2" line="1427" tag="G">child-GEN.PL place-DEST           opposite side-PROL           make-INFER-DU</item>
+    <item id="c3" line="1428" tag="T">Now, it turns out that they made a place (a bed) for children at the other side of the</item>
+    <item id="c4" line="1429" tag="T">tent.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:86]" alignment="p1"/>
+    <item id="t1" content="c4[0:5]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118015">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nganasan" iso-639-3="nio" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="1430-1433" line-types="L+CR G T+EX C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1430" tag="L+CR">  (3)         -                      -</item>
+    <item id="o2" line="1431" tag="G">        place-DEST      prepare-PF</item>
+    <item id="o3" line="1432" tag="T+EX">        The place is ready (the reference of the beneficiary is identified basing on a broad</item>
+    <item id="o4" line="1433" tag="C">        context)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1430" tag="L+CR">--</item>
+    <item id="c2" line="1431" tag="G">place-DEST      prepare-PF</item>
+    <item id="c3" line="1432" tag="T+EX">The place is ready (the reference of the beneficiary is identified basing on a broad</item>
+    <item id="c4" line="1433" tag="C">context)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:84]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118016">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nganasan" iso-639-3="nio" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="1434-1436" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1434" tag="L+CR">  (4)        -    -                 -</item>
+    <item id="o2" line="1435" tag="G">        son-LAT-3SG deer give-PF</item>
+    <item id="o3" line="1436" tag="T">        He gave the deer to his son</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1434" tag="L+CR">---</item>
+    <item id="c2" line="1435" tag="G">son-LAT-3SG deer give-PF</item>
+    <item id="c3" line="1436" tag="T">He gave the deer to his son</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:3]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118017">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nganasan" iso-639-3="nio" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="1437-1439" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1437" tag="L+CR">  (5)   --                     -</item>
+    <item id="o2" line="1438" tag="G">        fire-DEST-1SG.ACC make-IMP</item>
+    <item id="o3" line="1439" tag="T">        Make a fire for me</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1437" tag="L+CR">---</item>
+    <item id="c2" line="1438" tag="G">fire-DEST-1SG.ACC make-IMP</item>
+    <item id="c3" line="1439" tag="T">Make a fire for me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:3]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118018">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nganasan" iso-639-3="nio" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="1440-1442" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1440" tag="L+CR">  (6)                             -              -        -          --</item>
+    <item id="o2" line="1441" tag="G">        ?           Lisju-1SG.ACC bring-FUT-1SG sacrifice-DEST-2PL.GEN</item>
+    <item id="o3" line="1442" tag="T">        I will give you Lisju for ritual killing</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1440" tag="L+CR">-----</item>
+    <item id="c2" line="1441" tag="G">?           Lisju-1SG.ACC bring-FUT-1SG sacrifice-DEST-2PL.GEN</item>
+    <item id="c3" line="1442" tag="T">I will give you Lisju for ritual killing</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118019">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nganasan" iso-639-3="nio" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="1443-1447" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1443" tag="L+CR">  (7)                                       -                - -         -</item>
+    <item id="o2" line="1444" tag="L+CR">                 ---            .</item>
+    <item id="o3" line="1445" tag="G+CR">        then there side-PROL index-LOC-3SG drill-PRAET look-INF-DEST-</item>
+    <item id="o4" line="1446" tag="G+CR">                                                                    3SG.ACC</item>
+    <item id="o5" line="1447" tag="T">        On this side he bored a looking hole with his index.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1443 1444" tag="L+CR">---.----</item>
+    <item id="c3" line="1445" tag="G+CR">then there side-PROL index-LOC-3SG drill-PRAET look-INF-DEST-</item>
+    <item id="c5" line="1447" tag="T">On this side he bored a looking hole with his index.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155757">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nganasan" iso-639-3="nio" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="7519-7522" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7519" tag="M+AC+LN">  (2) Nganasan (by courtesy of M.Brykina and V.Goussev)</item>
+    <item id="o2" line="7520" tag="L">     a. --                        --                       --.</item>
+    <item id="o3" line="7521" tag="G">         this-DEST-PL.ACC.2PL fish- DEST-PL.ACC.2PL bring-PF-1SG.S</item>
+    <item id="o4" line="7522" tag="T">           `I brought you ...um...fish.' Lit. "I brought you this (thing) fish"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7519" tag="M+AC+LN">Nganasan (by courtesy of M.Brykina and V.Goussev</item>
+    <item id="c2" line="7520" tag="L">------.</item>
+    <item id="c3" line="7521" tag="G">this-DEST-PL.ACC.2PL fish-DEST-PL.ACC.2PL bring-PF-1SG.S</item>
+    <item id="c4" line="7522" tag="T">I brought you ...um...fish.' Lit. "I brought you this (thing) fish</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155758">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nganasan" iso-639-3="nio" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="7523-7525" line-types="L G T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7523" tag="L">     b.                      -                  -          -</item>
+    <item id="o2" line="7524" tag="G">        grandmother.DIM this-IMP.2SG.O tent-2SG pull.down-IMP.2SG.O</item>
+    <item id="o3" line="7525" tag="T+DB+LT">           `Granny, [please] ... um ... pull.down the tent .' Lit. "this-do pull down the tent"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7523" tag="L">---</item>
+    <item id="c2" line="7524" tag="G">grandmother.DIM this-IMP.2SG.O tent-2SG pull.down-IMP.2SG.O</item>
+    <item id="c3" line="7525" tag="T+DB+LT">Granny, [please] ... um ... pull.down the tent .' Lit. "this-do pull down the tent</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:3]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:82]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

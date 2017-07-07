@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i113545">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ocotepec mixtec" iso-639-3="mie" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="2092-2096" line-types="L+DB+CR L+DB+CR G+DB M+CN+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2092" tag="L+DB+CR">  (128) a. ñuu lul?ñúkwán</item>
+    <item id="o2" line="2093" tag="L+DB+CR">                     ?         ?                    b. na        tee?</item>
+    <item id="o3" line="2094" tag="G+DB">                  town little this                          what man</item>
+    <item id="o4" line="2095" tag="M+CN+DB">                  N          A       Dem                    Int N</item>
+    <item id="o5" line="2096" tag="T+DB">                  `this little town'                        `what man?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2092" tag="L+DB+CR">ñuu lul?ñúkwán</item>
+    <item id="c3" line="2094" tag="G+DB">town little this                          what man</item>
+    <item id="c4" line="2095" tag="M+CN+DB">N          A       Dem                    Int N</item>
+    <item id="c5" line="2096" tag="T+DB">this little town'                        `what man?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i152655">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ocotepec mixtec" iso-639-3="mie" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2753" line-range="1008-1010" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1008" tag="L">  (18)   uu      vwélta n-sahá             de             chi.</item>
+    <item id="o2" line="1009" tag="G">         two     time     COM-do           he.RES         QUOT</item>
+    <item id="o3" line="1010" tag="T">         `He did it two times, they say.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1008" tag="L">uu      vwélta n-sahá             de             chi.</item>
+    <item id="c2" line="1009" tag="G">two     time     COM-do           he.RES         QUOT</item>
+    <item id="c3" line="1010" tag="T">He did it two times, they say.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i73403">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yukaghir" iso-639-3="yux:ykg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="1581-1583" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1581" tag="L">  (136) [tude-gele joq-to-l]                      ani-pe</item>
+    <item id="o2" line="1582" tag="G">            [3SG-ACC arrive-CAUS-REL]             fish-PLUR</item>
+    <item id="o3" line="1583" tag="T">            `the fish that had brought him'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1581" tag="L">[tude-gele joq-to-l]                      ani-pe</item>
+    <item id="c2" line="1582" tag="G">[3SG-ACC arrive-CAUS-REL]             fish-PLUR</item>
+    <item id="c3" line="1583" tag="T">the fish that had brought him</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73423">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yukaghir" iso-639-3="yux:ykg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="1798-1800" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1798" tag="L">  (160) a. [tude-gele joq-to-l]                        ani-pe</item>
+    <item id="o2" line="1799" tag="G">                [3SG-ACC arrive-CAUS-REL]              fish-PLUR</item>
+    <item id="o3" line="1800" tag="T">                `the fish that had brought him'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1798" tag="L">[tude-gele joq-to-l]                        ani-pe</item>
+    <item id="c2" line="1799" tag="G">[3SG-ACC arrive-CAUS-REL]              fish-PLUR</item>
+    <item id="c3" line="1800" tag="T">the fish that had brought him</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73424">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yukaghir" iso-639-3="yux:ykg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="1801-1803" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1801" tag="L">           b. kelu-l-ben-pe</item>
+    <item id="o2" line="1802" tag="G">                 come-REL-HEADLESS-PLUR</item>
+    <item id="o3" line="1803" tag="T">                 `those who came'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1801" tag="L">kelu-l-ben-pe</item>
+    <item id="c2" line="1802" tag="G">come-REL-HEADLESS-PLUR</item>
+    <item id="c3" line="1803" tag="T">those who came</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

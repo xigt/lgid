@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i34261">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3726" line-range="359-361" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="359" tag="L">        (24) i        cuwa        kisu         ma-futi'</item>
+    <item id="o2" line="360" tag="G">             Prep     where       2s.Nom       AF-sleep</item>
+    <item id="o3" line="361" tag="T+AC">             `Where   will you sleep?'       (Huang et al. 1999)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="359" tag="L">i        cuwa        kisu         ma-futi</item>
+    <item id="c2" line="360" tag="G">Prep     where       2s.Nom       AF-sleep</item>
+    <item id="c3" line="361" tag="T+AC">Where   will you sleep?'       (Huang et al. 1999)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41102">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3520" line-range="934-937" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="934" tag="M+AC+LN">           Amis (Wu 2000)</item>
+    <item id="o2" line="935" tag="L">           (48)    a.     k&lt;um&gt;aen-an ni dongi kuni              a tali.</item>
+    <item id="o3" line="936" tag="G">                          PF-eat-PF       Gen Dongi this.Nom A taro</item>
+    <item id="o4" line="937" tag="T">                          `Dongi ate this taro.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="934" tag="M+AC+LN">Amis (Wu 2000)</item>
+    <item id="c2" line="935" tag="L">k&lt;um&gt;aen-an ni dongi kuni              a tali.</item>
+    <item id="c3" line="936" tag="G">PF-eat-PF       Gen Dongi this.Nom A taro</item>
+    <item id="c4" line="937" tag="T">Dongi ate this taro.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41103">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3520" line-range="938-944" line-types="L G B B M B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="938" tag="L">                    b.    ma-fana' kaku tuni            a demak.</item>
+    <item id="o2" line="939" tag="G">                          AF-know I.Nom this.Acc A matter</item>
+    <item id="o3" line="940" tag="B"></item>
+    <item id="o4" line="941" tag="B"></item>
+    <item id="o5" line="942" tag="M">                                             17</item>
+    <item id="o6" line="943" tag="B"></item>
+    <item id="o7" line="944" tag="T">                         `I know this matter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="938" tag="L">ma-fana' kaku tuni            a demak.</item>
+    <item id="c2" line="939" tag="G">AF-know I.Nom this.Acc A matter</item>
+    <item id="c3" line="940" tag="B"/>
+    <item id="c4" line="941" tag="B"/>
+    <item id="c5" line="942" tag="M">17</item>
+    <item id="c6" line="943" tag="B"/>
+    <item id="c7" line="944" tag="T">I know this matter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41104">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3520" line-range="949-952" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="949" tag="M+AC+LN">          Amis (Wu 2000)</item>
+    <item id="o2" line="950" tag="L">          (49) t&lt;um&gt;angic kuni           wawa.</item>
+    <item id="o3" line="951" tag="G">                  AF-cry        this.Nom kid</item>
+    <item id="o4" line="952" tag="T">                  `This kid is crying.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="949" tag="M+AC+LN">Amis (Wu 2000)</item>
+    <item id="c2" line="950" tag="L">t&lt;um&gt;angic kuni           wawa.</item>
+    <item id="c3" line="951" tag="G">AF-cry        this.Nom kid</item>
+    <item id="c4" line="952" tag="T">This kid is crying.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114638">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3376" line-range="873-874" line-types="M+LN L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="873" tag="M+LN">  (1)    Amis</item>
+    <item id="o2" line="874" tag="L-T+DB">         (I)   mi dagoy `to swim', mi holol `to play'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="873" tag="M+LN">Amis</item>
+    <item id="c2" line="874" tag="L-T+DB">mi dagoy `to swim', mi holol `to play</item>
+  </tier>
+</igt>
+<igt id="i114639">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3376" line-range="875-875" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="875" tag="L-T+DB">         (II)  r-om-akat 'to walk', t-om-agic 'to cry'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="875" tag="L-T+DB">(II)  r-om-akat 'to walk', t-om-agic 'to cry</item>
+  </tier>
+</igt>
+<igt id="i114640">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3376" line-range="876-876" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="876" tag="L-T+DB">         (III) ma-lipahak `to be happy', ma talem `be sharp'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="876" tag="L-T+DB">(III) ma-lipahak `to be happy', ma talem `be sharp</item>
+  </tier>
+</igt>
+<igt id="i114641">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3376" line-range="877-877" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="877" tag="L-T+DB">         (IV) ga'ay `to be good', tata'ag `to be big'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="877" tag="L-T+DB">(IV) ga'ay `to be good', tata'ag `to be big</item>
+  </tier>
+</igt>
+<igt id="i114642">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3376" line-range="879-882" line-types="M+LN L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="879" tag="M+LN">  (2)    Amis</item>
+    <item id="o2" line="880" tag="L+EX">         a.   mi-patay        cira           tina           tamdaw          (I)</item>
+    <item id="o3" line="881" tag="G">              MI-kill         NOM.3s         OBL.this       person</item>
+    <item id="o4" line="882" tag="T">              He killed this person.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="879" tag="M+LN">Amis</item>
+    <item id="c2" line="880" tag="L+EX">mi-patay        cira           tina           tamdaw          (I)</item>
+    <item id="c3" line="881" tag="G">MI-kill         NOM.3s         OBL.this       person</item>
+    <item id="c4" line="882" tag="T">He killed this person.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114643">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3376" line-range="884-886" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="884" tag="L+EX">         b.     ma     patay kina            tamdaw                         (III)</item>
+    <item id="o2" line="885" tag="G">                MA dead NOM.this             person</item>
+    <item id="o3" line="886" tag="T">                This person is dead.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="884" tag="L+EX">ma     patay kina            tamdaw                         (III)</item>
+    <item id="c2" line="885" tag="G">MA dead NOM.this             person</item>
+    <item id="c3" line="886" tag="T">This person is dead.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114644">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3376" line-range="888-890" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="888" tag="L+EX">         c.     ma     patay nira            kina            tamdaw         (III)</item>
+    <item id="o2" line="889" tag="G">                MA dead GEN.3s               NOM.this        person</item>
+    <item id="o3" line="890" tag="T">                This person is dead because of him. He killed this person</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="888" tag="L+EX">ma     patay nira            kina            tamdaw         (III)</item>
+    <item id="c2" line="889" tag="G">MA dead GEN.3s               NOM.this        person</item>
+    <item id="c3" line="890" tag="T">This person is dead because of him. He killed this person</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150225">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3459" line-range="204-206" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="204" tag="L">        (i)   mala-kaka-ay          ci kacaw atu ci ofad</item>
+    <item id="o2" line="205" tag="G">              Rec-elder.sibling-AY Ncm Kacaw and Ncm Ofad</item>
+    <item id="o3" line="206" tag="T">              `Kacaw and Ofad are brothers.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="204" tag="L">mala-kaka-ay          ci kacaw atu ci ofad</item>
+    <item id="c2" line="205" tag="G">Rec-elder.sibling-AY Ncm Kacaw and Ncm Ofad</item>
+    <item id="c3" line="206" tag="T">Kacaw and Ofad are brothers.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150226">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3459" line-range="207-209" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="207" tag="L">        (ii) mala-ramud-ay       ci    kacaw atu ci panay</item>
+    <item id="o2" line="208" tag="G">             Rec-spouse-AY     Ncm Kacaw        and Ncm Panay</item>
+    <item id="o3" line="209" tag="T">             `Panay and Kacaw are husband and wife.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="207" tag="L">mala-ramud-ay       ci    kacaw atu ci panay</item>
+    <item id="c2" line="208" tag="G">Rec-spouse-AY     Ncm Kacaw        and Ncm Panay</item>
+    <item id="c3" line="209" tag="T">Panay and Kacaw are husband and wife.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150227">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3459" line-range="210-212" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="210" tag="L">       (iii) mala-widan-ay             ci kacaw atu ci ofad</item>
+    <item id="o2" line="211" tag="G">             Rec-friend-AY             Ncm Kacaw and Ncm Ofad</item>
+    <item id="o3" line="212" tag="T">             `Kacaw and Ofad are friends.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="210" tag="L">mala-widan-ay             ci kacaw atu ci ofad</item>
+    <item id="c2" line="211" tag="G">Rec-friend-AY             Ncm Kacaw and Ncm Ofad</item>
+    <item id="c3" line="212" tag="T">Kacaw and Ofad are friends.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150238">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3459" line-range="270-273" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="270" tag="M+LN">  c.   Amis</item>
+    <item id="o2" line="271" tag="L">       (i) ma-'araw            ni ofad ku niyah i daningoan</item>
+    <item id="o3" line="272" tag="G">            PF-see       Gen Ofad Nom self Loc mirror</item>
+    <item id="o4" line="273" tag="T">            `Ofad saw himself in the mirror.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="270" tag="M+LN">Amis</item>
+    <item id="c2" line="271" tag="L">ma-'araw            ni ofad ku niyah i daningoan</item>
+    <item id="c3" line="272" tag="G">PF-see       Gen Ofad Nom self Loc mirror</item>
+    <item id="c4" line="273" tag="T">Ofad saw himself in the mirror.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150239">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3459" line-range="274-276" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="274" tag="L">       (ii) mi-nengeng kaku tu tireng no niyah i daningoan</item>
+    <item id="o2" line="275" tag="G">            AF-see 1Sg.Nom Obl body Gen self Loc mirror</item>
+    <item id="o3" line="276" tag="T">            `I saw my own body in the mirror.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="274" tag="L">mi-nengeng kaku tu tireng no niyah i daningoan</item>
+    <item id="c2" line="275" tag="G">AF-see 1Sg.Nom Obl body Gen self Loc mirror</item>
+    <item id="c3" line="276" tag="T">I saw my own body in the mirror.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150271">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3459" line-range="670-673" line-types="M+LN L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="670" tag="M+LN">  d.   Amis</item>
+    <item id="o2" line="671" tag="L+AC">       (i) mala-metmet cangra tu kamay                  (Wu 2000:51)</item>
+    <item id="o3" line="672" tag="G">            Rec-shake     3Pl.Nom Acc hand</item>
+    <item id="o4" line="673" tag="T">            `They shook hands.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="670" tag="M+LN">Amis</item>
+    <item id="c2" line="671" tag="L+AC">mala-metmet cangra tu kamay                  (Wu 2000:51</item>
+    <item id="c3" line="672" tag="G">Rec-shake     3Pl.Nom Acc hand</item>
+    <item id="c4" line="673" tag="T">They shook hands.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150272">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3459" line-range="674-676" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="674" tag="L">      (ii) mala-palu      cangra      a   ta-tusa</item>
+    <item id="o2" line="675" tag="G">           Rec-hit        3Pl.Nom Lnk CLF-two</item>
+    <item id="o3" line="676" tag="T">           `They two hit each other.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="674" tag="L">mala-palu      cangra      a   ta-tusa</item>
+    <item id="c2" line="675" tag="G">Rec-hit        3Pl.Nom Lnk CLF-two</item>
+    <item id="c3" line="676" tag="T">They two hit each other.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150279">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3459" line-range="733-736" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="733" tag="M+LN">  c. Amis</item>
+    <item id="o2" line="734" tag="L">     mala-la'o-la'op       cangra</item>
+    <item id="o3" line="735" tag="G">     Rec-Red-chase        3Pl.Nom</item>
+    <item id="o4" line="736" tag="T">     `They (a group of people) were chasing after each other.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="733" tag="M+LN">Amis</item>
+    <item id="c2" line="734" tag="L">mala-la'o-la'op       cangra</item>
+    <item id="c3" line="735" tag="G">Rec-Red-chase        3Pl.Nom</item>
+    <item id="c4" line="736" tag="T">They (a group of people) were chasing after each other.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150284">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3459" line-range="776-779" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="776" tag="M+LN">  d. Amis</item>
+    <item id="o2" line="777" tag="L">        mala-ka-kilim       tu wacu        cangra</item>
+    <item id="o3" line="778" tag="G">        Rec-Red-look.for Obl dog           3Pl.Nom</item>
+    <item id="o4" line="779" tag="T">        `They (together) looked for their dog.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="776" tag="M+LN">Amis</item>
+    <item id="c2" line="777" tag="L">mala-ka-kilim       tu wacu        cangra</item>
+    <item id="c3" line="778" tag="G">Rec-Red-look.for Obl dog           3Pl.Nom</item>
+    <item id="c4" line="779" tag="T">They (together) looked for their dog.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150287">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3459" line-range="796-801" line-types="M+LN L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="796" tag="M+LN">  c. Amis20</item>
+    <item id="o2" line="797" tag="L">        mala-likel         cangra        a ta-tusa   pafuli' takuwanan</item>
+    <item id="o3" line="798" tag="G">        Rec-sharing        3Pl.Nom       Lnk CLF-two give.AF 1Sg.Obl</item>
+    <item id="o4" line="799" tag="L">        tu cecay a cutad</item>
+    <item id="o5" line="800" tag="G">        Obl one Lnk book</item>
+    <item id="o6" line="801" tag="T">        `They (each of them) gave me a book.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="796" tag="M+LN">Amis20</item>
+    <item id="c2" line="797" tag="L">mala-likel         cangra        a ta-tusa   pafuli' takuwanan</item>
+    <item id="c3" line="798" tag="G">Rec-sharing        3Pl.Nom       Lnk CLF-two give.AF 1Sg.Obl</item>
+    <item id="c4" line="799" tag="L">tu cecay a cutad</item>
+    <item id="c5" line="800" tag="G">Obl one Lnk book</item>
+    <item id="c6" line="801" tag="T">They (each of them) gave me a book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:62]"/>
+    <item id="p1" content="c4[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:60]" alignment="p1"/>
+    <item id="g1" content="c5[0:16]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:35]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i150303">
+  <metadata type="xigt-meta">
+    <meta type="language" name="amis" iso-639-3="ami" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3459" line-range="934-937" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="934" tag="M+LN">  (24) Amis</item>
+    <item id="o2" line="935" tag="L">       mala-sa-pa-puliti-en    nangra ku cudad</item>
+    <item id="o3" line="936" tag="G">       Rec-SA-Red-throw-PF 3Pl.Gen Nom book</item>
+    <item id="o4" line="937" tag="T">       `They threw the books at each other.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="934" tag="M+LN">Amis</item>
+    <item id="c2" line="935" tag="L">mala-sa-pa-puliti-en    nangra ku cudad</item>
+    <item id="c3" line="936" tag="G">Rec-SA-Red-throw-PF 3Pl.Gen Nom book</item>
+    <item id="c4" line="937" tag="T">They threw the books at each other.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

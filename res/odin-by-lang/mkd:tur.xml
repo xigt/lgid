@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i48951">
+  <metadata type="xigt-meta">
+    <meta type="language" name="macedonian" iso-639-3="mkd:tur" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="4189-4191" line-types="M+AC+LN T L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4189" tag="M+AC+LN">  (69)   Macedonian (Indo-European, South Slavic) (de Bray 1980b: 286-7)</item>
+    <item id="o2" line="4190" tag="T">         `go'</item>
+    <item id="o3" line="4191" tag="L-G">         id-am            go-1.SG.PRES</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4189" tag="M+AC+LN">Macedonian (Indo-European, South Slavic) (de Bray 1980b: 286-7</item>
+    <item id="c2" line="4190" tag="T">go</item>
+    <item id="c3" line="4191" tag="L-G">id-am            go-1.SG.PRES</item>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:2]"/>
+  </tier>
+</igt>
+<igt id="i48952">
+  <metadata type="xigt-meta">
+    <meta type="language" name="macedonian" iso-639-3="mkd:tur" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="4192-4192" line-types="L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4192" tag="L-G">         id-ev            go-1.SG.IMPF</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4192" tag="L-G">id-ev            go-1.SG.IMPF</item>
+  </tier>
+</igt>
+<igt id="i48953">
+  <metadata type="xigt-meta">
+    <meta type="language" name="macedonian" iso-639-3="mkd:tur" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="4193-4194" line-types="G L"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4193" tag="G">                          PFV-go-1.SG.AOR</item>
+    <item id="o2" line="4194" tag="L">         po-jd-ov</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4193" tag="G">PFV-go-1.SG.AOR</item>
+    <item id="c2" line="4194" tag="L">po-jd-ov</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c1[0:15]"/>
+  </tier>
+</igt>
+<igt id="i48954">
+  <metadata type="xigt-meta">
+    <meta type="language" name="macedonian" iso-639-3="mkd:tur" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="4195-4195" line-types="L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4195" tag="L-G">         isol             go.PST.PTCP.SG.M</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4195" tag="L-G">isol             go.PST.PTCP.SG.M</item>
+  </tier>
+</igt>
+</xigt-corpus>

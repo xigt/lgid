@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i77890">
+  <metadata type="xigt-meta">
+    <meta type="language" name="urubu-kaapor" iso-639-3="urb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="1777-1780" line-types="L+DB G+DB M+DB+SY T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1777" tag="L+DB">  (114) a. kase a-'u                   ta           b. wa ha pÌµxô juhkà           µ</item>
+    <item id="o2" line="1778" tag="G+DB">                coffee 1SG-drink FUT                     1SG FUT fruit buy</item>
+    <item id="o3" line="1779" tag="M+DB+SY">                            V          T/A                       T/A             V</item>
+    <item id="o4" line="1780" tag="T+DB">                `I will drink coffee'                    `I will buy fruit'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1777" tag="L+DB">kase a-'u                   ta           b. wa ha pÌµxô juhkà           µ</item>
+    <item id="c2" line="1778" tag="G+DB">coffee 1SG-drink FUT                     1SG FUT fruit buy</item>
+    <item id="c3" line="1779" tag="M+DB+SY">V          T/A                       T/A             V</item>
+    <item id="c4" line="1780" tag="T+DB">I will drink coffee'                    `I will buy fruit</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113528">
+  <metadata type="xigt-meta">
+    <meta type="language" name="urubukaapor" iso-639-3="urb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="1805-1808" line-types="L+DB G+DB M+CN+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1805" tag="L+DB">  (114) a. kase a-'u                   ta           b. wa ha pÌµx?juhk?        ?</item>
+    <item id="o2" line="1806" tag="G+DB">                 coffee 1SG-drink FUT                     1SG FUT fruit buy</item>
+    <item id="o3" line="1807" tag="M+CN+DB">                             V         T/A                        T/A           V</item>
+    <item id="o4" line="1808" tag="T+DB">                 `I will drink coffee'                    `I will buy fruit'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1805" tag="L+DB">kase a-'u                   ta           b. wa ha pÌµx?juhk?        ?</item>
+    <item id="c2" line="1806" tag="G+DB">coffee 1SG-drink FUT                     1SG FUT fruit buy</item>
+    <item id="c3" line="1807" tag="M+CN+DB">V         T/A                        T/A           V</item>
+    <item id="c4" line="1808" tag="T+DB">I will drink coffee'                    `I will buy fruit</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138857">
+  <metadata type="xigt-meta">
+    <meta type="language" name="urubu-kaapor" iso-639-3="urb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2324" line-range="335-339" line-types="M+AC+LN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="335" tag="M+AC+LN"></item>
+    <item id="o2" line="336" tag="L">       a.    myja ne           tapi'ir ne              ere-juka katu</item>
+    <item id="o3" line="337" tag="G+CR">                   2SG.PRON tapir       2SG.           2SG-kill well</item>
+    <item id="o4" line="338" tag="G+CR">             WH                                PRON</item>
+    <item id="o5" line="339" tag="T">             `How do you kill a tapir?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="335" tag="M+AC+LN"/>
+    <item id="c2" line="336" tag="L">myja ne           tapi'ir ne              ere-juka katu</item>
+    <item id="c3" line="337 338" tag="G+CR">WH    2SG.PRON tapir       2SG.   PRON    2SG-kill well</item>
+    <item id="c5" line="339" tag="T">How do you kill a tapir?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138858">
+  <metadata type="xigt-meta">
+    <meta type="language" name="urubu-kaapor" iso-639-3="urb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2324" line-range="341-344" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="341" tag="L">       b.    myja ere-juka</item>
+    <item id="o2" line="342" tag="G+CR">                  2SG-kill</item>
+    <item id="o3" line="343" tag="G+CR">             WH</item>
+    <item id="o4" line="344" tag="T">             `How many did you kill?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="341" tag="L">myja ere-juka</item>
+    <item id="c2" line="342 343" tag="G+CR">WH   2SG-kill</item>
+    <item id="c4" line="344" tag="T">How many did you kill?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155104">
+  <metadata type="xigt-meta">
+    <meta type="language" name="urubú" iso-639-3="urb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="1060-1063" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1060" tag="L+CR">                       Pako xuã u'u.</item>
+    <item id="o2" line="1061" tag="L+CR">         (74)</item>
+    <item id="o3" line="1062" tag="G">                       banana João he-ate</item>
+    <item id="o4" line="1063" tag="T">                       `John ate bananas.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1060 1061" tag="L+CR">Pako xuã u'u.</item>
+    <item id="c3" line="1062" tag="G">banana João he-ate</item>
+    <item id="c4" line="1063" tag="T">John ate bananas.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155105">
+  <metadata type="xigt-meta">
+    <meta type="language" name="urubú" iso-639-3="urb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="1064-1068" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1064" tag="L+CR">                       Ko       sepetu-pe                    jurukã      Nex mái    muji-ta.</item>
+    <item id="o2" line="1065" tag="L+CR">         (75)</item>
+    <item id="o3" line="1066" tag="G+CR">                                                                         Nex mother she-will-roast</item>
+    <item id="o4" line="1067" tag="G+CR">                       tomorrow spit-on                      ribs</item>
+    <item id="o5" line="1068" tag="T">                       `Nex's mother will roast the ribs on the spit tomorrow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1064 1065" tag="L+CR">Ko       sepetu-pe                    jurukã      Nex mái    muji-ta.</item>
+    <item id="c3" line="1066 1067" tag="G+CR">tomorrow spit-on                      ribs        Nex mother she-will-roast</item>
+    <item id="c5" line="1068" tag="T">Nex's mother will roast the ribs on the spit tomorrow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155109">
+  <metadata type="xigt-meta">
+    <meta type="language" name="urubú" iso-639-3="urb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="3026-3029" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3026" tag="L+CR">                            Pako xuã u'u.</item>
+    <item id="o2" line="3027" tag="L+CR">         (160)</item>
+    <item id="o3" line="3028" tag="G">                            banana John he-ate</item>
+    <item id="o4" line="3029" tag="T">                            `John ate bananas.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3026 3027" tag="L+CR">Pako xuã u'u.</item>
+    <item id="c3" line="3028" tag="G">banana John he-ate</item>
+    <item id="c4" line="3029" tag="T">John ate bananas.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155110">
+  <metadata type="xigt-meta">
+    <meta type="language" name="urubú" iso-639-3="urb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="3030-3034" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3030" tag="L+CR">                            Ko       sepetu-pe jurukã                   Nex              mái    muji-ta.</item>
+    <item id="o2" line="3031" tag="L+CR">         (161)</item>
+    <item id="o3" line="3032" tag="G+CR">                                                                        Nex</item>
+    <item id="o4" line="3033" tag="G+CR">                            tomorrow spit-on   ribs                                      mother she-will-roast</item>
+    <item id="o5" line="3034" tag="T">                            `Nex's mother will roast the ribs on the spit tomorrow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3030 3031" tag="L+CR">Ko       sepetu-pe jurukã                   Nex              mái    muji-ta.</item>
+    <item id="c3" line="3032 3033" tag="G+CR">tomorrow spit-on   ribs                     Nex              mother she-will-roast</item>
+    <item id="c5" line="3034" tag="T">Nex's mother will roast the ribs on the spit tomorrow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:82]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

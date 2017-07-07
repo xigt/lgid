@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i17840">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kawaiisu" iso-639-3="xaw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1597" line-range="179-182" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="179" tag="M+LN">               a. Kawaiisu (Uto-Aztecan):</item>
+    <item id="o2" line="180" tag="L">                  iga-ki-na=ina      kakari-na=ina</item>
+    <item id="o3" line="181" tag="G">                  enter-dir-comp-3 sit-comp-3s</item>
+    <item id="o4" line="182" tag="T">                   `He came in and (he) sat down</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="179" tag="M+LN">Kawaiisu (Uto-Aztecan):</item>
+    <item id="c2" line="180" tag="L">iga-ki-na=ina      kakari-na=ina</item>
+    <item id="c3" line="181" tag="G">enter-dir-comp-3 sit-comp-3s</item>
+    <item id="c4" line="182" tag="T">He came in and (he) sat down</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49162">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kawaiisu" iso-639-3="xaw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="8268-8271" line-types="M+AC+LN M T L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8268" tag="M+AC+LN">  (170) Kawaiisu (Uto-Aztecan, Northern, Numic) (Zigmond et al. 1990)</item>
+    <item id="o2" line="8269" tag="M">        FORM            MORPHEMIC ANALYSIS            TRANSLATION</item>
+    <item id="o3" line="8270" tag="T">                                                      `sick (one)'</item>
+    <item id="o4" line="8271" tag="L-G">  a.    jee             sick.SG</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8268" tag="M+AC+LN">Kawaiisu (Uto-Aztecan, Northern, Numic) (Zigmond et al. 1990</item>
+    <item id="c2" line="8269" tag="M">FORM            MORPHEMIC ANALYSIS            TRANSLATION</item>
+    <item id="c3" line="8270" tag="T">sick (one)</item>
+    <item id="c4" line="8271" tag="L-G">jee             sick.SG</item>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]"/>
+  </tier>
+</igt>
+<igt id="i49163">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kawaiisu" iso-639-3="xaw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="8272-8272" line-types="L-G-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8272" tag="L-G-T">        cowiki          sick.PL                       `sick (many)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8272" tag="L-G-T">cowiki          sick.PL                       `sick (many)</item>
+  </tier>
+</igt>
+<igt id="i49164">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kawaiisu" iso-639-3="xaw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="8273-8273" line-types="L-G-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8273" tag="L-G-T">  b.    oho-jee         bone-suffer                   `be thin'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8273" tag="L-G-T">oho-jee         bone-suffer                   `be thin</item>
+  </tier>
+</igt>
+<igt id="i49165">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kawaiisu" iso-639-3="xaw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="8274-8274" line-types="L-G-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8274" tag="L-G-T">  c.    p-jee           blood-suffer                  `menstruate'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8274" tag="L-G-T">p-jee           blood-suffer                  `menstruate</item>
+  </tier>
+</igt>
+<igt id="i49166">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kawaiisu" iso-639-3="xaw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="8275-8275" line-types="L-G-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8275" tag="L-G-T">  d.    suvi-jee        [NO GLOSS]-suffer             `be happy'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8275" tag="L-G-T">suvi-jee        [NO GLOSS]-suffer             `be happy</item>
+  </tier>
+</igt>
+</xigt-corpus>

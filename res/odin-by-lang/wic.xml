@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i48907">
+  <metadata type="xigt-meta">
+    <meta type="language" name="wichita" iso-639-3="wic" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="3940-3942" line-types="M+AC+LN T L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3940" tag="M+AC+LN">  (58)      Wichita (Caddoan) (Rood 1976: 73)</item>
+    <item id="o2" line="3941" tag="T">            `go'</item>
+    <item id="o3" line="3942" tag="L-G">            wa         go.PFV</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3940" tag="M+AC+LN">Wichita (Caddoan) (Rood 1976: 73</item>
+    <item id="c2" line="3941" tag="T">go</item>
+    <item id="c3" line="3942" tag="L-G">wa         go.PFV</item>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:2]"/>
+  </tier>
+</igt>
+<igt id="i48908">
+  <metadata type="xigt-meta">
+    <meta type="language" name="wichita" iso-639-3="wic" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="3943-3943" line-types="L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3943" tag="L-G">            hisha      go.IPFV</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3943" tag="L-G">hisha      go.IPFV</item>
+  </tier>
+</igt>
+</xigt-corpus>

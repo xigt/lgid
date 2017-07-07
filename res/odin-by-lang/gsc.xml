@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i89902">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bearnese occitan" iso-639-3="gsc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="719" line-range="591-593" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="591" tag="L">  (24) a. Que me       `n vau    tà casa.</item>
+    <item id="o2" line="592" tag="G">          that myself cl. go.1sg to home</item>
+    <item id="o3" line="593" tag="T">          `I'm going home'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="591" tag="L">Que me       `n vau    tà casa.</item>
+    <item id="c2" line="592" tag="G">that myself cl. go.1sg to home</item>
+    <item id="c3" line="593" tag="T">I'm going home</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89903">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bearnese occitan" iso-639-3="gsc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="719" line-range="594-596" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="594" tag="L">       b. E        vòs      vin?</item>
+    <item id="o2" line="595" tag="G">          particle want.2sg wine</item>
+    <item id="o3" line="596" tag="T">          `Do you want some wine?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="594" tag="L">E        vòs      vin?</item>
+    <item id="c2" line="595" tag="G">particle want.2sg wine</item>
+    <item id="c3" line="596" tag="T">Do you want some wine?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

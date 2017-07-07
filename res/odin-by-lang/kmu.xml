@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i96227">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kanite" iso-639-3="kmu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="384" line-range="2259-2279" line-types="L B G B L B G B L B G B L B G B T B T B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2259" tag="L">  (47)   his-u'a-ke-'ka, naki a'nemo-ka hoya ali-'ka,</item>
+    <item id="o2" line="2260" tag="B"></item>
+    <item id="o3" line="2261" tag="G">         do-we-DS-you, so women-you garden work-you</item>
+    <item id="o4" line="2262" tag="B"></item>
+    <item id="o5" line="2263" tag="L">         naki ali ha'noma hu-ne'atale-'ka, inuna kae-'ka, popo hu-'ka,</item>
+    <item id="o6" line="2264" tag="B"></item>
+    <item id="o7" line="2265" tag="G">         so work finish do-COMPL-you, weeds burn-you, hoe do-you</item>
+    <item id="o8" line="2266" tag="B"></item>
+    <item id="o9" line="2267" tag="L">         inuna kae-'ka, inuna kae-'ka, naki ha'no hu-talete-ke-ta'a,</item>
+    <item id="o10" line="2268" tag="B"></item>
+    <item id="o11" line="2269" tag="G">         weeds burn-you, so finish do-COMPL-DS we</item>
+    <item id="o12" line="2270" tag="B"></item>
+    <item id="o13" line="2271" tag="L">         naki viemoka-ta'a keki'yamo'ma ha'noma nehis-i-ana</item>
+    <item id="o14" line="2272" tag="B"></item>
+    <item id="o15" line="2273" tag="G">         so men-we fence finish do-it-CONJ</item>
+    <item id="o16" line="2274" tag="B"></item>
+    <item id="o17" line="2275" tag="T">         'If we do this, you women work the garden, when it is finished hoe</item>
+    <item id="o18" line="2276" tag="B"></item>
+    <item id="o19" line="2277" tag="T">         and burn the weeds, when that is finished we men will finish making</item>
+    <item id="o20" line="2278" tag="B"></item>
+    <item id="o21" line="2279" tag="T">         the fence.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2259" tag="L">his-u'a-ke-'ka, naki a'nemo-ka hoya ali-'ka,</item>
+    <item id="c2" line="2260" tag="B"/>
+    <item id="c3" line="2261" tag="G">do-we-DS-you, so women-you garden work-you</item>
+    <item id="c4" line="2262" tag="B"/>
+    <item id="c5" line="2263" tag="L">naki ali ha'noma hu-ne'atale-'ka, inuna kae-'ka, popo hu-'ka,</item>
+    <item id="c6" line="2264" tag="B"/>
+    <item id="c7" line="2265" tag="G">so work finish do-COMPL-you, weeds burn-you, hoe do-you</item>
+    <item id="c8" line="2266" tag="B"/>
+    <item id="c9" line="2267" tag="L">inuna kae-'ka, inuna kae-'ka, naki ha'no hu-talete-ke-ta'a,</item>
+    <item id="c10" line="2268" tag="B"/>
+    <item id="c11" line="2269" tag="G">weeds burn-you, so finish do-COMPL-DS we</item>
+    <item id="c12" line="2270" tag="B"/>
+    <item id="c13" line="2271" tag="L">naki viemoka-ta'a keki'yamo'ma ha'noma nehis-i-ana</item>
+    <item id="c14" line="2272" tag="B"/>
+    <item id="c15" line="2273" tag="G">so men-we fence finish do-it-CONJ</item>
+    <item id="c16" line="2274" tag="B"/>
+    <item id="c17" line="2275" tag="T">If we do this, you women work the garden, when it is finished hoe</item>
+    <item id="c18" line="2276" tag="B"/>
+    <item id="c19" line="2277" tag="T">and burn the weeds, when that is finished we men will finish making</item>
+    <item id="c20" line="2278" tag="B"/>
+    <item id="c21" line="2279" tag="T">the fence.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+    <item id="p1" content="c5[0:61]"/>
+    <item id="p2" content="c9[0:59]"/>
+    <item id="p3" content="c13[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:42]" alignment="p1"/>
+    <item id="g1" content="c7[0:55]" alignment="p2"/>
+    <item id="g2" content="c11[0:40]" alignment="p3"/>
+    <item id="g3" content="c15[0:33]" alignment="p4"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c17[0:65]" alignment="p4"/>
+    <item id="t1" content="c19[0:67]" alignment="p4"/>
+    <item id="t2" content="c21[0:10]" alignment="p4"/>
+  </tier>
+</igt>
+</xigt-corpus>

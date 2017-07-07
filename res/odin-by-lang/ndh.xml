@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i9490">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chindali" iso-639-3="ndh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2017" line-range="471-473" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="471" tag="L+LN">      (19)    kale kale ichiinja chimo , ii-fula yi-ta-ka-wa                 (Chindali)</item>
+    <item id="o2" line="472" tag="G">              long ago year certain, 9-rain 9-NEG-PST-fall</item>
+    <item id="o3" line="473" tag="T">              `One year long ago, the rain did not fall.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="471" tag="L+LN">kale kale ichiinja chimo , ii-fula yi-ta-ka-wa                 (Chindali</item>
+    <item id="c2" line="472" tag="G">long ago year certain, 9-rain 9-NEG-PST-fall</item>
+    <item id="c3" line="473" tag="T">One year long ago, the rain did not fall.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

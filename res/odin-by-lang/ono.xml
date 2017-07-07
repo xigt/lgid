@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i10884">
+  <metadata type="xigt-meta">
+    <meta type="language" name="onondaga" iso-639-3="ono" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2494" line-range="100-102" line-types="L+CR L+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="100" tag="L+CR">            a. Ka-hi-hw-i ne/o-hsahe/t-a/.</item>
+    <item id="o2" line="101" tag="L+CR">      (3)</item>
+    <item id="o3" line="102" tag="G">               3N-CAUS-ASP the-PRE-bean-SUF</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="100 101" tag="L+CR">Ka-hi-hw-i ne/o-hsahe/t-a/.</item>
+    <item id="c3" line="102" tag="G">3N-CAUS-ASP the-PRE-bean-SUF</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i10885">
+  <metadata type="xigt-meta">
+    <meta type="language" name="onondaga" iso-639-3="ono" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2494" line-range="103-105" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="103" tag="L">            b. Ka-hsahe/t-ahi-hw-i.</item>
+    <item id="o2" line="104" tag="G">               3N-bean-spill-CAUS-ASP</item>
+    <item id="o3" line="105" tag="T+AC">               `The beans spilt.'                                        (Baker 1988: 87)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="103" tag="L">Ka-hsahe/t-ahi-hw-i.</item>
+    <item id="c2" line="104" tag="G">3N-bean-spill-CAUS-ASP</item>
+    <item id="c3" line="105" tag="T+AC">The beans spilt.'                                        (Baker 1988: 87)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:73]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i10886">
+  <metadata type="xigt-meta">
+    <meta type="language" name="onondaga" iso-639-3="ono" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2494" line-range="106-108" line-types="L+CR L+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="106" tag="L+CR">            a. H-ate-/se:-/       ne/o-tsi/kt-a/.</item>
+    <item id="o2" line="107" tag="L+CR">      (4)</item>
+    <item id="o3" line="108" tag="G">               3MS-REFL-crawl-ASP the-PRE-louse-SUF</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="106 107" tag="L+CR">H-ate-/se:-/       ne/o-tsi/kt-a/.</item>
+    <item id="c3" line="108" tag="G">3MS-REFL-crawl-ASP the-PRE-louse-SUF</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i10887">
+  <metadata type="xigt-meta">
+    <meta type="language" name="onondaga" iso-639-3="ono" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2494" line-range="109-111" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="109" tag="L">            b. *H-ate-tsi/kti-/se:-/.</item>
+    <item id="o2" line="110" tag="G">                3mS-REFL-louse-crawl-ASP</item>
+    <item id="o3" line="111" tag="T+AC">                `The louse crawls.'                                      (Baker 1988: 89)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="109" tag="L">*H-ate-tsi/kti-/se:-/.</item>
+    <item id="c2" line="110" tag="G">3mS-REFL-louse-crawl-ASP</item>
+    <item id="c3" line="111" tag="T+AC">The louse crawls.'                                      (Baker 1988: 89)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:72]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50627">
+  <metadata type="xigt-meta">
+    <meta type="language" name="onondaga" iso-639-3="ono" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1792" line-range="519-522" line-types="L+CR L+AC+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="519" tag="L+CR">                   Ka-hsahe?t-ahi-hw-i</item>
+    <item id="o2" line="520" tag="L+AC+LN+CR">           ii.                                                   Onondaga: Baker 1988:87</item>
+    <item id="o3" line="521" tag="G">                   3N-bean-spill-CAUS-ASP</item>
+    <item id="o4" line="522" tag="T">                   "The beans spilled."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="519 520" tag="L+CR+AC+LN">Ka-hsahe?t-ahi-hw-i                           Onondaga: Baker 1988:87</item>
+    <item id="c3" line="521" tag="G">3N-bean-spill-CAUS-ASP</item>
+    <item id="c4" line="522" tag="T">The beans spilled.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i152478">
+  <metadata type="xigt-meta">
+    <meta type="language" name="onondaga" iso-639-3="ono" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2761" line-range="2140-2143" line-types="L+LN B G+CR G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2140" tag="L+LN">  (64) a. H-ate-?se:-? ne?o-tsi?kt-a?.                               (Onondaga)</item>
+    <item id="o2" line="2141" tag="B"></item>
+    <item id="o3" line="2142" tag="G+CR">           3MS-   REFL-crawl-ASP     le-         -louse-</item>
+    <item id="o4" line="2143" tag="G+CR">                                           PRE             SUF</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2140" tag="L+LN">a. H-ate-?se:-? ne?o-tsi?kt-a?.                               (Onondaga</item>
+    <item id="c2" line="2141" tag="B"/>
+    <item id="c3" line="2142 2143" tag="G+CR">3MS-REFL-crawl-ASP     le-PRE-louse-SUF</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i152479">
+  <metadata type="xigt-meta">
+    <meta type="language" name="onondaga" iso-639-3="ono" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2761" line-range="2146-2150" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2146" tag="L">       b. *H-ate--tsi?kti-?se:-?.</item>
+    <item id="o2" line="2147" tag="B"></item>
+    <item id="o3" line="2148" tag="G">           3MS-   REFL-l   ouse-crawl-ASP</item>
+    <item id="o4" line="2149" tag="B"></item>
+    <item id="o5" line="2150" tag="T+AC">           `The louse crawls.'                                   (Baker, 1988:87)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2146" tag="L">*H-ate--tsi?kti-?se:-?.</item>
+    <item id="c2" line="2147" tag="B"/>
+    <item id="c3" line="2148" tag="G">3MS-REFL-l   ouse-crawl-ASP</item>
+    <item id="c4" line="2149" tag="B"/>
+    <item id="c5" line="2150" tag="T+AC">The louse crawls.'                                   (Baker, 1988:87)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:69]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i152486">
+  <metadata type="xigt-meta">
+    <meta type="language" name="onondaga" iso-639-3="ono" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2761" line-range="2202-2205" line-types="L+LN B G+CR G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2202" tag="L+LN">  (68) a. Ka-hi-hw-i ne?o-hsahe?t-a?.                                                (Onondaga)</item>
+    <item id="o2" line="2203" tag="B"></item>
+    <item id="o3" line="2204" tag="G+CR">           3N-     spill-              le-   PRE-b   ean-</item>
+    <item id="o4" line="2205" tag="G+CR">                            CAUS.ASP                        SUF</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2202" tag="L+LN">a. Ka-hi-hw-i ne?o-hsahe?t-a?.                                                (Onondaga</item>
+    <item id="c2" line="2203" tag="B"/>
+    <item id="c3" line="2204 2205" tag="G+CR">3N-spill-CAUS.ASP   le-PRE-b   ean-SUF</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:87]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i152487">
+  <metadata type="xigt-meta">
+    <meta type="language" name="onondaga" iso-639-3="ono" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2761" line-range="2208-2213" line-types="L B G B B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2208" tag="L">       b. Ka-hsahe?t-ahi-hw-i.</item>
+    <item id="o2" line="2209" tag="B"></item>
+    <item id="o3" line="2210" tag="G">           3N-     bean-spill-CAUS      -ASP</item>
+    <item id="o4" line="2211" tag="B"></item>
+    <item id="o5" line="2212" tag="B"></item>
+    <item id="o6" line="2213" tag="T+AC">           `The beans spilt.'                                                  (Baker, 1988:89)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2208" tag="L">Ka-hsahe?t-ahi-hw-i.</item>
+    <item id="c2" line="2209" tag="B"/>
+    <item id="c3" line="2210" tag="G">3N-bean-spill-CAUS-ASP</item>
+    <item id="c4" line="2211" tag="B"/>
+    <item id="c5" line="2212" tag="B"/>
+    <item id="c6" line="2213" tag="T+AC">The beans spilt.'                                                  (Baker, 1988:89)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:83]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i156559">
+  <metadata type="xigt-meta">
+    <meta type="language" name="onondaga" iso-639-3="ono" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3311" line-range="6421-6425" line-types="L+SY B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6421" tag="L+SY">  (32) [Ne2ke2 tk ] o-no1hsk -akayo1h</item>
+    <item id="o2" line="6422" tag="B"></item>
+    <item id="o3" line="6423" tag="G">         that     3N-house-old</item>
+    <item id="o4" line="6424" tag="B"></item>
+    <item id="o5" line="6425" tag="T">        'That house is old'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6421" tag="L+SY">[Ne2ke2 tk ] o-no1hsk-akayo1h</item>
+    <item id="c2" line="6422" tag="B"/>
+    <item id="c3" line="6423" tag="G">that     3N-house-old</item>
+    <item id="c4" line="6424" tag="B"/>
+    <item id="c5" line="6425" tag="T">That house is old</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i156560">
+  <metadata type="xigt-meta">
+    <meta type="language" name="onondaga" iso-639-3="ono" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3311" line-range="6434-6436" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6434" tag="L">  (i)   a. H-ate-? se:-? ne? o-tsi?kt-a?</item>
+    <item id="o2" line="6435" tag="G">            3MS-REFL-drag-ASP the-PRE-louse-SUF</item>
+    <item id="o3" line="6436" tag="T">           'The louse crawls'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6434" tag="L">H-ate-? se:-? ne? o-tsi?kt-a?</item>
+    <item id="c2" line="6435" tag="G">3MS-REFL-drag-ASP the-PRE-louse-SUF</item>
+    <item id="c3" line="6436" tag="T">The louse crawls</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i156561">
+  <metadata type="xigt-meta">
+    <meta type="language" name="onondaga" iso-639-3="ono" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3311" line-range="6438-6440" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6438" tag="L">        b. *H-ate-tsi? kti-? se:-?</item>
+    <item id="o2" line="6439" tag="G">             3MS-REFL-louse-drag-ASP</item>
+    <item id="o3" line="6440" tag="T">            'The louse crawls'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6438" tag="L">*H-ate-tsi? kti-? se:-?</item>
+    <item id="c2" line="6439" tag="G">3MS-REFL-louse-drag-ASP</item>
+    <item id="c3" line="6440" tag="T">The louse crawls</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

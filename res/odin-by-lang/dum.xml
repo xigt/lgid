@@ -1,0 +1,2729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i5832">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3325" line-range="518-520" line-types="L+LN G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="518" tag="L+LN">  (18)   a.      dat verdriet        des         ridders            (Middle Dutch)</item>
+    <item id="o2" line="519" tag="G+CR">                 t he s or r ow      the-GEN     knight-GEN</item>
+    <item id="o3" line="520" tag="T">                 `the knight's     sorrow'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="518" tag="L+LN">a.      dat verdriet        des         ridders            (Middle Dutch</item>
+    <item id="c2" line="519" tag="G+CR">t he s or r ow      the-GEN     knight-GEN</item>
+    <item id="c3" line="520" tag="T">the knight's     sorrow</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i5833">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3325" line-range="521-522" line-types="L+LN+DB G+DB+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="521" tag="L+LN+DB">         b.      *het verdriet     de ridder /   het verdriet van de ridder (Modern Dutch)</item>
+    <item id="o2" line="522" tag="G+DB+CR">                  t he s or r ow   the knight    the sorrow of the knight</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="521" tag="L+LN+DB">*het verdriet     de ridder /   het verdriet van de ridder (Modern Dutch)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+</igt>
+<igt id="i5837">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3325" line-range="567-568" line-types="L+CN G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="567" tag="L+CN">  (23)   a.      T' Allen denghenen die       dese letteren selen sien           (OV)</item>
+    <item id="o2" line="568" tag="G+CR">                 t o al l t hos e    t hat   these letters will see</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="567" tag="L+CN">a.      T' Allen denghenen die       dese letteren selen sien           (OV</item>
+    <item id="c2" line="568" tag="G+CR">t o al l t hos e    t hat   these letters will see</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i5838">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3325" line-range="569-570" line-types="L+CN G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="569" tag="L+CN">         b.      ...dat hi sal senden sine    ghesele den sondaren               (VO)</item>
+    <item id="o2" line="570" tag="G+CR">                   that he will send his      w hi p   the sinners</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="569" tag="L+CN">...dat hi sal senden sine    ghesele den sondaren               (VO)</item>
+    <item id="c2" line="570" tag="G+CR">that he will send his      w hi p   the sinners</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19278">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2920" line-range="1534-1538" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1534" tag="L">  (46)    a.       Nu moete-ne onse vrouwe bewaren</item>
+    <item id="o2" line="1535" tag="B"></item>
+    <item id="o3" line="1536" tag="G">                   now must-him our lady save</item>
+    <item id="o4" line="1537" tag="B"></item>
+    <item id="o5" line="1538" tag="T">                   `Now, our lady must save him.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1534" tag="L">Nu moete-ne onse vrouwe bewaren</item>
+    <item id="c2" line="1535" tag="B"/>
+    <item id="c3" line="1536" tag="G">now must-him our lady save</item>
+    <item id="c4" line="1537" tag="B"/>
+    <item id="c5" line="1538" tag="T">Now, our lady must save him.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19279">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2920" line-range="1540-1544" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1540" tag="L">          b.       Soe troest -se de hope vander goetheit Gods</item>
+    <item id="o2" line="1541" tag="B"></item>
+    <item id="o3" line="1542" tag="G">                   Thus co nsoles -her t he hope of-th e goodne ss god-   GEN</item>
+    <item id="o4" line="1543" tag="B"></item>
+    <item id="o5" line="1544" tag="T">                   `Thus, the hope of the goodness of God consoles her.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1540" tag="L">Soe troest-se de hope vander goetheit Gods</item>
+    <item id="c2" line="1541" tag="B"/>
+    <item id="c3" line="1542" tag="G">Thus co nsoles-her t he hope of-th e goodne ss god-GEN</item>
+    <item id="c4" line="1543" tag="B"/>
+    <item id="c5" line="1544" tag="T">Thus, the hope of the goodness of God consoles her.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19280">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2920" line-range="1546-1551" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1546" tag="L">          c.       datt-en God niet en spaert</item>
+    <item id="o2" line="1547" tag="B"></item>
+    <item id="o3" line="1548" tag="G+CR">                   that-him God not           saves</item>
+    <item id="o4" line="1549" tag="G+CR">                                       NEG</item>
+    <item id="o5" line="1550" tag="B"></item>
+    <item id="o6" line="1551" tag="T">                   `that God does not save him.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1546" tag="L">datt-en God niet en spaert</item>
+    <item id="c2" line="1547" tag="B"/>
+    <item id="c3" line="1548 1549" tag="G+CR">that-him God not    NEG    saves</item>
+    <item id="c5" line="1550" tag="B"/>
+    <item id="c6" line="1551" tag="T">that God does not save him.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19281">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2920" line-range="1553-1557" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1553" tag="L">          d.       dat-si de moeder wacht</item>
+    <item id="o2" line="1554" tag="B"></item>
+    <item id="o3" line="1555" tag="G">                   that-them the mother awaits</item>
+    <item id="o4" line="1556" tag="B"></item>
+    <item id="o5" line="1557" tag="T">                   `that the mother awaits them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1553" tag="L">dat-si de moeder wacht</item>
+    <item id="c2" line="1554" tag="B"/>
+    <item id="c3" line="1555" tag="G">that-them the mother awaits</item>
+    <item id="c4" line="1556" tag="B"/>
+    <item id="c5" line="1557" tag="T">that the mother awaits them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19282">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2920" line-range="1614-1618" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1614" tag="L">  (48)    a.       Doe so bat heme Lanceloet</item>
+    <item id="o2" line="1615" tag="B"></item>
+    <item id="o3" line="1616" tag="G">                   then so asked him Lancelot</item>
+    <item id="o4" line="1617" tag="B"></item>
+    <item id="o5" line="1618" tag="T">                   `Then Lance lot asked h im thus'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1614" tag="L">Doe so bat heme Lanceloet</item>
+    <item id="c2" line="1615" tag="B"/>
+    <item id="c3" line="1616" tag="G">then so asked him Lancelot</item>
+    <item id="c4" line="1617" tag="B"/>
+    <item id="c5" line="1618" tag="T">Then Lance lot asked h im thus</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19283">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2920" line-range="1625-1629" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1625" tag="L">           b.       dat mi die crancheit sal doen dolen</item>
+    <item id="o2" line="1626" tag="B"></item>
+    <item id="o3" line="1627" tag="G">                    that me the illness will do wander</item>
+    <item id="o4" line="1628" tag="B"></item>
+    <item id="o5" line="1629" tag="T">                    `that the illness will make me err'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1625" tag="L">dat mi die crancheit sal doen dolen</item>
+    <item id="c2" line="1626" tag="B"/>
+    <item id="c3" line="1627" tag="G">that me the illness will do wander</item>
+    <item id="c4" line="1628" tag="B"/>
+    <item id="c5" line="1629" tag="T">that the illness will make me err</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19284">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2920" line-range="1631-1635" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1631" tag="L">           c.       Soe moetti [...] mine mesdaet mi vergheven</item>
+    <item id="o2" line="1632" tag="B"></item>
+    <item id="o3" line="1633" tag="G">                    so must-he my crime me fo rgive</item>
+    <item id="o4" line="1634" tag="B"></item>
+    <item id="o5" line="1635" tag="T">                    `So he must forgive me my c rime'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1631" tag="L">Soe moetti [...] mine mesdaet mi vergheven</item>
+    <item id="c2" line="1632" tag="B"/>
+    <item id="c3" line="1633" tag="G">so must-he my crime me fo rgive</item>
+    <item id="c4" line="1634" tag="B"/>
+    <item id="c5" line="1635" tag="T">So he must forgive me my c rime</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19285">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2920" line-range="1637-1641" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1637" tag="L">           d.       In hebbe niet mi gheset daertoe</item>
+    <item id="o2" line="1638" tag="B"></item>
+    <item id="o3" line="1639" tag="G">                    I-NEG have not me applied there-to</item>
+    <item id="o4" line="1640" tag="B"></item>
+    <item id="o5" line="1641" tag="T">                    `I have not applied myself to that'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1637" tag="L">In hebbe niet mi gheset daertoe</item>
+    <item id="c2" line="1638" tag="B"/>
+    <item id="c3" line="1639" tag="G">I-NEG have not me applied there-to</item>
+    <item id="c4" line="1640" tag="B"/>
+    <item id="c5" line="1641" tag="T">I have not applied myself to that</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21675">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="476-479" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="476" tag="L+CR">                 En laettine mi spreke niet2</item>
+    <item id="o2" line="477" tag="L+LN+CR">            b.                                                         Middle Dutch</item>
+    <item id="o3" line="478" tag="G">                 Neg let.he me speak neg</item>
+    <item id="o4" line="479" tag="T">                 `If he does't let me speak'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="476 477" tag="L+CR+LN">En laettine mi spreke niet2                           Middle Dutch</item>
+    <item id="c3" line="478" tag="G">Neg let.he me speak neg</item>
+    <item id="c4" line="479" tag="T">If he does't let me speak</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21792">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="4716-4719" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4716" tag="L+CR">          Die worme ne hebben wat verteren110</item>
+    <item id="o2" line="4717" tag="L+LN+CR">  (12)                                                                           Middle Dutch</item>
+    <item id="o3" line="4718" tag="G">          The worms neg have what digest</item>
+    <item id="o4" line="4719" tag="T">          `The worms don't have anything to digest'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4716 4717" tag="L+CR+LN">Die worme ne hebben wat verteren110                                    Middle Dutch</item>
+    <item id="c3" line="4718" tag="G">The worms neg have what digest</item>
+    <item id="c4" line="4719" tag="T">The worms don't have anything to digest</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:83]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21807">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="4908-4911" line-types="L+LN+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4908" tag="L+LN+CR">             En laettine mi spreke niet117                                    13th Century Dutch</item>
+    <item id="o2" line="4909" tag="L+CR">  (20)</item>
+    <item id="o3" line="4910" tag="G">             Neg let.he me speak neg</item>
+    <item id="o4" line="4911" tag="T">             `If he does't let me speak'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4908 4909" tag="L+LN+CR">En laettine mi spreke niet117                                    13th Century Dutch</item>
+    <item id="c3" line="4910" tag="G">Neg let.he me speak neg</item>
+    <item id="c4" line="4911" tag="T">If he does't let me speak</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:83]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21808">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="4913-4916" line-types="L+LN+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4913" tag="L+LN+CR">             Sine ware niet genedert heden118                                 13th Century Dutch</item>
+    <item id="o2" line="4914" tag="L+CR">  (21)</item>
+    <item id="o3" line="4915" tag="G">             She.neg were neg humiliated currently</item>
+    <item id="o4" line="4916" tag="T">             `She wasn't humiliated currently'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4913 4914" tag="L+LN+CR">Sine ware niet genedert heden118                                 13th Century Dutch</item>
+    <item id="c3" line="4915" tag="G">She.neg were neg humiliated currently</item>
+    <item id="c4" line="4916" tag="T">She wasn't humiliated currently</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:83]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21809">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="4918-4921" line-types="L+LN+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4918" tag="L+LN+CR">             Dat si niet en sach dat si sochte119                             13th Century Dutch</item>
+    <item id="o2" line="4919" tag="L+CR">  (22)</item>
+    <item id="o3" line="4920" tag="G">             That she neg neg saw that she looked-for</item>
+    <item id="o4" line="4921" tag="T">             `That she didn't see what she looked for'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4918 4919" tag="L+LN+CR">Dat si niet en sach dat si sochte119                             13th Century Dutch</item>
+    <item id="c3" line="4920" tag="G">That she neg neg saw that she looked-for</item>
+    <item id="c4" line="4921" tag="T">That she didn't see what she looked for</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:83]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21811">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="4972-4975" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4972" tag="L+CR">             Hem en roekt wat sie lieghen120</item>
+    <item id="o2" line="4973" tag="L+LN+CR">  (25)                                                                Middle Dutch</item>
+    <item id="o3" line="4974" tag="G">             Him neg cares what they lie</item>
+    <item id="o4" line="4975" tag="T">             `He doesn't care what they lie about'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4972 4973" tag="L+CR+LN">Hem en roekt wat sie lieghen120                          Middle Dutch</item>
+    <item id="c3" line="4974" tag="G">Him neg cares what they lie</item>
+    <item id="c4" line="4975" tag="T">He doesn't care what they lie about</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21812">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="4977-4980" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4977" tag="L+CR">             Hi was al blent, hine sag twint121</item>
+    <item id="o2" line="4978" tag="L+LN+CR">  (26)                                                                Middle Dutch</item>
+    <item id="o3" line="4979" tag="G">             He was already blind, he.neg saw TWINT</item>
+    <item id="o4" line="4980" tag="T">             `He was already blind, he didn't see anything'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4977 4978" tag="L+CR+LN">Hi was al blent, hine sag twint121                       Middle Dutch</item>
+    <item id="c3" line="4979" tag="G">He was already blind, he.neg saw TWINT</item>
+    <item id="c4" line="4980" tag="T">He was already blind, he didn't see anything</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21813">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="4992-4995" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4992" tag="L+CR">             Wedert been is tobroken, wedert en is.</item>
+    <item id="o2" line="4993" tag="L+LN+CR">  (27)                                                                                Middle Dutch</item>
+    <item id="o3" line="4994" tag="G">             Whether.the leg is broken, whether neg is</item>
+    <item id="o4" line="4995" tag="T">             `Whether the leg is broken or not'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4992 4993" tag="L+CR+LN">Wedert been is tobroken, wedert en is.                                   Middle Dutch</item>
+    <item id="c3" line="4994" tag="G">Whether.the leg is broken, whether neg is</item>
+    <item id="c4" line="4995" tag="T">Whether the leg is broken or not</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21814">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="4997-5000" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4997" tag="L+CR">             En es dit Floris mijn soete lief122</item>
+    <item id="o2" line="4998" tag="L+LN+CR">  (28)                                                                                Middle Dutch</item>
+    <item id="o3" line="4999" tag="G">             Neg is this Floris my sweet love</item>
+    <item id="o4" line="5000" tag="T">             `Isn't this Floris, my sweet love'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4997 4998" tag="L+CR+LN">En es dit Floris mijn soete lief122                                      Middle Dutch</item>
+    <item id="c3" line="4999" tag="G">Neg is this Floris my sweet love</item>
+    <item id="c4" line="5000" tag="T">Isn't this Floris, my sweet love</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21818">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5028-5031" line-types="L+CR+SY L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5028" tag="L+CR+SY">             Wi ne hebben [wati PRO eten ti]</item>
+    <item id="o2" line="5029" tag="L+LN+CR">  (30)                                                                                Middle Dutch</item>
+    <item id="o3" line="5030" tag="G">             We.neg have WAT eat</item>
+    <item id="o4" line="5031" tag="T">             `We don't have any food'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5028 5029" tag="L+CR+SY+LN">Wi ne hebben [wati PRO eten ti]                                          Middle Dutch</item>
+    <item id="c3" line="5030" tag="G">We.neg have WAT eat</item>
+    <item id="c4" line="5031" tag="T">We don't have any food</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21819">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5054-5057" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5054" tag="L+CR">          Ic sie ghi cont wel wat vinden12       5</item>
+    <item id="o2" line="5055" tag="L+LN+CR">  (31)                                                                            Middle Dutch</item>
+    <item id="o3" line="5056" tag="G">          I see you can PRT WAT find</item>
+    <item id="o4" line="5057" tag="T">          `I see you can find something'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5054 5055" tag="L+CR+LN">Ic sie ghi cont wel wat vinden12       5                                Middle Dutch</item>
+    <item id="c3" line="5056" tag="G">I see you can PRT WAT find</item>
+    <item id="c4" line="5057" tag="T">I see you can find something</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21820">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5078-5081" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5078" tag="L+CR">                Ic en sag niemen126</item>
+    <item id="o2" line="5079" tag="L+LN+CR">  (32)    a.                                                                    Middle Dutch</item>
+    <item id="o3" line="5080" tag="G">                I neg saw n-body</item>
+    <item id="o4" line="5081" tag="T">                `I didn't see anybody'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5078 5079" tag="L+CR+LN">Ic en sag niemen126                                             Middle Dutch</item>
+    <item id="c3" line="5080" tag="G">I neg saw n-body</item>
+    <item id="c4" line="5081" tag="T">I didn't see anybody</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21821">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5082-5085" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5082" tag="L+CR">                Die niemen en spaers127</item>
+    <item id="o2" line="5083" tag="L+CR">          b.</item>
+    <item id="o3" line="5084" tag="G">                That n-body neg saves</item>
+    <item id="o4" line="5085" tag="T">                `Who saves nobody'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5082 5083" tag="L+CR">Die niemen en spaers127</item>
+    <item id="c3" line="5084" tag="G">That n-body neg saves</item>
+    <item id="c4" line="5085" tag="T">Who saves nobody</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21822">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5104-5107" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5104" tag="L+CR">             Ende en willen niets anders secge128</item>
+    <item id="o2" line="5105" tag="L+LN+CR">  (33)                                                                      Middle Dutch</item>
+    <item id="o3" line="5106" tag="G">             And neg want.3PL n-thing different say</item>
+    <item id="o4" line="5107" tag="T">             `And they don't want to say anything different'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5104 5105" tag="L+CR+LN">Ende en willen niets anders secge128                           Middle Dutch</item>
+    <item id="c3" line="5106" tag="G">And neg want.3PL n-thing different say</item>
+    <item id="c4" line="5107" tag="T">And they don't want to say anything different</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21823">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5109-5112" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5109" tag="L+CR">             Dat en haddi noyt ghedaen te voren129</item>
+    <item id="o2" line="5110" tag="L+LN+CR">  (34)                                                                      Middle Dutch</item>
+    <item id="o3" line="5111" tag="G">             That neg had.he n-ever done at before</item>
+    <item id="o4" line="5112" tag="T">             `That he had never done before'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5109 5110" tag="L+CR+LN">Dat en haddi noyt ghedaen te voren129                          Middle Dutch</item>
+    <item id="c3" line="5111" tag="G">That neg had.he n-ever done at before</item>
+    <item id="c4" line="5112" tag="T">That he had never done before</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21824">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5114-5117" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5114" tag="L+CR">             Hi en woude nergen gaan130</item>
+    <item id="o2" line="5115" tag="L+LN+CR">  (35)                                                                      Middle Dutch</item>
+    <item id="o3" line="5116" tag="G">             He neg wanted n-where go</item>
+    <item id="o4" line="5117" tag="T">             `He didn't want to go anywhere'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5114 5115" tag="L+CR+LN">Hi en woude nergen gaan130                                     Middle Dutch</item>
+    <item id="c3" line="5116" tag="G">He neg wanted n-where go</item>
+    <item id="c4" line="5117" tag="T">He didn't want to go anywhere</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21825">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5119-5122" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5119" tag="L+CR">             Daer ne was gheen // die roupen dorste131</item>
+    <item id="o2" line="5120" tag="L+LN+CR">  (36)                                                                      Middle Dutch</item>
+    <item id="o3" line="5121" tag="G">             There neg was n- that call dared</item>
+    <item id="o4" line="5122" tag="T">             `There was none who dared to call'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5119 5120" tag="L+CR+LN">Daer ne was gheen // die roupen dorste131                      Middle Dutch</item>
+    <item id="c3" line="5121" tag="G">There neg was n-that call dared</item>
+    <item id="c4" line="5122" tag="T">There was none who dared to call</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21826">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5130-5133" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5130" tag="L+CR">             Niemen en had mi niet gesien132</item>
+    <item id="o2" line="5131" tag="L+LN+CR">  (37)                                                                      Middle Dutch</item>
+    <item id="o3" line="5132" tag="G">             N-body neg had me neg seen</item>
+    <item id="o4" line="5133" tag="T">             `Nobody saw me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5130 5131" tag="L+CR+LN">Niemen en had mi niet gesien132                                Middle Dutch</item>
+    <item id="c3" line="5132" tag="G">N-body neg had me neg seen</item>
+    <item id="c4" line="5133" tag="T">Nobody saw me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21827">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5142-5148" line-types="L+CR L+LN+CR L G G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5142" tag="L+CR">             mi en twifelt niet noeyt erger quaet // dat ic oyt was</item>
+    <item id="o2" line="5143" tag="L+LN+CR">  (38)                                                                Middle Dutch</item>
+    <item id="o3" line="5144" tag="L">                  van venus discipels ionghen133</item>
+    <item id="o4" line="5145" tag="G">             me neg doubts neg n-ever worse evil that I ever was</item>
+    <item id="o5" line="5146" tag="G">                  of Venus' pupils young</item>
+    <item id="o6" line="5147" tag="T">             `I don't doubt there was ever worse evil than when I was</item>
+    <item id="o7" line="5148" tag="T">                  a young pupil of Venus'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5142 5143" tag="L+CR+LN">mi en twifelt niet noeyt erger quaet // dat ic oyt was   Middle Dutch</item>
+    <item id="c3" line="5144" tag="L">van venus discipels ionghen133</item>
+    <item id="c4" line="5145" tag="G">me neg doubts neg n-ever worse evil that I ever was</item>
+    <item id="c5" line="5146" tag="G">of Venus' pupils young</item>
+    <item id="c6" line="5147" tag="T">I don't doubt there was ever worse evil than when I was</item>
+    <item id="c7" line="5148" tag="T">a young pupil of Venus</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+    <item id="p1" content="c3[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:51]" alignment="p2"/>
+    <item id="g1" content="c5[0:22]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:55]" alignment="p2"/>
+    <item id="t1" content="c7[0:22]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i21828">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5165-5170" line-types="L+CR L+LN+CR L G G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5165" tag="L+CR">             Den onderseten niet en was // gheoorlooft niets niet</item>
+    <item id="o2" line="5166" tag="L+LN+CR">  (39)                                                                 Middle Dutch</item>
+    <item id="o3" line="5167" tag="L">                 met allen // aen enen andren paus te vallen134</item>
+    <item id="o4" line="5168" tag="G">             The shephards neg neg was // allowed n-thing neg</item>
+    <item id="o5" line="5169" tag="G">                 with all PRT an other pope to attack</item>
+    <item id="o6" line="5170" tag="T">             `The shephards were not at all allowed to attack another pope together'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5165 5166" tag="L+CR+LN">Den onderseten niet en was // gheoorlooft niets niet      Middle Dutch</item>
+    <item id="c3" line="5167" tag="L">met allen // aen enen andren paus te vallen134</item>
+    <item id="c4" line="5168" tag="G">The shephards neg neg was // allowed n-thing neg</item>
+    <item id="c5" line="5169" tag="G">with all PRT an other pope to attack</item>
+    <item id="c6" line="5170" tag="T">The shephards were not at all allowed to attack another pope together</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+    <item id="p1" content="c3[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:48]" alignment="p2"/>
+    <item id="g1" content="c5[0:36]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:69]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i21829">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5174-5177" line-types="L+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5174" tag="L+LN">  (40)       Doe wilden sie verbieden hem                            Middle Dutch</item>
+    <item id="o2" line="5175" tag="L">                 dat hi in den temple niet ginge</item>
+    <item id="o3" line="5176" tag="G">             There would they forbid him that he in the temple neg went</item>
+    <item id="o4" line="5177" tag="T">             `They would forbid him to go in the temple'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5174" tag="L+LN">Doe wilden sie verbieden hem                            Middle Dutch</item>
+    <item id="c2" line="5175" tag="L">dat hi in den temple niet ginge</item>
+    <item id="c3" line="5176" tag="G">There would they forbid him that he in the temple neg went</item>
+    <item id="c4" line="5177" tag="T">They would forbid him to go in the temple</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+    <item id="p1" content="c2[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:58]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:41]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i21830">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5182-5186" line-types="L+CR L+LN+CR L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5182" tag="L+CR">             Maer ferguut hem niet en betrout</item>
+    <item id="o2" line="5183" tag="L+LN+CR">  (41)                                                                   Middle Dutch</item>
+    <item id="o3" line="5184" tag="L">                  Hine liet den rose hem niet na comen 135</item>
+    <item id="o4" line="5185" tag="G">             But Ferguut him neg neg trust, he.neg let the giant him neg PRT come</item>
+    <item id="o5" line="5186" tag="T">             `But Ferguut didn't trust him, so he let the giant not follow him'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5182 5183" tag="L+CR+LN">Maer ferguut hem niet en betrout                            Middle Dutch</item>
+    <item id="c3" line="5184" tag="L">Hine liet den rose hem niet na comen 135</item>
+    <item id="c4" line="5185" tag="G">But Ferguut him neg neg trust, he.neg let the giant him neg PRT come</item>
+    <item id="c5" line="5186" tag="T">But Ferguut didn't trust him, so he let the giant not follow him</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+    <item id="p1" content="c3[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:68]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:64]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i21831">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5192-5196" line-types="L+CR L+LN+CR L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5192" tag="L+CR">             Ic en wane niet dat te Bonivente //</item>
+    <item id="o2" line="5193" tag="L+LN+CR">  (42)                                                                Middle Dutch</item>
+    <item id="o3" line="5194" tag="L">                  Ne geen so goet was tenegen tiden136</item>
+    <item id="o4" line="5195" tag="G">             I neg think neg that at B. neg one so good was at any time</item>
+    <item id="o5" line="5196" tag="T">             `I don't think that anybody was so good at B at anytime'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5192 5193" tag="L+CR+LN">Ic en wane niet dat te Bonivente //                      Middle Dutch</item>
+    <item id="c3" line="5194" tag="L">Ne geen so goet was tenegen tiden136</item>
+    <item id="c4" line="5195" tag="G">I neg think neg that at B. neg one so good was at any time</item>
+    <item id="c5" line="5196" tag="T">I don't think that anybody was so good at B at anytime</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+    <item id="p1" content="c3[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:58]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:54]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i21834">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5242-5245" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5242" tag="L+CR">             En com an mi niet138</item>
+    <item id="o2" line="5243" tag="L+LN+CR">  (44)                                                                            Middle Dutch</item>
+    <item id="o3" line="5244" tag="G">             Neg come.imp me neg</item>
+    <item id="o4" line="5245" tag="T">             `Don't touch me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5242 5243" tag="L+CR+LN">En com an mi niet138                                                 Middle Dutch</item>
+    <item id="c3" line="5244" tag="G">Neg come.imp me neg</item>
+    <item id="c4" line="5245" tag="T">Don't touch me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21835">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5247-5251" line-types="L+CR L+LN+CR L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5247" tag="L+CR">             En nem in dinen moet //</item>
+    <item id="o2" line="5248" tag="L+LN+CR">  (45)                                                                            Middle Dutch</item>
+    <item id="o3" line="5249" tag="L">             nie gheen valsch ghewonnen goet139</item>
+    <item id="o4" line="5250" tag="G">             Neg take in your mood neg no falsely gained goods</item>
+    <item id="o5" line="5251" tag="T">             `Don't take in your mind any stolen goods'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5247 5248" tag="L+CR+LN">En nem in dinen moet //                                              Middle Dutch</item>
+    <item id="c3" line="5249" tag="L">nie gheen valsch ghewonnen goet139</item>
+    <item id="c4" line="5250" tag="G">Neg take in your mood neg no falsely gained goods</item>
+    <item id="c5" line="5251" tag="T">Don't take in your mind any stolen goods</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+    <item id="p1" content="c3[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:49]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:40]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i21836">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5253-5256" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5253" tag="L+CR">             En make mi geen gespringe14      0</item>
+    <item id="o2" line="5254" tag="L+LN+CR">  (46)                                                                            Middle Dutch</item>
+    <item id="o3" line="5255" tag="G">             Neg make me no resistance</item>
+    <item id="o4" line="5256" tag="T">             `Don't resist against me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5253 5254" tag="L+CR+LN">En make mi geen gespringe14      0                                   Middle Dutch</item>
+    <item id="c3" line="5255" tag="G">Neg make me no resistance</item>
+    <item id="c4" line="5256" tag="T">Don't resist against me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21837">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5279-5282" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5279" tag="L+CR">             Elc en haette anderen niet sere141</item>
+    <item id="o2" line="5280" tag="L+LN+CR">  (47)                                                                 Middle Dutch</item>
+    <item id="o3" line="5281" tag="G">             Each neg hated others neg very</item>
+    <item id="o4" line="5282" tag="T">             `Nobody hated the others very much'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5279 5280" tag="L+CR+LN">Elc en haette anderen niet sere141                        Middle Dutch</item>
+    <item id="c3" line="5281" tag="G">Each neg hated others neg very</item>
+    <item id="c4" line="5282" tag="T">Nobody hated the others very much</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21838">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5284-5288" line-types="L+CR L+LN+CR L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5284" tag="L+CR">             Elc en wilde door den vaer</item>
+    <item id="o2" line="5285" tag="L+LN+CR">  (48)                                                                 Middle Dutch</item>
+    <item id="o3" line="5286" tag="L">                 Van sinen vrient niet sceiden daer142</item>
+    <item id="o4" line="5287" tag="G">             Each neg wanted through the fear of his friend neg separate there</item>
+    <item id="o5" line="5288" tag="T">             `Nobody wanted to be separate from his friend there'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5284 5285" tag="L+CR+LN">Elc en wilde door den vaer                                Middle Dutch</item>
+    <item id="c3" line="5286" tag="L">Van sinen vrient niet sceiden daer142</item>
+    <item id="c4" line="5287" tag="G">Each neg wanted through the fear of his friend neg separate there</item>
+    <item id="c5" line="5288" tag="T">Nobody wanted to be separate from his friend there</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+    <item id="p1" content="c3[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:65]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:50]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i21839">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5295-5301" line-types="L+CR L+LN+CR L G G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5295" tag="L+CR">             In loghens niet, ic maecte tliet. Maer elc en weet niet</item>
+    <item id="o2" line="5296" tag="L+LN+CR">  (49)                                                                 Middle Dutch</item>
+    <item id="o3" line="5297" tag="L">                  al tbediet // Wat hi seit of wat hi scrijft143</item>
+    <item id="o4" line="5298" tag="G">             I.neg lied neg, I made the.song. But each neg knows neg</item>
+    <item id="o5" line="5299" tag="G">                  all it means what he said or what he writes</item>
+    <item id="o6" line="5300" tag="T">             `I didn't lie, I made the song. But not everyone knows what it all means</item>
+    <item id="o7" line="5301" tag="T">                  what he says or writes'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5295 5296" tag="L+CR+LN">In loghens niet, ic maecte tliet. Maer elc en weet niet   Middle Dutch</item>
+    <item id="c3" line="5297" tag="L">al tbediet // Wat hi seit of wat hi scrijft143</item>
+    <item id="c4" line="5298" tag="G">I.neg lied neg, I made the.song. But each neg knows neg</item>
+    <item id="c5" line="5299" tag="G">all it means what he said or what he writes</item>
+    <item id="c6" line="5300" tag="T">I didn't lie, I made the song. But not everyone knows what it all means</item>
+    <item id="c7" line="5301" tag="T">what he says or writes</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+    <item id="p1" content="c3[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:55]" alignment="p2"/>
+    <item id="g1" content="c5[0:43]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:71]" alignment="p2"/>
+    <item id="t1" content="c7[0:22]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i21840">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5371-5374" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5371" tag="L+CR">                Suldier niet toe helpen?144</item>
+    <item id="o2" line="5372" tag="L+LN+CR">  (50)       a.                                                                    Middle Dutch</item>
+    <item id="o3" line="5373" tag="G">                Will.you.there neg to help</item>
+    <item id="o4" line="5374" tag="T">                `Won't you help there?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5371 5372" tag="L+CR+LN">Suldier niet toe helpen?144                                        Middle Dutch</item>
+    <item id="c3" line="5373" tag="G">Will.you.there neg to help</item>
+    <item id="c4" line="5374" tag="T">Won't you help there?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21841">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5375-5377" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5375" tag="L">             b. Ende nem mi niet voor dijn oordel145</item>
+    <item id="o2" line="5376" tag="G">                And take.imp me neg vefore your judgmenet</item>
+    <item id="o3" line="5377" tag="T">                `Don't take me in front of your judgement'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5375" tag="L">Ende nem mi niet voor dijn oordel145</item>
+    <item id="c2" line="5376" tag="G">And take.imp me neg vefore your judgmenet</item>
+    <item id="c3" line="5377" tag="T">Don't take me in front of your judgement</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21842">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5389-5392" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5389" tag="L+CR">             Mine herberge ontseggic u niet146</item>
+    <item id="o2" line="5390" tag="L+LN+CR">  (51)                                                                         Middle Dutch</item>
+    <item id="o3" line="5391" tag="G">             My tavern take.away.I you neg</item>
+    <item id="o4" line="5392" tag="T">             `I won't take you my tavern away'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5389 5390" tag="L+CR+LN">Mine herberge ontseggic u niet146                                 Middle Dutch</item>
+    <item id="c3" line="5391" tag="G">My tavern take.away.I you neg</item>
+    <item id="c4" line="5392" tag="T">I won't take you my tavern away</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21843">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5394-5397" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5394" tag="L+CR">             dat hem tcoude niet mochte deeren147</item>
+    <item id="o2" line="5395" tag="L+LN+CR">  (52)                                                                         Middle Dutch</item>
+    <item id="o3" line="5396" tag="G">             that him the.cold neg might harm</item>
+    <item id="o4" line="5397" tag="T">             `that the cold couldn't harm him'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5394 5395" tag="L+CR+LN">dat hem tcoude niet mochte deeren147                              Middle Dutch</item>
+    <item id="c3" line="5396" tag="G">that him the.cold neg might harm</item>
+    <item id="c4" line="5397" tag="T">that the cold couldn't harm him</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21844">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="5399-5402" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5399" tag="L+CR">             De zee was diep ende niet te wijt148</item>
+    <item id="o2" line="5400" tag="L+LN+CR">  (53)                                                                         Middle Dutch</item>
+    <item id="o3" line="5401" tag="G">             The sea was deep and not too wide</item>
+    <item id="o4" line="5402" tag="T">             `The sea was deep but not too wide'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5399 5400" tag="L+CR+LN">De zee was diep ende niet te wijt148                              Middle Dutch</item>
+    <item id="c3" line="5401" tag="G">The sea was deep and not too wide</item>
+    <item id="c4" line="5402" tag="T">The sea was deep but not too wide</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i22338">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="16146-16148" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="16146" tag="L+LN">             b. Dat si niet en sach dat si sochte279                          Middelnederlands</item>
+    <item id="o2" line="16147" tag="G">                Dat zij neg neg zag wat zij zocht</item>
+    <item id="o3" line="16148" tag="T">                `Dat zij niet zag wat zij zocht'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="16146" tag="L+LN">Dat si niet en sach dat si sochte279                          Middelnederlands</item>
+    <item id="c2" line="16147" tag="G">Dat zij neg neg zag wat zij zocht</item>
+    <item id="c3" line="16148" tag="T">Dat zij niet zag wat zij zocht</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32682">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="5584-5586" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5584" tag="L">              (104)         alse Joseph reet Maria      ghinc</item>
+    <item id="o2" line="5585" tag="G">                            when Joseph rode Mary       walked</item>
+    <item id="o3" line="5586" tag="T">                             When Joseph rode, Mary walked'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5584" tag="L">alse Joseph reet Maria      ghinc</item>
+    <item id="c2" line="5585" tag="G">when Joseph rode Mary       walked</item>
+    <item id="c3" line="5586" tag="T">When Joseph rode, Mary walked</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32825">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="8126-8128" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8126" tag="L">          (54)    a.     Oft God wilt, mi sals           bat behagen</item>
+    <item id="o2" line="8127" tag="G">                         if God wants, I shall-of it better please</item>
+    <item id="o3" line="8128" tag="T+AC">                          If God wants, I will like this better' (lanc11)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8126" tag="L">Oft God wilt, mi sals           bat behagen</item>
+    <item id="c2" line="8127" tag="G">if God wants, I shall-of it better please</item>
+    <item id="c3" line="8128" tag="T+AC">If God wants, I will like this better' (lanc11)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32826">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="8130-8136" line-types="L G B L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8130" tag="L">                  b.     oft ic den keytiff wiste, die u den lachter dede</item>
+    <item id="o2" line="8131" tag="G">                         if I the villain knew who you the infamy did</item>
+    <item id="o3" line="8132" tag="B"></item>
+    <item id="o4" line="8133" tag="L">                         hi en soude mi niet in kerstenhede ontsitten</item>
+    <item id="o5" line="8134" tag="G">                         he neg would me not in christendom escape</item>
+    <item id="o6" line="8135" tag="T">                          If I knew the villain who did this infamy/disgrace to you, he would not</item>
+    <item id="o7" line="8136" tag="T">                         escape from me in (all of) Christendom'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8130" tag="L">oft ic den keytiff wiste, die u den lachter dede</item>
+    <item id="c2" line="8131" tag="G">if I the villain knew who you the infamy did</item>
+    <item id="c3" line="8132" tag="B"/>
+    <item id="c4" line="8133" tag="L">hi en soude mi niet in kerstenhede ontsitten</item>
+    <item id="c5" line="8134" tag="G">he neg would me not in christendom escape</item>
+    <item id="c6" line="8135" tag="T">If I knew the villain who did this infamy/disgrace to you, he would not</item>
+    <item id="c7" line="8136" tag="T">escape from me in (all of) Christendom</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+    <item id="p1" content="c4[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+    <item id="g1" content="c5[0:41]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:71]" alignment="p2"/>
+    <item id="t1" content="c7[0:38]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i32828">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="8157-8159" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8157" tag="L">                    b.    Al    heeft hij alle tijd van de wereld, hij heeft nooit tijd voor ons.</item>
+    <item id="o2" line="8158" tag="G">                          though has he all time of the world, he has never time for us</item>
+    <item id="o3" line="8159" tag="T">                           Though he has all the time in the world, he never has time for us'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8157" tag="L">Al    heeft hij alle tijd van de wereld, hij heeft nooit tijd voor ons.</item>
+    <item id="c2" line="8158" tag="G">though has he all time of the world, he has never time for us</item>
+    <item id="c3" line="8159" tag="T">Though he has all the time in the world, he never has time for us</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32952">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10048-10050" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10048" tag="L">           (117) a. &amp; assi=l encendie otrossi que se quemasse.</item>
+    <item id="o2" line="10049" tag="G">                    and this-way-it lighted also so-that self burned</item>
+    <item id="o3" line="10050" tag="T+AC">                     and he lighted it in this way so that it burned' (GE-I.311r)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10048" tag="L">&amp; assi=l encendie otrossi que se quemasse.</item>
+    <item id="c2" line="10049" tag="G">and this-way-it lighted also so-that self burned</item>
+    <item id="c3" line="10050" tag="T+AC">and he lighted it in this way so that it burned' (GE-I.311r)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32953">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10052-10055" line-types="L G T T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10052" tag="L">                   b. &amp; siempre=l fuestes rebelles del dia que =uos yo començe aconnosçer</item>
+    <item id="o2" line="10053" tag="G">                      &amp; always-him were.you rebellious from-the day that you I began to know</item>
+    <item id="o3" line="10054" tag="T">                      And from the very day I became acquainted with you, you have been</item>
+    <item id="o4" line="10055" tag="T+AC">                      always rebellious to him' (GE-I.325v)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10052" tag="L">&amp; siempre=l fuestes rebelles del dia que =uos yo començe aconnosçer</item>
+    <item id="c2" line="10053" tag="G">&amp; always-him were.you rebellious from-the day that you I began to know</item>
+    <item id="c3" line="10054" tag="T">And from the very day I became acquainted with you, you have been</item>
+    <item id="c4" line="10055" tag="T+AC">always rebellious to him' (GE-I.325v)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:65]" alignment="p1"/>
+    <item id="t1" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32954">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10057-10059" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10057" tag="L">                   c. Esto=t lidiare aqui antel Rey don alfonsso</item>
+    <item id="o2" line="10058" tag="G">                      this-you challenge here before-the king don alfonsso</item>
+    <item id="o3" line="10059" tag="T+AC">                       I will challenge you on this in front of king Alfonso' (PMC)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10057" tag="L">Esto=t lidiare aqui antel Rey don alfonsso</item>
+    <item id="c2" line="10058" tag="G">this-you challenge here before-the king don alfonsso</item>
+    <item id="c3" line="10059" tag="T+AC">I will challenge you on this in front of king Alfonso' (PMC)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32955">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10061-10064" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10061" tag="L">           (118) &amp; uencieron =lo &amp; mataron a el &amp; bien ueynte mil de los Vuandalos</item>
+    <item id="o2" line="10062" tag="G">                 &amp; defeated.3Pl-him &amp; killed him &amp; and well twenty thousand of the Vandals</item>
+    <item id="o3" line="10063" tag="T">                 and they defeated him, and killed him and about twenty thousand Vandals'</item>
+    <item id="o4" line="10064" tag="M+AC">                                                                  (EE-I.128r)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10061" tag="L">&amp; uencieron =lo &amp; mataron a el &amp; bien ueynte mil de los Vuandalos</item>
+    <item id="c2" line="10062" tag="G">&amp; defeated.3Pl-him &amp; killed him &amp; and well twenty thousand of the Vandals</item>
+    <item id="c3" line="10063" tag="T">and they defeated him, and killed him and about twenty thousand Vandals</item>
+    <item id="c4" line="10064" tag="M+AC">EE-I.128r</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:71]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32956">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10082-10084" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10082" tag="L">                 a. in hare ansichte wart si roet</item>
+    <item id="o2" line="10083" tag="G">                    in her face     got she red</item>
+    <item id="o3" line="10084" tag="T">                     She got red in her face'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10082" tag="L">in hare ansichte wart si roet</item>
+    <item id="c2" line="10083" tag="G">in her face     got she red</item>
+    <item id="c3" line="10084" tag="T">She got red in her face</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32957">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10095-10097" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10095" tag="L">                      b. eenen Jode heefti vernomen</item>
+    <item id="o2" line="10096" tag="G">                         a Jew has-he met</item>
+    <item id="o3" line="10097" tag="T">                          he has met a Jew'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10095" tag="L">eenen Jode heefti vernomen</item>
+    <item id="c2" line="10096" tag="G">a Jew has-he met</item>
+    <item id="c3" line="10097" tag="T">he has met a Jew</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32958">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10101-10103" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10101" tag="L">                      c. oft ic den keytiff wiste, ...</item>
+    <item id="o2" line="10102" tag="G">                         if I the villain knew , ...</item>
+    <item id="o3" line="10103" tag="T">                          If I knew the villain'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10101" tag="L">oft ic den keytiff wiste, ...</item>
+    <item id="c2" line="10102" tag="G">if I the villain knew , ...</item>
+    <item id="c3" line="10103" tag="T">If I knew the villain</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32959">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10122-10124" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10122" tag="L">  (i)         So maecti mi verbolghen</item>
+    <item id="o2" line="10123" tag="G">              so make-you me angry</item>
+    <item id="o3" line="10124" tag="T">               You make me so angry'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10122" tag="L">So maecti mi verbolghen</item>
+    <item id="c2" line="10123" tag="G">so make-you me angry</item>
+    <item id="c3" line="10124" tag="T">You make me so angry</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32960">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10126-10128" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10126" tag="L">  (ii)        Maer twas in Egipten ghevloen</item>
+    <item id="o2" line="10127" tag="G">              but it-was in Egypt fled</item>
+    <item id="o3" line="10128" tag="T">              But it had fled to Egypt'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10126" tag="L">Maer twas in Egipten ghevloen</item>
+    <item id="c2" line="10127" tag="G">but it-was in Egypt fled</item>
+    <item id="c3" line="10128" tag="T">But it had fled to Egypt</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32961">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10152-10154" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10152" tag="L">  (120) a. nu moete=ne onse vrouwe bewaren</item>
+    <item id="o2" line="10153" tag="G">           now must-him our lady save</item>
+    <item id="o3" line="10154" tag="T">           our lady must save him now'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10152" tag="L">nu moete=ne onse vrouwe bewaren</item>
+    <item id="c2" line="10153" tag="G">now must-him our lady save</item>
+    <item id="c3" line="10154" tag="T">our lady must save him now</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32962">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10156-10158" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10156" tag="L">         b. soe troest=se de hope vander goetheit Gods</item>
+    <item id="o2" line="10157" tag="G">            in-this-way consoles-her the hope of God's goodness</item>
+    <item id="o3" line="10158" tag="T">             in this way, the hope of God's goodness consoles her'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10156" tag="L">soe troest=se de hope vander goetheit Gods</item>
+    <item id="c2" line="10157" tag="G">in-this-way consoles-her the hope of God's goodness</item>
+    <item id="c3" line="10158" tag="T">in this way, the hope of God's goodness consoles her</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32963">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10160-10162" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10160" tag="L">         c. Si hadde=t wel verdient</item>
+    <item id="o2" line="10161" tag="G">            she had-it well earned/deserved</item>
+    <item id="o3" line="10162" tag="T">             She had earned it well'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10160" tag="L">Si hadde=t wel verdient</item>
+    <item id="c2" line="10161" tag="G">she had-it well earned/deserved</item>
+    <item id="c3" line="10162" tag="T">She had earned it well</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32964">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10164-10166" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10164" tag="L">         d. dat segg=ic =u</item>
+    <item id="o2" line="10165" tag="G">            this say-I you</item>
+    <item id="o3" line="10166" tag="T">             I say this to you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10164" tag="L">dat segg=ic =u</item>
+    <item id="c2" line="10165" tag="G">this say-I you</item>
+    <item id="c3" line="10166" tag="T">I say this to you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32965">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10168-10170" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10168" tag="L">         e. Volmaect had=se die nature</item>
+    <item id="o2" line="10169" tag="G">            perfected had-her the nature</item>
+    <item id="o3" line="10170" tag="T">            Nature had perfected her'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10168" tag="L">Volmaect had=se die nature</item>
+    <item id="c2" line="10169" tag="G">perfected had-her the nature</item>
+    <item id="c3" line="10170" tag="T">Nature had perfected her</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32966">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10182-10184" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10182" tag="L">  (121) a. datt=en God niet en spaert</item>
+    <item id="o2" line="10183" tag="G">           that-him God not neg-part saves</item>
+    <item id="o3" line="10184" tag="T">            that God does not save him'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10182" tag="L">datt=en God niet en spaert</item>
+    <item id="c2" line="10183" tag="G">that-him God not neg-part saves</item>
+    <item id="c3" line="10184" tag="T">that God does not save him</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32967">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10186-10188" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10186" tag="L">         b. dat=se onse here troest</item>
+    <item id="o2" line="10187" tag="G">            that-her our lord consoles</item>
+    <item id="o3" line="10188" tag="T">             that our lord consoles her'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10186" tag="L">dat=se onse here troest</item>
+    <item id="c2" line="10187" tag="G">that-her our lord consoles</item>
+    <item id="c3" line="10188" tag="T">that our lord consoles her</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32968">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="10192-10194" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10192" tag="L">         c. Dat al mijn vrienden='t horen</item>
+    <item id="o2" line="10193" tag="G">            that all my friends it hear (Heer Halewijn balad)</item>
+    <item id="o3" line="10194" tag="T">             that all my friends hear it'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10192" tag="L">Dat al mijn vrienden='t horen</item>
+    <item id="c2" line="10193" tag="G">that all my friends it hear (Heer Halewijn balad)</item>
+    <item id="c3" line="10194" tag="T">that all my friends hear it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i36348">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3830" line-range="796-798" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="796" tag="L+LN">  Early Middle Dutch (13th century)      En laettine mi spreke niet</item>
+    <item id="o2" line="797" tag="G">                                         SN let.he me speak SN</item>
+    <item id="o3" line="798" tag="T">                                         `If he doesn't let me speak'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="796" tag="L+LN">Early Middle Dutch (13th century)      En laettine mi spreke niet</item>
+    <item id="c2" line="797" tag="G">SN let.he me speak SN</item>
+    <item id="c3" line="798" tag="T">If he doesn't let me speak</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i36349">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3830" line-range="800-802" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="800" tag="L+LN">  Late Middle Dutch(16 century, Holland) Mine herberge ontseggic u niet</item>
+    <item id="o2" line="801" tag="G">                                         My tavern       take.away.I you SN</item>
+    <item id="o3" line="802" tag="T">                                         `My tavern I won't take away from you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="800" tag="L+LN">Late Middle Dutch(16 century, Holland) Mine herberge ontseggic u niet</item>
+    <item id="c2" line="801" tag="G">My tavern       take.away.I you SN</item>
+    <item id="c3" line="802" tag="T">My tavern I won't take away from you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63387">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2571" line-range="424-436" line-types="L G B L G B L G B T T B M+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="424" tag="L">  (25)   In den bibel staet        dat    de stede van Betulia    was beleyt</item>
+    <item id="o2" line="425" tag="G">         in the bible stands       that   the city of Betulia     was besieged</item>
+    <item id="o3" line="426" tag="B"></item>
+    <item id="o4" line="427" tag="L">         van Olyfernuse ...    ende waren         die van Betulia in twyffele</item>
+    <item id="o5" line="428" tag="G">         of Olyfernus          and were           those of Betulia in doubt</item>
+    <item id="o6" line="429" tag="B"></item>
+    <item id="o7" line="430" tag="L">         omme de stede over te ghevene</item>
+    <item id="o8" line="431" tag="G">         for     the city up to give</item>
+    <item id="o9" line="432" tag="B"></item>
+    <item id="o10" line="433" tag="T">         `It says in the bible that the city of Betulia was besieged by Holofernus and the</item>
+    <item id="o11" line="434" tag="T">         Betulians were in doubt as to whether to surrender the city.'</item>
+    <item id="o12" line="435" tag="B"></item>
+    <item id="o13" line="436" tag="M+AC+LN">         (Middle Dutch, in Stoett 1923:231)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="424" tag="L">In den bibel staet        dat    de stede van Betulia    was beleyt</item>
+    <item id="c2" line="425" tag="G">in the bible stands       that   the city of Betulia     was besieged</item>
+    <item id="c3" line="426" tag="B"/>
+    <item id="c4" line="427" tag="L">van Olyfernuse ...    ende waren         die van Betulia in twyffele</item>
+    <item id="c5" line="428" tag="G">of Olyfernus          and were           those of Betulia in doubt</item>
+    <item id="c6" line="429" tag="B"/>
+    <item id="c7" line="430" tag="L">omme de stede over te ghevene</item>
+    <item id="c8" line="431" tag="G">for     the city up to give</item>
+    <item id="c9" line="432" tag="B"/>
+    <item id="c10" line="433" tag="T">It says in the bible that the city of Betulia was besieged by Holofernus and the</item>
+    <item id="c11" line="434" tag="T">Betulians were in doubt as to whether to surrender the city.</item>
+    <item id="c12" line="435" tag="B"/>
+    <item id="c13" line="436" tag="M+AC+LN">Middle Dutch, in Stoett 1923:231</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+    <item id="p1" content="c4[0:68]"/>
+    <item id="p2" content="c7[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+    <item id="g1" content="c5[0:66]" alignment="p2"/>
+    <item id="g2" content="c8[0:27]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:80]" alignment="p3"/>
+    <item id="t1" content="c11[0:60]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i67657">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1435" line-range="60-62" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="60" tag="L+LN">         b.      Maer dat en mach niet sijn                             Middle Dutch</item>
+    <item id="o2" line="61" tag="G">                 But that neg may not be</item>
+    <item id="o3" line="62" tag="T">                 'But that may not be (the case)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="60" tag="L+LN">Maer dat en mach niet sijn                             Middle Dutch</item>
+    <item id="c2" line="61" tag="G">But that neg may not be</item>
+    <item id="c3" line="62" tag="T">But that may not be (the case)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i67659">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1435" line-range="67-69" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="67" tag="L+LN">  (2)    a.      Nyemant en moet upten kerchoeve hout zaghen            Early Middle Dutch</item>
+    <item id="o2" line="68" tag="G">                 No-one neg must on-the churchyard wood saw</item>
+    <item id="o3" line="69" tag="T">                 'No one should saw wood on the churchyard'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="67" tag="L+LN">Nyemant en moet upten kerchoeve hout zaghen            Early Middle Dutch</item>
+    <item id="c2" line="68" tag="G">No-one neg must on-the churchyard wood saw</item>
+    <item id="c3" line="69" tag="T">No one should saw wood on the churchyard</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78304">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="3956-3959" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3956" tag="M+AC+LN">  (vii)   Middle Dutch    (Bossuyt 1983: 309)</item>
+    <item id="o2" line="3957" tag="L">          a. Ghi ne        wett niet wat gi ane bedt</item>
+    <item id="o3" line="3958" tag="G">              you NEG      know NEG what you adore</item>
+    <item id="o4" line="3959" tag="T">             `You don't    know what you adore'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3956" tag="M+AC+LN">Middle Dutch    (Bossuyt 1983: 309</item>
+    <item id="c2" line="3957" tag="L">Ghi ne        wett niet wat gi ane bedt</item>
+    <item id="c3" line="3958" tag="G">you NEG      know NEG what you adore</item>
+    <item id="c4" line="3959" tag="T">You don't    know what you adore</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86702">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3280" line-range="803-805" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="803" tag="L">  (48) Een waterlantsche       Trijn sat eens ajuyn en schelde</item>
+    <item id="o2" line="804" tag="G">       a     from-Waterland Trijn sat once onions and peeled</item>
+    <item id="o3" line="805" tag="T+AC">       `A Trijn from Waterland was once peeling onions' ((Robbers 1997:65)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="803" tag="L">Een waterlantsche       Trijn sat eens ajuyn en schelde</item>
+    <item id="c2" line="804" tag="G">a     from-Waterland Trijn sat once onions and peeled</item>
+    <item id="c3" line="805" tag="T+AC">A Trijn from Waterland was once peeling onions' ((Robbers 1997:65)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86703">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3280" line-range="817-819" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="817" tag="L">  (49) hi lach ende        sliep</item>
+    <item id="o2" line="818" tag="G">       he lay and-A FF slept</item>
+    <item id="o3" line="819" tag="T+AC+LN">       `He lay sleeping' (Hoekstra 1999)                                                     [Middle Dutch]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="817" tag="L">hi lach ende        sliep</item>
+    <item id="c2" line="818" tag="G">he lay and-A FF slept</item>
+    <item id="c3" line="819" tag="T+AC+LN">He lay sleeping' (Hoekstra 1999)                                                     [Middle Dutch]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:99]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86840">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3281" line-range="6330-6333" line-types="L G T+CR+EX C+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6330" tag="L">  (48) Een waterlantsche       Trijn sat eens ajuyn en schelde</item>
+    <item id="o2" line="6331" tag="G">       a     from-Waterland Trijn sat once onions and peeled</item>
+    <item id="o3" line="6332" tag="T+CR+EX">       `A Trijn from Waterland was once peeling onions' ((Robbers 1997:65)</item>
+    <item id="o4" line="6333" tag="C+AC+LN">       originally from the 17th century author, Cats (Weynen 1965)) [Middle Dutch]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6330" tag="L">Een waterlantsche       Trijn sat eens ajuyn en schelde</item>
+    <item id="c2" line="6331" tag="G">a     from-Waterland Trijn sat once onions and peeled</item>
+    <item id="c3" line="6332" tag="T+CR+EX">A Trijn from Waterland was once peeling onions' ((Robbers 1997:65)</item>
+    <item id="c4" line="6333" tag="C+AC+LN">originally from the 17th century author, Cats (Weynen 1965)) [Middle Dutch]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86841">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3281" line-range="6344-6346" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6344" tag="L">  (49) hi lach ende        sliep</item>
+    <item id="o2" line="6345" tag="G">       he lay and-A FF slept</item>
+    <item id="o3" line="6346" tag="T+AC+LN">       `He lay sleeping' (Hoekstra 1999)                                                     [Middle Dutch]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6344" tag="L">hi lach ende        sliep</item>
+    <item id="c2" line="6345" tag="G">he lay and-A FF slept</item>
+    <item id="c3" line="6346" tag="T+AC+LN">He lay sleeping' (Hoekstra 1999)                                                     [Middle Dutch]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:99]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87067">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3279" line-range="1097-1099" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1097" tag="L">  (32) a. Ons lanct na di</item>
+    <item id="o2" line="1098" tag="G">          us-dat longs to you</item>
+    <item id="o3" line="1099" tag="T">          `We long for you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1097" tag="L">Ons lanct na di</item>
+    <item id="c2" line="1098" tag="G">us-dat longs to you</item>
+    <item id="c3" line="1099" tag="T">We long for you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87068">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3279" line-range="1100-1102" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1100" tag="L">       b. Mi wondert des</item>
+    <item id="o2" line="1101" tag="G">          me-DAT wonders that-GEN</item>
+    <item id="o3" line="1102" tag="T">          `I wonder about that'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1100" tag="L">Mi wondert des</item>
+    <item id="c2" line="1101" tag="G">me-DAT wonders that-GEN</item>
+    <item id="c3" line="1102" tag="T">I wonder about that</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87069">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3279" line-range="1103-1105" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1103" tag="L">       c. Hem verdrietet des</item>
+    <item id="o2" line="1104" tag="G">          him-DAT pities that-gen</item>
+    <item id="o3" line="1105" tag="T">          `He is sorry about that'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1103" tag="L">Hem verdrietet des</item>
+    <item id="c2" line="1104" tag="G">him-DAT pities that-gen</item>
+    <item id="c3" line="1105" tag="T">He is sorry about that</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87070">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3279" line-range="1128-1130" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1128" tag="L">  (33) a. *Hi dacht hem na di te langen</item>
+    <item id="o2" line="1129" tag="G">          he thought him-DAT to you to long</item>
+    <item id="o3" line="1130" tag="T">          `He thought he longs for you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1128" tag="L">*Hi dacht hem na di te langen</item>
+    <item id="c2" line="1129" tag="G">he thought him-DAT to you to long</item>
+    <item id="c3" line="1130" tag="T">He thought he longs for you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87071">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3279" line-range="1131-1133" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1131" tag="L">       b. *Het en is geen verrassinge mi des te wonderen</item>
+    <item id="o2" line="1132" tag="G">          it NEG-is no surprise me-DAT that-GEN to wonder</item>
+    <item id="o3" line="1133" tag="T">          `It is no surprise that I wonder about that'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1131" tag="L">*Het en is geen verrassinge mi des te wonderen</item>
+    <item id="c2" line="1132" tag="G">it NEG-is no surprise me-DAT that-GEN to wonder</item>
+    <item id="c3" line="1133" tag="T">It is no surprise that I wonder about that</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87072">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3279" line-range="1160-1162" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1160" tag="L">  (i)    Haer sal verlangen dan na u</item>
+    <item id="o2" line="1161" tag="G">         her-DAT will long to you then</item>
+    <item id="o3" line="1162" tag="T">         `She will long for you then'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1160" tag="L">Haer sal verlangen dan na u</item>
+    <item id="c2" line="1161" tag="G">her-DAT will long to you then</item>
+    <item id="c3" line="1162" tag="T">She will long for you then</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91789">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="3956-3959" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3956" tag="M+AC+LN">  (vii)   Middle Dutch    (Bossuyt 1983: 309)</item>
+    <item id="o2" line="3957" tag="L">          a. Ghi ne        wett niet wat gi ane bedt</item>
+    <item id="o3" line="3958" tag="G">              you NEG      know NEG what you adore</item>
+    <item id="o4" line="3959" tag="T">             `You don't    know what you adore'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3956" tag="M+AC+LN">Middle Dutch    (Bossuyt 1983: 309</item>
+    <item id="c2" line="3957" tag="L">Ghi ne        wett niet wat gi ane bedt</item>
+    <item id="c3" line="3958" tag="G">you NEG      know NEG what you adore</item>
+    <item id="c4" line="3959" tag="T">You don't    know what you adore</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i103977">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1075" line-range="1015-1017" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1015" tag="L">         (9)     Alse dit is ghedaen, so selmen nemen hursene melc</item>
+    <item id="o2" line="1016" tag="G">                 when this is done, so shall-one take horse's milk</item>
+    <item id="o3" line="1017" tag="T+EX">                 `When this is done, then one shall take horse's milk'         (Ho. 1350)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1015" tag="L">Alse dit is ghedaen, so selmen nemen hursene melc</item>
+    <item id="c2" line="1016" tag="G">when this is done, so shall-one take horse's milk</item>
+    <item id="c3" line="1017" tag="T+EX">When this is done, then one shall take horse's milk'         (Ho. 1350)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:71]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i119236">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2682" line-range="914-917" line-types="L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="914" tag="L">   (28)    Hi soude dorbreken            den muur.</item>
+    <item id="o2" line="915" tag="G">           he would through-break the wall:ACC</item>
+    <item id="o3" line="916" tag="B"></item>
+    <item id="o4" line="917" tag="T">           `He would break through the wall.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="914" tag="L">Hi soude dorbreken            den muur.</item>
+    <item id="c2" line="915" tag="G">he would through-break the wall:ACC</item>
+    <item id="c3" line="916" tag="B"/>
+    <item id="c4" line="917" tag="T">He would break through the wall.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i144088">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1575" line-range="460-462" line-types="L+LN G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="460" tag="L+LN">  (6)   die dese niemare ho erden an (Middle Dutch, MNW 1, 110)</item>
+    <item id="o2" line="461" tag="G">        who these messages heard       at</item>
+    <item id="o3" line="462" tag="T+AC">        `who listened to these messages' (from Neeleman &amp;Weerman 1993, 190)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="460" tag="L+LN">die dese niemare ho erden an (Middle Dutch, MNW 1, 110</item>
+    <item id="c2" line="461" tag="G">who these messages heard       at</item>
+    <item id="c3" line="462" tag="T+AC">who listened to these messages' (from Neeleman &amp;Weerman 1993, 190)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149121">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="788" line-range="42-46" line-types="M+LN+CR L+CR G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="42" tag="M+LN+CR">      (5)        Midd le Dutch</item>
+    <item id="o2" line="43" tag="L+CR">                 Hii liet hemi neder daer te dale</item>
+    <item id="o3" line="44" tag="G">                 He let him down there to descend</item>
+    <item id="o4" line="45" tag="T">                 `He sat himself down.'</item>
+    <item id="o5" line="46" tag="M+AC">                 (from Van den Vos Reynaerde, Bouwman &amp; Besamusca 2002)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="42" tag="M+LN+CR">Midd le Dutch</item>
+    <item id="c2" line="43" tag="L+CR">Hii liet hemi neder daer te dale</item>
+    <item id="c3" line="44" tag="G">He let him down there to descend</item>
+    <item id="c4" line="45" tag="T">He sat himself down.</item>
+    <item id="c5" line="46" tag="M+AC">from Van den Vos Reynaerde, Bouwman &amp; Besamusca 2002</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149122">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="788" line-range="97-102" line-types="L G L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="97" tag="L">  (10)        Richt-em op met al sinen wonden, Ende hiet-ene       wel</item>
+    <item id="o2" line="98" tag="G">              Raise-him up with all his wounds, and named-him well</item>
+    <item id="o3" line="99" tag="L">              comen wesen.</item>
+    <item id="o4" line="100" tag="G">              come.inf be.inf</item>
+    <item id="o5" line="101" tag="T">              `He raised himself with all his wounds and welcomed him.'</item>
+    <item id="o6" line="102" tag="M+AC">              (from Lancelot 2395)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="97" tag="L">Richt-em op met al sinen wonden, Ende hiet-ene       wel</item>
+    <item id="c2" line="98" tag="G">Raise-him up with all his wounds, and named-him well</item>
+    <item id="c3" line="99" tag="L">comen wesen.</item>
+    <item id="c4" line="100" tag="G">come.inf be.inf</item>
+    <item id="c5" line="101" tag="T">He raised himself with all his wounds and welcomed him.</item>
+    <item id="c6" line="102" tag="M+AC">from Lancelot 2395</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+    <item id="p1" content="c3[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+    <item id="g1" content="c4[0:15]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:55]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i149123">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="788" line-range="121-124" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="121" tag="L">  (14)        Nu toe, ghelden wi hem den hane.</item>
+    <item id="o2" line="122" tag="G">              Now to, repay we him the chicken</item>
+    <item id="o3" line="123" tag="T">              `Come on, we gonna let him pay for the chicken.'</item>
+    <item id="o4" line="124" tag="M+AC">              (from Van den Vos Reynaerde, 1230. Bouwman &amp; Besamusca 2002)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="121" tag="L">Nu toe, ghelden wi hem den hane.</item>
+    <item id="c2" line="122" tag="G">Now to, repay we him the chicken</item>
+    <item id="c3" line="123" tag="T">Come on, we gonna let him pay for the chicken.</item>
+    <item id="c4" line="124" tag="M+AC">from Van den Vos Reynaerde, 1230. Bouwman &amp; Besamusca 2002</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149124">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="788" line-range="125-128" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="125" tag="L">  (15)        Ende    wroughede hem selven dor        den not.</item>
+    <item id="o2" line="126" tag="G">              and     repent      him self   through the need</item>
+    <item id="o3" line="127" tag="T">              `And    in need, he gave himself away.'</item>
+    <item id="o4" line="128" tag="M+AC">              (from    Van den Vos Reynaerde, 1205. Bouwman &amp; Besamusca 2002)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="125" tag="L">Ende    wroughede hem selven dor        den not.</item>
+    <item id="c2" line="126" tag="G">and     repent      him self   through the need</item>
+    <item id="c3" line="127" tag="T">And    in need, he gave himself away.</item>
+    <item id="c4" line="128" tag="M+AC">from    Van den Vos Reynaerde, 1205. Bouwman &amp; Besamusca 2002</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149125">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="788" line-range="132-135" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="132" tag="L">   (16)   ende pijnden hem ten strijde</item>
+    <item id="o2" line="133" tag="G">          and pained him in.the battle</item>
+    <item id="o3" line="134" tag="T">          `And they hurt each other in the battle.'</item>
+    <item id="o4" line="135" tag="M+AC">          (from Van den Vos Reynaerde, 2020. Bouwman &amp; Besamusca 2002)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="132" tag="L">ende pijnden hem ten strijde</item>
+    <item id="c2" line="133" tag="G">and pained him in.the battle</item>
+    <item id="c3" line="134" tag="T">And they hurt each other in the battle.</item>
+    <item id="c4" line="135" tag="M+AC">from Van den Vos Reynaerde, 2020. Bouwman &amp; Besamusca 2002</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149138">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="788" line-range="309-312" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="309" tag="L">  (32)   als ik hem sach</item>
+    <item id="o2" line="310" tag="G">         when I him saw</item>
+    <item id="o3" line="311" tag="T">         `When I saw him.'</item>
+    <item id="o4" line="312" tag="M+AC">         (from Van den Vos Reynaerde 2300)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="309" tag="L">als ik hem sach</item>
+    <item id="c2" line="310" tag="G">when I him saw</item>
+    <item id="c3" line="311" tag="T">When I saw him.</item>
+    <item id="c4" line="312" tag="M+AC">from Van den Vos Reynaerde 2300</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149139">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="788" line-range="350-353" line-types="L+SY G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="350" tag="L+SY">  (34)   a.   ende oec so beclaechden hemi ziji</item>
+    <item id="o2" line="351" tag="G">              and also so lamented    him they</item>
+    <item id="o3" line="352" tag="T">              `And still they lamented themselves.'</item>
+    <item id="o4" line="353" tag="M+AC">              (from Van den Vos Reynaerde 2300)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="350" tag="L+SY">ende oec so beclaechden hemi ziji</item>
+    <item id="c2" line="351" tag="G">and also so lamented    him they</item>
+    <item id="c3" line="352" tag="T">And still they lamented themselves.</item>
+    <item id="c4" line="353" tag="M+AC">from Van den Vos Reynaerde 2300</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i152968">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2762" line-range="239-241" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="239" tag="L+CN">  (13)   a.      T' Allen denghenen die dese letteren selen sien             (OV)</item>
+    <item id="o2" line="240" tag="G">                 t o al l t hos e     that these letters will see</item>
+    <item id="o3" line="241" tag="T">                 `to all those who will see these letters'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="239" tag="L+CN">a.      T' Allen denghenen die dese letteren selen sien             (OV</item>
+    <item id="c2" line="240" tag="G">t o al l t hos e     that these letters will see</item>
+    <item id="c3" line="241" tag="T">to all those who will see these letters</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i152969">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2762" line-range="242-244" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="242" tag="L+CN">         b.      ...dat hi sal senden sine ghesele den sondaren              (VO)</item>
+    <item id="o2" line="243" tag="G">                     that he will send his whip       the sinners</item>
+    <item id="o3" line="244" tag="T">                 `that He will punish the sinners'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="242" tag="L+CN">...dat hi sal senden sine ghesele den sondaren              (VO)</item>
+    <item id="c2" line="243" tag="G">that he will send his whip       the sinners</item>
+    <item id="c3" line="244" tag="T">that He will punish the sinners</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i152972">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2762" line-range="287-290" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="287" tag="L">  (15)   a.      dat verdriet        des        ridders             (Middle Dutch)</item>
+    <item id="o2" line="288" tag="G+CR">                                                knight-GEN</item>
+    <item id="o3" line="289" tag="G+CR">                 t he s or r ow      the-GEN</item>
+    <item id="o4" line="290" tag="T">                 `the knight's     sorrow'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="287" tag="L">a.      dat verdriet        des        ridders             (Middle Dutch</item>
+    <item id="c2" line="288 289" tag="G+CR">t he s or r ow      the-GEN    knight-GEN</item>
+    <item id="c4" line="290" tag="T">the knight's     sorrow</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i153290">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle dutch" iso-639-3="dum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="512" line-range="10347-10348" line-types="L+LN G+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10347" tag="L+LN">        b.   [alle des conincks] sijn landen                 Middle Dutch</item>
+    <item id="o2" line="10348" tag="G+AC">              all the king       his lands           (Koelmans 1975: 437)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10347" tag="L+LN">[alle des conincks] sijn landen                 Middle Dutch</item>
+    <item id="c2" line="10348" tag="G+AC">all the king       his lands           (Koelmans 1975: 437)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i115560">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gahri" iso-639-3="bfu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3380" line-range="1255-1259" line-types="M+LN B L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1255" tag="M+LN">  (51)   a.   Gahri</item>
+    <item id="o2" line="1256" tag="B"></item>
+    <item id="o3" line="1257" tag="L">              pyaci phecei-ti</item>
+    <item id="o4" line="1258" tag="G">              bird small-one</item>
+    <item id="o5" line="1259" tag="T+AC">              `a small bird' (Sharma 1989: 224)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1255" tag="M+LN">Gahri</item>
+    <item id="c2" line="1256" tag="B"/>
+    <item id="c3" line="1257" tag="L">pyaci phecei-ti</item>
+    <item id="c4" line="1258" tag="G">bird small-one</item>
+    <item id="c5" line="1259" tag="T+AC">a small bird' (Sharma 1989: 224)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

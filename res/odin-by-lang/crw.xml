@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i77894">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chrau" iso-639-3="crw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="1819-1823" line-types="L+DB M+DB G+DB M+DB+SY T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1819" tag="L+DB">  (117) a. mo'yah maq  TM     TM                   b. maq trôq</item>
+    <item id="o2" line="1820" tag="M+DB">                                                         TM</item>
+    <item id="o3" line="1821" tag="G+DB">                very       big                        big extremely</item>
+    <item id="o4" line="1822" tag="M+DB+SY">                Intens Adj                            Adj Intens</item>
+    <item id="o5" line="1823" tag="T+DB">                `very big'                            `extremely big'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1819" tag="L+DB">mo'yah maq  TM     TM                   b. maq trôq</item>
+    <item id="c2" line="1820" tag="M+DB">TM</item>
+    <item id="c3" line="1821" tag="G+DB">very       big                        big extremely</item>
+    <item id="c4" line="1822" tag="M+DB+SY">Intens Adj                            Adj Intens</item>
+    <item id="c5" line="1823" tag="T+DB">very big'                            `extremely big</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113532">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chrau" iso-639-3="crw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="1847-1851" line-types="L+CR L+CR G M+CN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1847" tag="L+CR">  (117) a. mo'yah maq  TM      TM               b. maq trôq</item>
+    <item id="o2" line="1848" tag="L+CR">                                                        TM</item>
+    <item id="o3" line="1849" tag="G">                very        big                      big extremely</item>
+    <item id="o4" line="1850" tag="M+CN">                Intens Adj                           Adj Intens</item>
+    <item id="o5" line="1851" tag="T">                `very big'                           `extremely big'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1847" tag="L+CR">mo'yah maq  TM      TM               b. maq trôq</item>
+    <item id="c3" line="1849" tag="G">very        big                      big extremely</item>
+    <item id="c4" line="1850" tag="M+CN">Intens Adj                           Adj Intens</item>
+    <item id="c5" line="1851" tag="T">very big'                           `extremely big</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i9456">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newar" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2018" line-range="516-531" line-types="M+AC+LN L G B B B B M B L G B L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="516" tag="M+AC+LN">  (23)    Dolakh Newar (Genetti 2005: 49)</item>
+    <item id="o2" line="517" tag="L">          gag debi   bih         ye-an                     hr-ju.</item>
+    <item id="o3" line="518" tag="G">          Ganga Debi wedding do-PART(=          CONV)      bring-3SG.   PAST</item>
+    <item id="o4" line="519" tag="B"></item>
+    <item id="o5" line="520" tag="B"></item>
+    <item id="o6" line="521" tag="B"></item>
+    <item id="o7" line="522" tag="B"></item>
+    <item id="o8" line="523" tag="M">                                                                                              10</item>
+    <item id="o9" line="524" tag="B"></item>
+    <item id="o10" line="525" tag="L">          gag debi        bih           ye-an               h-ene</item>
+    <item id="o11" line="526" tag="G">          Ganga Debi      wedding       do-PART(=   CONV)   bring-3SG.   PART(=CONV)</item>
+    <item id="o12" line="527" tag="B"></item>
+    <item id="o13" line="528" tag="L">          me        khu-m muc janm-ai jur-a</item>
+    <item id="o14" line="529" tag="G">          3SG.GEN six-CL     child born-BV happen-3SG.PAST</item>
+    <item id="o15" line="530" tag="T">          `He married Ganga Debi. Having married Ganga Debi, her six children were</item>
+    <item id="o16" line="531" tag="T">          born.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="516" tag="M+AC+LN">Dolakh Newar (Genetti 2005: 49</item>
+    <item id="c2" line="517" tag="L">gag debi   bih         ye-an                     hr-ju.</item>
+    <item id="c3" line="518" tag="G">Ganga Debi wedding do-PART(=          CONV)      bring-3SG.   PAST</item>
+    <item id="c4" line="519" tag="B"/>
+    <item id="c5" line="520" tag="B"/>
+    <item id="c6" line="521" tag="B"/>
+    <item id="c7" line="522" tag="B"/>
+    <item id="c8" line="523" tag="M">10</item>
+    <item id="c9" line="524" tag="B"/>
+    <item id="c10" line="525" tag="L">gag debi        bih           ye-an               h-ene</item>
+    <item id="c11" line="526" tag="G">Ganga Debi      wedding       do-PART(=   CONV)   bring-3SG.   PART(=CONV)</item>
+    <item id="c12" line="527" tag="B"/>
+    <item id="c13" line="528" tag="L">me        khu-m muc janm-ai jur-a</item>
+    <item id="c14" line="529" tag="G">3SG.GEN six-CL     child born-BV happen-3SG.PAST</item>
+    <item id="c15" line="530" tag="T">He married Ganga Debi. Having married Ganga Debi, her six children were</item>
+    <item id="c16" line="531" tag="T">born.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:55]"/>
+    <item id="p1" content="c10[0:55]"/>
+    <item id="p2" content="c13[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:66]" alignment="p1"/>
+    <item id="g1" content="c11[0:74]" alignment="p2"/>
+    <item id="g2" content="c14[0:48]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c15[0:71]" alignment="p3"/>
+    <item id="t1" content="c16[0:5]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i23327">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nepal bhasa" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1262" line-range="101-104" line-types="M+AC+LN+CR M L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="101" tag="M+AC+LN+CR">             DolÑOEkhÑOEe NepÑOElbhÑOEZsÑOE3 (ST, Nepal) (Genetti 1994)</item>
+    <item id="o2" line="102" tag="M">  (1)   a.</item>
+    <item id="o3" line="103" tag="L">             thau-ta        gyÑat-ki.</item>
+    <item id="o4" line="104" tag="G">             REFL-DAT fear-1sPT</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="101" tag="M+AC+LN+CR">DolÑOEkhÑOEe NepÑOElbhÑOEZsÑOE3 (ST, Nepal) (Genetti 1994)</item>
+    <item id="c2" line="102" tag="M">a.</item>
+    <item id="c3" line="103" tag="L">thau-ta        gyÑat-ki.</item>
+    <item id="c4" line="104" tag="G">REFL-DAT fear-1sPT</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50895">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newar" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1234" line-range="341-343" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="341" tag="L">  (16)        thau-ta    gibi³ ma-gyÑat-ki.</item>
+    <item id="o2" line="342" tag="G">              REFL-DAT nothing NEG-fear-1SG.NPT</item>
+    <item id="o3" line="343" tag="T">              `I wasn't afraid at all.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="341" tag="L">thau-ta    gibi³ ma-gyÑat-ki.</item>
+    <item id="c2" line="342" tag="G">REFL-DAT nothing NEG-fear-1SG.NPT</item>
+    <item id="c3" line="343" tag="T">I wasn't afraid at all.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77844">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dolakha newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="1215-1219" line-types="L+CR L+CR G M+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1215" tag="L+CR">  (77) Dolakha· kha· tu              la-eu</item>
+    <item id="o2" line="1216" tag="L+CR">                                       °              ra·</item>
+    <item id="o3" line="1217" tag="G">        Dolakha talk EMPH speak-3SG.FUT Q</item>
+    <item id="o4" line="1218" tag="M+SY">                         S                            Q</item>
+    <item id="o5" line="1219" tag="T">        `will she speak the Dolakha language?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1215" tag="L+CR">Dolakha· kha· tu              la-eu</item>
+    <item id="c3" line="1217" tag="G">Dolakha talk EMPH speak-3SG.FUT Q</item>
+    <item id="c4" line="1218" tag="M+SY">S                            Q</item>
+    <item id="c5" line="1219" tag="T">will she speak the Dolakha language?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88863">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="730" line-range="94-96" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="94" tag="L+LN">  (9) Wa khicaa-yaake bhugin chama du.                                 [Newari]</item>
+    <item id="o2" line="95" tag="G">      the dog-COM           fly     one     exist</item>
+    <item id="o3" line="96" tag="T">       `There's a fly on the dog.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="94" tag="L+LN">Wa khicaa-yaake bhugin chama du.                                 [Newari]</item>
+    <item id="c2" line="95" tag="G">the dog-COM           fly     one     exist</item>
+    <item id="c3" line="96" tag="T">There's a fly on the dog.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88864">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="730" line-range="97-99" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="97" tag="L">  (10) Ji-ta       wa baanlaa.</item>
+    <item id="o2" line="98" tag="G">        I-DAT she beautiful</item>
+    <item id="o3" line="99" tag="T">        `I think she's beautiful.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="97" tag="L">Ji-ta       wa baanlaa.</item>
+    <item id="c2" line="98" tag="G">I-DAT she beautiful</item>
+    <item id="c3" line="99" tag="T">I think she's beautiful.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113480">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dolakha" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="1256-1260" line-types="L+CR L+CR G M+CN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1256" tag="L+CR">  (77) Dolakha?kha?tu              la-eu</item>
+    <item id="o2" line="1257" tag="L+CR">                                       ?             ra?</item>
+    <item id="o3" line="1258" tag="G">        Dolakha talk EMPH speak-3SG.FUT Q</item>
+    <item id="o4" line="1259" tag="M+CN">                         S                            Q</item>
+    <item id="o5" line="1260" tag="T">        `will she speak the Dolakha language?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1256" tag="L+CR">Dolakha?kha?tu              la-eu</item>
+    <item id="c3" line="1258" tag="G">Dolakha talk EMPH speak-3SG.FUT Q</item>
+    <item id="c4" line="1259" tag="M+CN">S                            Q</item>
+    <item id="c5" line="1260" tag="T">will she speak the Dolakha language?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115607">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3380" line-range="2114-2118" line-types="M+LN B L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2114" tag="M+LN">          b.   Newari</item>
+    <item id="o2" line="2115" tag="B"></item>
+    <item id="o3" line="2116" tag="L">               tho ji-gu        nhu:-gu      saphu: ni-gu:</item>
+    <item id="o4" line="2117" tag="G">               this 1SG-MOD new-MOD book             two-CLSFR</item>
+    <item id="o5" line="2118" tag="T+AC">               `these two new books of mine' (Malla 1985: 70)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2114" tag="M+LN">Newari</item>
+    <item id="c2" line="2115" tag="B"/>
+    <item id="c3" line="2116" tag="L">tho ji-gu        nhu:-gu      saphu: ni-gu:</item>
+    <item id="c4" line="2117" tag="G">this 1SG-MOD new-MOD book             two-CLSFR</item>
+    <item id="c5" line="2118" tag="T+AC">these two new books of mine' (Malla 1985: 70)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116308">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="1127-1130" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1127" tag="L+CR">  (23)    a.    Ji Kathmand­e (locative) safu ya a.</item>
+    <item id="o2" line="1128" tag="L+CR">                 ~                               ~k</item>
+    <item id="o3" line="1129" tag="G">                I Kathmandu­to            book took</item>
+    <item id="o4" line="1130" tag="T">                `I took the book to Kathmandu.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1127" tag="L+CR">Ji Kathmand­e (locative) safu ya a.</item>
+    <item id="c3" line="1129" tag="G">I Kathmandu­to            book took</item>
+    <item id="c4" line="1130" tag="T">I took the book to Kathmandu.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116309">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="1132-1135" line-types="L+CR L+CR G T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1132" tag="L+CR">                Ji R~m­y~ tha­e (locative) safu ya a.</item>
+    <item id="o2" line="1133" tag="L+CR">          b.     ~                                       ~k</item>
+    <item id="o3" line="1134" tag="G">                I Ram­of       place­to          book took</item>
+    <item id="o4" line="1135" tag="T+DB+LT">                `I took the book to Ram.' (Literally: to Ram's place)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1132" tag="L+CR">Ji R~m­y~ tha­e (locative) safu ya a.</item>
+    <item id="c3" line="1134" tag="G">I Ram­of       place­to          book took</item>
+    <item id="c4" line="1135" tag="T+DB+LT">I took the book to Ram.' (Literally: to Ram's place)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116310">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="1137-1141" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1137" tag="L+CR">                *Ji R~m­y~ke (locative)</item>
+    <item id="o2" line="1138" tag="L+CR">          c.       ~                           safu ya a.</item>
+    <item id="o3" line="1139" tag="L+CR">                                                      ~k</item>
+    <item id="o4" line="1140" tag="G">                I     Ram­to                   book took</item>
+    <item id="o5" line="1141" tag="T">                `I took the book to Ram.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1137 1138" tag="L+CR">*Ji~R~m­y~ke (locative)       safu ya a.</item>
+    <item id="c4" line="1140" tag="G">I     Ram­to                   book took</item>
+    <item id="c5" line="1141" tag="T">I took the book to Ram.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116311">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="1143-1146" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1143" tag="L+CR">          d.    *Ji waita (dative) safu ya a.</item>
+    <item id="o2" line="1144" tag="L+CR">                   ~                         ~k</item>
+    <item id="o3" line="1145" tag="G">                I     to him          book took</item>
+    <item id="o4" line="1146" tag="T">                `I took the book to him.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1143 1144" tag="L+CR">*Ji~waita (dative) safu ya a.~k</item>
+    <item id="c3" line="1145" tag="G">I     to him          book took</item>
+    <item id="c4" line="1146" tag="T">I took the book to him.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116312">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="1148-1150" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1148" tag="L">          e.    Ji~   waita (dative) safu biya.</item>
+    <item id="o2" line="1149" tag="G">                I     to him          book give</item>
+    <item id="o3" line="1150" tag="T">                `I give the book to him.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1148" tag="L">Ji~   waita (dative) safu biya.</item>
+    <item id="c2" line="1149" tag="G">I     to him          book give</item>
+    <item id="c3" line="1150" tag="T">I give the book to him.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116313">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="1152-1155" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1152" tag="L+CR">          f.    Ji</item>
+    <item id="o2" line="1153" tag="L+CR">                 ~­ta (dative) cha ya.</item>
+    <item id="o3" line="1154" tag="G">                to me          you there is a liking</item>
+    <item id="o4" line="1155" tag="T">                `I like you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1152" tag="L+CR">Ji</item>
+    <item id="c3" line="1154" tag="G">to me          you there is a liking</item>
+    <item id="c4" line="1155" tag="T">I like you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116356">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="2219-2221" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2219" tag="L+CN">  (69)     a.    Safu    tebal­e du                      LOCATIVE</item>
+    <item id="o2" line="2220" tag="G">                 book    table is</item>
+    <item id="o3" line="2221" tag="T">                 `The book is on the table.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2219" tag="L+CN">Safu    tebal­e du                      LOCATIVE</item>
+    <item id="c2" line="2220" tag="G">book    table is</item>
+    <item id="c3" line="2221" tag="T">The book is on the table.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116357">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="2223-2226" line-types="L+CR L+CN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2223" tag="L+CR">                                    dan~</item>
+    <item id="o2" line="2224" tag="L+CN+CR">           b.    Ji~    lukha­e                          ADESSIVE</item>
+    <item id="o3" line="2225" tag="G">                 I      door        stood</item>
+    <item id="o4" line="2226" tag="T">                 `I stood at the door.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2223 2224" tag="L+CR+CN">Ji~    lukha­e    dan~                  ADESSIVE</item>
+    <item id="c3" line="2225" tag="G">I      door        stood</item>
+    <item id="c4" line="2226" tag="T">I stood at the door.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116358">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="2228-2231" line-types="L+CN+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2228" tag="L+CN+CR">                                    gay~                 ILLATIVE</item>
+    <item id="o2" line="2229" tag="L+CR">           c.    Ji~    sima­e</item>
+    <item id="o3" line="2230" tag="G">                 I      tree        climbed</item>
+    <item id="o4" line="2231" tag="T">                 `I climbed (into) the tree.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2228 2229" tag="L+CN+CR">Ji~    sima­e     gay~                 ILLATIVE</item>
+    <item id="c3" line="2230" tag="G">I      tree        climbed</item>
+    <item id="c4" line="2231" tag="T">I climbed (into) the tree.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116359">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="2233-2235" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2233" tag="L+CN">           d.    Ji~   Nepal­e wana.                     ALLATIVE</item>
+    <item id="o2" line="2234" tag="G">                 I     Nepal        went</item>
+    <item id="o3" line="2235" tag="T">                 `I went to Nepal.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2233" tag="L+CN">Ji~   Nepal­e wana.                     ALLATIVE</item>
+    <item id="c2" line="2234" tag="G">I     Nepal        went</item>
+    <item id="c3" line="2235" tag="T">I went to Nepal.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116414">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="8102-8107" line-types="M+AC+LN B L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8102" tag="M+AC+LN">  (21)     Newari (data from Tuladhar, 1985).</item>
+    <item id="o2" line="8103" tag="B"></item>
+    <item id="o3" line="8104" tag="L+CR">                                R~mã dek~byugu chakh~ che</item>
+    <item id="o4" line="8105" tag="L+CR">           a.    Jigu thwa                                  ~</item>
+    <item id="o5" line="8106" tag="G">                 my this        Ram      build     one    house</item>
+    <item id="o6" line="8107" tag="T">                 `this one house of mine which Ram built'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8102" tag="M+AC+LN">Newari (data from Tuladhar, 1985).</item>
+    <item id="c2" line="8103" tag="B"/>
+    <item id="c3" line="8104 8105" tag="L+CR">Jigu thwa      R~mã dek~byugu chakh~ che  ~</item>
+    <item id="c5" line="8106" tag="G">my this        Ram      build     one    house</item>
+    <item id="c6" line="8107" tag="T">this one house of mine which Ram built</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116415">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="8109-8112" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8109" tag="L+CR">                 R~my~ wa murkhamha Beng~li p~s~</item>
+    <item id="o2" line="8110" tag="L+CR">           b.</item>
+    <item id="o3" line="8111" tag="G">                 Ram's that stupid              Bengali friend</item>
+    <item id="o4" line="8112" tag="T">                 `that stupid Bengali friend of Ram's'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8109 8110" tag="L+CR">R~my~ wa murkhamha Beng~li p~s~</item>
+    <item id="c3" line="8111" tag="G">Ram's that stupid              Bengali friend</item>
+    <item id="c4" line="8112" tag="T">that stupid Bengali friend of Ram's</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116416">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="8114-8117" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8114" tag="L+CR">                                          dheb~ kame y~gu</item>
+    <item id="o2" line="8115" tag="L+CR">           c.    mistegu     nhugu                                   hak</item>
+    <item id="o3" line="8116" tag="G">                 women's     new          money earn to do           right</item>
+    <item id="o4" line="8117" tag="T">                 `women's new right to earn money'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8114 8115" tag="L+CR">mistegu     nhugu        dheb~ kame y~gu            hak</item>
+    <item id="c3" line="8116" tag="G">women's     new          money earn to do           right</item>
+    <item id="c4" line="8117" tag="T">women's new right to earn money</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116472">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="14123-14126" line-types="L+CR L+CR G M+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14123" tag="L+CR">           Ap§       talw~ra      lw~i</item>
+    <item id="o2" line="14124" tag="L+CR">  (93)         ~           ~</item>
+    <item id="o3" line="14125" tag="G">           they      sword­with fight</item>
+    <item id="o4" line="14126" tag="M+EX">           (`talw~ra' is an INSTRUMENTAL theme in the instrumental case)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14123" tag="L+CR">Ap§       talw~ra      lw~i</item>
+    <item id="c3" line="14125" tag="G">they      sword­with fight</item>
+    <item id="c4" line="14126" tag="M+EX">talw~ra' is an INSTRUMENTAL theme in the instrumental case</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116500">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="14438-14444" line-types="M+LN+EX M+EX B L+CN+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14438" tag="M+LN+EX">  (108)   Newari: always nasal suffix (data from Dr. Jyoti Tuladhar, a native speaker; personal</item>
+    <item id="o2" line="14439" tag="M+EX">          communication)</item>
+    <item id="o3" line="14440" tag="B"></item>
+    <item id="o4" line="14441" tag="L+CN+CR">               R~m sal~ (ELATIVE) kutu</item>
+    <item id="o5" line="14442" tag="L+CR">          a.           ~                       wala.</item>
+    <item id="o6" line="14443" tag="G">               Ram horse                down   go</item>
+    <item id="o7" line="14444" tag="T">               `Ram fell off the horse.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14438" tag="M+LN+EX">always nasal suffix (data from Dr. Jyoti Tuladhar, a native speaker; personal</item>
+    <item id="c2" line="14439" tag="M+EX">communication)</item>
+    <item id="c3" line="14440" tag="B"/>
+    <item id="c4" line="14441 14442" tag="L+CN+CR">R~m sal~~(ELATIVE) kutu         wala.</item>
+    <item id="c6" line="14443" tag="G">Ram horse                down   go</item>
+    <item id="c7" line="14444" tag="T">Ram fell off the horse.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c4[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116501">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="14446-14449" line-types="L+CN+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14446" tag="L+CN+CR">               R~m Nep~l~ (ABLATIVE) wala.</item>
+    <item id="o2" line="14447" tag="L+CR">          b.             ~</item>
+    <item id="o3" line="14448" tag="G">               Ram Nepal              go</item>
+    <item id="o4" line="14449" tag="T">               `Ram came from Nepal.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14446 14447" tag="L+CN+CR">R~m Nep~l~~(ABLATIVE) wala.</item>
+    <item id="c3" line="14448" tag="G">Ram Nepal              go</item>
+    <item id="c4" line="14449" tag="T">Ram came from Nepal.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116502">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="14451-14455" line-types="L+CN+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14451" tag="L+CN+CR">               R~ma (EFFECTIVE)           lakh~ (ASSOCIATIVE)                 j~ykala.</item>
+    <item id="o2" line="14452" tag="L+CR">                   ~                          ~                      pukhu</item>
+    <item id="o3" line="14453" tag="L+CR">          c.</item>
+    <item id="o4" line="14454" tag="G">               Ram                        water                      pool     fill</item>
+    <item id="o5" line="14455" tag="T">               `Ram filled the pool with water.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14451 14453" tag="L+CN+CR">R~ma (EFFECTIVE)           lakh~ (ASSOCIATIVE)                 j~ykala.</item>
+    <item id="c4" line="14454" tag="G">Ram                        water                      pool     fill</item>
+    <item id="c5" line="14455" tag="T">Ram filled the pool with water.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116503">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="14457-14460" line-types="L+CN+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14457" tag="L+CN+CR">               R~ma chegul§ (COMPOSITIONAL)             mhich~ dekala.</item>
+    <item id="o2" line="14458" tag="L+CR">          d.       ~     ~~</item>
+    <item id="o3" line="14459" tag="G">               Ram    leather                           purse made</item>
+    <item id="o4" line="14460" tag="T">               `Ram made the purse out of leather.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14457" tag="L+CN+CR">R~ma chegul§ (COMPOSITIONAL)             mhich~ dekala.</item>
+    <item id="c3" line="14459" tag="G">Ram    leather                           purse made</item>
+    <item id="c4" line="14460" tag="T">Ram made the purse out of leather.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116504">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="14462-14465" line-types="L+CN+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14462" tag="L+CN+CR">               R~m motar~ (EXPEDIENTIAL)</item>
+    <item id="o2" line="14463" tag="L+CR">          e.             ~                        Londone    wana.</item>
+    <item id="o3" line="14464" tag="G">               Ram car                            London     go</item>
+    <item id="o4" line="14465" tag="T">               `Ram went to London by car.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14462 14463" tag="L+CN+CR">R~m motar~~(EXPEDIENTIAL)          Londone    wana.</item>
+    <item id="c3" line="14464" tag="G">Ram car                            London     go</item>
+    <item id="c4" line="14465" tag="T">Ram went to London by car.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116505">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="14467-14471" line-types="L+CN+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14467" tag="L+CN+CR">               R~m cancer~ (CAUSAL) sita.</item>
+    <item id="o2" line="14468" tag="L+CR">                          ~</item>
+    <item id="o3" line="14469" tag="L+CR">          f.</item>
+    <item id="o4" line="14470" tag="G">               Ram cancer            die</item>
+    <item id="o5" line="14471" tag="T">               `Ram died of cancer.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14467 14468 14469" tag="L+CN+CR">R~m cancer~~(CAUSAL) sita.</item>
+    <item id="c4" line="14470" tag="G">Ram cancer            die</item>
+    <item id="c5" line="14471" tag="T">Ram died of cancer.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116506">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="14473-14476" line-types="L+CN+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14473" tag="L+CN+CR">               R~ma (EFFECTIVE) bepar~ (EFFERENTIAL) dheba mu ala.</item>
+    <item id="o2" line="14474" tag="L+CR">          g.       ~                      ~                  ~k</item>
+    <item id="o3" line="14475" tag="G">               Ram                   business        money collected</item>
+    <item id="o4" line="14476" tag="T">               `Ram collected money from business.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14473" tag="L+CN+CR">R~ma (EFFECTIVE) bepar~ (EFFERENTIAL) dheba mu ala.</item>
+    <item id="c3" line="14475" tag="G">Ram                   business        money collected</item>
+    <item id="c4" line="14476" tag="T">Ram collected money from business.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116507">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="14478-14482" line-types="L+CN+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14478" tag="L+CN+CR">               ~~                    pu (ORIGINATIVE) say~­wala.</item>
+    <item id="o2" line="14479" tag="L+CR">               ~y        sima­Ø        ~</item>
+    <item id="o3" line="14480" tag="L+CR">          h.</item>
+    <item id="o4" line="14481" tag="G">               mango­of tree         seed­from        grow­come</item>
+    <item id="o5" line="14482" tag="T">               `The mango tree grew from a seed.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14478 14480" tag="L+CN+CR">~~                    pu (ORIGINATIVE) say~­wala.</item>
+    <item id="c4" line="14481" tag="G">mango­of tree         seed­from        grow­come</item>
+    <item id="c5" line="14482" tag="T">The mango tree grew from a seed.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116508">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="14484-14487" line-types="L+CN+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14484" tag="L+CN+CR">               R~m futbal­e     chagu gol~ (DIFFERENTIAL)            ty~ta.</item>
+    <item id="o2" line="14485" tag="L+CR">          i.                                ~</item>
+    <item id="o3" line="14486" tag="G">               Ram football­in one       goal                        win</item>
+    <item id="o4" line="14487" tag="T">               `Ram won (in) the football game by one GOAL.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14484" tag="L+CN+CR">R~m futbal­e     chagu gol~ (DIFFERENTIAL)            ty~ta.</item>
+    <item id="c3" line="14486" tag="G">Ram football­in one       goal                        win</item>
+    <item id="c4" line="14487" tag="T">Ram won (in) the football game by one GOAL.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116509">
+  <metadata type="xigt-meta">
+    <meta type="language" name="newari" iso-639-3="new" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="14489-14492" line-types="L+CN+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14489" tag="L+CN+CR">               R~ma (EFFECTIVE) chamch~ (INSTRUMENTAL) j~</item>
+    <item id="o2" line="14490" tag="L+CR">          j.       ~                         ~              nala.</item>
+    <item id="o3" line="14491" tag="G">               Ram                     spoon           rice ate</item>
+    <item id="o4" line="14492" tag="T">               `Ram ate rice with a spoon.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14489" tag="L+CN+CR">R~ma (EFFECTIVE) chamch~ (INSTRUMENTAL) j~</item>
+    <item id="c3" line="14491" tag="G">Ram                     spoon           rice ate</item>
+    <item id="c4" line="14492" tag="T">Ram ate rice with a spoon.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

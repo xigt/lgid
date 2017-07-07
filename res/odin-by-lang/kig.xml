@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i25366">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kimaghama" iso-639-3="kig" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2102" line-range="375-377" line-types="L G M+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="375" tag="L">                b.    do mamu ragha</item>
+    <item id="o2" line="376" tag="G">                      tree big plural</item>
+    <item id="o3" line="377" tag="M+LN">                                                                                         (Kimaghama)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="375" tag="L">do mamu ragha</item>
+    <item id="c2" line="376" tag="G">tree big plural</item>
+    <item id="c3" line="377" tag="M+LN">Kimaghama</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

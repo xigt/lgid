@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i14772">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="932-935" line-types="L+CR L+CR G M"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="932" tag="L+CR">          b.             /kânu    famma bar¸sa klâb fi-l-bêt</item>
+    <item id="o2" line="933" tag="L+CR">                   kân</item>
+    <item id="o3" line="934" tag="G">                   was3MS/were3MP there many dogsP in-the-room</item>
+    <item id="o4" line="935" tag="M">                   "Same." (TA)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="932 933" tag="L+CR">kân  /kânu    famma bar¸sa klâb fi-l-bêt</item>
+    <item id="c3" line="934" tag="G">was3MS/were3MP there many dogsP in-the-room</item>
+    <item id="c4" line="935" tag="M">Same." (TA)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14897">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="2670-2672" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2670" tag="L">  (39)    a.      kân    famma kul mra         barraniyya fi-l-afla</item>
+    <item id="o2" line="2671" tag="G">                  was3MS there every womanFS foreignFS at-the-party</item>
+    <item id="o3" line="2672" tag="T">                  "There were all the foreign women at the party."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2670" tag="L">kân    famma kul mra         barraniyya fi-l-afla</item>
+    <item id="c2" line="2671" tag="G">was3MS there every womanFS foreignFS at-the-party</item>
+    <item id="c3" line="2672" tag="T">There were all the foreign women at the party.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14898">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="2674-2676" line-types="L G T+AC+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2674" tag="L">          b.   ?? kân    famma kul mra        fi-l-afla</item>
+    <item id="o2" line="2675" tag="G">                  was3MS there every womanFS at-the-party</item>
+    <item id="o3" line="2676" tag="T+AC+EX">                  "There was every woman at the party." (TA: Halila 1992: 352)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2674" tag="L">?? kân    famma kul mra        fi-l-afla</item>
+    <item id="c2" line="2675" tag="G">was3MS there every womanFS at-the-party</item>
+    <item id="c3" line="2676" tag="T+AC+EX">There was every woman at the party." (TA: Halila 1992: 352)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15074">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="7138-7140" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7138" tag="L">  (5)    a.      sufiâd qrâti ktâb w-karîm ¸zarî da</item>
+    <item id="o2" line="7139" tag="G">                 Souad read3FS book and-Karim newspaper</item>
+    <item id="o3" line="7140" tag="T">                 "Souad read a book and Karim a newspaper."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7138" tag="L">sufiâd qrâti ktâb w-karîm ¸zarî da</item>
+    <item id="c2" line="7139" tag="G">Souad read3FS book and-Karim newspaper</item>
+    <item id="c3" line="7140" tag="T">Souad read a book and Karim a newspaper.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15075">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="7142-7144" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7142" tag="L">         b.      sufiâd taqra fî ktâb w-karî m fî ¸zar îda</item>
+    <item id="o2" line="7143" tag="G">                 Souad read3FS in book and-Karim in newspaper</item>
+    <item id="o3" line="7144" tag="T+EX">                 "Souad is reading a book and Karim a newspaper." (TA)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7142" tag="L">sufiâd taqra fî ktâb w-karî m fî ¸zar îda</item>
+    <item id="c2" line="7143" tag="G">Souad read3FS in book and-Karim in newspaper</item>
+    <item id="c3" line="7144" tag="T+EX">Souad is reading a book and Karim a newspaper." (TA)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15076">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="7149-7151" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7149" tag="L">  (6)    a.      sufiâd fiand-ha karhba w-karîm bisklet</item>
+    <item id="o2" line="7150" tag="G">                 Souad at-CL3FS car     and-Karim bicycle</item>
+    <item id="o3" line="7151" tag="T">                 "Souad has a car and Karim a bicycle."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7149" tag="L">sufiâd fiand-ha karhba w-karîm bisklet</item>
+    <item id="c2" line="7150" tag="G">Souad at-CL3FS car     and-Karim bicycle</item>
+    <item id="c3" line="7151" tag="T">Souad has a car and Karim a bicycle.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15077">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="7153-7155" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7153" tag="L">         b.      sufiâd quddâm-ha rama w-karî m nawâl</item>
+    <item id="o2" line="7154" tag="G">                 Souad before-CL3FS Rahma and-Karim Nawal</item>
+    <item id="o3" line="7155" tag="T+EX">                 "Rahma is in front of Souad and Nawal Karim." (TA: 237)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7153" tag="L">sufiâd quddâm-ha rama w-karî m nawâl</item>
+    <item id="c2" line="7154" tag="G">Souad before-CL3FS Rahma and-Karim Nawal</item>
+    <item id="c3" line="7155" tag="T+EX">Rahma is in front of Souad and Nawal Karim." (TA: 237)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15078">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="7167-7173" line-types="L G+CR G+CR L G T T+AC+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7167" tag="L">  (7)       a.    famma bar¸sa nâs fi-s-sûq          w-bar¸sa alaba</item>
+    <item id="o2" line="7168" tag="G+CR">                           many people in-the-market and-many students</item>
+    <item id="o3" line="7169" tag="G+CR">                  THERE</item>
+    <item id="o4" line="7170" tag="L">                  fi-l-¸zamfia</item>
+    <item id="o5" line="7171" tag="G">                  in-the-university</item>
+    <item id="o6" line="7172" tag="T">                  "There are many people in the market and many students at the</item>
+    <item id="o7" line="7173" tag="T+AC+EX">                  university." (TA: Halila 1992: 271)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7167" tag="L">famma bar¸sa nâs fi-s-sûq          w-bar¸sa alaba</item>
+    <item id="c2" line="7168 7169" tag="G+CR">THERE    many people in-the-market and-many students</item>
+    <item id="c4" line="7170" tag="L">fi-l-¸zamfia</item>
+    <item id="c5" line="7171" tag="G">in-the-university</item>
+    <item id="c6" line="7172" tag="T">There are many people in the market and many students at the</item>
+    <item id="c7" line="7173" tag="T+AC+EX">university." (TA: Halila 1992: 271)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+    <item id="p1" content="c4[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+    <item id="g1" content="c5[0:17]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:60]" alignment="p2"/>
+    <item id="t1" content="c7[0:35]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i15081">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="7200-7202" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7200" tag="L">  (8)       a.   * l-karhba fiand sufiâd w-l-bisklet karîm</item>
+    <item id="o2" line="7201" tag="G">                   the-car at Souad and-the-bicycle Karim</item>
+    <item id="o3" line="7202" tag="T">                   "Souad has the car and Karim the bicycle."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7200" tag="L">* l-karhba fiand sufiâd w-l-bisklet karîm</item>
+    <item id="c2" line="7201" tag="G">the-car at Souad and-the-bicycle Karim</item>
+    <item id="c3" line="7202" tag="T">Souad has the car and Karim the bicycle.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15082">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="7204-7207" line-types="L G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7204" tag="L">            b.   * sufiâd quddâm rama w-karî m nawâl</item>
+    <item id="o2" line="7205" tag="G">                   Souad before    Rahma and Karim Nawal</item>
+    <item id="o3" line="7206" tag="M">                                                                         (TA)</item>
+    <item id="o4" line="7207" tag="T">                   "Souad is in front of Rahma and Karim Nawal."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7204" tag="L">* sufiâd quddâm rama w-karî m nawâl</item>
+    <item id="c2" line="7205" tag="G">Souad before    Rahma and Karim Nawal</item>
+    <item id="c3" line="7206" tag="M">TA</item>
+    <item id="c4" line="7207" tag="T">Souad is in front of Rahma and Karim Nawal.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15143">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="8120-8122" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8120" tag="L">  (34)   a.    l-iktâb fû q -awla</item>
+    <item id="o2" line="8121" tag="G">               the-book on the-table</item>
+    <item id="o3" line="8122" tag="T">               "The book is under the table."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8120" tag="L">l-iktâb fû q-awla</item>
+    <item id="c2" line="8121" tag="G">the-book on the-table</item>
+    <item id="c3" line="8122" tag="T">The book is under the table.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15144">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="8124-8127" line-types="L G M+AC+EX T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8124" tag="L">         b.    l-iktâb mi¸s/ma- hû-¸s       fûq -awla/*ma-fûq-¸s -tawla</item>
+    <item id="o2" line="8125" tag="G">               the-book not/not-PRO3MS-NEG on the-table/ not-on-NEG the-table</item>
+    <item id="o3" line="8126" tag="M+AC+EX">                                                 (TA; Halila 1992)</item>
+    <item id="o4" line="8127" tag="T">               "The book is not on the table."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8124" tag="L">l-iktâb mi¸s/ma-hû-¸s       fûq-awla/*ma-fûq-¸s-tawla</item>
+    <item id="c2" line="8125" tag="G">the-book not/not-PRO3MS-NEG on the-table/ not-on-NEG the-table</item>
+    <item id="c3" line="8126" tag="M+AC+EX">TA; Halila 1992</item>
+    <item id="c4" line="8127" tag="T">The book is not on the table.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15158">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="8208-8210" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8208" tag="L">  (38)    a.    -awla, ma-fû q-hâ-¸s        ktâb</item>
+    <item id="o2" line="8209" tag="G">                the-table, not-on-CL3FS-NEG book</item>
+    <item id="o3" line="8210" tag="T">                "The table, there isn't a book under it."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8208" tag="L">-awla, ma-fû q-hâ-¸s        ktâb</item>
+    <item id="c2" line="8209" tag="G">the-table, not-on-CL3FS-NEG book</item>
+    <item id="c3" line="8210" tag="T">The table, there isn't a book under it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15159">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="8212-8215" line-types="L G M M"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8212" tag="L">          b.   * -awla, ma-hyâ-¸s /*mi¸s fû q-ha ktâb</item>
+    <item id="o2" line="8213" tag="G">                 the-table, not-PRO3FS-NEG on-CL3FS book</item>
+    <item id="o3" line="8214" tag="M">                                 (TA)</item>
+    <item id="o4" line="8215" tag="M">                 "Same."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8212" tag="L">*-awla, ma-hyâ-¸s /*mi¸s fû q-ha ktâb</item>
+    <item id="c2" line="8213" tag="G">the-table, not-PRO3FS-NEG on-CL3FS book</item>
+    <item id="c3" line="8214" tag="M">TA</item>
+    <item id="c4" line="8215" tag="M">Same.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15220">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="9217-9219" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9217" tag="L">  (70)   a.     sufiâd taqra fî ktâb w-karî m ø fî ¸zarîda</item>
+    <item id="o2" line="9218" tag="G">                Souad read3FS in book and-Karim in newspaper</item>
+    <item id="o3" line="9219" tag="T">                "Souad is reading a book and Karim a newspaper."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9217" tag="L">sufiâd taqra fî ktâb w-karî m ø fî ¸zarîda</item>
+    <item id="c2" line="9218" tag="G">Souad read3FS in book and-Karim in newspaper</item>
+    <item id="c3" line="9219" tag="T">Souad is reading a book and Karim a newspaper.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15221">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="9221-9227" line-types="L G+CR G+CR L G T T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9221" tag="L">         b.     famma bar¸sa nâs fi-s-sûq         w-bar¸sa alaba</item>
+    <item id="o2" line="9222" tag="G+CR">                         many people in-the-market and-many students</item>
+    <item id="o3" line="9223" tag="G+CR">                THERE</item>
+    <item id="o4" line="9224" tag="L">                fi-l-¸zamfia</item>
+    <item id="o5" line="9225" tag="G">                in-the-university</item>
+    <item id="o6" line="9226" tag="T">                "There are many people in the market and many students at the</item>
+    <item id="o7" line="9227" tag="T+EX">                university." (TA)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9221" tag="L">famma bar¸sa nâs fi-s-sûq         w-bar¸sa alaba</item>
+    <item id="c2" line="9222 9223" tag="G+CR">THERE    many people in-the-market and-many students</item>
+    <item id="c4" line="9224" tag="L">fi-l-¸zamfia</item>
+    <item id="c5" line="9225" tag="G">in-the-university</item>
+    <item id="c6" line="9226" tag="T">There are many people in the market and many students at the</item>
+    <item id="c7" line="9227" tag="T+EX">university." (TA)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+    <item id="p1" content="c4[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+    <item id="g1" content="c5[0:17]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:60]" alignment="p2"/>
+    <item id="t1" content="c7[0:17]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i15222">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="9239-9242" line-types="L G T+DB+LT C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9239" tag="L">  (71)   a.      sufiâd fiand-ha karhba w-karîm ø bisklet</item>
+    <item id="o2" line="9240" tag="G">                 Souad at-CL3FS car     and-Karim bicycle</item>
+    <item id="o3" line="9241" tag="T+DB+LT">                 "Souad has a car, and Karim a bicycle [lit. `Souad, at her is a car,</item>
+    <item id="o4" line="9242" tag="C">                 and Karim a bicycle']."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9239" tag="L">sufiâd fiand-ha karhba w-karîm ø bisklet</item>
+    <item id="c2" line="9240" tag="G">Souad at-CL3FS car     and-Karim bicycle</item>
+    <item id="c3" line="9241" tag="T+DB+LT">Souad has a car, and Karim a bicycle [lit. `Souad, at her is a car,</item>
+    <item id="c4" line="9242" tag="C">and Karim a bicycle'].</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:67]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15223">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="9244-9246" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9244" tag="L">         b.      sufiâd quddâm-ha rama w-karî m ø nawâl</item>
+    <item id="o2" line="9245" tag="G">                 Souad before-CL3FS Rahma and-Karim Nawal</item>
+    <item id="o3" line="9246" tag="T+EX">                 "Rahma is in front of Souad, and Nawal Karim." (TA)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9244" tag="L">sufiâd quddâm-ha rama w-karî m ø nawâl</item>
+    <item id="c2" line="9245" tag="G">Souad before-CL3FS Rahma and-Karim Nawal</item>
+    <item id="c3" line="9246" tag="T+EX">Rahma is in front of Souad, and Nawal Karim." (TA)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15224">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="9250-9252" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9250" tag="L">  (72)   a.     * l-karhba fiand sufiâd w-l-bisklet ø karîm</item>
+    <item id="o2" line="9251" tag="G">                  the-car at Souad and-the-bicycle Karim</item>
+    <item id="o3" line="9252" tag="T">                  "Souad has the car, and Karim the bicycle."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9250" tag="L">* l-karhba fiand sufiâd w-l-bisklet ø karîm</item>
+    <item id="c2" line="9251" tag="G">the-car at Souad and-the-bicycle Karim</item>
+    <item id="c3" line="9252" tag="T">Souad has the car, and Karim the bicycle.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15225">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="9254-9256" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9254" tag="L">         b.     * sufiâd quddâm rama w-karî m ø nawâl</item>
+    <item id="o2" line="9255" tag="G">                  Souad before    Rahma and Karim Nawal</item>
+    <item id="o3" line="9256" tag="T+EX">                  "Souad is in front of Rahma, and Karim Nawal." (TA)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9254" tag="L">* sufiâd quddâm rama w-karî m ø nawâl</item>
+    <item id="c2" line="9255" tag="G">Souad before    Rahma and Karim Nawal</item>
+    <item id="c3" line="9256" tag="T+EX">Souad is in front of Rahma, and Karim Nawal." (TA)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49045">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="6980-6982" line-types="L-T+LN L+AL L+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6980" tag="L-T+LN">               Tunisian Arabic                    yji                   i:ja          `come'</item>
+    <item id="o2" line="6981" tag="L+AL">                                                                        ayya (i:ja)</item>
+    <item id="o3" line="6982" tag="L+AL">                                                                        taaala54</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6980" tag="L-T+LN">Tunisian Arabic                    yji                   i:ja          `come</item>
+    <item id="c2" line="6981" tag="L+AL">ayya (i:ja)</item>
+    <item id="c3" line="6982" tag="L+AL">taaala54</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:11]"/>
+    <item id="p1" content="c3[0:8]"/>
+  </tier>
+</igt>
+<igt id="i49059">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7046-7047" line-types="M+AC+LN L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7046" tag="M+AC+LN">  (136)   Tunisian Arabic (Zouhair Maalej, p.c.)</item>
+    <item id="o2" line="7047" tag="L-T">  a.      ayya (i:ja)         come on, (come here)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7046" tag="M+AC+LN">Tunisian Arabic (Zouhair Maalej, p.c.</item>
+    <item id="c2" line="7047" tag="L-T">ayya (i:ja)         come on, (come here)</item>
+  </tier>
+</igt>
+<igt id="i49062">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7055-7056" line-types="M+AC+LN L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7055" tag="M+AC+LN">  (137)   Tunisian Arabic (Zouhair Maalej, p.c.)</item>
+    <item id="o2" line="7056" tag="L-T">  a.      ayya (nimshi:w)      let's go</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7055" tag="M+AC+LN">Tunisian Arabic (Zouhair Maalej, p.c.</item>
+    <item id="c2" line="7056" tag="L-T">ayya (nimshi:w)      let's go</item>
+  </tier>
+</igt>
+<igt id="i93593">
+  <metadata type="xigt-meta">
+    <meta type="language" name="french (fra) + tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1368" line-range="968-970" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="968" tag="L">            (14)   J'ai joué avec il-ku:ra       [Belazi et al., 1994]</item>
+    <item id="o2" line="969" tag="G">                   I.have played with the-ball</item>
+    <item id="o3" line="970" tag="T">                   `I have played with the ball'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="968" tag="L">J'ai joué avec il-ku:ra       [Belazi et al., 1994]</item>
+    <item id="c2" line="969" tag="G">I.have played with the-ball</item>
+    <item id="c3" line="970" tag="T">I have played with the ball</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93596">
+  <metadata type="xigt-meta">
+    <meta type="language" name="french (fra) + tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1368" line-range="1045-1047" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1045" tag="L">            (14)   J'ai joué avec il-ku:ra</item>
+    <item id="o2" line="1046" tag="G">                   I.have played with the-ball</item>
+    <item id="o3" line="1047" tag="T">                   `I have played with the ball'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1045" tag="L">J'ai joué avec il-ku:ra</item>
+    <item id="c2" line="1046" tag="G">I.have played with the-ball</item>
+    <item id="c3" line="1047" tag="T">I have played with the ball</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106332">
+  <metadata type="xigt-meta">
+    <meta type="language" name="french (fra) + tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="236" line-range="3944-3946" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3944" tag="L+AC">            (14)   J'ai joué avec il-ku:ra       [Belazi et al., 1994]</item>
+    <item id="o2" line="3945" tag="G">                   I.have played with the-ball</item>
+    <item id="o3" line="3946" tag="T">                   `I have played with the ball'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3944" tag="L+AC">J'ai joué avec il-ku:ra       [Belazi et al., 1994]</item>
+    <item id="c2" line="3945" tag="G">I.have played with the-ball</item>
+    <item id="c3" line="3946" tag="T">I have played with the ball</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106335">
+  <metadata type="xigt-meta">
+    <meta type="language" name="french (fra) + tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="236" line-range="4021-4023" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4021" tag="L">            (14)   J'ai joué avec il-ku:ra</item>
+    <item id="o2" line="4022" tag="G">                   I.have played with the-ball</item>
+    <item id="o3" line="4023" tag="T">                   `I have played with the ball'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4021" tag="L">J'ai joué avec il-ku:ra</item>
+    <item id="c2" line="4022" tag="G">I.have played with the-ball</item>
+    <item id="c3" line="4023" tag="T">I have played with the ball</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i133209">
+  <metadata type="xigt-meta">
+    <meta type="language" name="french (fra) + tunisian arabic" iso-639-3="aeb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="193.txt" line-range="8314-8316" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8314" tag="L">        */nd-i karhba belle</item>
+    <item id="o2" line="8315" tag="G">         at-I      car    nice</item>
+    <item id="o3" line="8316" tag="T">         `I have a beautiful car'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8314" tag="L">*/nd-i karhba belle</item>
+    <item id="c2" line="8315" tag="G">at-I      car    nice</item>
+    <item id="c3" line="8316" tag="T">I have a beautiful car</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

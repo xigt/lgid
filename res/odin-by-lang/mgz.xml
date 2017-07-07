@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i127058">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mbugwe" iso-639-3="mgz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3486" line-range="1332-1334" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1332" tag="L">  (86) mbula         o-   tova e-      kende        na ngulu</item>
+    <item id="o2" line="1333" tag="G">         9:rain           15-      rain     9-    PRES.PROG   with    9:force</item>
+    <item id="o3" line="1334" tag="T">         `The rain falls with force.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1332" tag="L">mbula         o-tova e-kende        na ngulu</item>
+    <item id="c2" line="1333" tag="G">9:rain           15-rain     9-PRES.PROG   with    9:force</item>
+    <item id="c3" line="1334" tag="T">The rain falls with force.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i127059">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mbugwe" iso-639-3="mgz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3486" line-range="1336-1340" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1336" tag="L+CR">         ora      ko-     je                mohogo</item>
+    <item id="o2" line="1337" tag="L+CR">  (87)</item>
+    <item id="o3" line="1338" tag="G+CR">         15:eat 1PL-      come:             3:cassava</item>
+    <item id="o4" line="1339" tag="G+CR">                                  SBJ</item>
+    <item id="o5" line="1340" tag="T">         `We will eat cassava.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1336 1337" tag="L+CR">ora      ko-je                mohogo</item>
+    <item id="c3" line="1338 1339" tag="G+CR">15:eat 1PL-come:   SBJ       3:cassava</item>
+    <item id="c5" line="1340" tag="T">We will eat cassava.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i127060">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mbugwe" iso-639-3="mgz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3486" line-range="1342-1346" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1342" tag="L+CR">         ora      w-      anda nsiye?</item>
+    <item id="o2" line="1343" tag="L+CR">  (88)</item>
+    <item id="o3" line="1344" tag="G+CR">         15:eat 2   SG-            9:fish</item>
+    <item id="o4" line="1345" tag="G+CR">                          HAB</item>
+    <item id="o5" line="1346" tag="T">         `Do you eat fish?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1342 1343" tag="L+CR">ora      w-anda nsiye?</item>
+    <item id="c3" line="1344 1345" tag="G+CR">15:eat 2   SG-HAB      9:fish</item>
+    <item id="c5" line="1346" tag="T">Do you eat fish?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

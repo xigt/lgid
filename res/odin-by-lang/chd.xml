@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i64495">
+  <metadata type="xigt-meta">
+    <meta type="language" name="oaxaca chontal" iso-639-3="chd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3067" line-range="2449-2453" line-types="M+AC+LN+EX L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2449" tag="M+AC+LN+EX">  (101) Double-give in Oaxaca Chontal (Sedlak 1975, Waterhouse 1962: 25)</item>
+    <item id="o2" line="2450" tag="L+CR">                 elmelyu     páypa       liw'á.</item>
+    <item id="o3" line="2451" tag="L+CR">        kúpa</item>
+    <item id="o4" line="2452" tag="G">        3sg.gave the.money 3sg.gave.to his.son</item>
+    <item id="o5" line="2453" tag="T">        `He gave the money to his son.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2449" tag="M+AC+LN+EX">Double-give in Oaxaca Chontal (Sedlak 1975, Waterhouse 1962: 25</item>
+    <item id="c2" line="2450 2451" tag="L+CR">kúpa    elmelyu     páypa       liw'á.</item>
+    <item id="c4" line="2452" tag="G">3sg.gave the.money 3sg.gave.to his.son</item>
+    <item id="c5" line="2453" tag="T">He gave the money to his son.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114254">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chontal" iso-639-3="chd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1652-1653" line-types="L+LN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1652" tag="L+LN">        (96) náy-wat?[Chontal]</item>
+    <item id="o2" line="1653" tag="T">             `Please, let me know.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1652" tag="L+LN">náy-wat?[Chontal]</item>
+    <item id="c2" line="1653" tag="T">Please, let me know.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

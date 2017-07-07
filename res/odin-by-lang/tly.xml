@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i57536">
+  <metadata type="xigt-meta">
+    <meta type="language" name="talysh" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="519-521" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="519" tag="L">         a.     de              cic-e         epist-a?</item>
+    <item id="o2" line="520" tag="G">                2SG.PRON what-2SG tie up-PERF</item>
+    <item id="o3" line="521" tag="T">                `What did you tie up?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="519" tag="L">de              cic-e         epist-a?</item>
+    <item id="c2" line="520" tag="G">2SG.PRON what-2SG tie up-PERF</item>
+    <item id="c3" line="521" tag="T">What did you tie up?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57537">
+  <metadata type="xigt-meta">
+    <meta type="language" name="talysh" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="525-527" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="525" tag="L">        b.    cay              leng-on-em epest-a</item>
+    <item id="o2" line="526" tag="G">              3SG.POSS leg-PL-1SG tie up-PERF</item>
+    <item id="o3" line="527" tag="T">              `I tied up his leg.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="525" tag="L">cay              leng-on-em epest-a</item>
+    <item id="c2" line="526" tag="G">3SG.POSS leg-PL-1SG tie up-PERF</item>
+    <item id="c3" line="527" tag="T">I tied up his leg.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57538">
+  <metadata type="xigt-meta">
+    <meta type="language" name="talysh" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="528-530" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="528" tag="L">        c.    albahal-em           tifang ba po            pekeru-i</item>
+    <item id="o2" line="529" tag="G">              this moment-1SG rifle       to     down      take up-AOR</item>
+    <item id="o3" line="530" tag="T">              `In this moment I took up the rifle from below.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="528" tag="L">albahal-em           tifang ba po            pekeru-i</item>
+    <item id="c2" line="529" tag="G">this moment-1SG rifle       to     down      take up-AOR</item>
+    <item id="c3" line="530" tag="T">In this moment I took up the rifle from below.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90057">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern talyshi" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2629" line-range="18-22" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="18" tag="L+CR">                            m-ni-s             vogand-son-e</item>
+    <item id="o2" line="19" tag="L+CR">        a.    av-on</item>
+    <item id="o3" line="20" tag="G+CR">              3SG.PRON-PL 1SG.PRON-            send-3PL-AUX</item>
+    <item id="o4" line="21" tag="G+CR">                                        ACC</item>
+    <item id="o5" line="22" tag="T">              `They sent me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="18 19" tag="L+CR">av-on         m-ni-s             vogand-son-e</item>
+    <item id="c3" line="20 21" tag="G+CR">3SG.PRON-PL 1SG.PRON-ACC    send-3PL-AUX</item>
+    <item id="c5" line="22" tag="T">They sent me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90058">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern talyshi" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2629" line-range="24-27" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="24" tag="L+CR">              t        m-ni            kono bagam-</item>
+    <item id="o2" line="25" tag="L+CR">        b.                                                   kard-e</item>
+    <item id="o3" line="26" tag="G">              2SG.PRON 1SG.PRON-ACC where love-2SG           make-AUX</item>
+    <item id="o4" line="27" tag="T">              `Where did you fall in love with me?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="24 25" tag="L+CR">t        m-ni            kono bagam-kard-e</item>
+    <item id="c3" line="26" tag="G">2SG.PRON 1SG.PRON-ACC where love-2SG           make-AUX</item>
+    <item id="c4" line="27" tag="T">Where did you fall in love with me?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90059">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern talyshi" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2629" line-range="29-32" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="29" tag="L+CR">                            cic-     epist-a?</item>
+    <item id="o2" line="30" tag="L+CR">        c.    de</item>
+    <item id="o3" line="31" tag="G">              2SG.PRON      what-2SG tie up-PERF</item>
+    <item id="o4" line="32" tag="T">              `What did you tie up?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="29 30" tag="L+CR">de            cic-epist-a?</item>
+    <item id="c3" line="31" tag="G">2SG.PRON      what-2SG tie up-PERF</item>
+    <item id="c4" line="32" tag="T">What did you tie up?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90060">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern talyshi" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2629" line-range="34-37" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="34" tag="L+CR">              cay              lng-on-m       epst-a</item>
+    <item id="o2" line="35" tag="L+CR">        d.</item>
+    <item id="o3" line="36" tag="G">              3SG.POSS         leg-PL-1SG     tie up-PERF</item>
+    <item id="o4" line="37" tag="T">              `I tied up his leg.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="34 35" tag="L+CR">cay              lng-on-m       epst-a</item>
+    <item id="c3" line="36" tag="G">3SG.POSS         leg-PL-1SG     tie up-PERF</item>
+    <item id="c4" line="37" tag="T">I tied up his leg.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90061">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern talyshi" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2629" line-range="39-42" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="39" tag="L+CR">              albahal-m                                    pekrn-i</item>
+    <item id="o2" line="40" tag="L+CR">        e.                       tifang ba po</item>
+    <item id="o3" line="41" tag="G">              this moment-1SG rifle       to     down      take up-AOR</item>
+    <item id="o4" line="42" tag="T">              `In this moment I took up the rifle from below.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="39 40" tag="L+CR">albahal-m          tifang ba po              pekrn-i</item>
+    <item id="c3" line="41" tag="G">this moment-1SG rifle       to     down      take up-AOR</item>
+    <item id="c4" line="42" tag="T">In this moment I took up the rifle from below.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90210">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern talyshi" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2628" line-range="20-24" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="20" tag="L+CR">                            m-ni-s                vogand-son-e</item>
+    <item id="o2" line="21" tag="L+CR">        a.    av-on</item>
+    <item id="o3" line="22" tag="G+CR">              3SG.PRON-PL 1SG.PRON-               send-3PL-AUX</item>
+    <item id="o4" line="23" tag="G+CR">                                           ACC</item>
+    <item id="o5" line="24" tag="T">              `They sent me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="20 21" tag="L+CR">av-on         m-ni-s                vogand-son-e</item>
+    <item id="c3" line="22 23" tag="G+CR">3SG.PRON-PL 1SG.PRON-ACC    send-3PL-AUX</item>
+    <item id="c5" line="24" tag="T">They sent me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90211">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern talyshi" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2628" line-range="26-29" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="26" tag="L+CR">              t        m-ni            kono bagam-</item>
+    <item id="o2" line="27" tag="L+CR">        b.                                                        kard-e</item>
+    <item id="o3" line="28" tag="G">              2SG.PRON 1SG.PRON-ACC where love-2SG                make-AU   X</item>
+    <item id="o4" line="29" tag="T">              `Where did you fall in love with me?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="26 27" tag="L+CR">t        m-ni            kono bagam-kard-e</item>
+    <item id="c3" line="28" tag="G">2SG.PRON 1SG.PRON-ACC where love-2SG                make-AU   X</item>
+    <item id="c4" line="29" tag="T">Where did you fall in love with me?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90212">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern talyshi" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2628" line-range="31-35" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="31" tag="L+CR">                            cic-            epist-a?</item>
+    <item id="o2" line="32" tag="L+CR">        c.    de</item>
+    <item id="o3" line="33" tag="G+CR">              2SG.PRON      what-2S         tie up-PE</item>
+    <item id="o4" line="34" tag="G+CR">                                       G                RF</item>
+    <item id="o5" line="35" tag="T">              `What did you tie up?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="31 32" tag="L+CR">de            cic-epist-a?</item>
+    <item id="c3" line="33 34" tag="G+CR">2SG.PRON      what-2S    G    tie up-PE   RF</item>
+    <item id="c5" line="35" tag="T">What did you tie up?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90213">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern talyshi" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2628" line-range="37-40" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="37" tag="L+CR">              cay              lng-on-m          epst-a</item>
+    <item id="o2" line="38" tag="L+CR">        d.</item>
+    <item id="o3" line="39" tag="G">              3SG.POSS         leg-PL-1SG        tie up-P   ERF</item>
+    <item id="o4" line="40" tag="T">              `I tied up his leg.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="37 38" tag="L+CR">cay              lng-on-m          epst-a</item>
+    <item id="c3" line="39" tag="G">3SG.POSS         leg-PL-1SG        tie up-P   ERF</item>
+    <item id="c4" line="40" tag="T">I tied up his leg.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90214">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern talyshi" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2628" line-range="42-45" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="42" tag="L+CR">              albahal-m                                    pekrn-i</item>
+    <item id="o2" line="43" tag="L+CR">        e.                       tifang ba po</item>
+    <item id="o3" line="44" tag="G">              this moment-1SG rifle       to     down      take up-AOR</item>
+    <item id="o4" line="45" tag="T">              `In this moment I took up the rifle from below.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="42 43" tag="L+CR">albahal-m          tifang ba po              pekrn-i</item>
+    <item id="c3" line="44" tag="G">this moment-1SG rifle       to     down      take up-AOR</item>
+    <item id="c4" line="45" tag="T">In this moment I took up the rifle from below.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i143930">
+  <metadata type="xigt-meta">
+    <meta type="language" name="talysh" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2357" line-range="212-216" line-types="M+AC+LN B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="212" tag="M+AC+LN">  (13) NORTHERN TALYSH (Schulze 2000: 55, 53)</item>
+    <item id="o2" line="213" tag="B"></item>
+    <item id="o3" line="214" tag="L">       a.    de               cic-e       epist-a?</item>
+    <item id="o4" line="215" tag="G">             2SG.PRON what-2SG tie up-PERF</item>
+    <item id="o5" line="216" tag="T">             `What did you tie up?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="212" tag="M+AC+LN">NORTHERN TALYSH (Schulze 2000: 55, 53</item>
+    <item id="c2" line="213" tag="B"/>
+    <item id="c3" line="214" tag="L">de               cic-e       epist-a?</item>
+    <item id="c4" line="215" tag="G">2SG.PRON what-2SG tie up-PERF</item>
+    <item id="c5" line="216" tag="T">What did you tie up?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i143931">
+  <metadata type="xigt-meta">
+    <meta type="language" name="talysh" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2357" line-range="217-219" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="217" tag="L">       b.    cay              leng-on-em epest-a</item>
+    <item id="o2" line="218" tag="G">             3SG.POSS leg-PL-1SG tie up-PERF</item>
+    <item id="o3" line="219" tag="T">             `I tied up his leg.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="217" tag="L">cay              leng-on-em epest-a</item>
+    <item id="c2" line="218" tag="G">3SG.POSS leg-PL-1SG tie up-PERF</item>
+    <item id="c3" line="219" tag="T">I tied up his leg.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i143932">
+  <metadata type="xigt-meta">
+    <meta type="language" name="talysh" iso-639-3="tly" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2357" line-range="220-222" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="220" tag="L">       c.    albahal-em            tifang ba po           pekeru-i</item>
+    <item id="o2" line="221" tag="G">             this moment-1SG rifle         to    down     take up-AOR</item>
+    <item id="o3" line="222" tag="T">             `In this moment I took up the rifle from below.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="220" tag="L">albahal-em            tifang ba po           pekeru-i</item>
+    <item id="c2" line="221" tag="G">this moment-1SG rifle         to    down     take up-AOR</item>
+    <item id="c3" line="222" tag="T">In this moment I took up the rifle from below.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

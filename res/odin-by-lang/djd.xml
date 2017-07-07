@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i80726">
+  <metadata type="xigt-meta">
+    <meta type="language" name="jaminjung" iso-639-3="djd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1686" line-range="1641-1643" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1641" tag="L">  (52) Wagorra-ngoonyi ga-ngga                jarriny-bina.</item>
+    <item id="o2" line="1642" tag="G">       rock-ABL              3.SG-go.PRS      hole-ALL</item>
+    <item id="o3" line="1643" tag="T">       `He goes from the rock to(wards) the cave.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1641" tag="L">Wagorra-ngoonyi ga-ngga                jarriny-bina.</item>
+    <item id="c2" line="1642" tag="G">rock-ABL              3.SG-go.PRS      hole-ALL</item>
+    <item id="c3" line="1643" tag="T">He goes from the rock to(wards) the cave.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80727">
+  <metadata type="xigt-meta">
+    <meta type="language" name="jaminjung" iso-639-3="djd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1686" line-range="1645-1647" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1645" tag="L">  (53) Mayany       woordoo     jag        ga-dba-ny       joorroo-giyag   goolban-bina.</item>
+    <item id="o2" line="1646" tag="G">       young.animal small       go.down    3.SG-fall-PST   nest-ABL        ground-ALL</item>
+    <item id="o3" line="1647" tag="T">       `The small young animal fell down from the nest to the ground.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1645" tag="L">Mayany       woordoo     jag        ga-dba-ny       joorroo-giyag   goolban-bina.</item>
+    <item id="c2" line="1646" tag="G">young.animal small       go.down    3.SG-fall-PST   nest-ABL        ground-ALL</item>
+    <item id="c3" line="1647" tag="T">The small young animal fell down from the nest to the ground.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:78]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

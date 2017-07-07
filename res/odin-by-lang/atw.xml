@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i35488">
+  <metadata type="xigt-meta">
+    <meta type="language" name="atsugewi" iso-639-3="atw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1551-1560" line-types="L+CR L+CR+SY L+CR L+CR G L+CR M+CR+SY M+CR+SY G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1551" tag="L+CR">                                                            cE</item>
+    <item id="o2" line="1552" tag="L+CR+SY">                        qh put-      ´ 't-</item>
+    <item id="o3" line="1553" tag="L+CR">                                     ic         a</item>
+    <item id="o4" line="1554" tag="L+CR">   (75) w'- o-</item>
+    <item id="o5" line="1555" tag="G">        it- by.falling- dirt.move- into.liquid- FACTUAL NOM</item>
+    <item id="o6" line="1556" tag="L+CR">        ni?E qaph cE     c'um. e·y-i</item>
+    <item id="o7" line="1557" tag="M+CR+SY">                                ´</item>
+    <item id="o8" line="1558" tag="M+CR+SY">              ´</item>
+    <item id="o9" line="1559" tag="G">        soot      NOM creek-to</item>
+    <item id="o10" line="1560" tag="T+AC">        `The soot flowed into the creek.' (Talmy, 1972: 69)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1551 1552 1554" tag="L+CR+SY">w'-o-qh put-´ 't-cE</item>
+    <item id="c5" line="1555" tag="G">it-by.falling-dirt.move-into.liquid-FACTUAL NOM</item>
+    <item id="c6" line="1556" tag="L+CR">ni?E qaph cE     c'um. e·y-i</item>
+    <item id="c7" line="1557 1558" tag="M+CR+SY">´                ´</item>
+    <item id="c9" line="1559" tag="G">soot      NOM creek-to</item>
+    <item id="c10" line="1560" tag="T+AC">The soot flowed into the creek.' (Talmy, 1972: 69)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+    <item id="p1" content="c6[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:47]" alignment="p1"/>
+    <item id="g1" content="c9[0:22]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:50]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

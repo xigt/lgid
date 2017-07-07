@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i22358">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ronji" iso-639-3="roe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3239" line-range="122-125" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="122" tag="M+LN">              b. Ronji:</item>
+    <item id="o2" line="123" tag="L">                 a to a-a saula</item>
+    <item id="o3" line="124" tag="G">                 I IRR S:1S-eat banana</item>
+    <item id="o4" line="125" tag="T">                 `I shall eat banana'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="122" tag="M+LN">Ronji:</item>
+    <item id="c2" line="123" tag="L">a to a-a saula</item>
+    <item id="c3" line="124" tag="G">I IRR S:1S-eat banana</item>
+    <item id="c4" line="125" tag="T">I shall eat banana</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88150">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ronji" iso-639-3="roe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="270-273" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="270" tag="M+LN">              b. Ronji:</item>
+    <item id="o2" line="271" tag="L">                 a to           a-a saula</item>
+    <item id="o3" line="272" tag="G">                 I IRR*ALIS S:1S-eat banana</item>
+    <item id="o4" line="273" tag="T">                 `I shall eat banana'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="270" tag="M+LN">Ronji:</item>
+    <item id="c2" line="271" tag="L">a to           a-a saula</item>
+    <item id="c3" line="272" tag="G">I IRR*ALIS S:1S-eat banana</item>
+    <item id="c4" line="273" tag="T">I shall eat banana</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i19105">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lozi" iso-639-3="loz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2902" line-range="272-274" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="272" tag="L+DB">  (46)   bo-Lungu      ba-apeh-el-a           ba-eñi          li-tapi             [Lozi]</item>
+    <item id="o2" line="273" tag="G+DB">         Mr Lungu      SC2-cook-appl-fv       2-guests        10-fish                                yes    Relative markers are overtly Swahili, Bemba, Chewa,</item>
+    <item id="o3" line="274" tag="T+DB">         `Mr Lungu is cooking fish for the guests'                                                          anaphoric to the head            Nsenga, Tswana, Sotho,</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="272" tag="L+DB">bo-Lungu      ba-apeh-el-a           ba-eñi          li-tapi             [Lozi]</item>
+    <item id="c2" line="273" tag="G+DB">Mr Lungu      SC2-cook-appl-fv       2-guests        10-fish                                yes    Relative markers are overtly Swahili, Bemba, Chewa,</item>
+    <item id="c3" line="274" tag="T+DB">Mr Lungu is cooking fish for the guests'                                                          anaphoric to the head            Nsenga, Tswana, Sotho,</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:150]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:153]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19106">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lozi" iso-639-3="loz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2902" line-range="276-278" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="276" tag="L+DB">  (47)   ??bo-Lungu ba-apeh-el-a              li-tapi ba-eñi                                         no     Relative markers are not overtly Swati*</item>
+    <item id="o2" line="277" tag="G+DB">         Mr Lungu      SC2-cook-appl-fv       10-fish 2-guests                                              anaphoric to the head</item>
+    <item id="o3" line="278" tag="T+DB">         Intd.: `Mr Lungu is cooking-for the guests the fish (colloquial)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="276" tag="L+DB">??bo-Lungu ba-apeh-el-a              li-tapi ba-eñi                                         no     Relative markers are not overtly Swati*</item>
+    <item id="c2" line="277" tag="G+DB">Mr Lungu      SC2-cook-appl-fv       10-fish 2-guests                                              anaphoric to the head</item>
+    <item id="c3" line="278" tag="T+DB">Intd.: `Mr Lungu is cooking-for the guests the fish (colloquial)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:138]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:120]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19107">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lozi" iso-639-3="loz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2902" line-range="280-282" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="280" tag="L+DB">  (48)   bo-Lungu      ba-ba-apeh-el-a                 ba-eñi           li-tapi</item>
+    <item id="o2" line="281" tag="G+DB">         Mr Lungu      SC2-OC2-cook-appl-fv            2-guests         10-fish              (58)   ki-tabu       amba-cho       Juma a-li-soma                             [Swahili]</item>
+    <item id="o3" line="282" tag="T+DB">         `Mr Lungu is cooking fish for the guests'                                                  7-book        REL-7          Juma SC1-past-read</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="280" tag="L+DB">bo-Lungu      ba-ba-apeh-el-a                 ba-eñi           li-tapi</item>
+    <item id="c2" line="281" tag="G+DB">Mr Lungu      SC2-OC2-cook-appl-fv            2-guests         10-fish              (58)   ki-tabu       amba-cho       Juma a-li-soma                             [Swahili]</item>
+    <item id="c3" line="282" tag="T+DB">Mr Lungu is cooking fish for the guests'                                                  7-book        REL-7          Juma SC1-past-read</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:172]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:137]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19108">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lozi" iso-639-3="loz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2902" line-range="284-286" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="284" tag="L+DB">  (49)   bo-Lungu      ba-li-apeh-el-a                 ba-eñi           li-tapi</item>
+    <item id="o2" line="285" tag="G+DB">         Mr Lungu      SC2-OC10-cook-appl-fv           2-guests         10-fish              (59)   ki-tabu       a-li-cho-ki-soma                 Juma</item>
+    <item id="o3" line="286" tag="T+DB">         Mr Lungu is cooking fish for the guests'                                                   7-book        SC1-past-REL7-OC7-read           Juma</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="284" tag="L+DB">bo-Lungu      ba-li-apeh-el-a                 ba-eñi           li-tapi</item>
+    <item id="c2" line="285" tag="G+DB">Mr Lungu      SC2-OC10-cook-appl-fv           2-guests         10-fish              (59)   ki-tabu       a-li-cho-ki-soma                 Juma</item>
+    <item id="c3" line="286" tag="T+DB">Mr Lungu is cooking fish for the guests'                                                   7-book        SC1-past-REL7-OC7-read           Juma</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:142]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:142]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19109">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lozi" iso-639-3="loz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2902" line-range="288-290" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="288" tag="L+DB">  (50)   li-tapi zi-apeh-el-w-a                ba-eñi      ki           bo-Lungu</item>
+    <item id="o2" line="289" tag="G+DB">         10-fish SC10-cook-appl-pass-fv        2-guests    by           2-Lungu              Relatives are not marked anaphorically to the head:</item>
+    <item id="o3" line="290" tag="T+DB">         `the fish were cooked for the guests by Mr Lungu'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="288" tag="L+DB">li-tapi zi-apeh-el-w-a                ba-eñi      ki           bo-Lungu</item>
+    <item id="c2" line="289" tag="G+DB">10-fish SC10-cook-appl-pass-fv        2-guests    by           2-Lungu              Relatives are not marked anaphorically to the head:</item>
+    <item id="c3" line="290" tag="T+DB">the fish were cooked for the guests by Mr Lungu</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:135]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19110">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lozi" iso-639-3="loz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2902" line-range="292-294" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="292" tag="L+DB">  (51)   ba-eñi         ba-apeh-el-w-a              li-tapi ki          bo-Lungu                    9-man        2-woman       RELSC2-OC9-see-PERF-REL</item>
+    <item id="o2" line="293" tag="G+DB">         2-guests       SC10-cook-appl-pass-fv      10-fish by          2-Lungu                     `the man whom the boys saw ...'</item>
+    <item id="o3" line="294" tag="T+DB">         `the guests were cooked fish for by Mr Lungu'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="292" tag="L+DB">ba-eñi         ba-apeh-el-w-a              li-tapi ki          bo-Lungu                    9-man        2-woman       RELSC2-OC9-see-PERF-REL</item>
+    <item id="c2" line="293" tag="G+DB">2-guests       SC10-cook-appl-pass-fv      10-fish by          2-Lungu                     `the man whom the boys saw ...</item>
+    <item id="c3" line="294" tag="T+DB">the guests were cooked fish for by Mr Lungu</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:141]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:121]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19128">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lozi" iso-639-3="loz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2902" line-range="405-409" line-types="L+DB M+DB G+DB M+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="405" tag="L+DB">  (85)   li-njoko      za-opel-a               mwa-kota                               [Lozi]</item>
+    <item id="o2" line="406" tag="M+DB">                                                                                                  (92)   m-vi-mi-ti              mu-imb-a   a-kolwe                           [Nsenga]</item>
+    <item id="o3" line="407" tag="G+DB">         monkeys       SC10-sing-FV            18-tree</item>
+    <item id="o4" line="408" tag="M+DB">                                                                                                         NP17-NP8-NP4-tree SC17-sing-fv 2-monkey</item>
+    <item id="o5" line="409" tag="T+DB">         `the monkeys are singing in the tree'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="405" tag="L+DB">li-njoko      za-opel-a               mwa-kota                               [Lozi]</item>
+    <item id="c2" line="406" tag="M+DB">m-vi-mi-ti              mu-imb-a   a-kolwe                           [Nsenga]</item>
+    <item id="c3" line="407" tag="G+DB">monkeys       SC10-sing-FV            18-tree</item>
+    <item id="c4" line="408" tag="M+DB">NP17-NP8-NP4-tree SC17-sing-fv 2-monkey</item>
+    <item id="c5" line="409" tag="T+DB">the monkeys are singing in the tree</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:83]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19129">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lozi" iso-639-3="loz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2902" line-range="411-415" line-types="L+DB M+DB G+DB M+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="411" tag="L+DB">  (86)   mwa-kota      ku-opel-a               li-njoko</item>
+    <item id="o2" line="412" tag="M+DB">                                                                                                  (93)   ko-mu-ti                kwa-imbur-a            ozon-djima            [Herero]</item>
+    <item id="o3" line="413" tag="G+DB">         18-tree       SC17-sing-FV            10-monkeys</item>
+    <item id="o4" line="414" tag="M+DB">                                                                                                         NP17-NP3-tree           SC17.past-sing-fv      NP10-baboons</item>
+    <item id="o5" line="415" tag="T+DB">         `the monkeys are singing in the tree'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="411" tag="L+DB">mwa-kota      ku-opel-a               li-njoko</item>
+    <item id="c2" line="412" tag="M+DB">ko-mu-ti                kwa-imbur-a            ozon-djima            [Herero]</item>
+    <item id="c3" line="413" tag="G+DB">18-tree       SC17-sing-FV            10-monkeys</item>
+    <item id="c4" line="414" tag="M+DB">NP17-NP3-tree           SC17.past-sing-fv      NP10-baboons</item>
+    <item id="c5" line="415" tag="T+DB">the monkeys are singing in the tree</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19135">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lozi" iso-639-3="loz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2902" line-range="468-470" line-types="L+DB+EX G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="468" tag="L+DB+EX">  (97)   fa-tafule       ku-ins-i               li-tapi                        [Lozi]     (105) wa-ly-a       Katisha na -ana               ntochi</item>
+    <item id="o2" line="469" tag="G+DB">         16-table        SC17-be/sit-Tns        5-fish                                          SC2-eat-fv    Katisha and NP2-children      9.bananas</item>
+    <item id="o3" line="470" tag="T+DB">         `on the table there is fish'                                                           `Katisha and her children have eaten the bananas'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="468" tag="L+DB+EX">fa-tafule       ku-ins-i               li-tapi                        [Lozi]     (105) wa-ly-a       Katisha na-ana               ntochi</item>
+    <item id="c2" line="469" tag="G+DB">16-table        SC17-be/sit-Tns        5-fish                                          SC2-eat-fv    Katisha and NP2-children      9.bananas</item>
+    <item id="c3" line="470" tag="T+DB">on the table there is fish'                                                           `Katisha and her children have eaten the bananas</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:136]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:140]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:134]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19136">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lozi" iso-639-3="loz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2902" line-range="481-483" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="481" tag="L+DB">  (98)   mwa-ndu        ne-ku-ken-i        ma-sholi                                       (106)     a-ly-a        -ana na Katisha             ntochi</item>
+    <item id="o2" line="482" tag="G+DB">         18-house       Tns-SC17-enter-Tns 6-thieves                                              SC2-eat-fv    NP2-children and Katisha      9.bananas</item>
+    <item id="o3" line="483" tag="T+DB">         `the house entered the thieves'                                                          `Katisha and her children have eaten the bananas'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="481" tag="L+DB">mwa-ndu        ne-ku-ken-i        ma-sholi                                       (106)     a-ly-a-ana na Katisha             ntochi</item>
+    <item id="c2" line="482" tag="G+DB">18-house       Tns-SC17-enter-Tns 6-thieves                                              SC2-eat-fv    NP2-children and Katisha      9.bananas</item>
+    <item id="c3" line="483" tag="T+DB">the house entered the thieves'                                                          `Katisha and her children have eaten the bananas</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:131]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:142]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:136]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19137">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lozi" iso-639-3="loz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2902" line-range="485-487" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="485" tag="L+DB">  (99)   mwa-kota      ku-opel-a               li-njoko</item>
+    <item id="o2" line="486" tag="G+DB">         18-tree       SC17-sing-FV            10-monkeys                                 (107) chi-ti        na       ghumu-biki chi-ghul-iw-a                  [Luguru]</item>
+    <item id="o3" line="487" tag="T+DB">         `the monkeys are singing in the tree'                                                  7-chair       and      3-tree        SC7-buy-pass-fv</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="485" tag="L+DB">mwa-kota      ku-opel-a               li-njoko</item>
+    <item id="c2" line="486" tag="G+DB">18-tree       SC17-sing-FV            10-monkeys                                 (107) chi-ti        na       ghumu-biki chi-ghul-iw-a                  [Luguru]</item>
+    <item id="c3" line="487" tag="T+DB">the monkeys are singing in the tree'                                                  7-chair       and      3-tree        SC7-buy-pass-fv</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:160]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:138]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155945">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lozi" iso-639-3="loz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3302" line-range="718-721" line-types="L+DB+CR L+LN+DB+CR G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="718" tag="L+DB+CR">                                ni-ø-lek-á nama                    lw-ø-a-ca</item>
+    <item id="o2" line="719" tag="L+LN+DB+CR">          d. Lozi (K21)</item>
+    <item id="o3" line="720" tag="G+DB">                                I-ø-buy meat                       I-ø-FOC-eat</item>
+    <item id="o4" line="721" tag="T+DB">                                `I buy, am buying meat'            `We are eating'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="718 719" tag="L+DB+CR+LN">Lozi (K21)         ni-ø-lek-á nama                    lw-ø-a-ca</item>
+    <item id="c3" line="720" tag="G+DB">I-ø-buy meat                       I-ø-FOC-eat</item>
+    <item id="c4" line="721" tag="T+DB">I buy, am buying meat'            `We are eating</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

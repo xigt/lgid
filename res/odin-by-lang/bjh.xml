@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i138424">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bahinemo" iso-639-3="bjh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2142" line-range="4471-4484" line-types="L G L G L G B B B M B T T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4471" tag="L">         Nem na ya-tagiya-m,             du-qi-yasinu,</item>
+    <item id="o2" line="4472" tag="G">         We sago         eat-satisfy-remote:past neutral-repeat-get-up:present</item>
+    <item id="o3" line="4473" tag="L">         de tenowa-s,         niba    la-hina-fanel,</item>
+    <item id="o4" line="4474" tag="G">         neutral-ascend-present ridge         immediate-upstream-arrive:present</item>
+    <item id="o5" line="4475" tag="L">         idu     du:wei</item>
+    <item id="o6" line="4476" tag="G">         to: right       neutral-walk:along:rigdge:present</item>
+    <item id="o7" line="4477" tag="B"></item>
+    <item id="o8" line="4478" tag="B"></item>
+    <item id="o9" line="4479" tag="B"></item>
+    <item id="o10" line="4480" tag="M">                                                                                       106</item>
+    <item id="o11" line="4481" tag="B"></item>
+    <item id="o12" line="4482" tag="T">         `After we ate Sago until we were satisfied, we got up again, we ascended,</item>
+    <item id="o13" line="4483" tag="T">         immediately we went up the stream bed and arrived at the ridge, to the right'</item>
+    <item id="o14" line="4484" tag="M+AC">         (1985:103).</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4471" tag="L">Nem na ya-tagiya-m,             du-qi-yasinu,</item>
+    <item id="c2" line="4472" tag="G">We sago         eat-satisfy-remote:past neutral-repeat-get-up:present</item>
+    <item id="c3" line="4473" tag="L">de tenowa-s,         niba    la-hina-fanel,</item>
+    <item id="c4" line="4474" tag="G">neutral-ascend-present ridge         immediate-upstream-arrive:present</item>
+    <item id="c5" line="4475" tag="L">idu     du:wei</item>
+    <item id="c6" line="4476" tag="G">right       neutral-walk:along:rigdge:present</item>
+    <item id="c7" line="4477" tag="B"/>
+    <item id="c8" line="4478" tag="B"/>
+    <item id="c9" line="4479" tag="B"/>
+    <item id="c10" line="4480" tag="M">106</item>
+    <item id="c11" line="4481" tag="B"/>
+    <item id="c12" line="4482" tag="T">After we ate Sago until we were satisfied, we got up again, we ascended,</item>
+    <item id="c13" line="4483" tag="T">immediately we went up the stream bed and arrived at the ridge, to the right</item>
+    <item id="c14" line="4484" tag="M+AC">(1985:103).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+    <item id="p1" content="c3[0:43]"/>
+    <item id="p2" content="c5[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+    <item id="g1" content="c4[0:70]" alignment="p2"/>
+    <item id="g2" content="c6[0:45]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c12[0:72]" alignment="p3"/>
+    <item id="t1" content="c13[0:76]" alignment="p3"/>
+  </tier>
+</igt>
+</xigt-corpus>

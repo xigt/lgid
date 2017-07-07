@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i73349">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamoro" iso-639-3="kgq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="1174-1176" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1174" tag="L">  (92) kamé: na:ti              a:ra-tia</item>
+    <item id="o2" line="1175" tag="G">          house headman 3SG-GEN</item>
+    <item id="o3" line="1176" tag="T">          `the house of the headman'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1174" tag="L">na:ti              a:ra-tia</item>
+    <item id="c2" line="1175" tag="G">house headman 3SG-GEN</item>
+    <item id="c3" line="1176" tag="T">the house of the headman</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i47648">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yagua" iso-639-3="yad" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3417" line-range="432-435" line-types="M+CN L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="432" tag="M+CN">  (20) Yagua (Peru)</item>
+    <item id="o2" line="433" tag="L">              a. sa-suuta rospita-[níí Anita].</item>
+    <item id="o3" line="434" tag="G">                   3SG-wash Rospita-3SG Anita</item>
+    <item id="o4" line="435" tag="T+AC">                   `Rospita washes Anita.' (Payne 1990: 31)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="432" tag="M+CN">Yagua (Peru</item>
+    <item id="c2" line="433" tag="L">sa-suuta rospita-[níí Anita].</item>
+    <item id="c3" line="434" tag="G">3SG-wash Rospita-3SG Anita</item>
+    <item id="c4" line="435" tag="T+AC">Rospita washes Anita.' (Payne 1990: 31)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47649">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yagua" iso-639-3="yad" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3417" line-range="436-440" line-types="L+CR L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="436" tag="L+CR">              b. ra-tyúúchu</item>
+    <item id="o2" line="437" tag="L+CR">                          ÁÁ        váturuy jísaa.</item>
+    <item id="o3" line="438" tag="L+CR">                                          Á   Á ÁÁ</item>
+    <item id="o4" line="439" tag="G">                   1SG-converse woman with</item>
+    <item id="o5" line="440" tag="T+AC">                   `I talked with the woman.' (Payne 1990: 124)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="436 438" tag="L+CR">ra-tyúúchu             Á   Á ÁÁ</item>
+    <item id="c4" line="439" tag="G">1SG-converse woman with</item>
+    <item id="c5" line="440" tag="T+AC">I talked with the woman.' (Payne 1990: 124)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73368">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yagua" iso-639-3="yad" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="1317-1319" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1317" tag="L">  (105) a. Tomáása rooriy</item>
+    <item id="o2" line="1318" tag="G">               Tom            house</item>
+    <item id="o3" line="1319" tag="T">               `Tom's house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1317" tag="L">Tomáása rooriy</item>
+    <item id="c2" line="1318" tag="G">Tom            house</item>
+    <item id="c3" line="1319" tag="T">Tom's house</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73369">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yagua" iso-639-3="yad" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="1320-1322" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1320" tag="L">        b. sa-rooriy                  Tomáása</item>
+    <item id="o2" line="1321" tag="G">              3SG.POSS-house          Tom</item>
+    <item id="o3" line="1322" tag="T">              `Tom's house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1320" tag="L">sa-rooriy                  Tomáása</item>
+    <item id="c2" line="1321" tag="G">3SG.POSS-house          Tom</item>
+    <item id="c3" line="1322" tag="T">Tom's house</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77832">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yagua" iso-639-3="yad" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="1062-1065" line-types="L+DB G+DB M+DB+SY T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1062" tag="L+DB">  (66) a. s-iimyiy Alchíco-níí                   quiivaÁ        b. Tomáása rooriy</item>
+    <item id="o2" line="1063" tag="G+DB">                3SG-eat Alchíco-DEF.OBJ fish                          Tom        house</item>
+    <item id="o3" line="1064" tag="M+DB+SY">                   V             S                O                     G         N</item>
+    <item id="o4" line="1065" tag="T+DB">                `Alchico is eating the fish'                    `Tom's house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1062" tag="L+DB">s-iimyiy Alchíco-níí                   quiivaÁ        b. Tomáása rooriy</item>
+    <item id="c2" line="1063" tag="G+DB">3SG-eat Alchíco-DEF.OBJ fish                          Tom        house</item>
+    <item id="c3" line="1064" tag="M+DB+SY">V             S                O                     G         N</item>
+    <item id="c4" line="1065" tag="T+DB">Alchico is eating the fish'                    `Tom's house</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113466">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yagua" iso-639-3="yad" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="1105-1108" line-types="L+DB G+DB M+CN+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1105" tag="L+DB">  (66) a. s-iimyiy Alchíco-níí                   quiiva?       b. Tomáása rooriy</item>
+    <item id="o2" line="1106" tag="G+DB">                3SG-eat Alchíco-DEF.OBJ fish                          Tom        house</item>
+    <item id="o3" line="1107" tag="M+CN+DB">                   V             S                O                     G         N</item>
+    <item id="o4" line="1108" tag="T+DB">                `Alchico is eating the fish'                    `Tom's house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1105" tag="L+DB">s-iimyiy Alchíco-níí                   quiiva?       b. Tomáása rooriy</item>
+    <item id="c2" line="1106" tag="G+DB">3SG-eat Alchíco-DEF.OBJ fish                          Tom        house</item>
+    <item id="c3" line="1107" tag="M+CN+DB">V             S                O                     G         N</item>
+    <item id="c4" line="1108" tag="T+DB">Alchico is eating the fish'                    `Tom's house</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118275">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yagua" iso-639-3="yad" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3659" line-range="1899-1911" line-types="L+CR L+CR B B B L+CR+AL B B B L+CR+AL B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1899" tag="L+CR">  3.11 a sapuuchiy</item>
+    <item id="o2" line="1900" tag="L+CR">                           Pauro roorivyiimun   Anita</item>
+    <item id="o3" line="1901" tag="B"></item>
+    <item id="o4" line="1902" tag="B"></item>
+    <item id="o5" line="1903" tag="B"></item>
+    <item id="o6" line="1904" tag="L+CR+AL">                           Pauro rooriy-v11mu- n   Anita</item>
+    <item id="o7" line="1905" tag="B"></item>
+    <item id="o8" line="1906" tag="B"></item>
+    <item id="o9" line="1907" tag="B"></item>
+    <item id="o10" line="1908" tag="L+CR+AL">         sa-puuchiy</item>
+    <item id="o11" line="1909" tag="B"></item>
+    <item id="o12" line="1910" tag="G">         3sg-lead carry Paul house-inside-3sg Anita</item>
+    <item id="o13" line="1911" tag="T">         `Paul leads carries Anita inside a the house.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1899 1900" tag="L+CR">3.11 a sapuuchiy         Pauro roorivyiimun   Anita</item>
+    <item id="c3" line="1901" tag="B"/>
+    <item id="c4" line="1902" tag="B"/>
+    <item id="c5" line="1903" tag="B"/>
+    <item id="c6" line="1904" tag="L+CR+AL">Pauro rooriy-v11mu-n   Anita</item>
+    <item id="c7" line="1905" tag="B"/>
+    <item id="c8" line="1906" tag="B"/>
+    <item id="c9" line="1907" tag="B"/>
+    <item id="c10" line="1908" tag="L+CR+AL">sa-puuchiy</item>
+    <item id="c11" line="1909" tag="B"/>
+    <item id="c12" line="1910" tag="G">3sg-lead carry Paul house-inside-3sg Anita</item>
+    <item id="c13" line="1911" tag="T">Paul leads carries Anita inside a the house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+    <item id="p1" content="c6[0:28]"/>
+    <item id="p2" content="c10[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c12[0:42]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:44]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i118276">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yagua" iso-639-3="yad" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3659" line-range="1912-1919" line-types="L+CR L+CR L+CR+AL L+CR+AL L+CR+AL L+CR+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1912" tag="L+CR">       b siimyimaa             Tom asara</item>
+    <item id="o2" line="1913" tag="L+CR">                                  a              j asuchee</item>
+    <item id="o3" line="1914" tag="L+CR+AL">                               Tom asa- r</item>
+    <item id="o4" line="1915" tag="L+CR+AL">                                  a  a</item>
+    <item id="o5" line="1916" tag="L+CR+AL">         sa-jimyiy-maa                           j  hee</item>
+    <item id="o6" line="1917" tag="L+CR+AL">                                                   asuuc</item>
+    <item id="o7" line="1918" tag="G">         3sg-eat-perfect Tom-inanimate manioc</item>
+    <item id="o8" line="1919" tag="T">         `Tom has eaten the manioc.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1912 1913" tag="L+CR">b siimyimaa             Tomaasara         j asuchee</item>
+    <item id="c7" line="1918" tag="G">3sg-eat-perfect Tom-inanimate manioc</item>
+    <item id="c8" line="1919" tag="T">Tom has eaten the manioc.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118277">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yagua" iso-639-3="yad" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3659" line-range="1920-1933" line-types="L+CR L+CR L+CR L+CR L+CR L+CR L+CR L+CR L+CR L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1920" tag="L+CR">       c raa              jas</item>
+    <item id="o2" line="1921" tag="L+CR"></item>
+    <item id="o3" line="1922" tag="L+CR">  tya j adin   jinuvu</item>
+    <item id="o4" line="1923" tag="L+CR">                                     a  ~</item>
+    <item id="o5" line="1924" tag="L+CR"></item>
+    <item id="o6" line="1925" tag="L+CR">           ~</item>
+    <item id="o7" line="1926" tag="L+CR">                          jas  ya j adiy- n   jiy-nuvu</item>
+    <item id="o8" line="1927" tag="L+CR"></item>
+    <item id="o9" line="1928" tag="L+CR"></item>
+    <item id="o10" line="1929" tag="L+CR"></item>
+    <item id="o11" line="1930" tag="L+CR">         ray-a</item>
+    <item id="o12" line="1931" tag="L+CR">  t      a</item>
+    <item id="o13" line="1932" tag="G">         1sg-irrealis defeather rst-3sg 2sg-killnoun</item>
+    <item id="o14" line="1933" tag="T">         `I will defeather your kill rst.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1920 1921 1923 1924 1927 1928 1929" tag="L+CR">c raa              jas        a  ~</item>
+    <item id="c13" line="1932" tag="G">1sg-irrealis defeather rst-3sg 2sg-killnoun</item>
+    <item id="c14" line="1933" tag="T">I will defeather your kill rst.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c13[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c14[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i143115">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yagua" iso-639-3="yad" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2327" line-range="562-564" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="562" tag="L">         sa- rooriy Tomáása</item>
+    <item id="o2" line="563" tag="G">  (17)   3SG- house Tom</item>
+    <item id="o3" line="564" tag="T">         `Tom's house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="562" tag="L">sa-rooriy Tomáása</item>
+    <item id="c2" line="563" tag="G">3SG-house Tom</item>
+    <item id="c3" line="564" tag="T">Tom's house</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i143116">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yagua" iso-639-3="yad" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2327" line-range="566-568" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="566" tag="L">         Tomáása rooriy</item>
+    <item id="o2" line="567" tag="G">  (18)   Tom      house</item>
+    <item id="o3" line="568" tag="T">         `Tom's house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="566" tag="L">Tomáása rooriy</item>
+    <item id="c2" line="567" tag="G">Tom      house</item>
+    <item id="c3" line="568" tag="T">Tom's house</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

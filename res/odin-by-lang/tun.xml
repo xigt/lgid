@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i139082">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tunica" iso-639-3="tun" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2149" line-range="942-943" line-types="L-G+LN+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="942" tag="L-G+LN+DB">  Tunica        ?u-esiku [3SG-father]                  ?u-hk-iyut?eku [3SG-ALIEN-hog]</item>
+    <item id="o2" line="943" tag="T+DB">                'her father'                           'his hog'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="942" tag="L-G+LN+DB">Tunica        ?u-esiku [3SG-father]                  ?u-hk-iyut?eku [3SG-ALIEN-hog]</item>
+    <item id="c2" line="943" tag="T+DB">her father'                           'his hog</item>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:46]"/>
+  </tier>
+</igt>
+</xigt-corpus>

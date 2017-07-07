@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i9204">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tupuri" iso-639-3="tui" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1809" line-range="226-229" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="226" tag="L+CR">             t1 wø¤ deY púy        tí dárgeY dì~ táktíbáy1</item>
+    <item id="o2" line="227" tag="L+CR">  (6) a.</item>
+    <item id="o3" line="228" tag="G">                go with hyena to hunt COP bat</item>
+    <item id="o4" line="229" tag="T">             `It is Bat that will go hunting with Hyena.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="226 227" tag="L+CR">t1 wø¤ deY púy        tí dárgeY dì~ táktíbáy1</item>
+    <item id="c3" line="228" tag="G">go with hyena to hunt COP bat</item>
+    <item id="c4" line="229" tag="T">It is Bat that will go hunting with Hyena.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9205">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tupuri" iso-639-3="tui" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1809" line-range="231-233" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="231" tag="L">       b.    A juujuu       gi, a ri súu          ga</item>
+    <item id="o2" line="232" tag="G">             he drink-drink ?? he ate yesterday NEG</item>
+    <item id="o3" line="233" tag="T">             `He DRANK, but he didn't eat yesterday.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="231" tag="L">A juujuu       gi, a ri súu          ga</item>
+    <item id="c2" line="232" tag="G">he drink-drink ?? he ate yesterday NEG</item>
+    <item id="c3" line="233" tag="T">He DRANK, but he didn't eat yesterday.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

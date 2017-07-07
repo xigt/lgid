@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i7868">
+  <metadata type="xigt-meta">
+    <meta type="language" name="muskogean" iso-639-3="mus" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3196" line-range="4302-4309" line-types="M+LN+CN B L+CR L+CR+EX G+CR G+CR M+CN+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4302" tag="M+LN+CN">  (191) Muskogean Object possessor raising</item>
+    <item id="o2" line="4303" tag="B"></item>
+    <item id="o3" line="4304" tag="L+CR">                                                          apa-tok55</item>
+    <item id="o4" line="4305" tag="L+CR+EX">             a.        Ofi'-at    ihoo     im -pask -ã                                      non-raised</item>
+    <item id="o5" line="4306" tag="G+CR">                                  woman 3/III-bread-OBL eat-PAST</item>
+    <item id="o6" line="4307" tag="G+CR">                       dog-SUB</item>
+    <item id="o7" line="4308" tag="M+CN+SY">                       [NP]-at     [NP PSR     PSM] -ã</item>
+    <item id="o8" line="4309" tag="T">                       `The dog    ate the woman's bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4302" tag="M+LN+CN">Muskogean Object possessor raising</item>
+    <item id="c2" line="4303" tag="B"/>
+    <item id="c3" line="4304 4305" tag="L+CR+EX">Ofi'-at    ihoo     im-pask-ã   apa-tok55                          non-raised</item>
+    <item id="c5" line="4306 4307" tag="G+CR">dog-SUB    woman 3/III-bread-OBL eat-PAST</item>
+    <item id="c7" line="4308" tag="M+CN+SY">[NP]-at     [NP PSR     PSM]-ã</item>
+    <item id="c8" line="4309" tag="T">The dog    ate the woman's bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i7869">
+  <metadata type="xigt-meta">
+    <meta type="language" name="muskogean" iso-639-3="mus" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3196" line-range="4311-4315" line-types="L+EX G M+SY M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4311" tag="L+EX">             b.        Ofi'-at    ihoo-ã           paska im-apa-tok                         raised</item>
+    <item id="o2" line="4312" tag="G">                       dog-SUB    woman-OBL        bread 3/III-eat-PAST</item>
+    <item id="o3" line="4313" tag="M+SY">                       [NP]-at    [NP PSR]-ã       [NP PSM]</item>
+    <item id="o4" line="4314" tag="M+AC">                                                                                           (Munro 198456)</item>
+    <item id="o5" line="4315" tag="T">                       `The dog    ate the woma    n's bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4311" tag="L+EX">Ofi'-at    ihoo-ã           paska im-apa-tok                         raised</item>
+    <item id="c2" line="4312" tag="G">dog-SUB    woman-OBL        bread 3/III-eat-PAST</item>
+    <item id="c3" line="4313" tag="M+SY">[NP]-at    [NP PSR]-ã       [NP PSM]</item>
+    <item id="c4" line="4314" tag="M+AC">Munro 198456</item>
+    <item id="c5" line="4315" tag="T">The dog    ate the woma    n's bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i7870">
+  <metadata type="xigt-meta">
+    <meta type="language" name="muskogean" iso-639-3="mus" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3196" line-range="4332-4335" line-types="L+EX G M+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4332" tag="L+EX">             a.       Ihoo im-ofi'at ishto                                   non-raised</item>
+    <item id="o2" line="4333" tag="G">                      woman III/3-dog-SUB big</item>
+    <item id="o3" line="4334" tag="M+SY">                      [NP PSR PSM]-at</item>
+    <item id="o4" line="4335" tag="T">                      `The woman's dog is big.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4332" tag="L+EX">Ihoo im-ofi'at ishto                                   non-raised</item>
+    <item id="c2" line="4333" tag="G">woman III/3-dog-SUB big</item>
+    <item id="c3" line="4334" tag="M+SY">[NP PSR PSM]-at</item>
+    <item id="c4" line="4335" tag="T">The woman's dog is big.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i7871">
+  <metadata type="xigt-meta">
+    <meta type="language" name="muskogean" iso-639-3="mus" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3196" line-range="4337-4340" line-types="L+EX G M+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4337" tag="L+EX">             b.       Ihoo-at     ofi'at    im-ishto                         raised</item>
+    <item id="o2" line="4338" tag="G">                      woman-SUB dog-SUB III/3-big</item>
+    <item id="o3" line="4339" tag="M+SY">                      [NP PSR]-at [NP PSM]-at</item>
+    <item id="o4" line="4340" tag="T">                      `The woman's dog is big.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4337" tag="L+EX">Ihoo-at     ofi'at    im-ishto                         raised</item>
+    <item id="c2" line="4338" tag="G">woman-SUB dog-SUB III/3-big</item>
+    <item id="c3" line="4339" tag="M+SY">[NP PSR]-at [NP PSM]-at</item>
+    <item id="c4" line="4340" tag="T">The woman's dog is big.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i7872">
+  <metadata type="xigt-meta">
+    <meta type="language" name="muskogean" iso-639-3="mus" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3196" line-range="4342-4346" line-types="L+EX G M+CN+SY M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4342" tag="L+EX">             c.       Ihoo-at     im-ofi'at     ishto                      alternate raised</item>
+    <item id="o2" line="4343" tag="G">                      woman-SUB III/3-dog-SUB big</item>
+    <item id="o3" line="4344" tag="M+CN+SY">                      [NP PSR]-at [NP PSM]-at</item>
+    <item id="o4" line="4345" tag="M+AC">                                                        (Carden, Gorden, and Munro 198257)</item>
+    <item id="o5" line="4346" tag="T">                      `The woman's dog is big.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4342" tag="L+EX">Ihoo-at     im-ofi'at     ishto                      alternate raised</item>
+    <item id="c2" line="4343" tag="G">woman-SUB III/3-dog-SUB big</item>
+    <item id="c3" line="4344" tag="M+CN+SY">[NP PSR]-at [NP PSM]-at</item>
+    <item id="c4" line="4345" tag="M+AC">Carden, Gorden, and Munro 198257</item>
+    <item id="c5" line="4346" tag="T">The woman's dog is big.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

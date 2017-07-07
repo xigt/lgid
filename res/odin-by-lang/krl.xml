@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i95940">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karelian" iso-639-3="krl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="372" line-range="45-48" line-types="L G+SY+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="45" tag="L">  (1)     Hüvä nacal'nikka      dolzen        kaikki                tiedeä.</item>
+    <item id="o2" line="46" tag="G+SY+AL">          Exp-Nom               Pred-Nec      Targ-Nom              Inf</item>
+    <item id="o3" line="47" tag="G">          good leader           obliged       all                   to-know.</item>
+    <item id="o4" line="48" tag="T">          `A good leader is obliged to know everything'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="45" tag="L">Hüvä nacal'nikka      dolzen        kaikki                tiedeä.</item>
+    <item id="c2" line="46" tag="G+SY+AL">Exp-Nom               Pred-Nec      Targ-Nom              Inf</item>
+    <item id="c3" line="47" tag="G">good leader           obliged       all                   to-know.</item>
+    <item id="c4" line="48" tag="T">A good leader is obliged to know everything'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+    <item id="g1" content="c3[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95941">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karelian" iso-639-3="krl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="372" line-range="60-63" line-types="L G+SY+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="60" tag="L">  (2)    Nina           dolzen               d'oga päivä      lugie     gaziettoa   boabol.</item>
+    <item id="o2" line="61" tag="G+SY+AL">         Exp-Nom        Pred-Nec             Adjunct          Inf Targ-Part    Ben-AdAll</item>
+    <item id="o3" line="62" tag="G">         Nina           [is] obliged         every day        to read paper grandmother.</item>
+    <item id="o4" line="63" tag="T">         `Nina has to read the paper       to grandmother     every day.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="60" tag="L">Nina           dolzen               d'oga päivä      lugie     gaziettoa   boabol.</item>
+    <item id="c2" line="61" tag="G+SY+AL">Exp-Nom        Pred-Nec             Adjunct          Inf Targ-Part    Ben-AdAll</item>
+    <item id="c3" line="62" tag="G">Nina           [is] obliged         every day        to read paper grandmother.</item>
+    <item id="c4" line="63" tag="T">Nina has to read the paper       to grandmother     every day.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:79]" alignment="p1"/>
+    <item id="g1" content="c3[0:79]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:62]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95942">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karelian" iso-639-3="krl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="372" line-range="65-68" line-types="L G+SY+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="65" tag="L">  (3)    skolassa        lapset            dolzen        olla              eänetti.</item>
+    <item id="o2" line="66" tag="G+SY+AL">         Loc-Iness       Exp-Nom           Pred-Nec      Inf               Manner</item>
+    <item id="o3" line="67" tag="G">         At school       children          [are] obliged to-be             quiet.</item>
+    <item id="o4" line="68" tag="T">         `At school children have to      be quiet.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="65" tag="L">skolassa        lapset            dolzen        olla              eänetti.</item>
+    <item id="c2" line="66" tag="G+SY+AL">Loc-Iness       Exp-Nom           Pred-Nec      Inf               Manner</item>
+    <item id="c3" line="67" tag="G">At school       children          [are] obliged to-be             quiet.</item>
+    <item id="c4" line="68" tag="T">At school children have to      be quiet.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:72]" alignment="p1"/>
+    <item id="g1" content="c3[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95943">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karelian" iso-639-3="krl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="372" line-range="77-80" line-types="L G+SY+AL G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="77" tag="L">  (4)    Pidi                kaikil kolmel    l'ähtie.</item>
+    <item id="o2" line="78" tag="G+SY+AL">         Pred-Nec            Exp-AdAll        Inf</item>
+    <item id="o3" line="79" tag="G">         Had-to              all three        to-go;</item>
+    <item id="o4" line="80" tag="T+AC">         `All three had to   go'. (408, 698/ Rja: 40.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="77" tag="L">Pidi                kaikil kolmel    l'ähtie.</item>
+    <item id="c2" line="78" tag="G+SY+AL">Pred-Nec            Exp-AdAll        Inf</item>
+    <item id="c3" line="79" tag="G">Had-to              all three        to-go;</item>
+    <item id="c4" line="80" tag="T+AC">All three had to   go'. (408, 698/ Rja: 40.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+    <item id="g1" content="c3[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95944">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karelian" iso-639-3="krl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="372" line-range="82-85" line-types="L G+SY+AL G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="82" tag="L">  (5)    Hänem                pit'i               huolehtie        lapsista.</item>
+    <item id="o2" line="83" tag="G+SY+AL">         Exp-Gen              Pred-Nec            Inf              Targ-Elat</item>
+    <item id="o3" line="84" tag="G">         She                  had to              to-take-care     children-from;</item>
+    <item id="o4" line="85" tag="T+AC">         `She had to take     care of the child   ren'. (113, 1056/ Fed:34.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="82" tag="L">Hänem                pit'i               huolehtie        lapsista.</item>
+    <item id="c2" line="83" tag="G+SY+AL">Exp-Gen              Pred-Nec            Inf              Targ-Elat</item>
+    <item id="c3" line="84" tag="G">She                  had to              to-take-care     children-from;</item>
+    <item id="c4" line="85" tag="T+AC">She had to take     care of the child   ren'. (113, 1056/ Fed:34.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:67]" alignment="p1"/>
+    <item id="g1" content="c3[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95949">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karelian" iso-639-3="krl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="372" line-range="148-150" line-types="L G G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="148" tag="L">  (7)    Andilas          dolzen          podar'ie       paijan        boatjuskalle.</item>
+    <item id="o2" line="149" tag="G">         Bride            obliged         present        shirt         father-in-law-to</item>
+    <item id="o3" line="150" tag="G">         The bride is expected to present the father-in-law with a shirt.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="148" tag="L">Andilas          dolzen          podar'ie       paijan        boatjuskalle.</item>
+    <item id="c2" line="149" tag="G">Bride            obliged         present        shirt         father-in-law-to</item>
+    <item id="c3" line="150" tag="G">The bride is expected to present the father-in-law with a shirt.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:78]" alignment="p1"/>
+    <item id="g1" content="c3[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95950">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karelian" iso-639-3="krl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="372" line-range="152-159" line-types="L G+SY+AL G B L G+SY+AL G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="152" tag="L">  (8)    sie                  dólznaa               avuttoa         lapsil</item>
+    <item id="o2" line="153" tag="G+SY+AL">         Exp-Nom              Pred-Nec-Fem          Inf             Ben-AdAll</item>
+    <item id="o3" line="154" tag="G">         You                  obliged               to-help         children-with/to</item>
+    <item id="o4" line="155" tag="B"></item>
+    <item id="o5" line="156" tag="L">         no        ei               haukkuo.</item>
+    <item id="o6" line="157" tag="G+SY+AL">         Partic    V-Neg            Inf</item>
+    <item id="o7" line="158" tag="G">         but       not              to-scold;</item>
+    <item id="o8" line="159" tag="T+AC">         You are expected to help the children, not to scold [them]. (328, 4A/ AS: 1.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="152" tag="L">sie                  dólznaa               avuttoa         lapsil</item>
+    <item id="c2" line="153" tag="G+SY+AL">Exp-Nom              Pred-Nec-Fem          Inf             Ben-AdAll</item>
+    <item id="c3" line="154" tag="G">You                  obliged               to-help         children-with/to</item>
+    <item id="c4" line="155" tag="B"/>
+    <item id="c5" line="156" tag="L">no        ei               haukkuo.</item>
+    <item id="c6" line="157" tag="G+SY+AL">Partic    V-Neg            Inf</item>
+    <item id="c7" line="158" tag="G">but       not              to-scold;</item>
+    <item id="c8" line="159" tag="T+AC">You are expected to help the children, not to scold [them]. (328, 4A/ AS: 1.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+    <item id="p1" content="c5[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+    <item id="g1" content="c3[0:75]" alignment="p1"/>
+    <item id="g2" content="c6[0:30]" alignment="p2"/>
+    <item id="g3" content="c7[0:36]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:77]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i95951">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karelian" iso-639-3="krl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="372" line-range="161-164" line-types="L G+SY+AL G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="161" tag="L">  (9)    Iivana                  dólznoo             tappoo        pahaccu.</item>
+    <item id="o2" line="162" tag="G+SY+AL">         Exp-Nom-Masc            Pred-Nec-Neut       Inf           Targ-Nom</item>
+    <item id="o3" line="163" tag="G">         Ivan                    obliged             to-kill       snake;</item>
+    <item id="o4" line="164" tag="T+AC">         Ivan is expected to     kill the dragon. (230, 2A/AS: 2.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="161" tag="L">Iivana                  dólznoo             tappoo        pahaccu.</item>
+    <item id="c2" line="162" tag="G+SY+AL">Exp-Nom-Masc            Pred-Nec-Neut       Inf           Targ-Nom</item>
+    <item id="c3" line="163" tag="G">Ivan                    obliged             to-kill       snake;</item>
+    <item id="c4" line="164" tag="T+AC">Ivan is expected to     kill the dragon. (230, 2A/AS: 2.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:66]" alignment="p1"/>
+    <item id="g1" content="c3[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95952">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karelian" iso-639-3="krl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="372" line-range="174-177" line-types="L G+SY+AL G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="174" tag="L">  (10)   Naroda           dólznii             en'ämälruadua.</item>
+    <item id="o2" line="175" tag="G+SY+AL">         Exp-Nom-Coll Pred-Nec-Pl             Manner Inf</item>
+    <item id="o3" line="176" tag="G">         People           obliged             more to-work;</item>
+    <item id="o4" line="177" tag="T+AC">         People are obliged to work more. (328, 4A/ AS: 1.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="174" tag="L">Naroda           dólznii             en'ämälruadua.</item>
+    <item id="c2" line="175" tag="G+SY+AL">Exp-Nom-Coll Pred-Nec-Pl             Manner Inf</item>
+    <item id="c3" line="176" tag="G">People           obliged             more to-work;</item>
+    <item id="c4" line="177" tag="T+AC">People are obliged to work more. (328, 4A/ AS: 1.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+    <item id="g1" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95953">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karelian" iso-639-3="krl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="372" line-range="231-234" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="231" tag="L">  (11)   Nu ka tänä      vuodena on      muzikka     ottau ZA SVOÏ SHCHËT, [...].</item>
+    <item id="o2" line="232" tag="G">         But      this   year     is     husband takes at his expense</item>
+    <item id="o3" line="233" tag="T">         `But this year my husband is [here, he] takes vacation at his own expense'.</item>
+    <item id="o4" line="234" tag="M+AC">  (330, 21/SS: 2a.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="231" tag="L">Nu ka tänä      vuodena on      muzikka     ottau ZA SVOÏ SHCHËT, [...].</item>
+    <item id="c2" line="232" tag="G">But      this   year     is     husband takes at his expense</item>
+    <item id="c3" line="233" tag="T">But this year my husband is [here, he] takes vacation at his own expense'.</item>
+    <item id="c4" line="234" tag="M+AC">330, 21/SS: 2a.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

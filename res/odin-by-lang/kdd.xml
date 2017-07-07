@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i36216">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3841" line-range="228-230" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="228" tag="L">  (3)       Ngayulu alatji               kulini,    "Tjinguru-la .."</item>
+    <item id="o2" line="229" tag="G">            I            like.this       think:PRES maybe-we</item>
+    <item id="o3" line="230" tag="T">            `I think like this about it, "Maybe we ...".'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="228" tag="L">Ngayulu alatji               kulini,    "Tjinguru-la ..</item>
+    <item id="c2" line="229" tag="G">I            like.this       think:PRES maybe-we</item>
+    <item id="c3" line="230" tag="T">I think like this about it, "Maybe we ...".</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i36217">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3841" line-range="232-234" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="232" tag="L">  (4)       Ngayulu anangu-ngku wangkanytjala               kulinu.</item>
+    <item id="o2" line="233" tag="G">            I           people-ERG talk:NOML.LOC            hear:PAS   T</item>
+    <item id="o3" line="234" tag="T">            `I heard people talking.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="232" tag="L">Ngayulu anangu-ngku wangkanytjala               kulinu.</item>
+    <item id="c2" line="233" tag="G">I           people-ERG talk:NOML.LOC            hear:PAS   T</item>
+    <item id="c3" line="234" tag="T">I heard people talking.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i36218">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3841" line-range="236-239" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="236" tag="L">  (5)       Wati katjangku      mamangka               kulintja            wiya.</item>
+    <item id="o2" line="237" tag="G+CR">            man son:ERG         father:LOC             heed:NO             not</item>
+    <item id="o3" line="238" tag="G+CR">                                                                  ML</item>
+    <item id="o4" line="239" tag="T">        `   The son won't heed his father.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="236" tag="L">Wati katjangku      mamangka               kulintja            wiya.</item>
+    <item id="c2" line="237 238" tag="G+CR">man son:ERG         father:LOC             heed:NO    ML       not</item>
+    <item id="c4" line="239" tag="T">The son won't heed his father.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87512">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3275" line-range="237-239" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="237" tag="L">   (15) Wati-ngku papa pu-ngu munu mirra-ngu.</item>
+    <item id="o2" line="238" tag="G">        man-erg dog hit-past and:ss cry:out-past</item>
+    <item id="o3" line="239" tag="T">        The man hit the dog and (he) cried out</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="237" tag="L">Wati-ngku papa pu-ngu munu mirra-ngu.</item>
+    <item id="c2" line="238" tag="G">man-erg dog hit-past and:ss cry:out-past</item>
+    <item id="c3" line="239" tag="T">The man hit the dog and (he) cried out</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87513">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3275" line-range="240-242" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="240" tag="L">   (16) Wati-ngku papa pu-ngu kaa       mirra-ngu.</item>
+    <item id="o2" line="241" tag="G">        man-erg dog hit-past and:ds cry:out-past</item>
+    <item id="o3" line="242" tag="T+AC">        The man hit the dog and it cried out (cited in Blake 1989:147)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="240" tag="L">Wati-ngku papa pu-ngu kaa       mirra-ngu.</item>
+    <item id="c2" line="241" tag="G">man-erg dog hit-past and:ds cry:out-past</item>
+    <item id="c3" line="242" tag="T+AC">The man hit the dog and it cried out (cited in Blake 1989:147)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88133">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3274" line-range="993-996" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="993" tag="L">       (20)   ngayulu munu kungka kutjupa</item>
+    <item id="o2" line="994" tag="G+CR">                        and woman other</item>
+    <item id="o3" line="995" tag="G+CR">              1SG</item>
+    <item id="o4" line="996" tag="T">              `me and another woman'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="993" tag="L">ngayulu munu kungka kutjupa</item>
+    <item id="c2" line="994 995" tag="G+CR">1SG       and woman other</item>
+    <item id="c4" line="996" tag="T">me and another woman</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88134">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3274" line-range="998-1000" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="998" tag="L">       (21)   Kutjupa-ngku iti     katingu!</item>
+    <item id="o2" line="999" tag="G">              someone-ERG baby took</item>
+    <item id="o3" line="1000" tag="T">              `Someone took the baby!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="998" tag="L">Kutjupa-ngku iti     katingu!</item>
+    <item id="c2" line="999" tag="G">someone-ERG baby took</item>
+    <item id="c3" line="1000" tag="T">Someone took the baby!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88135">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3274" line-range="1006-1010" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1006" tag="L">     (22)   Kutjupa-ngku rawangku nyuntunya nyanganyi munu kulini.</item>
+    <item id="o2" line="1007" tag="G">            someone-ERG always       2SG:ACC     see         and think</item>
+    <item id="o3" line="1008" tag="L">            Nganalu? Goda-lu.</item>
+    <item id="o4" line="1009" tag="G">            who-ERG God-ERG</item>
+    <item id="o5" line="1010" tag="T">            `Someone is always watching and thinking about you. Who? God.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1006" tag="L">Kutjupa-ngku rawangku nyuntunya nyanganyi munu kulini.</item>
+    <item id="c2" line="1007" tag="G">someone-ERG always       2SG:ACC     see         and think</item>
+    <item id="c3" line="1008" tag="L">Nganalu? Goda-lu.</item>
+    <item id="c4" line="1009" tag="G">who-ERG God-ERG</item>
+    <item id="c5" line="1010" tag="T">Someone is always watching and thinking about you. Who? God.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+    <item id="p1" content="c3[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+    <item id="g1" content="c4[0:15]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:60]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i88146">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3274" line-range="1156-1159" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1156" tag="M+LN">       Yankunytjatjara:</item>
+    <item id="o2" line="1157" tag="L">       (31) Puntu       kutju, palu kutjupa-kutjupa tjuta-tjara.</item>
+    <item id="o3" line="1158" tag="G">            body        one but something-RDP many-having</item>
+    <item id="o4" line="1159" tag="T">            `(It is) one body, but with many parts.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1156" tag="M+LN">Yankunytjatjara:</item>
+    <item id="c2" line="1157" tag="L">Puntu       kutju, palu kutjupa-kutjupa tjuta-tjara.</item>
+    <item id="c3" line="1158" tag="G">body        one but something-RDP many-having</item>
+    <item id="c4" line="1159" tag="T">(It is) one body, but with many parts.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140541">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1048" line-range="724-726" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="724" tag="L">  (15a) Mai nyuntumpa ngarinyi? Ngayulu mai wiya.</item>
+    <item id="o2" line="725" tag="G">        food yours    liePRES   I       food NEG</item>
+    <item id="o3" line="726" tag="T">        `Any food of yours lying around? I don't have any food.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="724" tag="L">Mai nyuntumpa ngarinyi? Ngayulu mai wiya.</item>
+    <item id="c2" line="725" tag="G">food yours    liePRES   I       food NEG</item>
+    <item id="c3" line="726" tag="T">Any food of yours lying around? I don't have any food.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140542">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1048" line-range="730-732" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="730" tag="L">  (15b) Ngayulu waru wiya. Nyinatjura ka-na waru urara        utitjura.</item>
+    <item id="o2" line="731" tag="G">        I      wood NEG stopIMP       and-I wood gatherSERIAL loadIMP</item>
+    <item id="o3" line="732" tag="T">        `I haven't got any firewood. Stop and I'll load some on.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="730" tag="L">Ngayulu waru wiya. Nyinatjura ka-na waru urara        utitjura.</item>
+    <item id="c2" line="731" tag="G">I      wood NEG stopIMP       and-I wood gatherSERIAL loadIMP</item>
+    <item id="c3" line="732" tag="T">I haven't got any firewood. Stop and I'll load some on.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140543">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1048" line-range="734-736" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="734" tag="L">  (15c) Tjilpinya   nyinanyi?</item>
+    <item id="o2" line="735" tag="G">        old manNAME sitPRES</item>
+    <item id="o3" line="736" tag="T">        `Is the old man around?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="734" tag="L">Tjilpinya   nyinanyi?</item>
+    <item id="c2" line="735" tag="G">old manNAME sitPRES</item>
+    <item id="c3" line="736" tag="T">Is the old man around?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140544">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1048" line-range="743-745" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="743" tag="L">  16a. Aya, anymatjara kutu-na. Mai-nti    wampa      ngarinyi?</item>
+    <item id="o2" line="744" tag="G">       Oh hungry       really-I food-maybe don't know liePRES</item>
+    <item id="o3" line="745" tag="T">        `Oh, I'm so hungry. I wonder if there might be any food around?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="743" tag="L">Aya, anymatjara kutu-na. Mai-nti    wampa      ngarinyi?</item>
+    <item id="c2" line="744" tag="G">Oh hungry       really-I food-maybe don't know liePRES</item>
+    <item id="c3" line="745" tag="T">Oh, I'm so hungry. I wonder if there might be any food around?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140545">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1048" line-range="747-749" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="747" tag="L">  16b. Munta, waru-mpa-l.         Nguwan-ampa-na               mana-nyi.</item>
+    <item id="o2" line="748" tag="G">       oh     wood-INTEREST-I see almost-INTEREST-I            getPRES</item>
+    <item id="o3" line="749" tag="T">        `Oh, some firewood, I see. I'd rather like to get some.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="747" tag="L">Munta, waru-mpa-l.         Nguwan-ampa-na               mana-nyi.</item>
+    <item id="c2" line="748" tag="G">oh     wood-INTEREST-I see almost-INTEREST-I            getPRES</item>
+    <item id="c3" line="749" tag="T">Oh, some firewood, I see. I'd rather like to get some.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140546">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1048" line-range="751-755" line-types="L G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="751" tag="L">  16c. Munta, panya          paluru-nti    nyanga-kutu?</item>
+    <item id="o2" line="752" tag="G+CR">       oh     that one          -maybe     this-towards</item>
+    <item id="o3" line="753" tag="G+CR">                            DEF</item>
+    <item id="o4" line="754" tag="B"></item>
+    <item id="o5" line="755" tag="T">        `Oh, could that one be around here somewhere?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="751" tag="L">Munta, panya          paluru-nti    nyanga-kutu?</item>
+    <item id="c2" line="752 753" tag="G+CR">oh     that one      DEF-maybe     this-towards</item>
+    <item id="c4" line="754" tag="B"/>
+    <item id="c5" line="755" tag="T">Oh, could that one be around here somewhere?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140547">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1048" line-range="827-829" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="827" tag="L">  (18a) A: Awai! Tjukaku-na ngalya-yanu. Tjuka-tja ngalya-yuwa!</item>
+    <item id="o2" line="828" tag="G">           hey sugarPURP-I this way-came sugar-me this way-giveIMP</item>
+    <item id="o3" line="829" tag="T">             `Hey! I came here for sugar. Give me some sugar!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="827" tag="L">Awai! Tjukaku-na ngalya-yanu. Tjuka-tja ngalya-yuwa!</item>
+    <item id="c2" line="828" tag="G">hey sugarPURP-I this way-came sugar-me this way-giveIMP</item>
+    <item id="c3" line="829" tag="T">Hey! I came here for sugar. Give me some sugar!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140548">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1048" line-range="830-832" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="830" tag="L">  (18b) B: Tjuka wanyu nyuntu yaalara payamilara nyangangka tjunu?</item>
+    <item id="o2" line="831" tag="G">           sugar just let you when buySERIAL here           putPAST</item>
+    <item id="o3" line="832" tag="T">             `Just when did you ever buy any sugar and bring (put) it here?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="830" tag="L">Tjuka wanyu nyuntu yaalara payamilara nyangangka tjunu?</item>
+    <item id="c2" line="831" tag="G">sugar just let you when buySERIAL here           putPAST</item>
+    <item id="c3" line="832" tag="T">Just when did you ever buy any sugar and bring (put) it here?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140549">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1048" line-range="838-840" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="838" tag="L">  (19a) A: Uwa, kati,  punytjulwiyangku kati!</item>
+    <item id="o2" line="839" tag="G">           yes takeIMP bluntNEG.ERG      takeIMP</item>
+    <item id="o3" line="840" tag="T">             `OK take it, but don't blunt it!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="838" tag="L">Uwa, kati,  punytjulwiyangku kati!</item>
+    <item id="c2" line="839" tag="G">yes takeIMP bluntNEG.ERG      takeIMP</item>
+    <item id="c3" line="840" tag="T">OK take it, but don't blunt it!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140550">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1048" line-range="841-846" line-types="L G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="841" tag="L">  (19b) B:   Wati, nyaaku-na tjitjingku palku    punytjanma? Yuwa-ni</item>
+    <item id="o2" line="842" tag="G">             man why-I       childERG not really bluntPOT    giveIMP-me</item>
+    <item id="o3" line="843" tag="L">             ka-na kati!</item>
+    <item id="o4" line="844" tag="G">             and-I takeIMP</item>
+    <item id="o5" line="845" tag="T">             `Man, why would I blunt it as if I were a child? Give (it to) me,</item>
+    <item id="o6" line="846" tag="T">             and I'll be off with it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="841" tag="L">Wati, nyaaku-na tjitjingku palku    punytjanma? Yuwa-ni</item>
+    <item id="c2" line="842" tag="G">man why-I       childERG not really bluntPOT    giveIMP-me</item>
+    <item id="c3" line="843" tag="L">ka-na kati!</item>
+    <item id="c4" line="844" tag="G">and-I takeIMP</item>
+    <item id="c5" line="845" tag="T">Man, why would I blunt it as if I were a child? Give (it to) me,</item>
+    <item id="c6" line="846" tag="T">and I'll be off with it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+    <item id="p1" content="c3[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+    <item id="g1" content="c4[0:13]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:64]" alignment="p2"/>
+    <item id="t1" content="c6[0:24]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i140551">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1048" line-range="854-859" line-types="L G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="854" tag="L">  20a. A: Wati, nyangangi-na-nta! Wati, nyaa manti-n   yanu?</item>
+    <item id="o2" line="855" tag="G">          man seePAST.IMPF-I-you man what probably-you goPAST</item>
+    <item id="o3" line="856" tag="L">          Kulakula-mpa, kungka-kutu-mpa.</item>
+    <item id="o4" line="857" tag="G">          randy-INTEREST woman-towards-INTEREST</item>
+    <item id="o5" line="858" tag="T">             `Man, I've been watching you. Man, what would you've been</item>
+    <item id="o6" line="859" tag="T">             after? Randy was it? Off to see a woman, was it?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="854" tag="L">Wati, nyangangi-na-nta! Wati, nyaa manti-n   yanu?</item>
+    <item id="c2" line="855" tag="G">man seePAST.IMPF-I-you man what probably-you goPAST</item>
+    <item id="c3" line="856" tag="L">Kulakula-mpa, kungka-kutu-mpa.</item>
+    <item id="c4" line="857" tag="G">randy-INTEREST woman-towards-INTEREST</item>
+    <item id="c5" line="858" tag="T">Man, I've been watching you. Man, what would you've been</item>
+    <item id="c6" line="859" tag="T">after? Randy was it? Off to see a woman, was it?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+    <item id="p1" content="c3[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+    <item id="g1" content="c4[0:37]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:56]" alignment="p2"/>
+    <item id="t1" content="c6[0:48]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i140552">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1048" line-range="860-871" line-types="L G L G L G B M B T T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="860" tag="L">  20b. B:    Wiya, wati ngayulu kungka wiya!      Wantinyi-na        ngayulu,</item>
+    <item id="o2" line="861" tag="G">             no man I            woman NEG        leave alonePRES-I I</item>
+    <item id="o3" line="862" tag="L">             palu          nyuntu panya-nku      watjanma, kuta,</item>
+    <item id="o4" line="863" tag="G">             but of course you ANAPH-REFL        sayPOT     senior brother</item>
+    <item id="o5" line="864" tag="L">             wati panya kurangku.</item>
+    <item id="o6" line="865" tag="G">             man ANAPH badERG</item>
+    <item id="o7" line="866" tag="B"></item>
+    <item id="o8" line="867" tag="M">                            Discourse and Culture                          249</item>
+    <item id="o9" line="868" tag="B"></item>
+    <item id="o10" line="869" tag="T">             `No man, I don't have any woman! I leave them alone, I do.</item>
+    <item id="o11" line="870" tag="T">             But of course you could be talking to yourself, big brother,</item>
+    <item id="o12" line="871" tag="T">             (you) bad one.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="860" tag="L">   Wiya, wati ngayulu kungka wiya!      Wantinyi-na        ngayulu,</item>
+    <item id="c2" line="861" tag="G">no man I            woman NEG        leave alonePRES-I I</item>
+    <item id="c3" line="862" tag="L">palu          nyuntu panya-nku      watjanma, kuta,</item>
+    <item id="c4" line="863" tag="G">but of course you ANAPH-REFL        sayPOT     senior brother</item>
+    <item id="c5" line="864" tag="L">wati panya kurangku.</item>
+    <item id="c6" line="865" tag="G">man ANAPH badERG</item>
+    <item id="c7" line="866" tag="B"/>
+    <item id="c8" line="867" tag="M">Discourse and Culture                          249</item>
+    <item id="c9" line="868" tag="B"/>
+    <item id="c10" line="869" tag="T">No man, I don't have any woman! I leave them alone, I do.</item>
+    <item id="c11" line="870" tag="T">But of course you could be talking to yourself, big brother,</item>
+    <item id="c12" line="871" tag="T">(you) bad one.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[3:67]"/>
+    <item id="p1" content="c3[0:51]"/>
+    <item id="p2" content="c5[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+    <item id="g1" content="c4[0:61]" alignment="p2"/>
+    <item id="g2" content="c6[0:16]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:57]" alignment="p3"/>
+    <item id="t1" content="c11[0:60]" alignment="p3"/>
+    <item id="t2" content="c12[0:14]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i150749">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2398" line-range="2143-2150" line-types="L G+LN B L G B T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2143" tag="L">  (42)    arguli          nyanga-tja             mayi   mulapa...</item>
+    <item id="o2" line="2144" tag="G+LN">  Ynk     wild.plum       this-EVIDENT           food   true</item>
+    <item id="o3" line="2145" tag="B"></item>
+    <item id="o4" line="2146" tag="L">          mangata-puriny        nyara-tja          mangata-ra</item>
+    <item id="o5" line="2147" tag="G">          quondong-SIMILAR(NOM) over.there-EVIDENT quondong-PAIR</item>
+    <item id="o6" line="2148" tag="B"></item>
+    <item id="o7" line="2149" tag="T">          'The wild plum is truly a bush-food. It's similar to the quondong.</item>
+    <item id="o8" line="2150" tag="T">          It's one of a pair with the quondong.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2143" tag="L">arguli          nyanga-tja             mayi   mulapa...</item>
+    <item id="c2" line="2144" tag="G+LN">Ynk     wild.plum       this-EVIDENT           food   true</item>
+    <item id="c3" line="2145" tag="B"/>
+    <item id="c4" line="2146" tag="L">mangata-puriny        nyara-tja          mangata-ra</item>
+    <item id="c5" line="2147" tag="G">quondong-SIMILAR(NOM) over.there-EVIDENT quondong-PAIR</item>
+    <item id="c6" line="2148" tag="B"/>
+    <item id="c7" line="2149" tag="T">The wild plum is truly a bush-food. It's similar to the quondong.</item>
+    <item id="c8" line="2150" tag="T">It's one of a pair with the quondong.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+    <item id="p1" content="c4[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+    <item id="g1" content="c5[0:54]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:65]" alignment="p2"/>
+    <item id="t1" content="c8[0:37]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i151413">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2420" line-range="863-865" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="863" tag="L">     (1)      Palu ngayulu munu kungka kutjupa.</item>
+    <item id="o2" line="864" tag="G">              but I             and     woman other</item>
+    <item id="o3" line="865" tag="T">              `But (there was) me and another woman.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="863" tag="L">Palu ngayulu munu kungka kutjupa.</item>
+    <item id="c2" line="864" tag="G">but I             and     woman other</item>
+    <item id="c3" line="865" tag="T">But (there was) me and another woman.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151414">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2420" line-range="867-872" line-types="L+CR L+CR G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="867" tag="L+CR">                                                   nyara waru-ngka nyina-nytja-la.</item>
+    <item id="o2" line="868" tag="L+CR">     (2)      Ngayulu nyangu           kutjupa</item>
+    <item id="o3" line="869" tag="G+CR">                                       someone there fire:          sit:   NOML.LOC</item>
+    <item id="o4" line="870" tag="G+CR">              I          see:   PAST                         LOC</item>
+    <item id="o5" line="871" tag="B"></item>
+    <item id="o6" line="872" tag="T">              `I saw someone sitting over there by a fire.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="867 868" tag="L+CR">Ngayulu nyangu           kutjupa     nyara waru-ngka nyina-nytja-la.</item>
+    <item id="c3" line="869 870" tag="G+CR">I          see:   PAST   someone there fire:   LOC    sit:   NOML.LOC</item>
+    <item id="c5" line="871" tag="B"/>
+    <item id="c6" line="872" tag="T">I saw someone sitting over there by a fire.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151415">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2420" line-range="874-878" line-types="L G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="874" tag="L">     (3)      Kutjupa-ngku iti          katingu!</item>
+    <item id="o2" line="875" tag="G+CR">                                 baby take:</item>
+    <item id="o3" line="876" tag="G+CR">              someone:   ERG                  PAST</item>
+    <item id="o4" line="877" tag="B"></item>
+    <item id="o5" line="878" tag="T">              `Someone took the baby!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="874" tag="L">Kutjupa-ngku iti          katingu!</item>
+    <item id="c2" line="875 876" tag="G+CR">  ERG     baby take:   PAST</item>
+    <item id="c4" line="877" tag="B"/>
+    <item id="c5" line="878" tag="T">Someone took the baby!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[2:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151416">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2420" line-range="903-911" line-types="L G+CR G+CR B L G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="903" tag="L">      (4)   Kutjupa-ngku rawangku nyuntunya nyanganyi munu kulini.</item>
+    <item id="o2" line="904" tag="G+CR">                                always      you:         see:          and think:</item>
+    <item id="o3" line="905" tag="G+CR">            someone:      ERG                      ACC          PRES                  PRES</item>
+    <item id="o4" line="906" tag="B"></item>
+    <item id="o5" line="907" tag="L">            Nganalu? Godalu.</item>
+    <item id="o6" line="908" tag="G+CR">                          God:</item>
+    <item id="o7" line="909" tag="G+CR">            who:   ERG           ERG</item>
+    <item id="o8" line="910" tag="B"></item>
+    <item id="o9" line="911" tag="T">            `Someone is always watching and thinking about you. Who? God.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="903" tag="L">Kutjupa-ngku rawangku nyuntunya nyanganyi munu kulini.</item>
+    <item id="c2" line="904 905" tag="G+CR">     ERG   always      you:   ACC   see:   PRES   and think:     PRES</item>
+    <item id="c4" line="906" tag="B"/>
+    <item id="c5" line="907" tag="L">Nganalu? Godalu.</item>
+    <item id="c6" line="908 909" tag="G+CR">  ERG    God:   ERG</item>
+    <item id="c8" line="910" tag="B"/>
+    <item id="c9" line="911" tag="T">Someone is always watching and thinking about you. Who? God.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+    <item id="p1" content="c5[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[5:69]" alignment="p1"/>
+    <item id="g1" content="c6[2:19]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:60]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i151418">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2420" line-range="1377-1382" line-types="M+LN L G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1377" tag="M+LN">     Yankunytjatjara:</item>
+    <item id="o2" line="1378" tag="L">     (10) Ngayulu ara            kutjupa-tjara wangka-nytji-tkitjamukuri-nganyi.</item>
+    <item id="o3" line="1379" tag="G+CR">                          matter other-having say:NOML.                want:</item>
+    <item id="o4" line="1380" tag="G+CR">              I                                                COMP            PRES</item>
+    <item id="o5" line="1381" tag="B"></item>
+    <item id="o6" line="1382" tag="T">              `I want to talk about another matter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1377" tag="M+LN">Yankunytjatjara:</item>
+    <item id="c2" line="1378" tag="L">Ngayulu ara            kutjupa-tjara wangka-nytji-tkitjamukuri-nganyi.</item>
+    <item id="c3" line="1379 1380" tag="G+CR">I           matter other-having say:NOML.        COMP    want:   PRES</item>
+    <item id="c5" line="1381" tag="B"/>
+    <item id="c6" line="1382" tag="T">I want to talk about another matter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151419">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yankunytjatjara" iso-639-3="kdd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2420" line-range="1384-1387" line-types="L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1384" tag="L">     (11) Ngayulu mani kuli-ni.</item>
+    <item id="o2" line="1385" tag="G">              I           money think:   PRES</item>
+    <item id="o3" line="1386" tag="B"></item>
+    <item id="o4" line="1387" tag="T">              `I'm thinking about money.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1384" tag="L">Ngayulu mani kuli-ni.</item>
+    <item id="c2" line="1385" tag="G">I           money think:   PRES</item>
+    <item id="c3" line="1386" tag="B"/>
+    <item id="c4" line="1387" tag="T">I'm thinking about money.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

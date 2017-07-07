@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i117979">
+  <metadata type="xigt-meta">
+    <meta type="language" name="walman" iso-639-3="van" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="683-687" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="683" tag="L">  (1)   Mampain n-aro-y                  nyakom-wali                mnon</item>
+    <item id="o2" line="684" tag="G">        (name) 3SG.MASC.SUBJ-and-3PL.OBJ grandchildren              3SG.MASC.POSS</item>
+    <item id="o3" line="685" tag="L">            y-ara              y-ara              y-an              Alol</item>
+    <item id="o4" line="686" tag="G">           3PL.SUBJ-come 3PL.SUBJ-come 3PL.SUBJ-be.at               (place name)</item>
+    <item id="o5" line="687" tag="T">        `Mampain and his grandchildren came to Alol'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="683" tag="L">Mampain n-aro-y                  nyakom-wali                mnon</item>
+    <item id="c2" line="684" tag="G">(name) 3SG.MASC.SUBJ-and-3PL.OBJ grandchildren              3SG.MASC.POSS</item>
+    <item id="c3" line="685" tag="L">y-ara              y-ara              y-an              Alol</item>
+    <item id="c4" line="686" tag="G">3PL.SUBJ-come 3PL.SUBJ-come 3PL.SUBJ-be.at               (place name)</item>
+    <item id="c5" line="687" tag="T">Mampain and his grandchildren came to Alol</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+    <item id="p1" content="c3[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:73]" alignment="p1"/>
+    <item id="g1" content="c4[0:69]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:42]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i117980">
+  <metadata type="xigt-meta">
+    <meta type="language" name="walman" iso-639-3="van" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="690-693" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="690" tag="L">  (2)   runon            n-aiklo-y                      ngotu              lakiel</item>
+    <item id="o2" line="691" tag="G+CR">                        3SG.MASC.SUBJ-break.off-3PL.OBJ coconut            unripe</item>
+    <item id="o3" line="692" tag="G+CR">        3SG.MASC</item>
+    <item id="o4" line="693" tag="T">        `He broke off some coconuts.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="690" tag="L">runon            n-aiklo-y                      ngotu              lakiel</item>
+    <item id="c2" line="691 692" tag="G+CR">3SG.MASC        3SG.MASC.SUBJ-break.off-3PL.OBJ coconut            unripe</item>
+    <item id="c4" line="693" tag="T">He broke off some coconuts.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i117981">
+  <metadata type="xigt-meta">
+    <meta type="language" name="walman" iso-639-3="van" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="734-737" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="734" tag="L">  (3) kum          m-ch-a                   chi     k-ranychwa.</item>
+    <item id="o2" line="735" tag="G+CR">                   1SG.SUBJ-2.OBJ-    and           1PL.SUBJ-play</item>
+    <item id="o3" line="736" tag="G+CR">        1SG                                 2SG</item>
+    <item id="o4" line="737" tag="T">        `Let's you and me play!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="734" tag="L">kum          m-ch-a                   chi     k-ranychwa.</item>
+    <item id="c2" line="735 736" tag="G+CR">1SG        1SG.SUBJ-2.OBJ-and   2SG     1PL.SUBJ-play</item>
+    <item id="c4" line="737" tag="T">Let's you and me play!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i117982">
+  <metadata type="xigt-meta">
+    <meta type="language" name="walman" iso-639-3="van" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="738-740" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="738" tag="L">  (4)   kum       m-ch-ekrien               chi.</item>
+    <item id="o2" line="739" tag="G">        1SG       1SG.SUBJ-2.OBJ-see        2SG</item>
+    <item id="o3" line="740" tag="T">        `I saw you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="738" tag="L">kum       m-ch-ekrien               chi.</item>
+    <item id="c2" line="739" tag="G">1SG       1SG.SUBJ-2.OBJ-see        2SG</item>
+    <item id="c3" line="740" tag="T">I saw you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i117983">
+  <metadata type="xigt-meta">
+    <meta type="language" name="walman" iso-639-3="van" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="741-743" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="741" tag="L">  (5)   m-ch-a               k-ranychwa.</item>
+    <item id="o2" line="742" tag="G">        1SG.SUBJ-2.OBJ-and 1PL.SUBJ-play</item>
+    <item id="o3" line="743" tag="T">        `Let's you and me play!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="741" tag="L">m-ch-a               k-ranychwa.</item>
+    <item id="c2" line="742" tag="G">1SG.SUBJ-2.OBJ-and 1PL.SUBJ-play</item>
+    <item id="c3" line="743" tag="T">Let's you and me play!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i117984">
+  <metadata type="xigt-meta">
+    <meta type="language" name="walman" iso-639-3="van" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="744-747" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="744" tag="L">  (6)   runon              n-aro-n                                    Willie.</item>
+    <item id="o2" line="745" tag="G+CR">                           3SG.MASC.SUBJ-and-3SG.MASC.OBJ             Willie</item>
+    <item id="o3" line="746" tag="G+CR">        3SG.MASC</item>
+    <item id="o4" line="747" tag="T">        `He is with Willie.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="744" tag="L">runon              n-aro-n                                    Willie.</item>
+    <item id="c2" line="745 746" tag="G+CR">3SG.MASC           3SG.MASC.SUBJ-and-3SG.MASC.OBJ             Willie</item>
+    <item id="c4" line="747" tag="T">He is with Willie.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i117985">
+  <metadata type="xigt-meta">
+    <meta type="language" name="walman" iso-639-3="van" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="748-753" line-types="L G L G G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="748" tag="L">  (7)   Steve n-aro-n                                      John y-ara,             korue</item>
+    <item id="o2" line="749" tag="G">        Steve 3SG.MASC.SUBJ-and-3SG.MASC.OBJ               John 3PL.SUBJ-come      but</item>
+    <item id="o3" line="750" tag="L">             Steve n-ara                   eni, John n-ara                  amtre.</item>
+    <item id="o4" line="751" tag="G">             Steve 3SG.MASC.SUBJ-come today John 3SG.MASC.SUBJ-come</item>
+    <item id="o5" line="752" tag="G">        yesterday</item>
+    <item id="o6" line="753" tag="T">        `Steve and John came, but Steve came today and John came yesterday'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="748" tag="L">Steve n-aro-n                                      John y-ara,             korue</item>
+    <item id="c2" line="749" tag="G">Steve 3SG.MASC.SUBJ-and-3SG.MASC.OBJ               John 3PL.SUBJ-come      but</item>
+    <item id="c3" line="750" tag="L">Steve n-ara                   eni, John n-ara                  amtre.</item>
+    <item id="c4" line="751" tag="G">Steve 3SG.MASC.SUBJ-come today John 3SG.MASC.SUBJ-come</item>
+    <item id="c5" line="752" tag="G">yesterday</item>
+    <item id="c6" line="753" tag="T">Steve and John came, but Steve came today and John came yesterday</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+    <item id="p1" content="c3[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:78]" alignment="p1"/>
+    <item id="g1" content="c4[0:54]" alignment="p2"/>
+    <item id="g2" content="c5[0:9]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:65]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i117986">
+  <metadata type="xigt-meta">
+    <meta type="language" name="walman" iso-639-3="van" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="754-757" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="754" tag="L">  (8)   John n-aro-n                                    Simon   y-o            ro&lt;y&gt;rani.</item>
+    <item id="o2" line="755" tag="G+CR">        John 3SG.MASC.SUBJ-and-3                        Simon              -be tall&lt;PL&gt;</item>
+    <item id="o3" line="756" tag="G+CR">                                      SG.MASC.OBJ               3PL.SUBJ</item>
+    <item id="o4" line="757" tag="T">        `John and Simon are tall'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="754" tag="L">John n-aro-n                                    Simon   y-o            ro&lt;y&gt;rani.</item>
+    <item id="c2" line="755 756" tag="G+CR">John 3SG.MASC.SUBJ-and-3      SG.MASC.OBJ       Simon   3PL.SUBJ-be tall&lt;PL&gt;</item>
+    <item id="c4" line="757" tag="T">John and Simon are tall</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i117987">
+  <metadata type="xigt-meta">
+    <meta type="language" name="walman" iso-639-3="van" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="758-761" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="758" tag="L">  (9)   Kamtei wiei pa ri        yiripil.                       Rim y-etere        wuel.</item>
+    <item id="o2" line="759" tag="G+CR">        men      two PRT 3PL 3PL.SUBJ-wake.up                                      pig</item>
+    <item id="o3" line="760" tag="G+CR">                                                                3PL   3PL.SUBJ</item>
+    <item id="o4" line="761" tag="T">        `The men woke up. They saw the pig.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="758" tag="L">Kamtei wiei pa ri        yiripil.                       Rim y-etere        wuel.</item>
+    <item id="c2" line="759 760" tag="G+CR">men      two PRT 3PL 3PL.SUBJ-wake.up                   3PL   3PL.SUBJ     pig</item>
+    <item id="c4" line="761" tag="T">The men woke up. They saw the pig.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:78]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i117988">
+  <metadata type="xigt-meta">
+    <meta type="language" name="walman" iso-639-3="van" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="762-765" line-types="L G+CR G+CR T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="762" tag="L">        Tu         w-esi               chalien.     Wuel       won no kisiel</item>
+    <item id="o2" line="763" tag="G+CR">                           -go.out net              pig        heart be angry</item>
+    <item id="o3" line="764" tag="G+CR">        MIRAT      3SG.FEM</item>
+    <item id="o4" line="765" tag="T+DB">        'The pig was out of the net. '              'The pig was very angry with the men.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="762" tag="L">Tu         w-esi               chalien.     Wuel       won no kisiel</item>
+    <item id="c2" line="763 764" tag="G+CR">MIRAT      3SG.FEM-go.out net              pig        heart be angry</item>
+    <item id="c4" line="765" tag="T+DB">The pig was out of the net. '              'The pig was very angry with the men.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:80]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i117989">
+  <metadata type="xigt-meta">
+    <meta type="language" name="walman" iso-639-3="van" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="766-772" line-types="L G+CR G+CR T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="766" tag="L">        runon              n-aro-n.                                   Wuel</item>
+    <item id="o2" line="767" tag="G+CR">                           3SG.MASC.SUBJ-and-3SG.MASC.OBJ             pig</item>
+    <item id="o3" line="768" tag="G+CR">        3SG.MASC</item>
+    <item id="o4" line="769" tag="T">                                                                      'The pig</item>
+    <item id="o5" line="770" tag="L">        w-rachre-y                          runon          n-aro-n.</item>
+    <item id="o6" line="771" tag="G">        3SG.FEM.SUBJ-ch    ase-3PL.OBJ      3SG.MASC 3SG.MASC.SUBJ-and-3SG.MASC.OBJ</item>
+    <item id="o7" line="772" tag="T">        chased the men.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="766" tag="L">runon              n-aro-n.                                   Wuel</item>
+    <item id="c2" line="767 768" tag="G+CR">3SG.MASC           3SG.MASC.SUBJ-and-3SG.MASC.OBJ             pig</item>
+    <item id="c4" line="769" tag="T">The pig</item>
+    <item id="c5" line="770" tag="L">w-rachre-y                          runon          n-aro-n.</item>
+    <item id="c6" line="771" tag="G">3SG.FEM.SUBJ-ch    ase-3PL.OBJ      3SG.MASC 3SG.MASC.SUBJ-and-3SG.MASC.OBJ</item>
+    <item id="c7" line="772" tag="T">chased the men.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+    <item id="p1" content="c5[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+    <item id="g1" content="c6[0:75]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:7]" alignment="p1"/>
+    <item id="t1" content="c7[0:15]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i117990">
+  <metadata type="xigt-meta">
+    <meta type="language" name="walman" iso-639-3="van" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="773-775" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="773" tag="L">        Runon        n-aro-n                                    y-arul            kisiel.</item>
+    <item id="o2" line="774" tag="G">        3SG.MASC 3SG.MASC.SUBJ-and-3SG.MASC.OBJ                 3PL.SUBJ-run.away fast</item>
+    <item id="o3" line="775" tag="T">        'The men ran away as fast as they could.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="773" tag="L">Runon        n-aro-n                                    y-arul            kisiel.</item>
+    <item id="c2" line="774" tag="G">3SG.MASC 3SG.MASC.SUBJ-and-3SG.MASC.OBJ                 3PL.SUBJ-run.away fast</item>
+    <item id="c3" line="775" tag="T">The men ran away as fast as they could.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:78]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i117991">
+  <metadata type="xigt-meta">
+    <meta type="language" name="walman" iso-639-3="van" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="781-784" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="781" tag="L">      Runon            n-aro-n                                y-rawukul</item>
+    <item id="o2" line="782" tag="G+CR">                       3SG.MASC.SUBJ-and-3SG.MASC.OBJ         3PL.SUBJ-jump</item>
+    <item id="o3" line="783" tag="G+CR">      3SG.MASC</item>
+    <item id="o4" line="784" tag="T">      'The men jumped into the river.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="781" tag="L">Runon            n-aro-n                                y-rawukul</item>
+    <item id="c2" line="782 783" tag="G+CR">3SG.MASC         3SG.MASC.SUBJ-and-3SG.MASC.OBJ         3PL.SUBJ-jump</item>
+    <item id="c4" line="784" tag="T">The men jumped into the river.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i117992">
+  <metadata type="xigt-meta">
+    <meta type="language" name="walman" iso-639-3="van" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="785-787" line-types="L G+CR G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="785" tag="L">      y-anan                wul.</item>
+    <item id="o2" line="786" tag="G+CR">                 -go.down   water</item>
+    <item id="o3" line="787" tag="G+CR">      3PL.SUBJ</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="785" tag="L">y-anan                wul.</item>
+    <item id="c2" line="786 787" tag="G+CR">3PL.SUBJ-go.down   water</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i117993">
+  <metadata type="xigt-meta">
+    <meta type="language" name="walman" iso-639-3="van" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="788-795" line-types="L G+CR G+CR L G+CR G+CR T+EX C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="788" tag="L">  (10) ampa       m-aro-ø                     k-ch-a</item>
+    <item id="o2" line="789" tag="G+CR">                  1SG.SUBJ-and-3SG.FEM.OBJ    1PL.SUBJ-2.OBJ-and</item>
+    <item id="o3" line="790" tag="G+CR">      FUT</item>
+    <item id="o4" line="791" tag="L">            n-aro-ø                      k-orou        krecha.</item>
+    <item id="o5" line="792" tag="G+CR">            2SG.SUBJ-and-3SG.FEM.OBJ          -go      church</item>
+    <item id="o6" line="793" tag="G+CR">                                         1PL.SUBJ</item>
+    <item id="o7" line="794" tag="T+EX">      `Me and her and you and her will go to church.' (Where it is understood that the</item>
+    <item id="o8" line="795" tag="C">      two`her's' are distinct).</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="788" tag="L">ampa       m-aro-ø                     k-ch-a</item>
+    <item id="c2" line="789 790" tag="G+CR">FUT         1SG.SUBJ-and-3SG.FEM.OBJ    1PL.SUBJ-2.OBJ-and</item>
+    <item id="c4" line="791" tag="L">n-aro-ø                      k-orou        krecha.</item>
+    <item id="c5" line="792" tag="G+CR">2SG.SUBJ-and-3SG.FEM.OBJ-go      church</item>
+    <item id="c7" line="794" tag="T+EX">Me and her and you and her will go to church.' (Where it is understood that the</item>
+    <item id="c8" line="795" tag="C">two`her's' are distinct).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+    <item id="p1" content="c4[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+    <item id="g1" content="c5[0:39]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:79]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

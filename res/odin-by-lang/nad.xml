@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i77296">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nyiyaparli" iso-639-3="nad" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="130.txt" line-range="194-198" line-types="M+LN L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="194" tag="M+LN">  Nyiyaparli</item>
+    <item id="o2" line="195" tag="L">  (1)     Ngathalu          pungka-lpi-rna yukurru mara-ngku.</item>
+    <item id="o3" line="196" tag="G">          1sgERG            hit-PAST-1sgS dog      hand-ERG</item>
+    <item id="o4" line="197" tag="B"></item>
+    <item id="o5" line="198" tag="T">          I hit the dog with my hand.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="194" tag="M+LN">Nyiyaparli</item>
+    <item id="c2" line="195" tag="L">Ngathalu          pungka-lpi-rna yukurru mara-ngku.</item>
+    <item id="c3" line="196" tag="G">1sgERG            hit-PAST-1sgS dog      hand-ERG</item>
+    <item id="c4" line="197" tag="B"/>
+    <item id="c5" line="198" tag="T">I hit the dog with my hand.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77297">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nyiyaparli" iso-639-3="nad" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="130.txt" line-range="200-203" line-types="L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="200" tag="L">  (2)     Marlpa-ngku wirnta-lpi mantu .</item>
+    <item id="o2" line="201" tag="G">          man-ERG     cut-PAST meat.ABS</item>
+    <item id="o3" line="202" tag="B"></item>
+    <item id="o4" line="203" tag="T">          The man cut the meat.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="200" tag="L">Marlpa-ngku wirnta-lpi mantu .</item>
+    <item id="c2" line="201" tag="G">man-ERG     cut-PAST meat.ABS</item>
+    <item id="c3" line="202" tag="B"/>
+    <item id="c4" line="203" tag="T">The man cut the meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77298">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nyiyaparli" iso-639-3="nad" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="130.txt" line-range="208-211" line-types="L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="208" tag="L">  (3)     Marlpa pungka-lpi-nyina thunturtu (mara-ngku).</item>
+    <item id="o2" line="209" tag="G">          man    hit-PAST-REFL    head      hand-ERG</item>
+    <item id="o3" line="210" tag="B"></item>
+    <item id="o4" line="211" tag="T">          The man hit himself in the head (with his hand).</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="208" tag="L">Marlpa pungka-lpi-nyina thunturtu (mara-ngku).</item>
+    <item id="c2" line="209" tag="G">man    hit-PAST-REFL    head      hand-ERG</item>
+    <item id="c3" line="210" tag="B"/>
+    <item id="c4" line="211" tag="T">The man hit himself in the head (with his hand).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77299">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nyiyaparli" iso-639-3="nad" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="130.txt" line-range="213-216" line-types="L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="213" tag="L">  (4)     Ngatha wirnta-lpi-rna-nyina kuji.</item>
+    <item id="o2" line="214" tag="G">          1sgNOM cut-PAST-1sgS-REFL leg</item>
+    <item id="o3" line="215" tag="B"></item>
+    <item id="o4" line="216" tag="T">          I cut myself in the leg.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="213" tag="L">Ngatha wirnta-lpi-rna-nyina kuji.</item>
+    <item id="c2" line="214" tag="G">1sgNOM cut-PAST-1sgS-REFL leg</item>
+    <item id="c3" line="215" tag="B"/>
+    <item id="c4" line="216" tag="T">I cut myself in the leg.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

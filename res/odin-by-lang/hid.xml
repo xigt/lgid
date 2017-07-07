@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i85123">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hidatsa" iso-639-3="hid" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="4388-4392" line-types="M+LN+CR B L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4388" tag="M+LN+CR">  (3.11) H   IDATSA</item>
+    <item id="o2" line="4389" tag="B"></item>
+    <item id="o3" line="4390" tag="L">        wa.-há.-th-a!a-ru</item>
+    <item id="o4" line="4391" tag="G">        1-with knife-cut-PLUR-COND</item>
+    <item id="o5" line="4392" tag="T+AC">        `When we cut it', `When I cut them'                           (Robinett, 1955: 171)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4388" tag="M+LN+CR">H   IDATSA</item>
+    <item id="c2" line="4389" tag="B"/>
+    <item id="c3" line="4390" tag="L">wa.-há.-th-a!a-ru</item>
+    <item id="c4" line="4391" tag="G">1-with knife-cut-PLUR-COND</item>
+    <item id="c5" line="4392" tag="T+AC">When we cut it', `When I cut them'                           (Robinett, 1955: 171)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:82]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

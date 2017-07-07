@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i89486">
+  <metadata type="xigt-meta">
+    <meta type="language" name="banka" iso-639-3="bxw:fmp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="153-153" line-types="M+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="153" tag="M+LN">  Banka</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="153" tag="M+LN">Banka</item>
+  </tier>
+</igt>
+<igt id="i89487">
+  <metadata type="xigt-meta">
+    <meta type="language" name="banka" iso-639-3="bxw:fmp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="154-160" line-types="M+CN L+CR L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="154" tag="M+CN">  (5)         Imperfective (with a progressive and a habitual reading)</item>
+    <item id="o2" line="155" tag="L+CR">                         SofE-nàn7 ba-ná</item>
+    <item id="o3" line="156" tag="L+CR">                           ¯´           ¯</item>
+    <item id="o4" line="157" tag="L+CR">              Abu-ù</item>
+    <item id="o5" line="158" tag="L+CR">                            ~</item>
+    <item id="o6" line="159" tag="G">              Abu-AU X donkey-RF beat-IPF</item>
+    <item id="o7" line="160" tag="T">              `Abu is beating the donkey.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="154" tag="M+CN">Imperfective (with a progressive and a habitual reading</item>
+    <item id="c2" line="155 157" tag="L+CR">Abu-ù     SofE-nàn7 ba-ná</item>
+    <item id="c6" line="159" tag="G">Abu-AU X donkey-RF beat-IPF</item>
+    <item id="c7" line="160" tag="T">Abu is beating the donkey.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89488">
+  <metadata type="xigt-meta">
+    <meta type="language" name="banka" iso-639-3="bxw:fmp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="161-167" line-types="M+CN L+CR L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="161" tag="M+CN">  (6)         Perfect/perfective</item>
+    <item id="o2" line="162" tag="L+CR">                          SofE-nàn baá</item>
+    <item id="o3" line="163" tag="L+CR">                           ¯´          ¯</item>
+    <item id="o4" line="164" tag="L+CR">              Abu-ù</item>
+    <item id="o5" line="165" tag="L+CR">                             ~           ~</item>
+    <item id="o6" line="166" tag="G">              Abu-AU X donkey-RF beat/PFT</item>
+    <item id="o7" line="167" tag="T">              `Abu has beaten the donkey.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="161" tag="M+CN">Perfect/perfective</item>
+    <item id="c2" line="162 164" tag="L+CR">Abu-ù      SofE-nàn baá</item>
+    <item id="c6" line="166" tag="G">Abu-AU X donkey-RF beat/PFT</item>
+    <item id="c7" line="167" tag="T">Abu has beaten the donkey.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89519">
+  <metadata type="xigt-meta">
+    <meta type="language" name="banka" iso-639-3="bxw:fmp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="776-783" line-types="M+LN+EX L+CR L+CR L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="776" tag="M+LN+EX">  Banka (my own field data)</item>
+    <item id="o2" line="777" tag="L+CR">                            ká.jì=jé.àN</item>
+    <item id="o3" line="778" tag="L+CR">            ¯                             kà</item>
+    <item id="o4" line="779" tag="L+CR">  (37)      i    nàà</item>
+    <item id="o5" line="780" tag="L+CR">                                            ~</item>
+    <item id="o6" line="781" tag="L+CR">                  ~~</item>
+    <item id="o7" line="782" tag="G">            3pp come/PFT add=thing.RF Pp_with</item>
+    <item id="o8" line="783" tag="T">            `They have brought (= have come with) the additive.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="776" tag="M+LN+EX">Banka (my own field data)</item>
+    <item id="c2" line="777 778 781" tag="L+CR">¯    ~~        ká.jì=jé.àNkà</item>
+    <item id="c7" line="782" tag="G">3pp come/PFT add=thing.RF Pp_with</item>
+    <item id="c8" line="783" tag="T">They have brought (= have come with) the additive.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

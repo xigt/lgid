@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i71587">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="261-264" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="261" tag="L+CR">                             i dolia</item>
+    <item id="o2" line="262" tag="L+CR">  (5)        a. tis su                    tixi</item>
+    <item id="o3" line="263" tag="G">               what you-Dat the wretched fate</item>
+    <item id="o4" line="264" tag="T+AC">               `What a wretched fate for you!' (Threnos 105)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="261 262" tag="L+CR">tis su       i dolia      tixi</item>
+    <item id="c3" line="263" tag="G">what you-Dat the wretched fate</item>
+    <item id="c4" line="264" tag="T+AC">What a wretched fate for you!' (Threnos 105)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71588">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="265-268" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="265" tag="L+CR">                             to fos to esjiton</item>
+    <item id="o2" line="266" tag="L+CR">             b. pu   mi</item>
+    <item id="o3" line="267" tag="G">               where me-Dat the light the perceptible</item>
+    <item id="o4" line="268" tag="T+AC">               `Where is the perceptible light for me (= my eyesight)?' (Belisarios 487)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="265 266" tag="L+CR">pu   mi      to fos to esjiton</item>
+    <item id="c3" line="267" tag="G">where me-Dat the light the perceptible</item>
+    <item id="c4" line="268" tag="T+AC">Where is the perceptible light for me (= my eyesight)?' (Belisarios 487)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:72]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71590">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="306-312" line-types="L+CR L+CR L+CR G+CR G+CR T T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="306" tag="L+CR">                                                 is to montorion || o duks tus apodexjiken</item>
+    <item id="o2" line="307" tag="L+CR">           a. okapot apesosasin iljan</item>
+    <item id="o3" line="308" tag="L+CR">  (7)</item>
+    <item id="o4" line="309" tag="G+CR">                                                                    || the duke them received-3sg</item>
+    <item id="o5" line="310" tag="G+CR">              sometime finished-3pl came-3pl to the Montorion</item>
+    <item id="o6" line="311" tag="T">              `In time they finished [their journey], they came to Montorion. The duke</item>
+    <item id="o7" line="312" tag="T+AC">              received them.' (Phlorios 303-304)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="306 307 308" tag="L+CR">okapot apesosasin iljan            is to montorion || o duks tus apodexjiken</item>
+    <item id="c4" line="309 310" tag="G+CR">sometime finished-3pl came-3pl to the Montorion       || the duke them received-3sg</item>
+    <item id="c6" line="311" tag="T">In time they finished [their journey], they came to Montorion. The duke</item>
+    <item id="c7" line="312" tag="T+AC">received them.' (Phlorios 303-304)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:83]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:71]" alignment="p1"/>
+    <item id="t1" content="c7[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71591">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="314-319" line-types="L G+CR G+CR T+AC B C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="314" tag="L">           b. kavalikevun arxondes ipagun s to palati || kj o vasilefs edexjin                  tus</item>
+    <item id="o2" line="315" tag="G+CR">                                                   to the palace || and the king</item>
+    <item id="o3" line="316" tag="G+CR">              ride-3pl        lords     go-3pl                                      received-3sg them</item>
+    <item id="o4" line="317" tag="T+AC">              `The lords ride, they go to the palace, and the king received them' (Phlorios</item>
+    <item id="o5" line="318" tag="B">                                                                                      ¯</item>
+    <item id="o6" line="319" tag="C">              938-939)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="314" tag="L">kavalikevun arxondes ipagun s to palati || kj o vasilefs edexjin                  tus</item>
+    <item id="c2" line="315 316" tag="G+CR">ride-3pl        lords     go-3pl     to the palace || and the king    received-3sg them</item>
+    <item id="c4" line="317" tag="T+AC">The lords ride, they go to the palace, and the king received them' (Phlorios</item>
+    <item id="c5" line="318" tag="B">¯</item>
+    <item id="c6" line="319" tag="C">938-939)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:87]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:76]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71595">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="439-441" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="439" tag="L">  (10) to thelima mou pliroson ke apijis                mi ginu</item>
+    <item id="o2" line="440" tag="G">        the wish     my     fulfill   and disobedient not become</item>
+    <item id="o3" line="441" tag="T+AC">        `Fulfill my wish and do not be disobedient.' (Belisarios 221)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="439" tag="L">to thelima mou pliroson ke apijis                mi ginu</item>
+    <item id="c2" line="440" tag="G">the wish     my     fulfill   and disobedient not become</item>
+    <item id="c3" line="441" tag="T+AC">Fulfill my wish and do not be disobedient.' (Belisarios 221)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71596">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="446-448" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="446" tag="L">  (11) na xes to teliosi</item>
+    <item id="o2" line="447" tag="G">        Subj have it finish-Inf</item>
+    <item id="o3" line="448" tag="T+AC">        `If only you had finished it' (Rhodos 454)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="446" tag="L">na xes to teliosi</item>
+    <item id="c2" line="447" tag="G">Subj have it finish-Inf</item>
+    <item id="c3" line="448" tag="T+AC">If only you had finished it' (Rhodos 454)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71597">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="469-473" line-types="L+CR+SY L+CR+SY G T+AC C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="469" tag="L+CR+SY">  (12) [ [ tes xores mu ologira ]              [ [ oles ]        tes afanizi ]   P ]P</item>
+    <item id="o2" line="470" tag="L+CR+SY">                                          DP                QP</item>
+    <item id="o3" line="471" tag="G">            the countries my all-around           all            them destroys</item>
+    <item id="o4" line="472" tag="T+AC">        `My countries all around, he destroys them all.' (Rimada 1308, Pappas 2001:79,</item>
+    <item id="o5" line="473" tag="C">        Pappas, this issue)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="469 470" tag="L+CR+SY">[ [ tes xores mu ologira ]         DP   [ [ oles ]   QP   tes afanizi ]   P ]P</item>
+    <item id="c3" line="471" tag="G">the countries my all-around           all            them destroys</item>
+    <item id="c4" line="472" tag="T+AC">My countries all around, he destroys them all.' (Rimada 1308, Pappas 2001:79,</item>
+    <item id="c5" line="473" tag="C">Pappas, this issue)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:77]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71598">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="485-487" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="485" tag="L">  (13) ta ides        ke ta ikusas ola afigisu me ta</item>
+    <item id="o2" line="486" tag="G">         that you-saw and that you-heard all narrate me that</item>
+    <item id="o3" line="487" tag="T+AC">         `what you have seen and heard, tell it all to me' (Lybistros 2784)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="485" tag="L">ta ides        ke ta ikusas ola afigisu me ta</item>
+    <item id="c2" line="486" tag="G">that you-saw and that you-heard all narrate me that</item>
+    <item id="c3" line="487" tag="T+AC">what you have seen and heard, tell it all to me' (Lybistros 2784)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71599">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="497-500" line-types="L+CR L+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="497" tag="L+CR">  (14)     a. [ olus tus ]           [ epatise ]</item>
+    <item id="o2" line="498" tag="L+CR+SY">                                NP                 VP</item>
+    <item id="o3" line="499" tag="G">                 all(Pl) them          he-conquered</item>
+    <item id="o4" line="500" tag="T">               `all of them, he conquered'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="497 498" tag="L+CR+SY">[ olus tus ]      NP   [ epatise ]   VP</item>
+    <item id="c3" line="499" tag="G">all(Pl) them          he-conquered</item>
+    <item id="c4" line="500" tag="T">all of them, he conquered</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71600">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="501-504" line-types="L+CR L+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="501" tag="L+CR">           b. [ olus ]          [ tus epatise ]</item>
+    <item id="o2" line="502" tag="L+CR+SY">                           NP                      VP</item>
+    <item id="o3" line="503" tag="G">                 all(Pl)         them he-conquered</item>
+    <item id="o4" line="504" tag="T">               `All, he conquered them'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="501 502" tag="L+CR+SY">[ olus ]     NP   [ tus epatise ]    VP</item>
+    <item id="c3" line="503" tag="G">all(Pl)         them he-conquered</item>
+    <item id="c4" line="504" tag="T">All, he conquered them</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71601">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="508-511" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="508" tag="L+CR">           a. olin gnorizis tin</item>
+    <item id="o2" line="509" tag="L+CR">  (15)</item>
+    <item id="o3" line="510" tag="G">               all   you-know it/her</item>
+    <item id="o4" line="511" tag="T">               `you know it all'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="508 509" tag="L+CR">olin gnorizis tin</item>
+    <item id="c3" line="510" tag="G">all   you-know it/her</item>
+    <item id="c4" line="511" tag="T">you know it all</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71602">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="512-513" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="512" tag="L">           b. olin tin gnorizis</item>
+    <item id="o2" line="513" tag="G">               all   it/her you-know</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="512" tag="L">olin tin gnorizis</item>
+    <item id="c2" line="513" tag="G">all   it/her you-know</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71611">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="652-656" line-types="L+CR L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="652" tag="L+CR">  (20)     a. s´</item>
+    <item id="o2" line="653" tag="L+CR">               iselon    ton epetaksa</item>
+    <item id="o3" line="654" tag="L+CR">                          ´    ´</item>
+    <item id="o4" line="655" tag="G">              with-saddle him threw</item>
+    <item id="o5" line="656" tag="T+AC">              `I threw him [off his horse] together with his saddle' (Lybistros 2047)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="652 654" tag="L+CR">s´         ´    ´</item>
+    <item id="c4" line="655" tag="G">with-saddle him threw</item>
+    <item id="c5" line="656" tag="T+AC">I threw him [off his horse] together with his saddle' (Lybistros 2047)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:70]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71612">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="657-660" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="657" tag="L+CR">          b. tremus´ ton i arxontes</item>
+    <item id="o2" line="658" tag="L+CR">               ´   in      ´</item>
+    <item id="o3" line="659" tag="G">              fear      him the rulers</item>
+    <item id="o4" line="660" tag="T+AC">              `The rulers fear him' (Belisarios 300)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="657" tag="L+CR">tremus´ ton i arxontes</item>
+    <item id="c3" line="659" tag="G">fear      him the rulers</item>
+    <item id="c4" line="660" tag="T+AC">The rulers fear him' (Belisarios 300)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71613">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="687-690" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="687" tag="L+CR">  (22) i erotes ton egenisan</item>
+    <item id="o2" line="688" tag="L+CR">         ´            ´</item>
+    <item id="o3" line="689" tag="G">         the cupids him gave birth</item>
+    <item id="o4" line="690" tag="T+AC">         `the cupids gave birth to him' (Achilleid 1113)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="687" tag="L+CR">i erotes ton egenisan</item>
+    <item id="c3" line="689" tag="G">the cupids him gave birth</item>
+    <item id="c4" line="690" tag="T+AC">the cupids gave birth to him' (Achilleid 1113)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71614">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="699-702" line-types="L M G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="699" tag="L">  (23)     a. kefali, xeria, somata</item>
+    <item id="o2" line="700" tag="M">                 ´     ´      ´</item>
+    <item id="o3" line="701" tag="G">               head    hands bodies</item>
+    <item id="o4" line="702" tag="T+AC">               `head, hands, bodies' (Threnos 82)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="699" tag="L">kefali, xeria, somata</item>
+    <item id="c2" line="700" tag="M">´     ´      ´</item>
+    <item id="c3" line="701" tag="G">head    hands bodies</item>
+    <item id="c4" line="702" tag="T+AC">head, hands, bodies' (Threnos 82)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71615">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="703-706" line-types="L M G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="703" tag="L">           b. dukades, kunti, pr´nkipes</item>
+    <item id="o2" line="704" tag="M">                 ´      ´       i</item>
+    <item id="o3" line="705" tag="G">               dukes      counts princes</item>
+    <item id="o4" line="706" tag="T+AC">               `dukes, counts, princes' (Threnos 177)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="703" tag="L">dukades, kunti, pr´nkipes</item>
+    <item id="c2" line="704" tag="M">´      ´       i</item>
+    <item id="c3" line="705" tag="G">dukes      counts princes</item>
+    <item id="c4" line="706" tag="T+AC">dukes, counts, princes' (Threnos 177)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71616">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="712-715" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="712" tag="L+CR">           a. mikron to legei o prologos</item>
+    <item id="o2" line="713" tag="L+CR">  (24)            ´      ´        ´</item>
+    <item id="o3" line="714" tag="G">              small   that says   the prologue</item>
+    <item id="o4" line="715" tag="T+AC">              `what the prologue says is a small thing' (Threnos 19)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="712" tag="L+CR">mikron to legei o prologos</item>
+    <item id="c3" line="714" tag="G">small   that says   the prologue</item>
+    <item id="c4" line="715" tag="T+AC">what the prologue says is a small thing' (Threnos 19)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71617">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="716-719" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="716" tag="L+CR">           b. am´ sxolazo, af´ o to</item>
+    <item id="o2" line="717" tag="L+CR">                i     ´      in</item>
+    <item id="o3" line="718" tag="G">              but I-stop     I-leave it</item>
+    <item id="o4" line="719" tag="T+AC">              `But I stop here, I leave it' (Threnos 42)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="716" tag="L+CR">am´ sxolazo, af´ o to</item>
+    <item id="c3" line="718" tag="G">but I-stop     I-leave it</item>
+    <item id="c4" line="719" tag="T+AC">But I stop here, I leave it' (Threnos 42)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71618">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="754-757" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="754" tag="L+CR">  (27) t' onoma m' u grafo to</item>
+    <item id="o2" line="755" tag="L+CR">          ´            ´</item>
+    <item id="o3" line="756" tag="G">        the name      my not write it</item>
+    <item id="o4" line="757" tag="T+AC">        `I don't write my name' (Rhodos 1025)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="754" tag="L+CR">onoma m' u grafo to</item>
+    <item id="c3" line="756" tag="G">the name      my not write it</item>
+    <item id="c4" line="757" tag="T+AC">I don't write my name' (Rhodos 1025)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71619">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="760-762" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="760" tag="L">  (28) mikros i megas dia na pi, dia na se onidisi</item>
+    <item id="o2" line="761" tag="G">        small      or big   for to say for to you blame</item>
+    <item id="o3" line="762" tag="T+AC">        `someone small or big to say or to blame you' (Threnos 166)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="760" tag="L">mikros i megas dia na pi, dia na se onidisi</item>
+    <item id="c2" line="761" tag="G">small      or big   for to say for to you blame</item>
+    <item id="c3" line="762" tag="T+AC">someone small or big to say or to blame you' (Threnos 166)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91000">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3773" line-range="1048-1050" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1048" tag="L">  (57)   a. thelo: grapsein</item>
+    <item id="o2" line="1049" tag="G">            will/1sg write(inf.)</item>
+    <item id="o3" line="1050" tag="T">            `I will write.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1048" tag="L">grapsein</item>
+    <item id="c2" line="1049" tag="G">will/1sg write(inf.)</item>
+    <item id="c3" line="1050" tag="T">I will write.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91001">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3773" line-range="1052-1054" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1052" tag="L">         b. thelo: grapso:</item>
+    <item id="o2" line="1053" tag="G">            will/1sg write(fin./1sg)</item>
+    <item id="o3" line="1054" tag="T">            `I will write.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1052" tag="L">grapso:</item>
+    <item id="c2" line="1053" tag="G">will/1sg write(fin./1sg)</item>
+    <item id="c3" line="1054" tag="T">I will write.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91002">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3773" line-range="1062-1065" line-types="L+AC+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1062" tag="L+AC+CR">  (58)   a. philin               thelo: do:sei     (Erotop, 248 (15 c.))</item>
+    <item id="o2" line="1063" tag="L+CR">                         se</item>
+    <item id="o3" line="1064" tag="G">            kiss(acc) you        1sg    give(inf.)</item>
+    <item id="o4" line="1065" tag="T">           `I will give you a kiss.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1062 1063" tag="L+AC+CR">a. philin       se      thelo: do:sei     (Erotop, 248 (15 c.)</item>
+    <item id="c3" line="1064" tag="G">kiss(acc) you        1sg    give(inf.)</item>
+    <item id="c4" line="1065" tag="T">I will give you a kiss.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91004">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3773" line-range="1081-1088" line-types="L G L+CR L+CR L+CR G M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1081" tag="L">  (59)    de thelei akousei to thumo               tse:     egdike:sis     ton     toso</item>
+    <item id="o2" line="1082" tag="G">          not 3sg     hear(inf.) the-anger(acc.) the        revenge(Gen) the-so-much</item>
+    <item id="o3" line="1083" tag="L+CR">                              he:basilike:?</item>
+    <item id="o4" line="1084" tag="L+CR">          he: kamera                            ma      eda                    thelo: do:so:</item>
+    <item id="o5" line="1085" tag="L+CR">                                                                sas</item>
+    <item id="o6" line="1086" tag="G">          the-room(Nom) the-royal(Nom) but              here you(gen.pl.) (1sg) give(1sg)</item>
+    <item id="o7" line="1087" tag="M+AC">                                                                (Zenon I.21-22 (17 c.))</item>
+    <item id="o8" line="1088" tag="T">          `Will not the royal room hear such great anger of revenge? But here, I will give you...'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1081" tag="L">de thelei akousei to thumo               tse:     egdike:sis     ton     toso</item>
+    <item id="c2" line="1082" tag="G">not 3sg     hear(inf.) the-anger(acc.) the        revenge(Gen) the-so-much</item>
+    <item id="c3" line="1083 1084 1085" tag="L+CR">kamera          he:basilike:?     ma      eda     sas            thelo: do:so:</item>
+    <item id="c6" line="1086" tag="G">the-room(Nom) the-royal(Nom) but              here you(gen.pl.) (1sg) give(1sg)</item>
+    <item id="c7" line="1087" tag="M+AC">Zenon I.21-22 (17 c.)</item>
+    <item id="c8" line="1088" tag="T">Will not the royal room hear such great anger of revenge? But here, I will give you...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+    <item id="p1" content="c3[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:74]" alignment="p1"/>
+    <item id="g1" content="c6[0:79]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:86]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i138786">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2138" line-range="509-511" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="509" tag="L">          a. ka d n gl twsen kan nac</item>
+    <item id="o2" line="510" tag="G">             and not escaped            anyone</item>
+    <item id="o3" line="511" tag="T+AC">             `and not one of them escaped' (Makhairas 16.15, tr. Dawkins)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="509" tag="L">ka d n gl twsen kan nac</item>
+    <item id="c2" line="510" tag="G">and not escaped            anyone</item>
+    <item id="c3" line="511" tag="T+AC">and not one of them escaped' (Makhairas 16.15, tr. Dawkins)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138787">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2138" line-range="512-515" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="512" tag="L+CR">          b. na . . . m n lemonhj~ kan nan</item>
+    <item id="o2" line="513" tag="L+CR">                                 |hc</item>
+    <item id="o3" line="514" tag="G">             that        not pity-2Sg          anyone</item>
+    <item id="o4" line="515" tag="T+AC">             `that you have mercy on no-one of them' (Makhairas 16.1)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="512" tag="L+CR">na . . . m n lemonhj~ kan nan</item>
+    <item id="c3" line="514" tag="G">that        not pity-2Sg          anyone</item>
+    <item id="c4" line="515" tag="T+AC">that you have mercy on no-one of them' (Makhairas 16.1)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138788">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2138" line-range="516-518" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="516" tag="L">          c. ka Rn swc . . . Rf s c zwntan n kan nan</item>
+    <item id="o2" line="517" tag="G">             and if               leave        alive          anyone</item>
+    <item id="o3" line="518" tag="T+AC">             `and if you leave any one of them alive' (Makhairas 16.5)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="516" tag="L">ka Rn swc . . . Rf s c zwntan n kan nan</item>
+    <item id="c2" line="517" tag="G">and if               leave        alive          anyone</item>
+    <item id="c3" line="518" tag="T+AC">and if you leave any one of them alive' (Makhairas 16.5)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138789">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2138" line-range="519-521" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="519" tag="L">          d. o      rqontec s ghsan; kane c l gon o d dei</item>
+    <item id="o2" line="520" tag="G">             the lords         fell-silent    no-one speech not give</item>
+    <item id="o3" line="521" tag="T+AC">             `the lords fell silent; none of them utters a word.' (Belisarios 153)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="519" tag="L">o      rqontec s ghsan; kane c l gon o d dei</item>
+    <item id="c2" line="520" tag="G">the lords         fell-silent    no-one speech not give</item>
+    <item id="c3" line="521" tag="T+AC">the lords fell silent; none of them utters a word.' (Belisarios 153)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138790">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2138" line-range="523-526" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="523" tag="L+CR">          a. d n Rfhken tinPn nP pXg e c t n soultXnon</item>
+    <item id="o2" line="524" tag="L+CR">                   ~</item>
+    <item id="o3" line="525" tag="G">             not allowed      anyone to go          to the sultan</item>
+    <item id="o4" line="526" tag="T+AC">             `would allow no one to go to the sultan' (Makhairas 126.4)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="523" tag="L+CR">d n Rfhken tinPn nP pXg e c t n soultXnon</item>
+    <item id="c3" line="525" tag="G">not allowed      anyone to go          to the sultan</item>
+    <item id="c4" line="526" tag="T+AC">would allow no one to go to the sultan' (Makhairas 126.4)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138791">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2138" line-range="531-535" line-types="L+CR L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="531" tag="L+CR">                            ~</item>
+    <item id="o2" line="532" tag="L+CR">          b. t koursoc d n einai tin c                  diXforoc parP tou fousXtou</item>
+    <item id="o3" line="533" tag="L+CR">                 ~                                                      ~</item>
+    <item id="o4" line="534" tag="G">              the pillaging   not is       to anyone advantageous except to the army</item>
+    <item id="o5" line="535" tag="T+AC">              `pillaging is of advantage to no one except to the army' (160.36)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="531 533" tag="L+CR">~          ~                                           ~</item>
+    <item id="c4" line="534" tag="G">the pillaging   not is       to anyone advantageous except to the army</item>
+    <item id="c5" line="535" tag="T+AC">pillaging is of advantage to no one except to the army' (160.36)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138792">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2138" line-range="536-538" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="536" tag="L">           c. mhd n q tinPc fwt an</item>
+    <item id="o2" line="537" tag="G">              that-not have anyone torch</item>
+    <item id="o3" line="538" tag="T+AC">              `so that no one should have a torch' (362.11)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="536" tag="L">mhd n q tinPc fwt an</item>
+    <item id="c2" line="537" tag="G">that-not have anyone torch</item>
+    <item id="c3" line="538" tag="T+AC">so that no one should have a torch' (362.11)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138793">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2138" line-range="539-541" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="539" tag="L">          d. ka d n gl twsen tinXc</item>
+    <item id="o2" line="540" tag="G">              and not escaped          anyone</item>
+    <item id="o3" line="541" tag="T+AC">              `and no one escaped' (546.4)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="539" tag="L">ka d n gl twsen tinXc</item>
+    <item id="c2" line="540" tag="G">and not escaped          anyone</item>
+    <item id="c3" line="541" tag="T+AC">and no one escaped' (546.4)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138794">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2138" line-range="542-545" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="542" tag="L+CR">           e. nP      mb t barejh             tinPc, Rmmb lwnwn n' Rr sh</item>
+    <item id="o2" line="543" tag="L+CR">                                ~                            ~</item>
+    <item id="o3" line="544" tag="G">              so-that not it is-bored-with anyone but        to-all       pleases</item>
+    <item id="o4" line="545" tag="T+AC">              `so that no-one gets bored with it but everyone likes it' (Threnos 11)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="542" tag="L+CR">nP      mb t barejh             tinPc, Rmmb lwnwn n' Rr sh</item>
+    <item id="c3" line="544" tag="G">so-that not it is-bored-with anyone but        to-all       pleases</item>
+    <item id="c4" line="545" tag="T+AC">so that no-one gets bored with it but everyone likes it' (Threnos 11)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:69]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138795">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2138" line-range="546-548" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="546" tag="L">           f. d n pr pei njrwp c tinac nP s kathgor sh</item>
+    <item id="o2" line="547" tag="G">              not should person              any   to    you accuse</item>
+    <item id="o3" line="548" tag="T+AC">              `No person should accuse you' (Threnos 165)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="546" tag="L">d n pr pei njrwp c tinac nP s kathgor sh</item>
+    <item id="c2" line="547" tag="G">not should person              any   to    you accuse</item>
+    <item id="c3" line="548" tag="T+AC">No person should accuse you' (Threnos 165)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138796">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2138" line-range="549-552" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="549" tag="L+CR">          g. tinPc RgXphn met' a t n mb boulhjh po sh</item>
+    <item id="o2" line="550" tag="L+CR">                                               ~</item>
+    <item id="o3" line="551" tag="G">             anyone love with him not want do</item>
+    <item id="o4" line="552" tag="T+AC">             `so that no-one would make peace with him' (Threnos 459)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="549 550" tag="L+CR">tinPc RgXphn met' a t n mb boulhjh~po sh</item>
+    <item id="c3" line="551" tag="G">anyone love with him not want do</item>
+    <item id="c4" line="552" tag="T+AC">so that no-one would make peace with him' (Threnos 459)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138797">
+  <metadata type="xigt-meta">
+    <meta type="language" name="medieval greek" iso-639-3="qgk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2138" line-range="553-557" line-types="L+CR L+CR G T+AC C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="553" tag="L+CR">          h. ka nP kratoun t d kaion, tinPc mb Rdikhtai</item>
+    <item id="o2" line="554" tag="L+CR">                        ~                          ~</item>
+    <item id="o3" line="555" tag="G">              and      keep-3Pl   the just         no-one not is-done-injustice-to</item>
+    <item id="o4" line="556" tag="T+AC">              `and they should keep justice so that no-one gets unfairly treated' (Belis-</item>
+    <item id="o5" line="557" tag="C">              arios 384)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="553" tag="L+CR">ka nP kratoun t d kaion, tinPc mb Rdikhtai</item>
+    <item id="c3" line="555" tag="G">and      keep-3Pl   the just         no-one not is-done-injustice-to</item>
+    <item id="c4" line="556" tag="T+AC">and they should keep justice so that no-one gets unfairly treated' (Belis-</item>
+    <item id="c5" line="557" tag="C">arios 384)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

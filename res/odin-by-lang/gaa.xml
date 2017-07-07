@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i6337">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="60-63" line-types="M+CN L+CR L+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="60" tag="M+CN">             a.         Resumptive Serial Construction (RSVC):</item>
+    <item id="o2" line="61" tag="L+CR">                                       hoo -                                                      amE</item>
+    <item id="o3" line="62" tag="L+CR">                        Akwele                             niyenii           e-         ha -a</item>
+    <item id="o4" line="63" tag="G">                        Akwele1        cook-HAB            food              3SG1- give-HAB 3PL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="60" tag="M+CN">Resumptive Serial Construction (RSVC):</item>
+    <item id="c2" line="61 62" tag="L+CR">Akwele         hoo-niyenii           e-ha-a     amE</item>
+    <item id="c4" line="63" tag="G">Akwele1        cook-HAB            food              3SG1-give-HAB 3PL</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:70]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6338">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="64-67" line-types="M+CN L+CR L+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="64" tag="M+CN">             b          Non-resumptive Serial Construction (NSVC):</item>
+    <item id="o2" line="65" tag="L+CR">                        Akwele hoo -                                         amE</item>
+    <item id="o3" line="66" tag="L+CR">                                                niyenii ha -a</item>
+    <item id="o4" line="67" tag="G">                        Akwele1 cook-HAB food                give-HAB 3PL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="64" tag="M+CN">b          Non-resumptive Serial Construction (NSVC):</item>
+    <item id="c2" line="65 66" tag="L+CR">Akwele hoo-niyenii ha-a                amE</item>
+    <item id="c4" line="67" tag="G">Akwele1 cook-HAB food                give-HAB 3PL</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6339">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="99-102" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="99" tag="L+CR">                        $ - baaÛ-                       $-        amE</item>
+    <item id="o2" line="100" tag="L+CR">  (2)       Akwele                      hoo niyenii          ha</item>
+    <item id="o3" line="101" tag="G">            Akwele AOR-GR.FUT-cook food AOR-give 3PL</item>
+    <item id="o4" line="102" tag="T">            'Akwele will cook for them'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="99 100" tag="L+CR">Akwele      $-baaÛ-hoo niyenii      $-ha    amE</item>
+    <item id="c3" line="101" tag="G">Akwele AOR-GR.FUT-cook food AOR-give 3PL</item>
+    <item id="c4" line="102" tag="T">Akwele will cook for them</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6340">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="112-115" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="112" tag="L+CR">                    AmE$-                    lai kE$-        jE</item>
+    <item id="o2" line="113" tag="L+CR">  (3)       a.                to                                         Ga</item>
+    <item id="o3" line="114" tag="G">                    3PL.AOR-arrange line move.AOR-set.out.from Accra</item>
+    <item id="o4" line="115" tag="T">                    'They formed a line from Accra'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="112 113" tag="L+CR">AmE$-to             lai kE$-jE          Ga</item>
+    <item id="c3" line="114" tag="G">3PL.AOR-arrange line move.AOR-set.out.from Accra</item>
+    <item id="c4" line="115" tag="T">They formed a line from Accra</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6341">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="116-119" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="116" tag="L+CR">                    AmE-                                E     $ - jE</item>
+    <item id="o2" line="117" tag="L+CR">            b.                     lai to-       o                      Ga</item>
+    <item id="o3" line="118" tag="G">                    3PL.GEN-line arrange-NOM DEF AOR-start Accra</item>
+    <item id="o4" line="119" tag="T">                    'Their lining up started from Accra'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="116 117" tag="L+CR">AmE-lai to-o      E     $-jE    Ga</item>
+    <item id="c3" line="118" tag="G">3PL.GEN-line arrange-NOM DEF AOR-start Accra</item>
+    <item id="c4" line="119" tag="T">Their lining up started from Accra</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6342">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="147-150" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="147" tag="L+CR">                  Yoo E ho- niyenii ha-a amE</item>
+    <item id="o2" line="148" tag="L+CR">  (4)     a.</item>
+    <item id="o3" line="149" tag="G">                   woman DEF cook-HAB food give-HAB 3PL</item>
+    <item id="o4" line="150" tag="T">                   'The woman cooks for them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="147 148" tag="L+CR">Yoo E ho-niyenii ha-a amE</item>
+    <item id="c3" line="149" tag="G">woman DEF cook-HAB food give-HAB 3PL</item>
+    <item id="c4" line="150" tag="T">The woman cooks for them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6343">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="151-154" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="151" tag="L+CR">                  AmE (ni$)               E       ho-</item>
+    <item id="o2" line="152" tag="L+CR">          b.                     yoo                     niyenii ha- a</item>
+    <item id="o3" line="153" tag="G">                   3PL (FOC) woman DEF cook-HAB food give-HAB</item>
+    <item id="o4" line="154" tag="T">                  'It is for them (not others) that the woman cooks.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="151 152" tag="L+CR">AmE (ni$)      yoo      E       ho-niyenii ha-a</item>
+    <item id="c3" line="153" tag="G">3PL (FOC) woman DEF cook-HAB food give-HAB</item>
+    <item id="c4" line="154" tag="T">It is for them (not others) that the woman cooks.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6344">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="162-165" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="162" tag="L+CR">                  Mi-na bo yE tsu mli</item>
+    <item id="o2" line="163" tag="L+CR">  (5)     a.</item>
+    <item id="o3" line="164" tag="G">                  1SG-see 2SG be.at room inside</item>
+    <item id="o4" line="165" tag="T">                  'I saw you in the room'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="162 163" tag="L+CR">Mi-na bo yE tsu mli</item>
+    <item id="c3" line="164" tag="G">1SG-see 2SG be.at room inside</item>
+    <item id="c4" line="165" tag="T">I saw you in the room</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6345">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="166-169" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="166" tag="L+CR">                                (ni$)    mi$-na bo yE</item>
+    <item id="o2" line="167" tag="L+CR">          b.      Tsu mli</item>
+    <item id="o3" line="168" tag="G">                  room inside (FOC) 1SG -see 2SG be.at</item>
+    <item id="o4" line="169" tag="T">                  'It was in the room (not somewhere else) that I saw you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="166 167" tag="L+CR">Tsu mli       (ni$)    mi$-na bo yE</item>
+    <item id="c3" line="168" tag="G">room inside (FOC) 1SG-see 2SG be.at</item>
+    <item id="c4" line="169" tag="T">It was in the room (not somewhere else) that I saw you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6346">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="179-182" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="179" tag="L+CR">                 NyNm mii-nE kE-ya-gbee Ga</item>
+    <item id="o2" line="180" tag="L+CR">  (6)    a.</item>
+    <item id="o3" line="181" tag="G">                 heaven PROG-rain move-GR-fall.on Accra</item>
+    <item id="o4" line="182" tag="T">                 'It is raining as far as Accra.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="179 180" tag="L+CR">NyNm mii-nE kE-ya-gbee Ga</item>
+    <item id="c3" line="181" tag="G">heaven PROG-rain move-GR-fall.on Accra</item>
+    <item id="c4" line="182" tag="T">It is raining as far as Accra.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6347">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="183-186" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="183" tag="L+CR">                        ni$     nyNm mii-nE kE$-               ya$-</item>
+    <item id="o2" line="184" tag="L+CR">         b.      Ga                                                      gbee</item>
+    <item id="o3" line="185" tag="G">                 Accra FOC heaven PG-rain move.AOR-GR.AOR-fall</item>
+    <item id="o4" line="186" tag="T">                 'It is raining as far as Accra (not Winneba)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="183 184" tag="L+CR">Ga     ni$     nyNm mii-nE kE$-ya$-gbee</item>
+    <item id="c3" line="185" tag="G">Accra FOC heaven PG-rain move.AOR-GR.AOR-fall</item>
+    <item id="c4" line="186" tag="T">It is raining as far as Accra (not Winneba)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6348">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="187-190" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="187" tag="L+CR">                 KE$-   ya$- gbee Ga       ni$      nyNm mii-nE</item>
+    <item id="o2" line="188" tag="L+CR">         c.</item>
+    <item id="o3" line="189" tag="G">                 move -GR -fall Accra FOC heaven PG-rain</item>
+    <item id="o4" line="190" tag="T">                 'It is raining as far as Accra (after that it is clear).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="187 188" tag="L+CR">KE$-ya$-gbee Ga       ni$      nyNm mii-nE</item>
+    <item id="c3" line="189" tag="G">move-GR-fall Accra FOC heaven PG-rain</item>
+    <item id="c4" line="190" tag="T">It is raining as far as Accra (after that it is clear).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6349">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="197-200" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="197" tag="L+CR">                 Mi-na bo aaÛ-fee NmEji ejwE</item>
+    <item id="o2" line="198" tag="L+CR">  (7)    a.</item>
+    <item id="o3" line="199" tag="G">                 1SG-see 2SG FUT-make bells four</item>
+    <item id="o4" line="200" tag="T">                 'I saw you at about four o'clock'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="197 198" tag="L+CR">Mi-na bo aaÛ-fee NmEji ejwE</item>
+    <item id="c3" line="199" tag="G">1SG-see 2SG FUT-make bells four</item>
+    <item id="c4" line="200" tag="T">I saw you at about four o'clock'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6350">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="201-204" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="201" tag="L+CR">                 AaÛ- fee NmEji ejwE (ni$) mi$-</item>
+    <item id="o2" line="202" tag="L+CR">         b.                                                 na bo</item>
+    <item id="o3" line="203" tag="G">                 FUT-make bells four (FOC) 1SG.AOR-see 2SG</item>
+    <item id="o4" line="204" tag="T">                 'It was about four o'clock that I saw you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="201 202" tag="L+CR">AaÛ-fee NmEji ejwE (ni$) mi$-na bo</item>
+    <item id="c3" line="203" tag="G">FUT-make bells four (FOC) 1SG.AOR-see 2SG</item>
+    <item id="c4" line="204" tag="T">It was about four o'clock that I saw you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6351">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="205-207" line-types="L+CR L+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="205" tag="L+CR">                 *NmEji ejwE (ni$) mi-na bo aaÛ-fee</item>
+    <item id="o2" line="206" tag="L+CR">         c.</item>
+    <item id="o3" line="207" tag="G">                 bells four (FOC) 1SG-see 2SG FUT-make</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="205 206" tag="L+CR">*NmEji ejwE (ni$) mi-na bo aaÛ-fee</item>
+    <item id="c3" line="207" tag="G">bells four (FOC) 1SG-see 2SG FUT-make</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6352">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="223-226" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="223" tag="L+CR">                 Ha-m (ni) yoo E eÛ-hoo niyenii eÛ-ha amE</item>
+    <item id="o2" line="224" tag="L+CR">  (8)</item>
+    <item id="o3" line="225" tag="G">                 give-NOM (FOC) woman DEF PERF-cook food PERF-give 3PL</item>
+    <item id="o4" line="226" tag="T">                 'The woman has cooked for them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="223 224" tag="L+CR">Ha-m (ni) yoo E eÛ-hoo niyenii eÛ-ha amE</item>
+    <item id="c3" line="225" tag="G">give-NOM (FOC) woman DEF PERF-cook food PERF-give 3PL</item>
+    <item id="c4" line="226" tag="T">The woman has cooked for them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6353">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="232-234" line-types="L+CR L+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="232" tag="L+CR">                 *Gbee-m (ni)         NyNm mii-nE kE-ya-gbee Ga</item>
+    <item id="o2" line="233" tag="L+CR">  (9)</item>
+    <item id="o3" line="234" tag="G">                  fall-NOM (FOC) heaven PROG-rain move-GR-fall.on Accra</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="232 233" tag="L+CR">*Gbee-m (ni)         NyNm mii-nE kE-ya-gbee Ga</item>
+    <item id="c3" line="234" tag="G">fall-NOM (FOC) heaven PROG-rain move-GR-fall.on Accra</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6354">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="252-255" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="252" tag="L+CR">                      AmE E        Akwele ho-                                      amE</item>
+    <item id="o2" line="253" tag="L+CR">  (10)       a.                                                niyenii ha- a</item>
+    <item id="o3" line="254" tag="G">                      3PL1 DEF Akwele2 cook-HAB food                    give-HAB 3PL1</item>
+    <item id="o4" line="255" tag="T">                      'As for them, Akwele cooks for them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="252 253" tag="L+CR">AmE E        Akwele ho-niyenii ha-a       amE</item>
+    <item id="c3" line="254" tag="G">3PL1 DEF Akwele2 cook-HAB food                    give-HAB 3PL1</item>
+    <item id="c4" line="255" tag="T">As for them, Akwele cooks for them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6355">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="256-258" line-types="L+CR L+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="256" tag="L+CR">                      *Ha-m , Akwele e-hoo niyenii e-ha amE</item>
+    <item id="o2" line="257" tag="L+CR">             b.</item>
+    <item id="o3" line="258" tag="G">                      3PL-give-NOM DEF Akwele PF-cook food 3S.PF-give 3PL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="256 257" tag="L+CR">*Ha-m , Akwele e-hoo niyenii e-ha amE</item>
+    <item id="c3" line="258" tag="G">3PL-give-NOM DEF Akwele PF-cook food 3S.PF-give 3PL</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6356">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="259-261" line-types="L+CR L+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="259" tag="L+CR">                      *E-ha amE E, Akwele e-hoo niyenii e-ha amE</item>
+    <item id="o2" line="260" tag="L+CR">             c.</item>
+    <item id="o3" line="261" tag="G">                      3S-give 3PL DEF Akwele PF-cook food 3S.PF-give 3PL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="259 260" tag="L+CR">*E-ha amE E, Akwele e-hoo niyenii e-ha amE</item>
+    <item id="c3" line="261" tag="G">3S-give 3PL DEF Akwele PF-cook food 3S.PF-give 3PL</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6357">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="268-271" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="268" tag="L+CR">                      Mi-na bo yE tsu E mli</item>
+    <item id="o2" line="269" tag="L+CR">  (11)       a.</item>
+    <item id="o3" line="270" tag="G">                      1SG-see 2SG be.at room DEF inside</item>
+    <item id="o4" line="271" tag="T">                      'I saw you in the room'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="268 269" tag="L+CR">Mi-na bo yE tsu E mli</item>
+    <item id="c3" line="270" tag="G">1SG-see 2SG be.at room DEF inside</item>
+    <item id="c4" line="271" tag="T">I saw you in the room</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6358">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="272-275" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="272" tag="L+CR">                      YE            E                 E    mi$-</item>
+    <item id="o2" line="273" tag="L+CR">             b.              tsu           mli                      na bo</item>
+    <item id="o3" line="274" tag="G">                      be.at room DEF inside DEF 1SG AOR-see 2SG</item>
+    <item id="o4" line="275" tag="T">                      'In the room, I saw you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="272 273" tag="L+CR">YE     tsu    E      mli        E    mi$-na bo</item>
+    <item id="c3" line="274" tag="G">be.at room DEF inside DEF 1SG AOR-see 2SG</item>
+    <item id="c4" line="275" tag="T">In the room, I saw you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6359">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="276-278" line-types="L+CR L+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="276" tag="L+CR">                      *Tsu E mli E, mi-na bo yE</item>
+    <item id="o2" line="277" tag="L+CR">             c.</item>
+    <item id="o3" line="278" tag="G">                       room1 DEF inside DEF 1SG-see 2SG be.at t                1</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="276 277" tag="L+CR">*Tsu E mli E, mi-na bo yE</item>
+    <item id="c3" line="278" tag="G">room1 DEF inside DEF 1SG-see 2SG be.at t                1</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6360">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="292-295" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="292" tag="L+CR">                      Kwaami E,                           lE</item>
+    <item id="o2" line="293" tag="L+CR">                                    Kofi da      fe</item>
+    <item id="o3" line="294" tag="G">                      Kwame1 DEF Kofi grow surpass 3S1</item>
+    <item id="o4" line="295" tag="T">                      'As for Kwame, Kofi has grown bigger than him.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="292 293" tag="L+CR">Kwaami E,     Kofi da      fe       lE</item>
+    <item id="c3" line="294" tag="G">Kwame1 DEF Kofi grow surpass 3S1</item>
+    <item id="c4" line="295" tag="T">As for Kwame, Kofi has grown bigger than him.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6361">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="668-672" line-types="M+CN L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="668" tag="M+CN">  a. RSVC:11</item>
+    <item id="o2" line="669" tag="L+CR">  Lle-i eÛ-                -N                    amEÛ-     jE -N              biE     amEÛ-      ya-N</item>
+    <item id="o3" line="670" tag="L+CR">                    to              lai                                                                    Ga</item>
+    <item id="o4" line="671" tag="G">  car-PL NEG-arrange-FUT queue 3PL.NEG-start-FUT here 3PL.NEG-go-FUT Accra</item>
+    <item id="o5" line="672" tag="T">  'Vehicles will not be moving in line from here to Accra'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="668" tag="M+CN">RSVC:11</item>
+    <item id="c2" line="669 670" tag="L+CR">Lle-i eÛ-to-N      lai           amEÛ-jE-N              biE     amEÛ-ya-N   Ga</item>
+    <item id="c4" line="671" tag="G">car-PL NEG-arrange-FUT queue 3PL.NEG-start-FUT here 3PL.NEG-go-FUT Accra</item>
+    <item id="c5" line="672" tag="T">Vehicles will not be moving in line from here to Accra'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:56]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6362">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="675-679" line-types="M+CN L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="675" tag="M+CN">  b. Verbids:</item>
+    <item id="o2" line="676" tag="L+CR">  Lle-i       eÛ-           -N                     kE$-           jE         biE    kE-</item>
+    <item id="o3" line="677" tag="L+CR">                    to                  lai                                               ya-a        Ga</item>
+    <item id="o4" line="678" tag="G">  car -PL NEG-arrange-FUT queue move.AOR-start here move-go-HAB Accra</item>
+    <item id="o5" line="679" tag="T">  'Vehicles will not be in a (stationary) line from here to Accra.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="675" tag="M+CN">Verbids:</item>
+    <item id="c2" line="676 677" tag="L+CR">Lle-i       eÛ-to-N         lai         kE$-jE         biE    kE-ya-a        Ga</item>
+    <item id="c4" line="678" tag="G">car-PL NEG-arrange-FUT queue move.AOR-start here move-go-HAB Accra</item>
+    <item id="c5" line="679" tag="T">Vehicles will not be in a (stationary) line from here to Accra.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:63]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6363">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="711-714" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="711" tag="L+CR">        Lle-i eÛ-           N             kEÛ-            jE- N        biE kEÛ-       ya-N</item>
+    <item id="o2" line="712" tag="L+CR">                     to-          lai                                                            Ga</item>
+    <item id="o3" line="713" tag="G">          car -P NEG-arrange-FUT line move.NEG-start-FUT here move.NEG-go-FUT Accra</item>
+    <item id="o4" line="714" tag="T">             'Cars will not be forming a line from here to Accra.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="711 712" tag="L+CR">Lle-i eÛ-to-N    lai      kEÛ-jE-N        biE kEÛ-ya-N    Ga</item>
+    <item id="c3" line="713" tag="G">car-P NEG-arrange-FUT line move.NEG-start-FUT here move.NEG-go-FUT Accra</item>
+    <item id="c4" line="714" tag="T">Cars will not be forming a line from here to Accra.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6364">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="754-757" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="754" tag="L+CR">  KE$-jE      biE         ni$   lle-i eÛ-           -N       lai kE-</item>
+    <item id="o2" line="755" tag="L+CR">                                             to                        ya-a     Ga</item>
+    <item id="o3" line="756" tag="G">  move.AOR-start here FOC car -PL NEG-arrange-FUT queue                  move-go-HAB Accra</item>
+    <item id="o4" line="757" tag="T">  'It is from here that vehicles will not be in a (stationary) line to Accra'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="754 755" tag="L+CR">KE$-jE      biE         ni$   lle-i eÛ-to-N       lai kE-ya-a     Ga</item>
+    <item id="c3" line="756" tag="G">move.AOR-start here FOC car-PL NEG-arrange-FUT queue                  move-go-HAB Accra</item>
+    <item id="c4" line="757" tag="T">It is from here that vehicles will not be in a (stationary) line to Accra</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:87]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:73]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6365">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="850-852" line-types="L-T+CR L-T+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="850" tag="L-T+CR">            Kofi eÛ $- da        $-</item>
+    <item id="o2" line="851" tag="L-T+CR">  a.                                   fe        mi                          'Kofi is bigger than me'</item>
+    <item id="o3" line="852" tag="G">            Kofi PF-grow AOR-pass 1SG</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="850 851" tag="L-T+CR">Kofi eÛ $-da        $-fe        mi                          'Kofi is bigger than me</item>
+    <item id="c3" line="852" tag="G">Kofi PF-grow AOR-pass 1SG</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]"/>
+  </tier>
+</igt>
+<igt id="i6366">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="853-855" line-types="L-T+CR L-T+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="853" tag="L-T+CR">                    $-                      $-    tam</item>
+    <item id="o2" line="854" tag="L-T+CR">  b.        Kofi            jo foi                           mi              'Kofi ran like me'</item>
+    <item id="o3" line="855" tag="G">            Kofi AOR-run speed AOR-resemble 1SG</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="853 854" tag="L-T+CR">Kofi    $-jo foi          $-tam        mi              'Kofi ran like me</item>
+    <item id="c3" line="855" tag="G">Kofi AOR-run speed AOR-resemble 1SG</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]"/>
+  </tier>
+</igt>
+<igt id="i6367">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="856-858" line-types="L-T+CR L-T+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="856" tag="L-T+CR">                            lE        $-              miÛ-   da- lE</item>
+    <item id="o2" line="857" tag="L-T+CR">  c.        Kofi da-                        fe                               'Kofi's size is greater than my size'</item>
+    <item id="o3" line="858" tag="G">            Kofi grow-NOM AOR-pass 1SG.GEN-grow-NOM</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="856 857" tag="L-T+CR">Kofi da-lE        $-fe        miÛ-da-lE         'Kofi's size is greater than my size</item>
+    <item id="c3" line="858" tag="G">Kofi grow-NOM AOR-pass 1SG.GEN-grow-NOM</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]"/>
+  </tier>
+</igt>
+<igt id="i6368">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="859-862" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="859" tag="L+CR">                                                 $- tam      miÛ-</item>
+    <item id="o2" line="860" tag="L+CR">  d.        Kofi foi-       je e                                      foi-    je- e</item>
+    <item id="o3" line="861" tag="G">            Kofi speed-run-NOM AOR-resemble 1SG.GEN-speed-run-NOM</item>
+    <item id="o4" line="862" tag="T">                                                                    'Kofi's running resembled my running'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="859 860" tag="L+CR">Kofi foi-je e                 $-tam      miÛ-foi-je-e</item>
+    <item id="c3" line="861" tag="G">Kofi speed-run-NOM AOR-resemble 1SG.GEN-speed-run-NOM</item>
+    <item id="c4" line="862" tag="T">Kofi's running resembled my running</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6369">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="874-877" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="874" tag="L+CR">        Kofi eÛ $- tsu           kE$-                 ya$-                  NmE-ji etE</item>
+    <item id="o2" line="875" tag="L+CR">  a.                     nii                                         shi</item>
+    <item id="o3" line="876" tag="G">        Kofi PF-work things move.AOR-GR.AOR-knock bell-PL three</item>
+    <item id="o4" line="877" tag="T">                                                                                 'Kofi has worked until three o'clock'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="874 875" tag="L+CR">Kofi eÛ $-tsu  nii      kE$-ya$-shi     NmE-ji etE</item>
+    <item id="c3" line="876" tag="G">Kofi PF-work things move.AOR-GR.AOR-knock bell-PL three</item>
+    <item id="c4" line="877" tag="T">Kofi has worked until three o'clock</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6370">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="878-881" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="878" tag="L+CR">                         tsu- m                        $-     ya$-                  NmE-ji etE</item>
+    <item id="o2" line="879" tag="L+CR">  b.    E-        ni-                                                      shi</item>
+    <item id="o3" line="880" tag="G">        3SG.GEN-things-work-NOM DEF AOR-GR.AOR-knock bell-PL three</item>
+    <item id="o4" line="881" tag="T">                                                                                 'His work lasted until three o'clock'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="878 879" tag="L+CR">E-ni-tsu-m                        $-ya$-shi      NmE-ji etE</item>
+    <item id="c3" line="880" tag="G">3SG.GEN-things-work-NOM DEF AOR-GR.AOR-knock bell-PL three</item>
+    <item id="c4" line="881" tag="T">His work lasted until three o'clock</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6371">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="882-884" line-types="L-T+CR L-T+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="882" tag="L-T+CR">        AmE$-                lai kE$-                 jE</item>
+    <item id="o2" line="883" tag="L-T+CR">  c.              to                                          Ga                 'They formed a line from Accra'</item>
+    <item id="o3" line="884" tag="G">        3PL.AOR-arrange line move.AOR-start Accra</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="882 883" tag="L-T+CR">AmE$-to         lai kE$-jE      Ga                 'They formed a line from Accra</item>
+    <item id="c3" line="884" tag="G">3PL.AOR-arrange line move.AOR-start Accra</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]"/>
+  </tier>
+</igt>
+<igt id="i6372">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="885-887" line-types="L-T+CR L-T+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="885" tag="L-T+CR">        AmE-                              E                $ - jE</item>
+    <item id="o2" line="886" tag="L-T+CR">  d.               lai to-         o                                  Ga         'Their lining up started from Accra'</item>
+    <item id="o3" line="887" tag="G">        3PL.GEN-line arrange-NOM DEF AOR-start Accra</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="885 886" tag="L-T+CR">AmE-lai to-o      E                $-jE     Ga         'Their lining up started from Accra</item>
+    <item id="c3" line="887" tag="G">3PL.GEN-line arrange-NOM DEF AOR-start Accra</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:44]"/>
+  </tier>
+</igt>
+<igt id="i6373">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="888-890" line-types="L-T+CR L-T+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="888" tag="L-T+CR">        AmE$-                lai kE- mii-ya Ga</item>
+    <item id="o2" line="889" tag="L-T+CR">  e.               to                                                            'They formed a line towards Accra'</item>
+    <item id="o3" line="890" tag="G">        3PL.AOR-arrange line move-PG-go Accra</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="888 889" tag="L-T+CR">AmE$-to        lai kE-mii-ya Ga                                   'They formed a line towards Accra</item>
+    <item id="c3" line="890" tag="G">3PL.AOR-arrange line move-PG-go Accra</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]"/>
+  </tier>
+</igt>
+<igt id="i6374">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="893-895" line-types="L-T+CR L-T+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="893" tag="L-T+CR">        AmE-                              E</item>
+    <item id="o2" line="894" tag="L-T+CR">  f.               lai to-         o                  mii-ya Ga                  'Their line was towards Accra'</item>
+    <item id="o3" line="895" tag="G">        3PL.GEN-line arrange-NOM DEF PG-go Accra</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="893 894" tag="L-T+CR">AmE-lai to-o      E           mii-ya Ga                  'Their line was towards Accra</item>
+    <item id="c3" line="895" tag="G">3PL.GEN-line arrange-NOM DEF PG-go Accra</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]"/>
+  </tier>
+</igt>
+<igt id="i6375">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="898-900" line-types="L-T+CR L-T+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="898" tag="L-T+CR">        NyNm eÛ $ -nE kE$-                     ya$-</item>
+    <item id="o2" line="899" tag="L-T+CR">  g.                                                           gbee Ga                  'It has rained on Accra'</item>
+    <item id="o3" line="900" tag="G">        heaven PF-rain move.AOR-GR.AOR-fall Accra</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="898 899" tag="L-T+CR">NyNm eÛ $-nE kE$-ya$-gbee Ga                  'It has rained on Accra</item>
+    <item id="c3" line="900" tag="G">heaven PF-rain move.AOR-GR.AOR-fall Accra</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]"/>
+  </tier>
+</igt>
+<igt id="i6376">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="903-905" line-types="L-T+CR L-T+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="903" tag="L-T+CR">        NyNm nE- m                      ya$-</item>
+    <item id="o2" line="904" tag="L-T+CR">  h.                                                        gbee Ga                     'The rain fell on Accra'</item>
+    <item id="o3" line="905" tag="G">        heaven rain-NOM DEF GR.AOR-fall Accra</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="903 904" tag="L-T+CR">NyNm nE-m                      ya$-gbee Ga                     'The rain fell on Accra</item>
+    <item id="c3" line="905" tag="G">heaven rain-NOM DEF GR.AOR-fall Accra</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]"/>
+  </tier>
+</igt>
+<igt id="i6377">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="908-910" line-types="L-T+CR L-T+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="908" tag="L-T+CR">                                 aaÛ-fee NmE-ji ejwE</item>
+    <item id="o2" line="909" tag="L-T+CR">  i.    È-        hoo nii                                             'S/he cooked at about four o'clock'</item>
+    <item id="o3" line="910" tag="G">        3SG.AOR-cook things FUT-do bell-PL four</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="908 909" tag="L-T+CR">È-hoo nii       aaÛ-fee NmE-ji ejwE                  'S/he cooked at about four o'clock</item>
+    <item id="c3" line="910" tag="G">3SG.AOR-cook things FUT-do bell-PL four</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]"/>
+  </tier>
+</igt>
+<igt id="i6378">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ga" iso-639-3="gaa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1700" line-range="913-916" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="913" tag="L+CR">                         hoo- m                   aaÛ- fee NmE-ji ejwE</item>
+    <item id="o2" line="914" tag="L+CR">  j.    E-        ni-</item>
+    <item id="o3" line="915" tag="G">        3SG.GEN-thing-cook-NOM DEF FUT-do bell-PL four</item>
+    <item id="o4" line="916" tag="T">                                               'Her cooking would take place at about four o'clock'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="913 914" tag="L+CR">E-ni-hoo-m                   aaÛ-fee NmE-ji ejwE</item>
+    <item id="c3" line="915" tag="G">3SG.GEN-thing-cook-NOM DEF FUT-do bell-PL four</item>
+    <item id="c4" line="916" tag="T">Her cooking would take place at about four o'clock</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

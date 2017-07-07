@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i9470">
+  <metadata type="xigt-meta">
+    <meta type="language" name="awa" iso-639-3="awb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1961" line-range="684-687" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="684" tag="M+LN">  (13)     Awa (New Guinea)</item>
+    <item id="o2" line="685" tag="L">           a.      subiq- ma-          subiq-      mar-  iq</item>
+    <item id="o3" line="686" tag="G">                   hit       PUNCT hit             PUNCT 3PERS</item>
+    <item id="o4" line="687" tag="T">                   'He is always hitting'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="684" tag="M+LN">Awa (New Guinea</item>
+    <item id="c2" line="685" tag="L">subiq-ma-subiq-mar-iq</item>
+    <item id="c3" line="686" tag="G">hit       PUNCT hit             PUNCT 3PERS</item>
+    <item id="c4" line="687" tag="T">He is always hitting</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9471">
+  <metadata type="xigt-meta">
+    <meta type="language" name="awa" iso-639-3="awb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1961" line-range="689-691" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="689" tag="L">           b.       taga-     ru-      taga-     rur-     iq</item>
+    <item id="o2" line="690" tag="G">                    touch     COMPL touch        COMPL 3PERS</item>
+    <item id="o3" line="691" tag="T">                    'He is always looking, finishes and looks again'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="689" tag="L">taga-ru-taga-rur-iq</item>
+    <item id="c2" line="690" tag="G">touch     COMPL touch        COMPL 3PERS</item>
+    <item id="c3" line="691" tag="T">He is always looking, finishes and looks again</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i111184">
+  <metadata type="xigt-meta">
+    <meta type="language" name="awa" iso-639-3="awb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3362" line-range="1432-1435" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1432" tag="M+LN">            awa</item>
+    <item id="o2" line="1433" tag="L">       (88) N-ubiq.</item>
+    <item id="o3" line="1434" tag="G">             1sg-hit.3sg</item>
+    <item id="o4" line="1435" tag="T">             `He hit me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1432" tag="M+LN">awa</item>
+    <item id="c2" line="1433" tag="L">N-ubiq.</item>
+    <item id="c3" line="1434" tag="G">1sg-hit.3sg</item>
+    <item id="c4" line="1435" tag="T">He hit me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i111185">
+  <metadata type="xigt-meta">
+    <meta type="language" name="awa" iso-639-3="awb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3362" line-range="1439-1441" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1439" tag="L">        (89) Keki-di-t-ehq.</item>
+    <item id="o2" line="1440" tag="G">               burn-3pl.obj-ben-3sg.subj.nrpast</item>
+    <item id="o3" line="1441" tag="T">               `He burned it for them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1439" tag="L">Keki-di-t-ehq.</item>
+    <item id="c2" line="1440" tag="G">burn-3pl.obj-ben-3sg.subj.nrpast</item>
+    <item id="c3" line="1441" tag="T">He burned it for them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

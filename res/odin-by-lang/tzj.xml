@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i86277">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="8963-8965" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8963" tag="L+CN">         (1)     X-uu-tz'et jun         miix ja          tz'i'.             VOS</item>
+    <item id="o2" line="8964" tag="G">                 com-3E-see det:one cat det:the dog</item>
+    <item id="o3" line="8965" tag="T">                 The dog saw a cat. (*A cat saw the dog.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8963" tag="L+CN">X-uu-tz'et jun         miix ja          tz'i'.             VOS</item>
+    <item id="c2" line="8964" tag="G">com-3E-see det:one cat det:the dog</item>
+    <item id="c3" line="8965" tag="T">The dog saw a cat. (*A cat saw the dog.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86278">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="8975-8977" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8975" tag="L+SY">         (2)      a.     N-uu-tij   wej        tz'i'.                 VOS</item>
+    <item id="o2" line="8976" tag="G">                         inc-3E-eat tortillas dog</item>
+    <item id="o3" line="8977" tag="T">                         The dog eats tortillas.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8975" tag="L+SY">N-uu-tij   wej        tz'i'.                 VOS</item>
+    <item id="c2" line="8976" tag="G">inc-3E-eat tortillas dog</item>
+    <item id="c3" line="8977" tag="T">The dog eats tortillas.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86279">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="8979-8981" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8979" tag="L+SY">                  b.      N-kee-tij     wej      tz'ii'.                    VOS</item>
+    <item id="o2" line="8980" tag="G">                          inc-3plE-eat tortillas dogs</item>
+    <item id="o3" line="8981" tag="T">                          Dogs eat tortillas.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8979" tag="L+SY">N-kee-tij     wej      tz'ii'.                    VOS</item>
+    <item id="c2" line="8980" tag="G">inc-3plE-eat tortillas dogs</item>
+    <item id="c3" line="8981" tag="T">Dogs eat tortillas.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86280">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="8985-8987" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8985" tag="L">        (3)     X-kee-tij       tzyaq       ch'ooyaa'.</item>
+    <item id="o2" line="8986" tag="G">                com-3plE-eat clothes        rats</item>
+    <item id="o3" line="8987" tag="T+AC">                Rats ate (the) clothes.                                Dayley:305 Ex.77a</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8985" tag="L">X-kee-tij       tzyaq       ch'ooyaa'.</item>
+    <item id="c2" line="8986" tag="G">com-3plE-eat clothes        rats</item>
+    <item id="c3" line="8987" tag="T+AC">Rats ate (the) clothes.                                Dayley:305 Ex.77a</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:72]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86281">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9002-9004" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9002" tag="L+SY">         (4)    a.     N-uu-tij    wej       ja tz'i'.             VOS</item>
+    <item id="o2" line="9003" tag="G">                       inc-3E-eat tortillas det dog</item>
+    <item id="o3" line="9004" tag="T">                       The dog eats tortillas.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9002" tag="L+SY">N-uu-tij    wej       ja tz'i'.             VOS</item>
+    <item id="c2" line="9003" tag="G">inc-3E-eat tortillas det dog</item>
+    <item id="c3" line="9004" tag="T">The dog eats tortillas.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86282">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9006-9008" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9006" tag="L+SY">                  b.      N-kee-tij    ixiim ja julee' tz'ii'.              VOS</item>
+    <item id="o2" line="9007" tag="G">                          inc-3Epl-eat tortillas det some dog-pl</item>
+    <item id="o3" line="9008" tag="T">                            Some dogs eat corn.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9006" tag="L+SY">N-kee-tij    ixiim ja julee' tz'ii'.              VOS</item>
+    <item id="c2" line="9007" tag="G">inc-3Epl-eat tortillas det some dog-pl</item>
+    <item id="c3" line="9008" tag="T">Some dogs eat corn.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86283">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9012-9014" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9012" tag="L+SY">         (5)     a.      *N-uu-tij       jun wej       tz'i'.               *VOS</item>
+    <item id="o2" line="9013" tag="G">                          inc-3E-eat     det tortilla dog</item>
+    <item id="o3" line="9014" tag="T">                          (*The dog     eats a tortilla.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9012" tag="L+SY">*N-uu-tij       jun wej       tz'i'.               *VOS</item>
+    <item id="c2" line="9013" tag="G">inc-3E-eat     det tortilla dog</item>
+    <item id="c3" line="9014" tag="T">*The dog     eats a tortilla.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86284">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9016-9018" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9016" tag="L+SY">                  b.      *X-uu-tz'et jun miix Ta Mari'y.                   *VOS</item>
+    <item id="o2" line="9017" tag="G">                            inc-3E-see det cat Miss Maria</item>
+    <item id="o3" line="9018" tag="T">                          (*Maria saw the cat.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9016" tag="L+SY">*X-uu-tz'et jun miix Ta Mari'y.                   *VOS</item>
+    <item id="c2" line="9017" tag="G">inc-3E-see det cat Miss Maria</item>
+    <item id="c3" line="9018" tag="T">*Maria saw the cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86285">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9021-9023" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9021" tag="L+SY">         (6)     X-uu-tz'et jun miix ja Ta Mari'y.                 VOS</item>
+    <item id="o2" line="9022" tag="G">                 inc-3E-see det cat det Miss Maria</item>
+    <item id="o3" line="9023" tag="T">                 Maria saw a cat.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9021" tag="L+SY">X-uu-tz'et jun miix ja Ta Mari'y.                 VOS</item>
+    <item id="c2" line="9022" tag="G">inc-3E-see det cat det Miss Maria</item>
+    <item id="c3" line="9023" tag="T">Maria saw a cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86286">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9027-9029" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9027" tag="L+SY">          (7)    X-uu-tz'et jun tz'i' jar Aa        Xwaan.                 VOS</item>
+    <item id="o2" line="9028" tag="G">                 inc-3E-see det dog det Mr.         Juan</item>
+    <item id="o3" line="9029" tag="T">                 (The) Juan saw a dog.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9027" tag="L+SY">X-uu-tz'et jun tz'i' jar Aa        Xwaan.                 VOS</item>
+    <item id="c2" line="9028" tag="G">inc-3E-see det dog det Mr.         Juan</item>
+    <item id="c3" line="9029" tag="T">(The) Juan saw a dog.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86287">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9036-9038" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9036" tag="L+SY">            (8)   X-uu-tz'et jun miix ja Ta Mari'y.                        VOS</item>
+    <item id="o2" line="9037" tag="G">                  com-3E-see det cat det Miss Maria</item>
+    <item id="o3" line="9038" tag="T">                  Maria saw a cat.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9036" tag="L+SY">X-uu-tz'et jun miix ja Ta Mari'y.                        VOS</item>
+    <item id="c2" line="9037" tag="G">com-3E-see det cat det Miss Maria</item>
+    <item id="c3" line="9038" tag="T">Maria saw a cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86288">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9059-9061" line-types="L+SY G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9059" tag="L+SY">          (10) a.         *X-uu-ch'ey jar     ixok    jar aachi.        VOS</item>
+    <item id="o2" line="9060" tag="G">                            com-3E-hit det    woman det man</item>
+    <item id="o3" line="9061" tag="T+AC">                          (*The man hit the    woman.)                  Dayley 305 (78b)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9059" tag="L+SY">*X-uu-ch'ey jar     ixok    jar aachi.        VOS</item>
+    <item id="c2" line="9060" tag="G">com-3E-hit det    woman det man</item>
+    <item id="c3" line="9061" tag="T+AC">*The man hit the    woman.)                  Dayley 305 (78b</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86289">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9063-9065" line-types="L+SY G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9063" tag="L+SY">                 b.      *X-uu-ch'ey jun ixok   jun aachi.              VOS</item>
+    <item id="o2" line="9064" tag="G">                           com-3E-hit det woman det man</item>
+    <item id="o3" line="9065" tag="T+AC">                         (*A man hit a woman.)                          Dayley 305 (78c)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9063" tag="L+SY">*X-uu-ch'ey jun ixok   jun aachi.              VOS</item>
+    <item id="c2" line="9064" tag="G">com-3E-hit det woman det man</item>
+    <item id="c3" line="9065" tag="T+AC">*A man hit a woman.)                          Dayley 305 (78c</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86290">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9073-9074" line-types="L+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9073" tag="L+SY">          (11) a.         X-uu-tz'et ja Ta Mari'y jar Aa Xwaan.       V??</item>
+    <item id="o2" line="9074" tag="T">                          (Juan saw Maria./Maria saw Juan)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9073" tag="L+SY">X-uu-tz'et ja Ta Mari'y jar Aa Xwaan.       V??</item>
+    <item id="c2" line="9074" tag="T">Juan saw Maria./Maria saw Juan</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86291">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9076-9077" line-types="L+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9076" tag="L+SY">                 b.      X-uu-tz'et jun tz'i' jun miix.                 V??</item>
+    <item id="o2" line="9077" tag="T">                         (A cat saw a dog./A dog saw a cat)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9076" tag="L+SY">X-uu-tz'et jun tz'i' jun miix.                 V??</item>
+    <item id="c2" line="9077" tag="T">A cat saw a dog./A dog saw a cat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86292">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9084-9086" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9084" tag="L">         (12) X-uu-tz'et Ta Mari'y jar Aa Xwaan.                      VOS</item>
+    <item id="o2" line="9085" tag="G">                com-3E-see Miss Maria det Mr. Juan</item>
+    <item id="o3" line="9086" tag="T">                Juan saw Maria.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9084" tag="L">X-uu-tz'et Ta Mari'y jar Aa Xwaan.                      VOS</item>
+    <item id="c2" line="9085" tag="G">com-3E-see Miss Maria det Mr. Juan</item>
+    <item id="c3" line="9086" tag="T">Juan saw Maria.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86293">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9119-9120" line-types="L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9119" tag="L">          (13) *X-uu-ch'ey jar ixok jun aachi.                      *VSO</item>
+    <item id="o2" line="9120" tag="T">                  (*The woman hit a man.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9119" tag="L">*X-uu-ch'ey jar ixok jun aachi.                      *VSO</item>
+    <item id="c2" line="9120" tag="T">*The woman hit a man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86294">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9131-9132" line-types="L+CN G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9131" tag="L+CN">           (14) a.        X-uu-tz'et jun tz'i' jun miix.                  V??</item>
+    <item id="o2" line="9132" tag="G">                          inc-3E-see det dog det cat</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9131" tag="L+CN">X-uu-tz'et jun tz'i' jun miix.                  V??</item>
+    <item id="c2" line="9132" tag="G">inc-3E-see det dog det cat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86295">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9143-9145" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9143" tag="L+SY">          (15) a. X-uu-tz'ub'-aj ja Aa Xwaan ru-chi               Ta Mari'y          VSO</item>
+    <item id="o2" line="9144" tag="G">                   com-3E-kiss-der det Mr. Juan         3E-cheek Miss Maria</item>
+    <item id="o3" line="9145" tag="T">                   Juan kissed Maria on the cheek.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9143" tag="L+SY">X-uu-tz'ub'-aj ja Aa Xwaan ru-chi               Ta Mari'y          VSO</item>
+    <item id="c2" line="9144" tag="G">com-3E-kiss-der det Mr. Juan         3E-cheek Miss Maria</item>
+    <item id="c3" line="9145" tag="T">Juan kissed Maria on the cheek.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86296">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9151-9153" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9151" tag="L+SY">              b.    X-uu-tz'ub'-aj ru-chi       Ta Mari'y ja Aa Xwaan                   VOS</item>
+    <item id="o2" line="9152" tag="G">                    com-3E-kiss-der 3E-cheek Miss Maria det Mr. Juan</item>
+    <item id="o3" line="9153" tag="T">                    Juan kissed Maria on the cheek.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9151" tag="L+SY">X-uu-tz'ub'-aj ru-chi       Ta Mari'y ja Aa Xwaan                   VOS</item>
+    <item id="c2" line="9152" tag="G">com-3E-kiss-der 3E-cheek Miss Maria det Mr. Juan</item>
+    <item id="c3" line="9153" tag="T">Juan kissed Maria on the cheek.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86297">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9159-9161" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9159" tag="L+SY">                   ...chi Aa Xwaan x-uu-tz'et ruu-miix                   VSO</item>
+    <item id="o2" line="9160" tag="G">                     comp Mr. Juan com-3E-see 3E-cat</item>
+    <item id="o3" line="9161" tag="T">                     Maria said that Juan saw her cat.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9159" tag="L+SY">...chi Aa Xwaan x-uu-tz'et ruu-miix                   VSO</item>
+    <item id="c2" line="9160" tag="G">comp Mr. Juan com-3E-see 3E-cat</item>
+    <item id="c3" line="9161" tag="T">Maria said that Juan saw her cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86298">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9165-9167" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9165" tag="L+SY">           (17) Ja Ta Maria            n-tior wi' n-uu-tzak        wey.         SVO</item>
+    <item id="o2" line="9166" tag="G">                   det Miss Maria      inc-drip head inc-3E-make tortillas</item>
+    <item id="o3" line="9167" tag="T">                   Maria, who has a    cold, made tortillas.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9165" tag="L+SY">Ja Ta Maria            n-tior wi' n-uu-tzak        wey.         SVO</item>
+    <item id="c2" line="9166" tag="G">det Miss Maria      inc-drip head inc-3E-make tortillas</item>
+    <item id="c3" line="9167" tag="T">Maria, who has a    cold, made tortillas.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86299">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9170-9172" line-types="L+SY G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9170" tag="L+SY">        (18) N-uu-tzak wey            ja Ta          Maria n-tior wi'.           VOS</item>
+    <item id="o2" line="9171" tag="G">                inc-3E-make tortillas det Miss       Maria inc-drip head</item>
+    <item id="o3" line="9172" tag="T+CR">                Maria, who has a cold, made tort     illas.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9170" tag="L+SY">N-uu-tzak wey            ja Ta          Maria n-tior wi'.           VOS</item>
+    <item id="c2" line="9171" tag="G">inc-3E-make tortillas det Miss       Maria inc-drip head</item>
+    <item id="c3" line="9172" tag="T+CR">Maria, who has a cold, made tort     illas.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86300">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9176-9178" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9176" tag="L+SY">         (19) *N-uu-tzak ja Ta Maria n-tior wi' wey.                     *VSO</item>
+    <item id="o2" line="9177" tag="G">                  inc-3E-make det Miss Maria inc-drip head tortillas</item>
+    <item id="o3" line="9178" tag="T">                  (*Maria, who has a cold, made tortillas.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9176" tag="L+SY">*N-uu-tzak ja Ta Maria n-tior wi' wey.                     *VSO</item>
+    <item id="c2" line="9177" tag="G">inc-3E-make det Miss Maria inc-drip head tortillas</item>
+    <item id="c3" line="9178" tag="T">*Maria, who has a cold, made tortillas.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86301">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9186-9188" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9186" tag="L+SY">        (20) a.         X-uu-tz'et jar Aa Xwaan            jun tz'i'.    VSO</item>
+    <item id="o2" line="9187" tag="G">                        com-3E-see det Mr. Juan            det dog</item>
+    <item id="o3" line="9188" tag="T">                        Juan saw a dog.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9186" tag="L+SY">X-uu-tz'et jar Aa Xwaan            jun tz'i'.    VSO</item>
+    <item id="c2" line="9187" tag="G">com-3E-see det Mr. Juan            det dog</item>
+    <item id="c3" line="9188" tag="T">Juan saw a dog.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86302">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9190-9192" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9190" tag="L+SY">                   b.    X-uu-tz'et ja tz'i' jun miix.                   VSO</item>
+    <item id="o2" line="9191" tag="G">                         com-3E-see det dog det cat</item>
+    <item id="o3" line="9192" tag="T">                         The dog saw a cat.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9190" tag="L+SY">X-uu-tz'et ja tz'i' jun miix.                   VSO</item>
+    <item id="c2" line="9191" tag="G">com-3E-see det dog det cat</item>
+    <item id="c3" line="9192" tag="T">The dog saw a cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86303">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9209-9211" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9209" tag="L+SY">          (21) X-uu-tz'et jun miix ja tz'i'.                          VOS</item>
+    <item id="o2" line="9210" tag="G">                  com-3E-see det cat det dog</item>
+    <item id="o3" line="9211" tag="T">                  The dog saw a cat.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9209" tag="L+SY">X-uu-tz'et jun miix ja tz'i'.                          VOS</item>
+    <item id="c2" line="9210" tag="G">com-3E-see det cat det dog</item>
+    <item id="c3" line="9211" tag="T">The dog saw a cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86306">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9257-9260" line-types="L G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9257" tag="L">         (24) Jun aachi x-k'aaxaan-in ja masaat.</item>
+    <item id="o2" line="9258" tag="G">                det man com-hear-AF det deer</item>
+    <item id="o3" line="9259" tag="T">                a.       A man heard the deer.</item>
+    <item id="o4" line="9260" tag="T+AL">                b.       It was a man that heard the deer</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9257" tag="L">Jun aachi x-k'aaxaan-in ja masaat.</item>
+    <item id="c2" line="9258" tag="G">det man com-hear-AF det deer</item>
+    <item id="c3" line="9259" tag="T">A man heard the deer.</item>
+    <item id="c4" line="9260" tag="T+AL">It was a man that heard the deer</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+    <item id="t1" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86307">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9265-9267" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9265" tag="L+SY">          (25) a.        Arjaa' Ta Mari'y ja x-o j-ow-i.                    SVafO</item>
+    <item id="o2" line="9266" tag="G">                         foc      Miss Maria rel com-dance-AF-IV</item>
+    <item id="o3" line="9267" tag="T">                         It was Maria that danced.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9265" tag="L+SY">Arjaa' Ta Mari'y ja x-o j-ow-i.                    SVafO</item>
+    <item id="c2" line="9266" tag="G">foc      Miss Maria rel com-dance-AF-IV</item>
+    <item id="c3" line="9267" tag="T">It was Maria that danced.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86308">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9269-9274" line-types="L G B L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9269" tag="L">                      b.      Arjaa' ja miix ja ma t-i-tij-ow-i ...</item>
+    <item id="o2" line="9270" tag="G">                              foc    det cat rel neg asp-ep-eat-AF-IV</item>
+    <item id="o3" line="9271" tag="B"></item>
+    <item id="o4" line="9272" tag="L+SY">                              ... ja b'aaq r-xiin         ak'.                  SVafO</item>
+    <item id="o5" line="9273" tag="G">                                  det bone 3E-RN:of chicken</item>
+    <item id="o6" line="9274" tag="T">                                  It was the cat that did not eat the chicken bones.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9269" tag="L">Arjaa' ja miix ja ma t-i-tij-ow-i ...</item>
+    <item id="c2" line="9270" tag="G">foc    det cat rel neg asp-ep-eat-AF-IV</item>
+    <item id="c3" line="9271" tag="B"/>
+    <item id="c4" line="9272" tag="L+SY">ja b'aaq r-xiin         ak'.                  SVafO</item>
+    <item id="c5" line="9273" tag="G">det bone 3E-RN:of chicken</item>
+    <item id="c6" line="9274" tag="T">It was the cat that did not eat the chicken bones.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+    <item id="p1" content="c4[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+    <item id="g1" content="c5[0:25]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:50]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i86309">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9290-9292" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9290" tag="L">           (26) Jar oojo j           jar ooq k'o waawe' pa      tinaamit</item>
+    <item id="o2" line="9291" tag="G">                   cleft 3Pro        who 1plA be here   prep:in town</item>
+    <item id="o3" line="9292" tag="T+AC">                   It's us who       are here in town                  Dayley:232 Ex.39</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9290" tag="L">Jar oojo j           jar ooq k'o waawe' pa      tinaamit</item>
+    <item id="c2" line="9291" tag="G">cleft 3Pro        who 1plA be here   prep:in town</item>
+    <item id="c3" line="9292" tag="T+AC">It's us who       are here in town                  Dayley:232 Ex.39</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86310">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9296-9298" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9296" tag="L">         (27) Jar            oojo j ooq k'o waawe'</item>
+    <item id="o2" line="9297" tag="G">                 det         3Pro 1plA be here</item>
+    <item id="o3" line="9298" tag="T+AC">                 We        are here.                                                  Dayley:255 Ex.121</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9296" tag="L">Jar            oojo j ooq k'o waawe</item>
+    <item id="c2" line="9297" tag="G">det         3Pro 1plA be here</item>
+    <item id="c3" line="9298" tag="T+AC">We        are here.                                                  Dayley:255 Ex.121</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:86]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86311">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9314-9316" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9314" tag="L">          (28) Jaa' eskopéeta x-k'aq-b'eej ja chikop.</item>
+    <item id="o2" line="9315" tag="G">                     he shotgun com-shoot-IF det animal</item>
+    <item id="o3" line="9316" tag="T+AC">                     It was a shotgun that he shot the animal wit h. Dayley:386</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9314" tag="L">Jaa' eskopéeta x-k'aq-b'eej ja chikop.</item>
+    <item id="c2" line="9315" tag="G">he shotgun com-shoot-IF det animal</item>
+    <item id="c3" line="9316" tag="T+AC">It was a shotgun that he shot the animal wit h. Dayley:386</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86312">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9345-9347" line-types="L+CN G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9345" tag="L+CN">         (29) Ma ch'ooy ta x-tij-ow-i              ja kéeso.      SVafO</item>
+    <item id="o2" line="9346" tag="G">                neg rat        irr com-eat- AF-IV det cheese</item>
+    <item id="o3" line="9347" tag="T+AC">                It wasn't a rat that ate the cheese.              Dayley:322</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9345" tag="L+CN">Ma ch'ooy ta x-tij-ow-i              ja kéeso.      SVafO</item>
+    <item id="c2" line="9346" tag="G">neg rat        irr com-eat-AF-IV det cheese</item>
+    <item id="c3" line="9347" tag="T+AC">It wasn't a rat that ate the cheese.              Dayley:322</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86313">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9384-9386" line-types="L+SY G G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9384" tag="L+SY">         (30) Jun tz'i' x-kop-in-i          jar Aa Xwaan.               SVafO</item>
+    <item id="o2" line="9385" tag="G">                 det dog com-bite-AF-IV det Mr. Juan</item>
+    <item id="o3" line="9386" tag="G">                 A dog bit Juan.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9384" tag="L+SY">Jun tz'i' x-kop-in-i          jar Aa Xwaan.               SVafO</item>
+    <item id="c2" line="9385" tag="G">det dog com-bite-AF-IV det Mr. Juan</item>
+    <item id="c3" line="9386" tag="G">A dog bit Juan.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+    <item id="g1" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86314">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9392-9394" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9392" tag="L">         (31) a.        *X-kop-in-i        jar Aa Xwaan jun tz'i'.                           VafOS</item>
+    <item id="o2" line="9393" tag="G">                          com-bite-AF-IV det Mr. Juan       det dog</item>
+    <item id="o3" line="9394" tag="T">                        (*A dog bit Juan.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9392" tag="L">*X-kop-in-i        jar Aa Xwaan jun tz'i'.                           VafOS</item>
+    <item id="c2" line="9393" tag="G">com-bite-AF-IV det Mr. Juan       det dog</item>
+    <item id="c3" line="9394" tag="T">*A dog bit Juan.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86315">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9396-9398" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9396" tag="L">                    b.       *Jar Aa Xwaan x-kop-in-i          jun tz'i'.                    OVafS</item>
+    <item id="o2" line="9397" tag="G">                               det Mr. Juan     com-bite-AF-IV det dog</item>
+    <item id="o3" line="9398" tag="T">                             (*A dog bit Juan.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9396" tag="L">*Jar Aa Xwaan x-kop-in-i          jun tz'i'.                    OVafS</item>
+    <item id="c2" line="9397" tag="G">det Mr. Juan     com-bite-AF-IV det dog</item>
+    <item id="c3" line="9398" tag="T">*A dog bit Juan.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86316">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9418-9420" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9418" tag="L+CN">          (32) *Jun tz'i' x-uu-kopiij jar Aa Xwaan.                   *SVO</item>
+    <item id="o2" line="9419" tag="G">                    det dog com-3E-bite det Mr. Juan</item>
+    <item id="o3" line="9420" tag="T">                    (*A dog bit Juan.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9418" tag="L+CN">*Jun tz'i' x-uu-kopiij jar Aa Xwaan.                   *SVO</item>
+    <item id="c2" line="9419" tag="G">det dog com-3E-bite det Mr. Juan</item>
+    <item id="c3" line="9420" tag="T">*A dog bit Juan.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86317">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9430-9432" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9430" tag="L+CN">           (33) *Jun tz'i' x-uu-tz'et jun miix.                          ?V?</item>
+    <item id="o2" line="9431" tag="G">                    det dog com-3E-see det cat</item>
+    <item id="o3" line="9432" tag="T">                    (*A dog saw a cat./*A cat saw a dog)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9430" tag="L+CN">*Jun tz'i' x-uu-tz'et jun miix.                          ?V?</item>
+    <item id="c2" line="9431" tag="G">det dog com-3E-see det cat</item>
+    <item id="c3" line="9432" tag="T">*A dog saw a cat./*A cat saw a dog</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86318">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9438-9440" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9438" tag="L+CN">         (34) Jun aachi x-k'aaxaan-in ja            masaat.                SVafO</item>
+    <item id="o2" line="9439" tag="G">                 det man com-hear-AF det            deer</item>
+    <item id="o3" line="9440" tag="T">                 A man heard the deer.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9438" tag="L+CN">Jun aachi x-k'aaxaan-in ja            masaat.                SVafO</item>
+    <item id="c2" line="9439" tag="G">det man com-hear-AF det            deer</item>
+    <item id="c3" line="9440" tag="T">A man heard the deer.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86319">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9444-9446" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9444" tag="L+CN">          (35) Ja masaat jun aachi x-k'aaxaan-in.                    OVafS</item>
+    <item id="o2" line="9445" tag="G">                  det deer det man com-hear-AF</item>
+    <item id="o3" line="9446" tag="T">                  The deer, a man heard./A man heard the deer.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9444" tag="L+CN">Ja masaat jun aachi x-k'aaxaan-in.                    OVafS</item>
+    <item id="c2" line="9445" tag="G">det deer det man com-hear-AF</item>
+    <item id="c3" line="9446" tag="T">The deer, a man heard./A man heard the deer.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86320">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9458-9460" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9458" tag="L+CN">          (36) Ja masaat ma jun aachi ta x-k'aaxaan-in.                OSVaf</item>
+    <item id="o2" line="9459" tag="G">                  det deer neg det man irr com-hear-AF</item>
+    <item id="o3" line="9460" tag="T">                  The deer, it was not a man that heard [it]./</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9458" tag="L+CN">Ja masaat ma jun aachi ta x-k'aaxaan-in.                OSVaf</item>
+    <item id="c2" line="9459" tag="G">det deer neg det man irr com-hear-AF</item>
+    <item id="c3" line="9460" tag="T">The deer, it was not a man that heard [it]./</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86321">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9472-9474" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9472" tag="L+CN">         (37) Ma ja ta ja masaat x-uu-k'aaxaaj jun aachi. OVS</item>
+    <item id="o2" line="9473" tag="G">                  neg foc irr det deer       com-3E-hear det man</item>
+    <item id="o3" line="9474" tag="T">                  It was not the deer that a man heard.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9472" tag="L+CN">Ma ja ta ja masaat x-uu-k'aaxaaj jun aachi. OVS</item>
+    <item id="c2" line="9473" tag="G">neg foc irr det deer       com-3E-hear det man</item>
+    <item id="c3" line="9474" tag="T">It was not the deer that a man heard.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86322">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9479-9481" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9479" tag="L+CN">           (38) *Jun aachi ma ja ta ja masaat x-k'aaxaaj.                 *OSV</item>
+    <item id="o2" line="9480" tag="G">                   det man neg foc irr det deer com-hear</item>
+    <item id="o3" line="9481" tag="T">                   (*It was not the deer that a man heard.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9479" tag="L+CN">*Jun aachi ma ja ta ja masaat x-k'aaxaaj.                 *OSV</item>
+    <item id="c2" line="9480" tag="G">det man neg foc irr det deer com-hear</item>
+    <item id="c3" line="9481" tag="T">*It was not the deer that a man heard.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86323">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9499-9501" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9499" tag="L+CN">         (39) *Ma ja ta ja masaat jun aachi x-k'aaxaan-in. *OSVaf</item>
+    <item id="o2" line="9500" tag="G">                   neg foc irr det deer       det man com-hear-AF</item>
+    <item id="o3" line="9501" tag="T">                   (*It was not the deer that a man heard.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9499" tag="L+CN">*Ma ja ta ja masaat jun aachi x-k'aaxaan-in. *OSVaf</item>
+    <item id="c2" line="9500" tag="G">neg foc irr det deer       det man com-hear-AF</item>
+    <item id="c3" line="9501" tag="T">*It was not the deer that a man heard.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86326">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9547-9549" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9547" tag="L">           (42) Ja n-ata'        ooxiij          n-b'e K'oqol Keej.</item>
+    <item id="o2" line="9548" tag="G">                  det 1E-father in:three:days inc-go Masatenango</item>
+    <item id="o3" line="9549" tag="T+AC">                  In three days, my father is going to Masatenango. Dayley:275</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9547" tag="L">Ja n-ata'        ooxiij          n-b'e K'oqol Keej.</item>
+    <item id="c2" line="9548" tag="G">det 1E-father in:three:days inc-go Masatenango</item>
+    <item id="c3" line="9549" tag="T+AC">In three days, my father is going to Masatenango. Dayley:275</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86327">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9556-9558" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9556" tag="L">         (43) Iwiir        ja    tz'i'    x-uu-tz'et    ja miix.        AdvSVO</item>
+    <item id="o2" line="9557" tag="G">                yesterday det    dog      com-3E-see det cat</item>
+    <item id="o3" line="9558" tag="T">                Yesterday the   dog      saw the cat.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9556" tag="L">Iwiir        ja    tz'i'    x-uu-tz'et    ja miix.        AdvSVO</item>
+    <item id="c2" line="9557" tag="G">yesterday det    dog      com-3E-see det cat</item>
+    <item id="c3" line="9558" tag="T">Yesterday the   dog      saw the cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86328">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9597-9599" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9597" tag="L+CN">         (44) a.        Iwiir         x-uu-tz'et   jun miix ja tz'i'. AdvVOS</item>
+    <item id="o2" line="9598" tag="G">                        yesterday com-3E-see det cat det dog</item>
+    <item id="o3" line="9599" tag="T">                        Yesterday the dog saw the cat.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9597" tag="L+CN">Iwiir         x-uu-tz'et   jun miix ja tz'i'. AdvVOS</item>
+    <item id="c2" line="9598" tag="G">yesterday com-3E-see det cat det dog</item>
+    <item id="c3" line="9599" tag="T">Yesterday the dog saw the cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86329">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9601-9603" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9601" tag="L+CN">                  b.      X-uu-tz'et jun miix ja tz'i' iwiir.  VOSAdv</item>
+    <item id="o2" line="9602" tag="G">                          com-3E-see det cat det dog yesterday</item>
+    <item id="o3" line="9603" tag="T">                          The dog saw the cat yesterday.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9601" tag="L+CN">X-uu-tz'et jun miix ja tz'i' iwiir.  VOSAdv</item>
+    <item id="c2" line="9602" tag="G">com-3E-see det cat det dog yesterday</item>
+    <item id="c3" line="9603" tag="T">The dog saw the cat yesterday.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86330">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9606-9608" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9606" tag="L+CN">         (45) *X-uu-tz'et       iwiir      jun miix ja tz'i'.         *VAdvOS</item>
+    <item id="o2" line="9607" tag="G">                  com-3E-see yesterday det cat det dog</item>
+    <item id="o3" line="9608" tag="T">                  (*The dog yesterday saw the cat.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9606" tag="L+CN">*X-uu-tz'et       iwiir      jun miix ja tz'i'.         *VAdvOS</item>
+    <item id="c2" line="9607" tag="G">com-3E-see yesterday det cat det dog</item>
+    <item id="c3" line="9608" tag="T">*The dog yesterday saw the cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86331">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9611-9613" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9611" tag="L+CN">         (46) *X-uu-tz'et      jun miix iwiir       ja tz'i'.             *VOAdvS</item>
+    <item id="o2" line="9612" tag="G">                  com-3E-see det cat yesterday det dog</item>
+    <item id="o3" line="9613" tag="T">                  (*The dog saw yesterday the cat.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9611" tag="L+CN">*X-uu-tz'et      jun miix iwiir       ja tz'i'.             *VOAdvS</item>
+    <item id="c2" line="9612" tag="G">com-3E-see det cat yesterday det dog</item>
+    <item id="c3" line="9613" tag="T">*The dog saw yesterday the cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86332">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9621-9623" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9621" tag="L+CN">        (47) a.        Ja       tz'i' iwiir       x-uu-tz'et   ja miix. SAdvVO</item>
+    <item id="o2" line="9622" tag="G">                       det      dog yesterday com-3E-see det cat</item>
+    <item id="o3" line="9623" tag="T">                       The      dog yesterday saw the cat.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9621" tag="L+CN">Ja       tz'i' iwiir       x-uu-tz'et   ja miix. SAdvVO</item>
+    <item id="c2" line="9622" tag="G">det      dog yesterday com-3E-see det cat</item>
+    <item id="c3" line="9623" tag="T">The      dog yesterday saw the cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86333">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9625-9627" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9625" tag="L+CN">                   b.      Ja tz'i' x-uu-tz'et   iwiir      ja miix. SVAdvO</item>
+    <item id="o2" line="9626" tag="G">                           det dog com-3E-see yesterday det cat</item>
+    <item id="o3" line="9627" tag="T">                           The dog saw (yesterday) the cat.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9625" tag="L+CN">Ja tz'i' x-uu-tz'et   iwiir      ja miix. SVAdvO</item>
+    <item id="c2" line="9626" tag="G">det dog com-3E-see yesterday det cat</item>
+    <item id="c3" line="9627" tag="T">The dog saw (yesterday) the cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86334">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tz'utujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="9629-9631" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9629" tag="L+CN">                   c.      Ja tz'i' x-uu-tz'et   ja miix iwiir. SVOAdv</item>
+    <item id="o2" line="9630" tag="G">                           det dog com-3E-see det cat yesterday</item>
+    <item id="o3" line="9631" tag="T">                           The dog saw the cat yesterday.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9629" tag="L+CN">Ja tz'i' x-uu-tz'et   ja miix iwiir. SVOAdv</item>
+    <item id="c2" line="9630" tag="G">det dog com-3E-see det cat yesterday</item>
+    <item id="c3" line="9631" tag="T">The dog saw the cat yesterday.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i133801">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzutujil" iso-639-3="tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2376" line-range="5234-5238" line-types="L+CR L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5234" tag="L+CR">  85 ruu-tz  jar aachi</item>
+    <item id="o2" line="5235" tag="L+CR"></item>
+    <item id="o3" line="5236" tag="L+CR">  i'</item>
+    <item id="o4" line="5237" tag="G">           A3-dog the man</item>
+    <item id="o5" line="5238" tag="T+AC">              `the man's dog' Dayley 1981, 16</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5234 5235" tag="L+CR">85 ruu-tz  jar aachi</item>
+    <item id="c4" line="5237" tag="G">A3-dog the man</item>
+    <item id="c5" line="5238" tag="T+AC">the man's dog' Dayley 1981, 16</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i154956">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cashinahua" iso-639-3="cbs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="528" line-range="479-482" line-types="L G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="479" tag="L">  (17) Inavan ea pi-panan, en tsaka-xu-qui.</item>
+    <item id="o2" line="480" tag="G">       tiger me eat-FRUST I shot-today-DECL</item>
+    <item id="o3" line="481" tag="B"></item>
+    <item id="o4" line="482" tag="T+AC">      `The tiger would have eaten me, but I shot it today.' (Montag 1981:146)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="479" tag="L">Inavan ea pi-panan, en tsaka-xu-qui.</item>
+    <item id="c2" line="480" tag="G">tiger me eat-FRUST I shot-today-DECL</item>
+    <item id="c3" line="481" tag="B"/>
+    <item id="c4" line="482" tag="T+AC">The tiger would have eaten me, but I shot it today.' (Montag 1981:146)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:70]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i154957">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cashinahua" iso-639-3="cbs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="528" line-range="492-495" line-types="L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="492" tag="L">  (18) Dunan ea pi-pai                    ixuqui.</item>
+    <item id="o2" line="493" tag="G">       Snake me bite-want.without.success today</item>
+    <item id="o3" line="494" tag="B"></item>
+    <item id="o4" line="495" tag="T">      `The snake wanted to bite me today, but without success.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="492" tag="L">Dunan ea pi-pai                    ixuqui.</item>
+    <item id="c2" line="493" tag="G">Snake me bite-want.without.success today</item>
+    <item id="c3" line="494" tag="B"/>
+    <item id="c4" line="495" tag="T">The snake wanted to bite me today, but without success.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i154958">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cashinahua" iso-639-3="cbs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="528" line-range="497-500" line-types="L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="497" tag="L">  (19) Nan rama rono-n    hiya tuxa-pana-n-mun tuxa-tima-xo-hnu.</item>
+    <item id="o2" line="498" tag="G">       this day snake-ERG me bite-FRUST-ERG-TH bite-cannot-3PAST-DECL</item>
+    <item id="o3" line="499" tag="B"></item>
+    <item id="o4" line="500" tag="T">      `The snake wanted to bite me today, but wasn't able to do so (literally, bite could not).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="497" tag="L">Nan rama rono-n    hiya tuxa-pana-n-mun tuxa-tima-xo-hnu.</item>
+    <item id="c2" line="498" tag="G">this day snake-ERG me bite-FRUST-ERG-TH bite-cannot-3PAST-DECL</item>
+    <item id="c3" line="499" tag="B"/>
+    <item id="c4" line="500" tag="T">The snake wanted to bite me today, but wasn't able to do so (literally, bite could not).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:88]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

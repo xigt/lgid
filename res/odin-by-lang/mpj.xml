@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i45969">
+  <metadata type="xigt-meta">
+    <meta type="language" name="martu wangka" iso-639-3="mpj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="344" line-range="201-203" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="201" tag="L">  (4)     a.       Jurta-lu=pula         pungkuni.</item>
+    <item id="o2" line="202" tag="G">                   fight-ERG=3D.NOM hit</item>
+    <item id="o3" line="203" tag="T">                   `They (=those two) are hitting (him).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="201" tag="L">Jurta-lu=pula         pungkuni.</item>
+    <item id="c2" line="202" tag="G">fight-ERG=3D.NOM hit</item>
+    <item id="c3" line="203" tag="T">They (=those two) are hitting (him).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45970">
+  <metadata type="xigt-meta">
+    <meta type="language" name="martu wangka" iso-639-3="mpj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="344" line-range="205-207" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="205" tag="L">          b.       Jurta-lu=ngku=pula           pungkuni.</item>
+    <item id="o2" line="206" tag="G">                   fight-ERG=ANAPH=3D.NOM hit</item>
+    <item id="o3" line="207" tag="T">                   `Those two are hitting each other in a fight.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="205" tag="L">Jurta-lu=ngku=pula           pungkuni.</item>
+    <item id="c2" line="206" tag="G">fight-ERG=ANAPH=3D.NOM hit</item>
+    <item id="c3" line="207" tag="T">Those two are hitting each other in a fight.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47162">
+  <metadata type="xigt-meta">
+    <meta type="language" name="wangkajunga" iso-639-3="mpj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3429" line-range="410-414" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="410" tag="L">     (9) Tuju-lu     kujarra-lu=pula       parnaparnti</item>
+    <item id="o2" line="411" tag="G">         woman-ERG two-ERG=3DL.S           goanna</item>
+    <item id="o3" line="412" tag="L">         pung-in-pa.</item>
+    <item id="o4" line="413" tag="G">         hit-PRES-PA</item>
+    <item id="o5" line="414" tag="T">         `Two women are killing a goanna.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="410" tag="L">Tuju-lu     kujarra-lu=pula       parnaparnti</item>
+    <item id="c2" line="411" tag="G">woman-ERG two-ERG=3DL.S           goanna</item>
+    <item id="c3" line="412" tag="L">pung-in-pa.</item>
+    <item id="c4" line="413" tag="G">hit-PRES-PA</item>
+    <item id="c5" line="414" tag="T">Two women are killing a goanna.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+    <item id="p1" content="c3[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+    <item id="g1" content="c4[0:11]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:31]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i47163">
+  <metadata type="xigt-meta">
+    <meta type="language" name="wangkajunga" iso-639-3="mpj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3429" line-range="427-429" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="427" tag="L">     (10) Ya-nu-pula        piti-kurlu                  kujarra.</item>
+    <item id="o2" line="428" tag="G">          go-PAST-3DL.S     coolamon-HAVE               two</item>
+    <item id="o3" line="429" tag="T">          `The two with coolamons went.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="427" tag="L">Ya-nu-pula        piti-kurlu                  kujarra.</item>
+    <item id="c2" line="428" tag="G">go-PAST-3DL.S     coolamon-HAVE               two</item>
+    <item id="c3" line="429" tag="T">The two with coolamons went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47164">
+  <metadata type="xigt-meta">
+    <meta type="language" name="wangkajunga" iso-639-3="mpj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3429" line-range="431-435" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="431" tag="L">     (11) Warta-ngka           pirrpilya-ngka        jii-ngka-pula</item>
+    <item id="o2" line="432" tag="G">          tree-LOC             branch-LOC            DEM-LOC-3DL.S</item>
+    <item id="o3" line="433" tag="L">          turru                kujarra        nyin-in-pa.</item>
+    <item id="o4" line="434" tag="G">          Bird                 two            sit-PRES-PA</item>
+    <item id="o5" line="435" tag="T">          `Two birds are     sitting on a branch of that tree.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="431" tag="L">Warta-ngka           pirrpilya-ngka        jii-ngka-pula</item>
+    <item id="c2" line="432" tag="G">tree-LOC             branch-LOC            DEM-LOC-3DL.S</item>
+    <item id="c3" line="433" tag="L">turru                kujarra        nyin-in-pa.</item>
+    <item id="c4" line="434" tag="G">Bird                 two            sit-PRES-PA</item>
+    <item id="c5" line="435" tag="T">Two birds are     sitting on a branch of that tree.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+    <item id="p1" content="c3[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+    <item id="g1" content="c4[0:47]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:51]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i111181">
+  <metadata type="xigt-meta">
+    <meta type="language" name="manjiljarra" iso-639-3="mpj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3362" line-range="1401-1404" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1401" tag="M+LN">            manjiljarra</item>
+    <item id="o2" line="1402" tag="L">       (85) Mutuka punkarnu karru-ngka wati-wayi-rnu-nja-ngka.</item>
+    <item id="o3" line="1403" tag="G">             car       fell       creek-loc      across-³ow-past-nom-loc</item>
+    <item id="o4" line="1404" tag="T">             `The car fell into the creek, which was in ³ood.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1401" tag="M+LN">manjiljarra</item>
+    <item id="c2" line="1402" tag="L">Mutuka punkarnu karru-ngka wati-wayi-rnu-nja-ngka.</item>
+    <item id="c3" line="1403" tag="G">car       fell       creek-loc      across-³ow-past-nom-loc</item>
+    <item id="c4" line="1404" tag="T">The car fell into the creek, which was in ³ood.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i111182">
+  <metadata type="xigt-meta">
+    <meta type="language" name="wangkajunga" iso-639-3="mpj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3362" line-range="1407-1410" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1407" tag="M+LN">            wangkajunga</item>
+    <item id="o2" line="1408" tag="L">       (86) Tilpu-lu=rni pawu-rnu yu-ngu ju-nu-ya-nku-nja-ngka kilyirr-ja.</item>
+    <item id="o3" line="1409" tag="G">             mother-erg=1sg    cook-pst       give-pst put-pst-go-irr-nomz-loc   coals-loc</item>
+    <item id="o4" line="1410" tag="T">             `My mother had cooked the [meat] for me that was left in the coals.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1407" tag="M+LN">wangkajunga</item>
+    <item id="c2" line="1408" tag="L">Tilpu-lu=rni pawu-rnu yu-ngu ju-nu-ya-nku-nja-ngka kilyirr-ja.</item>
+    <item id="c3" line="1409" tag="G">mother-erg=1sg    cook-pst       give-pst put-pst-go-irr-nomz-loc   coals-loc</item>
+    <item id="c4" line="1410" tag="T">My mother had cooked the [meat] for me that was left in the coals.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:77]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i134446">
+  <metadata type="xigt-meta">
+    <meta type="language" name="manjiljarra" iso-639-3="mpj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2383" line-range="72-77" line-types="M+LN L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="72" tag="M+LN">           (8)      Manjiljarra (Australian)</item>
+    <item id="o2" line="73" tag="L">                 a. Yirnalu wiya ju kanyilpayi jiji, tuju-lura</item>
+    <item id="o3" line="74" tag="G">                    man-erg alone looked.after child young.woman-avers</item>
+    <item id="o4" line="75" tag="L">                    mitu-rri-nja-ngka</item>
+    <item id="o5" line="76" tag="G">                    dead-inch-nmlz-prior.cond</item>
+    <item id="o6" line="77" tag="T">                    `The man was looking after the child on his own, since his wife was dead.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="72" tag="M+LN">Manjiljarra (Australian</item>
+    <item id="c2" line="73" tag="L">Yirnalu wiya ju kanyilpayi jiji, tuju-lura</item>
+    <item id="c3" line="74" tag="G">man-erg alone looked.after child young.woman-avers</item>
+    <item id="c4" line="75" tag="L">mitu-rri-nja-ngka</item>
+    <item id="c5" line="76" tag="G">dead-inch-nmlz-prior.cond</item>
+    <item id="c6" line="77" tag="T">The man was looking after the child on his own, since his wife was dead.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:42]"/>
+    <item id="p1" content="c4[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+    <item id="g1" content="c5[0:25]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:72]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i134447">
+  <metadata type="xigt-meta">
+    <meta type="language" name="manjiljarra" iso-639-3="mpj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2383" line-range="78-82" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="78" tag="L">                 b. Yiltalu-rni-ya    warrki-la, tuju-ju              ngayu-ku</item>
+    <item id="o2" line="79" tag="G">                    true-erg-1sg.3pl abuse-irr young.woman-1.dat I-dat</item>
+    <item id="o3" line="80" tag="L">                    mitu-rri-nja-ngka             wanti</item>
+    <item id="o4" line="81" tag="G">                    dead-inch-nmlz-prior.cond woman</item>
+    <item id="o5" line="82" tag="T">                    `They are sure to abuse me, since my wife is dead.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="78" tag="L">Yiltalu-rni-ya    warrki-la, tuju-ju              ngayu-ku</item>
+    <item id="c2" line="79" tag="G">true-erg-1sg.3pl abuse-irr young.woman-1.dat I-dat</item>
+    <item id="c3" line="80" tag="L">mitu-rri-nja-ngka             wanti</item>
+    <item id="c4" line="81" tag="G">dead-inch-nmlz-prior.cond woman</item>
+    <item id="c5" line="82" tag="T">They are sure to abuse me, since my wife is dead.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+    <item id="p1" content="c3[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+    <item id="g1" content="c4[0:31]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:49]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

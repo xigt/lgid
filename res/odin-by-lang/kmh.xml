@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i20348">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="496" line-range="130-132" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="130" tag="L">  (75)    Kab añañ ap       yap pkek,                   pagak      ok.</item>
+    <item id="o2" line="131" tag="G">          stone glass come fall   it.having.struck.DS   it.broke   that</item>
+    <item id="o3" line="132" tag="T+AC">          `A stone fell and struck the glass and it broke.' (Pawley 1987: 355)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="130" tag="L">Kab añañ ap       yap pkek,                   pagak      ok.</item>
+    <item id="c2" line="131" tag="G">stone glass come fall   it.having.struck.DS   it.broke   that</item>
+    <item id="c3" line="132" tag="T+AC">A stone fell and struck the glass and it broke.' (Pawley 1987: 355)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:67]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i20372">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="496" line-range="424-426" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="424" tag="L">  (98)      Kotp gy,                np     ñng                 gspyn.</item>
+    <item id="o2" line="425" tag="G">            house having.built.SS   you    intending.to.give.SS I.am.doing</item>
+    <item id="o3" line="426" tag="T+AC">            `I am building a house for you.' (Pawley 1987: 354)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="424" tag="L">Kotp gy,                np     ñng                 gspyn.</item>
+    <item id="c2" line="425" tag="G">house having.built.SS   you    intending.to.give.SS I.am.doing</item>
+    <item id="c3" line="426" tag="T+AC">I am building a house for you.' (Pawley 1987: 354)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i20373">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="496" line-range="1262-1264" line-types="L G M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1262" tag="L">  (101)      b     tw     dy,             mon tb      lak-p.</item>
+    <item id="o2" line="1263" tag="G">             man   axe    having.taken-SS wood cut    he.split</item>
+    <item id="o3" line="1264" tag="M+AC">             (Pawley 1987: 354)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1262" tag="L">b     tw     dy,             mon tb      lak-p.</item>
+    <item id="c2" line="1263" tag="G">man   axe    having.taken-SS wood cut    he.split</item>
+    <item id="c3" line="1264" tag="M+AC">354</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41748">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3501" line-range="440-450" line-types="L G B L G B L G B T+LT C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="440" tag="L">  (6)          b        mon-day             d        yok-e-k</item>
+    <item id="o2" line="441" tag="G">               man      stick-piece         hold     displace-Diff.Subj.Prior-3sg</item>
+    <item id="o3" line="442" tag="B"></item>
+    <item id="o4" line="443" tag="L">               waty at            am-b</item>
+    <item id="o5" line="444" tag="G">               fence top          go-PERF.3sg</item>
+    <item id="o6" line="445" tag="B"></item>
+    <item id="o7" line="446" tag="L">               wog-mgan           yow-p</item>
+    <item id="o8" line="447" tag="G">               garden-in          fall-PERF.3sg</item>
+    <item id="o9" line="448" tag="B"></item>
+    <item id="o10" line="449" tag="T+LT">               [Lit.: `The man took the stick and threw it, it went over the fence, it fell in the</item>
+    <item id="o11" line="450" tag="C">               garden.' 3 clauses; 4 lexical verbs]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="440" tag="L">b        mon-day             d        yok-e-k</item>
+    <item id="c2" line="441" tag="G">man      stick-piece         hold     displace-Diff.Subj.Prior-3sg</item>
+    <item id="c3" line="442" tag="B"/>
+    <item id="c4" line="443" tag="L">waty at            am-b</item>
+    <item id="c5" line="444" tag="G">fence top          go-PERF.3sg</item>
+    <item id="c6" line="445" tag="B"/>
+    <item id="c7" line="446" tag="L">wog-mgan           yow-p</item>
+    <item id="c8" line="447" tag="G">garden-in          fall-PERF.3sg</item>
+    <item id="c9" line="448" tag="B"/>
+    <item id="c10" line="449" tag="T+LT">[Lit.: `The man took the stick and threw it, it went over the fence, it fell in the</item>
+    <item id="c11" line="450" tag="C">garden.' 3 clauses; 4 lexical verbs]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+    <item id="p1" content="c4[0:23]"/>
+    <item id="p2" content="c7[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:66]" alignment="p1"/>
+    <item id="g1" content="c5[0:30]" alignment="p2"/>
+    <item id="g2" content="c8[0:32]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:83]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i41749">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3501" line-range="457-459" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="457" tag="L">  (8b)         Mnek         am      mon pk        d                      ap   ay-ak</item>
+    <item id="o2" line="458" tag="G">               next.morning go      wood hit      get                    come put-3sg.PST</item>
+    <item id="o3" line="459" tag="T">               `Next morning he gathered firewood.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="457" tag="L">Mnek         am      mon pk        d                      ap   ay-ak</item>
+    <item id="c2" line="458" tag="G">next.morning go      wood hit      get                    come put-3sg.PST</item>
+    <item id="c3" line="459" tag="T">Next morning he gathered firewood.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49206">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3408" line-range="116-124" line-types="L G B L G B L G B"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="116" tag="L">  (6)    b       mon-day         d       yok-e-k</item>
+    <item id="o2" line="117" tag="G">         man     stick-piece     hold    displace-Diff.Subj.Prior-3sg</item>
+    <item id="o3" line="118" tag="B"></item>
+    <item id="o4" line="119" tag="L">         waty at         am-b</item>
+    <item id="o5" line="120" tag="G">         fence top       go-PERF.3sg</item>
+    <item id="o6" line="121" tag="B"></item>
+    <item id="o7" line="122" tag="L">         wog-mgan        yow-p</item>
+    <item id="o8" line="123" tag="G">         garden-in       fall-PERF.3sg</item>
+    <item id="o9" line="124" tag="B"></item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="116" tag="L">b       mon-day         d       yok-e-k</item>
+    <item id="c2" line="117" tag="G">man     stick-piece     hold    displace-Diff.Subj.Prior-3sg</item>
+    <item id="c3" line="118" tag="B"/>
+    <item id="c4" line="119" tag="L">waty at         am-b</item>
+    <item id="c5" line="120" tag="G">fence top       go-PERF.3sg</item>
+    <item id="c6" line="121" tag="B"/>
+    <item id="c7" line="122" tag="L">wog-mgan        yow-p</item>
+    <item id="c8" line="123" tag="G">garden-in       fall-PERF.3sg</item>
+    <item id="c9" line="124" tag="B"/>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+    <item id="p1" content="c4[0:20]"/>
+    <item id="p2" content="c7[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+    <item id="g1" content="c5[0:27]" alignment="p2"/>
+    <item id="g2" content="c8[0:29]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i49207">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3408" line-range="125-126" line-types="T+LT C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="125" tag="T+LT">         [Lit.: `The man took the stick and threw it, it went over the fence, it fell in the</item>
+    <item id="o2" line="126" tag="C">         garden.' 3 clauses; 4 lexical verbs]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="125" tag="T+LT">[Lit.: `The man took the stick and threw it, it went over the fence, it fell in the</item>
+    <item id="c2" line="126" tag="C">garden.' 3 clauses; 4 lexical verbs]</item>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c1[0:83]"/>
+  </tier>
+</igt>
+<igt id="i49208">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3408" line-range="133-135" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="133" tag="L">  (8b)   Mnek         am      mon pk        d           ap   ay-ak</item>
+    <item id="o2" line="134" tag="G">         next.morning go      wood hit      get         come put-3sg.PST</item>
+    <item id="o3" line="135" tag="T">         `Next morning he gathered firewood.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="133" tag="L">Mnek         am      mon pk        d           ap   ay-ak</item>
+    <item id="c2" line="134" tag="G">next.morning go      wood hit      get         come put-3sg.PST</item>
+    <item id="c3" line="135" tag="T">Next morning he gathered firewood.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75130">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3696" line-range="246-248" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="246" tag="L+DB">  (8)    a.   ag       ñ-                      b.    ag          tk-</item>
+    <item id="o2" line="247" tag="G+DB">              sound    transfer                      sound       sever</item>
+    <item id="o3" line="248" tag="T+DB">              `tell'                                 `interrupt'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="246" tag="L+DB">ag       ñ-b.    ag          tk-</item>
+    <item id="c2" line="247" tag="G+DB">sound    transfer                      sound       sever</item>
+    <item id="c3" line="248" tag="T+DB">tell'                                 `interrupt</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75131">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3696" line-range="250-252" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="250" tag="L+DB">         c.   yn       ag-                     d.    ag          ay-</item>
+    <item id="o2" line="251" tag="G+DB">              burn     sound                         sound       stabilize</item>
+    <item id="o3" line="252" tag="T+DB">              `ignite (engine)'                      `confine'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="250" tag="L+DB">yn       ag-d.    ag          ay-</item>
+    <item id="c2" line="251" tag="G+DB">burn     sound                         sound       stabilize</item>
+    <item id="c3" line="252" tag="T+DB">ignite (engine)'                      `confine</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75132">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3696" line-range="282-284" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="282" tag="L">  (10) a. ap         yap        pk-</item>
+    <item id="o2" line="283" tag="G">               come       descend     hit</item>
+    <item id="o3" line="284" tag="T">               `tumble'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="282" tag="L">ap         yap        pk-</item>
+    <item id="c2" line="283" tag="G">come       descend     hit</item>
+    <item id="c3" line="284" tag="T">tumble</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:6]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75133">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3696" line-range="286-288" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="286" tag="L">         b.    pwy        md          ay-</item>
+    <item id="o2" line="287" tag="G">               poke       stay        put</item>
+    <item id="o3" line="288" tag="T">               `fix (by insertion)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="286" tag="L">pwy        md          ay-</item>
+    <item id="c2" line="287" tag="G">poke       stay        put</item>
+    <item id="c3" line="288" tag="T">fix (by insertion)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80706">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1686" line-range="166-177" line-types="L G B L G B L G B T T+AC+EX C+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="166" tag="L">  (12)      ...    mneb    ak lgl                 mdek</item>
+    <item id="o2" line="167" tag="G">  KAL              land    that having.come.about it.existed.DS</item>
+    <item id="o3" line="168" tag="B"></item>
+    <item id="o4" line="169" tag="L">            kmn      ak pak dad apl,             ty</item>
+    <item id="o5" line="170" tag="G">            game     that kill carry having.come what</item>
+    <item id="o6" line="171" tag="B"></item>
+    <item id="o7" line="172" tag="L">            ty   gl,         adl                    ñbek...</item>
+    <item id="o8" line="173" tag="G">            what having.done having.cooked          he.ate</item>
+    <item id="o9" line="174" tag="B"></item>
+    <item id="o10" line="175" tag="T">            `... When that land came into existence, [people hunted game mammals (and cooked and</item>
+    <item id="o11" line="176" tag="T+AC+EX">            ate them)]...' (Canonical representation of hunting events in Kalam according to Pawley</item>
+    <item id="o12" line="177" tag="C+AC">            1987: 338)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="166" tag="L">mneb    ak lgl                 mdek</item>
+    <item id="c2" line="167" tag="G">KAL              land    that having.come.about it.existed.DS</item>
+    <item id="c3" line="168" tag="B"/>
+    <item id="c4" line="169" tag="L">kmn      ak pak dad apl,             ty</item>
+    <item id="c5" line="170" tag="G">game     that kill carry having.come what</item>
+    <item id="c6" line="171" tag="B"/>
+    <item id="c7" line="172" tag="L">ty   gl,         adl                    ñbek...</item>
+    <item id="c8" line="173" tag="G">what having.done having.cooked          he.ate</item>
+    <item id="c9" line="174" tag="B"/>
+    <item id="c10" line="175" tag="T">When that land came into existence, [people hunted game mammals (and cooked and</item>
+    <item id="c11" line="176" tag="T+AC+EX">ate them)]...' (Canonical representation of hunting events in Kalam according to Pawley</item>
+    <item id="c12" line="177" tag="C+AC">338)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+    <item id="p1" content="c4[0:39]"/>
+    <item id="p2" content="c7[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+    <item id="g1" content="c5[0:41]" alignment="p2"/>
+    <item id="g2" content="c8[0:46]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:79]" alignment="p3"/>
+    <item id="t1" content="c11[0:87]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i88136">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3274" line-range="1020-1025" line-types="L G L G T+CR M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1020" tag="L">     (23)   Mñab nb        ak       ned wagn ak g            g-ek</item>
+    <item id="o2" line="1021" tag="G">            country such this       first origin the happen it.happened</item>
+    <item id="o3" line="1022" tag="L">            mñab      Aytol-jl      alym...</item>
+    <item id="o4" line="1023" tag="G">            country Aytol-jl        down.there</item>
+    <item id="o5" line="1024" tag="T+CR">            `The place where th   is originally happened was down there at Aytol-jl.'</item>
+    <item id="o6" line="1025" tag="M+AC">            (Pawley 1994:408)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1020" tag="L">Mñab nb        ak       ned wagn ak g            g-ek</item>
+    <item id="c2" line="1021" tag="G">country such this       first origin the happen it.happened</item>
+    <item id="c3" line="1022" tag="L">mñab      Aytol-jl      alym...</item>
+    <item id="c4" line="1023" tag="G">country Aytol-jl        down.there</item>
+    <item id="c5" line="1024" tag="T+CR">The place where th   is originally happened was down there at Aytol-jl.</item>
+    <item id="c6" line="1025" tag="M+AC">Pawley 1994:408</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+    <item id="p1" content="c3[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+    <item id="g1" content="c4[0:34]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:71]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i88137">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3274" line-range="1027-1029" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1027" tag="L">     (24)   (a)    Pen            g-pan      g-pin.</item>
+    <item id="o2" line="1028" tag="G">                   reciprocally you.did I.did</item>
+    <item id="o3" line="1029" tag="T+AC">                   `I did the same as you.' (Pawley 1994:404)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1027" tag="L">(a)    Pen            g-pan      g-pin.</item>
+    <item id="c2" line="1028" tag="G">reciprocally you.did I.did</item>
+    <item id="c3" line="1029" tag="T+AC">I did the same as you.' (Pawley 1994:404)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88138">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3274" line-range="1031-1034" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1031" tag="L">            (b)    Gos     etp agi             ap    kun g-pan?</item>
+    <item id="o2" line="1032" tag="G">                   thought what having.thought come such you.did</item>
+    <item id="o3" line="1033" tag="T">                   `Whatever were you thinking that you came and did that?'</item>
+    <item id="o4" line="1034" tag="M+AC">                   (Pawley 1993:396)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1031" tag="L">Gos     etp agi             ap    kun g-pan?</item>
+    <item id="c2" line="1032" tag="G">thought what having.thought come such you.did</item>
+    <item id="c3" line="1033" tag="T">Whatever were you thinking that you came and did that?</item>
+    <item id="c4" line="1034" tag="M+AC">Pawley 1993:396</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88139">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3274" line-range="1039-1041" line-types="L G T+AC+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1039" tag="L">     (25)   Tap etp      g-p?</item>
+    <item id="o2" line="1040" tag="G">            thing what happen/do-3SG:PERF</item>
+    <item id="o3" line="1041" tag="T+AC+DB">            `What's happened?' or `What has he done?' (Pawley 1994:408)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1039" tag="L">Tap etp      g-p?</item>
+    <item id="c2" line="1040" tag="G">thing what happen/do-3SG:PERF</item>
+    <item id="c3" line="1041" tag="T+AC+DB">What's happened?' or `What has he done?' (Pawley 1994:408)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88140">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3274" line-range="1071-1073" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1071" tag="L">       (26)   Yp tep g-p.</item>
+    <item id="o2" line="1072" tag="G">              me good feel-3SG:PERF</item>
+    <item id="o3" line="1073" tag="T">              `I feel good.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1071" tag="L">Yp tep g-p.</item>
+    <item id="c2" line="1072" tag="G">me good feel-3SG:PERF</item>
+    <item id="c3" line="1073" tag="T">I feel good.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88200">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="1209-1212" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1209" tag="M+LN">   (26) Kalam:</item>
+    <item id="o2" line="1210" tag="L">        a. kasek d ow-an</item>
+    <item id="o3" line="1211" tag="G">            quickly get come-IMP*RATIV*:S:2S</item>
+    <item id="o4" line="1212" tag="T">            `Bring it quickly!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1209" tag="M+LN">Kalam:</item>
+    <item id="c2" line="1210" tag="L">kasek d ow-an</item>
+    <item id="c3" line="1211" tag="G">quickly get come-IMP*RATIV*:S:2S</item>
+    <item id="c4" line="1212" tag="T">Bring it quickly!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88201">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="1213-1215" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1213" tag="L">        b. nad ma-tb tk-p-yn</item>
+    <item id="o2" line="1214" tag="G">            you not-cut sever-P*RF*CT-S:2S</item>
+    <item id="o3" line="1215" tag="T+AC">            `You didn't cut it off.' (Pawley 1993: 118)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1213" tag="L">nad ma-tb tk-p-yn</item>
+    <item id="c2" line="1214" tag="G">you not-cut sever-P*RF*CT-S:2S</item>
+    <item id="c3" line="1215" tag="T+AC">You didn't cut it off.' (Pawley 1993: 118)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88202">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="1250-1252" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1250" tag="L">   (28) am wogday okok             kpl      g-ab-yn           o-p-yn</item>
+    <item id="o2" line="1251" tag="G">        go garden here.and.there weeding do-R*C*NT.PAST-S:1S come-P*RF*CT-S:1S</item>
+    <item id="o3" line="1252" tag="T+AC">        `I've been weeding in the garden.' (Pawley 1993: 111)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1250" tag="L">am wogday okok             kpl      g-ab-yn           o-p-yn</item>
+    <item id="c2" line="1251" tag="G">go garden here.and.there weeding do-R*C*NT.PAST-S:1S come-P*RF*CT-S:1S</item>
+    <item id="c3" line="1252" tag="T+AC">I've been weeding in the garden.' (Pawley 1993: 111)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88203">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="1263-1265" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1263" tag="L">   (29) mñmon lae nb am md-y,               toytk   ow-nk</item>
+    <item id="o2" line="1264" tag="G">        place Lae place go stay-SAM*.SBJ yesterday come-PAST:S:1S</item>
+    <item id="o3" line="1265" tag="T+AC">        `I came back from Lae yesterday.' (Pawley 1987: 329)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1263" tag="L">mñmon lae nb am md-y,               toytk   ow-nk</item>
+    <item id="c2" line="1264" tag="G">place Lae place go stay-SAM*.SBJ yesterday come-PAST:S:1S</item>
+    <item id="c3" line="1265" tag="T+AC">I came back from Lae yesterday.' (Pawley 1987: 329)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88204">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="1292-1294" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1292" tag="L">   (31)    a. mnek          am mon pk d ap ay-ak</item>
+    <item id="o2" line="1293" tag="G">              next.morning go wood hit get come place-PAST:S:3S</item>
+    <item id="o3" line="1294" tag="T+AC">              `Next morning he gathered firewood.' (Pawley 1987: 329)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1292" tag="L">mnek          am mon pk d ap ay-ak</item>
+    <item id="c2" line="1293" tag="G">next.morning go wood hit get come place-PAST:S:3S</item>
+    <item id="c3" line="1294" tag="T+AC">Next morning he gathered firewood.' (Pawley 1987: 329)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88205">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="1295-1298" line-types="L G T+AC C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1295" tag="L">           b. kmn pak d ap ad ñb-l                        ap-elgp-al</item>
+    <item id="o2" line="1296" tag="G">              game hit get come cook eat-SAM*.SBJ:PRIOR come-PAST.HAB-S:3PL</item>
+    <item id="o3" line="1297" tag="T+AC">              `...and having killed, cooked and eaten the game, they used to return home.' (Pawley</item>
+    <item id="o4" line="1298" tag="C">              2004a)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1295" tag="L">kmn pak d ap ad ñb-l                        ap-elgp-al</item>
+    <item id="c2" line="1296" tag="G">game hit get come cook eat-SAM*.SBJ:PRIOR come-PAST.HAB-S:3PL</item>
+    <item id="c3" line="1297" tag="T+AC">...and having killed, cooked and eaten the game, they used to return home.' (Pawley</item>
+    <item id="c4" line="1298" tag="C">2004a)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:83]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88206">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="1314-1318" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1314" tag="L">   (32)    a. ... n-l                    yg-l                   pal-l        dad</item>
+    <item id="o2" line="1315" tag="G">                  see-SAM*.SBJ:PRIOR dig-SAM*.SBJ:PRIOR hit-SAM*.SBJ:PRIOR carry</item>
+    <item id="o3" line="1316" tag="L">              o-p-al                 ...</item>
+    <item id="o4" line="1317" tag="G">              come-P*RF*CT-S:3P</item>
+    <item id="o5" line="1318" tag="T">              `...they see (it) and dig, hit (it) and carry it back ...'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1314" tag="L">... n-l                    yg-l                   pal-l        dad</item>
+    <item id="c2" line="1315" tag="G">see-SAM*.SBJ:PRIOR dig-SAM*.SBJ:PRIOR hit-SAM*.SBJ:PRIOR carry</item>
+    <item id="c3" line="1316" tag="L">o-p-al                 ...</item>
+    <item id="c4" line="1317" tag="G">come-P*RF*CT-S:3P</item>
+    <item id="c5" line="1318" tag="T">...they see (it) and dig, hit (it) and carry it back ...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+    <item id="p1" content="c3[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+    <item id="g1" content="c4[0:17]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:56]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i88207">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="1319-1321" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1319" tag="L">           b. bin      pataj ogok am yg pak dad ap-elgp-al               ...</item>
+    <item id="o2" line="1320" tag="G">              woman young the:PL go dig hit carry come-PAST:HAB-S:3P</item>
+    <item id="o3" line="1321" tag="T">              `Young women used to go and dig and hit and bring back (these animals) ...'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1319" tag="L">bin      pataj ogok am yg pak dad ap-elgp-al               ...</item>
+    <item id="c2" line="1320" tag="G">woman young the:PL go dig hit carry come-PAST:HAB-S:3P</item>
+    <item id="c3" line="1321" tag="T">Young women used to go and dig and hit and bring back (these animals) ...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:73]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i112287">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalam" iso-639-3="kmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="410" line-range="1817-1819" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1817" tag="L+AC">        (83)    Ap tap nb             nn-an!                              (Pawley 1994:398)</item>
+    <item id="o2" line="1818" tag="G">                come food consume perceive-2SG:IMP</item>
+    <item id="o3" line="1819" tag="T">                   `Come and taste this food.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1817" tag="L+AC">Ap tap nb             nn-an!                              (Pawley 1994:398</item>
+    <item id="c2" line="1818" tag="G">come food consume perceive-2SG:IMP</item>
+    <item id="c3" line="1819" tag="T">Come and taste this food.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

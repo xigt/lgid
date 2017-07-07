@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i87951">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ngamini" iso-639-3="nmv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3273" line-range="344-346" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="344" tag="L">  (12) Thurru            ngakarni       dandra-pa.</item>
+    <item id="o2" line="345" tag="G">       firewood          I dat          chop- alt:imper</item>
+    <item id="o3" line="346" tag="T">        `Chop some firewood for me!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="344" tag="L">Thurru            ngakarni       dandra-pa.</item>
+    <item id="c2" line="345" tag="G">firewood          I dat          chop-alt:imper</item>
+    <item id="c3" line="346" tag="T">Chop some firewood for me!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

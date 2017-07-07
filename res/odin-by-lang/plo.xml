@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i11882">
+  <metadata type="xigt-meta">
+    <meta type="language" name="olutec" iso-639-3="plo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2471" line-range="8537-8538" line-types="L-T+DB G+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8537" tag="L-T+DB">  (1)      pa7k kafet                   'sweet coffee'     (2)       kafet ø-pa7k-aj             'coffee that is sweet'</item>
+    <item id="o2" line="8538" tag="G+DB">           sweet coffee                                              coffee ABS3-sweet-REL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8537" tag="L-T+DB">pa7k kafet                   'sweet coffee'     (2)       kafet ø-pa7k-aj             'coffee that is sweet</item>
+    <item id="c2" line="8538" tag="G+DB">sweet coffee                                              coffee ABS3-sweet-REL</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:79]"/>
+  </tier>
+</igt>
+<igt id="i14754">
+  <metadata type="xigt-meta">
+    <meta type="language" name="olutec" iso-639-3="plo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3538" line-range="8537-8538" line-types="L-T+DB G+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8537" tag="L-T+DB">  (1)      pa7k kafet                   'sweet coffee'     (2)       kafet ø-pa7k-aj             'coffee that is sweet'</item>
+    <item id="o2" line="8538" tag="G+DB">           sweet coffee                                              coffee ABS3-sweet-REL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8537" tag="L-T+DB">pa7k kafet                   'sweet coffee'     (2)       kafet ø-pa7k-aj             'coffee that is sweet</item>
+    <item id="c2" line="8538" tag="G+DB">sweet coffee                                              coffee ABS3-sweet-REL</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:79]"/>
+  </tier>
+</igt>
+<igt id="i14755">
+  <metadata type="xigt-meta">
+    <meta type="language" name="olutec" iso-639-3="plo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3538" line-range="8548-8551" line-types="L+DB+CR L+DB+CR L+DB+CR G+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8548" tag="L+DB+CR">  (3)   s e mmi=ka:=7oya (4)</item>
+    <item id="o2" line="8549" tag="L+DB+CR">              e                               ta=7oya-7i:y7-u                              (5)      7oya             7i=7it-an</item>
+    <item id="o3" line="8550" tag="L+DB+CR">  je7 mo:k</item>
+    <item id="o4" line="8551" tag="G+DB">        very ABS2=NEG=good                             ABS1-good-INCHOATIVE-COMPLETIVE                        goodABS3=exist-</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8548" tag="L+DB+CR">s e mmi=ka:=7oya (4</item>
+    <item id="c4" line="8551" tag="G+DB">very ABS2=NEG=good                             ABS1-good-INCHOATIVE-COMPLETIVE                        goodABS3=exist-</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:117]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15943">
+  <metadata type="xigt-meta">
+    <meta type="language" name="oluta popoluca" iso-639-3="plo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="2667-2673" line-types="M+CR M+AC+LN+CN+CR B L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2667" tag="M+CR">                                           II</item>
+    <item id="o2" line="2668" tag="M+AC+LN+CN+CR">  (18) OLUTEC    PERSONAL PROCLITICS            (Zavala 1998)</item>
+    <item id="o3" line="2669" tag="B"></item>
+    <item id="o4" line="2670" tag="L+CR">                                                        Mawro.</item>
+    <item id="o5" line="2671" tag="L+CR">       a. Tan='ixkap-u=na             je'=k</item>
+    <item id="o6" line="2672" tag="G">           1I=know-COMPL=still        DEF=ANIM          M.</item>
+    <item id="o7" line="2673" tag="T">           `I still knew Mauro.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2667 2668" tag="M+CR+AC+LN+CN">OLUTEC    PERSONAL PROCLITICS       II   (Zavala 1998</item>
+    <item id="c3" line="2669" tag="B"/>
+    <item id="c4" line="2670 2671" tag="L+CR">Tan='ixkap-u=na             je'=k             Mawro.</item>
+    <item id="c6" line="2672" tag="G">1I=know-COMPL=still        DEF=ANIM          M.</item>
+    <item id="c7" line="2673" tag="T">I still knew Mauro.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c4[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15944">
+  <metadata type="xigt-meta">
+    <meta type="language" name="oluta popoluca" iso-639-3="plo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="2674-2677" line-types="L G T+DB+LT C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2674" tag="L">       b. 'I=ka'=wan'-u=k                       tan=mn'-i.</item>
+    <item id="o2" line="2675" tag="G">           3I=NEG=want-COMPL=ANIM               1I=come-INCMPL</item>
+    <item id="o3" line="2676" tag="T+DB+LT">           `They did not want me to come back (lit. they did not want that I come</item>
+    <item id="o4" line="2677" tag="C">           back).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2674" tag="L">'I=ka'=wan'-u=k                       tan=mn'-i.</item>
+    <item id="c2" line="2675" tag="G">3I=NEG=want-COMPL=ANIM               1I=come-INCMPL</item>
+    <item id="c3" line="2676" tag="T+DB+LT">They did not want me to come back (lit. they did not want that I come</item>
+    <item id="c4" line="2677" tag="C">back).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:69]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15945">
+  <metadata type="xigt-meta">
+    <meta type="language" name="oluta popoluca" iso-639-3="plo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="2678-2681" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2678" tag="L+CR">                                tan=nax-mü.</item>
+    <item id="o2" line="2679" tag="L+CR">       c. Ta=nükx-pa</item>
+    <item id="o3" line="2680" tag="G">           1II=go-INCMPL        1POSS=earth-LOC</item>
+    <item id="o4" line="2681" tag="T">           `I am going to my town.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2678 2679" tag="L+CR">Ta=nükx-pa           tan=nax-mü.</item>
+    <item id="c3" line="2680" tag="G">1II=go-INCMPL        1POSS=earth-LOC</item>
+    <item id="c4" line="2681" tag="T">I am going to my town.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15946">
+  <metadata type="xigt-meta">
+    <meta type="language" name="oluta popoluca" iso-639-3="plo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="2692-2695" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2692" tag="L+CR">                                        tax=kom-e-t-ütz                      koxo.</item>
+    <item id="o2" line="2693" tag="L+CR">          d. Ka'=küx-u                                               je'</item>
+    <item id="o3" line="2694" tag="G">             NEG=finish-COMPL            1III=plant-INCMPL-pSAP-e    DEF     day</item>
+    <item id="o4" line="2695" tag="T">             `Wee did not finish planting it that day.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2692 2693" tag="L+CR">Ka'=küx-u                 tax=kom-e-t-ütz              je'     koxo.</item>
+    <item id="c3" line="2694" tag="G">NEG=finish-COMPL            1III=plant-INCMPL-pSAP-e    DEF     day</item>
+    <item id="c4" line="2695" tag="T">Wee did not finish planting it that day.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15947">
+  <metadata type="xigt-meta">
+    <meta type="language" name="oluta popoluca" iso-639-3="plo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="2704-2709" line-types="M+CR M+AC+LN+CN+CR B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2704" tag="M+CR">                                I</item>
+    <item id="o2" line="2705" tag="M+AC+LN+CN+CR">  (19) OLUTEC      INVERSION        (Zavala 2000:140)</item>
+    <item id="o3" line="2706" tag="B"></item>
+    <item id="o4" line="2707" tag="L">          a. Tan=tzek-küx-u             ja'.</item>
+    <item id="o5" line="2708" tag="G">             1I=scold-3p-COMPL          3ANIM</item>
+    <item id="o6" line="2709" tag="T">             `I scolded them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2704 2705" tag="M+CR+AC+LN+CN">OLUTEC      INVERSION    I   (Zavala 2000:140</item>
+    <item id="c3" line="2706" tag="B"/>
+    <item id="c4" line="2707" tag="L">Tan=tzek-küx-u             ja'.</item>
+    <item id="c5" line="2708" tag="G">1I=scold-3p-COMPL          3ANIM</item>
+    <item id="c6" line="2709" tag="T">I scolded them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c4[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15948">
+  <metadata type="xigt-meta">
+    <meta type="language" name="oluta popoluca" iso-639-3="plo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="2710-2712" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2710" tag="L">          b. Ta=tzek-küx-ü-w=ja'.</item>
+    <item id="o2" line="2711" tag="G">             1II=scold-3p-INV-COMPL=3ANIM</item>
+    <item id="o3" line="2712" tag="T">             `They scolded me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2710" tag="L">Ta=tzek-küx-ü-w=ja'.</item>
+    <item id="c2" line="2711" tag="G">1II=scold-3p-INV-COMPL=3ANIM</item>
+    <item id="c3" line="2712" tag="T">They scolded me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15949">
+  <metadata type="xigt-meta">
+    <meta type="language" name="oluta popoluca" iso-639-3="plo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="2719-2724" line-types="M+AC+LN+CN B L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2719" tag="M+AC+LN+CN">  (20) OLUTEC      INVERSION         (Zavala 2000:144f)</item>
+    <item id="o2" line="2720" tag="B"></item>
+    <item id="o3" line="2721" tag="L+CR">                                      tüyan-pi.</item>
+    <item id="o4" line="2722" tag="L+CR">          a. Ta='it-pa</item>
+    <item id="o5" line="2723" tag="G">             1II=exist-INCMPL         hammock-LOC</item>
+    <item id="o6" line="2724" tag="T">             `I am on the hammock.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2719" tag="M+AC+LN+CN">OLUTEC      INVERSION         (Zavala 2000:144f</item>
+    <item id="c2" line="2720" tag="B"/>
+    <item id="c3" line="2721 2722" tag="L+CR">Ta='it-pa                tüyan-pi.</item>
+    <item id="c5" line="2723" tag="G">1II=exist-INCMPL         hammock-LOC</item>
+    <item id="c6" line="2724" tag="T">I am on the hammock.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15950">
+  <metadata type="xigt-meta">
+    <meta type="language" name="oluta popoluca" iso-639-3="plo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="2725-2727" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2725" tag="L">          b. Ta='it-küx-ü-w                    yoxetumpa'-tük.</item>
+    <item id="o2" line="2726" tag="G">             1II=exist-3p-INV-COMPL            worker-p</item>
+    <item id="o3" line="2727" tag="T">             `I had workers (lit. workers existed on me).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2725" tag="L">Ta='it-küx-ü-w                    yoxetumpa'-tük.</item>
+    <item id="c2" line="2726" tag="G">1II=exist-3p-INV-COMPL            worker-p</item>
+    <item id="c3" line="2727" tag="T">I had workers (lit. workers existed on me).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15951">
+  <metadata type="xigt-meta">
+    <meta type="language" name="oluta popoluca" iso-639-3="plo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="2728-2731" line-types="L+DB+CR L+DB+CR G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2728" tag="L+DB+CR">                                               c2. Ta=jom-ü-pa.</item>
+    <item id="o2" line="2729" tag="L+DB+CR">          c. *Ta=jom-pa.</item>
+    <item id="o3" line="2730" tag="G+DB">             1II=sweat-INCMPL                      1II=sweat-INV-INCMPL</item>
+    <item id="o4" line="2731" tag="T+DB">          Both (c1 intended): `I am sweating.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2728 2729" tag="L+DB+CR">*Ta=jom-pa.                       c2. Ta=jom-ü-pa.</item>
+    <item id="c3" line="2730" tag="G+DB">1II=sweat-INCMPL                      1II=sweat-INV-INCMPL</item>
+    <item id="c4" line="2731" tag="T+DB">Both (c1 intended): `I am sweating.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15957">
+  <metadata type="xigt-meta">
+    <meta type="language" name="olutec" iso-639-3="plo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="2826-2831" line-types="M+CR M+AC+LN+CN+CR B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2826" tag="M+CR">                              III</item>
+    <item id="o2" line="2827" tag="M+AC+LN+CN+CR">  (23) OLUTEC     INVERSION         (Zavala 2000:203)</item>
+    <item id="o3" line="2828" tag="B"></item>
+    <item id="o4" line="2829" tag="L">       a. Jep      min=ni-yuk-a'ne-j.</item>
+    <item id="o5" line="2830" tag="G">          there    2I=REFL-hide-IRR-INV</item>
+    <item id="o6" line="2831" tag="T">          `Yous are going to hide yourself there.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2826 2827" tag="M+CR+AC+LN+CN">OLUTEC     INVERSION   III   (Zavala 2000:203</item>
+    <item id="c3" line="2828" tag="B"/>
+    <item id="c4" line="2829" tag="L">Jep      min=ni-yuk-a'ne-j.</item>
+    <item id="c5" line="2830" tag="G">there    2I=REFL-hide-IRR-INV</item>
+    <item id="c6" line="2831" tag="T">Yous are going to hide yourself there.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c4[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15958">
+  <metadata type="xigt-meta">
+    <meta type="language" name="olutec" iso-639-3="plo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="2835-2838" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2835" tag="L+CR">                                                      nax-pa't-pi.</item>
+    <item id="o2" line="2836" tag="L+CR">       b. Tuka-nak Ø=ni-tajiy-ü-w</item>
+    <item id="o3" line="2837" tag="G">          turtle-DIM   3II=REFL-bury-INV-COMPL        soil-under-LOC</item>
+    <item id="o4" line="2838" tag="T">          `The little turtle buried itself under the soil.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2835 2836" tag="L+CR">Tuka-nak Ø=ni-tajiy-ü-w                   nax-pa't-pi.</item>
+    <item id="c3" line="2837" tag="G">turtle-DIM   3II=REFL-bury-INV-COMPL        soil-under-LOC</item>
+    <item id="c4" line="2838" tag="T">The little turtle buried itself under the soil.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

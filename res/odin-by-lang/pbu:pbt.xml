@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i82872">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pbt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3617" line-range="114-120" line-types="L+CR L+LN+CR B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="114" tag="L+CR">                 (Z?) manna xwr-?m.</item>
+    <item id="o2" line="115" tag="L+LN+CR">  (1)    a.                                                                                   Pashto</item>
+    <item id="o3" line="116" tag="B"></item>
+    <item id="o4" line="117" tag="G+CR">                 I.          apple eat-1.S</item>
+    <item id="o5" line="118" tag="G+CR">                      NO M                        G</item>
+    <item id="o6" line="119" tag="B"></item>
+    <item id="o7" line="120" tag="T">                 `[I] eat the apple.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="114 115" tag="L+CR+LN">(Z?) manna xwr-?m.                                                           Pashto</item>
+    <item id="c3" line="116" tag="B"/>
+    <item id="c4" line="117 118" tag="G+CR">NO M   apple eat-1.S        G</item>
+    <item id="c6" line="119" tag="B"/>
+    <item id="c7" line="120" tag="T">[I] eat the apple.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:83]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82873">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pbt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3617" line-range="122-129" line-types="L+CR L+CR L+CR B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="122" tag="L+CR">                            *(manna) xwr-?m.</item>
+    <item id="o2" line="123" tag="L+CR">                 Z?</item>
+    <item id="o3" line="124" tag="L+CR">         b.</item>
+    <item id="o4" line="125" tag="B"></item>
+    <item id="o5" line="126" tag="G+CR">                 I.           a p p le       eat-1.S</item>
+    <item id="o6" line="127" tag="G+CR">                      NO M                             G</item>
+    <item id="o7" line="128" tag="B"></item>
+    <item id="o8" line="129" tag="T">                 `I eat [the apple].'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="122 123 124" tag="L+CR">Z?         *(manna) xwr-?m.</item>
+    <item id="c4" line="125" tag="B"/>
+    <item id="c5" line="126 127" tag="G+CR">NO M    a p p le       eat-1.S   G</item>
+    <item id="c7" line="128" tag="B"/>
+    <item id="c8" line="129" tag="T">I eat [the apple].</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82874">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pbt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3617" line-range="131-137" line-types="L+CR L+CR B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="131" tag="L+CR">                 *(Maa) manna w?-xwarr-a.</item>
+    <item id="o2" line="132" tag="L+CR">         c.</item>
+    <item id="o3" line="133" tag="B"></item>
+    <item id="o4" line="134" tag="G+CR">                 I.          a p p le       PERF-a     te-3.F.</item>
+    <item id="o5" line="135" tag="G+CR">                      ERG                                        SG</item>
+    <item id="o6" line="136" tag="B"></item>
+    <item id="o7" line="137" tag="T">                 `[I] ate the apple.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="131 132" tag="L+CR">*(Maa) manna w?-xwarr-a.</item>
+    <item id="c3" line="133" tag="B"/>
+    <item id="c4" line="134 135" tag="G+CR">ERG    a p p le       PERF-a     te-3.F.   SG</item>
+    <item id="c6" line="136" tag="B"/>
+    <item id="c7" line="137" tag="T">[I] ate the apple.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82875">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pbt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3617" line-range="139-145" line-types="L+CR L+CR B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="139" tag="L+CR">                 Maa (manna) w?-xwarr-a.</item>
+    <item id="o2" line="140" tag="L+CR">         d.</item>
+    <item id="o3" line="141" tag="B"></item>
+    <item id="o4" line="142" tag="G+CR">                 I.         a p p le        PERF-a     te-3.F.</item>
+    <item id="o5" line="143" tag="G+CR">                      ERG                                        SG</item>
+    <item id="o6" line="144" tag="B"></item>
+    <item id="o7" line="145" tag="T">                 `I ate [the apple].'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="139 140" tag="L+CR">Maa (manna) w?-xwarr-a.</item>
+    <item id="c3" line="141" tag="B"/>
+    <item id="c4" line="142 143" tag="G+CR">ERG   a p p le        PERF-a     te-3.F.   SG</item>
+    <item id="c6" line="144" tag="B"/>
+    <item id="c7" line="145" tag="T">I ate [the apple].</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82927">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pbt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3617" line-range="1985-1988" line-types="L B G+CR G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1985" tag="L">  (48)        a.        *(Di taa)              plaar mee dee wé-leg-i.                                                             Pashto</item>
+    <item id="o2" line="1986" tag="B"></item>
+    <item id="o3" line="1987" tag="G+CR">                        of    2 .S G.          father 1.        must   PERF-send-PRES         .3.</item>
+    <item id="o4" line="1988" tag="G+CR">                                        OB L               SG                                       SG</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1985" tag="L">*(Di taa)              plaar mee dee wé-leg-i.                                                             Pashto</item>
+    <item id="c2" line="1986" tag="B"/>
+    <item id="c3" line="1987 1988" tag="G+CR">of    2 .S G.   OB L   father 1.   SG   must   PERF-send-PRES         .3.   SG</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:113]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:78]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82928">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pbt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3617" line-range="1990-1995" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1990" tag="L">              b.        Di *(taa)             plaar mee dee wé-leg-i.</item>
+    <item id="o2" line="1991" tag="B"></item>
+    <item id="o3" line="1992" tag="G+CR">                        of   2 .S G.          father 1.        must          -send-P         .3.</item>
+    <item id="o4" line="1993" tag="G+CR">                                       OB L               SG          PERF             RES         SG</item>
+    <item id="o5" line="1994" tag="B"></item>
+    <item id="o6" line="1995" tag="T">                        `Your father must send me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1990" tag="L">Di *(taa)             plaar mee dee wé-leg-i.</item>
+    <item id="c2" line="1991" tag="B"/>
+    <item id="c3" line="1992 1993" tag="G+CR">of   2 .S G.   OB L   father 1.   SG   must   PERF-send-P   RES   .3.   SG</item>
+    <item id="c5" line="1994" tag="B"/>
+    <item id="c6" line="1995" tag="T">Your father must send me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82929">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pbt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3617" line-range="2003-2008" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2003" tag="L">  (49)          Plaar mee *(dee) léeg-i                                                                             Pashto</item>
+    <item id="o2" line="2004" tag="B"></item>
+    <item id="o3" line="2005" tag="G+CR">                father 1.        2.        send-PRES.3.</item>
+    <item id="o4" line="2006" tag="G+CR">                            SG        SG                  SG</item>
+    <item id="o5" line="2007" tag="B"></item>
+    <item id="o6" line="2008" tag="T">                `Your father is sending me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2003" tag="L">Plaar mee *(dee) léeg-i                                                                             Pashto</item>
+    <item id="c2" line="2004" tag="B"/>
+    <item id="c3" line="2005 2006" tag="G+CR">father 1.   SG   2.   SG   send-PRES.3.   SG</item>
+    <item id="c5" line="2007" tag="B"/>
+    <item id="c6" line="2008" tag="T">Your father is sending me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:106]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

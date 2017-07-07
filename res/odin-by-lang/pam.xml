@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i34270">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kapampangan" iso-639-3="pam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3726" line-range="528-530" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="528" tag="L">       (33) a. Binye-ne     ning      babai     ing libro king             anak.</item>
+    <item id="o2" line="529" tag="G">               gave-she/it Erg        woman Abs book Dat                   child</item>
+    <item id="o3" line="530" tag="T">               `The woman gave the    book to the child.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="528" tag="L">Binye-ne     ning      babai     ing libro king             anak.</item>
+    <item id="c2" line="529" tag="G">gave-she/it Erg        woman Abs book Dat                   child</item>
+    <item id="c3" line="530" tag="T">The woman gave the    book to the child.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i34271">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kapampangan" iso-639-3="pam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3726" line-range="531-533" line-types="L+SY G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="531" tag="L+SY">            b. [VP Dininan-ne-ng        libro] ning babai     ing          anak.</item>
+    <item id="o2" line="532" tag="G">                    gave-she/it-Obl     book Erg woman Abs                 child</item>
+    <item id="o3" line="533" tag="T+AC">               `The woman gave the    child a book.' (Rowsell 1983)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="531" tag="L+SY">[VP Dininan-ne-ng        libro] ning babai     ing          anak.</item>
+    <item id="c2" line="532" tag="G">gave-she/it-Obl     book Erg woman Abs                 child</item>
+    <item id="c3" line="533" tag="T+AC">The woman gave the    child a book.' (Rowsell 1983)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63334">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kapampangan" iso-639-3="pam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2555" line-range="453-465" line-types="L G G L G L G L G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="453" tag="L">      (41)   I         Apu=ku</item>
+    <item id="o2" line="454" tag="G">                       grandfather=1SG.GEN</item>
+    <item id="o3" line="455" tag="G">             PN</item>
+    <item id="o4" line="456" tag="L">                paglinisan=na=na=la                     rening      ungut</item>
+    <item id="o5" line="457" tag="G">                clean:PV=3SG.GEN=now=3PL.NOM            NOM.PL      old.coconut</item>
+    <item id="o6" line="458" tag="L">                bangalan=na=la</item>
+    <item id="o7" line="459" tag="G">                cut.open:PV=3SG.GEN=3PL.NOM</item>
+    <item id="o8" line="460" tag="L">                at ...    deng        kayabe=mi              king bale</item>
+    <item id="o9" line="461" tag="G">                and       GEN.PL      helper=1PL.EX.GEN DAT house</item>
+    <item id="o10" line="462" tag="L">                kudkuran=da=na=la</item>
+    <item id="o11" line="463" tag="G">                grate:PV=3PL.GEN=now=3PL.NOM</item>
+    <item id="o12" line="464" tag="T">                `My grandfather, (he) will clean the mature coconuts, (and) cut them open,</item>
+    <item id="o13" line="465" tag="T">                 and, our helpers in the house, they will grate them ...'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="453" tag="L">I         Apu=ku</item>
+    <item id="c2" line="454" tag="G">grandfather=1SG.GEN</item>
+    <item id="c3" line="455" tag="G">PN</item>
+    <item id="c4" line="456" tag="L">paglinisan=na=na=la                     rening      ungut</item>
+    <item id="c5" line="457" tag="G">clean:PV=3SG.GEN=now=3PL.NOM            NOM.PL      old.coconut</item>
+    <item id="c6" line="458" tag="L">bangalan=na=la</item>
+    <item id="c7" line="459" tag="G">cut.open:PV=3SG.GEN=3PL.NOM</item>
+    <item id="c8" line="460" tag="L">at ...    deng        kayabe=mi              king bale</item>
+    <item id="c9" line="461" tag="G">and       GEN.PL      helper=1PL.EX.GEN DAT house</item>
+    <item id="c10" line="462" tag="L">kudkuran=da=na=la</item>
+    <item id="c11" line="463" tag="G">grate:PV=3PL.GEN=now=3PL.NOM</item>
+    <item id="c12" line="464" tag="T">My grandfather, (he) will clean the mature coconuts, (and) cut them open,</item>
+    <item id="c13" line="465" tag="T">and, our helpers in the house, they will grate them ...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+    <item id="p1" content="c4[0:57]"/>
+    <item id="p2" content="c6[0:14]"/>
+    <item id="p3" content="c8[0:54]"/>
+    <item id="p4" content="c10[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:19]" alignment="p1"/>
+    <item id="g1" content="c3[0:2]" alignment="p1"/>
+    <item id="g2" content="c5[0:63]" alignment="p2"/>
+    <item id="g3" content="c7[0:27]" alignment="p3"/>
+    <item id="g4" content="c9[0:49]" alignment="p4"/>
+    <item id="g5" content="c11[0:28]" alignment="p5"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c12[0:73]" alignment="p5"/>
+    <item id="t1" content="c13[0:55]" alignment="p5"/>
+  </tier>
+</igt>
+<igt id="i136227">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kapampangan" iso-639-3="pam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="4567-4575" line-types="M+LN L B G+CR+SY G+CR+SY G+CR+SY B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4567" tag="M+LN">  (95) Kapampangan (Austronesian: Philippines )</item>
+    <item id="o2" line="4568" tag="L">       a.   sumulat ya            ng          poesia ing lalaki</item>
+    <item id="o3" line="4569" tag="B"></item>
+    <item id="o4" line="4570" tag="G+CR+SY">            D-write               [   ACC+D   poem]j [        boy]</item>
+    <item id="o5" line="4571" tag="G+CR+SY">                        3SG                              D</item>
+    <item id="o6" line="4572" tag="G+CR+SY">                              i                                        i</item>
+    <item id="o7" line="4573" tag="B"></item>
+    <item id="o8" line="4574" tag="B"></item>
+    <item id="o9" line="4575" tag="T">            `The boy will write a poem.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4567" tag="M+LN">Kapampangan (Austronesian: Philippines</item>
+    <item id="c2" line="4568" tag="L">sumulat ya            ng          poesia ing lalaki</item>
+    <item id="c3" line="4569" tag="B"/>
+    <item id="c4" line="4570 4571 4572" tag="G+CR+SY">D-write     3SG   i   [   ACC+D   poem]j [   D    boy]     i</item>
+    <item id="c7" line="4573" tag="B"/>
+    <item id="c8" line="4574" tag="B"/>
+    <item id="c9" line="4575" tag="T">The boy will write a poem.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136228">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kapampangan" iso-639-3="pam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="4577-4584" line-types="L B G+CR+SY G+CR+SY G+CR+SY B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4577" tag="L">       b.   i-sulat       na+ya (= ne) ing poesia n-ing lalaki</item>
+    <item id="o2" line="4578" tag="B"></item>
+    <item id="o3" line="4579" tag="G+CR+SY">                   write 3SG i+3SG                  poem]j [      ERG-D    boy]</item>
+    <item id="o4" line="4580" tag="G+CR+SY">                                               [D</item>
+    <item id="o5" line="4581" tag="G+CR+SY">            FUT-                         j                                        i</item>
+    <item id="o6" line="4582" tag="B"></item>
+    <item id="o7" line="4583" tag="B"></item>
+    <item id="o8" line="4584" tag="T">            `The boy will write a poem.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4577" tag="L">i-sulat       na+ya (= ne) ing poesia n-ing lalaki</item>
+    <item id="c2" line="4578" tag="B"/>
+    <item id="c3" line="4579 4580 4581" tag="G+CR+SY">FUT-write 3SG i+3SG       j     [D   poem]j [      ERG-D    boy]   i</item>
+    <item id="c6" line="4582" tag="B"/>
+    <item id="c7" line="4583" tag="B"/>
+    <item id="c8" line="4584" tag="T">The boy will write a poem.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136229">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kapampangan" iso-639-3="pam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="4619-4626" line-types="M+LN L B G+CR+SY G+CR+SY B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4619" tag="M+LN">  (96) Kapampangan (Austronesian: Philippines )</item>
+    <item id="o2" line="4620" tag="L">       a.   i-sulat        me            ing sulat</item>
+    <item id="o3" line="4621" tag="B"></item>
+    <item id="o4" line="4622" tag="G+CR+SY">                    write 2SG i+3SGj [D letter]</item>
+    <item id="o5" line="4623" tag="G+CR+SY">            FUT-                                          j</item>
+    <item id="o6" line="4624" tag="B"></item>
+    <item id="o7" line="4625" tag="B"></item>
+    <item id="o8" line="4626" tag="T">            `You will write a letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4619" tag="M+LN">Kapampangan (Austronesian: Philippines</item>
+    <item id="c2" line="4620" tag="L">i-sulat        me            ing sulat</item>
+    <item id="c3" line="4621" tag="B"/>
+    <item id="c4" line="4622 4623" tag="G+CR+SY">FUT-write 2SG i+3SGj [D letter]           j</item>
+    <item id="c6" line="4624" tag="B"/>
+    <item id="c7" line="4625" tag="B"/>
+    <item id="c8" line="4626" tag="T">You will write a letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136230">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kapampangan" iso-639-3="pam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="4628-4634" line-types="L B G+CR+SY G+CR+SY B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4628" tag="L">       b.   su-sulat       me            ing sulat</item>
+    <item id="o2" line="4629" tag="B"></item>
+    <item id="o3" line="4630" tag="G+CR+SY">                    write 2SG i+3SGj [D letter]</item>
+    <item id="o4" line="4631" tag="G+CR+SY">            PRS-                                          j</item>
+    <item id="o5" line="4632" tag="B"></item>
+    <item id="o6" line="4633" tag="B"></item>
+    <item id="o7" line="4634" tag="T">            `You are writing a letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4628" tag="L">su-sulat       me            ing sulat</item>
+    <item id="c2" line="4629" tag="B"/>
+    <item id="c3" line="4630 4631" tag="G+CR+SY">PRS-write 2SG i+3SGj [D letter]           j</item>
+    <item id="c5" line="4632" tag="B"/>
+    <item id="c6" line="4633" tag="B"/>
+    <item id="c7" line="4634" tag="T">You are writing a letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136231">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kapampangan" iso-639-3="pam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="4636-4642" line-types="L B G+CR+SY G+CR+SY B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4636" tag="L">       c.   s-in-ulat me                 ing sulat</item>
+    <item id="o2" line="4637" tag="B"></item>
+    <item id="o3" line="4638" tag="G+CR+SY">                    write 2SG i+3SGj [D letter]</item>
+    <item id="o4" line="4639" tag="G+CR+SY">            PST-                                          j</item>
+    <item id="o5" line="4640" tag="B"></item>
+    <item id="o6" line="4641" tag="B"></item>
+    <item id="o7" line="4642" tag="T">            `You wrote a letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4636" tag="L">s-in-ulat me                 ing sulat</item>
+    <item id="c2" line="4637" tag="B"/>
+    <item id="c3" line="4638 4639" tag="G+CR+SY">PST-write 2SG i+3SGj [D letter]           j</item>
+    <item id="c5" line="4640" tag="B"/>
+    <item id="c6" line="4641" tag="B"/>
+    <item id="c7" line="4642" tag="T">You wrote a letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

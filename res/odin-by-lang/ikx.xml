@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i37928">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ik" iso-639-3="ikx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1187" line-range="48-56" line-types="L G+CR G+CR B L+CR L+CR G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="48" tag="L">   4)     sa-a             bEÎ-at-ie   itsumi-es-u°oti-a                   asi-e  bisi-tin</item>
+    <item id="o2" line="49" tag="G+CR">  Ik      some-            want-3p-SBJ knife/spear-NOM-        AND-ACC     RFL-GEN     spear-PL</item>
+    <item id="o3" line="50" tag="G+CR">                  ACC</item>
+    <item id="o4" line="51" tag="B"></item>
+    <item id="o5" line="52" tag="L+CR">                                                            asi-e</item>
+    <item id="o6" line="53" tag="L+CR">          sa-a       bEÎ-at-ie       iketi-es-u°oti-a</item>
+    <item id="o7" line="54" tag="G">          some-ACC want-3p-SBJ hang-NOM-AND-ACC RFL-GEN</item>
+    <item id="o8" line="55" tag="T">          `(Her mothers, brothers, sisters, and fathers were held.) Some wanting to stab</item>
+    <item id="o9" line="56" tag="T">          themselves with spears; some wanting to hang themselves.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="48" tag="L">sa-a             bEÎ-at-ie   itsumi-es-u°oti-a                   asi-e  bisi-tin</item>
+    <item id="c2" line="49 50" tag="G+CR">Ik      some-ACC      want-3p-SBJ knife/spear-NOM-AND-ACC     RFL-GEN     spear-PL</item>
+    <item id="c4" line="51" tag="B"/>
+    <item id="c5" line="52 53" tag="L+CR">sa-a       bEÎ-at-ie       iketi-es-u°oti-a     asi-e</item>
+    <item id="c7" line="54" tag="G">some-ACC want-3p-SBJ hang-NOM-AND-ACC RFL-GEN</item>
+    <item id="c8" line="55" tag="T">(Her mothers, brothers, sisters, and fathers were held.) Some wanting to stab</item>
+    <item id="c9" line="56" tag="T">themselves with spears; some wanting to hang themselves.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+    <item id="p1" content="c5[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:82]" alignment="p1"/>
+    <item id="g1" content="c7[0:45]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:77]" alignment="p2"/>
+    <item id="t1" content="c9[0:56]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i37930">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ik" iso-639-3="ikx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1187" line-range="69-71" line-types="L G+EX T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="69" tag="L">   7)        ilakas-u°ot-ia zuuk ima:an-imos-ima-ko nda feki</item>
+    <item id="o2" line="70" tag="G+EX">  Ik         happy-AND-1s very greet-RCP-1p-NAR         with laughter</item>
+    <item id="o3" line="71" tag="T">             `We were very happy and greeted each other and laughed'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="69" tag="L">ilakas-u°ot-ia zuuk ima:an-imos-ima-ko nda feki</item>
+    <item id="c2" line="70" tag="G+EX">Ik         happy-AND-1s very greet-RCP-1p-NAR         with laughter</item>
+    <item id="c3" line="71" tag="T">We were very happy and greeted each other and laughed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i37946">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ik" iso-639-3="ikx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1187" line-range="222-224" line-types="L-T G+CR G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="222" tag="L-T">   24)       dun-it-eta             tErEga cek-ia                 na         `Work has made this woman old'</item>
+    <item id="o2" line="223" tag="G+CR">             old-CAUS-              work woman-                         s</item>
+    <item id="o3" line="224" tag="G+CR">  Ik                        VEN                           ACC DET</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="222" tag="L-T">dun-it-eta             tErEga cek-ia                 na         `Work has made this woman old</item>
+    <item id="c2" line="223 224" tag="G+CR">Ik         old-CAUS-VEN     work woman-ACC DET       s</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]"/>
+  </tier>
+</igt>
+<igt id="i37947">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ik" iso-639-3="ikx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1187" line-range="227-228" line-types="L-T G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="227" tag="L-T">  25)    ze-et-it-ia     loNoria                       `I have raised Longori'</item>
+    <item id="o2" line="228" tag="G">         old-VEN-CAUS-1s longoria</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="227" tag="L-T">ze-et-it-ia     loNoria                       `I have raised Longori</item>
+    <item id="c2" line="228" tag="G">old-VEN-CAUS-1s longoria</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]"/>
+  </tier>
+</igt>
+<igt id="i37948">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ik" iso-639-3="ikx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1187" line-range="229-231" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="229" tag="L">  26)    nts-uo noo       wet-it-i-ana          wice-ke        ni      kwats-ik</item>
+    <item id="o2" line="230" tag="G">         3s-COP PAST      drink-CAUS-HAB-an children-DAT RELp be:small-           SBJ</item>
+    <item id="o3" line="231" tag="T">         `That is what   was usually given to small children to drink'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="229" tag="L">nts-uo noo       wet-it-i-ana          wice-ke        ni      kwats-ik</item>
+    <item id="c2" line="230" tag="G">3s-COP PAST      drink-CAUS-HAB-an children-DAT RELp be:small-SBJ</item>
+    <item id="c3" line="231" tag="T">That is what   was usually given to small children to drink</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82912">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ik" iso-639-3="ikx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3617" line-range="880-884" line-types="L+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="880" tag="L+LN">  (20)   Ik ben mijnes kwijt.                                                               Dutch</item>
+    <item id="o2" line="881" tag="B"></item>
+    <item id="o3" line="882" tag="G">         I have mine lost</item>
+    <item id="o4" line="883" tag="B"></item>
+    <item id="o5" line="884" tag="T">         `I have lost mine.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="880" tag="L+LN">Ik ben mijnes kwijt.                                                               Dutch</item>
+    <item id="c2" line="881" tag="B"/>
+    <item id="c3" line="882" tag="G">I have mine lost</item>
+    <item id="c4" line="883" tag="B"/>
+    <item id="c5" line="884" tag="T">I have lost mine.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:88]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82913">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ik" iso-639-3="ikx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3617" line-range="892-896" line-types="L+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="892" tag="L+LN">  (21)   a.      Ik heb hem gisteren nog gezien.                                            Dutch</item>
+    <item id="o2" line="893" tag="B"></item>
+    <item id="o3" line="894" tag="G">                 I have him yesterday still seen</item>
+    <item id="o4" line="895" tag="B"></item>
+    <item id="o5" line="896" tag="T">                 `I saw him only yesterday.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="892" tag="L+LN">Ik heb hem gisteren nog gezien.                                            Dutch</item>
+    <item id="c2" line="893" tag="B"/>
+    <item id="c3" line="894" tag="G">I have him yesterday still seen</item>
+    <item id="c4" line="895" tag="B"/>
+    <item id="c5" line="896" tag="T">I saw him only yesterday.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

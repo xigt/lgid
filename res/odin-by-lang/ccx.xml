@@ -1,0 +1,1756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i50069">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="25-27" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="25" tag="L">  (1)    a.     * De     gangj {ndaej}         vah             Yeznanz               {ndaej}.</item>
+    <item id="o2" line="26" tag="G">                  3s     speak ACQ             language        Vietnam               ACQ</item>
+    <item id="o3" line="27" tag="T+EX">                 INTENDED: `S/he is able to speak Vietname   se.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="25" tag="L">* De     gangj {ndaej}         vah             Yeznanz               {ndaej}.</item>
+    <item id="c2" line="26" tag="G">3s     speak ACQ             language        Vietnam               ACQ</item>
+    <item id="c3" line="27" tag="T+EX">`S/he is able to speak Vietname   se.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50071">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="100-104" line-types="M+LN+CR L+AC G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="100" tag="M+LN+CR">  (2)      ZH    UANG</item>
+    <item id="o2" line="101" tag="L+AC">           a.          De     benz ndaej hwnj            go      faex    neix.     (cf. Qin 267 (10))</item>
+    <item id="o3" line="102" tag="G+CR">                       3s     climb ACQ up                       tree    that</item>
+    <item id="o4" line="103" tag="G+CR">                                                         CL</item>
+    <item id="o5" line="104" tag="T">                       `S/he can climb up that tree.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="100" tag="M+LN+CR">ZH    UANG</item>
+    <item id="c2" line="101" tag="L+AC">De     benz ndaej hwnj            go      faex    neix.     (cf. Qin 267 (10))</item>
+    <item id="c3" line="102 103" tag="G+CR">3s     climb ACQ up               CL      tree    that</item>
+    <item id="c5" line="104" tag="T">S/he can climb up that tree.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50072">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="105-107" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="105" tag="L+AC">           a.'         Gou siengj youq neix              ninz haj        haemh.      (Qin 3 (3))</item>
+    <item id="o2" line="106" tag="G">                       1s     want at         here       sleep 5         evening</item>
+    <item id="o3" line="107" tag="T">                       `I would like to sleep here for   five nights.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="105" tag="L+AC">Gou siengj youq neix              ninz haj        haemh.      (Qin 3 (3))</item>
+    <item id="c2" line="106" tag="G">1s     want at         here       sleep 5         evening</item>
+    <item id="c3" line="107" tag="T">I would like to sleep here for   five nights.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50079">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="325-328" line-types="L+AC G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="325" tag="L+AC">  (3)    a.       De      ndaej daih-it           mingz ha? (        Qin 124 (32))</item>
+    <item id="o2" line="326" tag="G+CR">                  3s             ORD-one           place Q-PRT</item>
+    <item id="o3" line="327" tag="G+CR">                          ACQ</item>
+    <item id="o4" line="328" tag="T">                  `Did s/he become first (e.g., in the class)?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="325" tag="L+AC">a.       De      ndaej daih-it           mingz ha? (        Qin 124 (32)</item>
+    <item id="c2" line="326 327" tag="G+CR">3s      ACQ    ORD-one           place Q-PRT</item>
+    <item id="c4" line="328" tag="T">Did s/he become first (e.g., in the class)?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50080">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="329-332" line-types="L G+CR G+CR T+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="329" tag="L">         b.       O!      Gou ndaej gigwz lo! (Z&amp;Q 74)</item>
+    <item id="o2" line="330" tag="G+CR">                  INTERJ 1s               pass PRT</item>
+    <item id="o3" line="331" tag="G+CR">                                 ACQ</item>
+    <item id="o4" line="332" tag="T+LT">                  `Wow! I passed!' (lit. got a pass)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="329" tag="L">O!      Gou ndaej gigwz lo! (Z&amp;Q 74)</item>
+    <item id="c2" line="330 331" tag="G+CR">INTERJ 1s      ACQ      pass PRT</item>
+    <item id="c4" line="332" tag="T+LT">Wow! I passed!' (lit. got a pass)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50081">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="333-338" line-types="L G+CR G+CR L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="333" tag="L">         c.       Ngoenzneix gou          gai     byaek              ndaej ngeih-cib         maenz</item>
+    <item id="o2" line="334" tag="G+CR">                  today          1s       sell    vegetables               two-ten           unit</item>
+    <item id="o3" line="335" tag="G+CR">                                                                     ACQ</item>
+    <item id="o4" line="336" tag="L+AC">                  ngaenz.            (based on Z&amp;Q 275 (9))</item>
+    <item id="o5" line="337" tag="G">                  money</item>
+    <item id="o6" line="338" tag="T">                  `Today I earned 20 \XDQ selling vegetables.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="333" tag="L">Ngoenzneix gou          gai     byaek              ndaej ngeih-cib         maenz</item>
+    <item id="c2" line="334 335" tag="G+CR">today          1s       sell    vegetables         ACQ   two-ten           unit</item>
+    <item id="c4" line="336" tag="L+AC">ngaenz.            (based on Z&amp;Q 275 (9))</item>
+    <item id="c5" line="337" tag="G">money</item>
+    <item id="c6" line="338" tag="T">Today I earned 20 \XDQ selling vegetables.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+    <item id="p1" content="c4[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:79]" alignment="p1"/>
+    <item id="g1" content="c5[0:5]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:42]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i50082">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="339-344" line-types="L G+CR G+CR L+AC G T+CR+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="339" tag="L">         d.       Beix gou       ndaej roek-cib           bi         lo,       hoeng de      lij</item>
+    <item id="o2" line="340" tag="G+CR">                  brother 1s              six-ten         year                 but   3s      still</item>
+    <item id="o3" line="341" tag="G+CR">                                 ACQ                                 PRT</item>
+    <item id="o4" line="342" tag="L+AC">                  bae     guh hong. (Z&amp;Q 90)</item>
+    <item id="o5" line="343" tag="G">                  go      do work</item>
+    <item id="o6" line="344" tag="T+CR+LT">                  `My brother is (lit. got) sixty years old, but h   e still goes out to work.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="339" tag="L">Beix gou       ndaej roek-cib           bi         lo,       hoeng de      lij</item>
+    <item id="c2" line="340 341" tag="G+CR">brother 1s     ACQ      six-ten         year       PRT       but   3s      still</item>
+    <item id="c4" line="342" tag="L+AC">bae     guh hong. (Z&amp;Q 90)</item>
+    <item id="c5" line="343" tag="G">go      do work</item>
+    <item id="c6" line="344" tag="T+CR+LT">My brother is (lit. got) sixty years old, but h   e still goes out to work.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+    <item id="p1" content="c4[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:80]" alignment="p1"/>
+    <item id="g1" content="c5[0:15]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:75]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i50083">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="353-356" line-types="L G+CR G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="353" tag="L">  (4)                          Ngoenzcog gou         caenhliengh             ndaej daih-it                           mingz.</item>
+    <item id="o2" line="354" tag="G+CR">                               tomorrow       1s     to.one' s.extreme                ORD-one                        place</item>
+    <item id="o3" line="355" tag="G+CR">                                                                             ACQ</item>
+    <item id="o4" line="356" tag="T+CR">                               `Tomorrow, I' ll do my utmost to be first (e.g., in the class).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="353" tag="L">Ngoenzcog gou         caenhliengh             ndaej daih-it                           mingz.</item>
+    <item id="c2" line="354 355" tag="G+CR">tomorrow       1s     to.one' s.extreme       ACQ      ORD-one                        place</item>
+    <item id="c4" line="356" tag="T+CR">Tomorrow, I' ll do my utmost to be first (e.g., in the class).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:92]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:91]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:62]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50103">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="613-616" line-types="L G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="613" tag="L">  (13)   a.      Mwngz           youq baihrog            mbouj     ndaej dub            vunz ha!</item>
+    <item id="o2" line="614" tag="G+CR">                 2s              at      outside         not             hit            people PRT</item>
+    <item id="o3" line="615" tag="G+CR">                                                                   ACQ</item>
+    <item id="o4" line="616" tag="T+AC">                 `Out there you should not hit people!'                                          (Qin 120 (5))</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="613" tag="L">Mwngz           youq baihrog            mbouj     ndaej dub            vunz ha!</item>
+    <item id="c2" line="614 615" tag="G+CR">2s              at      outside         not       ACQ   hit            people PRT</item>
+    <item id="c4" line="616" tag="T+AC">Out there you should not hit people!'                                          (Qin 120 (5))</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:81]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:92]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50104">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="617-623" line-types="L G L+AC G+CR G+CR T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="617" tag="L">         b.      Giyenz mwngz            siengj ok-rog bae         ra       hong guh,          couh</item>
+    <item id="o2" line="618" tag="G">                 as      2s              want outside go           s eek    work do            then</item>
+    <item id="o3" line="619" tag="L+AC">                 mbouj ndaej lau         dwgrengz. (Qin 262 (      44))</item>
+    <item id="o4" line="620" tag="G+CR">                 not             fear hardship</item>
+    <item id="o5" line="621" tag="G+CR">                         ACQ</item>
+    <item id="o6" line="622" tag="T">                 `Now that you want to go and look for work        somewhere else, you must not be</item>
+    <item id="o7" line="623" tag="T">                 afraid of hardships.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="617" tag="L">Giyenz mwngz            siengj ok-rog bae         ra       hong guh,          couh</item>
+    <item id="c2" line="618" tag="G">as      2s              want outside go           s eek    work do            then</item>
+    <item id="c3" line="619" tag="L+AC">mbouj ndaej lau         dwgrengz. (Qin 262 (      44))</item>
+    <item id="c4" line="620 621" tag="G+CR">not     ACQ     fear hardship</item>
+    <item id="c6" line="622" tag="T">Now that you want to go and look for work        somewhere else, you must not be</item>
+    <item id="c7" line="623" tag="T">afraid of hardships.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+    <item id="p1" content="c3[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:82]" alignment="p1"/>
+    <item id="g1" content="c4[0:29]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:80]" alignment="p2"/>
+    <item id="t1" content="c7[0:20]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i50105">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="624-627" line-types="L+AC G+CR G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="624" tag="L+AC">         c.      Aen maenz neix gyuk, mbouj ndaej                  gwn      ndip.       (Qin 199 (17))</item>
+    <item id="o2" line="625" tag="G+CR">                         yam this        dirty not                 ea t     raw</item>
+    <item id="o3" line="626" tag="G+CR">                 CL                                      ACQ</item>
+    <item id="o4" line="627" tag="T+CR">                 `This yam is dirty, you shouldn' t eat it raw.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="624" tag="L+AC">Aen maenz neix gyuk, mbouj ndaej                  gwn      ndip.       (Qin 199 (17))</item>
+    <item id="c2" line="625 626" tag="G+CR">CL      yam this        dirty not       ACQ       ea t     raw</item>
+    <item id="c4" line="627" tag="T+CR">This yam is dirty, you shouldn' t eat it raw.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50106">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="628-633" line-types="L G+CR G+CR L+AC G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="628" tag="L">         d.      Danghnaeuz mbouj coih mieng, couh                 mbouj ndaej hai             raemx</item>
+    <item id="o2" line="629" tag="G+CR">                 if              not     build canal then          not         open            water</item>
+    <item id="o3" line="630" tag="G+CR">                                                                         ACQ</item>
+    <item id="o4" line="631" tag="L+AC">                 haeuj naz. (Z&amp;Q 90)</item>
+    <item id="o5" line="632" tag="G">                 enter field</item>
+    <item id="o6" line="633" tag="T+CR">                 `If we don' t build a canal, we will not get to   irrigate the fields.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="628" tag="L">Danghnaeuz mbouj coih mieng, couh                 mbouj ndaej hai             raemx</item>
+    <item id="c2" line="629 630" tag="G+CR">if              not     build canal then          not   ACQ   open            water</item>
+    <item id="c4" line="631" tag="L+AC">haeuj naz. (Z&amp;Q 90)</item>
+    <item id="c5" line="632" tag="G">enter field</item>
+    <item id="c6" line="633" tag="T+CR">If we don' t build a canal, we will not get to   irrigate the fields.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:83]"/>
+    <item id="p1" content="c4[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:83]" alignment="p1"/>
+    <item id="g1" content="c5[0:11]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:69]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i50107">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="638-641" line-types="L+EX G+CR G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="638" tag="L+EX">  (14)   a.      Beix gou        ndaej hot       geij coenz.          (cf. Enf 327 (29b))</item>
+    <item id="o2" line="639" tag="G+CR">                 brother 1s              speak some word</item>
+    <item id="o3" line="640" tag="G+CR">                                 ACQ</item>
+    <item id="o4" line="641" tag="T+CR">                 `My elder bro  ther got to say a few words.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="638" tag="L+EX">a.      Beix gou        ndaej hot       geij coenz.          (cf. Enf 327 (29b)</item>
+    <item id="c2" line="639 640" tag="G+CR">brother 1s      ACQ     speak some word</item>
+    <item id="c4" line="641" tag="T+CR">My elder bro  ther got to say a few words.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50108">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="642-645" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="642" tag="L">         b.      De      ndaej   hwnj hag        lo.</item>
+    <item id="o2" line="643" tag="G+CR">                 3s              go.to school PRT</item>
+    <item id="o3" line="644" tag="G+CR">                         ACQ</item>
+    <item id="o4" line="645" tag="T">                 `He can go to  school now.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="642" tag="L">De      ndaej   hwnj hag        lo.</item>
+    <item id="c2" line="643 644" tag="G+CR">3s      ACQ     go.to school PRT</item>
+    <item id="c4" line="645" tag="T">He can go to  school now.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50114">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="778-781" line-types="L+AC G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="778" tag="L+AC">         a.      Duz     mou neix gou             ngamq     ciengx ndaej donh bi. (Qin 82 (18))</item>
+    <item id="o2" line="779" tag="G+CR">                         pig     this     1s      just      keep ACQ half year</item>
+    <item id="o3" line="780" tag="G+CR">                 CL</item>
+    <item id="o4" line="781" tag="T">                 `This pig, I just kept for half a year.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="778" tag="L+AC">Duz     mou neix gou             ngamq     ciengx ndaej donh bi. (Qin 82 (18))</item>
+    <item id="c2" line="779 780" tag="G+CR">CL      pig     this     1s      just      keep ACQ half year</item>
+    <item id="c4" line="781" tag="T">This pig, I just kept for half a year.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50115">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="784-786" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="784" tag="L+AC">         b.      De      ciengq ndaej caen ndei             ha!   (Qin 120 (6))</item>
+    <item id="o2" line="785" tag="G">                 3s      sing ACQ really good               SFP</item>
+    <item id="o3" line="786" tag="T">                 `S/he sings really well!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="784" tag="L+AC">De      ciengq ndaej caen ndei             ha!   (Qin 120 (6))</item>
+    <item id="c2" line="785" tag="G">3s      sing ACQ really good               SFP</item>
+    <item id="c3" line="786" tag="T">S/he sings really well!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50116">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="787-790" line-types="L+AC G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="787" tag="L+AC">         c.      Duz mou neix gwn ndaej                     lai  ho!       (Qin 148 (34))</item>
+    <item id="o2" line="788" tag="G+CR">                         pig     this     ea t              much PRT</item>
+    <item id="o3" line="789" tag="G+CR">                 CL                               ACQ</item>
+    <item id="o4" line="790" tag="T">                 `That pig ate a lot!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="787" tag="L+AC">Duz mou neix gwn ndaej                     lai  ho!       (Qin 148 (34))</item>
+    <item id="c2" line="788 789" tag="G+CR">CL      pig     this     ea t    ACQ       much PRT</item>
+    <item id="c4" line="790" tag="T">That pig ate a lot!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50117">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="791-793" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="791" tag="L+AC">         d.      De      byaet ndaej lai          doengz           gou         lo.    (Qin 228 (5))</item>
+    <item id="o2" line="792" tag="G">                 3s      peel ACQ much as                          1s          LO</item>
+    <item id="o3" line="793" tag="T">                 `S/he peeled as much as I did.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="791" tag="L+AC">De      byaet ndaej lai          doengz           gou         lo.    (Qin 228 (5))</item>
+    <item id="c2" line="792" tag="G">3s      peel ACQ much as                          1s          LO</item>
+    <item id="c3" line="793" tag="T">S/he peeled as much as I did.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50118">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="795-798" line-types="L+AC G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="795" tag="L+AC">         e.      Aen lwgmanh neix       manh ndaej raemxda                     conh bae.        (Qin 159 (36))</item>
+    <item id="o2" line="796" tag="G+CR">                 CL pepper      this    hot             tear                   stream SFP</item>
+    <item id="o3" line="797" tag="G+CR">                                                ACQ</item>
+    <item id="o4" line="798" tag="T">                 `This pepper is so hot that tears come out.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="795" tag="L+AC">Aen lwgmanh neix       manh ndaej raemxda                     conh bae.        (Qin 159 (36))</item>
+    <item id="c2" line="796 797" tag="G+CR">CL pepper      this    hot     ACQ     tear                   stream SFP</item>
+    <item id="c4" line="798" tag="T">This pepper is so hot that tears come out.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:93]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50119">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="799-802" line-types="L G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="799" tag="L">         f.      Duz ma         gyaep   ndaej gyoengq          bit             de       lek-byazbyaz.</item>
+    <item id="o2" line="800" tag="G+CR">                        dog chase               CL-group       duck            that     frighten-MODI</item>
+    <item id="o3" line="801" tag="G+CR">                 CL                     ACQ                                                             F</item>
+    <item id="o4" line="802" tag="T+AC">                 `The dog chased the d  ucks such that they panicked      .'                      (Qin 223 (26))</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="799" tag="L">Duz ma         gyaep   ndaej gyoengq          bit             de       lek-byazbyaz.</item>
+    <item id="c2" line="800 801" tag="G+CR">CL     dog chase       ACQ     CL-group       duck            that     frighten-MODI   F</item>
+    <item id="c4" line="802" tag="T+AC">The dog chased the d  ucks such that they panicked      .'                      (Qin 223 (26))</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:88]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:94]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50120">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="810-812" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="810" tag="L">  (18)           De     ciengq ndaej mbouj ndei.</item>
+    <item id="o2" line="811" tag="G">                 3s     sing ACQ not        good</item>
+    <item id="o3" line="812" tag="T">                 `S/he does not sing well.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="810" tag="L">De     ciengq ndaej mbouj ndei.</item>
+    <item id="c2" line="811" tag="G">3s     sing ACQ not        good</item>
+    <item id="c3" line="812" tag="T">S/he does not sing well.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50121">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="826-828" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="826" tag="L+AC">  (19)           De    nit     dwk fwngz saenz lo. (Qin 217 (2))</item>
+    <item id="o2" line="827" tag="G">                 3s    cold DWK hand shake PRT</item>
+    <item id="o3" line="828" tag="T">                 `He was so cold that his hands were shaking.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="826" tag="L+AC">De    nit     dwk fwngz saenz lo. (Qin 217 (2)</item>
+    <item id="c2" line="827" tag="G">3s    cold DWK hand shake PRT</item>
+    <item id="c3" line="828" tag="T">He was so cold that his hands were shaking.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50135">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1005-1008" line-types="L+AC G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1005" tag="L+AC">  (27)   a.      Ae n     ci       neix coih ndaej.          (Qin 205 (1))</item>
+    <item id="o2" line="1006" tag="G+CR">                          vehicle this      repair ACQ</item>
+    <item id="o3" line="1007" tag="G+CR">                 CL</item>
+    <item id="o4" line="1008" tag="T">                 `This   bike is repairable.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1005" tag="L+AC">a.      Ae n     ci       neix coih ndaej.          (Qin 205 (1)</item>
+    <item id="c2" line="1006 1007" tag="G+CR">CL       vehicle this      repair ACQ</item>
+    <item id="c4" line="1008" tag="T">This   bike is repairable.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50136">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1009-1012" line-types="L+AC G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1009" tag="L+AC">         b.      Ae n     ranz neix youq ndaej.              (Qin 205 (2))</item>
+    <item id="o2" line="1010" tag="G+CR">                          house this        live</item>
+    <item id="o3" line="1011" tag="G+CR">                 CL                                 ACQ</item>
+    <item id="o4" line="1012" tag="T">                 `This   house is livable­one can live in   it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1009" tag="L+AC">Ae n     ranz neix youq ndaej.              (Qin 205 (2))</item>
+    <item id="c2" line="1010 1011" tag="G+CR">CL       house this        live    ACQ</item>
+    <item id="c4" line="1012" tag="T">This   house is livable­one can live in   it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50137">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1013-1016" line-types="L+AC G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1013" tag="L+AC">         c.      Ae n     bat      de       lij     yungh   ndaej.     (Qin 205 (3))</item>
+    <item id="o2" line="1014" tag="G+CR">                          basin that still use</item>
+    <item id="o3" line="1015" tag="G+CR">                 CL                                         ACQ</item>
+    <item id="o4" line="1016" tag="T">                 `This   washbasin is still usable.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1013" tag="L+AC">Ae n     bat      de       lij     yungh   ndaej.     (Qin 205 (3))</item>
+    <item id="c2" line="1014 1015" tag="G+CR">CL       basin that still use              ACQ</item>
+    <item id="c4" line="1016" tag="T">This   washbasin is still usable.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50138">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1017-1020" line-types="L+AC G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1017" tag="L+AC">         d.      Ae n     mak neix gwn ndaej.                (Z&amp;Q 174)</item>
+    <item id="o2" line="1018" tag="G+CR">                          fruit this        ea t</item>
+    <item id="o3" line="1019" tag="G+CR">                 CL                                 ACQ</item>
+    <item id="o4" line="1020" tag="T">                 `This   piece of fruit is edible.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1017" tag="L+AC">Ae n     mak neix gwn ndaej.                (Z&amp;Q 174)</item>
+    <item id="c2" line="1018 1019" tag="G+CR">CL       fruit this        ea t    ACQ</item>
+    <item id="c4" line="1020" tag="T">This   piece of fruit is edible.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50139">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1024-1029" line-types="L G+CR G+CR L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1024" tag="L">  (28)   a.      Go      faex de          ha,     soh                 seih   soh             la,     hoeng</item>
+    <item id="o2" line="1025" tag="G+CR">                         tree that PRT            straight            be     straight                but</item>
+    <item id="o3" line="1026" tag="G+CR">                 CL                                                                          PRT</item>
+    <item id="o4" line="1027" tag="L+AC">                 yungh mbouj ndaej. (Qin 125 (36))</item>
+    <item id="o5" line="1028" tag="G">                 use     not     ACQ</item>
+    <item id="o6" line="1029" tag="T">                 `As to this tree, you can call it straight, but it   is unusable.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1024" tag="L">Go      faex de          ha,     soh                 seih   soh             la,     hoeng</item>
+    <item id="c2" line="1025 1026" tag="G+CR">CL      tree that PRT            straight            be     straight        PRT     but</item>
+    <item id="c4" line="1027" tag="L+AC">yungh mbouj ndaej. (Qin 125 (36))</item>
+    <item id="c5" line="1028" tag="G">use     not     ACQ</item>
+    <item id="c6" line="1029" tag="T">As to this tree, you can call it straight, but it   is unusable.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:89]"/>
+    <item id="p1" content="c4[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:87]" alignment="p1"/>
+    <item id="g1" content="c5[0:19]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:64]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i50140">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1030-1033" line-types="L+AC G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1030" tag="L+AC">         b.      Aen mak neix gwn mbouj ndaej.                         (Z&amp;Q 174)</item>
+    <item id="o2" line="1031" tag="G+CR">                         fruit this       ea t    not</item>
+    <item id="o3" line="1032" tag="G+CR">                 CL                                       ACQ</item>
+    <item id="o4" line="1033" tag="T">                 `This piece of fruit is inedible.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1030" tag="L+AC">Aen mak neix gwn mbouj ndaej.                         (Z&amp;Q 174)</item>
+    <item id="c2" line="1031 1032" tag="G+CR">CL      fruit this       ea t    not     ACQ</item>
+    <item id="c4" line="1033" tag="T">This piece of fruit is inedible.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50144">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1073-1076" line-types="M+LN L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1073" tag="M+LN">             ZH   UANG</item>
+    <item id="o2" line="1074" tag="L+EX">  (30)       a.       Ngoenzneix gou          cawx-ndaej song duz          bit. (cf. Qin 90 (1))</item>
+    <item id="o3" line="1075" tag="G">                      today           1s      buy-ACQ       two CL         duck</item>
+    <item id="o4" line="1076" tag="T">                      `Today I bought two ducks.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1073" tag="M+LN">ZH   UANG</item>
+    <item id="c2" line="1074" tag="L+EX">a.       Ngoenzneix gou          cawx-ndaej song duz          bit. (cf. Qin 90 (1)</item>
+    <item id="c3" line="1075" tag="G">today           1s      buy-ACQ       two CL         duck</item>
+    <item id="c4" line="1076" tag="T">Today I bought two ducks.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50145">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1077-1079" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1077" tag="L+AC">             b.       Daegnuengx gaeb-ndaej          song lwg gungq. (Qin 100 (5))</item>
+    <item id="o2" line="1078" tag="G">                      li' l.brother   catch-ACQ      two CL         shrimp</item>
+    <item id="o3" line="1079" tag="T">                      `Little brother caught two shrimps.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1077" tag="L+AC">Daegnuengx gaeb-ndaej          song lwg gungq. (Qin 100 (5))</item>
+    <item id="c2" line="1078" tag="G">l.brother   catch-ACQ      two CL         shrimp</item>
+    <item id="c3" line="1079" tag="T">Little brother caught two shrimps.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50146">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1080-1082" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1080" tag="L+AC">             c.       Dingqnyi        mwngz          gauj-ndaej dazyoz, dwg le? (Qin 122 (15))</item>
+    <item id="o2" line="1081" tag="G">                      I.heard         2s             test-ACQ university be        PRT</item>
+    <item id="o3" line="1082" tag="T">                      `I heard that you passed the university entrance exam, is that so?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1080" tag="L+AC">Dingqnyi        mwngz          gauj-ndaej dazyoz, dwg le? (Qin 122 (15))</item>
+    <item id="c2" line="1081" tag="G">I.heard         2s             test-ACQ university be        PRT</item>
+    <item id="c3" line="1082" tag="T">I heard that you passed the university entrance exam, is that so?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50156">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1168-1170" line-types="L G T+CR+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1168" tag="L">  (35)           De     gangj vah             Yeznanz           ndaej.</item>
+    <item id="o2" line="1169" tag="G">                 3s     speak language        Vietnam           ACQ</item>
+    <item id="o3" line="1170" tag="T+CR+EX">                 `He can speak Vietnamese.' (that is: it' s okay if he does)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1168" tag="L">De     gangj vah             Yeznanz           ndaej.</item>
+    <item id="c2" line="1169" tag="G">3s     speak language        Vietnam           ACQ</item>
+    <item id="c3" line="1170" tag="T+CR+EX">He can speak Vietnamese.' (that is: it' s okay if he does)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50157">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1188-1193" line-types="L G+CR G+CR L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1188" tag="L">  (36)   a.      Haemhlwenz ha,        mbouj miz                bouxlawz        ninz           ndaej</item>
+    <item id="o2" line="1189" tag="G+CR">                 last.night            not   have/be            who             fall.asleep</item>
+    <item id="o3" line="1190" tag="G+CR">                              PRT                                                              ACQ</item>
+    <item id="o4" line="1191" tag="L+AC">                 ndaek. (Qin 127 (47))</item>
+    <item id="o5" line="1192" tag="G">                 SUCC</item>
+    <item id="o6" line="1193" tag="T">                 `Last night nobody could fall asleep.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1188" tag="L">Haemhlwenz ha,        mbouj miz                bouxlawz        ninz           ndaej</item>
+    <item id="c2" line="1189 1190" tag="G+CR">last.night   PRT      not   have/be            who             fall.asleep    ACQ</item>
+    <item id="c4" line="1191" tag="L+AC">ndaek. (Qin 127 (47))</item>
+    <item id="c5" line="1192" tag="G">SUCC</item>
+    <item id="c6" line="1193" tag="T">Last night nobody could fall asleep.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:83]"/>
+    <item id="p1" content="c4[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:81]" alignment="p1"/>
+    <item id="g1" content="c5[0:4]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:36]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i50158">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1194-1196" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1194" tag="L+AC">         b.      De      saet ndaej gvaqbae             bw. (Qin 142 (24))</item>
+    <item id="o2" line="1195" tag="G">                 3s      jump ACQ past                  SFP-SURPRISE</item>
+    <item id="o3" line="1196" tag="T">                 `Wow! He can really jump over!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1194" tag="L+AC">De      saet ndaej gvaqbae             bw. (Qin 142 (24))</item>
+    <item id="c2" line="1195" tag="G">3s      jump ACQ past                  SFP-SURPRISE</item>
+    <item id="c3" line="1196" tag="T">Wow! He can really jump over!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50159">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1197-1199" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1197" tag="L">         c.      Gou sij         ndaej liux bonj saw gou.</item>
+    <item id="o2" line="1198" tag="G">                 1s      write ACQ done CL              book 1s</item>
+    <item id="o3" line="1199" tag="T">                 `I can finish my book.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1197" tag="L">Gou sij         ndaej liux bonj saw gou.</item>
+    <item id="c2" line="1198" tag="G">1s      write ACQ done CL              book 1s</item>
+    <item id="c3" line="1199" tag="T">I can finish my book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50160">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1200-1202" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1200" tag="L">         d.      De      haeb ndaej dai        duz-gaeq        gou.</item>
+    <item id="o2" line="1201" tag="G">                 3s      bite ACQ dead CL-chicken              1s</item>
+    <item id="o3" line="1202" tag="T">                 `It can bite my chicken to death.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1200" tag="L">De      haeb ndaej dai        duz-gaeq        gou.</item>
+    <item id="c2" line="1201" tag="G">3s      bite ACQ dead CL-chicken              1s</item>
+    <item id="c3" line="1202" tag="T">It can bite my chicken to death.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50161">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1208-1213" line-types="L G L+AC G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1208" tag="L">  (37)   a.      Haemhlwenz miz vunz doxceng,                gou      beanz hwnz ninz</item>
+    <item id="o2" line="1209" tag="G">                 last.night     have people fight            1s       whole night fall.asleep</item>
+    <item id="o3" line="1210" tag="L+AC">                 mbouj ndeak. (Qin 262 (42))</item>
+    <item id="o4" line="1211" tag="G">                 not     SUCC</item>
+    <item id="o5" line="1212" tag="T">                 `Last night, some people were having a fight, I could not fall asleep the whole</item>
+    <item id="o6" line="1213" tag="T">                 night.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1208" tag="L">Haemhlwenz miz vunz doxceng,                gou      beanz hwnz ninz</item>
+    <item id="c2" line="1209" tag="G">last.night     have people fight            1s       whole night fall.asleep</item>
+    <item id="c3" line="1210" tag="L+AC">mbouj ndeak. (Qin 262 (42))</item>
+    <item id="c4" line="1211" tag="G">not     SUCC</item>
+    <item id="c5" line="1212" tag="T">Last night, some people were having a fight, I could not fall asleep the whole</item>
+    <item id="c6" line="1213" tag="T">night.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+    <item id="p1" content="c3[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+    <item id="g1" content="c4[0:12]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:78]" alignment="p2"/>
+    <item id="t1" content="c6[0:6]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i50162">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1214-1219" line-types="L G L+AC G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1214" tag="L">         b.      De      siengj benz hwnj bya                bae, roen myag                  lai,</item>
+    <item id="o2" line="1215" tag="G">                 3s      want climb up        mountain       go       road slippery          very</item>
+    <item id="o3" line="1216" tag="L+AC">                 benz mbouj hwnj. (Qin 258 (24))</item>
+    <item id="o4" line="1217" tag="G">                 climb not      up</item>
+    <item id="o5" line="1218" tag="T">                 `He wanted to climb up that mountain, but the road was very slippery, so he</item>
+    <item id="o6" line="1219" tag="T">                 could not climb up.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1214" tag="L">De      siengj benz hwnj bya                bae, roen myag                  lai,</item>
+    <item id="c2" line="1215" tag="G">3s      want climb up        mountain       go       road slippery          very</item>
+    <item id="c3" line="1216" tag="L+AC">benz mbouj hwnj. (Qin 258 (24))</item>
+    <item id="c4" line="1217" tag="G">climb not      up</item>
+    <item id="c5" line="1218" tag="T">He wanted to climb up that mountain, but the road was very slippery, so he</item>
+    <item id="c6" line="1219" tag="T">could not climb up.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+    <item id="p1" content="c3[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:80]" alignment="p1"/>
+    <item id="g1" content="c4[0:17]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:74]" alignment="p2"/>
+    <item id="t1" content="c6[0:19]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i50163">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1220-1222" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1220" tag="L">         c.      Daxboh         dub mbouj dai          duzma gou.</item>
+    <item id="o2" line="1221" tag="G">                 father         hit    not    die      dog   1s</item>
+    <item id="o3" line="1222" tag="T">                 `Father cannot beat my dog to death.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1220" tag="L">Daxboh         dub mbouj dai          duzma gou.</item>
+    <item id="c2" line="1221" tag="G">father         hit    not    die      dog   1s</item>
+    <item id="c3" line="1222" tag="T">Father cannot beat my dog to death.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50164">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1267-1269" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1267" tag="L">  (38)   a.     * De     gangj {ndaej}          vah            Yeznanz      {ndaej}.        (=(1a))</item>
+    <item id="o2" line="1268" tag="G">                  3s     speak ACQ              language       Vietnam      ACQ</item>
+    <item id="o3" line="1269" tag="T+EX">                 INTENDED: `S/he is able to speak Vietnamese.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1267" tag="L">a.     * De     gangj {ndaej}          vah            Yeznanz      {ndaej}.        (=(1a)</item>
+    <item id="c2" line="1268" tag="G">3s     speak ACQ              language       Vietnam      ACQ</item>
+    <item id="c3" line="1269" tag="T+EX">`S/he is able to speak Vietnamese.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:89]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50165">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1270-1272" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1270" tag="L">         a.'     De      rox     gangj vah             Yeznanz.</item>
+    <item id="o2" line="1271" tag="G+CR">                 3s      ca n    speak language        Vietnamese</item>
+    <item id="o3" line="1272" tag="T">                 `S/he is able to speak Vietnamese.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1270" tag="L">De      rox     gangj vah             Yeznanz.</item>
+    <item id="c2" line="1271" tag="G+CR">3s      ca n    speak language        Vietnamese</item>
+    <item id="c3" line="1272" tag="T">S/he is able to speak Vietnamese.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50166">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1273-1275" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1273" tag="L">         b.    * De      hai     {ndaej}        ci     {ndaej}.</item>
+    <item id="o2" line="1274" tag="G">                 3s      drive ACQ              vehicle ACQ</item>
+    <item id="o3" line="1275" tag="T+EX">                 INTENDED: `S/he is able to drive a car.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1273" tag="L">* De      hai     {ndaej}        ci     {ndaej}.</item>
+    <item id="c2" line="1274" tag="G">3s      drive ACQ              vehicle ACQ</item>
+    <item id="c3" line="1275" tag="T+EX">`S/he is able to drive a car.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50167">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1276-1278" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1276" tag="L">         b.'     De      rox     hai     ci.</item>
+    <item id="o2" line="1277" tag="G+CR">                 3s      ca n    drive vehicle</item>
+    <item id="o3" line="1278" tag="T">                 `S/he is able to drive a car.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1276" tag="L">De      rox     hai     ci.</item>
+    <item id="c2" line="1277" tag="G+CR">3s      ca n    drive vehicle</item>
+    <item id="c3" line="1278" tag="T">S/he is able to drive a car.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50168">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1279-1282" line-types="L G+CR G+CR T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1279" tag="L">         c.    * De coih         {ndaej}        gyaq danci gou       {ndaej}.</item>
+    <item id="o2" line="1280" tag="G+CR">                 3s repair                             bicycle 1s</item>
+    <item id="o3" line="1281" tag="G+CR">                                 ACQ            CL                   ACQ</item>
+    <item id="o4" line="1282" tag="T+EX">                 INTENDED: `S/he can repair my bike.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1279" tag="L">* De coih         {ndaej}        gyaq danci gou       {ndaej}.</item>
+    <item id="c2" line="1280 1281" tag="G+CR">3s repair       ACQ            CL     bicycle 1s    ACQ</item>
+    <item id="c4" line="1282" tag="T+EX">`S/he can repair my bike.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50169">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1283-1285" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1283" tag="L">         c.'     De      rox     coih gyaq danci gou.</item>
+    <item id="o2" line="1284" tag="G+CR">                 3s      ca n    repair CL      bicycle 1s</item>
+    <item id="o3" line="1285" tag="T">                 `S/he can repair my bike.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1283" tag="L">De      rox     coih gyaq danci gou.</item>
+    <item id="c2" line="1284" tag="G+CR">3s      ca n    repair CL      bicycle 1s</item>
+    <item id="c3" line="1285" tag="T">S/he can repair my bike.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50170">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1293-1296" line-types="L+AC G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1293" tag="L+AC">  (39)           Duz    roeg de           lij   mbin ndaej.       (Qin 206 (8))</item>
+    <item id="o2" line="1294" tag="G+CR">                        bird that still         fly</item>
+    <item id="o3" line="1295" tag="G+CR">                 CL                                  ACQ</item>
+    <item id="o4" line="1296" tag="T">                 `That bird can still fly.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1293" tag="L+AC">Duz    roeg de           lij   mbin ndaej.       (Qin 206 (8)</item>
+    <item id="c2" line="1294 1295" tag="G+CR">CL     bird that still         fly  ACQ</item>
+    <item id="c4" line="1296" tag="T">That bird can still fly.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50171">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1308-1310" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1308" tag="L">  (40)           De     lij       gangj ndaej vah.</item>
+    <item id="o2" line="1309" tag="G">                 3s     still speak NDAEJ speech</item>
+    <item id="o3" line="1310" tag="T">                 `S/he can still speak.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1308" tag="L">De     lij       gangj ndaej vah.</item>
+    <item id="c2" line="1309" tag="G">3s     still speak NDAEJ speech</item>
+    <item id="c3" line="1310" tag="T">S/he can still speak.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50172">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1323-1326" line-types="L+AC G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1323" tag="L+AC">  (41)   a.      Daegbeix        gwn ndaej sam gaen              haeuxcid      bae!    (Qin 157 (18))</item>
+    <item id="o2" line="1324" tag="G+CR">                 elder brother eat              three pound      rice</item>
+    <item id="o3" line="1325" tag="G+CR">                                         ACQ                                   PRT</item>
+    <item id="o4" line="1326" tag="T">                 `Elder brother can eat three pounds of rice!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1323" tag="L+AC">a.      Daegbeix        gwn ndaej sam gaen              haeuxcid      bae!    (Qin 157 (18)</item>
+    <item id="c2" line="1324 1325" tag="G+CR">elder brother eat       ACQ    three pound      rice          PRT</item>
+    <item id="c4" line="1326" tag="T">Elder brother can eat three pounds of rice!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:91]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50173">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1327-1330" line-types="L+AC G G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1327" tag="L+AC">         b.      Aen danci neix doz             ndaej haj        boux   vunz bae!      (Qin 157 (20))</item>
+    <item id="o2" line="1328" tag="G">                         bicycle this    fit           five             people PRT</item>
+    <item id="o3" line="1329" tag="G">                 CL                             ACQ              CL</item>
+    <item id="o4" line="1330" tag="T">                 `This bike can fit five people!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1327" tag="L+AC">Aen danci neix doz             ndaej haj        boux   vunz bae!      (Qin 157 (20))</item>
+    <item id="c2" line="1328" tag="G">bicycle this    fit           five             people PRT</item>
+    <item id="c3" line="1329" tag="G">CL                             ACQ              CL</item>
+    <item id="c4" line="1330" tag="T">This bike can fit five people!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+    <item id="g1" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50174">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1331-1334" line-types="L+AC G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1331" tag="L+AC">         c.      Duz ma          gou     bongh ndaej sam         ci k   sang   bae!    (Qin 157 (22))</item>
+    <item id="o2" line="1332" tag="G+CR">                         dog 1s          jump ACQ three          foot   high</item>
+    <item id="o3" line="1333" tag="G+CR">                 CL                                                            PRT</item>
+    <item id="o4" line="1334" tag="T">                 `This dog can jump three feet high!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1331" tag="L+AC">Duz ma          gou     bongh ndaej sam         ci k   sang   bae!    (Qin 157 (22))</item>
+    <item id="c2" line="1332 1333" tag="G+CR">CL      dog 1s          jump ACQ three          foot   high   PRT</item>
+    <item id="c4" line="1334" tag="T">This dog can jump three feet high!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50175">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1335-1337" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1335" tag="L+AC">         d.      De      fwngz ndeu yaeuj ndaej song             doengj raemx bae!     (Qin 157 (23))</item>
+    <item id="o2" line="1336" tag="G">                 3s      hand one        raise ACQ two           bucket water PRT</item>
+    <item id="o3" line="1337" tag="T">                 `S/he can lift two buckets of water with one    hand!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1335" tag="L+AC">De      fwngz ndeu yaeuj ndaej song             doengj raemx bae!     (Qin 157 (23))</item>
+    <item id="c2" line="1336" tag="G">3s      hand one        raise ACQ two           bucket water PRT</item>
+    <item id="c3" line="1337" tag="T">S/he can lift two buckets of water with one    hand!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50176">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1358-1361" line-types="L+AC G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1358" tag="L+AC">  (42)   a.      Gou        gwn gaemz ndeu ndaej lwi? (based on Z&amp;Q 27)</item>
+    <item id="o2" line="1359" tag="G+CR">                 1s         ea t   bite one           Y/N-PRT</item>
+    <item id="o3" line="1360" tag="G+CR">                                                ACQ</item>
+    <item id="o4" line="1361" tag="T">                 `Can    I take a bite?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1358" tag="L+AC">a.      Gou        gwn gaemz ndeu ndaej lwi? (based on Z&amp;Q 27</item>
+    <item id="c2" line="1359 1360" tag="G+CR">1s         ea t   bite one     ACQ   Y/N-PRT</item>
+    <item id="c4" line="1361" tag="T">Can    I take a bite?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50177">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1362-1364" line-types="L+AC G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1362" tag="L+AC">         b.      De         gangj vah           Yeznanz      hix  ndaej. (cf. (35))</item>
+    <item id="o2" line="1363" tag="G">                 3s         speak language      Vietnam      also ACQ</item>
+    <item id="o3" line="1364" tag="T+CR">                 `He c   an also speak Vietnamese.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1362" tag="L+AC">De         gangj vah           Yeznanz      hix  ndaej. (cf. (35))</item>
+    <item id="c2" line="1363" tag="G">3s         speak language      Vietnam      also ACQ</item>
+    <item id="c3" line="1364" tag="T+CR">He c   an also speak Vietnamese.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50178">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1372-1373" line-types="L+SY G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1372" tag="L+SY">                 [S [gou gwn gaemz ndeu] [ndaej]]</item>
+    <item id="o2" line="1373" tag="G">                     1s eat      bite one   ACQ</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1372" tag="L+SY">[S [gou gwn gaemz ndeu] [ndaej]]</item>
+    <item id="c2" line="1373" tag="G">1s eat      bite one   ACQ</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50179">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1386-1388" line-types="L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1386" tag="L">  (44)   a.      De       mbouj gangj vah               Yeznanz           ndaej lo.</item>
+    <item id="o2" line="1387" tag="G">                 3s       not     speak language        Vietnam           ACQ      PRT</item>
+    <item id="o3" line="1388" tag="T+CR">                 `It' s okay if he does not speak Vietnamese.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1386" tag="L">De       mbouj gangj vah               Yeznanz           ndaej lo.</item>
+    <item id="c2" line="1387" tag="G">3s       not     speak language        Vietnam           ACQ      PRT</item>
+    <item id="c3" line="1388" tag="T+CR">It' s okay if he does not speak Vietnamese.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50180">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1389-1391" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1389" tag="L">         b.      De       gangj vah              Yeznanz       mbouj      ndaej.</item>
+    <item id="o2" line="1390" tag="G">                 3s       speak language         Vietnam       not        ACQ</item>
+    <item id="o3" line="1391" tag="T">                 `It is not okay if he speaks Vietnamese.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1389" tag="L">De       gangj vah              Yeznanz       mbouj      ndaej.</item>
+    <item id="c2" line="1390" tag="G">3s       speak language         Vietnam       not        ACQ</item>
+    <item id="c3" line="1391" tag="T">It is not okay if he speaks Vietnamese.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50181">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1392-1394" line-types="L G T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1392" tag="L">         c.      De       mbouj gangj vah               Yeznanz           mbouj ndaej.</item>
+    <item id="o2" line="1393" tag="G">                 3s       not     speak language        Vietnam           not     ACQ</item>
+    <item id="o3" line="1394" tag="T+DB">                 `It is not okay if he does not speak Vietnamese.' (i.e   ., `He must...' )</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1392" tag="L">De       mbouj gangj vah               Yeznanz           mbouj ndaej.</item>
+    <item id="c2" line="1393" tag="G">3s       not     speak language        Vietnam           not     ACQ</item>
+    <item id="c3" line="1394" tag="T+DB">It is not okay if he does not speak Vietnamese.' (i.e   ., `He must...' )</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:73]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50182">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1403-1405" line-types="L+AC G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1403" tag="L+AC">  (45)   a.      De      bae     roxnaeux       mwngz           ba e cungj ndaej.             (Z&amp;Q 91)</item>
+    <item id="o2" line="1404" tag="G">                 3s      go      or             2s              go   al l  ACQ</item>
+    <item id="o3" line="1405" tag="T+CR">                 `Whether he   goes or you go, it' s all okay.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1403" tag="L+AC">a.      De      bae     roxnaeux       mwngz           ba e cungj ndaej.             (Z&amp;Q 91</item>
+    <item id="c2" line="1404" tag="G">3s      go      or             2s              go   al l  ACQ</item>
+    <item id="c3" line="1405" tag="T+CR">Whether he   goes or you go, it' s all okay.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:92]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50183">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1406-1408" line-types="L+AC G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1406" tag="L+AC">         b.      Bak gaen        rap    cungj ndaej, ... (Qin 265 (55))</item>
+    <item id="o2" line="1407" tag="G+CR">                 100     poun  d carry all      ACQ</item>
+    <item id="o3" line="1408" tag="T">                 `Lifting 100  pounds is already possible, ...'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1406" tag="L+AC">Bak gaen        rap    cungj ndaej, ... (Qin 265 (55))</item>
+    <item id="c2" line="1407" tag="G+CR">100     poun  d carry all      ACQ</item>
+    <item id="c3" line="1408" tag="T">Lifting 100  pounds is already possible, ...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50184">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1413-1415" line-types="L+AC G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1413" tag="L+AC">         c.      De        gangj vah              Yeznanz        {hix, lij ...}   ndaej lo.          (cf. (42b))</item>
+    <item id="o2" line="1414" tag="G">                 3s        speak language         Vietnam        also, still      ACQ         PRT</item>
+    <item id="o3" line="1415" tag="T+CR">                 `It' s {also, still} okay for him/her to speak Vietnamese.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1413" tag="L+AC">De        gangj vah              Yeznanz        {hix, lij ...}   ndaej lo.          (cf. (42b))</item>
+    <item id="c2" line="1414" tag="G">3s        speak language         Vietnam        also, still      ACQ         PRT</item>
+    <item id="c3" line="1415" tag="T+CR">It' s {also, still} okay for him/her to speak Vietnamese.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:95]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:80]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50185">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1420-1423" line-types="L G T+DB+LT C+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1420" tag="L">  (46)           Mwngz            mbouj gwn noh         ko,     mbouj ndaej.</item>
+    <item id="o2" line="1421" tag="G">                 2s               not     ea t   meat TOP, not           ACQ</item>
+    <item id="o3" line="1422" tag="T+DB+LT">                 `It is not okay for you not to eat meat.' (more literally: `As to you not eating</item>
+    <item id="o4" line="1423" tag="C+CR">                 meat, it' s not okay.' )</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1420" tag="L">Mwngz            mbouj gwn noh         ko,     mbouj ndaej.</item>
+    <item id="c2" line="1421" tag="G">2s               not     ea t   meat TOP, not           ACQ</item>
+    <item id="c3" line="1422" tag="T+DB+LT">It is not okay for you not to eat meat.' (more literally: `As to you not eating</item>
+    <item id="c4" line="1423" tag="C+CR">meat, it' s not okay.' )</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:79]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50186">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1428-1430" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1428" tag="L+AC">  (47)   a.      Mwngz           baenzneix       yawj saw         mbouj ndei      vei.        (Qin 137 (18))</item>
+    <item id="o2" line="1429" tag="G">                 2s              this.way        read book        not   good      PRT</item>
+    <item id="o3" line="1430" tag="T">                 `You reading this way is not good.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1428" tag="L+AC">a.      Mwngz           baenzneix       yawj saw         mbouj ndei      vei.        (Qin 137 (18)</item>
+    <item id="c2" line="1429" tag="G">2s              this.way        read book        not   good      PRT</item>
+    <item id="c3" line="1430" tag="T">You reading this way is not good.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:98]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50187">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1431-1433" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1431" tag="L+AC">         b.      Mwngz           ndaq vunz mbouj baenz            vei.   (Qin 137 (17))</item>
+    <item id="o2" line="1432" tag="G">                 2s              scold people not       okay      PRT</item>
+    <item id="o3" line="1433" tag="T">                 `It is not okay for you to curse people.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1431" tag="L+AC">Mwngz           ndaq vunz mbouj baenz            vei.   (Qin 137 (17))</item>
+    <item id="c2" line="1432" tag="G">2s              scold people not       okay      PRT</item>
+    <item id="c3" line="1433" tag="T">It is not okay for you to curse people.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50188">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zhuang" iso-639-3="ccx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1786" line-range="1434-1436" line-types="L+AC G T+DB+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1434" tag="L+AC">         c.      Bouxboux        ae u    gaenx guh      hong      cij     baenz ne. (cf. Z&amp;Q 193 (2))</item>
+    <item id="o2" line="1435" tag="G">                 everyone        want hard do           work      only okay PRT</item>
+    <item id="o3" line="1436" tag="T+DB+CR">                 `Only everyone wanting to work hard is oka      y.' (everybody must want to ...)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1434" tag="L+AC">Bouxboux        ae u    gaenx guh      hong      cij     baenz ne. (cf. Z&amp;Q 193 (2))</item>
+    <item id="c2" line="1435" tag="G">everyone        want hard do           work      only okay PRT</item>
+    <item id="c3" line="1436" tag="T+DB+CR">Only everyone wanting to work hard is oka      y.' (everybody must want to ...)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:79]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

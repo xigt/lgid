@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i63705">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2551" line-range="2267-2273" line-types="L+CN B G B T B M+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2267" tag="L+CN">  (87)   a. Nitshissenimâu [tiâ-t          mûsh   nete Labrador] [Conjunct]</item>
+    <item id="o2" line="2268" tag="B"></item>
+    <item id="o3" line="2269" tag="G">                1-know           be 3SG moose there Labrador</item>
+    <item id="o4" line="2270" tag="B"></item>
+    <item id="o5" line="2271" tag="T">                `I know there are moose in Labrador'</item>
+    <item id="o6" line="2272" tag="B"></item>
+    <item id="o7" line="2273" tag="M+AC+LN">                                            [Sheshatshit Montagnais, Brittain 1997, 274]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2267" tag="L+CN">Nitshissenimâu [tiâ-t          mûsh   nete Labrador] [Conjunct]</item>
+    <item id="c2" line="2268" tag="B"/>
+    <item id="c3" line="2269" tag="G">1-know           be 3SG moose there Labrador</item>
+    <item id="c4" line="2270" tag="B"/>
+    <item id="c5" line="2271" tag="T">I know there are moose in Labrador</item>
+    <item id="c6" line="2272" tag="B"/>
+    <item id="c7" line="2273" tag="M+AC+LN">[Sheshatshit Montagnais, Brittain 1997, 274]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79854">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="1703-1705" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1703" tag="L+LN">          b. Ni-tshissenim-ânân-at [mûpishtuât Shûshepa Tshân mâk Mânî].                           (Innu-aimûn)</item>
+    <item id="o2" line="1704" tag="G">             1pl-know-1pl-3pl       visit      Joseph John and Marie</item>
+    <item id="o3" line="1705" tag="T">             `We know that John and Marie visited Joseph.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1703" tag="L+LN">Ni-tshissenim-ânân-at [mûpishtuât Shûshepa Tshân mâk Mânî].                           (Innu-aimûn)</item>
+    <item id="c2" line="1704" tag="G">1pl-know-1pl-3pl       visit      Joseph John and Marie</item>
+    <item id="c3" line="1705" tag="T">We know that John and Marie visited Joseph.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:98]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79857">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="1723-1728" line-types="M+LN L G+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1723" tag="M+LN">                                                                                                   (Innu-aimûn)</item>
+    <item id="o2" line="1724" tag="L">          b. Tshi-tshissenim-âu-â [Mânî tshekuân kuet aimiât Pûna utshimâminua]?</item>
+    <item id="o3" line="1725" tag="G+CR">                                                      called Paul boss</item>
+    <item id="o4" line="1726" tag="G+CR">                                   Marie why</item>
+    <item id="o5" line="1727" tag="G+CR">             2-know-TA-3-Q</item>
+    <item id="o6" line="1728" tag="T">             `Do you know why Marie called Paul's boss?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1723" tag="M+LN">Innu-aimûn</item>
+    <item id="c2" line="1724" tag="L">Tshi-tshissenim-âu-â [Mânî tshekuân kuet aimiât Pûna utshimâminua]?</item>
+    <item id="c3" line="1725 1726 1727" tag="G+CR">2-know-TA-3-Q         Marie why          called Paul boss</item>
+    <item id="c6" line="1728" tag="T">Do you know why Marie called Paul's boss?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79858">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="1742-1746" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1742" tag="L+CR">                 Mishta uîshiâushu tshi-tânish it-eu Shûshep.</item>
+    <item id="o2" line="1743" tag="L+CR">   (85)   a.</item>
+    <item id="o3" line="1744" tag="G+CR">                                    2-daughter said-3 Joseph</item>
+    <item id="o4" line="1745" tag="G+CR">                 very helpful</item>
+    <item id="o5" line="1746" tag="T">                 `Joseph said that your daughter is very helpful.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1742 1743" tag="L+CR">Mishta uîshiâushu tshi-tânish it-eu Shûshep.</item>
+    <item id="c3" line="1744 1745" tag="G+CR">very helpful       2-daughter said-3 Joseph</item>
+    <item id="c5" line="1746" tag="T">Joseph said that your daughter is very helpful.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79859">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="1747-1751" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1747" tag="L+CR">               * Mishta uîshiâushu tshi-tânish tshit-it-iku Shûshep.</item>
+    <item id="o2" line="1748" tag="L+CR">          b.</item>
+    <item id="o3" line="1749" tag="G+CR">                                    2-daughter 2-said-3/INV Joseph</item>
+    <item id="o4" line="1750" tag="G+CR">                 very helpful</item>
+    <item id="o5" line="1751" tag="T">                 `Joseph said that your daughter is very helpful.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1747 1748" tag="L+CR">* Mishta uîshiâushu tshi-tânish tshit-it-iku Shûshep.</item>
+    <item id="c3" line="1749 1750" tag="G+CR">very helpful       2-daughter 2-said-3/INV Joseph</item>
+    <item id="c5" line="1751" tag="T">Joseph said that your daughter is very helpful.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79860">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="1752-1756" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1752" tag="L+CR">                 N-uî-tshissenit-en tân ishpish Pûn mâk tshîn tshi-nîtshipêtûtâu.</item>
+    <item id="o2" line="1753" tag="L+CR">   (86)   a.</item>
+    <item id="o3" line="1754" tag="G+CR">                                                Paul and you stopped</item>
+    <item id="o4" line="1755" tag="G+CR">                 1-want-know-TI when</item>
+    <item id="o5" line="1756" tag="T">                 `I want to know when Paul and you stopped.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1752 1753" tag="L+CR">N-uî-tshissenit-en tân ishpish Pûn mâk tshîn tshi-nîtshipêtûtâu.</item>
+    <item id="c3" line="1754 1755" tag="G+CR">1-want-know-TI when            Paul and you stopped</item>
+    <item id="c5" line="1756" tag="T">I want to know when Paul and you stopped.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79861">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="1757-1759" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1757" tag="L">          b.   * Tshi-tshissîtâtin tân ishpish Pûn mâk tshîn tshi-nîtshipêtûtâu.</item>
+    <item id="o2" line="1758" tag="G">                 1-want-know-3 when            Paul and you stopped</item>
+    <item id="o3" line="1759" tag="T">                 `I want to know when Paul and you stopped.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1757" tag="L">* Tshi-tshissîtâtin tân ishpish Pûn mâk tshîn tshi-nîtshipêtûtâu.</item>
+    <item id="c2" line="1758" tag="G">1-want-know-3 when            Paul and you stopped</item>
+    <item id="c3" line="1759" tag="T">I want to know when Paul and you stopped.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79874">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="1958-1960" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1958" tag="L">   (96)     a.      Ni-tshissît-en kâ-kuetshitshemu-iân tân ishpish tshi-pâpî.                                      (Innu-aimûn)</item>
+    <item id="o2" line="1959" tag="G">                    1-remember-TI PRT-asked-1(INTR) when            PRT-laughed-2</item>
+    <item id="o3" line="1960" tag="T">                    `I remember that I asked when you laughed.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1958" tag="L">a.      Ni-tshissît-en kâ-kuetshitshemu-iân tân ishpish tshi-pâpî.                                      (Innu-aimûn</item>
+    <item id="c2" line="1959" tag="G">1-remember-TI PRT-asked-1(INTR) when            PRT-laughed-2</item>
+    <item id="c3" line="1960" tag="T">I remember that I asked when you laughed.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:115]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79875">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="1961-1963" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1961" tag="L">            b.   * Tshi-tshissîtâtin   kâ-kuetshitshemu-iân tân ishpish tshi-pâpî.</item>
+    <item id="o2" line="1962" tag="G">                   2-remember-1/INV PRT-asked-1(INTR) when              PRT-laughed-2</item>
+    <item id="o3" line="1963" tag="T">                   `I remember that I asked when you laughed.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1961" tag="L">* Tshi-tshissîtâtin   kâ-kuetshitshemu-iân tân ishpish tshi-pâpî.</item>
+    <item id="c2" line="1962" tag="G">2-remember-1/INV PRT-asked-1(INTR) when              PRT-laughed-2</item>
+    <item id="c3" line="1963" tag="T">I remember that I asked when you laughed.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79876">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="1971-1974" line-types="L G M+LN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1971" tag="L">   (97)    Nt-assokitam-a-k        eli kosiciy-ot     sakoma-k kehsi-wekihtu-htit man.                                        (Pas-</item>
+    <item id="o2" line="1972" tag="G">           1-surprised.TA-Dir-3P C know.TA-2Conj1 governor-3P X.many-spend-3PConj money</item>
+    <item id="o3" line="1973" tag="M+LN">           samaquody)</item>
+    <item id="o4" line="1974" tag="T">           `I'm surprised that you know that the governors spent a lot of money.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1971" tag="L">Nt-assokitam-a-k        eli kosiciy-ot     sakoma-k kehsi-wekihtu-htit man.                                        (Pas-</item>
+    <item id="c2" line="1972" tag="G">1-surprised.TA-Dir-3P C know.TA-2Conj1 governor-3P X.many-spend-3PConj money</item>
+    <item id="c3" line="1973" tag="M+LN">samaquody)</item>
+    <item id="c4" line="1974" tag="T">I'm surprised that you know that the governors spent a lot of money.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:120]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79877">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="2073-2075" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2073" tag="L">  (100)   Ni-tshissenim-âu Pûn kâ-mûpisht-âshk</item>
+    <item id="o2" line="2074" tag="G">          1-know-3          Paul prt-visited-2/Inv</item>
+    <item id="o3" line="2075" tag="T">          `I know that Paul visited you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2073" tag="L">Ni-tshissenim-âu Pûn kâ-mûpisht-âshk</item>
+    <item id="c2" line="2074" tag="G">1-know-3          Paul prt-visited-2/Inv</item>
+    <item id="c3" line="2075" tag="T">I know that Paul visited you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79878">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="2085-2088" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2085" tag="L+CR">          a. Pûn mâk Mânî nikamûpan-at.</item>
+    <item id="o2" line="2086" tag="L+CR">  (101)</item>
+    <item id="o3" line="2087" tag="G">             Paul and Marie sang-3pl</item>
+    <item id="o4" line="2088" tag="T">             `Paul and Mary sang together.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2085 2086" tag="L+CR">Pûn mâk Mânî nikamûpan-at.</item>
+    <item id="c3" line="2087" tag="G">Paul and Marie sang-3pl</item>
+    <item id="c4" line="2088" tag="T">Paul and Mary sang together.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79879">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="2094-2096" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2094" tag="L">          b. Pûn mâk Mânî nikamûpan.</item>
+    <item id="o2" line="2095" tag="G">             Paul and Marie sang-3sg</item>
+    <item id="o3" line="2096" tag="T">             `Paul and Mary each sang.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2094" tag="L">Pûn mâk Mânî nikamûpan.</item>
+    <item id="c2" line="2095" tag="G">Paul and Marie sang-3sg</item>
+    <item id="c3" line="2096" tag="T">Paul and Mary each sang.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79880">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="2100-2102" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2100" tag="L">  (102)   a.     N-uî-tshissenim-âu-at tshekuânnu kuet mûpishtût-âu Pûn mâk Mânî.</item>
+    <item id="o2" line="2101" tag="G">                 1-want-know-3pl       why             visited-2sg/3pl Paul and Marie</item>
+    <item id="o3" line="2102" tag="T">                 `I want to know why you visited Paul and Marie.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2100" tag="L">N-uî-tshissenim-âu-at tshekuânnu kuet mûpishtût-âu Pûn mâk Mânî.</item>
+    <item id="c2" line="2101" tag="G">1-want-know-3pl       why             visited-2sg/3pl Paul and Marie</item>
+    <item id="c3" line="2102" tag="T">I want to know why you visited Paul and Marie.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79881">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="2103-2107" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2103" tag="L+CR">               * N-uî-tshissenim-âu tshekuânnu kuet mûpishtût-âu Pûn mâk Mânî.</item>
+    <item id="o2" line="2104" tag="L+CR">          b.</item>
+    <item id="o3" line="2105" tag="G+CR">                                                    visited-2sg/3pl Paul and Marie</item>
+    <item id="o4" line="2106" tag="G+CR">                 1-want-know-3sg why</item>
+    <item id="o5" line="2107" tag="T">                 `I want to know why you visited Paul and Marie.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2103 2104" tag="L+CR">* N-uî-tshissenim-âu tshekuânnu kuet mûpishtût-âu Pûn mâk Mânî.</item>
+    <item id="c3" line="2105 2106" tag="G+CR">1-want-know-3sg why                visited-2sg/3pl Paul and Marie</item>
+    <item id="c5" line="2107" tag="T">I want to know why you visited Paul and Marie.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79897">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="2651-2653" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2651" tag="L+LN">     (i)    Ma tshi-tshissenim-âu tân ishpish na       nit-aimâ Mânî?                              (Innu-aimûn)</item>
+    <item id="o2" line="2652" tag="G">            Q 2-know-3            when        1-called Marie</item>
+    <item id="o3" line="2653" tag="T">            `Do you know when I called Marie?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2651" tag="L+LN">Ma tshi-tshissenim-âu tân ishpish na       nit-aimâ Mânî?                              (Innu-aimûn</item>
+    <item id="c2" line="2652" tag="G">Q 2-know-3            when        1-called Marie</item>
+    <item id="c3" line="2653" tag="T">Do you know when I called Marie?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:98]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79899">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="2678-2680" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2678" tag="L">     (i)   Tân eshpish tshe-mishikât Mâni tshit-itenim-âu?</item>
+    <item id="o2" line="2679" tag="G">           when        fut-arrive    Marie 2-think-3</item>
+    <item id="o3" line="2680" tag="T">           `When do you think Marie will arrive?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2678" tag="L">Tân eshpish tshe-mishikât Mâni tshit-itenim-âu?</item>
+    <item id="c2" line="2679" tag="G">when        fut-arrive    Marie 2-think-3</item>
+    <item id="c3" line="2680" tag="T">When do you think Marie will arrive?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79900">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="2714-2716" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2714" tag="L">     (i)   a.    Tshi-kukuetshim-in auenua mûpishtâkupan Mânî.</item>
+    <item id="o2" line="2715" tag="G">                 2-asked-2/1        who visited-3        Marie</item>
+    <item id="o3" line="2716" tag="T">                 `You asked me who visited Marie.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2714" tag="L">Tshi-kukuetshim-in auenua mûpishtâkupan Mânî.</item>
+    <item id="c2" line="2715" tag="G">2-asked-2/1        who visited-3        Marie</item>
+    <item id="c3" line="2716" tag="T">You asked me who visited Marie.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79901">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="2717-2719" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2717" tag="L">           b.   * Tshi-kukuetshim-âu auenua mûpishtâkupan Mânî.</item>
+    <item id="o2" line="2718" tag="G">                  2-asked-TA-2/3     who visited-3        Marie</item>
+    <item id="o3" line="2719" tag="T">                  `You asked me who visited Marie.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2717" tag="L">* Tshi-kukuetshim-âu auenua mûpishtâkupan Mânî.</item>
+    <item id="c2" line="2718" tag="G">2-asked-TA-2/3     who visited-3        Marie</item>
+    <item id="c3" line="2719" tag="T">You asked me who visited Marie.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i125614">
+  <metadata type="xigt-meta">
+    <meta type="language" name="innu-aimûn" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4044" line-range="744-747" line-types="L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="744" tag="L">  (31)      Ni-kukuetshitshemû tshetshî mâ mûpishtuâkuenit ukâuîuâu Pûn           mâk Mânî.</item>
+    <item id="o2" line="745" tag="G">            1-asked              if                             visit-3PL mother Paul and Marie</item>
+    <item id="o3" line="746" tag="T">            `I asked about Paul and Marie if they visited their mother' or `I asked about their mother</item>
+    <item id="o4" line="747" tag="T">            if Paul and Marie visited her.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="744" tag="L">Ni-kukuetshitshemû tshetshî mâ mûpishtuâkuenit ukâuîuâu Pûn           mâk Mânî.</item>
+    <item id="c2" line="745" tag="G">1-asked              if                             visit-3PL mother Paul and Marie</item>
+    <item id="c3" line="746" tag="T">I asked about Paul and Marie if they visited their mother' or `I asked about their mother</item>
+    <item id="c4" line="747" tag="T">if Paul and Marie visited her.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:83]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:89]" alignment="p1"/>
+    <item id="t1" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i147730">
+  <metadata type="xigt-meta">
+    <meta type="language" name="montagnais" iso-639-3="moe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="817" line-range="939-941" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="939" tag="L+LN">    (51) Ni-minuenitam-u-ân    tshe    tshîtûte-t.         (Montagnais)</item>
+    <item id="o2" line="940" tag="G">         1-be happy.TI.3-rel-1 preverb leave-3</item>
+    <item id="o3" line="941" tag="T">          `I'm happy (in relation to her) that s/he's leaving'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="939" tag="L+LN">Ni-minuenitam-u-ân    tshe    tshîtûte-t.         (Montagnais</item>
+    <item id="c2" line="940" tag="G">1-be happy.TI.3-rel-1 preverb leave-3</item>
+    <item id="c3" line="941" tag="T">I'm happy (in relation to her) that s/he's leaving'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

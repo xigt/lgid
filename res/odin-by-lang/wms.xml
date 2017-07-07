@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i58001">
+  <metadata type="xigt-meta">
+    <meta type="language" name="wambon" iso-639-3="wms" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3184" line-range="616-622" line-types="M+AC+LN B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="616" tag="M+AC+LN">  Wambon (de Vries &amp; de Vries- Wiersma 1992: 19, 90)</item>
+    <item id="o2" line="617" tag="B"></item>
+    <item id="o3" line="618" tag="L">  (9) (a) Jakhov- e       matet- mo ka- lembo?</item>
+    <item id="o4" line="619" tag="B"></item>
+    <item id="o5" line="620" tag="G">           they- CONN     good- VR.SS go- 3.PL.PAST</item>
+    <item id="o6" line="621" tag="B"></item>
+    <item id="o7" line="622" tag="T">           'Did they travel well?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="616" tag="M+AC+LN">Wambon (de Vries &amp; de Vries-Wiersma 1992: 19, 90)</item>
+    <item id="c2" line="617" tag="B"/>
+    <item id="c3" line="618" tag="L">(a) Jakhov-e       matet-mo ka-lembo?</item>
+    <item id="c4" line="619" tag="B"/>
+    <item id="c5" line="620" tag="G">they-CONN     good-VR.SS go-3.PL.PAST</item>
+    <item id="c6" line="621" tag="B"/>
+    <item id="c7" line="622" tag="T">Did they travel well?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58002">
+  <metadata type="xigt-meta">
+    <meta type="language" name="wambon" iso-639-3="wms" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3184" line-range="624-632" line-types="L B G B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="624" tag="L">      (b) Nggerkaji- ke- levambo- n- o ko- khe- n- o</item>
+    <item id="o2" line="625" tag="B"></item>
+    <item id="o3" line="626" tag="G">           saw- VR- 1.PL.PAST-TR- CO        go- 3.SG.PRS- TR- CO</item>
+    <item id="o4" line="627" tag="B"></item>
+    <item id="o5" line="628" tag="L">                kutip -ke -lo   nda-t ulo            la- levambo.</item>
+    <item id="o6" line="629" tag="B"></item>
+    <item id="o7" line="630" tag="G">                night- VR- SS   come- ascend .SS sleep- 1.PL.PAST</item>
+    <item id="o8" line="631" tag="B"></item>
+    <item id="o9" line="632" tag="T">           'We continued sawing until the night fell and we went up and slept'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="624" tag="L">Nggerkaji-ke-levambo-n-o ko-khe-n-o</item>
+    <item id="c2" line="625" tag="B"/>
+    <item id="c3" line="626" tag="G">saw-VR-1.PL.PAST-TR-CO        go-3.SG.PRS-TR-CO</item>
+    <item id="c4" line="627" tag="B"/>
+    <item id="c5" line="628" tag="L">kutip-ke-lo   nda-t ulo            la-levambo.</item>
+    <item id="c6" line="629" tag="B"/>
+    <item id="c7" line="630" tag="G">night-VR-SS   come-ascend .SS sleep-1.PL.PAST</item>
+    <item id="c8" line="631" tag="B"/>
+    <item id="c9" line="632" tag="T">We continued sawing until the night fell and we went up and slept'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+    <item id="p1" content="c5[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+    <item id="g1" content="c7[0:45]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:67]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i75141">
+  <metadata type="xigt-meta">
+    <meta type="language" name="wambon" iso-639-3="wms" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3696" line-range="629-633" line-types="M+AC+LN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="629" tag="M+AC+LN">  Wambon (de Vries 1989: 49)</item>
+    <item id="o2" line="630" tag="L">  (18) Jakhov-e        matet-mo                ka-lembo?</item>
+    <item id="o3" line="631" tag="G+CR">                            good-SUPP.SS      go-3   PL.PAST</item>
+    <item id="o4" line="632" tag="G+CR">        they-   CN</item>
+    <item id="o5" line="633" tag="T">        `Did they travel well?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="629" tag="M+AC+LN">Wambon (de Vries 1989: 49)</item>
+    <item id="c2" line="630" tag="L">Jakhov-e        matet-mo                ka-lembo?</item>
+    <item id="c3" line="631 632" tag="G+CR">they-CN          good-SUPP.SS      go-3   PL.PAST</item>
+    <item id="c5" line="633" tag="T">Did they travel well?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85075">
+  <metadata type="xigt-meta">
+    <meta type="language" name="wambon" iso-639-3="wms" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="2474-2477" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2474" tag="M+LN">  (2.7)     WAMBON</item>
+    <item id="o2" line="2475" tag="L">          a.    andet-ep-mbo</item>
+    <item id="o3" line="2476" tag="G">                eat-1SG-PAST</item>
+    <item id="o4" line="2477" tag="T">                `I ate'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2474" tag="M+LN">WAMBON</item>
+    <item id="c2" line="2475" tag="L">andet-ep-mbo</item>
+    <item id="c3" line="2476" tag="G">eat-1SG-PAST</item>
+    <item id="c4" line="2477" tag="T">I ate</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:5]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85076">
+  <metadata type="xigt-meta">
+    <meta type="language" name="wambon" iso-639-3="wms" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="2483-2486" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2483" tag="L+CR">                andet--mbo</item>
+    <item id="o2" line="2484" tag="L+CR">          b.</item>
+    <item id="o3" line="2485" tag="G">                eat-2/3SG-PAST</item>
+    <item id="o4" line="2486" tag="T+AC">                `You/he/she/it ate'                                     (de Vries, 1989: 24)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2483 2484" tag="L+CR">andet--mbo</item>
+    <item id="c3" line="2485" tag="G">eat-2/3SG-PAST</item>
+    <item id="c4" line="2486" tag="T+AC">You/he/she/it ate'                                     (de Vries, 1989: 24)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:75]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i132254">
+  <metadata type="xigt-meta">
+    <meta type="language" name="wambon" iso-639-3="wms" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2666" line-range="191-193" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="191" tag="L">  (4)   a.   Andet-ep-mbo.</item>
+    <item id="o2" line="192" tag="G">             eat-1SG-PAST</item>
+    <item id="o3" line="193" tag="T">             `I ate.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="191" tag="L">Andet-ep-mbo.</item>
+    <item id="c2" line="192" tag="G">eat-1SG-PAST</item>
+    <item id="c3" line="193" tag="T">I ate.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:6]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i132255">
+  <metadata type="xigt-meta">
+    <meta type="language" name="wambon" iso-639-3="wms" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2666" line-range="194-196" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="194" tag="L">        b.   Andet--mbo.</item>
+    <item id="o2" line="195" tag="G">             eat-2/3SG-PAST</item>
+    <item id="o3" line="196" tag="T+AC">             `You/he/she/it ate.'                                       (Vries 1989:24)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="194" tag="L">Andet--mbo.</item>
+    <item id="c2" line="195" tag="G">eat-2/3SG-PAST</item>
+    <item id="c3" line="196" tag="T+AC">You/he/she/it ate.'                                       (Vries 1989:24)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:73]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

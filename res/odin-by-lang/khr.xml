@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i57521">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kharia" iso-639-3="khr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="404-407" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="404" tag="L+CR">                            hoka}-te yo-te-bar</item>
+    <item id="o2" line="405" tag="L+CR">        a.    am-bar</item>
+    <item id="o3" line="406" tag="G">              2-2.HON       3S-OBL see-PAST-2.HON</item>
+    <item id="o4" line="407" tag="T">              `you (polite) saw him/her'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="404 405" tag="L+CR">am-bar        hoka}-te yo-te-bar</item>
+    <item id="c3" line="406" tag="G">2-2.HON       3S-OBL see-PAST-2.HON</item>
+    <item id="c4" line="407" tag="T">you (polite) saw him/her</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57522">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kharia" iso-639-3="khr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="408-411" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="408" tag="L+CR">                            hoka}-te um-bar</item>
+    <item id="o2" line="409" tag="L+CR">        b.    am-bar                                    yo-te</item>
+    <item id="o3" line="410" tag="G">              2-2.HON       3S-OBL NEG-2.HON see-PAST</item>
+    <item id="o4" line="411" tag="T">              `you (polite) did not see him/her'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="408 409" tag="L+CR">am-bar        hoka}-te um-bar             yo-te</item>
+    <item id="c3" line="410" tag="G">2-2.HON       3S-OBL NEG-2.HON see-PAST</item>
+    <item id="c4" line="411" tag="T">you (polite) did not see him/her</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57523">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kharia" iso-639-3="khr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="412-415" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="412" tag="L+CR">                                    iguÍ-ga      tar-o?-gur-e-niN</item>
+    <item id="o2" line="413" tag="L+CR">        c.    ho       danote</item>
+    <item id="o3" line="414" tag="G">              DEM demon             how-FOC kill-CAUS-fall-IRR-EXCL</item>
+    <item id="o4" line="415" tag="T">              `How will we kill that demon?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="412 413" tag="L+CR">ho       danote       iguÍ-ga      tar-o?-gur-e-niN</item>
+    <item id="c3" line="414" tag="G">DEM demon             how-FOC kill-CAUS-fall-IRR-EXCL</item>
+    <item id="c4" line="415" tag="T">How will we kill that demon?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

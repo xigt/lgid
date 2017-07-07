@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i78749">
+  <metadata type="xigt-meta">
+    <meta type="language" name="svan" iso-639-3="sva" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2539" line-range="194-200" line-types="L+CR L+CR L+CR G G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="194" tag="L+CR">                                                                                al       c&amp;'q'int'i</item>
+    <item id="o2" line="195" tag="L+CR">  {i} [SVAN] sk'odi Z&amp;avr                  gvis         X-o-c'Xvavd-a-X</item>
+    <item id="o3" line="196" tag="L+CR">                dedes i mamas</item>
+    <item id="o4" line="197" tag="G">                [deep      worry-NOM heart-DAT trouble.I.3/3pl/3                this     boy-GEN</item>
+    <item id="o5" line="198" tag="G">                mother-DAT and father-DAT]</item>
+    <item id="o6" line="199" tag="T">  "Deep worry [agent,GS/RO] troubled the hearts [patient,GDO/RO] of this boy's mother and father</item>
+    <item id="o7" line="200" tag="T">  [possessor,GIO/RS]"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="194 195" tag="L+CR">{i} [SVAN] sk'odi Z&amp;avr                  gvis         X-o-c'Xvavd-a-X         al       c&amp;'q'int'i</item>
+    <item id="c4" line="197" tag="G">[deep      worry-NOM heart-DAT trouble.I.3/3pl/3                this     boy-GEN</item>
+    <item id="c5" line="198" tag="G">mother-DAT and father-DAT]</item>
+    <item id="c6" line="199" tag="T">Deep worry [agent,GS/RO] troubled the hearts [patient,GDO/RO] of this boy's mother and father</item>
+    <item id="c7" line="200" tag="T">[possessor,GIO/RS]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:97]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:80]" alignment="p1"/>
+    <item id="g1" content="c5[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:93]" alignment="p1"/>
+    <item id="t1" content="c7[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

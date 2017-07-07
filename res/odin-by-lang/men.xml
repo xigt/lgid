@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i82575">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="226-232" line-types="M+AC+LN B L+CR L+CR M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="226" tag="M+AC+LN">  (4)    Mende (Innes, 1971)</item>
+    <item id="o2" line="227" tag="B"></item>
+    <item id="o3" line="228" tag="L+CR">         a. i-kOlii/</item>
+    <item id="o4" line="229" tag="L+CR">                //                 lOilO</item>
+    <item id="o5" line="230" tag="M">                                     /</item>
+    <item id="o6" line="231" tag="G">            SM3S   -leopard        see.PAST</item>
+    <item id="o7" line="232" tag="T">            `He saw a leopard'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="226" tag="M+AC+LN">Mende (Innes, 1971</item>
+    <item id="c2" line="227" tag="B"/>
+    <item id="c3" line="228" tag="L+CR">i-kOlii/</item>
+    <item id="c5" line="230" tag="M">/</item>
+    <item id="c6" line="231" tag="G">SM3S-leopard        see.PAST</item>
+    <item id="c7" line="232" tag="T">He saw a leopard</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82576">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="234-238" line-types="L+CR L+CR M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="234" tag="L+CR">         b. kpana$      kOlii/</item>
+    <item id="o2" line="235" tag="L+CR">                          //            lOilO</item>
+    <item id="o3" line="236" tag="M">                                          /</item>
+    <item id="o4" line="237" tag="G">            Kpana       leopard         see.PAST</item>
+    <item id="o5" line="238" tag="T">            `Kpana saw a leopard'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="234" tag="L+CR">kpana$      kOlii/</item>
+    <item id="c3" line="236" tag="M">/</item>
+    <item id="c4" line="237" tag="G">Kpana       leopard         see.PAST</item>
+    <item id="c5" line="238" tag="T">Kpana saw a leopard</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82577">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="240-245" line-types="L+CR L+CR M G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="240" tag="L+CR">         c. ti-kOlii/</item>
+    <item id="o2" line="241" tag="L+CR">              / //                 lOilO</item>
+    <item id="o3" line="242" tag="M">                                     /</item>
+    <item id="o4" line="243" tag="G+CR">                 3P-leopard        see.PAST</item>
+    <item id="o5" line="244" tag="G+CR">            SM</item>
+    <item id="o6" line="245" tag="T">            `They saw a leopard'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="240" tag="L+CR">ti-kOlii/</item>
+    <item id="c3" line="242" tag="M">/</item>
+    <item id="c4" line="243 244" tag="G+CR">SM   3P-leopard        see.PAST</item>
+    <item id="c6" line="245" tag="T">They saw a leopard</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82578">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="247-253" line-types="L+CR L+CR L+CR M G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="247" tag="L+CR">         d. mahEisia</item>
+    <item id="o2" line="248" tag="L+CR">                 /            ti-kOlii/</item>
+    <item id="o3" line="249" tag="L+CR">                                / //               lOilO</item>
+    <item id="o4" line="250" tag="M">                                                     /</item>
+    <item id="o5" line="251" tag="G+CR">            chiefs                 3P-leopard      see.PAST</item>
+    <item id="o6" line="252" tag="G+CR">                              SM</item>
+    <item id="o7" line="253" tag="T">            `The chiefs saw a leopard'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="247 249" tag="L+CR">mahEisia            / //               lOilO</item>
+    <item id="c4" line="250" tag="M">/</item>
+    <item id="c5" line="251 252" tag="G+CR">chiefs            SM   3P-leopard      see.PAST</item>
+    <item id="c7" line="253" tag="T">The chiefs saw a leopard</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82611">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="551-557" line-types="M+AC+LN B L+CR L+CR M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="551" tag="M+AC+LN">  (11) Mende (Innes, 1971)</item>
+    <item id="o2" line="552" tag="B"></item>
+    <item id="o3" line="553" tag="L+CR">        a. mahEi/       kOlii/</item>
+    <item id="o4" line="554" tag="L+CR">                          //            lOilO \ waailO</item>
+    <item id="o5" line="555" tag="M">                                          /        /</item>
+    <item id="o6" line="556" tag="G">           chief        leopard         saw   / killed</item>
+    <item id="o7" line="557" tag="T">           `The chief saw / killed a leopard'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="551" tag="M+AC+LN">Mende (Innes, 1971</item>
+    <item id="c2" line="552" tag="B"/>
+    <item id="c3" line="553" tag="L+CR">mahEi/       kOlii/</item>
+    <item id="c5" line="555" tag="M">/        /</item>
+    <item id="c6" line="556" tag="G">chief        leopard         saw   / killed</item>
+    <item id="c7" line="557" tag="T">The chief saw / killed a leopard</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82612">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="559-562" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="559" tag="L">        b. mahEi/       ti-lOilO</item>
+    <item id="o2" line="560" tag="M">                             /</item>
+    <item id="o3" line="561" tag="G">           chief        OM3P     -saw</item>
+    <item id="o4" line="562" tag="T">           `The chief saw them'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="559" tag="L">mahEi/       ti-lOilO</item>
+    <item id="c2" line="560" tag="M">/</item>
+    <item id="c3" line="561" tag="G">chief        OM3P-saw</item>
+    <item id="c4" line="562" tag="T">The chief saw them</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82613">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="564-567" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="564" tag="L">        c. mahEi/       ti-waailO</item>
+    <item id="o2" line="565" tag="M">                          /   /</item>
+    <item id="o3" line="566" tag="G">           chief        OM3P     -killed</item>
+    <item id="o4" line="567" tag="T">           `The chief killed them'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="564" tag="L">mahEi/       ti-waailO</item>
+    <item id="c2" line="565" tag="M">/   /</item>
+    <item id="c3" line="566" tag="G">chief        OM3P-killed</item>
+    <item id="c4" line="567" tag="T">The chief killed them</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82614">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="569-572" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="569" tag="L">        d. mahEi/       tOilO</item>
+    <item id="o2" line="570" tag="M">                          /</item>
+    <item id="o3" line="571" tag="G">           chief        OM3SNH      .saw</item>
+    <item id="o4" line="572" tag="T">           `The chief saw it'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="569" tag="L">mahEi/       tOilO</item>
+    <item id="c2" line="570" tag="M">/</item>
+    <item id="c3" line="571" tag="G">chief        OM3SNH      .saw</item>
+    <item id="c4" line="572" tag="T">The chief saw it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82618">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="895-901" line-types="M+AC+LN B L+DB+CR L+DB+CR M+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="895" tag="M+AC+LN">  (15) Mende (Innes, 1971)</item>
+    <item id="o2" line="896" tag="B"></item>
+    <item id="o3" line="897" tag="L+DB+CR">         a. kpana/                               --&gt;</item>
+    <item id="o4" line="898" tag="L+DB+CR">                          lo/li/                           ngi-loli/</item>
+    <item id="o5" line="899" tag="M+DB">                                                                 /</item>
+    <item id="o6" line="900" tag="G+DB">              Kpana       call                             OM3SH   -call</item>
+    <item id="o7" line="901" tag="T+DB">              `Call Kpana'                                 `Call him'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="895" tag="M+AC+LN">Mende (Innes, 1971</item>
+    <item id="c2" line="896" tag="B"/>
+    <item id="c3" line="897 898" tag="L+DB+CR">kpana/        lo/li/--&gt;       ngi-loli/</item>
+    <item id="c5" line="899" tag="M+DB">/</item>
+    <item id="c6" line="900" tag="G+DB">Kpana       call                             OM3SH-call</item>
+    <item id="c7" line="901" tag="T+DB">Call Kpana'                                 `Call him</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82619">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="903-908" line-types="L+DB+CR L+DB+CR L+DB+CR M G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="903" tag="L+DB+CR">         b. mbEi/                                --&gt;</item>
+    <item id="o2" line="904" tag="L+DB+CR">                          yeya/</item>
+    <item id="o3" line="905" tag="L+DB+CR">                            /                              ngeya/</item>
+    <item id="o4" line="906" tag="M">                                                              /</item>
+    <item id="o5" line="907" tag="G+DB">              rice        buy                              OM3SNH   .buy</item>
+    <item id="o6" line="908" tag="T+DB">              `Buy the rice'                               `Buy it'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="903 904" tag="L+DB+CR">mbEi/         yeya/--&gt;</item>
+    <item id="c4" line="906" tag="M">/</item>
+    <item id="c5" line="907" tag="G+DB">rice        buy                              OM3SNH   .buy</item>
+    <item id="c6" line="908" tag="T+DB">Buy the rice'                               `Buy it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82620">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="910-912" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="910" tag="L">         c. mbEi/         ve       kpana/   wE</item>
+    <item id="o2" line="911" tag="G">              rice        give     Kpana    to</item>
+    <item id="o3" line="912" tag="T">              `Give the rice to Kpana'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="910" tag="L">mbEi/         ve       kpana/   wE</item>
+    <item id="c2" line="911" tag="G">rice        give     Kpana    to</item>
+    <item id="c3" line="912" tag="T">Give the rice to Kpana</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82621">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="914-916" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="914" tag="L">         d. fe                     kpana/   wE</item>
+    <item id="o2" line="915" tag="G">              OM3SNH    .give      Kpana    to</item>
+    <item id="o3" line="916" tag="T">              `Give it to Kpana'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="914" tag="L">fe                     kpana/   wE</item>
+    <item id="c2" line="915" tag="G">OM3SNH    .give      Kpana    to</item>
+    <item id="c3" line="916" tag="T">Give it to Kpana</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82622">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="918-920" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="918" tag="L">         e. mbEi/         ve       ngiE/</item>
+    <item id="o2" line="919" tag="G">              rice        give     3SH.to</item>
+    <item id="o3" line="920" tag="T">              `Give the rice to him'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="918" tag="L">mbEi/         ve       ngiE/</item>
+    <item id="c2" line="919" tag="G">rice        give     3SH.to</item>
+    <item id="c3" line="920" tag="T">Give the rice to him</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82623">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="922-924" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="922" tag="L">         f. fe                     ngiE/</item>
+    <item id="o2" line="923" tag="G">              OM3SNH    .give      3SH.to</item>
+    <item id="o3" line="924" tag="T">              `Give it to him'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="922" tag="L">fe                     ngiE/</item>
+    <item id="c2" line="923" tag="G">OM3SNH    .give      3SH.to</item>
+    <item id="c3" line="924" tag="T">Give it to him</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82626">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="956-960" line-types="M+AC+LN B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="956" tag="M+AC+LN">  (16) Mende (Innes, 1971)</item>
+    <item id="o2" line="957" tag="B"></item>
+    <item id="o3" line="958" tag="L">         a. kpana$       gO/        a          mbEi/</item>
+    <item id="o4" line="959" tag="G">              Kpana      give       with       rice</item>
+    <item id="o5" line="960" tag="T">              `Give the rice to Kpana'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="956" tag="M+AC+LN">Mende (Innes, 1971</item>
+    <item id="c2" line="957" tag="B"/>
+    <item id="c3" line="958" tag="L">kpana$       gO/        a          mbEi/</item>
+    <item id="c4" line="959" tag="G">Kpana      give       with       rice</item>
+    <item id="c5" line="960" tag="T">Give the rice to Kpana</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82627">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="962-964" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="962" tag="L">         b. kpana$       gO/        la</item>
+    <item id="o2" line="963" tag="G">              Kpana      give       with.it</item>
+    <item id="o3" line="964" tag="T">              `Give it to Kpana'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="962" tag="L">kpana$       gO/        la</item>
+    <item id="c2" line="963" tag="G">Kpana      give       with.it</item>
+    <item id="c3" line="964" tag="T">Give it to Kpana</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82628">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mende" iso-639-3="men" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="966-968" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="966" tag="L">         c. ngi-gO/            a            mbEi/</item>
+    <item id="o2" line="967" tag="G">              OM3SH   -give with            rice</item>
+    <item id="o3" line="968" tag="T">              `Give the rice to him'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="966" tag="L">ngi-gO/            a            mbEi/</item>
+    <item id="c2" line="967" tag="G">OM3SH-give with            rice</item>
+    <item id="c3" line="968" tag="T">Give the rice to him</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i155914">
+  <metadata type="xigt-meta">
+    <meta type="language" name="basaa" iso-639-3="bas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3302" line-range="177-177" line-types="L-T+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="177" tag="L-T+LN">         c. Basaa      a bí nuul                   `He sold', but</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="177" tag="L-T+LN">Basaa      a bí nuul                   `He sold', but</item>
+  </tier>
+</igt>
+<igt id="i155915">
+  <metadata type="xigt-meta">
+    <meta type="language" name="basaa" iso-639-3="bas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3302" line-range="178-179" line-types="L-T+CR L-T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="178" tag="L-T+CR">                                                   `He sold baskets' (metatony), but</item>
+    <item id="o2" line="179" tag="L-T+CR">                       a bí nuúl bísl</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="178 179" tag="L-T+CR">a bí nuúl bísl           `He sold baskets' (metatony), but</item>
+  </tier>
+</igt>
+<igt id="i155916">
+  <metadata type="xigt-meta">
+    <meta type="language" name="basaa" iso-639-3="bas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3302" line-range="180-182" line-types="L-T+CR L-T+CR C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="180" tag="L-T+CR">                                                   `Sell baskets' (verb but not noun</item>
+    <item id="o2" line="181" tag="L-T+CR">                       nuúl bisl</item>
+    <item id="o3" line="182" tag="C">                                                    affected)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="180 181" tag="L-T+CR">nuúl bisl                  `Sell baskets' (verb but not noun</item>
+    <item id="c3" line="182" tag="C">affected)</item>
+  </tier>
+</igt>
+</xigt-corpus>

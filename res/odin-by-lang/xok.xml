@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i90344">
+  <metadata type="xigt-meta">
+    <meta type="language" name="shokleng" iso-639-3="xok" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2616" line-range="150-152" line-types="L+LN+CR G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="150" tag="L+LN+CR">           b. [Ti to] e kuyan te kupe wa.                             (Shokleng)</item>
+    <item id="o2" line="151" tag="G+CR">             he Erg his body the w ash Prg</item>
+    <item id="o3" line="152" tag="T+CR">             `H e is w ashing his body.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="150" tag="L+LN+CR">[Ti to] e kuyan te kupe wa.                             (Shokleng)</item>
+    <item id="c2" line="151" tag="G+CR">he Erg his body the w ash Prg</item>
+    <item id="c3" line="152" tag="T+CR">H e is w ashing his body.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136129">
+  <metadata type="xigt-meta">
+    <meta type="language" name="shokleng" iso-639-3="xok" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="387-393" line-types="L+CR L+CR B G+LN+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="387" tag="L+CR">                                          kuyan t                                                    2</item>
+    <item id="o2" line="388" tag="L+CR">             b.      ti    tõ                           kupe wã                           Shokleng</item>
+    <item id="o3" line="389" tag="B"></item>
+    <item id="o4" line="390" tag="G+LN+CR">                     [he            ] [his body   the] wash                               (Gê: Central Brazil)</item>
+    <item id="o5" line="391" tag="G+CR">                           ERG                                      PRG</item>
+    <item id="o6" line="392" tag="B"></item>
+    <item id="o7" line="393" tag="T">                     `He is washing his body.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="387 388" tag="L+CR">ti    tõ            kuyan t        kupe wã                           Shokleng 2</item>
+    <item id="c3" line="389" tag="B"/>
+    <item id="c4" line="390 391" tag="G+LN+CR">[he   ERG      ] [his body   the] wash         PRG                   (Gê: Central Brazil)</item>
+    <item id="c6" line="392" tag="B"/>
+    <item id="c7" line="393" tag="T">He is washing his body.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:89]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

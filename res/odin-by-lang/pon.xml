@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i10932">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ponapean" iso-639-3="pon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2494" line-range="443-445" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="443" tag="L">          c. I keng-winih-la</item>
+    <item id="o2" line="444" tag="G">             I eat-medicine-Comp</item>
+    <item id="o3" line="445" tag="T+AC">             `I completed my medicine-taking.'                            (Mithun 1984: 48)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="443" tag="L">I keng-winih-la</item>
+    <item id="c2" line="444" tag="G">I eat-medicine-Comp</item>
+    <item id="c3" line="445" tag="T+AC">I completed my medicine-taking.'                            (Mithun 1984: 48)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:77]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18035">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ponapean" iso-639-3="pon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1607" line-range="638-641" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="638" tag="L">  (37) Soulik oh Ewalt oh Casiano oh Damian pahn doadoahk lakapw.</item>
+    <item id="o2" line="639" tag="G+CR">      Soulik   and Ewalt and Casiano    and Damian             work       tomorrow</item>
+    <item id="o3" line="640" tag="G+CR">                                                       FUT</item>
+    <item id="o4" line="641" tag="T">      `Soulik, Ewalt, Casiano and Damian will work tomorrow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="638" tag="L">Soulik oh Ewalt oh Casiano oh Damian pahn doadoahk lakapw.</item>
+    <item id="c2" line="639 640" tag="G+CR">Soulik   and Ewalt and Casiano    and Damian     FUT     work       tomorrow</item>
+    <item id="c4" line="641" tag="T">Soulik, Ewalt, Casiano and Damian will work tomorrow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18079">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ponapean" iso-639-3="pon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1607" line-range="1367-1370" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1367" tag="L">  (76) a. Soulik pahn mwenge oh e               pahn meir.</item>
+    <item id="o2" line="1368" tag="G+CR">         Soulik                eat       and he FUT   sleep</item>
+    <item id="o3" line="1369" tag="G+CR">                       FUT</item>
+    <item id="o4" line="1370" tag="T">         `Soulik will eat and he will sleep.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1367" tag="L">Soulik pahn mwenge oh e               pahn meir.</item>
+    <item id="c2" line="1368 1369" tag="G+CR">Soulik        FUT     eat       and he FUT   sleep</item>
+    <item id="c4" line="1370" tag="T">Soulik will eat and he will sleep.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18080">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ponapean" iso-639-3="pon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1607" line-range="1372-1374" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1372" tag="L">      b. I laid, ah e          meir.</item>
+    <item id="o2" line="1373" tag="G">         I fish        but he sleep</item>
+    <item id="o3" line="1374" tag="T">         `I fished, and/but he slept.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1372" tag="L">I laid, ah e          meir.</item>
+    <item id="c2" line="1373" tag="G">I fish        but he sleep</item>
+    <item id="c3" line="1374" tag="T">I fished, and/but he slept.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88186">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pohnpeian" iso-639-3="pon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="975-975" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="975" tag="L-T">   (21)         n t                 `his   banana tree'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="975" tag="L-T">n t                 `his   banana tree</item>
+  </tier>
+</igt>
+<igt id="i88187">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pohnpeian" iso-639-3="pon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="976-976" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="976" tag="L-T">                 t                  `his   (harvested) banana'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="976" tag="L-T">t                  `his   (harvested) banana</item>
+  </tier>
+</igt>
+<igt id="i88188">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pohnpeian" iso-639-3="pon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="977-977" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="977" tag="L-T">                kene t              `his   banana for eating'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="977" tag="L-T">kene t              `his   banana for eating</item>
+  </tier>
+</igt>
+<igt id="i88189">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pohnpeian" iso-639-3="pon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="978-978" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="978" tag="L-T">                n puak              `his   son'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="978" tag="L-T">n puak              `his   son</item>
+  </tier>
+</igt>
+<igt id="i88190">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pohnpeian" iso-639-3="pon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="979-979" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="979" tag="L-T">                rie puak            `his   brother'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="979" tag="L-T">rie puak            `his   brother</item>
+  </tier>
+</igt>
+<igt id="i88191">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pohnpeian" iso-639-3="pon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="980-980" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="980" tag="L-T">                kis puak            `his   young male relative'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="980" tag="L-T">kis puak            `his   young male relative</item>
+  </tier>
+</igt>
+<igt id="i88192">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pohnpeian" iso-639-3="pon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="981-981" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="981" tag="L-T">                ww puak             `his   nephew'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="981" tag="L-T">ww puak             `his   nephew</item>
+  </tier>
+</igt>
+<igt id="i88193">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pohnpeian" iso-639-3="pon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="982-982" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="982" tag="L-T">                sawi puak           `his   young male clansman'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="982" tag="L-T">sawi puak           `his   young male clansman</item>
+  </tier>
+</igt>
+<igt id="i95607">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ponapean" iso-639-3="pon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="362" line-range="3196-3198" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3196" tag="L">  (89) I keng-winih-la</item>
+    <item id="o2" line="3197" tag="G">       I eat-medicine-Comp</item>
+    <item id="o3" line="3198" tag="T">       `I completed my medicine-taking'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3196" tag="L">I keng-winih-la</item>
+    <item id="c2" line="3197" tag="G">I eat-medicine-Comp</item>
+    <item id="c3" line="3198" tag="T">I completed my medicine-taking</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145514">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ponapean" iso-639-3="pon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3820" line-range="1048-1052" line-types="M+LN+CR B L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1048" tag="M+LN+CR">  Ponap ean (Austronesian, Malayo-Polynesian: Pohnp ei Island)</item>
+    <item id="o2" line="1049" tag="B"></item>
+    <item id="o3" line="1050" tag="L">   (54)     i keng-winih-er</item>
+    <item id="o4" line="1051" tag="G">            I take-medicine-perf</item>
+    <item id="o5" line="1052" tag="T+AC">            `I have taken medicine.'                                                 (Rehg 1981:214)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1048" tag="M+LN+CR">Ponap ean (Austronesian, Malayo-Polynesian: Pohnp ei Island)</item>
+    <item id="c2" line="1049" tag="B"/>
+    <item id="c3" line="1050" tag="L">i keng-winih-er</item>
+    <item id="c4" line="1051" tag="G">I take-medicine-perf</item>
+    <item id="c5" line="1052" tag="T+AC">I have taken medicine.'                                                 (Rehg 1981:214)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:87]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

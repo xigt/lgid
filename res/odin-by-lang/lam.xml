@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i909">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamba" iso-639-3="lam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3008" line-range="1011-1016" line-types="L+CR L+LN+CR B G+AC B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1011" tag="L+CR">         Umuntu uyo uyu mbona</item>
+    <item id="o2" line="1012" tag="L+LN+CR">  (24)                                                          Lamba</item>
+    <item id="o3" line="1013" tag="B"></item>
+    <item id="o4" line="1014" tag="G+AC">         personi RMi RMi 1S.see                                 (Doke 1938)</item>
+    <item id="o5" line="1015" tag="B"></item>
+    <item id="o6" line="1016" tag="T">         `the person whom I saw'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1011 1012" tag="L+CR+LN">Umuntu uyo uyu mbona                                   Lamba</item>
+    <item id="c3" line="1013" tag="B"/>
+    <item id="c4" line="1014" tag="G+AC">personi RMi RMi 1S.see                                 (Doke 1938)</item>
+    <item id="c5" line="1015" tag="B"/>
+    <item id="c6" line="1016" tag="T">the person whom I saw</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8262">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamba" iso-639-3="lam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3208" line-range="1849-1851" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1849" tag="L">                            c. ipaya &gt; ipay-ana           &gt; ipay-ansyanya</item>
+    <item id="o2" line="1850" tag="G">                               kill     kill-simple.rec kill-complex.rec</item>
+    <item id="o3" line="1851" tag="T">                                        `kill one another' `indulge in mutual slaughter'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1849" tag="L">ipaya &gt; ipay-ana           &gt; ipay-ansyanya</item>
+    <item id="c2" line="1850" tag="G">kill     kill-simple.rec kill-complex.rec</item>
+    <item id="c3" line="1851" tag="T">kill one another' `indulge in mutual slaughter</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8263">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamba" iso-639-3="lam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3208" line-range="1852-1854" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1852" tag="L">                            d. pama &gt; pam-ana                &gt; pam-ansyanya</item>
+    <item id="o2" line="1853" tag="G">                               strike strike-simple.rec strike-complex.rec</item>
+    <item id="o3" line="1854" tag="T">                                         `strike one another' `strike each other indiscriminately (as in mêlée)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1852" tag="L">pama &gt; pam-ana                &gt; pam-ansyanya</item>
+    <item id="c2" line="1853" tag="G">strike strike-simple.rec strike-complex.rec</item>
+    <item id="c3" line="1854" tag="T">strike one another' `strike each other indiscriminately (as in mêlée)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:69]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60472">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamba" iso-639-3="lam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3015" line-range="656-658" line-types="L+LN G+AC+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="656" tag="L+LN">          Umuntu uyo uyu mbona                                     Lamba</item>
+    <item id="o2" line="657" tag="G+AC+SY">          personi RMi RMi 1S.see                                   (Doke 1938)</item>
+    <item id="o3" line="658" tag="T">          `the person whom I saw'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="656" tag="L+LN">Umuntu uyo uyu mbona                                     Lamba</item>
+    <item id="c2" line="657" tag="G+AC+SY">personi RMi RMi 1S.see                                   (Doke 1938)</item>
+    <item id="c3" line="658" tag="T">the person whom I saw</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i84154">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamba" iso-639-3="lam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3637" line-range="244-249" line-types="M+AC+LN+CN+CR M+LN+CR B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="244" tag="M+AC+LN+CN+CR">  Anticausative: L          (Doke 1938:182)</item>
+    <item id="o2" line="245" tag="M+LN+CR">                     AMBA</item>
+    <item id="o3" line="246" tag="B"></item>
+    <item id="o4" line="247" tag="L">  (14)  Amapili        aa-won-eka</item>
+    <item id="o5" line="248" tag="G">        Mountains      3PL-see-ACAUS</item>
+    <item id="o6" line="249" tag="T">        'Mountains have appeared / become visible.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="244 245" tag="M+AC+LN+CN+CR">L   AMBA   (Doke 1938:182)</item>
+    <item id="c3" line="246" tag="B"/>
+    <item id="c4" line="247" tag="L">Amapili        aa-won-eka</item>
+    <item id="c5" line="248" tag="G">Mountains      3PL-see-ACAUS</item>
+    <item id="c6" line="249" tag="T">Mountains have appeared / become visible.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c4[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95316">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamba" iso-639-3="lam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2807" line-range="238-243" line-types="M+LN M+CN B L G T+AC+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="238" tag="M+LN">  3.1.b Lamba (M54)</item>
+    <item id="o2" line="239" tag="M+CN">  - residual predicate use with prefix inflection as proximative auxiliary (&lt; internal awareness)</item>
+    <item id="o3" line="240" tag="B"></item>
+    <item id="o4" line="241" tag="L">  (16)   na-ti             n-cite</item>
+    <item id="o5" line="242" tag="G">         1S:PERF-AUX 1S-do:SUBJ</item>
+    <item id="o6" line="243" tag="T+AC+EX">         I was about to do. [&lt; "I thought/said I would do"] (Doke 1938: 306)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="238" tag="M+LN">3.1.b Lamba (M54)</item>
+    <item id="c2" line="239" tag="M+CN">-residual predicate use with prefix inflection as proximative auxiliary (&lt; internal awareness)</item>
+    <item id="c3" line="240" tag="B"/>
+    <item id="c4" line="241" tag="L">na-ti             n-cite</item>
+    <item id="c5" line="242" tag="G">1S:PERF-AUX 1S-do:SUBJ</item>
+    <item id="c6" line="243" tag="T+AC+EX">I was about to do. [&lt; "I thought/said I would do"] (Doke 1938: 306)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c4[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:67]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95317">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamba" iso-639-3="lam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2807" line-range="247-249" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="247" tag="L">  (17)   kumfwa ati         putu</item>
+    <item id="o2" line="248" tag="G">         then       MIM IDEO.snap</item>
+    <item id="o3" line="249" tag="T+AC">         then it snapped (Doke 1938: 353)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="247" tag="L">kumfwa ati         putu</item>
+    <item id="c2" line="248" tag="G">then       MIM IDEO.snap</item>
+    <item id="c3" line="249" tag="T+AC">then it snapped (Doke 1938: 353)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95318">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamba" iso-639-3="lam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2807" line-range="251-253" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="251" tag="L">  (18)   'ali-la'ile      ati      tu-li apepi</item>
+    <item id="o2" line="252" tag="G">         1:REM.PST-say COMP 1P-be near</item>
+    <item id="o3" line="253" tag="T+AC">         He said that we were near. (Doke 1938: 373)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="251" tag="L">'ali-la'ile      ati      tu-li apepi</item>
+    <item id="c2" line="252" tag="G">1:REM.PST-say COMP 1P-be near</item>
+    <item id="c3" line="253" tag="T+AC">He said that we were near. (Doke 1938: 373)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95319">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamba" iso-639-3="lam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2807" line-range="255-257" line-types="L G G+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="255" tag="L">  (19)   nal(-sile           pakuti    naluku-mu-fwayeni</item>
+    <item id="o2" line="256" tag="G">         1S:REM.PST-come because 1S:PST.IPFV-2P-want:P.AD</item>
+    <item id="o3" line="257" tag="G+AC">         I came because I wanted you. (Doke 1938: 371)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="255" tag="L">nal(-sile           pakuti    naluku-mu-fwayeni</item>
+    <item id="c2" line="256" tag="G">1S:REM.PST-come because 1S:PST.IPFV-2P-want:P.AD</item>
+    <item id="c3" line="257" tag="G+AC">I came because I wanted you. (Doke 1938: 371)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+    <item id="g1" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155924">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamba" iso-639-3="lam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3302" line-range="269-269" line-types="L-T+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="269" tag="L-T+LN">           Lamba          tu-la-cita     `We do'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="269" tag="L-T+LN">Lamba          tu-la-cita     `We do</item>
+  </tier>
+</igt>
+</xigt-corpus>

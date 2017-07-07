@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i49182">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cora" iso-639-3="crn:cok" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="8318-8319" line-types="M+AC+LN M"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8318" tag="M+AC+LN">  (173) Cora (Uto-Aztecan, Southern, Sonoran, Corachol) (Casad 1984)</item>
+    <item id="o2" line="8319" tag="M">       FORM                    MORPHEMIC ANALYSIS           TRANSLATION</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8318" tag="M+AC+LN">Cora (Uto-Aztecan, Southern, Sonoran, Corachol) (Casad 1984</item>
+    <item id="c2" line="8319" tag="M">FORM                    MORPHEMIC ANALYSIS           TRANSLATION</item>
+  </tier>
+</igt>
+<igt id="i49183">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cora" iso-639-3="crn:cok" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="8320-8320" line-types="L-G-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8320" tag="L-G-T">  a.   mii                     die.SG                       `die/kill (one)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8320" tag="L-G-T">mii                     die.SG                       `die/kill (one)</item>
+  </tier>
+</igt>
+<igt id="i49184">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cora" iso-639-3="crn:cok" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="8321-8322" line-types="T L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8321" tag="T">                                                            `die/kill (many)'</item>
+    <item id="o2" line="8322" tag="L-G">       ku                      die.PL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8321" tag="T">die/kill (many)</item>
+    <item id="c2" line="8322" tag="L-G">ku                      die.PL</item>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c1[0:15]"/>
+  </tier>
+</igt>
+<igt id="i49185">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cora" iso-639-3="crn:cok" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="8323-8323" line-types="L-G-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8323" tag="L-G-T">  b.   i-mii                   be hungry-SG                 `be hungry (one)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8323" tag="L-G-T">i-mii                   be hungry-SG                 `be hungry (one)</item>
+  </tier>
+</igt>
+<igt id="i49186">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cora" iso-639-3="crn:cok" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="8324-8324" line-types="L-G-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8324" tag="L-G-T">       i-ku                    be hungry-PL                 `be hungry (many)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8324" tag="L-G-T">i-ku                    be hungry-PL                 `be hungry (many)</item>
+  </tier>
+</igt>
+</xigt-corpus>

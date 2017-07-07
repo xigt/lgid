@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i33199">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dogrib" iso-639-3="dgr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2019" line-range="110-114" line-types="M+LN B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="110" tag="M+LN">    Dogrib (Athapaskan, Canada):</item>
+    <item id="o2" line="111" tag="B"></item>
+    <item id="o3" line="112" tag="L">     (9)   a. let'e     niyeh-Pa</item>
+    <item id="o4" line="113" tag="G">              bread     I.aspect.pick.up-round.thing</item>
+    <item id="o5" line="114" tag="T">              `I pick    up a loaf of bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="110" tag="M+LN">Dogrib (Athapaskan, Canada):</item>
+    <item id="c2" line="111" tag="B"/>
+    <item id="c3" line="112" tag="L">let'e     niyeh-Pa</item>
+    <item id="c4" line="113" tag="G">bread     I.aspect.pick.up-round.thing</item>
+    <item id="c5" line="114" tag="T">I pick    up a loaf of bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i33200">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dogrib" iso-639-3="dgr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2019" line-range="115-117" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="115" tag="L">           b. let'e     niyeh-tsi</item>
+    <item id="o2" line="116" tag="G">              bread     I.aspect.pick.up-flat.flxible.thing</item>
+    <item id="o3" line="117" tag="T">              `I pick    up a slice of bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="115" tag="L">let'e     niyeh-tsi</item>
+    <item id="c2" line="116" tag="G">bread     I.aspect.pick.up-flat.flxible.thing</item>
+    <item id="c3" line="117" tag="T">I pick    up a slice of bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i76300">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dogrib" iso-639-3="dgr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="137.txt" line-range="35-37" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="35" tag="L">         (3) a. John ye-hk'è ha.</item>
+    <item id="o2" line="36" tag="G">                John he-shoot FUT</item>
+    <item id="o3" line="37" tag="T">                Johni is going to shoot himj.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="35" tag="L">John ye-hk'è ha.</item>
+    <item id="c2" line="36" tag="G">John he-shoot FUT</item>
+    <item id="c3" line="37" tag="T">Johni is going to shoot himj.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i76301">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dogrib" iso-639-3="dgr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="137.txt" line-range="38-40" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="38" tag="L">           b.   *ye-zha shèeti.</item>
+    <item id="o2" line="39" tag="G">                he-son ate</item>
+    <item id="o3" line="40" tag="T">                His son has eaten.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="38" tag="L">*ye-zha shèeti.</item>
+    <item id="c2" line="39" tag="G">he-son ate</item>
+    <item id="c3" line="40" tag="T">His son has eaten.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77744">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dogrib" iso-639-3="dgr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="124.txt" line-range="797-800" line-types="L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="797" tag="L">         32)           John ye-hk'e ha.</item>
+    <item id="o2" line="798" tag="G">                       John 3dis-shoot fut</item>
+    <item id="o3" line="799" tag="B"></item>
+    <item id="o4" line="800" tag="T">                       `Johni is going to shoot himj, *i'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="797" tag="L">John ye-hk'e ha.</item>
+    <item id="c2" line="798" tag="G">John 3dis-shoot fut</item>
+    <item id="c3" line="799" tag="B"/>
+    <item id="c4" line="800" tag="T">Johni is going to shoot himj, *i</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77745">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dogrib" iso-639-3="dgr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="124.txt" line-range="811-814" line-types="L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="811" tag="L">         33)          *?ekaani ye-enda.</item>
+    <item id="o2" line="812" tag="G">                       thus    3dis-live</item>
+    <item id="o3" line="813" tag="B"></item>
+    <item id="o4" line="814" tag="T">                       `He lives this way.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="811" tag="L">*?ekaani ye-enda.</item>
+    <item id="c2" line="812" tag="G">thus    3dis-live</item>
+    <item id="c3" line="813" tag="B"/>
+    <item id="c4" line="814" tag="T">He lives this way.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i139488">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dogrib" iso-639-3="dgr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2136" line-range="830-833" line-types="M+LN L G T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="830" tag="M+LN">  d) Dogrib</item>
+    <item id="o2" line="831" tag="L">     (i) John       ye-hk'è                          ha</item>
+    <item id="o3" line="832" tag="G">         John       3SG(=him)-shoot                  future</item>
+    <item id="o4" line="833" tag="T+SY">          "Johni is going to shoot himk/*i."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="830" tag="M+LN">Dogrib</item>
+    <item id="c2" line="831" tag="L">John       ye-hk'è                          ha</item>
+    <item id="c3" line="832" tag="G">John       3SG(=him)-shoot                  future</item>
+    <item id="c4" line="833" tag="T+SY">Johni is going to shoot himk/*i.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i139489">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dogrib" iso-639-3="dgr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2136" line-range="835-837" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="835" tag="L">         (ii) *ye-zha         shèeti</item>
+    <item id="o2" line="836" tag="G">               3SG(=his)-son ate</item>
+    <item id="o3" line="837" tag="T">               "His son ate."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="835" tag="L">*ye-zha         shèeti</item>
+    <item id="c2" line="836" tag="G">3SG(=his)-son ate</item>
+    <item id="c3" line="837" tag="T">His son ate.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i139490">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dogrib" iso-639-3="dgr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2136" line-range="845-847" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="845" tag="L+SY">  a) Jâni goft [S' ke [S Meryk ketâb-â ro be xodeshi/k      bargardune]].</item>
+    <item id="o2" line="846" tag="G">     John said that Mary book-PL râ to himself/herself return</item>
+    <item id="o3" line="847" tag="T">     "John said that Mary (should) return the books to him/herself."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="845" tag="L+SY">Jâni goft [S' ke [S Meryk ketâb-â ro be xodeshi/k      bargardune]].</item>
+    <item id="c2" line="846" tag="G">John said that Mary book-PL râ to himself/herself return</item>
+    <item id="c3" line="847" tag="T">John said that Mary (should) return the books to him/herself.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

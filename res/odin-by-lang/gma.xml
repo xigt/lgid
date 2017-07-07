@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i95344">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kambera" iso-639-3="gma" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2807" line-range="456-460" line-types="M+LN M L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="456" tag="M+LN">  4.1 Kambera (Central Malayo-Polynesian, Austronesian)</item>
+    <item id="o2" line="457" tag="M">  - canonical root of quotative verb wà restored by accretion of phonetic substance</item>
+    <item id="o3" line="458" tag="L">  (41)   ana hau ndui           wà-na</item>
+    <item id="o4" line="459" tag="G">         DIM one money QV-3S.GEN</item>
+    <item id="o5" line="460" tag="T+AC">         "Just one coin", he said (Klamer 2002: 329)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="456" tag="M+LN">4.1 Kambera (Central Malayo-Polynesian, Austronesian)</item>
+    <item id="c2" line="457" tag="M">-canonical root of quotative verb wà restored by accretion of phonetic substance</item>
+    <item id="c3" line="458" tag="L">ana hau ndui           wà-na</item>
+    <item id="c4" line="459" tag="G">DIM one money QV-3S.GEN</item>
+    <item id="c5" line="460" tag="T+AC">Just one coin", he said (Klamer 2002: 329)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95345">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kambera" iso-639-3="gma" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2807" line-range="471-473" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="471" tag="L">  (42)   ndia          ná      wà-na-madu-na-nya-ka    nú</item>
+    <item id="o2" line="472" tag="G">         NEG.EMPH DEI QV-3S.GEN-MOD-3S.GEN-3S.DAT-PERF DEI</item>
+    <item id="o3" line="473" tag="T+EX">         "No way!", he said to him (ibid.: 330)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="471" tag="L">ndia          ná      wà-na-madu-na-nya-ka    nú</item>
+    <item id="c2" line="472" tag="G">NEG.EMPH DEI QV-3S.GEN-MOD-3S.GEN-3S.DAT-PERF DEI</item>
+    <item id="c3" line="473" tag="T+EX">No way!", he said to him (ibid.: 330)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

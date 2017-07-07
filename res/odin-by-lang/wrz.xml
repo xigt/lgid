@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i51027">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1226" line-range="1129-1131" line-types="L+DB+EX G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1129" tag="L+DB+EX">  (79)     an-bart          [       ]               an-bart-du                [        ]</item>
+    <item id="o2" line="1130" tag="G+DB">           III-knee                                 III-knee-DAT</item>
+    <item id="o3" line="1131" tag="T+DB">           `knee'                                   `for the knee'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1129" tag="L+DB+EX">an-bart          [       ]               an-bart-du                [        ]</item>
+    <item id="c2" line="1130" tag="G+DB">III-knee                                 III-knee-DAT</item>
+    <item id="c3" line="1131" tag="T+DB">knee'                                   `for the knee</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i51028">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1226" line-range="1137-1139" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1137" tag="L+EX">  (80)     al-bart+du       [           ]</item>
+    <item id="o2" line="1138" tag="G">           II-knee+OBL</item>
+    <item id="o3" line="1139" tag="T">           `knee-y'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1137" tag="L+EX">al-bart+du       [           ]</item>
+    <item id="c2" line="1138" tag="G">II-knee+OBL</item>
+    <item id="c3" line="1139" tag="T">knee-y</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:6]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i51029">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1226" line-range="1141-1143" line-types="L+DB+EX G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1141" tag="L+DB+EX">  (81)    an-ngarndi       [                   ]   a-ngarndi+wu         [           ]</item>
+    <item id="o2" line="1142" tag="G+DB">          III-throat                               I-throat+OBL</item>
+    <item id="o3" line="1143" tag="T+DB">          `throat'                                 `throaty'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1141" tag="L+DB+EX">an-ngarndi       [                   ]   a-ngarndi+wu         [           ]</item>
+    <item id="c2" line="1142" tag="G+DB">III-throat                               I-throat+OBL</item>
+    <item id="c3" line="1143" tag="T+DB">throat'                                 `throaty</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i51030">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1226" line-range="1151-1153" line-types="L+DB+EX G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1151" tag="L+DB+EX">  (82)    an-ngar          [           ]           an-ngar+u            [       ]</item>
+    <item id="o2" line="1152" tag="G+DB">          III-fur                                  III-fur+OBL</item>
+    <item id="o3" line="1153" tag="T+DB">          `fur, body hair'                         `furry'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1151" tag="L+DB+EX">an-ngar          [           ]           an-ngar+u            [       ]</item>
+    <item id="c2" line="1152" tag="G+DB">III-fur                                  III-fur+OBL</item>
+    <item id="c3" line="1153" tag="T+DB">fur, body hair'                         `furry</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i51031">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1226" line-range="1155-1157" line-types="L+DB+EX G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1155" tag="L+DB+EX">  (83)    an-gibe          [               ]       an-gibe-wu           [           ]</item>
+    <item id="o2" line="1156" tag="G+DB">          III-back                                 III-back-DAT</item>
+    <item id="o3" line="1157" tag="T+DB">          `back'                                   `for the back'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1155" tag="L+DB+EX">an-gibe          [               ]       an-gibe-wu           [           ]</item>
+    <item id="c2" line="1156" tag="G+DB">III-back                                 III-back-DAT</item>
+    <item id="c3" line="1157" tag="T+DB">back'                                   `for the back</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i51032">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1226" line-range="1159-1161" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1159" tag="L+EX">          an-gibarr+u [          ]</item>
+    <item id="o2" line="1160" tag="G">          III-back+OBL</item>
+    <item id="o3" line="1161" tag="T">          `hump-backed [back-y]'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1159" tag="L+EX">an-gibarr+u [          ]</item>
+    <item id="c2" line="1160" tag="G">III-back+OBL</item>
+    <item id="c3" line="1161" tag="T">hump-backed [back-y]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i51033">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1226" line-range="1168-1170" line-types="L+DB+EX G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1168" tag="L+DB+EX">  (84)    bok              [       ]               bok-gu               [       ]</item>
+    <item id="o2" line="1169" tag="G+DB">          honey                                    honey-DAT</item>
+    <item id="o3" line="1170" tag="T+DB">          `honey'                                  `for honey'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1168" tag="L+DB+EX">bok              [       ]               bok-gu               [       ]</item>
+    <item id="c2" line="1169" tag="G+DB">honey                                    honey-DAT</item>
+    <item id="c3" line="1170" tag="T+DB">honey'                                  `for honey</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i51034">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1226" line-range="1172-1174" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1172" tag="L+EX">          a-bokgu-bok+gu                           [                ]</item>
+    <item id="o2" line="1173" tag="G">          I-INTENS-honey+OBL</item>
+    <item id="o3" line="1174" tag="T">          `greedy for sweet things'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1172" tag="L+EX">a-bokgu-bok+gu                           [                ]</item>
+    <item id="c2" line="1173" tag="G">I-INTENS-honey+OBL</item>
+    <item id="c3" line="1174" tag="T">greedy for sweet things</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i51035">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1226" line-range="1185-1187" line-types="L+DB+EX G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1185" tag="L+DB+EX">  (85)    matj         [       ]                   a-gu-matj+ju             [           ]</item>
+    <item id="o2" line="1186" tag="G+DB">          wind                                     I-lots-wind+OBL</item>
+    <item id="o3" line="1187" tag="T+DB">          `wind'                                   `windy'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1185" tag="L+DB+EX">matj         [       ]                   a-gu-matj+ju             [           ]</item>
+    <item id="c2" line="1186" tag="G+DB">wind                                     I-lots-wind+OBL</item>
+    <item id="c3" line="1187" tag="T+DB">wind'                                   `windy</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118594">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3643" line-range="1105-1106" line-types="L+DB+EX G+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1105" tag="L+DB+EX">  (77)     márriyámbun                      játbula-wu                       *játbulá-wu</item>
+    <item id="o2" line="1106" tag="G+DB">           stone axe                        old man-DAT</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1105" tag="L+DB+EX">márriyámbun                      játbula-wu                       *játbulá-wu</item>
+    <item id="c2" line="1106" tag="G+DB">stone axe                        old man-DAT</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118595">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3643" line-range="1129-1131" line-types="L+DB+EX G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1129" tag="L+DB+EX">  (79)     an-bart          [       ]               an-bart-du                [        ]</item>
+    <item id="o2" line="1130" tag="G+DB">           III-knee                                 III-knee-DAT</item>
+    <item id="o3" line="1131" tag="T+DB">           `knee'                                   `for the knee'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1129" tag="L+DB+EX">an-bart          [       ]               an-bart-du                [        ]</item>
+    <item id="c2" line="1130" tag="G+DB">III-knee                                 III-knee-DAT</item>
+    <item id="c3" line="1131" tag="T+DB">knee'                                   `for the knee</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118596">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3643" line-range="1137-1139" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1137" tag="L+EX">  (80)     al-bart+du       [           ]</item>
+    <item id="o2" line="1138" tag="G">           II-knee+OBL</item>
+    <item id="o3" line="1139" tag="T">           `knee-y'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1137" tag="L+EX">al-bart+du       [           ]</item>
+    <item id="c2" line="1138" tag="G">II-knee+OBL</item>
+    <item id="c3" line="1139" tag="T">knee-y</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:6]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118597">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3643" line-range="1141-1143" line-types="L+DB+EX G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1141" tag="L+DB+EX">  (81)    an-ngarndi       [                   ]   a-ngarndi+wu         [           ]</item>
+    <item id="o2" line="1142" tag="G+DB">          III-throat                               I-throat+OBL</item>
+    <item id="o3" line="1143" tag="T+DB">          `throat'                                 `throaty'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1141" tag="L+DB+EX">an-ngarndi       [                   ]   a-ngarndi+wu         [           ]</item>
+    <item id="c2" line="1142" tag="G+DB">III-throat                               I-throat+OBL</item>
+    <item id="c3" line="1143" tag="T+DB">throat'                                 `throaty</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118598">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3643" line-range="1151-1153" line-types="L+DB+EX G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1151" tag="L+DB+EX">  (82)    an-ngar          [           ]           an-ngar+u            [       ]</item>
+    <item id="o2" line="1152" tag="G+DB">          III-fur                                  III-fur+OBL</item>
+    <item id="o3" line="1153" tag="T+DB">          `fur, body hair'                         `furry'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1151" tag="L+DB+EX">an-ngar          [           ]           an-ngar+u            [       ]</item>
+    <item id="c2" line="1152" tag="G+DB">III-fur                                  III-fur+OBL</item>
+    <item id="c3" line="1153" tag="T+DB">fur, body hair'                         `furry</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118599">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3643" line-range="1155-1157" line-types="L+DB+EX G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1155" tag="L+DB+EX">  (83)    an-gibe          [               ]       an-gibe-wu           [           ]</item>
+    <item id="o2" line="1156" tag="G+DB">          III-back                                 III-back-DAT</item>
+    <item id="o3" line="1157" tag="T+DB">          `back'                                   `for the back'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1155" tag="L+DB+EX">an-gibe          [               ]       an-gibe-wu           [           ]</item>
+    <item id="c2" line="1156" tag="G+DB">III-back                                 III-back-DAT</item>
+    <item id="c3" line="1157" tag="T+DB">back'                                   `for the back</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118600">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3643" line-range="1159-1161" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1159" tag="L+EX">          an-gibarr+u [          ]</item>
+    <item id="o2" line="1160" tag="G">          III-back+OBL</item>
+    <item id="o3" line="1161" tag="T">          `hump-backed [back-y]'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1159" tag="L+EX">an-gibarr+u [          ]</item>
+    <item id="c2" line="1160" tag="G">III-back+OBL</item>
+    <item id="c3" line="1161" tag="T">hump-backed [back-y]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118601">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3643" line-range="1168-1170" line-types="L+DB+EX G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1168" tag="L+DB+EX">  (84)    bok              [       ]               bok-gu               [       ]</item>
+    <item id="o2" line="1169" tag="G+DB">          honey                                    honey-DAT</item>
+    <item id="o3" line="1170" tag="T+DB">          `honey'                                  `for honey'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1168" tag="L+DB+EX">bok              [       ]               bok-gu               [       ]</item>
+    <item id="c2" line="1169" tag="G+DB">honey                                    honey-DAT</item>
+    <item id="c3" line="1170" tag="T+DB">honey'                                  `for honey</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118602">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3643" line-range="1172-1174" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1172" tag="L+EX">          a-bokgu-bok+gu                           [                ]</item>
+    <item id="o2" line="1173" tag="G">          I-INTENS-honey+OBL</item>
+    <item id="o3" line="1174" tag="T">          `greedy for sweet things'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1172" tag="L+EX">a-bokgu-bok+gu                           [                ]</item>
+    <item id="c2" line="1173" tag="G">I-INTENS-honey+OBL</item>
+    <item id="c3" line="1174" tag="T">greedy for sweet things</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118603">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warray" iso-639-3="wrz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3643" line-range="1185-1187" line-types="L+DB+EX G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1185" tag="L+DB+EX">  (85)    matj         [       ]                   a-gu-matj+ju             [           ]</item>
+    <item id="o2" line="1186" tag="G+DB">          wind                                     I-lots-wind+OBL</item>
+    <item id="o3" line="1187" tag="T+DB">          `wind'                                   `windy'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1185" tag="L+DB+EX">matj         [       ]                   a-gu-matj+ju             [           ]</item>
+    <item id="c2" line="1186" tag="G+DB">wind                                     I-lots-wind+OBL</item>
+    <item id="c3" line="1187" tag="T+DB">wind'                                   `windy</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

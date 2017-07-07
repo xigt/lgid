@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i98559">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8850-8855" line-types="M+AC+LN+CN C L+DB G+DB+CR G+DB+CR T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8850" tag="M+AC+LN+CN">  (9)   Examples of case-marked nouns in Kamayurá (Seki        2000, 2001;</item>
+    <item id="o2" line="8851" tag="C">        glosses mine).</item>
+    <item id="o3" line="8852" tag="L+DB">  a.    ok-ip       i-ko-w           b.    ije rak             morerekwar-am</item>
+    <item id="o4" line="8853" tag="G+DB+CR">        house-LOC 3-be-TAM                 1                   chief-ESS</item>
+    <item id="o5" line="8854" tag="G+DB+CR">                                                 PART</item>
+    <item id="o6" line="8855" tag="T+DB">        `He is at home.'                   `I was (there)      as a chief.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8850" tag="M+AC+LN+CN">Examples of case-marked nouns in Kamayurá (Seki        2000, 2001;</item>
+    <item id="c2" line="8851" tag="C">glosses mine).</item>
+    <item id="c3" line="8852" tag="L+DB">ok-ip       i-ko-w           b.    ije rak             morerekwar-am</item>
+    <item id="c6" line="8855" tag="T+DB">He is at home.'                   `I was (there)      as a chief.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:68]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98560">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8860-8862" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8860" tag="L+DB">  c.    je=r-uw-a               nite       d.      morerekwar-er-a</item>
+    <item id="o2" line="8861" tag="G+DB">        1=POS-father-NUC        with               chief-PST-NUC</item>
+    <item id="o3" line="8862" tag="T+DB">        `with my father'                           `(one who) was a chief'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8860" tag="L+DB">je=r-uw-a               nite       d.      morerekwar-er-a</item>
+    <item id="c2" line="8861" tag="G+DB">1=POS-father-NUC        with               chief-PST-NUC</item>
+    <item id="c3" line="8862" tag="T+DB">with my father'                           `(one who) was a chief</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98561">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8869-8873" line-types="M+AC+LN+CN C L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8869" tag="M+AC+LN+CN">  (10) Kamayurá verb stems with the nominalizer -(t)ap (Seki 2000, 2001;</item>
+    <item id="o2" line="8870" tag="C">       glosses mine)</item>
+    <item id="o3" line="8871" tag="L">  a.    a-kwahaw=in             ne=katu-taw-a</item>
+    <item id="o4" line="8872" tag="G">        1A-know=PARTC            2-be.good-NOM-NUC</item>
+    <item id="o5" line="8873" tag="T">        `I know that you are good.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8869" tag="M+AC+LN+CN">Kamayurá verb stems with the nominalizer-(t)ap (Seki 2000, 2001;</item>
+    <item id="c2" line="8870" tag="C">glosses mine)</item>
+    <item id="c3" line="8871" tag="L">a-kwahaw=in             ne=katu-taw-a</item>
+    <item id="c4" line="8872" tag="G">1A-know=PARTC            2-be.good-NOM-NUC</item>
+    <item id="c5" line="8873" tag="T">I know that you are good.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98562">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8874-8877" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8874" tag="L">  b.    a-kwahaw=in              i-tu-aw-a</item>
+    <item id="o2" line="8875" tag="G+CR">                                 3-come-NOM-NUC</item>
+    <item id="o3" line="8876" tag="G+CR">        1A-know=PARTC</item>
+    <item id="o4" line="8877" tag="T">        `I know that he will come.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8874" tag="L">a-kwahaw=in              i-tu-aw-a</item>
+    <item id="c2" line="8875 8876" tag="G+CR">1A-know=PARTC            3-come-NOM-NUC</item>
+    <item id="c4" line="8877" tag="T">I know that he will come.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98563">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8878-8880" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8878" tag="L">  c.    a-kwahaw=in            je=u'u-taw-a</item>
+    <item id="o2" line="8879" tag="G">        1A-know=PARTC 1=bite-NOM-NUC</item>
+    <item id="o3" line="8880" tag="T">        `I know that it will bite me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8878" tag="L">a-kwahaw=in            je=u'u-taw-a</item>
+    <item id="c2" line="8879" tag="G">1A-know=PARTC 1=bite-NOM-NUC</item>
+    <item id="c3" line="8880" tag="T">I know that it will bite me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98564">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8900-8904" line-types="M+AC+LN+CN C L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8900" tag="M+AC+LN+CN">  (11) Nouns with and without -a in Kamayurá (Seki 2000, 2001; glosses</item>
+    <item id="o2" line="8901" tag="C">       mine)</item>
+    <item id="o3" line="8902" tag="L">  a.   kunu'um-a           tete rak      o-ho ko'yt</item>
+    <item id="o4" line="8903" tag="G">       boy-NUC             only PARTC 3-go PARTC</item>
+    <item id="o5" line="8904" tag="T">       `Only the boy went.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8900" tag="M+AC+LN+CN">Nouns with and without-a in Kamayurá (Seki 2000, 2001; glosses</item>
+    <item id="c2" line="8901" tag="C">mine)</item>
+    <item id="c3" line="8902" tag="L">kunu'um-a           tete rak      o-ho ko'yt</item>
+    <item id="c4" line="8903" tag="G">boy-NUC             only PARTC 3-go PARTC</item>
+    <item id="c5" line="8904" tag="T">Only the boy went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98565">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8905-8907" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8905" tag="L">  b.   kunu'um-a           ka'i-a          r-uwaj-a     w-ekyj</item>
+    <item id="o2" line="8906" tag="G">       boy-NUC             monkey-NUC POS-tail-NUC 3-pull</item>
+    <item id="o3" line="8907" tag="T">       `The boy is pulling the tail of the monkey.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8905" tag="L">kunu'um-a           ka'i-a          r-uwaj-a     w-ekyj</item>
+    <item id="c2" line="8906" tag="G">boy-NUC             monkey-NUC POS-tail-NUC 3-pull</item>
+    <item id="c3" line="8907" tag="T">The boy is pulling the tail of the monkey.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98566">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8908-8910" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8908" tag="L">  c.   kara'iw-a               pe-ko</item>
+    <item id="o2" line="8909" tag="G">       non.Indian-NUC          2PL-COP</item>
+    <item id="o3" line="8910" tag="T">       `You (PL) are non-Indians.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8908" tag="L">kara'iw-a               pe-ko</item>
+    <item id="c2" line="8909" tag="G">non.Indian-NUC          2PL-COP</item>
+    <item id="c3" line="8910" tag="T">You (PL) are non-Indians.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98567">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8911-8914" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8911" tag="L">  d.   je=tutyr-a             morerekwar-a</item>
+    <item id="o2" line="8912" tag="G+CR">                              chief-NUC</item>
+    <item id="o3" line="8913" tag="G+CR">       1=uncle-NUC</item>
+    <item id="o4" line="8914" tag="T">       `My uncle is the chief.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8911" tag="L">je=tutyr-a             morerekwar-a</item>
+    <item id="c2" line="8912 8913" tag="G+CR">1=uncle-NUC            chief-NUC</item>
+    <item id="c4" line="8914" tag="T">My uncle is the chief.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98568">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8915-8917" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8915" tag="L">  e.   je=tutyr-a            morerekwat</item>
+    <item id="o2" line="8916" tag="G">       1=uncle-NUC           chief</item>
+    <item id="o3" line="8917" tag="T">       `My uncle is a chief.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8915" tag="L">je=tutyr-a            morerekwat</item>
+    <item id="c2" line="8916" tag="G">1=uncle-NUC           chief</item>
+    <item id="c3" line="8917" tag="T">My uncle is a chief.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98569">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8918-8920" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8918" tag="L">  f.   je=y</item>
+    <item id="o2" line="8919" tag="G">       1=mother</item>
+    <item id="o3" line="8920" tag="T">       `Mother!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8918" tag="L">je=y</item>
+    <item id="c2" line="8919" tag="G">1=mother</item>
+    <item id="c3" line="8920" tag="T">Mother!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:4]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:8]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98570">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8921-8923" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8921" tag="L">  g.   jawat</item>
+    <item id="o2" line="8922" tag="G">       jaguar</item>
+    <item id="o3" line="8923" tag="T">       `jaguar'; `It's a jaguar.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8921" tag="L">jawat</item>
+    <item id="c2" line="8922" tag="G">jaguar</item>
+    <item id="c3" line="8923" tag="T">jaguar'; `It's a jaguar.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:6]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98571">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8924-8926" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8924" tag="L">  h.   je=pyt</item>
+    <item id="o2" line="8925" tag="G">       1=house</item>
+    <item id="o3" line="8926" tag="T">       `It's my house.'; `I have a house.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8924" tag="L">je=pyt</item>
+    <item id="c2" line="8925" tag="G">1=house</item>
+    <item id="c3" line="8926" tag="T">It's my house.'; `I have a house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:7]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98572">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8927-8931" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8927" tag="L+CR">                         'aN      i-memyt</item>
+    <item id="o2" line="8928" tag="L+CR">  i.   jawar-a</item>
+    <item id="o3" line="8929" tag="G+CR">       jaguar-NUC                 3-son</item>
+    <item id="o4" line="8930" tag="G+CR">                         DEIC</item>
+    <item id="o5" line="8931" tag="T">       `This jaguar has child(ren).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8927 8928" tag="L+CR">jawar-a           'aN      i-memyt</item>
+    <item id="c3" line="8929 8930" tag="G+CR">jaguar-NUC        DEIC     3-son</item>
+    <item id="c5" line="8931" tag="T">This jaguar has child(ren).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98573">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8932-8936" line-types="L G+CR G+CR T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8932" tag="L">  j.   a'e-a         rak       paku-a      o-juka,  myt,     jakuaem</item>
+    <item id="o2" line="8933" tag="G+CR">                     PARTC paca-NUC        3-kill   mutum jacu</item>
+    <item id="o3" line="8934" tag="G+CR">       this-NUC</item>
+    <item id="o4" line="8935" tag="T">       `This (man) killed paca, (also) mutum (=curassow), (also) jacu (=bird</item>
+    <item id="o5" line="8936" tag="T">       sp.).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8932" tag="L">a'e-a         rak       paku-a      o-juka,  myt,     jakuaem</item>
+    <item id="c2" line="8933 8934" tag="G+CR">this-NUC      PARTC paca-NUC        3-kill   mutum jacu</item>
+    <item id="c4" line="8935" tag="T">This (man) killed paca, (also) mutum (=curassow), (also) jacu (=bird</item>
+    <item id="c5" line="8936" tag="T">sp.).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:68]" alignment="p1"/>
+    <item id="t1" content="c5[0:5]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118928">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2697" line-range="268-271" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="268" tag="M+AC+LN">  Kamayurá (Seki 2000: 156, 100)</item>
+    <item id="o2" line="269" tag="L">  (12) kunu'um-a o-ket.</item>
+    <item id="o3" line="270" tag="G">           boy-NUCL 3-sleep</item>
+    <item id="o4" line="271" tag="T">           `The boy is sleeping.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="268" tag="M+AC+LN">Kamayurá (Seki 2000: 156, 100)</item>
+    <item id="c2" line="269" tag="L">kunu'um-a o-ket.</item>
+    <item id="c3" line="270" tag="G">boy-NUCL 3-sleep</item>
+    <item id="c4" line="271" tag="T">The boy is sleeping.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118929">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2697" line-range="272-274" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="272" tag="L">  (13) h-ajme-ma'e                           te'     an       pa.</item>
+    <item id="o2" line="273" tag="G">           3SG-have.sharpness.NR             FOC     PROX MIR.M.S</item>
+    <item id="o3" line="274" tag="T">           `Wow, how sharp is this (knife)!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="272" tag="L">h-ajme-ma'e                           te'     an       pa.</item>
+    <item id="c2" line="273" tag="G">3SG-have.sharpness.NR             FOC     PROX MIR.M.S</item>
+    <item id="c3" line="274" tag="T">Wow, how sharp is this (knife)!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118936">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2697" line-range="382-385" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="382" tag="M+AC+LN">  Kamayurá (Seki 2000: 231-233)</item>
+    <item id="o2" line="383" tag="L">  (20) pe-karu-Ø.</item>
+    <item id="o3" line="384" tag="G">       2PL-eat-IMP</item>
+    <item id="o4" line="385" tag="T">        `Eat!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="382" tag="M+AC+LN">Kamayurá (Seki 2000: 231-233)</item>
+    <item id="c2" line="383" tag="L">pe-karu-Ø.</item>
+    <item id="c3" line="384" tag="G">2PL-eat-IMP</item>
+    <item id="c4" line="385" tag="T">Eat!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:4]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118937">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2697" line-range="386-388" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="386" tag="L">  (21) ere-karu-em.</item>
+    <item id="o2" line="387" tag="G">       2SG-eat-PROH</item>
+    <item id="o3" line="388" tag="T">       `Do not eat!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="386" tag="L">ere-karu-em.</item>
+    <item id="c2" line="387" tag="G">2SG-eat-PROH</item>
+    <item id="c3" line="388" tag="T">Do not eat!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118938">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2697" line-range="389-391" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="389" tag="L">  (22) t=a-ha=ne                  pe-a              nupã-me      ko'yr=a'e.</item>
+    <item id="o2" line="390" tag="G">       HORT=1SG-IRR=ASS DEICT-NUCL                  beat-GER FS=NON.INT</item>
+    <item id="o3" line="391" tag="T">       `Let me beat that.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="389" tag="L">t=a-ha=ne                  pe-a              nupã-me      ko'yr=a'e.</item>
+    <item id="c2" line="390" tag="G">HORT=1SG-IRR=ASS DEICT-NUCL                  beat-GER FS=NON.INT</item>
+    <item id="c3" line="391" tag="T">Let me beat that.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118939">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kamayurá" iso-639-3="kay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2697" line-range="396-398" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="396" tag="L">  (23) t=a-ha-ume=n.</item>
+    <item id="o2" line="397" tag="G">       HORT=1SG-go-1SG.NEG=POT</item>
+    <item id="o3" line="398" tag="T">       Let me not go!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="396" tag="L">t=a-ha-ume=n.</item>
+    <item id="c2" line="397" tag="G">HORT=1SG-go-1SG.NEG=POT</item>
+    <item id="c3" line="398" tag="T">Let me not go!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

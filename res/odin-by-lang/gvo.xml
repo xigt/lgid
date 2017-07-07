@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i98605">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gavião" iso-639-3="gvo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="9298-9302" line-types="M+AC+LN L+DB G+DB+CR G+DB+CR T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9298" tag="M+AC+LN">  (22) Gavião (Moore 1984, p.c.; the acute    accent marks high tone).</item>
+    <item id="o2" line="9299" tag="L+DB">  a.   -záp                            b.       -záp      mága</item>
+    <item id="o3" line="9300" tag="G+DB+CR">                                                2-house EX.AUX</item>
+    <item id="o4" line="9301" tag="G+DB+CR">       2-house</item>
+    <item id="o5" line="9302" tag="T+DB">       `your house'                             `You have a house.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9298" tag="M+AC+LN">Gavião (Moore 1984, p.c.; the acute    accent marks high tone).</item>
+    <item id="c2" line="9299" tag="L+DB">-záp                            b.-záp      mága</item>
+    <item id="c5" line="9302" tag="T+DB">your house'                             `You have a house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:48]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98606">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gavião" iso-639-3="gvo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="9303-9306" line-types="L+DB G+DB T+DB T+DB+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9303" tag="L+DB">  c.   taa-tóò    zap       máà        d.       zap     atóò mága</item>
+    <item id="o2" line="9304" tag="G+DB">       3-tall     house COP                     house tall        EX.AUX</item>
+    <item id="o3" line="9305" tag="T+DB">       `The house is tall.'                     `The house is tall.'</item>
+    <item id="o4" line="9306" tag="T+DB+AL">       (= `The house is (something) tall.')     (= `There is a tall house.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9303" tag="L+DB">taa-tóò    zap       máà        d.       zap     atóò mága</item>
+    <item id="c2" line="9304" tag="G+DB">3-tall     house COP                     house tall        EX.AUX</item>
+    <item id="c3" line="9305" tag="T+DB">The house is tall.'                     `The house is tall.</item>
+    <item id="c4" line="9306" tag="T+DB+AL">= `The house is (something) tall.')     (= `There is a tall house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:59]" alignment="p1"/>
+    <item id="t1" content="c4[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98607">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gavião" iso-639-3="gvo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="9307-9310" line-types="L G T T+DB+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9307" tag="L">  e.   tá-sot     pa-máà       aaná</item>
+    <item id="o2" line="9308" tag="G">       3PL-bad    1PI-COP      now</item>
+    <item id="o3" line="9309" tag="T">       `We are no good now.'</item>
+    <item id="o4" line="9310" tag="T+DB+AL">       (= `We are something(s) bad now.',     `We are bad ones/things now.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9307" tag="L">tá-sot     pa-máà       aaná</item>
+    <item id="c2" line="9308" tag="G">3PL-bad    1PI-COP      now</item>
+    <item id="c3" line="9309" tag="T">We are no good now.</item>
+    <item id="c4" line="9310" tag="T+DB+AL">= `We are something(s) bad now.',     `We are bad ones/things now.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+    <item id="t1" content="c4[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

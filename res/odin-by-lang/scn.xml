@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i13363">
+  <metadata type="xigt-meta">
+    <meta type="language" name="salentino of brindisi" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2489" line-range="374-375" line-types="L G-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="374" tag="L">  (36)a Voggyu (ku) lu kkattu</item>
+    <item id="o2" line="375" tag="G-T">        (I) want (I) it buy 'I want to buy it'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="374" tag="L">a Voggyu (ku) lu kkattu</item>
+    <item id="c2" line="375" tag="G-T">want (I) it buy 'I want to buy it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+</igt>
+<igt id="i13364">
+  <metadata type="xigt-meta">
+    <meta type="language" name="salentino of brindisi" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2489" line-range="376-377" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="376" tag="L">     b Lu voggyu (*ku) kkattu</item>
+    <item id="o2" line="377" tag="G">       (I) it want (I) buy</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="376" tag="L">b Lu voggyu (*ku) kkattu</item>
+    <item id="c2" line="377" tag="G">it want (I) buy</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i13367">
+  <metadata type="xigt-meta">
+    <meta type="language" name="salentino of brindisi" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2489" line-range="395-396" line-types="L+AC G-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="395" tag="L+AC">  (38)a *Lu vulia kattavu (Salentino - Andrea Calabrese, p.c.)</item>
+    <item id="o2" line="396" tag="G-T">          It wanted-1sg bought-1sg `I wished I bought it'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="395" tag="L+AC">38)a *Lu vulia kattavu (Salentino-Andrea Calabrese, p.c.</item>
+    <item id="c2" line="396" tag="G-T">It wanted-1sg bought-1sg `I wished I bought it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+</igt>
+<igt id="i80590">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1596-1602" line-types="L B G+CR G+CR B B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1596" tag="L">  32) a.    si sapiti                chi    (*ca) mi             fici              a mia</item>
+    <item id="o2" line="1597" tag="B"></item>
+    <item id="o3" line="1598" tag="G+CR">            if know-pres-2           what (*that) me.ACC do-past-3                 to me</item>
+    <item id="o4" line="1599" tag="G+CR">                               SG                                             SG</item>
+    <item id="o5" line="1600" tag="B"></item>
+    <item id="o6" line="1601" tag="B"></item>
+    <item id="o7" line="1602" tag="T+AC">            `If you knew what (*that) he did to me.'                                           (Ledgeway 1998: 28)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1596" tag="L">a.    si sapiti                chi    (*ca) mi             fici              a mia</item>
+    <item id="c2" line="1597" tag="B"/>
+    <item id="c3" line="1598 1599" tag="G+CR">if know-pres-2     SG    what (*that) me.ACC do-past-3            SG   to me</item>
+    <item id="c5" line="1600" tag="B"/>
+    <item id="c6" line="1601" tag="B"/>
+    <item id="c7" line="1602" tag="T+AC">If you knew what (*that) he did to me.'                                           (Ledgeway 1998: 28)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:101]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80591">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1604-1609" line-types="L B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1604" tag="L">       b.   e'            `na città, comu ma                  vi        dicu,              antica e...   moderna</item>
+    <item id="o2" line="1605" tag="B"></item>
+    <item id="o3" line="1606" tag="G+CR">            be-pres-3SG a-f city-f, how                       you-pl say-pres-1SG, old-f          and... modern-f</item>
+    <item id="o4" line="1607" tag="G+CR">                                                     MODO</item>
+    <item id="o5" line="1608" tag="B"></item>
+    <item id="o6" line="1609" tag="T+AC">            `It's a city, how can I put it, old and . . . modern.'                             (Ledgeway 1998: 29)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1604" tag="L">e'            `na città, comu ma                  vi        dicu,              antica e...   moderna</item>
+    <item id="c2" line="1605" tag="B"/>
+    <item id="c3" line="1606 1607" tag="G+CR">be-pres-3SG a-f city-f, how              MODO     you-pl say-pres-1SG, old-f          and... modern-f</item>
+    <item id="c5" line="1608" tag="B"/>
+    <item id="c6" line="1609" tag="T+AC">It's a city, how can I put it, old and . . . modern.'                             (Ledgeway 1998: 29)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:100]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:101]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:101]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80592">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1611-1617" line-types="L B G+CR G+CR B B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1611" tag="L">       c.   non avìa                       chimmu         mangia</item>
+    <item id="o2" line="1612" tag="B"></item>
+    <item id="o3" line="1613" tag="G+CR">                                           what=          eat-pres-3</item>
+    <item id="o4" line="1614" tag="G+CR">            not have-imperf-3        SG            MODO                 SG</item>
+    <item id="o5" line="1615" tag="B"></item>
+    <item id="o6" line="1616" tag="B"></item>
+    <item id="o7" line="1617" tag="T+AC">            `He had nothing to eat.'                                                           (Ledgeway 1998: 29)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1611" tag="L">non avìa                       chimmu         mangia</item>
+    <item id="c2" line="1612" tag="B"/>
+    <item id="c3" line="1613 1614" tag="G+CR">not have-imperf-3        SG    what=   MODO   eat-pres-3    SG</item>
+    <item id="c5" line="1615" tag="B"/>
+    <item id="c6" line="1616" tag="B"/>
+    <item id="c7" line="1617" tag="T+AC">He had nothing to eat.'                                                           (Ledgeway 1998: 29)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:101]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80593">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1619-1625" line-types="L B G+CR G+CR B B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1619" tag="L">       d.   dumandaru si mmi ponnu                            aiutari a nui</item>
+    <item id="o2" line="1620" tag="B"></item>
+    <item id="o3" line="1621" tag="G+CR">            ask-past-3        if            can-pres-3PL help-inf to us</item>
+    <item id="o4" line="1622" tag="G+CR">                         PL         MODO</item>
+    <item id="o5" line="1623" tag="B"></item>
+    <item id="o6" line="1624" tag="B"></item>
+    <item id="o7" line="1625" tag="T+AC">            `They asked if they could help us.'                              (Ledgeway 1998: 30)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1619" tag="L">dumandaru si mmi ponnu                            aiutari a nui</item>
+    <item id="c2" line="1620" tag="B"/>
+    <item id="c3" line="1621 1622" tag="G+CR">ask-past-3   PL   if    MODO    can-pres-3PL help-inf to us</item>
+    <item id="c5" line="1623" tag="B"/>
+    <item id="c6" line="1624" tag="B"/>
+    <item id="c7" line="1625" tag="T+AC">They asked if they could help us.'                              (Ledgeway 1998: 30)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:83]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80594">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1627-1632" line-types="L B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1627" tag="L">  33) a.    ma jeu(,) nommu                mi      tradu(,)                  rispundia</item>
+    <item id="o2" line="1628" tag="B"></item>
+    <item id="o3" line="1629" tag="G+CR">                                           refl-1 betray-pres-1SG, answer-past-1</item>
+    <item id="o4" line="1630" tag="G+CR">            but I(,)     not=      MODO                                                     SG</item>
+    <item id="o5" line="1631" tag="B"></item>
+    <item id="o6" line="1632" tag="T+AC">            `But so that I would not betray myself, I replied.' (Ledgeway 1998: 24)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1627" tag="L">a.    ma jeu(,) nommu                mi      tradu(,)                  rispundia</item>
+    <item id="c2" line="1628" tag="B"/>
+    <item id="c3" line="1629 1630" tag="G+CR">but I(,)     not=      MODO    refl-1 betray-pres-1SG, answer-past-1            SG</item>
+    <item id="c5" line="1631" tag="B"/>
+    <item id="c6" line="1632" tag="T+AC">But so that I would not betray myself, I replied.' (Ledgeway 1998: 24)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:82]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:70]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80595">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1634-1640" line-types="L B G+CR G+CR B B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1634" tag="L">       b.   vogghiu            lu diavulu mu ti                         mangia!</item>
+    <item id="o2" line="1635" tag="B"></item>
+    <item id="o3" line="1636" tag="G+CR">            want-pres-1        the devil                  you(   ACC)   eat-pres-3</item>
+    <item id="o4" line="1637" tag="G+CR">                          SG                       MODO                              SG</item>
+    <item id="o5" line="1638" tag="B"></item>
+    <item id="o6" line="1639" tag="B"></item>
+    <item id="o7" line="1640" tag="T+AC">            `I wish that the devil (should) eat you up.'                                       (Ledgeway 1998: 24)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1634" tag="L">vogghiu            lu diavulu mu ti                         mangia!</item>
+    <item id="c2" line="1635" tag="B"/>
+    <item id="c3" line="1636 1637" tag="G+CR">want-pres-1   SG   the devil           MODO   you(   ACC)   eat-pres-3   SG</item>
+    <item id="c5" line="1638" tag="B"/>
+    <item id="c6" line="1639" tag="B"/>
+    <item id="c7" line="1640" tag="T+AC">I wish that the devil (should) eat you up.'                                       (Ledgeway 1998: 24)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:101]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80596">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1655-1662" line-types="M+CN B L+SY B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1655" tag="M+CN">  34) a.    conditional &gt; present</item>
+    <item id="o2" line="1656" tag="B"></item>
+    <item id="o3" line="1657" tag="L+SY">            vollarïa         [`u       cangiu               misteri]</item>
+    <item id="o4" line="1658" tag="B"></item>
+    <item id="o5" line="1659" tag="G+CR">            want- cond-1               change-pres-1        job</item>
+    <item id="o6" line="1660" tag="G+CR">                           SG MODO                     SG</item>
+    <item id="o7" line="1661" tag="B"></item>
+    <item id="o8" line="1662" tag="T+AC">            `I should like to change trade.'                                 (Ledgeway 1998: 34)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1655" tag="M+CN">a.    conditional &gt; present</item>
+    <item id="c2" line="1656" tag="B"/>
+    <item id="c3" line="1657" tag="L+SY">vollarïa         [`u       cangiu               misteri]</item>
+    <item id="c4" line="1658" tag="B"/>
+    <item id="c5" line="1659 1660" tag="G+CR">want-cond-1   SG MODO     change-pres-1   SG   job</item>
+    <item id="c7" line="1661" tag="B"/>
+    <item id="c8" line="1662" tag="T+AC">I should like to change trade.'                                 (Ledgeway 1998: 34)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:83]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80597">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1664-1674" line-types="M+CN B L B L B G B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1664" tag="M+CN">       b.   preterite &gt; present</item>
+    <item id="o2" line="1665" tag="B"></item>
+    <item id="o3" line="1666" tag="L">            vozza          [ma sapa             sulu cui ci       fà   `a sfumatura a li</item>
+    <item id="o4" line="1667" tag="B"></item>
+    <item id="o5" line="1668" tag="L">            parmari]</item>
+    <item id="o6" line="1669" tag="B"></item>
+    <item id="o7" line="1670" tag="G">            want-pst-3SG MODO know-pr-3SG only who there do-pr-3SG the trimming          to the-PL</item>
+    <item id="o8" line="1671" tag="B"></item>
+    <item id="o9" line="1672" tag="G">            palm.tree-PL</item>
+    <item id="o10" line="1673" tag="B"></item>
+    <item id="o11" line="1674" tag="T+AC">            `He wanted to know who trimmed the palm trees.'                  (Ledgeway 1998: 34)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1664" tag="M+CN">preterite &gt; present</item>
+    <item id="c2" line="1665" tag="B"/>
+    <item id="c3" line="1666" tag="L">vozza          [ma sapa             sulu cui ci       fà   `a sfumatura a li</item>
+    <item id="c4" line="1667" tag="B"/>
+    <item id="c5" line="1668" tag="L">parmari]</item>
+    <item id="c6" line="1669" tag="B"/>
+    <item id="c7" line="1670" tag="G">want-pst-3SG MODO know-pr-3SG only who there do-pr-3SG the trimming          to the-PL</item>
+    <item id="c8" line="1671" tag="B"/>
+    <item id="c9" line="1672" tag="G">palm.tree-PL</item>
+    <item id="c10" line="1673" tag="B"/>
+    <item id="c11" line="1674" tag="T+AC">He wanted to know who trimmed the palm trees.'                  (Ledgeway 1998: 34)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:76]"/>
+    <item id="p1" content="c5[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:86]" alignment="p2"/>
+    <item id="g1" content="c9[0:12]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c11[0:83]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i80598">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1676-1682" line-types="M+CN B L+SY B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1676" tag="M+CN">       c.   imperfect &gt; present</item>
+    <item id="o2" line="1677" tag="B"></item>
+    <item id="o3" line="1678" tag="L+SY">            m'havia                     scordatu c'havia               [`u   viu           a unu]</item>
+    <item id="o4" line="1679" tag="B"></item>
+    <item id="o5" line="1680" tag="G">            refl-1SG=have-imperf-1SG    forget-pp that=have-imperf-1SG MODO see-pres-1SG to one</item>
+    <item id="o6" line="1681" tag="B"></item>
+    <item id="o7" line="1682" tag="T+AC">            `I had forgotten that I had to see someone.'                     (Ledgeway 1998: 34)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1676" tag="M+CN">imperfect &gt; present</item>
+    <item id="c2" line="1677" tag="B"/>
+    <item id="c3" line="1678" tag="L+SY">m'havia                     scordatu c'havia               [`u   viu           a unu]</item>
+    <item id="c4" line="1679" tag="B"/>
+    <item id="c5" line="1680" tag="G">refl-1SG=have-imperf-1SG    forget-pp that=have-imperf-1SG MODO see-pres-1SG to one</item>
+    <item id="c6" line="1681" tag="B"/>
+    <item id="c7" line="1682" tag="T+AC">I had forgotten that I had to see someone.'                     (Ledgeway 1998: 34)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:83]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:83]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80599">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1695-1705" line-types="L B G B L B G B T B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1695" tag="L">  35) a.   e    di notti vai             facendu `u spirdu casa casa, mbeci mu ti curchi</item>
+    <item id="o2" line="1696" tag="B"></item>
+    <item id="o3" line="1697" tag="G">           and of night go-pr-2S do-GER           the spirit   house house instead MODO you lie-pres-2S</item>
+    <item id="o4" line="1698" tag="B"></item>
+    <item id="o5" line="1699" tag="L">           e   mu ti         levi             prestu a     matina</item>
+    <item id="o6" line="1700" tag="B"></item>
+    <item id="o7" line="1701" tag="G">           and MODO refl-2 get.up-pr-2S early         the morning</item>
+    <item id="o8" line="1702" tag="B"></item>
+    <item id="o9" line="1703" tag="T">           `And at night time you go around haunting the houses, instead of going to bed</item>
+    <item id="o10" line="1704" tag="B"></item>
+    <item id="o11" line="1705" tag="T+AC">           and getting up early in the morning.'                                      (Ledgeway 1998: 37)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1695" tag="L">a.   e    di notti vai             facendu `u spirdu casa casa, mbeci mu ti curchi</item>
+    <item id="c2" line="1696" tag="B"/>
+    <item id="c3" line="1697" tag="G">and of night go-pr-2S do-GER           the spirit   house house instead MODO you lie-pres-2S</item>
+    <item id="c4" line="1698" tag="B"/>
+    <item id="c5" line="1699" tag="L">e   mu ti         levi             prestu a     matina</item>
+    <item id="c6" line="1700" tag="B"/>
+    <item id="c7" line="1701" tag="G">and MODO refl-2 get.up-pr-2S early         the morning</item>
+    <item id="c8" line="1702" tag="B"/>
+    <item id="c9" line="1703" tag="T">And at night time you go around haunting the houses, instead of going to bed</item>
+    <item id="c10" line="1704" tag="B"/>
+    <item id="c11" line="1705" tag="T+AC">and getting up early in the morning.'                                      (Ledgeway 1998: 37)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+    <item id="p1" content="c5[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:92]" alignment="p1"/>
+    <item id="g1" content="c7[0:54]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:76]" alignment="p2"/>
+    <item id="t1" content="c11[0:94]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i80600">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1711-1716" line-types="L B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1711" tag="L">      b.   imbeci ma jamu                   avanti,     jamu          arretu</item>
+    <item id="o2" line="1712" tag="B"></item>
+    <item id="o3" line="1713" tag="G+CR">           instead          go-pres-1PL forwards, go-pres-1PL backwards</item>
+    <item id="o4" line="1714" tag="G+CR">                     MODO</item>
+    <item id="o5" line="1715" tag="B"></item>
+    <item id="o6" line="1716" tag="T+AC">           `Instead of going forwards, we're going backwards.'                        (Ledgeway 1998: 37)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1711" tag="L">imbeci ma jamu                   avanti,     jamu          arretu</item>
+    <item id="c2" line="1712" tag="B"/>
+    <item id="c3" line="1713 1714" tag="G+CR">instead   MODO   go-pres-1PL forwards, go-pres-1PL backwards</item>
+    <item id="c5" line="1715" tag="B"/>
+    <item id="c6" line="1716" tag="T+AC">Instead of going forwards, we're going backwards.'                        (Ledgeway 1998: 37)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:93]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80601">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1720-1725" line-types="L B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1720" tag="L">  36) a.   girdàvamu             nzina cchi non venìa                      a   maschera</item>
+    <item id="o2" line="1721" tag="B"></item>
+    <item id="o3" line="1722" tag="G+CR">           shout-imperf-1        until    that not come-imperf-3           the usherette</item>
+    <item id="o4" line="1723" tag="G+CR">                            PL                                        SG</item>
+    <item id="o5" line="1724" tag="B"></item>
+    <item id="o6" line="1725" tag="T+AC">           `We shouted until the usherette came.'                                     (Ledgeway 1998: 36)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1720" tag="L">a.   girdàvamu             nzina cchi non venìa                      a   maschera</item>
+    <item id="c2" line="1721" tag="B"/>
+    <item id="c3" line="1722 1723" tag="G+CR">shout-imperf-1   PL   until    that not come-imperf-3      SG   the usherette</item>
+    <item id="c5" line="1724" tag="B"/>
+    <item id="c6" line="1725" tag="T+AC">We shouted until the usherette came.'                                     (Ledgeway 1998: 36)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:77]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:93]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80602">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1729-1734" line-types="L B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1729" tag="L">      b.   ntramentri chi jeu travaggiava,                 iddhu si        ripusava</item>
+    <item id="o2" line="1730" tag="B"></item>
+    <item id="o3" line="1731" tag="G+CR">                                         work-imperf-1SG, he     refl-3 rest-pres-3</item>
+    <item id="o4" line="1732" tag="G+CR">           in=while     that I                                                        SG</item>
+    <item id="o5" line="1733" tag="B"></item>
+    <item id="o6" line="1734" tag="T+AC">           `While I was working, he was resting.'                                     (Ledgeway 1998: 36)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1729" tag="L">ntramentri chi jeu travaggiava,                 iddhu si        ripusava</item>
+    <item id="c2" line="1730" tag="B"/>
+    <item id="c3" line="1731 1732" tag="G+CR">in=while     that I           work-imperf-1SG, he     refl-3 rest-pres-3   SG</item>
+    <item id="c5" line="1733" tag="B"/>
+    <item id="c6" line="1734" tag="T+AC">While I was working, he was resting.'                                     (Ledgeway 1998: 36)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:77]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:93]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80603">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1741-1747" line-types="L B G+CR G+CR B B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1741" tag="L">       c.   cu tuttu chi chiuvìa,              niscìu               mi   zzappa            l'ortu</item>
+    <item id="o2" line="1742" tag="B"></item>
+    <item id="o3" line="1743" tag="G+CR">            with all     that rain-imperf-3SG, go.out-past-3             dig-pres-3        the=garden</item>
+    <item id="o4" line="1744" tag="G+CR">                                                               SG MODO                SG</item>
+    <item id="o5" line="1745" tag="B"></item>
+    <item id="o6" line="1746" tag="B"></item>
+    <item id="o7" line="1747" tag="T+AC">            `Although it was raining, he went out to dig the garden.'           (Ledgeway 1998: 36)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1741" tag="L">cu tuttu chi chiuvìa,              niscìu               mi   zzappa            l'ortu</item>
+    <item id="c2" line="1742" tag="B"/>
+    <item id="c3" line="1743 1744" tag="G+CR">with all     that rain-imperf-3SG, go.out-past-3   SG MODO   dig-pres-3   SG   the=garden</item>
+    <item id="c5" line="1745" tag="B"/>
+    <item id="c6" line="1746" tag="B"/>
+    <item id="c7" line="1747" tag="T+AC">Although it was raining, he went out to dig the garden.'           (Ledgeway 1998: 36)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:89]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:86]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80604">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1763-1769" line-types="L+SY B G+CR G+CR B B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1763" tag="L+SY">  37) a.    vollarïa       [`u     cangiu               misteri]</item>
+    <item id="o2" line="1764" tag="B"></item>
+    <item id="o3" line="1765" tag="G+CR">                                   change-pres-1        job</item>
+    <item id="o4" line="1766" tag="G+CR">            want-cond-   SG MODO                   SG</item>
+    <item id="o5" line="1767" tag="B"></item>
+    <item id="o6" line="1768" tag="B"></item>
+    <item id="o7" line="1769" tag="T+AC">            `I should like to change trade.'                                    (Ledgeway 1998: 34)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1763" tag="L+SY">a.    vollarïa       [`u     cangiu               misteri]</item>
+    <item id="c2" line="1764" tag="B"/>
+    <item id="c3" line="1765 1766" tag="G+CR">want-cond-SG MODO   change-pres-1   SG   job</item>
+    <item id="c5" line="1767" tag="B"/>
+    <item id="c6" line="1768" tag="B"/>
+    <item id="c7" line="1769" tag="T+AC">I should like to change trade.'                                    (Ledgeway 1998: 34)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:86]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80605">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1771-1775" line-types="L+SY B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1771" tag="L+SY">       b.   vozza         [ma sapa          sulu cui ci        fà        `a sfumatura a li parmari]</item>
+    <item id="o2" line="1772" tag="B"></item>
+    <item id="o3" line="1773" tag="G">            want-pst-3S MODO know-prs-3S only who there do-prs-3S the trimming               to the palm-PL</item>
+    <item id="o4" line="1774" tag="B"></item>
+    <item id="o5" line="1775" tag="T+AC">            `He wanted to know who trims the palm trees'                        (Ledgeway 1998: 34)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1771" tag="L+SY">vozza         [ma sapa          sulu cui ci        fà        `a sfumatura a li parmari]</item>
+    <item id="c2" line="1772" tag="B"/>
+    <item id="c3" line="1773" tag="G">want-pst-3S MODO know-prs-3S only who there do-prs-3S the trimming               to the palm-PL</item>
+    <item id="c4" line="1774" tag="B"/>
+    <item id="c5" line="1775" tag="T+AC">He wanted to know who trims the palm trees'                        (Ledgeway 1998: 34)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:87]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:95]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:86]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80606">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1777-1782" line-types="L+SY B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1777" tag="L+SY">       c.   eu vogghiu           [mi ti     pagu]</item>
+    <item id="o2" line="1778" tag="B"></item>
+    <item id="o3" line="1779" tag="G+CR">            I want-pres-1              you pay-pres-1SG</item>
+    <item id="o4" line="1780" tag="G+CR">                            SG MODO</item>
+    <item id="o5" line="1781" tag="B"></item>
+    <item id="o6" line="1782" tag="T+AC">            I want to pay you               (Ledgeway 1998: 44)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1777" tag="L+SY">eu vogghiu           [mi ti     pagu]</item>
+    <item id="c2" line="1778" tag="B"/>
+    <item id="c3" line="1779 1780" tag="G+CR">I want-pres-1   SG MODO    you pay-pres-1SG</item>
+    <item id="c5" line="1781" tag="B"/>
+    <item id="c6" line="1782" tag="T+AC">I want to pay you               (Ledgeway 1998: 44)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80607">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1807-1812" line-types="L B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1807" tag="L">  38) a.         `ncumincia        ma      vi             sàgghia             `u sangu a `lu cerbeddhu</item>
+    <item id="o2" line="1808" tag="B"></item>
+    <item id="o3" line="1809" tag="G+CR">                 begin-pres-3              you-PL(DAT) rise-pres-3            the blood to the brain</item>
+    <item id="o4" line="1810" tag="G+CR">                                 SG MODO                                 SG</item>
+    <item id="o5" line="1811" tag="B"></item>
+    <item id="o6" line="1812" tag="T+AC">                 `Your blood begins to flow to your brain.'                                     (Ledgeway 1998: 25)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1807" tag="L">a.         `ncumincia        ma      vi             sàgghia             `u sangu a `lu cerbeddhu</item>
+    <item id="c2" line="1808" tag="B"/>
+    <item id="c3" line="1809 1810" tag="G+CR">begin-pres-3    SG MODO   you-PL(DAT) rise-pres-3       SG   the blood to the brain</item>
+    <item id="c5" line="1811" tag="B"/>
+    <item id="c6" line="1812" tag="T+AC">Your blood begins to flow to your brain.'                                     (Ledgeway 1998: 25)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:96]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:83]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:97]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80608">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1814-1819" line-types="L B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1814" tag="L">            b.   tu   fai                  mi      ndi mangia                  tri    parti iddu</item>
+    <item id="o2" line="1815" tag="B"></item>
+    <item id="o3" line="1816" tag="G+CR">                                                   part. eat-pres-3            three parts he</item>
+    <item id="o4" line="1817" tag="G+CR">                 you make-pres-3        SG MODO                          SG</item>
+    <item id="o5" line="1818" tag="B"></item>
+    <item id="o6" line="1819" tag="T+AC">                 `You make him eat three parts of it.                                           (Ledgeway 1998: 39)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1814" tag="L">tu   fai                  mi      ndi mangia                  tri    parti iddu</item>
+    <item id="c2" line="1815" tag="B"/>
+    <item id="c3" line="1816 1817" tag="G+CR">you make-pres-3        SG MODO    part. eat-pres-3      SG    three parts he</item>
+    <item id="c5" line="1818" tag="B"/>
+    <item id="c6" line="1819" tag="T+AC">You make him eat three parts of it.                                           (Ledgeway 1998: 39)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:97]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80609">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1821-1827" line-types="L B G+CR G+CR B B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1821" tag="L">            c.   li             fazzu             mu       stannu               tranquilli</item>
+    <item id="o2" line="1822" tag="B"></item>
+    <item id="o3" line="1823" tag="G+CR">                 them-M.        make-pres-1                stay-pres-3          calm-M.</item>
+    <item id="o4" line="1824" tag="G+CR">                           PL                   SG MODO                   PL              PL</item>
+    <item id="o5" line="1825" tag="B"></item>
+    <item id="o6" line="1826" tag="B"></item>
+    <item id="o7" line="1827" tag="T+AC">                 I'll make them relax                                                           (Ledgeway 1998: 40)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1821" tag="L">li             fazzu             mu       stannu               tranquilli</item>
+    <item id="c2" line="1822" tag="B"/>
+    <item id="c3" line="1823 1824" tag="G+CR">them-M.   PL   make-pres-1     SG MODO    stay-pres-3    PL    calm-M.   PL</item>
+    <item id="c5" line="1825" tag="B"/>
+    <item id="c6" line="1826" tag="B"/>
+    <item id="c7" line="1827" tag="T+AC">I'll make them relax                                                           (Ledgeway 1998: 40)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:98]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80610">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern calabrian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1682" line-range="1829-1835" line-types="L B G+CR G+CR B B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1829" tag="L">            d.   ti   faci                 mu ti                 passa                    `u malucori</item>
+    <item id="o2" line="1830" tag="B"></item>
+    <item id="o3" line="1831" tag="G+CR">                                                  you(         ) go.away-pres-3           the sorrow</item>
+    <item id="o4" line="1832" tag="G+CR">                 you make-pres-3        SG MODO          DAT                         SG</item>
+    <item id="o5" line="1833" tag="B"></item>
+    <item id="o6" line="1834" tag="B"></item>
+    <item id="o7" line="1835" tag="T+AC">                 `It will make your pain go away.'                                              (Ledgeway 1998: 40)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1829" tag="L">ti   faci                 mu ti                 passa                    `u malucori</item>
+    <item id="c2" line="1830" tag="B"/>
+    <item id="c3" line="1831 1832" tag="G+CR">you make-pres-3        SG MODO   you(   DAT   ) go.away-pres-3      SG   the sorrow</item>
+    <item id="c5" line="1833" tag="B"/>
+    <item id="c6" line="1834" tag="B"/>
+    <item id="c7" line="1835" tag="T+AC">It will make your pain go away.'                                              (Ledgeway 1998: 40)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:83]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:97]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i109076">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sicilian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="943" line-range="1843-1846" line-types="L+CR L+LN+CR G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1843" tag="L+CR">                      Mi nun nsci!</item>
+    <item id="o2" line="1844" tag="L+LN+CR">              c.                               (eastern Sicilian)</item>
+    <item id="o3" line="1845" tag="G">                      PRT neg. leave</item>
+    <item id="o4" line="1846" tag="T+EX">                      'Leave!' (polite form)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1843 1844" tag="L+CR+LN">Mi nun nsci!             (eastern Sicilian)</item>
+    <item id="c3" line="1845" tag="G">PRT neg. leave</item>
+    <item id="c4" line="1846" tag="T+EX">Leave!' (polite form)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i139870">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sicilian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2326" line-range="446-448" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="446" tag="L+LN">              c        Un libro comprasti? (Sicilian)</item>
+    <item id="o2" line="447" tag="G">                       a book bought</item>
+    <item id="o3" line="448" tag="T">                       `Did you buy a book?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="446" tag="L+LN">c        Un libro comprasti? (Sicilian)</item>
+    <item id="c2" line="447" tag="G">a book bought</item>
+    <item id="c3" line="448" tag="T">Did you buy a book?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i139872">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sicilian" iso-639-3="scn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2326" line-range="452-454" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="452" tag="L+LN">              d        Antonio sono          (Sicilian)</item>
+    <item id="o2" line="453" tag="G">                       Antonio am</item>
+    <item id="o3" line="454" tag="T">              `It's Antonio'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="452" tag="L+LN">d        Antonio sono          (Sicilian)</item>
+    <item id="c2" line="453" tag="G">Antonio am</item>
+    <item id="c3" line="454" tag="T">It's Antonio</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

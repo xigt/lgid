@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i116605">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tayo" iso-639-3="cks" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3648" line-range="625-629" line-types="M+AC+LN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="625" tag="M+AC+LN">  Tayo (New Caledonia; Ehrhart 1993:224)</item>
+    <item id="o2" line="626" tag="L">  (32) Sola done  fam     pu     lja.</item>
+    <item id="o3" line="627" tag="G+CR">         3        give            wife          to          him</item>
+    <item id="o4" line="628" tag="G+CR">             PL</item>
+    <item id="o5" line="629" tag="T">         'They gave him a wife.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="625" tag="M+AC+LN">Tayo (New Caledonia; Ehrhart 1993:224)</item>
+    <item id="c2" line="626" tag="L">Sola done  fam     pu     lja.</item>
+    <item id="c3" line="627 628" tag="G+CR">3   PL   give            wife          to          him</item>
+    <item id="c5" line="629" tag="T">They gave him a wife.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116606">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tayo" iso-639-3="cks" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3648" line-range="631-634" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="631" tag="L">  (33) Sa                 done      lachferi                 a            lja.</item>
+    <item id="o2" line="632" tag="G+CR">         3                give      chieftaincy             to          him</item>
+    <item id="o3" line="633" tag="G+CR">             PL</item>
+    <item id="o4" line="634" tag="T">         'They gave him the chieftaincy.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="631" tag="L">Sa                 done      lachferi                 a            lja.</item>
+    <item id="c2" line="632 633" tag="G+CR">3   PL           give      chieftaincy             to          him</item>
+    <item id="c4" line="634" tag="T">They gave him the chieftaincy.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155562">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tayo" iso-639-3="cks" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3284" line-range="692-694" line-types="L+EX G T+AC+LN+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="692" tag="L+EX">     (4) lia le                fu                       ( cf. French lui, il est fou)</item>
+    <item id="o2" line="693" tag="G">         3SG LE                crazy</item>
+    <item id="o3" line="694" tag="T+AC+LN+DB">         'he is crazy; it's him who is crazy' (Tayo, Corne 1999:23)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="692" tag="L+EX">lia le                fu                       ( cf. French lui, il est fou</item>
+    <item id="c2" line="693" tag="G">3SG LE                crazy</item>
+    <item id="c3" line="694" tag="T+AC+LN+DB">he is crazy; it's him who is crazy' (Tayo, Corne 1999:23)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

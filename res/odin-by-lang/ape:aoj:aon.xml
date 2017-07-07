@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i15549">
+  <metadata type="xigt-meta">
+    <meta type="language" name="arapesh" iso-639-3="ape:aoj:aon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3539" line-range="1371-1373" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1371" tag="L+EX">  (44)   De ja-kalipe-eN ja-ka                Nakir urur re-Nigure.           (p. 99)</item>
+    <item id="o2" line="1372" tag="G">         Now 1sS-tell-2sO 1sS-that(say) your vulva 3sS-cry.out</item>
+    <item id="o3" line="1373" tag="T">         `I told you that your vulva cried out.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1371" tag="L+EX">De ja-kalipe-eN ja-ka                Nakir urur re-Nigure.           (p. 99</item>
+    <item id="c2" line="1372" tag="G">Now 1sS-tell-2sO 1sS-that(say) your vulva 3sS-cry.out</item>
+    <item id="c3" line="1373" tag="T">I told you that your vulva cried out.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47165">
+  <metadata type="xigt-meta">
+    <meta type="language" name="arapesh" iso-639-3="ape:aoj:aon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3429" line-range="466-473" line-types="L G+CR G+CR L+SY G T T+LT+AL C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="466" tag="L">     (12) jawei             b-i</item>
+    <item id="o2" line="467" tag="G+CR">                            VI.PL-Pro</item>
+    <item id="o3" line="468" tag="G+CR">          bad</item>
+    <item id="o4" line="469" tag="L+SY">          [RC sigaliuh              wha-b-ah                    i]</item>
+    <item id="o5" line="470" tag="G">          white.cockatoo.XII.SG XII.SG.SUBJ-VI.PL.OBJ-ate       REL</item>
+    <item id="o6" line="471" tag="T">          `The (coconut)s that the white cockatoo ate are bad.'</item>
+    <item id="o7" line="472" tag="T+LT+AL">          (glossing literally, `They are bad [the __ which white</item>
+    <item id="o8" line="473" tag="C">          cockatoos ate them]')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="466" tag="L">jawei             b-i</item>
+    <item id="c2" line="467 468" tag="G+CR">bad               VI.PL-Pro</item>
+    <item id="c4" line="469" tag="L+SY">[RC sigaliuh              wha-b-ah                    i]</item>
+    <item id="c5" line="470" tag="G">white.cockatoo.XII.SG XII.SG.SUBJ-VI.PL.OBJ-ate       REL</item>
+    <item id="c6" line="471" tag="T">The (coconut)s that the white cockatoo ate are bad.</item>
+    <item id="c7" line="472" tag="T+LT+AL">(glossing literally, `They are bad [the __ which white</item>
+    <item id="c8" line="473" tag="C">cockatoos ate them]')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+    <item id="p1" content="c4[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+    <item id="g1" content="c5[0:57]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:51]" alignment="p2"/>
+    <item id="t1" content="c7[0:54]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i47166">
+  <metadata type="xigt-meta">
+    <meta type="language" name="arapesh" iso-639-3="ape:aoj:aon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3429" line-range="475-477" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="475" tag="L">     (13) araman            n-auh-i</item>
+    <item id="o2" line="476" tag="G">          man.VII.SG        VII.SG.SUBJ-r   ed-REL</item>
+    <item id="o3" line="477" tag="T">          `red man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="475" tag="L">araman            n-auh-i</item>
+    <item id="c2" line="476" tag="G">man.VII.SG        VII.SG.SUBJ-r   ed-REL</item>
+    <item id="c3" line="477" tag="T">red man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47167">
+  <metadata type="xigt-meta">
+    <meta type="language" name="arapesh" iso-639-3="ape:aoj:aon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3429" line-range="479-481" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="479" tag="L">     (14) araman            bagara-ni</item>
+    <item id="o2" line="480" tag="G">          man.VII.SG        white-VII.SG</item>
+    <item id="o3" line="481" tag="T">          `white man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="479" tag="L">araman            bagara-ni</item>
+    <item id="c2" line="480" tag="G">man.VII.SG        white-VII.SG</item>
+    <item id="c3" line="481" tag="T">white man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47168">
+  <metadata type="xigt-meta">
+    <meta type="language" name="arapesh" iso-639-3="ape:aoj:aon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3429" line-range="486-488" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="486" tag="L">     (15) mbul             i-g                 berag</item>
+    <item id="o2" line="487" tag="G">          pig.X.PL         REL-III.SG          head.III.SG</item>
+    <item id="o3" line="488" tag="T">          `(the) pig's head'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="486" tag="L">mbul             i-g                 berag</item>
+    <item id="c2" line="487" tag="G">pig.X.PL         REL-III.SG          head.III.SG</item>
+    <item id="c3" line="488" tag="T">(the) pig's head</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47169">
+  <metadata type="xigt-meta">
+    <meta type="language" name="arapesh" iso-639-3="ape:aoj:aon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3429" line-range="499-502" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="499" tag="L+CR">                               eguh</item>
+    <item id="o2" line="500" tag="L+CR">     (16) aguhuda</item>
+    <item id="o3" line="501" tag="G">          these.X.PL           fish.X.PL</item>
+    <item id="o4" line="502" tag="T">          `these fish'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="499 500" tag="L+CR">aguhuda              eguh</item>
+    <item id="c3" line="501" tag="G">these.X.PL           fish.X.PL</item>
+    <item id="c4" line="502" tag="T">these fish</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47170">
+  <metadata type="xigt-meta">
+    <meta type="language" name="arapesh" iso-639-3="ape:aoj:aon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3429" line-range="504-506" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="504" tag="L">     (17) e e            kwodzar</item>
+    <item id="o2" line="505" tag="G">          one.VIII       foot.rope.VIII.SG</item>
+    <item id="o3" line="506" tag="T">          `one footrope'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="504" tag="L">e e            kwodzar</item>
+    <item id="c2" line="505" tag="G">one.VIII       foot.rope.VIII.SG</item>
+    <item id="c3" line="506" tag="T">one footrope</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

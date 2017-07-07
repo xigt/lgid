@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i14465">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mongolian" iso-639-3="mon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3547" line-range="15-17" line-types="L+CR L+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="15" tag="L+CR">                    í ÓÈÓÓÒ Ëi ÚÎÊ ·ÈÌ.</item>
+    <item id="o2" line="16" tag="L+CR">               b.</item>
+    <item id="o3" line="17" tag="T">                    `He has aged a great deal lately.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="15 16" tag="L+CR">í ÓÈÓÓÒ Ëi ÚÎÊ ·ÈÌ.</item>
+    <item id="c3" line="17" tag="T">He has aged a great deal lately.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14496">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mongolian" iso-639-3="mon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3547" line-range="561-563" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="561" tag="L+EX">   (33)   a.   ... oro ho[q]torqu bol-ba. (§105)</item>
+    <item id="o2" line="562" tag="G">                   bed empty      become-TENSE</item>
+    <item id="o3" line="563" tag="T">               `The bed became empty.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="561" tag="L+EX">a.   ... oro ho[q]torqu bol-ba. (§105</item>
+    <item id="c2" line="562" tag="G">bed empty      become-TENSE</item>
+    <item id="c3" line="563" tag="T">The bed became empty.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14497">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mongolian" iso-639-3="mon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3547" line-range="564-566" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="564" tag="L+EX">          b.   ... dobun-mergen ügei bol-ba . (§17)</item>
+    <item id="o2" line="565" tag="G">                   Dobun Mergen not become-TENSE</item>
+    <item id="o3" line="566" tag="T">                `Dobun Mergen became not (i.e., non-existent).'12</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="564" tag="L+EX">... dobun-mergen ügei bol-ba . (§17)</item>
+    <item id="c2" line="565" tag="G">Dobun Mergen not become-TENSE</item>
+    <item id="c3" line="566" tag="T">Dobun Mergen became not (i.e., non-existent).'12</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14498">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mongolian" iso-639-3="mon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3547" line-range="571-574" line-types="L+EX G T+LT+EX C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="571" tag="L+EX">   (34)   a.   qoyitu tede haran baru'an bol-da-ju... (§91)</item>
+    <item id="o2" line="572" tag="G">               behind those people dark        become-PASS-ING</item>
+    <item id="o3" line="573" tag="T+LT+EX">               `Lit.: *Those people behind, being become dark ...' (i.e., being lost in</item>
+    <item id="o4" line="574" tag="C">               the darkness...)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="571" tag="L+EX">a.   qoyitu tede haran baru'an bol-da-ju... (§91</item>
+    <item id="c2" line="572" tag="G">behind those people dark        become-PASS-ING</item>
+    <item id="c3" line="573" tag="T+LT+EX">Lit.: *Those people behind, being become dark ...' (i.e., being lost in</item>
+    <item id="c4" line="574" tag="C">the darkness...)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:71]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14499">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mongolian" iso-639-3="mon" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3547" line-range="575-578" line-types="L+EX G T+LT+EX C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="575" tag="L+EX">          b.   cinggis-qahan ...ügei bol-da-ju ... (§161)</item>
+    <item id="o2" line="576" tag="G">               Cinggis Qahan NOT become-PASS-ING</item>
+    <item id="o3" line="577" tag="T+LT+EX">               `Lit.: *Cinggis Qahan, being become non-existent [by Ong Qan]' (i.e.,</item>
+    <item id="o4" line="578" tag="C">               suffering from the fact that Ong Qan was no longer there ...)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="575" tag="L+EX">cinggis-qahan ...ügei bol-da-ju ... (§161)</item>
+    <item id="c2" line="576" tag="G">Cinggis Qahan NOT become-PASS-ING</item>
+    <item id="c3" line="577" tag="T+LT+EX">Lit.: *Cinggis Qahan, being become non-existent [by Ong Qan]' (i.e.,</item>
+    <item id="c4" line="578" tag="C">suffering from the fact that Ong Qan was no longer there ...)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

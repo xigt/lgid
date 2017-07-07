@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i88194">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warumungu" iso-639-3="wrm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="1106-1109" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1106" tag="M+LN">   (22) Warumungu:</item>
+    <item id="o2" line="1107" tag="L">        a. amanya-arnpa kiwari kakirr-apan</item>
+    <item id="o3" line="1108" tag="G">           that.same-still child cry-HITH*R:PR*S</item>
+    <item id="o4" line="1109" tag="T">           `That same child is coming crying.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1106" tag="M+LN">Warumungu:</item>
+    <item id="c2" line="1107" tag="L">amanya-arnpa kiwari kakirr-apan</item>
+    <item id="c3" line="1108" tag="G">that.same-still child cry-HITH*R:PR*S</item>
+    <item id="c4" line="1109" tag="T">That same child is coming crying.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88195">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warumungu" iso-639-3="wrm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="1110-1112" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1110" tag="L">        b. ngalanya yuwaji ngunjjirr-anta kajunu</item>
+    <item id="o2" line="1111" tag="G">           this      road lie-AWAY:PR*S north</item>
+    <item id="o3" line="1112" tag="T+AC">           `This road goes north.' (Simpson 2002: 297)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1110" tag="L">ngalanya yuwaji ngunjjirr-anta kajunu</item>
+    <item id="c2" line="1111" tag="G">this      road lie-AWAY:PR*S north</item>
+    <item id="c3" line="1112" tag="T+AC">This road goes north.' (Simpson 2002: 297)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

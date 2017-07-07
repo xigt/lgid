@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i41094">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maling" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3520" line-range="850-853" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="850" tag="M+AC+LN">          Maling (Dryer 2000)</item>
+    <item id="o2" line="851" tag="L">          (43)     yo miu yo</item>
+    <item id="o3" line="852" tag="G">                   this boy this</item>
+    <item id="o4" line="853" tag="T">                   `this boy'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="850" tag="M+AC+LN">Maling (Dryer 2000)</item>
+    <item id="c2" line="851" tag="L">yo miu yo</item>
+    <item id="c3" line="852" tag="G">this boy this</item>
+    <item id="c4" line="853" tag="T">this boy</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73269">
+  <metadata type="xigt-meta">
+    <meta type="language" name="milang" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="489-491" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="489" tag="L">  (35) yo miu yo</item>
+    <item id="o2" line="490" tag="G">          this boy this</item>
+    <item id="o3" line="491" tag="T">          `this boy'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="489" tag="L">yo miu yo</item>
+    <item id="c2" line="490" tag="G">this boy this</item>
+    <item id="c3" line="491" tag="T">this boy</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93168">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam-mishing" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="451-453" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="451" tag="L+CN">  (19) ngo pa-shu-to                                             (reflexive)</item>
+    <item id="o2" line="452" tag="G">       1sg cut-R/M-PF</item>
+    <item id="o3" line="453" tag="T">       `I have cut myself (with a dao).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="451" tag="L+CN">ngo pa-shu-to                                             (reflexive</item>
+    <item id="c2" line="452" tag="G">1sg cut-R/M-PF</item>
+    <item id="c3" line="453" tag="T">I have cut myself (with a dao).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93169">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam-mishing" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="455-457" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="455" tag="L+CN">  (20) b oÚ-dÔok-shu-to                                          (reflexive)</item>
+    <item id="o2" line="456" tag="G">       3sg fall-graze-R/M-PF</item>
+    <item id="o3" line="457" tag="T">       `He has fallen and grazed himself.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="455" tag="L+CN">b oÚ-dÔok-shu-to                                          (reflexive</item>
+    <item id="c2" line="456" tag="G">3sg fall-graze-R/M-PF</item>
+    <item id="c3" line="457" tag="T">He has fallen and grazed himself.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93170">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam-mishing" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="459-461" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="459" tag="L+CN">  (21) ngo mo-bi-shu-to                                          (emphatic)</item>
+    <item id="o2" line="460" tag="G">       1sg make-ben-R/M-PF</item>
+    <item id="o3" line="461" tag="T">       `I built it for you myself.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="459" tag="L+CN">ngo mo-bi-shu-to                                          (emphatic</item>
+    <item id="c2" line="460" tag="G">1sg make-ben-R/M-PF</item>
+    <item id="c3" line="461" tag="T">I built it for you myself.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93171">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam-mishing" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="463-464" line-types="L+CN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="463" tag="L+CN">  (22) Ay|e o dat-shu kang                                       (spontaneous action middle)</item>
+    <item id="o2" line="464" tag="T">       `The fruit has fallen and burst or split.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="463" tag="L+CN">Ay|e o dat-shu kang                                       (spontaneous action middle</item>
+    <item id="c2" line="464" tag="T">The fruit has fallen and burst or split.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93172">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam-mishing" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="466-467" line-types="L+CN T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="466" tag="L+CN">  (23) do d»ar-shu toka                                          (benefactive middle)</item>
+    <item id="o2" line="467" tag="T+DB+LT">       `Eat your fill (lit. = eat and fill yourself).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="466" tag="L+CN">do d»ar-shu toka                                          (benefactive middle</item>
+    <item id="c2" line="467" tag="T+DB+LT">Eat your fill (lit. = eat and fill yourself).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93173">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam-mishing" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="469-471" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="469" tag="L+CN">  (24) a. no-k      kentu         shuk-shu-toka                (groming middle)</item>
+    <item id="o2" line="470" tag="G">           2sg-GEN ear.ornament take out-M/R-IMP</item>
+    <item id="o3" line="471" tag="T">           `Take out your ear-ornament (from your own ear).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="469" tag="L+CN">a. no-k      kentu         shuk-shu-toka                (groming middle</item>
+    <item id="c2" line="470" tag="G">2sg-GEN ear.ornament take out-M/R-IMP</item>
+    <item id="c3" line="471" tag="T">Take out your ear-ornament (from your own ear).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93174">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam-mishing" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="474-475" line-types="L+CN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="474" tag="L+CN">  (25) no dum-muit dem aipe shum-shu mang                         (grooming middle)</item>
+    <item id="o2" line="475" tag="T">       `You have not done up your hair nicely (i.e. not tied it in a nice knot).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="474" tag="L+CN">no dum-muit dem aipe shum-shu mang                         (grooming middle</item>
+    <item id="c2" line="475" tag="T">You have not done up your hair nicely (i.e. not tied it in a nice knot).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:72]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93175">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam-mishing" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="477-479" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="477" tag="L+CN">  (26) r-shu-toka                                                (grooming middle)</item>
+    <item id="o2" line="478" tag="G">       wash-MD-IMP</item>
+    <item id="o3" line="479" tag="T">       `Bathe yourself!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="477" tag="L+CN">r-shu-toka                                                (grooming middle</item>
+    <item id="c2" line="478" tag="G">wash-MD-IMP</item>
+    <item id="c3" line="479" tag="T">Bathe yourself!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93176">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam-mishing" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="481-483" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="481" tag="L+CN">  (27) dotke do laje      lak-shuk-shu-toka                      (grooming middle)</item>
+    <item id="o2" line="482" tag="G">       food eat HORT hand-wash-MD-IMP</item>
+    <item id="o3" line="483" tag="T">       `Let's eat (food), and wash your hands.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="481" tag="L+CN">dotke do laje      lak-shuk-shu-toka                      (grooming middle</item>
+    <item id="c2" line="482" tag="G">food eat HORT hand-wash-MD-IMP</item>
+    <item id="c3" line="483" tag="T">Let's eat (food), and wash your hands.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93177">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam-mishing" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="485-486" line-types="L+CN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="485" tag="L+CN">  (28) gok-shum-shu toka                                         (collective)</item>
+    <item id="o2" line="486" tag="T">       `Call (them) together.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="485" tag="L+CN">gok-shum-shu toka                                         (collective</item>
+    <item id="c2" line="486" tag="T">Call (them) together.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93178">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam-mishing" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="488-489" line-types="L+CN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="488" tag="L+CN">  (29) Jo dum-shu bo i ka/to i ka                                (collective?)</item>
+    <item id="o2" line="489" tag="T">       `Help me lift (it).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="488" tag="L+CN">Jo dum-shu bo i ka/to i ka                                (collective?</item>
+    <item id="c2" line="489" tag="T">Help me lift (it).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93179">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="513-514" line-types="M+AC+LN L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="513" tag="M+AC+LN">  (31) Padam (Tayeng 1983)</item>
+    <item id="o2" line="514" tag="L-T">       ngil-yum su langka                         `Smile!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="513" tag="M+AC+LN">Padam (Tayeng 1983</item>
+    <item id="c2" line="514" tag="L-T">ngil-yum su langka                         `Smile!</item>
+  </tier>
+</igt>
+<igt id="i93180">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="515-515" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="515" tag="L-T">       lak-suk su lang-ka                         `Wash hand!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="515" tag="L-T">lak-suk su lang-ka                         `Wash hand!</item>
+  </tier>
+</igt>
+<igt id="i93181">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="516-516" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="516" tag="L-T">       gi'me su-to                                `to be lost'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="516" tag="L-T">gi'me su-to                                `to be lost</item>
+  </tier>
+</igt>
+<igt id="i93182">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="517-517" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="517" tag="L-T">       ngo-m lupo su lang-ka                      `Talk to me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="517" tag="L-T">ngo-m lupo su lang-ka                      `Talk to me</item>
+  </tier>
+</igt>
+<igt id="i93183">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="518-518" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="518" tag="L-T">       mik-mue' pe'l-ri'k su lang-ka              `turn face to face'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="518" tag="L-T">mik-mue' pe'l-ri'k su lang-ka              `turn face to face</item>
+  </tier>
+</igt>
+<igt id="i93184">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="519-519" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="519" tag="L-T">       ken-kai su nam                             `to learn'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="519" tag="L-T">ken-kai su nam                             `to learn</item>
+  </tier>
+</igt>
+<igt id="i93185">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="520-520" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="520" tag="L-T">       mi'te'su-nam                               `to be proud'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="520" tag="L-T">mi'te'su-nam                               `to be proud</item>
+  </tier>
+</igt>
+<igt id="i93186">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="521-521" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="521" tag="L-T">       pesu-nam                                   `to promise'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="521" tag="L-T">pesu-nam                                   `to promise</item>
+  </tier>
+</igt>
+<igt id="i93187">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="522-522" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="522" tag="L-T">       lumi'nsu-nam                               `to quarrel'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="522" tag="L-T">lumi'nsu-nam                               `to quarrel</item>
+  </tier>
+</igt>
+<igt id="i93188">
+  <metadata type="xigt-meta">
+    <meta type="language" name="padam" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1358" line-range="523-523" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="523" tag="L-T">       poyan-sutoka                               `to answer'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="523" tag="L-T">poyan-sutoka                               `to answer</item>
+  </tier>
+</igt>
+<igt id="i115581">
+  <metadata type="xigt-meta">
+    <meta type="language" name="milang" iso-639-3="adi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3380" line-range="1705-1709" line-types="M+LN B L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1705" tag="M+LN">  (63)   Milang</item>
+    <item id="o2" line="1706" tag="B"></item>
+    <item id="o3" line="1707" tag="L">         yo miu yo</item>
+    <item id="o4" line="1708" tag="G">         this boy this</item>
+    <item id="o5" line="1709" tag="T+AC">         `this boy' (Tayeng 1976: iv)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1705" tag="M+LN">Milang</item>
+    <item id="c2" line="1706" tag="B"/>
+    <item id="c3" line="1707" tag="L">yo miu yo</item>
+    <item id="c4" line="1708" tag="G">this boy this</item>
+    <item id="c5" line="1709" tag="T+AC">this boy' (Tayeng 1976: iv)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

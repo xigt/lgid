@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i42628">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chauve" iso-639-3="cjv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3498" line-range="62-64" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="62" tag="L">  (6.2) a. Yai kei su-n-g-a                  fu-m-e.</item>
+    <item id="o2" line="63" tag="G">           man dog hit-3sg-DEP-NONSIM go-3sg-IND</item>
+    <item id="o3" line="64" tag="T">           `After the man hit the dog, he went away.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="62" tag="L">Yai kei su-n-g-a                  fu-m-e.</item>
+    <item id="c2" line="63" tag="G">man dog hit-3sg-DEP-NONSIM go-3sg-IND</item>
+    <item id="c3" line="64" tag="T">After the man hit the dog, he went away.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42629">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chauve" iso-639-3="cjv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3498" line-range="65-67" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="65" tag="L">        b. Yai kei si-re          fu-m-e.</item>
+    <item id="o2" line="66" tag="G">           man dog hit-SEQ.SS go-3sg-IND</item>
+    <item id="o3" line="67" tag="T">           `The man hit the dog and went away.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="65" tag="L">Yai kei si-re          fu-m-e.</item>
+    <item id="c2" line="66" tag="G">man dog hit-SEQ.SS go-3sg-IND</item>
+    <item id="c3" line="67" tag="T">The man hit the dog and went away.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i133673">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chuave" iso-639-3="cjv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2391" line-range="84-86" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="84" tag="L">    (8)   guwai-i furuwai bei de-im-ie</item>
+    <item id="o2" line="85" tag="G">          things-dem scatter do go-they-declar</item>
+    <item id="o3" line="86" tag="T">          "they were scattering those things about"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="84" tag="L">guwai-i furuwai bei de-im-ie</item>
+    <item id="c2" line="85" tag="G">things-dem scatter do go-they-declar</item>
+    <item id="c3" line="86" tag="T">they were scattering those things about</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i133674">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chuave" iso-639-3="cjv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2391" line-range="87-89" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="87" tag="L">    (9)   mora di mari do-pun-ia!</item>
+    <item id="o2" line="88" tag="G">          enough say tell be/like-we-emph</item>
+    <item id="o3" line="89" tag="T">          "we have told them all!"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="87" tag="L">mora di mari do-pun-ia!</item>
+    <item id="c2" line="88" tag="G">enough say tell be/like-we-emph</item>
+    <item id="c3" line="89" tag="T">we have told them all!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i133675">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chuave" iso-639-3="cjv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2391" line-range="90-93" line-types="L G T M+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="90" tag="L">   (10)   nimi su-wa-m-bo           si-ke-na-m-bo           fi-ke-y-e       ...</item>
+    <item id="o2" line="91" tag="G">          rain hit-3sg/obj-fut-or hit-neg-3sg/obj-fut-or think-neg-I-uncert</item>
+    <item id="o3" line="92" tag="T">          "whether it will rain or not I don't know . . . "</item>
+    <item id="o4" line="93" tag="M+LN">          (Chuave, Papuan)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="90" tag="L">nimi su-wa-m-bo           si-ke-na-m-bo           fi-ke-y-e       ...</item>
+    <item id="c2" line="91" tag="G">rain hit-3sg/obj-fut-or hit-neg-3sg/obj-fut-or think-neg-I-uncert</item>
+    <item id="c3" line="92" tag="T">whether it will rain or not I don't know . . .</item>
+    <item id="c4" line="93" tag="M+LN">Chuave, Papuan</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

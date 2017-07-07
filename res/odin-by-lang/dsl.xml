@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i72678">
+  <metadata type="xigt-meta">
+    <meta type="language" name="danish sign language" iso-639-3="dsl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="322-326" line-types="L+CR L+CR G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="322" tag="L+CR">          _______________________________RS-mother</item>
+    <item id="o2" line="323" tag="L+CR">                                                        __neg</item>
+    <item id="o3" line="324" tag="G">  (21) IX-1 MOTHER FATHER HOME AGAIN / IX-1</item>
+    <item id="o4" line="325" tag="T">          `...that my mother and father would go home again, not me.'</item>
+    <item id="o5" line="326" tag="M+AC">                                               (DSL:Engberg-Pedersen 1995)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="322 323" tag="L+CR">_______________________________RS-mother      __neg</item>
+    <item id="c3" line="324" tag="G">IX-1 MOTHER FATHER HOME AGAIN / IX-1</item>
+    <item id="c4" line="325" tag="T">...that my mother and father would go home again, not me.</item>
+    <item id="c5" line="326" tag="M+AC">DSL:Engberg-Pedersen 1995</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72679">
+  <metadata type="xigt-meta">
+    <meta type="language" name="danish sign language" iso-639-3="dsl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="336-338" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="336" tag="L">                                 _______________________RS-i</item>
+    <item id="o2" line="337" tag="G">  (22)   ANNA i IX-3 3-TELL-2 TWO-OF-USi+2 WIN AT-LAST</item>
+    <item id="o3" line="338" tag="T">         `Anna told you that the two of you had won at last.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="336" tag="L">_______________________RS-i</item>
+    <item id="c2" line="337" tag="G">ANNA i IX-3 3-TELL-2 TWO-OF-USi+2 WIN AT-LAST</item>
+    <item id="c3" line="338" tag="T">Anna told you that the two of you had won at last.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72680">
+  <metadata type="xigt-meta">
+    <meta type="language" name="danish sign language" iso-639-3="dsl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="367-370" line-types="L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="367" tag="L">         _____________________t    ____________________________RS-i</item>
+    <item id="o2" line="368" tag="G">  (23)   IXa MADRIDm MOMENT JOANi THINK IX-1i STUDY FINISH HEREb</item>
+    <item id="o3" line="369" tag="T">         `When he was in Madrid, Joan thought he would finish his study in</item>
+    <item id="o4" line="370" tag="T">         Barcelona.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="367" tag="L">_____________________t    ____________________________RS-i</item>
+    <item id="c2" line="368" tag="G">IXa MADRIDm MOMENT JOANi THINK IX-1i STUDY FINISH HEREb</item>
+    <item id="c3" line="369" tag="T">When he was in Madrid, Joan thought he would finish his study in</item>
+    <item id="c4" line="370" tag="T">Barcelona.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:64]" alignment="p1"/>
+    <item id="t1" content="c4[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72681">
+  <metadata type="xigt-meta">
+    <meta type="language" name="danish sign language" iso-639-3="dsl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="375-378" line-types="L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="375" tag="L">         __________t        ____________________________________ RS-i</item>
+    <item id="o2" line="376" tag="G">  (24)   IXa MADRID JOANi THINK IX-1i STUDY FINISH HERE MADRID</item>
+    <item id="o3" line="377" tag="T">         `When he has in Madrid, John thought he would finish his studies there in</item>
+    <item id="o4" line="378" tag="T">         Madrid.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="375" tag="L">__________t        ____________________________________ RS-i</item>
+    <item id="c2" line="376" tag="G">IXa MADRID JOANi THINK IX-1i STUDY FINISH HERE MADRID</item>
+    <item id="c3" line="377" tag="T">When he has in Madrid, John thought he would finish his studies there in</item>
+    <item id="c4" line="378" tag="T">Madrid.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:72]" alignment="p1"/>
+    <item id="t1" content="c4[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72682">
+  <metadata type="xigt-meta">
+    <meta type="language" name="danish sign language" iso-639-3="dsl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="390-392" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="390" tag="L">         __________t           __________________________RS-i</item>
+    <item id="o2" line="391" tag="G">  (25)   LAST-YEAR JOANi THINK IX-1i STUDY FINISH NOW</item>
+    <item id="o3" line="392" tag="T">         ´Last year, Joan thought he would finish his studies {now/#then}.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="390" tag="L">__________t           __________________________RS-i</item>
+    <item id="c2" line="391" tag="G">LAST-YEAR JOANi THINK IX-1i STUDY FINISH NOW</item>
+    <item id="c3" line="392" tag="T">´Last year, Joan thought he would finish his studies {now/#then}.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72683">
+  <metadata type="xigt-meta">
+    <meta type="language" name="danish sign language" iso-639-3="dsl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="394-397" line-types="L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="394" tag="L">         __________t               __________________________________RS-i</item>
+    <item id="o2" line="395" tag="G">  (26)   LAST-YEAR JOANi IX-3 THINK IX-1i STUDY FINISH YEAR THIS#</item>
+    <item id="o3" line="396" tag="T">         ´Last year, Joan thought he would finish his studies {this year/#then-that</item>
+    <item id="o4" line="397" tag="T">         year}.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="394" tag="L">__________t               __________________________________RS-i</item>
+    <item id="c2" line="395" tag="G">LAST-YEAR JOANi IX-3 THINK IX-1i STUDY FINISH YEAR THIS#</item>
+    <item id="c3" line="396" tag="T">´Last year, Joan thought he would finish his studies {this year/#then-that</item>
+    <item id="c4" line="397" tag="T">year}.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:74]" alignment="p1"/>
+    <item id="t1" content="c4[0:6]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

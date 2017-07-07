@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i8639">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1838" line-range="121-125" line-types="M+AC+LN L G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="121" tag="M+AC+LN">  Mokilese (Harrison 1976: 260)</item>
+    <item id="o2" line="122" tag="L">  (7)    Ngoah suh-oang John anjoau-o              ma        ngoah in-la     sidow-a.</item>
+    <item id="o3" line="123" tag="G">         I       meet-ALL John time-REM            REL I           go-DIR store-DEF</item>
+    <item id="o4" line="124" tag="T">         'I met John when I went to the store.'</item>
+    <item id="o5" line="125" tag="T+AL">         'I met John the time at which I went to the store.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="121" tag="M+AC+LN">Mokilese (Harrison 1976: 260)</item>
+    <item id="c2" line="122" tag="L">Ngoah suh-oang John anjoau-o              ma        ngoah in-la     sidow-a.</item>
+    <item id="c3" line="123" tag="G">I       meet-ALL John time-REM            REL I           go-DIR store-DEF</item>
+    <item id="c4" line="124" tag="T">I met John when I went to the store.</item>
+    <item id="c5" line="125" tag="T+AL">I met John the time at which I went to the store.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+    <item id="t1" content="c5[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8640">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1838" line-range="126-129" line-types="L G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="126" tag="L">  (8)    Ih dupukk-oang ngoahi mwoh-n              oai japahl-do       Mwoakilloa.</item>
+    <item id="o2" line="127" tag="G">         he pay-ALL         I       front-POSS my return-DIR           Mokil</item>
+    <item id="o3" line="128" tag="T">         'He paid me before I returned to Mokil.'</item>
+    <item id="o4" line="129" tag="T+AL">         "He paid me front of my returning to Mokil."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="126" tag="L">Ih dupukk-oang ngoahi mwoh-n              oai japahl-do       Mwoakilloa.</item>
+    <item id="c2" line="127" tag="G">he pay-ALL         I       front-POSS my return-DIR           Mokil</item>
+    <item id="c3" line="128" tag="T">He paid me before I returned to Mokil.</item>
+    <item id="c4" line="129" tag="T+AL">He paid me front of my returning to Mokil.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+    <item id="t1" content="c4[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i34507">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3721" line-range="115-116" line-types="L-T G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="115" tag="L-T">  (6)   Ngoah     kohkoa oaring-kai.       `I am grinding these coconuts.'</item>
+    <item id="o2" line="116" tag="G">        I grind   coconut-these</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="115" tag="L-T">Ngoah     kohkoa oaring-kai.       `I am grinding these coconuts.</item>
+    <item id="c2" line="116" tag="G">I grind   coconut-these</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]"/>
+  </tier>
+</igt>
+<igt id="i34508">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3721" line-range="117-118" line-types="L-T G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="117" tag="L-T">  (7)   Ngoah     ko oaring.               `I am coconut-grinding.'</item>
+    <item id="o2" line="118" tag="G">        I grind   coconut</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="117" tag="L-T">Ngoah     ko oaring.               `I am coconut-grinding.</item>
+    <item id="c2" line="118" tag="G">I grind   coconut</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]"/>
+  </tier>
+</igt>
+<igt id="i49451">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3430" line-range="615-618" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="615" tag="L+CR">                               kicouto lakapw.                      itanto çi</item>
+    <item id="o2" line="616" tag="L+CR">        (12) Cippo pirin                                    pirin                     mk</item>
+    <item id="o3" line="617" tag="G">             ship INTENT arrive tomorrow D:3S INTENT bring CL.P:1S thing</item>
+    <item id="o4" line="618" tag="T+AC">             `The ship will arrive tomorrow. It will bring my things.' (Harrison 1976:91)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="615 616" tag="L+CR">Cippo pirin       kicouto lakapw.              pirin   itanto çi        mk</item>
+    <item id="c3" line="617" tag="G">ship INTENT arrive tomorrow D:3S INTENT bring CL.P:1S thing</item>
+    <item id="c4" line="618" tag="T+AC">The ship will arrive tomorrow. It will bring my things.' (Harrison 1976:91)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:75]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49494">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3430" line-range="1102-1105" line-types="L+DB T+DB M+LN+DB G+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1102" tag="L+DB">                              riç-mw                             n-mw pincell=en</item>
+    <item id="o2" line="1103" tag="T+DB">                                              `your brother'                        `your pencils'</item>
+    <item id="o3" line="1104" tag="M+LN+DB">                Mokilese</item>
+    <item id="o4" line="1105" tag="G+DB">                              brother-P:2S                       CL-P:2S pencil=DEM</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1102" tag="L+DB">riç-mw                             n-mw pincell=en</item>
+    <item id="c2" line="1103" tag="T+DB">your brother'                        `your pencils</item>
+    <item id="c3" line="1104" tag="M+LN+DB">Mokilese</item>
+    <item id="c4" line="1105" tag="G+DB">brother-P:2S                       CL-P:2S pencil=DEM</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49525">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3430" line-range="1522-1527" line-types="L+LN+CR L+CR L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1522" tag="L+LN+CR">        (42) a. Mokile     se:</item>
+    <item id="o2" line="1523" tag="L+CR">                                              pnno [pwa</item>
+    <item id="o3" line="1524" tag="L+CR">                ç#                                                 ç-n</item>
+    <item id="o4" line="1525" tag="L+CR">                            kca n                                                  insi-ki]</item>
+    <item id="o5" line="1526" tag="G">                S:1S        take    P:3S      pen      COMP S:1S-UNACC             write with it</item>
+    <item id="o6" line="1527" tag="T+AC">                `I took    his pen so that I could write with it.' (Harrison 1976:263)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1522 1523" tag="L+LN+CR">Mokile     se:                pnno [pwa</item>
+    <item id="c5" line="1526" tag="G">S:1S        take    P:3S      pen      COMP S:1S-UNACC             write with it</item>
+    <item id="c6" line="1527" tag="T+AC">I took    his pen so that I could write with it.' (Harrison 1976:263)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:80]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:69]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49531">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3430" line-range="1604-1608" line-types="M+LN L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1604" tag="M+LN">             b. Mokilese:</item>
+    <item id="o2" line="1605" tag="L+CR">                                         [mweri-n</item>
+    <item id="o3" line="1606" tag="L+CR">                ç#         mçirla                           çi          lçkcit]</item>
+    <item id="o4" line="1607" tag="G">                S:1S       sleep          behind-CSTR       CL.P:1S     go fishing</item>
+    <item id="o5" line="1608" tag="T+AC">                `I fell asleep after I had gone fishing.' (Harrison 1976:260-261)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1604" tag="M+LN">Mokilese:</item>
+    <item id="c2" line="1605 1606" tag="L+CR">ç#         mçirla      [mweri-n             çi          lçkcit]</item>
+    <item id="c4" line="1607" tag="G">S:1S       sleep          behind-CSTR       CL.P:1S     go fishing</item>
+    <item id="c5" line="1608" tag="T+AC">I fell asleep after I had gone fishing.' (Harrison 1976:260-261)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49547">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3430" line-range="1967-1970" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1967" tag="L+CR">                                            kçwç pwa                           pwili</item>
+    <item id="o2" line="1968" tag="L+CR">      (61) a. ç#      inçu-ki-ç                              çh       pirin</item>
+    <item id="o3" line="1969" tag="G">              S:1S    agree-APPLIC-DIR D:2S          COMP S:1S        INTENT   come</item>
+    <item id="o4" line="1970" tag="T">              `I promise that I'll come.' (Harrison 1976:269)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1967 1968" tag="L+CR">ç#      inçu-ki-ç          kçwç pwa          çh       pirin  pwili</item>
+    <item id="c3" line="1969" tag="G">S:1S    agree-APPLIC-DIR D:2S          COMP S:1S        INTENT   come</item>
+    <item id="c4" line="1970" tag="T">I promise that I'll come.' (Harrison 1976:269)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49548">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3430" line-range="1971-1974" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1971" tag="L+CR">                                            pwa                                lakapw</item>
+    <item id="o2" line="1972" tag="L+CR">           b. Kisa inçu-k-di                         kis-n            upene</item>
+    <item id="o3" line="1973" tag="G">              D:1ID agree-APPLIC-DIR COMP D:1ID-UNACC                 meet     tomorrow</item>
+    <item id="o4" line="1974" tag="T">              `We agreed to meet tomorrow.' (Harrison 1976:268)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1971 1972" tag="L+CR">Kisa inçu-k-di               pwa       kis-n            upene   lakapw</item>
+    <item id="c3" line="1973" tag="G">D:1ID agree-APPLIC-DIR COMP D:1ID-UNACC                 meet     tomorrow</item>
+    <item id="c4" line="1974" tag="T">We agreed to meet tomorrow.' (Harrison 1976:268)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49549">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3430" line-range="1975-1978" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1975" tag="L+CR">           c. ç#                                   çi                       wçl-lo</item>
+    <item id="o2" line="1976" tag="L+CR">                      car-k-di                                pok-la</item>
+    <item id="o3" line="1977" tag="G">              D:1S    be ashamed-APPLIC-DIR CL.P:1S           beat up-DIR man-that</item>
+    <item id="o4" line="1978" tag="T+AC">              `I'm ashamed of beating up that man.' (Harrison 1976:272)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1975 1976" tag="L+CR">ç#     car-k-di                      çi       pok-la          wçl-lo</item>
+    <item id="c3" line="1977" tag="G">D:1S    be ashamed-APPLIC-DIR CL.P:1S           beat up-DIR man-that</item>
+    <item id="c4" line="1978" tag="T+AC">I'm ashamed of beating up that man.' (Harrison 1976:272)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:56]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i55501">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1306" line-range="283-286" line-types="M+AC+LN L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="283" tag="M+AC+LN">       (20)    Mokilese (Chung and Timberlake 1985:238)</item>
+    <item id="o2" line="284" tag="L">               a. Pahrangkije pe pwespwespwes</item>
+    <item id="o3" line="285" tag="G+CR">                  iron         still warm(P RO G)</item>
+    <item id="o4" line="286" tag="T">                  `This piece of iron is still warm.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="283" tag="M+AC+LN">Mokilese (Chung and Timberlake 1985:238</item>
+    <item id="c2" line="284" tag="L">Pahrangkije pe pwespwespwes</item>
+    <item id="c3" line="285" tag="G+CR">iron         still warm(P RO G)</item>
+    <item id="c4" line="286" tag="T">This piece of iron is still warm.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i55502">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1306" line-range="287-289" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="287" tag="L">               b. Ih lioas-ka</item>
+    <item id="o2" line="288" tag="G">                  he angry-P E R F</item>
+    <item id="o3" line="289" tag="T">                  `He got angry.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="287" tag="L">Ih lioas-ka</item>
+    <item id="c2" line="288" tag="G">he angry-P E R F</item>
+    <item id="c3" line="289" tag="T">He got angry.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58881">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3193" line-range="1653-1667" line-types="M+LN B L+CR L+CR B M B G+CR G+CR G+CR G+CR B T+DB+CR+LT B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1653" tag="M+LN">        (35)  a.    Mokilese (Central/Eastern Oceanic, Nuclear Micronesian)</item>
+    <item id="o2" line="1654" tag="B"></item>
+    <item id="o3" line="1655" tag="L+CR">                                      w·llo</item>
+    <item id="o4" line="1656" tag="L+CR">                    peren=in</item>
+    <item id="o5" line="1657" tag="B"></item>
+    <item id="o6" line="1658" tag="M">                                                     29</item>
+    <item id="o7" line="1659" tag="B"></item>
+    <item id="o8" line="1660" tag="G+CR">                     happ y=           mant hat</item>
+    <item id="o9" line="1661" tag="G+CR">                               CSTR</item>
+    <item id="o10" line="1662" tag="G+CR"></item>
+    <item id="o11" line="1663" tag="G+CR">                     D                 R</item>
+    <item id="o12" line="1664" tag="B"></item>
+    <item id="o13" line="1665" tag="T+DB+CR+LT">                     `Ho w hap p y that man is!' (more litterall y `The hap piness o f the man!')</item>
+    <item id="o14" line="1666" tag="B"></item>
+    <item id="o15" line="1667" tag="M+AC">                     (Ross 1998 :268 , cited form Harriso n 1976 : 148 )</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1653" tag="M+LN">a.    Mokilese (Central/Eastern Oceanic, Nuclear Micronesian</item>
+    <item id="c2" line="1654" tag="B"/>
+    <item id="c3" line="1655 1656" tag="L+CR">peren=in          w·llo</item>
+    <item id="c5" line="1657" tag="B"/>
+    <item id="c6" line="1658" tag="M">29</item>
+    <item id="c7" line="1659" tag="B"/>
+    <item id="c8" line="1660 1661 1662" tag="G+CR">happ y=   CSTR    mant hat</item>
+    <item id="c12" line="1664" tag="B"/>
+    <item id="c13" line="1665" tag="T+DB+CR+LT">Ho w hap p y that man is!' (more litterall y `The hap piness o f the man!')</item>
+    <item id="c14" line="1666" tag="B"/>
+    <item id="c15" line="1667" tag="M+AC">Ross 1998 :268 , cited form Harriso n 1976 : 148</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c8[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:75]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75143">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3696" line-range="743-746" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="743" tag="M+AC+LN">  Mokilese (Chung &amp; Timberlake 1985: 237)</item>
+    <item id="o2" line="744" tag="L">  (20) Ngoah kauj-ki                  ih           awahioaw</item>
+    <item id="o3" line="745" tag="G">         I        chase:IMPF-DUR           him     hour</item>
+    <item id="o4" line="746" tag="T">         `I chased him for an hour '</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="743" tag="M+AC+LN">Mokilese (Chung &amp; Timberlake 1985: 237)</item>
+    <item id="c2" line="744" tag="L">Ngoah kauj-ki                  ih           awahioaw</item>
+    <item id="c3" line="745" tag="G">I        chase:IMPF-DUR           him     hour</item>
+    <item id="c4" line="746" tag="T">I chased him for an hour</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75144">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3696" line-range="748-751" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="748" tag="L">  (21)   Ngoah    kauj-kih-di              ih      awahioaw</item>
+    <item id="o2" line="749" tag="G+CR">                  chase-DUR-PERF           him     hour</item>
+    <item id="o3" line="750" tag="G+CR">         I</item>
+    <item id="o4" line="751" tag="T">         `I chased him down in an hour '</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="748" tag="L">Ngoah    kauj-kih-di              ih      awahioaw</item>
+    <item id="c2" line="749 750" tag="G+CR">I        chase-DUR-PERF           him     hour</item>
+    <item id="c4" line="751" tag="T">I chased him down in an hour</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118167">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="5488-5490" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5488" tag="L">  (i)    joam-oai-o               ki-oang                ngoahi ekij mwani</item>
+    <item id="o2" line="5489" tag="G">         father-1SG:POSS-DET      give-to                me     some money</item>
+    <item id="o3" line="5490" tag="T">         `My father gave me some money.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5488" tag="L">joam-oai-o               ki-oang                ngoahi ekij mwani</item>
+    <item id="c2" line="5489" tag="G">father-1SG:POSS-DET      give-to                me     some money</item>
+    <item id="c3" line="5490" tag="T">My father gave me some money.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118168">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="5493-5497" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5493" tag="L">  (ii)  ngoah      rapah-ki            ih   pwa        ngoa-n ki-oang</item>
+    <item id="o2" line="5494" tag="G">        I          look.for-COMP him COMP I-MODAL                    give-to</item>
+    <item id="o3" line="5495" tag="L">        nah-Æ              mwani-he</item>
+    <item id="o4" line="5496" tag="G">        CL-3SG:POSS money-DET</item>
+    <item id="o5" line="5497" tag="T">        `I looked for him (in order) to give him the money.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5493" tag="L">ngoah      rapah-ki            ih   pwa        ngoa-n ki-oang</item>
+    <item id="c2" line="5494" tag="G">I          look.for-COMP him COMP I-MODAL                    give-to</item>
+    <item id="c3" line="5495" tag="L">nah-Æ              mwani-he</item>
+    <item id="c4" line="5496" tag="G">CL-3SG:POSS money-DET</item>
+    <item id="c5" line="5497" tag="T">I looked for him (in order) to give him the money.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+    <item id="p1" content="c3[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+    <item id="g1" content="c4[0:21]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:50]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i118169">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="5498-5500" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5498" tag="L">  (iii) ngoah              insingeh-di      kijinlikkoauoaw nih-mw</item>
+    <item id="o2" line="5499" tag="G">        I                  write-PFV        letter           CL-2SG:POSS</item>
+    <item id="o3" line="5500" tag="T">        `I wrote a letter to/for you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5498" tag="L">ngoah              insingeh-di      kijinlikkoauoaw nih-mw</item>
+    <item id="c2" line="5499" tag="G">I                  write-PFV        letter           CL-2SG:POSS</item>
+    <item id="c3" line="5500" tag="T">I wrote a letter to/for you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118170">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="5503-5505" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5503" tag="L">  (iv) in-oai                      li-ho          onopda      a-sai          mwinge-hu</item>
+    <item id="o2" line="5504" tag="G">        mother-1SG:POSS            woman-DET prepare          CL-1PL         food-DET</item>
+    <item id="o3" line="5505" tag="T">        `My mother prepared our food.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5503" tag="L">in-oai                      li-ho          onopda      a-sai          mwinge-hu</item>
+    <item id="c2" line="5504" tag="G">mother-1SG:POSS            woman-DET prepare          CL-1PL         food-DET</item>
+    <item id="c3" line="5505" tag="T">My mother prepared our food.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:77]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150340">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3452" line-range="678-681" line-types="M+AC+LN+CR L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="678" tag="M+AC+LN+CR">  (26)    Mokilese (Chung and Timb erlake 1985:238)</item>
+    <item id="o2" line="679" tag="L">          a. Pahrangkije p e pwespwespwes</item>
+    <item id="o3" line="680" tag="G">             iron         still warm(prog)</item>
+    <item id="o4" line="681" tag="T">             `This piece of iron is still warm.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="678" tag="M+AC+LN+CR">Mokilese (Chung and Timb erlake 1985:238</item>
+    <item id="c2" line="679" tag="L">Pahrangkije p e pwespwespwes</item>
+    <item id="c3" line="680" tag="G">iron         still warm(prog)</item>
+    <item id="c4" line="681" tag="T">This piece of iron is still warm.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150341">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3452" line-range="682-684" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="682" tag="L">          b. Ih lioas-ka</item>
+    <item id="o2" line="683" tag="G">             he angry-perf</item>
+    <item id="o3" line="684" tag="T">             `He got angry.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="682" tag="L">Ih lioas-ka</item>
+    <item id="c2" line="683" tag="G">he angry-perf</item>
+    <item id="c3" line="684" tag="T">He got angry.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i156791">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3306" line-range="61-62" line-types="L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="61" tag="L">  (7)        Inonangpase, daidel in inoangge injang in koaulpas nehn inoangge.</item>
+    <item id="o2" line="62" tag="T">             `This story, the title of this story comes from a song in this song'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="61" tag="L">Inonangpase, daidel in inoangge injang in koaulpas nehn inoangge.</item>
+    <item id="c2" line="62" tag="T">This story, the title of this story comes from a song in this song</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i156792">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3306" line-range="69-71" line-types="L+CR L+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="69" tag="L+CR">             Skuhl pirin sap mwerin wihkke lakapw.</item>
+    <item id="o2" line="70" tag="L+CR">  (8)</item>
+    <item id="o3" line="71" tag="T">             'School will begin the week after next'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="69 70" tag="L+CR">Skuhl pirin sap mwerin wihkke lakapw.</item>
+    <item id="c3" line="71" tag="T">School will begin the week after next</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i156793">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3306" line-range="74-76" line-types="L+CR L+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="74" tag="L+CR">             Joamoaio jeila loakjid rehnnoawe.</item>
+    <item id="o2" line="75" tag="L+CR">  (9)</item>
+    <item id="o3" line="76" tag="T">             `My father went fishing today'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="74 75" tag="L+CR">Joamoaio jeila loakjid rehnnoawe.</item>
+    <item id="c3" line="76" tag="T">My father went fishing today</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i156794">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mokilese" iso-639-3="mkj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3306" line-range="79-81" line-types="L+CR L+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="79" tag="L+CR">             Mine melmel wihkko aio.</item>
+    <item id="o2" line="80" tag="L+CR">  (10)</item>
+    <item id="o3" line="81" tag="T">             `There was a storm last week'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="79 80" tag="L+CR">Mine melmel wihkko aio.</item>
+    <item id="c3" line="81" tag="T">There was a storm last week</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

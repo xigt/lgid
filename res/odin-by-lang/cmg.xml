@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i8266">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical mongolian" iso-639-3="cmg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3209" line-range="163-166" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="163" tag="L+CR">  (10) manu nökör ire-kü-dür              bida bügüde mas&amp; bayas-ba.</item>
+    <item id="o2" line="164" tag="L+CR">                                                            ida</item>
+    <item id="o3" line="165" tag="G">        our friend come-VN.FUT-LOC we            all    very glad-PST</item>
+    <item id="o4" line="166" tag="T">        'When our friend came, all of us were very glad.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="163" tag="L+CR">manu nökör ire-kü-dür              bida bügüde mas&amp; bayas-ba.</item>
+    <item id="c3" line="165" tag="G">our friend come-VN.FUT-LOC we            all    very glad-PST</item>
+    <item id="c4" line="166" tag="T">When our friend came, all of us were very glad.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97441">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical mongolian" iso-639-3="cmg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="12708-12710" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12708" tag="L">  (120) a. tere              metü jalbarin ügülemüi bi.</item>
+    <item id="o2" line="12709" tag="G">                     this    like        prayer   say    I</item>
+    <item id="o3" line="12710" tag="T">                     `I am praying in that manner.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12708" tag="L">tere              metü jalbarin ügülemüi bi.</item>
+    <item id="c2" line="12709" tag="G">this    like        prayer   say    I</item>
+    <item id="c3" line="12710" tag="T">I am praying in that manner.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97442">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical mongolian" iso-639-3="cmg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="12711-12713" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12711" tag="L">            b. inegeldüküi-yi yekin tayalamu ci ?</item>
+    <item id="o2" line="12712" tag="G">                     laughter              why    like       you</item>
+    <item id="o3" line="12713" tag="T">                     `Why do you like laughter?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12711" tag="L">inegeldüküi-yi yekin tayalamu ci ?</item>
+    <item id="c2" line="12712" tag="G">laughter              why    like       you</item>
+    <item id="c3" line="12713" tag="T">Why do you like laughter?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97446">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical mongolian" iso-639-3="cmg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="12816-12819" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12816" tag="L+CR">                    qami-a-aca irebei?</item>
+    <item id="o2" line="12817" tag="L+CR">       (i) a. ci</item>
+    <item id="o3" line="12818" tag="G">               you where-from come-PAST</item>
+    <item id="o4" line="12819" tag="T">               `From where did you come?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12816 12817" tag="L+CR">ci    qami-a-aca irebei?</item>
+    <item id="c3" line="12818" tag="G">you where-from come-PAST</item>
+    <item id="c4" line="12819" tag="T">From where did you come?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97447">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical mongolian" iso-639-3="cmg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="12820-12823" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12820" tag="L+CR">                    yaun abumui?</item>
+    <item id="o2" line="12821" tag="L+CR">           b. ci</item>
+    <item id="o3" line="12822" tag="G">               you what    take</item>
+    <item id="o4" line="12823" tag="T">               `What will you take?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12820 12821" tag="L+CR">ci    yaun abumui?</item>
+    <item id="c3" line="12822" tag="G">you what    take</item>
+    <item id="c4" line="12823" tag="T">What will you take?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150696">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical mongolian" iso-639-3="cmg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2406" line-range="3898-3900" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3898" tag="L">  (120) a. tere              metü jalbarin ügülemüi bi.</item>
+    <item id="o2" line="3899" tag="G">                     this    like        prayer   say    I</item>
+    <item id="o3" line="3900" tag="T">                     `I am praying in that manner.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3898" tag="L">tere              metü jalbarin ügülemüi bi.</item>
+    <item id="c2" line="3899" tag="G">this    like        prayer   say    I</item>
+    <item id="c3" line="3900" tag="T">I am praying in that manner.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150697">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical mongolian" iso-639-3="cmg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2406" line-range="3901-3903" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3901" tag="L">            b. inegeldüküi-yi yekin tayalamu ci ?</item>
+    <item id="o2" line="3902" tag="G">                     laughter              why    like       you</item>
+    <item id="o3" line="3903" tag="T">                     `Why do you like laughter?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3901" tag="L">inegeldüküi-yi yekin tayalamu ci ?</item>
+    <item id="c2" line="3902" tag="G">laughter              why    like       you</item>
+    <item id="c3" line="3903" tag="T">Why do you like laughter?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

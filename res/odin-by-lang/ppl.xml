@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i48945">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pipil" iso-639-3="ppl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="4166-4169" line-types="M+AC+LN M L-G-T+CR L-G-T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4166" tag="M+AC+LN">  (67)   Pipil (Uto-Aztecan, Southern),   (Campbell 1985: 94-5)</item>
+    <item id="o2" line="4167" tag="M">         `see'</item>
+    <item id="o3" line="4168" tag="L-G-T+CR">                           1.SG.SUBJ-SG   .OBJ-see-PRE          `I see it'</item>
+    <item id="o4" line="4169" tag="L-G-T+CR">         ni-k-ida-Ø                                      S</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4166" tag="M+AC+LN">Pipil (Uto-Aztecan, Southern),   (Campbell 1985: 94-5</item>
+    <item id="c2" line="4167" tag="M">see</item>
+    <item id="c3" line="4168 4169" tag="L-G-T+CR">ni-k-ida-Ø       1.SG.SUBJ-SG   .OBJ-see-PRE    S     `I see it</item>
+  </tier>
+</igt>
+<igt id="i48946">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pipil" iso-639-3="ppl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="4170-4170" line-types="L-G-T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4170" tag="L-G-T+EX">         ni-k-ida-k        1.SG.SUBJ-SG   .OBJ-see-PST          `I saw it'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4170" tag="L-G-T+EX">ni-k-ida-k        1.SG.SUBJ-SG   .OBJ-see-PST          `I saw it</item>
+  </tier>
+</igt>
+<igt id="i48947">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pipil" iso-639-3="ppl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="4171-4172" line-types="L-G-T+CR L-G-T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4171" tag="L-G-T+CR">         ni-k-its-tuk      1.SG.SUBJ-SG   .OBJ-see-PER          `I have seen it'</item>
+    <item id="o2" line="4172" tag="L-G-T+CR">                                                         F</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4171 4172" tag="L-G-T+CR">ni-k-its-tuk      1.SG.SUBJ-SG   .OBJ-see-PER   F      `I have seen it</item>
+  </tier>
+</igt>
+<igt id="i58020">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pipil" iso-639-3="ppl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3184" line-range="1949-1956" line-types="M+AC+LN B L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1949" tag="M+AC+LN">  Pipil (Campbell 1985: 103, 104)</item>
+    <item id="o2" line="1950" tag="B"></item>
+    <item id="o3" line="1951" tag="L">  (30) ø- ki- miktih              ne    wa:kax ne         ta:ka- t.</item>
+    <item id="o4" line="1952" tag="B"></item>
+    <item id="o5" line="1953" tag="G+CR">        3.SG.SBJ- 3.SG.OBJ- kill DEF cow                  man</item>
+    <item id="o6" line="1954" tag="G+CR">                                                   DEF</item>
+    <item id="o7" line="1955" tag="B"></item>
+    <item id="o8" line="1956" tag="T">        'The man killed the cow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1949" tag="M+AC+LN">Pipil (Campbell 1985: 103, 104)</item>
+    <item id="c2" line="1950" tag="B"/>
+    <item id="c3" line="1951" tag="L">ø-ki-miktih              ne    wa:kax ne         ta:ka-t.</item>
+    <item id="c4" line="1952" tag="B"/>
+    <item id="c5" line="1953 1954" tag="G+CR">3.SG.SBJ-3.SG.OBJ-kill DEF cow           DEF    man</item>
+    <item id="c7" line="1955" tag="B"/>
+    <item id="c8" line="1956" tag="T">The man killed the cow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58021">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pipil" iso-639-3="ppl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3184" line-range="1958-1968" line-types="L B G+CR G+CR B L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1958" tag="L">  (31) Ne i- siwa:- w                   ø- ki- mihtih</item>
+    <item id="o2" line="1959" tag="B"></item>
+    <item id="o3" line="1960" tag="G+CR">               3.SG.POSS- wife- POSS    3.SG.SBJ- 3.SG.OBJ- kill</item>
+    <item id="o4" line="1961" tag="G+CR">        ART</item>
+    <item id="o5" line="1962" tag="B"></item>
+    <item id="o6" line="1963" tag="L">           ne chumpipi.</item>
+    <item id="o7" line="1964" tag="B"></item>
+    <item id="o8" line="1965" tag="G+CR">                  turkey</item>
+    <item id="o9" line="1966" tag="G+CR">           DEF</item>
+    <item id="o10" line="1967" tag="B"></item>
+    <item id="o11" line="1968" tag="T">        'His wife killed the turkey.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1958" tag="L">Ne i-siwa:-w                   ø-ki-mihtih</item>
+    <item id="c2" line="1959" tag="B"/>
+    <item id="c3" line="1960 1961" tag="G+CR">ART    3.SG.POSS-wife-POSS    3.SG.SBJ-3.SG.OBJ-kill</item>
+    <item id="c5" line="1962" tag="B"/>
+    <item id="c6" line="1963" tag="L">ne chumpipi.</item>
+    <item id="c7" line="1964" tag="B"/>
+    <item id="c8" line="1965 1966" tag="G+CR">DEF    turkey</item>
+    <item id="c10" line="1967" tag="B"/>
+    <item id="c11" line="1968" tag="T">His wife killed the turkey.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+    <item id="p1" content="c6[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:52]" alignment="p1"/>
+    <item id="g1" content="c8[0:13]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c11[0:27]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i63180">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pipil" iso-639-3="ppl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2559" line-range="420-425" line-types="M+LN L G+CR G+CR T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="420" tag="M+LN">  (4)         Pipil (Uto-Aztecan):</item>
+    <item id="o2" line="421" tag="L">              a.      yah    nu-     chiw -ki      arrepentir.</item>
+    <item id="o3" line="422" tag="G+CR">                             REFL- do        -PAST repent</item>
+    <item id="o4" line="423" tag="G+CR">                      3 SG</item>
+    <item id="o5" line="424" tag="T">                      `They regretted (it).'</item>
+    <item id="o6" line="425" tag="M+AC">                      (Campbell 1985: 144)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="420" tag="M+LN">Pipil (Uto-Aztecan):</item>
+    <item id="c2" line="421" tag="L">yah    nu-chiw-ki      arrepentir.</item>
+    <item id="c3" line="422 423" tag="G+CR">3 SG   REFL-do-PAST repent</item>
+    <item id="c5" line="424" tag="T">They regretted (it).</item>
+    <item id="c6" line="425" tag="M+AC">144</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

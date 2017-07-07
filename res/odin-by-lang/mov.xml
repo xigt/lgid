@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i80156">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mojave" iso-639-3="mov" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1655" line-range="763-766" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="763" tag="L+CR">                       0DU\</item>
+    <item id="o2" line="764" tag="L+CR">  (38)    -RKQþ                     L\XSþ</item>
+    <item id="o3" line="765" tag="G">          John-NOM Mary-ACC saw</item>
+    <item id="o4" line="766" tag="T+AC">          "John saw Mary."                                                        Munro 1977#3</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="763 764" tag="L+CR">-RKQþ       0DU\          L\XSþ</item>
+    <item id="c3" line="765" tag="G">John-NOM Mary-ACC saw</item>
+    <item id="c4" line="766" tag="T+AC">John saw Mary."                                                        Munro 1977#3</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:83]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80157">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mojave" iso-639-3="mov" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1655" line-range="771-774" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="771" tag="L+CR">          John- kwaLGHþ</item>
+    <item id="o2" line="772" tag="L+CR">  (39)</item>
+    <item id="o3" line="773" tag="G">          John-ACC doctor     -NOM</item>
+    <item id="o4" line="774" tag="T+AC">          "John is a doctor."                                                     Munro 1977#7</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="771 772" tag="L+CR">John-kwaLGHþ</item>
+    <item id="c3" line="773" tag="G">John-ACC doctor-NOM</item>
+    <item id="c4" line="774" tag="T+AC">John is a doctor."                                                     Munro 1977#7</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:83]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85111">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mojave" iso-639-3="mov" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="3570-3574" line-types="M+LN+CR L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3570" tag="M+LN+CR">  (3.1)    M   OJAVE</item>
+    <item id="o2" line="3571" tag="L+CR">           y</item>
+    <item id="o3" line="3572" tag="L+CR">          n -masde:k</item>
+    <item id="o4" line="3573" tag="G">          1A2/3A1 ­ afraid</item>
+    <item id="o5" line="3574" tag="T+AC">          `I'm afraid of you', `He's afraid of me'                        (Munro, 1976: 12)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3570" tag="M+LN+CR">M   OJAVE</item>
+    <item id="c2" line="3571 3572" tag="L+CR">ny-masde:k</item>
+    <item id="c4" line="3573" tag="G">1A2/3A1 ­ afraid</item>
+    <item id="c5" line="3574" tag="T+AC">I'm afraid of you', `He's afraid of me'                        (Munro, 1976: 12)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:80]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85112">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mojave" iso-639-3="mov" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="3596-3600" line-types="M+LN+CR B L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3596" tag="M+LN+CR">  (3.2)       M   OJAVE</item>
+    <item id="o2" line="3597" tag="B"></item>
+    <item id="o3" line="3598" tag="L">            !-aherk</item>
+    <item id="o4" line="3599" tag="G">            1-put in jail</item>
+    <item id="o5" line="3600" tag="T+AC">            `I put him in jail', `we put him in jail'                                     (Munro, 1976: 15)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3596" tag="M+LN+CR">M   OJAVE</item>
+    <item id="c2" line="3597" tag="B"/>
+    <item id="c3" line="3598" tag="L">!-aherk</item>
+    <item id="c4" line="3599" tag="G">1-put in jail</item>
+    <item id="c5" line="3600" tag="T+AC">I put him in jail', `we put him in jail'                                     (Munro, 1976: 15)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:94]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i99828">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mohave" iso-639-3="mov" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2463" line-range="710-718" line-types="L+CR L+CR L+CR G L+CR L+LN+CR G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="710" tag="L+CR">                                   -u:ta:v]-ny-</item>
+    <item id="o2" line="711" tag="L+CR">                    c                                    c</item>
+    <item id="o3" line="712" tag="L+CR">       (31) [Hat oq avi:-m</item>
+    <item id="o4" line="713" tag="G">            [dog      stone-INST SBJ.1-hit]-DEF-NOM</item>
+    <item id="o5" line="714" tag="L+CR">            ny i:ly-p .</item>
+    <item id="o6" line="715" tag="L+LN+CR">                          c                                    [Mohave]</item>
+    <item id="o7" line="716" tag="G">            black-REAL</item>
+    <item id="o8" line="717" tag="T">            `The stone with which I hit the dog was black.'</item>
+    <item id="o9" line="718" tag="T+AL">            (or `The dog which I hit with the stone, was black.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="710 711" tag="L+CR">c-u:ta:v]-ny-c</item>
+    <item id="c4" line="713" tag="G">[dog      stone-INST SBJ.1-hit]-DEF-NOM</item>
+    <item id="c5" line="714 715" tag="L+CR+LN">ny i:ly-p .   c                                    [Mohave]</item>
+    <item id="c7" line="716" tag="G">black-REAL</item>
+    <item id="c8" line="717" tag="T">The stone with which I hit the dog was black.</item>
+    <item id="c9" line="718" tag="T+AL">or `The dog which I hit with the stone, was black.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+    <item id="p1" content="c5[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:39]" alignment="p1"/>
+    <item id="g1" content="c7[0:10]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:45]" alignment="p2"/>
+    <item id="t1" content="c9[0:50]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i109989">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mohave" iso-639-3="mov" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3366" line-range="2040-2044" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2040" tag="L+CR">       ?inyep     ?-intay-ny                                                    ny- u:?e:-m        ?-s kwily-k-</item>
+    <item id="o2" line="2041" tag="L+CR">                                     ?i         su:paw mat- pe-</item>
+    <item id="o3" line="2042" tag="L+CR">                                          c                        c     c                c</item>
+    <item id="o4" line="2043" tag="G">       1SG.OBL    POSS1-mother-DEF something know          REFL-outstanding-NOM OBJ1-SBJ3-teach-DS SBJ1-sew-REAL-EMPH</item>
+    <item id="o5" line="2044" tag="T">       `My mother, who knows a lot, has taught me to sew.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2040 2041" tag="L+CR">?inyep     ?-intay-ny         ?i         su:paw mat-pe-ny-u:?e:-m        ?-s kwily-k-</item>
+    <item id="c4" line="2043" tag="G">1SG.OBL    POSS1-mother-DEF something know          REFL-outstanding-NOM OBJ1-SBJ3-teach-DS SBJ1-sew-REAL-EMPH</item>
+    <item id="c5" line="2044" tag="T">My mother, who knows a lot, has taught me to sew.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:110]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i134416">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mojave" iso-639-3="mov" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2378" line-range="1286-1289" line-types="M+AC+LN L G T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1286" tag="M+AC+LN">  (21) Mojave (Munro 1976:35)</item>
+    <item id="o2" line="1287" tag="L">       v-?-uwa:-k</item>
+    <item id="o3" line="1288" tag="G">       DEM-1-be.at-TNS</item>
+    <item id="o4" line="1289" tag="T+DB">       `I am around.' (or `Here I am.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1286" tag="M+AC+LN">Mojave (Munro 1976:35</item>
+    <item id="c2" line="1287" tag="L">v-?-uwa:-k</item>
+    <item id="c3" line="1288" tag="G">DEM-1-be.at-TNS</item>
+    <item id="c4" line="1289" tag="T+DB">I am around.' (or `Here I am.')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i143279">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mohave" iso-639-3="mov" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2353" line-range="2363-2367" line-types="L+CR L+CR G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2363" tag="L+CR">                                             /-u:ta:v]-ny-c&lt;        ny´/i:ly-pc&lt;.</item>
+    <item id="o2" line="2364" tag="L+CR">  (50)   [Hatc&lt;oq             /avi:-m</item>
+    <item id="o3" line="2365" tag="G">         [dog       stone-INST SBJ.1-hit]-DEF-NOM black-REAL</item>
+    <item id="o4" line="2366" tag="T">         `The stone with which I hit the dog was black.'  or</item>
+    <item id="o5" line="2367" tag="T+AL">         `The dog which I hit with the stone, was black.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2363 2364" tag="L+CR">[Hatc&lt;oq             /avi:-m        /-u:ta:v]-ny-c&lt;        ny´/i:ly-pc&lt;.</item>
+    <item id="c3" line="2365" tag="G">[dog       stone-INST SBJ.1-hit]-DEF-NOM black-REAL</item>
+    <item id="c4" line="2366" tag="T">The stone with which I hit the dog was black.'  or</item>
+    <item id="c5" line="2367" tag="T+AL">The dog which I hit with the stone, was black.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:50]" alignment="p1"/>
+    <item id="t1" content="c5[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i143352">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mohave" iso-639-3="mov" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2353" line-range="4182-4187" line-types="L+CR L+CR+SY L+CR G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4182" tag="L+CR">                                                /-u:ta:v]-ny-c&lt; ]         ny´/i:ly-pc&lt;.</item>
+    <item id="o2" line="4183" tag="L+CR+SY">                DP [CP   Hatc&lt;oq /avi:-m</item>
+    <item id="o3" line="4184" tag="L+CR">  (12)      [</item>
+    <item id="o4" line="4185" tag="G">            [ [ dog          stone-INST SBJ.1-hit]-DEF-NOM] black-               REAL</item>
+    <item id="o5" line="4186" tag="T">            `The stone with which I hit the dog was black.'</item>
+    <item id="o6" line="4187" tag="T+AL">            (or `The dog which I hit with the stone, was black.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4182 4183 4184" tag="L+CR+SY">[   DP [CP   Hatc&lt;oq /avi:-m        /-u:ta:v]-ny-c&lt; ]         ny´/i:ly-pc&lt;.</item>
+    <item id="c4" line="4185" tag="G">[ [ dog          stone-INST SBJ.1-hit]-DEF-NOM] black-REAL</item>
+    <item id="c5" line="4186" tag="T">The stone with which I hit the dog was black.</item>
+    <item id="c6" line="4187" tag="T+AL">or `The dog which I hit with the stone, was black.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:45]" alignment="p1"/>
+    <item id="t1" content="c6[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i45578">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swampy cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="352" line-range="746-748" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="746" tag="L">  (25)   a.        Mnopgod           wi:yas.</item>
+    <item id="o2" line="747" tag="G">                   it.tastes.good    meat</item>
+    <item id="o3" line="748" tag="T">                   `The meat tastes good.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="746" tag="L">Mnopgod           wi:yas.</item>
+    <item id="c2" line="747" tag="G">it.tastes.good    meat</item>
+    <item id="c3" line="748" tag="T">The meat tastes good.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45579">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swampy cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="352" line-range="750-752" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="750" tag="L">         b.        Wi:yas bi:jma:god.</item>
+    <item id="o2" line="751" tag="G">                   meat       it.smells</item>
+    <item id="o3" line="752" tag="T">                   `There is a smell of meat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="750" tag="L">Wi:yas bi:jma:god.</item>
+    <item id="c2" line="751" tag="G">meat       it.smells</item>
+    <item id="c3" line="752" tag="T">There is a smell of meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45580">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swampy cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="352" line-range="769-771" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="769" tag="L">  (27)             wi:n-ad-ini-w</item>
+    <item id="o2" line="770" tag="G">                   dirty-INAN-OBV-3</item>
+    <item id="o3" line="771" tag="T+AC">                   `It (obv) is dirty.'                                (Rhodes 1976:81)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="769" tag="L">wi:n-ad-ini-w</item>
+    <item id="c2" line="770" tag="G">dirty-INAN-OBV-3</item>
+    <item id="c3" line="771" tag="T+AC">It (obv) is dirty.'                                (Rhodes 1976:81)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:67]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73339">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="1076-1079" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1076" tag="L+CR">  (82) can o-cÌman</item>
+    <item id="o2" line="1077" tag="L+CR">             ·         ··</item>
+    <item id="o3" line="1078" tag="G">          John 3SG.POSS-canoe</item>
+    <item id="o4" line="1079" tag="T">          `John's canoe'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1076" tag="L+CR">can o-cÌman</item>
+    <item id="c3" line="1078" tag="G">John 3SG.POSS-canoe</item>
+    <item id="c4" line="1079" tag="T">John's canoe</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73340">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="1096-1098" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1096" tag="L">  (83) o-cÌman  ··</item>
+    <item id="o2" line="1097" tag="G">           3SG.POSS-canoe</item>
+    <item id="o3" line="1098" tag="T">           `his canoe'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1096" tag="L">o-cÌman  ··</item>
+    <item id="c2" line="1097" tag="G">3SG.POSS-canoe</item>
+    <item id="c3" line="1098" tag="T">his canoe</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80532">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swampy cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1685" line-range="770-772" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="770" tag="L">  (25)   a.        Mnopgod           wi:yas.</item>
+    <item id="o2" line="771" tag="G">                   it.tastes.good    meat</item>
+    <item id="o3" line="772" tag="T">                   `The meat tastes good.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="770" tag="L">Mnopgod           wi:yas.</item>
+    <item id="c2" line="771" tag="G">it.tastes.good    meat</item>
+    <item id="c3" line="772" tag="T">The meat tastes good.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80533">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swampy cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1685" line-range="774-776" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="774" tag="L">         b.        Wi:yas bi:jma:god.</item>
+    <item id="o2" line="775" tag="G">                   meat       it.smells</item>
+    <item id="o3" line="776" tag="T">                   `There is a smell of meat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="774" tag="L">Wi:yas bi:jma:god.</item>
+    <item id="c2" line="775" tag="G">meat       it.smells</item>
+    <item id="c3" line="776" tag="T">There is a smell of meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80534">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swampy cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1685" line-range="793-795" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="793" tag="L">  (27)   wi:n-ad-ini-w</item>
+    <item id="o2" line="794" tag="G">         dirty-INAN-OBV-3</item>
+    <item id="o3" line="795" tag="T+AC">         `It (obv) is dirty.'                                          (Rhodes 1976:81)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="793" tag="L">wi:n-ad-ini-w</item>
+    <item id="c2" line="794" tag="G">dirty-INAN-OBV-3</item>
+    <item id="c3" line="795" tag="T+AC">It (obv) is dirty.'                                          (Rhodes 1976:81)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:77]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i131971">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2650" line-range="392-395" line-types="M+LN+CN B M+CN L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="392" tag="M+LN+CN">  Agreement in Cree</item>
+    <item id="o2" line="393" tag="B"></item>
+    <item id="o3" line="394" tag="M+CN">  Section 1: Inflectional morphology                            16</item>
+    <item id="o4" line="395" tag="L-T">                      ninipan          "I sleep"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="392" tag="M+LN+CN">Agreement in Cree</item>
+    <item id="c2" line="393" tag="B"/>
+    <item id="c3" line="394" tag="M+CN">Inflectional morphology                            16</item>
+    <item id="c4" line="395" tag="L-T">ninipan          "I sleep</item>
+  </tier>
+</igt>
+<igt id="i131972">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2650" line-range="396-396" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="396" tag="L-T">                      kinipan          "you sleep"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="396" tag="L-T">kinipan          "you sleep</item>
+  </tier>
+</igt>
+<igt id="i131973">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2650" line-range="397-397" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="397" tag="L-T">                      nipaw            "she sleeps"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="397" tag="L-T">nipaw            "she sleeps</item>
+  </tier>
+</igt>
+<igt id="i131974">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2650" line-range="398-398" line-types="L-T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="398" tag="L-T+EX">                      ninipanan        "we sleep" (exclusive)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="398" tag="L-T+EX">ninipanan        "we sleep" (exclusive)</item>
+  </tier>
+</igt>
+<igt id="i131975">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2650" line-range="399-399" line-types="L-T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="399" tag="L-T+EX">                      kinipanan        "we sleep" (inclusive)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="399" tag="L-T+EX">kinipanan        "we sleep" (inclusive)</item>
+  </tier>
+</igt>
+<igt id="i131976">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2650" line-range="400-400" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="400" tag="L-T">                      kinipawaw        "you sleep"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="400" tag="L-T">kinipawaw        "you sleep</item>
+  </tier>
+</igt>
+<igt id="i131977">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2650" line-range="401-401" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="401" tag="L-T">                      nipawak          "they sleep"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="401" tag="L-T">nipawak          "they sleep</item>
+  </tier>
+</igt>
+<igt id="i138728">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swampy cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2135" line-range="1282-1282" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1282" tag="L-T">  (32)   a.    ki-waapam-iti-naawaaw          `I/we see you (pl).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1282" tag="L-T">ki-waapam-iti-naawaaw          `I/we see you (pl).</item>
+  </tier>
+</igt>
+<igt id="i138729">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swampy cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2135" line-range="1284-1284" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1284" tag="L-T">         b.    ki-waapam-i-naawaaw            `You (pl) see me/us (excl).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1284" tag="L-T">ki-waapam-i-naawaaw            `You (pl) see me/us (excl).</item>
+  </tier>
+</igt>
+<igt id="i138730">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swampy cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2135" line-range="1286-1286" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1286" tag="L-T">         c.    ki-waapam-i-naan               `You (sg) see us (excl).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1286" tag="L-T">ki-waapam-i-naan               `You (sg) see us (excl).</item>
+  </tier>
+</igt>
+<igt id="i138731">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swampy cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2135" line-range="1288-1288" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1288" tag="L-T">         d.    ki-waapam-iti-naan             `We (excl) see you (sg).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1288" tag="L-T">ki-waapam-iti-naan             `We (excl) see you (sg).</item>
+  </tier>
+</igt>
+<igt id="i138772">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swampy cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2135" line-range="1699-1699" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1699" tag="L-T">  (47)   a.     ki-waapam-iti-naawaaw        `I/we see you (pl).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1699" tag="L-T">ki-waapam-iti-naawaaw        `I/we see you (pl).</item>
+  </tier>
+</igt>
+<igt id="i138773">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swampy cree" iso-639-3="csw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2135" line-range="1701-1701" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1701" tag="L-T">         b.     ki-waapam-i-naawaaw          `You (pl) see me/us (excl).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1701" tag="L-T">ki-waapam-i-naawaaw          `You (pl) see me/us (excl).</item>
+  </tier>
+</igt>
+</xigt-corpus>

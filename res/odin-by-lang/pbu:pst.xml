@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i38109">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pst" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1184" line-range="2261-2264" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2261" tag="L+CR">                  Jn ra- z-</item>
+    <item id="o2" line="2262" tag="L+CR">  (30)    a.                         i.</item>
+    <item id="o3" line="2263" tag="G">                  John DIR- come- 3MSG</item>
+    <item id="o4" line="2264" tag="T">                  `John comes.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2261 2262" tag="L+CR">Jn ra-z-i.</item>
+    <item id="c3" line="2263" tag="G">John DIR-come-3MSG</item>
+    <item id="c4" line="2264" tag="T">John comes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38110">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pst" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1184" line-range="2265-2268" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2265" tag="L+CR">                  Z mana xwr- m.</item>
+    <item id="o2" line="2266" tag="L+CR">          b.</item>
+    <item id="o3" line="2267" tag="G">                  I apple eat- 1MSG</item>
+    <item id="o4" line="2268" tag="T">                  `I eat the apple.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2265 2266" tag="L+CR">Z mana xwr-m.</item>
+    <item id="c3" line="2267" tag="G">I apple eat-1MSG</item>
+    <item id="c4" line="2268" tag="T">I eat the apple.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38111">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pst" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1184" line-range="2269-2272" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2269" tag="L+CR">                  Jn ra- ·-</item>
+    <item id="o2" line="2270" tag="L+CR">  (31)    a.                         ay</item>
+    <item id="o3" line="2271" tag="G">                  John ASP- come- 3MSG</item>
+    <item id="o4" line="2272" tag="T">                  `John came.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2269 2270" tag="L+CR">Jn ra-·-ay</item>
+    <item id="c3" line="2271" tag="G">John ASP-come-3MSG</item>
+    <item id="c4" line="2272" tag="T">John came.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38112">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pst" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1184" line-range="2276-2279" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2276" tag="L+CR">                                    w-</item>
+    <item id="o2" line="2277" tag="L+CR">         b.          ma mana               xwar- a.</item>
+    <item id="o3" line="2278" tag="G">                     I apple(F) PERF- eat- 3FSG</item>
+    <item id="o4" line="2279" tag="T">                     `I ate the apple.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2276 2277" tag="L+CR">ma mana        w-xwar-a.</item>
+    <item id="c3" line="2278" tag="G">I apple(F) PERF-eat-3FSG</item>
+    <item id="c4" line="2279" tag="T">I ate the apple.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38113">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pst" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1184" line-range="2280-2282" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2280" tag="L">  (32)   a.          Ra- z-         i.</item>
+    <item id="o2" line="2281" tag="G">                     DIR- come- 3MSG</item>
+    <item id="o3" line="2282" tag="T">                     `He comes.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2280" tag="L">Ra-z-i.</item>
+    <item id="c2" line="2281" tag="G">DIR-come-3MSG</item>
+    <item id="c3" line="2282" tag="T">He comes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38114">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pst" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1184" line-range="2283-2286" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2283" tag="L+CR">                     Mana xwr- m.</item>
+    <item id="o2" line="2284" tag="L+CR">         b.</item>
+    <item id="o3" line="2285" tag="G">                     apple eat- 1MSG</item>
+    <item id="o4" line="2286" tag="T">                     `I eat an apple.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2283 2284" tag="L+CR">Mana xwr-m.</item>
+    <item id="c3" line="2285" tag="G">apple eat-1MSG</item>
+    <item id="c4" line="2286" tag="T">I eat an apple.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38115">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pst" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1184" line-range="2287-2290" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2287" tag="L+CR">                     Ra- ·-</item>
+    <item id="o2" line="2288" tag="L+CR">  (33)   a.                         ay.</item>
+    <item id="o3" line="2289" tag="G">                     ASP- come- 3MSG</item>
+    <item id="o4" line="2290" tag="T">                     `He came.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2287 2288" tag="L+CR">Ra-·-ay.</item>
+    <item id="c3" line="2289" tag="G">ASP-come-3MSG</item>
+    <item id="c4" line="2290" tag="T">He came.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38116">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pst" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1184" line-range="2291-2294" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2291" tag="L+CR">                     Ma w-</item>
+    <item id="o2" line="2292" tag="L+CR">         b.                       xwar- a.</item>
+    <item id="o3" line="2293" tag="G">                     I PERF- eat- 3FSG</item>
+    <item id="o4" line="2294" tag="T">                     `I ate it[fem. sg.].'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2291 2292" tag="L+CR">Ma w-xwar-a.</item>
+    <item id="c3" line="2293" tag="G">I PERF-eat-3FSG</item>
+    <item id="c4" line="2294" tag="T">I ate it[fem. sg.].</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38117">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pst" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1184" line-range="2295-2298" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2295" tag="L+CR">                    *Z xwr- m.</item>
+    <item id="o2" line="2296" tag="L+CR">  (34)   a.</item>
+    <item id="o3" line="2297" tag="G">                     I eat- 1MSG</item>
+    <item id="o4" line="2298" tag="T">                     `I eat it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2295 2296" tag="L+CR">*Z xwr-m.</item>
+    <item id="c3" line="2297" tag="G">I eat-1MSG</item>
+    <item id="c4" line="2298" tag="T">I eat it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38118">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu:pst" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1184" line-range="2299-2302" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2299" tag="L+CR">                                 w-</item>
+    <item id="o2" line="2300" tag="L+CR">         b.         *Mana               xwar- a.</item>
+    <item id="o3" line="2301" tag="G">                     apple(F) PERF- eat- 3FSG</item>
+    <item id="o4" line="2302" tag="T">                     `I(or whoever) ate the apple.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2299 2300" tag="L+CR">*Mana        w-xwar-a.</item>
+    <item id="c3" line="2301" tag="G">apple(F) PERF-eat-3FSG</item>
+    <item id="c4" line="2302" tag="T">I(or whoever) ate the apple.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

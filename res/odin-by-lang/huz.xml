@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i48685">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hunzib" iso-639-3="huz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="1576-1578" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1576" tag="L">  (117) a. iyu-l                   hårå b-oho-r</item>
+    <item id="o2" line="1577" tag="G">               mother-ACTOR cow NC4-feed-PRET</item>
+    <item id="o3" line="1578" tag="T">               `mother fed the cow'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1576" tag="L">iyu-l                   hårå b-oho-r</item>
+    <item id="c2" line="1577" tag="G">mother-ACTOR cow NC4-feed-PRET</item>
+    <item id="c3" line="1578" tag="T">mother fed the cow</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48686">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hunzib" iso-639-3="huz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="1579-1582" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1579" tag="L+CR">          b. oze ut-ur</item>
+    <item id="o2" line="1580" tag="L+CR">                  £</item>
+    <item id="o3" line="1581" tag="G">               boy sleep-PRET</item>
+    <item id="o4" line="1582" tag="T">               `the boy slept'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1579" tag="L+CR">oze ut-ur</item>
+    <item id="c3" line="1581" tag="G">boy sleep-PRET</item>
+    <item id="c4" line="1582" tag="T">the boy slept</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48687">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hunzib" iso-639-3="huz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="1583-1585" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1583" tag="L">          c. hårå-l            hee-r</item>
+    <item id="o2" line="1584" tag="G">               cow-ACTOR moo-PRET</item>
+    <item id="o3" line="1585" tag="T">               `the cow mooed'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1583" tag="L">hårå-l            hee-r</item>
+    <item id="c2" line="1584" tag="G">cow-ACTOR moo-PRET</item>
+    <item id="c3" line="1585" tag="T">the cow mooed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74260">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hunzib" iso-639-3="huz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1573-1575" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1573" tag="L">  (117) a. iyu-l                    hårå b-oho-r</item>
+    <item id="o2" line="1574" tag="G">               mother-ACTOR cow NC4-feed-PRET</item>
+    <item id="o3" line="1575" tag="T">               `mother fed the cow'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1573" tag="L">iyu-l                    hårå b-oho-r</item>
+    <item id="c2" line="1574" tag="G">mother-ACTOR cow NC4-feed-PRET</item>
+    <item id="c3" line="1575" tag="T">mother fed the cow</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74261">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hunzib" iso-639-3="huz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1576-1579" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1576" tag="L+CR">          b. oze ut-ur</item>
+    <item id="o2" line="1577" tag="L+CR">                  £</item>
+    <item id="o3" line="1578" tag="G">               boy sleep-PRET</item>
+    <item id="o4" line="1579" tag="T">               `the boy slept'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1576" tag="L+CR">oze ut-ur</item>
+    <item id="c3" line="1578" tag="G">boy sleep-PRET</item>
+    <item id="c4" line="1579" tag="T">the boy slept</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74262">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hunzib" iso-639-3="huz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1580-1582" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1580" tag="L">          c. hårå-l             hee-r</item>
+    <item id="o2" line="1581" tag="G">               cow-ACTOR moo-PRET</item>
+    <item id="o3" line="1582" tag="T">               `the cow mooed'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1580" tag="L">hårå-l             hee-r</item>
+    <item id="c2" line="1581" tag="G">cow-ACTOR moo-PRET</item>
+    <item id="c3" line="1582" tag="T">the cow mooed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85086">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hunzib" iso-639-3="huz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="2684-2689" line-types="M+LN+CR B L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2684" tag="M+LN+CR">  (2.12) H     UNZIB</item>
+    <item id="o2" line="2685" tag="B"></item>
+    <item id="o3" line="2686" tag="L+CR">               d                 h ¿yaa-c           cu</item>
+    <item id="o4" line="2687" tag="L+CR">          a.</item>
+    <item id="o5" line="2688" tag="G">               1,PRON            open-1/2,PRES      door</item>
+    <item id="o6" line="2689" tag="T">               `I (shall) open the door'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2684" tag="M+LN+CR">H     UNZIB</item>
+    <item id="c2" line="2685" tag="B"/>
+    <item id="c3" line="2686 2687" tag="L+CR">d                 h ¿yaa-c           cu</item>
+    <item id="c5" line="2688" tag="G">1,PRON            open-1/2,PRES      door</item>
+    <item id="c6" line="2689" tag="T">I (shall) open the door</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85087">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hunzib" iso-639-3="huz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="2690-2694" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2690" tag="L+CR">                                                    hehe</item>
+    <item id="o2" line="2691" tag="L+CR">               m</item>
+    <item id="o3" line="2692" tag="L+CR">          b.                     bok'o.l-co</item>
+    <item id="o4" line="2693" tag="G">               2,PRON            gather-1/2,PRES    walnut</item>
+    <item id="o5" line="2694" tag="T">               `You will gather nuts'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2690 2691 2692" tag="L+CR">m                 bok'o.l-co         hehe</item>
+    <item id="c4" line="2693" tag="G">2,PRON            gather-1/2,PRES    walnut</item>
+    <item id="c5" line="2694" tag="T">You will gather nuts</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85088">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hunzib" iso-639-3="huz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="2695-2699" line-types="L+CR L+CR G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2695" tag="L+CR">               ohul              h ¿yaa-            cu</item>
+    <item id="o2" line="2696" tag="L+CR">          c.</item>
+    <item id="o3" line="2697" tag="G+CR">                                 open-3,PRES        door</item>
+    <item id="o4" line="2698" tag="G+CR">               DEM</item>
+    <item id="o5" line="2699" tag="T+AC">               `He/she opens the door'                                   (van den Berg, 1995: 83)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2695 2696" tag="L+CR">ohul              h ¿yaa-cu</item>
+    <item id="c3" line="2697 2698" tag="G+CR">DEM               open-3,PRES        door</item>
+    <item id="c5" line="2699" tag="T+AC">He/she opens the door'                                   (van den Berg, 1995: 83)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:81]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i132263">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hunzib" iso-639-3="huz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2666" line-range="359-362" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="359" tag="L+CR">             D´          h",yaa-c&amp;           ´)cu.</item>
+    <item id="o2" line="360" tag="L+CR">  (8)   a.</item>
+    <item id="o3" line="361" tag="G">             1.PRON open-1/2.PRES            door</item>
+    <item id="o4" line="362" tag="T">             `I (shall) open the door.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="359 360" tag="L+CR">D´          h",yaa-c&amp;           ´)cu.</item>
+    <item id="c3" line="361" tag="G">1.PRON open-1/2.PRES            door</item>
+    <item id="c4" line="362" tag="T">I (shall) open the door.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i132264">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hunzib" iso-639-3="huz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2666" line-range="363-366" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="363" tag="L+CR">             M´          bok'o.l-c&amp;o</item>
+    <item id="o2" line="364" tag="L+CR">        b.                                   hee.</item>
+    <item id="o3" line="365" tag="G">             2.PRON gather-1/2.PRES          walnut</item>
+    <item id="o4" line="366" tag="T">             `You will gather nuts.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="363 364" tag="L+CR">M´          bok'o.l-c&amp;o        hee.</item>
+    <item id="c3" line="365" tag="G">2.PRON gather-1/2.PRES          walnut</item>
+    <item id="c4" line="366" tag="T">You will gather nuts.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i132265">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hunzib" iso-639-3="huz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2666" line-range="367-370" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="367" tag="L+CR">             Oul h",yaa-             ´)cu.</item>
+    <item id="o2" line="368" tag="L+CR">        c.</item>
+    <item id="o3" line="369" tag="G">             Dem open-3.PRES door</item>
+    <item id="o4" line="370" tag="T+AC">             `He/she opens the door.'                                  (Berg 1995:83)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="367 368" tag="L+CR">Oul h",yaa-´)cu.</item>
+    <item id="c3" line="369" tag="G">Dem open-3.PRES door</item>
+    <item id="c4" line="370" tag="T+AC">He/she opens the door.'                                  (Berg 1995:83)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:71]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

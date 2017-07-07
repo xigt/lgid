@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i57528">
+  <metadata type="xigt-meta">
+    <meta type="language" name="santali" iso-639-3="sat" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="451-453" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="451" tag="L">        a.     ba-ko       badae-a</item>
+    <item id="o2" line="452" tag="G">               NEG-3P know-IND</item>
+    <item id="o3" line="453" tag="T">               `they don't know'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="451" tag="L">ba-ko       badae-a</item>
+    <item id="c2" line="452" tag="G">NEG-3P know-IND</item>
+    <item id="c3" line="453" tag="T">they don't know</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57529">
+  <metadata type="xigt-meta">
+    <meta type="language" name="santali" iso-639-3="sat" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="454-457" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="454" tag="L+CR">               met-a-pe-kan-a-¯</item>
+    <item id="o2" line="455" tag="L+CR">        b.</item>
+    <item id="o3" line="456" tag="G">               say-APPL-2SO-IPFV-IND-1S</item>
+    <item id="o4" line="457" tag="T">               `I tell you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="454 455" tag="L+CR">met-a-pe-kan-a-¯</item>
+    <item id="c3" line="456" tag="G">say-APPL-2SO-IPFV-IND-1S</item>
+    <item id="c4" line="457" tag="T">I tell you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57530">
+  <metadata type="xigt-meta">
+    <meta type="language" name="santali" iso-639-3="sat" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="458-461" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="458" tag="L+CR">               masE        mit' ghÇri   dçhç-¯ç,g-e¯-pe!</item>
+    <item id="o2" line="459" tag="L+CR">        c.</item>
+    <item id="o3" line="460" tag="G">               PTCL        one   moment put down-litle-1SO-2P</item>
+    <item id="o4" line="461" tag="T">               `put me down for a moment'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="458 459" tag="L+CR">masE        mit' ghÇri   dçhç-¯ç,g-e¯-pe!</item>
+    <item id="c3" line="460" tag="G">PTCL        one   moment put down-litle-1SO-2P</item>
+    <item id="c4" line="461" tag="T">put me down for a moment</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i67529">
+  <metadata type="xigt-meta">
+    <meta type="language" name="santali" iso-639-3="sat" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1403" line-range="379-381" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="379" tag="L+LN">         b.     uni dal -oco -m -a -e                                                 Santali</item>
+    <item id="o2" line="380" tag="G">                he beat-caus-2sO- FIN-3sS</item>
+    <item id="o3" line="381" tag="T">                `he makes you beat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="379" tag="L+LN">uni dal-oco-m-a-e                                                 Santali</item>
+    <item id="c2" line="380" tag="G">he beat-caus-2sO-FIN-3sS</item>
+    <item id="c3" line="381" tag="T">he makes you beat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90251">
+  <metadata type="xigt-meta">
+    <meta type="language" name="santali" iso-639-3="sat" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2628" line-range="415-417" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="415" tag="L">       a.     ba-ko     badae-a</item>
+    <item id="o2" line="416" tag="G">              NEG-3P know-IND</item>
+    <item id="o3" line="417" tag="T">              `they don't know'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="415" tag="L">ba-ko     badae-a</item>
+    <item id="c2" line="416" tag="G">NEG-3P know-IND</item>
+    <item id="c3" line="417" tag="T">they don't know</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90252">
+  <metadata type="xigt-meta">
+    <meta type="language" name="santali" iso-639-3="sat" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2628" line-range="419-422" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="419" tag="L+CR">              met-a-pe-kan-a-</item>
+    <item id="o2" line="420" tag="L+CR">       b.</item>
+    <item id="o3" line="421" tag="G">              say-APPL-2SO-IPFV-IND-1S</item>
+    <item id="o4" line="422" tag="T">              `I tell you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="419 420" tag="L+CR">met-a-pe-kan-a-</item>
+    <item id="c3" line="421" tag="G">say-APPL-2SO-IPFV-IND-1S</item>
+    <item id="c4" line="422" tag="T">I tell you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90253">
+  <metadata type="xigt-meta">
+    <meta type="language" name="santali" iso-639-3="sat" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2628" line-range="424-427" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="424" tag="L+CR">              mas       mit' ghri      dh-g-e-pe!</item>
+    <item id="o2" line="425" tag="L+CR">       c.</item>
+    <item id="o3" line="426" tag="G">              PTCL      one   moment put down-litle-1SO-2P</item>
+    <item id="o4" line="427" tag="T">              `put me down for a moment'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="424 425" tag="L+CR">mas       mit' ghri      dh-g-e-pe!</item>
+    <item id="c3" line="426" tag="G">PTCL      one   moment put down-litle-1SO-2P</item>
+    <item id="c4" line="427" tag="T">put me down for a moment</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

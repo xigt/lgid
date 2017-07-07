@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i74281">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tukang besi" iso-639-3="bhq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1768-1770" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1768" tag="L">  (132) no-wande</item>
+    <item id="o2" line="1769" tag="G">          3,REALIS-rain</item>
+    <item id="o3" line="1770" tag="T">          `it is raining'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1768" tag="L">no-wande</item>
+    <item id="c2" line="1769" tag="G">3,REALIS-rain</item>
+    <item id="c3" line="1770" tag="T">it is raining</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74282">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tukang besi" iso-639-3="bhq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1772-1774" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1772" tag="L">  (133) *no-wande                na    wande/langi / lono / 'oloo</item>
+    <item id="o2" line="1773" tag="G">           3,REALIS-rain         NOM rain / sky / cloud / day</item>
+    <item id="o3" line="1774" tag="T">           `it's raining'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1772" tag="L">*no-wande                na    wande/langi / lono / 'oloo</item>
+    <item id="c2" line="1773" tag="G">3,REALIS-rain         NOM rain / sky / cloud / day</item>
+    <item id="c3" line="1774" tag="T">it's raining</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74283">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tukang besi" iso-639-3="bhq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1777-1779" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1777" tag="L">  (134) *no-wande                na     ia</item>
+    <item id="o2" line="1778" tag="G">           3, REALIS-rain        NOM it</item>
+    <item id="o3" line="1779" tag="T">           `it is raining'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1777" tag="L">*no-wande                na     ia</item>
+    <item id="c2" line="1778" tag="G">3, REALIS-rain        NOM it</item>
+    <item id="c3" line="1779" tag="T">it is raining</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74284">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tukang besi" iso-639-3="bhq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1782-1784" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1782" tag="L">  (135) no-tinti</item>
+    <item id="o2" line="1783" tag="G">          3,REALIS-run</item>
+    <item id="o3" line="1784" tag="T">          `she is running'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1782" tag="L">no-tinti</item>
+    <item id="c2" line="1783" tag="G">3,REALIS-run</item>
+    <item id="c3" line="1784" tag="T">she is running</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

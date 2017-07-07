@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i20182">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kilega" iso-639-3="lea:lgm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="252" line-range="333-336" line-types="M+AC+LN L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="333" tag="M+AC+LN">  (4) a . (Kilega) (from Collins 1997)</item>
+    <item id="o2" line="334" tag="L+CN">          Maku       ta-ma-ku-sol-ag-a        mutu      weneene                                     O-V-S</item>
+    <item id="o3" line="335" tag="G">          6beer      neg-6-prog-drink-hab-fv 1ps        alone</item>
+    <item id="o4" line="336" tag="T">          "A person does not usually drink beer alone."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="333" tag="M+AC+LN">a . (Kilega) (from Collins 1997</item>
+    <item id="c2" line="334" tag="L+CN">Maku       ta-ma-ku-sol-ag-a        mutu      weneene                                     O-V-S</item>
+    <item id="c3" line="335" tag="G">6beer      neg-6-prog-drink-hab-fv 1ps        alone</item>
+    <item id="c4" line="336" tag="T">A person does not usually drink beer alone.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:95]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49260">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lega" iso-639-3="lea:lgm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3426" line-range="163-167" line-types="L+CR L+CR G G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="163" tag="L+CR">                                                       mán maku</item>
+    <item id="o2" line="164" tag="L+CR">  (11)    a.     ámbo mû-nw-é                  ko</item>
+    <item id="o3" line="165" tag="G">                 INDIR 2PL-drink-SUBJ          16      6.this</item>
+    <item id="o4" line="166" tag="G">                 6.beer</item>
+    <item id="o5" line="167" tag="T">                 `[It seems that] you may drink this beer.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="163 164" tag="L+CR">ámbo mû-nw-é                  ko   mán maku</item>
+    <item id="c3" line="165" tag="G">INDIR 2PL-drink-SUBJ          16      6.this</item>
+    <item id="c4" line="166" tag="G">6.beer</item>
+    <item id="c5" line="167" tag="T">[It seems that] you may drink this beer.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:44]" alignment="p1"/>
+    <item id="g1" content="c4[0:6]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49261">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lega" iso-639-3="lea:lgm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3426" line-range="168-171" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="168" tag="L">         b.      ampó            kurúrá                mompong</item>
+    <item id="o2" line="169" tag="G+CR">                                 3SG.PRES.pound.FV 3.rice</item>
+    <item id="o3" line="170" tag="G+CR">                 DIRECT</item>
+    <item id="o4" line="171" tag="T">                 `She is assuredly pounding rice [I can hear it].'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="168" tag="L">ampó            kurúrá                mompong</item>
+    <item id="c2" line="169 170" tag="G+CR">DIRECT          3SG.PRES.pound.FV 3.rice</item>
+    <item id="c4" line="171" tag="T">She is assuredly pounding rice [I can hear it].</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i70999">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kilega" iso-639-3="lea:lgm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4083" line-range="2623-2626" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2623" tag="M+LN">   (2.90)    Kilega:</item>
+    <item id="o2" line="2624" tag="L">             a. Juma a-li-kuwa a-me-pika           chakula.</item>
+    <item id="o3" line="2625" tag="G">                 Juma 3Sg-PST-be 3Sg-PERF-cook 7.food</item>
+    <item id="o4" line="2626" tag="T">                 `Juma had cooked food.' (Carstens 2001)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2623" tag="M+LN">Kilega:</item>
+    <item id="c2" line="2624" tag="L">Juma a-li-kuwa a-me-pika           chakula.</item>
+    <item id="c3" line="2625" tag="G">Juma 3Sg-PST-be 3Sg-PERF-cook 7.food</item>
+    <item id="c4" line="2626" tag="T">Juma had cooked food.' (Carstens 2001)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71000">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kilega" iso-639-3="lea:lgm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4083" line-range="2627-2642" line-types="L+CR L+CR M G M M M M B B M B M B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2627" tag="L+CR">             b. Masunga ma-kil´</item>
+    <item id="o2" line="2628" tag="L+CR">                        ´´i           m-a-yik-u-a.</item>
+    <item id="o3" line="2629" tag="M">                                          ´      ´</item>
+    <item id="o4" line="2630" tag="G">                 6.yam 6.Sa.-be.still 6.Sa-A-cook-Pass-FV</item>
+    <item id="o5" line="2631" tag="M">    32</item>
+    <item id="o6" line="2632" tag="M">       Carstens (2000, 2001) also discusses "concord" phenomena within noun phrases in French and Bantu languages.</item>
+    <item id="o7" line="2633" tag="M">  Since discussing those phenomena requires a careful examination of the structure of DP and more importantly, the distri-</item>
+    <item id="o8" line="2634" tag="M">  bution of -features, I will not discuss them here. See Carstens (2001) for detailed discussions.</item>
+    <item id="o9" line="2635" tag="B"></item>
+    <item id="o10" line="2636" tag="B"></item>
+    <item id="o11" line="2637" tag="M">  **DRAFT**                                                                                              May 10, 2005</item>
+    <item id="o12" line="2638" tag="B"></item>
+    <item id="o13" line="2639" tag="M">  2.6. Multiple Probes: Optional Agreement and Person Case Constraints                                    69</item>
+    <item id="o14" line="2640" tag="B"></item>
+    <item id="o15" line="2641" tag="B"></item>
+    <item id="o16" line="2642" tag="T">                `The yams are         still being cooked.' (Carstens 2004)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2627" tag="L+CR">Masunga ma-kil´</item>
+    <item id="c3" line="2629" tag="M">´      ´</item>
+    <item id="c4" line="2630" tag="G">6.yam 6.Sa.-be.still 6.Sa-A-cook-Pass-FV</item>
+    <item id="c5" line="2631" tag="M">32</item>
+    <item id="c6" line="2632" tag="M">Carstens (2000, 2001) also discusses "concord" phenomena within noun phrases in French and Bantu languages.</item>
+    <item id="c7" line="2633" tag="M">Since discussing those phenomena requires a careful examination of the structure of DP and more importantly, the distri-</item>
+    <item id="c8" line="2634" tag="M">bution of-features, I will not discuss them here. See Carstens (2001) for detailed discussions.</item>
+    <item id="c9" line="2635" tag="B"/>
+    <item id="c10" line="2636" tag="B"/>
+    <item id="c11" line="2637" tag="M">**DRAFT**                                                                                              May 10, 2005</item>
+    <item id="c12" line="2638" tag="B"/>
+    <item id="c13" line="2639" tag="M">Optional Agreement and Person Case Constraints                                    69</item>
+    <item id="c14" line="2640" tag="B"/>
+    <item id="c15" line="2641" tag="B"/>
+    <item id="c16" line="2642" tag="T">The yams are         still being cooked.' (Carstens 2004)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c16[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71001">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kilega" iso-639-3="lea:lgm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4083" line-range="2643-2648" line-types="L+CR L+CR L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2643" tag="L+CR">             c. Ku-Lugushwa</item>
+    <item id="o2" line="2644" tag="L+CR">                     ´      ´         k´</item>
+    <item id="o3" line="2645" tag="L+CR">                                       i-kili        ku-a-twag-a</item>
+    <item id="o4" line="2646" tag="L+CR">                                                         ´                  nzogu        maswa.´</item>
+    <item id="o5" line="2647" tag="G">                17-Lugushwa           17.Sa-be.still 17.Sa-A-stampede-FV 10.elephant 6.farm</item>
+    <item id="o6" line="2648" tag="T+AC">                `At Lugushwa          are elephants still stampeding over (the) farms.' (Carstens 2004)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2643 2645" tag="L+CR">Ku-Lugushwa            i-kili        ku-a-twag-a</item>
+    <item id="c5" line="2647" tag="G">17-Lugushwa           17.Sa-be.still 17.Sa-A-stampede-FV 10.elephant 6.farm</item>
+    <item id="c6" line="2648" tag="T+AC">At Lugushwa          are elephants still stampeding over (the) farms.' (Carstens 2004)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:86]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i127493">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kilega" iso-639-3="lea:lgm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3492" line-range="97-102" line-types="L+CR L+CR B G T M+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="97" tag="L+CR">         c. mutu          ta-ku-sol-aga</item>
+    <item id="o2" line="98" tag="L+CR">                                                                 maku       weneene</item>
+    <item id="o3" line="99" tag="B"></item>
+    <item id="o4" line="100" tag="G">             1person NEG-1-Prog-drink-Hab-FV                          6beer      alone</item>
+    <item id="o5" line="101" tag="T">             `A person does not usually drink beer alone.'</item>
+    <item id="o6" line="102" tag="M+AC+LN">             (KiLega (Kinyalolo 1991:28))</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="97 98" tag="L+CR">mutu          ta-ku-sol-aga                          maku       weneene</item>
+    <item id="c3" line="99" tag="B"/>
+    <item id="c4" line="100" tag="G">1person NEG-1-Prog-drink-Hab-FV                          6beer      alone</item>
+    <item id="c5" line="101" tag="T">A person does not usually drink beer alone.</item>
+    <item id="c6" line="102" tag="M+AC+LN">KiLega (Kinyalolo 1991:28)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i127496">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kilega" iso-639-3="lea:lgm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3492" line-range="141-146" line-types="L+CR L+CR B G T M+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="141" tag="L+CR">         c. maku ta-ma-ku-sol-ag-a</item>
+    <item id="o2" line="142" tag="L+CR">                                                            mutu       weneene</item>
+    <item id="o3" line="143" tag="B"></item>
+    <item id="o4" line="144" tag="G">             6beer Neg-6-Prog-drink-Hab-FV 1person alone</item>
+    <item id="o5" line="145" tag="T">             `Beer is not usually drunk by a person alone.'</item>
+    <item id="o6" line="146" tag="M+AC+LN">             (KiLega (Kinyalolo 1991:28))</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="141 142" tag="L+CR">maku ta-ma-ku-sol-ag-a                          mutu       weneene</item>
+    <item id="c3" line="143" tag="B"/>
+    <item id="c4" line="144" tag="G">6beer Neg-6-Prog-drink-Hab-FV 1person alone</item>
+    <item id="c5" line="145" tag="T">Beer is not usually drunk by a person alone.</item>
+    <item id="c6" line="146" tag="M+AC+LN">KiLega (Kinyalolo 1991:28)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

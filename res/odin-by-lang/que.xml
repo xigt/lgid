@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i8570">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1810" line-range="18-21" line-types="L L T T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="18" tag="L">         (1)      a. Chawra mishi alpurhapita [horqorkur kutirkUchir] [horqorkur</item>
+    <item id="o2" line="19" tag="L">                     kutirkUchir] huk umallantashi chunka ishkayta yupaykun.</item>
+    <item id="o3" line="20" tag="T">                     `Then the cat, repeatedly removing the head from the saddlebag and</item>
+    <item id="o4" line="21" tag="T+AC">                     returning it, counts the one head twelve times.' (Weber 1989:323)1</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="18" tag="L">Chawra mishi alpurhapita [horqorkur kutirkUchir] [horqorkur</item>
+    <item id="c2" line="19" tag="L">kutirkUchir] huk umallantashi chunka ishkayta yupaykun.</item>
+    <item id="c3" line="20" tag="T">Then the cat, repeatedly removing the head from the saddlebag and</item>
+    <item id="c4" line="21" tag="T+AC">returning it, counts the one head twelve times.' (Weber 1989:323)1</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+    <item id="p1" content="c2[0:55]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:65]" alignment="p2"/>
+    <item id="t1" content="c4[0:66]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i17833">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1597" line-range="97-100" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="97" tag="M+LN">    (12)         Quechua</item>
+    <item id="o2" line="98" tag="L">                 Marya ranti-sqa-n papa-ta     muna-ni</item>
+    <item id="o3" line="99" tag="G">                 Marya buy-nmlz-3 potato-acc want-1</item>
+    <item id="o4" line="100" tag="T">                 `I want the potatoes that Marya bought.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="97" tag="M+LN">Quechua</item>
+    <item id="c2" line="98" tag="L">Marya ranti-sqa-n papa-ta     muna-ni</item>
+    <item id="c3" line="99" tag="G">Marya buy-nmlz-3 potato-acc want-1</item>
+    <item id="c4" line="100" tag="T">I want the potatoes that Marya bought.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i17841">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1597" line-range="188-191" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="188" tag="M+LN">        (20)       Quechua:</item>
+    <item id="o2" line="189" tag="L">                   taki-n tusu-n ima</item>
+    <item id="o3" line="190" tag="G">                   sing-3 dance-3 and</item>
+    <item id="o4" line="191" tag="T">                   `(S)he sings and ((s)he) dances</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="188" tag="M+LN">Quechua:</item>
+    <item id="c2" line="189" tag="L">taki-n tusu-n ima</item>
+    <item id="c3" line="190" tag="G">sing-3 dance-3 and</item>
+    <item id="c4" line="191" tag="T">he sings and ((s)he) dances</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i17842">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1597" line-range="203-205" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="203" tag="L">                    Sumie wa inu o nadete ------ neko o           tataita</item>
+    <item id="o2" line="204" tag="G">                    Sumie top dog acc pat     ------ cat acc      hit</item>
+    <item id="o3" line="205" tag="T">                    `Sumie patted the dog and hit the cat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="203" tag="L">Sumie wa inu o nadete------neko o           tataita</item>
+    <item id="c2" line="204" tag="G">Sumie top dog acc pat------cat acc      hit</item>
+    <item id="c3" line="205" tag="T">Sumie patted the dog and hit the cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i17843">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1597" line-range="207-209" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="207" tag="L">                    Sumie wa inu o nadete Taro wa ------           tataita</item>
+    <item id="o2" line="208" tag="G">                    `Sumie top dog acc pat     Taro top ------     hit</item>
+    <item id="o3" line="209" tag="T">                    `Sumie patted and Taro hit the dog.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="207" tag="L">Sumie wa inu o nadete Taro wa------tataita</item>
+    <item id="c2" line="208" tag="G">Sumie top dog acc pat     Taro top------hit</item>
+    <item id="c3" line="209" tag="T">Sumie patted and Taro hit the dog.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i17844">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1597" line-range="211-213" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="211" tag="L">                    Sumie wa inu o ------ Norio wa ki o mita</item>
+    <item id="o2" line="212" tag="G">                    Sumie top dog acc ------ Norio top tree acc saw</item>
+    <item id="o3" line="213" tag="T">                    `Sumie saw the dog and Norio the tree.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="211" tag="L">Sumie wa inu o------Norio wa ki o mita</item>
+    <item id="c2" line="212" tag="G">Sumie top dog acc------Norio top tree acc saw</item>
+    <item id="c3" line="213" tag="T">Sumie saw the dog and Norio the tree.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i26173">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3885" line-range="502-506" line-types="M+EX L+CR+SY L+CR+SY G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="502" tag="M+EX">  Wh-clausal pied piping and feature percolation</item>
+    <item id="o2" line="503" tag="L+CR+SY">  (44)   [ ima-tai   wawa ti miku-chun-ta]k Maria tk      muna-n     QUECHUA</item>
+    <item id="o3" line="504" tag="L+CR+SY">             CP</item>
+    <item id="o4" line="505" tag="G">           what-ACC child-NOM eat-TNS-Q         Maria-NOM want-TNS-3</item>
+    <item id="o5" line="506" tag="T+EX">         `What does Maria want that the child eat?'                (Hermon 1984)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="502" tag="M+EX">Wh-clausal pied piping and feature percolation</item>
+    <item id="c2" line="503" tag="L+CR+SY">[ ima-tai   wawa ti miku-chun-ta]k Maria tk      muna-n     QUECHUA</item>
+    <item id="c4" line="505" tag="G">what-ACC child-NOM eat-TNS-Q         Maria-NOM want-TNS-3</item>
+    <item id="c5" line="506" tag="T+EX">What does Maria want that the child eat?'                (Hermon 1984)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:70]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i44782">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4021" line-range="4558-4560" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4558" tag="L">  135.     ñuca rucu-man micuy-ta cara-rca-ni</item>
+    <item id="o2" line="4559" tag="G">           I     old-dat food-Acc serve-Past-1.Sg</item>
+    <item id="o3" line="4560" tag="T">           "I served food to the old man."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4558" tag="L">ñuca rucu-man micuy-ta cara-rca-ni</item>
+    <item id="c2" line="4559" tag="G">I     old-dat food-Acc serve-Past-1.Sg</item>
+    <item id="c3" line="4560" tag="T">I served food to the old man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i44783">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4021" line-range="4562-4564" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4562" tag="L">  136.     rucu-ca micuy-ta (ñuca) cara-shca ca-rca</item>
+    <item id="o2" line="4563" tag="G">           old-Top food-Acc I      serve-Pas be-Past</item>
+    <item id="o3" line="4564" tag="T">           "The old man was served food by me."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4562" tag="L">rucu-ca micuy-ta (ñuca) cara-shca ca-rca</item>
+    <item id="c2" line="4563" tag="G">old-Top food-Acc I      serve-Pas be-Past</item>
+    <item id="c3" line="4564" tag="T">The old man was served food by me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i44784">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4021" line-range="4582-4584" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4582" tag="L">  137.     can-gai wawa cuintu-ta villa-shca-chu ca-rca-ngui (cani) shamu-shpa</item>
+    <item id="o2" line="4583" tag="G">           you-Top child story-Acc tell-Pas-Q     be-Past-2.Sg you come-Cor</item>
+    <item id="o3" line="4584" tag="T">           "Were you told the story by the child when you came?"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4582" tag="L">can-gai wawa cuintu-ta villa-shca-chu ca-rca-ngui (cani) shamu-shpa</item>
+    <item id="c2" line="4583" tag="G">you-Top child story-Acc tell-Pas-Q     be-Past-2.Sg you come-Cor</item>
+    <item id="c3" line="4584" tag="T">Were you told the story by the child when you came?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65038">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="65-65" line-types="L-T+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="65" tag="L-T+LN">  (2) a. wa Ôu-nqa-paq- mi         'It will die (I assert)'                                   Quechua</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="65" tag="L-T+LN">wa Ôu-nqa-paq-mi         'It will die (I assert)'                                   Quechua</item>
+  </tier>
+</igt>
+<igt id="i65039">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="68-68" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="68" tag="L-T">     b. wa Ôu-nqa-paq- shi         'It will die (I was told)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="68" tag="L-T">wa Ôu-nqa-paq-shi         'It will die (I was told)</item>
+  </tier>
+</igt>
+<igt id="i65040">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="71-71" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="71" tag="L-T">     c. wa Ôu-nqa-paq- chi         'It will die (perhaps)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="71" tag="L-T">wa Ôu-nqa-paq-chi         'It will die (perhaps)</item>
+  </tier>
+</igt>
+<igt id="i67528">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1403" line-range="376-378" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="376" tag="L+LN">   (16) a.      kaci -ma -ra -ygi                                            Tarma Quechua</item>
+    <item id="o2" line="377" tag="G">                raise-1sO-PAST-2sS</item>
+    <item id="o3" line="378" tag="T">                `you raised me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="376" tag="L+LN">kaci-ma-ra-ygi                                            Tarma Quechua</item>
+    <item id="c2" line="377" tag="G">raise-1sO-PAST-2sS</item>
+    <item id="c3" line="378" tag="T">you raised me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75134">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3696" line-range="337-341" line-types="M+AC+LN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="337" tag="M+AC+LN">  Quechua (Schachter 1985: 17)</item>
+    <item id="o2" line="338" tag="L">  (11) Rikaska:                alkalde-ta</item>
+    <item id="o3" line="339" tag="G+CR">         see:PAST.1                   mayor-ACC</item>
+    <item id="o4" line="340" tag="G+CR">                      SG</item>
+    <item id="o5" line="341" tag="T">         `I saw the mayor '</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="337" tag="M+AC+LN">Quechua (Schachter 1985: 17)</item>
+    <item id="c2" line="338" tag="L">               alkalde-ta</item>
+    <item id="c3" line="339 340" tag="G+CR">see:PAST.1   SG              mayor-ACC</item>
+    <item id="c5" line="341" tag="T">I saw the mayor</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[15:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75135">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3696" line-range="343-346" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="343" tag="L">  (12)   chay         alkalde         runa</item>
+    <item id="o2" line="344" tag="G+CR">                      mayor           man</item>
+    <item id="o3" line="345" tag="G+CR">         DEM</item>
+    <item id="o4" line="346" tag="T">         `that man who is mayor '</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="343" tag="L">chay         alkalde         runa</item>
+    <item id="c2" line="344 345" tag="G+CR">DEM          mayor           man</item>
+    <item id="c4" line="346" tag="T">that man who is mayor</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75136">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3696" line-range="348-351" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="348" tag="L">  (13)   Rikaska:                     hatun-ta</item>
+    <item id="o2" line="349" tag="G+CR">         see:PAST.1                   big-</item>
+    <item id="o3" line="350" tag="G+CR">                      SG                     ACC</item>
+    <item id="o4" line="351" tag="T">         `I saw the big one'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="348" tag="L">                    hatun-ta</item>
+    <item id="c2" line="349 350" tag="G+CR">see:PAST.1   SG              big-ACC</item>
+    <item id="c4" line="351" tag="T">I saw the big one</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[20:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75137">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3696" line-range="353-356" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="353" tag="L">  (14)   chay         hatun           runa</item>
+    <item id="o2" line="354" tag="G+CR">                      big             man</item>
+    <item id="o3" line="355" tag="G+CR">         DEM</item>
+    <item id="o4" line="356" tag="T">         `that big man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="353" tag="L">chay         hatun           runa</item>
+    <item id="c2" line="354 355" tag="G+CR">DEM          big             man</item>
+    <item id="c4" line="356" tag="T">that big man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75645">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="2085-2088" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2085" tag="M+AC+LN">  (43) Quechuan (S. America; Muysken 1986:636)</item>
+    <item id="o2" line="2086" tag="L">       a. riku - na - chi - ku - n - ku</item>
+    <item id="o3" line="2087" tag="G">             see-RECIP-CAUS-REFL-3-PL</item>
+    <item id="o4" line="2088" tag="T">           `Theyi caused them to see each otheri.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2085" tag="M+AC+LN">Quechuan (S. America; Muysken 1986:636</item>
+    <item id="c2" line="2086" tag="L">riku-na-chi-ku-n-ku</item>
+    <item id="c3" line="2087" tag="G">see-RECIP-CAUS-REFL-3-PL</item>
+    <item id="c4" line="2088" tag="T">Theyi caused them to see each otheri.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75646">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="2089-2091" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2089" tag="L">        b. riku - chi - na - ku - n - ku</item>
+    <item id="o2" line="2090" tag="G">             see-CAUS-RECIP-REFL-3-PL</item>
+    <item id="o3" line="2091" tag="T">             `Theyi caused each otheri to see them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2089" tag="L">riku-chi-na-ku-n-ku</item>
+    <item id="c2" line="2090" tag="G">see-CAUS-RECIP-REFL-3-PL</item>
+    <item id="c3" line="2091" tag="T">Theyi caused each otheri to see them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75647">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="2092-2094" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2092" tag="L">        c.   riku - na - ku - chi - n - ku</item>
+    <item id="o2" line="2093" tag="G">             see-RECIP-REFL-CAUS-3-PL</item>
+    <item id="o3" line="2094" tag="T">             `They caused themi to see each otheri.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2092" tag="L">riku-na-ku-chi-n-ku</item>
+    <item id="c2" line="2093" tag="G">see-RECIP-REFL-CAUS-3-PL</item>
+    <item id="c3" line="2094" tag="T">They caused themi to see each otheri.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78215">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="2065-2068" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2065" tag="M+AC+LN">  (13)       Quechua (Cole 1982: 86)</item>
+    <item id="o2" line="2066" tag="L">         a. Pi-pash   shamu-nga.</item>
+    <item id="o3" line="2067" tag="G">             who-even come-3FU T</item>
+    <item id="o4" line="2068" tag="T">            `Someone will come.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2065" tag="M+AC+LN">Quechua (Cole 1982: 86</item>
+    <item id="c2" line="2066" tag="L">Pi-pash   shamu-nga.</item>
+    <item id="c3" line="2067" tag="G">who-even come-3FU T</item>
+    <item id="c4" line="2068" tag="T">Someone will come.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78216">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="2070-2072" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2070" tag="L">         b.    Mana pi-pash     shamu-nga-chu.</item>
+    <item id="o2" line="2071" tag="G">               NEG who-even come-3FU T -NEG</item>
+    <item id="o3" line="2072" tag="T">              `No one will come.' (p. 86)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2070" tag="L">Mana pi-pash     shamu-nga-chu.</item>
+    <item id="c2" line="2071" tag="G">NEG who-even come-3FU T-NEG</item>
+    <item id="c3" line="2072" tag="T">No one will come.' (p. 86)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78270">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="3422-3425" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3422" tag="M+AC+LN">  (13) Quechua (Cole 1982: 83)</item>
+    <item id="o2" line="3423" tag="L">        Ñuka wawki mana jatun wasi-ta          char i-n-chu.</item>
+    <item id="o3" line="3424" tag="G">        my brother NEG big house-ACC have-3-NONF</item>
+    <item id="o4" line="3425" tag="T">       `My brother does not have a big house.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3422" tag="M+AC+LN">Quechua (Cole 1982: 83</item>
+    <item id="c2" line="3423" tag="L">Ñuka wawki mana jatun wasi-ta          char i-n-chu.</item>
+    <item id="c3" line="3424" tag="G">my brother NEG big house-ACC have-3-NONF</item>
+    <item id="c4" line="3425" tag="T">My brother does not have a big house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78271">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="3433-3436" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3433" tag="M+AC+LN">  (14) Quechua (Cole 1982: 83)</item>
+    <item id="o2" line="3434" tag="L">        Kan-paj wawki jatun wasi-ta          char i-n-chu?</item>
+    <item id="o3" line="3435" tag="G">        you-POSS brother big house-ACC have-3-NONF</item>
+    <item id="o4" line="3436" tag="T">       `Does your brother have a big house?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3433" tag="M+AC+LN">Quechua (Cole 1982: 83</item>
+    <item id="c2" line="3434" tag="L">Kan-paj wawki jatun wasi-ta          char i-n-chu?</item>
+    <item id="c3" line="3435" tag="G">you-POSS brother big house-ACC have-3-NONF</item>
+    <item id="c4" line="3436" tag="T">Does your brother have a big house?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91700">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="2065-2068" line-types="M+AC+LN L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2065" tag="M+AC+LN">  (13)       Quechua (Cole 1982: 86)</item>
+    <item id="o2" line="2066" tag="L">         a. Pi-pash   shamu-nga.</item>
+    <item id="o3" line="2067" tag="G+CR">             who-even come-3FU T</item>
+    <item id="o4" line="2068" tag="T">            `Someone will come.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2065" tag="M+AC+LN">Quechua (Cole 1982: 86</item>
+    <item id="c2" line="2066" tag="L">Pi-pash   shamu-nga.</item>
+    <item id="c3" line="2067" tag="G+CR">who-even come-3FU T</item>
+    <item id="c4" line="2068" tag="T">Someone will come.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91701">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="2070-2072" line-types="L G+CR T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2070" tag="L">         b.    Mana pi-pash     shamu-nga-chu.</item>
+    <item id="o2" line="2071" tag="G+CR">               NEG who-even come-3FU T -NEG</item>
+    <item id="o3" line="2072" tag="T+EX">              `No one will come.' (p. 86)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2070" tag="L">Mana pi-pash     shamu-nga-chu.</item>
+    <item id="c2" line="2071" tag="G+CR">NEG who-even come-3FU T-NEG</item>
+    <item id="c3" line="2072" tag="T+EX">No one will come.' (p. 86)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91755">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="3422-3425" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3422" tag="M+AC+LN">  (13) Quechua (Cole 1982: 83)</item>
+    <item id="o2" line="3423" tag="L">        Ñuka wawki mana jatun wasi-ta          char i-n-chu.</item>
+    <item id="o3" line="3424" tag="G">        my brother NEG big house-ACC have-3-NONF</item>
+    <item id="o4" line="3425" tag="T">       `My brother does not have a big house.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3422" tag="M+AC+LN">Quechua (Cole 1982: 83</item>
+    <item id="c2" line="3423" tag="L">Ñuka wawki mana jatun wasi-ta          char i-n-chu.</item>
+    <item id="c3" line="3424" tag="G">my brother NEG big house-ACC have-3-NONF</item>
+    <item id="c4" line="3425" tag="T">My brother does not have a big house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91756">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="3433-3436" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3433" tag="M+AC+LN">  (14) Quechua (Cole 1982: 83)</item>
+    <item id="o2" line="3434" tag="L">        Kan-paj wawki jatun wasi-ta          char i-n-chu?</item>
+    <item id="o3" line="3435" tag="G">        you-POSS brother big house-ACC have-3-NONF</item>
+    <item id="o4" line="3436" tag="T">       `Does your brother have a big house?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3433" tag="M+AC+LN">Quechua (Cole 1982: 83</item>
+    <item id="c2" line="3434" tag="L">Kan-paj wawki jatun wasi-ta          char i-n-chu?</item>
+    <item id="c3" line="3435" tag="G">you-POSS brother big house-ACC have-3-NONF</item>
+    <item id="c4" line="3436" tag="T">Does your brother have a big house?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91757">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="3449-3451" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3449" tag="L">  (15) Juzi mana jatun wasi-ta         char i-j-ta          kr i-ni.</item>
+    <item id="o2" line="3450" tag="G">       José NEG big house-ACC have-NOMLZR -ACC believe-1</item>
+    <item id="o3" line="3451" tag="T+EX">      `I believe that José does not have a big house.' (84)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3449" tag="L">Juzi mana jatun wasi-ta         char i-j-ta          kr i-ni.</item>
+    <item id="c2" line="3450" tag="G">José NEG big house-ACC have-NOMLZR-ACC believe-1</item>
+    <item id="c3" line="3451" tag="T+EX">I believe that José does not have a big house.' (84)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91758">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="3460-3462" line-types="L G+CR T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3460" tag="L">  (16) a.     Juzi mana chay llama-ta         randi-rka-chu.</item>
+    <item id="o2" line="3461" tag="G+CR">              José NEG that sheep-ACC buy-3PA S T -NEG</item>
+    <item id="o3" line="3462" tag="T+EX">             `José did not buy that sheep.' (85)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3460" tag="L">Juzi mana chay llama-ta         randi-rka-chu.</item>
+    <item id="c2" line="3461" tag="G+CR">José NEG that sheep-ACC buy-3PA S T-NEG</item>
+    <item id="c3" line="3462" tag="T+EX">José did not buy that sheep.' (85)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91759">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="3464-3466" line-types="L G+CR T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3464" tag="L">        b.    Mana Juzi-chu chay llama-ta randi-rka.</item>
+    <item id="o2" line="3465" tag="G+CR">              NEG José         NEG that      sheep-ACC buy-PA S T</item>
+    <item id="o3" line="3466" tag="T+EX">             `It was not José who bought that sheep.' (85)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3464" tag="L">Mana Juzi-chu chay llama-ta randi-rka.</item>
+    <item id="c2" line="3465" tag="G+CR">NEG José         NEG that      sheep-ACC buy-PA S T</item>
+    <item id="c3" line="3466" tag="T+EX">It was not José who bought that sheep.' (85)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91760">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="3474-3477" line-types="M+AC+LN L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3474" tag="M+AC+LN">  (17) Quechua (Cole 1982: 86)</item>
+    <item id="o2" line="3475" tag="L">       Mana pi-pash     shamu-nga-chu.</item>
+    <item id="o3" line="3476" tag="G+CR">       NEG who-even come-3FU T -NEG</item>
+    <item id="o4" line="3477" tag="T">      `No one will come.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3474" tag="M+AC+LN">Quechua (Cole 1982: 86</item>
+    <item id="c2" line="3475" tag="L">Mana pi-pash     shamu-nga-chu.</item>
+    <item id="c3" line="3476" tag="G+CR">NEG who-even come-3FU T-NEG</item>
+    <item id="c4" line="3477" tag="T">No one will come.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91761">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="3482-3484" line-types="L G+CR T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3482" tag="L">  (18) a.    Wakin runa-kuna mana shamu-rka-chu.</item>
+    <item id="o2" line="3483" tag="G+CR">             some man-PL       NEG come-3PA S T -NEG</item>
+    <item id="o3" line="3484" tag="T+EX">            `Some of the men did not come.' (85)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3482" tag="L">Wakin runa-kuna mana shamu-rka-chu.</item>
+    <item id="c2" line="3483" tag="G+CR">some man-PL       NEG come-3PA S T-NEG</item>
+    <item id="c3" line="3484" tag="T+EX">Some of the men did not come.' (85)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91762">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="3486-3488" line-types="L G+CR T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3486" tag="L">       b.    Mana wakin runa-kuna shamu-rka-chu.</item>
+    <item id="o2" line="3487" tag="G+CR">             NEG some man-PL          come-3PA S T -NEG</item>
+    <item id="o3" line="3488" tag="T+EX">            `None of the men came.' (85)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3486" tag="L">Mana wakin runa-kuna shamu-rka-chu.</item>
+    <item id="c2" line="3487" tag="G+CR">NEG some man-PL          come-3PA S T-NEG</item>
+    <item id="c3" line="3488" tag="T+EX">None of the men came.' (85)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118617">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3661" line-range="142-146" line-types="M+LN M+AC L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="142" tag="M+LN">  ·   Quechua is a nominative-accusative language as shown by the data below (from</item>
+    <item id="o2" line="143" tag="M+AC">      Payne 1997:134):</item>
+    <item id="o3" line="144" tag="L">  (17) (a) Juan-O            aywan</item>
+    <item id="o4" line="145" tag="G">            Juan-NOM         goes</item>
+    <item id="o5" line="146" tag="T">            "Juan goes."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="142" tag="M+LN">·   Quechua is a nominative-accusative language as shown by the data below (from</item>
+    <item id="c2" line="143" tag="M+AC">Payne 1997:134):</item>
+    <item id="c3" line="144" tag="L">(a) Juan-O            aywan</item>
+    <item id="c4" line="145" tag="G">Juan-NOM         goes</item>
+    <item id="c5" line="146" tag="T">Juan goes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118618">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3661" line-range="147-149" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="147" tag="L">        (b) Juan-O           Pedro-ta  maqan</item>
+    <item id="o2" line="148" tag="G">            Juan-NOM         Pedro-ACC hits</item>
+    <item id="o3" line="149" tag="T">            "Juan hits Pedro."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="147" tag="L">Juan-O           Pedro-ta  maqan</item>
+    <item id="c2" line="148" tag="G">Juan-NOM         Pedro-ACC hits</item>
+    <item id="c3" line="149" tag="T">Juan hits Pedro.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118619">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3661" line-range="150-153" line-types="M+LN+EX L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="150" tag="M+LN+EX">   · Quechua also manifests a nominative-accusative system in person marking on verbs:</item>
+    <item id="o2" line="151" tag="L">  (18) (a) Away-n</item>
+    <item id="o3" line="152" tag="G">            go-3sg</item>
+    <item id="o4" line="153" tag="T">            "He goes."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="150" tag="M+LN+EX">· Quechua also manifests a nominative-accusative system in person marking on verbs:</item>
+    <item id="c2" line="151" tag="L">(a) Away-n</item>
+    <item id="c3" line="152" tag="G">go-3sg</item>
+    <item id="c4" line="153" tag="T">He goes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:6]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118620">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3661" line-range="154-156" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="154" tag="L">        (b) Aywa-a</item>
+    <item id="o2" line="155" tag="G">            go-1sg</item>
+    <item id="o3" line="156" tag="T">            "I go."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="154" tag="L">Aywa-a</item>
+    <item id="c2" line="155" tag="G">go-1sg</item>
+    <item id="c3" line="156" tag="T">I go.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:6]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:5]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118621">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="que" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3661" line-range="157-159" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="157" tag="L">        (c) Maqa-ma-n</item>
+    <item id="o2" line="158" tag="G">            hit-1sg-3sg</item>
+    <item id="o3" line="159" tag="T">            "He hit me."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="157" tag="L">Maqa-ma-n</item>
+    <item id="c2" line="158" tag="G">hit-1sg-3sg</item>
+    <item id="c3" line="159" tag="T">He hit me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

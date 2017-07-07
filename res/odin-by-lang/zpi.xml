@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i89522">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="96-98" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="96" tag="L">  (1)     *Pa      go     r-laa    de lo txu?</item>
+    <item id="o2" line="97" tag="G">           what    thing hab-do 2 to who</item>
+    <item id="o3" line="98" tag="T">           (What   are you doing to who?)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="96" tag="L">*Pa      go     r-laa    de lo txu?</item>
+    <item id="c2" line="97" tag="G">what    thing hab-do 2 to who</item>
+    <item id="c3" line="98" tag="T">What   are you doing to who?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89523">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="99-101" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="99" tag="L">  (2)     *Pa      go     txu lo r-laa     de?</item>
+    <item id="o2" line="100" tag="G">           what    thing who to hab-do 2</item>
+    <item id="o3" line="101" tag="T">           (What   to whom are you doing?)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="99" tag="L">*Pa      go     txu lo r-laa     de?</item>
+    <item id="c2" line="100" tag="G">what    thing who to hab-do 2</item>
+    <item id="c3" line="101" tag="T">What   to whom are you doing?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89524">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="112-114" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="112" tag="L">  (3)      Rut      wii-t           Maryo.</item>
+    <item id="o2" line="113" tag="G">           nobody com:see-neg       Mario</item>
+    <item id="o3" line="114" tag="T">           `Mario saw nobody.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="112" tag="L">Rut      wii-t           Maryo.</item>
+    <item id="c2" line="113" tag="G">nobody com:see-neg       Mario</item>
+    <item id="c3" line="114" tag="T">Mario saw nobody.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89525">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="115-117" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="115" tag="L">  (4)     *Wii-t          Maryo    rut.</item>
+    <item id="o2" line="116" tag="G">           com:see-neg Mario       nobody</item>
+    <item id="o3" line="117" tag="T">           (Mario saw nobody.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="115" tag="L">*Wii-t          Maryo    rut.</item>
+    <item id="c2" line="116" tag="G">com:see-neg Mario       nobody</item>
+    <item id="c3" line="117" tag="T">Mario saw nobody.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89526">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="122-124" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="122" tag="L">  (5)      Rut       bet     wii-t.</item>
+    <item id="o2" line="123" tag="G">           nobody    nothing com:see-neg</item>
+    <item id="o3" line="124" tag="T">           `Nobody   saw anything.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="122" tag="L">Rut       bet     wii-t.</item>
+    <item id="c2" line="123" tag="G">nobody    nothing com:see-neg</item>
+    <item id="c3" line="124" tag="T">Nobody   saw anything.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89527">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="125-127" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="125" tag="L">  (6)     *Rut       wii-t         bet.</item>
+    <item id="o2" line="126" tag="G">           nobody    com:see-neg nothing</item>
+    <item id="o3" line="127" tag="T">           (Nobody   saw anything.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="125" tag="L">*Rut       wii-t         bet.</item>
+    <item id="c2" line="126" tag="G">nobody    com:see-neg nothing</item>
+    <item id="c3" line="127" tag="T">Nobody   saw anything.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89530">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="161-169" line-types="M+SY M+SY L+CR L+CR M L+SY L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="161" tag="M+SY">                                                    Quant  DP1</item>
+    <item id="o2" line="162" tag="M+SY">                                   DP1</item>
+    <item id="o3" line="163" tag="L+CR">                      mëëk te ngyed win [y-rup            (ngyed)</item>
+    <item id="o4" line="164" tag="L+CR">  (9)      W-nëëz</item>
+    <item id="o5" line="165" tag="M">           com-catch dog one chicken small pot-two (chicken)</item>
+    <item id="o6" line="166" tag="L+SY">           DP2</item>
+    <item id="o7" line="167" tag="L+SY">           konej].</item>
+    <item id="o8" line="168" tag="G">           rabbit</item>
+    <item id="o9" line="169" tag="T">           `The dog caught a small chicken and a rabbit.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="161" tag="M+SY">Quant  DP1</item>
+    <item id="c2" line="162" tag="M+SY">DP1</item>
+    <item id="c3" line="163 164" tag="L+CR">W-nëëz   mëëk te ngyed win [y-rup            (ngyed</item>
+    <item id="c5" line="165" tag="M">com-catch dog one chicken small pot-two (chicken)</item>
+    <item id="c6" line="166" tag="L+SY">DP2</item>
+    <item id="c7" line="167" tag="L+SY">konej].</item>
+    <item id="c8" line="168" tag="G">rabbit</item>
+    <item id="c9" line="169" tag="T">The dog caught a small chicken and a rabbit.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:51]"/>
+    <item id="p1" content="c6[0:3]"/>
+    <item id="p2" content="c7[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c8[0:6]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:44]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i89531">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="171-174" line-types="M+SY L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="171" tag="M+SY">                      DP1         Quant        DP1 DP2</item>
+    <item id="o2" line="172" tag="L">  (10)     R-oo       men        [y-rup        men Biki]      nisgaal.</item>
+    <item id="o3" line="173" tag="G">           hab-drink 3            pot-two      3     Virginia soda</item>
+    <item id="o4" line="174" tag="T">           `She and Virgina      drink soda    pop.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="171" tag="M+SY">DP1         Quant        DP1 DP2</item>
+    <item id="c2" line="172" tag="L">R-oo       men        [y-rup        men Biki]      nisgaal.</item>
+    <item id="c3" line="173" tag="G">hab-drink 3            pot-two      3     Virginia soda</item>
+    <item id="c4" line="174" tag="T">She and Virgina      drink soda    pop.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89532">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="196-201" line-types="M+CR+SY M+CR+SY L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="196" tag="M+CR+SY">                              Quant Ø DP2</item>
+    <item id="o2" line="197" tag="M+CR+SY">                     DP1</item>
+    <item id="o3" line="198" tag="L+CR">                     men     [y-rup        Biki]    nisgaal.</item>
+    <item id="o4" line="199" tag="L+CR">  (11)   *R-oo</item>
+    <item id="o5" line="200" tag="G">          hab-drink 3         pot-two      Virginia soda</item>
+    <item id="o6" line="201" tag="T">          (She and Virgina   drink soda pop.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="196 197" tag="M+CR+SY">DP1      Quant Ø DP2</item>
+    <item id="c3" line="198 199" tag="L+CR">*R-oo       men     [y-rup        Biki]    nisgaal.</item>
+    <item id="c5" line="200" tag="G">hab-drink 3         pot-two      Virginia soda</item>
+    <item id="c6" line="201" tag="T">She and Virgina   drink soda pop.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89533">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="204-209" line-types="M+CR+SY M+CR+SY L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="204" tag="M+CR+SY">                                            Quant DP1     DP2</item>
+    <item id="o2" line="205" tag="M+CR+SY">                       DP1</item>
+    <item id="o3" line="206" tag="L+CR">           W-tsoow Rafayel te mezh [y-rup         Rafayel Lawer].</item>
+    <item id="o4" line="207" tag="L+CR">  (12)</item>
+    <item id="o5" line="208" tag="G">           com-make Rafael one table pot-two Rafael Larry</item>
+    <item id="o6" line="209" tag="T">           `Rafael and Larry made a table.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="204 205" tag="M+CR+SY">DP1                  Quant DP1     DP2</item>
+    <item id="c3" line="206 207" tag="L+CR">W-tsoow Rafayel te mezh [y-rup         Rafayel Lawer].</item>
+    <item id="c5" line="208" tag="G">com-make Rafael one table pot-two Rafael Larry</item>
+    <item id="c6" line="209" tag="T">Rafael and Larry made a table.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89534">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="223-225" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="223" tag="L">  (13)     R-laan     Jose s-ya       (Jose) den</item>
+    <item id="o2" line="224" tag="G">           hab-want Jose pot-go (Jose) ranch</item>
+    <item id="o3" line="225" tag="T">           `Jose wants (Jose) to go to the ranch.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="223" tag="L">R-laan     Jose s-ya       (Jose) den</item>
+    <item id="c2" line="224" tag="G">hab-want Jose pot-go (Jose) ranch</item>
+    <item id="c3" line="225" tag="T">Jose wants (Jose) to go to the ranch.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89535">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="258-260" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="258" tag="L">  (14)         R-laan     men s-ya       men den</item>
+    <item id="o2" line="259" tag="G">               hab-want 3       pot-go 3      ranch</item>
+    <item id="o3" line="260" tag="T">               `He wants to go to the ranch.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="258" tag="L">R-laan     men s-ya       men den</item>
+    <item id="c2" line="259" tag="G">hab-want 3       pot-go 3      ranch</item>
+    <item id="c3" line="260" tag="T">He wants to go to the ranch.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89536">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="261-263" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="261" tag="L+EX">  (15)     *R-laan    men s-ya        den                         (constructed example)</item>
+    <item id="o2" line="262" tag="G">            hab-want 3       pot-go ranch</item>
+    <item id="o3" line="263" tag="T">            (He wants to go to the ranch.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="261" tag="L+EX">*R-laan    men s-ya        den                         (constructed example</item>
+    <item id="c2" line="262" tag="G">hab-want 3       pot-go ranch</item>
+    <item id="c3" line="263" tag="T">He wants to go to the ranch.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89538">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="293-295" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="293" tag="L">  (17)     Pe w-u         maa      nii de?</item>
+    <item id="o2" line="294" tag="G">           q com-eat 3anim foot 2</item>
+    <item id="o3" line="295" tag="T+AC">           `Did it (the snake) eat your foot?' p. 122</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="293" tag="L">Pe w-u         maa      nii de?</item>
+    <item id="c2" line="294" tag="G">q com-eat 3anim foot 2</item>
+    <item id="c3" line="295" tag="T+AC">Did it (the snake) eat your foot?' p. 122</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89539">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="301-303" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="301" tag="L">  (18)     Pe dxiin zhe r-laa     de na-ree?</item>
+    <item id="o2" line="302" tag="G">           q work wh hab-do 2 which-this</item>
+    <item id="o3" line="303" tag="T+AC">           `What work are you doing with this?' p. 124</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="301" tag="L">Pe dxiin zhe r-laa     de na-ree?</item>
+    <item id="c2" line="302" tag="G">q work wh hab-do 2 which-this</item>
+    <item id="c3" line="303" tag="T+AC">What work are you doing with this?' p. 124</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89540">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="642" line-range="388-390" line-types="L G T+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="388" tag="L">  (19)     x-pëëk win nzeb</item>
+    <item id="o2" line="389" tag="G">           p-dog small girl</item>
+    <item id="o3" line="390" tag="T+LT">           `her (lit. the girl's) small dog'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="388" tag="L">x-pëëk win nzeb</item>
+    <item id="c2" line="389" tag="G">p-dog small girl</item>
+    <item id="c3" line="390" tag="T+LT">her (lit. the girl's) small dog</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90093">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2644" line-range="300-302" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="300" tag="L">                c.   Le Manuel w-ruu dxe ne w-et x-maa men.</item>
+    <item id="o2" line="301" tag="G">                     ART Manuel C-leave day that C-die POSS-animal his</item>
+    <item id="o3" line="302" tag="T+AC+LN">                     `Manuel left the day that his animal died.' (Zapotec; Black, 1994, p. 83)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="300" tag="L">Le Manuel w-ruu dxe ne w-et x-maa men.</item>
+    <item id="c2" line="301" tag="G">ART Manuel C-leave day that C-die POSS-animal his</item>
+    <item id="c3" line="302" tag="T+AC+LN">Manuel left the day that his animal died.' (Zapotec; Black, 1994, p. 83)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:72]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155101">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="1031-1034" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1031" tag="L+CR">                        W-eey Benit mël.</item>
+    <item id="o2" line="1032" tag="L+CR">         (71)</item>
+    <item id="o3" line="1033" tag="G">                        C-take Benito fish</item>
+    <item id="o4" line="1034" tag="T">                        `Benito took a fish.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1031 1032" tag="L+CR">W-eey Benit mël.</item>
+    <item id="c3" line="1033" tag="G">C-take Benito fish</item>
+    <item id="c4" line="1034" tag="T">Benito took a fish.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155102">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="1049-1052" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1049" tag="L+CR">                       W-nii men disa          lo noo.</item>
+    <item id="o2" line="1050" tag="L+CR">         (72)</item>
+    <item id="o3" line="1051" tag="G">                       C-speak 3RD language face 1EX</item>
+    <item id="o4" line="1052" tag="T">                       `She spoke Zapotec to me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1049 1050" tag="L+CR">W-nii men disa          lo noo.</item>
+    <item id="c3" line="1051" tag="G">C-speak 3RD language face 1EX</item>
+    <item id="c4" line="1052" tag="T">She spoke Zapotec to me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155103">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="1053-1056" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1053" tag="L+CR">                       xnaa    noo</item>
+    <item id="o2" line="1054" tag="L+CR">         (73)</item>
+    <item id="o3" line="1055" tag="G">                       mother 1EX</item>
+    <item id="o4" line="1056" tag="T">                       `my mother'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1053 1054" tag="L+CR">xnaa    noo</item>
+    <item id="c3" line="1055" tag="G">mother 1EX</item>
+    <item id="c4" line="1056" tag="T">my mother</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155106">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="2999-3002" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2999" tag="L+CR">                       W-eey Benit mël.</item>
+    <item id="o2" line="3000" tag="L+CR">         (157)</item>
+    <item id="o3" line="3001" tag="G">                       C-take    Benito fish</item>
+    <item id="o4" line="3002" tag="T">                       `Benito took a fish.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2999 3000" tag="L+CR">W-eey Benit mël.</item>
+    <item id="c3" line="3001" tag="G">C-take    Benito fish</item>
+    <item id="c4" line="3002" tag="T">Benito took a fish.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155107">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="3003-3006" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3003" tag="L+CR">                       W-nii men disa          lo noo.</item>
+    <item id="o2" line="3004" tag="L+CR">         (158)</item>
+    <item id="o3" line="3005" tag="G">                       c-speak 3RD language face 1EX</item>
+    <item id="o4" line="3006" tag="T">                       `She spoke Zapotec to me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3003 3004" tag="L+CR">W-nii men disa          lo noo.</item>
+    <item id="c3" line="3005" tag="G">c-speak 3RD language face 1EX</item>
+    <item id="c4" line="3006" tag="T">She spoke Zapotec to me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155108">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="3007-3010" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3007" tag="L+CR">                       xnaa noo</item>
+    <item id="o2" line="3008" tag="L+CR">         (159)</item>
+    <item id="o3" line="3009" tag="G">                       mother 1EX</item>
+    <item id="o4" line="3010" tag="T">                       `my mother'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3007 3008" tag="L+CR">xnaa noo</item>
+    <item id="c3" line="3009" tag="G">mother 1EX</item>
+    <item id="c4" line="3010" tag="T">my mother</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155111">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="3349-3352" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3349" tag="L+CR">                    y-ra maa gin</item>
+    <item id="o2" line="3350" tag="L+CR">      (169)</item>
+    <item id="o3" line="3351" tag="G">                    P-all    3A    this</item>
+    <item id="o4" line="3352" tag="T">                    `all those animals'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3349 3350" tag="L+CR">y-ra maa gin</item>
+    <item id="c3" line="3351" tag="G">P-all    3A    this</item>
+    <item id="c4" line="3352" tag="T">all those animals</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155112">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="3357-3361" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3357" tag="L+CR">                                      [x-mig    [men]]</item>
+    <item id="o2" line="3358" tag="L+CR">                         x-yuu</item>
+    <item id="o3" line="3359" tag="L+CR">      (170) a.</item>
+    <item id="o4" line="3360" tag="G">                         POS-house POS-friend 3RD</item>
+    <item id="o5" line="3361" tag="T">                         `their friend's house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3357 3358 3359" tag="L+CR">x-yuu        [x-mig    [men]]</item>
+    <item id="c4" line="3360" tag="G">POS-house POS-friend 3RD</item>
+    <item id="c5" line="3361" tag="T">their friend's house</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155113">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="3376-3378" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3376" tag="L">                      b. x-pëëk     ngas noo</item>
+    <item id="o2" line="3377" tag="G">                         POS-dog black 1EX</item>
+    <item id="o3" line="3378" tag="T">                         `my black dog'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3376" tag="L">x-pëëk     ngas noo</item>
+    <item id="c2" line="3377" tag="G">POS-dog black 1EX</item>
+    <item id="c3" line="3378" tag="T">my black dog</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155114">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="3381-3384" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3381" tag="L+CR">                      y-ra x-kayet           Biki</item>
+    <item id="o2" line="3382" tag="L+CR">       (171)</item>
+    <item id="o3" line="3383" tag="G">                      P-all   POS-cracker Virginia</item>
+    <item id="o4" line="3384" tag="T">                      `all Virginia's crackers'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3381 3382" tag="L+CR">y-ra x-kayet           Biki</item>
+    <item id="c3" line="3383" tag="G">P-all   POS-cracker Virginia</item>
+    <item id="c4" line="3384" tag="T">all Virginia's crackers</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155115">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="3387-3390" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3387" tag="L+CR">                      a. ndal ngyed gol [w-u mëëz]</item>
+    <item id="o2" line="3388" tag="L+CR">       (172)</item>
+    <item id="o3" line="3389" tag="G">                         lots     chicken old        C-eat fox</item>
+    <item id="o4" line="3390" tag="T">                         `lots of old chickens that the fox ate'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3387 3388" tag="L+CR">ndal ngyed gol [w-u mëëz]</item>
+    <item id="c3" line="3389" tag="G">lots     chicken old        C-eat fox</item>
+    <item id="c4" line="3390" tag="T">lots of old chickens that the fox ate</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155116">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quiegolani zapotec" iso-639-3="zpi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="3391-3397" line-types="L+CR L+CR G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3391" tag="L+CR">                                            noo [ne r-laan te men</item>
+    <item id="o2" line="3392" tag="L+CR">                      b. te x-mig</item>
+    <item id="o3" line="3393" tag="G">                         one POS-friend 1EX        that H-want one 3RD</item>
+    <item id="o4" line="3394" tag="T">                         `a friend of mine that wants a person</item>
+    <item id="o5" line="3395" tag="L">                                [ne r-nii       disa]]</item>
+    <item id="o6" line="3396" tag="G">                                 that H-speak language</item>
+    <item id="o7" line="3397" tag="T">                                 that speaks the language'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3391 3392" tag="L+CR">te x-mig           noo [ne r-laan te men</item>
+    <item id="c3" line="3393" tag="G">one POS-friend 1EX        that H-want one 3RD</item>
+    <item id="c4" line="3394" tag="T">a friend of mine that wants a person</item>
+    <item id="c5" line="3395" tag="L">[ne r-nii       disa]]</item>
+    <item id="c6" line="3396" tag="G">that H-speak language</item>
+    <item id="c7" line="3397" tag="T">that speaks the language</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+    <item id="p1" content="c5[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:45]" alignment="p1"/>
+    <item id="g1" content="c6[0:21]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+    <item id="t1" content="c7[0:24]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

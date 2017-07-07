@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i20662">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hua" iso-639-3="ygr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="498" line-range="1373-1375" line-types="L G+LN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1373" tag="L">  (46) a. hu+gu+e</item>
+    <item id="o2" line="1374" tag="G+LN">  HUA do.1.SG+PRED+NEUT      RAL.DES</item>
+    <item id="o3" line="1375" tag="T">          `I will do'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1373" tag="L">hu+gu+e</item>
+    <item id="c2" line="1374" tag="G+LN">HUA do.1.SG+PRED+NEUT      RAL.DES</item>
+    <item id="c3" line="1375" tag="T">I will do</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i20663">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hua" iso-639-3="ygr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="498" line-range="1381-1383" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1381" tag="L">        b. hi+su+e</item>
+    <item id="o2" line="1382" tag="G">           do.1.SG+SUBJ+NEUTRAL.DES</item>
+    <item id="o3" line="1383" tag="T+AC">           `may I do, let me do' Haiman 1980: 141)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1381" tag="L">hi+su+e</item>
+    <item id="c2" line="1382" tag="G">do.1.SG+SUBJ+NEUTRAL.DES</item>
+    <item id="c3" line="1383" tag="T+AC">may I do, let me do' Haiman 1980: 141)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42809">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hua" iso-639-3="ygr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3507" line-range="582-585" line-types="M+LN B L+AC G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="582" tag="M+LN">  Hua (Gorokan: New Guinea)</item>
+    <item id="o2" line="583" tag="B"></item>
+    <item id="o3" line="584" tag="L+AC">  (47)            soko-hu                                                                               [Haiman (1980:117)]</item>
+    <item id="o4" line="585" tag="G+CR">                  go o dness-do</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="582" tag="M+LN">Hua (Gorokan: New Guinea)</item>
+    <item id="c2" line="583" tag="B"/>
+    <item id="c3" line="584" tag="L+AC">soko-hu                                                                               [Haiman (1980:117)]</item>
+    <item id="c4" line="585" tag="G+CR">go o dness-do</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:105]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73338">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hua" iso-639-3="ygr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="1070-1072" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1070" tag="L">  (81) de-ma' fu</item>
+    <item id="o2" line="1071" tag="G">          man-GEN pig</item>
+    <item id="o3" line="1072" tag="T">          `the man's pig'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1070" tag="L">de-ma' fu</item>
+    <item id="c2" line="1071" tag="G">man-GEN pig</item>
+    <item id="c3" line="1072" tag="T">the man's pig</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i99168">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hua" iso-639-3="ygr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2875" line-range="60-61" line-types="L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="60" tag="L">  (2)   a.   Zoe.</item>
+    <item id="o2" line="61" tag="T">             `I washed.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="60" tag="L">Zoe.</item>
+    <item id="c2" line="61" tag="T">I washed.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:4]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i99169">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hua" iso-639-3="ygr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2875" line-range="62-64" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="62" tag="L">        b.   D-goe.</item>
+    <item id="o2" line="63" tag="G">             me-I saw</item>
+    <item id="o3" line="64" tag="T">             `I saw myself.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="62" tag="L">D-goe.</item>
+    <item id="c2" line="63" tag="G">me-I saw</item>
+    <item id="c3" line="64" tag="T">I saw myself.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:8]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114169">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hua" iso-639-3="ygr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="814-817" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="814" tag="M+LN">        (37) Hua</item>
+    <item id="o2" line="815" tag="L">             a. E        -si          -ve          baigu       -e</item>
+    <item id="o3" line="816" tag="G">                come 3.SG.FUT INT                  will stay   1.SG</item>
+    <item id="o4" line="817" tag="T">                `If he comes, I will stay.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="814" tag="M+LN">Hua</item>
+    <item id="c2" line="815" tag="L">E-si-ve          baigu-e</item>
+    <item id="c3" line="816" tag="G">come 3.SG.FUT INT                  will stay   1.SG</item>
+    <item id="c4" line="817" tag="T">If he comes, I will stay.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114170">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hua" iso-639-3="ygr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="818-820" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="818" tag="L">             b. Fri      -si          -ve</item>
+    <item id="o2" line="819" tag="G">                die      3.SG.FUT INT</item>
+    <item id="o3" line="820" tag="T">                `Will she die?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="818" tag="L">Fri-si-ve</item>
+    <item id="c2" line="819" tag="G">die      3.SG.FUT INT</item>
+    <item id="c3" line="820" tag="T">Will she die?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145500">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hua" iso-639-3="ygr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3820" line-range="937-940" line-types="M+LN B L+AC G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="937" tag="M+LN">  Hua (Gorokan: New Guinea)</item>
+    <item id="o2" line="938" tag="B"></item>
+    <item id="o3" line="939" tag="L+AC">   (40)     soko-hu                                                              (Haiman 1980:117)</item>
+    <item id="o4" line="940" tag="G">            goodness-do</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="937" tag="M+LN">Hua (Gorokan: New Guinea)</item>
+    <item id="c2" line="938" tag="B"/>
+    <item id="c3" line="939" tag="L+AC">soko-hu                                                              (Haiman 1980:117</item>
+    <item id="c4" line="940" tag="G">goodness-do</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i10934">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kusaien" iso-639-3="kos" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2494" line-range="473-475" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="473" tag="L">   (26) a. Sah el twem upac             mitmit sac.</item>
+    <item id="o2" line="474" tag="G">           Sah he sharpen diligently knife       the</item>
+    <item id="o3" line="475" tag="T">           `Sah is sharpening the knife diligently.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="473" tag="L">Sah el twem upac             mitmit sac.</item>
+    <item id="c2" line="474" tag="G">Sah he sharpen diligently knife       the</item>
+    <item id="c3" line="475" tag="T">Sah is sharpening the knife diligently.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i10935">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kusaien" iso-639-3="kos" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2494" line-range="476-478" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="476" tag="L">         b. Sah el twetwe mitmit upac.</item>
+    <item id="o2" line="477" tag="G">            Sah he sharpen knife         diligently</item>
+    <item id="o3" line="478" tag="T+AC">            `Sa is diligently knife-sharpening.'                    (Mithun 1984: 851)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="476" tag="L">Sah el twetwe mitmit upac.</item>
+    <item id="c2" line="477" tag="G">Sah he sharpen knife         diligently</item>
+    <item id="c3" line="478" tag="T+AC">Sa is diligently knife-sharpening.'                    (Mithun 1984: 851)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:73]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42954">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kusaiean" iso-639-3="kos" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4030" line-range="122-124" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="122" tag="L+LN">      (6) nga "l-læ nuknuk  (Kusaiean)</item>
+    <item id="o2" line="123" tag="G">             I wash-COMPLETIVE clothes the</item>
+    <item id="o3" line="124" tag="T">             I finished washing the clothes.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="122" tag="L+LN">nga "l-læ nuknuk  (Kusaiean</item>
+    <item id="c2" line="123" tag="G">I wash-COMPLETIVE clothes the</item>
+    <item id="c3" line="124" tag="T">I finished washing the clothes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42955">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kusaiean" iso-639-3="kos" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4030" line-range="126-128" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="126" tag="L">                nga owo nuknuk læ</item>
+    <item id="o2" line="127" tag="G">                I wash clothes COMPLETIVE</item>
+    <item id="o3" line="128" tag="T+AC">                I finish washing clothes. (Hopper and Thompson 1980, p. 259)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="126" tag="L">nga owo nuknuk læ</item>
+    <item id="c2" line="127" tag="G">I wash clothes COMPLETIVE</item>
+    <item id="c3" line="128" tag="T+AC">I finish washing clothes. (Hopper and Thompson 1980, p. 259)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74140">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kusaiean" iso-639-3="kos" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="433-435" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="433" tag="L">  (34) a. mwet luti sac pa                   mwet sacn</item>
+    <item id="o2" line="434" tag="G">              person teach the COPULA person that</item>
+    <item id="o3" line="435" tag="T">              `the teacher is that person'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="433" tag="L">mwet luti sac pa                   mwet sacn</item>
+    <item id="c2" line="434" tag="G">person teach the COPULA person that</item>
+    <item id="c3" line="435" tag="T">the teacher is that person</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74141">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kusaiean" iso-639-3="kos" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="436-438" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="436" tag="L">        b. mwet sacn muhtwacn se</item>
+    <item id="o2" line="437" tag="G">              person that woman one</item>
+    <item id="o3" line="438" tag="T">              `that person is a woman'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="436" tag="L">mwet sacn muhtwacn se</item>
+    <item id="c2" line="437" tag="G">person that woman one</item>
+    <item id="c3" line="438" tag="T">that person is a woman</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74142">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kusaiean" iso-639-3="kos" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="441-443" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="441" tag="L">  (35) ma sacn usr soko</item>
+    <item id="o2" line="442" tag="G">          thing that banana plant</item>
+    <item id="o3" line="443" tag="T">          `that thing is a banana plant'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="441" tag="L">ma sacn usr soko</item>
+    <item id="c2" line="442" tag="G">thing that banana plant</item>
+    <item id="c3" line="443" tag="T">that thing is a banana plant</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

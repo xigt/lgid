@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i115645">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bodo" iso-639-3="brx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3380" line-range="2715-2719" line-types="M+LN L G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2715" tag="M+LN">  (102) a .   Bodo</item>
+    <item id="o2" line="2716" tag="L">              2a-1o?              2ga2mi-3aw    1tha-0a</item>
+    <item id="o3" line="2717" tag="G+CR">                                   village-LOC   go-NEG,NONPAST</item>
+    <item id="o4" line="2718" tag="G+CR">              1SG-SUBJ,DEF</item>
+    <item id="o5" line="2719" tag="T+AC">              `I do not go to the village' (Bhattacharya 1977: 191)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2715" tag="M+LN">a .   Bodo</item>
+    <item id="c2" line="2716" tag="L">2a-1o?              2ga2mi-3aw    1tha-0a</item>
+    <item id="c3" line="2717 2718" tag="G+CR">1SG-SUBJ,DEF         village-LOC   go-NEG,NONPAST</item>
+    <item id="c5" line="2719" tag="T+AC">I do not go to the village' (Bhattacharya 1977: 191)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

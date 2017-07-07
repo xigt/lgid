@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i18014">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1607" line-range="349-351" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="349" tag="L">       b. John       Bill         ñi- ?-yuu-k</item>
+    <item id="o2" line="350" tag="G">          John(ACC) Bill( ACC) PL. OBJ -1-see.SG - REALIS</item>
+    <item id="o3" line="351" tag="T+AC">          `I saw John and Bill.' (Gil 1991:99)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="349" tag="L">John       Bill         ñi-?-yuu-k</item>
+    <item id="c2" line="350" tag="G">John(ACC) Bill( ACC) PL. OBJ-1-see.SG-REALIS</item>
+    <item id="c3" line="351" tag="T+AC">I saw John and Bill.' (Gil 1991:99)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49264">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3423" line-range="36-39" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="36" tag="L+CR">                 Waly-marsh-ma-yuu.</item>
+    <item id="o2" line="37" tag="L+CR">  (1)</item>
+    <item id="o3" line="38" tag="G">                 NEG-win.DUAL-NEG-VIS</item>
+    <item id="o4" line="39" tag="T+AC">                 '(I saw) They didn't win.'                            (Gordon 1986:85)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="36 37" tag="L+CR">Waly-marsh-ma-yuu.</item>
+    <item id="c3" line="38" tag="G">NEG-win.DUAL-NEG-VIS</item>
+    <item id="c4" line="39" tag="T+AC">I saw) They didn't win.'                            (Gordon 1986:85</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:67]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49265">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3423" line-range="89-92" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="89" tag="L+CR">                 ashvar-a</item>
+    <item id="o2" line="90" tag="L+CR">  (2)</item>
+    <item id="o3" line="91" tag="G">                 sing-NONVIS</item>
+    <item id="o4" line="92" tag="T+AC">                 `He sang (I heard)'                           (Gordon 1986:77)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="89 90" tag="L+CR">ashvar-a</item>
+    <item id="c3" line="91" tag="G">sing-NONVIS</item>
+    <item id="c4" line="92" tag="T+AC">He sang (I heard)'                           (Gordon 1986:77)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49312">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3423" line-range="984-987" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="984" tag="L+CR">                 M-iima-yuu.</item>
+    <item id="o2" line="985" tag="L+CR">  (42)</item>
+    <item id="o3" line="986" tag="G">                 2SG-dance-VIS</item>
+    <item id="o4" line="987" tag="T">                 `You danced (I know because I saw it).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="984 985" tag="L+CR">M-iima-yuu.</item>
+    <item id="c3" line="986" tag="G">2SG-dance-VIS</item>
+    <item id="c4" line="987" tag="T">You danced (I know because I saw it).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49313">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3423" line-range="1004-1007" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1004" tag="L+CR">                                        waly--yuu-ma-k</item>
+    <item id="o2" line="1005" tag="L+CR">  (43)   a.      Marsh-m</item>
+    <item id="o3" line="1006" tag="G">                 win:DUAL-DS            NEG-1SG-see-NEG-ASP</item>
+    <item id="o4" line="1007" tag="T">                 `I didn't see them win.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1004 1005" tag="L+CR">Marsh-m                waly--yuu-ma-k</item>
+    <item id="c3" line="1006" tag="G">win:DUAL-DS            NEG-1SG-see-NEG-ASP</item>
+    <item id="c4" line="1007" tag="T">I didn't see them win.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49314">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3423" line-range="1008-1011" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1008" tag="L+CR">                 Waly-marsh-ma-yuu.</item>
+    <item id="o2" line="1009" tag="L+CR">         b.</item>
+    <item id="o3" line="1010" tag="G">                 NEG-win:DUAL-NEG-VIS</item>
+    <item id="o4" line="1011" tag="T+AC">                 `(I saw) they didn't win.'                             (Gordon 1986:85)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1008 1009" tag="L+CR">Waly-marsh-ma-yuu.</item>
+    <item id="c3" line="1010" tag="G">NEG-win:DUAL-NEG-VIS</item>
+    <item id="c4" line="1011" tag="T+AC">I saw) they didn't win.'                             (Gordon 1986:85</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65065">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1115-1120" line-types="L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1115" tag="L+CR">                                            pastel `-mash-k7</item>
+    <item id="o2" line="1116" tag="L+CR">  (34)    a. Kafe `- sish- k</item>
+    <item id="o3" line="1117" tag="B"></item>
+    <item id="o4" line="1118" tag="G">               coffee 1-drink+dual-SS pie           1-eat+dual-ASP</item>
+    <item id="o5" line="1119" tag="B"></item>
+    <item id="o6" line="1120" tag="T">           `We drank coffee and ate pie'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1115 1116" tag="L+CR">Kafe `-sish-k                pastel `-mash-k7</item>
+    <item id="c3" line="1117" tag="B"/>
+    <item id="c4" line="1118" tag="G">coffee 1-drink+dual-SS pie           1-eat+dual-ASP</item>
+    <item id="c5" line="1119" tag="B"/>
+    <item id="c6" line="1120" tag="T">We drank coffee and ate pie</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65066">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1122-1126" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1122" tag="L">          b. Kafe `- sish- m                pastel mash-k</item>
+    <item id="o2" line="1123" tag="B"></item>
+    <item id="o3" line="1124" tag="G">               coffee 1-drink+dual-SS pie           eat+dual-ASP</item>
+    <item id="o4" line="1125" tag="B"></item>
+    <item id="o5" line="1126" tag="T+AC">           `We drank coffee and they ate pie'                                       (Gordon 1986:80)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1122" tag="L">Kafe `-sish-m                pastel mash-k</item>
+    <item id="c2" line="1123" tag="B"/>
+    <item id="c3" line="1124" tag="G">coffee 1-drink+dual-SS pie           eat+dual-ASP</item>
+    <item id="c4" line="1125" tag="B"/>
+    <item id="c5" line="1126" tag="T+AC">We drank coffee and they ate pie'                                       (Gordon 1986:80)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:88]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65067">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1138-1142" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1138" tag="L">  (35)     . M-iima-'yuu.</item>
+    <item id="o2" line="1139" tag="B"></item>
+    <item id="o3" line="1140" tag="G">              2-dance-SEE=EV</item>
+    <item id="o4" line="1141" tag="B"></item>
+    <item id="o5" line="1142" tag="T">             `You danced (I know because I saw it'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1138" tag="L">. M-iima-'yuu.</item>
+    <item id="c2" line="1139" tag="B"/>
+    <item id="c3" line="1140" tag="G">2-dance-SEE=EV</item>
+    <item id="c4" line="1141" tag="B"/>
+    <item id="c5" line="1142" tag="T">You danced (I know because I saw it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65068">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1144-1148" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1144" tag="L">           b. Iima-'yuu</item>
+    <item id="o2" line="1145" tag="B"></item>
+    <item id="o3" line="1146" tag="G">              dance-SEE=EV</item>
+    <item id="o4" line="1147" tag="B"></item>
+    <item id="o5" line="1148" tag="T">             'He danced (I know because I saw it)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1144" tag="L">Iima-'yuu</item>
+    <item id="c2" line="1145" tag="B"/>
+    <item id="c3" line="1146" tag="G">dance-SEE=EV</item>
+    <item id="c4" line="1147" tag="B"/>
+    <item id="c5" line="1148" tag="T">He danced (I know because I saw it)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65069">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1150-1154" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1150" tag="L">           c. `- iima- k'yuu</item>
+    <item id="o2" line="1151" tag="B"></item>
+    <item id="o3" line="1152" tag="G">               1-dance-1=SEE=EV</item>
+    <item id="o4" line="1153" tag="B"></item>
+    <item id="o5" line="1154" tag="T">              `I danced (for sure, in the past)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1150" tag="L">`-iima-k'yuu</item>
+    <item id="c2" line="1151" tag="B"/>
+    <item id="c3" line="1152" tag="G">1-dance-1=SEE=EV</item>
+    <item id="c4" line="1153" tag="B"/>
+    <item id="c5" line="1154" tag="T">I danced (for sure, in the past)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65070">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1185-1189" line-types="L B G B T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1185" tag="L">  (36)       Mhay-ny-sh          ny-ashham-k</item>
+    <item id="o2" line="1186" tag="B"></item>
+    <item id="o3" line="1187" tag="G">             boy-DEM-SJ 3/1-beat-ASP</item>
+    <item id="o4" line="1188" tag="B"></item>
+    <item id="o5" line="1189" tag="T+DB">             'The boy beat me up' or 'The boy is beating me up'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1185" tag="L">Mhay-ny-sh          ny-ashham-k</item>
+    <item id="c2" line="1186" tag="B"/>
+    <item id="c3" line="1187" tag="G">boy-DEM-SJ 3/1-beat-ASP</item>
+    <item id="c4" line="1188" tag="B"/>
+    <item id="c5" line="1189" tag="T+DB">The boy beat me up' or 'The boy is beating me up</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65071">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1191-1193" line-types="L B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1191" tag="L">  (37)       'iipaa-ny-sh         puy-k</item>
+    <item id="o2" line="1192" tag="B"></item>
+    <item id="o3" line="1193" tag="G">              man-DEM-SJ die-ASP</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1191" tag="L">'iipaa-ny-sh         puy-k</item>
+    <item id="c2" line="1192" tag="B"/>
+    <item id="c3" line="1193" tag="G">man-DEM-SJ die-ASP</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65072">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1232-1236" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1232" tag="L">  (38)   Bonnie- sh chuy- k uu'ish-k</item>
+    <item id="o2" line="1233" tag="B"></item>
+    <item id="o3" line="1234" tag="G">          Bonnie-SJ marry-k say+PL-ASP</item>
+    <item id="o4" line="1235" tag="B"></item>
+    <item id="o5" line="1236" tag="T">         'They say Bonnie got married'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1232" tag="L">Bonnie-sh chuy-k uu'ish-k</item>
+    <item id="c2" line="1233" tag="B"/>
+    <item id="c3" line="1234" tag="G">Bonnie-SJ marry-k say+PL-ASP</item>
+    <item id="c4" line="1235" tag="B"/>
+    <item id="c5" line="1236" tag="T">They say Bonnie got married</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69015">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1453-1458" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1453" tag="L">  (40)    a. Kafe `-sish-k pastel `-mash-k</item>
+    <item id="o2" line="1454" tag="B"></item>
+    <item id="o3" line="1455" tag="G+CR">                                         1-eat+dual-ASP8</item>
+    <item id="o4" line="1456" tag="G+CR">            coffee 1-drink+dual-SS</item>
+    <item id="o5" line="1457" tag="B"></item>
+    <item id="o6" line="1458" tag="T">           `We drank coffee and ate pie'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1453" tag="L">Kafe `-sish-k pastel `-mash-k</item>
+    <item id="c2" line="1454" tag="B"/>
+    <item id="c3" line="1455 1456" tag="G+CR">coffee 1-drink+dual-SS       1-eat+dual-ASP8</item>
+    <item id="c5" line="1457" tag="B"/>
+    <item id="c6" line="1458" tag="T">We drank coffee and ate pie</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69016">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1460-1464" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1460" tag="L">          b. Kafe `-sish-m pastel mash-k</item>
+    <item id="o2" line="1461" tag="B"></item>
+    <item id="o3" line="1462" tag="G">            coffee 1-drink+dual-SS pie eat+dual-ASP</item>
+    <item id="o4" line="1463" tag="B"></item>
+    <item id="o5" line="1464" tag="T+AC">           `We drank coffee and they ate pie'                 (Gordon 1986:80)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1460" tag="L">Kafe `-sish-m pastel mash-k</item>
+    <item id="c2" line="1461" tag="B"/>
+    <item id="c3" line="1462" tag="G">coffee 1-drink+dual-SS pie eat+dual-ASP</item>
+    <item id="c4" line="1463" tag="B"/>
+    <item id="c5" line="1464" tag="T+AC">We drank coffee and they ate pie'                 (Gordon 1986:80)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69017">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1476-1480" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1476" tag="L">  (41)   a. M-iima-`yuu</item>
+    <item id="o2" line="1477" tag="B"></item>
+    <item id="o3" line="1478" tag="G">            2-dance-SEE=EV</item>
+    <item id="o4" line="1479" tag="B"></item>
+    <item id="o5" line="1480" tag="T+EX">           `You danced (I know because I saw it)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1476" tag="L">M-iima-`yuu</item>
+    <item id="c2" line="1477" tag="B"/>
+    <item id="c3" line="1478" tag="G">2-dance-SEE=EV</item>
+    <item id="c4" line="1479" tag="B"/>
+    <item id="c5" line="1480" tag="T+EX">You danced (I know because I saw it)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69018">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1482-1486" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1482" tag="L">         b. Iima-`yuu</item>
+    <item id="o2" line="1483" tag="B"></item>
+    <item id="o3" line="1484" tag="G">            dance-SEE=EV</item>
+    <item id="o4" line="1485" tag="B"></item>
+    <item id="o5" line="1486" tag="T+EX">           `He danced (I know because I saw it)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1482" tag="L">Iima-`yuu</item>
+    <item id="c2" line="1483" tag="B"/>
+    <item id="c3" line="1484" tag="G">dance-SEE=EV</item>
+    <item id="c4" line="1485" tag="B"/>
+    <item id="c5" line="1486" tag="T+EX">He danced (I know because I saw it)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69019">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1488-1492" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1488" tag="L">         c. `-iima-k'yuu</item>
+    <item id="o2" line="1489" tag="B"></item>
+    <item id="o3" line="1490" tag="G">             1-dance-1-SEE=EV</item>
+    <item id="o4" line="1491" tag="B"></item>
+    <item id="o5" line="1492" tag="T+EX">            `I danced (for sure, in the past)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1488" tag="L">`-iima-k'yuu</item>
+    <item id="c2" line="1489" tag="B"/>
+    <item id="c3" line="1490" tag="G">1-dance-1-SEE=EV</item>
+    <item id="c4" line="1491" tag="B"/>
+    <item id="c5" line="1492" tag="T+EX">I danced (for sure, in the past)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69020">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1526-1530" line-types="L B G B T+DB+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1526" tag="L">  (42)   a. Mhay-ny-sh ny-ashham-k</item>
+    <item id="o2" line="1527" tag="B"></item>
+    <item id="o3" line="1528" tag="G">             boy-DEM-SJ 3/1-beat-ASP</item>
+    <item id="o4" line="1529" tag="B"></item>
+    <item id="o5" line="1530" tag="T+DB+EX">            `The boy beat me up' or `The boy is beating me up'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1526" tag="L">Mhay-ny-sh ny-ashham-k</item>
+    <item id="c2" line="1527" tag="B"/>
+    <item id="c3" line="1528" tag="G">boy-DEM-SJ 3/1-beat-ASP</item>
+    <item id="c4" line="1529" tag="B"/>
+    <item id="c5" line="1530" tag="T+DB+EX">The boy beat me up' or `The boy is beating me up</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69021">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1532-1536" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1532" tag="L">         b. `iipaa-ny-sh puy-k</item>
+    <item id="o2" line="1533" tag="B"></item>
+    <item id="o3" line="1534" tag="G">             man-DEM-SJ die-ASP</item>
+    <item id="o4" line="1535" tag="B"></item>
+    <item id="o5" line="1536" tag="T">            `The man died'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1532" tag="L">`iipaa-ny-sh puy-k</item>
+    <item id="c2" line="1533" tag="B"/>
+    <item id="c3" line="1534" tag="G">man-DEM-SJ die-ASP</item>
+    <item id="c4" line="1535" tag="B"/>
+    <item id="c5" line="1536" tag="T">The man died</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69022">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1580-1584" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1580" tag="L">  (43)    Bonnie-sh chuy-k uu'ish-k</item>
+    <item id="o2" line="1581" tag="B"></item>
+    <item id="o3" line="1582" tag="G">          Bonnie-SJ marry-k say=PL-ASP</item>
+    <item id="o4" line="1583" tag="B"></item>
+    <item id="o5" line="1584" tag="T">          `They say Bonnie got married'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1580" tag="L">Bonnie-sh chuy-k uu'ish-k</item>
+    <item id="c2" line="1581" tag="B"/>
+    <item id="c3" line="1582" tag="G">Bonnie-SJ marry-k say=PL-ASP</item>
+    <item id="c4" line="1583" tag="B"/>
+    <item id="c5" line="1584" tag="T">They say Bonnie got married</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i144332">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1586" line-range="444-447" line-types="M+LN+CN L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="444" tag="M+LN+CN">  (26) Maricopa (Gordon      1986: 332­334)</item>
+    <item id="o2" line="445" tag="L+DB">     a. m-mii?              b. m-nmak-ii?          c. m-mii-m?            d. m-nmak-m?</item>
+    <item id="o3" line="446" tag="G+DB">        2-cry                  2-leave-VINC           2-cry-R                2-leave-R</item>
+    <item id="o4" line="447" tag="T+DB">        `Did you cry?'         `Did you leave it?'    `Did you cry?'         `Did you leave it?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="444" tag="M+LN+CN">Maricopa (Gordon      1986: 332­334</item>
+    <item id="c2" line="445" tag="L+DB">m-mii?              b. m-nmak-ii?          c. m-mii-m?            d. m-nmak-m?</item>
+    <item id="c3" line="446" tag="G+DB">2-cry                  2-leave-VINC           2-cry-R                2-leave-R</item>
+    <item id="c4" line="447" tag="T+DB">Did you cry?'         `Did you leave it?'    `Did you cry?'         `Did you leave it?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:78]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:86]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i144333">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1586" line-range="448-450" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="448" tag="L+DB">     e. shay-k              f. shay-m?             g. hmii-k              h. hmii-m?</item>
+    <item id="o2" line="449" tag="G+DB">        fat-R                  fat-Q .R               tall-R                 tall-Q .R</item>
+    <item id="o3" line="450" tag="T+DB">        `He is fat.'           `Is he fat?'           `He is tall.'          `Is he tall?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="448" tag="L+DB">shay-k              f. shay-m?             g. hmii-k              h. hmii-m?</item>
+    <item id="c2" line="449" tag="G+DB">fat-R                  fat-Q .R               tall-R                 tall-Q .R</item>
+    <item id="c3" line="450" tag="T+DB">He is fat.'           `Is he fat?'           `He is tall.'          `Is he tall?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:78]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:80]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i144334">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maricopa" iso-639-3="mrc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1586" line-range="451-453" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="451" tag="L+DB">     i. hmii?               j. naly-ii?            k. m-yoq-k?            l. m-yoq-m?</item>
+    <item id="o2" line="452" tag="G+DB">        tall                   fall-VINC              2-vomit-R              2-vomit-Q .R</item>
+    <item id="o3" line="453" tag="T+DB">        `Is he tall?'          `Did it fall?'         `Did you vomit?'       `Did you vomit?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="451" tag="L+DB">hmii?               j. naly-ii?            k. m-yoq-k?            l. m-yoq-m?</item>
+    <item id="c2" line="452" tag="G+DB">tall                   fall-VINC              2-vomit-R              2-vomit-Q .R</item>
+    <item id="c3" line="453" tag="T+DB">Is he tall?'          `Did it fall?'         `Did you vomit?'       `Did you vomit?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:81]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:83]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

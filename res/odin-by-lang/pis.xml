@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i116609">
+  <metadata type="xigt-meta">
+    <meta type="language" name="solomon islands pijin" iso-639-3="pis" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3648" line-range="666-670" line-types="M+AC+LN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="666" tag="M+AC+LN">  Solomon Islands Pijin (Simon &amp; Young 1978: 49; Angela Terrill, p.c.)</item>
+    <item id="o2" line="667" tag="L">  (36) Yu givim kaikai long hem.</item>
+    <item id="o3" line="668" tag="G+CR">         you      give-          food                         him</item>
+    <item id="o4" line="669" tag="G+CR">                           TR                     PREP</item>
+    <item id="o5" line="670" tag="T">         'Give him some food.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="666" tag="M+AC+LN">Solomon Islands Pijin (Simon &amp; Young 1978: 49; Angela Terrill, p.c.)</item>
+    <item id="c2" line="667" tag="L">Yu givim kaikai long hem.</item>
+    <item id="c3" line="668 669" tag="G+CR">you      give-TR    food             PREP        him</item>
+    <item id="c5" line="670" tag="T">Give him some food.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

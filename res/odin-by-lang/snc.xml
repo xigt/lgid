@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i58619">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sinaugoro" iso-639-3="snc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3186" line-range="1319-1322" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1319" tag="L+CR">           a. EEn               qniEqni</item>
+    <item id="o2" line="1320" tag="L+CR">   (63)</item>
+    <item id="o3" line="1321" tag="G">              remote-1s-int/imp eat-redup</item>
+    <item id="o4" line="1322" tag="T">              `I'd like to eat/I must eat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1319 1320" tag="L+CR">EEn               qniEqni</item>
+    <item id="c3" line="1321" tag="G">remote-1s-int/imp eat-redup</item>
+    <item id="c4" line="1322" tag="T">I'd like to eat/I must eat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58620">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sinaugoro" iso-639-3="snc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3186" line-range="1323-1325" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1323" tag="L">           b. si EoEno                 tuqmqiEmeto</item>
+    <item id="o2" line="1324" tag="G">              neg remote-2s-int/imp think-heavy</item>
+    <item id="o3" line="1325" tag="T">              `Don't worry'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1323" tag="L">si EoEno                 tuqmqiEmeto</item>
+    <item id="c2" line="1324" tag="G">neg remote-2s-int/imp think-heavy</item>
+    <item id="c3" line="1325" tag="T">Don't worry</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58621">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sinaugoro" iso-639-3="snc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3186" line-range="1326-1328" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1326" tag="L">           c. tEn               qenoqoi</item>
+    <item id="o2" line="1327" tag="G">              1pl.inc-int/imp return</item>
+    <item id="o3" line="1328" tag="T">              `Let's go back/We must go back/We want to go back'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1326" tag="L">tEn               qenoqoi</item>
+    <item id="c2" line="1327" tag="G">1pl.inc-int/imp return</item>
+    <item id="c3" line="1328" tag="T">Let's go back/We must go back/We want to go back</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88179">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sinaugoro" iso-639-3="snc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="887-890" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="887" tag="M+LN">   (19) Sinaugoro:</item>
+    <item id="o2" line="888" tag="L">         a. au ima-gu</item>
+    <item id="o3" line="889" tag="G">            D:1S hand-P:1S</item>
+    <item id="o4" line="890" tag="T">            `my hand'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="887" tag="M+LN">Sinaugoro:</item>
+    <item id="c2" line="888" tag="L">au ima-gu</item>
+    <item id="c3" line="889" tag="G">D:1S hand-P:1S</item>
+    <item id="c4" line="890" tag="T">my hand</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88180">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sinaugoro" iso-639-3="snc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="891-894" line-types="L G T+EX T+AL+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="891" tag="L">        b. au a-gu            daua/nanu</item>
+    <item id="o2" line="892" tag="G">            D:1S CL:FOOD-P:1S banana/water</item>
+    <item id="o3" line="893" tag="T+EX">            `my banana' (= `the banana which I eat')</item>
+    <item id="o4" line="894" tag="T+AL+EX">            `my water' (= `the water which I drink')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="891" tag="L">au a-gu            daua/nanu</item>
+    <item id="c2" line="892" tag="G">D:1S CL:FOOD-P:1S banana/water</item>
+    <item id="c3" line="893" tag="T+EX">my banana' (= `the banana which I eat')</item>
+    <item id="c4" line="894" tag="T+AL+EX">my water' (= `the water which I drink')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+    <item id="t1" content="c4[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88181">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sinaugoro" iso-639-3="snc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="895-897" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="895" tag="L">         c. au e-gu              numa/daua</item>
+    <item id="o2" line="896" tag="G">            D:1S CL:D*FAuLT-P:1S house/banana</item>
+    <item id="o3" line="897" tag="T+AC">            `my house/banana' (author's fieldnotes)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="895" tag="L">au e-gu              numa/daua</item>
+    <item id="c2" line="896" tag="G">D:1S CL:D*FAuLT-P:1S house/banana</item>
+    <item id="c3" line="897" tag="T+AC">my house/banana' (author's fieldnotes)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

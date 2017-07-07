@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i62510">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kimbundu" iso-639-3="kmb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3908" line-range="134-138" line-types="M+CN L G T T+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="134" tag="M+CN">  (5) a. Passive:</item>
+    <item id="o2" line="135" tag="L">         Nzua a-mu-mono kwa meme</item>
+    <item id="o3" line="136" tag="G">         John they-him-saw by me</item>
+    <item id="o4" line="137" tag="T">         'John was seen by me'</item>
+    <item id="o5" line="138" tag="T+LT">         (lit.: 'John, they saw him by me')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="134" tag="M+CN">Passive:</item>
+    <item id="c2" line="135" tag="L">Nzua a-mu-mono kwa meme</item>
+    <item id="c3" line="136" tag="G">John they-him-saw by me</item>
+    <item id="c4" line="137" tag="T">John was seen by me</item>
+    <item id="c5" line="138" tag="T+LT">lit.: 'John, they saw him by me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+    <item id="t1" content="c5[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i62511">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kimbundu" iso-639-3="kmb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3908" line-range="140-143" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="140" tag="M+CN">       b. L-dislocation with full-NP subject:</item>
+    <item id="o2" line="141" tag="L">          Nzua, aana      a-mu-mono</item>
+    <item id="o3" line="142" tag="G">          John children they-him-saw</item>
+    <item id="o4" line="143" tag="T">          'John, the children saw him'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="140" tag="M+CN">L-dislocation with full-NP subject:</item>
+    <item id="c2" line="141" tag="L">Nzua, aana      a-mu-mono</item>
+    <item id="c3" line="142" tag="G">John children they-him-saw</item>
+    <item id="c4" line="143" tag="T">John, the children saw him</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i62512">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kimbundu" iso-639-3="kmb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3908" line-range="145-149" line-types="M+CN L G T+EX T+AL+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="145" tag="M+CN">       c. L-dislocation with pronominal subject:</item>
+    <item id="o2" line="146" tag="L">          Nzua, a-mu-mono</item>
+    <item id="o3" line="147" tag="G">          John they-him-saw</item>
+    <item id="o4" line="148" tag="T+EX">           (i) Anaphoric active: 'John, they saw him' (anaphor ic/act ive)</item>
+    <item id="o5" line="149" tag="T+AL+EX">           (ii) Impersonal passive: 'John, he was seen' (impersonal/passive)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="145" tag="M+CN">L-dislocation with pronominal subject:</item>
+    <item id="c2" line="146" tag="L">Nzua, a-mu-mono</item>
+    <item id="c3" line="147" tag="G">John they-him-saw</item>
+    <item id="c4" line="148" tag="T+EX">'John, they saw him' (anaphor ic/act ive</item>
+    <item id="c5" line="149" tag="T+AL+EX">'John, he was seen' (impersonal/passive</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:40]" alignment="p1"/>
+    <item id="t1" content="c5[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i62517">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kimbundu" iso-639-3="kmb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3908" line-range="296-302" line-types="M+EX L G M+EX T M T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="296" tag="M+EX">  (11) Kimbundu L-dislocation/impersonal 'they' passive (E):</item>
+    <item id="o2" line="297" tag="L">       Nzua a-mu-mono</item>
+    <item id="o3" line="298" tag="G">       John they-him-saw</item>
+    <item id="o4" line="299" tag="M+EX">         a. Active, anaphoric agent:</item>
+    <item id="o5" line="300" tag="T">           'John, they saw him'</item>
+    <item id="o6" line="301" tag="M">         b. Passive, impersonal agent:</item>
+    <item id="o7" line="302" tag="T+AL">            'John was seen'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="296" tag="M+EX">Kimbundu L-dislocation/impersonal 'they' passive (E):</item>
+    <item id="c2" line="297" tag="L">Nzua a-mu-mono</item>
+    <item id="c3" line="298" tag="G">John they-him-saw</item>
+    <item id="c4" line="299" tag="M+EX">Active, anaphoric agent:</item>
+    <item id="c5" line="300" tag="T">John, they saw him</item>
+    <item id="c6" line="301" tag="M">Passive, impersonal agent:</item>
+    <item id="c7" line="302" tag="T+AL">John was seen</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:18]" alignment="p1"/>
+    <item id="t1" content="c7[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

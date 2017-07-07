@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i85150">
+  <metadata type="xigt-meta">
+    <meta type="language" name="waiwai" iso-639-3="waw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="8396-8399" line-types="M+LN L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8396" tag="M+LN">  (4.96) WAIWAI</item>
+    <item id="o2" line="8397" tag="L">         a.   amna                 nu-puru</item>
+    <item id="o3" line="8398" tag="G">              1+3,PRON 3-roast</item>
+    <item id="o4" line="8399" tag="T+AC">              `We (exclusive) roasted it'                                        (Hawkins, 1998: 179)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8396" tag="M+LN">WAIWAI</item>
+    <item id="c2" line="8397" tag="L">amna                 nu-puru</item>
+    <item id="c3" line="8398" tag="G">1+3,PRON 3-roast</item>
+    <item id="c4" line="8399" tag="T+AC">We (exclusive) roasted it'                                        (Hawkins, 1998: 179)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:86]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85151">
+  <metadata type="xigt-meta">
+    <meta type="language" name="waiwai" iso-639-3="waw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="8400-8403" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8400" tag="L+CR">              tî-htînoyasî amn@e</item>
+    <item id="o2" line="8401" tag="L+CR">         b.</item>
+    <item id="o3" line="8402" tag="G">              1+2-know             later</item>
+    <item id="o4" line="8403" tag="T+AC">              `We (inclusive) will know it later'                                (Hawkins, 1998: 179)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8400 8401" tag="L+CR">tî-htînoyasî amn@e</item>
+    <item id="c3" line="8402" tag="G">1+2-know             later</item>
+    <item id="c4" line="8403" tag="T+AC">We (inclusive) will know it later'                                (Hawkins, 1998: 179)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:86]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i11358">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tlapanec" iso-639-3="tpx:tcf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2469" line-range="243-246" line-types="M+LN+DB L G T+AC+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="243" tag="M+LN+DB">  (8)      TLAPANEC [Otomanguean] &lt; SPANISH</item>
+    <item id="o2" line="244" tag="L">           a. Nu-²ni³          kompa²yã¹</item>
+    <item id="o3" line="245" tag="G">              IPFV-do.3PL accompany</item>
+    <item id="o4" line="246" tag="T+AC+EX">              `They are accompanying.' [Sp. acompañar] (Wichmann, field notes 2003)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="243" tag="M+LN+DB">TLAPANEC [Otomanguean] &lt; SPANISH</item>
+    <item id="c2" line="244" tag="L">Nu-²ni³          kompa²yã¹</item>
+    <item id="c3" line="245" tag="G">IPFV-do.3PL accompany</item>
+    <item id="c4" line="246" tag="T+AC+EX">They are accompanying.' [Sp. acompañar] (Wichmann, field notes 2003)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i11359">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tlapanec" iso-639-3="tpx:tcf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2469" line-range="247-253" line-types="L G L+CR L+CR G T+AC+EX C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="247" tag="L">           b. Mu-² y6 ³² =lu ²                                es ka²p a¹ 8 a ³gu²</item>
+    <item id="o2" line="248" tag="G">              FUT.PL.AGENTIVE-make.1PL.INCL&gt;3SG.AN escape                 girl</item>
+    <item id="o3" line="249" tag="L+CR">                    stu wa²hma¹ yu ³9²</item>
+    <item id="o4" line="250" tag="L+CR">              ci²</item>
+    <item id="o5" line="251" tag="G">              who tied.up.3.SG there</item>
+    <item id="o6" line="252" tag="T+AC+EX">              `We'll make the girl who is tied up there escape.' [Sp. escapar] (Wichmann, field notes</item>
+    <item id="o7" line="253" tag="C">              2003)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="247" tag="L">Mu-² y6 ³² =lu ²                                es ka²p a¹ 8 a ³gu²</item>
+    <item id="c2" line="248" tag="G">FUT.PL.AGENTIVE-make.1PL.INCL&gt;3SG.AN escape                 girl</item>
+    <item id="c3" line="249 250" tag="L+CR">ci²  stu wa²hma¹ yu ³9²</item>
+    <item id="c5" line="251" tag="G">who tied.up.3.SG there</item>
+    <item id="c6" line="252" tag="T+AC+EX">We'll make the girl who is tied up there escape.' [Sp. escapar] (Wichmann, field notes</item>
+    <item id="c7" line="253" tag="C">2003)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+    <item id="p1" content="c3[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+    <item id="g1" content="c5[0:22]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:86]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

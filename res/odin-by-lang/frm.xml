@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i43366">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4025" line-range="1979-1981" line-types="L T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1979" tag="L">        (5)    aime il?</item>
+    <item id="o2" line="1980" tag="T">               "Does he love?"</item>
+    <item id="o3" line="1981" tag="M+AC">               (Harris &amp; Campbell 1995: 66)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1979" tag="L">aime il?</item>
+    <item id="c2" line="1980" tag="T">Does he love?</item>
+    <item id="c3" line="1981" tag="M+AC">Harris &amp; Campbell 1995: 66</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i43367">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4025" line-range="1983-1984" line-types="L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1983" tag="L">        (6)    a. dort-il?</item>
+    <item id="o2" line="1984" tag="T">                  "Does he sleep?"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1983" tag="L">dort-il?</item>
+    <item id="c2" line="1984" tag="T">Does he sleep?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i43368">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4025" line-range="1986-1988" line-types="L T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1986" tag="L">               b. est-il?</item>
+    <item id="o2" line="1987" tag="T">                  "Is he?"</item>
+    <item id="o3" line="1988" tag="M+AC">                   (Harris &amp; Campbell 1995: 66)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1986" tag="L">est-il?</item>
+    <item id="c2" line="1987" tag="T">Is he?</item>
+    <item id="c3" line="1988" tag="M+AC">Harris &amp; Campbell 1995: 66</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:6]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i43381">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4025" line-range="2568-2571" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2568" tag="L">        (29) Lors la royne fist Saintré appeller.</item>
+    <item id="o2" line="2569" tag="G">             Then the queen had Saintré called.</item>
+    <item id="o3" line="2570" tag="T">             "Then the queen had called Saintré."</item>
+    <item id="o4" line="2571" tag="M+AC">               (Clark &amp; Roberts 1993: 333)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2568" tag="L">Lors la royne fist Saintré appeller.</item>
+    <item id="c2" line="2569" tag="G">Then the queen had Saintré called.</item>
+    <item id="c3" line="2570" tag="T">Then the queen had called Saintré.</item>
+    <item id="c4" line="2571" tag="M+AC">Clark &amp; Roberts 1993: 333</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i43382">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4025" line-range="2580-2583" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2580" tag="L">        (30) Les autres arts et sciences, Alexandre les honoroit bien.</item>
+    <item id="o2" line="2581" tag="G">             The other arts and sciences Alexander them honoured well.</item>
+    <item id="o3" line="2582" tag="T">             "The other arts and sciences, Alexander honoured (them) well.</item>
+    <item id="o4" line="2583" tag="M+AC">               (Clark &amp; Roberts 1993: 335)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2580" tag="L">Les autres arts et sciences, Alexandre les honoroit bien.</item>
+    <item id="c2" line="2581" tag="G">The other arts and sciences Alexander them honoured well.</item>
+    <item id="c3" line="2582" tag="T">The other arts and sciences, Alexander honoured (them) well.</item>
+    <item id="c4" line="2583" tag="M+AC">Clark &amp; Roberts 1993: 335</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i43383">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4025" line-range="2593-2596" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2593" tag="L">        (31) Toutes ces choses te presta Nostre Sires.</item>
+    <item id="o2" line="2594" tag="G">             All these things to-you lent our Lord.</item>
+    <item id="o3" line="2595" tag="T">             "All of these things our Lord lent to you."</item>
+    <item id="o4" line="2596" tag="M+AC">               (Clark &amp; Roberts 1993: 330)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2593" tag="L">Toutes ces choses te presta Nostre Sires.</item>
+    <item id="c2" line="2594" tag="G">All these things to-you lent our Lord.</item>
+    <item id="c3" line="2595" tag="T">All of these things our Lord lent to you.</item>
+    <item id="c4" line="2596" tag="M+AC">Clark &amp; Roberts 1993: 330</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58149">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3168" line-range="65-73" line-types="L G B L+EX G B T T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="65" tag="L">  (2)     a.       Car      les letresi que li messages / aportoit,      c'estoit mes usages /</item>
+    <item id="o2" line="66" tag="G">                   because the lettersi that the messenger used-to-bring it was my custom</item>
+    <item id="o3" line="67" tag="B"></item>
+    <item id="o4" line="68" tag="L+EX">                   de regarder __i avant toute oevre.                             (MidF)</item>
+    <item id="o5" line="69" tag="G">                   for to-look __I before all work</item>
+    <item id="o6" line="70" tag="B"></item>
+    <item id="o7" line="71" tag="T">                   `Because it was my custom to look at the letters that the messenger would</item>
+    <item id="o8" line="72" tag="T">                   bring before all other work'</item>
+    <item id="o9" line="73" tag="M+AC">                                                         (Härmä 1993, 772: La Prison 3710)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="65" tag="L">Car      les letresi que li messages / aportoit,      c'estoit mes usages /</item>
+    <item id="c2" line="66" tag="G">because the lettersi that the messenger used-to-bring it was my custom</item>
+    <item id="c3" line="67" tag="B"/>
+    <item id="c4" line="68" tag="L+EX">de regarder __i avant toute oevre.                             (MidF)</item>
+    <item id="c5" line="69" tag="G">for to-look __I before all work</item>
+    <item id="c6" line="70" tag="B"/>
+    <item id="c7" line="71" tag="T">Because it was my custom to look at the letters that the messenger would</item>
+    <item id="c8" line="72" tag="T">bring before all other work</item>
+    <item id="c9" line="73" tag="M+AC">Härmä 1993, 772: La Prison 3710</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+    <item id="p1" content="c4[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:70]" alignment="p1"/>
+    <item id="g1" content="c5[0:31]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:72]" alignment="p2"/>
+    <item id="t1" content="c8[0:27]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i58170">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3168" line-range="476-480" line-types="L+CR L+CR G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="476" tag="L+CR">             [Cels qu' ils unt mort]i, ben les i poet hom priser.</item>
+    <item id="o2" line="477" tag="L+CR">  (27)</item>
+    <item id="o3" line="478" tag="G">             [those that they have killed] i well they i could one to-praise</item>
+    <item id="o4" line="479" tag="T">             `Those that they killed, one could praise indeed.'</item>
+    <item id="o5" line="480" tag="M+AC">                                                                 (Priestly 1955, 10: Roland 1683)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="476 477" tag="L+CR">[Cels qu' ils unt mort]i, ben les i poet hom priser.</item>
+    <item id="c3" line="478" tag="G">[those that they have killed] i well they i could one to-praise</item>
+    <item id="c4" line="479" tag="T">Those that they killed, one could praise indeed.</item>
+    <item id="c5" line="480" tag="M+AC">Priestly 1955, 10: Roland 1683</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58171">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3168" line-range="495-507" line-types="L+CR L+CR G B L G B L G B T T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="495" tag="L+CR">                                   danssoient, [le petit Saintré]i les yeux de Madame</item>
+    <item id="o2" line="496" tag="L+CR">  (28)   Et endementiers qu'ilz</item>
+    <item id="o3" line="497" tag="G">         and while      that they were-dancing [the little Saintré] i the eyes of Madame</item>
+    <item id="o4" line="498" tag="B"></item>
+    <item id="o5" line="499" tag="L">         ne   cessoient de regarder ec i, tant         danssoit     et chantoit</item>
+    <item id="o6" line="500" tag="G">         NEG were-ceasing of to-look ec i so much (he) was-dancing and was-singing</item>
+    <item id="o7" line="501" tag="B"></item>
+    <item id="o8" line="502" tag="L">         bien</item>
+    <item id="o9" line="503" tag="G">         well</item>
+    <item id="o10" line="504" tag="B"></item>
+    <item id="o11" line="505" tag="T">         `And while they danced, Madame's eyes did not cease to look at the young</item>
+    <item id="o12" line="506" tag="T">         Saintré, so well did he sing and dance'</item>
+    <item id="o13" line="507" tag="M+AC">                                                     (Vance 1997, 283 : Saintré 55, 32)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="495 496" tag="L+CR">Et endementiers qu'ilz    danssoient, [le petit Saintré]i les yeux de Madame</item>
+    <item id="c3" line="497" tag="G">and while      that they were-dancing [the little Saintré] i the eyes of Madame</item>
+    <item id="c4" line="498" tag="B"/>
+    <item id="c5" line="499" tag="L">ne   cessoient de regarder ec i, tant         danssoit     et chantoit</item>
+    <item id="c6" line="500" tag="G">NEG were-ceasing of to-look ec i so much (he) was-dancing and was-singing</item>
+    <item id="c7" line="501" tag="B"/>
+    <item id="c8" line="502" tag="L">bien</item>
+    <item id="c9" line="503" tag="G">well</item>
+    <item id="c10" line="504" tag="B"/>
+    <item id="c11" line="505" tag="T">And while they danced, Madame's eyes did not cease to look at the young</item>
+    <item id="c12" line="506" tag="T">Saintré, so well did he sing and dance</item>
+    <item id="c13" line="507" tag="M+AC">Vance 1997, 283 : Saintré 55, 32</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+    <item id="p1" content="c5[0:70]"/>
+    <item id="p2" content="c8[0:4]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:79]" alignment="p1"/>
+    <item id="g1" content="c6[0:73]" alignment="p2"/>
+    <item id="g2" content="c9[0:4]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c11[0:71]" alignment="p3"/>
+    <item id="t1" content="c12[0:38]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i94522">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7556-7558" line-types="L+SY G+SY T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7556" tag="L+SY">  (11)   [Vostre terre] i qui defandra eci?</item>
+    <item id="o2" line="7557" tag="G+SY">         [your land] i who will-defend eci</item>
+    <item id="o3" line="7558" tag="T+AC">         `Who will defend your land?'                   (Arteaga 1997, 2: Chanson de Lyon 1617)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7556" tag="L+SY">[Vostre terre] i qui defandra eci?</item>
+    <item id="c2" line="7557" tag="G+SY">[your land] i who will-defend eci</item>
+    <item id="c3" line="7558" tag="T+AC">Who will defend your land?'                   (Arteaga 1997, 2: Chanson de Lyon 1617)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:85]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94523">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7560-7562" line-types="L+SY G+SY T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7560" tag="L+SY">  (12)   [Cest    nostre rei] i, por coi lessas eci PRO i cunfundre?</item>
+    <item id="o2" line="7561" tag="G+SY">         [This-one our king] i why (you) let eci PRO i flounder</item>
+    <item id="o3" line="7562" tag="T+AC">         `Why do you let our king flounder?'           (Arteaga 1997, 2: Roland 1.2583)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7560" tag="L+SY">[Cest    nostre rei] i, por coi lessas eci PRO i cunfundre?</item>
+    <item id="c2" line="7561" tag="G+SY">[This-one our king] i why (you) let eci PRO i flounder</item>
+    <item id="c3" line="7562" tag="T+AC">Why do you let our king flounder?'           (Arteaga 1997, 2: Roland 1.2583)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:77]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94524">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7592-7594" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7592" tag="L">  (14)    Quatre saietes ot li bers au costé</item>
+    <item id="o2" line="7593" tag="G">          four arrows had the baron at-the side</item>
+    <item id="o3" line="7594" tag="T+AC">          `The baron carried four arrows at his side'                    (Hasenohr 2000, 232: Charroi 21)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7592" tag="L">Quatre saietes ot li bers au costé</item>
+    <item id="c2" line="7593" tag="G">four arrows had the baron at-the side</item>
+    <item id="c3" line="7594" tag="T+AC">The baron carried four arrows at his side'                    (Hasenohr 2000, 232: Charroi 21)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:94]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94525">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7613-7616" line-types="L+SY G+SY T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7613" tag="L+SY">  (16)    Ses dras i, il les i ostad é od les altres               prophetizad devant Samuel.</item>
+    <item id="o2" line="7614" tag="G+SY">          his clothes i he them i took-off and with the others (he) prophesied before Samuel</item>
+    <item id="o3" line="7615" tag="T">          `His clothes, he took off, and with the others he prophesied before Samuel.'</item>
+    <item id="o4" line="7616" tag="M+AC">                                                     (Härmä 1990, 163: Livre des Reis, 39,76)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7613" tag="L+SY">Ses dras i, il les i ostad é od les altres               prophetizad devant Samuel.</item>
+    <item id="c2" line="7614" tag="G+SY">his clothes i he them i took-off and with the others (he) prophesied before Samuel</item>
+    <item id="c3" line="7615" tag="T">His clothes, he took off, and with the others he prophesied before Samuel.</item>
+    <item id="c4" line="7616" tag="M+AC">Härmä 1990, 163: Livre des Reis, 39,76</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:83]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:82]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94526">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7618-7621" line-types="L+SY G+SY T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7618" tag="L+SY">  (17)    Et ce conseili nous vous donnons eci.</item>
+    <item id="o2" line="7619" tag="G+SY">          and this counsel we to-you give eci</item>
+    <item id="o3" line="7620" tag="T">          `And this counsel, we give you.'</item>
+    <item id="o4" line="7621" tag="M+AC">                                           (Adams, 1987, 195: Chroniques XII, 152, 16)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7618" tag="L+SY">Et ce conseili nous vous donnons eci.</item>
+    <item id="c2" line="7619" tag="G+SY">and this counsel we to-you give eci</item>
+    <item id="c3" line="7620" tag="T">And this counsel, we give you.</item>
+    <item id="c4" line="7621" tag="M+AC">Adams, 1987, 195: Chroniques XII, 152, 16</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94527">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7626-7628" line-types="L+SY G+SY T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7626" tag="L+SY">  (18)    Les deuxiesmesi, on lesi doit aussi ouyr,</item>
+    <item id="o2" line="7627" tag="G+SY">          the second onesi we theyi must also hear</item>
+    <item id="o3" line="7628" tag="T+AC">          `The second ones, we must also hear.'                                 (Écrits politiques I 456, 25)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7626" tag="L+SY">Les deuxiesmesi, on lesi doit aussi ouyr,</item>
+    <item id="c2" line="7627" tag="G+SY">the second onesi we theyi must also hear</item>
+    <item id="c3" line="7628" tag="T+AC">The second ones, we must also hear.'                                 (Écrits politiques I 456, 25)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:98]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94528">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7643-7647" line-types="L+CR+SY L+CR G+SY T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7643" tag="L+CR+SY">         Ceste persuasioni tu pues aussi fonder eci en la nature.</item>
+    <item id="o2" line="7644" tag="L+CR">  (19)</item>
+    <item id="o3" line="7645" tag="G+SY">         this reasoningi you can also establish eci in the nature</item>
+    <item id="o4" line="7646" tag="T">         `This reasoning, you can also base in nature.'</item>
+    <item id="o5" line="7647" tag="M+AC">                                                  (Combettes 1989, 340: Archiologue 109)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7643 7644" tag="L+CR+SY">Ceste persuasioni tu pues aussi fonder eci en la nature.</item>
+    <item id="c3" line="7645" tag="G+SY">this reasoningi you can also establish eci in the nature</item>
+    <item id="c4" line="7646" tag="T">This reasoning, you can also base in nature.</item>
+    <item id="c5" line="7647" tag="M+AC">Combettes 1989, 340: Archiologue 109</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94529">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7652-7661" line-types="L+SY G+CR+SY G+CR B L G B T T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7652" tag="L+SY">  (20)   Comme j'ay dit, [cest abbaye qui     n'a cy point de nom] i les</item>
+    <item id="o2" line="7653" tag="G+CR+SY">               I have said [this abbey that NEG has here ADV any name] i the</item>
+    <item id="o3" line="7654" tag="G+CR">         as</item>
+    <item id="o4" line="7655" tag="B"></item>
+    <item id="o5" line="7656" tag="L">         predecesseurs de Madame lai fondirent .</item>
+    <item id="o6" line="7657" tag="G">         predecessors of Madame iti founded</item>
+    <item id="o7" line="7658" tag="B"></item>
+    <item id="o8" line="7659" tag="T">         `As I said, the ancestors of Madame founded this abbey which still hasn't a</item>
+    <item id="o9" line="7660" tag="T">         name.'</item>
+    <item id="o10" line="7661" tag="M+AC">                                                       (Vance 1997, 284: Saintré 244, 12)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7652" tag="L+SY">Comme j'ay dit, [cest abbaye qui     n'a cy point de nom] i les</item>
+    <item id="c3" line="7654" tag="G+CR">as</item>
+    <item id="c4" line="7655" tag="B"/>
+    <item id="c5" line="7656" tag="L">predecesseurs de Madame lai fondirent .</item>
+    <item id="c6" line="7657" tag="G">predecessors of Madame iti founded</item>
+    <item id="c7" line="7658" tag="B"/>
+    <item id="c8" line="7659" tag="T">As I said, the ancestors of Madame founded this abbey which still hasn't a</item>
+    <item id="c9" line="7660" tag="T">name.</item>
+    <item id="c10" line="7661" tag="M+AC">Vance 1997, 284: Saintré 244, 12</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+    <item id="p1" content="c5[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:2]" alignment="p1"/>
+    <item id="g1" content="c6[0:34]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:74]" alignment="p2"/>
+    <item id="t1" content="c9[0:5]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i94530">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7663-7670" line-types="L+SY G+SY B L G+AC B T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7663" tag="L+SY">  (21)   Et [l'entreprisei qu'il avoit sur icelle place] i il fist savoir eci au roy</item>
+    <item id="o2" line="7664" tag="G+SY">         and [the design that he had on this place] i he made to-know eci to-the king</item>
+    <item id="o3" line="7665" tag="B"></item>
+    <item id="o4" line="7666" tag="L">         d'Angleterre</item>
+    <item id="o5" line="7667" tag="G+AC">         of England                                            (Écrits politiques II, 231, 20)</item>
+    <item id="o6" line="7668" tag="B"></item>
+    <item id="o7" line="7669" tag="T">         `And he made it known to the king of England the design that he had on this</item>
+    <item id="o8" line="7670" tag="T">         place'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7663" tag="L+SY">Et [l'entreprisei qu'il avoit sur icelle place] i il fist savoir eci au roy</item>
+    <item id="c2" line="7664" tag="G+SY">and [the design that he had on this place] i he made to-know eci to-the king</item>
+    <item id="c3" line="7665" tag="B"/>
+    <item id="c4" line="7666" tag="L">d'Angleterre</item>
+    <item id="c5" line="7667" tag="G+AC">of England                                            (Écrits politiques II, 231, 20)</item>
+    <item id="c6" line="7668" tag="B"/>
+    <item id="c7" line="7669" tag="T">And he made it known to the king of England the design that he had on this</item>
+    <item id="c8" line="7670" tag="T">place</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+    <item id="p1" content="c4[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+    <item id="g1" content="c5[0:85]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:74]" alignment="p2"/>
+    <item id="t1" content="c8[0:5]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i94531">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7675-7680" line-types="L+SY B G+SY B T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7675" tag="L+SY">         [Ces 3 petits morceaulx becuz]i, / lesi m'appelez vous pilloueres?</item>
+    <item id="o2" line="7676" tag="B">  (22)</item>
+    <item id="o3" line="7677" tag="G+SY">         [these 3 little morcels black]i themi to-me call you pills</item>
+    <item id="o4" line="7678" tag="B"></item>
+    <item id="o5" line="7679" tag="T">         `These 3 little black things, are you telling me that they're pills?'</item>
+    <item id="o6" line="7680" tag="M+AC">                                                                         (Maistre Pathelin 98)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7675" tag="L+SY">[Ces 3 petits morceaulx becuz]i, / lesi m'appelez vous pilloueres?</item>
+    <item id="c2" line="7676" tag="B">22</item>
+    <item id="c3" line="7677" tag="G+SY">[these 3 little morcels black]i themi to-me call you pills</item>
+    <item id="c4" line="7678" tag="B"/>
+    <item id="c5" line="7679" tag="T">These 3 little black things, are you telling me that they're pills?</item>
+    <item id="c6" line="7680" tag="M+AC">Maistre Pathelin 98</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:67]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94532">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7682-7685" line-types="L+SY G+SY B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7682" tag="L+SY">  (23)   Cellai ne vous ay je pas dist eci?</item>
+    <item id="o2" line="7683" tag="G+SY">         thisi NEG you have I ADV told eci</item>
+    <item id="o3" line="7684" tag="B"></item>
+    <item id="o4" line="7685" tag="T+AC">         `Did I not tell you this?'                            (Mystère de la Passion 3141)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7682" tag="L+SY">Cellai ne vous ay je pas dist eci?</item>
+    <item id="c2" line="7683" tag="G+SY">thisi NEG you have I ADV told eci</item>
+    <item id="c3" line="7684" tag="B"/>
+    <item id="c4" line="7685" tag="T+AC">Did I not tell you this?'                            (Mystère de la Passion 3141)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:81]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94533">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7699-7703" line-types="L+CR+SY L+CR+SY G+SY T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7699" tag="L+CR+SY">                        que je vous envoie a present] i, voelliés        lei   prendre en gré</item>
+    <item id="o2" line="7700" tag="L+CR+SY">  (24)   et [celi</item>
+    <item id="o3" line="7701" tag="G+SY">         and [that-one that I to-you send at present] i (you) want SUBJ iti    to-take at will</item>
+    <item id="o4" line="7702" tag="T">         `and that which I am sending you at present, please accept willingl   y'</item>
+    <item id="o5" line="7703" tag="M+AC">                                                          (Härmä 1993, 720:    La Prison 103)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7699 7700" tag="L+CR+SY">et [celi       que je vous envoie a present] i, voelliés        lei   prendre en gré</item>
+    <item id="c3" line="7701" tag="G+SY">and [that-one that I to-you send at present] i (you) want SUBJ iti    to-take at will</item>
+    <item id="c4" line="7702" tag="T">and that which I am sending you at present, please accept willingl   y</item>
+    <item id="c5" line="7703" tag="M+AC">Härmä 1993, 720:    La Prison 103</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:85]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:70]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94534">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7705-7708" line-types="L+SY G+SY T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7705" tag="L+SY">  (25)   [Les maus que          avés fais] i, metés en oublier eci .</item>
+    <item id="o2" line="7706" tag="G+SY">         [the wrongs that (you) have done] i put IMP to to-forget eci</item>
+    <item id="o3" line="7707" tag="T">         `The wrongs that you have done, try to forget.'</item>
+    <item id="o4" line="7708" tag="M+AC">                                         (Härmä 1990, 175: La Chanson d'Antioche 7190)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7705" tag="L+SY">[Les maus que          avés fais] i, metés en oublier eci .</item>
+    <item id="c2" line="7706" tag="G+SY">[the wrongs that (you) have done] i put IMP to to-forget eci</item>
+    <item id="c3" line="7707" tag="T">The wrongs that you have done, try to forget.</item>
+    <item id="c4" line="7708" tag="M+AC">Härmä 1990, 175: La Chanson d'Antioche 7190</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94535">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7710-7713" line-types="L+SY G+SY T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7710" tag="L+SY">  (26)   [Les maus que        avés    fais] i, pensés   de l i'amender.</item>
+    <item id="o2" line="7711" tag="G+SY">         [the wrongs that (you) have done] i, think IMP of it i to-amend</item>
+    <item id="o3" line="7712" tag="T">         `Think about amending the wrongs that you have done'</item>
+    <item id="o4" line="7713" tag="M+AC">                                   (Härmä 1990, 175: La Chanson d'Antioche 7190 ms C)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7710" tag="L+SY">[Les maus que        avés    fais] i, pensés   de l i'amender.</item>
+    <item id="c2" line="7711" tag="G+SY">[the wrongs that (you) have done] i, think IMP of it i to-amend</item>
+    <item id="c3" line="7712" tag="T">Think about amending the wrongs that you have done</item>
+    <item id="c4" line="7713" tag="M+AC">Härmä 1990, 175: La Chanson d'Antioche 7190 ms C</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94536">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7785-7789" line-types="L+CR+SY L+CR G+SY T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7785" tag="L+CR+SY">             [Cels qu' ils unt mort]i, ben les i poet hom priser.</item>
+    <item id="o2" line="7786" tag="L+CR">  (27)</item>
+    <item id="o3" line="7787" tag="G+SY">             [those that they have killed] i well they i could one to-praise</item>
+    <item id="o4" line="7788" tag="T">             `Those that they killed, one could praise indeed.'</item>
+    <item id="o5" line="7789" tag="M+AC">                                                                 (Priestly 1955, 10: Roland 1683)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7785 7786" tag="L+CR+SY">[Cels qu' ils unt mort]i, ben les i poet hom priser.</item>
+    <item id="c3" line="7787" tag="G+SY">[those that they have killed] i well they i could one to-praise</item>
+    <item id="c4" line="7788" tag="T">Those that they killed, one could praise indeed.</item>
+    <item id="c5" line="7789" tag="M+AC">Priestly 1955, 10: Roland 1683</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94537">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="7804-7816" line-types="L+CR+SY L+CR+SY G+SY B L+SY G+SY B L G B T T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7804" tag="L+CR+SY">                                   danssoient, [le petit Saintré]i les yeux de Madame</item>
+    <item id="o2" line="7805" tag="L+CR+SY">  (28)   Et endementiers qu'ilz</item>
+    <item id="o3" line="7806" tag="G+SY">         and while      that they were-dancing [the little Saintré] i the eyes of Madame</item>
+    <item id="o4" line="7807" tag="B"></item>
+    <item id="o5" line="7808" tag="L+SY">         ne   cessoient de regarder ec i, tant         danssoit     et chantoit</item>
+    <item id="o6" line="7809" tag="G+SY">         NEG were-ceasing of to-look ec i so much (he) was-dancing and was-singing</item>
+    <item id="o7" line="7810" tag="B"></item>
+    <item id="o8" line="7811" tag="L">         bien</item>
+    <item id="o9" line="7812" tag="G">         well</item>
+    <item id="o10" line="7813" tag="B"></item>
+    <item id="o11" line="7814" tag="T">         `And while they danced, Madame's eyes did not cease to look at the young</item>
+    <item id="o12" line="7815" tag="T">         Saintré, so well did he sing and dance'</item>
+    <item id="o13" line="7816" tag="M+AC">                                                     (Vance 1997, 283 : Saintré 55, 32)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7804 7805" tag="L+CR+SY">Et endementiers qu'ilz    danssoient, [le petit Saintré]i les yeux de Madame</item>
+    <item id="c3" line="7806" tag="G+SY">and while      that they were-dancing [the little Saintré] i the eyes of Madame</item>
+    <item id="c4" line="7807" tag="B"/>
+    <item id="c5" line="7808" tag="L+SY">ne   cessoient de regarder ec i, tant         danssoit     et chantoit</item>
+    <item id="c6" line="7809" tag="G+SY">NEG were-ceasing of to-look ec i so much (he) was-dancing and was-singing</item>
+    <item id="c7" line="7810" tag="B"/>
+    <item id="c8" line="7811" tag="L">bien</item>
+    <item id="c9" line="7812" tag="G">well</item>
+    <item id="c10" line="7813" tag="B"/>
+    <item id="c11" line="7814" tag="T">And while they danced, Madame's eyes did not cease to look at the young</item>
+    <item id="c12" line="7815" tag="T">Saintré, so well did he sing and dance</item>
+    <item id="c13" line="7816" tag="M+AC">Vance 1997, 283 : Saintré 55, 32</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+    <item id="p1" content="c5[0:70]"/>
+    <item id="p2" content="c8[0:4]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:79]" alignment="p1"/>
+    <item id="g1" content="c6[0:73]" alignment="p2"/>
+    <item id="g2" content="c9[0:4]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c11[0:71]" alignment="p3"/>
+    <item id="t1" content="c12[0:38]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i94546">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="8326-8335" line-types="L+SY L G+SY B L+SY G+SY B T T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8326" tag="L+SY">         et quant ilz lesi delivrent, ilz ne usent point de ces mots `remettons</item>
+    <item id="o2" line="8327" tag="L">  (40)</item>
+    <item id="o3" line="8328" tag="G+SY">         and when they themi deliver, they NEG use ADV of these words `(we) deliver</item>
+    <item id="o4" line="8329" tag="B"></item>
+    <item id="o5" line="8330" tag="L+SY">         proj et pardonnons proj', mais seulement mettent    `avons pugny proj'.</item>
+    <item id="o6" line="8331" tag="G+SY">         proj and (we) forgive proj' but   only (they) put `(we) have punished proj'</item>
+    <item id="o7" line="8332" tag="B"></item>
+    <item id="o8" line="8333" tag="T">         `and when they pass them (the sentences), they do not use the words `we deliver</item>
+    <item id="o9" line="8334" tag="T">         and forgive him', rather they only put `we have punished him'.</item>
+    <item id="o10" line="8335" tag="M+AC">                                                             (Écrits politiques II 415, l.25)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8326" tag="L+SY">et quant ilz lesi delivrent, ilz ne usent point de ces mots `remettons</item>
+    <item id="c2" line="8327" tag="L">40</item>
+    <item id="c3" line="8328" tag="G+SY">and when they themi deliver, they NEG use ADV of these words `(we) deliver</item>
+    <item id="c4" line="8329" tag="B"/>
+    <item id="c5" line="8330" tag="L+SY">proj et pardonnons proj', mais seulement mettent    `avons pugny proj'.</item>
+    <item id="c6" line="8331" tag="G+SY">proj and (we) forgive proj' but   only (they) put `(we) have punished proj</item>
+    <item id="c7" line="8332" tag="B"/>
+    <item id="c8" line="8333" tag="T">and when they pass them (the sentences), they do not use the words `we deliver</item>
+    <item id="c9" line="8334" tag="T">and forgive him', rather they only put `we have punished him'.</item>
+    <item id="c10" line="8335" tag="M+AC">Écrits politiques II 415, l.25</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+    <item id="p1" content="c2[0:2]"/>
+    <item id="p2" content="c5[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:74]" alignment="p2"/>
+    <item id="g1" content="c6[0:74]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:78]" alignment="p3"/>
+    <item id="t1" content="c9[0:62]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i94547">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="8348-8350" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8348" tag="L">         Janyn, as tu fait pro?</item>
+    <item id="o2" line="8349" tag="G">         Janyn, have you done pro</item>
+    <item id="o3" line="8350" tag="T+AC">         `Janyn, did you do it?'                                         (Manière 6, l.34)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8348" tag="L">Janyn, as tu fait pro?</item>
+    <item id="c2" line="8349" tag="G">Janyn, have you done pro</item>
+    <item id="c3" line="8350" tag="T+AC">Janyn, did you do it?'                                         (Manière 6, l.34)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:80]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94548">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="8355-8362" line-types="L+EX G+EX B L+EX G+EX B T+EX T+AC+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8355" tag="L+EX">  (42)   -Maîtrisez-vous vos interviewsi? C'est capital, les interviews.</item>
+    <item id="o2" line="8356" tag="G+EX">         -control you your interviewsi it's important, the interviews</item>
+    <item id="o3" line="8357" tag="B"></item>
+    <item id="o4" line="8358" tag="L+EX">         -Je maîtrise proi.</item>
+    <item id="o5" line="8359" tag="G+EX">         -I control proi</item>
+    <item id="o6" line="8360" tag="B"></item>
+    <item id="o7" line="8361" tag="T+EX">         -`Do you control your interviews? Interviews are very important.</item>
+    <item id="o8" line="8362" tag="T+AC+EX">         -I control them.'                                         (Larjavaara 2000, 50)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8355" tag="L+EX">-Maîtrisez-vous vos interviewsi? C'est capital, les interviews.</item>
+    <item id="c2" line="8356" tag="G+EX">-control you your interviewsi it's important, the interviews</item>
+    <item id="c3" line="8357" tag="B"/>
+    <item id="c4" line="8358" tag="L+EX">-Je maîtrise proi.</item>
+    <item id="c5" line="8359" tag="G+EX">-I control proi</item>
+    <item id="c6" line="8360" tag="B"/>
+    <item id="c7" line="8361" tag="T+EX">-`Do you control your interviews? Interviews are very important.</item>
+    <item id="c8" line="8362" tag="T+AC+EX">-I control them.'                                         (Larjavaara 2000, 50)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+    <item id="p1" content="c4[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+    <item id="g1" content="c5[0:15]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:64]" alignment="p2"/>
+    <item id="t1" content="c8[0:79]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i94549">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="8365-8367" line-types="L+SY G+AC+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8365" tag="L+SY">         Je laisse proi ici?</item>
+    <item id="o2" line="8366" tag="G+AC+SY">         I leave proi here                                   (Lambrecht &amp; Lemoine 1996, 301)</item>
+    <item id="o3" line="8367" tag="T">         `I'll leave it here?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8365" tag="L+SY">Je laisse proi ici?</item>
+    <item id="c2" line="8366" tag="G+AC+SY">I leave proi here                                   (Lambrecht &amp; Lemoine 1996, 301)</item>
+    <item id="c3" line="8367" tag="T">I'll leave it here?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:83]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94550">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="8372-8379" line-types="L+SY G+SY B L+SY G+SY B T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8372" tag="L+SY">  (44)   il monta sor son ceval et prent s'amiei devant              lui, baisant proi et</item>
+    <item id="o2" line="8373" tag="G+SY">         he climbed on his horse and took his belovedi in-front      him kissing proi and</item>
+    <item id="o3" line="8374" tag="B"></item>
+    <item id="o4" line="8375" tag="L+SY">         acolant proi.</item>
+    <item id="o5" line="8376" tag="G+SY">         hugging proi</item>
+    <item id="o6" line="8377" tag="B"></item>
+    <item id="o7" line="8378" tag="T">         `he got on his horse and took his beloved in front of him, kissing and hugging her'</item>
+    <item id="o8" line="8379" tag="M+AC">                                           (Donaldson 2004, 4: Aucassin et Nicolette 26.20)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8372" tag="L+SY">il monta sor son ceval et prent s'amiei devant              lui, baisant proi et</item>
+    <item id="c2" line="8373" tag="G+SY">he climbed on his horse and took his belovedi in-front      him kissing proi and</item>
+    <item id="c3" line="8374" tag="B"/>
+    <item id="c4" line="8375" tag="L+SY">acolant proi.</item>
+    <item id="c5" line="8376" tag="G+SY">hugging proi</item>
+    <item id="c6" line="8377" tag="B"/>
+    <item id="c7" line="8378" tag="T">he got on his horse and took his beloved in front of him, kissing and hugging her</item>
+    <item id="c8" line="8379" tag="M+AC">Donaldson 2004, 4: Aucassin et Nicolette 26.20</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+    <item id="p1" content="c4[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:80]" alignment="p1"/>
+    <item id="g1" content="c5[0:12]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:81]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i94551">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="8399-8403" line-types="L+CR L+CR G T T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8399" tag="L+CR">                      dit que l'on aport ses armesi, et an li        aporté proi.</item>
+    <item id="o2" line="8400" tag="L+CR">  (46)   Et    cil</item>
+    <item id="o3" line="8401" tag="G">         and that one said that one bring his weaponsi and one to-him brought proi</item>
+    <item id="o4" line="8402" tag="T">         `And he asked that someone bring him his weapons, and someone brought them</item>
+    <item id="o5" line="8403" tag="T+AC">         to him'                        (Donaldson 2004, 3: Le Roman de Perceval 2138-9)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8399 8400" tag="L+CR">Et    cil    dit que l'on aport ses armesi, et an li        aporté proi.</item>
+    <item id="c3" line="8401" tag="G">and that one said that one bring his weaponsi and one to-him brought proi</item>
+    <item id="c4" line="8402" tag="T">And he asked that someone bring him his weapons, and someone brought them</item>
+    <item id="c5" line="8403" tag="T+AC">to him'                        (Donaldson 2004, 3: Le Roman de Perceval 2138-9)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:73]" alignment="p1"/>
+    <item id="t1" content="c5[0:79]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i94552">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle french" iso-639-3="frm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2828" line-range="8405-8407" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8405" tag="L">  (47)   J'étais où quand tu lui avais donné proi?</item>
+    <item id="o2" line="8406" tag="G">         I was where when you to-him had given proi</item>
+    <item id="o3" line="8407" tag="T+AC">         `Where was I when you gave it to him?'               (Cummins &amp; Roberge 2003, 4)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8405" tag="L">J'étais où quand tu lui avais donné proi?</item>
+    <item id="c2" line="8406" tag="G">I was where when you to-him had given proi</item>
+    <item id="c3" line="8407" tag="T+AC">Where was I when you gave it to him?'               (Cummins &amp; Roberge 2003, 4)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:79]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

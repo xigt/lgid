@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i14374">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cayuga" iso-639-3="cay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3532" line-range="6127-6132" line-types="L+CR+EX L+AC+CR L+CR+AL L+CR+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6127" tag="L+CR+EX">                wakatiw    96</item>
+    <item id="o2" line="6128" tag="L+AC+CR">       (8)                                                               [Michelson &amp; Doxtator, 2002]</item>
+    <item id="o3" line="6129" tag="L+CR+AL">                             atiw-</item>
+    <item id="o4" line="6130" tag="L+CR+AL">                wak-                                Ø</item>
+    <item id="o5" line="6131" tag="G">                1.SG.ACC- buy-                      STAT</item>
+    <item id="o6" line="6132" tag="T">                `I am thin.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6127 6128 6129" tag="L+CR+EX+AC+AL">wakatiw    96atiw-[Michelson &amp; Doxtator, 2002]</item>
+    <item id="c5" line="6131" tag="G">1.SG.ACC-buy-STAT</item>
+    <item id="c6" line="6132" tag="T">I am thin.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63208">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cayuga" iso-639-3="cay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2566" line-range="345-349" line-types="L+CR L+CR L+CR G T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="345" tag="L+CR">           Khyotro:wé: Ohswe:ké ahowati:kwé:ni'</item>
+    <item id="o2" line="346" tag="L+CR"></item>
+    <item id="o3" line="347" tag="L+CR">  (4)                                     ¸</item>
+    <item id="o4" line="348" tag="G">           Buffalo       Six Nations they-beat-them</item>
+    <item id="o5" line="349" tag="T+DB">           `Buffalo beat Six Nations.' or `Six Nations beat Buffalo.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="345 346" tag="L+CR">Khyotro:wé: Ohswe:ké ahowati:kwé:ni</item>
+    <item id="c4" line="348" tag="G">Buffalo       Six Nations they-beat-them</item>
+    <item id="c5" line="349" tag="T+DB">Buffalo beat Six Nations.' or `Six Nations beat Buffalo.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:56]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63757">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cayuga" iso-639-3="cay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2558" line-range="418-421" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="418" tag="M+AC+LN">  Cayuga (Sasse 1993b: 657)</item>
+    <item id="o2" line="419" tag="L">  (31) a-hó-hto:'                          ho-tkwe't-a'            ne:kyé h-okweh</item>
+    <item id="o3" line="420" tag="G">       PAST-it:to_him-become_lost          it:him-wallet-be        this   he:it-man</item>
+    <item id="o4" line="421" tag="T">       `This man lost his wallet'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="418" tag="M+AC+LN">Cayuga (Sasse 1993b: 657)</item>
+    <item id="c2" line="419" tag="L">a-hó-hto:'                          ho-tkwe't-a'            ne:kyé h-okweh</item>
+    <item id="c3" line="420" tag="G">PAST-it:to_him-become_lost          it:him-wallet-be        this   he:it-man</item>
+    <item id="c4" line="421" tag="T">This man lost his wallet</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i154125">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cayuga" iso-639-3="cay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="505" line-range="3889-3891" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3889" tag="L">  (1)   h-okwe-h</item>
+    <item id="o2" line="3890" tag="G">        KA-man-STAT</item>
+    <item id="o3" line="3891" tag="T">        `(he is) a man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3889" tag="L">h-okwe-h</item>
+    <item id="c2" line="3890" tag="G">KA-man-STAT</item>
+    <item id="c3" line="3891" tag="T">(he is) a man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i154126">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cayuga" iso-639-3="cay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="505" line-range="3893-3895" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3893" tag="L">  (2)   ha-kowane-h</item>
+    <item id="o2" line="3894" tag="G">        KA-big-STAT</item>
+    <item id="o3" line="3895" tag="T">        `he is big'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3893" tag="L">ha-kowane-h</item>
+    <item id="c2" line="3894" tag="G">KA-big-STAT</item>
+    <item id="c3" line="3895" tag="T">he is big</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i154127">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cayuga" iso-639-3="cay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="505" line-range="3897-3899" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3897" tag="L">  (3)   ha-tetse?-s</item>
+    <item id="o2" line="3898" tag="G">        KA-heal-STAT</item>
+    <item id="o3" line="3899" tag="T">        `he habitually heals', `(he is a) doctor' [ONT 14]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3897" tag="L">ha-tetse?-s</item>
+    <item id="c2" line="3898" tag="G">KA-heal-STAT</item>
+    <item id="c3" line="3899" tag="T">he habitually heals', `(he is a) doctor' [ONT 14]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i154128">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cayuga" iso-639-3="cay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="505" line-range="3901-3903" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3901" tag="L">  (4)   e-k-hni:no-'</item>
+    <item id="o2" line="3902" tag="G">        FUT-KA-buy-STAT</item>
+    <item id="o3" line="3903" tag="T">        `I will buy (it)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3901" tag="L">e-k-hni:no-</item>
+    <item id="c2" line="3902" tag="G">FUT-KA-buy-STAT</item>
+    <item id="c3" line="3903" tag="T">I will buy (it)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

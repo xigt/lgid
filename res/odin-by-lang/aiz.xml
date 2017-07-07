@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i73445">
+  <metadata type="xigt-meta">
+    <meta type="language" name="aari" iso-639-3="aiz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="2050-2052" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2050" tag="L">  (177) a. ÷eedín keené</item>
+    <item id="o2" line="2051" tag="G">                people DEM.PLUR</item>
+    <item id="o3" line="2052" tag="T">                `these people'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2050" tag="L">÷eedín keené</item>
+    <item id="c2" line="2051" tag="G">people DEM.PLUR</item>
+    <item id="c3" line="2052" tag="T">these people</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73446">
+  <metadata type="xigt-meta">
+    <meta type="language" name="aari" iso-639-3="aiz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="2053-2055" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2053" tag="L">            b. keené            ÷aksí dónq-ine-m</item>
+    <item id="o2" line="2054" tag="G">                DEM.PLUR dog five-DEF-ACC</item>
+    <item id="o3" line="2055" tag="T">                `these five dogs'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2053" tag="L">keené            ÷aksí dónq-ine-m</item>
+    <item id="c2" line="2054" tag="G">DEM.PLUR dog five-DEF-ACC</item>
+    <item id="c3" line="2055" tag="T">these five dogs</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

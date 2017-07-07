@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i11293">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bare" iso-639-3="bae" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2495" line-range="30-32" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="30" tag="L+LN">      (b) nu-khniñani         hme-muduka-na-ka b      babuka Varela abi       Bare</item>
+    <item id="o2" line="31" tag="G">          1P-people           3P-kill-PFV-SEQ     you around Varela with</item>
+    <item id="o3" line="32" tag="T">          "My people shot at you because of Varela."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="30" tag="L+LN">nu-khniñani         hme-muduka-na-ka b      babuka Varela abi       Bare</item>
+    <item id="c2" line="31" tag="G">1P-people           3P-kill-PFV-SEQ     you around Varela with</item>
+    <item id="c3" line="32" tag="T">My people shot at you because of Varela.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i33291">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bare" iso-639-3="bae" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2056" line-range="114-115" line-types="M+AC+LN L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="114" tag="M+AC+LN">       b. Bare (Aikhenvald 1995: 25)</item>
+    <item id="o2" line="115" tag="L-T+DB">           ne `who/what', abadi `which', awati `where', ika `how'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="114" tag="M+AC+LN">Bare (Aikhenvald 1995: 25)</item>
+    <item id="c2" line="115" tag="L-T+DB">ne `who/what', abadi `which', awati `where', ika `how</item>
+  </tier>
+</igt>
+</xigt-corpus>

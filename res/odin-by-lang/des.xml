@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i118917">
+  <metadata type="xigt-meta">
+    <meta type="language" name="desano" iso-639-3="des" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2697" line-range="64-68" line-types="M+AC+LN L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="64" tag="M+AC+LN">  Desano (Miller 1999: 73)</item>
+    <item id="o2" line="65" tag="L+CR">           y-re</item>
+    <item id="o3" line="66" tag="L+CR">  (1)                    karta goha-beo-ke.</item>
+    <item id="o4" line="67" tag="G">           1.SG-SPEC.OBJ letter write-send-IMP</item>
+    <item id="o5" line="68" tag="T">           `Do write and send me a letter!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="64" tag="M+AC+LN">Desano (Miller 1999: 73)</item>
+    <item id="c2" line="65 66" tag="L+CR">y-re          karta goha-beo-ke.</item>
+    <item id="c4" line="67" tag="G">1.SG-SPEC.OBJ letter write-send-IMP</item>
+    <item id="c5" line="68" tag="T">Do write and send me a letter!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118918">
+  <metadata type="xigt-meta">
+    <meta type="language" name="desano" iso-639-3="des" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2697" line-range="69-72" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="69" tag="L+CR">           gua-rã</item>
+    <item id="o2" line="70" tag="L+CR">  (2)                          wa-rã</item>
+    <item id="o3" line="71" tag="G">           bath-ANIM.PL        go-HORT</item>
+    <item id="o4" line="72" tag="T">           `Let's go bathe!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="69 70" tag="L+CR">gua-rã             wa-rã</item>
+    <item id="c3" line="71" tag="G">bath-ANIM.PL        go-HORT</item>
+    <item id="c4" line="72" tag="T">Let's go bathe!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118919">
+  <metadata type="xigt-meta">
+    <meta type="language" name="desano" iso-639-3="des" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2697" line-range="73-75" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="73" tag="L">  (3)      ã-si</item>
+    <item id="o2" line="74" tag="G">           see-SUPPL</item>
+    <item id="o3" line="75" tag="T">           `May I see it?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="73" tag="L">ã-si</item>
+    <item id="c2" line="74" tag="G">see-SUPPL</item>
+    <item id="c3" line="75" tag="T">May I see it?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:4]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:9]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

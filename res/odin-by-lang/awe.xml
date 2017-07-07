@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i98590">
+  <metadata type="xigt-meta">
+    <meta type="language" name="awetí" iso-639-3="awe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="9132-9135" line-types="M+AC+LN L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9132" tag="M+AC+LN">  (16) Awetí (Drude 2001)</item>
+    <item id="o2" line="9133" tag="L+DB">  a.   i-mpyt                            b.       i-katu</item>
+    <item id="o3" line="9134" tag="G+DB">       1-child                                    1-be.good</item>
+    <item id="o4" line="9135" tag="T+DB">       `my child', `I have a child'               `I am good'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9132" tag="M+AC+LN">Awetí (Drude 2001</item>
+    <item id="c2" line="9133" tag="L+DB">i-mpyt                            b.       i-katu</item>
+    <item id="c3" line="9134" tag="G+DB">1-child                                    1-be.good</item>
+    <item id="c4" line="9135" tag="T+DB">my child', `I have a child'               `I am good</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98591">
+  <metadata type="xigt-meta">
+    <meta type="language" name="awetí" iso-639-3="awe" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="9136-9138" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9136" tag="L+DB">  c.   an i-mpyr-yka                     d.       i-mpyr-eju</item>
+    <item id="o2" line="9137" tag="G+DB">       NEG 1-child-NEG                            1-child-PROG</item>
+    <item id="o3" line="9138" tag="T+DB">       `I don't have a child.'                    `I am pregnant.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9136" tag="L+DB">an i-mpyr-yka                     d.       i-mpyr-eju</item>
+    <item id="c2" line="9137" tag="G+DB">NEG 1-child-NEG                            1-child-PROG</item>
+    <item id="c3" line="9138" tag="T+DB">I don't have a child.'                    `I am pregnant.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i102380">
+  <metadata type="xigt-meta">
+    <meta type="language" name="rembarunga" iso-639-3="rmb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1310" line-range="516-518" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="516" tag="L">  (14) a.          a- n-     pa- na</item>
+    <item id="o2" line="517" tag="G">                 me- ACC- they- saw</item>
+    <item id="o3" line="518" tag="T">                 `They saw me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="516" tag="L">a-n-pa-na</item>
+    <item id="c2" line="517" tag="G">me-ACC-they-saw</item>
+    <item id="c3" line="518" tag="T">They saw me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i102381">
+  <metadata type="xigt-meta">
+    <meta type="language" name="rembarunga" iso-639-3="rmb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1310" line-range="519-521" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="519" tag="L">         b.      pa-     a- na</item>
+    <item id="o2" line="520" tag="G">                 they- me- saw</item>
+    <item id="o3" line="521" tag="T">                 `I saw them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="519" tag="L">pa-a-na</item>
+    <item id="c2" line="520" tag="G">they-me-saw</item>
+    <item id="c3" line="521" tag="T">I saw them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150745">
+  <metadata type="xigt-meta">
+    <meta type="language" name="rembarrnga" iso-639-3="rmb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2398" line-range="1847-1849" line-types="L G+LN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1847" tag="L">  (38)   yandabbarrama kek-kuwah yarranbayabbah-yawminj.</item>
+    <item id="o2" line="1848" tag="G+LN">  Rem    we two          uncle-DYAD 3pl/1du-spearPP</item>
+    <item id="o3" line="1849" tag="T">         `Us two, uncle and nephew, they threw spears at us.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1847" tag="L">yandabbarrama kek-kuwah yarranbayabbah-yawminj.</item>
+    <item id="c2" line="1848" tag="G+LN">Rem    we two          uncle-DYAD 3pl/1du-spearPP</item>
+    <item id="c3" line="1849" tag="T">Us two, uncle and nephew, they threw spears at us.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

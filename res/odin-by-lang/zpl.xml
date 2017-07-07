@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i46109">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lachixío zapotec" iso-639-3="zpl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="339" line-range="30-33" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="30" tag="L+CR">                                                                        ¡Chenu aca eliñi xadañi ra!</item>
+    <item id="o2" line="31" tag="L+CR">            (1) ­¿Xi bichia cua'ane?­ nilla.</item>
+    <item id="o3" line="32" tag="G">                 what day   place-3I  S-say-3R                           when is   fiesta Rincon !</item>
+    <item id="o4" line="33" tag="T">                   `­What day will it happen?­ he said. ­When the fiesta of Rincon begins!­'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="30 31" tag="L+CR">­¿Xi bichia cua'ane?­ nilla.                         ¡Chenu aca eliñi xadañi ra!</item>
+    <item id="c3" line="32" tag="G">what day   place-3I  S-say-3R                           when is   fiesta Rincon !</item>
+    <item id="c4" line="33" tag="T">­What day will it happen?­ he said. ­When the fiesta of Rincon begins!­</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:81]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:71]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i46110">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lachixío zapotec" iso-639-3="zpl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="339" line-range="52-55" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="52" tag="L+CR">                          le rii!</item>
+    <item id="o2" line="53" tag="L+CR">        (2) ¡Neí'ca'</item>
+    <item id="o3" line="54" tag="G">             that's.right 2SG !!</item>
+    <item id="o4" line="55" tag="T">            `O! You're right!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="52 53" tag="L+CR">¡Neí'ca'    le rii!</item>
+    <item id="c3" line="54" tag="G">that's.right 2SG !!</item>
+    <item id="c4" line="55" tag="T">O! You're right!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i46111">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lachixío zapotec" iso-639-3="zpl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="339" line-range="58-61" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="58" tag="L+CR">                                   la?</item>
+    <item id="o2" line="59" tag="L+CR">        (3) ¿Ni arqui lálu</item>
+    <item id="o3" line="60" tag="G">             S-say heart more-2SG ?</item>
+    <item id="o4" line="61" tag="T">            `Would you like more?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="58 59" tag="L+CR">¿Ni arqui lálu       la?</item>
+    <item id="c3" line="60" tag="G">S-say heart more-2SG ?</item>
+    <item id="c4" line="61" tag="T">Would you like more?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i46112">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lachixío zapotec" iso-639-3="zpl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="339" line-range="64-66" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="64" tag="L">        (4) ¿A ri'ilu    beya' xi     uri'i xeyua?</item>
+    <item id="o2" line="65" tag="G">             ? H-do-2SG know what C-do uncle-1SG</item>
+    <item id="o3" line="66" tag="T">            `Do you know what my uncle made?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="64" tag="L">¿A ri'ilu    beya' xi     uri'i xeyua?</item>
+    <item id="c2" line="65" tag="G">? H-do-2SG know what C-do uncle-1SG</item>
+    <item id="c3" line="66" tag="T">Do you know what my uncle made?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i46113">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lachixío zapotec" iso-639-3="zpl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="339" line-range="69-77" line-types="L G+CR G+CR B L G B T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="69" tag="L">        (5) ­¿Xie'     la aca nu lu' uya lálu             nu cha' lálu         stucu?­</item>
+    <item id="o2" line="70" tag="G+CR">                       no P-be and there C-go already-2SG and P-go already-2SG another-one</item>
+    <item id="o3" line="71" tag="G+CR">               DOUBT</item>
+    <item id="o4" line="72" tag="B"></item>
+    <item id="o5" line="73" tag="L">                 ninchu lu niyu.</item>
+    <item id="o6" line="74" tag="G">                 S-say-3F face man</item>
+    <item id="o7" line="75" tag="B"></item>
+    <item id="o8" line="76" tag="T">             `­You didn't just go there and now you're going to go again?­</item>
+    <item id="o9" line="77" tag="T">                she said to the man.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="69" tag="L">­¿Xie'     la aca nu lu' uya lálu             nu cha' lálu         stucu?­</item>
+    <item id="c2" line="70 71" tag="G+CR">DOUBT   no P-be and there C-go already-2SG and P-go already-2SG another-one</item>
+    <item id="c4" line="72" tag="B"/>
+    <item id="c5" line="73" tag="L">ninchu lu niyu.</item>
+    <item id="c6" line="74" tag="G">S-say-3F face man</item>
+    <item id="c7" line="75" tag="B"/>
+    <item id="c8" line="76" tag="T">­You didn't just go there and now you're going to go again?­</item>
+    <item id="c9" line="77" tag="T">she said to the man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+    <item id="p1" content="c5[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:75]" alignment="p1"/>
+    <item id="g1" content="c6[0:17]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:60]" alignment="p2"/>
+    <item id="t1" content="c9[0:20]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i46114">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lachixío zapotec" iso-639-3="zpl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="339" line-range="82-85" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="82" tag="L+CR">                       che ri'.</item>
+    <item id="o2" line="83" tag="L+CR">        (6) Nzi'a</item>
+    <item id="o3" line="84" tag="G">             H-go-1SG now EXPECTS.NEG</item>
+    <item id="o4" line="85" tag="T">            `I'm going now, is that all right with you?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="82 83" tag="L+CR">Nzi'a      che ri'.</item>
+    <item id="c3" line="84" tag="G">H-go-1SG now EXPECTS.NEG</item>
+    <item id="c4" line="85" tag="T">I'm going now, is that all right with you?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

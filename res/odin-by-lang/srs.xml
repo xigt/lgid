@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i874">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sarcee" iso-639-3="srs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2990" line-range="4680-4685" line-types="L G M T M M+AC+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4680" tag="L">     (23) a. [dítòo       dóó-?ì]          iná áání-là</item>
+    <item id="o2" line="4681" tag="G">              own.father own.mother.DET she.told</item>
+    <item id="o3" line="4682" tag="M">                                                                                    (26) a. [John and Mary ] were carrying four baskets</item>
+    <item id="o4" line="4683" tag="T">             'She tol d her father and mother'</item>
+    <item id="o5" line="4684" tag="M">                                                                                         a.' John was carrying four baskets and Mar y was carrying</item>
+    <item id="o6" line="4685" tag="M+AC+CR">                                (Cook 1984:87, cited in Mithu n 1988:339)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4680" tag="L">[dítòo       dóó-?ì]          iná áání-là</item>
+    <item id="c2" line="4681" tag="G">own.father own.mother.DET she.told</item>
+    <item id="c3" line="4682" tag="M">[John and Mary ] were carrying four baskets</item>
+    <item id="c4" line="4683" tag="T">She tol d her father and mother</item>
+    <item id="c5" line="4684 4685" tag="M+AC+CR">(Cook 1984:87, cited in Mithu n 1988:339)                a.' John was carrying four baskets and Mar y was carrying</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i875">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sarcee" iso-639-3="srs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2990" line-range="4687-4692" line-types="L M G M T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4687" tag="L">          b. [tcágúá k'ìyìdj í istlá     ka-àhflà] kàdïla-là</item>
+    <item id="o2" line="4688" tag="M">                                                                                          b. The glass is [red and blue]</item>
+    <item id="o3" line="4689" tag="G">              weasel coat      legging   shoe-with he.brought.out</item>
+    <item id="o4" line="4690" tag="M">                                                                                          b. ' The glass is red and the glass is blue</item>
+    <item id="o5" line="4691" tag="T">             'He brought out weasel      coats, leggings, and shoes.'</item>
+    <item id="o6" line="4692" tag="M+AC">                                (Cook    1984:96, cited in Mithu n 1988:339)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4687" tag="L">[tcágúá k'ìyìdj í istlá     ka-àhflà] kàdïla-là</item>
+    <item id="c2" line="4688" tag="M">The glass is [red and blue]</item>
+    <item id="c3" line="4689" tag="G">weasel coat      legging   shoe-with he.brought.out</item>
+    <item id="c4" line="4690" tag="M">' The glass is red and the glass is blue</item>
+    <item id="c5" line="4691" tag="T">He brought out weasel      coats, leggings, and shoes.</item>
+    <item id="c6" line="4692" tag="M+AC">Cook    1984:96, cited in Mithu n 1988:339</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i876">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sarcee" iso-639-3="srs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2990" line-range="4704-4708" line-types="L M G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4704" tag="L">    (24) mì kè lè tà / *trà</item>
+    <item id="o2" line="4705" tag="M">                                                                                  First, this woul d constitute a problem if the properties of the coordinated</item>
+    <item id="o3" line="4706" tag="G">         I and he sit.SG / sit.PL</item>
+    <item id="o4" line="4707" tag="M">                                                                                  sentence were believed to derived from a Boolean operator and. The</item>
+    <item id="o5" line="4708" tag="T">          and he sit.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4704" tag="L">mì kè lè tà / *trà</item>
+    <item id="c2" line="4705" tag="M">First, this woul d constitute a problem if the properties of the coordinated</item>
+    <item id="c3" line="4706" tag="G">I and he sit.SG / sit.PL</item>
+    <item id="c4" line="4707" tag="M">sentence were believed to derived from a Boolean operator and. The</item>
+    <item id="c5" line="4708" tag="T">and he sit.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18013">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sarcee" iso-639-3="srs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1607" line-range="345-347" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="345" tag="L">  (19) a. ìstlí gútsìs dóóní ìci @ctcùd, gi@ní</item>
+    <item id="o2" line="346" tag="G">          horse scalp       gun     I.capture they.say</item>
+    <item id="o3" line="347" tag="T+AC">          `"I captured horses, scalps, and guns", they say.' (Cook 1984:87)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="345" tag="L">ìstlí gútsìs dóóní ìci @ctcùd, gi@ní</item>
+    <item id="c2" line="346" tag="G">horse scalp       gun     I.capture they.say</item>
+    <item id="c3" line="347" tag="T+AC">I captured horses, scalps, and guns", they say.' (Cook 1984:87)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i77809">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barasano" iso-639-3="bao" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="733-738" line-types="L+CR L+CR L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="733" tag="L+CR">  (46) yu-re</item>
+    <item id="o2" line="734" tag="L+CR">           -             tudi-busa-a-bã</item>
+    <item id="o3" line="735" tag="L">                                -                Ìµdã</item>
+    <item id="o4" line="736" tag="G+CR">                         scold-a.lot-PRES-3PL 3PL</item>
+    <item id="o5" line="737" tag="G+CR">         1SG-OBJ</item>
+    <item id="o6" line="738" tag="T">         `they scolded me a lot'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="733" tag="L+CR">yu-re</item>
+    <item id="c3" line="735" tag="L">-Ìµdã</item>
+    <item id="c4" line="736 737" tag="G+CR">1SG-OBJ         scold-a.lot-PRES-3PL 3PL</item>
+    <item id="c6" line="738" tag="T">they scolded me a lot</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:5]"/>
+    <item id="p1" content="c3[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:40]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:21]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i95293">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barasano" iso-639-3="bao" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2830" line-range="612-621" line-types="M+AC+LN+CR M+CR L+CR L+CR L+CR L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="612" tag="M+AC+LN+CR">                               Barasano    (Tucano,   South America; Jones and Jones 1991)</item>
+    <item id="o2" line="613" tag="M+CR">              (1.10)</item>
+    <item id="o3" line="614" tag="L+CR">                               Gahe-r~b~</item>
+    <item id="o4" line="615" tag="L+CR">                                      ii</item>
+    <item id="o5" line="616" tag="L+CR">                                      --    bota-ri   ke~</item>
+    <item id="o6" line="617" tag="L+CR">                                                       ~ a-kudi-ka-ba</item>
+    <item id="o7" line="618" tag="L+CR">                                                                    ~          ~ a.</item>
+    <item id="o8" line="619" tag="L+CR">                                                                               id ~</item>
+    <item id="o9" line="620" tag="G">                               other-day    post-pl   chop-ITER-FPAST-VIS 3pl (V-ASP-TNS-EVID)</item>
+    <item id="o10" line="621" tag="T">                               `The next   day they   went from place to place chopping down posts.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="612 613" tag="M+AC+LN+CR">Barasano    (Tucano,   South America; Jones and Jones 1991</item>
+    <item id="c3" line="614 617 619" tag="L+CR">Gahe-r~b~               ~ a-kudi-ka-ba          id ~</item>
+    <item id="c9" line="620" tag="G">other-day    post-pl   chop-ITER-FPAST-VIS 3pl (V-ASP-TNS-EVID)</item>
+    <item id="c10" line="621" tag="T">The next   day they   went from place to place chopping down posts.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c9[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:67]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95294">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barasano" iso-639-3="bao" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2830" line-range="622-627" line-types="M+AC+LN+CR M+CR L+CR L+CR G+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="622" tag="M+AC+LN+CR">                               Tiwi (Australia; Osborne 1974)</item>
+    <item id="o2" line="623" tag="M+CR">              (1.11)</item>
+    <item id="o3" line="624" tag="L+CR">                                -ru-unti-apa.</item>
+    <item id="o4" line="625" tag="L+CR">                                       ¯¯</item>
+    <item id="o5" line="626" tag="G+SY">                               1sg-PAST-PROG-eat                                           (TNS-ASP-V)</item>
+    <item id="o6" line="627" tag="T">                               `I was eating.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="622 623" tag="M+AC+LN+CR">Tiwi (Australia; Osborne 1974</item>
+    <item id="c3" line="624" tag="L+CR">-ru-unti-apa.</item>
+    <item id="c5" line="626" tag="G+SY">1sg-PAST-PROG-eat                                           (TNS-ASP-V)</item>
+    <item id="c6" line="627" tag="T">I was eating.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:71]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i142451">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barasano" iso-639-3="bao" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="56" line-range="344-347" line-types="M+AC+LN L+CR G+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="344" tag="M+AC+LN">        e.   Barasano (Tucano, South America; Jones &amp; Jones 1991)</item>
+    <item id="o2" line="345" tag="L+CR"></item>
+    <item id="o3" line="346" tag="G+SY">           other-day post-PL chop-ITER-FPAST-VIS 3pl          (V-ASP-TENSE-EVID)</item>
+    <item id="o4" line="347" tag="T">           `The next day they went from place to place choppin down posts.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="344" tag="M+AC+LN">Barasano (Tucano, South America; Jones &amp; Jones 1991)</item>
+    <item id="c2" line="345" tag="L+CR"/>
+    <item id="c3" line="346" tag="G+SY">other-day post-PL chop-ITER-FPAST-VIS 3pl          (V-ASP-TENSE-EVID)</item>
+    <item id="c4" line="347" tag="T">The next day they went from place to place choppin down posts.</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:69]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:62]"/>
+  </tier>
+</igt>
+</xigt-corpus>

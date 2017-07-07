@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i138633">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="qxo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2153" line-range="3857-3859" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3857" tag="L">  (1)       Kanan-qa marka-man aywa-na-yki-pa                 ranti-n-mi             papa-kuna-ta        alla-shun-na</item>
+    <item id="o2" line="3858" tag="G">            now-TOP town-GOAL go-NOM-2PERS-GEN trade-3PERS-EVID potato-PLUR-OBJ dig-12FUT-NOW</item>
+    <item id="o3" line="3859" tag="T">            `Today, instead of you going to town, we will harvest potatoes.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3857" tag="L">Kanan-qa marka-man aywa-na-yki-pa                 ranti-n-mi             papa-kuna-ta        alla-shun-na</item>
+    <item id="c2" line="3858" tag="G">now-TOP town-GOAL go-NOM-2PERS-GEN trade-3PERS-EVID potato-PLUR-OBJ dig-12FUT-NOW</item>
+    <item id="c3" line="3859" tag="T">Today, instead of you going to town, we will harvest potatoes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:105]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:81]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

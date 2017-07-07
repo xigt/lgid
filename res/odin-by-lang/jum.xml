@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i32178">
+  <metadata type="xigt-meta">
+    <meta type="language" name="olga" iso-639-3="jum" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2040" line-range="445-450" line-types="L+CR L+CR L+CR B G T+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="445" tag="L+CR">                Pukw a ì[L]itPi</item>
+    <item id="o2" line="446" tag="L+CR">                      ci       s cakup 'iixcus</item>
+    <item id="o3" line="447" tag="L+CR">                                            '</item>
+    <item id="o4" line="448" tag="B"></item>
+    <item id="o5" line="449" tag="G">                self-do.to-PST-3 man laugh-make.fun.of</item>
+    <item id="o6" line="450" tag="T+LN">                `A man made fun of himself.'                              Olga Steriopolo, p.c.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="445 447" tag="L+CR">Pukw a ì[L]itPi</item>
+    <item id="c4" line="448" tag="B"/>
+    <item id="c5" line="449" tag="G">self-do.to-PST-3 man laugh-make.fun.of</item>
+    <item id="c6" line="450" tag="T+LN">A man made fun of himself.'                              Olga Steriopolo, p.c.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:78]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

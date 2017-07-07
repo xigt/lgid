@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i63706">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western naskapi" iso-639-3="nsk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2551" line-range="2275-2279" line-types="L+CN B G B T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2275" tag="L+CN">         b. Nichischâyimâw [antâ âtâ-t]                          [Conjunct]</item>
+    <item id="o2" line="2276" tag="B"></item>
+    <item id="o3" line="2277" tag="G">                1-know             there be 3SG</item>
+    <item id="o4" line="2278" tag="B"></item>
+    <item id="o5" line="2279" tag="T+AC+LN">                `I know that he's there'    [Western Naskapi, Brittain 1999, 123]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2275" tag="L+CN">Nichischâyimâw [antâ âtâ-t]                          [Conjunct]</item>
+    <item id="c2" line="2276" tag="B"/>
+    <item id="c3" line="2277" tag="G">1-know             there be 3SG</item>
+    <item id="c4" line="2278" tag="B"/>
+    <item id="c5" line="2279" tag="T+AC+LN">I know that he's there'    [Western Naskapi, Brittain 1999, 123]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

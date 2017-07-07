@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i14576">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sahaptin" iso-639-3="yak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3533" line-range="1264-1266" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1264" tag="L+AC">  (36) tiik'wash-mash ni-ta                        (Rude 1994)</item>
+    <item id="o2" line="1265" tag="G">       cane-2SGl1SG DWgive-FUT</item>
+    <item id="o3" line="1266" tag="T">       '1 shall give you a cane."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1264" tag="L+AC">tiik'wash-mash ni-ta                        (Rude 1994</item>
+    <item id="c2" line="1265" tag="G">cane-2SGl1SG DWgive-FUT</item>
+    <item id="c3" line="1266" tag="T">1 shall give you a cane.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14577">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sahaptin" iso-639-3="yak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3533" line-range="1268-1270" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1268" tag="L">  (37) niipt-nam pA-yk-sha</item>
+    <item id="o2" line="1269" tag="G">       two-2SG iNV-give-FUT</item>
+    <item id="o3" line="1270" tag="T">       'YOUwill give me two.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1268" tag="L">niipt-nam pA-yk-sha</item>
+    <item id="c2" line="1269" tag="G">two-2SG iNV-give-FUT</item>
+    <item id="c3" line="1270" tag="T">YOUwill give me two.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14578">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sahaptin" iso-639-3="yak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3533" line-range="1280-1283" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1280" tag="L">  (38) i-q' intu-sha-as h                    iwinsh-nim</item>
+    <item id="o2" line="1281" tag="G+CR">                                             man-OBV</item>
+    <item id="o3" line="1282" tag="G+CR">       3/NOM/iNV-see-iMPFV-1SG</item>
+    <item id="o4" line="1283" tag="T">       'The man sees me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1280" tag="L">i-q' intu-sha-as h                    iwinsh-nim</item>
+    <item id="c2" line="1281 1282" tag="G+CR">3/NOM/iNV-see-iMPFV-1SG               man-OBV</item>
+    <item id="c4" line="1283" tag="T">The man sees me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14579">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sahaptin" iso-639-3="yak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3533" line-range="1291-1295" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1291" tag="L+CR">                 i-q' inun-a</item>
+    <item id="o2" line="1292" tag="L+CR">  (39) iwinsh                                        wapaanki-n</item>
+    <item id="o3" line="1293" tag="G+CR">                                                     grizziy-OBI</item>
+    <item id="o4" line="1294" tag="G+CR">       man       3/NOM/DIR-see-PAST</item>
+    <item id="o5" line="1295" tag="T">       'The man[prox] saw ihe grizzly[obv].'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1291 1292" tag="L+CR">iwinsh    i-q' inun-a                         wapaanki-n</item>
+    <item id="c3" line="1293 1294" tag="G+CR">man       3/NOM/DIR-see-PAST                  grizziy-OBI</item>
+    <item id="c5" line="1295" tag="T">The man[prox] saw ihe grizzly[obv].</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14580">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sahaptin" iso-639-3="yak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3533" line-range="1297-1300" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1297" tag="L+CR">                                     pch'ïimya-n</item>
+    <item id="o2" line="1298" tag="L+CR">  (40) ku pa-in-a                                      piyap-in</item>
+    <item id="o3" line="1299" tag="G">       and iNV-tell-PAST             wild.cat-OBJ      elder.brother-OBV</item>
+    <item id="o4" line="1300" tag="T">       'And the elder brother[obv] told the wild cat[proa,'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1297 1298" tag="L+CR">ku pa-in-a                    pch'ïimya-n      piyap-in</item>
+    <item id="c3" line="1299" tag="G">and iNV-tell-PAST             wild.cat-OBJ      elder.brother-OBV</item>
+    <item id="c4" line="1300" tag="T">And the elder brother[obv] told the wild cat[proa,</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14581">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sahaptin" iso-639-3="yak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3533" line-range="1312-1316" line-types="L+CR L+CR G M+AC T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1312" tag="L+CR">                                                              miyhash</item>
+    <item id="o2" line="1313" tag="L+CR">  (41) ku iiw kuuk kwnik            i-pfiwan-a</item>
+    <item id="o3" line="1314" tag="G">       and now then there           3lNOM-put-PAST            child</item>
+    <item id="o4" line="1315" tag="M+AC">                                                (Jacobs 1937, in Rude 1994)</item>
+    <item id="o5" line="1316" tag="T+SY">        'And now then she[prox] put îhe child[obvj in there (the cradle board).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1312 1313" tag="L+CR">ku iiw kuuk kwnik            i-pfiwan-a                miyhash</item>
+    <item id="c3" line="1314" tag="G">and now then there           3lNOM-put-PAST            child</item>
+    <item id="c4" line="1315" tag="M+AC">Jacobs 1937, in Rude 1994</item>
+    <item id="c5" line="1316" tag="T+SY">And now then she[prox] put îhe child[obvj in there (the cradle board).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:70]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14582">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sahaptin" iso-639-3="yak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3533" line-range="1319-1327" line-types="L+CR L+CR L+CR L+CR G+CR G+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1319" tag="L+CR">                                                                               miyhiish</item>
+    <item id="o2" line="1320" tag="L+CR">                                               kuush        pfiwan-i</item>
+    <item id="o3" line="1321" tag="L+CR">                                  aw</item>
+    <item id="o4" line="1322" tag="L+CR">  (42) iw-tya-sh            wil</item>
+    <item id="o5" line="1323" tag="G+CR">                                                                               child</item>
+    <item id="o6" line="1324" tag="G+CR">        now-rather-my be                                    put-STAT</item>
+    <item id="o7" line="1325" tag="G+CR">                                             thus</item>
+    <item id="o8" line="1326" tag="G+CR">                                  now</item>
+    <item id="o9" line="1327" tag="T">        'But now rny child is put in (the cradle board).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1319 1320 1321 1322" tag="L+CR">iw-tya-sh            wil   aw           kuush        pfiwan-i           miyhiish</item>
+    <item id="c5" line="1323 1324 1325 1326" tag="G+CR">now-rather-my be          now        thus           put-STAT           child</item>
+    <item id="c9" line="1327" tag="T">But now rny child is put in (the cradle board).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i16121">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northwest sahaptin" iso-639-3="yak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="7693-7696" line-types="M+AC+LN+EX L+DB G+DB T+DB+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7693" tag="M+AC+LN+EX">  (9) NORTHWEST SAHAPTIN MLS            CLAUSES (Rude 1994:103)</item>
+    <item id="o2" line="7694" tag="L+DB">      a. Áw=mas    twána-ta.                           b. Túk'was=mas ní-ta.</item>
+    <item id="o3" line="7695" tag="G+DB">           now-1sA:2sO follow-FUT                        cane=1sA:2sE      give-FUT</item>
+    <item id="o4" line="7696" tag="T+DB+SY">           `I shall follow yous now.'                    `I shall give yous a cane.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7693" tag="M+AC+LN+EX">NORTHWEST SAHAPTIN MLS            CLAUSES (Rude 1994:103</item>
+    <item id="c2" line="7694" tag="L+DB">Áw=mas    twána-ta.                           b. Túk'was=mas ní-ta.</item>
+    <item id="c3" line="7695" tag="G+DB">now-1sA:2sO follow-FUT                        cane=1sA:2sE      give-FUT</item>
+    <item id="c4" line="7696" tag="T+DB+SY">I shall follow yous now.'                    `I shall give yous a cane.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:71]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i16122">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northwest sahaptin" iso-639-3="yak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="7697-7699" line-types="L+DB G+DB T+DB+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7697" tag="L+DB">       c. Ku=nam      áw      pá-yk-sa.                d. Níipt=nam pá-ni-ta.</item>
+    <item id="o2" line="7698" tag="G+DB">           and=2s     now     PÁ-   hear-IPFV            two=2s         PÁ-give-FUT</item>
+    <item id="o3" line="7699" tag="T+DB+SY">           `And now yous hear me.'                       `Yous will give me two.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7697" tag="L+DB">Ku=nam      áw      pá-yk-sa.                d. Níipt=nam pá-ni-ta.</item>
+    <item id="c2" line="7698" tag="G+DB">and=2s     now     PÁ-hear-IPFV            two=2s         PÁ-give-FUT</item>
+    <item id="c3" line="7699" tag="T+DB+SY">And now yous hear me.'                       `Yous will give me two.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i16136">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northwest sahaptin" iso-639-3="yak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="7879-7884" line-types="M+AC+LN+CR+EX M+LN+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7879" tag="M+AC+LN+CR+EX">              HWEST SAHAPTIN PASSIVE CLAUSE (Jacobs 1929, quoted in Rude 1994:105)</item>
+    <item id="o2" line="7880" tag="M+LN+CR">  (16) NORT</item>
+    <item id="o3" line="7881" tag="L+CR">                                             wáwtkwt ku         lk'wí.</item>
+    <item id="o4" line="7882" tag="L+CR">       Ku i-wá-ta            waník-i</item>
+    <item id="o5" line="7883" tag="G">       and 3sS/A-be-FUT      name-STAT       night        and day</item>
+    <item id="o6" line="7884" tag="T">       `And the night and day will be named.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7879 7880" tag="M+AC+LN+CR+EX">NORT   HWEST SAHAPTIN PASSIVE CLAUSE (Jacobs 1929, quoted in Rude 1994:105</item>
+    <item id="c3" line="7881 7882" tag="L+CR">Ku i-wá-ta            waník-i       wáwtkwt ku         lk'wí.</item>
+    <item id="c5" line="7883" tag="G">and 3sS/A-be-FUT      name-STAT       night        and day</item>
+    <item id="c6" line="7884" tag="T">And the night and day will be named.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i16166">
+  <metadata type="xigt-meta">
+    <meta type="language" name="klikitat" iso-639-3="yak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="8431-8436" line-types="M+AC+LN+CR B L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8431" tag="M+AC+LN+CR">  (38) KLIKITAT S   AHAPTIN          (Jacobs 1929, quoted in Rude 1991:42)</item>
+    <item id="o2" line="8432" tag="B"></item>
+    <item id="o3" line="8433" tag="L+CR">                                      wusiyáy-nm.</item>
+    <item id="o4" line="8434" tag="L+CR">       Ku=pat      i-skáaw-a</item>
+    <item id="o5" line="8435" tag="G">       and=3p      3sS/A-scare-PT     Wood.Rat-INV.ERG</item>
+    <item id="o6" line="8436" tag="T">       `Wood Rat scared them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8431" tag="M+AC+LN+CR">KLIKITAT S   AHAPTIN          (Jacobs 1929, quoted in Rude 1991:42</item>
+    <item id="c2" line="8432" tag="B"/>
+    <item id="c3" line="8433 8434" tag="L+CR">Ku=pat      i-skáaw-a         wusiyáy-nm.</item>
+    <item id="c5" line="8435" tag="G">and=3p      3sS/A-scare-PT     Wood.Rat-INV.ERG</item>
+    <item id="c6" line="8436" tag="T">Wood Rat scared them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i69940">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="28-30" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="28" tag="L">  1. Kai  rhatu rako</item>
+    <item id="o2" line="29" tag="G">     3SG. have dog</item>
+    <item id="o3" line="30" tag="T">     `She has a dog'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="28" tag="L">Kai  rhatu rako</item>
+    <item id="c2" line="29" tag="G">3SG. have dog</item>
+    <item id="c3" line="30" tag="T">She has a dog</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69941">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="32-34" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="32" tag="L">  2. Ka'e          ko  oroimu  jo             rhatu ata  mbingu</item>
+    <item id="o2" line="33" tag="G">     sibling.older POSS friend  1SG.LIG COP  person crazy</item>
+    <item id="o3" line="34" tag="T">      'My friend's older  brother is crazy.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="32" tag="L">Ka'e          ko  oroimu  jo             rhatu ata  mbingu</item>
+    <item id="c2" line="33" tag="G">sibling.older POSS friend  1SG.LIG COP  person crazy</item>
+    <item id="c3" line="34" tag="T">My friend's older  brother is crazy.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69942">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="36-38" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="36" tag="L">  3. Rhatu metu mbanambana  rheka tembok</item>
+    <item id="o2" line="37" tag="G">     exist  ant  walk.around  on  wall</item>
+    <item id="o3" line="38" tag="T">    'There is an ant walking around on the wall. '</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="36" tag="L">Rhatu metu mbanambana  rheka tembok</item>
+    <item id="c2" line="37" tag="G">exist  ant  walk.around  on  wall</item>
+    <item id="c3" line="38" tag="T">There is an ant walking around on the wall.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69943">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="54-57" line-types="L G T T+LT+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="54" tag="L">  4. Ari               ja'o  imu     rua, ata    aki  mesa</item>
+    <item id="o2" line="55" tag="G">      sibling. younger 1SG.  person  two person  male both</item>
+    <item id="o3" line="56" tag="T">  'I have two younger brother, both are male.'</item>
+    <item id="o4" line="57" tag="T+LT+AL">  (lit. 'My younger siblings are two, both are male')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="54" tag="L">Ari               ja'o  imu     rua, ata    aki  mesa</item>
+    <item id="c2" line="55" tag="G">sibling. younger 1SG.  person  two person  male both</item>
+    <item id="c3" line="56" tag="T">I have two younger brother, both are male.</item>
+    <item id="c4" line="57" tag="T+LT+AL">lit. 'My younger siblings are two, both are male</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+    <item id="t1" content="c4[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69944">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="73-75" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="73" tag="L">  5. Ana  ja'o</item>
+    <item id="o2" line="74" tag="G">     child 1SG.</item>
+    <item id="o3" line="75" tag="T">     'My Child'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="73" tag="L">Ana  ja'o</item>
+    <item id="c2" line="74" tag="G">child 1SG.</item>
+    <item id="c3" line="75" tag="T">My Child</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69945">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="82-84" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="82" tag="L">  6. Ana  ko'o  ja'o</item>
+    <item id="o2" line="83" tag="G">     child POSS 1SG.</item>
+    <item id="o3" line="84" tag="T">      'My child'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="82" tag="L">Ana  ko'o  ja'o</item>
+    <item id="c2" line="83" tag="G">child POSS 1SG.</item>
+    <item id="c3" line="84" tag="T">My child</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69946">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="86-88" line-types="L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="86" tag="L">  7. Ka'e          ko'o  oroimu ja'o.</item>
+    <item id="o2" line="87" tag="G">     sibling.older POSS friend  1SG.</item>
+    <item id="o3" line="88" tag="T+CR">      'My friend's o lder brother'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="86" tag="L">Ka'e          ko'o  oroimu ja'o.</item>
+    <item id="c2" line="87" tag="G">sibling.older POSS friend  1SG.</item>
+    <item id="c3" line="88" tag="T+CR">My friend's o lder brother</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69947">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="100-102" line-types="L G T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="100" tag="L">  8. Kai  nggae  ine  mere ghi</item>
+    <item id="o2" line="101" tag="G">     3SG. look.for aunt big  3SG.LIG</item>
+    <item id="o3" line="102" tag="T+DB+LT">    'He is  looking for his aunt' (Lit. He is  looking  for aunt of him')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="100" tag="L">Kai  nggae  ine  mere ghi</item>
+    <item id="c2" line="101" tag="G">3SG. look.for aunt big  3SG.LIG</item>
+    <item id="c3" line="102" tag="T+DB+LT">He is  looking for his aunt' (Lit. He is  looking  for aunt of him')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69948">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="104-106" line-types="L G T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="104" tag="L">  9. Fu  kita          werna ghi          mite</item>
+    <item id="o2" line="105" tag="G">     hair 3PL.INCL  color  3SG.LIG black</item>
+    <item id="o3" line="106" tag="T+DB+LT">    'Our hair  is black' (Lit. Our hair the color of  it is black.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="104" tag="L">Fu  kita          werna ghi          mite</item>
+    <item id="c2" line="105" tag="G">hair 3PL.INCL  color  3SG.LIG black</item>
+    <item id="c3" line="106" tag="T+DB+LT">Our hair  is black' (Lit. Our hair the color of  it is black.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69949">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="113-115" line-types="L G T+DB+CR+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="113" tag="L">  10 a.  Q1:  Kai      ana    ko         sai?</item>
+    <item id="o2" line="114" tag="G">               3SG.   child  POSS    who</item>
+    <item id="o3" line="115" tag="T+DB+CR+LT">               `Whose child  is this?' (Lit. He is child o f who?)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="113" tag="L">10 a.  Q1:  Kai      ana    ko         sai?</item>
+    <item id="c2" line="114" tag="G">3SG.   child  POSS    who</item>
+    <item id="c3" line="115" tag="T+DB+CR+LT">Whose child  is this?' (Lit. He is child o f who?)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69950">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="117-119" line-types="L G T+DB+CR+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="117" tag="L">       b. Q2: Inebaba           ghi           ngara   ghi            sai ?</item>
+    <item id="o2" line="118" tag="G">              motherfather  3SG.LIG  name   3SG.LIG   who</item>
+    <item id="o3" line="119" tag="T+DB+CR+LT">              `What are his parents names?' (Lit. Parents of him  name o f them  is what?)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="117" tag="L">Inebaba           ghi           ngara   ghi            sai ?</item>
+    <item id="c2" line="118" tag="G">motherfather  3SG.LIG  name   3SG.LIG   who</item>
+    <item id="c3" line="119" tag="T+DB+CR+LT">What are his parents names?' (Lit. Parents of him  name o f them  is what?)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69951">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="123-125" line-types="L G T+DB+CR+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="123" tag="L">       c.  A1:  Kai   ngara    ghi             Rhowo.</item>
+    <item id="o2" line="124" tag="G">               3SG. name    3SG.LIG   R.</item>
+    <item id="o3" line="125" tag="T+DB+CR+LT">               `His name is Rhowo' (?Lit. He name o f him  is  Rhowo)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="123" tag="L"> Kai   ngara    ghi             Rhowo.</item>
+    <item id="c2" line="124" tag="G">3SG. name    3SG.LIG   R.</item>
+    <item id="c3" line="125" tag="T+DB+CR+LT">His name is Rhowo' (?Lit. He name o f him  is  Rhowo)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[1:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69952">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="127-130" line-types="L G T T+LT+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="127" tag="L">       d.  A2: Ine       ghi           Whoro  Gadi, baba     ghi            Kerhi   Djou</item>
+    <item id="o2" line="128" tag="G">               mother 3SG.LIG W.         G.     father    3SG.LIG  K.        D.</item>
+    <item id="o3" line="129" tag="T">               `His mother is Whoro Gadi. His  father  is Kerhi Djou'</item>
+    <item id="o4" line="130" tag="T+LT+AL">              (Lit. Mother of him  is  Whoro Gadi. Father of him is  Kerhi  Djou)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="127" tag="L">Ine       ghi           Whoro  Gadi, baba     ghi            Kerhi   Djou</item>
+    <item id="c2" line="128" tag="G">mother 3SG.LIG W.         G.     father    3SG.LIG  K.        D.</item>
+    <item id="c3" line="129" tag="T">His mother is Whoro Gadi. His  father  is Kerhi Djou</item>
+    <item id="c4" line="130" tag="T+LT+AL">Lit. Mother of him  is  Whoro Gadi. Father of him is  Kerhi  Djou</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:52]" alignment="p1"/>
+    <item id="t1" content="c4[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69953">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="159-161" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="159" tag="L">  11. na %        ana</item>
+    <item id="o2" line="160" tag="G">      this COP  child</item>
+    <item id="o3" line="161" tag="T+EX">     'This is a child' (Clausal Argument)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="159" tag="L">na %        ana</item>
+    <item id="c2" line="160" tag="G">this COP  child</item>
+    <item id="c3" line="161" tag="T+EX">This is a child' (Clausal Argument)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69954">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="163-165" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="163" tag="L">  12. ana  na</item>
+    <item id="o2" line="164" tag="G">      child this</item>
+    <item id="o3" line="165" tag="T+EX">     'This child' (Nominal Argument)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="163" tag="L">ana  na</item>
+    <item id="c2" line="164" tag="G">child this</item>
+    <item id="c3" line="165" tag="T+EX">This child' (Nominal Argument)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69958">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ende" iso-639-3="end" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3097" line-range="294-296" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="294" tag="L">  21. *rako ko'o  ghi/ghu/jo</item>
+    <item id="o2" line="295" tag="G">      dog  POSS  3SG.LIG/2SG.LIG/1SG.LIG</item>
+    <item id="o3" line="296" tag="T">        'his dog'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="294" tag="L">*rako ko'o  ghi/ghu/jo</item>
+    <item id="c2" line="295" tag="G">dog  POSS  3SG.LIG/2SG.LIG/1SG.LIG</item>
+    <item id="c3" line="296" tag="T">his dog</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

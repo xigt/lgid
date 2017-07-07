@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i111183">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warembori" iso-639-3="wsa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3362" line-range="1417-1420" line-types="M+LN L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1417" tag="M+LN">            warembori</item>
+    <item id="o2" line="1418" tag="L">       (87) E-per-i-ta-e.</item>
+    <item id="o3" line="1419" tag="G">             1sg-throw-3sg-appl-3sg</item>
+    <item id="o4" line="1420" tag="T+EX">             `I threw it into it.' (i.e., a ²sh into the water)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1417" tag="M+LN">warembori</item>
+    <item id="c2" line="1418" tag="L">E-per-i-ta-e.</item>
+    <item id="c3" line="1419" tag="G">1sg-throw-3sg-appl-3sg</item>
+    <item id="c4" line="1420" tag="T+EX">I threw it into it.' (i.e., a ²sh into the water)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145523">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warembori" iso-639-3="wsa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3820" line-range="1111-1116" line-types="M+LN M B L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1111" tag="M+LN">  Waremb ori (Lower Mamb eramo, Irian Jaya: New Guinea)</item>
+    <item id="o2" line="1112" tag="M">  Syntactic, productive NI:</item>
+    <item id="o3" line="1113" tag="B"></item>
+    <item id="o4" line="1114" tag="L">   (63)    e-mune-mena-ro</item>
+    <item id="o5" line="1115" tag="G">           1sg-kill-dog-ind</item>
+    <item id="o6" line="1116" tag="T+AC">           `I killed a dog.'                                      (Donohue 1999b:43-47)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1111" tag="M+LN">Waremb ori (Lower Mamb eramo, Irian Jaya: New Guinea)</item>
+    <item id="c2" line="1112" tag="M">Syntactic, productive NI:</item>
+    <item id="c3" line="1113" tag="B"/>
+    <item id="c4" line="1114" tag="L">e-mune-mena-ro</item>
+    <item id="c5" line="1115" tag="G">1sg-kill-dog-ind</item>
+    <item id="c6" line="1116" tag="T+AC">I killed a dog.'                                      (Donohue 1999b:43-47)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c4[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:75]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145524">
+  <metadata type="xigt-meta">
+    <meta type="language" name="warembori" iso-639-3="wsa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3820" line-range="1120-1122" line-types="L G T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1120" tag="L">   (64)    e-pue-kambi</item>
+    <item id="o2" line="1121" tag="G">           1sg-pig-hunt</item>
+    <item id="o3" line="1122" tag="T+DB">           `I hunt for pigs.', `I go pig-hunting.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1120" tag="L">e-pue-kambi</item>
+    <item id="c2" line="1121" tag="G">1sg-pig-hunt</item>
+    <item id="c3" line="1122" tag="T+DB">I hunt for pigs.', `I go pig-hunting.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

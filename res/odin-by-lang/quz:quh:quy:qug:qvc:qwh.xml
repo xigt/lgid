@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i107771">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="quz:quh:quy:qug:qvc:qwh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="225" line-range="1423-1425" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1423" tag="L">  (64) a.       Xwan papa-ta mikhu-n</item>
+    <item id="o2" line="1424" tag="G">                Juan potato-ACC eat-3</item>
+    <item id="o3" line="1425" tag="T">                `Juan eats potatoes'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1423" tag="L">Xwan papa-ta mikhu-n</item>
+    <item id="c2" line="1424" tag="G">Juan potato-ACC eat-3</item>
+    <item id="c3" line="1425" tag="T">Juan eats potatoes</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i107772">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="quz:quh:quy:qug:qvc:qwh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="225" line-range="1426-1428" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1426" tag="L">         b.     Xwan mikhu-n papa-ta</item>
+    <item id="o2" line="1427" tag="G">                Juan eat-3 potato-ACC</item>
+    <item id="o3" line="1428" tag="T">                `Juan eats potatoes'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1426" tag="L">Xwan mikhu-n papa-ta</item>
+    <item id="c2" line="1427" tag="G">Juan eat-3 potato-ACC</item>
+    <item id="c3" line="1428" tag="T">Juan eats potatoes</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i107773">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="quz:quh:quy:qug:qvc:qwh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="225" line-range="1430-1432" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1430" tag="L">  (65) a.       Xwan papa-ta mikhu-sqa-n-ta yacha-ni</item>
+    <item id="o2" line="1431" tag="G">                Juan potato-ACC eat-NOMINAL-3-ACC know-I</item>
+    <item id="o3" line="1432" tag="T">                `I know that Juan eats potatoes'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1430" tag="L">Xwan papa-ta mikhu-sqa-n-ta yacha-ni</item>
+    <item id="c2" line="1431" tag="G">Juan potato-ACC eat-NOMINAL-3-ACC know-I</item>
+    <item id="c3" line="1432" tag="T">I know that Juan eats potatoes</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i107774">
+  <metadata type="xigt-meta">
+    <meta type="language" name="quechua" iso-639-3="quz:quh:quy:qug:qvc:qwh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="225" line-range="1433-1435" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1433" tag="L">         b.     *Xwan mikhu-n papa-ta sqa-n-ta yacha-ni</item>
+    <item id="o2" line="1434" tag="G">                Juan eat-3 potato-ACC eat-NOMINAL-ACC know-I</item>
+    <item id="o3" line="1435" tag="T">                `I know that Juan eats potatoes'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1433" tag="L">*Xwan mikhu-n papa-ta sqa-n-ta yacha-ni</item>
+    <item id="c2" line="1434" tag="G">Juan eat-3 potato-ACC eat-NOMINAL-ACC know-I</item>
+    <item id="c3" line="1435" tag="T">I know that Juan eats potatoes</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i90504">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kugu-nganhcara" iso-639-3="uwa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2640" line-range="380-383" line-types="M+LN+CN L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="380" tag="M+LN+CN">   (23) Case Mismatches in Kugu Nganhcara</item>
+    <item id="o2" line="381" tag="L">        a. nhi-la     pukpe-ng nhu-nha kuyu             yuku muka-ng-nha peka</item>
+    <item id="o3" line="382" tag="G">           3sg-NOM child-ERG 3sg-ACC woman.ABS thing stone-ERG-3sgACC throw.at</item>
+    <item id="o4" line="383" tag="T+EX">           "The child threw a stone at the woman" (390)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="380" tag="M+LN+CN">Case Mismatches in Kugu Nganhcara</item>
+    <item id="c2" line="381" tag="L">nhi-la     pukpe-ng nhu-nha kuyu             yuku muka-ng-nha peka</item>
+    <item id="c3" line="382" tag="G">3sg-NOM child-ERG 3sg-ACC woman.ABS thing stone-ERG-3sgACC throw.at</item>
+    <item id="c4" line="383" tag="T+EX">The child threw a stone at the woman" (390)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90505">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kugu-nganhcara" iso-639-3="uwa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2640" line-range="384-386" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="384" tag="L">        b. nhi-la     pama-ng nhi-ngu pukpe-wu ku'a waa-ngu</item>
+    <item id="o2" line="385" tag="G">           3sg-NOM man-ERG 3sg-DAT child-DAT dog give-3sgDAT</item>
+    <item id="o3" line="386" tag="T+EX">           "The man gave a dog to the child" (401)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="384" tag="L">nhi-la     pama-ng nhi-ngu pukpe-wu ku'a waa-ngu</item>
+    <item id="c2" line="385" tag="G">3sg-NOM man-ERG 3sg-DAT child-DAT dog give-3sgDAT</item>
+    <item id="c3" line="386" tag="T+EX">The man gave a dog to the child" (401)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

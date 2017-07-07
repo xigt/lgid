@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i88706">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nguni" iso-639-3="ngn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3256" line-range="11036-11039" line-types="M+AC+LN+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11036" tag="M+AC+LN+CN">  (44)    In situ focus in Nguni (Sabel &amp; Zeller, to appear)</item>
+    <item id="o2" line="11037" tag="L">          a. U-bona ini?</item>
+    <item id="o3" line="11038" tag="G">                2-see what</item>
+    <item id="o4" line="11039" tag="T">                `What do you see?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11036" tag="M+AC+LN+CN">In situ focus in Nguni (Sabel &amp; Zeller, to appear</item>
+    <item id="c2" line="11037" tag="L">U-bona ini?</item>
+    <item id="c3" line="11038" tag="G">2-see what</item>
+    <item id="c4" line="11039" tag="T">What do you see?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88778">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nguni" iso-639-3="ngn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3256" line-range="12310-12313" line-types="M+AC+LN+CN L G+CR T+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12310" tag="M+AC+LN+CN">  (25)      Subject focus in Nguni (following Sabel &amp; Zeller, example (4), structure (26))</item>
+    <item id="o2" line="12311" tag="L">            a. Ng-ubani o-banga              lowo         msindo?</item>
+    <item id="o3" line="12312" tag="G+CR">                C O P-who R E L . C L1-cause D E M . C L3 C L3.noise</item>
+    <item id="o4" line="12313" tag="T+LT">                Lit. `Who is it that is making that noise?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12310" tag="M+AC+LN+CN">Subject focus in Nguni (following Sabel &amp; Zeller, example (4), structure (26)</item>
+    <item id="c2" line="12311" tag="L">Ng-ubani o-banga              lowo         msindo?</item>
+    <item id="c3" line="12312" tag="G+CR">C O P-who R E L . C L1-cause D E M . C L3 C L3.noise</item>
+    <item id="c4" line="12313" tag="T+LT">Lit. `Who is it that is making that noise?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

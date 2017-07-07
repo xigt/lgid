@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i119450">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lahanda" iso-639-3="pnb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2685" line-range="323-325" line-types="L G T+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="323" tag="L">  (12) a. kitu-s</item>
+    <item id="o2" line="324" tag="G">          do.Part-3.Sg.Obl</item>
+    <item id="o3" line="325" tag="T+LN">          `It was done by him.' (Lahanda)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="323" tag="L">kitu-s</item>
+    <item id="c2" line="324" tag="G">do.Part-3.Sg.Obl</item>
+    <item id="c3" line="325" tag="T+LN">It was done by him.' (Lahanda)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i119451">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lahanda" iso-639-3="pnb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2685" line-range="327-330" line-types="L+CR L+CR G T+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="327" tag="L+CR">           a. kit¯-v¯</item>
+    <item id="o2" line="328" tag="L+CR">                 oe</item>
+    <item id="o3" line="329" tag="G">              do.Part-2.Obl</item>
+    <item id="o4" line="330" tag="T+LN">              `It was done by you.' (Lahanda)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="327" tag="L+CR">kit¯-v¯</item>
+    <item id="c3" line="329" tag="G">do.Part-2.Obl</item>
+    <item id="c4" line="330" tag="T+LN">It was done by you.' (Lahanda)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i153078">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lahanda" iso-639-3="pnb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2771" line-range="357-361" line-types="M+LN B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="357" tag="M+LN">  Lahanda ("Western Punjabi")</item>
+    <item id="o2" line="358" tag="B"></item>
+    <item id="o3" line="359" tag="L">  (14) a. kitu-s</item>
+    <item id="o4" line="360" tag="G">          do.Part-3.Sg.Obl</item>
+    <item id="o5" line="361" tag="T">          `It was done by him.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="357" tag="M+LN">Lahanda ("Western Punjabi")</item>
+    <item id="c2" line="358" tag="B"/>
+    <item id="c3" line="359" tag="L">kitu-s</item>
+    <item id="c4" line="360" tag="G">do.Part-3.Sg.Obl</item>
+    <item id="c5" line="361" tag="T">It was done by him.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i153079">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lahanda" iso-639-3="pnb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2771" line-range="363-366" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="363" tag="L+CR">          a. kit¯ ¯</item>
+    <item id="o2" line="364" tag="L+CR">                o-ve</item>
+    <item id="o3" line="365" tag="G">             do.Part-2.Obl</item>
+    <item id="o4" line="366" tag="T">             `It was done by you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="363" tag="L+CR">kit¯ ¯</item>
+    <item id="c3" line="365" tag="G">do.Part-2.Obl</item>
+    <item id="c4" line="366" tag="T">It was done by you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i153081">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lahanda" iso-639-3="pnb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2771" line-range="376-379" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="376" tag="L+CR">          b. chaddi£-£-va</item>
+    <item id="o2" line="377" tag="L+CR">                  .. ©©</item>
+    <item id="o3" line="378" tag="G">             left-3.Sg.Obl-2.Pl</item>
+    <item id="o4" line="379" tag="T">             `He gave you up.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="376" tag="L+CR">chaddi£-£-va</item>
+    <item id="c3" line="378" tag="G">left-3.Sg.Obl-2.Pl</item>
+    <item id="c4" line="379" tag="T">He gave you up.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

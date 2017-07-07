@@ -1,0 +1,1844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i5915">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1729" line-range="1174-1180" line-types="L+CR L+CR B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1174" tag="L+CR">          Mi      da         i      tata.</item>
+    <item id="o2" line="1175" tag="L+CR">  (36)</item>
+    <item id="o3" line="1176" tag="B"></item>
+    <item id="o4" line="1177" tag="G+CR">          I                 your father</item>
+    <item id="o5" line="1178" tag="G+CR">                  COPULA</item>
+    <item id="o6" line="1179" tag="B"></item>
+    <item id="o7" line="1180" tag="T">          `I am your father.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1174 1175" tag="L+CR">Mi      da         i      tata.</item>
+    <item id="c3" line="1176" tag="B"/>
+    <item id="c4" line="1177 1178" tag="G+CR">I       COPULA    your father</item>
+    <item id="c6" line="1179" tag="B"/>
+    <item id="c7" line="1180" tag="T">I am your father.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i5916">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1729" line-range="1190-1193" line-types="L+SY B G+CR G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1190" tag="L+SY">  (37) [TopP Mi [TP pro          [T' da       i        tata]]]</item>
+    <item id="o2" line="1191" tag="B"></item>
+    <item id="o3" line="1192" tag="G+CR">              I                               your     father</item>
+    <item id="o4" line="1193" tag="G+CR">                                    COPULA</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1190" tag="L+SY">[TopP Mi [TP pro          [T' da       i        tata]]]</item>
+    <item id="c2" line="1191" tag="B"/>
+    <item id="c3" line="1192 1193" tag="G+CR">I                     COPULA    your     father</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i5917">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1729" line-range="1208-1212" line-types="L+AC B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1208" tag="L+AC">  (38) a. A tei faka      koti      di      gwamba.        (McWhorter 1997: 98)</item>
+    <item id="o2" line="1209" tag="B"></item>
+    <item id="o3" line="1210" tag="G">          he take knife cut       the      meat</item>
+    <item id="o4" line="1211" tag="B"></item>
+    <item id="o5" line="1212" tag="T">          "He cut the meat with a knife."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1208" tag="L+AC">a. A tei faka      koti      di      gwamba.        (McWhorter 1997: 98</item>
+    <item id="c2" line="1209" tag="B"/>
+    <item id="c3" line="1210" tag="G">he take knife cut       the      meat</item>
+    <item id="c4" line="1211" tag="B"/>
+    <item id="c5" line="1212" tag="T">He cut the meat with a knife.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i5918">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1729" line-range="1214-1219" line-types="L+AC B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1214" tag="L+AC">         b. Hn/*A        da        di      Gaama.         (McWhorter 1997: 98)</item>
+    <item id="o2" line="1215" tag="B"></item>
+    <item id="o3" line="1216" tag="G+CR">          he                       the     chief.</item>
+    <item id="o4" line="1217" tag="G+CR">                         COPULA</item>
+    <item id="o5" line="1218" tag="B"></item>
+    <item id="o6" line="1219" tag="T">          "He is the chief."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1214" tag="L+AC">Hn/*A        da        di      Gaama.         (McWhorter 1997: 98)</item>
+    <item id="c2" line="1215" tag="B"/>
+    <item id="c3" line="1216 1217" tag="G+CR">he             COPULA    the     chief.</item>
+    <item id="c5" line="1218" tag="B"/>
+    <item id="c6" line="1219" tag="T">He is the chief.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i5921">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1729" line-range="1251-1256" line-types="L+CR L+AC+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1251" tag="L+CR">                         di-de (*da/d).</item>
+    <item id="o2" line="1252" tag="L+AC+CR">  (42)    Un     buku                                     (McWhorter 1997: 91)</item>
+    <item id="o3" line="1253" tag="B"></item>
+    <item id="o4" line="1254" tag="G">          which book     that     COPULA</item>
+    <item id="o5" line="1255" tag="B"></item>
+    <item id="o6" line="1256" tag="T">          "Which book is that?"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1251 1252" tag="L+CR+AC">Un     buku    di-de (*da/d).                   (McWhorter 1997: 91</item>
+    <item id="c3" line="1253" tag="B"/>
+    <item id="c4" line="1254" tag="G">which book     that     COPULA</item>
+    <item id="c5" line="1255" tag="B"/>
+    <item id="c6" line="1256" tag="T">Which book is that?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8661">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1903" line-range="137-140" line-types="M+AC+LN L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="137" tag="M+AC+LN">      d. Saramaccan (Suriname; Byrne, cited in Seuren 1990)</item>
+    <item id="o2" line="138" tag="L">         Kofi nyan di          ganya       kabá.</item>
+    <item id="o3" line="139" tag="G">         Kofi eat        the chicken       finish</item>
+    <item id="o4" line="140" tag="T+EX">         `Kofi has already eaten the chicken.' (*** replace w/ Tok Pisin ?? ***)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="137" tag="M+AC+LN">Saramaccan (Suriname; Byrne, cited in Seuren 1990)</item>
+    <item id="c2" line="138" tag="L">Kofi nyan di          ganya       kabá.</item>
+    <item id="c3" line="139" tag="G">Kofi eat        the chicken       finish</item>
+    <item id="c4" line="140" tag="T+EX">Kofi has already eaten the chicken.' (*** replace w/ Tok Pisin ?? ***)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:70]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i24209">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1268" line-range="997-1003" line-types="L+CR L+CR B L+AL B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="997" tag="L+CR">                  hn</item>
+    <item id="o2" line="998" tag="L+CR">  (1)       a               tótómbòtí      wákà té        kó      dóù</item>
+    <item id="o3" line="999" tag="B"></item>
+    <item id="o4" line="1000" tag="L+AL">                  hn        totómbòtí      wáka te        kó      dóu</item>
+    <item id="o5" line="1001" tag="B"></item>
+    <item id="o6" line="1002" tag="G">                  then      woodpecker     walk   till    come arrive</item>
+    <item id="o7" line="1003" tag="T">                  `Then the woodpecker walked out there'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="997 998" tag="L+CR">a     hn        tótómbòtí      wákà té        kó      dóù</item>
+    <item id="c3" line="999" tag="B"/>
+    <item id="c4" line="1000" tag="L+AL">hn        totómbòtí      wáka te        kó      dóu</item>
+    <item id="c5" line="1001" tag="B"/>
+    <item id="c6" line="1002" tag="G">then      woodpecker     walk   till    come arrive</item>
+    <item id="c7" line="1003" tag="T">Then the woodpecker walked out there'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+    <item id="p1" content="c4[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:51]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:38]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i24210">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1268" line-range="1004-1011" line-types="L+CR L+CR B L+CR+AL L+CR+AL B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1004" tag="L+CR">                 hn                tjOkO</item>
+    <item id="o2" line="1005" tag="L+CR">         b                  à              dí     sítónù kóokóokóo</item>
+    <item id="o3" line="1006" tag="B"></item>
+    <item id="o4" line="1007" tag="L+CR+AL">                 hn                tjOkO dí</item>
+    <item id="o5" line="1008" tag="L+CR+AL">                            à                     sitónu kookookoo</item>
+    <item id="o6" line="1009" tag="B"></item>
+    <item id="o7" line="1010" tag="G">                 then       3SG    stab    DET    rock    IDEO</item>
+    <item id="o8" line="1011" tag="T">                 `Then he pecked at the rock. Peck! Peck! Peck!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1004 1005" tag="L+CR">b       hn         à     tjOkO    dí     sítónù kóokóokóo</item>
+    <item id="c3" line="1006" tag="B"/>
+    <item id="c4" line="1007 1008" tag="L+CR+AL">hn         à     tjOkO dí       sitónu kookookoo</item>
+    <item id="c6" line="1009" tag="B"/>
+    <item id="c7" line="1010" tag="G">then       3SG    stab    DET    rock    IDEO</item>
+    <item id="c8" line="1011" tag="T">Then he pecked at the rock. Peck! Peck! Peck!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+    <item id="p1" content="c4[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:45]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:45]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i24211">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1268" line-range="1012-1018" line-types="L+CR L+CR B L+AL B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1012" tag="L+CR">                 hn</item>
+    <item id="o2" line="1013" tag="L+CR">         c                  à      wáká gó        sééká   táámpù</item>
+    <item id="o3" line="1014" tag="B"></item>
+    <item id="o4" line="1015" tag="L+AL">                 hn         à      wáka gó        seeká   taámpu</item>
+    <item id="o5" line="1016" tag="B"></item>
+    <item id="o6" line="1017" tag="G">                 then       3SG    walk    go     arrange stand</item>
+    <item id="o7" line="1018" tag="T">                 `Then he walked to [another place] and got himself ready'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1012 1013" tag="L+CR">c       hn         à      wáká gó        sééká   táámpù</item>
+    <item id="c3" line="1014" tag="B"/>
+    <item id="c4" line="1015" tag="L+AL">hn         à      wáka gó        seeká   taámpu</item>
+    <item id="c5" line="1016" tag="B"/>
+    <item id="c6" line="1017" tag="G">then       3SG    walk    go     arrange stand</item>
+    <item id="c7" line="1018" tag="T">Then he walked to [another place] and got himself ready'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+    <item id="p1" content="c4[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:46]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:57]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i24212">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1268" line-range="1019-1022" line-types="L L+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1019" tag="L">  (2)             à                bì      jáka   en              púu</item>
+    <item id="o2" line="1020" tag="L+AL">                 à                 bì      jáka   en              púu</item>
+    <item id="o3" line="1021" tag="G">                  3SG.NOM          PAST chase 3SG.OBJ             remove</item>
+    <item id="o4" line="1022" tag="T">                  `He chased him away'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1019" tag="L">à                bì      jáka   en              púu</item>
+    <item id="c2" line="1020" tag="L+AL">à                 bì      jáka   en              púu</item>
+    <item id="c3" line="1021" tag="G">3SG.NOM          PAST chase 3SG.OBJ             remove</item>
+    <item id="c4" line="1022" tag="T">He chased him away'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+    <item id="p1" content="c2[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:54]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i28985">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2790" line-range="81-84" line-types="M+CN L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="81" tag="M+CN">           Transitive-Transitive</item>
+    <item id="o2" line="82" tag="L+AC">        b. A       náki hen      kíi                   (Saramaccan, Veenstra, 1996, p.4)</item>
+    <item id="o3" line="83" tag="G">           3SG hit         3SG kill</item>
+    <item id="o4" line="84" tag="T">           `He hit it dead.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="81" tag="M+CN">Transitive-Transitive</item>
+    <item id="c2" line="82" tag="L+AC">A       náki hen      kíi                   (Saramaccan, Veenstra, 1996, p.4)</item>
+    <item id="c3" line="83" tag="G">3SG hit         3SG kill</item>
+    <item id="c4" line="84" tag="T">He hit it dead.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30620">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="1406-1409" line-types="M+AC+LN+CN L+SY G T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1406" tag="M+AC+LN+CN">  (51) Saramaccan CE (Muysken &amp; Smith 1994:58)</item>
+    <item id="o2" line="1407" tag="L+SY">  a      Jani   si   en*i/j</item>
+    <item id="o3" line="1408" tag="G">        (John see him)</item>
+    <item id="o4" line="1409" tag="T+DB">        'John saw him' (*'John saw himself')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1406" tag="M+AC+LN+CN">Saramaccan CE (Muysken &amp; Smith 1994:58</item>
+    <item id="c2" line="1407" tag="L+SY">a      Jani   si   en*i/j</item>
+    <item id="c3" line="1408" tag="G">John see him</item>
+    <item id="c4" line="1409" tag="T+DB">John saw him' (*'John saw himself')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30621">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="1411-1413" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1411" tag="L">  b       Jani   si   en-   seeii</item>
+    <item id="o2" line="1412" tag="G">         (John see him- self)</item>
+    <item id="o3" line="1413" tag="T">         'John saw himself'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1411" tag="L">b       Jani   si   en-seeii</item>
+    <item id="c2" line="1412" tag="G">John see him-self</item>
+    <item id="c3" line="1413" tag="T">John saw himself</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35411">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="336-340" line-types="L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="336" tag="L+CR+SY">       (2) D´ boto d     ´</item>
+    <item id="o2" line="337" tag="L+CR">             i               lailai.</item>
+    <item id="o3" line="338" tag="M+CR+SY">                  ´           ´´</item>
+    <item id="o4" line="339" tag="G">           DEF boat be.at load.load</item>
+    <item id="o5" line="340" tag="T">           `The boat is loaded.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="336" tag="L+CR+SY">D´ boto d     ´</item>
+    <item id="c4" line="339" tag="G">DEF boat be.at load.load</item>
+    <item id="c5" line="340" tag="T">The boat is loaded.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35412">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="341-343" line-types="L+CR+SY L+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="341" tag="L+CR+SY">       (3) d´ jab´ b´ manda</item>
+    <item id="o2" line="342" tag="L+CR">             i   ija i ´</item>
+    <item id="o3" line="343" tag="T">           `the opened basket'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="341" tag="L+CR+SY">d´ jab´ b´ manda</item>
+    <item id="c3" line="343" tag="T">the opened basket</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35416">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="367-371" line-types="L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="367" tag="L+CR+SY">     (7) Siki´ d´</item>
+    <item id="o2" line="368" tag="L+CR">             ifi i     buku bi     taanga.</item>
+    <item id="o3" line="369" tag="M+CR+SY">                        ´             ´</item>
+    <item id="o4" line="370" tag="G">         write DEF book PAST hard</item>
+    <item id="o5" line="371" tag="T">         `Writing the book was hard.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="367 369" tag="L+CR+SY+M">Siki´ d´     ´             ´</item>
+    <item id="c4" line="370" tag="G">write DEF book PAST hard</item>
+    <item id="c5" line="371" tag="T">Writing the book was hard.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35419">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="385-389" line-types="L+CR+SY M+CR+SY L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="385" tag="L+CR+SY">   (10) D´ dØØ jab´</item>
+    <item id="o2" line="386" tag="M+CR+SY">               ´</item>
+    <item id="o3" line="387" tag="L+CR">          i           i.</item>
+    <item id="o4" line="388" tag="G">        DEF door open</item>
+    <item id="o5" line="389" tag="T">        `The door has been opened.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="385" tag="L+CR+SY">D´ dØØ jab´</item>
+    <item id="c4" line="388" tag="G">DEF door open</item>
+    <item id="c5" line="389" tag="T">The door has been opened.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35420">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="390-394" line-types="L+CR+SY L+CR+SY L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="390" tag="L+CR+SY">   (11) D´ dØØ d</item>
+    <item id="o2" line="391" tag="L+CR+SY">               ´     ´   jab´ b´</item>
+    <item id="o3" line="392" tag="L+CR">          i                 ija i.</item>
+    <item id="o4" line="393" tag="G">        DEF door be.at open.open</item>
+    <item id="o5" line="394" tag="T">        `The door is open(ed).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="390" tag="L+CR+SY">D´ dØØ d</item>
+    <item id="c4" line="393" tag="G">DEF door be.at open.open</item>
+    <item id="c5" line="394" tag="T">The door is open(ed).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35431">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="647-652" line-types="L+CR+SY L+CR+SY L+CR+SY M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="647" tag="L+CR+SY">                                          b.´</item>
+    <item id="o2" line="648" tag="L+CR+SY">   (21) Kob´ tei d´       matjau koti d´</item>
+    <item id="o3" line="649" tag="L+CR+SY">           i´        i                  i</item>
+    <item id="o4" line="650" tag="M+CR+SY">                              ´    ´</item>
+    <item id="o5" line="651" tag="G">        Kobi take DEF axe         cut DEF bread</item>
+    <item id="o6" line="652" tag="T">        `Kobi cut the bread with an axe.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="647 649 650" tag="L+CR+SY+M">i´        i       ´    ´   ib.´</item>
+    <item id="c5" line="651" tag="G">Kobi take DEF axe         cut DEF bread</item>
+    <item id="c6" line="652" tag="T">Kobi cut the bread with an axe.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35432">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="668-671" line-types="L+CR+SY M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="668" tag="L+CR+SY">   (22) Mi langa d´ i    boto.</item>
+    <item id="o2" line="669" tag="M+CR+SY">             ´             ´</item>
+    <item id="o3" line="670" tag="G">        I long DEF boat</item>
+    <item id="o4" line="671" tag="T">        `I made the boat longer.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="668" tag="L+CR+SY">Mi langa d´ i    boto.</item>
+    <item id="c3" line="670" tag="G">I long DEF boat</item>
+    <item id="c4" line="671" tag="T">I made the boat longer.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35433">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="693-698" line-types="L+CR+SY L+CR+SY L+CR+SY M+CR+SY G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="693" tag="L+CR+SY">   (23) /mi wasi koosu buta a d´ sonu/  [mi was´ # koosu buta # a d´ sonu]</item>
+    <item id="o2" line="694" tag="L+CR+SY">                                               ´i                    i´</item>
+    <item id="o3" line="695" tag="L+CR+SY">                                i´                      ´    ´´</item>
+    <item id="o4" line="696" tag="M+CR+SY">              ´    ´       ´</item>
+    <item id="o5" line="697" tag="G">        I wash clothes put in the sun</item>
+    <item id="o6" line="698" tag="T+AC">        `I washed my clothes and put them in the sun.' (Rountree, 1972: 325)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="693" tag="L+CR+SY">/mi wasi koosu buta a d´ sonu/  [mi was´ # koosu buta # a d´ sonu]</item>
+    <item id="c5" line="697" tag="G">I wash clothes put in the sun</item>
+    <item id="c6" line="698" tag="T+AC">I washed my clothes and put them in the sun.' (Rountree, 1972: 325)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:67]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35437">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="750-755" line-types="L+CR+SY L+CR+SY L+CR+SY B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="750" tag="L+CR+SY">                muj s´ Kob´ nØØ de ta</item>
+    <item id="o2" line="751" tag="L+CR+SY">                   ´´          i, ´</item>
+    <item id="o3" line="752" tag="L+CR+SY">    (27) Te             i                   kule.</item>
+    <item id="o4" line="753" tag="B">                                          ´    ´</item>
+    <item id="o5" line="754" tag="G">         COMP woman see Kobi then they HAB run</item>
+    <item id="o6" line="755" tag="T">         `When women see Kobi, they run.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="750" tag="L+CR+SY">muj s´ Kob´ nØØ de ta</item>
+    <item id="c4" line="753" tag="B">´    ´</item>
+    <item id="c5" line="754" tag="G">COMP woman see Kobi then they HAB run</item>
+    <item id="c6" line="755" tag="T">When women see Kobi, they run.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35438">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="756-761" line-types="L+CR+SY L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="756" tag="L+CR+SY">                mi s´ Kob´ nØØ mi o</item>
+    <item id="o2" line="757" tag="L+CR+SY">                             i, ´</item>
+    <item id="o3" line="758" tag="L+CR">    (28) Te          i                  kule.</item>
+    <item id="o4" line="759" tag="M+CR+SY">                                           ´</item>
+    <item id="o5" line="760" tag="G">         COMP I see Kobi then I FUT run</item>
+    <item id="o6" line="761" tag="T">         `When I see Kobi, I will run.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="756 759" tag="L+CR+SY+M">mi s´ Kob´ nØØ mi o    ´</item>
+    <item id="c5" line="760" tag="G">COMP I see Kobi then I FUT run</item>
+    <item id="c6" line="761" tag="T">When I see Kobi, I will run.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35439">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="766-774" line-types="L+CR M+CR+SY L+CR L+CR M+SY G L+CR+SY G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="766" tag="L+CR">                                    duumi, h (*nØØ) mi go kumutu</item>
+    <item id="o2" line="767" tag="M+CR+SY">                                            ~   ´</item>
+    <item id="o3" line="768" tag="L+CR">    (29) D´ (*te) a bi</item>
+    <item id="o4" line="769" tag="L+CR">           i               ta</item>
+    <item id="o5" line="770" tag="M+SY">                            ´            ´              ´    ´</item>
+    <item id="o6" line="771" tag="G">         COMP he PAST PROG sleep then               I go leave</item>
+    <item id="o7" line="772" tag="L+CR+SY">         d.´</item>
+    <item id="o8" line="773" tag="G+CR">         there</item>
+    <item id="o9" line="774" tag="T">         `When he was sleeping, I left.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="766" tag="L+CR">duumi, h (*nØØ) mi go kumutu</item>
+    <item id="c2" line="767" tag="M+CR+SY">~   ´</item>
+    <item id="c3" line="768" tag="L+CR">D´ (*te) a bi</item>
+    <item id="c5" line="770" tag="M+SY">´            ´              ´    ´</item>
+    <item id="c6" line="771" tag="G">COMP he PAST PROG sleep then               I go leave</item>
+    <item id="c7" line="772" tag="L+CR+SY">d.´</item>
+    <item id="c8" line="773" tag="G+CR">there</item>
+    <item id="c9" line="774" tag="T">When he was sleeping, I left.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+    <item id="p1" content="c3[0:13]"/>
+    <item id="p2" content="c7[0:3]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:53]" alignment="p2"/>
+    <item id="g1" content="c8[0:5]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:29]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i35440">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="775-783" line-types="L+CR+SY M+CR+SY L+CR+SY L+CR G L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="775" tag="L+CR+SY">                                       dØØ, h mi s´ d´      gØØ</item>
+    <item id="o2" line="776" tag="M+CR+SY">                                         ´     ~             ~~</item>
+    <item id="o3" line="777" tag="L+CR+SY">    (30) D´                jab´ d´</item>
+    <item id="o4" line="778" tag="L+CR">          i     mi bi         i    i                    i i</item>
+    <item id="o5" line="779" tag="G">         COMP I PAST open DEF door then I see DEF ground</item>
+    <item id="o6" line="780" tag="L+CR">         muja.</item>
+    <item id="o7" line="781" tag="M+CR+SY">           ~~</item>
+    <item id="o8" line="782" tag="G">         wet</item>
+    <item id="o9" line="783" tag="T">         `When I opened the door, I saw the ground wet.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="775 777" tag="L+CR+SY">D´                jab´ d´  dØØ, h mi s´ d´      gØØ</item>
+    <item id="c5" line="779" tag="G">COMP I PAST open DEF door then I see DEF ground</item>
+    <item id="c6" line="780" tag="L+CR">muja.</item>
+    <item id="c7" line="781" tag="M+CR+SY">~~</item>
+    <item id="c8" line="782" tag="G">wet</item>
+    <item id="c9" line="783" tag="T">When I opened the door, I saw the ground wet.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+    <item id="p1" content="c6[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:47]" alignment="p1"/>
+    <item id="g1" content="c8[0:3]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:45]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i35441">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="796-804" line-types="L+CR M+CR+SY L+CR M+SY G L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="796" tag="L+CR">                                        luku de, nØØ (*h) de bi</item>
+    <item id="o2" line="797" tag="M+CR+SY">                                                      ´      ~</item>
+    <item id="o3" line="798" tag="L+CR">    (31) D´i           mi bi      ko</item>
+    <item id="o4" line="799" tag="M+SY">                                   ´     ´</item>
+    <item id="o5" line="800" tag="G">         COMP          I PAST come look them then              they PAST</item>
+    <item id="o6" line="801" tag="L+CR">         duumi        kaa.</item>
+    <item id="o7" line="802" tag="M+CR+SY">             ´</item>
+    <item id="o8" line="803" tag="G">         sleep        already</item>
+    <item id="o9" line="804" tag="T">         `When        I came to see them, they were asleep.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="796" tag="L+CR">luku de, nØØ (*h) de bi</item>
+    <item id="c2" line="797" tag="M+CR+SY">´      ~</item>
+    <item id="c3" line="798" tag="L+CR">D´i           mi bi      ko</item>
+    <item id="c4" line="799" tag="M+SY">´     ´</item>
+    <item id="c5" line="800" tag="G">COMP          I PAST come look them then              they PAST</item>
+    <item id="c6" line="801" tag="L+CR">duumi        kaa.</item>
+    <item id="c7" line="802" tag="M+CR+SY">´</item>
+    <item id="c8" line="803" tag="G">sleep        already</item>
+    <item id="c9" line="804" tag="T">When        I came to see them, they were asleep.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+    <item id="p1" content="c3[0:27]"/>
+    <item id="p2" content="c6[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:63]" alignment="p2"/>
+    <item id="g1" content="c8[0:20]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:49]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i35442">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="805-815" line-types="L+CR M+CR+SY L+CR+SY L+CR M+SY G L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="805" tag="L+CR">                                                         sonuati njanja, nØØ</item>
+    <item id="o2" line="806" tag="M+CR+SY">                                                                      ~´</item>
+    <item id="o3" line="807" tag="L+CR+SY">    (32) D´                                       d´</item>
+    <item id="o4" line="808" tag="L+CR">           i           mi kaba u nja a             i</item>
+    <item id="o5" line="809" tag="M+SY">                               ´         ~                 ´ ´´</item>
+    <item id="o6" line="810" tag="G">         COMP          I finish for eat LOC DEF noon food then</item>
+    <item id="o7" line="811" tag="L+CR+SY">                              k´</item>
+    <item id="o8" line="812" tag="L+CR">         hangi         bi       isi mi eti.</item>
+    <item id="o9" line="813" tag="M+CR+SY">          ´                                ´</item>
+    <item id="o10" line="814" tag="G">         hunger        PAST catch me still</item>
+    <item id="o11" line="815" tag="T">         `After I      finished eating lunch, I was still hungry.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="805" tag="L+CR">sonuati njanja, nØØ</item>
+    <item id="c2" line="806 807" tag="M+CR+SY+L">D´                                       d´                ~´</item>
+    <item id="c5" line="809" tag="M+SY">´         ~                 ´ ´´</item>
+    <item id="c6" line="810" tag="G">COMP          I finish for eat LOC DEF noon food then</item>
+    <item id="c7" line="811 813" tag="L+CR+SY+M">´                  k´           ´</item>
+    <item id="c10" line="814" tag="G">hunger        PAST catch me still</item>
+    <item id="c11" line="815" tag="T">After I      finished eating lunch, I was still hungry.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+    <item id="p1" content="c2[0:61]"/>
+    <item id="p2" content="c7[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:53]" alignment="p2"/>
+    <item id="g1" content="c10[0:33]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c11[0:55]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i35447">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="919-924" line-types="L+CR M+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="919" tag="L+CR">            tØtØ mi tuw a</item>
+    <item id="o2" line="920" tag="M+CR+SY">             ´</item>
+    <item id="o3" line="921" tag="L+CR">   (36) I                          wata.</item>
+    <item id="o4" line="922" tag="M+CR+SY">                      ´               ´</item>
+    <item id="o5" line="923" tag="G">        you push me throw LOC water</item>
+    <item id="o6" line="924" tag="T">        `You pushed me into the water.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="919" tag="L+CR">tØtØ mi tuw a</item>
+    <item id="c2" line="920" tag="M+CR+SY">´</item>
+    <item id="c3" line="921" tag="L+CR">I                          wata.</item>
+    <item id="c4" line="922" tag="M+CR+SY">´               ´</item>
+    <item id="c5" line="923" tag="G">you push me throw LOC water</item>
+    <item id="c6" line="924" tag="T">You pushed me into the water.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+    <item id="p1" content="c3[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:27]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:29]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i35448">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="925-928" line-types="L+CR+SY L+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="925" tag="L+CR+SY">   (37) Kob´ tØtØ d´     womi tuw.</item>
+    <item id="o2" line="926" tag="L+CR+SY">           i´       i      ´    ´</item>
+    <item id="o3" line="927" tag="G">        Kobi push DEF man throw</item>
+    <item id="o4" line="928" tag="T">        `Kobi pushed the man and he fell.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="925" tag="L+CR+SY">Kob´ tØtØ d´     womi tuw.</item>
+    <item id="c3" line="927" tag="G">Kobi push DEF man throw</item>
+    <item id="c4" line="928" tag="T">Kobi pushed the man and he fell.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35449">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="929-933" line-types="L+CR L+CR+SY L+CR+SY G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="929" tag="L+CR">                       ifi tuw.</item>
+    <item id="o2" line="930" tag="L+CR+SY">   (38) V´nde d´     bi´</item>
+    <item id="o3" line="931" tag="L+CR+SY">          i     i             ´</item>
+    <item id="o4" line="932" tag="G">        throw DEF letter throw</item>
+    <item id="o5" line="933" tag="T+EX">        `Throw the letter in.' (the trashcan)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="929" tag="L+CR">ifi tuw.</item>
+    <item id="c4" line="932" tag="G">throw DEF letter throw</item>
+    <item id="c5" line="933" tag="T+EX">Throw the letter in.' (the trashcan)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35450">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="934-939" line-types="L+CR L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="934" tag="L+CR">                                  fatu tuw a</item>
+    <item id="o2" line="935" tag="L+CR+SY">   (39) A kandi d´                             d´</item>
+    <item id="o3" line="936" tag="L+CR">                   i    amana                   i boo.</item>
+    <item id="o4" line="937" tag="M+CR+SY">             ´             ´       ´    ´          ~~</item>
+    <item id="o5" line="938" tag="G">        he pour DEF "Amana" fat throw LOC DEF flour</item>
+    <item id="o6" line="939" tag="T">        `He poured the syrup on the pancakes.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="934 935" tag="L+CR+SY">A kandi d´               fatu tuw a    d´</item>
+    <item id="c5" line="938" tag="G">he pour DEF "Amana" fat throw LOC DEF flour</item>
+    <item id="c6" line="939" tag="T">He poured the syrup on the pancakes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35451">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="940-944" line-types="L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="940" tag="L+CR+SY">   (40) A saka h´ son´ buta.</item>
+    <item id="o2" line="941" tag="L+CR">                  ii    i</item>
+    <item id="o3" line="942" tag="M+CR+SY">            ´                 ´</item>
+    <item id="o4" line="943" tag="G">        he drop all thing put</item>
+    <item id="o5" line="944" tag="T">        `He dropped everything (literally).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="940" tag="L+CR+SY">A saka h´ son´ buta.</item>
+    <item id="c4" line="943" tag="G">he drop all thing put</item>
+    <item id="c5" line="944" tag="T">He dropped everything (literally).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35454">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1034-1037" line-types="L+CR+SY L+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1034" tag="L+CR+SY">    (43) m´ hedi</item>
+    <item id="o2" line="1035" tag="L+CR+SY">          i´</item>
+    <item id="o3" line="1036" tag="G">         my head</item>
+    <item id="o4" line="1037" tag="T">         "my head"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1034" tag="L+CR+SY">m´ hedi</item>
+    <item id="c3" line="1036" tag="G">my head</item>
+    <item id="c4" line="1037" tag="T">my head</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:7]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35455">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1038-1041" line-types="L+CR+SY L+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1038" tag="L+CR+SY">    (44) D´ wagi u mi booko.</item>
+    <item id="o2" line="1039" tag="L+CR+SY">          i     ´            ´</item>
+    <item id="o3" line="1040" tag="G">         DEF car of me broken</item>
+    <item id="o4" line="1041" tag="T">         "My car is broken."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1038" tag="L+CR+SY">D´ wagi u mi booko.</item>
+    <item id="c3" line="1040" tag="G">DEF car of me broken</item>
+    <item id="c4" line="1041" tag="T">My car is broken.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35459">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1085-1088" line-types="L+CR+SY M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1085" tag="L+CR+SY">   (48) A naki d´ i    tata u  mi.</item>
+    <item id="o2" line="1086" tag="M+CR+SY">             ´            ´</item>
+    <item id="o3" line="1087" tag="G">        he hit DEF father POSS me</item>
+    <item id="o4" line="1088" tag="T">        `He hit my father.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1085" tag="L+CR+SY">A naki d´ i    tata u  mi.</item>
+    <item id="c3" line="1087" tag="G">he hit DEF father POSS me</item>
+    <item id="c4" line="1088" tag="T">He hit my father.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35460">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1089-1093" line-types="L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1089" tag="L+CR+SY">   (49) Mi k ´              m´ njunju wosu.</item>
+    <item id="o2" line="1090" tag="L+CR">                   go a       i</item>
+    <item id="o3" line="1091" tag="M+CR+SY">                    ´             ´~ ´</item>
+    <item id="o4" line="1092" tag="G">        I want go LOC my new house</item>
+    <item id="o5" line="1093" tag="T">        `I want to go to my new house.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1089" tag="L+CR+SY">Mi k ´              m´ njunju wosu.</item>
+    <item id="c4" line="1092" tag="G">I want go LOC my new house</item>
+    <item id="c5" line="1093" tag="T">I want to go to my new house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35461">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1101-1110" line-types="L+CR M+CR+SY L+CR+SY L M+CR+SY G L+CR+SY L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1101" tag="L+CR">   (50) Mi k                              mi musu d</item>
+    <item id="o2" line="1102" tag="M+CR+SY">              ´                                    ´</item>
+    <item id="o3" line="1103" tag="L+CR+SY">                                mi´ u</item>
+    <item id="o4" line="1104" tag="L">                  u    d ee        i</item>
+    <item id="o5" line="1105" tag="M+CR+SY">                         ´´                   ´</item>
+    <item id="o6" line="1106" tag="G">        I want that DEF.PL child POSS me must COP</item>
+    <item id="o7" line="1107" tag="L+CR+SY">        l´mbol´mbo.</item>
+    <item id="o8" line="1108" tag="L+CR">         i     i</item>
+    <item id="o9" line="1109" tag="G">        clean</item>
+    <item id="o10" line="1110" tag="T">        `I want my children to be clean.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1101" tag="L+CR">Mi k                              mi musu d</item>
+    <item id="c2" line="1102 1103" tag="M+CR+SY+L">´                mi´ u              ´</item>
+    <item id="c4" line="1104" tag="L">u    d ee        i</item>
+    <item id="c5" line="1105" tag="M+CR+SY">´´                   ´</item>
+    <item id="c6" line="1106" tag="G">I want that DEF.PL child POSS me must COP</item>
+    <item id="c7" line="1107" tag="L+CR+SY">l´mbol´mbo.</item>
+    <item id="c9" line="1109" tag="G">clean</item>
+    <item id="c10" line="1110" tag="T">I want my children to be clean.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+    <item id="p1" content="c2[0:37]"/>
+    <item id="p2" content="c4[0:18]"/>
+    <item id="p3" content="c7[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:41]" alignment="p3"/>
+    <item id="g1" content="c9[0:5]" alignment="p4"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:31]" alignment="p4"/>
+  </tier>
+</igt>
+<igt id="i35462">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1124-1127" line-types="L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1124" tag="L+CR">   (51) Mi da (*d) Gadu.</item>
+    <item id="o2" line="1125" tag="M+CR+SY">                  ´  ´</item>
+    <item id="o3" line="1126" tag="G">        I COP       God</item>
+    <item id="o4" line="1127" tag="T">        `I am God.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1124" tag="L+CR">Mi da (*d) Gadu.</item>
+    <item id="c2" line="1125" tag="M+CR+SY">´  ´</item>
+    <item id="c3" line="1126" tag="G">I COP       God</item>
+    <item id="c4" line="1127" tag="T">I am God.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35463">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1131-1134" line-types="L+CR+SY M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1131" tag="L+CR+SY">   (52) Mi d  ´    wa kabite.</item>
+    <item id="o2" line="1132" tag="M+CR+SY">                     ~       ~</item>
+    <item id="o3" line="1133" tag="G">        I COP a captain</item>
+    <item id="o4" line="1134" tag="T">        `I am a captain.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1131" tag="L+CR+SY">Mi d  ´    wa kabite.</item>
+    <item id="c3" line="1133" tag="G">I COP a captain</item>
+    <item id="c4" line="1134" tag="T">I am a captain.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35464">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1135-1140" line-types="L+CR+SY L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1135" tag="L+CR+SY">   (53) Al´ d</item>
+    <item id="o2" line="1136" tag="L+CR+SY">           isi ´     wa son´ d´</item>
+    <item id="o3" line="1137" tag="L+CR">                             ii       de ta        sei.</item>
+    <item id="o4" line="1138" tag="M+CR+SY">                       ~                      ´     ´</item>
+    <item id="o5" line="1139" tag="G">        rice COP a thing REL they PROG sell</item>
+    <item id="o6" line="1140" tag="T">        `Rice is one thing that they are selling.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1135 1137" tag="L+CR+SY">Al´ d               ii       de ta        sei.</item>
+    <item id="c5" line="1139" tag="G">rice COP a thing REL they PROG sell</item>
+    <item id="c6" line="1140" tag="T">Rice is one thing that they are selling.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35467">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1170-1173" line-types="L+CR M+CR+SY L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1170" tag="L+CR">   (56) Mi da     wa kabite.</item>
+    <item id="o2" line="1171" tag="M+CR+SY">                    ~     ~</item>
+    <item id="o3" line="1172" tag="L">        I COP a captain</item>
+    <item id="o4" line="1173" tag="T">        `I am a captain.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1170" tag="L+CR">Mi da     wa kabite.</item>
+    <item id="c2" line="1171" tag="M+CR+SY">~     ~</item>
+    <item id="c3" line="1172" tag="L">I COP a captain</item>
+    <item id="c4" line="1173" tag="T">I am a captain.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+    <item id="p1" content="c3[0:15]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i35468">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1174-1178" line-types="L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1174" tag="L+CR+SY">   (57) Al´ da       wa son´ d´</item>
+    <item id="o2" line="1175" tag="L+CR">           isi               ii       de ta        sei.</item>
+    <item id="o3" line="1176" tag="M+CR+SY">                       ~                      ´     ´</item>
+    <item id="o4" line="1177" tag="G">        rice COP a thing REL they PROG sell</item>
+    <item id="o5" line="1178" tag="T">        `Rice is one thing that they are selling.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1174" tag="L+CR+SY">Al´ da       wa son´ d´</item>
+    <item id="c4" line="1177" tag="G">rice COP a thing REL they PROG sell</item>
+    <item id="c5" line="1178" tag="T">Rice is one thing that they are selling.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35469">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1184-1189" line-types="L+CR+SY L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1184" tag="L+CR+SY">   (58) Al´ d</item>
+    <item id="o2" line="1185" tag="L+CR+SY">           isi ´     d´     son´ d´</item>
+    <item id="o3" line="1186" tag="L+CR">                       i       ii        de ta     sei.</item>
+    <item id="o4" line="1187" tag="M+CR+SY">                                                ´   ´</item>
+    <item id="o5" line="1188" tag="G">        rice COP DEF thing REL they PROG sell</item>
+    <item id="o6" line="1189" tag="T">        `Rice is the thing that they are selling.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1184 1186" tag="L+CR+SY">Al´ d         i       ii        de ta     sei.</item>
+    <item id="c5" line="1188" tag="G">rice COP DEF thing REL they PROG sell</item>
+    <item id="c6" line="1189" tag="T">Rice is the thing that they are selling.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35470">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1232-1238" line-types="L+CR+SY L+CR+SY L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1232" tag="L+CR+SY">                                l´ a f´ .</item>
+    <item id="o2" line="1233" tag="L+CR+SY">                                 ib ~ ~</item>
+    <item id="o3" line="1234" tag="L+CR+SY">                          d´</item>
+    <item id="o4" line="1235" tag="L+CR">    (59) A sindo a         i</item>
+    <item id="o5" line="1236" tag="M+CR+SY">                 ´</item>
+    <item id="o6" line="1237" tag="G">         he sit    LOC DEF top POSS.it</item>
+    <item id="o7" line="1238" tag="T">         `He sat on top of it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1232 1234 1236" tag="L+CR+SY+M">´       d´   l´ a f´ .</item>
+    <item id="c6" line="1237" tag="G">he sit    LOC DEF top POSS.it</item>
+    <item id="c7" line="1238" tag="T">He sat on top of it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35471">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1239-1245" line-types="L+CR+SY L+CR+SY L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1239" tag="L+CR+SY">                                              ifi ~ ´</item>
+    <item id="o2" line="1240" tag="L+CR+SY">                                         siki´ n.</item>
+    <item id="o3" line="1241" tag="L+CR+SY">                                mi n ~              ~</item>
+    <item id="o4" line="1242" tag="L+CR">    (60) Mi a       wa baasi</item>
+    <item id="o5" line="1243" tag="M+CR+SY">              ´      ~    ´</item>
+    <item id="o6" line="1244" tag="G">         I have a balloon my name write on.it</item>
+    <item id="o7" line="1245" tag="T">         `I have a balloon with my name written on it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1239 1242" tag="L+CR+SY">Mi a       wa baasi                  ifi ~ ´</item>
+    <item id="c6" line="1244" tag="G">I have a balloon my name write on.it</item>
+    <item id="c7" line="1245" tag="T">I have a balloon with my name written on it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35472">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1253-1255" line-types="L G T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1253" tag="L">   (61) dem no     mussu komotto na       Jerusalem</item>
+    <item id="o2" line="1254" tag="G">        they NEG must leave         LOC Jerusalem</item>
+    <item id="o3" line="1255" tag="T+SY">        "They must not leave Jerusalem." (Schuchardt, 1914: 2)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1253" tag="L">dem no     mussu komotto na       Jerusalem</item>
+    <item id="c2" line="1254" tag="G">they NEG must leave         LOC Jerusalem</item>
+    <item id="c3" line="1255" tag="T+SY">They must not leave Jerusalem." (Schuchardt, 1914: 2)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35473">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1268-1274" line-types="L+CR M+CR+SY L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1268" tag="L+CR">                                           k.</item>
+    <item id="o2" line="1269" tag="M+CR+SY">                                            ´</item>
+    <item id="o3" line="1270" tag="L+CR+SY">                            d´ juu i</item>
+    <item id="o4" line="1271" tag="L+CR">   (62) I   sa nja na        i´</item>
+    <item id="o5" line="1272" tag="M+CR+SY">                   ~</item>
+    <item id="o6" line="1273" tag="G">        you can eat LOC the hour you want</item>
+    <item id="o7" line="1274" tag="T">        `You can eat at whatever time you want.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1268" tag="L+CR">k.</item>
+    <item id="c2" line="1269 1270 1272" tag="M+CR+SY+L">~        d´ juu i       ´</item>
+    <item id="c6" line="1273" tag="G">you can eat LOC the hour you want</item>
+    <item id="c7" line="1274" tag="T">You can eat at whatever time you want.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+    <item id="p1" content="c2[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:33]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:38]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i35474">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1284-1288" line-types="L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1284" tag="L+CR+SY">   (63) D´ womi a</item>
+    <item id="o2" line="1285" tag="L+CR">          i               waka.</item>
+    <item id="o3" line="1286" tag="M+CR+SY">               ´   ´        ´</item>
+    <item id="o4" line="1287" tag="G">        DEF man NEG walk</item>
+    <item id="o5" line="1288" tag="T">        `The man doesn't walk.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1284" tag="L+CR+SY">D´ womi a</item>
+    <item id="c4" line="1287" tag="G">DEF man NEG walk</item>
+    <item id="c5" line="1288" tag="T">The man doesn't walk.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35475">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1290-1293" line-types="L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1290" tag="L+CR">   (64) Na waka!</item>
+    <item id="o2" line="1291" tag="M+CR+SY">          ´     ´</item>
+    <item id="o3" line="1292" tag="G">        NEG walk</item>
+    <item id="o4" line="1293" tag="T">        `Don't walk!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1290" tag="L+CR">Na waka!</item>
+    <item id="c2" line="1291" tag="M+CR+SY">´     ´</item>
+    <item id="c3" line="1292" tag="G">NEG walk</item>
+    <item id="c4" line="1293" tag="T">Don't walk!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35476">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1294-1297" line-types="L+CR+SY M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1294" tag="L+CR+SY">   (65) Na mi du .  ´~</item>
+    <item id="o2" line="1295" tag="M+CR+SY">          ´</item>
+    <item id="o3" line="1296" tag="G">        NEG I do it</item>
+    <item id="o4" line="1297" tag="T">        `It wasn't me who did it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1294" tag="L+CR+SY">Na mi du .  ´~</item>
+    <item id="c3" line="1296" tag="G">NEG I do it</item>
+    <item id="c4" line="1297" tag="T">It wasn't me who did it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35477">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1307-1311" line-types="L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1307" tag="L+CR+SY">   (66) D´ womi na</item>
+    <item id="o2" line="1308" tag="L+CR">          i               waka.</item>
+    <item id="o3" line="1309" tag="M+CR+SY">               ´     ´      ´</item>
+    <item id="o4" line="1310" tag="G">        DEF man NEG walk</item>
+    <item id="o5" line="1311" tag="T">        `The man doesn't walk.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1307" tag="L+CR+SY">D´ womi na</item>
+    <item id="c4" line="1310" tag="G">DEF man NEG walk</item>
+    <item id="c5" line="1311" tag="T">The man doesn't walk.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35478">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1327-1331" line-types="L+DB+CR+SY L+DB+CR+SY L+DB+CR+SY M+DB+CR+SY T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1327" tag="L+DB+CR+SY">                                    D´ womi, ´ waka.</item>
+    <item id="o2" line="1328" tag="L+DB+CR+SY">        D´ womi, a na waka.</item>
+    <item id="o3" line="1329" tag="L+DB+CR+SY">          i´                          i´     a´</item>
+    <item id="o4" line="1330" tag="M+DB+CR+SY">                    ´´                       ~</item>
+    <item id="o5" line="1331" tag="T+DB">        `The man, he doesn't walk.' `The man, he doesn't walk.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1327 1328" tag="L+DB+CR+SY">D´ womi, a na waka.        D´ womi, ´ waka.</item>
+    <item id="c5" line="1331" tag="T+DB">The man, he doesn't walk.' `The man, he doesn't walk.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35479">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1333-1335" line-types="L+CR+SY L+CR+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1333" tag="L+CR+SY">        D´ womi a waka.</item>
+    <item id="o2" line="1334" tag="L+CR+SY">          i´     ´´</item>
+    <item id="o3" line="1335" tag="T">        `The man doesn't walk.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1333" tag="L+CR+SY">D´ womi a waka.</item>
+    <item id="c3" line="1335" tag="T">The man doesn't walk.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35483">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1378-1385" line-types="M+CR+SY L+CR M+CR+SY L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1378" tag="M+CR+SY">                     ´</item>
+    <item id="o2" line="1379" tag="L+CR">                                            mØni.</item>
+    <item id="o3" line="1380" tag="M+CR+SY">                                             ´</item>
+    <item id="o4" line="1381" tag="L+CR+SY">   (70) D´ dagu u</item>
+    <item id="o5" line="1382" tag="L+CR">         i                mi aa      / na a</item>
+    <item id="o6" line="1383" tag="M+CR+SY">              ´               ´´        ´ ´</item>
+    <item id="o7" line="1384" tag="G">        DEF dog POSS me NEG.have NEG have money</item>
+    <item id="o8" line="1385" tag="T">        `My dog doesn't have money.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1378" tag="M+CR+SY">´</item>
+    <item id="c2" line="1379" tag="L+CR">mØni.</item>
+    <item id="c3" line="1380 1381" tag="M+CR+SY+L">D´ dagu u                           ´</item>
+    <item id="c7" line="1384" tag="G">DEF dog POSS me NEG.have NEG have money</item>
+    <item id="c8" line="1385" tag="T">My dog doesn't have money.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:5]"/>
+    <item id="p1" content="c3[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:39]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:26]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i35500">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="2033-2037" line-types="L+CR+SY L+CR M+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2033" tag="L+CR+SY">   (88) D´ buku d    ´           tafa l´ a.</item>
+    <item id="o2" line="2034" tag="L+CR">          i               a            ib</item>
+    <item id="o3" line="2035" tag="M+CR+SY">               ´                  ´</item>
+    <item id="o4" line="2036" tag="G">        DEF book COP LOC table top</item>
+    <item id="o5" line="2037" tag="T">        `The book is on the table.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2033" tag="L+CR+SY">D´ buku d    ´           tafa l´ a.</item>
+    <item id="c4" line="2036" tag="G">DEF book COP LOC table top</item>
+    <item id="c5" line="2037" tag="T">The book is on the table.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116588">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3648" line-range="181-184" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="181" tag="M+AC+LN">  Saramaccan (Veenstra 1996:107)</item>
+    <item id="o2" line="182" tag="L">  (15) Mí mandá biífi dá hen.</item>
+    <item id="o3" line="183" tag="G">       1SG send         letter give her</item>
+    <item id="o4" line="184" tag="T">       'I have sent letters to her.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="181" tag="M+AC+LN">Saramaccan (Veenstra 1996:107)</item>
+    <item id="c2" line="182" tag="L">Mí mandá biífi dá hen.</item>
+    <item id="c3" line="183" tag="G">1SG send         letter give her</item>
+    <item id="c4" line="184" tag="T">I have sent letters to her.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118145">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="4502-4504" line-types="L+AC+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4502" tag="L+AC+LN">  (2)   A      tei goni suti      di      pingo.              (Saramaccan; Byrne 1985, 281)</item>
+    <item id="o2" line="4503" tag="G">        3SG take gun shoot DET pig</item>
+    <item id="o3" line="4504" tag="T">        `He shot the pig with a gun.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4502" tag="L+AC+LN">A      tei goni suti      di      pingo.              (Saramaccan; Byrne 1985, 281</item>
+    <item id="c2" line="4503" tag="G">3SG take gun shoot DET pig</item>
+    <item id="c3" line="4504" tag="T">He shot the pig with a gun.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118151">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="4520-4522" line-types="L+AC+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4520" tag="L+AC+LN">  (8)   A kísi       dí    fou náki kíi limbó bói njan. (Saramaccan; Veenstra 1996, 103)</item>
+    <item id="o2" line="4521" tag="G">        3SG catch DET bird hit kill clean cook eat</item>
+    <item id="o3" line="4522" tag="T">        `He caught the bird, struck it dead, cleaned, cooked and ate it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4520" tag="L+AC+LN">A kísi       dí    fou náki kíi limbó bói njan. (Saramaccan; Veenstra 1996, 103</item>
+    <item id="c2" line="4521" tag="G">3SG catch DET bird hit kill clean cook eat</item>
+    <item id="c3" line="4522" tag="T">He caught the bird, struck it dead, cleaned, cooked and ate it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137461">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="2044-2049" line-types="L+LN+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2044" tag="L+LN+CR">                  womi di        mi     go      kai     a       kon            [Saramaccan]</item>
+    <item id="o2" line="2045" tag="L+CR">         b Di</item>
+    <item id="o3" line="2046" tag="B"></item>
+    <item id="o4" line="2047" tag="G">             Det man      Rel    1sg    go      call    3sg     come</item>
+    <item id="o5" line="2048" tag="B"></item>
+    <item id="o6" line="2049" tag="T">             `The man that I went out to call came'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2044 2045" tag="L+LN+CR">b Di     womi di        mi     go      kai     a       kon            [Saramaccan]</item>
+    <item id="c3" line="2046" tag="B"/>
+    <item id="c4" line="2047" tag="G">Det man      Rel    1sg    go      call    3sg     come</item>
+    <item id="c5" line="2048" tag="B"/>
+    <item id="c6" line="2049" tag="T">The man that I went out to call came</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i152784">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2747" line-range="292-295" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="292" tag="M+AC+LN">      (21)      Saramaccan       (Byrne 1987: 225)</item>
+    <item id="o2" line="293" tag="L">                a       bigi      pasá          di              mii</item>
+    <item id="o3" line="294" tag="G">                3sg     tall      surpass       the             child</item>
+    <item id="o4" line="295" tag="T">                `He is taller   than the child'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="292" tag="M+AC+LN">Saramaccan       (Byrne 1987: 225</item>
+    <item id="c2" line="293" tag="L">a       bigi      pasá          di              mii</item>
+    <item id="c3" line="294" tag="G">3sg     tall      surpass       the             child</item>
+    <item id="c4" line="295" tag="T">He is taller   than the child</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i152785">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2747" line-range="311-314" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="311" tag="M+AC+LN">      (22)      Saramaccan (Byrne 1990: 152)</item>
+    <item id="o2" line="312" tag="L">                a.   a      bi     féfi   di    wósu kabá</item>
+    <item id="o3" line="313" tag="G">                     he     PAST paint the      house finish</item>
+    <item id="o4" line="314" tag="T">                     `he had painted the house already'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="311" tag="M+AC+LN">Saramaccan (Byrne 1990: 152</item>
+    <item id="c2" line="312" tag="L">a      bi     féfi   di    wósu kabá</item>
+    <item id="c3" line="313" tag="G">he     PAST paint the      house finish</item>
+    <item id="c4" line="314" tag="T">he had painted the house already</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i152786">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2747" line-range="316-317" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="316" tag="L">                b.       a         féfi  di           wósu bi    kabá</item>
+    <item id="o2" line="317" tag="G">                         he        paint the          house PAST finish</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="316" tag="L">a         féfi  di           wósu bi    kabá</item>
+    <item id="c2" line="317" tag="G">he        paint the          house PAST finish</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i152787">
+  <metadata type="xigt-meta">
+    <meta type="language" name="saramaccan" iso-639-3="srm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2747" line-range="319-321" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="319" tag="L">                c.       a      bi    féfi   di     wósu bi    kabá</item>
+    <item id="o2" line="320" tag="G">                         he     PAST paint the      house PAST finish</item>
+    <item id="o3" line="321" tag="T">                         `he had painted the house already'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="319" tag="L">a      bi    féfi   di     wósu bi    kabá</item>
+    <item id="c2" line="320" tag="G">he     PAST paint the      house PAST finish</item>
+    <item id="c3" line="321" tag="T">he had painted the house already</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

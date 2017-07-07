@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i49041">
+  <metadata type="xigt-meta">
+    <meta type="language" name="algerian arabic" iso-639-3="arq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="6911-6912" line-types="M+AC+LN L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6911" tag="M+AC+LN">  (135) Algerian Arabic (Afro-Asiatic, Semitic) (Lameen Souag, p.c.)</item>
+    <item id="o2" line="6912" tag="L-T">        beRka             watch out!</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6911" tag="M+AC+LN">Algerian Arabic (Afro-Asiatic, Semitic) (Lameen Souag, p.c.</item>
+    <item id="c2" line="6912" tag="L-T">beRka             watch out!</item>
+  </tier>
+</igt>
+<igt id="i49044">
+  <metadata type="xigt-meta">
+    <meta type="language" name="algerian arabic" iso-639-3="arq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="6979-6979" line-types="L-T+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6979" tag="L-T+LN">               Algerian Arabic *                  yji                   ayya          `come'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6979" tag="L-T+LN">Algerian Arabic *                  yji                   ayya          `come</item>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,1696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i28909">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2794" line-range="790-796" line-types="L+DB+CR L+DB+CR L+DB+CR B B G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="790" tag="L+DB+CR">           o-kanawa-</item>
+    <item id="o2" line="791" tag="L+DB+CR">   (36)              ¤</item>
+    <item id="o3" line="792" tag="L+DB+CR">                                                   (37)    o-kanawa-tho</item>
+    <item id="o4" line="793" tag="B"></item>
+    <item id="o5" line="794" tag="B"></item>
+    <item id="o6" line="795" tag="G+DB">          1-canoe-possd                                   1-canoe-possd.pst</item>
+    <item id="o7" line="796" tag="T+DB">          `my canoe'                                      `the canoe that used to b e mine'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="790 791 792" tag="L+DB+CR">o-kanawa-¤                            (37)    o-kanawa-tho</item>
+    <item id="c4" line="793" tag="B"/>
+    <item id="c5" line="794" tag="B"/>
+    <item id="c6" line="795" tag="G+DB">1-canoe-possd                                   1-canoe-possd.pst</item>
+    <item id="c7" line="796" tag="T+DB">my canoe'                                      `the canoe that used to b e mine</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:79]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41437">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="1532-1538" line-types="L+DB+CR L+DB+CR M G+DB+CR G+DB+CR T+DB+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1532" tag="L+DB+CR">                                                                                        (98) ow-ot-t                                      (owot )</item>
+    <item id="o2" line="1533" tag="L+DB+CR">   (96)           o-kanawa-                                                                                       £                               £</item>
+    <item id="o3" line="1534" tag="M">                 ¢                  4£ ¢</item>
+    <item id="o4" line="1535" tag="G+DB+CR">                                                                                             2-meat-P O                     SS D</item>
+    <item id="o5" line="1536" tag="G+DB+CR">                 1-canoe-P O S             SD</item>
+    <item id="o6" line="1537" tag="T+DB+CR">                                                                                             your meat</item>
+    <item id="o7" line="1538" tag="T+CR">                 my canoe</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1532 1533" tag="L+DB+CR">o-kanawa-(98) ow-ot-t              £                      (owot )  £</item>
+    <item id="c3" line="1534" tag="M">¢                  4£ ¢</item>
+    <item id="c4" line="1535 1536" tag="G+DB+CR">1-canoe-P O S             SD                                                2-meat-P O                     SS D</item>
+    <item id="c7" line="1538" tag="T+CR">my canoe</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:111]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41438">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="1539-1546" line-types="L+DB+CR L+DB+CR L+DB+CR M G+DB+CR G+DB+CR T+DB+CR T+DB+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1539" tag="L+DB+CR">                                                                                        (99) ow-wo-t -th</item>
+    <item id="o2" line="1540" tag="L+DB+CR">                  o-kanawa-tho</item>
+    <item id="o3" line="1541" tag="L+DB+CR">   (97)                                                                                                                £        1£ 5¢ £</item>
+    <item id="o4" line="1542" tag="M">                 ¢</item>
+    <item id="o5" line="1543" tag="G+DB+CR">                                                                                             2-meat-P O S S D - P S T</item>
+    <item id="o6" line="1544" tag="G+DB+CR">                 1-canoe-P O S S D . P S T</item>
+    <item id="o7" line="1545" tag="T+DB+CR">                                                                                             `that meat which used to be yours'</item>
+    <item id="o8" line="1546" tag="T+DB+CR">                 `the canoe that used to be mine'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1539 1540 1541" tag="L+DB+CR">o-kanawa-tho                                                          (99) ow-wo-t-th               £        1£ 5¢ £</item>
+    <item id="c4" line="1542" tag="M">¢</item>
+    <item id="c5" line="1543 1544" tag="G+DB+CR">1-canoe-P O S S D . P S T                                                   2-meat-P O S S D-P S T</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:116]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:98]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41439">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="1548-1554" line-types="L+DB+CR L+DB+CR L+DB+CR G+DB+CR G+DB+CR T+DB+CR T+DB+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1548" tag="L+DB+CR">                  -he-t e</item>
+    <item id="o2" line="1549" tag="L+DB+CR">  (100)              £   6                                                                             o-katxho-ø</item>
+    <item id="o3" line="1550" tag="L+DB+CR">                                                                                       (102)          ¢</item>
+    <item id="o4" line="1551" tag="G+DB+CR">                 3-wife-P         OS SD</item>
+    <item id="o5" line="1552" tag="G+DB+CR">                                                                                                      1-things-P O              S SD</item>
+    <item id="o6" line="1553" tag="T+DB+CR">                 his wife</item>
+    <item id="o7" line="1554" tag="T+DB+CR">                                                                                                      my things</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1548 1550" tag="L+DB+CR">-he-t e                                                              (102)          ¢</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+</igt>
+<igt id="i41440">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="1555-1561" line-types="L+DB+CR L+DB+CR M G+DB+CR G+DB+CR T+DB+CR T+DB+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1555" tag="L+DB+CR">  (101)           -he-t e-nh r</item>
+    <item id="o2" line="1556" tag="L+DB+CR">                     £   6         ££                                                  (103)           -katxho-ø-th r</item>
+    <item id="o3" line="1557" tag="M">                                                                                                          £                          ££</item>
+    <item id="o4" line="1558" tag="G+DB+CR">                 3-wife-P O S S D - P           ST</item>
+    <item id="o5" line="1559" tag="G+DB+CR">                                                                                                      3-things-P O S S D -                 P ST</item>
+    <item id="o6" line="1560" tag="T+DB+CR">                 his former wife</item>
+    <item id="o7" line="1561" tag="T+DB+CR">                                                                                                      his old things</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1555" tag="L+DB+CR">-he-t e-nh r</item>
+    <item id="c3" line="1557" tag="M">£                          ££</item>
+    <item id="c4" line="1558 1559" tag="G+DB+CR">3-wife-P O S S D-P           ST                                                    3-things-P O S S D-P ST</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:106]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41441">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="1591-1594" line-types="L M G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1591" tag="L">  (104)    ro-to-th r -nh r</item>
+    <item id="o2" line="1592" tag="M">                    ££        ££</item>
+    <item id="o3" line="1593" tag="G+CR">           1-go-P S T- R E M</item>
+    <item id="o4" line="1594" tag="T+AC">           my going long ago (Derbyshire 1979:99)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1591" tag="L">ro-to-th r-nh r</item>
+    <item id="c2" line="1592" tag="M">££        ££</item>
+    <item id="c3" line="1593" tag="G+CR">1-go-P S T-R E M</item>
+    <item id="c4" line="1594" tag="T+AC">my going long ago (Derbyshire 1979:99)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41442">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="1595-1598" line-types="L+CR L+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1595" tag="L+CR">           e-karyma-t h r -nh r</item>
+    <item id="o2" line="1596" tag="L+CR">  (105)                  ££ 6      ££</item>
+    <item id="o3" line="1597" tag="G+CR">           3-tell-P S T- R E M</item>
+    <item id="o4" line="1598" tag="T+AC">           its telling long ago (ibid:99)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1595" tag="L+CR">e-karyma-t h r-nh r</item>
+    <item id="c3" line="1597" tag="G+CR">3-tell-P S T-R E M</item>
+    <item id="c4" line="1598" tag="T+AC">its telling long ago (ibid:99)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41443">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="1599-1602" line-types="L M G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1599" tag="L">  (106)    o-n-menho­th r -nh r</item>
+    <item id="o2" line="1600" tag="M">                              ££    ££</item>
+    <item id="o3" line="1601" tag="G+CR">           2-O B J N O M Z-write-P S T- R E M</item>
+    <item id="o4" line="1602" tag="T+AC">           the thing you wrote long ago' (ibid:99)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1599" tag="L">o-n-menho­th r-nh r</item>
+    <item id="c2" line="1600" tag="M">££    ££</item>
+    <item id="c3" line="1601" tag="G+CR">2-O B J N O M Z-write-P S T-R E M</item>
+    <item id="c4" line="1602" tag="T+AC">the thing you wrote long ago' (ibid:99)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41444">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="1607-1610" line-types="L M G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1607" tag="L">  (107)    ro-kanawa-r mar-yako                                uro ryhe ro ha rokanawar .</item>
+    <item id="o2" line="1608" tag="M">                          £                                                   £                       £</item>
+    <item id="o3" line="1609" tag="G+CR">           1-canoe-P O S S 2S.3O.take-R E C . P S T. C O M P L mine E M P H that I N T 1-canoe-P O S      S</item>
+    <item id="o4" line="1610" tag="T">           `You took my canoe, the canoe that belongs to me' (ibid:129, 288)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1607" tag="L">ro-kanawa-r mar-yako                                uro ryhe ro ha rokanawar .</item>
+    <item id="c2" line="1608" tag="M">£                                                   £                       £</item>
+    <item id="c3" line="1609" tag="G+CR">1-canoe-P O S S 2S.3O.take-R E C . P S T. C O M P L mine E M P H that I N T 1-canoe-P O S      S</item>
+    <item id="c4" line="1610" tag="T">You took my canoe, the canoe that belongs to me' (ibid:129, 288)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:96]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41445">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="1611-1614" line-types="L+CR L+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1611" tag="L+CR">                                    yakaro -to-no.</item>
+    <item id="o2" line="1612" tag="L+CR">  (108)    Waraka y-ow-t       £                 £</item>
+    <item id="o3" line="1613" tag="G+CR">           Waraka 3-brother-P O S S with 1S.3O-go-I M M .           P ST</item>
+    <item id="o4" line="1614" tag="T+AC">           `I went with Waraka's brother' (ibid:11, 22b)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1611 1612" tag="L+CR">Waraka y-ow-t       £   yakaro-to-no.</item>
+    <item id="c3" line="1613" tag="G+CR">Waraka 3-brother-P O S S with 1S.3O-go-I M M .           P ST</item>
+    <item id="c4" line="1614" tag="T+AC">I went with Waraka's brother' (ibid:11, 22b)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47641">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3417" line-range="99-101" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="99" tag="L">  (4) toto y-ahos¥-ye                       kamara</item>
+    <item id="o2" line="100" tag="G">           man 3,3-grab-DISTANT.PAST jaguar</item>
+    <item id="o3" line="101" tag="T+AC">           `The jaguar grabbed the man.' (Derbyshire 1979)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="99" tag="L">toto y-ahos¥-ye                       kamara</item>
+    <item id="c2" line="100" tag="G">man 3,3-grab-DISTANT.PAST jaguar</item>
+    <item id="c3" line="101" tag="T+AC">The jaguar grabbed the man.' (Derbyshire 1979)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47658">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="426-429" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="426" tag="L+CR">         a. bvryekomo                                    wosv</item>
+    <item id="o2" line="427" tag="L+CR">  (7)                    horymamnohye</item>
+    <item id="o3" line="428" tag="G">            boy          she.CS .him.to.grow up          woman</item>
+    <item id="o4" line="429" tag="T">            `The woman raised the boy.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="426 427" tag="L+CR">bvryekomo    horymamnohye                    wosv</item>
+    <item id="c3" line="428" tag="G">boy          she.CS .him.to.grow up          woman</item>
+    <item id="c4" line="429" tag="T">The woman raised the boy.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47659">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="431-434" line-types="L+CR L+CR G+CR G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="431" tag="L+CR">                       -horymamv</item>
+    <item id="o2" line="432" tag="L+CR">         b. [Ø                        -noh -ye]                   = ho rymamno hye</item>
+    <item id="o3" line="433" tag="G+CR">            3S 3       -grow up       -CS -DIST.PST.</item>
+    <item id="o4" line="434" tag="G+CR">                O                                       COMPL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="431 432" tag="L+CR">[Ø-horymamv-noh-ye]                   = ho rymamno hye</item>
+    <item id="c3" line="433 434" tag="G+CR">3S 3O-grow up-CS-DIST.PST.    COMPL</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47660">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="438-441" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="438" tag="L+CR">         a. bvryekomo                      wosv    tv nyo</item>
+    <item id="o2" line="439" tag="L+CR">  (8)                   yotahahono                                  wya</item>
+    <item id="o3" line="440" tag="G">            boy         she.CS .to hit.him woman her(REFL ).husband by</item>
+    <item id="o4" line="441" tag="T">            `The woman caused her husband to hit the boy.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="438 439" tag="L+CR">bvryekomo   yotahahono         wosv    tv nyo           wya</item>
+    <item id="c3" line="440" tag="G">boy         she.CS .to hit.him woman her(REFL ).husband by</item>
+    <item id="c4" line="441" tag="T">The woman caused her husband to hit the boy.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47661">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="443-445" line-types="L+EX G+CR G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="443" tag="L+EX">         b. [y         -otaha   -ho -no]                          = yotahahono</item>
+    <item id="o2" line="444" tag="G+CR">            3S 3       -hit     -CS -IMM</item>
+    <item id="o3" line="445" tag="G+CR">                O                           .PST</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="443" tag="L+EX">[y-otaha-ho-no]                          = yotahahono</item>
+    <item id="c2" line="444 445" tag="G+CR">3S 3O-hit-CS-IMM    .PST</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47662">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="454-457" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="454" tag="L+CR">         a. bvryekomo                                             wosv</item>
+    <item id="o2" line="455" tag="L+CR">  (9)                     horymamnohpo ye        aworu                  wya</item>
+    <item id="o3" line="456" tag="G">            boy           he.caused.to raise.him his.uncle        woman by</item>
+    <item id="o4" line="457" tag="T">            `His uncle caused the woman to raise the boy.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="454 455" tag="L+CR">bvryekomo     horymamnohpo ye        aworu            wosv  wya</item>
+    <item id="c3" line="456" tag="G">boy           he.caused.to raise.him his.uncle        woman by</item>
+    <item id="c4" line="457" tag="T">His uncle caused the woman to raise the boy.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47663">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="459-462" line-types="L+CR L+CR G+CR G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="459" tag="L+CR">                       -horymamv</item>
+    <item id="o2" line="460" tag="L+CR">         b. [Ø                        -noh -ho -ye]                   = horymamn oh po ye</item>
+    <item id="o3" line="461" tag="G+CR">             3S 3      -grow up       -CS -CS -DIST</item>
+    <item id="o4" line="462" tag="G+CR">                   O                                     PST.COMPL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="459 460" tag="L+CR">[Ø-horymamv-noh-ho-ye]                   = horymamn oh po ye</item>
+    <item id="c3" line="461 462" tag="G+CR">3S 3  O-grow up-CS-CS-DIST      PST.COMPL</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48158">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3425" line-range="405-407" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="405" tag="L">        (12) o-kanawa-é</item>
+    <item id="o2" line="406" tag="G">              1-canoe-POSSD</item>
+    <item id="o3" line="407" tag="T">                `my canoe'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="405" tag="L">o-kanawa-é</item>
+    <item id="c2" line="406" tag="G">1-canoe-POSSD</item>
+    <item id="c3" line="407" tag="T">my canoe</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48159">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3425" line-range="408-410" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="408" tag="L">        (13) o-kanawa-tho</item>
+    <item id="o2" line="409" tag="G">              1-canoe-POSSD.PST</item>
+    <item id="o3" line="410" tag="T">                `the canoe that used to be mine'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="408" tag="L">o-kanawa-tho</item>
+    <item id="c2" line="409" tag="G">1-canoe-POSSD.PST</item>
+    <item id="c3" line="410" tag="T">the canoe that used to be mine</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48160">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3425" line-range="411-413" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="411" tag="L">        (14) ow-ot-té (owoté)</item>
+    <item id="o2" line="412" tag="G">              2-meat-POSSD</item>
+    <item id="o3" line="413" tag="T">                `your meat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="411" tag="L">ow-ot-té (owoté</item>
+    <item id="c2" line="412" tag="G">2-meat-POSSD</item>
+    <item id="c3" line="413" tag="T">your meat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48161">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3425" line-range="431-433" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="431" tag="L">       (15) ow-wo-té-théé</item>
+    <item id="o2" line="432" tag="G">             2-meat-POSSD-PST</item>
+    <item id="o3" line="433" tag="T">                `the meat that used to be yours'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="431" tag="L">ow-wo-té-théé</item>
+    <item id="c2" line="432" tag="G">2-meat-POSSD-PST</item>
+    <item id="c3" line="433" tag="T">the meat that used to be yours</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48162">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3425" line-range="434-436" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="434" tag="L">       (16) é-he-t+e</item>
+    <item id="o2" line="435" tag="G">             3-wife-POSSD</item>
+    <item id="o3" line="436" tag="T">                `his wife'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="434" tag="L">é-he-t+e</item>
+    <item id="c2" line="435" tag="G">3-wife-POSSD</item>
+    <item id="c3" line="436" tag="T">his wife</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48163">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3425" line-range="437-439" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="437" tag="L">       (17) é-he-t+e-nhéré</item>
+    <item id="o2" line="438" tag="G">             3-wife-POSSD-PST</item>
+    <item id="o3" line="439" tag="T">                `his former wife'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="437" tag="L">é-he-t+e-nhéré</item>
+    <item id="c2" line="438" tag="G">3-wife-POSSD-PST</item>
+    <item id="c3" line="439" tag="T">his former wife</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48164">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3425" line-range="440-442" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="440" tag="L">       (18) o-katxho-</item>
+    <item id="o2" line="441" tag="G">             1-things-POSSD</item>
+    <item id="o3" line="442" tag="T">                `my things'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="440" tag="L">o-katxho-</item>
+    <item id="c2" line="441" tag="G">1-things-POSSD</item>
+    <item id="c3" line="442" tag="T">my things</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48165">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3425" line-range="443-445" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="443" tag="L">       (19) é-katxho- -théré</item>
+    <item id="o2" line="444" tag="G">             3-things-POSSD-PST</item>
+    <item id="o3" line="445" tag="T">                `his old things'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="443" tag="L">é-katxho--théré</item>
+    <item id="c2" line="444" tag="G">3-things-POSSD-PST</item>
+    <item id="c3" line="445" tag="T">his old things</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48166">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3425" line-range="448-450" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="448" tag="L">       (20) Ro-kanawa-ré mar-yako                     uro ryhe éro ha rokanawaré.</item>
+    <item id="o2" line="449" tag="G">             1-canoe-POSS 2S.3O.take-REC.PST.COMPL mine EMPH that INT 1-canoe-POSS</item>
+    <item id="o3" line="450" tag="T+EX">                `You took my canoe, the canoe that belongs to me.' (ibid., 129, ex. 288)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="448" tag="L">Ro-kanawa-ré mar-yako                     uro ryhe éro ha rokanawaré.</item>
+    <item id="c2" line="449" tag="G">1-canoe-POSS 2S.3O.take-REC.PST.COMPL mine EMPH that INT 1-canoe-POSS</item>
+    <item id="c3" line="450" tag="T+EX">You took my canoe, the canoe that belongs to me.' (ibid., 129, ex. 288)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:71]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48167">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3425" line-range="451-453" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="451" tag="L">       (21) Waraka y-ow-té           yakaro é-to-no.</item>
+    <item id="o2" line="452" tag="G">             Waraka 3-brother-POSS with 1S.3O-go-IMM.PST</item>
+    <item id="o3" line="453" tag="T+EX">                `I went with Waraka's brother.' (ibid., 11, ex. 22b)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="451" tag="L">Waraka y-ow-té           yakaro é-to-no.</item>
+    <item id="c2" line="452" tag="G">Waraka 3-brother-POSS with 1S.3O-go-IMM.PST</item>
+    <item id="c3" line="453" tag="T+EX">I went with Waraka's brother.' (ibid., 11, ex. 22b)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58574">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3186" line-range="768-770" line-types="L G T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="768" tag="L">   (38) kmryehsI @hkA</item>
+    <item id="o2" line="769" tag="G">        hunt-imp.1s imp</item>
+    <item id="o3" line="770" tag="T+DB">            `Let me go hunting/I must go hunting right now.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="768" tag="L">kmryehsI @hkA</item>
+    <item id="c2" line="769" tag="G">hunt-imp.1s imp</item>
+    <item id="c3" line="770" tag="T+DB">Let me go hunting/I must go hunting right now.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58607">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3186" line-range="1147-1149" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1147" tag="L">   (55)   a. nomokno            haka</item>
+    <item id="o2" line="1148" tag="G">             come-immed.past.3s imp</item>
+    <item id="o3" line="1149" tag="T">             `Let him come!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1147" tag="L">nomokno            haka</item>
+    <item id="c2" line="1148" tag="G">come-immed.past.3s imp</item>
+    <item id="c3" line="1149" tag="T">Let him come!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58608">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3186" line-range="1150-1152" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1150" tag="L">          b. Itoko     @hkA</item>
+    <item id="o2" line="1151" tag="G">             go-imp.2s (imp)</item>
+    <item id="o3" line="1152" tag="T">             `Go!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1150" tag="L">Itoko     @hkA</item>
+    <item id="c2" line="1151" tag="G">go-imp.2s (imp)</item>
+    <item id="c3" line="1152" tag="T">Go!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:3]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63210">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2566" line-range="1079-1082" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1079" tag="L+CR">            toto yahos1ye</item>
+    <item id="o2" line="1080" tag="L+CR">  (6)                             kamara</item>
+    <item id="o3" line="1081" tag="G">            man it-grabbed-him jaguar</item>
+    <item id="o4" line="1082" tag="T">            `The jaguar grabbed the man.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1079 1080" tag="L+CR">toto yahos1ye         kamara</item>
+    <item id="c3" line="1081" tag="G">man it-grabbed-him jaguar</item>
+    <item id="c4" line="1082" tag="T">The jaguar grabbed the man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63738">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2558" line-range="88-91" line-types="M+LN+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="88" tag="M+LN+CN">  Hixkaryana: Object                       Verb                 Subject</item>
+    <item id="o2" line="89" tag="L">  (8)         Toto                         yonove               kamara</item>
+    <item id="o3" line="90" tag="G">              man                          he-ate-him           jaguar</item>
+    <item id="o4" line="91" tag="T">              `The jaguar ate the         man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="88" tag="M+LN+CN">Object                       Verb                 Subject</item>
+    <item id="c2" line="89" tag="L">Toto                         yonove               kamara</item>
+    <item id="c3" line="90" tag="G">man                          he-ate-him           jaguar</item>
+    <item id="c4" line="91" tag="T">The jaguar ate the         man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77799">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="382-385" line-types="L G M+CN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="382" tag="L">  (34) toto y-ahos¥-ye                                   kamara</item>
+    <item id="o2" line="383" tag="G">           man 3SUBJ.3OBJ-grab-DISTANT.PAST jaguar</item>
+    <item id="o3" line="384" tag="M+CN">            O             V                       S</item>
+    <item id="o4" line="385" tag="T">           `the jaguar grabbed the man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="382" tag="L">toto y-ahos¥-ye                                   kamara</item>
+    <item id="c2" line="383" tag="G">man 3SUBJ.3OBJ-grab-DISTANT.PAST jaguar</item>
+    <item id="c3" line="384" tag="M+CN">O             V                       S</item>
+    <item id="c4" line="385" tag="T">the jaguar grabbed the man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77800">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="398-401" line-types="L+DB G+DB M+DB+SY T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="398" tag="L+DB">  (35) a.        maryeya ke                       b. Waraka kanawa-r¥</item>
+    <item id="o2" line="399" tag="G+DB">                 knife       with                        Waraka canoe-POSSD</item>
+    <item id="o3" line="400" tag="M+DB+SY">                 NP          Po                            G           N</item>
+    <item id="o4" line="401" tag="T+DB">                 `with a knife'                          `Waraka's canoe'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="398" tag="L+DB">maryeya ke                       b. Waraka kanawa-r¥</item>
+    <item id="c2" line="399" tag="G+DB">knife       with                        Waraka canoe-POSSD</item>
+    <item id="c3" line="400" tag="M+DB+SY">NP          Po                            G           N</item>
+    <item id="c4" line="401" tag="T+DB">with a knife'                          `Waraka's canoe</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78233">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="2386-2389" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2386" tag="M+AC+LN">  (33) Hixkaryana (Derbyshire 1979: 48)</item>
+    <item id="o2" line="2387" tag="L">       a. K -amryek -no.</item>
+    <item id="o3" line="2388" tag="G">           1SG -hunt-IMMPAS T</item>
+    <item id="o4" line="2389" tag="T">          `I went hunting.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2386" tag="M+AC+LN">Hixkaryana (Derbyshire 1979: 48</item>
+    <item id="c2" line="2387" tag="L">K-amryek-no.</item>
+    <item id="c3" line="2388" tag="G">1SG-hunt-IMMPAS T</item>
+    <item id="c4" line="2389" tag="T">I went hunting.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78234">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="2391-2393" line-types="L G T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2391" tag="L">       b.    Amryek -h ra w-ah-ko.</item>
+    <item id="o2" line="2392" tag="G">             hunt-NEG       1SG -CO P -IMMPAS T</item>
+    <item id="o3" line="2393" tag="T+DB+LT">            `I did not go hunting.' (Lit. `Not-hunting I was.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2391" tag="L">Amryek-h ra w-ah-ko.</item>
+    <item id="c2" line="2392" tag="G">hunt-NEG       1SG-CO P-IMMPAS T</item>
+    <item id="c3" line="2393" tag="T+DB+LT">I did not go hunting.' (Lit. `Not-hunting I was.')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78235">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="2428-2431" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2428" tag="M+AC+LN">  (37) Hixkaryana (Derbyshire 1979: 105)</item>
+    <item id="o2" line="2429" tag="L">       Exe-h ra natxhe toxemo            komo.</item>
+    <item id="o3" line="2430" tag="G">       CO P -NEG they:are ones:that:went C OLL</item>
+    <item id="o4" line="2431" tag="T">      `No one went/None of them went.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2428" tag="M+AC+LN">Hixkaryana (Derbyshire 1979: 105</item>
+    <item id="c2" line="2429" tag="L">Exe-h ra natxhe toxemo            komo.</item>
+    <item id="c3" line="2430" tag="G">CO P-NEG they:are ones:that:went C OLL</item>
+    <item id="c4" line="2431" tag="T">No one went/None of them went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i83631">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3622" line-range="155-157" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="155" tag="L">  (9)      a. toto       ya-hoshi-ye      kamara               Hixkaryana</item>
+    <item id="o2" line="156" tag="G">              man        it-grabbed-him jaguar</item>
+    <item id="o3" line="157" tag="T">              `The      jaguar grabbed the man.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="155" tag="L">toto       ya-hoshi-ye      kamara               Hixkaryana</item>
+    <item id="c2" line="156" tag="G">man        it-grabbed-him jaguar</item>
+    <item id="c3" line="157" tag="T">The      jaguar grabbed the man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i86437">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="308" line-range="19580-19586" line-types="L+DB+CR L+DB+CR L+DB+CR B B G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="19580" tag="L+DB+CR">           o-kanawa-</item>
+    <item id="o2" line="19581" tag="L+DB+CR">   (36)              ¤</item>
+    <item id="o3" line="19582" tag="L+DB+CR">                                                   (37)    o-kanawa-tho</item>
+    <item id="o4" line="19583" tag="B"></item>
+    <item id="o5" line="19584" tag="B"></item>
+    <item id="o6" line="19585" tag="G+DB">          1-canoe-possd                                   1-canoe-possd.pst</item>
+    <item id="o7" line="19586" tag="T+DB">          `my canoe'                                      `the canoe that used to b e mine'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="19580 19581 19582" tag="L+DB+CR">o-kanawa-¤                            (37)    o-kanawa-tho</item>
+    <item id="c4" line="19583" tag="B"/>
+    <item id="c5" line="19584" tag="B"/>
+    <item id="c6" line="19585" tag="G+DB">1-canoe-possd                                   1-canoe-possd.pst</item>
+    <item id="c7" line="19586" tag="T+DB">my canoe'                                      `the canoe that used to b e mine</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:79]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91718">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="2386-2389" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2386" tag="M+AC+LN">  (33) Hixkaryana (Derbyshire 1979: 48)</item>
+    <item id="o2" line="2387" tag="L">       a. K -amryek -no.</item>
+    <item id="o3" line="2388" tag="G">           1SG -hunt-IMMPAS T</item>
+    <item id="o4" line="2389" tag="T">          `I went hunting.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2386" tag="M+AC+LN">Hixkaryana (Derbyshire 1979: 48</item>
+    <item id="c2" line="2387" tag="L">K-amryek-no.</item>
+    <item id="c3" line="2388" tag="G">1SG-hunt-IMMPAS T</item>
+    <item id="c4" line="2389" tag="T">I went hunting.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91719">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="2391-2393" line-types="L G T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2391" tag="L">       b.    Amryek -h ra w-ah-ko.</item>
+    <item id="o2" line="2392" tag="G">             hunt-NEG       1SG -CO P -IMMPAS T</item>
+    <item id="o3" line="2393" tag="T+DB+LT">            `I did not go hunting.' (Lit. `Not-hunting I was.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2391" tag="L">Amryek-h ra w-ah-ko.</item>
+    <item id="c2" line="2392" tag="G">hunt-NEG       1SG-CO P-IMMPAS T</item>
+    <item id="c3" line="2393" tag="T+DB+LT">I did not go hunting.' (Lit. `Not-hunting I was.')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91720">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="2428-2431" line-types="M+AC+LN L G T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2428" tag="M+AC+LN">  (37) Hixkaryana (Derbyshire 1979: 105)</item>
+    <item id="o2" line="2429" tag="L">       Exe-h ra natxhe toxemo            komo.</item>
+    <item id="o3" line="2430" tag="G">       CO P -NEG they:are ones:that:went C OLL</item>
+    <item id="o4" line="2431" tag="T+DB">      `No one went/None of them went.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2428" tag="M+AC+LN">Hixkaryana (Derbyshire 1979: 105</item>
+    <item id="c2" line="2429" tag="L">Exe-h ra natxhe toxemo            komo.</item>
+    <item id="c3" line="2430" tag="G">CO P-NEG they:are ones:that:went C OLL</item>
+    <item id="c4" line="2431" tag="T+DB">No one went/None of them went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i99811">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2463" line-range="217-219" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="217" tag="L">        (7) a. nomokno harha kanihnohnyenhiyamo [Hixkaryana]</item>
+    <item id="o2" line="218" tag="G">               he-came      back one-who-destroyed-us</item>
+    <item id="o3" line="219" tag="T">               `The one who was destroying us all, has come back.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="217" tag="L">nomokno harha kanihnohnyenhiyamo [Hixkaryana]</item>
+    <item id="c2" line="218" tag="G">he-came      back one-who-destroyed-us</item>
+    <item id="c3" line="219" tag="T">The one who was destroying us all, has come back.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i99812">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2463" line-range="220-222" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="220" tag="L">            b. nomokno harha xofrye, kanihnohnyenhiyamo</item>
+    <item id="o2" line="221" tag="G">               he-came      back sloth      one-who-destroyed-us</item>
+    <item id="o3" line="222" tag="T">               `The sloth, who was destroying us all, has come back.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="220" tag="L">nomokno harha xofrye, kanihnohnyenhiyamo</item>
+    <item id="c2" line="221" tag="G">he-came      back sloth      one-who-destroyed-us</item>
+    <item id="c3" line="222" tag="T">The sloth, who was destroying us all, has come back.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113433">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="446-449" line-types="L G M+CN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="446" tag="L">  (34) toto y-ahos?ye                        kamara</item>
+    <item id="o2" line="447" tag="G">          man 3.3-grab-DISTANT.PAST jaguar</item>
+    <item id="o3" line="448" tag="M+CN">           O            V                       S</item>
+    <item id="o4" line="449" tag="T">          `the jaguar grabbed the man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="446" tag="L">toto y-ahos?ye                        kamara</item>
+    <item id="c2" line="447" tag="G">man 3.3-grab-DISTANT.PAST jaguar</item>
+    <item id="c3" line="448" tag="M+CN">O            V                       S</item>
+    <item id="c4" line="449" tag="T">the jaguar grabbed the man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113434">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="458-461" line-types="L+DB G+DB M+CN+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="458" tag="L+DB">  (35) a. maryeya ke                              b. Waraka kanawa-r?</item>
+    <item id="o2" line="459" tag="G+DB">                 knife       with                       Waraka canoe-POSSD</item>
+    <item id="o3" line="460" tag="M+CN+DB">                 NP          Po                            G           N</item>
+    <item id="o4" line="461" tag="T+DB">                 `with a knife'                         `Waraka's canoe'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="458" tag="L+DB">maryeya ke                              b. Waraka kanawa-r?</item>
+    <item id="c2" line="459" tag="G+DB">knife       with                       Waraka canoe-POSSD</item>
+    <item id="c3" line="460" tag="M+CN+DB">NP          Po                            G           N</item>
+    <item id="c4" line="461" tag="T+DB">with a knife'                         `Waraka's canoe</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113435">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="466-469" line-types="L+DB G+DB M+CN+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="466" tag="L+DB">  (36) a. ùbúr ?pùot                     dháag-&lt;oe          b. dháag??m?l`</item>
+    <item id="o2" line="467" tag="G+DB">                 Ubur COMPLET-beat woman-ERG                      woman COMPLET-dance</item>
+    <item id="o3" line="468" tag="M+CN+DB">                 O         V                 S                      S       V</item>
+    <item id="o4" line="469" tag="T+DB">                 `the woman beat Ubur'                            `the woman danced'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="466" tag="L+DB">ùbúr ?pùot                     dháag-&lt;oe          b. dháag??m?l</item>
+    <item id="c2" line="467" tag="G+DB">Ubur COMPLET-beat woman-ERG                      woman COMPLET-dance</item>
+    <item id="c3" line="468" tag="M+CN+DB">O         V                 S                      S       V</item>
+    <item id="c4" line="469" tag="T+DB">the woman beat Ubur'                            `the woman danced</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i131941">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2649" line-range="765-780" line-types="L G B M M M M M M M M M M M B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="765" tag="L">    (20) Waraka           yawaka      yokh eku           rohyaka oroke</item>
+    <item id="o2" line="766" tag="G">         Waraka             axe       he-sent-it         to-me                   yesterday</item>
+    <item id="o3" line="767" tag="B"></item>
+    <item id="o4" line="768" tag="M">              NP           NP         (S/NP)\NP              (S/NP)\(S/NP)        S\S</item>
+    <item id="o5" line="769" tag="M">                    &lt;xp</item>
+    <item id="o6" line="770" tag="M">           S+t/(S/ NP)</item>
+    <item id="o7" line="771" tag="M">                                                         &lt;</item>
+    <item id="o8" line="772" tag="M">                                      S/NP</item>
+    <item id="o9" line="773" tag="M">                                                                         &lt;</item>
+    <item id="o10" line="774" tag="M">                                                  S/NP</item>
+    <item id="o11" line="775" tag="M">                                                                             &gt;</item>
+    <item id="o12" line="776" tag="M">                                                  S+t</item>
+    <item id="o13" line="777" tag="M">                                                                                             &lt;</item>
+    <item id="o14" line="778" tag="M">                                                  S</item>
+    <item id="o15" line="779" tag="B"></item>
+    <item id="o16" line="780" tag="T+AC">     `(It was) Waraka (who) sent the axe to me yesterday.' (Derbyshire 1977:4b)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="765" tag="L">Waraka           yawaka      yokh eku           rohyaka oroke</item>
+    <item id="c2" line="766" tag="G">Waraka             axe       he-sent-it         to-me                   yesterday</item>
+    <item id="c3" line="767" tag="B"/>
+    <item id="c4" line="768" tag="M">NP           NP         (S/NP)\NP              (S/NP)\(S/NP)        S\S</item>
+    <item id="c5" line="769" tag="M">&lt;xp</item>
+    <item id="c6" line="770" tag="M">S+t/(S/ NP)</item>
+    <item id="c7" line="771" tag="M">&lt;</item>
+    <item id="c8" line="772" tag="M">S/NP</item>
+    <item id="c9" line="773" tag="M">&lt;</item>
+    <item id="c10" line="774" tag="M">S/NP</item>
+    <item id="c11" line="775" tag="M">&gt;</item>
+    <item id="c12" line="776" tag="M">S+t</item>
+    <item id="c13" line="777" tag="M">&lt;</item>
+    <item id="c14" line="778" tag="M">S</item>
+    <item id="c15" line="779" tag="B"/>
+    <item id="c16" line="780" tag="T+AC">It was) Waraka (who) sent the axe to me yesterday.' (Derbyshire 1977:4b</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:81]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c16[0:71]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i131942">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2649" line-range="827-829" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="827" tag="L">    (21) Ro-wy wewe yamatxhe,                    itehe     harha ow o       hona.</item>
+    <item id="o2" line="828" tag="G">         Me-by tree           after-felling      I-go      back    village to</item>
+    <item id="o3" line="829" tag="T+AC">         `After I fell the tree, I will go back to the village.' Baker (2001:167)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="827" tag="L">Ro-wy wewe yamatxhe,                    itehe     harha ow o       hona.</item>
+    <item id="c2" line="828" tag="G">Me-by tree           after-felling      I-go      back    village to</item>
+    <item id="c3" line="829" tag="T+AC">After I fell the tree, I will go back to the village.' Baker (2001:167)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:71]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i131943">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2649" line-range="837-839" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="837" tag="L">    (22) a. Txorofofo        yakihtoy         ha        karaw             xarh a.</item>
+    <item id="o2" line="838" tag="G">            black-nunbird he-made-it          INTENS (species-of)-bird ADDTV</item>
+    <item id="o3" line="839" tag="T+AC">      `He created the black nunbird and the (species of) bird.' Derbyshire (1979:47)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="837" tag="L">Txorofofo        yakihtoy         ha        karaw             xarh a.</item>
+    <item id="c2" line="838" tag="G">black-nunbird he-made-it          INTENS (species-of)-bird ADDTV</item>
+    <item id="c3" line="839" tag="T+AC">He created the black nunbird and the (species of) bird.' Derbyshire (1979:47)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:77]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i131944">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2649" line-range="841-843" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="841" tag="L">         b. Kasawa h ona hana iten ha, Mutuma hona (haxa) hana (iten ha).</item>
+    <item id="o2" line="842" tag="G">            Kasa wa to UNCERT. I-go INTE NS, Mutuma t o (CONTR ) UNCERT (I-go INTE NS)</item>
+    <item id="o3" line="843" tag="T">            `I may go to Kasawa or to Musu ma.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="841" tag="L">Kasawa h ona hana iten ha, Mutuma hona (haxa) hana (iten ha).</item>
+    <item id="c2" line="842" tag="G">Kasa wa to UNCERT. I-go INTE NS, Mutuma t o (CONTR ) UNCERT (I-go INTE NS)</item>
+    <item id="c3" line="843" tag="T">I may go to Kasawa or to Musu ma.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i131945">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2649" line-range="848-850" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="848" tag="L">     (23) nahohsatxkon       hati,       amr yeh xahotho           hati</item>
+    <item id="o2" line="849" tag="G">           he-grabbed -them HEARSAYone-that-had-gone-hunting HEARSAY</item>
+    <item id="o3" line="850" tag="T+AC">     `He used to grab them, the ones that had gone hunting.' Derbyshire (1979:76)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="848" tag="L">nahohsatxkon       hati,       amr yeh xahotho           hati</item>
+    <item id="c2" line="849" tag="G">he-grabbed-them HEARSAYone-that-had-gone-hunting HEARSAY</item>
+    <item id="c3" line="850" tag="T+AC">He used to grab them, the ones that had gone hunting.' Derbyshire (1979:76)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i134397">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2378" line-range="1063-1068" line-types="M+AC+LN L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1063" tag="M+AC+LN">  (7)   Hixkaryana (Derbyshire 1985b:157)</item>
+    <item id="o2" line="1064" tag="L">        nomokyaknano tuna heno ire ke           romarain                    hokohra</item>
+    <item id="o3" line="1065" tag="G">        it-was-coming rain QUANT DEM because.of my-field                    not-OCC-with</item>
+    <item id="o4" line="1066" tag="L">        wehxaknano.</item>
+    <item id="o5" line="1067" tag="G">        I-was</item>
+    <item id="o6" line="1068" tag="T">        `It was raining heavily. Therefore I did not work on my field.''</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1063" tag="M+AC+LN">Hixkaryana (Derbyshire 1985b:157</item>
+    <item id="c2" line="1064" tag="L">nomokyaknano tuna heno ire ke           romarain                    hokohra</item>
+    <item id="c3" line="1065" tag="G">it-was-coming rain QUANT DEM because.of my-field                    not-OCC-with</item>
+    <item id="c4" line="1066" tag="L">wehxaknano.</item>
+    <item id="c5" line="1067" tag="G">I-was</item>
+    <item id="c6" line="1068" tag="T">It was raining heavily. Therefore I did not work on my field.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:75]"/>
+    <item id="p1" content="c4[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:80]" alignment="p1"/>
+    <item id="g1" content="c5[0:5]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:61]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i137189">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3731" line-range="235-237" line-types="L G T+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="235" tag="L">  (3 0 )    kaw-ohra naha Waraka, kaw naha Kaywerye</item>
+    <item id="o2" line="236" tag="G">            tall-not he-is W.,      tall he-is K.</item>
+    <item id="o3" line="237" tag="T+LN">            `Kaywerye is taller than Waraka.'                                 hixkaryana</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="235" tag="L">(3 0 )    kaw-ohra naha Waraka, kaw naha Kaywerye</item>
+    <item id="c2" line="236" tag="G">tall-not he-is W.,      tall he-is K.</item>
+    <item id="c3" line="237" tag="T+LN">Kaywerye is taller than Waraka.'                                 hixkaryana</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i139469">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryána" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2136" line-range="409-412" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="409" tag="L+CR">                                    biyekomo.</item>
+    <item id="o2" line="410" tag="L+CR">  a) Kuraha     yonyhoryeno</item>
+    <item id="o3" line="411" tag="G">     bow        made                boy</item>
+    <item id="o4" line="412" tag="T">     "The boy made a bow."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="409 410" tag="L+CR">Kuraha     yonyhoryeno         biyekomo.</item>
+    <item id="c3" line="411" tag="G">bow        made                boy</item>
+    <item id="c4" line="412" tag="T">The boy made a bow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i139470">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryána" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2136" line-range="414-416" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="414" tag="L">  b) Newehyatxhe         woriskomo komo.</item>
+    <item id="o2" line="415" tag="G">     take-bath           women     all</item>
+    <item id="o3" line="416" tag="T">     "All the women take a bath."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="414" tag="L">Newehyatxhe         woriskomo komo.</item>
+    <item id="c2" line="415" tag="G">take-bath           women     all</item>
+    <item id="c3" line="416" tag="T">All the women take a bath.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i139471">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryána" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2136" line-range="418-420" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="418" tag="L">  c) Toto        heno komo         yonoye kamara.</item>
+    <item id="o2" line="419" tag="G">     person      dead all          ate    jaguar</item>
+    <item id="o3" line="420" tag="T">     "The jaguar ate all the people."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="418" tag="L">Toto        heno komo         yonoye kamara.</item>
+    <item id="c2" line="419" tag="G">person      dead all          ate    jaguar</item>
+    <item id="c3" line="420" tag="T">The jaguar ate all the people.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i144289">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1586" line-range="98-103" line-types="M+AC+LN L+DB+CR L+DB+CR+SY L+DB+CR+SY G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="98" tag="M+AC+LN">  (6) Hixkaryana (Derbyshire 1979: 48)</item>
+    <item id="o2" line="99" tag="L+DB+CR">     a. k--amryek--no</item>
+    <item id="o3" line="100" tag="L+DB+CR+SY">          i       i                    b. amryek--hi ra w-ah-ko</item>
+    <item id="o4" line="101" tag="L+DB+CR+SY">                                                  i-</item>
+    <item id="o5" line="102" tag="G+DB">        1.SUBJ-hunt-IMPST                 hunt-NEG       1.SUBJ-be-IMPST</item>
+    <item id="o6" line="103" tag="T+DB">        `I went hunting.'                 `I did not go hunting.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="98" tag="M+AC+LN">Hixkaryana (Derbyshire 1979: 48</item>
+    <item id="c2" line="99 101" tag="L+DB+CR+SY">k--amryek--no                             i-</item>
+    <item id="c5" line="102" tag="G+DB">1.SUBJ-hunt-IMPST                 hunt-NEG       1.SUBJ-be-IMPST</item>
+    <item id="c6" line="103" tag="T+DB">I went hunting.'                 `I did not go hunting.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i144686">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1585" line-range="53-56" line-types="M+CN L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="53" tag="M+CN">       OVS:</item>
+    <item id="o2" line="54" tag="L+LN">              e.     Toto         yahos ye                  kamara.                            Hixkaryana</item>
+    <item id="o3" line="55" tag="G">                     man          it-grabbed-him            jaguar</item>
+    <item id="o4" line="56" tag="T">                     `The jaguar grabbed the man.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="53" tag="M+CN">OVS:</item>
+    <item id="c2" line="54" tag="L+LN">Toto         yahos ye                  kamara.                            Hixkaryana</item>
+    <item id="c3" line="55" tag="G">man          it-grabbed-him            jaguar</item>
+    <item id="c4" line="56" tag="T">The jaguar grabbed the man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:84]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155098">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="909-912" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="909" tag="L+CR">                     Kuraha yonyhoryeno b®iryekomo.</item>
+    <item id="o2" line="910" tag="L+CR">       (64)</item>
+    <item id="o3" line="911" tag="G">                     bow      he-made-it   boy</item>
+    <item id="o4" line="912" tag="T">                     `The boy made a bow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="909 910" tag="L+CR">Kuraha yonyhoryeno b®iryekomo.</item>
+    <item id="c3" line="911" tag="G">bow      he-made-it   boy</item>
+    <item id="c4" line="912" tag="T">The boy made a bow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155099">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="913-916" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="913" tag="L+CR">                     Masar® hokru</item>
+    <item id="o2" line="914" tag="L+CR">       (65)</item>
+    <item id="o3" line="915" tag="G">                     Masar® child-of</item>
+    <item id="o4" line="916" tag="T">                     `Masar®'s child'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="913 914" tag="L+CR">Masar® hokru</item>
+    <item id="c3" line="915" tag="G">Masar® child-of</item>
+    <item id="c4" line="916" tag="T">Masar®'s child</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155100">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hixkaryana" iso-639-3="hix" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="917-919" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="917" tag="L">       (66)          mokro      yakoro</item>
+    <item id="o2" line="918" tag="G">                     that-one with</item>
+    <item id="o3" line="919" tag="T">                     `with that fellow'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="917" tag="L">mokro      yakoro</item>
+    <item id="c2" line="918" tag="G">that-one with</item>
+    <item id="c3" line="919" tag="T">with that fellow</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

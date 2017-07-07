@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i59927">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kiyaka" iso-639-3="yaf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3036" line-range="231-234" line-types="L G+CR+EX G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="231" tag="L">    (8) a. tu-n-telelé         Maafú.                              b. *tu-telelé            Maafú.             Kiyaka</item>
+    <item id="o2" line="232" tag="G+CR+EX">           2SM-1OM-call.PA S T Maafú                                  2SM-call.             Maafú             Proper Name</item>
+    <item id="o3" line="233" tag="G+CR">                                                                                   PA S T</item>
+    <item id="o4" line="234" tag="T">           `We called Maafú.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="231" tag="L">tu-n-telelé         Maafú.                              b. *tu-telelé            Maafú.             Kiyaka</item>
+    <item id="c2" line="232 233" tag="G+CR+EX">2SM-1OM-call.PA S T Maafú                                  2SM-call.   PA S T    Maafú             Proper Name</item>
+    <item id="c4" line="234" tag="T">We called Maafú.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:106]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:110]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59928">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kiyaka" iso-639-3="yaf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3036" line-range="241-243" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="241" tag="L">    (9) a. ba-aná ba-n'-súumb-idi khoomboó                                                                            Kiyaka</item>
+    <item id="o2" line="242" tag="G">           2child 2SM-1OM-buy-P 1goat</item>
+    <item id="o3" line="243" tag="T">           `The children bought the goat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="241" tag="L">ba-aná ba-n'-súumb-idi khoomboó                                                                            Kiyaka</item>
+    <item id="c2" line="242" tag="G">2child 2SM-1OM-buy-P 1goat</item>
+    <item id="c3" line="243" tag="T">The children bought the goat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:113]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59929">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kiyaka" iso-639-3="yaf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3036" line-range="245-247" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="245" tag="L">          b. ba-aná ba-suúmb-idi khoomboó</item>
+    <item id="o2" line="246" tag="G">             2child 2SM-buy-P 1goat</item>
+    <item id="o3" line="247" tag="T">             `The children bought a/the goat.'                                                               Definite object</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="245" tag="L">ba-aná ba-suúmb-idi khoomboó</item>
+    <item id="c2" line="246" tag="G">2child 2SM-buy-P 1goat</item>
+    <item id="c3" line="247" tag="T">The children bought a/the goat.'                                                               Definite object</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:110]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93574">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kiyaka" iso-639-3="yaf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1354" line-range="211-214" line-types="L+DB G+DB+CR G+DB+CR T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="211" tag="L+DB">    (8) a. tu-n-telelé         Maafú.                              b. *tu-telelé            Maafú.             Kiyaka</item>
+    <item id="o2" line="212" tag="G+DB+CR">           2SM-1OM-call.PA S T Maafú                                  2SM-call.             Maafú             Proper Name</item>
+    <item id="o3" line="213" tag="G+DB+CR">                                                                                   PA S T</item>
+    <item id="o4" line="214" tag="T+DB">           `We called Maafú.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="211 213" tag="L+DB+G+CR">tu-n-telelé         Maafú.                              b. *tu-teleléPA S T      Maafú.             Kiyaka</item>
+    <item id="c4" line="214" tag="T+DB">We called Maafú.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:106]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93575">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kiyaka" iso-639-3="yaf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1354" line-range="221-223" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="221" tag="L">    (9) a. ba-aná ba-n'-súumb-idi khoomboó                                                                            Kiyaka</item>
+    <item id="o2" line="222" tag="G">           2child 2SM-1OM-buy-P 1goat</item>
+    <item id="o3" line="223" tag="T">           `The children bought the goat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="221" tag="L">ba-aná ba-n'-súumb-idi khoomboó                                                                            Kiyaka</item>
+    <item id="c2" line="222" tag="G">2child 2SM-1OM-buy-P 1goat</item>
+    <item id="c3" line="223" tag="T">The children bought the goat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:113]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93576">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kiyaka" iso-639-3="yaf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1354" line-range="225-227" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="225" tag="L">          b. ba-aná ba-suúmb-idi khoomboó</item>
+    <item id="o2" line="226" tag="G">             2child 2SM-buy-P 1goat</item>
+    <item id="o3" line="227" tag="T">             `The children bought a/the goat.'                                                               Definite object</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="225" tag="L">ba-aná ba-suúmb-idi khoomboó</item>
+    <item id="c2" line="226" tag="G">2child 2SM-buy-P 1goat</item>
+    <item id="c3" line="227" tag="T">The children bought a/the goat.'                                                               Definite object</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:110]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

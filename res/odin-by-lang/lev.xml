@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i69959">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western pantar" iso-639-3="lev" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3095" line-range="211-213" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="211" tag="L">  (1)     nang        mising</item>
+    <item id="o2" line="212" tag="G">          1SG:AGT sit</item>
+    <item id="o3" line="213" tag="T">          `I am sitting'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="211" tag="L">nang        mising</item>
+    <item id="c2" line="212" tag="G">1SG:AGT sit</item>
+    <item id="c3" line="213" tag="T">I am sitting</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69960">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western pantar" iso-639-3="lev" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3095" line-range="214-216" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="214" tag="L">  (2)     naing      masa</item>
+    <item id="o2" line="215" tag="G">          1SG:PAT tired</item>
+    <item id="o3" line="216" tag="T">          `I am tired'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="214" tag="L">naing      masa</item>
+    <item id="c2" line="215" tag="G">1SG:PAT tired</item>
+    <item id="c3" line="216" tag="T">I am tired</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69961">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western pantar" iso-639-3="lev" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3095" line-range="221-224" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="221" tag="L">  (3)     nang       hoang      me       na-pia</item>
+    <item id="o2" line="222" tag="G+CR">          1SG:AGT beach                  1SG-descend</item>
+    <item id="o3" line="223" tag="G+CR">                                LOC</item>
+    <item id="o4" line="224" tag="T">          `I am going to the beach'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="221" tag="L">nang       hoang      me       na-pia</item>
+    <item id="c2" line="222 223" tag="G+CR">1SG:AGT beach         LOC      1SG-descend</item>
+    <item id="c4" line="224" tag="T">I am going to the beach</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69962">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western pantar" iso-639-3="lev" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3095" line-range="225-227" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="225" tag="L">  (4)     naing     kan hoang me        na-pia</item>
+    <item id="o2" line="226" tag="G">          1SG:PAT also beach LOC 1SG-descend</item>
+    <item id="o3" line="227" tag="T">          `I too am going to the beach (with you)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="225" tag="L">naing     kan hoang me        na-pia</item>
+    <item id="c2" line="226" tag="G">1SG:PAT also beach LOC 1SG-descend</item>
+    <item id="c3" line="227" tag="T">I too am going to the beach (with you)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69963">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western pantar" iso-639-3="lev" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3095" line-range="230-232" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="230" tag="L">  (5)     nang       gaing      lu'ung</item>
+    <item id="o2" line="231" tag="G">          1SG:AGT 3SG:PAT       cut</item>
+    <item id="o3" line="232" tag="T">          `I cut him'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="230" tag="L">nang       gaing      lu'ung</item>
+    <item id="c2" line="231" tag="G">1SG:AGT 3SG:PAT       cut</item>
+    <item id="c3" line="232" tag="T">I cut him</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69964">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western pantar" iso-639-3="lev" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3095" line-range="242-244" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="242" tag="L">  (6)     naing      gaing     oswang      aggi</item>
+    <item id="o2" line="243" tag="G">          1SG:PAT 3SG:PAT outside          take</item>
+    <item id="o3" line="244" tag="T">          `I took him outside'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="242" tag="L">naing      gaing     oswang      aggi</item>
+    <item id="c2" line="243" tag="G">1SG:PAT 3SG:PAT outside          take</item>
+    <item id="c3" line="244" tag="T">I took him outside</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69965">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western pantar" iso-639-3="lev" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3095" line-range="254-256" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="254" tag="L">  (7)     nang         na-lama</item>
+    <item id="o2" line="255" tag="G">          1SG:AGT      1SG-walk</item>
+    <item id="o3" line="256" tag="T">          `I walk'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="254" tag="L">nang         na-lama</item>
+    <item id="c2" line="255" tag="G">1SG:AGT      1SG-walk</item>
+    <item id="c3" line="256" tag="T">I walk</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:6]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69966">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western pantar" iso-639-3="lev" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3095" line-range="257-259" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="257" tag="L">  (8)     gang      na-ganiaka</item>
+    <item id="o2" line="258" tag="G">          3SG:AGT 1SG-see</item>
+    <item id="o3" line="259" tag="T">          `he sees me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="257" tag="L">gang      na-ganiaka</item>
+    <item id="c2" line="258" tag="G">3SG:AGT 1SG-see</item>
+    <item id="c3" line="259" tag="T">he sees me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

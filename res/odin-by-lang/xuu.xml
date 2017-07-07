@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i150716">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kxoe" iso-639-3="xuu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2398" line-range="1053-1056" line-types="L G+LN T+AC C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1053" tag="L">  (17) Á-ta Córò-tcà                      h -ku- a-h .</item>
+    <item id="o2" line="1054" tag="G+LN">  Kxoe thus rock.monitor-3masc.du         do-REC-II-PAST</item>
+    <item id="o3" line="1055" tag="T+AC">       `This Rock-Monitor has done to the other (i.e. Polecat).' (Kilian-Hatz 1999:124/30;</item>
+    <item id="o4" line="1056" tag="C">       Kilian-Hatz 2001)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1053" tag="L">Á-ta Córò-tcà                      h-ku-a-h .</item>
+    <item id="c2" line="1054" tag="G+LN">Kxoe thus rock.monitor-3masc.du         do-REC-II-PAST</item>
+    <item id="c3" line="1055" tag="T+AC">This Rock-Monitor has done to the other (i.e. Polecat).' (Kilian-Hatz 1999:124/30;</item>
+    <item id="c4" line="1056" tag="C">Kilian-Hatz 2001)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:82]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150731">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kxoe" iso-639-3="xuu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2398" line-range="1434-1437" line-types="L+CR L+CR G+LN T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1434" tag="L+CR">                         n gá-h</item>
+    <item id="o2" line="1435" tag="L+CR">  (27)   Ngò     màa                                                      ?</item>
+    <item id="o3" line="1436" tag="G+LN">  Kxoe Q         why     matter-3.f.sg 2.m.du          hate-REC-I-PRES</item>
+    <item id="o4" line="1437" tag="T+AC">         `Why do you hate each other?' (Kilian-Hatz 1999:250/258)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1434 1435" tag="L+CR">Ngò     màa   n gá-h                                            ?</item>
+    <item id="c3" line="1436" tag="G+LN">Kxoe Q         why     matter-3.f.sg 2.m.du          hate-REC-I-PRES</item>
+    <item id="c4" line="1437" tag="T+AC">Why do you hate each other?' (Kilian-Hatz 1999:250/258)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150732">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kxoe" iso-639-3="xuu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2398" line-range="1440-1449" line-types="L G+LN B B L G B B T T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1440" tag="L">  (28)   Khá</item>
+    <item id="o2" line="1441" tag="G+LN">  Kxoe 1.C.du family-REC           1.C.du y.sib-RECIP 1.C.du ZC-RECIP</item>
+    <item id="o3" line="1442" tag="B"></item>
+    <item id="o4" line="1443" tag="B"></item>
+    <item id="o5" line="1444" tag="L">         khá                   !</item>
+    <item id="o6" line="1445" tag="G">         1.C.du mother's.brother's.child-REC</item>
+    <item id="o7" line="1446" tag="B"></item>
+    <item id="o8" line="1447" tag="B"></item>
+    <item id="o9" line="1448" tag="T">         `We are related (lit. family to each other), we are siblings, we are grandfather and</item>
+    <item id="o10" line="1449" tag="T+AC">         grandchild, we are uncle and niece.' (Kilian-Hatz 1999:49/54)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1440" tag="L">Khá</item>
+    <item id="c2" line="1441" tag="G+LN">Kxoe 1.C.du family-REC           1.C.du y.sib-RECIP 1.C.du ZC-RECIP</item>
+    <item id="c3" line="1442" tag="B"/>
+    <item id="c4" line="1443" tag="B"/>
+    <item id="c5" line="1444" tag="L">khá                   !</item>
+    <item id="c6" line="1445" tag="G">1.C.du mother's.brother's.child-REC</item>
+    <item id="c7" line="1446" tag="B"/>
+    <item id="c8" line="1447" tag="B"/>
+    <item id="c9" line="1448" tag="T">We are related (lit. family to each other), we are siblings, we are grandfather and</item>
+    <item id="c10" line="1449" tag="T+AC">grandchild, we are uncle and niece.' (Kilian-Hatz 1999:49/54)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:3]"/>
+    <item id="p1" content="c5[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:67]" alignment="p1"/>
+    <item id="g1" content="c6[0:35]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:83]" alignment="p2"/>
+    <item id="t1" content="c10[0:61]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

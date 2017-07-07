@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i72661">
+  <metadata type="xigt-meta">
+    <meta type="language" name="american sign language" iso-639-3="ase" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="61-64" line-types="L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="61" tag="L">         ___________t       ____________________________________ RS-i</item>
+    <item id="o2" line="62" tag="G">  (1)    IXa MADRID JOANi THINK IX-1i STUDY FINISH HERE MADRID</item>
+    <item id="o3" line="63" tag="T">         `When he has in Madrid, John thought he would finish his studies there in</item>
+    <item id="o4" line="64" tag="T">         Madrid.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="61" tag="L">___________t       ____________________________________ RS-i</item>
+    <item id="c2" line="62" tag="G">IXa MADRID JOANi THINK IX-1i STUDY FINISH HERE MADRID</item>
+    <item id="c3" line="63" tag="T">When he has in Madrid, John thought he would finish his studies there in</item>
+    <item id="c4" line="64" tag="T">Madrid.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:72]" alignment="p1"/>
+    <item id="t1" content="c4[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72662">
+  <metadata type="xigt-meta">
+    <meta type="language" name="american sign language" iso-639-3="ase" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="72-74" line-types="L G+AC T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="72" tag="L">                                __________________RS-i</item>
+    <item id="o2" line="73" tag="G+AC">  (2)    JOHNi          SAY IX-1i WANT                 GO      (ASL: Lee et al. 1997)</item>
+    <item id="o3" line="74" tag="T+DB">         `John said: "I want to go."'/ `John said that he wanted to go.'4</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="72" tag="L">__________________RS-i</item>
+    <item id="c2" line="73" tag="G+AC">JOHNi          SAY IX-1i WANT                 GO      (ASL: Lee et al. 1997</item>
+    <item id="c3" line="74" tag="T+DB">"I want to go."'/ `John said that he wanted to go.'4</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72663">
+  <metadata type="xigt-meta">
+    <meta type="language" name="american sign language" iso-639-3="ase" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="90-91" line-types="G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="90" tag="G">  (3)    ANNAi 3-SAY-1 IX-3i FED-UP LOSE+++</item>
+    <item id="o2" line="91" tag="T">         `Anna told me that she was fed up with losing so often.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="90" tag="G">ANNAi 3-SAY-1 IX-3i FED-UP LOSE+++</item>
+    <item id="c2" line="91" tag="T">Anna told me that she was fed up with losing so often.</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c1[0:34]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:54]"/>
+  </tier>
+</igt>
+<igt id="i72664">
+  <metadata type="xigt-meta">
+    <meta type="language" name="american sign language" iso-639-3="ase" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="92-94" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="92" tag="L">                           _________________RS-i</item>
+    <item id="o2" line="93" tag="G">  (4)    ANNAi 3-SAY-2 IX-1i FED-UP LOSE+++</item>
+    <item id="o3" line="94" tag="T">         `Anna told you that she was fed up with losing so often.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="92" tag="L">_________________RS-i</item>
+    <item id="c2" line="93" tag="G">ANNAi 3-SAY-2 IX-1i FED-UP LOSE+++</item>
+    <item id="c3" line="94" tag="T">Anna told you that she was fed up with losing so often.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72665">
+  <metadata type="xigt-meta">
+    <meta type="language" name="american sign language" iso-639-3="ase" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="101-103" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="101" tag="L">                                                 ________________________RS-i</item>
+    <item id="o2" line="102" tag="G">  (5)    ANNAi EXPLAIN SAY1 SENTENCE IX-1i BROTHER MAN 3-IGNORE-1</item>
+    <item id="o3" line="103" tag="T">         "Anna told me: `My brother ignores me.'"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="101" tag="L">________________________RS-i</item>
+    <item id="c2" line="102" tag="G">ANNAi EXPLAIN SAY1 SENTENCE IX-1i BROTHER MAN 3-IGNORE-1</item>
+    <item id="c3" line="103" tag="T">Anna told me: `My brother ignores me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72666">
+  <metadata type="xigt-meta">
+    <meta type="language" name="american sign language" iso-639-3="ase" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="112-115" line-types="L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="112" tag="L">         ___________________t               _________________________RS-i</item>
+    <item id="o2" line="113" tag="G">  (6)    IXa MADRIDm MOMENT JOANi THINK IX-1i STUDY FINISH HEREb</item>
+    <item id="o3" line="114" tag="T">         `When he was in Madrid, Joan thought he would finish his study in</item>
+    <item id="o4" line="115" tag="T">         Barcelona.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="112" tag="L">___________________t               _________________________RS-i</item>
+    <item id="c2" line="113" tag="G">IXa MADRIDm MOMENT JOANi THINK IX-1i STUDY FINISH HEREb</item>
+    <item id="c3" line="114" tag="T">When he was in Madrid, Joan thought he would finish his study in</item>
+    <item id="c4" line="115" tag="T">Barcelona.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:64]" alignment="p1"/>
+    <item id="t1" content="c4[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72669">
+  <metadata type="xigt-meta">
+    <meta type="language" name="american sign language" iso-639-3="ase" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="142-144" line-types="L G+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="142" tag="L">              _________RS-i</item>
+    <item id="o2" line="143" tag="G+AC">  (9)    MOMi IX-1i BUSY                                     (ASL: Lillo-Martin 1995)</item>
+    <item id="o3" line="144" tag="T">         `Mom's like, I'm busy!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="142" tag="L">_________RS-i</item>
+    <item id="c2" line="143" tag="G+AC">MOMi IX-1i BUSY                                     (ASL: Lillo-Martin 1995</item>
+    <item id="c3" line="144" tag="T">Mom's like, I'm busy!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72684">
+  <metadata type="xigt-meta">
+    <meta type="language" name="american sign language" iso-639-3="ase" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="426-428" line-types="L G+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="426" tag="L">              _________RS-i</item>
+    <item id="o2" line="427" tag="G+AC">  (27)   MOMi IX-1i BUSY                                    (ASL: Lillo-Martin 1995)</item>
+    <item id="o3" line="428" tag="T">         `Mom's like, I'm busy!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="426" tag="L">_________RS-i</item>
+    <item id="c2" line="427" tag="G+AC">MOMi IX-1i BUSY                                    (ASL: Lillo-Martin 1995</item>
+    <item id="c3" line="428" tag="T">Mom's like, I'm busy!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72685">
+  <metadata type="xigt-meta">
+    <meta type="language" name="american sign language" iso-639-3="ase" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="466-468" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="466" tag="L">         _______________wh</item>
+    <item id="o2" line="467" tag="G">  (29)   LOVE JOHN WHO</item>
+    <item id="o3" line="468" tag="T">         `Who does John love?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="466" tag="L">_______________wh</item>
+    <item id="c2" line="467" tag="G">LOVE JOHN WHO</item>
+    <item id="c3" line="468" tag="T">Who does John love?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72686">
+  <metadata type="xigt-meta">
+    <meta type="language" name="american sign language" iso-639-3="ase" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="470-472" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="470" tag="L">                ___________hs</item>
+    <item id="o2" line="471" tag="G">  (30)   JOHN BUY HOUSE</item>
+    <item id="o3" line="472" tag="T+AC">         `John didn't buy a house.'                        (ASL: Neidle et al. 2000)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="470" tag="L">___________hs</item>
+    <item id="c2" line="471" tag="G">JOHN BUY HOUSE</item>
+    <item id="c3" line="472" tag="T+AC">John didn't buy a house.'                        (ASL: Neidle et al. 2000)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87349">
+  <metadata type="xigt-meta">
+    <meta type="language" name="asl" iso-639-3="ase" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3266" line-range="737-740" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="737" tag="L+CR">  (17) a.                      ___hs</item>
+    <item id="o2" line="738" tag="L+CR">            ______________        wh</item>
+    <item id="o3" line="739" tag="G">            WHO LIKE JOHN, WHO</item>
+    <item id="o4" line="740" tag="T">            Who likes John, who (does)?</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="737" tag="L+CR">___hs</item>
+    <item id="c3" line="739" tag="G">WHO LIKE JOHN, WHO</item>
+    <item id="c4" line="740" tag="T">Who likes John, who (does)?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87350">
+  <metadata type="xigt-meta">
+    <meta type="language" name="asl" iso-639-3="ase" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3266" line-range="741-743" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="741" tag="L">        b. ________________________wh</item>
+    <item id="o2" line="742" tag="G">           "WHAT," JOHN BUY "WHAT"</item>
+    <item id="o3" line="743" tag="T">           What, what did John buy?</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="741" tag="L">________________________wh</item>
+    <item id="c2" line="742" tag="G">WHAT," JOHN BUY "WHAT</item>
+    <item id="c3" line="743" tag="T">What, what did John buy?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114051">
+  <metadata type="xigt-meta">
+    <meta type="language" name="american sign language" iso-639-3="ase" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3400" line-range="87-89" line-types="L+CR G+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="87" tag="L+CR">  (11)      *(                     head tilti)</item>
+    <item id="o2" line="88" tag="G+SY">        proi [ + AGRi ]AGRS LOVE MOTHERj</item>
+    <item id="o3" line="89" tag="T">        `He/She loves mother.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="87" tag="L+CR">*(                     head tilti</item>
+    <item id="c2" line="88" tag="G+SY">proi [ + AGRi ]AGRS LOVE MOTHERj</item>
+    <item id="c3" line="89" tag="T">He/She loves mother.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

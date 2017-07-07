@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i118922">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwaza" iso-639-3="xwa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2697" line-range="168-171" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="168" tag="M+AC+LN">  Kwaza (van der Voort 2000: 199, 158, 159)</item>
+    <item id="o2" line="169" tag="L">  (6)      o'ja-da-tsy-'re.</item>
+    <item id="o3" line="170" tag="G">           leave-1.SG-POT-INT</item>
+    <item id="o4" line="171" tag="T">           `Am I going to leave?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="168" tag="M+AC+LN">Kwaza (van der Voort 2000: 199, 158, 159)</item>
+    <item id="c2" line="169" tag="L">o'ja-da-tsy-'re.</item>
+    <item id="c3" line="170" tag="G">leave-1.SG-POT-INT</item>
+    <item id="c4" line="171" tag="T">Am I going to leave?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118923">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwaza" iso-639-3="xwa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2697" line-range="172-174" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="172" tag="L">  (7)      'peDro jere'çwa dil-'wã               wa'dy-re.</item>
+    <item id="o2" line="173" tag="G">           Pedro     jaguar     someone-OBJ give-INT</item>
+    <item id="o3" line="174" tag="T">           `To whom did Pedro give a dog?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="172" tag="L">'peDro jere'çwa dil-'wã               wa'dy-re.</item>
+    <item id="c2" line="173" tag="G">Pedro     jaguar     someone-OBJ give-INT</item>
+    <item id="c3" line="174" tag="T">To whom did Pedro give a dog?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118924">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwaza" iso-639-3="xwa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2697" line-range="175-177" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="175" tag="L">  (8)      dil-'wã-here            aw're-da-tara-ts.</item>
+    <item id="o2" line="176" tag="G">           someone-OBJ-think marry-1.SG-PROC-DEC</item>
+    <item id="o3" line="177" tag="T">           `I'm going to marry someone.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="175" tag="L">dil-'wã-here            aw're-da-tara-ts.</item>
+    <item id="c2" line="176" tag="G">someone-OBJ-think marry-1.SG-PROC-DEC</item>
+    <item id="c3" line="177" tag="T">I'm going to marry someone.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i51046">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nadëb" iso-639-3="mbj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1210" line-range="101-104" line-types="M+CN L G T+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="101" tag="M+CN">              OSV</item>
+    <item id="o2" line="102" tag="L">      (11) Manaiin Subih a-wa.</item>
+    <item id="o3" line="103" tag="G">              cara.tuber Subih FORM-eat</item>
+    <item id="o4" line="104" tag="T+LN">              `Subih is eating cara.'                                        (Nadëb)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="101" tag="M+CN">OSV</item>
+    <item id="c2" line="102" tag="L">Manaiin Subih a-wa.</item>
+    <item id="c3" line="103" tag="G">cara.tuber Subih FORM-eat</item>
+    <item id="c4" line="104" tag="T+LN">Subih is eating cara.'                                        (Nadëb)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:69]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78231">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nadëb" iso-639-3="mbj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="2336-2340" line-types="M+AC+LN L G T+DB+LT C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2336" tag="M+AC+LN">  (29) Nadëb (Weir 1993: 301)</item>
+    <item id="o2" line="2337" tag="L">       Dooh ha-w h            péh.</item>
+    <item id="o3" line="2338" tag="G">       NEG RS -eat+INDIC NONREF</item>
+    <item id="o4" line="2339" tag="T+DB+LT">      `No one is eating.' (Lit. `One who is eating (non-referential) is</item>
+    <item id="o5" line="2340" tag="C">       something non-existent.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2336" tag="M+AC+LN">Nadëb (Weir 1993: 301</item>
+    <item id="c2" line="2337" tag="L">Dooh ha-w h            péh.</item>
+    <item id="c3" line="2338" tag="G">NEG RS-eat+INDIC NONREF</item>
+    <item id="c4" line="2339" tag="T+DB+LT">No one is eating.' (Lit. `One who is eating (non-referential) is</item>
+    <item id="c5" line="2340" tag="C">something non-existent.')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78232">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nadëb" iso-639-3="mbj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="2342-2345" line-types="L G T+DB+LT C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2342" tag="L">  (30) Dooh Subih a-w h                    péh.</item>
+    <item id="o2" line="2343" tag="G">       NEG Subih FORM -eat+INDIC NONREF</item>
+    <item id="o3" line="2344" tag="T+DB+LT">      `Subih isn't eating anything.' (Lit. `What Subih is eating is some-</item>
+    <item id="o4" line="2345" tag="C">       thing non-existent.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2342" tag="L">Dooh Subih a-w h                    péh.</item>
+    <item id="c2" line="2343" tag="G">NEG Subih FORM-eat+INDIC NONREF</item>
+    <item id="c3" line="2344" tag="T+DB+LT">Subih isn't eating anything.' (Lit. `What Subih is eating is some-</item>
+    <item id="c4" line="2345" tag="C">thing non-existent.')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78260">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nadëb" iso-639-3="mbj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="3168-3172" line-types="M+AC+LN L G T T+LT+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3168" tag="M+AC+LN">  (4) Nadëb (Weir 1993)</item>
+    <item id="o2" line="3169" tag="L">       Dooh ha-w h             péh.</item>
+    <item id="o3" line="3170" tag="G">       NEG RS -EAT +INDIC NONREF</item>
+    <item id="o4" line="3171" tag="T">      `No one is eating.'</item>
+    <item id="o5" line="3172" tag="T+LT+AL">       (Lit. `One who is eating is non-existent.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3168" tag="M+AC+LN">Nadëb (Weir 1993</item>
+    <item id="c2" line="3169" tag="L">Dooh ha-w h             péh.</item>
+    <item id="c3" line="3170" tag="G">NEG RS-EAT +INDIC NONREF</item>
+    <item id="c4" line="3171" tag="T">No one is eating.</item>
+    <item id="c5" line="3172" tag="T+LT+AL">Lit. `One who is eating is non-existent.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+    <item id="t1" content="c5[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91716">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nadëb" iso-639-3="mbj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="2336-2340" line-types="M+AC+LN L G T+DB+LT C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2336" tag="M+AC+LN">  (29) Nadëb (Weir 1993: 301)</item>
+    <item id="o2" line="2337" tag="L">       Dooh ha-w h            péh.</item>
+    <item id="o3" line="2338" tag="G">       NEG RS -eat+INDIC NONREF</item>
+    <item id="o4" line="2339" tag="T+DB+LT">      `No one is eating.' (Lit. `One who is eating (non-referential) is</item>
+    <item id="o5" line="2340" tag="C">       something non-existent.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2336" tag="M+AC+LN">Nadëb (Weir 1993: 301</item>
+    <item id="c2" line="2337" tag="L">Dooh ha-w h            péh.</item>
+    <item id="c3" line="2338" tag="G">NEG RS-eat+INDIC NONREF</item>
+    <item id="c4" line="2339" tag="T+DB+LT">No one is eating.' (Lit. `One who is eating (non-referential) is</item>
+    <item id="c5" line="2340" tag="C">something non-existent.')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91717">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nadëb" iso-639-3="mbj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="2342-2345" line-types="L G T+DB+LT C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2342" tag="L">  (30) Dooh Subih a-w h                    péh.</item>
+    <item id="o2" line="2343" tag="G">       NEG Subih FORM -eat+INDIC NONREF</item>
+    <item id="o3" line="2344" tag="T+DB+LT">      `Subih isn't eating anything.' (Lit. `What Subih is eating is some-</item>
+    <item id="o4" line="2345" tag="C">       thing non-existent.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2342" tag="L">Dooh Subih a-w h                    péh.</item>
+    <item id="c2" line="2343" tag="G">NEG Subih FORM-eat+INDIC NONREF</item>
+    <item id="c3" line="2344" tag="T+DB+LT">Subih isn't eating anything.' (Lit. `What Subih is eating is some-</item>
+    <item id="c4" line="2345" tag="C">thing non-existent.')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91745">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nadëb" iso-639-3="mbj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="3168-3172" line-types="M+AC+LN L G T T+LT+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3168" tag="M+AC+LN">  (4) Nadëb (Weir 1993)</item>
+    <item id="o2" line="3169" tag="L">       Dooh ha-w h             péh.</item>
+    <item id="o3" line="3170" tag="G">       NEG RS -EAT +INDIC NONREF</item>
+    <item id="o4" line="3171" tag="T">      `No one is eating.'</item>
+    <item id="o5" line="3172" tag="T+LT+AL">       (Lit. `One who is eating is non-existent.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3168" tag="M+AC+LN">Nadëb (Weir 1993</item>
+    <item id="c2" line="3169" tag="L">Dooh ha-w h             péh.</item>
+    <item id="c3" line="3170" tag="G">NEG RS-EAT +INDIC NONREF</item>
+    <item id="c4" line="3171" tag="T">No one is eating.</item>
+    <item id="c5" line="3172" tag="T+LT+AL">Lit. `One who is eating is non-existent.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+    <item id="t1" content="c5[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138386">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nadëb" iso-639-3="mbj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2148" line-range="51-55" line-types="M+LN+CN+EX L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="51" tag="M+LN+CN+EX">            ­ OSV: Nad¨ (Maku-Puinave; Brazil)</item>
+    <item id="o2" line="52" tag="L+CR">                      eb    ¨</item>
+    <item id="o3" line="53" tag="L+CR">               (5)      manaiin Subih a-wa</item>
+    <item id="o4" line="54" tag="G">                        cara.tuber Subih form-eat</item>
+    <item id="o5" line="55" tag="T+AC">                        Subih is eating cara'                                (data from Weir 1990)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="51" tag="M+LN+CN+EX">­ OSV: Nad¨ (Maku-Puinave; Brazil)</item>
+    <item id="c2" line="52" tag="L+CR">eb    ¨</item>
+    <item id="c4" line="54" tag="G">cara.tuber Subih form-eat</item>
+    <item id="c5" line="55" tag="T+AC">Subih is eating cara'                                (data from Weir 1990)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i64508">
+  <metadata type="xigt-meta">
+    <meta type="language" name="alutor" iso-639-3="alr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3067" line-range="2574-2579" line-types="M+AC+LN+EX C+AC L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2574" tag="M+AC+LN+EX">  (109) Differing ordering of causative and noun incorporation in Alutor (Koptjevskaja-</item>
+    <item id="o2" line="2575" tag="C+AC">        Tamm)</item>
+    <item id="o3" line="2576" tag="L">        a. g´m-nan t´-n´-t´rg´-/aw´j-at-´n          Nav´</item>
+    <item id="o4" line="2577" tag="G+CR">                     1sg.S-CAUS-meat-eat-SUFF-3SG.O wife.NOM</item>
+    <item id="o5" line="2578" tag="G+CR">           I-ERG</item>
+    <item id="o6" line="2579" tag="T">           `I fed my wife with meat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2574" tag="M+AC+LN+EX">Differing ordering of causative and noun incorporation in Alutor (Koptjevskaja-</item>
+    <item id="c2" line="2575" tag="C+AC">Tamm)</item>
+    <item id="c3" line="2576" tag="L">g´m-nan t´-n´-t´rg´-/aw´j-at-´n          Nav´</item>
+    <item id="c4" line="2577 2578" tag="G+CR">I-ERG     1sg.S-CAUS-meat-eat-SUFF-3SG.O wife.NOM</item>
+    <item id="c6" line="2579" tag="T">I fed my wife with meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64509">
+  <metadata type="xigt-meta">
+    <meta type="language" name="alutor" iso-639-3="alr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3067" line-range="2580-2583" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2580" tag="L">        b. g´mm´ t´-Nav´-n-aw´j-at-´k               t´rg-a</item>
+    <item id="o2" line="2581" tag="G+CR">                     1sg.S-wife-CAUS-eat-SUFF-1sg.S meat-INSTR</item>
+    <item id="o3" line="2582" tag="G+CR">           I.NOM</item>
+    <item id="o4" line="2583" tag="T">           `I fed my wife with meat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2580" tag="L">g´mm´ t´-Nav´-n-aw´j-at-´k               t´rg-a</item>
+    <item id="c2" line="2581 2582" tag="G+CR">I.NOM     1sg.S-wife-CAUS-eat-SUFF-1sg.S meat-INSTR</item>
+    <item id="c4" line="2583" tag="T">I fed my wife with meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64510">
+  <metadata type="xigt-meta">
+    <meta type="language" name="alutor" iso-639-3="alr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3067" line-range="2596-2600" line-types="M+AC+LN+EX L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2596" tag="M+AC+LN+EX">  (110) Causative and noun incorporation in Alutor (Koptjevskaja-Tamm )</item>
+    <item id="o2" line="2597" tag="L">        a. g´mm´        t-akka-n-nalg´-n-kuww-at-av´-tk-´n</item>
+    <item id="o3" line="2598" tag="G+CR">                     1sg.S-son-CAUS-skin-CAUS-dry-SUFF-SUFF-PRES-1sg.S</item>
+    <item id="o4" line="2599" tag="G+CR">           I.NOM</item>
+    <item id="o5" line="2600" tag="T">           `I am making my son dry skins.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2596" tag="M+AC+LN+EX">Causative and noun incorporation in Alutor (Koptjevskaja-Tamm</item>
+    <item id="c2" line="2597" tag="L">g´mm´        t-akka-n-nalg´-n-kuww-at-av´-tk-´n</item>
+    <item id="c3" line="2598 2599" tag="G+CR">I.NOM     1sg.S-son-CAUS-skin-CAUS-dry-SUFF-SUFF-PRES-1sg.S</item>
+    <item id="c5" line="2600" tag="T">I am making my son dry skins.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64511">
+  <metadata type="xigt-meta">
+    <meta type="language" name="alutor" iso-639-3="alr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3067" line-range="2601-2604" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2601" tag="L">        b. g´m-nan      ak´k         t´-k´nyiga-n-ny´l-av-´n         ´lla/´-N</item>
+    <item id="o2" line="2602" tag="G+CR">                        son-NOM      1sg.S-book-CAUS-give-SUFF-3sg.O mother-DAT</item>
+    <item id="o3" line="2603" tag="G+CR">           I-ERG</item>
+    <item id="o4" line="2604" tag="T">           `I made the son give a book/books to the mother.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2601" tag="L">g´m-nan      ak´k         t´-k´nyiga-n-ny´l-av-´n         ´lla/´-N</item>
+    <item id="c2" line="2602 2603" tag="G+CR">I-ERG        son-NOM      1sg.S-book-CAUS-give-SUFF-3sg.O mother-DAT</item>
+    <item id="c4" line="2604" tag="T">I made the son give a book/books to the mother.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

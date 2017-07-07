@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i84534">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kru" iso-639-3="klu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3627" line-range="7484-7486" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7484" tag="L+CN">            (i) Nyeyu-na bla nyino-na                     (SVO)</item>
+    <item id="o2" line="7485" tag="G">                 man-the    beat woman-the</item>
+    <item id="o3" line="7486" tag="T">                `the man beat the woman'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7484" tag="L+CN">Nyeyu-na bla nyino-na                     (SVO</item>
+    <item id="c2" line="7485" tag="G">man-the    beat woman-the</item>
+    <item id="c3" line="7486" tag="T">the man beat the woman</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i84535">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kru" iso-639-3="klu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3627" line-range="7487-7489" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7487" tag="L+CN">            (ii) Nyeyu-na si nyino-na        bla              (SOV)</item>
+    <item id="o2" line="7488" tag="G">                 man-the NEG woman-the beat</item>
+    <item id="o3" line="7489" tag="T">                `the man didn't beat the woman'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7487" tag="L+CN">Nyeyu-na si nyino-na        bla              (SOV</item>
+    <item id="c2" line="7488" tag="G">man-the NEG woman-the beat</item>
+    <item id="c3" line="7489" tag="T">the man didn't beat the woman</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

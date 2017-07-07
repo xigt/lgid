@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i18610">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tinputz" iso-639-3="tpz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="370-372" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="370" tag="L">  (28)       e      valain to rep-ra=poe</item>
+    <item id="o2" line="371" tag="G">             ART PN          RL hit-3PLO=they</item>
+    <item id="o3" line="372" tag="T+AC+LN">             `Valain hit them.' (Tinputz - Ross 1982:29)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="370" tag="L">e      valain to rep-ra=poe</item>
+    <item id="c2" line="371" tag="G">ART PN          RL hit-3PLO=they</item>
+    <item id="c3" line="372" tag="T+AC+LN">Valain hit them.' (Tinputz-Ross 1982:29)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18611">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tinputz" iso-639-3="tpz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="385-387" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="385" tag="L">  (29)   a. eyö to ep e          kovu    to te-te        no-n           o      kovei</item>
+    <item id="o2" line="386" tag="G">            I     RL see ART woman RL RD-carry AUX-3SGS ART basket</item>
+    <item id="o3" line="387" tag="T+AC+LN">            `I saw the woman who was carrying the basket.' (Tinputz - Ross 1982:29)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="385" tag="L">eyö to ep e          kovu    to te-te        no-n           o      kovei</item>
+    <item id="c2" line="386" tag="G">I     RL see ART woman RL RD-carry AUX-3SGS ART basket</item>
+    <item id="c3" line="387" tag="T+AC+LN">I saw the woman who was carrying the basket.' (Tinputz-Ross 1982:29)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18612">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tinputz" iso-639-3="tpz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="389-391" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="389" tag="L">         b. a     te      to te-te       no-n          iun</item>
+    <item id="o2" line="390" tag="G">            ART man RL RD-be AUX-3SGS house</item>
+    <item id="o3" line="391" tag="T+AC+LN">            `The man is in the house.' (Tinputz - Ross 1982:28)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="389" tag="L">a     te      to te-te       no-n          iun</item>
+    <item id="c2" line="390" tag="G">ART man RL RD-be AUX-3SGS house</item>
+    <item id="c3" line="391" tag="T+AC+LN">The man is in the house.' (Tinputz-Ross 1982:28)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18654">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tinputz" iso-639-3="tpz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="894-896" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="894" tag="L">  (51)       eën      se     ki      nö: ee me: se          nö: e-n</item>
+    <item id="o2" line="895" tag="G">             youSG FUT COND go              he too FUT go AUX-3SGS</item>
+    <item id="o3" line="896" tag="T+AC">             `If you went, he would go too.' (Ross 1982:28)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="894" tag="L">eën      se     ki      nö: ee me: se          nö: e-n</item>
+    <item id="c2" line="895" tag="G">youSG FUT COND go              he too FUT go AUX-3SGS</item>
+    <item id="c3" line="896" tag="T+AC">If you went, he would go too.' (Ross 1982:28)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

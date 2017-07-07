@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i21470">
+  <metadata type="xigt-meta">
+    <meta type="language" name="washo" iso-639-3="was" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3227" line-range="494-496" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="494" tag="L">       a. [geyúliyé:sha]</item>
+    <item id="o2" line="495" tag="G">          ge-yúli-é:s-ha</item>
+    <item id="o3" line="496" tag="T+EX">          Imper-die-Neg-Caus                       Order is [[[die] NEG] CAUS]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="494" tag="L">[geyúliyé:sha]</item>
+    <item id="c2" line="495" tag="G">ge-yúli-é:s-ha</item>
+    <item id="c3" line="496" tag="T+EX">Imper-die-Neg-Caus                       Order is [[[die] NEG] CAUS]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21471">
+  <metadata type="xigt-meta">
+    <meta type="language" name="washo" iso-639-3="was" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3227" line-range="498-500" line-types="L G+EX T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="498" tag="L">          *ge-yúli-ha-é:s</item>
+    <item id="o2" line="499" tag="G+EX">          *Imper-die-Caus-Neg                       BUT scope reading is [[[die] CAUS] NEG]</item>
+    <item id="o3" line="500" tag="T">          `don't kill it!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="498" tag="L">*ge-yúli-ha-é:s</item>
+    <item id="c2" line="499" tag="G+EX">*Imper-die-Caus-Neg                       BUT scope reading is [[[die] CAUS] NEG]</item>
+    <item id="c3" line="500" tag="T">don't kill it!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:81]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21472">
+  <metadata type="xigt-meta">
+    <meta type="language" name="washo" iso-639-3="was" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3227" line-range="507-509" line-types="L L+AL G+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="507" tag="L">         b. [leyúlidúwahayi]</item>
+    <item id="o2" line="508" tag="L+AL">            le-yúli-dúwe'-ha-i</item>
+    <item id="o3" line="509" tag="G+EX">            1-die-want.to-Caus-Imp                 Order is [[[[die] want] CAUS] IMP]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="507" tag="L">[leyúlidúwahayi]</item>
+    <item id="c2" line="508" tag="L+AL">le-yúli-dúwe'-ha-i</item>
+    <item id="c3" line="509" tag="G+EX">1-die-want.to-Caus-Imp                 Order is [[[[die] want] CAUS] IMP]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+    <item id="p1" content="c2[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:73]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i21473">
+  <metadata type="xigt-meta">
+    <meta type="language" name="washo" iso-639-3="was" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3227" line-range="510-512" line-types="L G+EX T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="510" tag="L">            * le-yúli-ha-dúwe'-i</item>
+    <item id="o2" line="511" tag="G+EX">            *1-die-Caus-want.to-Imp                BUT scope reading is [[[[die] CAUS] want] IMP]</item>
+    <item id="o3" line="512" tag="T">            `he wants to kill me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="510" tag="L">* le-yúli-ha-dúwe'-i</item>
+    <item id="c2" line="511" tag="G+EX">*1-die-Caus-want.to-Imp                BUT scope reading is [[[[die] CAUS] want] IMP]</item>
+    <item id="c3" line="512" tag="T">he wants to kill me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:85]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21474">
+  <metadata type="xigt-meta">
+    <meta type="language" name="washo" iso-639-3="was" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3227" line-range="515-517" line-types="L L+AL G+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="515" tag="L">           [léme'é:shuyi]</item>
+    <item id="o2" line="516" tag="L+AL">           le-íme'-é:s-hu-i</item>
+    <item id="o3" line="517" tag="G+EX">           1-drink-Neg-Imp                         Order is [[[drink] NEG] IMP]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="515" tag="L">[léme'é:shuyi]</item>
+    <item id="c2" line="516" tag="L+AL">le-íme'-é:s-hu-i</item>
+    <item id="c3" line="517" tag="G+EX">1-drink-Neg-Imp                         Order is [[[drink] NEG] IMP]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+    <item id="p1" content="c2[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:68]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i21475">
+  <metadata type="xigt-meta">
+    <meta type="language" name="washo" iso-639-3="was" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3227" line-range="518-521" line-types="L+CR+AL L+CR+AL G+EX T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="518" tag="L+CR+AL">               e</item>
+    <item id="o2" line="519" tag="L+CR+AL">           * l -íme'-hu-é:s-i</item>
+    <item id="o3" line="520" tag="G+EX">           *1-drink-Imp-Neg                        BUT scope reading is [[[drink] IMP] NEG]</item>
+    <item id="o4" line="521" tag="T">           `we (pl. incl.) aren't drinking'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="518" tag="L+CR+AL">e</item>
+    <item id="c3" line="520" tag="G+EX">*1-drink-Imp-Neg                        BUT scope reading is [[[drink] IMP] NEG]</item>
+    <item id="c4" line="521" tag="T">we (pl. incl.) aren't drinking</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:1]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:80]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21476">
+  <metadata type="xigt-meta">
+    <meta type="language" name="washo" iso-639-3="was" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3227" line-range="524-526" line-types="L L+AL G+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="524" tag="L">           [léme'é:s ilegi]</item>
+    <item id="o2" line="525" tag="L+AL">           le-íme'-é:s- i-leg-i</item>
+    <item id="o3" line="526" tag="G+EX">           1-drink-Neg-Dual.Incl-Rec.Past-Imp       Order is [[[drink] NEG] DU INCL]...</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="524" tag="L">[léme'é:s ilegi]</item>
+    <item id="c2" line="525" tag="L+AL">le-íme'-é:s-i-leg-i</item>
+    <item id="c3" line="526" tag="G+EX">1-drink-Neg-Dual.Incl-Rec.Past-Imp       Order is [[[drink] NEG] DU INCL]...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+    <item id="p1" content="c2[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:76]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i21477">
+  <metadata type="xigt-meta">
+    <meta type="language" name="washo" iso-639-3="was" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3227" line-range="527-530" line-types="L+CR L+CR G+EX T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="527" tag="L+CR">               e</item>
+    <item id="o2" line="528" tag="L+CR">           * l -íme'- i-é:s-leg-i</item>
+    <item id="o3" line="529" tag="G+EX">           *1-drink-Dual.Incl-Neg-Rec.Past-Imp BUT scope reading is [[[drink] DU INCL] NEG]...</item>
+    <item id="o4" line="530" tag="T">           `we (du. incl.) didn't drink'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="527" tag="L+CR">e</item>
+    <item id="c3" line="529" tag="G+EX">*1-drink-Dual.Incl-Neg-Rec.Past-Imp BUT scope reading is [[[drink] DU INCL] NEG]...</item>
+    <item id="c4" line="530" tag="T">we (du. incl.) didn't drink</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:1]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:83]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21478">
+  <metadata type="xigt-meta">
+    <meta type="language" name="washo" iso-639-3="was" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3227" line-range="532-534" line-types="L L+AL G+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="532" tag="L">           [lémehé: iti'i]</item>
+    <item id="o2" line="533" tag="L+AL">           le-íme'-hé: - i-ti'-i</item>
+    <item id="o3" line="534" tag="G+EX">           1-drink-Interr-Du.Incl-Inter.Fut-Imp    Order is [[[drink] INTERR] DU INCL]...</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="532" tag="L">[lémehé: iti'i]</item>
+    <item id="c2" line="533" tag="L+AL">le-íme'-hé:-i-ti'-i</item>
+    <item id="c3" line="534" tag="G+EX">1-drink-Interr-Du.Incl-Inter.Fut-Imp    Order is [[[drink] INTERR] DU INCL]...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+    <item id="p1" content="c2[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:78]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i21479">
+  <metadata type="xigt-meta">
+    <meta type="language" name="washo" iso-639-3="was" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3227" line-range="535-537" line-types="L G+EX T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="535" tag="L">           * le-íme'- i-hé: -ti'-i</item>
+    <item id="o2" line="536" tag="G+EX">           *1-drink-Du.Incl-Interr-Inter.Fut-Imp   BUT scope reading is [[[drink] DU INCL] INTERR]...</item>
+    <item id="o3" line="537" tag="T">           `are we (du. incl.) going to drink?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="535" tag="L">* le-íme'-i-hé:-ti'-i</item>
+    <item id="c2" line="536" tag="G+EX">*1-drink-Du.Incl-Interr-Inter.Fut-Imp   BUT scope reading is [[[drink] DU INCL] INTERR]...</item>
+    <item id="c3" line="537" tag="T">are we (du. incl.) going to drink?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:90]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21480">
+  <metadata type="xigt-meta">
+    <meta type="language" name="washo" iso-639-3="was" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3227" line-range="540-542" line-types="L L+AL G+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="540" tag="L">         a. [lémehé: hugabi]</item>
+    <item id="o2" line="541" tag="L+AL">            le-íme'-hé: -hu-gab-i</item>
+    <item id="o3" line="542" tag="G+EX">            1-drink-Interr-Pl.Incl-Dist.Fut-Imp       Order is [[[drink] INTERR] PL INCL]...</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="540" tag="L">[lémehé: hugabi]</item>
+    <item id="c2" line="541" tag="L+AL">le-íme'-hé:-hu-gab-i</item>
+    <item id="c3" line="542" tag="G+EX">1-drink-Interr-Pl.Incl-Dist.Fut-Imp       Order is [[[drink] INTERR] PL INCL]...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+    <item id="p1" content="c2[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:80]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i21481">
+  <metadata type="xigt-meta">
+    <meta type="language" name="washo" iso-639-3="was" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3227" line-range="543-545" line-types="L G+EX T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="543" tag="L">            * le-íme'-hu-hé: -gab-i</item>
+    <item id="o2" line="544" tag="G+EX">            *1-drink-Pl.Incl-Interr-Dist.Fut-Imp      BUT scope reading is [[[drink] PL INCL] INTERR]...</item>
+    <item id="o3" line="545" tag="T">            `are we (pl. incl.) going to drink?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="543" tag="L">* le-íme'-hu-hé:-gab-i</item>
+    <item id="c2" line="544" tag="G+EX">*1-drink-Pl.Incl-Interr-Dist.Fut-Imp      BUT scope reading is [[[drink] PL INCL] INTERR]...</item>
+    <item id="c3" line="545" tag="T">are we (pl. incl.) going to drink?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:92]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i21482">
+  <metadata type="xigt-meta">
+    <meta type="language" name="washo" iso-639-3="was" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3227" line-range="547-549" line-types="L L+AL G+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="547" tag="L">         b. [léme'eshé: hugabi]</item>
+    <item id="o2" line="548" tag="L+AL">            le-íme'-é:s-hé: -hu-gab-i</item>
+    <item id="o3" line="549" tag="G+EX">            1-drink-Neg-Interr-Pl.Incl-Dist.Fut-Imp        Order is [[[[drink] NEG] INTERR] PL INCL]...</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="547" tag="L">[léme'eshé: hugabi]</item>
+    <item id="c2" line="548" tag="L+AL">le-íme'-é:s-hé:-hu-gab-i</item>
+    <item id="c3" line="549" tag="G+EX">1-drink-Neg-Interr-Pl.Incl-Dist.Fut-Imp        Order is [[[[drink] NEG] INTERR] PL INCL]...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+    <item id="p1" content="c2[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:91]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i21483">
+  <metadata type="xigt-meta">
+    <meta type="language" name="washo" iso-639-3="was" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3227" line-range="550-552" line-types="L G+EX T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="550" tag="L">            * le-íme'-hu-é:s-hé: -gab-i</item>
+    <item id="o2" line="551" tag="G+EX">            *1-drink-Pl.Incl-Neg-Interr-Dist.Fut-Imp       BUT scope reading is</item>
+    <item id="o3" line="552" tag="T+EX">            `aren't we (pl. incl.) going to drink?'              [[[[drink] PL INCL] NEG] INTERR]...</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="550" tag="L">* le-íme'-hu-é:s-hé:-gab-i</item>
+    <item id="c2" line="551" tag="G+EX">*1-drink-Pl.Incl-Neg-Interr-Dist.Fut-Imp       BUT scope reading is</item>
+    <item id="c3" line="552" tag="T+EX">aren't we (pl. incl.) going to drink?'              [[[[drink] PL INCL] NEG] INTERR]...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:87]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145526">
+  <metadata type="xigt-meta">
+    <meta type="language" name="washo" iso-639-3="was" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3820" line-range="1130-1134" line-types="M+LN B L+CR L+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1130" tag="M+LN">  Washo (isolate: Nevada)</item>
+    <item id="o2" line="1131" tag="B"></item>
+    <item id="o3" line="1132" tag="L+CR">           medulePw´Pwid´sli</item>
+    <item id="o4" line="1133" tag="L+CR">   (66)              i    e</item>
+    <item id="o5" line="1134" tag="T+AC">           `He's waving his hand at you.'                            (Jacobsen 1953:551)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1130" tag="M+LN">Washo (isolate: Nevada)</item>
+    <item id="c2" line="1131" tag="B"/>
+    <item id="c3" line="1132" tag="L+CR">medulePw´Pwid´sli</item>
+    <item id="c5" line="1134" tag="T+AC">He's waving his hand at you.'                            (Jacobsen 1953:551)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:17]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:76]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

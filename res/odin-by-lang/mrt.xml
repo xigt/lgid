@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i18103">
+  <metadata type="xigt-meta">
+    <meta type="language" name="margi" iso-639-3="mrt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1607" line-range="1665-1667" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1665" tag="L">  (88) Kàmb´Yràwázhá-'yàr        àgá     màlà    g´/ndà</item>
+    <item id="o2" line="1666" tag="G">      Kamburawazha-ASS . PL      with    wife    of.him</item>
+    <item id="o3" line="1667" tag="T">      ' Kamburawazha and his wife'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1665" tag="L">Kàmb´Yràwázhá-'yàr        àgá     màlà    g´/ndà</item>
+    <item id="c2" line="1666" tag="G">Kamburawazha-ASS . PL      with    wife    of.him</item>
+    <item id="c3" line="1667" tag="T">Kamburawazha and his wife</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73294">
+  <metadata type="xigt-meta">
+    <meta type="language" name="margi" iso-639-3="mrt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="685-688" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="685" tag="L+CR">  (52) [ndr g Ijí]='yàr              kufi</item>
+    <item id="o2" line="686" tag="L+CR">               oe</item>
+    <item id="o3" line="687" tag="G">          [word of God]=PLUR this</item>
+    <item id="o4" line="688" tag="T">          `these words of God'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="685" tag="L+CR">[ndr g Ijí]='yàr              kufi</item>
+    <item id="c3" line="687" tag="G">[word of God]=PLUR this</item>
+    <item id="c4" line="688" tag="T">these words of God</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150832">
+  <metadata type="xigt-meta">
+    <meta type="language" name="margi" iso-639-3="mrt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2415" line-range="31-34" line-types="M+LN+EX L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="31" tag="M+LN+EX">  (1) Margi (  = rise, ` = low, ´ = high)</item>
+    <item id="o2" line="32" tag="L+DB">        a. vl                       b. vèlání</item>
+    <item id="o3" line="33" tag="G+DB">             jump                       jump-cause</item>
+    <item id="o4" line="34" tag="T+DB">            'to jump'                   'to make jump'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="31" tag="M+LN+EX">Margi (  = rise, ` = low, ´ = high</item>
+    <item id="c2" line="32" tag="L+DB">vl                       b. vèlání</item>
+    <item id="c3" line="33" tag="G+DB">jump                       jump-cause</item>
+    <item id="c4" line="34" tag="T+DB">to jump'                   'to make jump</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

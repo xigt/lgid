@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i42893">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="23-27" line-types="M+CN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="23" tag="M+CN">  Fronted WH phrase</item>
+    <item id="o2" line="24" tag="L">  (1)     Ndiani      Neo wa-                   á-     ka- bona?</item>
+    <item id="o3" line="25" tag="G+CR">          Foc-who Neo1a WHagr1 SA               past   see</item>
+    <item id="o4" line="26" tag="G+CR">                                           1a</item>
+    <item id="o5" line="27" tag="T">          `Who did Neo see?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="23" tag="M+CN">Fronted WH phrase</item>
+    <item id="c2" line="24" tag="L">Ndiani      Neo wa-á-ka-bona?</item>
+    <item id="c3" line="25 26" tag="G+CR">Foc-who Neo1a WHagr1 SA          1a   past   see</item>
+    <item id="c5" line="27" tag="T">Who did Neo see?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42894">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="29-32" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="29" tag="M+CN">  Sentence final</item>
+    <item id="o2" line="30" tag="L">  (2a)    Neo     wa- á- ka- bona                  ndi-ani?</item>
+    <item id="o3" line="31" tag="G">          Neo1a WHagr1 SA1a past see               Foc-who1</item>
+    <item id="o4" line="32" tag="T">          `Who did Neo see?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="29" tag="M+CN">Sentence final</item>
+    <item id="c2" line="30" tag="L">Neo     wa-á-ka-bona                  ndi-ani?</item>
+    <item id="c3" line="31" tag="G">Neo1a WHagr1 SA1a past see               Foc-who1</item>
+    <item id="c4" line="32" tag="T">Who did Neo see?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42895">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="33-35" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="33" tag="L">  (2b)    Neo     wá-ka- bona ani?</item>
+    <item id="o2" line="34" tag="G">          Neo1a SA1apast see who</item>
+    <item id="o3" line="35" tag="T">          `Who did Neo see?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="33" tag="L">Neo     wá-ka-bona ani?</item>
+    <item id="c2" line="34" tag="G">Neo1a SA1apast see who</item>
+    <item id="c3" line="35" tag="T">Who did Neo see?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42896">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="54-56" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="54" tag="L">  (3)    Wa-ka        bona Neo ndi-ani?</item>
+    <item id="o2" line="55" tag="G">         WHagr1 past. See Neo1a Foc-who</item>
+    <item id="o3" line="56" tag="T">         `Who saw Neo?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="54" tag="L">Wa-ka        bona Neo ndi-ani?</item>
+    <item id="c2" line="55" tag="G">WHagr1 past. See Neo1a Foc-who</item>
+    <item id="c3" line="56" tag="T">Who saw Neo?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42897">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="82-85" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="82" tag="M+CN">  Declarative: Present Tense</item>
+    <item id="o2" line="83" tag="L">  (4a)     Neo     ú-    no- bika nyama.</item>
+    <item id="o3" line="84" tag="G">           Neo1a SA1a pres. cook meat9</item>
+    <item id="o4" line="85" tag="T">           `Neo cooks meat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="82" tag="M+CN">Present Tense</item>
+    <item id="c2" line="83" tag="L">Neo     ú-no-bika nyama.</item>
+    <item id="c3" line="84" tag="G">Neo1a SA1a pres. cook meat9</item>
+    <item id="c4" line="85" tag="T">Neo cooks meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42898">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="87-90" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="87" tag="M+CN">  Subject Agr deletion</item>
+    <item id="o2" line="88" tag="L">  (4b)     *Neo no- bika             nyama.</item>
+    <item id="o3" line="89" tag="G">            Neo1a pres. -cook        meat9</item>
+    <item id="o4" line="90" tag="T">            `Neo cooks meat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="87" tag="M+CN">Subject Agr deletion</item>
+    <item id="c2" line="88" tag="L">*Neo no-bika             nyama.</item>
+    <item id="c3" line="89" tag="G">Neo1a pres.-cook        meat9</item>
+    <item id="c4" line="90" tag="T">Neo cooks meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42899">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="96-99" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="96" tag="M+CN">  Perfective:</item>
+    <item id="o2" line="97" tag="L">  (4c)     Neo     wá-      bika nyama.</item>
+    <item id="o3" line="98" tag="G">           Neo1a SA1a perf. cook meat9</item>
+    <item id="o4" line="99" tag="T">           `Neo has cooked meat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="96" tag="M+CN">Perfective:</item>
+    <item id="c2" line="97" tag="L">Neo     wá-bika nyama.</item>
+    <item id="c3" line="98" tag="G">Neo1a SA1a perf. cook meat9</item>
+    <item id="c4" line="99" tag="T">Neo has cooked meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42900">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="100-103" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="100" tag="M+CN">  Past Tense</item>
+    <item id="o2" line="101" tag="L">  (4d)     Neo     wá- ka-           bika nyama.</item>
+    <item id="o3" line="102" tag="G">           Neo1a SA1a past.          cook meat9</item>
+    <item id="o4" line="103" tag="T">           `Neo cooked meat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="100" tag="M+CN">Past Tense</item>
+    <item id="c2" line="101" tag="L">Neo     wá-ka-bika nyama.</item>
+    <item id="c3" line="102" tag="G">Neo1a SA1a past.          cook meat9</item>
+    <item id="c4" line="103" tag="T">Neo cooked meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42901">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="104-107" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="104" tag="M+CN">  Future Tense</item>
+    <item id="o2" line="105" tag="L">  (4e)     Neo ú- noo -          bika nyama.</item>
+    <item id="o3" line="106" tag="G">           Neo1a SA1a -future cook meat9</item>
+    <item id="o4" line="107" tag="T">           `Neo will cook meat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="104" tag="M+CN">Future Tense</item>
+    <item id="c2" line="105" tag="L">Neo ú-noo-bika nyama.</item>
+    <item id="c3" line="106" tag="G">Neo1a SA1a-future cook meat9</item>
+    <item id="c4" line="107" tag="T">Neo will cook meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42902">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="115-118" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="115" tag="M+CN">  Negation:</item>
+    <item id="o2" line="116" tag="L">  (4f) Neo a          á- zo - bika nyama.</item>
+    <item id="o3" line="117" tag="G">        Neo1a Neg. SA1a pres. cook meat9.</item>
+    <item id="o4" line="118" tag="T">        `Neo did not cook meat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="115" tag="M+CN">Negation:</item>
+    <item id="c2" line="116" tag="L">Neo a          á-zo-bika nyama.</item>
+    <item id="c3" line="117" tag="G">Neo1a Neg. SA1a pres. cook meat9.</item>
+    <item id="c4" line="118" tag="T">Neo did not cook meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42903">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="119-124" line-types="M+CN L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="119" tag="M+CN">  Conditionals:</item>
+    <item id="o2" line="120" tag="L">  (4g)     Neo       a á-    nga-        zha, Nchidizi</item>
+    <item id="o3" line="121" tag="G">           Neo1a if SA1a should          come, Nchidzi1a</item>
+    <item id="o4" line="122" tag="L">           u    noo langwa.</item>
+    <item id="o5" line="123" tag="G">           SA1a fut.   sulk</item>
+    <item id="o6" line="124" tag="T">           `If Neo comes, Nchidzi will sulk.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="119" tag="M+CN">Conditionals:</item>
+    <item id="c2" line="120" tag="L">Neo       a á-nga-zha, Nchidizi</item>
+    <item id="c3" line="121" tag="G">Neo1a if SA1a should          come, Nchidzi1a</item>
+    <item id="c4" line="122" tag="L">u    noo langwa.</item>
+    <item id="c5" line="123" tag="G">SA1a fut.   sulk</item>
+    <item id="c6" line="124" tag="T">If Neo comes, Nchidzi will sulk.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:31]"/>
+    <item id="p1" content="c4[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:45]" alignment="p1"/>
+    <item id="g1" content="c5[0:16]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:32]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i42904">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="133-136" line-types="M+CN L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="133" tag="M+CN">  A. Fronted</item>
+    <item id="o2" line="134" tag="L">  (5a)    Ndi-ani     wa- ka-       bona        Neo?</item>
+    <item id="o3" line="135" tag="G">          Foc-who     WHagr1 -past see          Neo1a</item>
+    <item id="o4" line="136" tag="T+EX">          `Who saw Neo?' (Subject)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="133" tag="M+CN">Fronted</item>
+    <item id="c2" line="134" tag="L">Ndi-ani     wa-ka-bona        Neo?</item>
+    <item id="c3" line="135" tag="G">Foc-who     WHagr1-past see          Neo1a</item>
+    <item id="c4" line="136" tag="T+EX">Who saw Neo?' (Subject)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42905">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="137-139" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="137" tag="L">  (5b)    Ndiani   Neo wa- á-          ka-      bona?</item>
+    <item id="o2" line="138" tag="G">         Foc-who Neo1a WHagr1 SA1a past         -see</item>
+    <item id="o3" line="139" tag="T+EX">         `Who did Neo see?' (Object)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="137" tag="L">Ndiani   Neo wa-á-ka-bona?</item>
+    <item id="c2" line="138" tag="G">Foc-who Neo1a WHagr1 SA1a past-see</item>
+    <item id="c3" line="139" tag="T+EX">Who did Neo see?' (Object)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42906">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="141-144" line-types="M+CN L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="141" tag="M+CN">  B. Sentence final</item>
+    <item id="o2" line="142" tag="L">   (6a) Wa-ka-       bona Neo ndi-ani?</item>
+    <item id="o3" line="143" tag="G">        WHagr1 past. see   Neo1a Foc-who</item>
+    <item id="o4" line="144" tag="T+EX">        Who saw Neo?' (Subject)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="141" tag="M+CN">Sentence final</item>
+    <item id="c2" line="142" tag="L">Wa-ka-bona Neo ndi-ani?</item>
+    <item id="c3" line="143" tag="G">WHagr1 past. see   Neo1a Foc-who</item>
+    <item id="c4" line="144" tag="T+EX">Who saw Neo?' (Subject)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42907">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="145-147" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="145" tag="L">  (6b) Neo wa- á- ka-             bona ndi-ani?</item>
+    <item id="o2" line="146" tag="G">        Neo1a WHagr1 SA1a past    see  Foc-who1</item>
+    <item id="o3" line="147" tag="T+EX">        `Who did Neo see?' (Object)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="145" tag="L">Neo wa-á-ka-bona ndi-ani?</item>
+    <item id="c2" line="146" tag="G">Neo1a WHagr1 SA1a past    see  Foc-who1</item>
+    <item id="c3" line="147" tag="T+EX">Who did Neo see?' (Object)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42908">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="153-155" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="153" tag="L">  (7a)  Neo wá- ka- bona ani?</item>
+    <item id="o2" line="154" tag="G">        Neo1a SA1apast see  who</item>
+    <item id="o3" line="155" tag="T">       `Who did Neo see?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="153" tag="L">Neo wá-ka-bona ani?</item>
+    <item id="c2" line="154" tag="G">Neo1a SA1apast see  who</item>
+    <item id="c3" line="155" tag="T">Who did Neo see?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42909">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="156-158" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="156" tag="L">  (7b) *Neo      wa- á- ka-    bona ani?</item>
+    <item id="o2" line="157" tag="G">         Neo1a WHagr SA1a-past see  who</item>
+    <item id="o3" line="158" tag="T">         `Who did Neo see?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="156" tag="L">*Neo      wa-á-ka-bona ani?</item>
+    <item id="c2" line="157" tag="G">Neo1a WHagr SA1a-past see  who</item>
+    <item id="c3" line="158" tag="T">Who did Neo see?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42910">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="178-180" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="178" tag="L">  (8a)   Neo wá- ka-         bona Nchidzi.</item>
+    <item id="o2" line="179" tag="G">         Neo1a SA1a past see      Nchidzi1a</item>
+    <item id="o3" line="180" tag="T">         `Neo saw Nchidzi.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="178" tag="L">Neo wá-ka-bona Nchidzi.</item>
+    <item id="c2" line="179" tag="G">Neo1a SA1a past see      Nchidzi1a</item>
+    <item id="c3" line="180" tag="T">Neo saw Nchidzi.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42911">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="181-183" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="181" tag="L">  (8b)   Wá- ka- bona Nchidzi, Neo.</item>
+    <item id="o2" line="182" tag="G">         SA1a past see Nchidzi1a Neo1a</item>
+    <item id="o3" line="183" tag="T">         `Neo saw Nchidzi.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="181" tag="L">Wá-ka-bona Nchidzi, Neo.</item>
+    <item id="c2" line="182" tag="G">SA1a past see Nchidzi1a Neo1a</item>
+    <item id="c3" line="183" tag="T">Neo saw Nchidzi.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42912">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="184-186" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="184" tag="L">  (8c)   Nchidzi, Neo wá- ka- m-bona.</item>
+    <item id="o2" line="185" tag="G">         Nchidzi1a Neo1a SA1a past-OM-see</item>
+    <item id="o3" line="186" tag="T">         `Nchidzi, Neo saw him.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="184" tag="L">Nchidzi, Neo wá-ka-m-bona.</item>
+    <item id="c2" line="185" tag="G">Nchidzi1a Neo1a SA1a past-OM-see</item>
+    <item id="c3" line="186" tag="T">Nchidzi, Neo saw him.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42913">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="230-232" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="230" tag="L">  (9a)    Ndi-boani ba-       no- bona Neo?</item>
+    <item id="o2" line="231" tag="G">          Foc-Who2 WH2agr. pres. -see Neo1a</item>
+    <item id="o3" line="232" tag="T+EX">          `Who(PL) sees Neo?'(Subject)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="230" tag="L">Ndi-boani ba-no-bona Neo?</item>
+    <item id="c2" line="231" tag="G">Foc-Who2 WH2agr. pres.-see Neo1a</item>
+    <item id="c3" line="232" tag="T+EX">Who(PL) sees Neo?'(Subject)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42914">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="233-236" line-types="L G+CR G+CR T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="233" tag="L">  (9b)    Neo       ba- á-        no- bona  ndi-boani?</item>
+    <item id="o2" line="234" tag="G+CR">                    WH2agr SA1a pres. -see  Foc-who2</item>
+    <item id="o3" line="235" tag="G+CR">          Neo1a</item>
+    <item id="o4" line="236" tag="T+EX">          `Who(PL) does Neo see' (Object)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="233" tag="L">Neo       ba-á-no-bona  ndi-boani?</item>
+    <item id="c2" line="234 235" tag="G+CR">Neo1a     WH2agr SA1a pres.-see  Foc-who2</item>
+    <item id="c4" line="236" tag="T+EX">Who(PL) does Neo see' (Object)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42915">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="239-243" line-types="L+SY G L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="239" tag="L+SY">  (10a) [IP Neo [TP wa- ka-    [VP zwibuzwa [CP kuti [FocP ndi-anii [XP2 Nchidzi</item>
+    <item id="o2" line="240" tag="G">             Neo1a SA1a past       wonder        that        Foc-who          Nchidzi</item>
+    <item id="o3" line="241" tag="L+SY">         [XP1 wa-        [TP   á- ka- [VP bona ti]]]]]]]]]]</item>
+    <item id="o4" line="242" tag="G">                WHagr          SA1a-past see</item>
+    <item id="o5" line="243" tag="T">         `Neo wondered who Nchidzi saw.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="239" tag="L+SY">[IP Neo [TP wa-ka-[VP zwibuzwa [CP kuti [FocP ndi-anii [XP2 Nchidzi</item>
+    <item id="c2" line="240" tag="G">Neo1a SA1a past       wonder        that        Foc-who          Nchidzi</item>
+    <item id="c3" line="241" tag="L+SY">[XP1 wa-[TP   á-ka-[VP bona ti]]]]]]]]]]</item>
+    <item id="c4" line="242" tag="G">WHagr          SA1a-past see</item>
+    <item id="c5" line="243" tag="T">Neo wondered who Nchidzi saw.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+    <item id="p1" content="c3[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:72]" alignment="p1"/>
+    <item id="g1" content="c4[0:28]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i42916">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="244-247" line-types="L+SY G L+SY G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="244" tag="L+SY">  (10b) *[IP Neo [TP wa- ka-       [VP zwibuzwa [CP ndianii      kuti [XP2 Nchidzi</item>
+    <item id="o2" line="245" tag="G">             Neo1a     SA1a past       wonder         Foc-who that         Nchidzi</item>
+    <item id="o3" line="246" tag="L+SY">         [XP1 wa-        [TP   á-      ka- [VP   bona ti]]]]]]]]]]</item>
+    <item id="o4" line="247" tag="G">                WHagr          SA1a past         see</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="244" tag="L+SY">*[IP Neo [TP wa-ka-[VP zwibuzwa [CP ndianii      kuti [XP2 Nchidzi</item>
+    <item id="c2" line="245" tag="G">Neo1a     SA1a past       wonder         Foc-who that         Nchidzi</item>
+    <item id="c3" line="246" tag="L+SY">[XP1 wa-[TP   á-ka-[VP   bona ti]]]]]]]]]]</item>
+    <item id="c4" line="247" tag="G">WHagr          SA1a past         see</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+    <item id="p1" content="c3[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+    <item id="g1" content="c4[0:36]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i42917">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="268-271" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="268" tag="L">  (11a) *Boani     ba- no- bona               Neo?</item>
+    <item id="o2" line="269" tag="G+CR">                  WHagr. pres. see            Neo1a</item>
+    <item id="o3" line="270" tag="G+CR">        Who2</item>
+    <item id="o4" line="271" tag="T">        `Who(PL) sees Neo?' (subject)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="268" tag="L">*Boani     ba-no-bona               Neo?</item>
+    <item id="c2" line="269 270" tag="G+CR">Who2      WHagr. pres. see            Neo1a</item>
+    <item id="c4" line="271" tag="T">Who(PL) sees Neo?' (subject)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42918">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="272-275" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="272" tag="L">  (11b) *Boani     Neo ba- á-                no- bona?</item>
+    <item id="o2" line="273" tag="G+CR">                   Neo1a WH2agr SA1a         pres.-see</item>
+    <item id="o3" line="274" tag="G+CR">         Who2</item>
+    <item id="o4" line="275" tag="T">         `Who(PL) does Neo see?' (Obj       ect)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="272" tag="L">*Boani     Neo ba-á-no-bona?</item>
+    <item id="c2" line="273 274" tag="G+CR">Who2      Neo1a WH2agr SA1a         pres.-see</item>
+    <item id="c4" line="275" tag="T">Who(PL) does Neo see?' (Obj       ect)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42919">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="297-299" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="297" tag="L">  (12a) Neo wá- ka- bona          ani?</item>
+    <item id="o2" line="298" tag="G">        Neo1a SA1a past -see      who</item>
+    <item id="o3" line="299" tag="T">        `Who did Neo see?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="297" tag="L">Neo wá-ka-bona          ani?</item>
+    <item id="c2" line="298" tag="G">Neo1a SA1a past-see      who</item>
+    <item id="c3" line="299" tag="T">Who did Neo see?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42920">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="300-302" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="300" tag="L">  (12b) *Neo wa- á-               ka-    bona ani?</item>
+    <item id="o2" line="301" tag="G">         Neo1a WHagr SA1a         past   see  who</item>
+    <item id="o3" line="302" tag="T">        `Who did Neo see?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="300" tag="L">*Neo wa-á-ka-bona ani?</item>
+    <item id="c2" line="301" tag="G">Neo1a WHagr SA1a         past   see  who</item>
+    <item id="c3" line="302" tag="T">Who did Neo see?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42921">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="304-306" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="304" tag="L">  (13a)    Wa- ka- bona Neo ndi-ani?</item>
+    <item id="o2" line="305" tag="G">           WHagr1 past. see Neo1a Foc-who</item>
+    <item id="o3" line="306" tag="T+EX">          `Who saw Neo?' (Subject)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="304" tag="L">Wa-ka-bona Neo ndi-ani?</item>
+    <item id="c2" line="305" tag="G">WHagr1 past. see Neo1a Foc-who</item>
+    <item id="c3" line="306" tag="T+EX">Who saw Neo?' (Subject)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42922">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="307-309" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="307" tag="L">  (13b)    Neo wa- á-          ka- bona ndi-ani?</item>
+    <item id="o2" line="308" tag="G">           Neo1a WHagr1 -SA1a past -see Foc-who1</item>
+    <item id="o3" line="309" tag="T+EX">          `Who did Neo see?' (Object)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="307" tag="L">Neo wa-á-ka-bona ndi-ani?</item>
+    <item id="c2" line="308" tag="G">Neo1a WHagr1-SA1a past-see Foc-who1</item>
+    <item id="c3" line="309" tag="T+EX">Who did Neo see?' (Object)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42923">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="326-330" line-types="L+SY G L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="326" tag="L+SY">  (15a)     [FopP    Ndi-anii Neo wa-       [IP2 á- ka - zwibuzwa [CP ti kuti</item>
+    <item id="o2" line="327" tag="G">                     Foc-who Neo1a WHagr1.         SA1 past wonder       that</item>
+    <item id="o3" line="328" tag="L+SY">            [XP ti kene [IP1 Nchidzi wá-       ka-    bona ti ]]]]]</item>
+    <item id="o4" line="329" tag="G">                whether       Nchidzi1a SA1    past see</item>
+    <item id="o5" line="330" tag="T">            `Who did Neo wonder whether Nchidzi saw?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="326" tag="L+SY">[FopP    Ndi-anii Neo wa-[IP2 á-ka-zwibuzwa [CP ti kuti</item>
+    <item id="c2" line="327" tag="G">Foc-who Neo1a WHagr1.         SA1 past wonder       that</item>
+    <item id="c3" line="328" tag="L+SY">[XP ti kene [IP1 Nchidzi wá-ka-bona ti ]]]]]</item>
+    <item id="c4" line="329" tag="G">whether       Nchidzi1a SA1    past see</item>
+    <item id="c5" line="330" tag="T">Who did Neo wonder whether Nchidzi saw?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+    <item id="p1" content="c3[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+    <item id="g1" content="c4[0:39]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:39]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i42924">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="331-335" line-types="L+SY G L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="331" tag="L+SY">  (15b) *[FocP Ndi-anii Neo wa - [IP2 á - ka- zwibuzwa [CP ti kuti</item>
+    <item id="o2" line="332" tag="G">                Foc-who Neo1a WHagr.      SA1 past wonder           that</item>
+    <item id="o3" line="333" tag="L+SY">              [FocP ndi-ani [IP1 wa- ka-       bona ti ]]]]]?</item>
+    <item id="o4" line="334" tag="G">                     Foc-who     SA1 past see</item>
+    <item id="o5" line="335" tag="T">                `Who did Neo wonder who saw?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="331" tag="L+SY">*[FocP Ndi-anii Neo wa-[IP2 á-ka-zwibuzwa [CP ti kuti</item>
+    <item id="c2" line="332" tag="G">Foc-who Neo1a WHagr.      SA1 past wonder           that</item>
+    <item id="c3" line="333" tag="L+SY">[FocP ndi-ani [IP1 wa-ka-bona ti ]]]]]?</item>
+    <item id="c4" line="334" tag="G">Foc-who     SA1 past see</item>
+    <item id="c5" line="335" tag="T">Who did Neo wonder who saw?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+    <item id="p1" content="c3[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+    <item id="g1" content="c4[0:24]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i42925">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="349-351" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="349" tag="L">  (16)    Neo wá- ka-       zwibuzwa kuti             ndi-ani wa- ka- bona                 ani?</item>
+    <item id="o2" line="350" tag="G">          Neo1a SA1a past wonder that                 Foc-who WHagr past-see               who?</item>
+    <item id="o3" line="351" tag="T">          `Who did Neo wonder who saw?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="349" tag="L">Neo wá-ka-zwibuzwa kuti             ndi-ani wa-ka-bona                 ani?</item>
+    <item id="c2" line="350" tag="G">Neo1a SA1a past wonder that                 Foc-who WHagr past-see               who?</item>
+    <item id="c3" line="351" tag="T">Who did Neo wonder who saw?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:85]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42926">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="357-361" line-types="L+SY G L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="357" tag="L+SY">  (17a)       [FocP  Ndi-anii [XP2 Neo [XP1 ndianii wa- [IP2 [TP2 á- ka- [VP alakana [CP ndianii</item>
+    <item id="o2" line="358" tag="G">                     Foc-who       Neo1a             WHagr          SA1 past.     think</item>
+    <item id="o3" line="359" tag="L+SY">            kuti [IP1 Nchidzi [TP wá- ka- [VP loba ndianii]]]]]?</item>
+    <item id="o4" line="360" tag="G">            that        Nchidzi1a     SA1a past          hit</item>
+    <item id="o5" line="361" tag="T">            `Who did Neo think that Nchidzi hit?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="357" tag="L+SY">[FocP  Ndi-anii [XP2 Neo [XP1 ndianii wa-[IP2 [TP2 á-ka-[VP alakana [CP ndianii</item>
+    <item id="c2" line="358" tag="G">Foc-who       Neo1a             WHagr          SA1 past.     think</item>
+    <item id="c3" line="359" tag="L+SY">kuti [IP1 Nchidzi [TP wá-ka-[VP loba ndianii]]]]]?</item>
+    <item id="c4" line="360" tag="G">that        Nchidzi1a     SA1a past          hit</item>
+    <item id="c5" line="361" tag="T">Who did Neo think that Nchidzi hit?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+    <item id="p1" content="c3[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:66]" alignment="p1"/>
+    <item id="g1" content="c4[0:48]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:35]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i42927">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="362-367" line-types="L+CR+SY L+CR G L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="362" tag="L+CR+SY">            [XP2 Neo [XP1 ndianii wa [TP2 á- ka- [VP alakana [CP ndi-anii kuti</item>
+    <item id="o2" line="363" tag="L+CR">  (17b)</item>
+    <item id="o3" line="364" tag="G">                     Neo1a            WHagr SA1 past.           think                 that</item>
+    <item id="o4" line="365" tag="L+SY">            [IP Nchidzi [TP1 wá- ka- [VP loba ndianii]]]]]]]]]k [ FocP ndi-anii tk]]]]]?</item>
+    <item id="o5" line="366" tag="G">                 Nchidzi1a      SA1a past        hit                      Foc.who</item>
+    <item id="o6" line="367" tag="T">            `Who did Neo think that Nchidzi hit?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="362 363" tag="L+CR+SY">[XP2 Neo [XP1 ndianii wa [TP2 á-ka-[VP alakana [CP ndi-anii kuti</item>
+    <item id="c3" line="364" tag="G">Neo1a            WHagr SA1 past.           think                 that</item>
+    <item id="c4" line="365" tag="L+SY">[IP Nchidzi [TP1 wá-ka-[VP loba ndianii]]]]]]]]]k [ FocP ndi-anii tk]]]]]?</item>
+    <item id="c5" line="366" tag="G">Nchidzi1a      SA1a past        hit                      Foc.who</item>
+    <item id="c6" line="367" tag="T">Who did Neo think that Nchidzi hit?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+    <item id="p1" content="c4[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:69]" alignment="p1"/>
+    <item id="g1" content="c5[0:64]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:35]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i42928">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="368-373" line-types="L+SY G+CR G+CR L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="368" tag="L+SY">  (17c) *[FocP Ndi-anii [XP2 Neo [XP1 ndianii wa- [TP2 á- ka- [VP bona</item>
+    <item id="o2" line="369" tag="G+CR">                                                     WHagr      SA1 past      see</item>
+    <item id="o3" line="370" tag="G+CR">                 Foc-who        Neo1a</item>
+    <item id="o4" line="371" tag="L+SY">        CP [DP nthu [IP [TP wá -      ka-    loba ndianii]]]?</item>
+    <item id="o5" line="372" tag="G">                 person         SA1a past hit</item>
+    <item id="o6" line="373" tag="T">            `Who did Neo see the person who hit?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="368" tag="L+SY">*[FocP Ndi-anii [XP2 Neo [XP1 ndianii wa-[TP2 á-ka-[VP bona</item>
+    <item id="c2" line="369 370" tag="G+CR">Foc-who        Neo1a                WHagr      SA1 past      see</item>
+    <item id="c4" line="371" tag="L+SY">CP [DP nthu [IP [TP wá-ka-loba ndianii]]]?</item>
+    <item id="c5" line="372" tag="G">person         SA1a past hit</item>
+    <item id="c6" line="373" tag="T">Who did Neo see the person who hit?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+    <item id="p1" content="c4[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+    <item id="g1" content="c5[0:28]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:35]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i42929">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="374-378" line-types="L+SY G L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="374" tag="L+SY">  (17d) * [XP2 Neo [XP1 ndianii wa- [IP2 [TP á- ka- [VP bona [CP [DP nthu</item>
+    <item id="o2" line="375" tag="G">                 Neo1a                WHagr.         SA1 past       see           person</item>
+    <item id="o3" line="376" tag="L+SY">            [IP1 wá- ka- loba ndianii ]]]]]]]]k [ndi-anii tk]?</item>
+    <item id="o4" line="377" tag="G">                 SA1a past-hit                   Foc-who</item>
+    <item id="o5" line="378" tag="T">            `Who did Neo see the person who hit?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="374" tag="L+SY">* [XP2 Neo [XP1 ndianii wa-[IP2 [TP á-ka-[VP bona [CP [DP nthu</item>
+    <item id="c2" line="375" tag="G">Neo1a                WHagr.         SA1 past       see           person</item>
+    <item id="c3" line="376" tag="L+SY">[IP1 wá-ka-loba ndianii ]]]]]]]]k [ndi-anii tk]?</item>
+    <item id="c4" line="377" tag="G">SA1a past-hit                   Foc-who</item>
+    <item id="c5" line="378" tag="T">Who did Neo see the person who hit?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+    <item id="p1" content="c3[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:71]" alignment="p1"/>
+    <item id="g1" content="c4[0:39]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:35]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i42930">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="411-416" line-types="L+CR+SY L+CR G L G T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="411" tag="L+CR+SY">         [IP Neo [TP wá- ka-        [VP bona [DP bathu [IP [TP ba-    ka-    [VP        loba</item>
+    <item id="o2" line="412" tag="L+CR">  (18)</item>
+    <item id="o3" line="413" tag="G">             Neo1a        SA1a past     see       people2      Agr2 past                hit</item>
+    <item id="o4" line="414" tag="L">             ani ]]]]]]]?</item>
+    <item id="o5" line="415" tag="G">             who</item>
+    <item id="o6" line="416" tag="T+DB">         `Who did Neo see the people who hit?' (Neo saw the people who hit who?)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="411 412" tag="L+CR+SY">[IP Neo [TP wá-ka-[VP bona [DP bathu [IP [TP ba-ka-[VP        loba</item>
+    <item id="c3" line="413" tag="G">Neo1a        SA1a past     see       people2      Agr2 past                hit</item>
+    <item id="c4" line="414" tag="L">ani ]]]]]]]?</item>
+    <item id="c5" line="415" tag="G">who</item>
+    <item id="c6" line="416" tag="T+DB">Who did Neo see the people who hit?' (Neo saw the people who hit who?)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+    <item id="p1" content="c4[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:78]" alignment="p1"/>
+    <item id="g1" content="c5[0:3]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:70]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i42931">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="425-429" line-types="L+SY G L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="425" tag="L+SY">  (19a) *[FocP Ndi-boanii [XP2 Neo [XP1 ba-           [IP2 á-    ka- bona Nchidzi</item>
+    <item id="o2" line="426" tag="G">                Foc-who2          Neo1a         WH2agr SA1a past -see     Nchidzi1a</item>
+    <item id="o3" line="427" tag="L+SY">        [CP asathu [IP1 a-    ka- loba ti ]]]]]</item>
+    <item id="o4" line="428" tag="G">            before      SA1a past -hit</item>
+    <item id="o5" line="429" tag="T">            `Who did Neo see Nchidzi before he hit?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="425" tag="L+SY">*[FocP Ndi-boanii [XP2 Neo [XP1 ba-[IP2 á-ka-bona Nchidzi</item>
+    <item id="c2" line="426" tag="G">Foc-who2          Neo1a         WH2agr SA1a past-see     Nchidzi1a</item>
+    <item id="c3" line="427" tag="L+SY">[CP asathu [IP1 a-ka-loba ti ]]]]]</item>
+    <item id="c4" line="428" tag="G">before      SA1a past-hit</item>
+    <item id="c5" line="429" tag="T">Who did Neo see Nchidzi before he hit?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+    <item id="p1" content="c3[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:66]" alignment="p1"/>
+    <item id="g1" content="c4[0:25]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:38]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i42932">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="430-434" line-types="L+SY G L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="430" tag="L+SY">  (19b) *[XP2 Neo [XP1 ba-           [IP2 á-    ka- [ bona Nchidzi [CP       asathu a-</item>
+    <item id="o2" line="431" tag="G">                Neo1a         WH2agr SA1a past see            Nchidzi1a      before SA1a</item>
+    <item id="o3" line="432" tag="L+SY">             ka-loba       ndi-boani]]]]]?</item>
+    <item id="o4" line="433" tag="G">            past-hit       Foc-who</item>
+    <item id="o5" line="434" tag="T">            Who did Neo see Nchidzi before he hit?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="430" tag="L+SY">*[XP2 Neo [XP1 ba-[IP2 á-ka-[ bona Nchidzi [CP       asathu a-</item>
+    <item id="c2" line="431" tag="G">Neo1a         WH2agr SA1a past see            Nchidzi1a      before SA1a</item>
+    <item id="c3" line="432" tag="L+SY">ka-loba       ndi-boani]]]]]?</item>
+    <item id="c4" line="433" tag="G">past-hit       Foc-who</item>
+    <item id="c5" line="434" tag="T">Who did Neo see Nchidzi before he hit?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+    <item id="p1" content="c3[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:72]" alignment="p1"/>
+    <item id="g1" content="c4[0:22]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:38]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i42933">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="442-444" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="442" tag="L">  (20)   Neo wá- ka- bona Nchidzi a               sathu        á-   ka-       loba   ani?</item>
+    <item id="o2" line="443" tag="G">         Neo1a SA1a past-see Nchidzi1a SA1a before             SA1a past      see    who</item>
+    <item id="o3" line="444" tag="T">         `Who did Neo see Nchidzi before he hit?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="442" tag="L">Neo wá-ka-bona Nchidzi a               sathu        á-ka-loba   ani?</item>
+    <item id="c2" line="443" tag="G">Neo1a SA1a past-see Nchidzi1a SA1a before             SA1a past      see    who</item>
+    <item id="c3" line="444" tag="T">Who did Neo see Nchidzi before he hit?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:79]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42934">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="450-452" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="450" tag="L">  (21)   Neo wa-      á-     ka-    bona zubuyanana      ndi-ani?</item>
+    <item id="o2" line="451" tag="G">         Neo1a WH1agr SA1 past see       well            Foc-who1</item>
+    <item id="o3" line="452" tag="T">         `Who did Neo see well?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="450" tag="L">Neo wa-á-ka-bona zubuyanana      ndi-ani?</item>
+    <item id="c2" line="451" tag="G">Neo1a WH1agr SA1 past see       well            Foc-who1</item>
+    <item id="c3" line="452" tag="T">Who did Neo see well?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42935">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="453-455" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="453" tag="L">  (22)   * Neo     wá- ka-       bona zubuyanana           ani?</item>
+    <item id="o2" line="454" tag="G">           Neo1a SA1 past see            well              who1</item>
+    <item id="o3" line="455" tag="T">           `Who did Neo see?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="453" tag="L">* Neo     wá-ka-bona zubuyanana           ani?</item>
+    <item id="c2" line="454" tag="G">Neo1a SA1 past see            well              who1</item>
+    <item id="c3" line="455" tag="T">Who did Neo see?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42936">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="487-489" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="487" tag="L">  (23)   Neo wa-          á- ka- bona ndi-ani?</item>
+    <item id="o2" line="488" tag="G">         Neo1a WH1agr SA1 ­past- see         Foc-who1</item>
+    <item id="o3" line="489" tag="T">         `Who did Neo see well?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="487" tag="L">Neo wa-á-ka-bona ndi-ani?</item>
+    <item id="c2" line="488" tag="G">Neo1a WH1agr SA1 ­past-see         Foc-who1</item>
+    <item id="c3" line="489" tag="T">Who did Neo see well?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42937">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="527-529" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="527" tag="L">  (28a)    Wa-ka-       bona Neo ndiani?</item>
+    <item id="o2" line="528" tag="G">           WHagr1 past. see  Neo1a Foc-who</item>
+    <item id="o3" line="529" tag="T+EX">           `Who saw Neo?' (subject)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="527" tag="L">Wa-ka-bona Neo ndiani?</item>
+    <item id="c2" line="528" tag="G">WHagr1 past. see  Neo1a Foc-who</item>
+    <item id="c3" line="529" tag="T+EX">Who saw Neo?' (subject)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42938">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="531-534" line-types="L G+CR G+CR T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="531" tag="L">  (28b)    Neo     wa- á- ka- bona               ndiani?</item>
+    <item id="o2" line="532" tag="G+CR">                    WHagr1- SA1a- past see       Foc-who1</item>
+    <item id="o3" line="533" tag="G+CR">           Neo1a</item>
+    <item id="o4" line="534" tag="T+EX">          `Who did Neo see?' (object)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="531" tag="L">Neo     wa-á-ka-bona               ndiani?</item>
+    <item id="c2" line="532 533" tag="G+CR">Neo1a    WHagr1-SA1a-past see       Foc-who1</item>
+    <item id="c4" line="534" tag="T+EX">Who did Neo see?' (object)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42942">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="590-592" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="590" tag="L">  (34)        Neo    wa- á- ka-      bona ndi-ani?</item>
+    <item id="o2" line="591" tag="G">              Neo1a WHagr1 SA1a past see  Foc-who1</item>
+    <item id="o3" line="592" tag="T">             `Who did Neo see?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="590" tag="L">Neo    wa-á-ka-bona ndi-ani?</item>
+    <item id="c2" line="591" tag="G">Neo1a WHagr1 SA1a past see  Foc-who1</item>
+    <item id="c3" line="592" tag="T">Who did Neo see?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42943">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3496" line-range="606-609" line-types="L+CR+SY L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="606" tag="L+CR+SY">            [TP Neo [T wá- ka- [VP bika]]].</item>
+    <item id="o2" line="607" tag="L+CR">  (35)</item>
+    <item id="o3" line="608" tag="G">                Neo1a     SA1a-past cook</item>
+    <item id="o4" line="609" tag="T">            `Neo cooked.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="606 607" tag="L+CR+SY">[TP Neo [T wá-ka-[VP bika]]].</item>
+    <item id="c3" line="608" tag="G">Neo1a     SA1a-past cook</item>
+    <item id="c4" line="609" tag="T">Neo cooked.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60469">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3015" line-range="457-462" line-types="L+CR L+LN+CR B G+AC B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="457" tag="L+CR">                    nlume Neo wa a ka bona</item>
+    <item id="o2" line="458" tag="L+LN+CR">           b.                                                                      Ikalanga</item>
+    <item id="o3" line="459" tag="B"></item>
+    <item id="o4" line="460" tag="G+AC">                    mani Neo RELi 3S past see                                      (Letsholo 2002)</item>
+    <item id="o5" line="461" tag="B"></item>
+    <item id="o6" line="462" tag="T">                    `the man that Neo saw'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="457 458" tag="L+CR+LN">nlume Neo wa a ka bona                                         Ikalanga</item>
+    <item id="c3" line="459" tag="B"/>
+    <item id="c4" line="460" tag="G+AC">mani Neo RELi 3S past see                                      (Letsholo 2002)</item>
+    <item id="c5" line="461" tag="B"/>
+    <item id="c6" line="462" tag="T">the man that Neo saw</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:78]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138642">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2153" line-range="4666-4668" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4666" tag="L">  (1)      Ndi-ani bo-Neo                        wa ba ka bona?</item>
+    <item id="o2" line="4667" tag="G">           Foc-who and-others-Neo2a              A'agr SA2 past see</item>
+    <item id="o3" line="4668" tag="T">           'Who did Neo and others see?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4666" tag="L">Ndi-ani bo-Neo                        wa ba ka bona?</item>
+    <item id="c2" line="4667" tag="G">Foc-who and-others-Neo2a              A'agr SA2 past see</item>
+    <item id="c3" line="4668" tag="T">Who did Neo and others see?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138643">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ikalanga" iso-639-3="kck" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2153" line-range="4671-4673" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4671" tag="L">  (2)      Ndi-ani wa         ka bona mbisana?</item>
+    <item id="o2" line="4672" tag="G">           Foc-who SA         past see boy</item>
+    <item id="o3" line="4673" tag="T">           'Who saw a/the boy?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4671" tag="L">Ndi-ani wa         ka bona mbisana?</item>
+    <item id="c2" line="4672" tag="G">Foc-who SA         past see boy</item>
+    <item id="c3" line="4673" tag="T">Who saw a/the boy?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

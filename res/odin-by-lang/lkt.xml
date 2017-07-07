@@ -1,0 +1,2409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i2518">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="567" line-range="913-916" line-types="L G T+LT T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="913" tag="L">  (9)    a.   lakhota        ki      thathaka     ota       wicha-Ø-kte.</item>
+    <item id="o2" line="914" tag="G">              Indian         the     bison        many      3pU-3sgA-kill</item>
+    <item id="o3" line="915" tag="T+LT">              (lit: 'the Indian bisons many they-killed-them')</item>
+    <item id="o4" line="916" tag="T+AL">              'The Indian killed many bisons.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="913" tag="L">lakhota        ki      thathaka     ota       wicha-Ø-kte.</item>
+    <item id="c2" line="914" tag="G">Indian         the     bison        many      3pU-3sgA-kill</item>
+    <item id="c3" line="915" tag="T+LT">'the Indian bisons many they-killed-them</item>
+    <item id="c4" line="916" tag="T+AL">The Indian killed many bisons.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+    <item id="t1" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i2519">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="567" line-range="918-920" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="918" tag="L">         b.   wicha-Ø-kte.</item>
+    <item id="o2" line="919" tag="G">              3pU-3sgA-kill</item>
+    <item id="o3" line="920" tag="T">              'He killed them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="918" tag="L">wicha-Ø-kte.</item>
+    <item id="c2" line="919" tag="G">3pU-3sgA-kill</item>
+    <item id="c3" line="920" tag="T">He killed them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i13184">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakohta" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2474" line-range="11894-11895" line-types="L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11894" tag="L">             wathi</item>
+    <item id="o2" line="11895" tag="T">  (81)                        `I came.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11894" tag="L">wathi</item>
+    <item id="c2" line="11895" tag="T">`I came.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:5]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i13185">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakohta" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2474" line-range="11896-11896" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11896" tag="L-T">             iná wa xme       `I am hiding.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11896" tag="L-T">iná wa xme       `I am hiding.</item>
+  </tier>
+</igt>
+<igt id="i13186">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakohta" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2474" line-range="11900-11900" line-types="L-T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11900" tag="L-T+CR">  (82)       mat'é            `I fainted, di ed.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11900" tag="L-T+CR">mat'é            `I fainted, di ed.</item>
+  </tier>
+</igt>
+<igt id="i13187">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakohta" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2474" line-range="11901-11901" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11901" tag="L-T">             mahíxpaye        `I fell.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11901" tag="L-T">mahíxpaye        `I fell.</item>
+  </tier>
+</igt>
+<igt id="i15752">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3544" line-range="474-479" line-types="M+LN+EX L+CR L+CR L+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="474" tag="M+LN+EX">         Outside PFD: Lakhota (Van Valin 1995)</item>
+    <item id="o2" line="475" tag="L+CR">  ·</item>
+    <item id="o3" line="476" tag="L+CR">  (22)                           [NP [S suka wa táku      yaxtáke] ki       le] wayaka</item>
+    <item id="o4" line="477" tag="L+CR">             wichása ki                                                                    he?</item>
+    <item id="o5" line="478" tag="G+CR">             ma n       the          dog    a   wh a t    [3s&gt;3s-]bite the this [3s&gt;3s-]saw Q</item>
+    <item id="o6" line="479" tag="T">             `Did the man see the dog which bit something?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="474" tag="M+LN+EX">Lakhota (Van Valin 1995)</item>
+    <item id="c2" line="475 477" tag="L+CR">·         wichása ki                                                                    he?</item>
+    <item id="c5" line="478" tag="G+CR">ma n       the          dog    a   wh a t    [3s&gt;3s-]bite the this [3s&gt;3s-]saw Q</item>
+    <item id="c6" line="479" tag="T">Did the man see the dog which bit something?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:91]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:80]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i22938">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1241" line-range="858-862" line-types="M+CN M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="858" tag="M+CN">  3.1 Head marking vs. dependent marking</item>
+    <item id="o2" line="859" tag="M+AC+LN">  (1)    Lakhota (HM, based on Van Valin and LaPolla, 1997:24)</item>
+    <item id="o3" line="860" tag="L">         Mathó ki hená wichá-wa-kte</item>
+    <item id="o4" line="861" tag="G">         bear the those 3PL.OBJ-1SG.SUBJ-kill</item>
+    <item id="o5" line="862" tag="T">         `I killed those bears'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="858" tag="M+CN">3.1 Head marking vs. dependent marking</item>
+    <item id="c2" line="859" tag="M+AC+LN">Lakhota (HM, based on Van Valin and LaPolla, 1997:24</item>
+    <item id="c3" line="860" tag="L">Mathó ki hená wichá-wa-kte</item>
+    <item id="c4" line="861" tag="G">bear the those 3PL.OBJ-1SG.SUBJ-kill</item>
+    <item id="c5" line="862" tag="T">I killed those bears</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30120">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3.txt" line-range="444-447" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="444" tag="M+AC+LN">  (15)Lakhota (Van Valin 1977:...)</item>
+    <item id="o2" line="445" tag="L">      (3&gt;2) ni-wícha-wa-k?u</item>
+    <item id="o3" line="446" tag="G">             2SG . THM -3 PL. REC-1 SG . AG-give</item>
+    <item id="o4" line="447" tag="T">             'I give you to them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="444" tag="M+AC+LN">15)Lakhota (Van Valin 1977:...</item>
+    <item id="c2" line="445" tag="L">(3&gt;2) ni-wícha-wa-k?u</item>
+    <item id="c3" line="446" tag="G">2SG . THM-3 PL. REC-1 SG . AG-give</item>
+    <item id="c4" line="447" tag="T">I give you to them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i31178">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1485" line-range="1108-1109" line-types="L+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1108" tag="L+CR">  (4.37)a.</item>
+    <item id="o2" line="1109" tag="G">             bear   the those dog some 3plU-kill-3plA</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1108" tag="L+CR">a.</item>
+    <item id="c2" line="1109" tag="G">bear   the those dog some 3plU-kill-3plA</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i31179">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1485" line-range="1111-1113" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1111" tag="L+CR"></item>
+    <item id="o2" line="1112" tag="G">           woman the bear a boy        the those 3plU-3sgA-show/3sgU-3sgA-show</item>
+    <item id="o3" line="1113" tag="T">           `The woman showed those boys a bear.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1111" tag="L+CR"/>
+    <item id="c2" line="1112" tag="G">woman the bear a boy        the those 3plU-3sgA-show/3sgU-3sgA-show</item>
+    <item id="c3" line="1113" tag="T">The woman showed those boys a bear.</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:67]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]"/>
+  </tier>
+</igt>
+<igt id="i38002">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1191" line-range="54-56" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="54" tag="L+CR">  (1)   a.</item>
+    <item id="o2" line="55" tag="G">             man    the who hear-3sgA-3sgU Q</item>
+    <item id="o3" line="56" tag="T">             `Who does the man hear?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="54" tag="L+CR">a.</item>
+    <item id="c2" line="55" tag="G">man    the who hear-3sgA-3sgU Q</item>
+    <item id="c3" line="56" tag="T">Who does the man hear?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38003">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1191" line-range="57-59" line-types="L+CR G T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="57" tag="L+CR">        b.</item>
+    <item id="o2" line="58" tag="G">             who man        the hear-3sgA-3sgU Q</item>
+    <item id="o3" line="59" tag="T+DB">             `Who hears the man?', *`Who does the man hear?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="57" tag="L+CR">b.</item>
+    <item id="c2" line="58" tag="G">who man        the hear-3sgA-3sgU Q</item>
+    <item id="c3" line="59" tag="T+DB">Who hears the man?', *`Who does the man hear?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38004">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1191" line-range="95-97" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="95" tag="L+CR">  (2)   a.</item>
+    <item id="o2" line="96" tag="G">              1sg man        the hear-3plU-1sgA</item>
+    <item id="o3" line="97" tag="T">              `I hear the men.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="95" tag="L+CR">a.</item>
+    <item id="c2" line="96" tag="G">1sg man        the hear-3plU-1sgA</item>
+    <item id="c3" line="97" tag="T">I hear the men.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38005">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1191" line-range="98-100" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="98" tag="L+CR">        a´.</item>
+    <item id="o2" line="99" tag="G">            1sg man        the hear-3sgU-1sgA</item>
+    <item id="o3" line="100" tag="T">            `I hear the man.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="98" tag="L+CR">a´.</item>
+    <item id="c2" line="99" tag="G">1sg man        the hear-3sgU-1sgA</item>
+    <item id="c3" line="100" tag="T">I hear the man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:3]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38006">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1191" line-range="101-103" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="101" tag="L+CR">        b. Na</item>
+    <item id="o2" line="102" tag="G">            hear-3plU-1sgA</item>
+    <item id="o3" line="103" tag="T">            `I hear them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="101" tag="L+CR">Na</item>
+    <item id="c2" line="102" tag="G">hear-3plU-1sgA</item>
+    <item id="c3" line="103" tag="T">I hear them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38007">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1191" line-range="104-106" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="104" tag="L+CR">        b´. Na</item>
+    <item id="o2" line="105" tag="G">            hear-3sgU-1sgA</item>
+    <item id="o3" line="106" tag="T">            `I hear him/her.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="104" tag="L+CR">b´. Na</item>
+    <item id="c2" line="105" tag="G">hear-3sgU-1sgA</item>
+    <item id="c3" line="106" tag="T">I hear him/her.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38008">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1191" line-range="149-151" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="149" tag="L+CR">  (4)</item>
+    <item id="o2" line="150" tag="G">        (that/it) rain-FUT</item>
+    <item id="o3" line="151" tag="T">        `It will rain.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="149" tag="L+CR">4</item>
+    <item id="c2" line="150" tag="G">(that/it) rain-FUT</item>
+    <item id="c3" line="151" tag="T">It will rain.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:1]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38016">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1191" line-range="262-264" line-types="L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="262" tag="L+LN+CR">        b.              .                                                            Lakhota</item>
+    <item id="o2" line="263" tag="G">            hear-2sgU-3sgA</item>
+    <item id="o3" line="264" tag="T">            `She heard you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="262" tag="L+LN+CR">.                                                            Lakhota</item>
+    <item id="c2" line="263" tag="G">hear-2sgU-3sgA</item>
+    <item id="c3" line="264" tag="T">She heard you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38017">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1191" line-range="265-267" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="265" tag="L+CR">        b´.              .</item>
+    <item id="o2" line="266" tag="G">            hear-2-REFL</item>
+    <item id="o3" line="267" tag="T">            `You heard yourself.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="265" tag="L+CR">b´.              .</item>
+    <item id="c2" line="266" tag="G">hear-2-REFL</item>
+    <item id="c3" line="267" tag="T">You heard yourself.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38056">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1184" line-range="518-522" line-types="M+AC+LN M L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="518" tag="M+AC+LN">           Lakhota (Mallinson and Blake 1981)</item>
+    <item id="o2" line="519" tag="M">  (20)</item>
+    <item id="o3" line="520" tag="L">           a.   Wa-        i.</item>
+    <item id="o4" line="521" tag="G">                1sgAGT- arrive</item>
+    <item id="o5" line="522" tag="T">                `I arrived.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="518" tag="M+AC+LN">Lakhota (Mallinson and Blake 1981)</item>
+    <item id="c2" line="519" tag="M">20</item>
+    <item id="c3" line="520" tag="L">Wa-i.</item>
+    <item id="c4" line="521" tag="G">1sgAGT-arrive</item>
+    <item id="c5" line="522" tag="T">I arrived.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38251">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1184" line-range="7897-7901" line-types="M+LN M L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7897" tag="M+LN">         Lakhota</item>
+    <item id="o2" line="7898" tag="M">  (2)</item>
+    <item id="o3" line="7899" tag="L">         a.   Wa-         i.</item>
+    <item id="o4" line="7900" tag="G">              1sgAGT- arrive</item>
+    <item id="o5" line="7901" tag="T">              `I arrived.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7897" tag="M+LN">Lakhota</item>
+    <item id="c2" line="7898" tag="M">2</item>
+    <item id="c3" line="7899" tag="L">Wa-i.</item>
+    <item id="c4" line="7900" tag="G">1sgAGT-arrive</item>
+    <item id="c5" line="7901" tag="T">I arrived.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38252">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1184" line-range="7902-7904" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7902" tag="L">         b.   Ma-        si ca.</item>
+    <item id="o2" line="7903" tag="G">              1sgPAT- bad</item>
+    <item id="o3" line="7904" tag="T">              `I am bad.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7902" tag="L">Ma-si ca.</item>
+    <item id="c2" line="7903" tag="G">1sgPAT-bad</item>
+    <item id="c3" line="7904" tag="T">I am bad.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38253">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1184" line-range="7905-7907" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7905" tag="L">         c.   Ma-        ya-    kte.</item>
+    <item id="o2" line="7906" tag="G">              1sgPAT- 2sgAGT- kill</item>
+    <item id="o3" line="7907" tag="T">              `You kill me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7905" tag="L">Ma-ya-kte.</item>
+    <item id="c2" line="7906" tag="G">1sgPAT-2sgAGT-kill</item>
+    <item id="c3" line="7907" tag="T">You kill me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38879">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1193" line-range="443-445" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="443" tag="L+LN">  (14) a. Wówapi ki Ø-yawá          i-bl-úthe.                        Lakhota</item>
+    <item id="o2" line="444" tag="G">          book the INAN-read stem-1sgA-try</item>
+    <item id="o3" line="445" tag="T">          `I tried to read the book.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="443" tag="L+LN">Wówapi ki Ø-yawá          i-bl-úthe.                        Lakhota</item>
+    <item id="c2" line="444" tag="G">book the INAN-read stem-1sgA-try</item>
+    <item id="c3" line="445" tag="T">I tried to read the book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38880">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1193" line-range="446-451" line-types="L B M+AC B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="446" tag="L">       b. Wówapi ki hená Ø-yawá-wicha-wa-s i.</item>
+    <item id="o2" line="447" tag="B"></item>
+    <item id="o3" line="448" tag="M+AC">                                                             Robert D. Van Valin, Jr.</item>
+    <item id="o4" line="449" tag="B"></item>
+    <item id="o5" line="450" tag="G">           book      the those INAN-read-3plU-1sgA-tell</item>
+    <item id="o6" line="451" tag="T">           `I told them to read those books.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="446" tag="L">Wówapi ki hená Ø-yawá-wicha-wa-s i.</item>
+    <item id="c2" line="447" tag="B"/>
+    <item id="c3" line="448" tag="M+AC">Robert D. Van Valin, Jr.</item>
+    <item id="c4" line="449" tag="B"/>
+    <item id="c5" line="450" tag="G">book      the those INAN-read-3plU-1sgA-tell</item>
+    <item id="c6" line="451" tag="T">I told them to read those books.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i39073">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1181" line-range="36-36" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="36" tag="L-T">                b.   makt´ekte: `He'll kill me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="36" tag="L-T">makt´ekte: `He'll kill me.</item>
+  </tier>
+</igt>
+<igt id="i52099">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1235" line-range="166-168" line-types="L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="166" tag="L+LN+CR">  (3)    a.                                                                Lakhota</item>
+    <item id="o2" line="167" tag="G">            bear the those stem-3sgU-1sgA-hear-FUT</item>
+    <item id="o3" line="168" tag="T">            `I will hear those bears.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="166" tag="L+LN+CR">Lakhota</item>
+    <item id="c2" line="167" tag="G">bear the those stem-3sgU-1sgA-hear-FUT</item>
+    <item id="c3" line="168" tag="T">I will hear those bears.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i52100">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1235" line-range="169-171" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="169" tag="L+CR">         b.                        .</item>
+    <item id="o2" line="170" tag="G">            stem-3sgU-1sgA-hear-FUT</item>
+    <item id="o3" line="171" tag="T">            `I will hear them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="169" tag="L+CR">.</item>
+    <item id="c2" line="170" tag="G">stem-3sgU-1sgA-hear-FUT</item>
+    <item id="c3" line="171" tag="T">I will hear them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:1]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64396">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3067" line-range="864-866" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="864" tag="L+DB">       a. wí cexélka                      b. há: cexélka</item>
+    <item id="o2" line="865" tag="G+DB">          1sg.INACT slip/slide               1sg.ACT slip/slide</item>
+    <item id="o3" line="866" tag="T+DB">          `I'm slipping.'                    `I'm sliding.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="864" tag="L+DB">wí cexélka                      b. há: cexélka</item>
+    <item id="c2" line="865" tag="G+DB">1sg.INACT slip/slide               1sg.ACT slip/slide</item>
+    <item id="c3" line="866" tag="T+DB">I'm slipping.'                    `I'm sliding.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64398">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3067" line-range="878-881" line-types="M+AC+LN+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="878" tag="M+AC+LN+CN">  (33) Double-inactive in Lakhota (Mithun 1991)</item>
+    <item id="o2" line="879" tag="L">         i-ni-ma-ta</item>
+    <item id="o3" line="880" tag="G">         ?-2.INACT-1.INACT-PROUD</item>
+    <item id="o4" line="881" tag="T">         `I am proud of you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="878" tag="M+AC+LN+CN">Double-inactive in Lakhota (Mithun 1991</item>
+    <item id="c2" line="879" tag="L">i-ni-ma-ta</item>
+    <item id="c3" line="880" tag="G">?-2.INACT-1.INACT-PROUD</item>
+    <item id="c4" line="881" tag="T">I am proud of you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64403">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3067" line-range="924-927" line-types="M+AC+LN+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="924" tag="M+AC+LN+CN">  (36) Coordination in Lakhota (Foley &amp; van Valin 1984:119)</item>
+    <item id="o2" line="925" tag="L">       a. Há:       káluhu-y       si:má:mérqaki:hi.</item>
+    <item id="o3" line="926" tag="G">          1sg.ACT go-home-SS       went.to.bed</item>
+    <item id="o4" line="927" tag="T">          `I went home and then went to bed.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="924" tag="M+AC+LN+CN">Coordination in Lakhota (Foley &amp; van Valin 1984:119</item>
+    <item id="c2" line="925" tag="L">      káluhu-y       si:má:mérqaki:hi.</item>
+    <item id="c3" line="926" tag="G">1sg.ACT go-home-SS       went.to.bed</item>
+    <item id="c4" line="927" tag="T">I went home and then went to bed.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[6:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64404">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3067" line-range="932-934" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="932" tag="L">        b. Há:        káluhu-qan      mí:p     mérqaki:hi.</item>
+    <item id="o2" line="933" tag="G">           1sg.ACT go-home-DS         3sg.ACT went.to.bed</item>
+    <item id="o3" line="934" tag="T">           `I went home and he went to bed.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="932" tag="L">       káluhu-qan      mí:p     mérqaki:hi.</item>
+    <item id="c2" line="933" tag="G">1sg.ACT go-home-DS         3sg.ACT went.to.bed</item>
+    <item id="c3" line="934" tag="T">I went home and he went to bed.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[7:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64405">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3067" line-range="935-937" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="935" tag="L">        c. Há:        xá: qákki-qan wi qa:lál       tá:la.</item>
+    <item id="o2" line="936" tag="G">           1sg.ACT water bathe-DS        1sg.INACT sick.become</item>
+    <item id="o3" line="937" tag="T">           `I took a bath and got sick.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="935" tag="L">       xá: qákki-qan wi qa:lál       tá:la.</item>
+    <item id="c2" line="936" tag="G">1sg.ACT water bathe-DS        1sg.INACT sick.become</item>
+    <item id="c3" line="937" tag="T">I took a bath and got sick.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[7:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64512">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3067" line-range="2635-2639" line-types="M+AC+LN+EX L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2635" tag="M+AC+LN+EX">  (111) Inactive   recipient marking in Lakhota (Faltz 1978:81, Van Valin, p.19)</item>
+    <item id="o2" line="2636" tag="L">           Bill     wówapi kin (miye) ma-k'u</item>
+    <item id="o3" line="2637" tag="G+CR">                                  1sg     1sg.INACT-give</item>
+    <item id="o4" line="2638" tag="G+CR">           Bill     book DEF</item>
+    <item id="o5" line="2639" tag="T">           `Bill   gave me the book.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2635" tag="M+AC+LN+EX">Inactive   recipient marking in Lakhota (Faltz 1978:81, Van Valin, p.19</item>
+    <item id="c2" line="2636" tag="L">Bill     wówapi kin (miye) ma-k'u</item>
+    <item id="c3" line="2637 2638" tag="G+CR">Bill     book DEF      1sg     1sg.INACT-give</item>
+    <item id="c5" line="2639" tag="T">Bill   gave me the book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75368">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3677" line-range="224-227" line-types="M+LN+EX L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="224" tag="M+LN+EX">  (13) Lakhota (Siouan; Dakotas and surrounding area, United States)</item>
+    <item id="o2" line="225" tag="L">        a.   Wa-          i.</item>
+    <item id="o3" line="226" tag="G">             1sgAGT- arrive</item>
+    <item id="o4" line="227" tag="T">             `I arrived.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="224" tag="M+LN+EX">Lakhota (Siouan; Dakotas and surrounding area, United States</item>
+    <item id="c2" line="225" tag="L">Wa-i.</item>
+    <item id="c3" line="226" tag="G">1sgAGT-arrive</item>
+    <item id="c4" line="227" tag="T">I arrived.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75369">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3677" line-range="228-230" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="228" tag="L">        b.   Ma-         si ca.</item>
+    <item id="o2" line="229" tag="G">             1sgPAT- bad</item>
+    <item id="o3" line="230" tag="T">             `I am bad.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="228" tag="L">Ma-si ca.</item>
+    <item id="c2" line="229" tag="G">1sgPAT-bad</item>
+    <item id="c3" line="230" tag="T">I am bad.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75370">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3677" line-range="231-233" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="231" tag="L">        c.   Ma-         ya-         kte.</item>
+    <item id="o2" line="232" tag="G">             1sgPAT- 2sgAGT- kill</item>
+    <item id="o3" line="233" tag="T">             `You kill me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="231" tag="L">Ma-ya-kte.</item>
+    <item id="c2" line="232" tag="G">1sgPAT-2sgAGT-kill</item>
+    <item id="c3" line="233" tag="T">You kill me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i76913">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="112.txt" line-range="14046-14050" line-types="L L G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14046" tag="L">         wic&amp;ha!s&amp;a! ki [NP [S s&amp;u!4ka wa4 ta!ku                      yaxta!ke] ki    le]</item>
+    <item id="o2" line="14047" tag="L">  wa4ya!4ka he?</item>
+    <item id="o3" line="14048" tag="G">         man       the       dog a *what/something bite             the this   saw    Q</item>
+    <item id="o4" line="14049" tag="T">         *'What did the man see the dog which bit ___ ?'</item>
+    <item id="o5" line="14050" tag="T+AL">          'Did the man see the dog which bit something?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14046" tag="L">wic&amp;ha!s&amp;a! ki [NP [S s&amp;u!4ka wa4 ta!ku                      yaxta!ke] ki    le]</item>
+    <item id="c2" line="14047" tag="L">wa4ya!4ka he?</item>
+    <item id="c3" line="14048" tag="G">man       the       dog a *what/something bite             the this   saw    Q</item>
+    <item id="c4" line="14049" tag="T">*'What did the man see the dog which bit ___ ?</item>
+    <item id="c5" line="14050" tag="T+AL">Did the man see the dog which bit something?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+    <item id="p1" content="c2[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:78]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:46]" alignment="p2"/>
+    <item id="t1" content="c5[0:44]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i78826">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2503" line-range="478-481" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="478" tag="M+AC+LN">  (12)Lakhota (Van Valin 1977:7)</item>
+    <item id="o2" line="479" tag="L">      (3&gt;2) ni-wícha-wa-k?u</item>
+    <item id="o3" line="480" tag="G">            2   SG.THM-3PL.REC-1SG.AG   -give</item>
+    <item id="o4" line="481" tag="T">            'I give you to them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="478" tag="M+AC+LN">12)Lakhota (Van Valin 1977:7</item>
+    <item id="c2" line="479" tag="L">(3&gt;2) ni-wícha-wa-k?u</item>
+    <item id="c3" line="480" tag="G">2   SG.THM-3PL.REC-1SG.AG-give</item>
+    <item id="c4" line="481" tag="T">I give you to them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85399">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="300" line-range="24-30" line-types="M+LN L L+CR L+CR L+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="24" tag="M+LN">  (2)       Lakhota</item>
+    <item id="o2" line="25" tag="L">            a. [Miye]i [matho ki hena]j na-w´chaj -wai -x?u</item>
+    <item id="o3" line="26" tag="L+CR">                                            i</item>
+    <item id="o4" line="27" tag="L+CR">                              ´       ´                      ¸.</item>
+    <item id="o5" line="28" tag="L+CR">                     ´</item>
+    <item id="o6" line="29" tag="G+CR">                1 SG     bear the those stem-3 PL . OB J-1 SG . SU BJ-hear</item>
+    <item id="o7" line="30" tag="T">               `I heard those bears.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="24" tag="M+LN">Lakhota</item>
+    <item id="c2" line="25" tag="L">[Miye]i [matho ki hena]j na-w´chaj-wai-x?u</item>
+    <item id="c6" line="29" tag="G+CR">1 SG     bear the those stem-3 PL . OB J-1 SG . SU BJ-hear</item>
+    <item id="c7" line="30" tag="T">I heard those bears.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85400">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="300" line-range="32-37" line-types="L L+CR L+CR L+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="32" tag="L">            b. [Matho ki hena]i [miye]j na-maj - i -x?u</item>
+    <item id="o2" line="33" tag="L+CR">                                            ´</item>
+    <item id="o3" line="34" tag="L+CR">                    ´         ´                       ¸.</item>
+    <item id="o4" line="35" tag="L+CR">                                     ´</item>
+    <item id="o5" line="36" tag="G+CR">                bear the those 1 SG stem-1 SG . OB J-3             PL . SU BJ   -hear</item>
+    <item id="o6" line="37" tag="T">               `Those bears heard me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="32" tag="L">[Matho ki hena]i [miye]j na-maj-i-x?u</item>
+    <item id="c5" line="36" tag="G+CR">bear the those 1 SG stem-1 SG . OB J-3             PL . SU BJ-hear</item>
+    <item id="c6" line="37" tag="T">Those bears heard me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85401">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="300" line-range="43-48" line-types="L+CR L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="43" tag="L+CR">            a. Na-w´cha-wa-x?u</item>
+    <item id="o2" line="44" tag="L+CR">                     i             ¸.</item>
+    <item id="o3" line="45" tag="L+CR">  (3)</item>
+    <item id="o4" line="46" tag="G+CR">               stem-3 PL . OB J-1 SG .           -hear</item>
+    <item id="o5" line="47" tag="G+CR">                                         SU BJ</item>
+    <item id="o6" line="48" tag="T">               `I heard them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="43 45" tag="L+CR">Na-w´cha-wa-x?u</item>
+    <item id="c4" line="46 47" tag="G+CR">stem-3 PL . OB J-1 SG .   SU BJ-hear</item>
+    <item id="c6" line="48" tag="T">I heard them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85402">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="300" line-range="50-54" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="50" tag="L+CR">            b. Na-maj - i -x?u</item>
+    <item id="o2" line="51" tag="L+CR">                    ´          ¸.</item>
+    <item id="o3" line="52" tag="G+CR">               stem-1 SG . OB J-3 PL .           -hear</item>
+    <item id="o4" line="53" tag="G+CR">                                         SU BJ</item>
+    <item id="o5" line="54" tag="T">               `They heard me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="50" tag="L+CR">Na-maj-i-x?u</item>
+    <item id="c3" line="52 53" tag="G+CR">stem-1 SG . OB J-3 PL .   SU BJ-hear</item>
+    <item id="c5" line="54" tag="T">They heard me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88800">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="666" line-range="978-980" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="978" tag="L+CR">  (35) a.</item>
+    <item id="o2" line="979" tag="G">             bear the those dog some 3plU-kill-3plA</item>
+    <item id="o3" line="980" tag="T">             `Those bears killed some dogs.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="978" tag="L+CR">a.</item>
+    <item id="c2" line="979" tag="G">bear the those dog some 3plU-kill-3plA</item>
+    <item id="c3" line="980" tag="T">Those bears killed some dogs.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88801">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="666" line-range="981-983" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="981" tag="L+CR">        b.</item>
+    <item id="o2" line="982" tag="G">           woman the bear a boy        the those 3plU-3sgA-show/3sgU-3sgA-show</item>
+    <item id="o3" line="983" tag="T">           `The woman showed those boys a bear.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="981" tag="L+CR">b.</item>
+    <item id="c2" line="982" tag="G">woman the bear a boy        the those 3plU-3sgA-show/3sgU-3sgA-show</item>
+    <item id="c3" line="983" tag="T">The woman showed those boys a bear.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90090">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2644" line-range="243-245" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="243" tag="L">        (5)   John wowapi k'uhe oyuke ki ohlate iyeye.</item>
+    <item id="o2" line="244" tag="G">              John letter   that bed the under found</item>
+    <item id="o3" line="245" tag="T+AC">              `John found that letter under the bed.' (Williamson, 1984)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="243" tag="L">John wowapi k'uhe oyuke ki ohlate iyeye.</item>
+    <item id="c2" line="244" tag="G">John letter   that bed the under found</item>
+    <item id="c3" line="245" tag="T+AC">John found that letter under the bed.' (Williamson, 1984)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114635">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3376" line-range="771-773" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="771" tag="L">  (1)    wichása       ki      l?      math?kt?pi</item>
+    <item id="o2" line="772" tag="G">         man           the     this     bear kill-PASS</item>
+    <item id="o3" line="773" tag="T">         `this man was killed by the/a bear/bears'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="771" tag="L">wichása       ki      l?      math?kt?pi</item>
+    <item id="c2" line="772" tag="G">man           the     this     bear kill-PASS</item>
+    <item id="c3" line="773" tag="T">this man was killed by the/a bear/bears</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114636">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3376" line-range="785-787" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="785" tag="L">  (2)    a-n?pha-pi                             s'el?ni-checa</item>
+    <item id="o2" line="786" tag="G">         [verb stem]-2SG.PAT-hit-PASS            [verb stem]-2SG.PAT-seem</item>
+    <item id="o3" line="787" tag="T">         `you seem to have been hit'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="785" tag="L">a-n?pha-pi                             s'el?ni-checa</item>
+    <item id="c2" line="786" tag="G">[verb stem]-2SG.PAT-hit-PASS            [verb stem]-2SG.PAT-seem</item>
+    <item id="c3" line="787" tag="T">you seem to have been hit</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115991">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="8420-8428" line-types="M+EX M+LN+CR M+CR L G+CR G+CR B T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8420" tag="M+EX">                    (Siouan, Siouan Proper, Central, Mississippi Valley, Dakota)</item>
+    <item id="o2" line="8421" tag="M+LN+CR">         Lakhota</item>
+    <item id="o3" line="8422" tag="M+CR">  (i )</item>
+    <item id="o4" line="8423" tag="L">         wichása    ki       mathó   wã       - -k t é</item>
+    <item id="o5" line="8424" tag="G+CR">         m an                bear            3   SG.O-3SG.A   -kill</item>
+    <item id="o6" line="8425" tag="G+CR">                    A RT             A RT</item>
+    <item id="o7" line="8426" tag="B"></item>
+    <item id="o8" line="8427" tag="T">         `The man killed a bear.'</item>
+    <item id="o9" line="8428" tag="M+AC">                                                                             Van Valin 1985:366</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8420 8421 8422" tag="M+EX+LN+CR">i )   Lakhota    (Siouan, Siouan Proper, Central, Mississippi Valley, Dakota</item>
+    <item id="c4" line="8423" tag="L">wichása    ki       mathó   wã--k t é</item>
+    <item id="c5" line="8424 8425" tag="G+CR">m an       A RT     bear    A RT    3   SG.O-3SG.A-kill</item>
+    <item id="c7" line="8426" tag="B"/>
+    <item id="c8" line="8427" tag="T">The man killed a bear.</item>
+    <item id="c9" line="8428" tag="M+AC">Van Valin 1985:366</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c4[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136197">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="3816-3823" line-types="M+LN L+CN B G+CR+SY G+CR+SY B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3816" tag="M+LN">  (81) Lakhota (Siouan: South Dakota, Montana, Manitoba)</item>
+    <item id="o2" line="3817" tag="L+CN">       a.   hoksila ki                     _            a-ni-phe                                        (trans. Pat agr.)</item>
+    <item id="o3" line="3818" tag="B"></item>
+    <item id="o4" line="3819" tag="G+CR+SY">            [boy     the] (NOM)i pro(ACC)j                                -hit</item>
+    <item id="o5" line="3820" tag="G+CR+SY">                                                        PVB-2SG       j</item>
+    <item id="o6" line="3821" tag="B"></item>
+    <item id="o7" line="3822" tag="B"></item>
+    <item id="o8" line="3823" tag="T">            `The boy hit you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3816" tag="M+LN">Lakhota (Siouan: South Dakota, Montana, Manitoba</item>
+    <item id="c2" line="3817" tag="L+CN">hoksila ki                     _            a-ni-phe                                        (trans. Pat agr.)</item>
+    <item id="c3" line="3818" tag="B"/>
+    <item id="c4" line="3819 3820" tag="G+CR+SY">[boy     the] (NOM)i pro(ACC)j              PVB-2SG       j-hit</item>
+    <item id="c6" line="3821" tag="B"/>
+    <item id="c7" line="3822" tag="B"/>
+    <item id="c8" line="3823" tag="T">The boy hit you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:109]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136198">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="3825-3831" line-types="L+CN B G+CR+SY G+CR+SY B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3825" tag="L+CN">       a'. _           hoksila ki                       a-ya-phe                                        (trans. Agt agr.)</item>
+    <item id="o2" line="3826" tag="B"></item>
+    <item id="o3" line="3827" tag="G+CR+SY">            pro(NOM)i [boy                the] (ACC)j                 -hit</item>
+    <item id="o4" line="3828" tag="G+CR+SY">                                                        PVB-2SG   i</item>
+    <item id="o5" line="3829" tag="B"></item>
+    <item id="o6" line="3830" tag="B"></item>
+    <item id="o7" line="3831" tag="T">            `You hit the boy.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3825" tag="L+CN">_           hoksila ki                       a-ya-phe                                        (trans. Agt agr.)</item>
+    <item id="c2" line="3826" tag="B"/>
+    <item id="c3" line="3827 3828" tag="G+CR+SY">pro(NOM)i [boy                the] (ACC)j   PVB-2SG   i-hit</item>
+    <item id="c5" line="3829" tag="B"/>
+    <item id="c6" line="3830" tag="B"/>
+    <item id="c7" line="3831" tag="T">You hit the boy.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:110]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136199">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="3833-3837" line-types="L+CN B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3833" tag="L+CN">       b.   _          ni-khuze                                                                         (unacc. Pat agr.)</item>
+    <item id="o2" line="3834" tag="B"></item>
+    <item id="o3" line="3835" tag="G+SY">            pro(NOM)j 2SG j-sick</item>
+    <item id="o4" line="3836" tag="B"></item>
+    <item id="o5" line="3837" tag="T">            `You are sick.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3833" tag="L+CN">_          ni-khuze                                                                         (unacc. Pat agr.)</item>
+    <item id="c2" line="3834" tag="B"/>
+    <item id="c3" line="3835" tag="G+SY">pro(NOM)j 2SG j-sick</item>
+    <item id="c4" line="3836" tag="B"/>
+    <item id="c5" line="3837" tag="T">You are sick.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:109]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136200">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="3839-3843" line-types="L+CN B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3839" tag="L+CN">       c.   _          ya-cheye                                                                         (unerg. Agt agr.)</item>
+    <item id="o2" line="3840" tag="B"></item>
+    <item id="o3" line="3841" tag="G+SY">            pro(NOM)i 2SG i-cry</item>
+    <item id="o4" line="3842" tag="B"></item>
+    <item id="o5" line="3843" tag="T">            `You cried.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3839" tag="L+CN">_          ya-cheye                                                                         (unerg. Agt agr.)</item>
+    <item id="c2" line="3840" tag="B"/>
+    <item id="c3" line="3841" tag="G+SY">pro(NOM)i 2SG i-cry</item>
+    <item id="c4" line="3842" tag="B"/>
+    <item id="c5" line="3843" tag="T">You cried.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:109]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136201">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="3846-3855" line-types="M+LN B L B G+CR+SY G+CR+SY G+CR+SY B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3846" tag="M+LN">  (82) Lakhota (Siouan: South Dakota, Montana, Manitoba)</item>
+    <item id="o2" line="3847" tag="B"></item>
+    <item id="o3" line="3848" tag="L">       a.   _             [_            (*ma-)khuze        sni]            wa-chame</item>
+    <item id="o4" line="3849" tag="B"></item>
+    <item id="o5" line="3850" tag="G+CR+SY">            pro(NOM)j [                 (*1SG.PATj-)sick          ] 1SG j-try</item>
+    <item id="o6" line="3851" tag="G+CR+SY">                           PRO                             NEG</item>
+    <item id="o7" line="3852" tag="G+CR+SY">                                    j</item>
+    <item id="o8" line="3853" tag="B"></item>
+    <item id="o9" line="3854" tag="B"></item>
+    <item id="o10" line="3855" tag="T">            `I try not to be sick.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3846" tag="M+LN">Lakhota (Siouan: South Dakota, Montana, Manitoba</item>
+    <item id="c2" line="3847" tag="B"/>
+    <item id="c3" line="3848" tag="L">_             [_            (*ma-)khuze        sni]            wa-chame</item>
+    <item id="c4" line="3849" tag="B"/>
+    <item id="c5" line="3850 3851 3852" tag="G+CR+SY">pro(NOM)j [    PRO      j   (*1SG.PATj-)sick   NEG    ] 1SG j-try</item>
+    <item id="c8" line="3853" tag="B"/>
+    <item id="c9" line="3854" tag="B"/>
+    <item id="c10" line="3855" tag="T">I try not to be sick.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136202">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="3857-3863" line-types="L+CR B G+CR+SY G+CR+SY B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3857" tag="L+CR">       b.   _          [_               wa-(*ya-)ksu]                            wa-l-upike</item>
+    <item id="o2" line="3858" tag="B"></item>
+    <item id="o3" line="3859" tag="G+CR+SY">            pro(NOM)i [                 PVB-(*2SG.AGT-)do.beadwork] PVB-2SG                 -skillful</item>
+    <item id="o4" line="3860" tag="G+CR+SY">                          PRO   i                                                       i</item>
+    <item id="o5" line="3861" tag="B"></item>
+    <item id="o6" line="3862" tag="B"></item>
+    <item id="o7" line="3863" tag="T">            `You are skillful doing beadwork.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3857" tag="L+CR">_          [_               wa-(*ya-)ksu]                            wa-l-upike</item>
+    <item id="c2" line="3858" tag="B"/>
+    <item id="c3" line="3859 3860" tag="G+CR+SY">pro(NOM)i [   PRO   i       PVB-(*2SG.AGT-)do.beadwork] PVB-2SG             i-skillful</item>
+    <item id="c5" line="3861" tag="B"/>
+    <item id="c6" line="3862" tag="B"/>
+    <item id="c7" line="3863" tag="T">You are skillful doing beadwork.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:86]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136203">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="3891-3899" line-types="M+LN B L B G+CR+SY G+CR+SY B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3891" tag="M+LN">  (83) Lakhota (Siouan: South Dakota, Montana, Manitoba)</item>
+    <item id="o2" line="3892" tag="B"></item>
+    <item id="o3" line="3893" tag="L">            _            _        a-ma-ya-phe</item>
+    <item id="o4" line="3894" tag="B"></item>
+    <item id="o5" line="3895" tag="G+CR+SY">            pro(NOM)i pro(ACC)j   PVB-1SG j-2SG       -hit</item>
+    <item id="o6" line="3896" tag="G+CR+SY">                                                  i</item>
+    <item id="o7" line="3897" tag="B"></item>
+    <item id="o8" line="3898" tag="B"></item>
+    <item id="o9" line="3899" tag="T">            `You hit me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3891" tag="M+LN">Lakhota (Siouan: South Dakota, Montana, Manitoba</item>
+    <item id="c2" line="3892" tag="B"/>
+    <item id="c3" line="3893" tag="L">_            _        a-ma-ya-phe</item>
+    <item id="c4" line="3894" tag="B"/>
+    <item id="c5" line="3895 3896" tag="G+CR+SY">pro(NOM)i pro(ACC)j   PVB-1SG j-2SG   i-hit</item>
+    <item id="c7" line="3897" tag="B"/>
+    <item id="c8" line="3898" tag="B"/>
+    <item id="c9" line="3899" tag="T">You hit me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136204">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="3913-3922" line-types="M+LN B L+CN B G+CR+SY G+CR+SY G+CR+SY B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3913" tag="M+LN">  (84) Lakhota (Siouan: South Dakota, Montana, Manitoba)</item>
+    <item id="o2" line="3914" tag="B"></item>
+    <item id="o3" line="3915" tag="L+CN">       a.   hoksila ki            suka ki                    a-wicha-pha pi                        (transitive)</item>
+    <item id="o4" line="3916" tag="B"></item>
+    <item id="o5" line="3917" tag="G+CR+SY">            [boys   the] (NOM)i [dogs the](ACC)j                           -hit</item>
+    <item id="o6" line="3918" tag="G+CR+SY">                                                             AFF-3PL               PL</item>
+    <item id="o7" line="3919" tag="G+CR+SY">                                                                       j                i</item>
+    <item id="o8" line="3920" tag="B"></item>
+    <item id="o9" line="3921" tag="B"></item>
+    <item id="o10" line="3922" tag="T">            `The boys hit the dogs.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3913" tag="M+LN">Lakhota (Siouan: South Dakota, Montana, Manitoba</item>
+    <item id="c2" line="3914" tag="B"/>
+    <item id="c3" line="3915" tag="L+CN">hoksila ki            suka ki                    a-wicha-pha pi                        (transitive)</item>
+    <item id="c4" line="3916" tag="B"/>
+    <item id="c5" line="3917 3918 3919" tag="G+CR+SY">[boys   the] (NOM)i [dogs the](ACC)j             AFF-3PL   j-hit    PL   i</item>
+    <item id="c8" line="3920" tag="B"/>
+    <item id="c9" line="3921" tag="B"/>
+    <item id="c10" line="3922" tag="T">The boys hit the dogs.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:99]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136205">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="3924-3929" line-types="L+CN B G+SY B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3924" tag="L+CN">       b.   wichasa ki huh                khuza pi                                                 (unaccusative)</item>
+    <item id="o2" line="3925" tag="B"></item>
+    <item id="o3" line="3926" tag="G+SY">            [men     the some](NOM)j sick                PL   j</item>
+    <item id="o4" line="3927" tag="B"></item>
+    <item id="o5" line="3928" tag="B"></item>
+    <item id="o6" line="3929" tag="T">            `Some of the men are sick.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3924" tag="L+CN">wichasa ki huh                khuza pi                                                 (unaccusative)</item>
+    <item id="c2" line="3925" tag="B"/>
+    <item id="c3" line="3926" tag="G+SY">[men     the some](NOM)j sick                PL   j</item>
+    <item id="c4" line="3927" tag="B"/>
+    <item id="c5" line="3928" tag="B"/>
+    <item id="c6" line="3929" tag="T">Some of the men are sick.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:101]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136206">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3751" line-range="3931-3936" line-types="L+CN B G+SY B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3931" tag="L+CN">       c.   wiya     eya             cheya pi                                                      (unergative)</item>
+    <item id="o2" line="3932" tag="B"></item>
+    <item id="o3" line="3933" tag="G+SY">            [women some](NOM)i cry          PL    i</item>
+    <item id="o4" line="3934" tag="B"></item>
+    <item id="o5" line="3935" tag="B"></item>
+    <item id="o6" line="3936" tag="T">            `Some women cried.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3931" tag="L+CN">wiya     eya             cheya pi                                                      (unergative)</item>
+    <item id="c2" line="3932" tag="B"/>
+    <item id="c3" line="3933" tag="G+SY">[women some](NOM)i cry          PL    i</item>
+    <item id="c4" line="3934" tag="B"/>
+    <item id="c5" line="3935" tag="B"/>
+    <item id="c6" line="3936" tag="T">Some women cried.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:99]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136957">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="13108-13114" line-types="M+LN B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="13108" tag="M+LN">          (45)    Lakhota</item>
+    <item id="o2" line="13109" tag="B"></item>
+    <item id="o3" line="13110" tag="L">                  a. -wa-kte</item>
+    <item id="o4" line="13111" tag="B"></item>
+    <item id="o5" line="13112" tag="G">                    3sgAcc-1sgErg-kill</item>
+    <item id="o6" line="13113" tag="B"></item>
+    <item id="o7" line="13114" tag="T">                    `I killed him/it'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="13108" tag="M+LN">Lakhota</item>
+    <item id="c2" line="13109" tag="B"/>
+    <item id="c3" line="13110" tag="L">-wa-kte</item>
+    <item id="c4" line="13111" tag="B"/>
+    <item id="c5" line="13112" tag="G">3sgAcc-1sgErg-kill</item>
+    <item id="c6" line="13113" tag="B"/>
+    <item id="c7" line="13114" tag="T">I killed him/it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136958">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="13116-13120" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="13116" tag="L">                  b. ma--kte</item>
+    <item id="o2" line="13117" tag="B"></item>
+    <item id="o3" line="13118" tag="G">                     1sgAcc-3sgErg-kill</item>
+    <item id="o4" line="13119" tag="B"></item>
+    <item id="o5" line="13120" tag="T">                     `He killed me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="13116" tag="L">ma--kte</item>
+    <item id="c2" line="13117" tag="B"/>
+    <item id="c3" line="13118" tag="G">1sgAcc-3sgErg-kill</item>
+    <item id="c4" line="13119" tag="B"/>
+    <item id="c5" line="13120" tag="T">He killed me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136959">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="13122-13129" line-types="L B M B B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="13122" tag="L">                  c. wa-ksapa</item>
+    <item id="o2" line="13123" tag="B"></item>
+    <item id="o3" line="13124" tag="M">                                                                                                 249</item>
+    <item id="o4" line="13125" tag="B"></item>
+    <item id="o5" line="13126" tag="B"></item>
+    <item id="o6" line="13127" tag="G">                     1sgErg-prudent</item>
+    <item id="o7" line="13128" tag="B"></item>
+    <item id="o8" line="13129" tag="T">                     `I am prudent'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="13122" tag="L">wa-ksapa</item>
+    <item id="c2" line="13123" tag="B"/>
+    <item id="c3" line="13124" tag="M">249</item>
+    <item id="c4" line="13125" tag="B"/>
+    <item id="c5" line="13126" tag="B"/>
+    <item id="c6" line="13127" tag="G">1sgErg-prudent</item>
+    <item id="c7" line="13128" tag="B"/>
+    <item id="c8" line="13129" tag="T">I am prudent</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136960">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="13131-13137" line-types="L B G B T B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="13131" tag="L">                  d. ma-khuze</item>
+    <item id="o2" line="13132" tag="B"></item>
+    <item id="o3" line="13133" tag="G">                     1sgAcc-sick</item>
+    <item id="o4" line="13134" tag="B"></item>
+    <item id="o5" line="13135" tag="T">                     `I am sick'</item>
+    <item id="o6" line="13136" tag="B"></item>
+    <item id="o7" line="13137" tag="M+AC">                          /Van Valin 1993/</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="13131" tag="L">ma-khuze</item>
+    <item id="c2" line="13132" tag="B"/>
+    <item id="c3" line="13133" tag="G">1sgAcc-sick</item>
+    <item id="c4" line="13134" tag="B"/>
+    <item id="c5" line="13135" tag="T">I am sick</item>
+    <item id="c6" line="13136" tag="B"/>
+    <item id="c7" line="13137" tag="M+AC">/Van Valin 1993/</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140189">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2150" line-range="2002-2004" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2002" tag="L+LN">         (18)   a.    Mary owiza wa kage                  k i he      ophewathu                          (Lakhota)</item>
+    <item id="o2" line="2003" tag="G">                      [M.     [quilt     a]     make ] the DEM I.buy</item>
+    <item id="o3" line="2004" tag="T">                      `I bought the quilt that Mary made.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2002" tag="L+LN">a.    Mary owiza wa kage                  k i he      ophewathu                          (Lakhota</item>
+    <item id="c2" line="2003" tag="G">[M.     [quilt     a]     make ] the DEM I.buy</item>
+    <item id="c3" line="2004" tag="T">I bought the quilt that Mary made.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:97]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140193">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2150" line-range="2046-2049" line-types="L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2046" tag="L">         (19)   suka wa ophewathu               s n i ki   he         sape</item>
+    <item id="o2" line="2047" tag="G">                [[dog a]     3sg .buy. 1sg not] the DEM black</item>
+    <item id="o3" line="2048" tag="B"></item>
+    <item id="o4" line="2049" tag="T">                `The dog I didn't buy is black.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2046" tag="L">suka wa ophewathu               s n i ki   he         sape</item>
+    <item id="c2" line="2047" tag="G">[[dog a]     3sg .buy. 1sg not] the DEM black</item>
+    <item id="c3" line="2048" tag="B"/>
+    <item id="c4" line="2049" tag="T">The dog I didn't buy is black.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140194">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2150" line-range="2145-2148" line-types="L G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2145" tag="L">         (20)   suka wazini ophewathu                    cha sape sni</item>
+    <item id="o2" line="2146" tag="G+CR">                [[dog any]        3sg. buy. 1sg ] s m black not</item>
+    <item id="o3" line="2147" tag="B"></item>
+    <item id="o4" line="2148" tag="T">                `No dog that I bought is black.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2145" tag="L">suka wazini ophewathu                    cha sape sni</item>
+    <item id="c2" line="2146" tag="G+CR">[[dog any]        3sg. buy. 1sg ] s m black not</item>
+    <item id="c3" line="2147" tag="B"/>
+    <item id="c4" line="2148" tag="T">No dog that I bought is black.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140195">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2150" line-range="2151-2153" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2151" tag="L">         (21)   Ogle        eya      sapsapa cha agli                  pi wachi        ki lena     e</item>
+    <item id="o2" line="2152" tag="G+CR">                [[[shirt some] dirty]             s m take.home pl want.1sg] the these be</item>
+    <item id="o3" line="2153" tag="T">                `These are the shirts that are dirty that I want them to take home.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2151" tag="L">Ogle        eya      sapsapa cha agli                  pi wachi        ki lena     e</item>
+    <item id="c2" line="2152" tag="G+CR">[[[shirt some] dirty]             s m take.home pl want.1sg] the these be</item>
+    <item id="c3" line="2153" tag="T">These are the shirts that are dirty that I want them to take home.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140196">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2150" line-range="2246-2248" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2246" tag="L">         (22)   a.    Mary taku                  kage               ki ophewathu</item>
+    <item id="o2" line="2247" tag="G">                      [Mary [something] 3sg.make.3sg] the 3sg. buy. 1sg</item>
+    <item id="o3" line="2248" tag="T">                      `I bought what Mary made.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2246" tag="L">Mary taku                  kage               ki ophewathu</item>
+    <item id="c2" line="2247" tag="G">[Mary [something] 3sg.make.3sg] the 3sg. buy. 1sg</item>
+    <item id="c3" line="2248" tag="T">I bought what Mary made.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140197">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2150" line-range="2250-2252" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2250" tag="L">                b.    Wichasa ota         t'a pi ki hena Lakhota pi</item>
+    <item id="o2" line="2251" tag="G">                      [[men        many] die pl] the those Lakhota pl</item>
+    <item id="o3" line="2252" tag="T">                      `The many men who died were Lakhota.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2250" tag="L">Wichasa ota         t'a pi ki hena Lakhota pi</item>
+    <item id="c2" line="2251" tag="G">[[men        many] die pl] the those Lakhota pl</item>
+    <item id="c3" line="2252" tag="T">The many men who died were Lakhota.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140198">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2150" line-range="2254-2256" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2254" tag="L">                c.    Ed sukawakha conala othehika                 pi cha wichayuha</item>
+    <item id="o2" line="2255" tag="G">                      E . [[horses        few]     expensive pl] s m 3pl .own. 3sg</item>
+    <item id="o3" line="2256" tag="T">                      `Ed has few (a few?, MB) horses that are expensive.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2254" tag="L">Ed sukawakha conala othehika                 pi cha wichayuha</item>
+    <item id="c2" line="2255" tag="G">E . [[horses        few]     expensive pl] s m 3pl .own. 3sg</item>
+    <item id="c3" line="2256" tag="T">Ed has few (a few?, MB) horses that are expensive.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140199">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2150" line-range="2258-2260" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2258" tag="L">                d.    Wakhayeza nup         iyota wachi wophika                pi ki atkuku ki          slolwaye</item>
+    <item id="o2" line="2259" tag="G">                      [[children     two] best      dance be.skillful pl] the father                the 3sg. know. 1sg</item>
+    <item id="o3" line="2260" tag="T">                      `I know the father of the two children who know how to dance best.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2258" tag="L">Wakhayeza nup         iyota wachi wophika                pi ki atkuku ki          slolwaye</item>
+    <item id="c2" line="2259" tag="G">[[children     two] best      dance be.skillful pl] the father                the 3sg. know. 1sg</item>
+    <item id="c3" line="2260" tag="T">I know the father of the two children who know how to dance best.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:90]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:96]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140200">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2150" line-range="2263-2265" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2263" tag="L">         (23)   a.   *Edwin kuze          ki/cha        he   lel    thi</item>
+    <item id="o2" line="2264" tag="G">                      [[Edwin] sick] the/sm that here live</item>
+    <item id="o3" line="2265" tag="T">                      (`Edwin, who is sick, lives here.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2263" tag="L">*Edwin kuze          ki/cha        he   lel    thi</item>
+    <item id="c2" line="2264" tag="G">[[Edwin] sick] the/sm that here live</item>
+    <item id="c3" line="2265" tag="T">Edwin, who is sick, lives here.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140201">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2150" line-range="2267-2270" line-types="L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2267" tag="L">                b.   *(Miye) makuze ki/cha               wichawota ki ekta mni                kte</item>
+    <item id="o2" line="2268" tag="G">                      [[(I)    1sg.sick] the/sm feast                     the to    1sg. go   FUT</item>
+    <item id="o3" line="2269" tag="B"></item>
+    <item id="o4" line="2270" tag="T">                      (`I, who am sick, will go to the feast.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2267" tag="L">*(Miye) makuze ki/cha               wichawota ki ekta mni                kte</item>
+    <item id="c2" line="2268" tag="G">[[(I)    1sg.sick] the/sm feast                     the to    1sg. go   FUT</item>
+    <item id="c3" line="2269" tag="B"/>
+    <item id="c4" line="2270" tag="T">I, who am sick, will go to the feast.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140202">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2150" line-range="2272-2274" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2272" tag="L">                c.   *Mary owiza ki              kage               ki/cha     he    ophewathu</item>
+    <item id="o2" line="2273" tag="G">                      [Mary [quilt the] 3sg.make.3sg] the/sm that 3sg. buy. 1sg</item>
+    <item id="o3" line="2274" tag="T">                      (`I bought the quilt that Mary made.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2272" tag="L">*Mary owiza ki              kage               ki/cha     he    ophewathu</item>
+    <item id="c2" line="2273" tag="G">[Mary [quilt the] 3sg.make.3sg] the/sm that 3sg. buy. 1sg</item>
+    <item id="c3" line="2274" tag="T">I bought the quilt that Mary made.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140203">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2150" line-range="2276-2278" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2276" tag="L">                d.   *Ed sukawakha ota-hca othehika                 pi ki/cha       wichayuha</item>
+    <item id="o2" line="2277" tag="G">                      Ed [[horses         most]     expensive pl] the/sm 3pl. own. 3sg</item>
+    <item id="o3" line="2278" tag="T">                      (`Ed has most horses that are highly priced.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2276" tag="L">*Ed sukawakha ota-hca othehika                 pi ki/cha       wichayuha</item>
+    <item id="c2" line="2277" tag="G">Ed [[horses         most]     expensive pl] the/sm 3pl. own. 3sg</item>
+    <item id="c3" line="2278" tag="T">Ed has most horses that are highly priced.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140204">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2150" line-range="2280-2282" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2280" tag="L">                e.   *Wichasa iyuha t'a pi ki/cha                  Lakhota pi</item>
+    <item id="o2" line="2281" tag="G">                      [[men        all]   die pl] the/sm Lakhota pl</item>
+    <item id="o3" line="2282" tag="T">                      (`All the men who died were Lakhota.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2280" tag="L">*Wichasa iyuha t'a pi ki/cha                  Lakhota pi</item>
+    <item id="c2" line="2281" tag="G">[[men        all]   die pl] the/sm Lakhota pl</item>
+    <item id="c3" line="2282" tag="T">All the men who died were Lakhota.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145503">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3820" line-range="966-969" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="966" tag="L+CR">   (43)     nap´ mak` ozo</item>
+    <item id="o2" line="967" tag="L+CR">                e    ip       we</item>
+    <item id="o3" line="968" tag="G">            hand 1.S-dat-show imp</item>
+    <item id="o4" line="969" tag="T">            `Show me your hands.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="966" tag="L+CR">nap´ mak` ozo</item>
+    <item id="c3" line="968" tag="G">hand 1.S-dat-show imp</item>
+    <item id="c4" line="969" tag="T">Show me your hands.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145504">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3820" line-range="970-973" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="970" tag="L+CR">   (44)   * ninap´ mak` ozo</item>
+    <item id="o2" line="971" tag="L+CR">                 e       ip       we</item>
+    <item id="o3" line="972" tag="G">            2.S-hand 1.S-dat-show imp</item>
+    <item id="o4" line="973" tag="T+AC">            `Show me your hands.'                                                 (de Reuse 1994:210)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="970" tag="L+CR">* ninap´ mak` ozo</item>
+    <item id="c3" line="972" tag="G">2.S-hand 1.S-dat-show imp</item>
+    <item id="c4" line="973" tag="T+AC">Show me your hands.'                                                 (de Reuse 1994:210)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:88]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145505">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3820" line-range="977-982" line-types="L+CR L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="977" tag="L+CR">            ch´-tagle</item>
+    <item id="o2" line="978" tag="L+CR">               a</item>
+    <item id="o3" line="979" tag="L+CR">               ¸</item>
+    <item id="o4" line="980" tag="L+CR">   (45)</item>
+    <item id="o5" line="981" tag="G">            heart-set</item>
+    <item id="o6" line="982" tag="T">            `have designs on someone'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="977 980" tag="L+CR">ch´-tagle</item>
+    <item id="c5" line="981" tag="G">heart-set</item>
+    <item id="c6" line="982" tag="T">have designs on someone</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:9]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145506">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3820" line-range="983-988" line-types="L+CR L+CR L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="983" tag="L+CR">            a-ch´-tagle</item>
+    <item id="o2" line="984" tag="L+CR">                a</item>
+    <item id="o3" line="985" tag="L+CR">                ¸</item>
+    <item id="o4" line="986" tag="L+CR">   (46)</item>
+    <item id="o5" line="987" tag="G">            loc-heart-set</item>
+    <item id="o6" line="988" tag="T+AC">            `have designs on someone'                                             (de Reuse 1994:213)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="983 986" tag="L+CR">a-ch´-tagle</item>
+    <item id="c5" line="987" tag="G">loc-heart-set</item>
+    <item id="c6" line="988" tag="T+AC">have designs on someone'                                             (de Reuse 1994:213)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:88]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150326">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3452" line-range="564-565" line-types="M+AC L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="564" tag="M+AC">  (i)    Property concepts (Foley and Van Valin 1984:41)</item>
+    <item id="o2" line="565" tag="L-T">         a.     spaya `be wet, get wet'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="564" tag="M+AC">Property concepts (Foley and Van Valin 1984:41</item>
+    <item id="c2" line="565" tag="L-T">spaya `be wet, get wet</item>
+  </tier>
+</igt>
+<igt id="i150327">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3452" line-range="566-566" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="566" tag="L-T">         b.     aze `be angry, get angry'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="566" tag="L-T">aze `be angry, get angry</item>
+  </tier>
+</igt>
+<igt id="i150328">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3452" line-range="568-568" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="568" tag="L-T">         c.     yaz~ `feel pain, be sick'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="568" tag="L-T">yaz~ `feel pain, be sick</item>
+  </tier>
+</igt>
+<igt id="i150329">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3452" line-range="571-572" line-types="M+AC L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="571" tag="M+AC">  (ii)   Result States (Foley and Van Valin 1984:42)</item>
+    <item id="o2" line="572" tag="L-T">         a.     ­blaza `be ripped open'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="571" tag="M+AC">Result States (Foley and Van Valin 1984:42</item>
+    <item id="c2" line="572" tag="L-T">­blaza `be ripped open</item>
+  </tier>
+</igt>
+<igt id="i150330">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3452" line-range="573-573" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="573" tag="L-T">                blaza­h~ `it is rent, torn open'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="573" tag="L-T">blaza­h~ `it is rent, torn open</item>
+  </tier>
+</igt>
+<igt id="i150331">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3452" line-range="575-575" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="575" tag="L-T">         b.     ­ble `be shattered (said of brittle material)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="575" tag="L-T">­ble `be shattered (said of brittle material)</item>
+  </tier>
+</igt>
+<igt id="i150332">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3452" line-range="577-577" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="577" tag="L-T">                ble cha­h~ `it is shattered'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="577" tag="L-T">ble cha­h~ `it is shattered</item>
+  </tier>
+</igt>
+<igt id="i150333">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3452" line-range="579-579" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="579" tag="L-T">         c.     ­wega `be fractured (said of a long round ob ject)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="579" tag="L-T">­wega `be fractured (said of a long round ob ject)</item>
+  </tier>
+</igt>
+<igt id="i150334">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3452" line-range="580-580" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="580" tag="L-T">                wega­h~ `it (e.g. a pole) is broken'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="580" tag="L-T">wega­h~ `it (e.g. a pole) is broken</item>
+  </tier>
+</igt>
+<igt id="i150335">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3452" line-range="582-582" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="582" tag="L-T">         d.     ­kh~ `be scraped'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="582" tag="L-T">­kh~ `be scraped</item>
+  </tier>
+</igt>
+<igt id="i150336">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3452" line-range="584-584" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="584" tag="L-T">                kh~ica­h~ `the outside is scraped off '</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="584" tag="L-T">kh~ica­h~ `the outside is scraped off</item>
+  </tier>
+</igt>
+<igt id="i157770">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lakhota" iso-639-3="lkt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2859" line-range="474-479" line-types="M+AC+LN L+CR L+CR+SY L+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="474" tag="M+AC+LN">         Outside PFD: Lakhota (Van Valin 1995)</item>
+    <item id="o2" line="475" tag="L+CR">  ·</item>
+    <item id="o3" line="476" tag="L+CR+SY">  (22)                           [NP [S suka wa táku      yaxtáke] ki       le] wayaka</item>
+    <item id="o4" line="477" tag="L+CR">             wichása ki                                                                    he?</item>
+    <item id="o5" line="478" tag="G+CR">             ma n       the          dog    a   wh a t    [3s&gt;3s-]bite the this [3s&gt;3s-]saw Q</item>
+    <item id="o6" line="479" tag="T">             `Did the man see the dog which bit something?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="474" tag="M+AC+LN">Lakhota (Van Valin 1995)</item>
+    <item id="c2" line="475 477" tag="L+CR">·         wichása ki                                                                    he?</item>
+    <item id="c5" line="478" tag="G+CR">ma n       the          dog    a   wh a t    [3s&gt;3s-]bite the this [3s&gt;3s-]saw Q</item>
+    <item id="c6" line="479" tag="T">Did the man see the dog which bit something?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:91]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:80]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i46130">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dagur" iso-639-3="dta" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="341" line-range="55-59" line-types="M+AC+LN B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="55" tag="M+AC+LN">  Dagur: (Hale and Ning 1996)</item>
+    <item id="o2" line="56" tag="B"></item>
+    <item id="o3" line="57" tag="L">          2. mini         aw-sen                    mer-min</item>
+    <item id="o4" line="58" tag="G">             my           buy-PST/PART              horse-1SG</item>
+    <item id="o5" line="59" tag="T">             `the horse I bought'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="55" tag="M+AC+LN">(Hale and Ning 1996)</item>
+    <item id="c2" line="56" tag="B"/>
+    <item id="c3" line="57" tag="L">mini         aw-sen                    mer-min</item>
+    <item id="c4" line="58" tag="G">my           buy-PST/PART              horse-1SG</item>
+    <item id="c5" line="59" tag="T">the horse I bought</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i46138">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dagur" iso-639-3="dta" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="341" line-range="229-233" line-types="M+AC+LN B L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="229" tag="M+AC+LN">  Dagur: (Hale and Ning 1996)</item>
+    <item id="o2" line="230" tag="B"></item>
+    <item id="o3" line="231" tag="L+CN">          2. mini         aw-sen            mer-min                           = NSR</item>
+    <item id="o4" line="232" tag="G">             my           buy-PST           horse-1SG</item>
+    <item id="o5" line="233" tag="T">             `the horse I bought'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="229" tag="M+AC+LN">(Hale and Ning 1996)</item>
+    <item id="c2" line="230" tag="B"/>
+    <item id="c3" line="231" tag="L+CN">mini         aw-sen            mer-min                           = NSR</item>
+    <item id="c4" line="232" tag="G">my           buy-PST           horse-1SG</item>
+    <item id="c5" line="233" tag="T">the horse I bought</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i46139">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dagur" iso-639-3="dta" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="341" line-range="235-237" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="235" tag="L+CN">          10. mini       mer-min                                              = POSSESSIVE</item>
+    <item id="o2" line="236" tag="G">              my horse-1SG</item>
+    <item id="o3" line="237" tag="T">              `my horse'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="235" tag="L+CN">mini       mer-min                                              = POSSESSIVE</item>
+    <item id="c2" line="236" tag="G">my horse-1SG</item>
+    <item id="c3" line="237" tag="T">my horse</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i119182">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dagur" iso-639-3="dta" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2692" line-range="2548-2551" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2548" tag="M+AC+LN">  (105) Dagur (Hale and Ning 1996)</item>
+    <item id="o2" line="2549" tag="L">        mini aw-sen mer-min</item>
+    <item id="o3" line="2550" tag="G">        I-GEN buy-past horse-1sg</item>
+    <item id="o4" line="2551" tag="T">        `the horse I bought'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2548" tag="M+AC+LN">Dagur (Hale and Ning 1996</item>
+    <item id="c2" line="2549" tag="L">mini aw-sen mer-min</item>
+    <item id="c3" line="2550" tag="G">I-GEN buy-past horse-1sg</item>
+    <item id="c4" line="2551" tag="T">the horse I bought</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i22414">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koiari" iso-639-3="kbk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3239" line-range="1135-1137" line-types="T+LN L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1135" tag="T+LN">           c. Koiari: `Cold hits me'</item>
+    <item id="o2" line="1136" tag="L">              ribiri-vare da vani-ma</item>
+    <item id="o3" line="1137" tag="G">              cold-SP(CR me hit-PR(S</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1135" tag="T+LN">`Cold hits me</item>
+    <item id="c2" line="1136" tag="L">ribiri-vare da vani-ma</item>
+    <item id="c3" line="1137" tag="G">cold-SP(CR me hit-PR(S</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c1[0:13]"/>
+  </tier>
+</igt>
+<igt id="i85082">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koiari" iso-639-3="kbk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="2558-2562" line-types="M+LN B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2558" tag="M+LN">  (2.10) K    OIARI</item>
+    <item id="o2" line="2559" tag="B"></item>
+    <item id="o3" line="2560" tag="L">         a.   da                  ereva-nu</item>
+    <item id="o4" line="2561" tag="G">              1,PRON              see-1/3SG,PAST</item>
+    <item id="o5" line="2562" tag="T">              `I saw it'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2558" tag="M+LN">K    OIARI</item>
+    <item id="c2" line="2559" tag="B"/>
+    <item id="c3" line="2560" tag="L">da                  ereva-nu</item>
+    <item id="c4" line="2561" tag="G">1,PRON              see-1/3SG,PAST</item>
+    <item id="c5" line="2562" tag="T">I saw it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85083">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koiari" iso-639-3="kbk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="2563-2565" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2563" tag="L">         b.   a                   ereva-nua</item>
+    <item id="o2" line="2564" tag="G">              2,PRON              see-2SG,PAST</item>
+    <item id="o3" line="2565" tag="T">              `You saw it'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2563" tag="L">a                   ereva-nua</item>
+    <item id="c2" line="2564" tag="G">2,PRON              see-2SG,PAST</item>
+    <item id="c3" line="2565" tag="T">You saw it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85084">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koiari" iso-639-3="kbk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="2566-2568" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2566" tag="L">         c.   ahu                 ereva-nu</item>
+    <item id="o2" line="2567" tag="G">              3,PRON              see-1/3,PAST</item>
+    <item id="o3" line="2568" tag="T+AC">              `He/she/it saw it'                                                   (Dutton, 1996: 24)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2566" tag="L">ahu                 ereva-nu</item>
+    <item id="c2" line="2567" tag="G">3,PRON              see-1/3,PAST</item>
+    <item id="c3" line="2568" tag="T+AC">He/she/it saw it'                                                   (Dutton, 1996: 24)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:86]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85085">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koiari" iso-639-3="kbk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="2591-2596" line-types="M+LN+CR B L M G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2591" tag="M+LN+CR">  (2.11) K      OIARI</item>
+    <item id="o2" line="2592" tag="B"></item>
+    <item id="o3" line="2593" tag="L">            da-ike,                kailaki-ge            da               guramarero</item>
+    <item id="o4" line="2594" tag="M">                                                                                13</item>
+    <item id="o5" line="2595" tag="G">            1SG,PRON-EMPH          PLACE-LOC             1SG,PRON         sit</item>
+    <item id="o6" line="2596" tag="T+AC">            `I live at Kailiki', `I am the one who is living at Kailiki'                 (Dutton, 1996: 64)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2591" tag="M+LN+CR">K      OIARI</item>
+    <item id="c2" line="2592" tag="B"/>
+    <item id="c3" line="2593" tag="L">da-ike,                kailaki-ge            da               guramarero</item>
+    <item id="c4" line="2594" tag="M">13</item>
+    <item id="c5" line="2595" tag="G">1SG,PRON-EMPH          PLACE-LOC             1SG,PRON         sit</item>
+    <item id="c6" line="2596" tag="T+AC">I live at Kailiki', `I am the one who is living at Kailiki'                 (Dutton, 1996: 64)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:94]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i132259">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koiari" iso-639-3="kbk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2666" line-range="280-282" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="280" tag="L">  (6)   a.   Da            ereva-nu.</item>
+    <item id="o2" line="281" tag="G">             1.PRON        see-1/3.PAST</item>
+    <item id="o3" line="282" tag="T">             `I saw it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="280" tag="L">Da            ereva-nu.</item>
+    <item id="c2" line="281" tag="G">1.PRON        see-1/3.PAST</item>
+    <item id="c3" line="282" tag="T">I saw it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i132260">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koiari" iso-639-3="kbk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2666" line-range="283-285" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="283" tag="L">        b.   A             ereva-nua.</item>
+    <item id="o2" line="284" tag="G">             2.PRON        see-2.PAST</item>
+    <item id="o3" line="285" tag="T">             `You saw      it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="283" tag="L">A             ereva-nua.</item>
+    <item id="c2" line="284" tag="G">2.PRON        see-2.PAST</item>
+    <item id="c3" line="285" tag="T">You saw      it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i132261">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koiari" iso-639-3="kbk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2666" line-range="286-288" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="286" tag="L">        c.   Ahu           ereva-nu.</item>
+    <item id="o2" line="287" tag="G">             3.PRON        see-1/3.PAST</item>
+    <item id="o3" line="288" tag="T+AC">             `He/she/it    saw it.'                                 (Dutton 1996:24)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="286" tag="L">Ahu           ereva-nu.</item>
+    <item id="c2" line="287" tag="G">3.PRON        see-1/3.PAST</item>
+    <item id="c3" line="288" tag="T+AC">He/she/it    saw it.'                                 (Dutton 1996:24)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:70]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i132262">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koiari" iso-639-3="kbk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2666" line-range="301-304" line-types="L G+CR+EX G+CR T+AC+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="301" tag="L">  (7)   Da-ike,             kailaki-ge      da          guramarero.</item>
+    <item id="o2" line="302" tag="G+CR+EX">                                                        sit 7</item>
+    <item id="o3" line="303" tag="G+CR">        1.PRON-EMPH PLACE-LOC 1.PRON</item>
+    <item id="o4" line="304" tag="T+AC+DB">        `I live at Kailiki', `I am the one who is living at Kailiki.' (Dutton 1996:64)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="301" tag="L">Da-ike,             kailaki-ge      da          guramarero.</item>
+    <item id="c2" line="302 303" tag="G+CR+EX">1.PRON-EMPH PLACE-LOC 1.PRON                    sit 7</item>
+    <item id="c4" line="304" tag="T+AC+DB">I live at Kailiki', `I am the one who is living at Kailiki.' (Dutton 1996:64)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:77]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

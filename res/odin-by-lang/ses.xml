@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i17903">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1605" line-range="1036-1039" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1036" tag="M+AC+LN">  (40) a. Koyraboro Senni (some dialects; Heath°, §10)</item>
+    <item id="o2" line="1037" tag="L">          ir n d a n i</item>
+    <item id="o3" line="1038" tag="G">          we with you.SG</item>
+    <item id="o4" line="1039" tag="T">          'you and I'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1036" tag="M+AC+LN">a. Koyraboro Senni (some dialects; Heath°, §10</item>
+    <item id="c2" line="1037" tag="L">ir n d a n i</item>
+    <item id="c3" line="1038" tag="G">we with you.SG</item>
+    <item id="c4" line="1039" tag="T">you and I</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19804">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni songhay" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="250" line-range="115-118" line-types="L-T+DB+CR L+DB+CR L-T+DB+CR L+DB+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="115" tag="L-T+DB+CR">               adm `finish'               adm,`mch `cause to end'</item>
+    <item id="o2" line="116" tag="L+DB+CR">  '0(</item>
+    <item id="o3" line="117" tag="L-T+DB+CR">               snn `arrive'                          `deliver'</item>
+    <item id="o4" line="118" tag="L+DB+CR">  '1(                                     snn,mch</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="115 116" tag="L-T+DB+CR+L">0(          adm `finish'               adm,`mch `cause to end</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+</igt>
+<igt id="i19805">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni songhay" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="250" line-range="120-122" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="120" tag="L">  '2( R`k`mf`vdx f` lnnqt-</item>
+    <item id="o2" line="121" tag="G">         toilet.PLDEF        TAM be.distant</item>
+    <item id="o3" line="122" tag="T">         `The toilets are distant.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="120" tag="L">2( R`k`mf`vdx f` lnnqt-</item>
+    <item id="c2" line="121" tag="G">toilet.PLDEF        TAM be.distant</item>
+    <item id="c3" line="122" tag="T">The toilets are distant.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19806">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni songhay" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="250" line-range="150-153" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="150" tag="L+CR">                                                             lnnq,`mch</item>
+    <item id="o2" line="151" tag="L+CR">  '3(    Anqdx              l`         r`k`mf`vdx</item>
+    <item id="o3" line="152" tag="G">         person.PLDEF TAM              toilet.PLDEF be.distant-CAUS</item>
+    <item id="o4" line="153" tag="T">         `The people (should) distance toilets. (cause toilets to be distant)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="150 151" tag="L+CR">3(    Anqdx              l`         r`k`mf`vdx            lnnq,`mch</item>
+    <item id="c3" line="152" tag="G">person.PLDEF TAM              toilet.PLDEF be.distant-CAUS</item>
+    <item id="c4" line="153" tag="T">The people (should) distance toilets. (cause toilets to be distant)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:67]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19807">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni songhay" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="250" line-range="154-156" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="154" tag="L">  '4(    @x ytlat bhihmnn              q`-</item>
+    <item id="o2" line="155" tag="G">         1s    go.down night.DEF LOC</item>
+    <item id="o3" line="156" tag="T">         `I got out (of a canoe) during the night.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="154" tag="L">4(    @x ytlat bhihmnn              q`-</item>
+    <item id="c2" line="155" tag="G">1s    go.down night.DEF LOC</item>
+    <item id="c3" line="156" tag="T">I got out (of a canoe) during the night.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19808">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni songhay" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="250" line-range="157-160" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="157" tag="L+CR">                   `x ytla,`mch              bhihmnn   q`-</item>
+    <item id="o2" line="158" tag="L+CR">  '5(     H m`</item>
+    <item id="o3" line="159" tag="G">         3p TAM 1s go.down-CAUS night.DEF LOC</item>
+    <item id="o4" line="160" tag="T">        `They made me get out during the night.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="157 158" tag="L+CR">5(     H m`     `x ytla,`mch              bhihmnn   q`-</item>
+    <item id="c3" line="159" tag="G">3p TAM 1s go.down-CAUS night.DEF LOC</item>
+    <item id="c4" line="160" tag="T">They made me get out during the night.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19809">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni songhay" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="250" line-range="163-166" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="163" tag="L+CR">                                bdqd j`q-</item>
+    <item id="o2" line="164" tag="L+CR">  '6( Anqdx               f`</item>
+    <item id="o3" line="165" tag="G">         Person.PLDEF TAM             friend hit</item>
+    <item id="o4" line="166" tag="T">      `The people hit each other.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="163 164" tag="L+CR">6( Anqdx               f`    bdqd j`q-</item>
+    <item id="c3" line="165" tag="G">Person.PLDEF TAM             friend hit</item>
+    <item id="c4" line="166" tag="T">The people hit each other.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i19810">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni songhay" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="250" line-range="168-170" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="168" tag="L">  '7( E``stl` mc` @xr` f` 'mfh               anÓ( ©tl`x</item>
+    <item id="o2" line="169" tag="G">         name         and name       TAM (3p.GEN head) wash</item>
+    <item id="o3" line="170" tag="T">         `Faatuma and Aysa wash themselves.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="168" tag="L">7( E``stl` mc` @xr` f` 'mfh               anÓ( ©tl`x</item>
+    <item id="c2" line="169" tag="G">name         and name       TAM (3p.GEN head) wash</item>
+    <item id="c3" line="170" tag="T">Faatuma and Aysa wash themselves.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48639">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koroboro senni songhai" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="1024-1026" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1024" tag="L">  (79) a goo-nda zaka hika</item>
+    <item id="o2" line="1025" tag="G">          3SG be.at-with child two</item>
+    <item id="o3" line="1026" tag="T">          `he has two children'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1024" tag="L">a goo-nda zaka hika</item>
+    <item id="c2" line="1025" tag="G">3SG be.at-with child two</item>
+    <item id="c3" line="1026" tag="T">he has two children</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48640">
+  <metadata type="xigt-meta">
+    <meta type="language" name="songhai" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="1029-1031" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1029" tag="L">  (80) a. a goo no baa sõhoo da</item>
+    <item id="o2" line="1030" tag="G">                 3SG be.at there even now EMPH</item>
+    <item id="o3" line="1031" tag="T">                 `it is still there even now'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1029" tag="L">a goo no baa sõhoo da</item>
+    <item id="c2" line="1030" tag="G">3SG be.at there even now EMPH</item>
+    <item id="c3" line="1031" tag="T">it is still there even now</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48641">
+  <metadata type="xigt-meta">
+    <meta type="language" name="songhai" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="1032-1034" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1032" tag="L">           b. a ga                  ti noguru suub-ante</item>
+    <item id="o2" line="1033" tag="G">                 3SG IMPERF be place              chose-PARTCPL</item>
+    <item id="o3" line="1034" tag="T">                 `it was a select place'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1032" tag="L">a ga                  ti noguru suub-ante</item>
+    <item id="c2" line="1033" tag="G">3SG IMPERF be place              chose-PARTCPL</item>
+    <item id="c3" line="1034" tag="T">it was a select place</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48717">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="1869-1871" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1869" tag="L">  (142) a na             ham aa</item>
+    <item id="o2" line="1870" tag="G">          3SG TRANS meat eat</item>
+    <item id="o3" line="1871" tag="T">          `he ate meat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1869" tag="L">a na             ham aa</item>
+    <item id="c2" line="1870" tag="G">3SG TRANS meat eat</item>
+    <item id="c3" line="1871" tag="T">he ate meat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48718">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="1874-1876" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1874" tag="L">  (143) a koy koyr-aa                 ra</item>
+    <item id="o2" line="1875" tag="G">         3SG go town-DEF. SG LOC</item>
+    <item id="o3" line="1876" tag="T">         `he went to the city'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1874" tag="L">a koy koyr-aa                 ra</item>
+    <item id="c2" line="1875" tag="G">3SG go town-DEF. SG LOC</item>
+    <item id="c3" line="1876" tag="T">he went to the city</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48719">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="1883-1885" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1883" tag="L">  (144) a. a            ga          ba agey</item>
+    <item id="o2" line="1884" tag="G">                3SG INCOMPL like 1SG</item>
+    <item id="o3" line="1885" tag="T">                `she likes me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1883" tag="L">a            ga          ba agey</item>
+    <item id="c2" line="1884" tag="G">3SG INCOMPL like 1SG</item>
+    <item id="c3" line="1885" tag="T">she likes me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48720">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="1886-1888" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1886" tag="L">           b. ay di né wand-o</item>
+    <item id="o2" line="1887" tag="G">                1SG see 2SG wife-DEF</item>
+    <item id="o3" line="1888" tag="T">                `I saw your wife'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1886" tag="L">ay di né wand-o</item>
+    <item id="c2" line="1887" tag="G">1SG see 2SG wife-DEF</item>
+    <item id="c3" line="1888" tag="T">I saw your wife</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48721">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="1889-1891" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1889" tag="L">           c. ay ga                humbur hans-o</item>
+    <item id="o2" line="1890" tag="G">                1SG INCOMPL fear               dog-DEF</item>
+    <item id="o3" line="1891" tag="T">                `I am afraid of the dog'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1889" tag="L">ay ga                humbur hans-o</item>
+    <item id="c2" line="1890" tag="G">1SG INCOMPL fear               dog-DEF</item>
+    <item id="c3" line="1891" tag="T">I am afraid of the dog</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48722">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="1892-1894" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1892" tag="L">           d. i ga                 hima         kyer-ey</item>
+    <item id="o2" line="1893" tag="G">                 3PL INCOMPL resemble each.other-PLUR</item>
+    <item id="o3" line="1894" tag="T">                 `they resemble each other'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1892" tag="L">i ga                 hima         kyer-ey</item>
+    <item id="c2" line="1893" tag="G">3PL INCOMPL resemble each.other-PLUR</item>
+    <item id="c3" line="1894" tag="T">they resemble each other</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74214">
+  <metadata type="xigt-meta">
+    <meta type="language" name="songhay" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1033-1035" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1033" tag="L">  (79) a goo-nda zaka hika</item>
+    <item id="o2" line="1034" tag="G">          3SG be.at-with child two</item>
+    <item id="o3" line="1035" tag="T">          `he has two children'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1033" tag="L">a goo-nda zaka hika</item>
+    <item id="c2" line="1034" tag="G">3SG be.at-with child two</item>
+    <item id="c3" line="1035" tag="T">he has two children</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74215">
+  <metadata type="xigt-meta">
+    <meta type="language" name="songhay" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1038-1040" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1038" tag="L">  (80) a. a goo no baa sõhoo da</item>
+    <item id="o2" line="1039" tag="G">                3SG be.at there even now EMPH</item>
+    <item id="o3" line="1040" tag="T">                `it is still there even now'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1038" tag="L">a goo no baa sõhoo da</item>
+    <item id="c2" line="1039" tag="G">3SG be.at there even now EMPH</item>
+    <item id="c3" line="1040" tag="T">it is still there even now</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74216">
+  <metadata type="xigt-meta">
+    <meta type="language" name="songhay" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1041-1043" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1041" tag="L">           b. a ga                 ti noguru suub-ante</item>
+    <item id="o2" line="1042" tag="G">                3SG IMPERF be place              chose-PARTCPL</item>
+    <item id="o3" line="1043" tag="T">                `it was a select place'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1041" tag="L">a ga                 ti noguru suub-ante</item>
+    <item id="c2" line="1042" tag="G">3SG IMPERF be place              chose-PARTCPL</item>
+    <item id="c3" line="1043" tag="T">it was a select place</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74291">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1862-1864" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1862" tag="L">  (142) a na              ham aa</item>
+    <item id="o2" line="1863" tag="G">          3SG TRANS meat eat</item>
+    <item id="o3" line="1864" tag="T+AC">          `he ate meat' (Heath 1999: 165)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1862" tag="L">a na              ham aa</item>
+    <item id="c2" line="1863" tag="G">3SG TRANS meat eat</item>
+    <item id="c3" line="1864" tag="T+AC">he ate meat' (Heath 1999: 165)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74292">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1867-1869" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1867" tag="L">  (143) a koy koyr-aa                 ra</item>
+    <item id="o2" line="1868" tag="G">         3SG go town-DEF, SG LOC</item>
+    <item id="o3" line="1869" tag="T+AC">         `he went to the city' (p. 137)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1867" tag="L">a koy koyr-aa                 ra</item>
+    <item id="c2" line="1868" tag="G">3SG go town-DEF, SG LOC</item>
+    <item id="c3" line="1869" tag="T+AC">he went to the city' (p. 137)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74293">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1873-1875" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1873" tag="L">  (144) a. a          ga           ba agey</item>
+    <item id="o2" line="1874" tag="G">               3SG INCOMPL like 1SG</item>
+    <item id="o3" line="1875" tag="T">               `she likes me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1873" tag="L">a          ga           ba agey</item>
+    <item id="c2" line="1874" tag="G">3SG INCOMPL like 1SG</item>
+    <item id="c3" line="1875" tag="T">she likes me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74294">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1876-1878" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1876" tag="L">          b. ay di né wand-o</item>
+    <item id="o2" line="1877" tag="G">               1SG see 2SG wife-DEF</item>
+    <item id="o3" line="1878" tag="T">               `I saw your wife'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1876" tag="L">ay di né wand-o</item>
+    <item id="c2" line="1877" tag="G">1SG see 2SG wife-DEF</item>
+    <item id="c3" line="1878" tag="T">I saw your wife</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74295">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1879-1881" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1879" tag="L">          c. ay ga                humbur hans-o</item>
+    <item id="o2" line="1880" tag="G">               1SG INCOMPL fear              dog-DEF</item>
+    <item id="o3" line="1881" tag="T">               `I am afraid of the dog'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1879" tag="L">ay ga                humbur hans-o</item>
+    <item id="c2" line="1880" tag="G">1SG INCOMPL fear              dog-DEF</item>
+    <item id="c3" line="1881" tag="T">I am afraid of the dog</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74296">
+  <metadata type="xigt-meta">
+    <meta type="language" name="koyraboro senni" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="1882-1884" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1882" tag="L">          d. i ga                 hima         kyer-ey</item>
+    <item id="o2" line="1883" tag="G">               3PL INCOMPL resemble each.other-PLUR</item>
+    <item id="o3" line="1884" tag="T">               `they resemble each other'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1882" tag="L">i ga                 hima         kyer-ey</item>
+    <item id="c2" line="1883" tag="G">3PL INCOMPL resemble each.other-PLUR</item>
+    <item id="c3" line="1884" tag="T">they resemble each other</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113537">
+  <metadata type="xigt-meta">
+    <meta type="language" name="songhai" iso-639-3="ses" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="1913-1915" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1913" tag="L">  (122) koyra fo-yan                ga n         ga          bisa</item>
+    <item id="o2" line="1914" tag="G">           village which-PLUR in 2SG INCOMPL pass</item>
+    <item id="o3" line="1915" tag="T">           `by which villages did you pass?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1913" tag="L">koyra fo-yan                ga n         ga          bisa</item>
+    <item id="c2" line="1914" tag="G">village which-PLUR in 2SG INCOMPL pass</item>
+    <item id="c3" line="1915" tag="T">by which villages did you pass?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

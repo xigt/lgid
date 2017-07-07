@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i27">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mingrelian" iso-639-3="xmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2984" line-range="497-500" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="497" tag="M+LN">     (21) MINGRELIAN &lt; GEORGIAN</item>
+    <item id="o2" line="498" tag="L">          a-msvid-en-s</item>
+    <item id="o3" line="499" tag="G">          TV-soothe-PRS-3SG</item>
+    <item id="o4" line="500" tag="T">          `(s)he soothes' [Geo. a-msvid-eb-s ] (Lela Zamusia, p.c., 2005)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="497" tag="M+LN">MINGRELIAN &lt; GEORGIAN</item>
+    <item id="c2" line="498" tag="L">a-msvid-en-s</item>
+    <item id="c3" line="499" tag="G">TV-soothe-PRS-3SG</item>
+    <item id="c4" line="500" tag="T">s)he soothes' [Geo. a-msvid-eb-s ] (Lela Zamusia, p.c., 2005</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i11377">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mingrelian" iso-639-3="xmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2469" line-range="489-492" line-types="M+LN+DB L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="489" tag="M+LN+DB">      (21) MINGRELIAN &lt; GEORGIAN</item>
+    <item id="o2" line="490" tag="L">           a-msvid-en-s</item>
+    <item id="o3" line="491" tag="G">           TV-soothe-PRS-3SG</item>
+    <item id="o4" line="492" tag="T+AC">           `(s)he soothes' [Geo. a-msvid-eb-s ] (Lela Zamusia, p.c., 2005)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="489" tag="M+LN+DB">MINGRELIAN &lt; GEORGIAN</item>
+    <item id="c2" line="490" tag="L">a-msvid-en-s</item>
+    <item id="c3" line="491" tag="G">TV-soothe-PRS-3SG</item>
+    <item id="c4" line="492" tag="T+AC">s)he soothes' [Geo. a-msvid-eb-s ] (Lela Zamusia, p.c., 2005</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78752">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mingrelian" iso-639-3="xmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2539" line-range="245-248" line-types="L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="245" tag="L">  {ii} [MINGRELIAN] bo£eps              u-k'ven-a        artiani£       ambe</item>
+    <item id="o2" line="246" tag="G">                          [child-PL-DAT surprise.I.3/3pl each.other-GEN news-NOM]</item>
+    <item id="o3" line="247" tag="T">  "The children are surprised by each other's news." lit: "Each other's news [agent,GS/RO]</item>
+    <item id="o4" line="248" tag="T">  surprises the children [patient,GDO/RS]"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="245" tag="L">{ii} [MINGRELIAN] bo£eps              u-k'ven-a        artiani£       ambe</item>
+    <item id="c2" line="246" tag="G">[child-PL-DAT surprise.I.3/3pl each.other-GEN news-NOM]</item>
+    <item id="c3" line="247" tag="T">The children are surprised by each other's news." lit: "Each other's news [agent,GS/RO]</item>
+    <item id="c4" line="248" tag="T">surprises the children [patient,GDO/RS]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:87]" alignment="p1"/>
+    <item id="t1" content="c4[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

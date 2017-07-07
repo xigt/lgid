@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i98421">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7712-7714" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7712" tag="L">  (1)    (chera) du-kama-te-an          burua da-in-te-an             du-ch</item>
+    <item id="o2" line="7713" tag="G">         we      speak-be.able -MT-1PL Leko      want-NEG-MT-1PL speak-INF</item>
+    <item id="o3" line="7714" tag="T">         `We were able to speak Leko, but we do not want to speak (it).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7712" tag="L">(chera) du-kama-te-an          burua da-in-te-an             du-ch</item>
+    <item id="c2" line="7713" tag="G">we      speak-be.able-MT-1PL Leko      want-NEG-MT-1PL speak-INF</item>
+    <item id="c3" line="7714" tag="T">We were able to speak Leko, but we do not want to speak (it).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98422">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7723-7723" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7723" tag="L-T">  (2)    era        du   -no   -to:        `I speak'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7723" tag="L-T">era        du-no-to:        `I speak</item>
+  </tier>
+</igt>
+<igt id="i98423">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7724-7724" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7724" tag="L-T">         iya        du   -no   -te -n      `you speak'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7724" tag="L-T">iya        du-no-te-n      `you speak</item>
+  </tier>
+</igt>
+<igt id="i98424">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7725-7725" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7725" tag="L-T">         kibi       du   -no   -te         `he speaks'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7725" tag="L-T">kibi       du-no-te         `he speaks</item>
+  </tier>
+</igt>
+<igt id="i98425">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7726-7726" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7726" tag="L-T">         chera      du   -no   -te -an     `we speak'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7726" tag="L-T">chera      du-no-te-an     `we speak</item>
+  </tier>
+</igt>
+<igt id="i98426">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7727-7728" line-types="L-T L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7727" tag="L-T">                                           `you.PL speak'</item>
+    <item id="o2" line="7728" tag="L-T">         heka       du   -no   -te -noh</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7727" tag="L-T">you.PL speak</item>
+    <item id="c2" line="7728" tag="L-T">heka       du-no-te-noh</item>
+  </tier>
+</igt>
+<igt id="i98427">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7729-7729" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7729" tag="L-T">         kibi-aya   du   -no   -aya -te    `they speak'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7729" tag="L-T">kibi-aya   du-no-aya-te    `they speak</item>
+  </tier>
+</igt>
+<igt id="i98428">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7757-7757" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7757" tag="L-T">  (3)   era        o-     soh   -cha   -no   -to:       `I am looking at you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7757" tag="L-T">era        o-soh-cha-no-to:       `I am looking at you</item>
+  </tier>
+</igt>
+<igt id="i98429">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7758-7758" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7758" tag="L-T">        iya        yo-    soh   -cha   -no   -te -n     `you are looking at me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7758" tag="L-T">iya        yo-soh-cha-no-te-n     `you are looking at me</item>
+  </tier>
+</igt>
+<igt id="i98430">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7759-7759" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7759" tag="L-T">        kibi       do-    soh   -cha   -no   -te        `he is looking at him'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7759" tag="L-T">kibi       do-soh-cha-no-te        `he is looking at him</item>
+  </tier>
+</igt>
+<igt id="i98431">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7760-7761" line-types="L-T+CN L-T+CN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7760" tag="L-T+CN">                                                        `we are looking at you.PL'</item>
+    <item id="o2" line="7761" tag="L-T+CN">        chera      ho-    soh   -cha   -no   -te -an</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7760" tag="L-T+CN">we are looking at you.PL</item>
+    <item id="c2" line="7761" tag="L-T+CN">chera      ho-soh-cha-no-te-an</item>
+  </tier>
+</igt>
+<igt id="i98432">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7762-7762" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7762" tag="L-T">        heka       cho-   soh   -cha   -no   -te -noh   `you.PL are looking at us'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7762" tag="L-T">heka       cho-soh-cha-no-te-noh   `you.PL are looking at us</item>
+  </tier>
+</igt>
+<igt id="i98433">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7763-7763" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7763" tag="L-T">        kibi-aya   ho-    soh   -cha   -no   -aya -te   `they are looking at them'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7763" tag="L-T">kibi-aya   ho-soh-cha-no-aya-te   `they are looking at them</item>
+  </tier>
+</igt>
+<igt id="i98434">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7791-7791" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7791" tag="L-T+DB">  (5)    yo-    bora-aya   `my friends'        yo-moki    kuchi-aya   `my dogs'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7791" tag="L-T+DB">yo-bora-aya   `my friends'        yo-moki    kuchi-aya   `my dogs</item>
+  </tier>
+</igt>
+<igt id="i98435">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7792-7792" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7792" tag="L-T+DB">         o-     bora-aya   `your friends'      o-moki     kuchi-aya   `your dogs'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7792" tag="L-T+DB">o-bora-aya   `your friends'      o-moki     kuchi-aya   `your dogs</item>
+  </tier>
+</igt>
+<igt id="i98436">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7793-7793" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7793" tag="L-T+DB">         ko-    bora-aya   `his/her friends'   ko-moki    kuchi-aya   `his/her dogs'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7793" tag="L-T+DB">ko-bora-aya   `his/her friends'   ko-moki    kuchi-aya   `his/her dogs</item>
+  </tier>
+</igt>
+<igt id="i98437">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7794-7794" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7794" tag="L-T+DB">         cho-   bora-aya   `our friends'       cho-moki   kuchi-aya   `our dogs'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7794" tag="L-T+DB">cho-bora-aya   `our friends'       cho-moki   kuchi-aya   `our dogs</item>
+  </tier>
+</igt>
+<igt id="i98438">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7795-7796" line-types="L-T+DB+CR L-T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7795" tag="L-T+DB+CR">                           `your.PL friends'   ho-moki    kuchi-aya   `your.PL dogs'</item>
+    <item id="o2" line="7796" tag="L-T+CR">         ho-    bora-aya</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7795 7796" tag="L-T+DB+CR">ho-bora-aya   `your.PL friends'   ho-moki    kuchi-aya   `your.PL dogs</item>
+  </tier>
+</igt>
+<igt id="i98439">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7806-7808" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7806" tag="L">  (6)   a. chilchis-no (yobas)-ki di-min -a -te</item>
+    <item id="o2" line="7807" tag="G">           dance-NOM (man)-DAT 3O-see-PP-MT</item>
+    <item id="o3" line="7808" tag="T">           `I have seen the dancing (man)/dancer.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7806" tag="L">chilchis-no (yobas)-ki di-min-a-te</item>
+    <item id="c2" line="7807" tag="G">dance-NOM (man)-DAT 3O-see-PP-MT</item>
+    <item id="c3" line="7808" tag="T">I have seen the dancing (man)/dancer.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98440">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7809-7811" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7809" tag="L">        b. soboto -ki    di-min -a     ka-te     henwai     kis-no-ki</item>
+    <item id="o2" line="7810" tag="G">           soboto-DAT 3O-see-PP        be-MT spider         kill-NOM-DAT</item>
+    <item id="o3" line="7811" tag="T">           `He has seen the soboto (a giant flying insect) who killed spiders.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7809" tag="L">soboto-ki    di-min-a     ka-te     henwai     kis-no-ki</item>
+    <item id="c2" line="7810" tag="G">soboto-DAT 3O-see-PP        be-MT spider         kill-NOM-DAT</item>
+    <item id="c3" line="7811" tag="T">He has seen the soboto (a giant flying insect) who killed spiders.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98441">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7825-7829" line-types="L+AL L+AL L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7825" tag="L+AL">  (7)    Yachipaique aya yebanocui                   Dios   nem?</item>
+    <item id="o2" line="7826" tag="L+AL">         ¿Hijos mi     os     decidme                Dios   hay?</item>
+    <item id="o3" line="7827" tag="L">         ya-atspai-ki-aya     ye-eba-noku-i          Dios   ne-no-n</item>
+    <item id="o4" line="7828" tag="G">         1SG-child-GEN-PL 1O-tell-HOR-VOC            God    be-NOM-Q</item>
+    <item id="o5" line="7829" tag="T">         `My children, tell me, does God exist?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7825" tag="L+AL">Yachipaique aya yebanocui                   Dios   nem?</item>
+    <item id="c2" line="7826" tag="L+AL">¿Hijos mi     os     decidme                Dios   hay?</item>
+    <item id="c3" line="7827" tag="L">ya-atspai-ki-aya     ye-eba-noku-i          Dios   ne-no-n</item>
+    <item id="c4" line="7828" tag="G">1SG-child-GEN-PL 1O-tell-HOR-VOC            God    be-NOM-Q</item>
+    <item id="c5" line="7829" tag="T">My children, tell me, does God exist?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+    <item id="p1" content="c2[0:55]"/>
+    <item id="p2" content="c3[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:59]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:37]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i98442">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7893-7895" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7893" tag="L">  (8)    yo-noko      (era-iki)    ye-kel-a ka-te</item>
+    <item id="o2" line="7894" tag="G">         1SG-brother (1SG-DAT) 1O-hit-PP be-MT</item>
+    <item id="o3" line="7895" tag="T">         `My brother has beaten me up.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7893" tag="L">yo-noko      (era-iki)    ye-kel-a ka-te</item>
+    <item id="c2" line="7894" tag="G">1SG-brother (1SG-DAT) 1O-hit-PP be-MT</item>
+    <item id="c3" line="7895" tag="T">My brother has beaten me up.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98443">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7903-7905" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7903" tag="L">  (9)    on     kathi      (era-iki)    yo-bostas-in-te</item>
+    <item id="o2" line="7904" tag="G">         that chicha (1SG-DAT) 1O-like-NEG-MT</item>
+    <item id="o3" line="7905" tag="T">         `I don't like that chicha (maize beer).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7903" tag="L">on     kathi      (era-iki)    yo-bostas-in-te</item>
+    <item id="c2" line="7904" tag="G">that chicha (1SG-DAT) 1O-like-NEG-MT</item>
+    <item id="c3" line="7905" tag="T">I don't like that chicha (maize beer).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98444">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7938-7941" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7938" tag="L">  (10) on     kuchi senen tanta        yin-k'o-a ka-te</item>
+    <item id="o2" line="7939" tag="G+CR">                             bread 1DAT-eat-PP-be-MT</item>
+    <item id="o3" line="7940" tag="G+CR">       that dog all                          -</item>
+    <item id="o4" line="7941" tag="T">       `That dog ate all the bread, to my detriment.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7938" tag="L">on     kuchi senen tanta        yin-k'o-a ka-te</item>
+    <item id="c2" line="7939" tag="G+CR">bread 1DAT-eat-PP-be-MT</item>
+    <item id="c4" line="7941" tag="T">That dog ate all the bread, to my detriment.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98445">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7952-7952" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7952" tag="L-T+DB">  (11) bar      `flat'         bar kach    `lie flat'         bar kich    `lay flat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7952" tag="L-T+DB">bar      `flat'         bar kach    `lie flat'         bar kich    `lay flat</item>
+  </tier>
+</igt>
+<igt id="i98446">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7953-7953" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7953" tag="L-T+DB">       cha      `seated'       cha kach    `sit'              cha kich    `set'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7953" tag="L-T+DB">cha      `seated'       cha kach    `sit'              cha kich    `set</item>
+  </tier>
+</igt>
+<igt id="i98447">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7954-7955" line-types="L-T+DB+CR L-T+DB+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7954" tag="L-T+DB+CR">                                           `stand.INTR'       thes kich   `stand.TR'</item>
+    <item id="o2" line="7955" tag="L-T+DB+CR">       thes     `standing'     thes kach</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7954 7955" tag="L-T+DB+CR">thes     `standing'     thes kach   `stand.INTR'       thes kich   `stand.TR</item>
+  </tier>
+</igt>
+<igt id="i98448">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7956-7956" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7956" tag="L-T+DB">       lewa     `hanging'      lewa kach   `hang.INTR'        lewa kich   `hang.TR'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7956" tag="L-T+DB">lewa     `hanging'      lewa kach   `hang.INTR'        lewa kich   `hang.TR</item>
+  </tier>
+</igt>
+<igt id="i98449">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7965-7967" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7965" tag="L">  (12) a. thaq -te       cha ka-cha -no-te</item>
+    <item id="o2" line="7966" tag="G">          stone-LOC sit          be-DUR-NOM-MT</item>
+    <item id="o3" line="7967" tag="T">          `He is sitting on the stone.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7965" tag="L">thaq-te       cha ka-cha-no-te</item>
+    <item id="c2" line="7966" tag="G">stone-LOC sit          be-DUR-NOM-MT</item>
+    <item id="c3" line="7967" tag="T">He is sitting on the stone.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98450">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7968-7970" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7968" tag="L">       b. thaq -te       cha di-ki-a         ka-te</item>
+    <item id="o2" line="7969" tag="G">          stone-LOC sit          3O-make-PP  be-MT</item>
+    <item id="o3" line="7970" tag="T">          `He made him sit on the stone.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7968" tag="L">thaq-te       cha di-ki-a         ka-te</item>
+    <item id="c2" line="7969" tag="G">stone-LOC sit          3O-make-PP  be-MT</item>
+    <item id="c3" line="7970" tag="T">He made him sit on the stone.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98451">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7976-7976" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7976" tag="L-T+DB">  (13)   hacer caso        kaso kich          `obey'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7976" tag="L-T+DB">hacer caso        kaso kich          `obey</item>
+  </tier>
+</igt>
+<igt id="i98452">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7977-7977" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7977" tag="L-T+DB">         hacer daño        dañu kich          `cause damage'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7977" tag="L-T+DB">hacer daño        dañu kich          `cause damage</item>
+  </tier>
+</igt>
+<igt id="i98453">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7978-7978" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7978" tag="L-T+DB">         hacer bulla       bulla kich         `make noise'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7978" tag="L-T+DB">hacer bulla       bulla kich         `make noise</item>
+  </tier>
+</igt>
+<igt id="i98454">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7983-7985" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7983" tag="L">  (14)   carambas heka dañu       yi-ki-a          ka-te-s     misi-aya</item>
+    <item id="o2" line="7984" tag="G">         damn      you damage 1O-make-PP           be-MT-PL cat-PL</item>
+    <item id="o3" line="7985" tag="T+AC">         `Damn, you have caused me trouble, you cats.' (Bear Story)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7983" tag="L">carambas heka dañu       yi-ki-a          ka-te-s     misi-aya</item>
+    <item id="c2" line="7984" tag="G">damn      you damage 1O-make-PP           be-MT-PL cat-PL</item>
+    <item id="c3" line="7985" tag="T+AC">Damn, you have caused me trouble, you cats.' (Bear Story)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98455">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7990-7992" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7990" tag="L">  (15) a. hachu       hete -cha -no-te</item>
+    <item id="o2" line="7991" tag="G">          sugarcane carry-DUR-NOM -MT</item>
+    <item id="o3" line="7992" tag="T">          `He is carrying sugarcane.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7990" tag="L">hachu       hete-cha-no-te</item>
+    <item id="c2" line="7991" tag="G">sugarcane carry-DUR-NOM-MT</item>
+    <item id="c3" line="7992" tag="T">He is carrying sugarcane.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98456">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="7993-7995" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7993" tag="L">       b. hachu         he-hete-ki-cha-no-te</item>
+    <item id="o2" line="7994" tag="G">          sugercane     3O-carry-CAU-DUR-NOM-MT</item>
+    <item id="o3" line="7995" tag="T">          `He is making them carry sugarcane.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7993" tag="L">hachu         he-hete-ki-cha-no-te</item>
+    <item id="c2" line="7994" tag="G">sugercane     3O-carry-CAU-DUR-NOM-MT</item>
+    <item id="c3" line="7995" tag="T">He is making them carry sugarcane.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98457">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8004-8006" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8004" tag="L">  (i)    choswai-ki      din-faltas-ki-in-mono-te       k'och</item>
+    <item id="o2" line="8005" tag="G">         woman-DAT 3DAT-lack-CAU-NEG-HSAY-MT food</item>
+    <item id="o3" line="8006" tag="T+AC">         `He did not let the woman be short of food, one says.' (Bear Story)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8004" tag="L">choswai-ki      din-faltas-ki-in-mono-te       k'och</item>
+    <item id="c2" line="8005" tag="G">woman-DAT 3DAT-lack-CAU-NEG-HSAY-MT food</item>
+    <item id="c3" line="8006" tag="T+AC">He did not let the woman be short of food, one says.' (Bear Story)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98458">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8017-8019" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8017" tag="L">  (16) a. din-koscho-a-mono       ka-te     fuerte polo-aya</item>
+    <item id="o2" line="8018" tag="G">          3DAT-annoy-PP-HSAY be-MT strong puma-PL</item>
+    <item id="o3" line="8019" tag="T">          `The pumas really annoyed him, it is said.' (Bear Story)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8017" tag="L">din-koscho-a-mono       ka-te     fuerte polo-aya</item>
+    <item id="c2" line="8018" tag="G">3DAT-annoy-PP-HSAY be-MT strong puma-PL</item>
+    <item id="c3" line="8019" tag="T">The pumas really annoyed him, it is said.' (Bear Story)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98459">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8020-8023" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8020" tag="L">       b. tomako tomako osito osito on do-koscho-tar-no-aya</item>
+    <item id="o2" line="8021" tag="G">                                       that 3O-annoy-CAU-NOM-PL</item>
+    <item id="o3" line="8022" tag="T">          `Tomaku, Tomaku, little bear, bear, they made him annoyed.'</item>
+    <item id="o4" line="8023" tag="M+AC">          (Bear Story)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8020" tag="L">tomako tomako osito osito on do-koscho-tar-no-aya</item>
+    <item id="c2" line="8021" tag="G">that 3O-annoy-CAU-NOM-PL</item>
+    <item id="c3" line="8022" tag="T">Tomaku, Tomaku, little bear, bear, they made him annoyed.</item>
+    <item id="c4" line="8023" tag="M+AC">Bear Story</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98460">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8032-8035" line-types="L G T+AC T+AL+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8032" tag="L">  (17) ha-ache-ki-ne       da-in-mono-te          ni ubus-ich hekor</item>
+    <item id="o2" line="8033" tag="G">       3PL-dad-GEN-TOP want-NEG-HSAY-MT not leave-INF outside</item>
+    <item id="o3" line="8034" tag="T+AC">       a. `Their father did not want them to go outside.' (reading in Bear Story)</item>
+    <item id="o4" line="8035" tag="T+AL+EX">       b. `Their father did not want to go outside.' (possible reading in Spanish)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8032" tag="L">ha-ache-ki-ne       da-in-mono-te          ni ubus-ich hekor</item>
+    <item id="c2" line="8033" tag="G">3PL-dad-GEN-TOP want-NEG-HSAY-MT not leave-INF outside</item>
+    <item id="c3" line="8034" tag="T+AC">`Their father did not want them to go outside.' (reading in Bear Story)</item>
+    <item id="c4" line="8035" tag="T+AL+EX">`Their father did not want to go outside.' (possible reading in Spanish)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:71]" alignment="p1"/>
+    <item id="t1" content="c4[0:72]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98461">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8041-8044" line-types="L G T T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8041" tag="L">  (18) korwa-ra chu- ubus-ki-ch                da-in      mo-no-mono-te</item>
+    <item id="o2" line="8042" tag="G">       door -LOC 1PL.O-leave-CAU-INF           want-NEG say-NOM -HSAY-MT</item>
+    <item id="o3" line="8043" tag="T">       `It is said that she (the mother) said: he does not want to let us leave the</item>
+    <item id="o4" line="8044" tag="T+EX">       door.' (Bear Story)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8041" tag="L">korwa-ra chu-ubus-ki-ch                da-in      mo-no-mono-te</item>
+    <item id="c2" line="8042" tag="G">door-LOC 1PL.O-leave-CAU-INF           want-NEG say-NOM-HSAY-MT</item>
+    <item id="c3" line="8043" tag="T">It is said that she (the mother) said: he does not want to let us leave the</item>
+    <item id="c4" line="8044" tag="T+EX">door.' (Bear Story)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:75]" alignment="p1"/>
+    <item id="t1" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98462">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8053-8055" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8053" tag="L">  (19) on oso-n        de-dejas-in-mono-te       ubus-ich hekor</item>
+    <item id="o2" line="8054" tag="G">       that bear -TOP 3O-let-NEG-HSAY-MT         leave-INF outside</item>
+    <item id="o3" line="8055" tag="T+AC">       `The bear did not let him/them go outside.' (Bear Story)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8053" tag="L">on oso-n        de-dejas-in-mono-te       ubus-ich hekor</item>
+    <item id="c2" line="8054" tag="G">that bear-TOP 3O-let-NEG-HSAY-MT         leave-INF outside</item>
+    <item id="c3" line="8055" tag="T+AC">The bear did not let him/them go outside.' (Bear Story)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98463">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8061-8063" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8061" tag="L">  (20) a-paus-a-te        (u-)us</item>
+    <item id="o2" line="8062" tag="G">       2O-forget-PP-MT (2SG-)name</item>
+    <item id="o3" line="8063" tag="T+AC">       `I have forgotten your name.' (Bear Story)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8061" tag="L">a-paus-a-te        (u-)us</item>
+    <item id="c2" line="8062" tag="G">2O-forget-PP-MT (2SG-)name</item>
+    <item id="c3" line="8063" tag="T+AC">I have forgotten your name.' (Bear Story)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98464">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8071-8073" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8071" tag="L">  (21) a. heka ya-awantas-in-kama-te-noh</item>
+    <item id="o2" line="8072" tag="G">          you 1O-stand-NEG-be.able-MT-2PL</item>
+    <item id="o3" line="8073" tag="T">          `You cannot endure me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8071" tag="L">heka ya-awantas-in-kama-te-noh</item>
+    <item id="c2" line="8072" tag="G">you 1O-stand-NEG-be.able-MT-2PL</item>
+    <item id="c3" line="8073" tag="T">You cannot endure me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98465">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8074-8076" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8074" tag="L">       b. heka-n ni ber puñete ya-awantas-in-kama-te-noh</item>
+    <item id="o2" line="8075" tag="G">          You-TOP not one punch 1O-stand-NEG-be.able-MT-2PL</item>
+    <item id="o3" line="8076" tag="T+AC">          `You cannot endure me one punch.' (Bear Story)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8074" tag="L">heka-n ni ber puñete ya-awantas-in-kama-te-noh</item>
+    <item id="c2" line="8075" tag="G">You-TOP not one punch 1O-stand-NEG-be.able-MT-2PL</item>
+    <item id="c3" line="8076" tag="T+AC">You cannot endure me one punch.' (Bear Story)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98466">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8094-8096" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8094" tag="L">  (6b) soboto-ki     di-min-a      ka-te     henwai     kis-no-ki</item>
+    <item id="o2" line="8095" tag="G">       soboto-DAT 3O-see -PP be-MT spider               kill-NOM-DAT</item>
+    <item id="o3" line="8096" tag="T">       `He has seen the soboto (large flying insect) who killed spiders.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8094" tag="L">soboto-ki     di-min-a      ka-te     henwai     kis-no-ki</item>
+    <item id="c2" line="8095" tag="G">soboto-DAT 3O-see-PP be-MT spider               kill-NOM-DAT</item>
+    <item id="c3" line="8096" tag="T">He has seen the soboto (large flying insect) who killed spiders.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98467">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8114-8116" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8114" tag="L">  (22)   ya-yanas-cha-a-ra        di-kis-kam           ho animal-ki</item>
+    <item id="o2" line="8115" tag="G">         1O-gain-DUR-PP-LOC       3O-kill-be.able this animal -DAT</item>
+    <item id="o3" line="8116" tag="T+AC">         `When he is beating me, let's kill him, that animal.' (Bear Story)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8114" tag="L">ya-yanas-cha-a-ra        di-kis-kam           ho animal-ki</item>
+    <item id="c2" line="8115" tag="G">1O-gain-DUR-PP-LOC       3O-kill-be.able this animal-DAT</item>
+    <item id="c3" line="8116" tag="T+AC">When he is beating me, let's kill him, that animal.' (Bear Story)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98468">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8149-8160" line-types="L G L G L G L G T T T T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8149" tag="L">  (23) polo-ki-n         ber puñete di-ki-a di-kis-bats-a-mono-te...</item>
+    <item id="o2" line="8150" tag="G">       puma-DAT-TOP one punch-3O-do PP-3O-kill-almost-PP-HSAY-MT</item>
+    <item id="o3" line="8151" tag="L">       ... polo-ki-n        bar di-ki-a-mono          ka-te lehleh ka-cha-no...</item>
+    <item id="o4" line="8152" tag="G">           puma-DAT-TOP flat 3O-make-PP-HSAY be-MT shiver be-DUR-NOM</item>
+    <item id="o5" line="8153" tag="L">       ... laso-ra de-hep -ka-a-mono           on     polo-ki...</item>
+    <item id="o6" line="8154" tag="G">           lasso-LOC-3O-grab-be-PP-HSAY that puma-DAT</item>
+    <item id="o7" line="8155" tag="L">       ... polo hep-ki-a-mono             diez polos hep-ka-a-mono ka-te...</item>
+    <item id="o8" line="8156" tag="G">           puma grab-CAU-PP-HSAY          ten pumas grab-be-PP-HSAY be-MT</item>
+    <item id="o9" line="8157" tag="T">       `He gave the puma a punch, he almost killed him, it is said; he laid him</item>
+    <item id="o10" line="8158" tag="T">       flat, that puma, it is said; he was shivering; with a lasso he tied him, that</item>
+    <item id="o11" line="8159" tag="T">       puma. Pumas he grabbed, it is said, (a group of) ten pumas he grabbed, it</item>
+    <item id="o12" line="8160" tag="T+AC">       is said.' (Bear Story)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8149" tag="L">polo-ki-n         ber puñete di-ki-a di-kis-bats-a-mono-te...</item>
+    <item id="c2" line="8150" tag="G">puma-DAT-TOP one punch-3O-do PP-3O-kill-almost-PP-HSAY-MT</item>
+    <item id="c3" line="8151" tag="L">polo-ki-n        bar di-ki-a-mono          ka-te lehleh ka-cha-no...</item>
+    <item id="c4" line="8152" tag="G">puma-DAT-TOP flat 3O-make-PP-HSAY be-MT shiver be-DUR-NOM</item>
+    <item id="c5" line="8153" tag="L">laso-ra de-hep-ka-a-mono           on     polo-ki...</item>
+    <item id="c6" line="8154" tag="G">lasso-LOC-3O-grab-be-PP-HSAY that puma-DAT</item>
+    <item id="c7" line="8155" tag="L">polo hep-ki-a-mono             diez polos hep-ka-a-mono ka-te...</item>
+    <item id="c8" line="8156" tag="G">puma grab-CAU-PP-HSAY          ten pumas grab-be-PP-HSAY be-MT</item>
+    <item id="c9" line="8157" tag="T">He gave the puma a punch, he almost killed him, it is said; he laid him</item>
+    <item id="c10" line="8158" tag="T">flat, that puma, it is said; he was shivering; with a lasso he tied him, that</item>
+    <item id="c11" line="8159" tag="T">puma. Pumas he grabbed, it is said, (a group of) ten pumas he grabbed, it</item>
+    <item id="c12" line="8160" tag="T+AC">is said.' (Bear Story)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+    <item id="p1" content="c3[0:68]"/>
+    <item id="p2" content="c5[0:52]"/>
+    <item id="p3" content="c7[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+    <item id="g1" content="c4[0:57]" alignment="p2"/>
+    <item id="g2" content="c6[0:42]" alignment="p3"/>
+    <item id="g3" content="c8[0:62]" alignment="p4"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:71]" alignment="p4"/>
+    <item id="t1" content="c10[0:77]" alignment="p4"/>
+    <item id="t2" content="c11[0:73]" alignment="p4"/>
+    <item id="t3" content="c12[0:22]" alignment="p4"/>
+  </tier>
+</igt>
+<igt id="i98469">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8167-8170" line-types="L G T T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8167" tag="L">  (24) on-da       ber nasion-ne kondenado k'o-cha-no-mono ch'aya</item>
+    <item id="o2" line="8168" tag="G">       that-LOC one nation-TOP condemned eat-DUR-NOM -HSAY people</item>
+    <item id="o3" line="8169" tag="T">       `There is another nation, one says, where the condemned is eating</item>
+    <item id="o4" line="8170" tag="T+AC">       people.' (Bear Story)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8167" tag="L">on-da       ber nasion-ne kondenado k'o-cha-no-mono ch'aya</item>
+    <item id="c2" line="8168" tag="G">that-LOC one nation-TOP condemned eat-DUR-NOM-HSAY people</item>
+    <item id="c3" line="8169" tag="T">There is another nation, one says, where the condemned is eating</item>
+    <item id="c4" line="8170" tag="T+AC">people.' (Bear Story)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:64]" alignment="p1"/>
+    <item id="t1" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98470">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8183-8189" line-types="L G+CR G+CR L G T T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8183" tag="L">  (25) baykia hep'aq-ne cho ki-no           ch'aya-ki  thah-no atspai-ki...</item>
+    <item id="o2" line="8184" tag="G+CR">                ant-TOP itch CAU-NOM people-DAT bite-NOM child-DAT</item>
+    <item id="o3" line="8185" tag="G+CR">       big</item>
+    <item id="o4" line="8186" tag="L">       ... thah-no yobas-ki-as         thah-no on      hep'aq</item>
+    <item id="o5" line="8187" tag="G">           bite-NOM man -DAT-also bite-NOM that ant</item>
+    <item id="o6" line="8188" tag="T">       `The big ant (type) makes one itch, it bites people, children; it bites, it</item>
+    <item id="o7" line="8189" tag="T+AC">       also bites men, that ant.' (Ant Story)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8183" tag="L">baykia hep'aq-ne cho ki-no           ch'aya-ki  thah-no atspai-ki...</item>
+    <item id="c2" line="8184 8185" tag="G+CR">big      ant-TOP itch CAU-NOM people-DAT bite-NOM child-DAT</item>
+    <item id="c4" line="8186" tag="L">thah-no yobas-ki-as         thah-no on      hep'aq</item>
+    <item id="c5" line="8187" tag="G">bite-NOM man-DAT-also bite-NOM that ant</item>
+    <item id="c6" line="8188" tag="T">The big ant (type) makes one itch, it bites people, children; it bites, it</item>
+    <item id="c7" line="8189" tag="T+AC">also bites men, that ant.' (Ant Story)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+    <item id="p1" content="c4[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+    <item id="g1" content="c5[0:39]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:74]" alignment="p2"/>
+    <item id="t1" content="c7[0:38]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i98471">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8197-8209" line-types="L G+CR G+CR L G L G L G T T T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8197" tag="L">  (26) chera hote-te-an ho lal-da               dañino-aya soboto on-ne...</item>
+    <item id="o2" line="8198" tag="G+CR">                with-MT-1PL this earth-LOC harmful-PL insect that-TOP</item>
+    <item id="o3" line="8199" tag="G+CR">       we</item>
+    <item id="o4" line="8200" tag="L">       ... on soboto-n kis-no-te           k'eso-ki kis-no-te        henwai-ki...</item>
+    <item id="o5" line="8201" tag="G">           that insect-TOP kill-NOM-MT snake-DAT kill-NOM -MT spider-DAT</item>
+    <item id="o6" line="8202" tag="L">       ... kibi kel-mo -cha -a -ra      k'eso-i       hap k'eso-i...</item>
+    <item id="o7" line="8203" tag="G">           he beat-REC-DUR-PP-LOC snake-COM hap snake-COM</item>
+    <item id="o8" line="8204" tag="L">       ... on-chka do-soh -in-kama-te               ni ha-ka on animal-ki...</item>
+    <item id="o9" line="8205" tag="G">           that-near 3O-look-NEG-be.able-MT not who-as that animal-DAT</item>
+    <item id="o10" line="8206" tag="T">       `We have in this region harmful creatures, one is the soboto; that soboto</item>
+    <item id="o11" line="8207" tag="T">       kills snakes, it kills spiders; at the moment it is fighting with a snake,</item>
+    <item id="o12" line="8208" tag="T">       with a hap snake from nearby no one can look at him, at that animal.'</item>
+    <item id="o13" line="8209" tag="M+AC">       (Soboto Story)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8197" tag="L">chera hote-te-an ho lal-da               dañino-aya soboto on-ne...</item>
+    <item id="c2" line="8198 8199" tag="G+CR">we       with-MT-1PL this earth-LOC harmful-PL insect that-TOP</item>
+    <item id="c4" line="8200" tag="L">on soboto-n kis-no-te           k'eso-ki kis-no-te        henwai-ki...</item>
+    <item id="c5" line="8201" tag="G">that insect-TOP kill-NOM-MT snake-DAT kill-NOM-MT spider-DAT</item>
+    <item id="c6" line="8202" tag="L">kibi kel-mo-cha-a-ra      k'eso-i       hap k'eso-i...</item>
+    <item id="c7" line="8203" tag="G">he beat-REC-DUR-PP-LOC snake-COM hap snake-COM</item>
+    <item id="c8" line="8204" tag="L">on-chka do-soh-in-kama-te               ni ha-ka on animal-ki...</item>
+    <item id="c9" line="8205" tag="G">that-near 3O-look-NEG-be.able-MT not who-as that animal-DAT</item>
+    <item id="c10" line="8206" tag="T">We have in this region harmful creatures, one is the soboto; that soboto</item>
+    <item id="c11" line="8207" tag="T">kills snakes, it kills spiders; at the moment it is fighting with a snake,</item>
+    <item id="c12" line="8208" tag="T">with a hap snake from nearby no one can look at him, at that animal.</item>
+    <item id="c13" line="8209" tag="M+AC">Soboto Story</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+    <item id="p1" content="c4[0:70]"/>
+    <item id="p2" content="c6[0:54]"/>
+    <item id="p3" content="c8[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+    <item id="g1" content="c5[0:60]" alignment="p2"/>
+    <item id="g2" content="c7[0:46]" alignment="p3"/>
+    <item id="g3" content="c9[0:59]" alignment="p4"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:72]" alignment="p4"/>
+    <item id="t1" content="c11[0:74]" alignment="p4"/>
+    <item id="t2" content="c12[0:68]" alignment="p4"/>
+  </tier>
+</igt>
+<igt id="i98472">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8226-8234" line-types="L G L G L G T T T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8226" tag="L">  (27) ne-no     taaq ber yobas, ber yobas-ne choswai-hote taaq-te...</item>
+    <item id="o2" line="8227" tag="G">       be-NOM PST one man one man-TOP woman-with PST-MT</item>
+    <item id="o3" line="8228" tag="L">       ... on yobas-ki, kibi nos lamkas-no taaq -te,...</item>
+    <item id="o4" line="8229" tag="G">           that man-DAT he far work-NOM PST-MT</item>
+    <item id="o5" line="8230" tag="L">       ...ko-moki choswai-ne nu-no taaq -te            ki-ich-ra...</item>
+    <item id="o6" line="8231" tag="G">           3SG-GEN woman-TOP-send NOM-PST.MT 3SG-field-LOC</item>
+    <item id="o7" line="8232" tag="T">       `Once there was a man, that man used to be with a wife (married), that</item>
+    <item id="o8" line="8233" tag="T">       man, he used to work far away, his wife used to send (him) to his/her</item>
+    <item id="o9" line="8234" tag="T+AC">       field.' (Bear Story)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8226" tag="L">ne-no     taaq ber yobas, ber yobas-ne choswai-hote taaq-te...</item>
+    <item id="c2" line="8227" tag="G">be-NOM PST one man one man-TOP woman-with PST-MT</item>
+    <item id="c3" line="8228" tag="L">on yobas-ki, kibi nos lamkas-no taaq-te,...</item>
+    <item id="c4" line="8229" tag="G">that man-DAT he far work-NOM PST-MT</item>
+    <item id="c5" line="8230" tag="L">...ko-moki choswai-ne nu-no taaq-te            ki-ich-ra...</item>
+    <item id="c6" line="8231" tag="G">3SG-GEN woman-TOP-send NOM-PST.MT 3SG-field-LOC</item>
+    <item id="c7" line="8232" tag="T">Once there was a man, that man used to be with a wife (married), that</item>
+    <item id="c8" line="8233" tag="T">man, he used to work far away, his wife used to send (him) to his/her</item>
+    <item id="c9" line="8234" tag="T+AC">field.' (Bear Story)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+    <item id="p1" content="c3[0:43]"/>
+    <item id="p2" content="c5[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+    <item id="g1" content="c4[0:35]" alignment="p2"/>
+    <item id="g2" content="c6[0:47]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:69]" alignment="p3"/>
+    <item id="t1" content="c8[0:69]" alignment="p3"/>
+    <item id="t2" content="c9[0:20]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i98473">
+  <metadata type="xigt-meta">
+    <meta type="language" name="leko" iso-639-3="lec" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2610" line-range="8255-8260" line-types="L G L G T T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8255" tag="L">  (28) ber mesa chika-la phel-a mesa-te sok'och chika-la soncho-no...</item>
+    <item id="o2" line="8256" tag="G">       one table very-well lay-PP table-LOC food very-well smell-NOM</item>
+    <item id="o3" line="8257" tag="L">       ...hichis-cho-no     tomaku     on     do-k'o-a-mono ka-te...</item>
+    <item id="o4" line="8258" tag="G">          hunger-DES-NOM               that 3O-eat-PP-HSAY be-MT</item>
+    <item id="o5" line="8259" tag="T">       `There was a table very well laid out, on the table food, very well it</item>
+    <item id="o6" line="8260" tag="T+AC">       smelled. He felt hungry, tomaku; he ate it, it is said.' (Bear Story)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8255" tag="L">ber mesa chika-la phel-a mesa-te sok'och chika-la soncho-no...</item>
+    <item id="c2" line="8256" tag="G">one table very-well lay-PP table-LOC food very-well smell-NOM</item>
+    <item id="c3" line="8257" tag="L">...hichis-cho-no     tomaku     on     do-k'o-a-mono ka-te...</item>
+    <item id="c4" line="8258" tag="G">hunger-DES-NOM               that 3O-eat-PP-HSAY be-MT</item>
+    <item id="c5" line="8259" tag="T">There was a table very well laid out, on the table food, very well it</item>
+    <item id="c6" line="8260" tag="T+AC">smelled. He felt hungry, tomaku; he ate it, it is said.' (Bear Story)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+    <item id="p1" content="c3[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+    <item id="g1" content="c4[0:54]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:69]" alignment="p2"/>
+    <item id="t1" content="c6[0:69]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

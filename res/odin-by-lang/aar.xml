@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i135203">
+  <metadata type="xigt-meta">
+    <meta type="language" name="qafar" iso-639-3="aar" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2369" line-range="3265-3269" line-types="M+LN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3265" tag="M+LN">         [Qafar]</item>
+    <item id="o2" line="3266" tag="L">  (47)   Lubak-kee            yanguli                yumbulle.</item>
+    <item id="o3" line="3267" tag="G+CR">         Lion.M.SG.ABS-and hyena.M.SG.               was-seen.M.</item>
+    <item id="o4" line="3268" tag="G+CR">                                           NOM                    SG</item>
+    <item id="o5" line="3269" tag="T">         `A lion and a hyena were seen.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3265" tag="M+LN">[Qafar]</item>
+    <item id="c2" line="3266" tag="L">Lubak-kee            yanguli                yumbulle.</item>
+    <item id="c3" line="3267 3268" tag="G+CR">Lion.M.SG.ABS-and hyena.M.SG.     NOM       was-seen.M.  SG</item>
+    <item id="c5" line="3269" tag="T">A lion and a hyena were seen.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i135204">
+  <metadata type="xigt-meta">
+    <meta type="language" name="qafar" iso-639-3="aar" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2369" line-range="3273-3275" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3273" tag="L">  (48)   Mi      ke     le     ta</item>
+    <item id="o2" line="3274" tag="G">         I       and he        sit.SG</item>
+    <item id="o3" line="3275" tag="T">         `I and he sit'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3273" tag="L">Mi      ke     le     ta</item>
+    <item id="c2" line="3274" tag="G">I       and he        sit.SG</item>
+    <item id="c3" line="3275" tag="T">I and he sit</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

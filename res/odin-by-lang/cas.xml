@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i144286">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mosetén" iso-639-3="cas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1586" line-range="45-48" line-types="M+AC+LN L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="45" tag="M+AC+LN">  (2) Mosetén (Jeanette Sakel, p.c.)</item>
+    <item id="o2" line="46" tag="L+DB">     a. yäe chhi-ye-'                              b. jam yäe chhi-ye-'</item>
+    <item id="o3" line="47" tag="G+DB">        I     know-VBLZ -3.F.OBJ                      NEG I       know-VBLZ -3.F.OBJ</item>
+    <item id="o4" line="48" tag="T+DB">        `I know her/it.'                              `I don't know her/it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="45" tag="M+AC+LN">Mosetén (Jeanette Sakel, p.c.</item>
+    <item id="c2" line="46" tag="L+DB">yäe chhi-ye-'                              b. jam yäe chhi-ye-</item>
+    <item id="c3" line="47" tag="G+DB">I     know-VBLZ-3.F.OBJ                      NEG I       know-VBLZ-3.F.OBJ</item>
+    <item id="c4" line="48" tag="T+DB">I know her/it.'                              `I don't know her/it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i144310">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mosetén" iso-639-3="cas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1586" line-range="347-351" line-types="M+AC+LN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="347" tag="M+AC+LN">  (18) Mosetén (Sakel 2003: 278, 304, 309­310)</item>
+    <item id="o2" line="348" tag="L">     a. anik      raej mö'-yä' saeks-e-dye-s,            jeb-a-k-dye'-in</item>
+    <item id="o3" line="349" tag="G+CR">                  all 3.F-ADE eat-VBLZ -BEN -F.SUBJ eat-VBLZ -MDL-NMLZ -PL</item>
+    <item id="o4" line="350" tag="G+CR">        EMPH</item>
+    <item id="o5" line="351" tag="T">        `Certainly all was here to eat, animals.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="347" tag="M+AC+LN">Mosetén (Sakel 2003: 278, 304, 309­310</item>
+    <item id="c2" line="348" tag="L">anik      raej mö'-yä' saeks-e-dye-s,            jeb-a-k-dye'-in</item>
+    <item id="c3" line="349 350" tag="G+CR">EMPH      all 3.F-ADE eat-VBLZ-BEN-F.SUBJ eat-VBLZ-MDL-NMLZ-PL</item>
+    <item id="c5" line="351" tag="T">Certainly all was here to eat, animals.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i144311">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mosetén" iso-639-3="cas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1586" line-range="352-354" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="352" tag="L">     b. anik-dyaj mï'ïn bis-te                     sheshejwintyi'?</item>
+    <item id="o2" line="353" tag="G">        EMPH -Q      2PL     wait-VBLZ .3.M .OBJ creator</item>
+    <item id="o3" line="354" tag="T">        `Are you waiting for the creator?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="352" tag="L">anik-dyaj mï'ïn bis-te                     sheshejwintyi'?</item>
+    <item id="c2" line="353" tag="G">EMPH-Q      2PL     wait-VBLZ .3.M .OBJ creator</item>
+    <item id="c3" line="354" tag="T">Are you waiting for the creator?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i144312">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mosetén" iso-639-3="cas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1586" line-range="355-357" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="355" tag="L">     c. mi rai's-e-'                khösh-ï-'</item>
+    <item id="o2" line="356" tag="G">        2SG want-VBLZ -3.F.OBJ sleep-VBLZ -F.SUBJ</item>
+    <item id="o3" line="357" tag="T">        `You want to sleep.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="355" tag="L">mi rai's-e-'                khösh-ï-</item>
+    <item id="c2" line="356" tag="G">2SG want-VBLZ-3.F.OBJ sleep-VBLZ-F.SUBJ</item>
+    <item id="c3" line="357" tag="T">You want to sleep.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i144313">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mosetén" iso-639-3="cas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1586" line-range="358-360" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="358" tag="L">     d. me'-dyaj mi rai's-e-'                   khösh-ï-'?</item>
+    <item id="o2" line="359" tag="G">        so-Q         2SG want-VBLZ -3.F.OBJ sleep-VBLZ -F.SUBJ</item>
+    <item id="o3" line="360" tag="T">        `Do you want to sleep?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="358" tag="L">me'-dyaj mi rai's-e-'                   khösh-ï-'?</item>
+    <item id="c2" line="359" tag="G">so-Q         2SG want-VBLZ-3.F.OBJ sleep-VBLZ-F.SUBJ</item>
+    <item id="c3" line="360" tag="T">Do you want to sleep?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i144314">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mosetén" iso-639-3="cas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1586" line-range="361-363" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="361" tag="L">     e. rai's-e-'-dyaj           khösh-ï-'-mi?</item>
+    <item id="o2" line="362" tag="G">        want-VBLZ -3.F.OBJ-Q sleep-VBLZ -F.SUBJ-2SG</item>
+    <item id="o3" line="363" tag="T">        `Do you want to sleep?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="361" tag="L">rai's-e-'-dyaj           khösh-ï-'-mi?</item>
+    <item id="c2" line="362" tag="G">want-VBLZ-3.F.OBJ-Q sleep-VBLZ-F.SUBJ-2SG</item>
+    <item id="c3" line="363" tag="T">Do you want to sleep?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i144315">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mosetén" iso-639-3="cas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1586" line-range="364-366" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="364" tag="L">     f. jam-dyaj mi näi-tye-'                elena?</item>
+    <item id="o2" line="365" tag="G">        NEG -Q       2SG see-APPL-3.F.OBJ Elena</item>
+    <item id="o3" line="366" tag="T">        `Haven't you seen Elena?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="364" tag="L">jam-dyaj mi näi-tye-'                elena?</item>
+    <item id="c2" line="365" tag="G">NEG-Q       2SG see-APPL-3.F.OBJ Elena</item>
+    <item id="c3" line="366" tag="T">Haven't you seen Elena?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

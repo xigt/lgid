@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i30294">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cherokee" iso-639-3="chr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="32.txt" line-range="143-146" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="143" tag="M+LN">  (6)   Cherokee</item>
+    <item id="o2" line="144" tag="L">        a. (pro) ganulv-hi ges-sv?i.</item>
+    <item id="o3" line="145" tag="G">           (it) grass-LOC be.3sg-PAST</item>
+    <item id="o4" line="146" tag="T">           `It was in the grass.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="143" tag="M+LN">Cherokee</item>
+    <item id="c2" line="144" tag="L">(pro) ganulv-hi ges-sv?i.</item>
+    <item id="c3" line="145" tag="G">(it) grass-LOC be.3sg-PAST</item>
+    <item id="c4" line="146" tag="T">It was in the grass.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30295">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cherokee" iso-639-3="chr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="32.txt" line-range="147-149" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="147" tag="L">        b. Asgaya ganulv-hi igi.</item>
+    <item id="o2" line="148" tag="G">           a man grass-LOC be.3sg-PRES</item>
+    <item id="o3" line="149" tag="T">           `A man is in the grass.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="147" tag="L">Asgaya ganulv-hi igi.</item>
+    <item id="c2" line="148" tag="G">a man grass-LOC be.3sg-PRES</item>
+    <item id="c3" line="149" tag="T">A man is in the grass.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30296">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cherokee" iso-639-3="chr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="32.txt" line-range="150-153" line-types="L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="150" tag="L">        c. *THERE asgaya ganulv-hi ges-sv?i.</item>
+    <item id="o2" line="151" tag="G">           there     a man grass-LOC be.3sg-PAST</item>
+    <item id="o3" line="152" tag="B"></item>
+    <item id="o4" line="153" tag="T">                    «There was a man in the garden.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="150" tag="L">*THERE asgaya ganulv-hi ges-sv?i.</item>
+    <item id="c2" line="151" tag="G">there     a man grass-LOC be.3sg-PAST</item>
+    <item id="c3" line="152" tag="B"/>
+    <item id="c4" line="153" tag="T">«There was a man in the garden.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49120">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cherokee" iso-639-3="chr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7962-7963" line-types="M+AC+LN L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7962" tag="M+AC+LN">  (160) Cherokee (Iroquoi,   Southern), (Haas 1948: 244)</item>
+    <item id="o2" line="7963" tag="L-T">  a.     cì-ahsî              `I gave [a round object]'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7962" tag="M+AC+LN">Cherokee (Iroquoi,   Southern), (Haas 1948: 244</item>
+    <item id="c2" line="7963" tag="L-T">cì-ahsî              `I gave [a round object]</item>
+  </tier>
+</igt>
+<igt id="i49121">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cherokee" iso-639-3="chr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7964-7964" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7964" tag="L-T">  b.     cii-tíìsi            `I gave [a long object]'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7964" tag="L-T">cii-tíìsi            `I gave [a long object]</item>
+  </tier>
+</igt>
+<igt id="i49122">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cherokee" iso-639-3="chr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7965-7965" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7965" tag="L-T">  c.     cii-náhsi            `I gave [flexible object]'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7965" tag="L-T">cii-náhsi            `I gave [flexible object]</item>
+  </tier>
+</igt>
+<igt id="i49123">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cherokee" iso-639-3="chr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7966-7966" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7966" tag="L-T">  d.     cii-neáhsi           `I gave [container with liquid contents]'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7966" tag="L-T">cii-neáhsi           `I gave [container with liquid contents]</item>
+  </tier>
+</igt>
+<igt id="i49124">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cherokee" iso-639-3="chr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7967-7967" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7967" tag="L-T">  e.     cii-yáàk'áàsi        `I gave [living being-non-human]'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7967" tag="L-T">cii-yáàk'áàsi        `I gave [living being-non-human]</item>
+  </tier>
+</igt>
+<igt id="i108272">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cherokee" iso-639-3="chr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="919" line-range="2262-2264" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2262" tag="L">  (1)      gaasgiloo-gi      aa-hla                                nvvy</item>
+    <item id="o2" line="2263" tag="G">           chair-LOC         3SG-be.on.raised.surface              rock</item>
+    <item id="o3" line="2264" tag="T">           `The rock is on the chair.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2262" tag="L">gaasgiloo-gi      aa-hla                                nvvy</item>
+    <item id="c2" line="2263" tag="G">chair-LOC         3SG-be.on.raised.surface              rock</item>
+    <item id="c3" line="2264" tag="T">The rock is on the chair.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i108273">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cherokee" iso-639-3="chr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="919" line-range="2265-2267" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2265" tag="L">  (2)      gaasgiloo-gi       agvydiila       aa-h                          nvvy</item>
+    <item id="o2" line="2266" tag="G">           chair-LOC          in front        3SG-be.on.ground              rock</item>
+    <item id="o3" line="2267" tag="T">           `The rock is (on the ground) in front of the chair.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2265" tag="L">gaasgiloo-gi       agvydiila       aa-h                          nvvy</item>
+    <item id="c2" line="2266" tag="G">chair-LOC          in front        3SG-be.on.ground              rock</item>
+    <item id="c3" line="2267" tag="T">The rock is (on the ground) in front of the chair.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

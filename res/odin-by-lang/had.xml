@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i105508">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="6-8" line-types="L+SY G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6" tag="L+SY">  (1)     Dani di-pui         sut I    kob I di I  jo     ei riei      nggup #</item>
+    <item id="o2" line="7" tag="G+CR">          I      iSG-tell abou t sago REL be at Prafi river.mout h</item>
+    <item id="o3" line="8" tag="T+CR">          I will tell abou t th e sago (swamp) whic h lies at th e mout h of th e Prafi.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6" tag="L+SY">Dani di-pui         sut I    kob I di I  jo     ei riei      nggup #</item>
+    <item id="c2" line="7" tag="G+CR">I      iSG-tell abou t sago REL be at Prafi river.mout h</item>
+    <item id="c3" line="8" tag="T+CR">I will tell abou t th e sago (swamp) whic h lies at th e mout h of th e Prafi.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:78]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105509">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="10-15" line-types="L+SY G L+SY G T+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10" tag="L+SY">  (2)     Ni-mbud-reu-si              kob      di     jo      ei    riei  nggup I</item>
+    <item id="o2" line="11" tag="G">          3SG-walk-from-NOM           sago     REL     be     at    Prafi river.mout h</item>
+    <item id="o3" line="12" tag="L+SY">           di-no        mim-pui      kwas      mem I        kret      Tinam-nya #</item>
+    <item id="o4" line="13" tag="G">           REL-3SG      NOM-tell     divid e   for          tribe    Tinam-PL</item>
+    <item id="o5" line="14" tag="T+CR">          Th e place of origin of sago whic h is at the mout h of th e Prafi, whic h Story hande d out to the</item>
+    <item id="o6" line="15" tag="T">          tribe of Hatam.2</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10" tag="L+SY">Ni-mbud-reu-si              kob      di     jo      ei    riei  nggup I</item>
+    <item id="c2" line="11" tag="G">3SG-walk-from-NOM           sago     REL     be     at    Prafi river.mout h</item>
+    <item id="c3" line="12" tag="L+SY">di-no        mim-pui      kwas      mem I        kret      Tinam-nya #</item>
+    <item id="c4" line="13" tag="G">REL-3SG      NOM-tell     divid e   for          tribe    Tinam-PL</item>
+    <item id="c5" line="14" tag="T+CR">Th e place of origin of sago whic h is at the mout h of th e Prafi, whic h Story hande d out to the</item>
+    <item id="c6" line="15" tag="T">tribe of Hatam.2</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+    <item id="p1" content="c3[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+    <item id="g1" content="c4[0:66]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:99]" alignment="p2"/>
+    <item id="t1" content="c6[0:16]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105510">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="23-25" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="23" tag="L">  (3)     Yai bahak / bahak / yai bahak mim-pui sob     di  ni-nyeng pia  Ntaig #</item>
+    <item id="o2" line="24" tag="G">          take to     to       take to  NOM-tell woma n REL 3SG-name QUOT Ntaig</item>
+    <item id="o3" line="25" tag="T">          He gave it to a mythological woman whose name was Ntaig.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="23" tag="L">Yai bahak / bahak / yai bahak mim-pui sob     di  ni-nyeng pia  Ntaig #</item>
+    <item id="c2" line="24" tag="G">take to     to       take to  NOM-tell woma n REL 3SG-name QUOT Ntaig</item>
+    <item id="c3" line="25" tag="T">He gave it to a mythological woman whose name was Ntaig.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105511">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="27-29" line-types="L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="27" tag="L">  (4)     Ntaig      di-ni       mbut       leu I    mbut leu          ne-te    hag           Siriop kin         Rina #</item>
+    <item id="o2" line="28" tag="G">          Ntaig      REL-this    walk        from    walk from         3SG-side rock          Sirio p wit h      Lina</item>
+    <item id="o3" line="29" tag="T+CR">          Thi s Ntaig left, she went away from her area, the rock formations Sirio p an d Lina.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="27" tag="L">Ntaig      di-ni       mbut       leu I    mbut leu          ne-te    hag           Siriop kin         Rina #</item>
+    <item id="c2" line="28" tag="G">Ntaig      REL-this    walk        from    walk from         3SG-side rock          Sirio p wit h      Lina</item>
+    <item id="c3" line="29" tag="T+CR">Thi s Ntaig left, she went away from her area, the rock formations Sirio p an d Lina.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:109]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:107]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:85]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105512">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="31-36" line-types="L G+CR L G+CR T+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="31" tag="L">  (5)     Hak Siriop          kin       Rina      ig-yai           mi-sob/            Ntaig    di-ni I</item>
+    <item id="o2" line="32" tag="G+CR">          rock Sirio p        wit h     Lina       3PL-take        NOM-woman          Ntaig    REL-this</item>
+    <item id="o3" line="33" tag="L">          mi-i-ndo               bag      nungugw          Kibreibou #</item>
+    <item id="o4" line="34" tag="G+CR">          POST-3PL-show          to       mountai n        Kibreibou</item>
+    <item id="o5" line="35" tag="T+CR">          Th e rock formations Siriop an d Lina took thi s woma n Ntaig an d showe d her to th e mountai n</item>
+    <item id="o6" line="36" tag="T">          Kibreibou (= they offered her to Kibreibou as bride.).3</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="31" tag="L">Hak Siriop          kin       Rina      ig-yai           mi-sob/            Ntaig    di-ni I</item>
+    <item id="c2" line="32" tag="G+CR">rock Sirio p        wit h     Lina       3PL-take        NOM-woman          Ntaig    REL-this</item>
+    <item id="c3" line="33" tag="L">mi-i-ndo               bag      nungugw          Kibreibou #</item>
+    <item id="c4" line="34" tag="G+CR">POST-3PL-show          to       mountai n        Kibreibou</item>
+    <item id="c5" line="35" tag="T+CR">Th e rock formations Siriop an d Lina took thi s woma n Ntaig an d showe d her to th e mountai n</item>
+    <item id="c6" line="36" tag="T">Kibreibou (= they offered her to Kibreibou as bride.).3</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:92]"/>
+    <item id="p1" content="c3[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:93]" alignment="p1"/>
+    <item id="g1" content="c4[0:58]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:96]" alignment="p2"/>
+    <item id="t1" content="c6[0:55]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105513">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="38-40" line-types="L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="38" tag="L">  (6)     Lene    nungugw             Kibreibou      rok        mi-sop                ni-nyeng         Ntaig #</item>
+    <item id="o2" line="39" tag="G+CR">          the n   mountai n           Kibreibou       pus h     NOM-woman             3SG-name         Ntaig</item>
+    <item id="o3" line="40" tag="T+CR">          The n th e Kibreibou mountai n rejected th e woma n wit h the nam e Ntaig.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="38" tag="L">Lene    nungugw             Kibreibou      rok        mi-sop                ni-nyeng         Ntaig #</item>
+    <item id="c2" line="39" tag="G+CR">the n   mountai n           Kibreibou       pus h     NOM-woman             3SG-name         Ntaig</item>
+    <item id="c3" line="40" tag="T+CR">The n th e Kibreibou mountai n rejected th e woma n wit h the nam e Ntaig.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:100]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:98]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105514">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="42-46" line-types="L G+CR L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="42" tag="L">  (7)     Api-no    ngges        kob I      ei    minu        di I   dihyei       di        i-jem</item>
+    <item id="o2" line="43" tag="G+CR">          then-3S G leave        sago       at    plac e      REL    groun d      REL       3PL-call</item>
+    <item id="o3" line="44" tag="L">          Binigrin I kin Bikekbei #</item>
+    <item id="o4" line="45" tag="G+CR">          Binigrin wit h Bikekbei</item>
+    <item id="o5" line="46" tag="T+CR">          So sh e droppe d sago at the place, at th e groun d calle d Binigrin an d Bikekbei.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="42" tag="L">Api-no    ngges        kob I      ei    minu        di I   dihyei       di        i-jem</item>
+    <item id="c2" line="43" tag="G+CR">then-3S G leave        sago       at    plac e      REL    groun d      REL       3PL-call</item>
+    <item id="c3" line="44" tag="L">Binigrin I kin Bikekbei #</item>
+    <item id="c4" line="45" tag="G+CR">Binigrin wit h Bikekbei</item>
+    <item id="c5" line="46" tag="T+CR">So sh e droppe d sago at the place, at th e groun d calle d Binigrin an d Bikekbei.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:87]"/>
+    <item id="p1" content="c3[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:90]" alignment="p1"/>
+    <item id="g1" content="c4[0:23]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:83]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105515">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="48-52" line-types="L G+CR L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="48" tag="L">  (8)     Hak Siriop cug               hanyen       ug     wak        nungugw         di</item>
+    <item id="o2" line="49" tag="G+CR">          rock Sirio p order           anew         go     marr y     mountai n       REL</item>
+    <item id="o3" line="50" tag="L">          i-jem         ni-nyeng         Siti     ri #</item>
+    <item id="o4" line="51" tag="G">          3PL-call      3SG-name         Siti     FOC</item>
+    <item id="o5" line="52" tag="T+CR">          Th e Siriop rock ordered her to go an d marr y th e mountai n called Siti,4)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="48" tag="L">Hak Siriop cug               hanyen       ug     wak        nungugw         di</item>
+    <item id="c2" line="49" tag="G+CR">rock Sirio p order           anew         go     marr y     mountai n       REL</item>
+    <item id="c3" line="50" tag="L">i-jem         ni-nyeng         Siti     ri #</item>
+    <item id="c4" line="51" tag="G">3PL-call      3SG-name         Siti     FOC</item>
+    <item id="c5" line="52" tag="T+CR">Th e Siriop rock ordered her to go an d marr y th e mountai n called Siti,4)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+    <item id="p1" content="c3[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:79]" alignment="p1"/>
+    <item id="g1" content="c4[0:43]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:76]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105516">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="54-59" line-types="L G+CR L G+CR T+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="54" tag="L">  (9)     Siti I lene     mi-sop                  ma       ndab      mpo      tut      kob      hanyen/</item>
+    <item id="o2" line="55" tag="G+CR">          siti the n      NOM-woman               that     han d     tired    wit h   sago     ane w</item>
+    <item id="o3" line="56" tag="L">          ngges      hanyen     i-jem            pi I      ngges     hanyen      ei    dihyei-a          ti #</item>
+    <item id="o4" line="57" tag="G+CR">          dro p      ane w       3PL-call        QUOT      dro p     ane w       at    ground-CI T       LOC</item>
+    <item id="o5" line="58" tag="T+CR">          At Siti, the n that woman' s han d got tired5 of th e sago again, sh e droppe d it again at wha t is</item>
+    <item id="o6" line="59" tag="T+CR">          called, droppe d it again into th e ground .</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="54" tag="L">Siti I lene     mi-sop                  ma       ndab      mpo      tut      kob      hanyen/</item>
+    <item id="c2" line="55" tag="G+CR">siti the n      NOM-woman               that     han d     tired    wit h   sago     ane w</item>
+    <item id="c3" line="56" tag="L">ngges      hanyen     i-jem            pi I      ngges     hanyen      ei    dihyei-a          ti #</item>
+    <item id="c4" line="57" tag="G+CR">dro p      ane w       3PL-call        QUOT      dro p     ane w       at    ground-CI T       LOC</item>
+    <item id="c5" line="58" tag="T+CR">At Siti, the n that woman' s han d got tired5 of th e sago again, sh e droppe d it again at wha t is</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:93]"/>
+    <item id="p1" content="c3[0:99]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:90]" alignment="p1"/>
+    <item id="g1" content="c4[0:98]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:100]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105517">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="68-70" line-types="L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="68" tag="L">  (10)     Lene     minu       di-ma         wer        igkrop #</item>
+    <item id="o2" line="69" tag="G">           the n    place      REL-that      near       mu d</item>
+    <item id="o3" line="70" tag="T+CR">           The n that place becam e rather muddy .</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="68" tag="L">Lene     minu       di-ma         wer        igkrop #</item>
+    <item id="c2" line="69" tag="G">the n    place      REL-that      near       mu d</item>
+    <item id="c3" line="70" tag="T+CR">The n that place becam e rather muddy .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105518">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="72-74" line-types="L+SY G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="72" tag="L+SY">  (11)     Api     i-jem         ni-nyeng           Dum I          Ansui      dumandam #</item>
+    <item id="o2" line="73" tag="G">           so       3PL-call     3SG-name           Dum            Ansu i     Dumanda m</item>
+    <item id="o3" line="74" tag="T+CR">           So they call it Dum, Ansu i dumandam.               6</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="72" tag="L+SY">Api     i-jem         ni-nyeng           Dum I          Ansui      dumandam #</item>
+    <item id="c2" line="73" tag="G">so       3PL-call     3SG-name           Dum            Ansu i     Dumanda m</item>
+    <item id="c3" line="74" tag="T+CR">So they call it Dum, Ansu i dumandam.               6</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105519">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="77-79" line-types="L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="77" tag="L">  (12)     Mbut bu            leu       nungugw         Siti       kou         mi-sop           ma     hanyen #</item>
+    <item id="o2" line="78" tag="G+CR">           walk again         from      mountai n       Siti       refuse      NOM-woman        that   ane w</item>
+    <item id="o3" line="79" tag="T+CR">           She walk on again becaus e the mountai n Siti refused that woma n again.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="77" tag="L">Mbut bu            leu       nungugw         Siti       kou         mi-sop           ma     hanyen #</item>
+    <item id="c2" line="78" tag="G+CR">walk again         from      mountai n       Siti       refuse      NOM-woman        that   ane w</item>
+    <item id="c3" line="79" tag="T+CR">She walk on again becaus e the mountai n Siti refused that woma n again.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:100]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:97]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:72]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105520">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="81-83" line-types="L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="81" tag="L">  (13)     Lene      yai bak         bi-wak             nungugw             di     i-jem        ni-nyeng   Ndon #</item>
+    <item id="o2" line="82" tag="G+CR">           the n     take to         PUR-marry          mountai n           REL     3PL-call    3SG-name   Ndo n</item>
+    <item id="o3" line="83" tag="T+CR">           The n (Siti) gave her to marr y the mountai n called Ndon.                 7</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="81" tag="L">Lene      yai bak         bi-wak             nungugw             di     i-jem        ni-nyeng   Ndon #</item>
+    <item id="c2" line="82" tag="G+CR">the n     take to         PUR-marry          mountai n           REL     3PL-call    3SG-name   Ndo n</item>
+    <item id="c3" line="83" tag="T+CR">The n (Siti) gave her to marr y the mountai n called Ndon.                 7</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:102]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:101]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:76]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105521">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="86-88" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="86" tag="L">  (14)     Ndo I ndo           bak Ndon #</item>
+    <item id="o2" line="87" tag="G+CR">           sho w show         to   Ndo n</item>
+    <item id="o3" line="88" tag="T">           He showed her to Ndon .</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="86" tag="L">Ndo I ndo           bak Ndon #</item>
+    <item id="c2" line="87" tag="G+CR">sho w show         to   Ndo n</item>
+    <item id="c3" line="88" tag="T">He showed her to Ndon .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105522">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="90-92" line-types="L+SY G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="90" tag="L+SY">  (15)     Ndon       pai      bi-pia            dani       lene I         andigpoi ri #</item>
+    <item id="o2" line="91" tag="G+CR">           Ndo n      say      PUR-QUOT          I          the n          old.ma n   FOC</item>
+    <item id="o3" line="92" tag="T+CR">           Ndo n said: I am an old man .</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="90" tag="L+SY">Ndon       pai      bi-pia            dani       lene I         andigpoi ri #</item>
+    <item id="c2" line="91" tag="G+CR">Ndo n      say      PUR-QUOT          I          the n          old.ma n   FOC</item>
+    <item id="c3" line="92" tag="T+CR">Ndo n said: I am an old man .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:78]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105523">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="94-96" line-types="L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="94" tag="L">  (16)     Lene     sop-nya           mi-i-wak                     dani     ser        au #</item>
+    <item id="o2" line="95" tag="G+CR">           the n    woman-PL          POST-3PL-marry               I         block.off don' t</item>
+    <item id="o3" line="96" tag="T+CR">           So wome n shoul d no t marr y me at the exclusio n of other s</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="94" tag="L">Lene     sop-nya           mi-i-wak                     dani     ser        au #</item>
+    <item id="c2" line="95" tag="G+CR">the n    woman-PL          POST-3PL-marry               I         block.off don' t</item>
+    <item id="c3" line="96" tag="T+CR">So wome n shoul d no t marr y me at the exclusio n of other s</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:82]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105524">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="98-100" line-types="L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="98" tag="L">  (17)     Ne        yai       bak di-munggwom-bat nungugw     gahai-gahai-nya #</item>
+    <item id="o2" line="99" tag="G+CR">           the n    take      to   lSG-child-COLL  mopuntai n around-RED-PL</item>
+    <item id="o3" line="100" tag="T+CR">           So give her to my childre n scattered aroun d (me).</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="98" tag="L">Ne        yai       bak di-munggwom-bat nungugw     gahai-gahai-nya #</item>
+    <item id="c2" line="99" tag="G+CR">the n    take      to   lSG-child-COLL  mopuntai n around-RED-PL</item>
+    <item id="c3" line="100" tag="T+CR">So give her to my childre n scattered aroun d (me).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105525">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="102-104" line-types="L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="102" tag="L">  (18)    Api-no       ndo        bak      nungugw        Gurigbou #</item>
+    <item id="o2" line="103" tag="G+CR">          so-3SG       sho w     to        mountai n      gurigbou</item>
+    <item id="o3" line="104" tag="T+CR">           So he showed her to th e mountai n Gurigbou.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="102" tag="L">Api-no       ndo        bak      nungugw        Gurigbou #</item>
+    <item id="c2" line="103" tag="G+CR">so-3SG       sho w     to        mountai n      gurigbou</item>
+    <item id="c3" line="104" tag="T+CR">So he showed her to th e mountai n Gurigbou.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105526">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="106-108" line-types="L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="106" tag="L">  (19)     Lene     Gurigbou         ni-ngon        sibui          sut #</item>
+    <item id="o2" line="107" tag="G+CR">           the n    gurigbou         3SG-heart      twist          wit h</item>
+    <item id="o3" line="108" tag="T+CR">           The n Gurigbou got angry wit h (her, Ndon; not certai n wh o he got angry with) .</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="106" tag="L">Lene     Gurigbou         ni-ngon        sibui          sut #</item>
+    <item id="c2" line="107" tag="G+CR">the n    gurigbou         3SG-heart      twist          wit h</item>
+    <item id="c3" line="108" tag="T+CR">The n Gurigbou got angry wit h (her, Ndon; not certai n wh o he got angry with) .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:81]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105527">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="110-120" line-types="L G+CR B M M B B L G T+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="110" tag="L">  (20)    Api-no      yai        tig        leu   mug              las I       bi-hwen I Ruigbou I</item>
+    <item id="o2" line="111" tag="G+CR">          so-3SG       take       ston e     from sea               beach      PUR-throw Gurigbou</item>
+    <item id="o3" line="112" tag="B"></item>
+    <item id="o4" line="113" tag="M">  6Ihave no meaning for these names.</item>
+    <item id="o5" line="114" tag="M">   Ndon is the Hatam name for what in Indonesian is referred to as 'mountain Arfak', the highest peak of this range.</item>
+    <item id="o6" line="115" tag="B">  7</item>
+    <item id="o7" line="116" tag="B"></item>
+    <item id="o8" line="117" tag="L">         Ndon #      bi-hwen          Ndon-a #</item>
+    <item id="o9" line="118" tag="G">         Ndon        PUR-throw        Ndon-CIT</item>
+    <item id="o10" line="119" tag="T+CR">         Therefore he took a stone from the beac h to hur l it at Huigbou (this is a mistake), at Ndon, to hur l</item>
+    <item id="o11" line="120" tag="T">         it at Ndon .</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="110" tag="L">Api-no      yai        tig        leu   mug              las I       bi-hwen I Ruigbou I</item>
+    <item id="c2" line="111" tag="G+CR">so-3SG       take       ston e     from sea               beach      PUR-throw Gurigbou</item>
+    <item id="c3" line="112" tag="B"/>
+    <item id="c4" line="113" tag="M">6Ihave no meaning for these names.</item>
+    <item id="c5" line="114" tag="M">Ndon is the Hatam name for what in Indonesian is referred to as 'mountain Arfak', the highest peak of this range.</item>
+    <item id="c6" line="115" tag="B">7</item>
+    <item id="c7" line="116" tag="B"/>
+    <item id="c8" line="117" tag="L">Ndon #      bi-hwen          Ndon-a #</item>
+    <item id="c9" line="118" tag="G">Ndon        PUR-throw        Ndon-CIT</item>
+    <item id="c10" line="119" tag="T+CR">Therefore he took a stone from the beac h to hur l it at Huigbou (this is a mistake), at Ndon, to hur l</item>
+    <item id="c11" line="120" tag="T">it at Ndon .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:88]"/>
+    <item id="p1" content="c8[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:87]" alignment="p1"/>
+    <item id="g1" content="c9[0:37]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:103]" alignment="p2"/>
+    <item id="t1" content="c11[0:12]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105528">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="122-124" line-types="L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="122" tag="L">  (21)   Api-no      Ndon-a           ni-bou       re #</item>
+    <item id="o2" line="123" tag="G">         so-3SG      Ndon-CIT         3SG-head     bald</item>
+    <item id="o3" line="124" tag="T+CR">         So the mountai n Arfak is bald .</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="122" tag="L">Api-no      Ndon-a           ni-bou       re #</item>
+    <item id="c2" line="123" tag="G">so-3SG      Ndon-CIT         3SG-head     bald</item>
+    <item id="c3" line="124" tag="T+CR">So the mountai n Arfak is bald .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105529">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="126-130" line-types="L G L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="126" tag="L">  (22)   Nogindini       tig      di-ma          no        jo      ei    kak       minyei</item>
+    <item id="o2" line="127" tag="G">         no w             stone   REL-that       3SG       be      at   track      wate r</item>
+    <item id="o3" line="128" tag="L">         di       i-jem    ni-nyeng          Pumbwem #</item>
+    <item id="o4" line="129" tag="G">         REL      3PL-call 3SG-name          Pumbwe m</item>
+    <item id="o5" line="130" tag="T+CR">         Nowaday s tha t ston e lies along th e river called Pumbwem .</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="126" tag="L">Nogindini       tig      di-ma          no        jo      ei    kak       minyei</item>
+    <item id="c2" line="127" tag="G">no w             stone   REL-that       3SG       be      at   track      wate r</item>
+    <item id="c3" line="128" tag="L">di       i-jem    ni-nyeng          Pumbwem #</item>
+    <item id="c4" line="129" tag="G">REL      3PL-call 3SG-name          Pumbwe m</item>
+    <item id="c5" line="130" tag="T+CR">Nowaday s tha t ston e lies along th e river called Pumbwem .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+    <item id="p1" content="c3[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:80]" alignment="p1"/>
+    <item id="g1" content="c4[0:44]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:61]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105530">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="132-134" line-types="L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="132" tag="L">  (23)   Lene tig          di-ma        i-jem        pia         Pubwem         t/g #</item>
+    <item id="o2" line="133" tag="G+CR">         the n ston e      REL-that     3PL-call     QUOT        Pubwe m        ston e</item>
+    <item id="o3" line="134" tag="T+CR">         So tha t ston e is called th e Pubwe m stone .</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="132" tag="L">Lene tig          di-ma        i-jem        pia         Pubwem         t/g #</item>
+    <item id="c2" line="133" tag="G+CR">the n ston e      REL-that     3PL-call     QUOT        Pubwe m        ston e</item>
+    <item id="c3" line="134" tag="T+CR">So tha t ston e is called th e Pubwe m stone .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:77]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105531">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="136-140" line-types="L G+CR L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="136" tag="L">  (24)   Lene Ndon I Ndon            ni-ngon       sibui     sut I</item>
+    <item id="o2" line="137" tag="G+CR">         the n Ndo n Ndon            3SG-heart     twist     wit h</item>
+    <item id="o3" line="138" tag="L">         lene    yai       awidou         leu       minu        ni-nyeng        Igbanti #</item>
+    <item id="o4" line="139" tag="G+CR">         the n   tak e     k.o.bamboo     from      place       3SG-name        Igbanti</item>
+    <item id="o5" line="140" tag="T+CR">         The n Ndo n got angry and took some awidou bambo o from th e plac e calle d Igbanti.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="136" tag="L">Lene Ndon I Ndon            ni-ngon       sibui     sut I</item>
+    <item id="c2" line="137" tag="G+CR">the n Ndo n Ndon            3SG-heart     twist     wit h</item>
+    <item id="c3" line="138" tag="L">lene    yai       awidou         leu       minu        ni-nyeng        Igbanti #</item>
+    <item id="c4" line="139" tag="G+CR">the n   tak e     k.o.bamboo     from      place       3SG-name        Igbanti</item>
+    <item id="c5" line="140" tag="T+CR">The n Ndo n got angry and took some awidou bambo o from th e plac e calle d Igbanti.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+    <item id="p1" content="c3[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+    <item id="g1" content="c4[0:78]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:84]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105532">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="142-144" line-types="L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="142" tag="L">  (25)   Bi-hwen         nungugw        Gurigbou #</item>
+    <item id="o2" line="143" tag="G">         PUR-hurl        mountai n      Gurigbou</item>
+    <item id="o3" line="144" tag="T+CR">         In order to hit the mountai n Gurigbou.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="142" tag="L">Bi-hwen         nungugw        Gurigbou #</item>
+    <item id="c2" line="143" tag="G">PUR-hurl        mountai n      Gurigbou</item>
+    <item id="c3" line="144" tag="T+CR">In order to hit the mountai n Gurigbou.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105533">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="146-148" line-types="L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="146" tag="L">  (26)   Gurigbou/       Amber/ nungugw Amber om                        no       leu       hambuig #</item>
+    <item id="o2" line="147" tag="G">         Gurigbou        Amber mountai n Amber pres s                   3SG      from     k.o.bambo o</item>
+    <item id="o3" line="148" tag="T+CR">         Gurigbou, Amber, th e Amber mountai n ducke d away from th e hambuig bamboo .</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="146" tag="L">Gurigbou/       Amber/ nungugw Amber om                        no       leu       hambuig #</item>
+    <item id="c2" line="147" tag="G">Gurigbou        Amber mountai n Amber pres s                   3SG      from     k.o.bambo o</item>
+    <item id="c3" line="148" tag="T+CR">Gurigbou, Amber, th e Amber mountai n ducke d away from th e hambuig bamboo .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:91]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:92]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:77]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105534">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="150-152" line-types="L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="150" tag="L">  (27)   Api-no i-jem             pia        Amber         nggrei #</item>
+    <item id="o2" line="151" tag="G">         so-3SG 3PL-call          QUOT       Amber         peel</item>
+    <item id="o3" line="152" tag="T+CR">         Therefore it is called th e barre n Amber.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="150" tag="L">Api-no i-jem             pia        Amber         nggrei #</item>
+    <item id="c2" line="151" tag="G">so-3SG 3PL-call          QUOT       Amber         peel</item>
+    <item id="c3" line="152" tag="T+CR">Therefore it is called th e barre n Amber.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105535">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="154-158" line-types="L G L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="154" tag="L">  (28)   Awidou            pi-ma         tibim     tut          nungugw       di         i-jem      ni-nyeng</item>
+    <item id="o2" line="155" tag="G">         k.o.bamboo        ANA-that      fly       along        mountai n     REL        3PL-call   3SG-name</item>
+    <item id="o3" line="156" tag="L">         Ngibeng #</item>
+    <item id="o4" line="157" tag="G">         Ngibeng</item>
+    <item id="o5" line="158" tag="T+CR">         Th e awidou bambo o flew along th e mountai n called Ngibeng.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="154" tag="L">Awidou            pi-ma         tibim     tut          nungugw       di         i-jem      ni-nyeng</item>
+    <item id="c2" line="155" tag="G">k.o.bamboo        ANA-that      fly       along        mountai n     REL        3PL-call   3SG-name</item>
+    <item id="c3" line="156" tag="L">Ngibeng #</item>
+    <item id="c4" line="157" tag="G">Ngibeng</item>
+    <item id="c5" line="158" tag="T+CR">Th e awidou bambo o flew along th e mountai n called Ngibeng.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:99]"/>
+    <item id="p1" content="c3[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:99]" alignment="p1"/>
+    <item id="g1" content="c4[0:7]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:61]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105536">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="160-162" line-types="L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="160" tag="L">  (29)     Ngibeng lene kwat I i-jem                ni-nyeng                  pia          Simboti #</item>
+    <item id="o2" line="161" tag="G">           Ngibeng the n break          3PL-call 3SG-name                     QUOT         Simboti</item>
+    <item id="o3" line="162" tag="T+CR">           Th e Ngibeng split, the y call it Simboti.8</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="160" tag="L">Ngibeng lene kwat I i-jem                ni-nyeng                  pia          Simboti #</item>
+    <item id="c2" line="161" tag="G">Ngibeng the n break          3PL-call 3SG-name                     QUOT         Simboti</item>
+    <item id="c3" line="162" tag="T+CR">Th e Ngibeng split, the y call it Simboti.8</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:89]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:87]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105537">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="164-166" line-types="L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="164" tag="L">  (30)     Hambuig          pi-ma               tibim kikau        ug         cut     ei    ne-te    mug     las #</item>
+    <item id="o2" line="165" tag="G">           k.o.bamboo       ANA-that            fly   continuall y go         fall    at    3SG-side sea     beac h</item>
+    <item id="o3" line="166" tag="T+CR">           Th e hambuig bambo o flew on unti l it fell dow n at th e coast.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="164" tag="L">Hambuig          pi-ma               tibim kikau        ug         cut     ei    ne-te    mug     las #</item>
+    <item id="c2" line="165" tag="G">k.o.bamboo       ANA-that            fly   continuall y go         fall    at    3SG-side sea     beac h</item>
+    <item id="c3" line="166" tag="T+CR">Th e hambuig bambo o flew on unti l it fell dow n at th e coast.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:103]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:104]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105538">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="168-170" line-types="L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="168" tag="L">  (31)     Lene ug         hyei       ei     minu       di  ni-nyeng           Siruisi #</item>
+    <item id="o2" line="169" tag="G+CR">           the n go        grow       at     place      REL 3SG-name           Siruis i</item>
+    <item id="o3" line="170" tag="T+CR">           The n it started to grow at a place called Siruisi (near Mupi).</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="168" tag="L">Lene ug         hyei       ei     minu       di  ni-nyeng           Siruisi #</item>
+    <item id="c2" line="169" tag="G+CR">the n go        grow       at     place      REL 3SG-name           Siruis i</item>
+    <item id="c3" line="170" tag="T+CR">The n it started to grow at a place called Siruisi (near Mupi).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105539">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="172-176" line-types="L G L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="172" tag="L">  (32)    Lene      api-no          i-jem             mpia    di-no          ma</item>
+    <item id="o2" line="173" tag="G">          the n     so-3SG          3PL-call          place   REL-3SG        tha t</item>
+    <item id="o3" line="174" tag="L">           awidou     ei           Siruisi #</item>
+    <item id="o4" line="175" tag="G">           k.o.bamboo at           Siruis i</item>
+    <item id="o5" line="176" tag="T+CR">           So the n they call tha t plac e Awidou at Siruisi.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="172" tag="L">Lene      api-no          i-jem             mpia    di-no          ma</item>
+    <item id="c2" line="173" tag="G">the n     so-3SG          3PL-call          place   REL-3SG        tha t</item>
+    <item id="c3" line="174" tag="L">awidou     ei           Siruisi #</item>
+    <item id="c4" line="175" tag="G">k.o.bamboo at           Siruis i</item>
+    <item id="c5" line="176" tag="T+CR">So the n they call tha t plac e Awidou at Siruisi.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+    <item id="p1" content="c3[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:72]" alignment="p1"/>
+    <item id="g1" content="c4[0:32]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:50]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105540">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="178-180" line-types="L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="178" tag="L">  (33)    Nogindini        no        jo         si        ri #</item>
+    <item id="o2" line="179" tag="G+CR">          no w             3SG        be        LOC       FOC</item>
+    <item id="o3" line="180" tag="T+CR">          Nowaday s it is (still) there .</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="178" tag="L">Nogindini        no        jo         si        ri #</item>
+    <item id="c2" line="179" tag="G+CR">no w             3SG        be        LOC       FOC</item>
+    <item id="c3" line="180" tag="T+CR">Nowaday s it is (still) there .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105541">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="182-187" line-types="L G L G+CR T+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="182" tag="L">  (34)    Lene      mi-sop                   pi-ma I          Ntaig        pi-ma I         mbut   kikau</item>
+    <item id="o2" line="183" tag="G">          the n     NOM-woman                ANA-that         Ntaig        ANA-that        walk   continuall y</item>
+    <item id="o3" line="184" tag="L">          ug      wak    nungugw                di      i-jem    ni-nyeng            Umbui #</item>
+    <item id="o4" line="185" tag="G+CR">          go      marr y mountai n              REL     3PL-call 3SG-name            Umbu i</item>
+    <item id="o5" line="186" tag="T+CR">          The n th e woman , th e mentione d Ntaig, she continue d o n an d wen t t o marr y th e mountai n called</item>
+    <item id="o6" line="187" tag="T">          Umbui .</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="182" tag="L">Lene      mi-sop                   pi-ma I          Ntaig        pi-ma I         mbut   kikau</item>
+    <item id="c2" line="183" tag="G">the n     NOM-woman                ANA-that         Ntaig        ANA-that        walk   continuall y</item>
+    <item id="c3" line="184" tag="L">ug      wak    nungugw                di      i-jem    ni-nyeng            Umbui #</item>
+    <item id="c4" line="185" tag="G+CR">go      marr y mountai n              REL     3PL-call 3SG-name            Umbu i</item>
+    <item id="c5" line="186" tag="T+CR">The n th e woman , th e mentione d Ntaig, she continue d o n an d wen t t o marr y th e mountai n called</item>
+    <item id="c6" line="187" tag="T">Umbui .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:93]"/>
+    <item id="p1" content="c3[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:100]" alignment="p1"/>
+    <item id="g1" content="c4[0:81]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:104]" alignment="p2"/>
+    <item id="t1" content="c6[0:7]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105542">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="189-191" line-types="L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="189" tag="L">  (35)    Umbui       wak          iwai #</item>
+    <item id="o2" line="190" tag="G+CR">          Umbu i      marr y       anywa y</item>
+    <item id="o3" line="191" tag="T+CR">          Umbu i married her anyway .</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="189" tag="L">Umbui       wak          iwai #</item>
+    <item id="c2" line="190" tag="G+CR">Umbu i      marr y       anywa y</item>
+    <item id="c3" line="191" tag="T+CR">Umbu i married her anyway .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105543">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="193-195" line-types="L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="193" tag="L">  (36)    Sindig            lo       Umbui         wak           iwai #</item>
+    <item id="o2" line="194" tag="G+CR">          old.woma n        bu t     Umbu i        marr y        anywa y</item>
+    <item id="o3" line="195" tag="T+CR">          Althoug h she was a n old woma n Umbu i married he r anyway .</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="193" tag="L">Sindig            lo       Umbui         wak           iwai #</item>
+    <item id="c2" line="194" tag="G+CR">old.woma n        bu t     Umbu i        marr y        anywa y</item>
+    <item id="c3" line="195" tag="T+CR">Althoug h she was a n old woma n Umbu i married he r anyway .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105544">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="197-199" line-types="L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="197" tag="L">  (37)    Api     ttei     kob        ta          ei     riei     nggup #</item>
+    <item id="o2" line="198" tag="G+CR">          so       carry   sago        plan t     at     Prafi    river.mout h</item>
+    <item id="o3" line="199" tag="T+CR">          So sh e brought th e sago an d plante d it at th e mout h of th e Prafi.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="197" tag="L">Api     ttei     kob        ta          ei     riei     nggup #</item>
+    <item id="c2" line="198" tag="G+CR">so       carry   sago        plan t     at     Prafi    river.mout h</item>
+    <item id="c3" line="199" tag="T+CR">So sh e brought th e sago an d plante d it at th e mout h of th e Prafi.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:72]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105545">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="205-211" line-types="L+CR L+CR G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="205" tag="L+CR">  (38)   Lene     kes      mindhedhe               I    na-o I     ngkini-o</item>
+    <item id="o2" line="206" tag="L+CR">                                            TUSQ-O</item>
+    <item id="o3" line="207" tag="G">         then     leave    animals          deer-or     pig-or     k.o.kangaroo-or</item>
+    <item id="o4" line="208" tag="L">         miei I ha I        ntun     him      ei     si     ri #</item>
+    <item id="o5" line="209" tag="G">         cuscus bird        origin   very     at     LOC    FOC</item>
+    <item id="o6" line="210" tag="T">         Then she left (there) animals, like deer, pigs, kangaroos, cuscus, birds, they all originate from</item>
+    <item id="o7" line="211" tag="T">         right there.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="205 206" tag="L+CR">Lene     kes      mindhedhe        TUSQ-O I    na-o I     ngkini-o</item>
+    <item id="c3" line="207" tag="G">then     leave    animals          deer-or     pig-or     k.o.kangaroo-or</item>
+    <item id="c4" line="208" tag="L">miei I ha I        ntun     him      ei     si     ri #</item>
+    <item id="c5" line="209" tag="G">cuscus bird        origin   very     at     LOC    FOC</item>
+    <item id="c6" line="210" tag="T">Then she left (there) animals, like deer, pigs, kangaroos, cuscus, birds, they all originate from</item>
+    <item id="c7" line="211" tag="T">right there.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+    <item id="p1" content="c4[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:73]" alignment="p1"/>
+    <item id="g1" content="c5[0:54]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:97]" alignment="p2"/>
+    <item id="t1" content="c7[0:12]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105546">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="212-214" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="212" tag="L">  (39)   Na rin   tu #</item>
+    <item id="o2" line="213" tag="G">         that FOC already</item>
+    <item id="o3" line="214" tag="T">         This is it,</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="212" tag="L">Na rin   tu #</item>
+    <item id="c2" line="213" tag="G">that FOC already</item>
+    <item id="c3" line="214" tag="T">This is it,</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105547">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="215-219" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="215" tag="L">  (40)   Gi-ni         mim-pui       di-no             ngges mindhedhe      bak      mhen   ei</item>
+    <item id="o2" line="216" tag="G">         NOM-this      NOM-tell      REL-3SG           drop animals         to       people at</item>
+    <item id="o3" line="217" tag="L">         Minukwar         di-ni      ri #</item>
+    <item id="o4" line="218" tag="G">         Manokwari        REL-this   FOC</item>
+    <item id="o5" line="219" tag="T">         This is the story who has left animals for the people at Manokwari here.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="215" tag="L">Gi-ni         mim-pui       di-no             ngges mindhedhe      bak      mhen   ei</item>
+    <item id="c2" line="216" tag="G">NOM-this      NOM-tell      REL-3SG           drop animals         to       people at</item>
+    <item id="c3" line="217" tag="L">Minukwar         di-ni      ri #</item>
+    <item id="c4" line="218" tag="G">Manokwari        REL-this   FOC</item>
+    <item id="c5" line="219" tag="T">This is the story who has left animals for the people at Manokwari here.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+    <item id="p1" content="c3[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:85]" alignment="p1"/>
+    <item id="g1" content="c4[0:31]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:72]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105548">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hatam" iso-639-3="had" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1508" line-range="220-222" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="220" tag="L">  (41)   Gi-n-di-a         ri #</item>
+    <item id="o2" line="221" tag="G">         NOM-thing-REL-CIT FOC</item>
+    <item id="o3" line="222" tag="T">         That's all.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="220" tag="L">Gi-n-di-a         ri #</item>
+    <item id="c2" line="221" tag="G">NOM-thing-REL-CIT FOC</item>
+    <item id="c3" line="222" tag="T">That's all.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

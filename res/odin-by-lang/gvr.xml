@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i27111">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gurung" iso-639-3="gvr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3883" line-range="359-361" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="359" tag="L">  (18) caÍ pxra-baÍ-e            mxi jaga</item>
+    <item id="o2" line="360" tag="G">          that walk-nom-gen person pl</item>
+    <item id="o3" line="361" tag="T+EX">          `those walking people' (=sentries)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="359" tag="L">caÍ pxra-baÍ-e            mxi jaga</item>
+    <item id="c2" line="360" tag="G">that walk-nom-gen person pl</item>
+    <item id="c3" line="361" tag="T+EX">those walking people' (=sentries)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27112">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gurung" iso-639-3="gvr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3883" line-range="362-364" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="362" tag="L">  (19) bana-r-baÍ-e              s¿Ì</item>
+    <item id="o2" line="363" tag="G">          forest-loc-nom-gen wood</item>
+    <item id="o3" line="364" tag="T">          `trees from the forest'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="362" tag="L">bana-r-baÍ-e              s¿Ì</item>
+    <item id="c2" line="363" tag="G">forest-loc-nom-gen wood</item>
+    <item id="c3" line="364" tag="T">trees from the forest</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27113">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gurung" iso-639-3="gvr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3883" line-range="365-368" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="365" tag="L+CR">                                 ax-cðy½Í-baÍ-e       gara gadi</item>
+    <item id="o2" line="366" tag="L+CR">  (20) dx¿-r-baÍ-e</item>
+    <item id="o3" line="367" tag="G">          house-loc-nom-gen neg-good-nom-gen influences</item>
+    <item id="o4" line="368" tag="T">          `the evil influences in the house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="365 366" tag="L+CR">dx¿-r-baÍ-e             ax-cðy½Í-baÍ-e       gara gadi</item>
+    <item id="c3" line="367" tag="G">house-loc-nom-gen neg-good-nom-gen influences</item>
+    <item id="c4" line="368" tag="T">the evil influences in the house</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106236">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gurung" iso-639-3="gvr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1533" line-range="7-256" line-types="L G L G M L G L G L G G L G L G L G L G L G L G L G L G L G L G L G B B B L G L G L G L G L G L G L G M L G L G L G L G M L G L G L G L G L G L G L G B L G L G L G L G L G L G L G L+CR L+CR G L G L G L G L G L G L G L G L G L G L G B B B L G L G L G L G L G L G L G L G L G L G L G L G L G L+CR L+CR G L G M L G L G L G B B B B L G L G L G L G L L L+CR L+CR G L G L G L G B B T T T T T T T T T T T T T T T T T T T T T T B B B B T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7" tag="L">  (R) 1. kwiqla.. aaba..-di, rih-bar yaah-m.       2. dai tA</item>
+    <item id="o2" line="8" tag="G">         some    father-agt ask-purp go-pres          then talk</item>
+    <item id="o3" line="9" tag="L">       ta-mu Hkih-e tsamiq, ngaq-e tsah-lai pi-n..* bi-maf</item>
+    <item id="o4" line="10" tag="G">       be-pres you-of daughter I-of son-to   give-imp say-ptc</item>
+    <item id="o5" line="11" tag="M">                              W</item>
+    <item id="o6" line="12" tag="L">       3. tsamiq   AAma-di,    3A ta-mu,  3B gAAhqna tsauh</item>
+    <item id="o7" line="13" tag="G">          daughter mother-agt     OK-pres    Jewelry so-much</item>
+    <item id="o8" line="14" tag="L">       tsauh, asurblq         maaqla  bah-guq,   30. rayAAq</item>
+    <item id="o9" line="15" tag="G">       so-much rupee-necklace necklace bring-imp     gold-bracelet</item>
+    <item id="o10" line="16" tag="L">       Tuhq-bo   bah-uq,H    bi-i#    tsahmi-eq   AAma-di,</item>
+    <item id="o11" line="17" tag="G">       six-class bring-imp   say-past daughter-of mother-agt</item>
+    <item id="o12" line="18" tag="G">                                      f,</item>
+    <item id="o13" line="19" tag="L">       4. dzahleq tsah-e aaba-di,      AA. ta-m.   4B. nga-d</item>
+    <item id="o14" line="20" tag="G">          then    son-of father-agt        OK-pres      I-agt</item>
+    <item id="o15" line="21" tag="L">       bah-muq,n bi-i·     5· tsaq-,aB-d..pl-l.     tsahmi-lai</item>
+    <item id="o16" line="22" tag="G">       bring-pres say-past    that-pl-agt give-past daughter-to</item>
+    <item id="o17" line="23" tag="L">       pl-di,     6, tsah-e aaba   dlhq-r   kha-i,    7» gAAhqna</item>
+    <item id="o18" line="24" tag="G">       give-agt      son-of father house-to come-past    Jewelry</item>
+    <item id="o19" line="25" tag="L">       dzaga ta-di,    8. gAAhqna ta-i    biriq din ngyoh-di,</item>
+    <item id="o20" line="26" tag="G">       pi    be-past      jewelry be-past after day look-past</item>
+    <item id="o21" line="27" tag="L">       9. din ngyoh-i   biriq, byaa  din ngyoh-i, 10. "byaa..</item>
+    <item id="o22" line="28" tag="G">          day look-past after wedding day look-past    wedding</item>
+    <item id="o23" line="29" tag="L">       phalanaq   dina-r ta-l.H bi-i,     kya-r    khe-maE</item>
+    <item id="o24" line="30" tag="G">       particular day-on be-past say-past there-at self-of</item>
+    <item id="o25" line="31" tag="L">       samdi-maqne                  tA ta-dl, 11· tA   ta-i</item>
+    <item id="o26" line="32" tag="G">       (child1s father-in-law)-with talk be-past  talk be-past</item>
+    <item id="o27" line="33" tag="L">       biriq.. "0 ta-m     syidiq,"    bi-i     biriq, gAAhqna</item>
+    <item id="o28" line="34" tag="G">       after    OK OK-pres emp         say-past after Jewelry</item>
+    <item id="o29" line="35" tag="L">       dzaga, ThyaaqmThiqm la-di,     12. kwE     dzaga,</item>
+    <item id="o30" line="36" tag="G">       pi     arrangements do-past        clothes pi</item>
+    <item id="o31" line="37" tag="L">       kl-bah-di,     pukhruq-le,     13· dai byaa     la-i,</item>
+    <item id="o32" line="38" tag="G">       get-bring-past Pokhara-from        then wedding do-past</item>
+    <item id="o33" line="39" tag="L">       bahtyaqr la-mu, kwiqla,   15. kwiqla, bahtyaqr ah-la</item>
+    <item id="o34" line="40" tag="G">       feast    do-pres some         some    feast    not-do</item>
+    <item id="o35" line="41" tag="B"></item>
+    <item id="o36" line="42" tag="B">                             - 12 -</item>
+    <item id="o37" line="43" tag="B"></item>
+    <item id="o38" line="44" tag="L">  kEh   dzOhq-n, dehroq, dai biriq ngyohq,     tsuh-iq     biriq</item>
+    <item id="o39" line="45" tag="G">  bread bake-imp now    next after ve(incl)    divide-past after</item>
+    <item id="o40" line="46" tag="L">  tsarb-ga.M   bi-i.      13. mAAbaq-di,      dzahleq     mi</item>
+    <item id="o41" line="47" tag="G">  eat-ger-be   say-past      (old woman)-agt (after that) fire</item>
+    <item id="o42" line="48" tag="L">  pln4-di, kEh    dzOh-baqe bAhDoq., dzOhguq phir tsuh-diq,</item>
+    <item id="o43" line="49" tag="G">  blov-paet bread bake-of   container tripod on   place-past</item>
+    <item id="o44" line="50" tag="L">  14. dzahleq,     mAAbaq-di,      kEh   dzOh-baqr khOq-I,</item>
+    <item id="o45" line="51" tag="G">      (after that) (old woman)-agt bread bake-purp begin-past</item>
+    <item id="o46" line="52" tag="L">  15. khiba,    khaaqDa phiri, bOhq     nah-i,    aaram la-i.</item>
+    <item id="o47" line="53" tag="G">      (old man) bed     upon   strength rest-past rest do-past</item>
+    <item id="o48" line="54" tag="L">  16. dzahleq,     tshyiqn grihq liUdiq, mAAbaq-di,      kEh</item>
+    <item id="o49" line="55" tag="G">      (after that) moment one    later   (old woman)-agt bread</item>
+    <item id="o50" line="56" tag="L">  dzOfc-1   khAAq-I.      17. dzahleq,    mAAbaq-d</item>
+    <item id="o51" line="57" tag="G">  bak^-past finish-past      (after that) (old woman)-agt</item>
+    <item id="o52" line="58" tag="M">           M          !</item>
+    <item id="o53" line="59" tag="L">  bi-di,    oq khiba,  -ri-d.   kEh   dzOh-1    khAAq-I,</item>
+    <item id="o54" line="60" tag="G">  say-past 0 (old man) arise-imp bread bake-past finish-past</item>
+    <item id="o55" line="61" tag="L">  dehroq kBh   tsa-d." bi-i,</item>
+    <item id="o56" line="62" tag="G">  now    bread eat-imp say-past</item>
+    <item id="o57" line="63" tag="L">         18, kEh   dzamma, ngahq-dO matreq mu-la.</item>
+    <item id="o58" line="64" tag="G">             bread all     five-class only is-past</item>
+    <item id="o59" line="65" tag="L">  19. mAAbaq-d        tsuh-diq, sOq    mAAbaq-lai9     nglhq</item>
+    <item id="o60" line="66" tag="G">      (old-woman)-agt divide-agt three (old-woman)-for two</item>
+    <item id="o61" line="67" tag="M">                                                   M</item>
+    <item id="o62" line="68" tag="L">  khiba-lai,    la-di   dai khiba-d        bi-1,    ah-nglhq.</item>
+    <item id="o63" line="69" tag="G">  (old man)-for do-past then (old man)-agt say-past not-be</item>
+    <item id="o64" line="70" tag="L">  ngard tshyuguq maeh-i      bah-i-gaq,   kih-d   kBh</item>
+    <item id="o65" line="71" tag="G">  I-agt butter   search-past bring-past-? you-agt bread</item>
+    <item id="o66" line="72" tag="L">  dzOh-diqf nga-d kadiq     mih mepriq, bindi   la-syl, la-i</item>
+    <item id="o67" line="73" tag="G">  bake-past I-agt (how many) man with   request do-ptop do-past</item>
+    <item id="o68" line="74" tag="L">  tshyuguq rih-bah-diq,   dai kih-d    kBh   dzOh-diq.</item>
+    <item id="o69" line="75" tag="G">  butter   ask-bring-past then you-agt bread bake-past</item>
+    <item id="o70" line="76" tag="L">  20. nglhq kih tsa-duq, sOq  nga tea-m.* bi-i.</item>
+    <item id="o71" line="77" tag="G">      two   you eat-imp three I   eat-pres say-pas*</item>
+    <item id="o72" line="78" tag="L">  21. mAAbaq-d        bi-di    "ah-'-ta. nga-d kanggaq</item>
+    <item id="o73" line="79" tag="G">      (old woman)-agt say-past not-be    I-agt (rice fragments)</item>
+    <item id="o74" line="80" tag="L">  maeh-bah-diq,     kanggaq          proh-di,   mi   phwi-dl,</item>
+    <item id="o75" line="81" tag="G">  search-bring-past (rice fragments) grind-past fire light-pa%t</item>
+    <item id="o76" line="82" tag="B"></item>
+    <item id="o77" line="83" tag="L">  kEh   dzOh-diq, nga-lai lehq duhkha     ta-i.   sOq   nga</item>
+    <item id="o78" line="84" tag="G">  bread bake-past I-for   much difficulty be-past three I</item>
+    <item id="o79" line="85" tag="L">  tsa-mu, nglhq kih tsa-d.rt</item>
+    <item id="o80" line="86" tag="G">  eat-pres two  you eat-imp</item>
+    <item id="o81" line="87" tag="L">            22. bi-na    bi-na    bi-na    bi-na    bi-na    bi-na,</item>
+    <item id="o82" line="88" tag="G">                say-oont say-cont say-cont say-cont eay-cont say-cont</item>
+    <item id="o83" line="89" tag="L">  khaiq   la-eye tsaq-maE khib-neq       mAAbaq-e,</item>
+    <item id="o84" line="90" tag="G">  dispute do-ptcp that-pl (old man)-with (old woman)-of</item>
+    <item id="o85" line="91" tag="L">  tA           toqi ah-taq.      dzahleq khiba-d       bi-di,</item>
+    <item id="o86" line="92" tag="G">  conversation any not-be        then    (old man)-agt say-past</item>
+    <item id="o87" line="93" tag="L">  khlbaq-e     bidzaraq, "pahnahga mAhga-riq, mAAbaq,     asOq</item>
+    <item id="o88" line="94" tag="G">  (old man)-of thought    tomorrow morning-in (old woman) early</item>
+    <item id="o89" line="95" tag="L">  ri-1      tuh-mu ,H tsaq-d   bidzar la-syi, khiba      baTTho</item>
+    <item id="o90" line="96" tag="G">  arise-inf must-pres that-agt thought do-ptcp (old man) clever</item>
+    <item id="o91" line="97" tag="L+CR">                               bi-di, ftngyohq tshaa-le Ti-syi</item>
+    <item id="o92" line="98" tag="L+CR">  ta-b   la-syi, khiba-d</item>
+    <item id="o93" line="99" tag="G">  be-ger do-ptcp (old man)-agt say-past we      thus-adv stay-ptcp</item>
+    <item id="o94" line="100" tag="L">  ah-taq.    dehroq roq-le.       23. "pahnahga nAAhga-r, khab</item>
+    <item id="o95" line="101" tag="G">  not-be     now    sleep-hort         tomorrow morning-In who</item>
+    <item id="o96" line="102" tag="L">  asOq ri-mu,      tsaq-di nglhq tsa-ba, khab lili ri-mu</item>
+    <item id="o97" line="103" tag="G">  first arise-pres that-agt two  eat-ger who later arise-pres</item>
+    <item id="o98" line="104" tag="L">  tsaq-di sOq    tsa-ba.tt   bi-i.    24. dzahleq, mAAbaq-d</item>
+    <item id="o99" line="105" tag="G">  that-agt three eat-ger      say-past    then     (old woman)-agt</item>
+    <item id="o100" line="106" tag="L">  bi-di,   "ta-m   didiyA* bi-i     biriq, nglh-naq nglhq-n</item>
+    <item id="o101" line="107" tag="G">  say-past OK-pres emp     say-past after two-group two-group</item>
+    <item id="o102" line="108" tag="L">  roq-di.        25. dzahleq, pahnahga nAhga-ri   khibaq-e</item>
+    <item id="o103" line="109" tag="G">  sleep-past         then     tomorrow morning-in (old man)-of</item>
+    <item id="o104" line="110" tag="L">  saE-ri, "mAAbaq     asOq ri-yAq, mAAbaq        nglhq</item>
+    <item id="o105" line="111" tag="G">  mind-in (old woman) early arise-lf (old woman) two</item>
+    <item id="o106" line="112" tag="L">  tsa-maqla, nga sOq   tsa-maqla.lf bi-ba, mAAbaq-e        saE-ri,</item>
+    <item id="o107" line="113" tag="G">  eat-?      I   three eat-?        say-ger (old woman)-of mind-in</item>
+    <item id="o108" line="114" tag="L">  "khiba     asOq ri-yAq, khiba      nglhq tsa-maqla, nga</item>
+    <item id="o109" line="115" tag="G">   (old man) early arise-if (old man) two   eat-?     I</item>
+    <item id="o110" line="116" tag="L">  sOq   tsa-maqla.H    bi-i.    tshaa bi-i    biriq, Ti-na,</item>
+    <item id="o111" line="117" tag="G">  three eat-?          say-past thus say-past after stay-cont</item>
+    <item id="o112" line="118" tag="L">  Ti-na,    Ti-na,    Ti-na,    roq-ma,    roq-ma,    khiba</item>
+    <item id="o113" line="119" tag="G">  stay-cont stay-cont stay-cont sleep-pres sleep-pres (old man)</item>
+    <item id="o114" line="120" tag="B"></item>
+    <item id="o115" line="121" tag="B">                              - 14 -</item>
+    <item id="o116" line="122" tag="B"></item>
+    <item id="o117" line="123" tag="L">  mAAbaq,     phoqdE ta-syeriq syi-yaah-i.</item>
+    <item id="o118" line="124" tag="G">  (old woman) hunger be-ptcp   die-go-past</item>
+    <item id="o119" line="125" tag="L">         26 · dzahleq, sO-gaEq-ma, nAAqsa-r baqe mlh</item>
+    <item id="o120" line="126" tag="G">             then     three-days-in village-in of people</item>
+    <item id="o121" line="127" tag="L">  kha-i.       27* *tiyA, tsaq khib      neq mAAbaq,    tiyA</item>
+    <item id="o122" line="128" tag="G">  come-past        today that (old man) and (old woman) today</item>
+    <item id="o123" line="129" tag="L">  sO-gaEq    ta-dl, balru    ah-tOh.       toq ta-e?M</item>
+    <item id="o124" line="130" tag="G">  thr#e-days be-past outside not-emerge    what happen-dub</item>
+    <item id="o125" line="131" tag="L">  bi-i    biriq, ngyOh-n-di.  28. la-ma, khibaq-e</item>
+    <item id="o126" line="132" tag="G">  say-past after look-go-past     do-ptc (old man)-emp</item>
+    <item id="o127" line="133" tag="L">  syi-yaah-na, mAAbaq-e       syi-yaah-na.    bAAhDo-ri kBh</item>
+    <item id="o128" line="134" tag="G">  die-go-past (old woman)~emp die-go-past     vessei-in bread</item>
+    <item id="o129" line="135" tag="L">  ngafxq-DO  mu-na.      29. dzahleq, nAAqsa-r     baqe</item>
+    <item id="o130" line="136" tag="G">  fire-class be-past         then     village-in   of</item>
+    <item id="o131" line="137" tag="L">  mih-dzaga-di, tsaq khib      neq mAAbaq      la-di,</item>
+    <item id="o132" line="138" tag="G">  people-pl-agt that (old man) and (old woman) do-past</item>
+    <item id="o133" line="139" tag="L">  gaa&amp;Daq-r    bo-yaah-i.      30. gaahDaq-r   bo-1      biriq,</item>
+    <item id="o134" line="140" tag="G">  oemfetery-to take-go-past        cemetery-to take-past after</item>
+    <item id="o135" line="141" tag="L">  khrO-bar khOq-I,     sylq dzaga, dzOh-Iq    biriq, yuqma-e</item>
+    <item id="o136" line="142" tag="G">  burt-purp begin-past wood pi     place-past after stone-of</item>
+    <item id="o137" line="143" tag="L">  bAAqnu dzOh-Iq    biriq, tsaq khib     neq mAAbaq      la-di,</item>
+    <item id="o138" line="144" tag="G">  wall   place-past after that (old man) and (old woman) do-past</item>
+    <item id="o139" line="145" tag="L">  khiba-lal    prihUdi, mAAbaq-lai     koh, thB-I     biriq,</item>
+    <item id="o140" line="146" tag="G">  (old man)-to below    (old woman)-to above put-past after</item>
+    <item id="o141" line="147" tag="L">  khrO-bar khOq-I.         31. saqla-r,       syi-yaah-ba.e</item>
+    <item id="o142" line="148" tag="G">  burn-purp begin-past         (old times)-in dle-go-of</item>
+    <item id="o143" line="149" tag="L+CR">              salbi-di-ma, rtathuqH</item>
+    <item id="o144" line="150" tag="L+CR">  syinuq, mi                            bi-i     biriq, phaqri</item>
+    <item id="o145" line="151" tag="G">  corpse fire Ignite-Nep-ptc   ouch     say-past after up</item>
+    <item id="o146" line="152" tag="L">  yaah-i.     32. mAAbaq.    dzahleq, khiba-lai    salbi-di-i,</item>
+    <item id="o147" line="153" tag="G">  go-past        (old woman) then     (old man)-to ignite-Nep-p*ast</item>
+    <item id="o148" line="154" tag="M">                H</item>
+    <item id="o149" line="155" tag="L">  khibaq-e,      athuq" bi-i     biriq, phaqri yaah-i.</item>
+    <item id="o150" line="156" tag="G">  (old man)-also ouch    say-past after up      go-past</item>
+    <item id="o151" line="157" tag="L">  33· satteq dzuga-r baqe mih    ta-na, syi-yaah-le bileya</item>
+    <item id="o152" line="158" tag="G">      early age-in of     people be-past die-go-adv if</item>
+    <item id="o153" line="159" tag="L">  pheqrl soq-i.</item>
+    <item id="o154" line="160" tag="G">  again live-past</item>
+    <item id="o155" line="161" tag="B"></item>
+    <item id="o156" line="162" tag="B">                                 x z&gt; --</item>
+    <item id="o157" line="163" tag="B"></item>
+    <item id="o158" line="164" tag="B"></item>
+    <item id="o159" line="165" tag="L">            34. dai, nAAqsa-r   baqe mih-d      ngywiq-di,</item>
+    <item id="o160" line="166" tag="G">                then village-in of   people-agt ask-past</item>
+    <item id="o161" line="167" tag="L">  "keh-maE toq ta-la?"      "tshaa ta-baq,M bi-ma,    "ngi</item>
+    <item id="o162" line="168" tag="G">   you-pl what be-past       thus be-ger    say-ptc    we</item>
+    <item id="o163" line="169" tag="L">  khib      neq mAAbaq-di,      nAAqsa-uleq tshaa-le</item>
+    <item id="o164" line="170" tag="G">  (old man) and (old woman)-agt village-from thus-adv</item>
+    <item id="o165" line="171" tag="L">  kanggaq          maeh   bah-la,    tshyuguq maeh   bah-i.</item>
+    <item id="o166" line="172" tag="G">  (rice fragments) search bring-past butter   search bring-past</item>
+    <item id="o167" line="173" tag="L">  kEh   dzOh-laq, kEh   dzamma ngahq-DO   mareq ta-di,</item>
+    <item id="o168" line="174" tag="L">  bread bake-past bread all    five-class only be-past</item>
+    <item id="o169" line="175" tag="L+CR">                 bi-ma, fnga sOq</item>
+    <item id="o170" line="176" tag="L+CR">  mAAbaq-d                          tsa-mu, kih nglhq</item>
+    <item id="o171" line="177" tag="G">  (old woman)-agt say-ptc I   three eat-pres you two</item>
+    <item id="o172" line="178" tag="L">  tsa-d.f    bi-ba, kihba-d        bi-ma, 'kih nglhq tsa-duq,</item>
+    <item id="o173" line="179" tag="G">  eat-imp    say-ger (old man)-agt say-ptc you two   eat-imp,fam</item>
+    <item id="o174" line="180" tag="L">  nga sOq   tsa-m.!  bi-ba, tshaa bi-na    bi-n,             Ti-na</item>
+    <item id="o175" line="181" tag="G">  I   three eat-pres say-ger thus say-cont say-cont          atay-cont</item>
+    <item id="o176" line="182" tag="L">  Ti-n,     ngi toq ta-baqe thaa      ah-yO //.*'</item>
+    <item id="o177" line="183" tag="G">  stay-cont we what be-of   knowledge not-available</item>
+    <item id="o178" line="184" tag="B"></item>
+    <item id="o179" line="185" tag="B"></item>
+    <item id="o180" line="186" tag="T">  Free Translation; The Old Man and the Old Woman</item>
+    <item id="o181" line="187" tag="T">         1. Once upon a time, in Nepal, there lived an old man</item>
+    <item id="o182" line="188" tag="T">  and an old woman in such and such a village, 2. They didnft</item>
+    <item id="o183" line="189" tag="T">  have any children. 3. The old man and the old woman were</item>
+    <item id="o184" line="190" tag="T">  extremely poor. 4. They did not have any fields. 5. They</item>
+    <item id="o185" line="191" tag="T">  did not have any brothers, 6. Only by going around the</item>
+    <item id="o186" line="192" tag="T">  village begging could they have food to eat. 7. One day</item>
+    <item id="o187" line="193" tag="T">  they brought some small rice grain chips which they had</item>
+    <item id="o188" line="194" tag="T">  begged for round the village, 8, Then the old woman began</item>
+    <item id="o189" line="195" tag="T">  to grind the rice. 9. The old man went round the village</item>
+    <item id="o190" line="196" tag="T">  begging for butter, 10. In just a little while the old</item>
+    <item id="o191" line="197" tag="T">  woman had finished grinding the rice. 11. At the moment</item>
+    <item id="o192" line="198" tag="T">  she finished grinding the rice the old man arrived at their</item>
+    <item id="o193" line="199" tag="T">  house. 12. He said, "Listen old woman, I, from the village</item>
+    <item id="o194" line="200" tag="T">  have sought and brought the butter. You therefore must bake</item>
+    <item id="o195" line="201" tag="T">  some bread. Then we can share the bread and eat it."</item>
+    <item id="o196" line="202" tag="T">  13. So the old woman blew the fire into life and put the</item>
+    <item id="o197" line="203" tag="T">  bread-baking pan on the tripod. 14. Then the old woman set</item>
+    <item id="o198" line="204" tag="T">  about to bake the bread. 15. The old man rested on the bed.</item>
+    <item id="o199" line="205" tag="T">  16. In a little while the old woman had finished baking the</item>
+    <item id="o200" line="206" tag="T">  bread. 17. Then the old woman said "OhI old man; get up.</item>
+    <item id="o201" line="207" tag="T">  The bread is finished baking, so now eat it!"</item>
+    <item id="o202" line="208" tag="B"></item>
+    <item id="o203" line="209" tag="B">                           - 16 -</item>
+    <item id="o204" line="210" tag="B"></item>
+    <item id="o205" line="211" tag="B"></item>
+    <item id="o206" line="212" tag="T">         18, In all there were only five rolls. 19, The old</item>
+    <item id="o207" line="213" tag="T">  woman divided three for herself and two for the old man, but</item>
+    <item id="o208" line="214" tag="T">  then the old man said, "This shouldn't be. I brought the</item>
+    <item id="o209" line="215" tag="T">  butter after searching for it. You only baked the bread.</item>
+    <item id="o210" line="216" tag="T">  How many men did I have to greet begging for that butter.</item>
+    <item id="o211" line="217" tag="T">  You (only) baked the bread. 20. You eat two, I will eat</item>
+    <item id="o212" line="218" tag="T">  three." 21. The old woman replied, H0h no! I sought for the</item>
+    <item id="o213" line="219" tag="T">  rice chippings; I ground the rice; I blew the fire into life;</item>
+    <item id="o214" line="220" tag="T">  I baked the bread; I had all the difficult work to do,</item>
+    <item id="o215" line="221" tag="T">  therefore three I will eat, two you can eat.</item>
+    <item id="o216" line="222" tag="T">          22. In this way they continued arguing, but nothing</item>
+    <item id="o217" line="223" tag="T">  was solved. But then the old man had a thought - tomorrow</item>
+    <item id="o218" line="224" tag="T">  morning the old woman shall rise first. Thus thinking he</item>
+    <item id="o219" line="225" tag="T">  became cunning and said, M¥e shouldn't stay this way. Let</item>
+    <item id="o220" line="226" tag="T">  us sleep, and the one who rises later can eat three." 24.</item>
+    <item id="o221" line="227" tag="T">  M0K,W said the old woman, and so they both went to sleep.</item>
+    <item id="o222" line="228" tag="T">  25. The next morning the old man said to himself, "If the old</item>
+    <item id="o223" line="229" tag="T">  wom^tn rises first, three I will eat, two the old woman will</item>
+    <item id="o224" line="230" tag="T">  eat." The old woman was saying to herself, "if the old man</item>
+    <item id="o225" line="231" tag="T">  riaes first, he will have two and I'll have three." So</item>
+    <item id="o226" line="232" tag="T">  saying they stayed (neither getting up) . With such hunger</item>
+    <item id="o227" line="233" tag="T">  in them, they died.</item>
+    <item id="o228" line="234" tag="T">         26. In three days the people of the village came.</item>
+    <item id="o229" line="235" tag="T">  27· "it's now three days since the old man and the old woman</item>
+    <item id="o230" line="236" tag="T">  have come outside; what's happened?" So asking, they looked</item>
+    <item id="o231" line="237" tag="T">  in. 28. And so they found the old man dead and the old</item>
+    <item id="o232" line="238" tag="T">  woman dead, and five rolls in the pan. 29 · The people of</item>
+    <item id="o233" line="239" tag="T">  the village took the old man and the old woman to the</item>
+    <item id="o234" line="240" tag="T">  cremation place. 30. At the cremation place, having laid</item>
+    <item id="o235" line="241" tag="T">  some wood and kindling on a stone platform, they set about</item>
+    <item id="o236" line="242" tag="T">  to burn them. The old man they placed below and the old</item>
+    <item id="o237" line="243" tag="T">  woman on top. Then they set the pyre alight. 31. In forme;</item>
+    <item id="o238" line="244" tag="T">  times, when a dead body caught alight, it said, "OuchJ" and</item>
+    <item id="o239" line="245" tag="T">  sat up. 32. (Thus) the old woman (did). Then the old man</item>
+    <item id="o240" line="246" tag="T">  caught alight, and he too said, "Ouch, and sat up. 33. In</item>
+    <item id="o241" line="247" tag="T">  the early days there were people cremated who came back to</item>
+    <item id="o242" line="248" tag="T">  life.</item>
+    <item id="o243" line="249" tag="T">          34. Then the people of the village asked, "What happened</item>
+    <item id="o244" line="250" tag="T">  to you?" They said, "It happened like this. We, an old man</item>
+    <item id="o245" line="251" tag="T">  and an old woman, begged rice fragments and butter around</item>
+    <item id="o246" line="252" tag="T">  the village. The old woman made bread--it was only five</item>
+    <item id="o247" line="253" tag="T">  rolls--and said, 'I will eat three, you eat two.1 The old</item>
+    <item id="o248" line="254" tag="T">  maa said, 'You eat two; I will eat three.' We went on and</item>
+    <item id="o249" line="255" tag="T">  on, arguing and sitting, and we didn't know what was</item>
+    <item id="o250" line="256" tag="T">  happening.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7" tag="L">kwiqla.. aaba..-di, rih-bar yaah-m.       2. dai tA</item>
+    <item id="c2" line="8" tag="G">some    father-agt ask-purp go-pres          then talk</item>
+    <item id="c3" line="9" tag="L">ta-mu Hkih-e tsamiq, ngaq-e tsah-lai pi-n..* bi-maf</item>
+    <item id="c4" line="10" tag="G">be-pres you-of daughter I-of son-to   give-imp say-ptc</item>
+    <item id="c5" line="11" tag="M">W</item>
+    <item id="c6" line="12" tag="L">tsamiq   AAma-di,    3A ta-mu,  3B gAAhqna tsauh</item>
+    <item id="c7" line="13" tag="G">daughter mother-agt     OK-pres    Jewelry so-much</item>
+    <item id="c8" line="14" tag="L">tsauh, asurblq         maaqla  bah-guq,   30. rayAAq</item>
+    <item id="c9" line="15" tag="G">so-much rupee-necklace necklace bring-imp     gold-bracelet</item>
+    <item id="c10" line="16" tag="L">Tuhq-bo   bah-uq,H    bi-i#    tsahmi-eq   AAma-di,</item>
+    <item id="c11" line="17" tag="G">six-class bring-imp   say-past daughter-of mother-agt</item>
+    <item id="c12" line="18" tag="G">f,</item>
+    <item id="c13" line="19" tag="L">dzahleq tsah-e aaba-di,      AA. ta-m.   4B. nga-d</item>
+    <item id="c14" line="20" tag="G">then    son-of father-agt        OK-pres      I-agt</item>
+    <item id="c15" line="21" tag="L">bah-muq,n bi-i·     5· tsaq-,aB-d..pl-l.     tsahmi-lai</item>
+    <item id="c16" line="22" tag="G">bring-pres say-past    that-pl-agt give-past daughter-to</item>
+    <item id="c17" line="23" tag="L">pl-di,     6, tsah-e aaba   dlhq-r   kha-i,    7» gAAhqna</item>
+    <item id="c18" line="24" tag="G">give-agt      son-of father house-to come-past    Jewelry</item>
+    <item id="c19" line="25" tag="L">dzaga ta-di,    8. gAAhqna ta-i    biriq din ngyoh-di,</item>
+    <item id="c20" line="26" tag="G">pi    be-past      jewelry be-past after day look-past</item>
+    <item id="c21" line="27" tag="L">din ngyoh-i   biriq, byaa  din ngyoh-i, 10. "byaa..</item>
+    <item id="c22" line="28" tag="G">day look-past after wedding day look-past    wedding</item>
+    <item id="c23" line="29" tag="L">phalanaq   dina-r ta-l.H bi-i,     kya-r    khe-maE</item>
+    <item id="c24" line="30" tag="G">particular day-on be-past say-past there-at self-of</item>
+    <item id="c25" line="31" tag="L">samdi-maqne                  tA ta-dl, 11· tA   ta-i</item>
+    <item id="c26" line="32" tag="G">(child1s father-in-law)-with talk be-past  talk be-past</item>
+    <item id="c27" line="33" tag="L">biriq.. "0 ta-m     syidiq,"    bi-i     biriq, gAAhqna</item>
+    <item id="c28" line="34" tag="G">after    OK OK-pres emp         say-past after Jewelry</item>
+    <item id="c29" line="35" tag="L">dzaga, ThyaaqmThiqm la-di,     12. kwE     dzaga,</item>
+    <item id="c30" line="36" tag="G">pi     arrangements do-past        clothes pi</item>
+    <item id="c31" line="37" tag="L">kl-bah-di,     pukhruq-le,     13· dai byaa     la-i,</item>
+    <item id="c32" line="38" tag="G">get-bring-past Pokhara-from        then wedding do-past</item>
+    <item id="c33" line="39" tag="L">bahtyaqr la-mu, kwiqla,   15. kwiqla, bahtyaqr ah-la</item>
+    <item id="c34" line="40" tag="G">feast    do-pres some         some    feast    not-do</item>
+    <item id="c35" line="41" tag="B"/>
+    <item id="c36" line="42" tag="B">-12-</item>
+    <item id="c37" line="43" tag="B"/>
+    <item id="c38" line="44" tag="L">kEh   dzOhq-n, dehroq, dai biriq ngyohq,     tsuh-iq     biriq</item>
+    <item id="c39" line="45" tag="G">bread bake-imp now    next after ve(incl)    divide-past after</item>
+    <item id="c40" line="46" tag="L">tsarb-ga.M   bi-i.      13. mAAbaq-di,      dzahleq     mi</item>
+    <item id="c41" line="47" tag="G">eat-ger-be   say-past      (old woman)-agt (after that) fire</item>
+    <item id="c42" line="48" tag="L">pln4-di, kEh    dzOh-baqe bAhDoq., dzOhguq phir tsuh-diq,</item>
+    <item id="c43" line="49" tag="G">blov-paet bread bake-of   container tripod on   place-past</item>
+    <item id="c44" line="50" tag="L">dzahleq,     mAAbaq-di,      kEh   dzOh-baqr khOq-I,</item>
+    <item id="c45" line="51" tag="G">(after that) (old woman)-agt bread bake-purp begin-past</item>
+    <item id="c46" line="52" tag="L">khiba,    khaaqDa phiri, bOhq     nah-i,    aaram la-i.</item>
+    <item id="c47" line="53" tag="G">(old man) bed     upon   strength rest-past rest do-past</item>
+    <item id="c48" line="54" tag="L">dzahleq,     tshyiqn grihq liUdiq, mAAbaq-di,      kEh</item>
+    <item id="c49" line="55" tag="G">(after that) moment one    later   (old woman)-agt bread</item>
+    <item id="c50" line="56" tag="L">dzOfc-1   khAAq-I.      17. dzahleq,    mAAbaq-d</item>
+    <item id="c51" line="57" tag="G">bak^-past finish-past      (after that) (old woman)-agt</item>
+    <item id="c52" line="58" tag="M">M          !</item>
+    <item id="c53" line="59" tag="L">bi-di,    oq khiba,-ri-d.   kEh   dzOh-1    khAAq-I,</item>
+    <item id="c54" line="60" tag="G">say-past 0 (old man) arise-imp bread bake-past finish-past</item>
+    <item id="c55" line="61" tag="L">dehroq kBh   tsa-d." bi-i,</item>
+    <item id="c56" line="62" tag="G">now    bread eat-imp say-past</item>
+    <item id="c57" line="63" tag="L">18, kEh   dzamma, ngahq-dO matreq mu-la.</item>
+    <item id="c58" line="64" tag="G">bread all     five-class only is-past</item>
+    <item id="c59" line="65" tag="L">mAAbaq-d        tsuh-diq, sOq    mAAbaq-lai9     nglhq</item>
+    <item id="c60" line="66" tag="G">(old-woman)-agt divide-agt three (old-woman)-for two</item>
+    <item id="c61" line="67" tag="M">M</item>
+    <item id="c62" line="68" tag="L">khiba-lai,    la-di   dai khiba-d        bi-1,    ah-nglhq.</item>
+    <item id="c63" line="69" tag="G">(old man)-for do-past then (old man)-agt say-past not-be</item>
+    <item id="c64" line="70" tag="L">ngard tshyuguq maeh-i      bah-i-gaq,   kih-d   kBh</item>
+    <item id="c65" line="71" tag="G">I-agt butter   search-past bring-past-? you-agt bread</item>
+    <item id="c66" line="72" tag="L">dzOh-diqf nga-d kadiq     mih mepriq, bindi   la-syl, la-i</item>
+    <item id="c67" line="73" tag="G">bake-past I-agt (how many) man with   request do-ptop do-past</item>
+    <item id="c68" line="74" tag="L">tshyuguq rih-bah-diq,   dai kih-d    kBh   dzOh-diq.</item>
+    <item id="c69" line="75" tag="G">butter   ask-bring-past then you-agt bread bake-past</item>
+    <item id="c70" line="76" tag="L">nglhq kih tsa-duq, sOq  nga tea-m.* bi-i.</item>
+    <item id="c71" line="77" tag="G">two   you eat-imp three I   eat-pres say-pas*</item>
+    <item id="c72" line="78" tag="L">mAAbaq-d        bi-di    "ah-'-ta. nga-d kanggaq</item>
+    <item id="c73" line="79" tag="G">old woman)-agt say-past not-be    I-agt (rice fragments</item>
+    <item id="c74" line="80" tag="L">maeh-bah-diq,     kanggaq          proh-di,   mi   phwi-dl,</item>
+    <item id="c75" line="81" tag="G">search-bring-past (rice fragments) grind-past fire light-pa%t</item>
+    <item id="c76" line="82" tag="B"/>
+    <item id="c77" line="83" tag="L">kEh   dzOh-diq, nga-lai lehq duhkha     ta-i.   sOq   nga</item>
+    <item id="c78" line="84" tag="G">bread bake-past I-for   much difficulty be-past three I</item>
+    <item id="c79" line="85" tag="L">tsa-mu, nglhq kih tsa-d.rt</item>
+    <item id="c80" line="86" tag="G">eat-pres two  you eat-imp</item>
+    <item id="c81" line="87" tag="L">bi-na    bi-na    bi-na    bi-na    bi-na    bi-na,</item>
+    <item id="c82" line="88" tag="G">say-oont say-cont say-cont say-cont eay-cont say-cont</item>
+    <item id="c83" line="89" tag="L">khaiq   la-eye tsaq-maE khib-neq       mAAbaq-e,</item>
+    <item id="c84" line="90" tag="G">dispute do-ptcp that-pl (old man)-with (old woman)-of</item>
+    <item id="c85" line="91" tag="L">tA           toqi ah-taq.      dzahleq khiba-d       bi-di,</item>
+    <item id="c86" line="92" tag="G">conversation any not-be        then    (old man)-agt say-past</item>
+    <item id="c87" line="93" tag="L">khlbaq-e     bidzaraq, "pahnahga mAhga-riq, mAAbaq,     asOq</item>
+    <item id="c88" line="94" tag="G">(old man)-of thought    tomorrow morning-in (old woman) early</item>
+    <item id="c89" line="95" tag="L">ri-1      tuh-mu ,H tsaq-d   bidzar la-syi, khiba      baTTho</item>
+    <item id="c90" line="96" tag="G">arise-inf must-pres that-agt thought do-ptcp (old man) clever</item>
+    <item id="c91" line="97 98" tag="L+CR">ta-b   la-syi, khiba-d       bi-di, ftngyohq tshaa-le Ti-syi</item>
+    <item id="c93" line="99" tag="G">be-ger do-ptcp (old man)-agt say-past we      thus-adv stay-ptcp</item>
+    <item id="c94" line="100" tag="L">ah-taq.    dehroq roq-le.       23. "pahnahga nAAhga-r, khab</item>
+    <item id="c95" line="101" tag="G">not-be     now    sleep-hort         tomorrow morning-In who</item>
+    <item id="c96" line="102" tag="L">asOq ri-mu,      tsaq-di nglhq tsa-ba, khab lili ri-mu</item>
+    <item id="c97" line="103" tag="G">first arise-pres that-agt two  eat-ger who later arise-pres</item>
+    <item id="c98" line="104" tag="L">tsaq-di sOq    tsa-ba.tt   bi-i.    24. dzahleq, mAAbaq-d</item>
+    <item id="c99" line="105" tag="G">that-agt three eat-ger      say-past    then     (old woman)-agt</item>
+    <item id="c100" line="106" tag="L">bi-di,   "ta-m   didiyA* bi-i     biriq, nglh-naq nglhq-n</item>
+    <item id="c101" line="107" tag="G">say-past OK-pres emp     say-past after two-group two-group</item>
+    <item id="c102" line="108" tag="L">roq-di.        25. dzahleq, pahnahga nAhga-ri   khibaq-e</item>
+    <item id="c103" line="109" tag="G">sleep-past         then     tomorrow morning-in (old man)-of</item>
+    <item id="c104" line="110" tag="L">saE-ri, "mAAbaq     asOq ri-yAq, mAAbaq        nglhq</item>
+    <item id="c105" line="111" tag="G">mind-in (old woman) early arise-lf (old woman) two</item>
+    <item id="c106" line="112" tag="L">tsa-maqla, nga sOq   tsa-maqla.lf bi-ba, mAAbaq-e        saE-ri,</item>
+    <item id="c107" line="113" tag="G">eat-?      I   three eat-?        say-ger (old woman)-of mind-in</item>
+    <item id="c108" line="114" tag="L">khiba     asOq ri-yAq, khiba      nglhq tsa-maqla, nga</item>
+    <item id="c109" line="115" tag="G">(old man) early arise-if (old man) two   eat-?     I</item>
+    <item id="c110" line="116" tag="L">sOq   tsa-maqla.H    bi-i.    tshaa bi-i    biriq, Ti-na,</item>
+    <item id="c111" line="117" tag="G">three eat-?          say-past thus say-past after stay-cont</item>
+    <item id="c112" line="118" tag="L">Ti-na,    Ti-na,    Ti-na,    roq-ma,    roq-ma,    khiba</item>
+    <item id="c113" line="119" tag="G">stay-cont stay-cont stay-cont sleep-pres sleep-pres (old man)</item>
+    <item id="c114" line="120" tag="B"/>
+    <item id="c115" line="121" tag="B">-14-</item>
+    <item id="c116" line="122" tag="B"/>
+    <item id="c117" line="123" tag="L">mAAbaq,     phoqdE ta-syeriq syi-yaah-i.</item>
+    <item id="c118" line="124" tag="G">(old woman) hunger be-ptcp   die-go-past</item>
+    <item id="c119" line="125" tag="L">26 · dzahleq, sO-gaEq-ma, nAAqsa-r baqe mlh</item>
+    <item id="c120" line="126" tag="G">then     three-days-in village-in of people</item>
+    <item id="c121" line="127" tag="L">kha-i.       27* *tiyA, tsaq khib      neq mAAbaq,    tiyA</item>
+    <item id="c122" line="128" tag="G">come-past        today that (old man) and (old woman) today</item>
+    <item id="c123" line="129" tag="L">sO-gaEq    ta-dl, balru    ah-tOh.       toq ta-e?M</item>
+    <item id="c124" line="130" tag="G">thr#e-days be-past outside not-emerge    what happen-dub</item>
+    <item id="c125" line="131" tag="L">bi-i    biriq, ngyOh-n-di.  28. la-ma, khibaq-e</item>
+    <item id="c126" line="132" tag="G">say-past after look-go-past     do-ptc (old man)-emp</item>
+    <item id="c127" line="133" tag="L">syi-yaah-na, mAAbaq-e       syi-yaah-na.    bAAhDo-ri kBh</item>
+    <item id="c128" line="134" tag="G">die-go-past (old woman)~emp die-go-past     vessei-in bread</item>
+    <item id="c129" line="135" tag="L">ngafxq-DO  mu-na.      29. dzahleq, nAAqsa-r     baqe</item>
+    <item id="c130" line="136" tag="G">fire-class be-past         then     village-in   of</item>
+    <item id="c131" line="137" tag="L">mih-dzaga-di, tsaq khib      neq mAAbaq      la-di,</item>
+    <item id="c132" line="138" tag="G">people-pl-agt that (old man) and (old woman) do-past</item>
+    <item id="c133" line="139" tag="L">gaa&amp;Daq-r    bo-yaah-i.      30. gaahDaq-r   bo-1      biriq,</item>
+    <item id="c134" line="140" tag="G">oemfetery-to take-go-past        cemetery-to take-past after</item>
+    <item id="c135" line="141" tag="L">khrO-bar khOq-I,     sylq dzaga, dzOh-Iq    biriq, yuqma-e</item>
+    <item id="c136" line="142" tag="G">burt-purp begin-past wood pi     place-past after stone-of</item>
+    <item id="c137" line="143" tag="L">bAAqnu dzOh-Iq    biriq, tsaq khib     neq mAAbaq      la-di,</item>
+    <item id="c138" line="144" tag="G">wall   place-past after that (old man) and (old woman) do-past</item>
+    <item id="c139" line="145" tag="L">khiba-lal    prihUdi, mAAbaq-lai     koh, thB-I     biriq,</item>
+    <item id="c140" line="146" tag="G">(old man)-to below    (old woman)-to above put-past after</item>
+    <item id="c141" line="147" tag="L">khrO-bar khOq-I.         31. saqla-r,       syi-yaah-ba.e</item>
+    <item id="c142" line="148" tag="G">burn-purp begin-past         (old times)-in dle-go-of</item>
+    <item id="c143" line="149 150" tag="L+CR">syinuq, mi  salbi-di-ma, rtathuqH     bi-i     biriq, phaqri</item>
+    <item id="c145" line="151" tag="G">corpse fire Ignite-Nep-ptc   ouch     say-past after up</item>
+    <item id="c146" line="152" tag="L">yaah-i.     32. mAAbaq.    dzahleq, khiba-lai    salbi-di-i,</item>
+    <item id="c147" line="153" tag="G">go-past        (old woman) then     (old man)-to ignite-Nep-p*ast</item>
+    <item id="c148" line="154" tag="M">H</item>
+    <item id="c149" line="155" tag="L">khibaq-e,      athuq" bi-i     biriq, phaqri yaah-i.</item>
+    <item id="c150" line="156" tag="G">(old man)-also ouch    say-past after up      go-past</item>
+    <item id="c151" line="157" tag="L">33· satteq dzuga-r baqe mih    ta-na, syi-yaah-le bileya</item>
+    <item id="c152" line="158" tag="G">early age-in of     people be-past die-go-adv if</item>
+    <item id="c153" line="159" tag="L">pheqrl soq-i.</item>
+    <item id="c154" line="160" tag="G">again live-past</item>
+    <item id="c155" line="161" tag="B"/>
+    <item id="c156" line="162" tag="B">x z&gt;--</item>
+    <item id="c157" line="163" tag="B"/>
+    <item id="c158" line="164" tag="B"/>
+    <item id="c159" line="165" tag="L">dai, nAAqsa-r   baqe mih-d      ngywiq-di,</item>
+    <item id="c160" line="166" tag="G">then village-in of   people-agt ask-past</item>
+    <item id="c161" line="167" tag="L">keh-maE toq ta-la?"      "tshaa ta-baq,M bi-ma,    "ngi</item>
+    <item id="c162" line="168" tag="G">you-pl what be-past       thus be-ger    say-ptc    we</item>
+    <item id="c163" line="169" tag="L">khib      neq mAAbaq-di,      nAAqsa-uleq tshaa-le</item>
+    <item id="c164" line="170" tag="G">(old man) and (old woman)-agt village-from thus-adv</item>
+    <item id="c165" line="171" tag="L">kanggaq          maeh   bah-la,    tshyuguq maeh   bah-i.</item>
+    <item id="c166" line="172" tag="G">(rice fragments) search bring-past butter   search bring-past</item>
+    <item id="c167" line="173" tag="L">kEh   dzOh-laq, kEh   dzamma ngahq-DO   mareq ta-di,</item>
+    <item id="c168" line="174" tag="L">bread bake-past bread all    five-class only be-past</item>
+    <item id="c171" line="177" tag="G">(old woman)-agt say-ptc I   three eat-pres you two</item>
+    <item id="c172" line="178" tag="L">tsa-d.f    bi-ba, kihba-d        bi-ma, 'kih nglhq tsa-duq,</item>
+    <item id="c173" line="179" tag="G">eat-imp    say-ger (old man)-agt say-ptc you two   eat-imp,fam</item>
+    <item id="c174" line="180" tag="L">nga sOq   tsa-m.!  bi-ba, tshaa bi-na    bi-n,             Ti-na</item>
+    <item id="c175" line="181" tag="G">I   three eat-pres say-ger thus say-cont say-cont          atay-cont</item>
+    <item id="c176" line="182" tag="L">Ti-n,     ngi toq ta-baqe thaa      ah-yO //.*</item>
+    <item id="c177" line="183" tag="G">stay-cont we what be-of   knowledge not-available</item>
+    <item id="c178" line="184" tag="B"/>
+    <item id="c179" line="185" tag="B"/>
+    <item id="c180" line="186" tag="T">Free Translation; The Old Man and the Old Woman</item>
+    <item id="c181" line="187" tag="T">Once upon a time, in Nepal, there lived an old man</item>
+    <item id="c182" line="188" tag="T">and an old woman in such and such a village, 2. They didnft</item>
+    <item id="c183" line="189" tag="T">have any children. 3. The old man and the old woman were</item>
+    <item id="c184" line="190" tag="T">extremely poor. 4. They did not have any fields. 5. They</item>
+    <item id="c185" line="191" tag="T">did not have any brothers, 6. Only by going around the</item>
+    <item id="c186" line="192" tag="T">village begging could they have food to eat. 7. One day</item>
+    <item id="c187" line="193" tag="T">they brought some small rice grain chips which they had</item>
+    <item id="c188" line="194" tag="T">begged for round the village, 8, Then the old woman began</item>
+    <item id="c189" line="195" tag="T">to grind the rice. 9. The old man went round the village</item>
+    <item id="c190" line="196" tag="T">begging for butter, 10. In just a little while the old</item>
+    <item id="c191" line="197" tag="T">woman had finished grinding the rice. 11. At the moment</item>
+    <item id="c192" line="198" tag="T">she finished grinding the rice the old man arrived at their</item>
+    <item id="c193" line="199" tag="T">house. 12. He said, "Listen old woman, I, from the village</item>
+    <item id="c194" line="200" tag="T">have sought and brought the butter. You therefore must bake</item>
+    <item id="c195" line="201" tag="T">some bread. Then we can share the bread and eat it.</item>
+    <item id="c196" line="202" tag="T">So the old woman blew the fire into life and put the</item>
+    <item id="c197" line="203" tag="T">bread-baking pan on the tripod. 14. Then the old woman set</item>
+    <item id="c198" line="204" tag="T">about to bake the bread. 15. The old man rested on the bed.</item>
+    <item id="c199" line="205" tag="T">In a little while the old woman had finished baking the</item>
+    <item id="c200" line="206" tag="T">bread. 17. Then the old woman said "OhI old man; get up.</item>
+    <item id="c201" line="207" tag="T">The bread is finished baking, so now eat it!</item>
+    <item id="c202" line="208" tag="B"/>
+    <item id="c203" line="209" tag="B">-16-</item>
+    <item id="c204" line="210" tag="B"/>
+    <item id="c205" line="211" tag="B"/>
+    <item id="c206" line="212" tag="T">18, In all there were only five rolls. 19, The old</item>
+    <item id="c207" line="213" tag="T">woman divided three for herself and two for the old man, but</item>
+    <item id="c208" line="214" tag="T">then the old man said, "This shouldn't be. I brought the</item>
+    <item id="c209" line="215" tag="T">butter after searching for it. You only baked the bread.</item>
+    <item id="c210" line="216" tag="T">How many men did I have to greet begging for that butter.</item>
+    <item id="c211" line="217" tag="T">You (only) baked the bread. 20. You eat two, I will eat</item>
+    <item id="c212" line="218" tag="T">three." 21. The old woman replied, H0h no! I sought for the</item>
+    <item id="c213" line="219" tag="T">rice chippings; I ground the rice; I blew the fire into life;</item>
+    <item id="c214" line="220" tag="T">I baked the bread; I had all the difficult work to do,</item>
+    <item id="c215" line="221" tag="T">therefore three I will eat, two you can eat.</item>
+    <item id="c216" line="222" tag="T">In this way they continued arguing, but nothing</item>
+    <item id="c217" line="223" tag="T">was solved. But then the old man had a thought-tomorrow</item>
+    <item id="c218" line="224" tag="T">morning the old woman shall rise first. Thus thinking he</item>
+    <item id="c219" line="225" tag="T">became cunning and said, M¥e shouldn't stay this way. Let</item>
+    <item id="c220" line="226" tag="T">us sleep, and the one who rises later can eat three." 24.</item>
+    <item id="c221" line="227" tag="T">M0K,W said the old woman, and so they both went to sleep.</item>
+    <item id="c222" line="228" tag="T">The next morning the old man said to himself, "If the old</item>
+    <item id="c223" line="229" tag="T">wom^tn rises first, three I will eat, two the old woman will</item>
+    <item id="c224" line="230" tag="T">eat." The old woman was saying to herself, "if the old man</item>
+    <item id="c225" line="231" tag="T">riaes first, he will have two and I'll have three." So</item>
+    <item id="c226" line="232" tag="T">saying they stayed (neither getting up) . With such hunger</item>
+    <item id="c227" line="233" tag="T">in them, they died.</item>
+    <item id="c228" line="234" tag="T">In three days the people of the village came.</item>
+    <item id="c229" line="235" tag="T">27· "it's now three days since the old man and the old woman</item>
+    <item id="c230" line="236" tag="T">have come outside; what's happened?" So asking, they looked</item>
+    <item id="c231" line="237" tag="T">in. 28. And so they found the old man dead and the old</item>
+    <item id="c232" line="238" tag="T">woman dead, and five rolls in the pan. 29 · The people of</item>
+    <item id="c233" line="239" tag="T">the village took the old man and the old woman to the</item>
+    <item id="c234" line="240" tag="T">cremation place. 30. At the cremation place, having laid</item>
+    <item id="c235" line="241" tag="T">some wood and kindling on a stone platform, they set about</item>
+    <item id="c236" line="242" tag="T">to burn them. The old man they placed below and the old</item>
+    <item id="c237" line="243" tag="T">woman on top. Then they set the pyre alight. 31. In forme;</item>
+    <item id="c238" line="244" tag="T">times, when a dead body caught alight, it said, "OuchJ" and</item>
+    <item id="c239" line="245" tag="T">sat up. 32. (Thus) the old woman (did). Then the old man</item>
+    <item id="c240" line="246" tag="T">caught alight, and he too said, "Ouch, and sat up. 33. In</item>
+    <item id="c241" line="247" tag="T">the early days there were people cremated who came back to</item>
+    <item id="c242" line="248" tag="T">life.</item>
+    <item id="c243" line="249" tag="T">Then the people of the village asked, "What happened</item>
+    <item id="c244" line="250" tag="T">to you?" They said, "It happened like this. We, an old man</item>
+    <item id="c245" line="251" tag="T">and an old woman, begged rice fragments and butter around</item>
+    <item id="c246" line="252" tag="T">the village. The old woman made bread--it was only five</item>
+    <item id="c247" line="253" tag="T">rolls--and said, 'I will eat three, you eat two.1 The old</item>
+    <item id="c248" line="254" tag="T">maa said, 'You eat two; I will eat three.' We went on and</item>
+    <item id="c249" line="255" tag="T">on, arguing and sitting, and we didn't know what was</item>
+    <item id="c250" line="256" tag="T">happening.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+    <item id="p1" content="c3[0:51]"/>
+    <item id="p2" content="c6[0:48]"/>
+    <item id="p3" content="c8[0:52]"/>
+    <item id="p4" content="c10[0:51]"/>
+    <item id="p5" content="c13[0:50]"/>
+    <item id="p6" content="c15[0:55]"/>
+    <item id="p7" content="c17[0:57]"/>
+    <item id="p8" content="c19[0:54]"/>
+    <item id="p9" content="c21[0:51]"/>
+    <item id="p10" content="c23[0:51]"/>
+    <item id="p11" content="c25[0:52]"/>
+    <item id="p12" content="c27[0:55]"/>
+    <item id="p13" content="c29[0:49]"/>
+    <item id="p14" content="c31[0:53]"/>
+    <item id="p15" content="c33[0:52]"/>
+    <item id="p16" content="c38[0:62]"/>
+    <item id="p17" content="c40[0:58]"/>
+    <item id="p18" content="c42[0:57]"/>
+    <item id="p19" content="c44[0:52]"/>
+    <item id="p20" content="c46[0:55]"/>
+    <item id="p21" content="c48[0:54]"/>
+    <item id="p22" content="c50[0:48]"/>
+    <item id="p23" content="c53[0:52]"/>
+    <item id="p24" content="c55[0:26]"/>
+    <item id="p25" content="c57[0:40]"/>
+    <item id="p26" content="c59[0:54]"/>
+    <item id="p27" content="c62[0:59]"/>
+    <item id="p28" content="c64[0:51]"/>
+    <item id="p29" content="c66[0:58]"/>
+    <item id="p30" content="c68[0:52]"/>
+    <item id="p31" content="c70[0:41]"/>
+    <item id="p32" content="c72[0:48]"/>
+    <item id="p33" content="c74[0:59]"/>
+    <item id="p34" content="c77[0:57]"/>
+    <item id="p35" content="c79[0:26]"/>
+    <item id="p36" content="c81[0:51]"/>
+    <item id="p37" content="c83[0:48]"/>
+    <item id="p38" content="c85[0:59]"/>
+    <item id="p39" content="c87[0:60]"/>
+    <item id="p40" content="c89[0:61]"/>
+    <item id="p41" content="c91[0:60]"/>
+    <item id="p42" content="c94[0:60]"/>
+    <item id="p43" content="c96[0:54]"/>
+    <item id="p44" content="c98[0:57]"/>
+    <item id="p45" content="c100[0:57]"/>
+    <item id="p46" content="c102[0:56]"/>
+    <item id="p47" content="c104[0:52]"/>
+    <item id="p48" content="c106[0:64]"/>
+    <item id="p49" content="c108[0:54]"/>
+    <item id="p50" content="c110[0:57]"/>
+    <item id="p51" content="c112[0:57]"/>
+    <item id="p52" content="c117[0:40]"/>
+    <item id="p53" content="c119[0:43]"/>
+    <item id="p54" content="c121[0:58]"/>
+    <item id="p55" content="c123[0:51]"/>
+    <item id="p56" content="c125[0:47]"/>
+    <item id="p57" content="c127[0:57]"/>
+    <item id="p58" content="c129[0:53]"/>
+    <item id="p59" content="c131[0:51]"/>
+    <item id="p60" content="c133[0:61]"/>
+    <item id="p61" content="c135[0:58]"/>
+    <item id="p62" content="c137[0:61]"/>
+    <item id="p63" content="c139[0:58]"/>
+    <item id="p64" content="c141[0:57]"/>
+    <item id="p65" content="c143[0:60]"/>
+    <item id="p66" content="c146[0:60]"/>
+    <item id="p67" content="c149[0:52]"/>
+    <item id="p68" content="c151[0:56]"/>
+    <item id="p69" content="c153[0:13]"/>
+    <item id="p70" content="c159[0:42]"/>
+    <item id="p71" content="c161[0:55]"/>
+    <item id="p72" content="c163[0:50]"/>
+    <item id="p73" content="c165[0:57]"/>
+    <item id="p74" content="c167[0:52]"/>
+    <item id="p75" content="c168[0:52]"/>
+    <item id="p76" content="c172[0:59]"/>
+    <item id="p77" content="c174[0:64]"/>
+    <item id="p78" content="c176[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+    <item id="g1" content="c4[0:54]" alignment="p2"/>
+    <item id="g2" content="c7[0:50]" alignment="p3"/>
+    <item id="g3" content="c9[0:59]" alignment="p4"/>
+    <item id="g4" content="c11[0:53]" alignment="p5"/>
+    <item id="g5" content="c12[0:2]" alignment="p5"/>
+    <item id="g6" content="c14[0:51]" alignment="p6"/>
+    <item id="g7" content="c16[0:56]" alignment="p7"/>
+    <item id="g8" content="c18[0:57]" alignment="p8"/>
+    <item id="g9" content="c20[0:54]" alignment="p9"/>
+    <item id="g10" content="c22[0:52]" alignment="p10"/>
+    <item id="g11" content="c24[0:51]" alignment="p11"/>
+    <item id="g12" content="c26[0:55]" alignment="p12"/>
+    <item id="g13" content="c28[0:54]" alignment="p13"/>
+    <item id="g14" content="c30[0:45]" alignment="p14"/>
+    <item id="g15" content="c32[0:55]" alignment="p15"/>
+    <item id="g16" content="c34[0:53]" alignment="p16"/>
+    <item id="g17" content="c39[0:62]" alignment="p17"/>
+    <item id="g18" content="c41[0:60]" alignment="p18"/>
+    <item id="g19" content="c43[0:58]" alignment="p19"/>
+    <item id="g20" content="c45[0:55]" alignment="p20"/>
+    <item id="g21" content="c47[0:56]" alignment="p21"/>
+    <item id="g22" content="c49[0:56]" alignment="p22"/>
+    <item id="g23" content="c51[0:55]" alignment="p23"/>
+    <item id="g24" content="c54[0:58]" alignment="p24"/>
+    <item id="g25" content="c56[0:29]" alignment="p25"/>
+    <item id="g26" content="c58[0:37]" alignment="p26"/>
+    <item id="g27" content="c60[0:52]" alignment="p27"/>
+    <item id="g28" content="c63[0:56]" alignment="p28"/>
+    <item id="g29" content="c65[0:53]" alignment="p29"/>
+    <item id="g30" content="c67[0:61]" alignment="p30"/>
+    <item id="g31" content="c69[0:52]" alignment="p31"/>
+    <item id="g32" content="c71[0:45]" alignment="p32"/>
+    <item id="g33" content="c73[0:55]" alignment="p33"/>
+    <item id="g34" content="c75[0:61]" alignment="p34"/>
+    <item id="g35" content="c78[0:55]" alignment="p35"/>
+    <item id="g36" content="c80[0:25]" alignment="p36"/>
+    <item id="g37" content="c82[0:53]" alignment="p37"/>
+    <item id="g38" content="c84[0:53]" alignment="p38"/>
+    <item id="g39" content="c86[0:61]" alignment="p39"/>
+    <item id="g40" content="c88[0:61]" alignment="p40"/>
+    <item id="g41" content="c90[0:61]" alignment="p41"/>
+    <item id="g42" content="c93[0:64]" alignment="p42"/>
+    <item id="g43" content="c95[0:60]" alignment="p43"/>
+    <item id="g44" content="c97[0:59]" alignment="p44"/>
+    <item id="g45" content="c99[0:64]" alignment="p45"/>
+    <item id="g46" content="c101[0:59]" alignment="p46"/>
+    <item id="g47" content="c103[0:60]" alignment="p47"/>
+    <item id="g48" content="c105[0:50]" alignment="p48"/>
+    <item id="g49" content="c107[0:64]" alignment="p49"/>
+    <item id="g50" content="c109[0:52]" alignment="p50"/>
+    <item id="g51" content="c111[0:59]" alignment="p51"/>
+    <item id="g52" content="c113[0:61]" alignment="p52"/>
+    <item id="g53" content="c118[0:40]" alignment="p53"/>
+    <item id="g54" content="c120[0:43]" alignment="p54"/>
+    <item id="g55" content="c122[0:59]" alignment="p55"/>
+    <item id="g56" content="c124[0:56]" alignment="p56"/>
+    <item id="g57" content="c126[0:52]" alignment="p57"/>
+    <item id="g58" content="c128[0:59]" alignment="p58"/>
+    <item id="g59" content="c130[0:51]" alignment="p59"/>
+    <item id="g60" content="c132[0:52]" alignment="p60"/>
+    <item id="g61" content="c134[0:60]" alignment="p61"/>
+    <item id="g62" content="c136[0:58]" alignment="p62"/>
+    <item id="g63" content="c138[0:62]" alignment="p63"/>
+    <item id="g64" content="c140[0:57]" alignment="p64"/>
+    <item id="g65" content="c142[0:53]" alignment="p65"/>
+    <item id="g66" content="c145[0:55]" alignment="p66"/>
+    <item id="g67" content="c147[0:65]" alignment="p67"/>
+    <item id="g68" content="c150[0:53]" alignment="p68"/>
+    <item id="g69" content="c152[0:48]" alignment="p69"/>
+    <item id="g70" content="c154[0:15]" alignment="p70"/>
+    <item id="g71" content="c160[0:40]" alignment="p71"/>
+    <item id="g72" content="c162[0:54]" alignment="p72"/>
+    <item id="g73" content="c164[0:51]" alignment="p73"/>
+    <item id="g74" content="c166[0:61]" alignment="p74"/>
+    <item id="g75" content="c171[0:50]" alignment="p76"/>
+    <item id="g76" content="c173[0:62]" alignment="p77"/>
+    <item id="g77" content="c175[0:68]" alignment="p78"/>
+    <item id="g78" content="c177[0:49]" alignment="p79"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c180[0:47]" alignment="p79"/>
+    <item id="t1" content="c181[0:50]" alignment="p79"/>
+    <item id="t2" content="c182[0:59]" alignment="p79"/>
+    <item id="t3" content="c183[0:56]" alignment="p79"/>
+    <item id="t4" content="c184[0:56]" alignment="p79"/>
+    <item id="t5" content="c185[0:54]" alignment="p79"/>
+    <item id="t6" content="c186[0:55]" alignment="p79"/>
+    <item id="t7" content="c187[0:55]" alignment="p79"/>
+    <item id="t8" content="c188[0:57]" alignment="p79"/>
+    <item id="t9" content="c189[0:56]" alignment="p79"/>
+    <item id="t10" content="c190[0:54]" alignment="p79"/>
+    <item id="t11" content="c191[0:55]" alignment="p79"/>
+    <item id="t12" content="c192[0:59]" alignment="p79"/>
+    <item id="t13" content="c193[0:58]" alignment="p79"/>
+    <item id="t14" content="c194[0:59]" alignment="p79"/>
+    <item id="t15" content="c195[0:51]" alignment="p79"/>
+    <item id="t16" content="c196[0:52]" alignment="p79"/>
+    <item id="t17" content="c197[0:58]" alignment="p79"/>
+    <item id="t18" content="c198[0:59]" alignment="p79"/>
+    <item id="t19" content="c199[0:55]" alignment="p79"/>
+    <item id="t20" content="c200[0:56]" alignment="p79"/>
+    <item id="t21" content="c201[0:44]" alignment="p79"/>
+    <item id="t22" content="c206[0:50]" alignment="p79"/>
+    <item id="t23" content="c207[0:60]" alignment="p79"/>
+    <item id="t24" content="c208[0:56]" alignment="p79"/>
+    <item id="t25" content="c209[0:56]" alignment="p79"/>
+    <item id="t26" content="c210[0:57]" alignment="p79"/>
+    <item id="t27" content="c211[0:55]" alignment="p79"/>
+    <item id="t28" content="c212[0:59]" alignment="p79"/>
+    <item id="t29" content="c213[0:61]" alignment="p79"/>
+    <item id="t30" content="c214[0:54]" alignment="p79"/>
+    <item id="t31" content="c215[0:44]" alignment="p79"/>
+    <item id="t32" content="c216[0:47]" alignment="p79"/>
+    <item id="t33" content="c217[0:55]" alignment="p79"/>
+    <item id="t34" content="c218[0:56]" alignment="p79"/>
+    <item id="t35" content="c219[0:57]" alignment="p79"/>
+    <item id="t36" content="c220[0:57]" alignment="p79"/>
+    <item id="t37" content="c221[0:57]" alignment="p79"/>
+    <item id="t38" content="c222[0:57]" alignment="p79"/>
+    <item id="t39" content="c223[0:60]" alignment="p79"/>
+    <item id="t40" content="c224[0:58]" alignment="p79"/>
+    <item id="t41" content="c225[0:54]" alignment="p79"/>
+    <item id="t42" content="c226[0:58]" alignment="p79"/>
+    <item id="t43" content="c227[0:19]" alignment="p79"/>
+    <item id="t44" content="c228[0:45]" alignment="p79"/>
+    <item id="t45" content="c229[0:60]" alignment="p79"/>
+    <item id="t46" content="c230[0:59]" alignment="p79"/>
+    <item id="t47" content="c231[0:54]" alignment="p79"/>
+    <item id="t48" content="c232[0:57]" alignment="p79"/>
+    <item id="t49" content="c233[0:53]" alignment="p79"/>
+    <item id="t50" content="c234[0:56]" alignment="p79"/>
+    <item id="t51" content="c235[0:58]" alignment="p79"/>
+    <item id="t52" content="c236[0:55]" alignment="p79"/>
+    <item id="t53" content="c237[0:58]" alignment="p79"/>
+    <item id="t54" content="c238[0:59]" alignment="p79"/>
+    <item id="t55" content="c239[0:56]" alignment="p79"/>
+    <item id="t56" content="c240[0:57]" alignment="p79"/>
+    <item id="t57" content="c241[0:58]" alignment="p79"/>
+    <item id="t58" content="c242[0:5]" alignment="p79"/>
+    <item id="t59" content="c243[0:52]" alignment="p79"/>
+    <item id="t60" content="c244[0:58]" alignment="p79"/>
+    <item id="t61" content="c245[0:57]" alignment="p79"/>
+    <item id="t62" content="c246[0:55]" alignment="p79"/>
+    <item id="t63" content="c247[0:57]" alignment="p79"/>
+    <item id="t64" content="c248[0:57]" alignment="p79"/>
+    <item id="t65" content="c249[0:52]" alignment="p79"/>
+    <item id="t66" content="c250[0:10]" alignment="p79"/>
+  </tier>
+</igt>
+<igt id="i106237">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gurung" iso-639-3="gvr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1533" line-range="376-643" line-types="L G L G L G L G L G L G L G L G L G L G L G L T L G L G L G L G L G L G B L G L G L G L G L G L G L G L G L G L G L G L G L G L G L G L G L G L G B B B B L G L G L G L G M L G L G L G L G L G L G L G L G L G L G L G L G L G L G B L G L G L G L G L G L G L G L G L G L G L G L M G L G L G L G L G L G L G B B B B L G L G L G L G B M T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T B B B B B B T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T B B B T T T T T T T T T T T T T T T T T T T T T T T T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="376" tag="L">     16* "khe-maE plo-b      dzaga-la bahtyaqr khuli-di-mu,"</item>
+    <item id="o2" line="377" tag="G">          you-pl wealthy-ger pl-of    feast    open-form-pres</item>
+    <item id="o3" line="378" tag="L">     17 . grihq khliq-I //.</item>
+    <item id="o4" line="379" tag="G">          one finlth-pas t</item>
+    <item id="o5" line="380" tag="L">  (J) 18. grihq khAJuq-I.   19. argoj?</item>
+    <item id="o6" line="381" tag="G">          one   finish-past     other</item>
+    <item id="o7" line="382" tag="L">  (R) 20. argo., kwiqla.*     21. kwiq aaftffyUq tsahmiri maihq</item>
+    <item id="o8" line="383" tag="G">          other some              some man       girl     lore</item>
+    <item id="o9" line="384" tag="L">     ta-mu, 22. dzahleq, n221. tsaq tsahmiri, tsaq phianaq</item>
+    <item id="o10" line="385" tag="G">     be-pres    then           that girl      that particular</item>
+    <item id="o11" line="386" tag="L">     tsahmiri, nga-lai rih-blhq-n, aaba." bi-i     blriq,</item>
+    <item id="o12" line="387" tag="G">     girl      me-for ask-give-imp father say-past after</item>
+    <item id="o13" line="388" tag="L">     khe-maE aaba-lai kul-mu,    23. kul-syi, dzahleq byaa</item>
+    <item id="o14" line="389" tag="G">     self-of father-to send-pres     send-ptop then   wedding</item>
+    <item id="o15" line="390" tag="L">     ta-m.       24. tsahgana //·</item>
+    <item id="o16" line="391" tag="G">     happen-pres     1ike-so</item>
+    <item id="o17" line="392" tag="L">  (J) 25. kwE    pl-m      uj ah-pl?</item>
+    <item id="o18" line="393" tag="G">         clothes give-pres or not-give</item>
+    <item id="o19" line="394" tag="L">  (R) 26. kwB-i      pl-mu,    glihqna-i   pl-m.     27. tsaq</item>
+    <item id="o20" line="395" tag="G">         clothes-emp give-pres Jewelry-emp give-pres     that</item>
+    <item id="o21" line="396" tag="L">     khatam   ta-i //.</item>
+    <item id="o22" line="397" tag="G">     finished is-past</item>
+    <item id="o23" line="398" tag="L">  (J) 28. 0 //.</item>
+    <item id="o24" line="399" tag="T">          Xes.</item>
+    <item id="o25" line="400" tag="L">  (R) 29. argo, pheqri,     30. ngyohq tamU-malq tsalana,</item>
+    <item id="o26" line="401" tag="G">          other again          we      Gurung-pl custom</item>
+    <item id="o27" line="402" tag="L">     rodl-r-aiq       Ti-mu,        31. mahya prBqm ta-mu,</item>
+    <item id="o28" line="403" tag="G">     clubhouse-at-emp stay-pres         love love happen-pres</item>
+    <item id="o29" line="404" tag="L">     32. dzahleq, khe-maE khe-maB-n   oBaaql    yaah-m.</item>
+    <item id="o30" line="405" tag="G">         then     self-pl self-pl-emp elopement go-pres</item>
+    <item id="o31" line="406" tag="L">     33. oDaaql    yaah-mu.#     34. kwE,    gAAhqna.. kwiqla</item>
+    <item id="o32" line="407" tag="G">         elopement go-pres           clothes Jewelry   some</item>
+    <item id="o33" line="408" tag="L">     pl-mu,    kwiqla, ah-pl,        35. thaa     ah-rehq.</item>
+    <item id="o34" line="409" tag="G">     give-pres some    not-give         knowledge not-be</item>
+    <item id="o35" line="410" tag="L">     36. tsahgana //.</item>
+    <item id="o36" line="411" tag="G">         like-so</item>
+    <item id="o37" line="412" tag="B"></item>
+    <item id="o38" line="413" tag="L">  (J ) 37 . byaa    la- *   biriq , khanlq Ti-mu?       38 . rOhsa</item>
+    <item id="o39" line="414" tag="G">            wedding do-pa§t aft§r where live-pres            own</item>
+    <item id="o40" line="415" tag="L">     dlhq-ri u; argo dlhq-r     bah-i     Ti-mu?</item>
+    <item id="o41" line="416" tag="G">     house-in or other house-to take-past live-pres</item>
+    <item id="o42" line="417" tag="L">  (R) 39. rOhsa dlhq-r-naq //.</item>
+    <item id="o43" line="418" tag="G">          own   house-in-emp</item>
+    <item id="o44" line="419" tag="L">  (J) 40. aaba Alma ne      baalun;?</item>
+    <item id="o45" line="420" tag="G">         father mother with together</item>
+    <item id="o46" line="421" tag="L">  (R) 41. 0, baalun-naq        42. baalun Ti-mut</item>
+    <item id="o47" line="422" tag="G">         yes together-emp          together live-pres</item>
+    <item id="o48" line="423" tag="L">  (W) 43, tsamiqri AAma-d,        "ah-ta ah-ta"    bi-(du biyA)</item>
+    <item id="o49" line="424" tag="G">         girl     mother-agt       not-OK not-OK   say-if</item>
+    <item id="o50" line="425" tag="L">     toq la-ba?</item>
+    <item id="o51" line="426" tag="G">     what do-ger</item>
+    <item id="o52" line="427" tag="L">  (R) 44. wah-ta.     45. ah-pl,     46. ah-ta.    47. argoq</item>
+    <item id="o53" line="428" tag="G">           not-OK         not-give       not-OK        other</item>
+    <item id="o54" line="429" tag="L">     kloh-r   yaah-m. pheqri rih-bari //.</item>
+    <item id="o55" line="430" tag="G">     place-in go-pres again ask-purp</item>
+    <item id="o56" line="431" tag="L">  (W) 48. tsamiqri aaba       "ta-m" bi-(du biyA), lAma</item>
+    <item id="o57" line="432" tag="G">         girl      father      OK-pres say-if      mother</item>
+    <item id="o58" line="433" tag="L">     "ah-ta"      bi-(du biyA) toq la-ba?</item>
+    <item id="o59" line="434" tag="G">     not-OK       say-if       what do-ger</item>
+    <item id="o60" line="435" tag="L">  (R) 49. liUd khe-maE,       "49A. tshaa ah-bi-d-di</item>
+    <item id="o61" line="436" tag="G">         later they-pl              thus not-say-imp-emp</item>
+    <item id="o62" line="437" tag="L">     49B. dlhq swaa-ba mu,            490. aamuyUq koloq swaa-ba</item>
+    <item id="o63" line="438" tag="G">          house nlce-ger be+pres           man     ohild nice-ger</item>
+    <item id="o64" line="439" tag="L">     mu,          49D. pl-l     tuh-m."  bi-i.    50. khi</item>
+    <item id="o65" line="440" tag="G">     be+pres           give-inf must-pres say-past    self</item>
+    <item id="o66" line="441" tag="L">     pha-d       bi-mu,        51. dzahleq mrl nge-m //.</item>
+    <item id="o67" line="442" tag="G">     husband-agt say-pres          then    wife obey-pres</item>
+    <item id="o68" line="443" tag="L">  (W) 52. tsamiqri, tsamiqri toq bi-m?</item>
+    <item id="o69" line="444" tag="G">          girl     girl     what say-pres</item>
+    <item id="o70" line="445" tag="L">  (R) 53. tsamiqri-di.. "ah-ta" bi-b   aa ??</item>
+    <item id="o71" line="446" tag="G">         girl-agt       not-OK say-ger Q</item>
+    <item id="o72" line="447" tag="L">  (W) 54. 0 //.</item>
+    <item id="o73" line="448" tag="G">          yes</item>
+    <item id="o74" line="449" tag="B"></item>
+    <item id="o75" line="450" tag="B">                               - fc -</item>
+    <item id="o76" line="451" tag="B"></item>
+    <item id="o77" line="452" tag="B"></item>
+    <item id="o78" line="453" tag="L">  U) 55. kwiqla,      "554. 'ah-ta.'    bi-mu.     55B. abak</item>
+    <item id="o79" line="454" tag="G">         soma                not-OS     say-pres        now</item>
+    <item id="o80" line="455" tag="L">      tsamiqri-d kha-maq§ AAma=d,   ah-pl   do,            550. nga-dl,</item>
+    <item id="o81" line="456" tag="G">      glrl-agt   self-of mothar-agt not-give amp                I-agt</item>
+    <item id="o82" line="457" tag="L">      pl-m-doq,        55D. Aiaa-d,    'ah-pl1 syeroq tpa.</item>
+    <item id="o83" line="458" tag="G">      give-paat-emp         mother-agt not-glve since what</item>
+    <item id="o84" line="459" tag="L">      la-b-dl?       55B. keh-maB gaar ah-maH-di-du,</item>
+    <item id="o85" line="460" tag="G">      do-ger-emp          you-pi anger not-exoite-H*p-imp</item>
+    <item id="o86" line="461" tag="M">                                                       W</item>
+    <item id="o87" line="462" tag="L">      55*. yaah-d." bl-mu,   kwiqla, pha-d..            55G. toqi</item>
+    <item id="o88" line="463" tag="G">           go-imp   say-pres soma    husband-agt             any</item>
+    <item id="o89" line="464" tag="L">      ah-bl-d    '-kih-d.      55H. toqi ah-bi-le   Ti-Di-d,</item>
+    <item id="o90" line="465" tag="G">      not-say-iap you-agt           any not-say-adv sit-cont-imp</item>
+    <item id="o91" line="466" tag="L">      551. fl-l     tub-m."   bi-yA, pheqri pl-m //.</item>
+    <item id="o92" line="467" tag="G">           give-lnf must-pres say-pto again gire-pres</item>
+    <item id="o93" line="468" tag="L">  (V) 56. indra suba maqe Mma. . dihq khaniq mu?</item>
+    <item id="o94" line="469" tag="G">         Indra Suba of   mother house where be+pres</item>
+    <item id="o95" line="470" tag="L">  (E) 57. indra suba maqe ilma??</item>
+    <item id="o96" line="471" tag="G">          Indra Suba of   mother</item>
+    <item id="o97" line="472" tag="L">  (W) 58. 0 //.</item>
+    <item id="o98" line="473" tag="G">          yes</item>
+    <item id="o99" line="474" tag="L">  (R) 59. ngaq-e srimatij?</item>
+    <item id="o100" line="475" tag="G">          me-of wife</item>
+    <item id="o101" line="476" tag="L">  (?) 60. 0 //.</item>
+    <item id="o102" line="477" tag="G">          yes</item>
+    <item id="o103" line="478" tag="L">  (£) 61. dihq khanlq mu??</item>
+    <item id="o104" line="479" tag="G">         house where be+pres</item>
+    <item id="o105" line="480" tag="L">  (V) 62. khaniq mu-la?</item>
+    <item id="o106" line="481" tag="G">          where be-past</item>
+    <item id="o107" line="482" tag="L">  (fi) 63a tsuq-r-na //.</item>
+    <item id="o108" line="483" tag="G">           this-at-emp</item>
+    <item id="o109" line="484" tag="L">  (¥) 64. paileq??</item>
+    <item id="o110" line="485" tag="G">          before</item>
+    <item id="o111" line="486" tag="L">  (R) 65· paileq tsuq-r-na //.</item>
+    <item id="o112" line="487" tag="G">          before this-at-emp</item>
+    <item id="o113" line="488" tag="L">  (W) 66. paileq tsuq-r-na??</item>
+    <item id="o114" line="489" tag="G">          before this-at-emp</item>
+    <item id="o115" line="490" tag="B"></item>
+    <item id="o116" line="491" tag="L">  (R) 67. 0 //.</item>
+    <item id="o117" line="492" tag="G">          yes</item>
+    <item id="o118" line="493" tag="L">  (V) 68, aaba, Alma..</item>
+    <item id="o119" line="494" tag="G">          father mother</item>
+    <item id="o120" line="495" tag="L">  (R) 69. nga ngaq-e dlhq ma-ri //.</item>
+    <item id="o121" line="496" tag="G">         I    I-of   house below-at</item>
+    <item id="o122" line="497" tag="L">  (W) 70. 0 //.</item>
+    <item id="o123" line="498" tag="G">          yes</item>
+    <item id="o124" line="499" tag="L">  (R) 71. syer baahdur, karnaa baahdur, indra baahdur ngaa</item>
+    <item id="o125" line="500" tag="G">          ser Bahadur Kam a Bahadur Indra Bahadur I</item>
+    <item id="o126" line="501" tag="L">     ma-r-naq     mu-la.</item>
+    <item id="o127" line="502" tag="G">     below-at-emp be-past</item>
+    <item id="o128" line="503" tag="L">  (G) 72· mai-leq,   tsuq-r sardiq-kha-ba.</item>
+    <item id="o129" line="504" tag="G">          below-from this-at move-come-ger</item>
+    <item id="o130" line="505" tag="L">  (R) 73. 0.          74. tsuq-ri, ngaq-e kE //.</item>
+    <item id="o131" line="506" tag="G">          yes             here-at I-of    father-in-law</item>
+    <item id="o132" line="507" tag="L">  (¥) 75. kE??</item>
+    <item id="o133" line="508" tag="G">          father-in-law</item>
+    <item id="o134" line="509" tag="L">  (R) 76. kE           syi-yaah-i //.</item>
+    <item id="o135" line="510" tag="G">         father-in-law die-go-past</item>
+    <item id="o136" line="511" tag="L">  (V) 77. 0 //.</item>
+    <item id="o137" line="512" tag="G">          yes</item>
+    <item id="o138" line="513" tag="L">  (R) 78        0;?   79. kE           syi-yaah-i, tsah ah-rehq.</item>
+    <item id="o139" line="514" tag="M">           #</item>
+    <item id="o140" line="515" tag="G">               yes       father-in-law die-go-past son not-be</item>
+    <item id="o141" line="516" tag="L">     80· tsuq-ri amuyUq ah-ta.           81. dzahleq nga   tsuq-r</item>
+    <item id="o142" line="517" tag="G">         this-at man    not-be               then    I     this-to</item>
+    <item id="o143" line="518" tag="L">     kha-i.           Ti-i.       82. indra suba maqe.. baadzyeq-e</item>
+    <item id="o144" line="519" tag="G">     come-past        live-past       Indra Suba of     grandfather-of</item>
+    <item id="o145" line="520" tag="L">     dlhq-r kha-i,      Ti-i.             83. indra suba maqe</item>
+    <item id="o146" line="521" tag="G">     house-to come-past live-past             Indra Suba of</item>
+    <item id="o147" line="522" tag="L">     AAmaq-e   maaidaq,   tsuq-r-na //·</item>
+    <item id="o148" line="523" tag="G">     mother-of birthplace this-at-emp</item>
+    <item id="o149" line="524" tag="L">  (W) 84. kih-e kE,           syi-yaah-baqe asOq-na    kih</item>
+    <item id="o150" line="525" tag="G">         you-of father-in-law die-go-of     before-emp you</item>
+    <item id="o151" line="526" tag="L">     indra suba maqe A Aim · ·</item>
+    <item id="o152" line="527" tag="G">     Indra Suba of     mother</item>
+    <item id="o153" line="528" tag="B"></item>
+    <item id="o154" line="529" tag="B">                                 -8-</item>
+    <item id="o155" line="530" tag="B"></item>
+    <item id="o156" line="531" tag="B"></item>
+    <item id="o157" line="532" tag="L">  (R) 85. ma-r-naq    mu-la //.</item>
+    <item id="o158" line="533" tag="G">         below-at-emp be-past</item>
+    <item id="o159" line="534" tag="L">  (W) 86. ma-r-naq     mu-la;?</item>
+    <item id="o160" line="535" tag="G">          below-at-emp be-past</item>
+    <item id="o161" line="536" tag="L">  (R) 87. 0 //.</item>
+    <item id="o162" line="537" tag="G">          yes</item>
+    <item id="o163" line="538" tag="L">  (W) 88. ta-i //.</item>
+    <item id="o164" line="539" tag="G">          suffice-past</item>
+    <item id="o165" line="540" tag="B"></item>
+    <item id="o166" line="541" tag="M">  free Translation;   Wedding Customs</item>
+    <item id="o167" line="542" tag="T">  (R) 1. Some fathers go to ask (a bride for their sons).</item>
+    <item id="o168" line="543" tag="T">      2. Then there is discussion: "Give your daughter for my</item>
+    <item id="o169" line="544" tag="T">      son," he says. 3. The daughter's mother said, "31. OK.</item>
+    <item id="o170" line="545" tag="T">      3B. Bring jewelry, so much, a necklace of rupee coins.</item>
+    <item id="o171" line="546" tag="T">      30. Bring (also) six gold bracelets." 4. Then the son's</item>
+    <item id="o172" line="547" tag="T">      father said, "4A. OK. 4B. I will bring (them)." 5. They</item>
+    <item id="o173" line="548" tag="T">      gave (their consent); they gave the daughter. 6. Then the</item>
+    <item id="o174" line="549" tag="T">      son's father came home; 7. He gathered the Jewelry;</item>
+    <item id="o175" line="550" tag="T">      8. After gathering the Jewelry he examined the days.</item>
+    <item id="o176" line="551" tag="T">      9* After examining the days they find a wedding day;</item>
+    <item id="o177" line="552" tag="T">      10. "The wedding will be such and such a day," he said,</item>
+    <item id="o178" line="553" tag="T">      and had a talk over there with his son's (prospective)</item>
+    <item id="o179" line="554" tag="T">      father-in-law. 11. They discussed, and after saying, "OK,</item>
+    <item id="o180" line="555" tag="T">      that is fine," they did the business of the Jewelry,</item>
+    <item id="o181" line="556" tag="T">      12. They brought clothes - from Pokhara, 13. Then they</item>
+    <item id="o182" line="557" tag="T">      held the wedding; 14. They give a feast, some do;</item>
+    <item id="o183" line="558" tag="T">      15. Some don't give a feast; 16. (They say) "Those rich</item>
+    <item id="o184" line="559" tag="T">      people throw a feast." 17. One is finished.</item>
+    <item id="o185" line="560" tag="T">  (J) 18. One is finished. 19. Is there another?</item>
+    <item id="o186" line="561" tag="T">  (R) 20. Some other (people's custom): 21. Some men fall in</item>
+    <item id="o187" line="562" tag="T">      love with a girl; 22. Then, "Ask for that girl, that</item>
+    <item id="o188" line="563" tag="T">      particular girl, for me, Father," they say to their fathers</item>
+    <item id="o189" line="564" tag="T">      and send them. 23. After sending (their fathers) then</item>
+    <item id="o190" line="565" tag="T">      there is a wedding. 24. Like that.</item>
+    <item id="o191" line="566" tag="T">  (J) 25. Do they give clothes or not?</item>
+    <item id="o192" line="567" tag="T">  (R) 26. Certainly they give clothes, and Jewelry too. 27. That</item>
+    <item id="o193" line="568" tag="T">      is finished.</item>
+    <item id="o194" line="569" tag="T">  (J) 28. Tes.</item>
+    <item id="o195" line="570" tag="T">  (R) 29. Still another (custom). 30. (In) our Ourung custom</item>
+    <item id="o196" line="571" tag="T">      (people) stay at the youth club. 31. They fall in love.</item>
+    <item id="o197" line="572" tag="T">      32. Then they go off Just by themselves. 33. Sloping,</item>
+    <item id="o198" line="573" tag="T">      they go. 34. Some give clothes and Jewelry, some don't</item>
+    <item id="o199" line="574" tag="T">      give, 35. (I) don't know. 36. Like that.</item>
+    <item id="o200" line="575" tag="B"></item>
+    <item id="o201" line="576" tag="B">                                 »</item>
+    <item id="o202" line="577" tag="B"></item>
+    <item id="o203" line="578" tag="B"></item>
+    <item id="o204" line="579" tag="B"></item>
+    <item id="o205" line="580" tag="B"></item>
+    <item id="o206" line="581" tag="T">  (J) 37. After the wedding where do they live? 38. In (his)</item>
+    <item id="o207" line="582" tag="T">      own house or does (the man) take (the bride) to another</item>
+    <item id="o208" line="583" tag="T">      house to live?</item>
+    <item id="o209" line="584" tag="T">  (R) 39. In (his) own home.</item>
+    <item id="o210" line="585" tag="T">  (J) 40. Together with (his) father and mother?</item>
+    <item id="o211" line="586" tag="T">  (R) 41. Yes, they're together. 42. They live together.</item>
+    <item id="o212" line="587" tag="T">  (W) 43. What if the girl's mother says, "Ho, no."?</item>
+    <item id="o213" line="588" tag="T">  (R) 44. "It's not OK. 45. (We) will not give (the girl).</item>
+    <item id="o214" line="589" tag="T">      46. It's not right," (she says). 47. (So) he goes some-</item>
+    <item id="o215" line="590" tag="T">      where else, to ask again.</item>
+    <item id="o216" line="591" tag="T">  (W) 48. What if the girl's father says "0KM (but) the mother</item>
+    <item id="o217" line="592" tag="T">      says "Ho"?</item>
+    <item id="o218" line="593" tag="T">  (R) 49. Later they say, "49A. Don't speak like that I</item>
+    <item id="o219" line="594" tag="T">      49B. His house is nice. 490. The young man is nice.</item>
+    <item id="o220" line="595" tag="T">      49D. (Tou) must give (the girl to him)." 50, 51. When</item>
+    <item id="o221" line="596" tag="T">      her own husband speaks then the wife obeys.</item>
+    <item id="o222" line="597" tag="T">  (¥) 52. (And) the girl - what does the girl say?</item>
+    <item id="o223" line="598" tag="T">  (R) 53. (Do you mean) if the girl says "No"?</item>
+    <item id="o224" line="599" tag="T">  (W) 54. Yes.</item>
+    <item id="o225" line="600" tag="T">  (R) 55. Some will say, "55A. She says 'No.' 55B. How the girl</item>
+    <item id="o226" line="601" tag="T">      and her mother refuse to give (consent). 550. I certainly</item>
+    <item id="o227" line="602" tag="T">      gave (my consent). 55D. Since the mother will not give</item>
+    <item id="o228" line="603" tag="T">      (her consent) what can be done? 55E. Don't be angry.</item>
+    <item id="o229" line="604" tag="T">      55?. Go home.", (but) other husbands, saying "55G. Don't</item>
+    <item id="o230" line="605" tag="T">      you say a thing. 55H. You Just sit, saying nothing.</item>
+    <item id="o231" line="606" tag="T">      551. (We) must give (him the girl).*, will again give</item>
+    <item id="o232" line="607" tag="T">      (the girl to him).</item>
+    <item id="o233" line="608" tag="T">  (W) 56. Where is Indra Suba's mother's home?</item>
+    <item id="o234" line="609" tag="T">  (R) 57. Indra Suba's mother?</item>
+    <item id="o235" line="610" tag="T">  (W) 58. Yes.</item>
+    <item id="o236" line="611" tag="T">  (R) 59. My wife?</item>
+    <item id="o237" line="612" tag="T">  (W) 60. Yes.</item>
+    <item id="o238" line="613" tag="T">  (R) 61. Where is her house??</item>
+    <item id="o239" line="614" tag="T">  (W) 62. Where was it?</item>
+    <item id="o240" line="615" tag="T">  (R) 63. Right here.</item>
+    <item id="o241" line="616" tag="B"></item>
+    <item id="o242" line="617" tag="B">                                 - 10 -</item>
+    <item id="o243" line="618" tag="B"></item>
+    <item id="o244" line="619" tag="T">  (V) 64. Befor«?</item>
+    <item id="o245" line="620" tag="T">  (R) 65. Before, It was right here.</item>
+    <item id="o246" line="621" tag="T">  (V) 66. Before, it was right here?</item>
+    <item id="o247" line="622" tag="T">  (R) 67. Yes.</item>
+    <item id="o248" line="623" tag="T">  (W) 68. Father, mother..</item>
+    <item id="o249" line="624" tag="T">  (R) 69. is for me, my hose (mas) dona below.</item>
+    <item id="o250" line="625" tag="T">  (¥) 70. Tes.</item>
+    <item id="o251" line="626" tag="T">  (R) 71. Ser Bahadur, Kam a Bahadur, Indra Bahadur and I were</item>
+    <item id="o252" line="627" tag="T">      all down below.</item>
+    <item id="o253" line="628" tag="T">  (G) 72. He came from down below to live here.</item>
+    <item id="o254" line="629" tag="T">  (R) 73. Tes. 74. My father-in-law (was) here.</item>
+    <item id="o255" line="630" tag="T">  (W) 75. Father-in-law?</item>
+    <item id="o256" line="631" tag="T">  (R) 76. (My) father-in-law died, you know?</item>
+    <item id="o257" line="632" tag="T">  (W) 77. Tea.</item>
+    <item id="o258" line="633" tag="T">  (R) 78. Tes, (you follow now)?    79. (My) father-in-law died,</item>
+    <item id="o259" line="634" tag="T">      and there was no son. 80.    There was no man here. 81.</item>
+    <item id="o260" line="635" tag="T">      Therefore I came and lived   here. 82. I came and lived in</item>
+    <item id="o261" line="636" tag="T">      Indra Suba's grandfather's   house. 83. Indra Suba's mother*</item>
+    <item id="o262" line="637" tag="T">      birthplace is right here.</item>
+    <item id="o263" line="638" tag="T">  (if) 84. Before your father-in-law died (did) you and Indra</item>
+    <item id="o264" line="639" tag="T">       Suba's mother ...</item>
+    <item id="o265" line="640" tag="T">  (R) 85. (We) were down below there.</item>
+    <item id="o266" line="641" tag="T">  (W) 86. (Tou) were down below there?</item>
+    <item id="o267" line="642" tag="T">  (R) 87. Tes.</item>
+    <item id="o268" line="643" tag="T">  (¥) 88. That will be enough.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="376" tag="L">16* "khe-maE plo-b      dzaga-la bahtyaqr khuli-di-mu,</item>
+    <item id="c2" line="377" tag="G">you-pl wealthy-ger pl-of    feast    open-form-pres</item>
+    <item id="c3" line="378" tag="L">17 . grihq khliq-I //.</item>
+    <item id="c4" line="379" tag="G">one finlth-pas t</item>
+    <item id="c5" line="380" tag="L">grihq khAJuq-I.   19. argoj?</item>
+    <item id="c6" line="381" tag="G">one   finish-past     other</item>
+    <item id="c7" line="382" tag="L">argo., kwiqla.*     21. kwiq aaftffyUq tsahmiri maihq</item>
+    <item id="c8" line="383" tag="G">other some              some man       girl     lore</item>
+    <item id="c9" line="384" tag="L">ta-mu, 22. dzahleq, n221. tsaq tsahmiri, tsaq phianaq</item>
+    <item id="c10" line="385" tag="G">be-pres    then           that girl      that particular</item>
+    <item id="c11" line="386" tag="L">tsahmiri, nga-lai rih-blhq-n, aaba." bi-i     blriq,</item>
+    <item id="c12" line="387" tag="G">girl      me-for ask-give-imp father say-past after</item>
+    <item id="c13" line="388" tag="L">khe-maE aaba-lai kul-mu,    23. kul-syi, dzahleq byaa</item>
+    <item id="c14" line="389" tag="G">self-of father-to send-pres     send-ptop then   wedding</item>
+    <item id="c15" line="390" tag="L">ta-m.       24. tsahgana //·</item>
+    <item id="c16" line="391" tag="G">happen-pres     1ike-so</item>
+    <item id="c17" line="392" tag="L">kwE    pl-m      uj ah-pl?</item>
+    <item id="c18" line="393" tag="G">clothes give-pres or not-give</item>
+    <item id="c19" line="394" tag="L">kwB-i      pl-mu,    glihqna-i   pl-m.     27. tsaq</item>
+    <item id="c20" line="395" tag="G">clothes-emp give-pres Jewelry-emp give-pres     that</item>
+    <item id="c21" line="396" tag="L">khatam   ta-i //.</item>
+    <item id="c22" line="397" tag="G">finished is-past</item>
+    <item id="c23" line="398" tag="L">0 //.</item>
+    <item id="c24" line="399" tag="T">Xes.</item>
+    <item id="c25" line="400" tag="L">argo, pheqri,     30. ngyohq tamU-malq tsalana,</item>
+    <item id="c26" line="401" tag="G">other again          we      Gurung-pl custom</item>
+    <item id="c27" line="402" tag="L">rodl-r-aiq       Ti-mu,        31. mahya prBqm ta-mu,</item>
+    <item id="c28" line="403" tag="G">clubhouse-at-emp stay-pres         love love happen-pres</item>
+    <item id="c29" line="404" tag="L">dzahleq, khe-maE khe-maB-n   oBaaql    yaah-m.</item>
+    <item id="c30" line="405" tag="G">then     self-pl self-pl-emp elopement go-pres</item>
+    <item id="c31" line="406" tag="L">oDaaql    yaah-mu.#     34. kwE,    gAAhqna.. kwiqla</item>
+    <item id="c32" line="407" tag="G">elopement go-pres           clothes Jewelry   some</item>
+    <item id="c33" line="408" tag="L">pl-mu,    kwiqla, ah-pl,        35. thaa     ah-rehq.</item>
+    <item id="c34" line="409" tag="G">give-pres some    not-give         knowledge not-be</item>
+    <item id="c35" line="410" tag="L">tsahgana //.</item>
+    <item id="c36" line="411" tag="G">like-so</item>
+    <item id="c37" line="412" tag="B"/>
+    <item id="c38" line="413" tag="L">37 . byaa    la-*   biriq , khanlq Ti-mu?       38 . rOhsa</item>
+    <item id="c39" line="414" tag="G">wedding do-pa§t aft§r where live-pres            own</item>
+    <item id="c40" line="415" tag="L">dlhq-ri u; argo dlhq-r     bah-i     Ti-mu?</item>
+    <item id="c41" line="416" tag="G">house-in or other house-to take-past live-pres</item>
+    <item id="c42" line="417" tag="L">rOhsa dlhq-r-naq //.</item>
+    <item id="c43" line="418" tag="G">own   house-in-emp</item>
+    <item id="c44" line="419" tag="L">aaba Alma ne      baalun;?</item>
+    <item id="c45" line="420" tag="G">father mother with together</item>
+    <item id="c46" line="421" tag="L">0, baalun-naq        42. baalun Ti-mut</item>
+    <item id="c47" line="422" tag="G">yes together-emp          together live-pres</item>
+    <item id="c48" line="423" tag="L">43, tsamiqri AAma-d,        "ah-ta ah-ta"    bi-(du biyA</item>
+    <item id="c49" line="424" tag="G">girl     mother-agt       not-OK not-OK   say-if</item>
+    <item id="c50" line="425" tag="L">toq la-ba?</item>
+    <item id="c51" line="426" tag="G">what do-ger</item>
+    <item id="c52" line="427" tag="L">wah-ta.     45. ah-pl,     46. ah-ta.    47. argoq</item>
+    <item id="c53" line="428" tag="G">not-OK         not-give       not-OK        other</item>
+    <item id="c54" line="429" tag="L">kloh-r   yaah-m. pheqri rih-bari //.</item>
+    <item id="c55" line="430" tag="G">place-in go-pres again ask-purp</item>
+    <item id="c56" line="431" tag="L">tsamiqri aaba       "ta-m" bi-(du biyA), lAma</item>
+    <item id="c57" line="432" tag="G">girl      father      OK-pres say-if      mother</item>
+    <item id="c58" line="433" tag="L">ah-ta"      bi-(du biyA) toq la-ba?</item>
+    <item id="c59" line="434" tag="G">not-OK       say-if       what do-ger</item>
+    <item id="c60" line="435" tag="L">liUd khe-maE,       "49A. tshaa ah-bi-d-di</item>
+    <item id="c61" line="436" tag="G">later they-pl              thus not-say-imp-emp</item>
+    <item id="c62" line="437" tag="L">dlhq swaa-ba mu,            490. aamuyUq koloq swaa-ba</item>
+    <item id="c63" line="438" tag="G">house nlce-ger be+pres           man     ohild nice-ger</item>
+    <item id="c64" line="439" tag="L">mu,          49D. pl-l     tuh-m."  bi-i.    50. khi</item>
+    <item id="c65" line="440" tag="G">be+pres           give-inf must-pres say-past    self</item>
+    <item id="c66" line="441" tag="L">pha-d       bi-mu,        51. dzahleq mrl nge-m //.</item>
+    <item id="c67" line="442" tag="G">husband-agt say-pres          then    wife obey-pres</item>
+    <item id="c68" line="443" tag="L">tsamiqri, tsamiqri toq bi-m?</item>
+    <item id="c69" line="444" tag="G">girl     girl     what say-pres</item>
+    <item id="c70" line="445" tag="L">tsamiqri-di.. "ah-ta" bi-b   aa ??</item>
+    <item id="c71" line="446" tag="G">girl-agt       not-OK say-ger Q</item>
+    <item id="c72" line="447" tag="L">0 //.</item>
+    <item id="c73" line="448" tag="G">yes</item>
+    <item id="c74" line="449" tag="B"/>
+    <item id="c75" line="450" tag="B">-fc-</item>
+    <item id="c76" line="451" tag="B"/>
+    <item id="c77" line="452" tag="B"/>
+    <item id="c78" line="453" tag="L">55. kwiqla,      "554. 'ah-ta.'    bi-mu.     55B. abak</item>
+    <item id="c79" line="454" tag="G">soma                not-OS     say-pres        now</item>
+    <item id="c80" line="455" tag="L">tsamiqri-d kha-maq§ AAma=d,   ah-pl   do,            550. nga-dl,</item>
+    <item id="c81" line="456" tag="G">glrl-agt   self-of mothar-agt not-give amp                I-agt</item>
+    <item id="c82" line="457" tag="L">pl-m-doq,        55D. Aiaa-d,    'ah-pl1 syeroq tpa.</item>
+    <item id="c83" line="458" tag="G">give-paat-emp         mother-agt not-glve since what</item>
+    <item id="c84" line="459" tag="L">la-b-dl?       55B. keh-maB gaar ah-maH-di-du,</item>
+    <item id="c85" line="460" tag="G">do-ger-emp          you-pi anger not-exoite-H*p-imp</item>
+    <item id="c86" line="461" tag="M">W</item>
+    <item id="c87" line="462" tag="L">55*. yaah-d." bl-mu,   kwiqla, pha-d..            55G. toqi</item>
+    <item id="c88" line="463" tag="G">go-imp   say-pres soma    husband-agt             any</item>
+    <item id="c89" line="464" tag="L">ah-bl-d    '-kih-d.      55H. toqi ah-bi-le   Ti-Di-d,</item>
+    <item id="c90" line="465" tag="G">not-say-iap you-agt           any not-say-adv sit-cont-imp</item>
+    <item id="c91" line="466" tag="L">fl-l     tub-m."   bi-yA, pheqri pl-m //.</item>
+    <item id="c92" line="467" tag="G">give-lnf must-pres say-pto again gire-pres</item>
+    <item id="c93" line="468" tag="L">indra suba maqe Mma. . dihq khaniq mu?</item>
+    <item id="c94" line="469" tag="G">Indra Suba of   mother house where be+pres</item>
+    <item id="c95" line="470" tag="L">indra suba maqe ilma??</item>
+    <item id="c96" line="471" tag="G">Indra Suba of   mother</item>
+    <item id="c97" line="472" tag="L">0 //.</item>
+    <item id="c98" line="473" tag="G">yes</item>
+    <item id="c99" line="474" tag="L">ngaq-e srimatij?</item>
+    <item id="c100" line="475" tag="G">me-of wife</item>
+    <item id="c101" line="476" tag="L">(?) 60. 0 //.</item>
+    <item id="c102" line="477" tag="G">yes</item>
+    <item id="c103" line="478" tag="L">(£) 61. dihq khanlq mu??</item>
+    <item id="c104" line="479" tag="G">house where be+pres</item>
+    <item id="c105" line="480" tag="L">khaniq mu-la?</item>
+    <item id="c106" line="481" tag="G">where be-past</item>
+    <item id="c107" line="482" tag="L">(fi) 63a tsuq-r-na //.</item>
+    <item id="c108" line="483" tag="G">this-at-emp</item>
+    <item id="c109" line="484" tag="L">(¥) 64. paileq??</item>
+    <item id="c110" line="485" tag="G">before</item>
+    <item id="c111" line="486" tag="L">65· paileq tsuq-r-na //.</item>
+    <item id="c112" line="487" tag="G">before this-at-emp</item>
+    <item id="c113" line="488" tag="L">paileq tsuq-r-na??</item>
+    <item id="c114" line="489" tag="G">before this-at-emp</item>
+    <item id="c115" line="490" tag="B"/>
+    <item id="c116" line="491" tag="L">0 //.</item>
+    <item id="c117" line="492" tag="G">yes</item>
+    <item id="c118" line="493" tag="L">68, aaba, Alma..</item>
+    <item id="c119" line="494" tag="G">father mother</item>
+    <item id="c120" line="495" tag="L">nga ngaq-e dlhq ma-ri //.</item>
+    <item id="c121" line="496" tag="G">I    I-of   house below-at</item>
+    <item id="c122" line="497" tag="L">0 //.</item>
+    <item id="c123" line="498" tag="G">yes</item>
+    <item id="c124" line="499" tag="L">syer baahdur, karnaa baahdur, indra baahdur ngaa</item>
+    <item id="c125" line="500" tag="G">ser Bahadur Kam a Bahadur Indra Bahadur I</item>
+    <item id="c126" line="501" tag="L">ma-r-naq     mu-la.</item>
+    <item id="c127" line="502" tag="G">below-at-emp be-past</item>
+    <item id="c128" line="503" tag="L">72· mai-leq,   tsuq-r sardiq-kha-ba.</item>
+    <item id="c129" line="504" tag="G">below-from this-at move-come-ger</item>
+    <item id="c130" line="505" tag="L">0.          74. tsuq-ri, ngaq-e kE //.</item>
+    <item id="c131" line="506" tag="G">yes             here-at I-of    father-in-law</item>
+    <item id="c132" line="507" tag="L">(¥) 75. kE??</item>
+    <item id="c133" line="508" tag="G">father-in-law</item>
+    <item id="c134" line="509" tag="L">kE           syi-yaah-i //.</item>
+    <item id="c135" line="510" tag="G">father-in-law die-go-past</item>
+    <item id="c136" line="511" tag="L">0 //.</item>
+    <item id="c137" line="512" tag="G">yes</item>
+    <item id="c138" line="513" tag="L">78        0;?   79. kE           syi-yaah-i, tsah ah-rehq.</item>
+    <item id="c139" line="514" tag="M">#</item>
+    <item id="c140" line="515" tag="G">yes       father-in-law die-go-past son not-be</item>
+    <item id="c141" line="516" tag="L">80· tsuq-ri amuyUq ah-ta.           81. dzahleq nga   tsuq-r</item>
+    <item id="c142" line="517" tag="G">this-at man    not-be               then    I     this-to</item>
+    <item id="c143" line="518" tag="L">kha-i.           Ti-i.       82. indra suba maqe.. baadzyeq-e</item>
+    <item id="c144" line="519" tag="G">come-past        live-past       Indra Suba of     grandfather-of</item>
+    <item id="c145" line="520" tag="L">dlhq-r kha-i,      Ti-i.             83. indra suba maqe</item>
+    <item id="c146" line="521" tag="G">house-to come-past live-past             Indra Suba of</item>
+    <item id="c147" line="522" tag="L">AAmaq-e   maaidaq,   tsuq-r-na //·</item>
+    <item id="c148" line="523" tag="G">mother-of birthplace this-at-emp</item>
+    <item id="c149" line="524" tag="L">kih-e kE,           syi-yaah-baqe asOq-na    kih</item>
+    <item id="c150" line="525" tag="G">you-of father-in-law die-go-of     before-emp you</item>
+    <item id="c151" line="526" tag="L">indra suba maqe A Aim · ·</item>
+    <item id="c152" line="527" tag="G">Indra Suba of     mother</item>
+    <item id="c153" line="528" tag="B"/>
+    <item id="c154" line="529" tag="B">-8-</item>
+    <item id="c155" line="530" tag="B"/>
+    <item id="c156" line="531" tag="B"/>
+    <item id="c157" line="532" tag="L">ma-r-naq    mu-la //.</item>
+    <item id="c158" line="533" tag="G">below-at-emp be-past</item>
+    <item id="c159" line="534" tag="L">ma-r-naq     mu-la;?</item>
+    <item id="c160" line="535" tag="G">below-at-emp be-past</item>
+    <item id="c161" line="536" tag="L">0 //.</item>
+    <item id="c162" line="537" tag="G">yes</item>
+    <item id="c163" line="538" tag="L">ta-i //.</item>
+    <item id="c164" line="539" tag="G">suffice-past</item>
+    <item id="c165" line="540" tag="B"/>
+    <item id="c166" line="541" tag="M">free Translation;   Wedding Customs</item>
+    <item id="c167" line="542" tag="T">Some fathers go to ask (a bride for their sons).</item>
+    <item id="c168" line="543" tag="T">Then there is discussion: "Give your daughter for my</item>
+    <item id="c169" line="544" tag="T">son," he says. 3. The daughter's mother said, "31. OK.</item>
+    <item id="c170" line="545" tag="T">Bring jewelry, so much, a necklace of rupee coins.</item>
+    <item id="c171" line="546" tag="T">Bring (also) six gold bracelets." 4. Then the son's</item>
+    <item id="c172" line="547" tag="T">father said, "4A. OK. 4B. I will bring (them)." 5. They</item>
+    <item id="c173" line="548" tag="T">gave (their consent); they gave the daughter. 6. Then the</item>
+    <item id="c174" line="549" tag="T">son's father came home; 7. He gathered the Jewelry;</item>
+    <item id="c175" line="550" tag="T">After gathering the Jewelry he examined the days.</item>
+    <item id="c176" line="551" tag="T">9* After examining the days they find a wedding day;</item>
+    <item id="c177" line="552" tag="T">"The wedding will be such and such a day," he said,</item>
+    <item id="c178" line="553" tag="T">and had a talk over there with his son's (prospective)</item>
+    <item id="c179" line="554" tag="T">father-in-law. 11. They discussed, and after saying, "OK,</item>
+    <item id="c180" line="555" tag="T">that is fine," they did the business of the Jewelry,</item>
+    <item id="c181" line="556" tag="T">They brought clothes-from Pokhara, 13. Then they</item>
+    <item id="c182" line="557" tag="T">held the wedding; 14. They give a feast, some do;</item>
+    <item id="c183" line="558" tag="T">Some don't give a feast; 16. (They say) "Those rich</item>
+    <item id="c184" line="559" tag="T">people throw a feast." 17. One is finished.</item>
+    <item id="c185" line="560" tag="T">One is finished. 19. Is there another?</item>
+    <item id="c186" line="561" tag="T">Some other (people's custom): 21. Some men fall in</item>
+    <item id="c187" line="562" tag="T">love with a girl; 22. Then, "Ask for that girl, that</item>
+    <item id="c188" line="563" tag="T">particular girl, for me, Father," they say to their fathers</item>
+    <item id="c189" line="564" tag="T">and send them. 23. After sending (their fathers) then</item>
+    <item id="c190" line="565" tag="T">there is a wedding. 24. Like that.</item>
+    <item id="c191" line="566" tag="T">Do they give clothes or not?</item>
+    <item id="c192" line="567" tag="T">Certainly they give clothes, and Jewelry too. 27. That</item>
+    <item id="c193" line="568" tag="T">is finished.</item>
+    <item id="c194" line="569" tag="T">Tes.</item>
+    <item id="c195" line="570" tag="T">Still another (custom). 30. (In) our Ourung custom</item>
+    <item id="c196" line="571" tag="T">(people) stay at the youth club. 31. They fall in love.</item>
+    <item id="c197" line="572" tag="T">Then they go off Just by themselves. 33. Sloping,</item>
+    <item id="c198" line="573" tag="T">they go. 34. Some give clothes and Jewelry, some don't</item>
+    <item id="c199" line="574" tag="T">give, 35. (I) don't know. 36. Like that.</item>
+    <item id="c200" line="575" tag="B"/>
+    <item id="c201" line="576" tag="B">»</item>
+    <item id="c202" line="577" tag="B"/>
+    <item id="c203" line="578" tag="B"/>
+    <item id="c204" line="579" tag="B"/>
+    <item id="c205" line="580" tag="B"/>
+    <item id="c206" line="581" tag="T">37. After the wedding where do they live? 38. In (his</item>
+    <item id="c207" line="582" tag="T">own house or does (the man) take (the bride) to another</item>
+    <item id="c208" line="583" tag="T">house to live?</item>
+    <item id="c209" line="584" tag="T">In (his) own home.</item>
+    <item id="c210" line="585" tag="T">Together with (his) father and mother?</item>
+    <item id="c211" line="586" tag="T">Yes, they're together. 42. They live together.</item>
+    <item id="c212" line="587" tag="T">What if the girl's mother says, "Ho, no."?</item>
+    <item id="c213" line="588" tag="T">"It's not OK. 45. (We) will not give (the girl).</item>
+    <item id="c214" line="589" tag="T">It's not right," (she says). 47. (So) he goes some-</item>
+    <item id="c215" line="590" tag="T">where else, to ask again.</item>
+    <item id="c216" line="591" tag="T">What if the girl's father says "0KM (but) the mother</item>
+    <item id="c217" line="592" tag="T">says "Ho"?</item>
+    <item id="c218" line="593" tag="T">Later they say, "49A. Don't speak like that I</item>
+    <item id="c219" line="594" tag="T">His house is nice. 490. The young man is nice.</item>
+    <item id="c220" line="595" tag="T">(Tou) must give (the girl to him)." 50, 51. When</item>
+    <item id="c221" line="596" tag="T">her own husband speaks then the wife obeys.</item>
+    <item id="c222" line="597" tag="T">(¥) 52. (And) the girl-what does the girl say?</item>
+    <item id="c223" line="598" tag="T">(Do you mean) if the girl says "No"?</item>
+    <item id="c224" line="599" tag="T">Yes.</item>
+    <item id="c225" line="600" tag="T">Some will say, "55A. She says 'No.' 55B. How the girl</item>
+    <item id="c226" line="601" tag="T">and her mother refuse to give (consent). 550. I certainly</item>
+    <item id="c227" line="602" tag="T">gave (my consent). 55D. Since the mother will not give</item>
+    <item id="c228" line="603" tag="T">(her consent) what can be done? 55E. Don't be angry.</item>
+    <item id="c229" line="604" tag="T">55?. Go home.", (but) other husbands, saying "55G. Don't</item>
+    <item id="c230" line="605" tag="T">you say a thing. 55H. You Just sit, saying nothing.</item>
+    <item id="c231" line="606" tag="T">(We) must give (him the girl).*, will again give</item>
+    <item id="c232" line="607" tag="T">(the girl to him).</item>
+    <item id="c233" line="608" tag="T">Where is Indra Suba's mother's home?</item>
+    <item id="c234" line="609" tag="T">Indra Suba's mother?</item>
+    <item id="c235" line="610" tag="T">Yes.</item>
+    <item id="c236" line="611" tag="T">My wife?</item>
+    <item id="c237" line="612" tag="T">Yes.</item>
+    <item id="c238" line="613" tag="T">Where is her house??</item>
+    <item id="c239" line="614" tag="T">Where was it?</item>
+    <item id="c240" line="615" tag="T">Right here.</item>
+    <item id="c241" line="616" tag="B"/>
+    <item id="c242" line="617" tag="B">-10-</item>
+    <item id="c243" line="618" tag="B"/>
+    <item id="c244" line="619" tag="T">Befor«?</item>
+    <item id="c245" line="620" tag="T">Before, It was right here.</item>
+    <item id="c246" line="621" tag="T">Before, it was right here?</item>
+    <item id="c247" line="622" tag="T">Yes.</item>
+    <item id="c248" line="623" tag="T">Father, mother..</item>
+    <item id="c249" line="624" tag="T">is for me, my hose (mas) dona below.</item>
+    <item id="c250" line="625" tag="T">(¥) 70. Tes.</item>
+    <item id="c251" line="626" tag="T">Ser Bahadur, Kam a Bahadur, Indra Bahadur and I were</item>
+    <item id="c252" line="627" tag="T">all down below.</item>
+    <item id="c253" line="628" tag="T">He came from down below to live here.</item>
+    <item id="c254" line="629" tag="T">Tes. 74. My father-in-law (was) here.</item>
+    <item id="c255" line="630" tag="T">Father-in-law?</item>
+    <item id="c256" line="631" tag="T">(My) father-in-law died, you know?</item>
+    <item id="c257" line="632" tag="T">Tea.</item>
+    <item id="c258" line="633" tag="T">Tes, (you follow now)?    79. (My) father-in-law died,</item>
+    <item id="c259" line="634" tag="T">and there was no son. 80.    There was no man here. 81.</item>
+    <item id="c260" line="635" tag="T">Therefore I came and lived   here. 82. I came and lived in</item>
+    <item id="c261" line="636" tag="T">Indra Suba's grandfather's   house. 83. Indra Suba's mother*</item>
+    <item id="c262" line="637" tag="T">birthplace is right here.</item>
+    <item id="c263" line="638" tag="T">(if) 84. Before your father-in-law died (did) you and Indra</item>
+    <item id="c264" line="639" tag="T">Suba's mother ...</item>
+    <item id="c265" line="640" tag="T">(We) were down below there.</item>
+    <item id="c266" line="641" tag="T">(Tou) were down below there?</item>
+    <item id="c267" line="642" tag="T">Tes.</item>
+    <item id="c268" line="643" tag="T">(¥) 88. That will be enough.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+    <item id="p1" content="c3[0:22]"/>
+    <item id="p2" content="c5[0:28]"/>
+    <item id="p3" content="c7[0:53]"/>
+    <item id="p4" content="c9[0:53]"/>
+    <item id="p5" content="c11[0:52]"/>
+    <item id="p6" content="c13[0:53]"/>
+    <item id="p7" content="c15[0:28]"/>
+    <item id="p8" content="c17[0:26]"/>
+    <item id="p9" content="c19[0:51]"/>
+    <item id="p10" content="c21[0:17]"/>
+    <item id="p11" content="c23[0:5]"/>
+    <item id="p12" content="c25[0:47]"/>
+    <item id="p13" content="c27[0:53]"/>
+    <item id="p14" content="c29[0:46]"/>
+    <item id="p15" content="c31[0:52]"/>
+    <item id="p16" content="c33[0:53]"/>
+    <item id="p17" content="c35[0:12]"/>
+    <item id="p18" content="c38[0:58]"/>
+    <item id="p19" content="c40[0:43]"/>
+    <item id="p20" content="c42[0:20]"/>
+    <item id="p21" content="c44[0:26]"/>
+    <item id="p22" content="c46[0:38]"/>
+    <item id="p23" content="c48[0:56]"/>
+    <item id="p24" content="c50[0:10]"/>
+    <item id="p25" content="c52[0:50]"/>
+    <item id="p26" content="c54[0:36]"/>
+    <item id="p27" content="c56[0:45]"/>
+    <item id="p28" content="c58[0:35]"/>
+    <item id="p29" content="c60[0:42]"/>
+    <item id="p30" content="c62[0:54]"/>
+    <item id="p31" content="c64[0:52]"/>
+    <item id="p32" content="c66[0:51]"/>
+    <item id="p33" content="c68[0:28]"/>
+    <item id="p34" content="c70[0:34]"/>
+    <item id="p35" content="c72[0:5]"/>
+    <item id="p36" content="c78[0:55]"/>
+    <item id="p37" content="c80[0:65]"/>
+    <item id="p38" content="c82[0:52]"/>
+    <item id="p39" content="c84[0:46]"/>
+    <item id="p40" content="c87[0:59]"/>
+    <item id="p41" content="c89[0:54]"/>
+    <item id="p42" content="c91[0:41]"/>
+    <item id="p43" content="c93[0:38]"/>
+    <item id="p44" content="c95[0:22]"/>
+    <item id="p45" content="c97[0:5]"/>
+    <item id="p46" content="c99[0:16]"/>
+    <item id="p47" content="c101[0:13]"/>
+    <item id="p48" content="c103[0:24]"/>
+    <item id="p49" content="c105[0:13]"/>
+    <item id="p50" content="c107[0:22]"/>
+    <item id="p51" content="c109[0:16]"/>
+    <item id="p52" content="c111[0:24]"/>
+    <item id="p53" content="c113[0:18]"/>
+    <item id="p54" content="c116[0:5]"/>
+    <item id="p55" content="c118[0:16]"/>
+    <item id="p56" content="c120[0:25]"/>
+    <item id="p57" content="c122[0:5]"/>
+    <item id="p58" content="c124[0:48]"/>
+    <item id="p59" content="c126[0:19]"/>
+    <item id="p60" content="c128[0:36]"/>
+    <item id="p61" content="c130[0:38]"/>
+    <item id="p62" content="c132[0:12]"/>
+    <item id="p63" content="c134[0:27]"/>
+    <item id="p64" content="c136[0:5]"/>
+    <item id="p65" content="c138[0:58]"/>
+    <item id="p66" content="c141[0:60]"/>
+    <item id="p67" content="c143[0:61]"/>
+    <item id="p68" content="c145[0:56]"/>
+    <item id="p69" content="c147[0:34]"/>
+    <item id="p70" content="c149[0:48]"/>
+    <item id="p71" content="c151[0:25]"/>
+    <item id="p72" content="c157[0:21]"/>
+    <item id="p73" content="c159[0:20]"/>
+    <item id="p74" content="c161[0:5]"/>
+    <item id="p75" content="c163[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+    <item id="g1" content="c4[0:16]" alignment="p2"/>
+    <item id="g2" content="c6[0:27]" alignment="p3"/>
+    <item id="g3" content="c8[0:52]" alignment="p4"/>
+    <item id="g4" content="c10[0:56]" alignment="p5"/>
+    <item id="g5" content="c12[0:51]" alignment="p6"/>
+    <item id="g6" content="c14[0:56]" alignment="p7"/>
+    <item id="g7" content="c16[0:23]" alignment="p8"/>
+    <item id="g8" content="c18[0:29]" alignment="p9"/>
+    <item id="g9" content="c20[0:52]" alignment="p10"/>
+    <item id="g10" content="c22[0:16]" alignment="p11"/>
+    <item id="g11" content="c26[0:45]" alignment="p13"/>
+    <item id="g12" content="c28[0:56]" alignment="p14"/>
+    <item id="g13" content="c30[0:46]" alignment="p15"/>
+    <item id="g14" content="c32[0:50]" alignment="p16"/>
+    <item id="g15" content="c34[0:51]" alignment="p17"/>
+    <item id="g16" content="c36[0:7]" alignment="p18"/>
+    <item id="g17" content="c39[0:52]" alignment="p19"/>
+    <item id="g18" content="c41[0:46]" alignment="p20"/>
+    <item id="g19" content="c43[0:18]" alignment="p21"/>
+    <item id="g20" content="c45[0:27]" alignment="p22"/>
+    <item id="g21" content="c47[0:44]" alignment="p23"/>
+    <item id="g22" content="c49[0:48]" alignment="p24"/>
+    <item id="g23" content="c51[0:11]" alignment="p25"/>
+    <item id="g24" content="c53[0:49]" alignment="p26"/>
+    <item id="g25" content="c55[0:31]" alignment="p27"/>
+    <item id="g26" content="c57[0:48]" alignment="p28"/>
+    <item id="g27" content="c59[0:37]" alignment="p29"/>
+    <item id="g28" content="c61[0:47]" alignment="p30"/>
+    <item id="g29" content="c63[0:55]" alignment="p31"/>
+    <item id="g30" content="c65[0:53]" alignment="p32"/>
+    <item id="g31" content="c67[0:52]" alignment="p33"/>
+    <item id="g32" content="c69[0:31]" alignment="p34"/>
+    <item id="g33" content="c71[0:31]" alignment="p35"/>
+    <item id="g34" content="c73[0:3]" alignment="p36"/>
+    <item id="g35" content="c79[0:50]" alignment="p37"/>
+    <item id="g36" content="c81[0:63]" alignment="p38"/>
+    <item id="g37" content="c83[0:52]" alignment="p39"/>
+    <item id="g38" content="c85[0:51]" alignment="p40"/>
+    <item id="g39" content="c88[0:53]" alignment="p41"/>
+    <item id="g40" content="c90[0:58]" alignment="p42"/>
+    <item id="g41" content="c92[0:42]" alignment="p43"/>
+    <item id="g42" content="c94[0:42]" alignment="p44"/>
+    <item id="g43" content="c96[0:22]" alignment="p45"/>
+    <item id="g44" content="c98[0:3]" alignment="p46"/>
+    <item id="g45" content="c100[0:10]" alignment="p47"/>
+    <item id="g46" content="c102[0:3]" alignment="p48"/>
+    <item id="g47" content="c104[0:19]" alignment="p49"/>
+    <item id="g48" content="c106[0:13]" alignment="p50"/>
+    <item id="g49" content="c108[0:11]" alignment="p51"/>
+    <item id="g50" content="c110[0:6]" alignment="p52"/>
+    <item id="g51" content="c112[0:18]" alignment="p53"/>
+    <item id="g52" content="c114[0:18]" alignment="p54"/>
+    <item id="g53" content="c117[0:3]" alignment="p55"/>
+    <item id="g54" content="c119[0:13]" alignment="p56"/>
+    <item id="g55" content="c121[0:26]" alignment="p57"/>
+    <item id="g56" content="c123[0:3]" alignment="p58"/>
+    <item id="g57" content="c125[0:41]" alignment="p59"/>
+    <item id="g58" content="c127[0:20]" alignment="p60"/>
+    <item id="g59" content="c129[0:32]" alignment="p61"/>
+    <item id="g60" content="c131[0:45]" alignment="p62"/>
+    <item id="g61" content="c133[0:13]" alignment="p63"/>
+    <item id="g62" content="c135[0:25]" alignment="p64"/>
+    <item id="g63" content="c137[0:3]" alignment="p65"/>
+    <item id="g64" content="c140[0:46]" alignment="p66"/>
+    <item id="g65" content="c142[0:57]" alignment="p67"/>
+    <item id="g66" content="c144[0:65]" alignment="p68"/>
+    <item id="g67" content="c146[0:54]" alignment="p69"/>
+    <item id="g68" content="c148[0:32]" alignment="p70"/>
+    <item id="g69" content="c150[0:49]" alignment="p71"/>
+    <item id="g70" content="c152[0:24]" alignment="p72"/>
+    <item id="g71" content="c158[0:20]" alignment="p73"/>
+    <item id="g72" content="c160[0:20]" alignment="p74"/>
+    <item id="g73" content="c162[0:3]" alignment="p75"/>
+    <item id="g74" content="c164[0:12]" alignment="p76"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c24[0:4]" alignment="p12"/>
+    <item id="t1" content="c167[0:48]" alignment="p76"/>
+    <item id="t2" content="c168[0:52]" alignment="p76"/>
+    <item id="t3" content="c169[0:54]" alignment="p76"/>
+    <item id="t4" content="c170[0:50]" alignment="p76"/>
+    <item id="t5" content="c171[0:51]" alignment="p76"/>
+    <item id="t6" content="c172[0:55]" alignment="p76"/>
+    <item id="t7" content="c173[0:57]" alignment="p76"/>
+    <item id="t8" content="c174[0:51]" alignment="p76"/>
+    <item id="t9" content="c175[0:49]" alignment="p76"/>
+    <item id="t10" content="c176[0:52]" alignment="p76"/>
+    <item id="t11" content="c177[0:51]" alignment="p76"/>
+    <item id="t12" content="c178[0:54]" alignment="p76"/>
+    <item id="t13" content="c179[0:57]" alignment="p76"/>
+    <item id="t14" content="c180[0:52]" alignment="p76"/>
+    <item id="t15" content="c181[0:48]" alignment="p76"/>
+    <item id="t16" content="c182[0:49]" alignment="p76"/>
+    <item id="t17" content="c183[0:51]" alignment="p76"/>
+    <item id="t18" content="c184[0:43]" alignment="p76"/>
+    <item id="t19" content="c185[0:38]" alignment="p76"/>
+    <item id="t20" content="c186[0:50]" alignment="p76"/>
+    <item id="t21" content="c187[0:52]" alignment="p76"/>
+    <item id="t22" content="c188[0:59]" alignment="p76"/>
+    <item id="t23" content="c189[0:53]" alignment="p76"/>
+    <item id="t24" content="c190[0:34]" alignment="p76"/>
+    <item id="t25" content="c191[0:28]" alignment="p76"/>
+    <item id="t26" content="c192[0:54]" alignment="p76"/>
+    <item id="t27" content="c193[0:12]" alignment="p76"/>
+    <item id="t28" content="c194[0:4]" alignment="p76"/>
+    <item id="t29" content="c195[0:50]" alignment="p76"/>
+    <item id="t30" content="c196[0:55]" alignment="p76"/>
+    <item id="t31" content="c197[0:49]" alignment="p76"/>
+    <item id="t32" content="c198[0:54]" alignment="p76"/>
+    <item id="t33" content="c199[0:40]" alignment="p76"/>
+    <item id="t34" content="c206[0:53]" alignment="p76"/>
+    <item id="t35" content="c207[0:55]" alignment="p76"/>
+    <item id="t36" content="c208[0:14]" alignment="p76"/>
+    <item id="t37" content="c209[0:18]" alignment="p76"/>
+    <item id="t38" content="c210[0:38]" alignment="p76"/>
+    <item id="t39" content="c211[0:46]" alignment="p76"/>
+    <item id="t40" content="c212[0:42]" alignment="p76"/>
+    <item id="t41" content="c213[0:48]" alignment="p76"/>
+    <item id="t42" content="c214[0:51]" alignment="p76"/>
+    <item id="t43" content="c215[0:25]" alignment="p76"/>
+    <item id="t44" content="c216[0:52]" alignment="p76"/>
+    <item id="t45" content="c217[0:10]" alignment="p76"/>
+    <item id="t46" content="c218[0:45]" alignment="p76"/>
+    <item id="t47" content="c219[0:46]" alignment="p76"/>
+    <item id="t48" content="c220[0:48]" alignment="p76"/>
+    <item id="t49" content="c221[0:43]" alignment="p76"/>
+    <item id="t50" content="c222[0:46]" alignment="p76"/>
+    <item id="t51" content="c223[0:36]" alignment="p76"/>
+    <item id="t52" content="c224[0:4]" alignment="p76"/>
+    <item id="t53" content="c225[0:53]" alignment="p76"/>
+    <item id="t54" content="c226[0:57]" alignment="p76"/>
+    <item id="t55" content="c227[0:54]" alignment="p76"/>
+    <item id="t56" content="c228[0:52]" alignment="p76"/>
+    <item id="t57" content="c229[0:56]" alignment="p76"/>
+    <item id="t58" content="c230[0:51]" alignment="p76"/>
+    <item id="t59" content="c231[0:48]" alignment="p76"/>
+    <item id="t60" content="c232[0:18]" alignment="p76"/>
+    <item id="t61" content="c233[0:36]" alignment="p76"/>
+    <item id="t62" content="c234[0:20]" alignment="p76"/>
+    <item id="t63" content="c235[0:4]" alignment="p76"/>
+    <item id="t64" content="c236[0:8]" alignment="p76"/>
+    <item id="t65" content="c237[0:4]" alignment="p76"/>
+    <item id="t66" content="c238[0:20]" alignment="p76"/>
+    <item id="t67" content="c239[0:13]" alignment="p76"/>
+    <item id="t68" content="c240[0:11]" alignment="p76"/>
+    <item id="t69" content="c244[0:7]" alignment="p76"/>
+    <item id="t70" content="c245[0:26]" alignment="p76"/>
+    <item id="t71" content="c246[0:26]" alignment="p76"/>
+    <item id="t72" content="c247[0:4]" alignment="p76"/>
+    <item id="t73" content="c248[0:16]" alignment="p76"/>
+    <item id="t74" content="c249[0:36]" alignment="p76"/>
+    <item id="t75" content="c250[0:12]" alignment="p76"/>
+    <item id="t76" content="c251[0:52]" alignment="p76"/>
+    <item id="t77" content="c252[0:15]" alignment="p76"/>
+    <item id="t78" content="c253[0:37]" alignment="p76"/>
+    <item id="t79" content="c254[0:37]" alignment="p76"/>
+    <item id="t80" content="c255[0:14]" alignment="p76"/>
+    <item id="t81" content="c256[0:34]" alignment="p76"/>
+    <item id="t82" content="c257[0:4]" alignment="p76"/>
+    <item id="t83" content="c258[0:54]" alignment="p76"/>
+    <item id="t84" content="c259[0:55]" alignment="p76"/>
+    <item id="t85" content="c260[0:58]" alignment="p76"/>
+    <item id="t86" content="c261[0:60]" alignment="p76"/>
+    <item id="t87" content="c262[0:25]" alignment="p76"/>
+    <item id="t88" content="c263[0:59]" alignment="p76"/>
+    <item id="t89" content="c264[0:17]" alignment="p76"/>
+    <item id="t90" content="c265[0:27]" alignment="p76"/>
+    <item id="t91" content="c266[0:28]" alignment="p76"/>
+    <item id="t92" content="c267[0:4]" alignment="p76"/>
+    <item id="t93" content="c268[0:28]" alignment="p76"/>
+  </tier>
+</igt>
+<igt id="i106238">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gurung" iso-639-3="gvr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1533" line-range="650-683" line-types="L G L G L G L G L G L G L G L G L G L G L G L G L G L G L G L G L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="650" tag="L">         1. paiqle nehbaal desa-rl    satteq dzuga-rl, tshaa-baqe</item>
+    <item id="o2" line="651" tag="G">            first Nepal    country-in early age-in     thus-of</item>
+    <item id="o3" line="652" tag="L">  nAAqsa grlhq-ri, khib      neq mAAbaq      nglhq mu-na.</item>
+    <item id="o4" line="653" tag="G">  village one-in   (old man) and (old woman) two   be-past</item>
+    <item id="o5" line="654" tag="L">  2. tsaq-maE-la, tsah-tsahml, toqi ah-reh-naq.   3. tsaq</item>
+    <item id="o6" line="655" tag="G">     that-pl-of   son-daughter any not-be-past       that</item>
+    <item id="o7" line="656" tag="L">  khiba    mAAbaq      saaqron   garlb mu-na*     4. tsaq-e</item>
+    <item id="o8" line="657" tag="G">  (old man) (old woman) extremely poor be-past       that-of</item>
+    <item id="o9" line="658" tag="L">  kloh nEh, toqi ah-reh-naq.    5. daadzyu baihq, khabaqe</item>
+    <item id="o10" line="659" tag="G">  fields    any not-be-past        brothers       any</item>
+    <item id="o11" line="660" tag="L">  ah-reh-naq.   6. tsaq khib     neq mAAbaq.     khaaliq</item>
+    <item id="o12" line="661" tag="G">  not-be-past     that (old man) and (old woman) exclusively</item>
+    <item id="o13" line="662" tag="L">  rih-i    biriq nAAqsa-r   guhm-di-i,      rih-i    biriq</item>
+    <item id="o14" line="663" tag="G">  ask-past after village-in stroll-Nep-past ask-past after</item>
+    <item id="o15" line="664" tag="L">  rih-i    biriq rih-i   biriq, tsa-mu-naq.    7. ti-gaEq, tsaq</item>
+    <item id="o16" line="665" tag="G">  ask-past after ask-past after eat-be-past       one-day that</item>
+    <item id="o17" line="666" tag="L">  khiba    mAAbaq-dl,       nAAqsa-uleq, kanggaq,</item>
+    <item id="o18" line="667" tag="G">  (old man) (old woman)-agt village-from (rice fragments)</item>
+    <item id="o19" line="668" tag="L">  rih-i    biriq, bah-iq.       8. dzahleq, mAAbaq-di..</item>
+    <item id="o20" line="669" tag="G">  ask-past after bring-past        then     (old woman)</item>
+    <item id="o21" line="670" tag="L">  kanggaq         proh-bar   khOq-I.       9. khiba,</item>
+    <item id="o22" line="671" tag="G">  (rice fragments) grind-purp begin-past      (old man)</item>
+    <item id="o23" line="672" tag="L">  nAAqsa-r   tshyuguq maeh-bar yaah-i.     10. dzahleq,</item>
+    <item id="o24" line="673" tag="G">  village-in butter    seek-purp go-past       then</item>
+    <item id="o25" line="674" tag="L">  mAAbaq-di       tshyiqn grihq liUdiq, kanggaq          proh-1</item>
+    <item id="o26" line="675" tag="G">  (old-woman)-agt moment one    after   (rice fragments) grind-inf</item>
+    <item id="o27" line="676" tag="L">  khAAq-I.      11. kanggaq         proh-1    khAAq-ba.e</item>
+    <item id="o28" line="677" tag="G">  finish-past      (rice fragments) grind-inf finish-of</item>
+    <item id="o29" line="678" tag="L">  todon, khib-aiq,      ya, tOh-kha-i.       khe-maqe klhq-ri.</item>
+    <item id="o30" line="679" tag="G">  instant (old man)-emp also enter-come-past self-of house-in</item>
+    <item id="o31" line="680" tag="L">  12. dzahleq, khiba-d       bi-di,   "lug   mAAbaq,</item>
+    <item id="o32" line="681" tag="G">      then     (old man)-agt say-past listen (old woman)</item>
+    <item id="o33" line="682" tag="L">  nga-d nAAqsa-uleq tshyuguq maeh-i    bah-ngngyUq, kih-di</item>
+    <item id="o34" line="683" tag="G">  I-agt village-from butter  seek-past bring-past   you-agt</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="650" tag="L">paiqle nehbaal desa-rl    satteq dzuga-rl, tshaa-baqe</item>
+    <item id="c2" line="651" tag="G">first Nepal    country-in early age-in     thus-of</item>
+    <item id="c3" line="652" tag="L">nAAqsa grlhq-ri, khib      neq mAAbaq      nglhq mu-na.</item>
+    <item id="c4" line="653" tag="G">village one-in   (old man) and (old woman) two   be-past</item>
+    <item id="c5" line="654" tag="L">tsaq-maE-la, tsah-tsahml, toqi ah-reh-naq.   3. tsaq</item>
+    <item id="c6" line="655" tag="G">that-pl-of   son-daughter any not-be-past       that</item>
+    <item id="c7" line="656" tag="L">khiba    mAAbaq      saaqron   garlb mu-na*     4. tsaq-e</item>
+    <item id="c8" line="657" tag="G">(old man) (old woman) extremely poor be-past       that-of</item>
+    <item id="c9" line="658" tag="L">kloh nEh, toqi ah-reh-naq.    5. daadzyu baihq, khabaqe</item>
+    <item id="c10" line="659" tag="G">fields    any not-be-past        brothers       any</item>
+    <item id="c11" line="660" tag="L">ah-reh-naq.   6. tsaq khib     neq mAAbaq.     khaaliq</item>
+    <item id="c12" line="661" tag="G">not-be-past     that (old man) and (old woman) exclusively</item>
+    <item id="c13" line="662" tag="L">rih-i    biriq nAAqsa-r   guhm-di-i,      rih-i    biriq</item>
+    <item id="c14" line="663" tag="G">ask-past after village-in stroll-Nep-past ask-past after</item>
+    <item id="c15" line="664" tag="L">rih-i    biriq rih-i   biriq, tsa-mu-naq.    7. ti-gaEq, tsaq</item>
+    <item id="c16" line="665" tag="G">ask-past after ask-past after eat-be-past       one-day that</item>
+    <item id="c17" line="666" tag="L">khiba    mAAbaq-dl,       nAAqsa-uleq, kanggaq,</item>
+    <item id="c18" line="667" tag="G">old man) (old woman)-agt village-from (rice fragments</item>
+    <item id="c19" line="668" tag="L">rih-i    biriq, bah-iq.       8. dzahleq, mAAbaq-di..</item>
+    <item id="c20" line="669" tag="G">ask-past after bring-past        then     (old woman)</item>
+    <item id="c21" line="670" tag="L">kanggaq         proh-bar   khOq-I.       9. khiba,</item>
+    <item id="c22" line="671" tag="G">rice fragments) grind-purp begin-past      (old man</item>
+    <item id="c23" line="672" tag="L">nAAqsa-r   tshyuguq maeh-bar yaah-i.     10. dzahleq,</item>
+    <item id="c24" line="673" tag="G">village-in butter    seek-purp go-past       then</item>
+    <item id="c25" line="674" tag="L">mAAbaq-di       tshyiqn grihq liUdiq, kanggaq          proh-1</item>
+    <item id="c26" line="675" tag="G">(old-woman)-agt moment one    after   (rice fragments) grind-inf</item>
+    <item id="c27" line="676" tag="L">khAAq-I.      11. kanggaq         proh-1    khAAq-ba.e</item>
+    <item id="c28" line="677" tag="G">finish-past      (rice fragments) grind-inf finish-of</item>
+    <item id="c29" line="678" tag="L">todon, khib-aiq,      ya, tOh-kha-i.       khe-maqe klhq-ri.</item>
+    <item id="c30" line="679" tag="G">instant (old man)-emp also enter-come-past self-of house-in</item>
+    <item id="c31" line="680" tag="L">dzahleq, khiba-d       bi-di,   "lug   mAAbaq,</item>
+    <item id="c32" line="681" tag="G">then     (old man)-agt say-past listen (old woman)</item>
+    <item id="c33" line="682" tag="L">nga-d nAAqsa-uleq tshyuguq maeh-i    bah-ngngyUq, kih-di</item>
+    <item id="c34" line="683" tag="G">I-agt village-from butter  seek-past bring-past   you-agt</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+    <item id="p1" content="c3[0:55]"/>
+    <item id="p2" content="c5[0:52]"/>
+    <item id="p3" content="c7[0:57]"/>
+    <item id="p4" content="c9[0:55]"/>
+    <item id="p5" content="c11[0:54]"/>
+    <item id="p6" content="c13[0:56]"/>
+    <item id="p7" content="c15[0:61]"/>
+    <item id="p8" content="c17[0:47]"/>
+    <item id="p9" content="c19[0:53]"/>
+    <item id="p10" content="c21[0:50]"/>
+    <item id="p11" content="c23[0:53]"/>
+    <item id="p12" content="c25[0:61]"/>
+    <item id="p13" content="c27[0:54]"/>
+    <item id="p14" content="c29[0:60]"/>
+    <item id="p15" content="c31[0:46]"/>
+    <item id="p16" content="c33[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+    <item id="g1" content="c4[0:56]" alignment="p2"/>
+    <item id="g2" content="c6[0:52]" alignment="p3"/>
+    <item id="g3" content="c8[0:58]" alignment="p4"/>
+    <item id="g4" content="c10[0:51]" alignment="p5"/>
+    <item id="g5" content="c12[0:58]" alignment="p6"/>
+    <item id="g6" content="c14[0:56]" alignment="p7"/>
+    <item id="g7" content="c16[0:60]" alignment="p8"/>
+    <item id="g8" content="c18[0:53]" alignment="p9"/>
+    <item id="g9" content="c20[0:53]" alignment="p10"/>
+    <item id="g10" content="c22[0:51]" alignment="p11"/>
+    <item id="g11" content="c24[0:49]" alignment="p12"/>
+    <item id="g12" content="c26[0:64]" alignment="p13"/>
+    <item id="g13" content="c28[0:53]" alignment="p14"/>
+    <item id="g14" content="c30[0:59]" alignment="p15"/>
+    <item id="g15" content="c32[0:50]" alignment="p16"/>
+    <item id="g16" content="c34[0:57]" alignment="p17"/>
+  </tier>
+</igt>
+</xigt-corpus>

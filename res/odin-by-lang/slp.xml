@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i28035">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamaholot" iso-639-3="slp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="869" line-range="90-92" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="90" tag="L+LN">         g. Go'e plei    Budi                                     (Lamaholot)</item>
+    <item id="o2" line="91" tag="G">            1SG hit      NAME</item>
+    <item id="o3" line="92" tag="T">            `I hit Budi'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="90" tag="L+LN">Go'e plei    Budi                                     (Lamaholot)</item>
+    <item id="c2" line="91" tag="G">1SG hit      NAME</item>
+    <item id="c3" line="92" tag="T">I hit Budi</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28040">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamaholot" iso-639-3="slp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="869" line-range="143-145" line-types="L+LN+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="143" tag="L+LN+CN">        c. Na'e na'a         go'e               (Ag Verb Pt) (Lamaholot)</item>
+    <item id="o2" line="144" tag="G">           3SG hit.AV        1SG</item>
+    <item id="o3" line="145" tag="T">           `S/he hit me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="143" tag="L+LN+CN">Na'e na'a         go'e               (Ag Verb Pt) (Lamaholot)</item>
+    <item id="c2" line="144" tag="G">3SG hit.AV        1SG</item>
+    <item id="c3" line="145" tag="T">S/he hit me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28043">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamaholot" iso-639-3="slp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="869" line-range="163-165" line-types="L+LN+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="163" tag="L+LN+CN">         c. Go'e na'e       na'a-nek                       (Pt Ag Verb) (Lamaholot)</item>
+    <item id="o2" line="164" tag="G">            1SG 3SG         hit-OV.1SG</item>
+    <item id="o3" line="165" tag="T">            `Me, (s)he hit'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="163" tag="L+LN+CN">Go'e na'e       na'a-nek                       (Pt Ag Verb) (Lamaholot)</item>
+    <item id="c2" line="164" tag="G">1SG 3SG         hit-OV.1SG</item>
+    <item id="c3" line="165" tag="T">Me, (s)he hit</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28087">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamaholot" iso-639-3="slp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="869" line-range="1085-1087" line-types="L+LN G+CN T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1085" tag="L+LN">   (36) a. Kopong       genatu doi nei go'e                                 (Lamaholot)</item>
+    <item id="o2" line="1086" tag="G+CN">           name         send money give 1SG                SUBJ          (AV monotransitive)</item>
+    <item id="o3" line="1087" tag="T+EX">           `Kopong sent money to/for me'                 &lt;'Kopong','money'&gt;(&lt;`1SG'&gt;)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1085" tag="L+LN">a. Kopong       genatu doi nei go'e                                 (Lamaholot</item>
+    <item id="c2" line="1086" tag="G+CN">name         send money give 1SG                SUBJ          (AV monotransitive)</item>
+    <item id="c3" line="1087" tag="T+EX">Kopong sent money to/for me'                 &lt;'Kopong','money'&gt;(&lt;`1SG'&gt;)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:81]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:72]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28088">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamaholot" iso-639-3="slp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="869" line-range="1089-1091" line-types="L+CN G+EX T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1089" tag="L+CN">          b. Doi    ne Kopong genatu-ro       nei go'e                     (OV monotransitive)</item>
+    <item id="o2" line="1090" tag="G+EX">             money that name      send-OV.3SG give 1SG                  SUBJ</item>
+    <item id="o3" line="1091" tag="T+EX">             `The money was sent by Kopong to me'              &lt;'Kopong','money'&gt;(&lt;`1SG'&gt;)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1089" tag="L+CN">Doi    ne Kopong genatu-ro       nei go'e                     (OV monotransitive)</item>
+    <item id="c2" line="1090" tag="G+EX">money that name      send-OV.3SG give 1SG                  SUBJ</item>
+    <item id="c3" line="1091" tag="T+EX">The money was sent by Kopong to me'              &lt;'Kopong','money'&gt;(&lt;`1SG'&gt;)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:76]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28089">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamaholot" iso-639-3="slp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="869" line-range="1093-1095" line-types="L+CN G+EX T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1093" tag="L+CN">          c.?* Kopong     genatu go'e   doi                                      (*AV ditransitive)</item>
+    <item id="o2" line="1094" tag="G+EX">             name         send 1SG      money                 ?*          SUBJ</item>
+    <item id="o3" line="1095" tag="T+EX">             `Kopong sent me money'                             &lt;'Kopong','1SG','money'&gt;</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1093" tag="L+CN">c.?* Kopong     genatu go'e   doi                                      (*AV ditransitive)</item>
+    <item id="c2" line="1094" tag="G+EX">name         send 1SG      money                 ?*          SUBJ</item>
+    <item id="c3" line="1095" tag="T+EX">Kopong sent me money'                             &lt;'Kopong','1SG','money'&gt;</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:89]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28090">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamaholot" iso-639-3="slp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="869" line-range="1097-1099" line-types="L+CN G+EX T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1097" tag="L+CN">          d. Go'e      Kopong genatu-k           doi                             (OV ditransitive)</item>
+    <item id="o2" line="1098" tag="G+EX">             1SG       name    send-OV.1SG       money                         SUBJ</item>
+    <item id="o3" line="1099" tag="T+EX">             `I was sent money by Kopong'                      &lt;'Kopong','1SG','money'&gt;</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1097" tag="L+CN">Go'e      Kopong genatu-k           doi                             (OV ditransitive)</item>
+    <item id="c2" line="1098" tag="G+EX">1SG       name    send-OV.1SG       money                         SUBJ</item>
+    <item id="c3" line="1099" tag="T+EX">I was sent money by Kopong'                      &lt;'Kopong','1SG','money'&gt;</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:73]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28091">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamaholot" iso-639-3="slp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="869" line-range="1101-1104" line-types="L+CR L+CN+CR G+EX T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1101" tag="L+CR">                                           genatu-ro</item>
+    <item id="o2" line="1102" tag="L+CN+CR">          e. *Doi      ne    Kopong                    go'e                      (*OV ditransitive)</item>
+    <item id="o3" line="1103" tag="G+EX">              money    that name           send-OV.3SG 1SG                          SUBJ</item>
+    <item id="o4" line="1104" tag="T+EX">              `The money was sent (to) me by Kopong'             * &lt;'Kopong','1SG','money'&gt;</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1101 1102" tag="L+CR+CN">*Doi      ne    Kopong        genatu-ro   go'e                      (*OV ditransitive)</item>
+    <item id="c3" line="1103" tag="G+EX">money    that name           send-OV.3SG 1SG                          SUBJ</item>
+    <item id="c4" line="1104" tag="T+EX">The money was sent (to) me by Kopong'             * &lt;'Kopong','1SG','money'&gt;</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:86]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:76]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28112">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamaholot" iso-639-3="slp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="869" line-range="1335-1337" line-types="L+LN+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1335" tag="L+LN+CN">  (46) a. Na' tubi'         weki-n                                        (AV) (Lamaholot)</item>
+    <item id="o2" line="1336" tag="G">          3SG pinch.AV self-3</item>
+    <item id="o3" line="1337" tag="T">          `(S)he pinched himself/herself'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1335" tag="L+LN+CN">a. Na' tubi'         weki-n                                        (AV) (Lamaholot</item>
+    <item id="c2" line="1336" tag="G">3SG pinch.AV self-3</item>
+    <item id="c3" line="1337" tag="T">he pinched himself/herself</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28113">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lamaholot" iso-639-3="slp" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="869" line-range="1339-1341" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1339" tag="L+CN">         b.?* Weki-n    na' tubi-ro'                                      (OV)</item>
+    <item id="o2" line="1340" tag="G">             self-3     3SG pich-OV.3SG</item>
+    <item id="o3" line="1341" tag="T">            `Himself/herself, (s)he pinched'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1339" tag="L+CN">b.?* Weki-n    na' tubi-ro'                                      (OV)</item>
+    <item id="c2" line="1340" tag="G">self-3     3SG pich-OV.3SG</item>
+    <item id="c3" line="1341" tag="T">Himself/herself, (s)he pinched</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

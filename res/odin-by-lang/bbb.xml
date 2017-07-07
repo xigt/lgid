@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i2529">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="567" line-range="1358-1360" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1358" tag="L">            c.      fu     fi     fase isoe.</item>
+    <item id="o2" line="1359" tag="G">                    3sg sit letter write</item>
+    <item id="o3" line="1360" tag="T">                    'He sat writing a letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1358" tag="L">fu     fi     fase isoe.</item>
+    <item id="c2" line="1359" tag="G">3sg sit letter write</item>
+    <item id="c3" line="1360" tag="T">He sat writing a letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i2531">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="567" line-range="1408-1410" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1408" tag="L">               c.        fu     fase     fi       isoe</item>
+    <item id="o2" line="1409" tag="G">                         3sg letter sit           write</item>
+    <item id="o3" line="1410" tag="T">                         'He sat writing a letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1408" tag="L">fu     fase     fi       isoe</item>
+    <item id="c2" line="1409" tag="G">3sg letter sit           write</item>
+    <item id="c3" line="1410" tag="T">He sat writing a letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35484">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1494-1496" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1494" tag="L">    (71) ro     igia keke-mo, na-si        ku-a-e</item>
+    <item id="o2" line="1495" tag="G">         COMP here arrive-PS 1S-ALT say-3S-PAST</item>
+    <item id="o3" line="1496" tag="T+AC">         `But when he arrived here, I talked to him next.' (Olson, 1973: 49)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1494" tag="L">ro     igia keke-mo, na-si        ku-a-e</item>
+    <item id="c2" line="1495" tag="G">COMP here arrive-PS 1S-ALT say-3S-PAST</item>
+    <item id="c3" line="1496" tag="T+AC">But when he arrived here, I talked to him next.' (Olson, 1973: 49)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35485">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1497-1499" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1497" tag="L">    (72) bu ije furi-ga-kuva, na vua-kiro-ke</item>
+    <item id="o2" line="1498" tag="G">         3PL this finish-SW-FS, 1S come-INT-FUT</item>
+    <item id="o3" line="1499" tag="T+AC">         `When they are finished with this, I intend to come.' (ibid.: 53)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1497" tag="L">bu ije furi-ga-kuva, na vua-kiro-ke</item>
+    <item id="c2" line="1498" tag="G">3PL this finish-SW-FS, 1S come-INT-FUT</item>
+    <item id="c3" line="1499" tag="T+AC">When they are finished with this, I intend to come.' (ibid.: 53)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35486">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="575" line-range="1500-1503" line-types="L G T T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1500" tag="L">    (73) ivia      muge no gamia va-eva, suake         una      rua-e</item>
+    <item id="o2" line="1501" tag="G">         today     night 1PL there go-DPS morning go.back come-PAST</item>
+    <item id="o3" line="1502" tag="T">         `Last    night we went (over) there and then this morning we came</item>
+    <item id="o4" line="1503" tag="T+AC">         back.'    (ibid.: 56)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1500" tag="L">ivia      muge no gamia va-eva, suake         una      rua-e</item>
+    <item id="c2" line="1501" tag="G">today     night 1PL there go-DPS morning go.back come-PAST</item>
+    <item id="c3" line="1502" tag="T">Last    night we went (over) there and then this morning we came</item>
+    <item id="c4" line="1503" tag="T+AC">back.'    (ibid.: 56)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:64]" alignment="p1"/>
+    <item id="t1" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38485">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1183" line-range="1265-1268" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1265" tag="M+CN">   (18) a.       Nuclear Coordination</item>
+    <item id="o2" line="1266" tag="L">                 Fu      vazai ufu      furi    numu          akoe.</item>
+    <item id="o3" line="1267" tag="G">                 3SG grass cut          finish pile           throw.away</item>
+    <item id="o4" line="1268" tag="T">                 'He finished cutting, piled, and threw away the grass'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1265" tag="M+CN">Nuclear Coordination</item>
+    <item id="c2" line="1266" tag="L">Fu      vazai ufu      furi    numu          akoe.</item>
+    <item id="c3" line="1267" tag="G">3SG grass cut          finish pile           throw.away</item>
+    <item id="c4" line="1268" tag="T">He finished cutting, piled, and threw away the grass'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42654">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3498" line-range="255-257" line-types="L+LN G+EX T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="255" tag="L+LN">        d. Fu fi fase isoe.                                                               Barai</item>
+    <item id="o2" line="256" tag="G+EX">           3sg sit letter write                                                           [Papua-New Guinea]</item>
+    <item id="o3" line="257" tag="T">           `He sat (down) and wrote a letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="255" tag="L+LN">Fu fi fase isoe.                                                               Barai</item>
+    <item id="c2" line="256" tag="G+EX">3sg sit letter write                                                           [Papua-New Guinea]</item>
+    <item id="c3" line="257" tag="T">He sat (down) and wrote a letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:97]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42657">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3498" line-range="335-337" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="335" tag="L+LN">        d. Fu fase fi isoe.                                                                 Barai</item>
+    <item id="o2" line="336" tag="G">           3sg letter sit write</item>
+    <item id="o3" line="337" tag="T">           `He sat writing a letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="335" tag="L+LN">Fu fase fi isoe.                                                                 Barai</item>
+    <item id="c2" line="336" tag="G">3sg letter sit write</item>
+    <item id="c3" line="337" tag="T">He sat writing a letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:86]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42664">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3498" line-range="798-800" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="798" tag="L+LN">  (6.31)a. Fu    kai fu-one         kume-fie va.                                                Barai</item>
+    <item id="o2" line="799" tag="G">           3sg   friend 3sg-POSS call-listen continue</item>
+    <item id="o3" line="800" tag="T">           `He   continued calling and listening for his friend.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="798" tag="L+LN">Fu    kai fu-one         kume-fie va.                                                Barai</item>
+    <item id="c2" line="799" tag="G">3sg   friend 3sg-POSS call-listen continue</item>
+    <item id="c3" line="800" tag="T">He   continued calling and listening for his friend.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:90]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42665">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3498" line-range="801-803" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="801" tag="L">        b. Fu    vazai ufu furi numu akoe.</item>
+    <item id="o2" line="802" tag="G">           3sg   grass cut finish pile throw.away</item>
+    <item id="o3" line="803" tag="T">           'He   finished cutting, piled, and threw away the grass.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="801" tag="L">Fu    vazai ufu furi numu akoe.</item>
+    <item id="c2" line="802" tag="G">3sg   grass cut finish pile throw.away</item>
+    <item id="c3" line="803" tag="T">He   finished cutting, piled, and threw away the grass.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i52115">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1235" line-range="485-487" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="485" tag="L+CN">  (9)    a. Fu fi fase isoe.                                         Control structure</item>
+    <item id="o2" line="486" tag="G">            3sg sit letter write</item>
+    <item id="o3" line="487" tag="T">            `He sat down and wrote a letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="485" tag="L+CN">Fu fi fase isoe.                                         Control structure</item>
+    <item id="c2" line="486" tag="G">3sg sit letter write</item>
+    <item id="c3" line="487" tag="T">He sat down and wrote a letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i52116">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1235" line-range="489-491" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="489" tag="L+CN">         b. Fu fase fi isoe.                                 V-V complex predicate</item>
+    <item id="o2" line="490" tag="G">            3sg letter sit write</item>
+    <item id="o3" line="491" tag="T">            `He sat writing a letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="489" tag="L+CN">Fu fase fi isoe.                                 V-V complex predicate</item>
+    <item id="c2" line="490" tag="G">3sg letter sit write</item>
+    <item id="c3" line="491" tag="T">He sat writing a letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i52117">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1235" line-range="497-499" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="497" tag="L">  (10)   a. Fu    isema fi fase isoe.</item>
+    <item id="o2" line="498" tag="G">            3sg   wrongly sit letter write</item>
+    <item id="o3" line="499" tag="T">            `He   sat wrongly and wrote a letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="497" tag="L">Fu    isema fi fase isoe.</item>
+    <item id="c2" line="498" tag="G">3sg   wrongly sit letter write</item>
+    <item id="c3" line="499" tag="T">He   sat wrongly and wrote a letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i52118">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1235" line-range="500-502" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="500" tag="L">         b. Fu    fi fase isema isoe.</item>
+    <item id="o2" line="501" tag="G">            3sg   sit letter wrongly write</item>
+    <item id="o3" line="502" tag="T">            `He   sat down and wrote a letter wrongly.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="500" tag="L">Fu    fi fase isema isoe.</item>
+    <item id="c2" line="501" tag="G">3sg   sit letter wrongly write</item>
+    <item id="c3" line="502" tag="T">He   sat down and wrote a letter wrongly.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i52119">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1235" line-range="503-505" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="503" tag="L">  (11)   a. Fu    fase isema fi isoe.</item>
+    <item id="o2" line="504" tag="G">            3sg   latter wrongly sit write</item>
+    <item id="o3" line="505" tag="T">            `He   wrongly sat writing a letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="503" tag="L">Fu    fase isema fi isoe.</item>
+    <item id="c2" line="504" tag="G">3sg   latter wrongly sit write</item>
+    <item id="c3" line="505" tag="T">He   wrongly sat writing a letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i52120">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1235" line-range="506-507" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="506" tag="L">          b.*Fu    fase fi isema isoe.</item>
+    <item id="o2" line="507" tag="G">            3sg    letter sit wrongly write</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="506" tag="L">b.*Fu    fase fi isema isoe.</item>
+    <item id="c2" line="507" tag="G">3sg    letter sit wrongly write</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i56070">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1274" line-range="6805-6808" line-types="L G T M+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6805" tag="L">         b. A keke-i         ro    fu be va-e</item>
+    <item id="o2" line="6806" tag="G">            2sg arrive-PST CONJ 3sg Q go-PST</item>
+    <item id="o3" line="6807" tag="T">                "You arrived, but did he go ?"</item>
+    <item id="o4" line="6808" tag="M+AC+LN">                                              (Barai; Foley and Van Valin 1984:245)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6805" tag="L">A keke-i         ro    fu be va-e</item>
+    <item id="c2" line="6806" tag="G">2sg arrive-PST CONJ 3sg Q go-PST</item>
+    <item id="c3" line="6807" tag="T">You arrived, but did he go ?</item>
+    <item id="c4" line="6808" tag="M+AC+LN">Barai; Foley and Van Valin 1984:245</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i56109">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1274" line-range="7329-7333" line-types="L G G T M+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7329" tag="L">         c. Juare ij-ia  a ni [mave n-one     sak-a-mo]          g-a-ne.</item>
+    <item id="o2" line="7330" tag="G">             garden DEF-L 2sg IMP pig 1sg-POSS bite-2sgU-PRES/HAB look-3sgU-</item>
+    <item id="o3" line="7331" tag="G">  IMP</item>
+    <item id="o4" line="7332" tag="T">                 "In the garden look for [it]:my pig bites!"</item>
+    <item id="o5" line="7333" tag="M+AC+LN">                                                Barai (Foley and Van Valin 1984:250)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7329" tag="L">Juare ij-ia  a ni [mave n-one     sak-a-mo]          g-a-ne.</item>
+    <item id="c2" line="7330" tag="G">garden DEF-L 2sg IMP pig 1sg-POSS bite-2sgU-PRES/HAB look-3sgU-</item>
+    <item id="c3" line="7331" tag="G">IMP</item>
+    <item id="c4" line="7332" tag="T">In the garden look for [it]:my pig bites!</item>
+    <item id="c5" line="7333" tag="M+AC+LN">Barai (Foley and Van Valin 1984:250)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+    <item id="g1" content="c3[0:3]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i56124">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1274" line-range="7569-7571" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7569" tag="L">         c. Na     e     ije k-ia       bu-me     va-e</item>
+    <item id="o2" line="7570" tag="G">             1sg person DEF say-3plU 3pl-CAS go-PST</item>
+    <item id="o3" line="7571" tag="T">                 "I spoke to the people, [and] they just went."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7569" tag="L">Na     e     ije k-ia       bu-me     va-e</item>
+    <item id="c2" line="7570" tag="G">1sg person DEF say-3plU 3pl-CAS go-PST</item>
+    <item id="c3" line="7571" tag="T">I spoke to the people, [and] they just went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i56125">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1274" line-range="7573-7575" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7573" tag="L">         d. Na-ka          e        ije     k-ia     bu va-e</item>
+    <item id="o2" line="7574" tag="G">            1sg-INTENS person DEF          say-3plU 3pl go-PST</item>
+    <item id="o3" line="7575" tag="T">                "I really spoke to the    people, [and] they went."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7573" tag="L">Na-ka          e        ije     k-ia     bu va-e</item>
+    <item id="c2" line="7574" tag="G">1sg-INTENS person DEF          say-3plU 3pl go-PST</item>
+    <item id="c3" line="7575" tag="T">I really spoke to the    people, [and] they went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i56208">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1274" line-range="8592-8595" line-types="L G T M+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8592" tag="L">          b. Fu vazai ufu furi numu akoe.</item>
+    <item id="o2" line="8593" tag="G">             3sg grass cut finish pile throw.away</item>
+    <item id="o3" line="8594" tag="T">                 "He finished cutting, piled, and threw away the grass."</item>
+    <item id="o4" line="8595" tag="M+AC+LN">                                                (Barai: Foley and Van Valin 1984:248)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8592" tag="L">Fu vazai ufu furi numu akoe.</item>
+    <item id="c2" line="8593" tag="G">3sg grass cut finish pile throw.away</item>
+    <item id="c3" line="8594" tag="T">He finished cutting, piled, and threw away the grass.</item>
+    <item id="c4" line="8595" tag="M+AC+LN">Foley and Van Valin 1984:248</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i56688">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1273" line-range="5380-5383" line-types="M+AC+EX L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5380" tag="M+AC+EX">  (6.53) = Van Valin and Lapolla (in preparation) (2.46)</item>
+    <item id="o2" line="5381" tag="L">         a.    Fu      kai    fu-one           kume-file      va.</item>
+    <item id="o3" line="5382" tag="G">               3Sg friend 3sg-POSS             call-listen    continue</item>
+    <item id="o4" line="5383" tag="T">               `He continued calling and listening for his friend.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5380" tag="M+AC+EX">= Van Valin and Lapolla (in preparation) (2.46</item>
+    <item id="c2" line="5381" tag="L">Fu      kai    fu-one           kume-file      va.</item>
+    <item id="c3" line="5382" tag="G">3Sg friend 3sg-POSS             call-listen    continue</item>
+    <item id="c4" line="5383" tag="T">He continued calling and listening for his friend.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i56689">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1273" line-range="5384-5386" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5384" tag="L">         b.    Fu      vazai ufu       furi    numu           akoe.</item>
+    <item id="o2" line="5385" tag="G">               3sg     grass cut       finish pile            throw.away</item>
+    <item id="o3" line="5386" tag="T">               `He finished cutting, piled and threw away the grass.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5384" tag="L">Fu      vazai ufu       furi    numu           akoe.</item>
+    <item id="c2" line="5385" tag="G">3sg     grass cut       finish pile            throw.away</item>
+    <item id="c3" line="5386" tag="T">He finished cutting, piled and threw away the grass.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136243">
+  <metadata type="xigt-meta">
+    <meta type="language" name="barai" iso-639-3="bbb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3754" line-range="82-84" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="82" tag="L+AC">                   b. fu fase isema fi isoe        Barai (Foley and Olson 1985: )</item>
+    <item id="o2" line="83" tag="G">                     he sit letter wrongly write</item>
+    <item id="o3" line="84" tag="T">                   `He wrongly sat writing a letter'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="82" tag="L+AC">fu fase isema fi isoe        Barai (Foley and Olson 1985: )</item>
+    <item id="c2" line="83" tag="G">he sit letter wrongly write</item>
+    <item id="c3" line="84" tag="T">He wrongly sat writing a letter</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

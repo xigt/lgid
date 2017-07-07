@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i73295">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ojibwa" iso-639-3="ojg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="710-712" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="710" tag="L">  (53) a. n- ginooz</item>
+    <item id="o2" line="711" tag="G">                 1SG-tall</item>
+    <item id="o3" line="712" tag="T">                 `I am tall'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="710" tag="L">n-ginooz</item>
+    <item id="c2" line="711" tag="G">1SG-tall</item>
+    <item id="c3" line="712" tag="T">I am tall</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:8]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73296">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ojibwa" iso-639-3="ojg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="716-719" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="716" tag="L+CR">                  n- nagam</item>
+    <item id="o2" line="717" tag="L+CR">         b.</item>
+    <item id="o3" line="718" tag="G">                  1SG-sing</item>
+    <item id="o4" line="719" tag="T">                  `I am singing'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="716 717" tag="L+CR">n-nagam</item>
+    <item id="c3" line="718" tag="G">1SG-sing</item>
+    <item id="c4" line="719" tag="T">I am singing</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73297">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ojibwa" iso-639-3="ojg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="722-724" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="722" tag="L">  (54) a. nini e- gnoozi-d</item>
+    <item id="o2" line="723" tag="G">                  man REL-tall-3SG</item>
+    <item id="o3" line="724" tag="T">                  `a tall man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="722" tag="L">nini e-gnoozi-d</item>
+    <item id="c2" line="723" tag="G">man REL-tall-3SG</item>
+    <item id="c3" line="724" tag="T">a tall man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73298">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ojibwa" iso-639-3="ojg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="725-727" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="725" tag="L">           b. nini e- ngamo-d</item>
+    <item id="o2" line="726" tag="G">                  man REL-sing-3SG</item>
+    <item id="o3" line="727" tag="T">                  `a man who is singing'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="725" tag="L">nini e-ngamo-d</item>
+    <item id="c2" line="726" tag="G">man REL-sing-3SG</item>
+    <item id="c3" line="727" tag="T">a man who is singing</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89987">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ojibwa" iso-639-3="ojg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2624" line-range="166-172" line-types="M+LN M+CN L+CR G+CR L+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="166" tag="M+LN">  (10)   Ojibwa (Algonquian)</item>
+    <item id="o2" line="167" tag="M+CN">         verb is marked for animate OBJ</item>
+    <item id="o3" line="168" tag="L+CR">                  gi+- min- a+          mzinhigan Za+bdi+s</item>
+    <item id="o4" line="169" tag="G+CR">                                                  9</item>
+    <item id="o5" line="170" tag="L+CR">         N-</item>
+    <item id="o6" line="171" tag="G+CR">         1SUBJ- PST- give- 3ANIM.OBJ book         John</item>
+    <item id="o7" line="172" tag="T">         `I gave John a book.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="166" tag="M+LN">Ojibwa (Algonquian</item>
+    <item id="c2" line="167" tag="M+CN">verb is marked for animate OBJ</item>
+    <item id="c3" line="168" tag="L+CR">gi+-min-a+          mzinhigan Za+bdi+s</item>
+    <item id="c4" line="169" tag="G+CR">9</item>
+    <item id="c5" line="170" tag="L+CR">N-</item>
+    <item id="c6" line="171" tag="G+CR">1SUBJ-PST-give-3ANIM.OBJ book         John</item>
+    <item id="c7" line="172" tag="T">I gave John a book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:38]"/>
+    <item id="p1" content="c5[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:1]" alignment="p1"/>
+    <item id="g1" content="c6[0:42]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:19]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

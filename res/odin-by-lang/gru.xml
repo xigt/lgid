@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i58700">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kistane" iso-639-3="gru" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3182" line-range="905-912" line-types="M+LN B L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="905" tag="M+LN">  (21) Independent clause:</item>
+    <item id="o2" line="906" tag="B"></item>
+    <item id="o3" line="907" tag="L+CR">                                             y´ -wädd-u .</item>
+    <item id="o4" line="908" tag="L+CR">       abi            yä-bayy-äw</item>
+    <item id="o5" line="909" tag="B"></item>
+    <item id="o6" line="910" tag="G">       father:DEF     MOD-son-POSS:3sm 3:IPFV-love-DECL:3sm</item>
+    <item id="o7" line="911" tag="B"></item>
+    <item id="o8" line="912" tag="T">       `The father loves his son.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="905" tag="M+LN">Independent clause:</item>
+    <item id="c2" line="906" tag="B"/>
+    <item id="c3" line="907 908" tag="L+CR">abi            yä-bayy-äw           y´-wädd-u .</item>
+    <item id="c5" line="909" tag="B"/>
+    <item id="c6" line="910" tag="G">father:DEF     MOD-son-POSS:3sm 3:IPFV-love-DECL:3sm</item>
+    <item id="c7" line="911" tag="B"/>
+    <item id="c8" line="912" tag="T">The father loves his son.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58701">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kistane" iso-639-3="gru" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3182" line-range="915-922" line-types="M+AC+EX B L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="915" tag="M+AC+EX">  (22) Dependent form in a complement clause (Leslau 1968: 20):</item>
+    <item id="o2" line="916" tag="B"></item>
+    <item id="o3" line="917" tag="L+CR">                        yä-mä t`t`a-hom                  ä-s&amp;l-u.</item>
+    <item id="o4" line="918" tag="L+CR">       tä-kätäma-yy</item>
+    <item id="o5" line="919" tag="B"></item>
+    <item id="o6" line="920" tag="G">       to-city-towards MOD-PV:come:3sm-COMPL             IPFV:1s-know-DECL:1s</item>
+    <item id="o7" line="921" tag="B"></item>
+    <item id="o8" line="922" tag="T">       `I know that he came to the city.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="915" tag="M+AC+EX">Dependent form in a complement clause (Leslau 1968: 20):</item>
+    <item id="c2" line="916" tag="B"/>
+    <item id="c3" line="917 918" tag="L+CR">tä-kätäma-yy  yä-mä t`t`a-hom                  ä-s&amp;l-u.</item>
+    <item id="c5" line="919" tag="B"/>
+    <item id="c6" line="920" tag="G">to-city-towards MOD-PV:come:3sm-COMPL             IPFV:1s-know-DECL:1s</item>
+    <item id="c7" line="921" tag="B"/>
+    <item id="c8" line="922" tag="T">I know that he came to the city.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58702">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kistane" iso-639-3="gru" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3182" line-range="927-934" line-types="M+AC+EX B L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="927" tag="M+AC+EX">  (23) Dependent form in the sequential construction (Leslau 1968: 19):</item>
+    <item id="o2" line="928" tag="B"></item>
+    <item id="o3" line="929" tag="L+CR">                             q´b</item>
+    <item id="o4" line="930" tag="L+CR">      bä-nat-aw                    awänn-a-m             bämida tonnaw.</item>
+    <item id="o5" line="931" tag="B"></item>
+    <item id="o6" line="932" tag="G">      on-head-POSS:3s butter put:PFV-3sm-SEQ outside sit:PFV:DECL:3sm</item>
+    <item id="o7" line="933" tag="B"></item>
+    <item id="o8" line="934" tag="T">      `He put butter on the top of his head and sat outside.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="927" tag="M+AC+EX">Dependent form in the sequential construction (Leslau 1968: 19):</item>
+    <item id="c2" line="928" tag="B"/>
+    <item id="c3" line="929 930" tag="L+CR">bä-nat-aw             q´b   awänn-a-m             bämida tonnaw.</item>
+    <item id="c5" line="931" tag="B"/>
+    <item id="c6" line="932" tag="G">on-head-POSS:3s butter put:PFV-3sm-SEQ outside sit:PFV:DECL:3sm</item>
+    <item id="c7" line="933" tag="B"/>
+    <item id="c8" line="934" tag="T">He put butter on the top of his head and sat outside.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58703">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kistane" iso-639-3="gru" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3182" line-range="937-943" line-types="M+AC+EX B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="937" tag="M+AC+EX">  (24) Dependent form in a causal clause (Leslau 1968: 14):</item>
+    <item id="o2" line="938" tag="B"></item>
+    <item id="o3" line="939" tag="L">      maläs s´lä-hon-ä                attuqann.</item>
+    <item id="o4" line="940" tag="B"></item>
+    <item id="o5" line="941" tag="G">      small because-PFV:be-3sm        hit:NEG.IMP:2sm.A:3sm.U</item>
+    <item id="o6" line="942" tag="B"></item>
+    <item id="o7" line="943" tag="T">      `Since he is small, don't hit him.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="937" tag="M+AC+EX">Dependent form in a causal clause (Leslau 1968: 14):</item>
+    <item id="c2" line="938" tag="B"/>
+    <item id="c3" line="939" tag="L">maläs s´lä-hon-ä                attuqann.</item>
+    <item id="c4" line="940" tag="B"/>
+    <item id="c5" line="941" tag="G">small because-PFV:be-3sm        hit:NEG.IMP:2sm.A:3sm.U</item>
+    <item id="c6" line="942" tag="B"/>
+    <item id="c7" line="943" tag="T">Since he is small, don't hit him.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i55223">
+  <metadata type="xigt-meta">
+    <meta type="language" name="east futuna" iso-639-3="fud" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1304" line-range="900-902" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="900" tag="L">  (30)(a) E   kau tamate e koe.</item>
+    <item id="o2" line="901" tag="G">         Gnr 1Sg. hit   Erg. 2Sg.</item>
+    <item id="o3" line="902" tag="T">         `You hit me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="900" tag="L">(a) E   kau tamate e koe.</item>
+    <item id="c2" line="901" tag="G">Gnr 1Sg. hit   Erg. 2Sg.</item>
+    <item id="c3" line="902" tag="T">You hit me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i55224">
+  <metadata type="xigt-meta">
+    <meta type="language" name="east futuna" iso-639-3="fud" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1304" line-range="904-906" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="904" tag="L">       (b) E    ke 'u'uti e      le kulî mokâ ke 'aga o sa'u      lana ne'akai.</item>
+    <item id="o2" line="905" tag="G">           Gnr 2Sg. bite Erg. Det. dog when 2Sg. face C remove his food</item>
+    <item id="o3" line="906" tag="T">           `The dog will bite you if you try to remove his food.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="904" tag="L">E    ke 'u'uti e      le kulî mokâ ke 'aga o sa'u      lana ne'akai.</item>
+    <item id="c2" line="905" tag="G">Gnr 2Sg. bite Erg. Det. dog when 2Sg. face C remove his food</item>
+    <item id="c3" line="906" tag="T">The dog will bite you if you try to remove his food.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

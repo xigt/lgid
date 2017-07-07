@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i30121">
+  <metadata type="xigt-meta">
+    <meta type="language" name="noon" iso-639-3="snf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3.txt" line-range="449-452" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="449" tag="M+AC+LN">  (16) Noon (Northern Atlantic, Senegal; Soukka 2000:207)</item>
+    <item id="o2" line="450" tag="L">       (3&gt;2) mi teeb-pi-raa</item>
+    <item id="o3" line="451" tag="G">             I     present-3 SG . REC-2 SG . THM</item>
+    <item id="o4" line="452" tag="T">             'I present you to her.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="449" tag="M+AC+LN">Noon (Northern Atlantic, Senegal; Soukka 2000:207</item>
+    <item id="c2" line="450" tag="L">(3&gt;2) mi teeb-pi-raa</item>
+    <item id="c3" line="451" tag="G">I     present-3 SG . REC-2 SG . THM</item>
+    <item id="c4" line="452" tag="T">I present you to her.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i33473">
+  <metadata type="xigt-meta">
+    <meta type="language" name="noon" iso-639-3="snf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3138" line-range="1120-1123" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1120" tag="M+LN">                 (29) Noon</item>
+    <item id="o2" line="1121" tag="L">                      a. mi hot-ta-ri       daa-ma.</item>
+    <item id="o3" line="1122" tag="G">                         I see-narr-3sg(P) there</item>
+    <item id="o4" line="1123" tag="T">                         `I saw her there.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1120" tag="M+LN">Noon</item>
+    <item id="c2" line="1121" tag="L">mi hot-ta-ri       daa-ma.</item>
+    <item id="c3" line="1122" tag="G">I see-narr-3sg(P) there</item>
+    <item id="c4" line="1123" tag="T">I saw her there.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i33474">
+  <metadata type="xigt-meta">
+    <meta type="language" name="noon" iso-639-3="snf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3138" line-range="1124-1126" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1124" tag="L">                      b. mi amdoh-haa.</item>
+    <item id="o2" line="1125" tag="G">                         I help-2sg(P)</item>
+    <item id="o3" line="1126" tag="T">                         `I help you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1124" tag="L">mi amdoh-haa.</item>
+    <item id="c2" line="1125" tag="G">I help-2sg(P)</item>
+    <item id="c3" line="1126" tag="T">I help you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i33475">
+  <metadata type="xigt-meta">
+    <meta type="language" name="noon" iso-639-3="snf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3138" line-range="1136-1138" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1136" tag="L">                        c. mi teeb-pi-raa.</item>
+    <item id="o2" line="1137" tag="G">                           I present-3sg(R)-2sg(T)</item>
+    <item id="o3" line="1138" tag="T+AC">                           `I present you to her.'             (Soukka 2000: 104, 200±2)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1136" tag="L">mi teeb-pi-raa.</item>
+    <item id="c2" line="1137" tag="G">I present-3sg(R)-2sg(T)</item>
+    <item id="c3" line="1138" tag="T+AC">I present you to her.'             (Soukka 2000: 104, 200±2)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78827">
+  <metadata type="xigt-meta">
+    <meta type="language" name="noon" iso-639-3="snf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2503" line-range="483-486" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="483" tag="M+AC+LN">  (13) Noon (Northern Atlantic, Senegal; Soukka 2000:207)</item>
+    <item id="o2" line="484" tag="L">       (3&gt;2) mi teeb-pi-raa</item>
+    <item id="o3" line="485" tag="G">            I      present-3   SG.REC-2SG.THM</item>
+    <item id="o4" line="486" tag="T">            'I present you to her.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="483" tag="M+AC+LN">Noon (Northern Atlantic, Senegal; Soukka 2000:207</item>
+    <item id="c2" line="484" tag="L">(3&gt;2) mi teeb-pi-raa</item>
+    <item id="c3" line="485" tag="G">I      present-3   SG.REC-2SG.THM</item>
+    <item id="c4" line="486" tag="T">I present you to her.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116875">
+  <metadata type="xigt-meta">
+    <meta type="language" name="noon" iso-639-3="snf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3656" line-range="5985-5988" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5985" tag="M+AC+LN">  Noon (Niger-Congo, Atlantic-Congo; Sonkka 2000: 207)</item>
+    <item id="o2" line="5986" tag="L">        Mi on Ndew ndímu.</item>
+    <item id="o3" line="5987" tag="G">        I give Ndew pague</item>
+    <item id="o4" line="5988" tag="T">        `I give Ndew a skirtcloth'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5985" tag="M+AC+LN">Noon (Niger-Congo, Atlantic-Congo; Sonkka 2000: 207)</item>
+    <item id="c2" line="5986" tag="L">Mi on Ndew ndímu.</item>
+    <item id="c3" line="5987" tag="G">I give Ndew pague</item>
+    <item id="c4" line="5988" tag="T">I give Ndew a skirtcloth'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

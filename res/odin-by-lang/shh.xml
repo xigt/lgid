@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i35541">
+  <metadata type="xigt-meta">
+    <meta type="language" name="shoshoni" iso-639-3="shh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="616" line-range="246-249" line-types="L+CR L+CR G+LN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="246" tag="L+CR">             ...tu"ku- i [u            t "ka-"p h]-a.</item>
+    <item id="o2" line="247" tag="L+CR">       b.</item>
+    <item id="o3" line="248" tag="G+LN">             ...meat- ACC [POSS.3 eat-PART.PERF]-ACC                           (Shoshoni)</item>
+    <item id="o4" line="249" tag="T">             `...the meat that he ate.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="246 247" tag="L+CR">...tu"ku-i [u            t "ka-"p h]-a.</item>
+    <item id="c3" line="248" tag="G+LN">...meat-ACC [POSS.3 eat-PART.PERF]-ACC                           (Shoshoni)</item>
+    <item id="c4" line="249" tag="T">...the meat that he ate.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42788">
+  <metadata type="xigt-meta">
+    <meta type="language" name="shoshone" iso-639-3="shh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3507" line-range="298-304" line-types="M+LN M L+CR L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="298" tag="M+LN">   (21)     Tumpisa Shoshone (Uto-Aztecan: U.S.)</item>
+    <item id="o2" line="299" tag="M">              ¨</item>
+    <item id="o3" line="300" tag="L+CR">            n¨</item>
+    <item id="o4" line="301" tag="L+CR">             ummu so'oppuh putisih pungkupaimmippuhantu</item>
+    <item id="o5" line="302" tag="L+CR">                  ¨       ¨                        ¨  ¨</item>
+    <item id="o6" line="303" tag="G">            we.exc many      burro pet-have-hab-pst</item>
+    <item id="o7" line="304" tag="T+AC">            `we used to have many burro pets'                                                 [Dayley (1989:91)]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="298" tag="M+LN">Tumpisa Shoshone (Uto-Aztecan: U.S.</item>
+    <item id="c2" line="299" tag="M">¨</item>
+    <item id="c3" line="300 302" tag="L+CR">n¨   ¨       ¨                        ¨  ¨</item>
+    <item id="c6" line="303" tag="G">we.exc many      burro pet-have-hab-pst</item>
+    <item id="c7" line="304" tag="T+AC">we used to have many burro pets'                                                 [Dayley (1989:91)]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:99]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i134237">
+  <metadata type="xigt-meta">
+    <meta type="language" name="shoshoni" iso-639-3="shh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2368" line-range="365-367" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="365" tag="L">   (41) huu -"pi -ta</item>
+    <item id="o2" line="366" tag="G">        stick -abs -acc</item>
+    <item id="o3" line="367" tag="T+AC">          `stick (ACC)' (Langacker, 1977, p. 78)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="365" tag="L">huu-"pi-ta</item>
+    <item id="c2" line="366" tag="G">stick-abs-acc</item>
+    <item id="c3" line="367" tag="T+AC">stick (ACC)' (Langacker, 1977, p. 78)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i143268">
+  <metadata type="xigt-meta">
+    <meta type="language" name="shoshoni" iso-639-3="shh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2353" line-range="1172-1174" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1172" tag="L+EX">        b.    ... tu"ku-i [u            tÈ "ka-"pÈh]-a.                                        [on N and RC]</item>
+    <item id="o2" line="1173" tag="G">              ... meat-ACC [POSS.3 eat-PART.        PERF]-ACC</item>
+    <item id="o3" line="1174" tag="T">              `... the meat that he ate.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1172" tag="L+EX">... tu"ku-i [u            tÈ "ka-"pÈh]-a.                                        [on N and RC]</item>
+    <item id="c2" line="1173" tag="G">meat-ACC [POSS.3 eat-PART.        PERF]-ACC</item>
+    <item id="c3" line="1174" tag="T">the meat that he ate.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:94]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145490">
+  <metadata type="xigt-meta">
+    <meta type="language" name="shoshone" iso-639-3="shh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3820" line-range="478-481" line-types="L M G T+AC+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="478" tag="L">   (19)     nummu so'oppuh putisih pungkupaimmippuhantu</item>
+    <item id="o2" line="479" tag="M">             ¨    ¨       ¨                        ¨  ¨</item>
+    <item id="o3" line="480" tag="G">            we.ex many       burro pet-have-hab-pst</item>
+    <item id="o4" line="481" tag="T+AC+CR">            `We used to have many burro p ets.'                                        (Dayley 1989:91)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="478" tag="L">nummu so'oppuh putisih pungkupaimmippuhantu</item>
+    <item id="c2" line="479" tag="M">¨    ¨       ¨                        ¨  ¨</item>
+    <item id="c3" line="480" tag="G">we.ex many       burro pet-have-hab-pst</item>
+    <item id="c4" line="481" tag="T+AC+CR">We used to have many burro p ets.'                                        (Dayley 1989:91)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:90]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

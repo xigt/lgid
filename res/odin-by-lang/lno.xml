@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i97125">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lango" iso-639-3="lno" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="3718-3721" line-types="L G T M+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3718" tag="L">  (14) án à-pé          à-wótò           kàmpálà</item>
+    <item id="o2" line="3719" tag="G">       I     1SG-NEG 1SG-go.PERF Kampala</item>
+    <item id="o3" line="3720" tag="T">       `I didn't go to Kampala.'</item>
+    <item id="o4" line="3721" tag="M+AC+LN">       (Lango; Noonan 1992: 142)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3718" tag="L">án à-pé          à-wótò           kàmpálà</item>
+    <item id="c2" line="3719" tag="G">I     1SG-NEG 1SG-go.PERF Kampala</item>
+    <item id="c3" line="3720" tag="T">I didn't go to Kampala.</item>
+    <item id="c4" line="3721" tag="M+AC+LN">Lango; Noonan 1992: 142</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

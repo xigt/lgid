@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i29052">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nakanai" iso-639-3="nak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2791" line-range="154-155" line-types="M+AC+LN L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="154" tag="M+AC+LN">  nakanai (Johnston 1980)</item>
+    <item id="o2" line="155" tag="L-T+DB">     sile       `tear, shred'             ma-sile          `torn, tattered'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="154" tag="M+AC+LN">nakanai (Johnston 1980)</item>
+    <item id="c2" line="155" tag="L-T+DB">sile       `tear, shred'             ma-sile          `torn, tattered</item>
+  </tier>
+</igt>
+<igt id="i29167">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nakanai" iso-639-3="nak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2791" line-range="480-481" line-types="L-T+LN C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="480" tag="L-T+LN">  Meso-Melanesian:          Nakanai              malumo      `be soft (bread or sweet biscuits,</item>
+    <item id="o2" line="481" tag="C">                                                             or taro left too long in the ground)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="480" tag="L-T+LN">Meso-Melanesian:          Nakanai              malumo      `be soft (bread or sweet biscuits,</item>
+    <item id="c2" line="481" tag="C">or taro left too long in the ground)</item>
+  </tier>
+</igt>
+<igt id="i139081">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nakanai" iso-639-3="nak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2149" line-range="940-941" line-types="L-G+LN+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="940" tag="L-G+LN+DB">  Nakanai       lima-gu [hand-1SG]          vs.        luma taku [house my]</item>
+    <item id="o2" line="941" tag="T+DB">                'my hand'                              'my house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="940" tag="L-G+LN+DB">Nakanai       lima-gu [hand-1SG]          vs.        luma taku [house my]</item>
+    <item id="c2" line="941" tag="T+DB">my hand'                              'my house</item>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:47]"/>
+  </tier>
+</igt>
+</xigt-corpus>

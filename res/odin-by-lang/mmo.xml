@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i50000">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mangga buang" iso-639-3="mmo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1779" line-range="252-258" line-types="M+AC+LN+CR M+CR M+CN L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="252" tag="M+AC+LN+CR">            Mangga Buang (Papuan) (Payne 1997:106)</item>
+    <item id="o2" line="253" tag="M+CR">  (16)</item>
+    <item id="o3" line="254" tag="M+CN">          a. Inalienable: prn NP-poss</item>
+    <item id="o4" line="255" tag="L">            sa nama-ngg</item>
+    <item id="o5" line="256" tag="G">            1sg hand-1</item>
+    <item id="o6" line="257" tag="B"></item>
+    <item id="o7" line="258" tag="T">            `my hand'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="252 253" tag="M+AC+LN+CR">Mangga Buang (Papuan) (Payne 1997:106</item>
+    <item id="c3" line="254" tag="M+CN">prn NP-poss</item>
+    <item id="c4" line="255" tag="L">sa nama-ngg</item>
+    <item id="c5" line="256" tag="G">1sg hand-1</item>
+    <item id="c6" line="257" tag="B"/>
+    <item id="c7" line="258" tag="T">my hand</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c4[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50001">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mangga buang" iso-639-3="mmo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1779" line-range="259-263" line-types="M+CN L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="259" tag="M+CN">          b. Alienable: prn-te NP</item>
+    <item id="o2" line="260" tag="L">            sa-te      voow</item>
+    <item id="o3" line="261" tag="G">            1sg-poss dog</item>
+    <item id="o4" line="262" tag="B"></item>
+    <item id="o5" line="263" tag="T">            `my dog'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="259" tag="M+CN">prn-te NP</item>
+    <item id="c2" line="260" tag="L">sa-te      voow</item>
+    <item id="c3" line="261" tag="G">1sg-poss dog</item>
+    <item id="c4" line="262" tag="B"/>
+    <item id="c5" line="263" tag="T">my dog</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:6]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

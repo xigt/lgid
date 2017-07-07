@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i145484">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nhe:nhw:nch:ngu:nhs:azz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3820" line-range="391-393" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="391" tag="L">   (14)     A:       kanke eltok kocillo? Na' ni-'-neki amanci.</item>
+    <item id="o2" line="392" tag="G">                     where is    knife    I I-it-want now</item>
+    <item id="o3" line="393" tag="T">                     `Where is the knife? I want it now.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="391" tag="L">kanke eltok kocillo? Na' ni-'-neki amanci.</item>
+    <item id="c2" line="392" tag="G">where is    knife    I I-it-want now</item>
+    <item id="c3" line="393" tag="T">Where is the knife? I want it now.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145485">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nhe:nhw:nch:ngu:nhs:azz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3820" line-range="407-409" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="407" tag="L">           B:       ya' ki-kocillo-tete'ki panci.</item>
+    <item id="o2" line="408" tag="G">                    he (he)it-knife-cut bread</item>
+    <item id="o3" line="409" tag="T+AC">                    `He cut the bread with it (the knife).'                                         (Mithun 1984:861)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="407" tag="L">ya' ki-kocillo-tete'ki panci.</item>
+    <item id="c2" line="408" tag="G">he (he)it-knife-cut bread</item>
+    <item id="c3" line="409" tag="T+AC">He cut the bread with it (the knife).'                                         (Mithun 1984:861)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:96]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

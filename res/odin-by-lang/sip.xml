@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i115642">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sikkimese" iso-639-3="sip" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3380" line-range="2686-2691" line-types="M+LN B L G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2686" tag="M+LN">         b.   Sikkimese</item>
+    <item id="o2" line="2687" tag="B"></item>
+    <item id="o3" line="2688" tag="L">              kho   so tap mi                    ong</item>
+    <item id="o4" line="2689" tag="G+CR">                    bite</item>
+    <item id="o5" line="2690" tag="G+CR">              3SG              NEG,NONPAST       FUT</item>
+    <item id="o6" line="2691" tag="T+AC">              `he will not bite' (Sandberg 1888: 48)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2686" tag="M+LN">Sikkimese</item>
+    <item id="c2" line="2687" tag="B"/>
+    <item id="c3" line="2688" tag="L">kho   so tap mi                    ong</item>
+    <item id="c4" line="2689 2690" tag="G+CR">3SG   bite       NEG,NONPAST       FUT</item>
+    <item id="c6" line="2691" tag="T+AC">he will not bite' (Sandberg 1888: 48)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

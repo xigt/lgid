@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i42778">
+  <metadata type="xigt-meta">
+    <meta type="language" name="car nicobarese" iso-639-3="caq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3507" line-range="156-162" line-types="M+LN L+CR L+CR L+CR M G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="156" tag="M+LN">                 Car Nicobarese (possibly Austroasiatic: Nicobar Islands)1</item>
+    <item id="o2" line="157" tag="L+CR">   (10)</item>
+    <item id="o3" line="158" tag="L+CR">                 t´ ´</item>
+    <item id="o4" line="159" tag="L+CR">                  i:nNEn t@tm´ an, ce:ms</item>
+    <item id="o5" line="160" tag="M">                                ak</item>
+    <item id="o6" line="161" tag="G">                 sent.away T@tmak he James</item>
+    <item id="o7" line="162" tag="T+AC">                 `James sent T@tmak away'                                                               [Braine (1970:179)]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="156" tag="M+LN">Car Nicobarese (possibly Austroasiatic: Nicobar Islands)1</item>
+    <item id="c2" line="157 158" tag="L+CR">t´ ´</item>
+    <item id="c5" line="160" tag="M">ak</item>
+    <item id="c6" line="161" tag="G">sent.away T@tmak he James</item>
+    <item id="c7" line="162" tag="T+AC">James sent T@tmak away'                                                               [Braine (1970:179)]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:4]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:105]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145479">
+  <metadata type="xigt-meta">
+    <meta type="language" name="car nicobarese" iso-639-3="caq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3820" line-range="276-281" line-types="L+CR L+CR L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="276" tag="L+CR">              t´ nN´</item>
+    <item id="o2" line="277" tag="L+CR">               i: En t@tm´ an, ce:ms</item>
+    <item id="o3" line="278" tag="L+CR">                            ak</item>
+    <item id="o4" line="279" tag="L+CR">      (9)</item>
+    <item id="o5" line="280" tag="G">              sent.away T@tmak he James</item>
+    <item id="o6" line="281" tag="T+AC">              `James sent T@tmak away.'                                                          (Braine 1970:179)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="276 278 279" tag="L+CR">t´ nN´      ak</item>
+    <item id="c5" line="280" tag="G">sent.away T@tmak he James</item>
+    <item id="c6" line="281" tag="T+AC">James sent T@tmak away.'                                                          (Braine 1970:179)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:99]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

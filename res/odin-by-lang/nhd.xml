@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i60664">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guaraní" iso-639-3="nhd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3917" line-range="366-368" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="366" tag="L">  (22) a.   Mba´ eve ndarekoi</item>
+    <item id="o2" line="367" tag="G">            nothing Neg-have</item>
+    <item id="o3" line="368" tag="T">            I have nothing</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="366" tag="L">Mba´ eve ndarekoi</item>
+    <item id="c2" line="367" tag="G">nothing Neg-have</item>
+    <item id="c3" line="368" tag="T">I have nothing</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60665">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guaraní" iso-639-3="nhd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3917" line-range="370-372" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="370" tag="L">       b.   Arakaeve ndohoi che rógape</item>
+    <item id="o2" line="371" tag="G">            never     Neg-go to my house</item>
+    <item id="o3" line="372" tag="T">            He never goes to my house</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="370" tag="L">Arakaeve ndohoi che rógape</item>
+    <item id="c2" line="371" tag="G">never     Neg-go to my house</item>
+    <item id="c3" line="372" tag="T">He never goes to my house</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88871">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guaraní" iso-639-3="nhd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="730" line-range="754-756" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="754" tag="L">  (26)    jakare      ruguai</item>
+    <item id="o2" line="755" tag="G">          crocodile tail</item>
+    <item id="o3" line="756" tag="T">          `the crocodile's tail'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="754" tag="L">jakare      ruguai</item>
+    <item id="c2" line="755" tag="G">crocodile tail</item>
+    <item id="c3" line="756" tag="T">the crocodile's tail</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

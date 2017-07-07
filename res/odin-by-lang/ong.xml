@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i47177">
+  <metadata type="xigt-meta">
+    <meta type="language" name="olo" iso-639-3="ong" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3429" line-range="621-625" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="621" tag="L">     (24) sie            wëngkes t-afo-tei           namën</item>
+    <item id="o2" line="622" tag="G">          grasshopper two.M         3DU.M-fat-very green</item>
+    <item id="o3" line="623" tag="L">          t-ello</item>
+    <item id="o4" line="624" tag="G">          3DU.M-jump.up</item>
+    <item id="o5" line="625" tag="T">          `Two very fat green grasshoppers jump up.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="621" tag="L">sie            wëngkes t-afo-tei           namën</item>
+    <item id="c2" line="622" tag="G">grasshopper two.M         3DU.M-fat-very green</item>
+    <item id="c3" line="623" tag="L">t-ello</item>
+    <item id="c4" line="624" tag="G">3DU.M-jump.up</item>
+    <item id="c5" line="625" tag="T">Two very fat green grasshoppers jump up.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+    <item id="p1" content="c3[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+    <item id="g1" content="c4[0:13]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:40]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

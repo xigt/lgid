@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i894">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3008" line-range="187-192" line-types="L+CR L+LN+CR B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="187" tag="L+CR">                  mukanda mú ­ tind - aki</item>
+    <item id="o2" line="188" tag="L+LN+CR">  (4)    a.                                          Poso      Lingala</item>
+    <item id="o3" line="189" tag="B"></item>
+    <item id="o4" line="190" tag="G+SY">                  letteri   AGRi-send-PAST Poso</item>
+    <item id="o5" line="191" tag="B"></item>
+    <item id="o6" line="192" tag="T">                  `the letter that Poso sent'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="187 188" tag="L+CR+LN">mukanda mú ­ tind-aki          Poso      Lingala</item>
+    <item id="c3" line="189" tag="B"/>
+    <item id="c4" line="190" tag="G+SY">letteri   AGRi-send-PAST Poso</item>
+    <item id="c5" line="191" tag="B"/>
+    <item id="c6" line="192" tag="T">the letter that Poso sent</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i895">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3008" line-range="196-201" line-types="L+CR L+CR B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="196" tag="L+CR">                  mukanda muye Poso</item>
+    <item id="o2" line="197" tag="L+CR">         b.                                   a ­ tind - aki</item>
+    <item id="o3" line="198" tag="B"></item>
+    <item id="o4" line="199" tag="G+SY">                  letteri   RMi Poso 3S-send-PAST</item>
+    <item id="o5" line="200" tag="B"></item>
+    <item id="o6" line="201" tag="T">                  `the letter that he sent'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="196 197" tag="L+CR">mukanda muye Poso           a ­ tind-aki</item>
+    <item id="c3" line="198" tag="B"/>
+    <item id="c4" line="199" tag="G+SY">letteri   RMi Poso 3S-send-PAST</item>
+    <item id="c5" line="200" tag="B"/>
+    <item id="c6" line="201" tag="T">the letter that he sent</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i899">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3008" line-range="490-495" line-types="L+CR L+LN+CR B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="490" tag="L+CR">          Mukanda mú-tind-aki</item>
+    <item id="o2" line="491" tag="L+LN+CR">  (8)                               P os o.                     Lingala</item>
+    <item id="o3" line="492" tag="B"></item>
+    <item id="o4" line="493" tag="G+SY">          letteri Agri.rel -send-past Poso</item>
+    <item id="o5" line="494" tag="B"></item>
+    <item id="o6" line="495" tag="T">          "The letter that Poso sent."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="490 491" tag="L+CR+LN">Mukanda mú-tind-aki      P os o.                     Lingala</item>
+    <item id="c3" line="492" tag="B"/>
+    <item id="c4" line="493" tag="G+SY">letteri Agri.rel-send-past Poso</item>
+    <item id="c5" line="494" tag="B"/>
+    <item id="c6" line="495" tag="T">The letter that Poso sent.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i904">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3008" line-range="732-737" line-types="L+CR L+LN+CR B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="732" tag="L+CR">         mukanda eye Poso</item>
+    <item id="o2" line="733" tag="L+LN+CR">  (17)                           a ­ tind - aki.                Lingala</item>
+    <item id="o3" line="734" tag="B"></item>
+    <item id="o4" line="735" tag="G+SY">         letteri    RMi Poso 3S-send-past</item>
+    <item id="o5" line="736" tag="B"></item>
+    <item id="o6" line="737" tag="T">         `the letter that he sent'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="732 733" tag="L+CR+LN">mukanda eye Poso        a ­ tind-aki.                Lingala</item>
+    <item id="c3" line="734" tag="B"/>
+    <item id="c4" line="735" tag="G+SY">letteri    RMi Poso 3S-send-past</item>
+    <item id="c5" line="736" tag="B"/>
+    <item id="c6" line="737" tag="T">the letter that he sent</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i905">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3008" line-range="778-783" line-types="L+CR L+LN+CR B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="778" tag="L+CR">          buku buye bu-somb-aka Poso lobi</item>
+    <item id="o2" line="779" tag="L+LN+CR">  (18)                                                                    Lingala</item>
+    <item id="o3" line="780" tag="B"></item>
+    <item id="o4" line="781" tag="G+SY">          booki RMi AGRi-buy-PAST Poso yesterday</item>
+    <item id="o5" line="782" tag="B"></item>
+    <item id="o6" line="783" tag="T">          `the book that Poso bought yesterday'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="778 779" tag="L+CR+LN">buku buye bu-somb-aka Poso lobi                                 Lingala</item>
+    <item id="c3" line="780" tag="B"/>
+    <item id="c4" line="781" tag="G+SY">booki RMi AGRi-buy-PAST Poso yesterday</item>
+    <item id="c5" line="782" tag="B"/>
+    <item id="c6" line="783" tag="T">the book that Poso bought yesterday</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i906">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3008" line-range="876-882" line-types="L+LN B G+CR+SY G+CR+SY B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="876" tag="L+LN">  (20)    a.     omusajja Petero      gwe a-labye.                      Luganda</item>
+    <item id="o2" line="877" tag="B"></item>
+    <item id="o3" line="878" tag="G+CR+SY">                 man        Peter     RMi 3S-see</item>
+    <item id="o4" line="879" tag="G+CR+SY">                      i</item>
+    <item id="o5" line="880" tag="B"></item>
+    <item id="o6" line="881" tag="B"></item>
+    <item id="o7" line="882" tag="T">                 `The man whom Peter has seen.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="876" tag="L+LN">omusajja Petero      gwe a-labye.                      Luganda</item>
+    <item id="c2" line="877" tag="B"/>
+    <item id="c3" line="878 879" tag="G+CR+SY">man  i     Peter     RMi 3S-see</item>
+    <item id="c5" line="880" tag="B"/>
+    <item id="c6" line="881" tag="B"/>
+    <item id="c7" line="882" tag="T">The man whom Peter has seen.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i907">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3008" line-range="904-914" line-types="L+CR L+LN+CR B B B B M B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="904" tag="L+CR">          mukanda mú ­ tind - aki</item>
+    <item id="o2" line="905" tag="L+LN+CR">  (21)                                 Poso                     Lingala</item>
+    <item id="o3" line="906" tag="B"></item>
+    <item id="o4" line="907" tag="B"></item>
+    <item id="o5" line="908" tag="B"></item>
+    <item id="o6" line="909" tag="B"></item>
+    <item id="o7" line="910" tag="M">                                              19</item>
+    <item id="o8" line="911" tag="B"></item>
+    <item id="o9" line="912" tag="G+SY">         letteri   AGRi-send-PAST Poso</item>
+    <item id="o10" line="913" tag="B"></item>
+    <item id="o11" line="914" tag="T">         `the letter that Poso sent'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="904 905" tag="L+CR+LN">mukanda mú ­ tind-aki    Poso                     Lingala</item>
+    <item id="c3" line="906" tag="B"/>
+    <item id="c4" line="907" tag="B"/>
+    <item id="c5" line="908" tag="B"/>
+    <item id="c6" line="909" tag="B"/>
+    <item id="c7" line="910" tag="M">19</item>
+    <item id="c8" line="911" tag="B"/>
+    <item id="c9" line="912" tag="G+SY">letteri   AGRi-send-PAST Poso</item>
+    <item id="c10" line="913" tag="B"/>
+    <item id="c11" line="914" tag="T">the letter that Poso sent</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c9[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c11[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i994">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3005" line-range="303-308" line-types="L+CR L+LN+CR B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="303" tag="L+CR">                 mukanda mú ­ tind - aki</item>
+    <item id="o2" line="304" tag="L+LN+CR">  (6)    a.                                    Poso             Lingala</item>
+    <item id="o3" line="305" tag="B"></item>
+    <item id="o4" line="306" tag="G+SY">                 letteri   AGRi-send-PAST Poso</item>
+    <item id="o5" line="307" tag="B"></item>
+    <item id="o6" line="308" tag="T">                 `the letter that Poso sent'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="303 304" tag="L+CR+LN">mukanda mú ­ tind-aki     Poso             Lingala</item>
+    <item id="c3" line="305" tag="B"/>
+    <item id="c4" line="306" tag="G+SY">letteri   AGRi-send-PAST Poso</item>
+    <item id="c5" line="307" tag="B"/>
+    <item id="c6" line="308" tag="T">the letter that Poso sent</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i995">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3005" line-range="312-317" line-types="L+CR L+CR B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="312" tag="L+CR">                 mukanda muye Poso         a ­ tind - aki</item>
+    <item id="o2" line="313" tag="L+CR">         b.</item>
+    <item id="o3" line="314" tag="B"></item>
+    <item id="o4" line="315" tag="G+SY">                 letteri   RMi Poso 3S-send-PAST</item>
+    <item id="o5" line="316" tag="B"></item>
+    <item id="o6" line="317" tag="T">                 `the letter that Poso sent'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="312 313" tag="L+CR">mukanda muye Poso         a ­ tind-aki</item>
+    <item id="c3" line="314" tag="B"/>
+    <item id="c4" line="315" tag="G+SY">letteri   RMi Poso 3S-send-PAST</item>
+    <item id="c5" line="316" tag="B"/>
+    <item id="c6" line="317" tag="T">the letter that Poso sent</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i999">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3005" line-range="563-568" line-types="L+CR L+LN+CR B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="563" tag="L+CR">                 mukanda mú ­ tind - aki</item>
+    <item id="o2" line="564" tag="L+LN+CR">  (10)   a.                                      Poso           Lingala</item>
+    <item id="o3" line="565" tag="B"></item>
+    <item id="o4" line="566" tag="G+SY">                 letteri   AGRi-send-PAST Poso</item>
+    <item id="o5" line="567" tag="B"></item>
+    <item id="o6" line="568" tag="T">                 `the letter that Poso sent'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="563 564" tag="L+CR+LN">mukanda mú ­ tind-aki       Poso           Lingala</item>
+    <item id="c3" line="565" tag="B"/>
+    <item id="c4" line="566" tag="G+SY">letteri   AGRi-send-PAST Poso</item>
+    <item id="c5" line="567" tag="B"/>
+    <item id="c6" line="568" tag="T">the letter that Poso sent</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i1000">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3005" line-range="572-577" line-types="L+CR L+CR B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="572" tag="L+CR">                 mukanda múye Poso           a ­ tind - aki.</item>
+    <item id="o2" line="573" tag="L+CR">         b.</item>
+    <item id="o3" line="574" tag="B"></item>
+    <item id="o4" line="575" tag="G+SY">                 letteri   RMi Poso 3S-send-PAST</item>
+    <item id="o5" line="576" tag="B"></item>
+    <item id="o6" line="577" tag="T">                 `the letter that he sent'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="572 573" tag="L+CR">mukanda múye Poso           a ­ tind-aki.</item>
+    <item id="c3" line="574" tag="B"/>
+    <item id="c4" line="575" tag="G+SY">letteri   RMi Poso 3S-send-PAST</item>
+    <item id="c5" line="576" tag="B"/>
+    <item id="c6" line="577" tag="T">the letter that he sent</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i1003">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3005" line-range="767-772" line-types="L+CR L+LN+CR+SY B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="767" tag="L+CR">                muye</item>
+    <item id="o2" line="768" tag="L+LN+CR+SY">  (13)   pro             Poso a ­ tind ­ aki             Lingala</item>
+    <item id="o3" line="769" tag="B"></item>
+    <item id="o4" line="770" tag="G+SY">         pro AGR.RM Poso 3s-send-PAST</item>
+    <item id="o5" line="771" tag="B"></item>
+    <item id="o6" line="772" tag="T">         `(the one) which Poso sent'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="767 768" tag="L+CR+LN+SY">pro    muye     Poso a ­ tind ­ aki             Lingala</item>
+    <item id="c3" line="769" tag="B"/>
+    <item id="c4" line="770" tag="G+SY">pro AGR.RM Poso 3s-send-PAST</item>
+    <item id="c5" line="771" tag="B"/>
+    <item id="c6" line="772" tag="T">(the one) which Poso sent</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i11484">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2490" line-range="1345-1349" line-types="L+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1345" tag="L+LN">     f. Joe abisi ndako na modobo motani.                         (Lingala)</item>
+    <item id="o2" line="1346" tag="B"></item>
+    <item id="o3" line="1347" tag="G">        Joe he-paint house with paint red</item>
+    <item id="o4" line="1348" tag="B"></item>
+    <item id="o5" line="1349" tag="T">        Joe painted the house with red paint.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1345" tag="L+LN">Joe abisi ndako na modobo motani.                         (Lingala)</item>
+    <item id="c2" line="1346" tag="B"/>
+    <item id="c3" line="1347" tag="G">Joe he-paint house with paint red</item>
+    <item id="c4" line="1348" tag="B"/>
+    <item id="c5" line="1349" tag="T">Joe painted the house with red paint.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i11500">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2490" line-range="1445-1447" line-types="L+LN B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1445" tag="L+LN">  e. linzanza mpo-na mpambo                      (Lingala)</item>
+    <item id="o2" line="1446" tag="B"></item>
+    <item id="o3" line="1447" tag="G">     can     for        worms</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1445" tag="L+LN">linzanza mpo-na mpambo                      (Lingala)</item>
+    <item id="c2" line="1446" tag="B"/>
+    <item id="c3" line="1447" tag="G">can     for        worms</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60455">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3015" line-range="58-63" line-types="L+CR L+LN+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="58" tag="L+CR">                 mukanda mu-ye Poso a-tind-aki</item>
+    <item id="o2" line="59" tag="L+LN+CR">  (1)    a.                                                                   Lingala</item>
+    <item id="o3" line="60" tag="B"></item>
+    <item id="o4" line="61" tag="G">                 letter   REL Poso 3S-send-PAST</item>
+    <item id="o5" line="62" tag="B"></item>
+    <item id="o6" line="63" tag="T">                 "the letter that Poso sent"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="58 59" tag="L+CR+LN">mukanda mu-ye Poso a-tind-aki                                Lingala</item>
+    <item id="c3" line="60" tag="B"/>
+    <item id="c4" line="61" tag="G">letter   REL Poso 3S-send-PAST</item>
+    <item id="c5" line="62" tag="B"/>
+    <item id="c6" line="63" tag="T">the letter that Poso sent</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60456">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3015" line-range="67-72" line-types="L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="67" tag="L+CR">                 mukanda mu-ye</item>
+    <item id="o2" line="68" tag="L+CR">         b.</item>
+    <item id="o3" line="69" tag="B"></item>
+    <item id="o4" line="70" tag="G">                 letter DEM</item>
+    <item id="o5" line="71" tag="B"></item>
+    <item id="o6" line="72" tag="T">                 "this letter"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="67 68" tag="L+CR">mukanda mu-ye</item>
+    <item id="c3" line="69" tag="B"/>
+    <item id="c4" line="70" tag="G">letter DEM</item>
+    <item id="c5" line="71" tag="B"/>
+    <item id="c6" line="72" tag="T">this letter</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60467">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3015" line-range="339-344" line-types="L+CR L+LN+CR B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="339" tag="L+CR">                  mukanda mú ­ tind - aki</item>
+    <item id="o2" line="340" tag="L+LN+CR">          b.                                     Poso                      Lingala</item>
+    <item id="o3" line="341" tag="B"></item>
+    <item id="o4" line="342" tag="G+SY">                  letteri   AGRi-send-PAST Poso</item>
+    <item id="o5" line="343" tag="B"></item>
+    <item id="o6" line="344" tag="T">                  `the letter that Poso sent'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="339 340" tag="L+CR+LN">mukanda mú ­ tind-aki      Poso                      Lingala</item>
+    <item id="c3" line="341" tag="B"/>
+    <item id="c4" line="342" tag="G+SY">letteri   AGRi-send-PAST Poso</item>
+    <item id="c5" line="343" tag="B"/>
+    <item id="c6" line="344" tag="T">the letter that Poso sent</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60477">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3015" line-range="992-997" line-types="L+CR L+LN+CR B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="992" tag="L+CR">                 mukanda mú ­ tind - aki</item>
+    <item id="o2" line="993" tag="L+LN+CR">         b.                                    Poso                   Lingala</item>
+    <item id="o3" line="994" tag="B"></item>
+    <item id="o4" line="995" tag="G+SY">                 letteri   AGRi-send-PAST Poso</item>
+    <item id="o5" line="996" tag="B"></item>
+    <item id="o6" line="997" tag="T">                 `the letter that Poso sent'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="992 993" tag="L+CR+LN">mukanda mú ­ tind-aki     Poso                   Lingala</item>
+    <item id="c3" line="994" tag="B"/>
+    <item id="c4" line="995" tag="G+SY">letteri   AGRi-send-PAST Poso</item>
+    <item id="c5" line="996" tag="B"/>
+    <item id="c6" line="997" tag="T">the letter that Poso sent</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77355">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="109.txt" line-range="390-393" line-types="L+CR L+CR G+CR G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="390" tag="L+CR">                                                                          Póso leló]RC.</item>
+    <item id="o2" line="391" tag="L+CR">         a. mo-paya á-sómb-ákí li-toko                [lí-tóng-ákí</item>
+    <item id="o3" line="392" tag="G+CR">                     1-buy-PAST CM-mat                REL-weave-PAST Poso today</item>
+    <item id="o4" line="393" tag="G+CR">             guest</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="390 391" tag="L+CR">mo-paya á-sómb-ákí li-toko                [lí-tóng-ákíPóso leló]RC.</item>
+    <item id="c3" line="392 393" tag="G+CR">guest   1-buy-PAST CM-mat                REL-weave-PAST Poso today</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77356">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="109.txt" line-range="394-398" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="394" tag="L+CR">                                                                          Póso leló]RC.</item>
+    <item id="o2" line="395" tag="L+CR">         b. mo-paya á-sómb-ákí li-toko [li-ye         li-tóng-ákí</item>
+    <item id="o3" line="396" tag="G+CR">                     1-buy-PAST CM-mat CM-DEM CM-weave-PAST Poso today</item>
+    <item id="o4" line="397" tag="G+CR">             guest</item>
+    <item id="o5" line="398" tag="T">         `The guest bought the mat which Poso weaved today.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="394 395" tag="L+CR">mo-paya á-sómb-ákí li-toko [li-ye         li-tóng-ákí  Póso leló]RC.</item>
+    <item id="c3" line="396 397" tag="G+CR">guest   1-buy-PAST CM-mat CM-DEM CM-weave-PAST Poso today</item>
+    <item id="c5" line="398" tag="T">The guest bought the mat which Poso weaved today.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i108240">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="919" line-range="532-532" line-types="L-T+CN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="532" tag="L-T+CN">      1.   nasálí `I have worked/done/made' [present perfect]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="532" tag="L-T+CN">nasálí `I have worked/done/made' [present perfect]</item>
+  </tier>
+</igt>
+<igt id="i108241">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="919" line-range="535-535" line-types="L-T+CN+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="535" tag="L-T+CN+DB">      2.   a) nalingí `I like/love'; nazalí `I am'; nayébí `I know' ["simple" present]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="535" tag="L-T+CN+DB">a) nalingí `I like/love'; nazalí `I am'; nayébí `I know' ["simple" present]</item>
+  </tier>
+</igt>
+<igt id="i108242">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="919" line-range="536-536" line-types="L-T+CN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="536" tag="L-T+CN">           b) moto nyónso azalí na mabé na yé `everyone has his failings' [generic]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="536" tag="L-T+CN">moto nyónso azalí na mabé na yé `everyone has his failings' [generic]</item>
+  </tier>
+</igt>
+<igt id="i108243">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="919" line-range="541-541" line-types="L-T+CN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="541" tag="L-T+CN">      3.   nazalí kosála `I am working/doing/making (right now)' [durational]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="541" tag="L-T+CN">nazalí kosála `I am working/doing/making (right now)' [durational]</item>
+  </tier>
+</igt>
+<igt id="i108244">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="919" line-range="542-542" line-types="L-T+CN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="542" tag="L-T+CN">      4.   nazalí kobwákela yé milangi `I am throwing bottles at him' [iterative]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="542" tag="L-T+CN">nazalí kobwákela yé milangi `I am throwing bottles at him' [iterative]</item>
+  </tier>
+</igt>
+<igt id="i108245">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="919" line-range="543-543" line-types="L-T+CN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="543" tag="L-T+CN">      5.   nasálaka `I work normally/usually' [habitual]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="543" tag="L-T+CN">nasálaka `I work normally/usually' [habitual]</item>
+  </tier>
+</igt>
+<igt id="i108246">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="919" line-range="544-544" line-types="L-T+CN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="544" tag="L-T+CN">      6.   moto nyónso abúngaka `everyone makes mistakes' [generic]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="544" tag="L-T+CN">moto nyónso abúngaka `everyone makes mistakes' [generic]</item>
+  </tier>
+</igt>
+<igt id="i108247">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lingala" iso-639-3="lin" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="919" line-range="545-546" line-types="L-T+DB C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="545" tag="L-T+DB">      7.   nalingaka musique na yé mingi `I like his music' [e.g., every time I go to his show; cp. nalingí musique na</item>
+    <item id="o2" line="546" tag="C">           yé mingi `I like his music', i.e., generally]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="545" tag="L-T+DB">nalingaka musique na yé mingi `I like his music' [e.g., every time I go to his show; cp. nalingí musique na</item>
+    <item id="c2" line="546" tag="C">yé mingi `I like his music', i.e., generally]</item>
+  </tier>
+</igt>
+</xigt-corpus>

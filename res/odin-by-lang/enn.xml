@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i32223">
+  <metadata type="xigt-meta">
+    <meta type="language" name="engenni" iso-639-3="enn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2024" line-range="1388-1391" line-types="L G+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1388" tag="L">  (i)       a. ò     wei       ga ...     bhú     tou       eì        ka        òkì nàà ìwó wu             zà</item>
+    <item id="o2" line="1389" tag="G+AL">                                         2-sub              3(-ref)-obj         3-ref-sub 2-obj</item>
+    <item id="o3" line="1390" tag="G">               he    say       [sp       you should-take him          seq       he and you should-die       stay]</item>
+    <item id="o4" line="1391" tag="T">            `He said, "Look after me, and I will die with you"' or</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1388" tag="L">ò     wei       ga ...     bhú     tou       eì        ka        òkì nàà ìwó wu             zà</item>
+    <item id="c2" line="1389" tag="G+AL">2-sub              3(-ref)-obj         3-ref-sub 2-obj</item>
+    <item id="c3" line="1390" tag="G">he    say       [sp       you should-take him          seq       he and you should-die       stay]</item>
+    <item id="c4" line="1391" tag="T">He said, "Look after me, and I will die with you"' or</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:94]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+    <item id="g1" content="c3[0:98]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73263">
+  <metadata type="xigt-meta">
+    <meta type="language" name="engenni" iso-639-3="enn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="432-435" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="432" tag="L+CR">  (31) ani wòª</item>
+    <item id="o2" line="433" tag="L+CR">           ª                   âka nà</item>
+    <item id="o3" line="434" tag="G">          wife 2SG.POSS that the</item>
+    <item id="o4" line="435" tag="T">          `that wife of yours'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="432" tag="L+CR">ani wòª</item>
+    <item id="c3" line="434" tag="G">wife 2SG.POSS that the</item>
+    <item id="c4" line="435" tag="T">that wife of yours</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i132890">
+  <metadata type="xigt-meta">
+    <meta type="language" name="engenni" iso-639-3="enn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="202.txt" line-range="38-43" line-types="L G G T T+AL M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="38" tag="L">         b. ò     wei       ga ... bhú tou       eì      ka       òkì nàà ìwó wu        zà</item>
+    <item id="o2" line="39" tag="G">                                  2-sub          3(-ref)-obj      3-ref-sub 2-obj</item>
+    <item id="o3" line="40" tag="G">           he     say     [sp     you should-take him seq         he and you should-die stay]</item>
+    <item id="o4" line="41" tag="T">           `He said, "Look after me, and I will die with you"' or</item>
+    <item id="o5" line="42" tag="T+AL">           `He said that she should look after him, and he would die with her'</item>
+    <item id="o6" line="43" tag="M+AC">                                                                  [Engenni, Kwa; Thomas 1978]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="38" tag="L">ò     wei       ga ... bhú tou       eì      ka       òkì nàà ìwó wu        zà</item>
+    <item id="c2" line="39" tag="G">2-sub          3(-ref)-obj      3-ref-sub 2-obj</item>
+    <item id="c3" line="40" tag="G">he     say     [sp     you should-take him seq         he and you should-die stay]</item>
+    <item id="c4" line="41" tag="T">He said, "Look after me, and I will die with you"' or</item>
+    <item id="c5" line="42" tag="T+AL">He said that she should look after him, and he would die with her</item>
+    <item id="c6" line="43" tag="M+AC">[Engenni, Kwa; Thomas 1978]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+    <item id="g1" content="c3[0:82]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:53]" alignment="p1"/>
+    <item id="t1" content="c5[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i156044">
+  <metadata type="xigt-meta">
+    <meta type="language" name="engenni" iso-639-3="enn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3294" line-range="2000-2007" line-types="L+CR L+CR L+CR M+SY G T T+AC+AL C+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2000" tag="L+CR">                `                 ´              e`          ka ok` naa ` owu</item>
+    <item id="o2" line="2001" tag="L+CR">                                                                 ` i ` ` iw ´           `</item>
+    <item id="o3" line="2002" tag="L+CR">       (i)a.    o wei ga ... bhu tou              i                                    za</item>
+    <item id="o4" line="2003" tag="M+SY">                               2-sub             3(-ref)-obj     3-ref-sub 2-obj</item>
+    <item id="o5" line="2004" tag="G">                he say [sp you should-take him               seq he and you should die stay]</item>
+    <item id="o6" line="2005" tag="T">                `He said, "Look after me, and I will die with you" ' or</item>
+    <item id="o7" line="2006" tag="T+AC+AL">                `He said that she should look after him, and he would die with her' [Engenni,</item>
+    <item id="o8" line="2007" tag="C+AC">                Kwa; Thomas 1978]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2000" tag="L+CR">´              e`          ka ok` naa ` owu</item>
+    <item id="c4" line="2003" tag="M+SY">2-sub             3(-ref)-obj     3-ref-sub 2-obj</item>
+    <item id="c5" line="2004" tag="G">he say [sp you should-take him               seq he and you should die stay]</item>
+    <item id="c6" line="2005" tag="T">He said, "Look after me, and I will die with you" ' or</item>
+    <item id="c7" line="2006" tag="T+AC+AL">He said that she should look after him, and he would die with her' [Engenni,</item>
+    <item id="c8" line="2007" tag="C+AC">Kwa; Thomas 1978]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:54]" alignment="p1"/>
+    <item id="t1" content="c7[0:76]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

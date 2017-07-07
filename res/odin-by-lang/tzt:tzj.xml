@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i2511">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzutujil" iso-639-3="tzt:tzj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="567" line-range="824-826" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="824" tag="L">  (4)          x-ø-kee-tij         tzyaq      ch'ooyaa7</item>
+    <item id="o2" line="825" tag="G">               ASP-3s-3p-ate clothes          rats</item>
+    <item id="o3" line="826" tag="T">               'Rats ate the clothes.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="824" tag="L">x-ø-kee-tij         tzyaq      ch'ooyaa7</item>
+    <item id="c2" line="825" tag="G">ASP-3s-3p-ate clothes          rats</item>
+    <item id="c3" line="826" tag="T">Rats ate the clothes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

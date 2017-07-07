@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i22410">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tokelauan" iso-639-3="tkl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3239" line-range="1123-1125" line-types="T+LN L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1123" tag="T+LN">   (32)    a. Tokelauan: `I freeze'</item>
+    <item id="o2" line="1124" tag="L">              ko au e      makalili</item>
+    <item id="o3" line="1125" tag="G">              TPC I PR(S feel.cold</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1123" tag="T+LN">`I freeze</item>
+    <item id="c2" line="1124" tag="L">ko au e      makalili</item>
+    <item id="c3" line="1125" tag="G">TPC I PR(S feel.cold</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c1[0:9]"/>
+  </tier>
+</igt>
+<igt id="i58652">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tokelauan" iso-639-3="tkl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3183" line-range="223-225" line-types="L G+CR T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="223" tag="L">                     Na alo&lt;lo&gt;fa           te kaiga kia te au.</item>
+    <item id="o2" line="224" tag="G+CR">                     P S T love&lt; R E D U P&gt; D E T family to D E T 1 S G</item>
+    <item id="o3" line="225" tag="T+AC+LN">                     `The family loved me.'                                         Tokelauan: Hovdhaugen et al. 1989, 87</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="223" tag="L">Na alo&lt;lo&gt;fa           te kaiga kia te au.</item>
+    <item id="c2" line="224" tag="G+CR">P S T love&lt; R E D U P&gt; D E T family to D E T 1 S G</item>
+    <item id="c3" line="225" tag="T+AC+LN">The family loved me.'                                         Tokelauan: Hovdhaugen et al. 1989, 87</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:99]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58653">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tokelauan" iso-639-3="tkl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3183" line-range="227-229" line-types="L G T+AC+LN+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="227" tag="L">                     Na alofa-gia au e          te kaiga.</item>
+    <item id="o2" line="228" tag="G">                     P S T love-T R 1 S G E R G D E T family</item>
+    <item id="o3" line="229" tag="T+AC+LN+EX">                     `The family cared for me.'                                     Tokelauan: Hovdhaugen et al. 1989, 87</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="227" tag="L">Na alofa-gia au e          te kaiga.</item>
+    <item id="c2" line="228" tag="G">P S T love-T R 1 S G E R G D E T family</item>
+    <item id="c3" line="229" tag="T+AC+LN+EX">The family cared for me.'                                     Tokelauan: Hovdhaugen et al. 1989, 87</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:99]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58663">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tokelauan" iso-639-3="tkl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3183" line-range="350-352" line-types="L G+CR T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="350" tag="L">  (14)          a.     Na ko hapoa te polo.</item>
+    <item id="o2" line="351" tag="G+CR">                       P S T 1 S G catch-T R D E T ball</item>
+    <item id="o3" line="352" tag="T+AC+LN">                       `I caught the ball.'                                             Tokelauan: Hovdhaugen et al. 1989, 88</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="350" tag="L">Na ko hapoa te polo.</item>
+    <item id="c2" line="351" tag="G+CR">P S T 1 S G catch-T R D E T ball</item>
+    <item id="c3" line="352" tag="T+AC+LN">I caught the ball.'                                             Tokelauan: Hovdhaugen et al. 1989, 88</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:101]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58664">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tokelauan" iso-639-3="tkl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3183" line-range="353-355" line-types="L G+CR T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="353" tag="L">                b.     Na hapo e         au te polo.</item>
+    <item id="o2" line="354" tag="G+CR">                       P S T catch E R G 1 S G D E T ball</item>
+    <item id="o3" line="355" tag="T+AC+LN">                       `I caught the ball.'                                             Tokelauan: Hovdhaugen et al. 1989, 88</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="353" tag="L">Na hapo e         au te polo.</item>
+    <item id="c2" line="354" tag="G+CR">P S T catch E R G 1 S G D E T ball</item>
+    <item id="c3" line="355" tag="T+AC+LN">I caught the ball.'                                             Tokelauan: Hovdhaugen et al. 1989, 88</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:101]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58686">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tokelauan" iso-639-3="tkl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3183" line-range="945-947" line-types="L G+CR T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="945" tag="L">  (29)        a.     Na hapo e         au te polo.</item>
+    <item id="o2" line="946" tag="G+CR">                     P S T catch E R G 1 S G D E T ball</item>
+    <item id="o3" line="947" tag="T+AC+LN">                     `I caught the ball.'                                                              Tokelauan: repeats (14b)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="945" tag="L">Na hapo e         au te polo.</item>
+    <item id="c2" line="946" tag="G+CR">P S T catch E R G 1 S G D E T ball</item>
+    <item id="c3" line="947" tag="T+AC+LN">I caught the ball.'                                                              Tokelauan: repeats (14b)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:105]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58687">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tokelauan" iso-639-3="tkl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3183" line-range="948-950" line-types="L G+CR T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="948" tag="L">              b.     Na ko hapoa te polo.</item>
+    <item id="o2" line="949" tag="G+CR">                     P S T 1 S G catch-T R D E T ball</item>
+    <item id="o3" line="950" tag="T+AC+LN">                     `I caught the ball.'                                                              Tokelauan: repeats (14a)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="948" tag="L">Na ko hapoa te polo.</item>
+    <item id="c2" line="949" tag="G+CR">P S T 1 S G catch-T R D E T ball</item>
+    <item id="c3" line="950" tag="T+AC+LN">I caught the ball.'                                                              Tokelauan: repeats (14a)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:105]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58689">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tokelauan" iso-639-3="tkl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3183" line-range="1063-1067" line-types="L+CR L+CR G+CR G+CR T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1063" tag="L+CR">  (32)        a.     Na kitea e          te teine [i         a       kita].</item>
+    <item id="o2" line="1064" tag="L+CR">                                                                        ¯</item>
+    <item id="o3" line="1065" tag="G+CR">                     P S T see-T R E R G D E T girl A                1DU</item>
+    <item id="o4" line="1066" tag="G+CR">                                                         CC PERS</item>
+    <item id="o5" line="1067" tag="T+AC+LN">                     `The girl saw us.'                                                           Tokelauan: Chung 1978, 295</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1063" tag="L+CR">Na kitea e          te teine [i         a       kita].</item>
+    <item id="c3" line="1065 1066" tag="G+CR">P S T see-T R E R G D E T girl A    CC PERS     1DU</item>
+    <item id="c5" line="1067" tag="T+AC+LN">The girl saw us.'                                                           Tokelauan: Chung 1978, 295</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:102]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58690">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tokelauan" iso-639-3="tkl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3183" line-range="1081-1085" line-types="L+CR L+CR G+CR G+CR T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1081" tag="L+CR">               b.    Na fano i te vaka [i                a      kita].</item>
+    <item id="o2" line="1082" tag="L+CR">                                                                   ¯</item>
+    <item id="o3" line="1083" tag="G+CR">                     P S T go in D E T canoe A                  1DU</item>
+    <item id="o4" line="1084" tag="G+CR">                                                     CC PERS</item>
+    <item id="o5" line="1085" tag="T+AC+LN">                     `We went in the canoe.'                                                       Tokelauan: Chung 1978, 295</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1081" tag="L+CR">Na fano i te vaka [i                a      kita].</item>
+    <item id="c3" line="1083 1084" tag="G+CR">P S T go in D E T canoe A       CC PERS    1DU</item>
+    <item id="c5" line="1085" tag="T+AC+LN">We went in the canoe.'                                                       Tokelauan: Chung 1978, 295</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:103]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59622">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tokelauan" iso-639-3="tkl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3043" line-range="88-90" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="88" tag="L">         (1) te       âoga     a    te   faifeau</item>
+    <item id="o2" line="89" tag="G+CR">               de t   school   of   det pastor</item>
+    <item id="o3" line="90" tag="T">               `the pastor's school'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="88" tag="L">te       âoga     a    te   faifeau</item>
+    <item id="c2" line="89" tag="G+CR">de t   school   of   det pastor</item>
+    <item id="c3" line="90" tag="T">the pastor's school</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59623">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tokelauan" iso-639-3="tkl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3043" line-range="99-102" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="99" tag="L">         (2) te      pogai o         te     mea tênâ</item>
+    <item id="o2" line="100" tag="G+CR">              det cause              det            dem</item>
+    <item id="o3" line="101" tag="G+CR">                              of            thing</item>
+    <item id="o4" line="102" tag="T">              `the cause of that thing'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="99" tag="L">te      pogai o         te     mea tênâ</item>
+    <item id="c2" line="100 101" tag="G+CR">det cause       of     det    thing   dem</item>
+    <item id="c4" line="102" tag="T">the cause of that thing</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59624">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tokelauan" iso-639-3="tkl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3043" line-range="108-110" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="108" tag="L">         (3) toku            taimi</item>
+    <item id="o2" line="109" tag="G">              1sg:poss       time</item>
+    <item id="o3" line="110" tag="T+AC">              `my time' (Hooper, 299)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="108" tag="L">toku            taimi</item>
+    <item id="c2" line="109" tag="G">1sg:poss       time</item>
+    <item id="c3" line="110" tag="T+AC">my time' (Hooper, 299)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i9214">
+  <metadata type="xigt-meta">
+    <meta type="language" name="miya" iso-639-3="mkf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1809" line-range="358-360" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="358" tag="L+EX">  (12) a.       à már suw zhàak-áy                              (neutral)</item>
+    <item id="o2" line="359" tag="G">                he got TOT donkey-TOT</item>
+    <item id="o3" line="360" tag="T">                `He got a donkey.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="358" tag="L+EX">a.       à már suw zhàak-áy                              (neutral</item>
+    <item id="c2" line="359" tag="G">he got TOT donkey-TOT</item>
+    <item id="c3" line="360" tag="T">He got a donkey.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9215">
+  <metadata type="xigt-meta">
+    <meta type="language" name="miya" iso-639-3="mkf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1809" line-range="362-365" line-types="L+CR L+CR+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="362" tag="L+CR">                à már zhàak\</item>
+    <item id="o2" line="363" tag="L+CR+EX">         b.                                                     (OBJ-focus)</item>
+    <item id="o3" line="364" tag="G">                he got donkey</item>
+    <item id="o4" line="365" tag="T">                `He got a DONKEY.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="362 363" tag="L+CR+EX">à már zhàak\                                 (OBJ-focus)</item>
+    <item id="c3" line="364" tag="G">he got donkey</item>
+    <item id="c4" line="365" tag="T">He got a DONKEY.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58549">
+  <metadata type="xigt-meta">
+    <meta type="language" name="miya" iso-639-3="mkf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3186" line-range="390-393" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="390" tag="L+CR">   (18)   z` ariy</item>
+    <item id="o2" line="391" tag="L+CR">           ar/z`</item>
+    <item id="o3" line="392" tag="G">          call-imp.2s/call-imp.2p</item>
+    <item id="o4" line="393" tag="T">          `(You-s/p) call!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="390" tag="L+CR">z` ariy</item>
+    <item id="c3" line="392" tag="G">call-imp.2s/call-imp.2p</item>
+    <item id="c4" line="393" tag="T">(You-s/p) call!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73331">
+  <metadata type="xigt-meta">
+    <meta type="language" name="miya" iso-639-3="mkf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="993-996" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="993" tag="L+CR">                               mnà</item>
+    <item id="o2" line="994" tag="L+CR">  (76) a. sba    oe</item>
+    <item id="o3" line="995" tag="G">              person.PLUR how.many</item>
+    <item id="o4" line="996" tag="T">              `how many people'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="993 994" tag="L+CR">sba    oe            mnà</item>
+    <item id="c3" line="995" tag="G">person.PLUR how.many</item>
+    <item id="c4" line="996" tag="T">how many people</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73332">
+  <metadata type="xigt-meta">
+    <meta type="language" name="miya" iso-639-3="mkf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="997-999" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="997" tag="L">          b. shùw mnà</item>
+    <item id="o2" line="998" tag="G">              oil how.much</item>
+    <item id="o3" line="999" tag="T">              `how much oil'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="997" tag="L">shùw mnà</item>
+    <item id="c2" line="998" tag="G">oil how.much</item>
+    <item id="c3" line="999" tag="T">how much oil</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73418">
+  <metadata type="xigt-meta">
+    <meta type="language" name="miya" iso-639-3="mkf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="1772-1774" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1772" tag="L">  (157) a. má                     ráiaza</item>
+    <item id="o2" line="1773" tag="G">               REL.FEM.SG wet</item>
+    <item id="o3" line="1774" tag="T">               `the one [feminine, singular] that is wet'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1772" tag="L">má                     ráiaza</item>
+    <item id="c2" line="1773" tag="G">REL.FEM.SG wet</item>
+    <item id="c3" line="1774" tag="T">the one [feminine, singular] that is wet</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73419">
+  <metadata type="xigt-meta">
+    <meta type="language" name="miya" iso-639-3="mkf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="1775-1777" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1775" tag="L">           b. kàba [má                    ráiaza]</item>
+    <item id="o2" line="1776" tag="G">               gown [REL.FEM.SG wet]</item>
+    <item id="o3" line="1777" tag="T">               `the gown that is wet'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1775" tag="L">kàba [má                    ráiaza]</item>
+    <item id="c2" line="1776" tag="G">gown [REL.FEM.SG wet]</item>
+    <item id="c3" line="1777" tag="T">the gown that is wet</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

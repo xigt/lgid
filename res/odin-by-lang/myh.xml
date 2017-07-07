@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i7667">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3196" line-range="1115-1120" line-types="M+LN B L L+AL G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1115" tag="M+LN">  (24)     Makah:</item>
+    <item id="o2" line="1116" tag="B"></item>
+    <item id="o3" line="1117" tag="L">           daacs/azsiicuX</item>
+    <item id="o4" line="1118" tag="L+AL">           daacsa -/az -siicuX</item>
+    <item id="o5" line="1119" tag="G">           see     -TEMP -1S/2S.IND</item>
+    <item id="o6" line="1120" tag="T+AC">           `I [Subj] see you [Obj].'                                               (Davidson 2002:101)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1115" tag="M+LN">Makah:</item>
+    <item id="c2" line="1116" tag="B"/>
+    <item id="c3" line="1117" tag="L">daacs/azsiicuX</item>
+    <item id="c4" line="1118" tag="L+AL">daacsa-/az-siicuX</item>
+    <item id="c5" line="1119" tag="G">see-TEMP-1S/2S.IND</item>
+    <item id="c6" line="1120" tag="T+AC">I [Subj] see you [Obj].'                                               (Davidson 2002:101)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:14]"/>
+    <item id="p1" content="c4[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:18]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:90]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i7674">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3196" line-range="1280-1283" line-types="L L+AL G T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1280" tag="L">  (29)   NaatsiicizitsiS maHTiimit/i</item>
+    <item id="o2" line="1281" tag="L+AL">         Naatsii-Siz -mit -siS    maHTii-mit-/i</item>
+    <item id="o3" line="1282" tag="G">         see -PERF-PST-1S.IND house -PST-DET</item>
+    <item id="o4" line="1283" tag="T+DB">         `I saw a former house (that burnt to the ground).'/'I saw what used to be a house.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1280" tag="L">NaatsiicizitsiS maHTiimit/i</item>
+    <item id="c2" line="1281" tag="L+AL">Naatsii-Siz-mit-siS    maHTii-mit-/i</item>
+    <item id="c3" line="1282" tag="G">see-PERF-PST-1S.IND house-PST-DET</item>
+    <item id="c4" line="1283" tag="T+DB">I saw a former house (that burnt to the ground).'/'I saw what used to be a house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+    <item id="p1" content="c2[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:81]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i7675">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3196" line-range="1285-1288" line-types="L L+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1285" tag="L">  (29)   /u/utulitsiS naniiqsakitqs</item>
+    <item id="o2" line="1286" tag="L+AL">         /u -/u -tul   -mit -siS    naniiqsu -/ak -mit-qs</item>
+    <item id="o3" line="1287" tag="G">         R -0 -dream -PST -1S.IND grandparent-POSS-PST-1S</item>
+    <item id="o4" line="1288" tag="T">         `I dreamed about my late grandparent.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1285" tag="L">/u/utulitsiS naniiqsakitqs</item>
+    <item id="c2" line="1286" tag="L+AL">/u-/u-tul-mit-siS    naniiqsu-/ak-mit-qs</item>
+    <item id="c3" line="1287" tag="G">R-0-dream-PST-1S.IND grandparent-POSS-PST-1S</item>
+    <item id="c4" line="1288" tag="T">I dreamed about my late grandparent.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+    <item id="p1" content="c2[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:44]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i7676">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3196" line-range="1294-1300" line-types="L+DB+CR L+DB+CR L+DB+CR L+DB+AL G+DB T+DB M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1294" tag="L+DB+CR">                                         b.</item>
+    <item id="o2" line="1295" tag="L+DB+CR">  (30)     a.                                    /ujknaH/is/i kuukuHWisa</item>
+    <item id="o3" line="1296" tag="L+DB+CR">                 kuukuHWisa/i</item>
+    <item id="o4" line="1297" tag="L+DB+AL">                 kuukuHWisa-/i                   /unaH-&lt;jk&gt;-/is -/i kuukuHWisa</item>
+    <item id="o5" line="1298" tag="G+DB">                 hair.seal -DET                  size -DIM -DIM-DET hair.seal</item>
+    <item id="o6" line="1299" tag="T+DB">                 `the hair seal'                 `the small hair seal'</item>
+    <item id="o7" line="1300" tag="M+AC">                                                                       (Nakayama 2001:78)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1294 1295 1296" tag="L+DB+CR">kuukuHWisa/i            b.      /ujknaH/is/i kuukuHWisa</item>
+    <item id="c4" line="1297" tag="L+DB+AL">kuukuHWisa-/i                   /unaH-&lt;jk&gt;-/is-/i kuukuHWisa</item>
+    <item id="c5" line="1298" tag="G+DB">hair.seal-DET                  size-DIM-DIM-DET hair.seal</item>
+    <item id="c6" line="1299" tag="T+DB">the hair seal'                 `the small hair seal</item>
+    <item id="c7" line="1300" tag="M+AC">Nakayama 2001:78</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+    <item id="p1" content="c4[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:57]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:51]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i7677">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3196" line-range="1302-1307" line-types="L+CR L+CR L+AL G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1302" tag="L+CR">  (31)     a.                            b.</item>
+    <item id="o2" line="1303" tag="L+CR">                 Haakvaaz/i                      zulaqak/i Haakvaaz</item>
+    <item id="o3" line="1304" tag="L+AL">                 Haakvaaz-/i                     zul -aq -ak -/i Haakvaaz</item>
+    <item id="o4" line="1305" tag="G">                 girl       -DET                 good-very-DUR-DET girl</item>
+    <item id="o5" line="1306" tag="T">                 `the girl'                      `the very beautiful girl'</item>
+    <item id="o6" line="1307" tag="M+AC">                                                                         (Nakayama 2001:78)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1302 1303" tag="L+CR">Haakvaaz/i              b.      zulaqak/i Haakvaaz</item>
+    <item id="c3" line="1304" tag="L+AL">Haakvaaz-/i                     zul-aq-ak-/i Haakvaaz</item>
+    <item id="c4" line="1305" tag="G">girl-DET                 good-very-DUR-DET girl</item>
+    <item id="c5" line="1306" tag="T">the girl'                      `the very beautiful girl</item>
+    <item id="c6" line="1307" tag="M+AC">Nakayama 2001:78</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+    <item id="p1" content="c3[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:47]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:55]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i7678">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3196" line-range="1341-1345" line-types="L+DB L+DB+AL G+DB M+DB T+AC+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1341" tag="L+DB">                           DP              /ujknaH/is/i kuukuHWisa</item>
+    <item id="o2" line="1342" tag="L+DB+AL">                  D'ei                     /unaH-&lt;jk&gt;-/is-/i kuukuHWisa</item>
+    <item id="o3" line="1343" tag="G+DB">                                           size-DIM-DIM-DET hair.seal</item>
+    <item id="o4" line="1344" tag="M+DB">                ei</item>
+    <item id="o5" line="1345" tag="T+AC+DB">             Det           nP              `the small hair seal'    Nakayama (2001:78)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1341" tag="L+DB">DP              /ujknaH/is/i kuukuHWisa</item>
+    <item id="c2" line="1342" tag="L+DB+AL">D'ei                     /unaH-&lt;jk&gt;-/is-/i kuukuHWisa</item>
+    <item id="c3" line="1343" tag="G+DB">size-DIM-DIM-DET hair.seal</item>
+    <item id="c4" line="1344" tag="M+DB">ei</item>
+    <item id="c5" line="1345" tag="T+AC+DB">Det           nP              `the small hair seal'    Nakayama (2001:78)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+    <item id="p1" content="c2[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:73]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i7695">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3196" line-range="1544-1548" line-types="L L+AL G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1544" tag="L">  (47)       qaaciimitsiS suWa TuHCiti</item>
+    <item id="o2" line="1545" tag="L+AL">             qaacii -mit -siS    suWa TuHCiti</item>
+    <item id="o3" line="1546" tag="G">             give -PST -1S.IND 2S          head(s)</item>
+    <item id="o4" line="1547" tag="M">                     21</item>
+    <item id="o5" line="1548" tag="T">             `I gave (to).you (fish) heads.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1544" tag="L">qaaciimitsiS suWa TuHCiti</item>
+    <item id="c2" line="1545" tag="L+AL">qaacii-mit-siS    suWa TuHCiti</item>
+    <item id="c3" line="1546" tag="G">give-PST-1S.IND 2S          head(s)</item>
+    <item id="c4" line="1547" tag="M">21</item>
+    <item id="c5" line="1548" tag="T">I gave (to).you (fish) heads.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+    <item id="p1" content="c2[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i29597">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2778" line-range="247-248" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="247" tag="L">         (7) a.     Da:s?its           t'iq'was-iq</item>
+    <item id="o2" line="248" tag="G">                    see.pass.indic.1sg sit.on.ground-det</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="247" tag="L">Da:s?its           t'iq'was-iq</item>
+    <item id="c2" line="248" tag="G">see.pass.indic.1sg sit.on.ground-det</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29598">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2778" line-range="253-256" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="253" tag="L+CR">                                   t'iq'was</item>
+    <item id="o2" line="254" tag="L+CR">          b. * Da:s?its</item>
+    <item id="o3" line="255" tag="G">               see.pass.indic.1sg sit.on.ground</item>
+    <item id="o4" line="256" tag="T">               `The one sitting on the ground sees me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="253 254" tag="L+CR">* Da:s?its            t'iq'was</item>
+    <item id="c3" line="255" tag="G">see.pass.indic.1sg sit.on.ground</item>
+    <item id="c4" line="256" tag="T">The one sitting on the ground sees me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65032">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="53-53" line-types="L-T+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="53" tag="L-T+LN">  (1) a. wiki-caxa- w              'it's bad weather (directly exp.)'                         Makah</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="53" tag="L-T+LN">wiki-caxa-w              'it's bad weather (directly exp.)'                         Makah</item>
+  </tier>
+</igt>
+<igt id="i65033">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="55-55" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="55" tag="L-T">     b. wiki-caxa- k'u             'it was bad weather'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="55" tag="L-T">wiki-caxa-k'u             'it was bad weather</item>
+  </tier>
+</igt>
+<igt id="i65034">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="57-57" line-types="L-T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="57" tag="L-T+EX">     c. wiki-caxa-k- pid           'It looks like bad weather (inference from phys. evid)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="57" tag="L-T+EX">wiki-caxa-k-pid           'It looks like bad weather (inference from phys. evid)</item>
+  </tier>
+</igt>
+<igt id="i65035">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="59-59" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="59" tag="L-T">     d. wiki-caxa-k- qad'i         'It sounds like bad weather'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="59" tag="L-T">wiki-caxa-k-qad'i         'It sounds like bad weather</item>
+  </tier>
+</igt>
+<igt id="i65036">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="61-61" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="61" tag="L-T">     e. wiki-caxa-k- wa.d          'I'm told there's bad weather'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="61" tag="L-T">wiki-caxa-k-wa.d          'I'm told there's bad weather</item>
+  </tier>
+</igt>
+<igt id="i65037">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="63-63" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="63" tag="L-T">     f. wiki-caxa-k-it- wad        'I'm told it was bad weather'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="63" tag="L-T">wiki-caxa-k-it-wad        'I'm told it was bad weather</item>
+  </tier>
+</igt>
+<igt id="i68978">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="82-82" line-types="L-T+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="82" tag="L-T+LN">  (1) a. wiki-caxa-w               'It's bad weather (directly exp.)'           Makah</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="82" tag="L-T+LN">wiki-caxa-w               'It's bad weather (directly exp.)'           Makah</item>
+  </tier>
+</igt>
+<igt id="i68979">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="84-84" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="84" tag="L-T">     b. wiki-caxa-k'u              'It was bad weather'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="84" tag="L-T">wiki-caxa-k'u              'It was bad weather</item>
+  </tier>
+</igt>
+<igt id="i68980">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="86-88" line-types="L-T B C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="86" tag="L-T">     c. wiki-caxa-k-pid      'It looks like bad weather (inference from</item>
+    <item id="o2" line="87" tag="B"></item>
+    <item id="o3" line="88" tag="C">                                              physical evidence)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="86" tag="L-T">wiki-caxa-k-pid      'It looks like bad weather (inference from</item>
+    <item id="c2" line="87" tag="B"/>
+    <item id="c3" line="88" tag="C">physical evidence)</item>
+  </tier>
+</igt>
+<igt id="i68981">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="90-90" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="90" tag="L-T">     d. wiki-caxa-k-qad'i    'It sounds like bad weather'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="90" tag="L-T">wiki-caxa-k-qad'i    'It sounds like bad weather</item>
+  </tier>
+</igt>
+<igt id="i68982">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="92-92" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="92" tag="L-T">     e. wiki-caxa-k-wa.d     'I'm told there's bad weather'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="92" tag="L-T">wiki-caxa-k-wa.d     'I'm told there's bad weather</item>
+  </tier>
+</igt>
+<igt id="i68983">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="94-94" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="94" tag="L-T">     f. wiki-caxa-k-it-wad   'I'm told it was bad weather'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="94" tag="L-T">wiki-caxa-k-it-wad   'I'm told it was bad weather</item>
+  </tier>
+</igt>
+<igt id="i130911">
+  <metadata type="xigt-meta">
+    <meta type="language" name="makah" iso-639-3="myh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="74" line-range="103-104" line-types="L T+LN+CN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="103" tag="L">       (8)     wiki-caxa-k-wa.d</item>
+    <item id="o2" line="104" tag="T+LN+CN">             ` I'm told there's bad weather' (Makah evidential)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="103" tag="L">wiki-caxa-k-wa.d</item>
+    <item id="c2" line="104" tag="T+LN+CN">I'm told there's bad weather' (Makah evidential)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i47650">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ika" iso-639-3="arh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3417" line-range="476-478" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="476" tag="L">  (23) a. n÷n Juan guasi ingumn n-nz¥n-ni</item>
+    <item id="o2" line="477" tag="G">               1SG Juan than more                 1SG-old-EVID</item>
+    <item id="o3" line="478" tag="T+AC">               `I am older than Juan.' (Frank 1990)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="476" tag="L">n÷n Juan guasi ingumn n-nz¥n-ni</item>
+    <item id="c2" line="477" tag="G">1SG Juan than more                 1SG-old-EVID</item>
+    <item id="c3" line="478" tag="T+AC">I am older than Juan.' (Frank 1990)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47651">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ika" iso-639-3="arh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3417" line-range="479-482" line-types="L G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="479" tag="L">           b. [a÷ktti awn÷ kawa nuk-z]-ek¥     TM             itsor-e÷-ri</item>
+    <item id="o2" line="480" tag="G+CR">                                                                 TM</item>
+    <item id="o3" line="481" tag="G+CR">                cave big         seem COP-MEDIAL-LOC go.up-then-TOPIC</item>
+    <item id="o4" line="482" tag="T+AC">               `He went up to where there is a big cave.' (Frank 1990: 40)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="479" tag="L">[a÷ktti awn÷ kawa nuk-z]-ek¥     TM             itsor-e÷-ri</item>
+    <item id="c2" line="480" tag="G+CR">TM</item>
+    <item id="c4" line="482" tag="T+AC">He went up to where there is a big cave.' (Frank 1990: 40)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:2]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49285">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ika" iso-639-3="arh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3423" line-range="547-549" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="547" tag="L">  (27)   a.      win-naka              u-zh-e</item>
+    <item id="o2" line="548" tag="G">                 3PL:SUBJ-come         AUX-MED-       Q</item>
+    <item id="o3" line="549" tag="T">                 `Did they come?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="547" tag="L">win-naka              u-zh-e</item>
+    <item id="c2" line="548" tag="G">3PL:SUBJ-come         AUX-MED-Q</item>
+    <item id="c3" line="549" tag="T">Did they come?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49286">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ika" iso-639-3="arh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3423" line-range="550-552" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="550" tag="L">         b.      win-naka              u-zh-in</item>
+    <item id="o2" line="551" tag="G">                 3PL:SUBJ-come         AUX-MED-       VIS</item>
+    <item id="o3" line="552" tag="T">                 `They came (and I saw it).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="550" tag="L">win-naka              u-zh-in</item>
+    <item id="c2" line="551" tag="G">3PL:SUBJ-come         AUX-MED-VIS</item>
+    <item id="c3" line="552" tag="T">They came (and I saw it).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49287">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ika" iso-639-3="arh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3423" line-range="553-555" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="553" tag="L">         c.      win-naka              u-na               ni</item>
+    <item id="o2" line="554" tag="G">                 3PL:SUBJ-come         AUX-DIST           CERT</item>
+    <item id="o3" line="555" tag="T">                 `They came (but I didn't see it).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="553" tag="L">win-naka              u-na               ni</item>
+    <item id="c2" line="554" tag="G">3PL:SUBJ-come         AUX-DIST           CERT</item>
+    <item id="c3" line="555" tag="T">They came (but I didn't see it).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63191">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ika" iso-639-3="arh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2559" line-range="721-724" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="721" tag="M+LN">              Ika (Chibchan):</item>
+    <item id="o2" line="722" tag="L">              b.     zoza u        -na.</item>
+    <item id="o3" line="723" tag="G">                     go     do     -DIST</item>
+    <item id="o4" line="724" tag="T">                     `They went..'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="721" tag="M+LN">Ika (Chibchan):</item>
+    <item id="c2" line="722" tag="L">zoza u-na.</item>
+    <item id="c3" line="723" tag="G">go     do-DIST</item>
+    <item id="c4" line="724" tag="T">They went..</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63192">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ika" iso-639-3="arh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2559" line-range="726-730" line-types="L+CR L+CR G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="726" tag="L+CR">                                       awarei</item>
+    <item id="o2" line="727" tag="L+CR">              c.        mouga -ri                              zoza      -na.</item>
+    <item id="o3" line="728" tag="G">                        two     -TOP below                     go        -DIST</item>
+    <item id="o4" line="729" tag="T">                        `Two men went below.'</item>
+    <item id="o5" line="730" tag="M+AC">                        (Frank 1990: 48-49)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="726 727" tag="L+CR">mouga-ri      awarei                  zoza-na.</item>
+    <item id="c3" line="728" tag="G">two-TOP below                     go-DIST</item>
+    <item id="c4" line="729" tag="T">Two men went below.</item>
+    <item id="c5" line="730" tag="M+AC">48-49</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89572">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ika" iso-639-3="arh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="638" line-range="426-429" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="426" tag="M+AC+LN">  (18)   Ika (Chibchan; Frank 1990:68)</item>
+    <item id="o2" line="427" tag="L">         mi-ka-wa'ka</item>
+    <item id="o3" line="428" tag="G">         2.OBJ-APPL.DIR-look</item>
+    <item id="o4" line="429" tag="T">         `He looked at you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="426" tag="M+AC+LN">Ika (Chibchan; Frank 1990:68</item>
+    <item id="c2" line="427" tag="L">mi-ka-wa'ka</item>
+    <item id="c3" line="428" tag="G">2.OBJ-APPL.DIR-look</item>
+    <item id="c4" line="429" tag="T">He looked at you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89573">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ika" iso-639-3="arh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="638" line-range="435-437" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="435" tag="L">  (19)   peri-kin-di   mi-k -ga</item>
+    <item id="o2" line="436" tag="G">         dog-LIM-TOP 2.OBJ-APPL.DIR-eat</item>
+    <item id="o3" line="437" tag="T">         `(The jaguar) eats your two dogs.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="435" tag="L">peri-kin-di   mi-k-ga</item>
+    <item id="c2" line="436" tag="G">dog-LIM-TOP 2.OBJ-APPL.DIR-eat</item>
+    <item id="c3" line="437" tag="T">(The jaguar) eats your two dogs.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

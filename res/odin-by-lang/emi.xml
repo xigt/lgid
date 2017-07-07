@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i88182">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mussau" iso-639-3="emi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="901-908" line-types="M+AC+LN B L+DB+CR L+DB+CR G+DB+CR G+DB+CR T+DB+CR T+DB+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="901" tag="M+AC+LN">   (20) Mussau (St Matthias Islands) (Ross 2002a: 157) :</item>
+    <item id="o2" line="902" tag="B"></item>
+    <item id="o3" line="903" tag="L+DB+CR">                                                         b. kie-qi      paua ateba</item>
+    <item id="o4" line="904" tag="L+DB+CR">               a. ane-qi paua ateba</item>
+    <item id="o5" line="905" tag="G+DB+CR">                                                            animal-P:1S dog SG:I</item>
+    <item id="o6" line="906" tag="G+DB+CR">                  food-P:1S dog SG:I</item>
+    <item id="o7" line="907" tag="T+DB+CR">                                                            `my dog'</item>
+    <item id="o8" line="908" tag="T+DB+CR">                  `my dog (to eat)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="901" tag="M+AC+LN">Mussau (St Matthias Islands) (Ross 2002a: 157) :</item>
+    <item id="c2" line="902" tag="B"/>
+    <item id="c3" line="903 904" tag="L+DB+CR">ane-qi paua ateba                      b. kie-qi      paua ateba</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:64]"/>
+  </tier>
+</igt>
+<igt id="i88183">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mussau" iso-639-3="emi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="910-912" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="910" tag="L+DB">               c. ai-qi     ai                           d. ane-qi ai etea</item>
+    <item id="o2" line="911" tag="G+DB">                  tree-P:1S tree                            food-P:1S tree SG:II</item>
+    <item id="o3" line="912" tag="T+DB">                  `my (tall) tree'                          `the stick that hit me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="910" tag="L+DB">ai-qi     ai                           d. ane-qi ai etea</item>
+    <item id="c2" line="911" tag="G+DB">tree-P:1S tree                            food-P:1S tree SG:II</item>
+    <item id="c3" line="912" tag="T+DB">my (tall) tree'                          `the stick that hit me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88184">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mussau" iso-639-3="emi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="922-924" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="922" tag="L+DB">              e. uma-qi uri        eteba             f. ane-qi uri       eteba</item>
+    <item id="o2" line="923" tag="G+DB">                 earth-P:1S banana SG:I                 food-P:1S banana SG:I</item>
+    <item id="o3" line="924" tag="T+DB">                 `my banana plant'                      `my banana to eat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="922" tag="L+DB">uma-qi uri        eteba             f. ane-qi uri       eteba</item>
+    <item id="c2" line="923" tag="G+DB">earth-P:1S banana SG:I                 food-P:1S banana SG:I</item>
+    <item id="c3" line="924" tag="T+DB">my banana plant'                      `my banana to eat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88185">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mussau" iso-639-3="emi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3271" line-range="926-928" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="926" tag="L+DB">              g. ai-qi     niu                       h. ropi-qi    niu</item>
+    <item id="o2" line="927" tag="G+DB">                 tree-P:1S coconut                      drink-P:1S coconut</item>
+    <item id="o3" line="928" tag="T+DB">                 `my coconut tree'                      `my coconut to drink'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="926" tag="L+DB">ai-qi     niu                       h. ropi-qi    niu</item>
+    <item id="c2" line="927" tag="G+DB">tree-P:1S coconut                      drink-P:1S coconut</item>
+    <item id="c3" line="928" tag="T+DB">my coconut tree'                      `my coconut to drink</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

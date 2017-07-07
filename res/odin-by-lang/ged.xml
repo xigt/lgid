@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i117994">
+  <metadata type="xigt-meta">
+    <meta type="language" name="geder" iso-639-3="ged" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="851-854" line-types="M+CR+EX M+CR M+AC+LN L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="851" tag="M+CR+EX">        Nasal assimilation as [mKP] in</item>
+    <item id="o2" line="852" tag="M+CR">  (1)</item>
+    <item id="o3" line="853" tag="M+AC+LN">        a. GÈdÈr, (Kleiner 1989)</item>
+    <item id="o4" line="854" tag="L-T+DB">             m-gbun to o `carried thing'          m-kpa     `life'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="851 852" tag="M+CR+EX">Nasal assimilation as [mKP] in</item>
+    <item id="c3" line="853" tag="M+AC+LN">GÈdÈr, (Kleiner 1989)</item>
+    <item id="c4" line="854" tag="L-T+DB">m-gbun to o `carried thing'          m-kpa     `life</item>
+  </tier>
+</igt>
+</xigt-corpus>

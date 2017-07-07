@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i152812">
+  <metadata type="xigt-meta">
+    <meta type="language" name="jeh" iso-639-3="jeh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2747" line-range="660-663" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="660" tag="L+CR">                en    loh    chieu ren ru       bu    cha    cho wan</item>
+    <item id="o2" line="661" tag="L+CR">      (44)</item>
+    <item id="o3" line="662" tag="G">                3sg   exit go      search catch roast eat    pig   they</item>
+    <item id="o4" line="663" tag="T">                `He went out and got somebody's pig and roasted and ate it'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="660 661" tag="L+CR">en    loh    chieu ren ru       bu    cha    cho wan</item>
+    <item id="c3" line="662" tag="G">3sg   exit go      search catch roast eat    pig   they</item>
+    <item id="c4" line="663" tag="T">He went out and got somebody's pig and roasted and ate it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

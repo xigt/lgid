@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i5">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pech" iso-639-3="pay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2984" line-range="212-216" line-types="M+LN L L+AL G T+AC+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="212" tag="M+LN">     (5) PECH (PAYA) [Chibchan] &lt; SPANISH</item>
+    <item id="o2" line="213" tag="L">         resés-k-</item>
+    <item id="o3" line="214" tag="L+AL">         resa-ís-k-</item>
+    <item id="o4" line="215" tag="G">         pray-do</item>
+    <item id="o5" line="216" tag="T+AC+EX">         `to pray' [Sp. rezar] (Holt 1999:62).</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="212" tag="M+LN">PECH (PAYA) [Chibchan] &lt; SPANISH</item>
+    <item id="c2" line="213" tag="L">resés-k-</item>
+    <item id="c3" line="214" tag="L+AL">resa-ís-k-</item>
+    <item id="c4" line="215" tag="G">pray-do</item>
+    <item id="c5" line="216" tag="T+AC+EX">to pray' [Sp. rezar] (Holt 1999:62).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:8]"/>
+    <item id="p1" content="c3[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:7]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:36]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i11355">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pech" iso-639-3="pay" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2469" line-range="213-217" line-types="M+LN+DB L L+AL G T+AC+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="213" tag="M+LN+DB">      (5) PECH (PAYA) [Chibchan] &lt; SPANISH</item>
+    <item id="o2" line="214" tag="L">          resés-k-</item>
+    <item id="o3" line="215" tag="L+AL">          resa-ís-k-</item>
+    <item id="o4" line="216" tag="G">          pray-do</item>
+    <item id="o5" line="217" tag="T+AC+EX">          `To pray' [Sp. rezar] (Holt 1999:62).</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="213" tag="M+LN+DB">PECH (PAYA) [Chibchan] &lt; SPANISH</item>
+    <item id="c2" line="214" tag="L">resés-k-</item>
+    <item id="c3" line="215" tag="L+AL">resa-ís-k-</item>
+    <item id="c4" line="216" tag="G">pray-do</item>
+    <item id="c5" line="217" tag="T+AC+EX">To pray' [Sp. rezar] (Holt 1999:62).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:8]"/>
+    <item id="p1" content="c3[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:7]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:36]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

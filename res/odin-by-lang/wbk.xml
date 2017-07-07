@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i68798">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalashaala" iso-639-3="wbk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3086" line-range="169-174" line-types="M+LN+CN L+CR L+AC+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="169" tag="M+LN+CN">  (22)     Kalasha-ala, Nuristani: summary</item>
+    <item id="o2" line="170" tag="L+CR">                            nn               s~rot ?</item>
+    <item id="o3" line="171" tag="L+AC+CR">                            sarmal di                                                           (Degener 1998:161)</item>
+    <item id="o4" line="172" tag="L+CR">           zaga, istri,</item>
+    <item id="o5" line="173" tag="G">           son     wife     cattle also      healthy</item>
+    <item id="o6" line="174" tag="T">           `Are (your) son, wife, and cattle healthy?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="169" tag="M+LN+CN">Kalasha-ala, Nuristani: summary</item>
+    <item id="c2" line="170 172" tag="L+CR">zaga, istri,     nn               s~rot ?</item>
+    <item id="c5" line="173" tag="G">son     wife     cattle also      healthy</item>
+    <item id="c6" line="174" tag="T">Are (your) son, wife, and cattle healthy?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i68800">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalashaala" iso-639-3="wbk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3086" line-range="226-228" line-types="M+LN L+AC+EX G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="226" tag="M+LN">  (26)     Kalasha-ala, Nuristani</item>
+    <item id="o2" line="227" tag="L+AC+EX">  a.       e mesi ye           e musa             (productive)                           (Degener 1998:166)</item>
+    <item id="o3" line="228" tag="G">           a woman and         a man</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="226" tag="M+LN">Kalasha-ala, Nuristani</item>
+    <item id="c2" line="227" tag="L+AC+EX">e mesi ye           e musa             (productive)                           (Degener 1998:166)</item>
+    <item id="c3" line="228" tag="G">a woman and         a man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:96]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i68801">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kalashaala" iso-639-3="wbk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3086" line-range="229-231" line-types="L+AC+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="229" tag="L+AC+EX">  b.       mesi-mosa-y                            (fixed expression)                     (Degener 1998:166)</item>
+    <item id="o2" line="230" tag="G">           women-men-and</item>
+    <item id="o3" line="231" tag="T">           `men and women'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="229" tag="L+AC+EX">mesi-mosa-y                            (fixed expression)                     (Degener 1998:166)</item>
+    <item id="c2" line="230" tag="G">women-men-and</item>
+    <item id="c3" line="231" tag="T">men and women</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:96]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

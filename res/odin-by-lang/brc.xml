@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i9623">
+  <metadata type="xigt-meta">
+    <meta type="language" name="berbice dutch" iso-639-3="brc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1927" line-range="31-35" line-types="L+LN+CR G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="31" tag="L+LN+CR">       c.                                                                                Berbice Dutch</item>
+    <item id="o2" line="32" tag="G+CR">              1                      catch-PERF           one          or two   of    them</item>
+    <item id="o3" line="33" tag="G+CR">               SG     PAST   IRR</item>
+    <item id="o4" line="34" tag="B"></item>
+    <item id="o5" line="35" tag="T">              `I would have caught a couple of them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="31" tag="L+LN+CR">Berbice Dutch</item>
+    <item id="c2" line="32 33" tag="G+CR">1SG     PAST   IRR     catch-PERF           one          or two   of    them</item>
+    <item id="c4" line="34" tag="B"/>
+    <item id="c5" line="35" tag="T">I would have caught a couple of them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30607">
+  <metadata type="xigt-meta">
+    <meta type="language" name="berbice" iso-639-3="brc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="1249-1253" line-types="M+AC+LN+CN L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1249" tag="M+AC+LN+CN">  (43) Berbice CD (Kouwenberg 1994:183)</item>
+    <item id="o2" line="1250" tag="L+CR">              hondo hau Si            selfu Surum</item>
+    <item id="o3" line="1251" tag="L+CR">        di</item>
+    <item id="o4" line="1252" tag="G">        the dog       keep 3:SG:POSS self   dirty</item>
+    <item id="o5" line="1253" tag="T">        'The dog keeps itself dirty'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1249" tag="M+AC+LN+CN">Berbice CD (Kouwenberg 1994:183</item>
+    <item id="c2" line="1250 1251" tag="L+CR">di    hondo hau Si            selfu Surum</item>
+    <item id="c4" line="1252" tag="G">the dog       keep 3:SG:POSS self   dirty</item>
+    <item id="c5" line="1253" tag="T">The dog keeps itself dirty</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30628">
+  <metadata type="xigt-meta">
+    <meta type="language" name="berbice" iso-639-3="brc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="1536-1539" line-types="M+AC+LN+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1536" tag="M+AC+LN+CN">  (56) Berbice CD (Kouwenberg &amp; Murray 1994:183)</item>
+    <item id="o2" line="1537" tag="L">        nuntE        Si         sel fan     di man</item>
+    <item id="o3" line="1538" tag="G">        pull:PERF 3:POSS self from the man</item>
+    <item id="o4" line="1539" tag="T">        '(She) pulled herself away from the boy'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1536" tag="M+AC+LN+CN">Berbice CD (Kouwenberg &amp; Murray 1994:183</item>
+    <item id="c2" line="1537" tag="L">nuntE        Si         sel fan     di man</item>
+    <item id="c3" line="1538" tag="G">pull:PERF 3:POSS self from the man</item>
+    <item id="c4" line="1539" tag="T">(She) pulled herself away from the boy</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i70420">
+  <metadata type="xigt-meta">
+    <meta type="language" name="berbice dutch creole" iso-639-3="brc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4082" line-range="721-723" line-types="L G T+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="721" tag="L">           b.   a wa kap-a          tun.</item>
+    <item id="o2" line="722" tag="G">                he past cut-impf field</item>
+    <item id="o3" line="723" tag="T+LN">                `He was cutting a field' (Berbice Dutch Creole)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="721" tag="L">a wa kap-a          tun.</item>
+    <item id="c2" line="722" tag="G">he past cut-impf field</item>
+    <item id="c3" line="723" tag="T+LN">He was cutting a field' (Berbice Dutch Creole)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116582">
+  <metadata type="xigt-meta">
+    <meta type="language" name="berbice dutch" iso-639-3="brc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3648" line-range="130-134" line-types="M+AC+LN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="130" tag="M+AC+LN">  Berbice Dutch (Kouwenberg 1994:394)</item>
+    <item id="o2" line="131" tag="L">  (9) En     kene pi    eni    en     gutu                                         ka.</item>
+    <item id="o3" line="132" tag="G+CR">         one         person give             3            one         thing</item>
+    <item id="o4" line="133" tag="G+CR">                                                 PL                                NEG</item>
+    <item id="o5" line="134" tag="T">         'Nobody gives them anything.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="130" tag="M+AC+LN">Berbice Dutch (Kouwenberg 1994:394)</item>
+    <item id="c2" line="131" tag="L">En     kene pi    eni    en     gutu                                         ka.</item>
+    <item id="c3" line="132 133" tag="G+CR">one         person give             3   PL       one         thing        NEG</item>
+    <item id="c5" line="134" tag="T">Nobody gives them anything.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:77]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

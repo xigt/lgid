@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i118156">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ahom tai" iso-639-3="aho" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="4817-4819" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4817" tag="L">       Khon-raw        saam tua      nii    hay song thii         caw-faa</item>
+    <item id="o2" line="4818" tag="G">       people          three body this      Caus. take to         prince</item>
+    <item id="o3" line="4819" tag="T">       'These three people, (someone) caused (someone) to take them to the prince.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4817" tag="L">Khon-raw        saam tua      nii    hay song thii         caw-faa</item>
+    <item id="c2" line="4818" tag="G">people          three body this      Caus. take to         prince</item>
+    <item id="c3" line="4819" tag="T">These three people, (someone) caused (someone) to take them to the prince.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

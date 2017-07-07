@@ -1,0 +1,1438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i8636">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1838" line-range="79-82" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="79" tag="M+AC+LN">  Evenki (Nedjalkov 1997: 53)</item>
+    <item id="o2" line="80" tag="L">  (4)    Engesi bi-mi         nungan     homo:ty-va                       davdy-ra-n</item>
+    <item id="o3" line="81" tag="G">         strong COP-CAUS he              bear-ACC.DEF                     win-REAL-3.SG</item>
+    <item id="o4" line="82" tag="T">         'He overcame the bear because he was strong.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="79" tag="M+AC+LN">Evenki (Nedjalkov 1997: 53)</item>
+    <item id="c2" line="80" tag="L">Engesi bi-mi         nungan     homo:ty-va                       davdy-ra-n</item>
+    <item id="c3" line="81" tag="G">strong COP-CAUS he              bear-ACC.DEF                     win-REAL-3.SG</item>
+    <item id="c4" line="82" tag="T">He overcame the bear because he was strong.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:78]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9431">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2018" line-range="61-67" line-types="M+AC+LN L G+CR G+CR L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="61" tag="M+AC+LN">  (3)    Evenki (I.V. Nedjalkov 1995: 456)</item>
+    <item id="o2" line="62" tag="L">         asatkan-me ajav-mi</item>
+    <item id="o3" line="63" tag="G+CR">                       love-CONV</item>
+    <item id="o4" line="64" tag="G+CR">         girl-ACC</item>
+    <item id="o5" line="65" tag="L">         asila-mca-v.</item>
+    <item id="o6" line="66" tag="G">         marry-SUBJUNC-1SG</item>
+    <item id="o7" line="67" tag="T">         `If I loved this girl I would marry her.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="61" tag="M+AC+LN">Evenki (I.V. Nedjalkov 1995: 456</item>
+    <item id="c2" line="62" tag="L">asatkan-me ajav-mi</item>
+    <item id="c3" line="63 64" tag="G+CR">girl-ACC      love-CONV</item>
+    <item id="c5" line="65" tag="L">asila-mca-v.</item>
+    <item id="c6" line="66" tag="G">marry-SUBJUNC-1SG</item>
+    <item id="c7" line="67" tag="T">If I loved this girl I would marry her.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:18]"/>
+    <item id="p1" content="c5[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+    <item id="g1" content="c6[0:17]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:39]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i9446">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2018" line-range="355-360" line-types="M+AC+LN L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="355" tag="M+AC+LN">  (17) Evenki (I.V. Nedjalkov 1998: 341­342)</item>
+    <item id="o2" line="356" tag="L">     a. d'u-la-vi             eme-mi</item>
+    <item id="o3" line="357" tag="G">        house-ALL-REFL.POSS come-CONV(=SS)</item>
+    <item id="o4" line="358" tag="L">           d'ep-te-n.</item>
+    <item id="o5" line="359" tag="G">           eat-NONFUT-3SG</item>
+    <item id="o6" line="360" tag="T">           `Having come ho me, he ate.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="355" tag="M+AC+LN">Evenki (I.V. Nedjalkov 1998: 341­342</item>
+    <item id="c2" line="356" tag="L">d'u-la-vi             eme-mi</item>
+    <item id="c3" line="357" tag="G">house-ALL-REFL.POSS come-CONV(=SS)</item>
+    <item id="c4" line="358" tag="L">d'ep-te-n.</item>
+    <item id="c5" line="359" tag="G">eat-NONFUT-3SG</item>
+    <item id="c6" line="360" tag="T">Having come ho me, he ate.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:28]"/>
+    <item id="p1" content="c4[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+    <item id="g1" content="c5[0:14]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:26]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i9447">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2018" line-range="361-365" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="361" tag="L">        b. d'u-la-vi                eme-reki-n</item>
+    <item id="o2" line="362" tag="G">           house-ALL-   REFL.POSS   come-CONV-3SG(=DS)</item>
+    <item id="o3" line="363" tag="L">           asi-n          d'ep-te-n.</item>
+    <item id="o4" line="364" tag="G">           woman-3SG eat-NONFUT-3SG</item>
+    <item id="o5" line="365" tag="T">           `After he returned home, his wife ate.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="361" tag="L">d'u-la-vi                eme-reki-n</item>
+    <item id="c2" line="362" tag="G">house-ALL-REFL.POSS   come-CONV-3SG(=DS)</item>
+    <item id="c3" line="363" tag="L">asi-n          d'ep-te-n.</item>
+    <item id="c4" line="364" tag="G">woman-3SG eat-NONFUT-3SG</item>
+    <item id="c5" line="365" tag="T">After he returned home, his wife ate.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+    <item id="p1" content="c3[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+    <item id="g1" content="c4[0:24]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:37]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i9448">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2018" line-range="376-383" line-types="M+AC+LN L G+CR G+CR B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="376" tag="M+AC+LN">  (18) Evenki (I.V. Nedjalkov 1998: 341­342)</item>
+    <item id="o2" line="377" tag="L">     a. d'u-la-vi             eme-chele-vi</item>
+    <item id="o3" line="378" tag="G+CR">        house-ALL-REFL.POSS come-CONV-REFL.               (=SS)</item>
+    <item id="o4" line="379" tag="G+CR">                                                     POSS</item>
+    <item id="o5" line="380" tag="B"></item>
+    <item id="o6" line="381" tag="L">           d'ep-te-n.</item>
+    <item id="o7" line="382" tag="G">           eat-NONFUT-3SG</item>
+    <item id="o8" line="383" tag="T">           `Having come ho me, he ate.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="376" tag="M+AC+LN">Evenki (I.V. Nedjalkov 1998: 341­342</item>
+    <item id="c2" line="377" tag="L">d'u-la-vi             eme-chele-vi</item>
+    <item id="c3" line="378 379" tag="G+CR">house-ALL-REFL.POSS come-CONV-REFL.          POSS (=SS)</item>
+    <item id="c5" line="380" tag="B"/>
+    <item id="c6" line="381" tag="L">d'ep-te-n.</item>
+    <item id="c7" line="382" tag="G">eat-NONFUT-3SG</item>
+    <item id="c8" line="383" tag="T">Having come ho me, he ate.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:34]"/>
+    <item id="p1" content="c6[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+    <item id="g1" content="c7[0:14]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:26]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i9449">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2018" line-range="384-388" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="384" tag="L">        b. d'u-la-vi                eme-chele-n</item>
+    <item id="o2" line="385" tag="G">           house-ALL-   REFL.POSS   come-CONV-3SG(=DS)</item>
+    <item id="o3" line="386" tag="L">           asi-n          d'ep-te-n.</item>
+    <item id="o4" line="387" tag="G">           woman-3SG eat-NONFUT-3SG</item>
+    <item id="o5" line="388" tag="T">           `After he returned home, his wife ate.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="384" tag="L">d'u-la-vi                eme-chele-n</item>
+    <item id="c2" line="385" tag="G">house-ALL-REFL.POSS   come-CONV-3SG(=DS)</item>
+    <item id="c3" line="386" tag="L">asi-n          d'ep-te-n.</item>
+    <item id="c4" line="387" tag="G">woman-3SG eat-NONFUT-3SG</item>
+    <item id="c5" line="388" tag="T">After he returned home, his wife ate.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+    <item id="p1" content="c3[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+    <item id="g1" content="c4[0:24]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:37]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i21701">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3250" line-range="2976-2978" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2976" tag="L+LN">  (48)     a.   Bi - -w dukuw n-ma duku-ra                                        Evenki</item>
+    <item id="o2" line="2977" tag="G">                I neg-PAST-1SG letter-OBJ write-      PART</item>
+    <item id="o3" line="2978" tag="T">                `I didn't write a letter'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2976" tag="L+LN">Bi--w dukuw n-ma duku-ra                                        Evenki</item>
+    <item id="c2" line="2977" tag="G">I neg-PAST-1SG letter-OBJ write-PART</item>
+    <item id="c3" line="2978" tag="T">I didn't write a letter</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i36069">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="576" line-range="1091-1092" line-types="M+LN+CN L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1091" tag="M+LN+CN">    (37) a.  Possessed -raki- formation (Evenki)</item>
+    <item id="o2" line="1092" tag="L-T">             baka-raki-v         "after/if I found"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1091" tag="M+LN+CN">a.  Possessed-raki-formation (Evenki</item>
+    <item id="c2" line="1092" tag="L-T">baka-raki-v         "after/if I found</item>
+  </tier>
+</igt>
+<igt id="i36070">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="576" line-range="1093-1093" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1093" tag="L-T">             baka-raki-s         "after/if you (sg) found"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1093" tag="L-T">baka-raki-s         "after/if you (sg) found</item>
+  </tier>
+</igt>
+<igt id="i36071">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="576" line-range="1094-1094" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1094" tag="L-T">             baka-raki-n         "after s/he found"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1094" tag="L-T">baka-raki-n         "after s/he found</item>
+  </tier>
+</igt>
+<igt id="i36072">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="576" line-range="1095-1095" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1095" tag="L-T">             baka-raki-vun       "after/if we found"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1095" tag="L-T">baka-raki-vun       "after/if we found</item>
+  </tier>
+</igt>
+<igt id="i36073">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="576" line-range="1096-1096" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1096" tag="L-T">             baka-raki-sun       "after/if you (pl) found"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1096" tag="L-T">baka-raki-sun       "after/if you (pl) found</item>
+  </tier>
+</igt>
+<igt id="i36074">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="576" line-range="1097-1098" line-types="L-T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1097" tag="L-T">             baka-raki-tyn       "after/if they found"</item>
+    <item id="o2" line="1098" tag="M+AC">             (Nedjalkov 1995: 443)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1097" tag="L-T">baka-raki-tyn       "after/if they found</item>
+    <item id="c2" line="1098" tag="M+AC">443</item>
+  </tier>
+</igt>
+<igt id="i36075">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="576" line-range="1099-1102" line-types="M+LN+CN L+CR L+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1099" tag="M+LN+CN">          b. Perfect participle baka-c in definite acc (-va-) (Evenki)</item>
+    <item id="o2" line="1100" tag="L+CR">                                      a</item>
+    <item id="o3" line="1101" tag="L+CR">             baka-ca-va-v</item>
+    <item id="o4" line="1102" tag="T">                                 "my past finding.acc"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1099" tag="M+LN+CN">Perfect participle baka-c in definite acc (-va-) (Evenki)</item>
+    <item id="c2" line="1100 1101" tag="L+CR">baka-ca-va-v             a</item>
+    <item id="c4" line="1102" tag="T">my past finding.acc</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:26]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i36076">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="576" line-range="1103-1106" line-types="L T M M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1103" tag="L">             baka-ca-va-s</item>
+    <item id="o2" line="1104" tag="T">                                 "your (sg) past finding.acc"</item>
+    <item id="o3" line="1105" tag="M">             (etc.)</item>
+    <item id="o4" line="1106" tag="M+AC">             (Nedjalkov 1995: 444)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1103" tag="L">baka-ca-va-s</item>
+    <item id="c2" line="1104" tag="T">your (sg) past finding.acc</item>
+    <item id="c3" line="1105" tag="M">etc.</item>
+    <item id="c4" line="1106" tag="M+AC">444</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i36077">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="576" line-range="1114-1118" line-types="M+LN+CN L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1114" tag="M+LN+CN">         (38) The participle in complementation (Evenki)</item>
+    <item id="o2" line="1115" tag="L+CR">              a. bi dÁonca-dÁa-m</item>
+    <item id="o3" line="1116" tag="L+CR">                                         gun-ne-ve-n</item>
+    <item id="o4" line="1117" tag="G">                  I remember-pr-1sg say-part-acc-3sg</item>
+    <item id="o5" line="1118" tag="T+AC">                  "I remember what s/he said" (Nedjalkov 1997: 25)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1114" tag="M+LN+CN">The participle in complementation (Evenki</item>
+    <item id="c2" line="1115 1116" tag="L+CR">bi dÁonca-dÁa-m       gun-ne-ve-n</item>
+    <item id="c4" line="1117" tag="G">I remember-pr-1sg say-part-acc-3sg</item>
+    <item id="c5" line="1118" tag="T+AC">I remember what s/he said" (Nedjalkov 1997: 25)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i36078">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="576" line-range="1119-1123" line-types="L+CR L+CR B G T+AC+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1119" tag="L+CR">              b. asatka-r henu-ce-l</item>
+    <item id="o2" line="1120" tag="L+CR">                                           eme-ce-ve-tyn</item>
+    <item id="o3" line="1121" tag="B"></item>
+    <item id="o4" line="1122" tag="G">                  girl-pl notice-pst-pl come-perf.part-acc-3pl</item>
+    <item id="o5" line="1123" tag="T+AC+SY">                  "the girlsi noticed that theyj had come" (Nedjalkov 1997: 26)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1119 1120" tag="L+CR">asatka-r henu-ce-l        eme-ce-ve-tyn</item>
+    <item id="c3" line="1121" tag="B"/>
+    <item id="c4" line="1122" tag="G">girl-pl notice-pst-pl come-perf.part-acc-3pl</item>
+    <item id="c5" line="1123" tag="T+AC+SY">the girlsi noticed that theyj had come" (Nedjalkov 1997: 26)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i36328">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3830" line-range="292-295" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="292" tag="L+CR">                     NuMan ?-Mk-n</item>
+    <item id="o2" line="293" tag="L+LN+CR">             c.                            baka-ra.                       [Evenki]</item>
+    <item id="o3" line="294" tag="G">                     he      NEG-PAST-3SG find-PART</item>
+    <item id="o4" line="295" tag="T">                     `He didn't find.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="292 293" tag="L+CR+LN">NuMan ?-Mk-n          baka-ra.                       [Evenki]</item>
+    <item id="c3" line="294" tag="G">he      NEG-PAST-3SG find-PART</item>
+    <item id="c4" line="295" tag="T">He didn't find.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41713">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3503" line-range="283-286" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="283" tag="M+AC+LN">  (14) Evenki (Nedjalkov &amp; Nedjalkov forthcoming)</item>
+    <item id="o2" line="284" tag="L">       a. Nuart0n merwer awzara</item>
+    <item id="o3" line="285" tag="G">          They      RFL       wash.3PL</item>
+    <item id="o4" line="286" tag="T">          `They wash themselves.' or `They wash each other.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="283" tag="M+AC+LN">Evenki (Nedjalkov &amp; Nedjalkov forthcoming</item>
+    <item id="c2" line="284" tag="L">Nuart0n merwer awzara</item>
+    <item id="c3" line="285" tag="G">They      RFL       wash.3PL</item>
+    <item id="c4" line="286" tag="T">They wash themselves.' or `They wash each other.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41714">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3503" line-range="287-289" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="287" tag="L">       b. Nuart0n merwer awmaatcara</item>
+    <item id="o2" line="288" tag="G">          They      RFL      [RECP]wash.3PL</item>
+    <item id="o3" line="289" tag="T">          `They wash each other'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="287" tag="L">Nuart0n merwer awmaatcara</item>
+    <item id="c2" line="288" tag="G">They      RFL      [RECP]wash.3PL</item>
+    <item id="c3" line="289" tag="T">They wash each other'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47825">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3407" line-range="2203-2207" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2203" tag="L">  (40)   a.      eni    eme-re-n</item>
+    <item id="o2" line="2204" tag="B"></item>
+    <item id="o3" line="2205" tag="G">                 mother come-NFUT-3SG</item>
+    <item id="o4" line="2206" tag="B"></item>
+    <item id="o5" line="2207" tag="T+EX">                 `mother came.' (direct evidence)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2203" tag="L">eni    eme-re-n</item>
+    <item id="c2" line="2204" tag="B"/>
+    <item id="c3" line="2205" tag="G">mother come-NFUT-3SG</item>
+    <item id="c4" line="2206" tag="B"/>
+    <item id="c5" line="2207" tag="T+EX">mother came.' (direct evidence)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47826">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3407" line-range="2209-2213" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2209" tag="L">         b.      eni    eme-che-n</item>
+    <item id="o2" line="2210" tag="B"></item>
+    <item id="o3" line="2211" tag="G">                 mother come-PST-3SG</item>
+    <item id="o4" line="2212" tag="B"></item>
+    <item id="o5" line="2213" tag="T+EX">                 `mother came.' (no direct evidence)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2209" tag="L">eni    eme-che-n</item>
+    <item id="c2" line="2210" tag="B"/>
+    <item id="c3" line="2211" tag="G">mother come-PST-3SG</item>
+    <item id="c4" line="2212" tag="B"/>
+    <item id="c5" line="2213" tag="T+EX">mother came.' (no direct evidence)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48579">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="514-516" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="514" tag="L">  (41) a. bi alagumni bi-che-v</item>
+    <item id="o2" line="515" tag="G">                1SG teacher            be-PAST-1SG</item>
+    <item id="o3" line="516" tag="T">                `I was a teacher'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="514" tag="L">bi alagumni bi-che-v</item>
+    <item id="c2" line="515" tag="G">1SG teacher            be-PAST-1SG</item>
+    <item id="c3" line="516" tag="T">I was a teacher</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48580">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="517-519" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="517" tag="L">           b. minngi ami-m                      bejumimni (bi-si-n)</item>
+    <item id="o2" line="518" tag="G">                my         father-1SG.POSS hunter              be-PRES-3SG</item>
+    <item id="o3" line="519" tag="T">                `my father is a hunter'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="517" tag="L">minngi ami-m                      bejumimni (bi-si-n)</item>
+    <item id="c2" line="518" tag="G">my         father-1SG.POSS hunter              be-PRES-3SG</item>
+    <item id="c3" line="519" tag="T">my father is a hunter</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48659">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="1273-1276" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1273" tag="L">           b. dark-oa-m                ikka-si bia         isoke</item>
+    <item id="o2" line="1274" tag="G+CR">                                                             TM</item>
+    <item id="o3" line="1275" tag="G+CR">                woman-that-SUBJ        son-OBJ water gave</item>
+    <item id="o4" line="1276" tag="T">                `the woman gave water to her son'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1273" tag="L">dark-oa-m                ikka-si bia         isoke</item>
+    <item id="c2" line="1274 1275" tag="G+CR">woman-that-SUBJ        son-OBJ water gave    TM</item>
+    <item id="c4" line="1276" tag="T">the woman gave water to her son</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58614">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3186" line-range="1206-1208" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1206" tag="L">   (59)    a. baka-kal/baka-gin</item>
+    <item id="o2" line="1207" tag="G">              find-imp.near.2s/find-imp.near.3s</item>
+    <item id="o3" line="1208" tag="T">              `Find/Let him find'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1206" tag="L">baka-kal/baka-gin</item>
+    <item id="c2" line="1207" tag="G">find-imp.near.2s/find-imp.near.3s</item>
+    <item id="c3" line="1208" tag="T">Find/Let him find</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58615">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3186" line-range="1209-1211" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1209" tag="L">           b. baka-da:-vi/baka:ngna:-n</item>
+    <item id="o2" line="1210" tag="G">              find-imp.remote.2s/find-imp.remote.3s</item>
+    <item id="o3" line="1211" tag="T">              `Find (later)/Let him find (later)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1209" tag="L">baka-da:-vi/baka:ngna:-n</item>
+    <item id="c2" line="1210" tag="G">find-imp.remote.2s/find-imp.remote.3s</item>
+    <item id="c3" line="1211" tag="T">Find (later)/Let him find (later)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58626">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3186" line-range="1409-1411" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1409" tag="L">   (68)   baka-machi-m</item>
+    <item id="o2" line="1410" tag="G">          find-debitive-1s</item>
+    <item id="o3" line="1411" tag="T">          `I must find'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1409" tag="L">baka-machi-m</item>
+    <item id="c2" line="1410" tag="G">find-debitive-1s</item>
+    <item id="c3" line="1411" tag="T">I must find</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64779">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1404" line-range="128-131" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="128" tag="M+LN">                                                                                              (Evenki)</item>
+    <item id="o2" line="129" tag="L">    (13) b eje halgan-in</item>
+    <item id="o3" line="130" tag="G">         man leg-3sg.possessive</item>
+    <item id="o4" line="131" tag="T">         `the man's leg'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="128" tag="M+LN">Evenki</item>
+    <item id="c2" line="129" tag="L">b eje halgan-in</item>
+    <item id="c3" line="130" tag="G">man leg-3sg.possessive</item>
+    <item id="c4" line="131" tag="T">the man's leg</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64781">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1404" line-range="138-141" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="138" tag="M+LN">                                                                                              (Evenki)</item>
+    <item id="o2" line="139" tag="L">    (15) kugaka-r d'ari-tyn</item>
+    <item id="o3" line="140" tag="G">         child-pl for-3pl.possessive</item>
+    <item id="o4" line="141" tag="T">         `for children'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="138" tag="M+LN">Evenki</item>
+    <item id="c2" line="139" tag="L">kugaka-r d'ari-tyn</item>
+    <item id="c3" line="140" tag="G">child-pl for-3pl.possessive</item>
+    <item id="c4" line="141" tag="T">for children</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73427">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="1831-1833" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1831" tag="L">  (163) a. [bi ugir-d'ari-v]                       so:t urgepchu</item>
+    <item id="o2" line="1832" tag="G">                [I lift-PTCPL-1SG.POSS]            very heavy</item>
+    <item id="o3" line="1833" tag="T">                `what I am lifting is very heavy'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1831" tag="L">[bi ugir-d'ari-v]                       so:t urgepchu</item>
+    <item id="c2" line="1832" tag="G">[I lift-PTCPL-1SG.POSS]            very heavy</item>
+    <item id="c3" line="1833" tag="T">what I am lifting is very heavy</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73428">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="1834-1836" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1834" tag="L">            b. [[bi ugir-d'ari-v]                   d'olo] so:t urgepchu</item>
+    <item id="o2" line="1835" tag="G">                [[I lift-PTCPL-1SG.POSS]            stone] very heavy</item>
+    <item id="o3" line="1836" tag="T">                `the stone that I am lifting is very heavy'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1834" tag="L">[[bi ugir-d'ari-v]                   d'olo] so:t urgepchu</item>
+    <item id="c2" line="1835" tag="G">[[I lift-PTCPL-1SG.POSS]            stone] very heavy</item>
+    <item id="c3" line="1836" tag="T">the stone that I am lifting is very heavy</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74154">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="536-538" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="536" tag="L">  (41) a. bi alagumni bi-che-v</item>
+    <item id="o2" line="537" tag="G">               1SG teacher                be-PAST-1SG</item>
+    <item id="o3" line="538" tag="T">               `I was a teacher'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="536" tag="L">bi alagumni bi-che-v</item>
+    <item id="c2" line="537" tag="G">1SG teacher                be-PAST-1SG</item>
+    <item id="c3" line="538" tag="T">I was a teacher</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74155">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="539-541" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="539" tag="L">          b. minngi ami-m                          bejumimni (bi-si-n)</item>
+    <item id="o2" line="540" tag="G">               my           father-1SG,POSS hunter             be-PRES-3SG</item>
+    <item id="o3" line="541" tag="T">               `my father is a hunter'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="539" tag="L">minngi ami-m                          bejumimni (bi-si-n)</item>
+    <item id="c2" line="540" tag="G">my           father-1SG,POSS hunter             be-PRES-3SG</item>
+    <item id="c3" line="541" tag="T">my father is a hunter</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78248">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="2757-2763" line-types="M+AC+LN L+CR L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2757" tag="M+AC+LN">  (50) Evenki (I. Nedyalkov pc.)14</item>
+    <item id="o2" line="2758" tag="L+CR">       a. Nu an ekun-ma:da</item>
+    <item id="o3" line="2759" tag="L+CR">                   ¯                   e-vki       sa-re.</item>
+    <item id="o4" line="2760" tag="L+CR">                                                    ¯</item>
+    <item id="o5" line="2761" tag="G+CR">                   anything-ACC +ENCL NEG -HABPART know-FFNLV</item>
+    <item id="o6" line="2762" tag="G+CR">           he</item>
+    <item id="o7" line="2763" tag="T">          `He does not know anything.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2757" tag="M+AC+LN">Evenki (I. Nedyalkov pc.)14</item>
+    <item id="c2" line="2758 2760" tag="L+CR">Nu an ekun-ma:da                          ¯</item>
+    <item id="c5" line="2761 2762" tag="G+CR">he      anything-ACC +ENCL NEG-HABPART know-FFNLV</item>
+    <item id="c7" line="2763" tag="T">He does not know anything.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78249">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="2765-2767" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2765" tag="L">       b.     i-vel      e-che-n          eme-re.</item>
+    <item id="o2" line="2766" tag="G">             INDEF -ENCL NEG -PA S T -3SG come-FFNLV</item>
+    <item id="o3" line="2767" tag="T">            `Someone did not come.' (pc.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2765" tag="L">i-vel      e-che-n          eme-re.</item>
+    <item id="c2" line="2766" tag="G">INDEF-ENCL NEG-PA S T-3SG come-FFNLV</item>
+    <item id="c3" line="2767" tag="T">Someone did not come.' (pc.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78316">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="4812-4817" line-types="M+AC+LN L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4812" tag="M+AC+LN">  (4) Evenki (I. Nedyalkov, pc.)</item>
+    <item id="o2" line="4813" tag="L+CR">      a. Nu an min-du purta-va bu-che-n.</item>
+    <item id="o3" line="4814" tag="L+CR">                                    ¯</item>
+    <item id="o4" line="4815" tag="G+CR">                  I-DAT knife-ACC give-PA S T -3SG</item>
+    <item id="o5" line="4816" tag="G+CR">          he</item>
+    <item id="o6" line="4817" tag="T">         `He gave me the knife.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4812" tag="M+AC+LN">Evenki (I. Nedyalkov, pc.</item>
+    <item id="c2" line="4813" tag="L+CR">Nu an min-du purta-va bu-che-n.</item>
+    <item id="c4" line="4815 4816" tag="G+CR">he      I-DAT knife-ACC give-PA S T-3SG</item>
+    <item id="c6" line="4817" tag="T">He gave me the knife.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78317">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="4823-4827" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4823" tag="L+CR">         b.    Nu an min-du purta-va e-che-n           bu-re.</item>
+    <item id="o2" line="4824" tag="L+CR">                                                         ¯</item>
+    <item id="o3" line="4825" tag="G+CR">                      I-DAT knife-ACC NEG -PA S T -3SG give-NONFIN</item>
+    <item id="o4" line="4826" tag="G+CR">               he</item>
+    <item id="o5" line="4827" tag="T">              `He did not give me the knife.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4823" tag="L+CR">Nu an min-du purta-va e-che-n           bu-re.</item>
+    <item id="c3" line="4825 4826" tag="G+CR">he     I-DAT knife-ACC NEG-PA S T-3SG give-NONFIN</item>
+    <item id="c5" line="4827" tag="T">He did not give me the knife.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78318">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="4829-4832" line-types="L+CR L+CR G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4829" tag="L+CR">         c.    Si e-va-da</item>
+    <item id="o2" line="4830" tag="L+CR">                   ¯                     e-si-nni   duku-ra.</item>
+    <item id="o3" line="4831" tag="G">               2SG anything-ACC-ENCL NEG-NONFUT-2SG wr ite-NONFIN</item>
+    <item id="o4" line="4832" tag="T+CR">              `You have not wr itten anything.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4829" tag="L+CR">Si e-va-da</item>
+    <item id="c3" line="4831" tag="G">2SG anything-ACC-ENCL NEG-NONFUT-2SG wr ite-NONFIN</item>
+    <item id="c4" line="4832" tag="T+CR">You have not wr itten anything.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91733">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="2757-2763" line-types="M+AC+LN L+CR L+CR M G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2757" tag="M+AC+LN">  (50) Evenki (I. Nedyalkov pc.)14</item>
+    <item id="o2" line="2758" tag="L+CR">       a. Nu an ekun-ma:da</item>
+    <item id="o3" line="2759" tag="L+CR">                   ¯                   e-vki       sa-re.</item>
+    <item id="o4" line="2760" tag="M">                                                    ¯</item>
+    <item id="o5" line="2761" tag="G+CR">                   anything-ACC +ENCL NEG -HABPART know-FFNLV</item>
+    <item id="o6" line="2762" tag="G+CR">           he</item>
+    <item id="o7" line="2763" tag="T">          `He does not know anything.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2757" tag="M+AC+LN">Evenki (I. Nedyalkov pc.)14</item>
+    <item id="c2" line="2758" tag="L+CR">Nu an ekun-ma:da</item>
+    <item id="c4" line="2760" tag="M">¯</item>
+    <item id="c5" line="2761 2762" tag="G+CR">he      anything-ACC +ENCL NEG-HABPART know-FFNLV</item>
+    <item id="c7" line="2763" tag="T">He does not know anything.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91734">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="2765-2767" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2765" tag="L">       b.     i-vel      e-che-n          eme-re.</item>
+    <item id="o2" line="2766" tag="G">             INDEF -ENCL NEG -PA S T -3SG come-FFNLV</item>
+    <item id="o3" line="2767" tag="T">            `Someone did not come.' (pc.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2765" tag="L">i-vel      e-che-n          eme-re.</item>
+    <item id="c2" line="2766" tag="G">INDEF-ENCL NEG-PA S T-3SG come-FFNLV</item>
+    <item id="c3" line="2767" tag="T">Someone did not come.' (pc.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91801">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="4812-4817" line-types="M+AC+LN L M G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4812" tag="M+AC+LN">  (4) Evenki (I. Nedyalkov, pc.)</item>
+    <item id="o2" line="4813" tag="L">      a. Nu an min-du purta-va bu-che-n.</item>
+    <item id="o3" line="4814" tag="M">                                    ¯</item>
+    <item id="o4" line="4815" tag="G+CR">                  I-DAT knife-ACC give-PA S T -3SG</item>
+    <item id="o5" line="4816" tag="G+CR">          he</item>
+    <item id="o6" line="4817" tag="T">         `He gave me the knife.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4812" tag="M+AC+LN">Evenki (I. Nedyalkov, pc.</item>
+    <item id="c2" line="4813" tag="L">Nu an min-du purta-va bu-che-n.</item>
+    <item id="c3" line="4814" tag="M">¯</item>
+    <item id="c4" line="4815 4816" tag="G+CR">he      I-DAT knife-ACC give-PA S T-3SG</item>
+    <item id="c6" line="4817" tag="T">He gave me the knife.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91802">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="4823-4827" line-types="L M G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4823" tag="L">         b.    Nu an min-du purta-va e-che-n           bu-re.</item>
+    <item id="o2" line="4824" tag="M">                                                         ¯</item>
+    <item id="o3" line="4825" tag="G+CR">                      I-DAT knife-ACC NEG -PA S T -3SG give-NONFIN</item>
+    <item id="o4" line="4826" tag="G+CR">               he</item>
+    <item id="o5" line="4827" tag="T">              `He did not give me the knife.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4823" tag="L">Nu an min-du purta-va e-che-n           bu-re.</item>
+    <item id="c2" line="4824" tag="M">¯</item>
+    <item id="c3" line="4825 4826" tag="G+CR">he     I-DAT knife-ACC NEG-PA S T-3SG give-NONFIN</item>
+    <item id="c5" line="4827" tag="T">He did not give me the knife.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91803">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="4829-4832" line-types="L+CR L+CR G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4829" tag="L+CR">         c.    Si e-va-da</item>
+    <item id="o2" line="4830" tag="L+CR">                   ¯                     e-si-nni   duku-ra.</item>
+    <item id="o3" line="4831" tag="G">               2SG anything-ACC-ENCL NEG-NONFUT-2SG wr ite-NONFIN</item>
+    <item id="o4" line="4832" tag="T+CR">              `You have not wr itten anything.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4829" tag="L+CR">Si e-va-da</item>
+    <item id="c3" line="4831" tag="G">2SG anything-ACC-ENCL NEG-NONFUT-2SG wr ite-NONFIN</item>
+    <item id="c4" line="4832" tag="T+CR">You have not wr itten anything.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114201">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1211-1213" line-types="L+LN G T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1211" tag="L+LN">        (64) Purta-va-s               min-du            bu:-kel [Evenki]</item>
+    <item id="o2" line="1212" tag="G">             knife-ACC.DEF-2.SG.POSS I-DAT              give-2.SG.IMP</item>
+    <item id="o3" line="1213" tag="T+SY">             `Give (you.SG) me your knife!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1211" tag="L+LN">Purta-va-s               min-du            bu:-kel [Evenki]</item>
+    <item id="c2" line="1212" tag="G">knife-ACC.DEF-2.SG.POSS I-DAT              give-2.SG.IMP</item>
+    <item id="c3" line="1213" tag="T+SY">Give (you.SG) me your knife!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114202">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1221-1222" line-types="L-T+CR L-T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1221" tag="L-T+CR">        1.               baka-kta                `let me find'</item>
+    <item id="o2" line="1222" tag="L-T+CR">             SG</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1221 1222" tag="L-T+CR">SG          baka-kta                `let me find</item>
+  </tier>
+</igt>
+<igt id="i114203">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1228-1228" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1228" tag="L-T+SY">        2.SG           baka-   kal                  `find'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1228" tag="L-T+SY">2.SG           baka-kal                  `find</item>
+  </tier>
+</igt>
+<igt id="i114204">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1229-1229" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1229" tag="L-T+SY">        3.SG           baka-   gin                  `let him/her find'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1229" tag="L-T+SY">3.SG           baka-gin                  `let him/her find</item>
+  </tier>
+</igt>
+<igt id="i114205">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1230-1231" line-types="L-T+CR+SY L-T+CR+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1230" tag="L-T+CR+SY">        1.PL.          baka-   kta-vun/baka vvun    `let us find'</item>
+    <item id="o2" line="1231" tag="L-T+CR+SY">              EXCL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1230 1231" tag="L-T+CR+SY">1.PL. EXCL     baka-kta-vun/baka vvun    `let us find</item>
+  </tier>
+</igt>
+<igt id="i114206">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1232-1233" line-types="L-T+CR+SY L-T+CR+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1232" tag="L-T+CR+SY">        1.PL.          baka-   gat                  `let us find'</item>
+    <item id="o2" line="1233" tag="L-T+CR+SY">              INCL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1232 1233" tag="L-T+CR+SY">1.PL. INCL     baka-gat                  `let us find</item>
+  </tier>
+</igt>
+<igt id="i114207">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1234-1234" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1234" tag="L-T+SY">        2.PL           baka-   kallu                `(you PL) find'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1234" tag="L-T+SY">2.PL           baka-kallu                `(you PL) find</item>
+  </tier>
+</igt>
+<igt id="i114208">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1235-1235" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1235" tag="L-T+SY">        3.PL           baka-   ktyn                 `let them find'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1235" tag="L-T+SY">3.PL           baka-ktyn                 `let them find</item>
+  </tier>
+</igt>
+<igt id="i114209">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1243-1245" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1243" tag="L+LN">       (65) D'u-la-vi         himat                  eme-kel [Evenki]</item>
+    <item id="o2" line="1244" tag="G">            home-ALL-POSS     quick(ly)              come-2.SG.IMP</item>
+    <item id="o3" line="1245" tag="T">            `Come quickly to my place!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1243" tag="L+LN">D'u-la-vi         himat                  eme-kel [Evenki]</item>
+    <item id="c2" line="1244" tag="G">home-ALL-POSS     quick(ly)              come-2.SG.IMP</item>
+    <item id="c3" line="1245" tag="T">Come quickly to my place!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114210">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1248-1250" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1248" tag="L+LN">       (66) D'u-la-vi          (gochin)              eme-de:-vi [Evenki]</item>
+    <item id="o2" line="1249" tag="G">            home-ALL-POSS      (next year)           come-IMP-POSS</item>
+    <item id="o3" line="1250" tag="T">            `Come to my place (next year)!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1248" tag="L+LN">D'u-la-vi          (gochin)              eme-de:-vi [Evenki]</item>
+    <item id="c2" line="1249" tag="G">home-ALL-POSS      (next year)           come-IMP-POSS</item>
+    <item id="c3" line="1250" tag="T">Come to my place (next year)!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114226">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1373-1376" line-types="L+LN G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1373" tag="L+LN">        (76) Tala    e-kel                  girku-ra [Evenki]</item>
+    <item id="o2" line="1374" tag="G+CR">             there   NEG.AUX-2.SG.          go-PART</item>
+    <item id="o3" line="1375" tag="G+CR">                                      IMP</item>
+    <item id="o4" line="1376" tag="T">             `Don't go there!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1373" tag="L+LN">Tala    e-kel                  girku-ra [Evenki]</item>
+    <item id="c2" line="1374 1375" tag="G+CR">there   NEG.AUX-2.SG.    IMP   go-PART</item>
+    <item id="c4" line="1376" tag="T">Don't go there!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114246">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1598-1600" line-types="L+LN G T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1598" tag="L+LN">        (90) Bi oro-r-vi                   baka-kta [Evenki]</item>
+    <item id="o2" line="1599" tag="G">             I     reindeer-PL-POSS        find-HORT (=1.SG.IMP)</item>
+    <item id="o3" line="1600" tag="T+DB">             `Let me find my reindeer.' / `I'll go and find my reindeer.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1598" tag="L+LN">Bi oro-r-vi                   baka-kta [Evenki]</item>
+    <item id="c2" line="1599" tag="G">I     reindeer-PL-POSS        find-HORT (=1.SG.IMP)</item>
+    <item id="c3" line="1600" tag="T+DB">Let me find my reindeer.' / `I'll go and find my reindeer.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114253">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1641-1643" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1641" tag="L+LN">        (95) Minngi girki-v            ilan-duli chas-tuli suru-mechin-in [Evenki]</item>
+    <item id="o2" line="1642" tag="G">             my      friend-1.SG.POSS three.PROL hour.PROL go.away-DEBIT-3.SG</item>
+    <item id="o3" line="1643" tag="T">             `My friend must leave in three hours.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1641" tag="L+LN">Minngi girki-v            ilan-duli chas-tuli suru-mechin-in [Evenki]</item>
+    <item id="c2" line="1642" tag="G">my      friend-1.SG.POSS three.PROL hour.PROL go.away-DEBIT-3.SG</item>
+    <item id="c3" line="1643" tag="T">My friend must leave in three hours.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114255">
+  <metadata type="xigt-meta">
+    <meta type="language" name="evenki" iso-639-3="evn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1661-1663" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1661" tag="L+LN">        (97) Er-tyki,       tar-tyki       iche-t-ne [Evenki]</item>
+    <item id="o2" line="1662" tag="G">             this-ALL       that-ALL       see-CONT-MONIT</item>
+    <item id="o3" line="1663" tag="T">             `(Be careful and) look in different directions.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1661" tag="L+LN">Er-tyki,       tar-tyki       iche-t-ne [Evenki]</item>
+    <item id="c2" line="1662" tag="G">this-ALL       that-ALL       see-CONT-MONIT</item>
+    <item id="c3" line="1663" tag="T">(Be careful and) look in different directions.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

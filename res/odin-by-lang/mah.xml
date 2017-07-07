@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i10418">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ralik" iso-639-3="mah" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2479" line-range="3145-3145" line-types="L-T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3145" tag="L-T+EX">  biqen              yibbiqenqen       bibiqenqen        'chunk'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3145" tag="L-T+EX">biqen              yibbiqenqen       bibiqenqen        'chunk</item>
+  </tier>
+</igt>
+<igt id="i10419">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ralik" iso-639-3="mah" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2479" line-range="3146-3146" line-types="L-T+AC+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3146" tag="L-T+AC+EX">  det                yeddetdet         dedetdet          'sunshine' (Abo, et al. 1976)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3146" tag="L-T+AC+EX">det                yeddetdet         dedetdet          'sunshine' (Abo, et al. 1976)</item>
+  </tier>
+</igt>
+<igt id="i83641">
+  <metadata type="xigt-meta">
+    <meta type="language" name="marshallese" iso-639-3="mah" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3622" line-range="276-280" line-types="M+LN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="276" tag="M+LN">  (22) Marshallese</item>
+    <item id="o2" line="277" tag="L">     John      e-j        ke    konono ibben   Mary?</item>
+    <item id="o3" line="278" tag="G+CR">               3SG-PRES INTERR talk    with    Mary</item>
+    <item id="o4" line="279" tag="G+CR">     John</item>
+    <item id="o5" line="280" tag="T">     `Is John talking to Mary?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="276" tag="M+LN">Marshallese</item>
+    <item id="c2" line="277" tag="L">John      e-j        ke    konono ibben   Mary?</item>
+    <item id="c3" line="278 279" tag="G+CR">John      3SG-PRES INTERR talk    with    Mary</item>
+    <item id="c5" line="280" tag="T">Is John talking to Mary?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

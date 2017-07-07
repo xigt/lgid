@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i62513">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3908" line-range="158-161" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="158" tag="M+CN">  (6) a. Non-anaphoric active:</item>
+    <item id="o2" line="159" tag="L">         ti   mi-t i-gi       chenyi chaq-sung</item>
+    <item id="o3" line="160" tag="G">         DEF man-DEF-ERG cup/ABS break-PAST/EVID</item>
+    <item id="o4" line="161" tag="T">         'The man broke the cup'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="158" tag="M+CN">Non-anaphoric active:</item>
+    <item id="c2" line="159" tag="L">ti   mi-t i-gi       chenyi chaq-sung</item>
+    <item id="c3" line="160" tag="G">DEF man-DEF-ERG cup/ABS break-PAST/EVID</item>
+    <item id="c4" line="161" tag="T">The man broke the cup</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i62514">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3908" line-range="168-173" line-types="M+CN L G T+EX T+AL+EX T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="168" tag="M+CN">      b. Anaphoric agent:</item>
+    <item id="o2" line="169" tag="L">         chenyi     chaq-sung</item>
+    <item id="o3" line="170" tag="G">         cup/ABS break-PAST/EVID</item>
+    <item id="o4" line="171" tag="T+EX">           (i) Active interpretation: 'He/she broke the cup'</item>
+    <item id="o5" line="172" tag="T+AL+EX">           (ii) Passive interpretation: 'The cup was broken',</item>
+    <item id="o6" line="173" tag="T+AL">                                         'Someone broke the cup'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="168" tag="M+CN">Anaphoric agent:</item>
+    <item id="c2" line="169" tag="L">chenyi     chaq-sung</item>
+    <item id="c3" line="170" tag="G">cup/ABS break-PAST/EVID</item>
+    <item id="c4" line="171" tag="T+EX">'He/she broke the cup</item>
+    <item id="c5" line="172" tag="T+AL+EX">'The cup was broken',</item>
+    <item id="c6" line="173" tag="T+AL">Someone broke the cup</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+    <item id="t1" content="c5[0:21]" alignment="p1"/>
+    <item id="t2" content="c6[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i62518">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3908" line-range="304-311" line-types="M+EX L G M+EX T M+EX T+AL T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="304" tag="M+EX">  (12) Sherpa zero-anaphora passive (F):</item>
+    <item id="o2" line="305" tag="L">         chenyi chaqx-sung</item>
+    <item id="o3" line="306" tag="G">         cup/ABS break-PAST/EVID</item>
+    <item id="o4" line="307" tag="M+EX">           a. Active, anaphoric agent:</item>
+    <item id="o5" line="308" tag="T">             'he/she broke the cup'</item>
+    <item id="o6" line="309" tag="M+EX">           b. Passive, impersonal agent:</item>
+    <item id="o7" line="310" tag="T+AL">              'The cup was broken'</item>
+    <item id="o8" line="311" tag="T+AL">              'Someone broke the cup'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="304" tag="M+EX">Sherpa zero-anaphora passive (F):</item>
+    <item id="c2" line="305" tag="L">chenyi chaqx-sung</item>
+    <item id="c3" line="306" tag="G">cup/ABS break-PAST/EVID</item>
+    <item id="c4" line="307" tag="M+EX">Active, anaphoric agent:</item>
+    <item id="c5" line="308" tag="T">he/she broke the cup</item>
+    <item id="c6" line="309" tag="M+EX">Passive, impersonal agent:</item>
+    <item id="c7" line="310" tag="T+AL">The cup was broken</item>
+    <item id="c8" line="311" tag="T+AL">Someone broke the cup</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:20]" alignment="p1"/>
+    <item id="t1" content="c7[0:18]" alignment="p1"/>
+    <item id="t2" content="c8[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65052">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="991-992" line-types="L-T+CR L-T+CN+CR+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="991" tag="L-T+CR">                 `duN- gi- nok</item>
+    <item id="o2" line="992" tag="L-T+CN+CR+EX">  (30)   HE:                            `(someone) hits/is hitting' (I perceive/ha ve</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="991 992" tag="L-T+CR+CN+EX">    `duN-gi-nok          `(someone) hits/is hitting' (I perceive/ha ve</item>
+  </tier>
+</igt>
+<igt id="i65053">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="996-996" line-types="L-T+CN+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="996" tag="L-T+CN+EX">         PI:     `du- nok               `(someone) hit'               (I infer)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="996" tag="L-T+CN+EX">    `du-nok               `(someone) hit'               (I infer)</item>
+  </tier>
+</igt>
+<igt id="i65054">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="998-999" line-types="L-T+CR L-T+CN+CR+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="998" tag="L-T+CR">                 `duN-gum- nok</item>
+    <item id="o2" line="999" tag="L-T+CN+CR+EX">         FI:                            `(I) will hit'                (I can tell you right now)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="998 999" tag="L-T+CR+CN+EX">    `duN-gum-nok          `(I) will hit'                (I can tell you right now)</item>
+  </tier>
+</igt>
+<igt id="i65055">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1004-1005" line-types="L-T+CR L-T+CN+CR+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1004" tag="L-T+CR">                 `duN- gu- wi</item>
+    <item id="o2" line="1005" tag="L-T+CN+CR+EX">         GN:                            `(someone) hits/is hitting       (It is known)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1004 1005" tag="L-T+CR+CN+EX">    `duN-gu-wi           `(someone) hits/is hitting       (It is known)</item>
+  </tier>
+</igt>
+<igt id="i65056">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1007-1008" line-types="L-T+CR L-T+CN+CR+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1007" tag="L-T+CR">                 `du- suN</item>
+    <item id="o2" line="1008" tag="L-T+CN+CR+EX">         PE:                            `(someone) hit/was hitting'      (I experienced)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1007 1008" tag="L-T+CR+CN+EX">    `du-suN               `(someone) hit/was hitting'      (I experienced)</item>
+  </tier>
+</igt>
+<igt id="i65057">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1010-1011" line-types="L-T+CR L-T+CN+CR+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1010" tag="L-T+CR">                 `duN- in</item>
+    <item id="o2" line="1011" tag="L-T+CN+CR+EX">         FFP:                           `(I) will hit'                   (I think)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1010 1011" tag="L-T+CR+CN+EX">   `duN-in               `(I) will hit'                   (I think)</item>
+  </tier>
+</igt>
+<igt id="i65058">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1048-1052" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1048" tag="L">  (32)   a. `ti `gi ­ nok</item>
+    <item id="o2" line="1049" tag="B"></item>
+    <item id="o3" line="1050" tag="G">            he comes-HE</item>
+    <item id="o4" line="1051" tag="B"></item>
+    <item id="o5" line="1052" tag="T+EX">           `He comes/is coming' (according to my current experience)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1048" tag="L">`ti `gi ­ nok</item>
+    <item id="c2" line="1049" tag="B"/>
+    <item id="c3" line="1050" tag="G">he comes-HE</item>
+    <item id="c4" line="1051" tag="B"/>
+    <item id="c5" line="1052" tag="T+EX">He comes/is coming' (according to my current experience)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:56]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65059">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1054-1058" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1054" tag="L">         b. `ti 'gi ­ wi</item>
+    <item id="o2" line="1055" tag="B"></item>
+    <item id="o3" line="1056" tag="G">             he comes-GN</item>
+    <item id="o4" line="1057" tag="B"></item>
+    <item id="o5" line="1058" tag="T+EX">            `He comes/is coming/will come' (it is known)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1054" tag="L">`ti 'gi ­ wi</item>
+    <item id="c2" line="1055" tag="B"/>
+    <item id="c3" line="1056" tag="G">he comes-GN</item>
+    <item id="c4" line="1057" tag="B"/>
+    <item id="c5" line="1058" tag="T+EX">He comes/is coming/will come' (it is known)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65060">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1060-1064" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1060" tag="L">         c. daa saa-p          mi   ti yembur-laa        deki-nok</item>
+    <item id="o2" line="1061" tag="B"></item>
+    <item id="o3" line="1062" tag="G">            rice eat-noun man he Katmandu-DAT say-HE</item>
+    <item id="o4" line="1063" tag="B"></item>
+    <item id="o5" line="1064" tag="T+EX">           `The man who is eating rice lives in Katmandu' (I see, have seen)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1060" tag="L">daa saa-p          mi   ti yembur-laa        deki-nok</item>
+    <item id="c2" line="1061" tag="B"/>
+    <item id="c3" line="1062" tag="G">rice eat-noun man he Katmandu-DAT say-HE</item>
+    <item id="c4" line="1063" tag="B"/>
+    <item id="c5" line="1064" tag="T+EX">The man who is eating rice lives in Katmandu' (I see, have seen)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65061">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1066-1070" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1066" tag="L">         d. daa saa-p          mi   ti yembur-laa        deki-wi</item>
+    <item id="o2" line="1067" tag="B"></item>
+    <item id="o3" line="1068" tag="G">            rice eat-noun man he Katmandu-DAT say-GN</item>
+    <item id="o4" line="1069" tag="B"></item>
+    <item id="o5" line="1070" tag="T+EX">         `The man who is eating rice lives in Katmandu'(It is known)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1066" tag="L">daa saa-p          mi   ti yembur-laa        deki-wi</item>
+    <item id="c2" line="1067" tag="B"/>
+    <item id="c3" line="1068" tag="G">rice eat-noun man he Katmandu-DAT say-GN</item>
+    <item id="c4" line="1069" tag="B"/>
+    <item id="c5" line="1070" tag="T+EX">The man who is eating rice lives in Katmandu'(It is known)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65062">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1072-1077" line-types="L+CR L+CR B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1072" tag="L+CR">         a. øe</item>
+    <item id="o2" line="1073" tag="L+CR">  (33)               `ti-laa    salaa     `sir-um- nok</item>
+    <item id="o3" line="1074" tag="B"></item>
+    <item id="o4" line="1075" tag="G">            I- erg    he-DAT tomorrow say-FI</item>
+    <item id="o5" line="1076" tag="B"></item>
+    <item id="o6" line="1077" tag="T+EX">               `I will say (it) to him tomorrow' (I can tell you right now...)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1072 1073" tag="L+CR">øe      `ti-laa    salaa     `sir-um-nok</item>
+    <item id="c3" line="1074" tag="B"/>
+    <item id="c4" line="1075" tag="G">I-erg    he-DAT tomorrow say-FI</item>
+    <item id="c5" line="1076" tag="B"/>
+    <item id="c6" line="1077" tag="T+EX">I will say (it) to him tomorrow' (I can tell you right now...)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:62]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65063">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1079-1083" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1079" tag="L">          b. øe          `ti-laa    salaa       `sir-in</item>
+    <item id="o2" line="1080" tag="B"></item>
+    <item id="o3" line="1081" tag="G">                I- erg    he-DAT tomorrow say-FF</item>
+    <item id="o4" line="1082" tag="B"></item>
+    <item id="o5" line="1083" tag="T+EX">               `I will say (it) to him tomorrow' (I think...)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1079" tag="L">øe          `ti-laa    salaa       `sir-in</item>
+    <item id="c2" line="1080" tag="B"/>
+    <item id="c3" line="1081" tag="G">I-erg    he-DAT tomorrow say-FF</item>
+    <item id="c4" line="1082" tag="B"/>
+    <item id="c5" line="1083" tag="T+EX">I will say (it) to him tomorrow' (I think...)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i65064">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1416" line-range="1085-1090" line-types="L+CR L+CR B G B T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1085" tag="L+CR">                                   cohtoch-qh</item>
+    <item id="o2" line="1086" tag="L+CR">          c. du'ku- bem</item>
+    <item id="o3" line="1087" tag="B"></item>
+    <item id="o4" line="1088" tag="G">                finish-EVID        left-EVID</item>
+    <item id="o5" line="1089" tag="B"></item>
+    <item id="o6" line="1090" tag="T+SY">                `Hei must have finished [and] he must have left      j</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1085 1086" tag="L+CR">du'ku-bem            cohtoch-qh</item>
+    <item id="c3" line="1087" tag="B"/>
+    <item id="c4" line="1088" tag="G">finish-EVID        left-EVID</item>
+    <item id="c5" line="1089" tag="B"/>
+    <item id="c6" line="1090" tag="T+SY">Hei must have finished [and] he must have left      j</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69002">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1298-1299" line-types="M+AC+LN B"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1298" tag="M+AC+LN">  (35)   Sherpa (Woodbury 1986)</item>
+    <item id="o2" line="1299" tag="B"></item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1298" tag="M+AC+LN">Sherpa (Woodbury 1986</item>
+    <item id="c2" line="1299" tag="B"/>
+  </tier>
+</igt>
+<igt id="i69003">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1300-1303" line-types="L+CR+EX M+CR+EX B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1300" tag="L+CR+EX">         a. `du-gi-nok                                   HAB              EXPER</item>
+    <item id="o2" line="1301" tag="M+CR+EX">                                                               ITUAL              IENTIAL</item>
+    <item id="o3" line="1302" tag="B"></item>
+    <item id="o4" line="1303" tag="T">            `(someone) hits/is hitting (I perceive/have perceived)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1300 1301" tag="L+CR+EX+M">`du-gi-nok                                   HAB   ITUAL      EXPER   IENTIAL</item>
+    <item id="c3" line="1302" tag="B"/>
+    <item id="c4" line="1303" tag="T">someone) hits/is hitting (I perceive/have perceived</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69004">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1305-1307" line-types="L+CR+EX B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1305" tag="L+CR+EX">         b. `du-nok                                      P   AST INFERENTIAL</item>
+    <item id="o2" line="1306" tag="B"></item>
+    <item id="o3" line="1307" tag="T">           `(someone) hit (I infer)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1305" tag="L+CR+EX">`du-nok                                      P   AST INFERENTIAL</item>
+    <item id="c2" line="1306" tag="B"/>
+    <item id="c3" line="1307" tag="T">someone) hit (I infer</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69005">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1309-1311" line-types="L+CR+EX B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1309" tag="L+CR+EX">         c. `du-gum-nok                                  FUTURE IN       FERENTIAL</item>
+    <item id="o2" line="1310" tag="B"></item>
+    <item id="o3" line="1311" tag="T">         `(I) will hit (I can tell you)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1309" tag="L+CR+EX">`du-gum-nok                                  FUTURE IN       FERENTIAL</item>
+    <item id="c2" line="1310" tag="B"/>
+    <item id="c3" line="1311" tag="T">will hit (I can tell you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69006">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1315-1317" line-types="L+CR+EX B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1315" tag="L+CR+EX">         d. `du-gu-wi                                    GNOM      IC</item>
+    <item id="o2" line="1316" tag="B"></item>
+    <item id="o3" line="1317" tag="T">             `(someone) hits/is hitting (It is known)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1315" tag="L+CR+EX">`du-gu-wi                                    GNOM      IC</item>
+    <item id="c2" line="1316" tag="B"/>
+    <item id="c3" line="1317" tag="T">someone) hits/is hitting (It is known</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69007">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1319-1322" line-types="L+CR+EX M+CR+EX B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1319" tag="L+CR+EX">         e. `du-su                                       P         EXP</item>
+    <item id="o2" line="1320" tag="M+CR+EX">                                                             AST         ERIENTIAL</item>
+    <item id="o3" line="1321" tag="B"></item>
+    <item id="o4" line="1322" tag="T">             `(someone) hit/was hitting (I experienced)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1319 1320" tag="L+CR+EX+M">`du-su                                       P   AST   EXP   ERIENTIAL</item>
+    <item id="c3" line="1321" tag="B"/>
+    <item id="c4" line="1322" tag="T">someone) hit/was hitting (I experienced</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69008">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1324-1326" line-types="L+CR+EX B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1324" tag="L+CR+EX">         f. `du-in                                       FUTURE F        IRST PERSON</item>
+    <item id="o2" line="1325" tag="B"></item>
+    <item id="o3" line="1326" tag="T">            `(I) will hit (I think)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1324" tag="L+CR+EX">`du-in                                       FUTURE F        IRST PERSON</item>
+    <item id="c2" line="1325" tag="B"/>
+    <item id="c3" line="1326" tag="T">will hit (I think</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69009">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1393-1397" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1393" tag="L">  (38)   a. `ti `gi ­nok</item>
+    <item id="o2" line="1394" tag="B"></item>
+    <item id="o3" line="1395" tag="G">            he comes-HE</item>
+    <item id="o4" line="1396" tag="B"></item>
+    <item id="o5" line="1397" tag="T+EX">           `He comes/is coming' (according to my current experience)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1393" tag="L">`ti `gi ­nok</item>
+    <item id="c2" line="1394" tag="B"/>
+    <item id="c3" line="1395" tag="G">he comes-HE</item>
+    <item id="c4" line="1396" tag="B"/>
+    <item id="c5" line="1397" tag="T+EX">He comes/is coming' (according to my current experience)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:56]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69010">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1399-1403" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1399" tag="L">         b. `ti 'gi ­wi</item>
+    <item id="o2" line="1400" tag="B"></item>
+    <item id="o3" line="1401" tag="G">            he comes-GN</item>
+    <item id="o4" line="1402" tag="B"></item>
+    <item id="o5" line="1403" tag="T+EX">            `He comes/is coming/will come' (it is known)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1399" tag="L">`ti 'gi ­wi</item>
+    <item id="c2" line="1400" tag="B"/>
+    <item id="c3" line="1401" tag="G">he comes-GN</item>
+    <item id="c4" line="1402" tag="B"/>
+    <item id="c5" line="1403" tag="T+EX">He comes/is coming/will come' (it is known)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69011">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1405-1409" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1405" tag="L">         c. daa saa-p       mi   ti yembur-laa          deki-nok</item>
+    <item id="o2" line="1406" tag="B"></item>
+    <item id="o3" line="1407" tag="G">            rice eat-noun man he Katmandu-DAT say-HE</item>
+    <item id="o4" line="1408" tag="B"></item>
+    <item id="o5" line="1409" tag="T+EX">         `The man who is eating rice lives in Katmandu' (I see, have seen)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1405" tag="L">daa saa-p       mi   ti yembur-laa          deki-nok</item>
+    <item id="c2" line="1406" tag="B"/>
+    <item id="c3" line="1407" tag="G">rice eat-noun man he Katmandu-DAT say-HE</item>
+    <item id="c4" line="1408" tag="B"/>
+    <item id="c5" line="1409" tag="T+EX">The man who is eating rice lives in Katmandu' (I see, have seen)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69012">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1411-1415" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1411" tag="L">         d. daa saa-p       mi      ti yembur-laa       deki-wi</item>
+    <item id="o2" line="1412" tag="B"></item>
+    <item id="o3" line="1413" tag="G">            rice eat-noun man he Katmandu-DAT say-GN</item>
+    <item id="o4" line="1414" tag="B"></item>
+    <item id="o5" line="1415" tag="T+EX">           `The man who is eating rice lives in Katmandu'(It is known)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1411" tag="L">daa saa-p       mi      ti yembur-laa       deki-wi</item>
+    <item id="c2" line="1412" tag="B"/>
+    <item id="c3" line="1413" tag="G">rice eat-noun man he Katmandu-DAT say-GN</item>
+    <item id="c4" line="1414" tag="B"/>
+    <item id="c5" line="1415" tag="T+EX">The man who is eating rice lives in Katmandu'(It is known)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69013">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1417-1421" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1417" tag="L">  (39)   a. e     `ti-laa   salaa         `sir-um-nok</item>
+    <item id="o2" line="1418" tag="B"></item>
+    <item id="o3" line="1419" tag="G">             I-erg he-DAT tomorrow say-FI</item>
+    <item id="o4" line="1420" tag="B"></item>
+    <item id="o5" line="1421" tag="T+EX">           `I will say (it) to him tomorrow' (I can tell you right now...)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1417" tag="L">e     `ti-laa   salaa         `sir-um-nok</item>
+    <item id="c2" line="1418" tag="B"/>
+    <item id="c3" line="1419" tag="G">I-erg he-DAT tomorrow say-FI</item>
+    <item id="c4" line="1420" tag="B"/>
+    <item id="c5" line="1421" tag="T+EX">I will say (it) to him tomorrow' (I can tell you right now...)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:62]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69014">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3085" line-range="1423-1427" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1423" tag="L">         b. e       `ti-laa   salaa     `sir-in</item>
+    <item id="o2" line="1424" tag="B"></item>
+    <item id="o3" line="1425" tag="G">            I-erg    he-DAT tomorrow say-FF</item>
+    <item id="o4" line="1426" tag="B"></item>
+    <item id="o5" line="1427" tag="T+EX">         `I will say (it) to him tomorrow' (I think...)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1423" tag="L">e       `ti-laa   salaa     `sir-in</item>
+    <item id="c2" line="1424" tag="B"/>
+    <item id="c3" line="1425" tag="G">I-erg    he-DAT tomorrow say-FF</item>
+    <item id="c4" line="1426" tag="B"/>
+    <item id="c5" line="1427" tag="T+EX">I will say (it) to him tomorrow' (I think...)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i133667">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2391" line-range="55-57" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="55" tag="L">    (2)   ti mi-ti-gi     chenyi chaax-sung</item>
+    <item id="o2" line="56" tag="G">          the man-def-erg cup    break-perf/3sg</item>
+    <item id="o3" line="57" tag="T">          "The man broke the cup"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="55" tag="L">ti mi-ti-gi     chenyi chaax-sung</item>
+    <item id="c2" line="56" tag="G">the man-def-erg cup    break-perf/3sg</item>
+    <item id="c3" line="57" tag="T">The man broke the cup</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i133668">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sherpa" iso-639-3="xsr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2391" line-range="58-61" line-types="L G T M+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="58" tag="L">    (3)   ti mi-ti          chenyi chaax-ki-no</item>
+    <item id="o2" line="59" tag="G">          the man-def/abs cup      break-aux-imperf/3sg</item>
+    <item id="o3" line="60" tag="T">          "the man is breaking the cup"</item>
+    <item id="o4" line="61" tag="M+LN">          (Sherpa, Tibetan)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="58" tag="L">ti mi-ti          chenyi chaax-ki-no</item>
+    <item id="c2" line="59" tag="G">the man-def/abs cup      break-aux-imperf/3sg</item>
+    <item id="c3" line="60" tag="T">the man is breaking the cup</item>
+    <item id="c4" line="61" tag="M+LN">Sherpa, Tibetan</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

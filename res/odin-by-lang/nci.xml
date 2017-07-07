@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i11407">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical aztec" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2485" line-range="464-468" line-types="L B G T M+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="464" tag="L">  (21) an-teecLaso/La.</item>
+    <item id="o2" line="465" tag="B"></item>
+    <item id="o3" line="466" tag="G">       2PL-love-us</item>
+    <item id="o4" line="467" tag="T">       `You love us.'</item>
+    <item id="o5" line="468" tag="M+AC+LN">       (Classical Aztec; Steele 1977: 539)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="464" tag="L">an-teecLaso/La.</item>
+    <item id="c2" line="465" tag="B"/>
+    <item id="c3" line="466" tag="G">2PL-love-us</item>
+    <item id="c4" line="467" tag="T">You love us.</item>
+    <item id="c5" line="468" tag="M+AC+LN">Classical Aztec; Steele 1977: 539</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i12041">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2499" line-range="3248-3251" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3248" tag="L+CR">               no-cal          cal-tin       no-cal-huan cal-li/*cal</item>
+    <item id="o2" line="3249" tag="L+CR">  (23)</item>
+    <item id="o3" line="3250" tag="G">               my-house        house-pl my-house-pl house-abs</item>
+    <item id="o4" line="3251" tag="T">               `my house' `houses' `my houses' `house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3248 3249" tag="L+CR">no-cal          cal-tin       no-cal-huan cal-li/*cal</item>
+    <item id="c3" line="3250" tag="G">my-house        house-pl my-house-pl house-abs</item>
+    <item id="c4" line="3251" tag="T">my house' `houses' `my houses' `house</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15417">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3545" line-range="871-873" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="871" tag="L">        (30) a. Ika tlake -ki-tete-ki            panci.</item>
+    <item id="o2" line="872" tag="G">                 with what 3sS-3sO-cut-PAST bread</item>
+    <item id="o3" line="873" tag="T">                    `With what did he cut the bread?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="871" tag="L">Ika tlake-ki-tete-ki            panci.</item>
+    <item id="c2" line="872" tag="G">with what 3sS-3sO-cut-PAST bread</item>
+    <item id="c3" line="873" tag="T">With what did he cut the bread?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15418">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3545" line-range="874-876" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="874" tag="L">             b. Ne -(*ki)-panci-tete-ki ika kocillo.</item>
+    <item id="o2" line="875" tag="G">                 3SG 3sS-3sO-bread-cut-PAST with knife</item>
+    <item id="o3" line="876" tag="T">                    `He cut the bread with a knife.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="874" tag="L">Ne-(*ki)-panci-tete-ki ika kocillo.</item>
+    <item id="c2" line="875" tag="G">3SG 3sS-3sO-bread-cut-PAST with knife</item>
+    <item id="c3" line="876" tag="T">He cut the bread with a knife.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15437">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3545" line-range="1330-1332" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1330" tag="L+LN">        (49) Tla-se-weci- .                                                           (Nahuatl)</item>
+    <item id="o2" line="1331" tag="G">              INDEF-snow-fall-PRES</item>
+    <item id="o3" line="1332" tag="T">                `It's snowing.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1330" tag="L+LN">Tla-se-weci-.                                                           (Nahuatl</item>
+    <item id="c2" line="1331" tag="G">INDEF-snow-fall-PRES</item>
+    <item id="c3" line="1332" tag="T">It's snowing.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15438">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3545" line-range="1336-1338" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1336" tag="L+LN">        (50) a. Tlaka-tl mo-keca.                                                     (Nahuatl)</item>
+    <item id="o2" line="1337" tag="G">                    man-NSF REFL-stand.up</item>
+    <item id="o3" line="1338" tag="T">                      `The man stood up.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1336" tag="L+LN">a. Tlaka-tl mo-keca.                                                     (Nahuatl</item>
+    <item id="c2" line="1337" tag="G">man-NSF REFL-stand.up</item>
+    <item id="c3" line="1338" tag="T">The man stood up.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15439">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3545" line-range="1339-1342" line-types="L G B T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1339" tag="L">              b. #Mo-tlaka-keca.</item>
+    <item id="o2" line="1340" tag="G">                    REFL-man-stand.up</item>
+    <item id="o3" line="1341" tag="B">                                                                                   26</item>
+    <item id="o4" line="1342" tag="T+DB">                      NOT: `The man stood up.' (OK as `He stands like a man.' )</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1339" tag="L">#Mo-tlaka-keca.</item>
+    <item id="c2" line="1340" tag="G">REFL-man-stand.up</item>
+    <item id="c3" line="1341" tag="B">26</item>
+    <item id="c4" line="1342" tag="T+DB">`The man stood up.' (OK as `He stands like a man.' )</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15592">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3539" line-range="2206-2208" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2206" tag="L+LN">  (77)    a. 0-quim-itta cchua in pilli.                                 (Nahuatl)</item>
+    <item id="o2" line="2207" tag="G">             3sS-3pO-see snakes       DET child.</item>
+    <item id="o3" line="2208" tag="T">             `The child saw (some) snakes.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2206" tag="L+LN">a. 0-quim-itta cchua in pilli.                                 (Nahuatl</item>
+    <item id="c2" line="2207" tag="G">3sS-3pO-see snakes       DET child.</item>
+    <item id="c3" line="2208" tag="T">The child saw (some) snakes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15593">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3539" line-range="2210-2212" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2210" tag="L+EX">          b. 0-quim-itta in pilli in cchua.                              [confirm from grammar]</item>
+    <item id="o2" line="2211" tag="G">             3sS-3pO-see DET child DET snakes.</item>
+    <item id="o3" line="2212" tag="T">             `The child saw the snakes.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2210" tag="L+EX">0-quim-itta in pilli in cchua.                              [confirm from grammar]</item>
+    <item id="c2" line="2211" tag="G">3sS-3pO-see DET child DET snakes.</item>
+    <item id="c3" line="2212" tag="T">The child saw the snakes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15834">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3542" line-range="119-122" line-types="L+LN G T L+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="119" tag="L+LN">  (4)     Petla-pan, icpal-pan        ni-ca'.                                     (Nahuatl)</item>
+    <item id="o2" line="120" tag="G">          mat-on     chair-on         1sS-be</item>
+    <item id="o3" line="121" tag="T">          `I am on a mat, on a      chair.' (i.e. I govern.)</item>
+    <item id="o4" line="122" tag="L+AL">          Not: *Ni-petla-pan,       n-icpal-pan ni-ca'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="119" tag="L+LN">Petla-pan, icpal-pan        ni-ca'.                                     (Nahuatl</item>
+    <item id="c2" line="120" tag="G">mat-on     chair-on         1sS-be</item>
+    <item id="c3" line="121" tag="T">I am on a mat, on a      chair.' (i.e. I govern.)</item>
+    <item id="c4" line="122" tag="L+AL">*Ni-petla-pan,       n-icpal-pan ni-ca'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+    <item id="p1" content="c4[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15845">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3542" line-range="239-241" line-types="L+AC+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="239" tag="L+AC+DB">  (8)    a. no-te-uh                   (cf. te-tl)                   (Launey, p. 90)</item>
+    <item id="o2" line="240" tag="G+DB">            1sP-rock-poss              rock-nsf</item>
+    <item id="o3" line="241" tag="T+DB">            `my rock(s)'               `a/the rock'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="239" tag="L+AC+DB">a. no-te-uh                   (cf. te-tl)                   (Launey, p. 90</item>
+    <item id="c2" line="240" tag="G+DB">1sP-rock-poss              rock-nsf</item>
+    <item id="c3" line="241" tag="T+DB">my rock(s)'               `a/the rock</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15846">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3542" line-range="243-245" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="243" tag="L+DB">         b. am-e-uh             (cf. e-tl)</item>
+    <item id="o2" line="244" tag="G+DB">            2pP-bean-poss            bean-nsf</item>
+    <item id="o3" line="245" tag="T+DB">            `your bean(s)'      (the) bean(s)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="243" tag="L+DB">am-e-uh             (cf. e-tl)</item>
+    <item id="c2" line="244" tag="G+DB">2pP-bean-poss            bean-nsf</item>
+    <item id="c3" line="245" tag="T+DB">your bean(s)'      (the) bean(s)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27584">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="847" line-range="3674-3676" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3674" tag="L">  E88.     káa        hóop'                 u     ko'n-ol-o'b                 pàal-il-tsil-o'b</item>
+    <item id="o2" line="3675" tag="G">           CONN       begin(ABS.3.SG)       SBJ.3 sell\PASS-INCMPL-3.PL child-REL-ABSOL-PL</item>
+    <item id="o3" line="3676" tag="T+AC">           `and then slaves were sold' (FCP 086)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3674" tag="L">E88.     káa        hóop'                 u     ko'n-ol-o'b                 pàal-il-tsil-o'b</item>
+    <item id="c2" line="3675" tag="G">CONN       begin(ABS.3.SG)       SBJ.3 sell\PASS-INCMPL-3.PL child-REL-ABSOL-PL</item>
+    <item id="c3" line="3676" tag="T+AC">and then slaves were sold' (FCP 086)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:92]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:79]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i51930">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1207" line-range="1055-1057" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1055" tag="L">  (30)      a. Ti-c-huetzi-tia.</item>
+    <item id="o2" line="1056" tag="G">               2SG S-3SG O-fall-CAUS</item>
+    <item id="o3" line="1057" tag="T">               `You make him fall.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1055" tag="L">Ti-c-huetzi-tia.</item>
+    <item id="c2" line="1056" tag="G">2SG S-3SG O-fall-CAUS</item>
+    <item id="c3" line="1057" tag="T">You make him fall.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i51931">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1207" line-range="1059-1061" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1059" tag="L">            b. Ti-nëch-tza'tzï-tia</item>
+    <item id="o2" line="1060" tag="G">               2SG S-1SG O-shout-CAUS</item>
+    <item id="o3" line="1061" tag="T">               `You make me shout.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1059" tag="L">Ti-nëch-tza'tzï-tia</item>
+    <item id="c2" line="1060" tag="G">2SG S-1SG O-shout-CAUS</item>
+    <item id="c3" line="1061" tag="T">You make me shout.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i51932">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1207" line-range="1063-1065" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1063" tag="L">            c. Ni-mitz-cua-l-tia          in       nacatl.</item>
+    <item id="o2" line="1064" tag="G">               1SG S-2SG O-eat-X-CAUS the          meat</item>
+    <item id="o3" line="1065" tag="T">               `I made you eat the meat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1063" tag="L">Ni-mitz-cua-l-tia          in       nacatl.</item>
+    <item id="c2" line="1064" tag="G">1SG S-2SG O-eat-X-CAUS the          meat</item>
+    <item id="c3" line="1065" tag="T">I made you eat the meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i51933">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1207" line-range="1075-1077" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1075" tag="L">  (31)          Tla-cua-l-o.</item>
+    <item id="o2" line="1076" tag="G">                3INDF-eat-X-PASS</item>
+    <item id="o3" line="1077" tag="T">                `Something is eaten; one eats things.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1075" tag="L">Tla-cua-l-o.</item>
+    <item id="c2" line="1076" tag="G">3INDF-eat-X-PASS</item>
+    <item id="c3" line="1077" tag="T">Something is eaten; one eats things.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i51934">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1207" line-range="1088-1090" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1088" tag="L">  (32)          tla-cua-l-li</item>
+    <item id="o2" line="1089" tag="G">                3INDEF-eat-X-NSF</item>
+    <item id="o3" line="1090" tag="T">                `thing that one eats, food'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1088" tag="L">tla-cua-l-li</item>
+    <item id="c2" line="1089" tag="G">3INDEF-eat-X-NSF</item>
+    <item id="c3" line="1090" tag="T">thing that one eats, food</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i51935">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1207" line-range="1178-1180" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1178" tag="L+AC">  (35)      Ø-nëch-cac-chïhua-l-tia.                     (Launey 1981: 183)</item>
+    <item id="o2" line="1179" tag="G">            3SG S-1SG O-shoe-make-NONACT-CAUS</item>
+    <item id="o3" line="1180" tag="T">            `He makes me make shoes.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1178" tag="L+AC">Ø-nëch-cac-chïhua-l-tia.                     (Launey 1981: 183</item>
+    <item id="c2" line="1179" tag="G">3SG S-1SG O-shoe-make-NONACT-CAUS</item>
+    <item id="c3" line="1180" tag="T">He makes me make shoes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i51936">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1207" line-range="1248-1250" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1248" tag="L">  (38)       ö-Ø-tëch-mäquixti-co                        in to-tëucyo.</item>
+    <item id="o2" line="1249" tag="G">             PA -3SGS-1PL O-save-come/PERF               IN 1PL P -lord</item>
+    <item id="o3" line="1250" tag="T">             `Our Lord has come to save us.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1248" tag="L">ö-Ø-tëch-mäquixti-co                        in to-tëucyo.</item>
+    <item id="c2" line="1249" tag="G">PA-3SGS-1PL O-save-come/PERF               IN 1PL P-lord</item>
+    <item id="c3" line="1250" tag="T">Our Lord has come to save us.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i70432">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4082" line-range="1112-1115" line-types="L M G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1112" tag="L">          b.   in coy¯-meh</item>
+    <item id="o2" line="1113" tag="M">                       o</item>
+    <item id="o3" line="1114" tag="G">               the coyote-pl</item>
+    <item id="o4" line="1115" tag="T+AC+LN">               `the coyotes' (Nahuatl, cf. Andrews 1975)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1112" tag="L">in coy¯-meh</item>
+    <item id="c2" line="1113" tag="M">o</item>
+    <item id="c3" line="1114" tag="G">the coyote-pl</item>
+    <item id="c4" line="1115" tag="T+AC+LN">the coyotes' (Nahuatl, cf. Andrews 1975)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82579">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="264-269" line-types="M+AC+LN B L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="264" tag="M+AC+LN">  (5)    Nahuatl (Launey, 1981)</item>
+    <item id="o2" line="265" tag="B"></item>
+    <item id="o3" line="266" tag="L">         a. ni-c-cua               in       nacatl</item>
+    <item id="o4" line="267" tag="G+CR">            SM1S-OM3S    -eat               meat</item>
+    <item id="o5" line="268" tag="G+CR">                                   DEF</item>
+    <item id="o6" line="269" tag="T">            `I am eating the meat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="264" tag="M+AC+LN">Nahuatl (Launey, 1981</item>
+    <item id="c2" line="265" tag="B"/>
+    <item id="c3" line="266" tag="L">ni-c-cua               in       nacatl</item>
+    <item id="c4" line="267 268" tag="G+CR">SM1S-OM3S-eat      DEF      meat</item>
+    <item id="c6" line="269" tag="T">I am eating the meat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82580">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="271-273" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="271" tag="L">         b. ni-c-cua</item>
+    <item id="o2" line="272" tag="G">            SM1S-OM3S    -eat</item>
+    <item id="o3" line="273" tag="T">            `I am eating it'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="271" tag="L">ni-c-cua</item>
+    <item id="c2" line="272" tag="G">SM1S-OM3S-eat</item>
+    <item id="c3" line="273" tag="T">I am eating it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82581">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="275-277" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="275" tag="L">         c. ni-c-cua               nacatl</item>
+    <item id="o2" line="276" tag="G">            SM1S-OM3S    -eat      meat</item>
+    <item id="o3" line="277" tag="T">            `I am eating meat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="275" tag="L">ni-c-cua               nacatl</item>
+    <item id="c2" line="276" tag="G">SM1S-OM3S-eat      meat</item>
+    <item id="c3" line="277" tag="T">I am eating meat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93616">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1368" line-range="3292-3293" line-types="L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3292" tag="L">         (35)        Okittak in ye itatla</item>
+    <item id="o2" line="3293" tag="T">                     `He saw that it was burning'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3292" tag="L">Okittak in ye itatla</item>
+    <item id="c2" line="3293" tag="T">He saw that it was burning</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97246">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical aztec" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="7736-7740" line-types="L B G T M+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7736" tag="L">  (21) an-teecLaso/La.</item>
+    <item id="o2" line="7737" tag="B"></item>
+    <item id="o3" line="7738" tag="G">       2PL-love-us</item>
+    <item id="o4" line="7739" tag="T">       `You love us.'</item>
+    <item id="o5" line="7740" tag="M+AC+LN">       (Classical Aztec; Steele 1977: 539)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7736" tag="L">an-teecLaso/La.</item>
+    <item id="c2" line="7737" tag="B"/>
+    <item id="c3" line="7738" tag="G">2PL-love-us</item>
+    <item id="c4" line="7739" tag="T">You love us.</item>
+    <item id="c5" line="7740" tag="M+AC+LN">Classical Aztec; Steele 1977: 539</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97416">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical aztec" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="12080-12085" line-types="M+LN L B G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12080" tag="M+LN">            Classical Aztec</item>
+    <item id="o2" line="12081" tag="L">  (105) an-teecLaso/La</item>
+    <item id="o3" line="12082" tag="B"></item>
+    <item id="o4" line="12083" tag="G">            2PL-love-us</item>
+    <item id="o5" line="12084" tag="T">            `You love us.'</item>
+    <item id="o6" line="12085" tag="M+AC">            (Steele 1977: 539)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12080" tag="M+LN">Classical Aztec</item>
+    <item id="c2" line="12081" tag="L">an-teecLaso/La</item>
+    <item id="c3" line="12082" tag="B"/>
+    <item id="c4" line="12083" tag="G">2PL-love-us</item>
+    <item id="c5" line="12084" tag="T">You love us.</item>
+    <item id="c6" line="12085" tag="M+AC">539</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106356">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="236" line-range="6268-6269" line-types="L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6268" tag="L">         (35)        Okittak in ye itatla</item>
+    <item id="o2" line="6269" tag="T">                     `He saw that it was burning'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6268" tag="L">Okittak in ye itatla</item>
+    <item id="c2" line="6269" tag="T">He saw that it was burning</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106357">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="236" line-range="6271-6272" line-types="L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6271" tag="L">         (36)        Kineltokakeh ke inon se toteko</item>
+    <item id="o2" line="6272" tag="T">                     `They believed that he was a god'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6271" tag="L">Kineltokakeh ke inon se toteko</item>
+    <item id="c2" line="6272" tag="T">They believed that he was a god</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i133774">
+  <metadata type="xigt-meta">
+    <meta type="language" name="nahuatl" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2376" line-range="4472-4474" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4472" tag="L">  49 ni-c-qua                  in nacatl</item>
+    <item id="o2" line="4473" tag="G">            1sSBJ-3sDO-eat the meat</item>
+    <item id="o3" line="4474" tag="T+AC">                `I eat it the meat.' von Humboldt 1836 1963, 531</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4472" tag="L">49 ni-c-qua                  in nacatl</item>
+    <item id="c2" line="4473" tag="G">1sSBJ-3sDO-eat the meat</item>
+    <item id="c3" line="4474" tag="T+AC">I eat it the meat.' von Humboldt 1836 1963, 531</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150671">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical aztec" iso-639-3="nci" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2406" line-range="3270-3275" line-types="M+LN L B G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3270" tag="M+LN">            Classical Aztec</item>
+    <item id="o2" line="3271" tag="L">  (105) an-teecLaso/La</item>
+    <item id="o3" line="3272" tag="B"></item>
+    <item id="o4" line="3273" tag="G">            2PL-love-us</item>
+    <item id="o5" line="3274" tag="T">            `You love us.'</item>
+    <item id="o6" line="3275" tag="M+AC">            (Steele 1977: 539)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3270" tag="M+LN">Classical Aztec</item>
+    <item id="c2" line="3271" tag="L">an-teecLaso/La</item>
+    <item id="c3" line="3272" tag="B"/>
+    <item id="c4" line="3273" tag="G">2PL-love-us</item>
+    <item id="c5" line="3274" tag="T">You love us.</item>
+    <item id="c6" line="3275" tag="M+AC">539</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

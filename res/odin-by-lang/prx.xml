@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i48550">
+  <metadata type="xigt-meta">
+    <meta type="language" name="purki" iso-639-3="prx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="271-274" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="271" tag="L+CR">               kho rgyalpoik       in-min</item>
+    <item id="o2" line="272" tag="L+CR">  (20) a.</item>
+    <item id="o3" line="273" tag="G">               3SG king            be-PAST</item>
+    <item id="o4" line="274" tag="T">               `he was a king'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="271 272" tag="L+CR">kho rgyalpoik       in-min</item>
+    <item id="c3" line="273" tag="G">3SG king            be-PAST</item>
+    <item id="c4" line="274" tag="T">he was a king</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48551">
+  <metadata type="xigt-meta">
+    <meta type="language" name="purki" iso-639-3="prx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="275-279" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="275" tag="L+CR">                kho rdamo·          duk</item>
+    <item id="o2" line="276" tag="L+CR">                                      ·</item>
+    <item id="o3" line="277" tag="L+CR">         b.</item>
+    <item id="o4" line="278" tag="G">                3SG beautiful be.PRES</item>
+    <item id="o5" line="279" tag="T">                `she is beautiful'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="275 277" tag="L+CR">kho rdamo·          duk</item>
+    <item id="c4" line="278" tag="G">3SG beautiful be.PRES</item>
+    <item id="c5" line="279" tag="T">she is beautiful</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74125">
+  <metadata type="xigt-meta">
+    <meta type="language" name="purki" iso-639-3="prx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="293-296" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="293" tag="L+CR">               kho rgyalpoik</item>
+    <item id="o2" line="294" tag="L+CR">  (20) a.                           in-min</item>
+    <item id="o3" line="295" tag="G">               3SG king             be-PAST</item>
+    <item id="o4" line="296" tag="T">               `he was a king'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="293 294" tag="L+CR">kho rgyalpoik        in-min</item>
+    <item id="c3" line="295" tag="G">3SG king             be-PAST</item>
+    <item id="c4" line="296" tag="T">he was a king</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i74126">
+  <metadata type="xigt-meta">
+    <meta type="language" name="purki" iso-639-3="prx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="989" line-range="297-301" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="297" tag="L+CR">                 kho rdamo</item>
+    <item id="o2" line="298" tag="L+CR">         b.                ·          duk</item>
+    <item id="o3" line="299" tag="L+CR">                                       ·</item>
+    <item id="o4" line="300" tag="G">                 3SG beautiful be,PRES</item>
+    <item id="o5" line="301" tag="T">                 `she is beautiful'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="297 298" tag="L+CR">kho rdamo ·          duk</item>
+    <item id="c4" line="300" tag="G">3SG beautiful be,PRES</item>
+    <item id="c5" line="301" tag="T">she is beautiful</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115510">
+  <metadata type="xigt-meta">
+    <meta type="language" name="purki" iso-639-3="prx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3380" line-range="634-639" line-types="M+LN B L G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="634" tag="M+LN">         b.   Purki</item>
+    <item id="o2" line="635" tag="B"></item>
+    <item id="o3" line="636" tag="L">              kho-s       sTMoqsmo sTMoqsmo sila-t</item>
+    <item id="o4" line="637" tag="G+CR">                          fast        fast     read-PRES</item>
+    <item id="o5" line="638" tag="G+CR">              3SG-ERG</item>
+    <item id="o6" line="639" tag="T+AC">              `he reads very fast' (Rangan 1979: 110)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="634" tag="M+LN">Purki</item>
+    <item id="c2" line="635" tag="B"/>
+    <item id="c3" line="636" tag="L">kho-s       sTMoqsmo sTMoqsmo sila-t</item>
+    <item id="c4" line="637 638" tag="G+CR">3SG-ERG     fast        fast     read-PRES</item>
+    <item id="c6" line="639" tag="T+AC">he reads very fast' (Rangan 1979: 110)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115606">
+  <metadata type="xigt-meta">
+    <meta type="language" name="purki" iso-639-3="prx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3380" line-range="2108-2112" line-types="M+LN B L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2108" tag="M+LN">  (79)    a.   Purki</item>
+    <item id="o2" line="2109" tag="B"></item>
+    <item id="o3" line="2110" tag="L">               rd·amo      bomo is</item>
+    <item id="o4" line="2111" tag="G">               beautiful girl        two</item>
+    <item id="o5" line="2112" tag="T+AC">               `two beautiful girls' (Rangan 1989: 122)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2108" tag="M+LN">Purki</item>
+    <item id="c2" line="2109" tag="B"/>
+    <item id="c3" line="2110" tag="L">rd·amo      bomo is</item>
+    <item id="c4" line="2111" tag="G">beautiful girl        two</item>
+    <item id="c5" line="2112" tag="T+AC">two beautiful girls' (Rangan 1989: 122)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115641">
+  <metadata type="xigt-meta">
+    <meta type="language" name="purki" iso-639-3="prx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3380" line-range="2678-2684" line-types="M+LN B L+CR L+CR G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2678" tag="M+LN">  (99)   a.   Purki</item>
+    <item id="o2" line="2679" tag="B"></item>
+    <item id="o3" line="2680" tag="L+CR">              kho                  khama yo-cTMa:-men</item>
+    <item id="o4" line="2681" tag="L+CR">                      i</item>
+    <item id="o5" line="2682" tag="G+CR">                                   house    come-FUT-NEG</item>
+    <item id="o6" line="2683" tag="G+CR">              3PL     1SG,POSS</item>
+    <item id="o7" line="2684" tag="T+AC">              `they will not come to my house' (Read 1934: 94)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2678" tag="M+LN">Purki</item>
+    <item id="c2" line="2679" tag="B"/>
+    <item id="c3" line="2680 2681" tag="L+CR">kho     i            khama yo-cTMa:-men</item>
+    <item id="c5" line="2682 2683" tag="G+CR">3PL     1SG,POSS     house    come-FUT-NEG</item>
+    <item id="c7" line="2684" tag="T+AC">they will not come to my house' (Read 1934: 94)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i30564">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kriyol" iso-639-3="rop" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="305-308" line-types="M+AC+LN+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="305" tag="M+AC+LN+CN">  (9) Kriyol PC (Kihm 1996:222)</item>
+    <item id="o2" line="306" tag="L">        Mariya na       laba kurpu</item>
+    <item id="o3" line="307" tag="G">        Mariya ASP wash body</item>
+    <item id="o4" line="308" tag="T">        `Mary is washing (herself)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="305" tag="M+AC+LN+CN">Kriyol PC (Kihm 1996:222</item>
+    <item id="c2" line="306" tag="L">Mariya na       laba kurpu</item>
+    <item id="c3" line="307" tag="G">Mariya ASP wash body</item>
+    <item id="c4" line="308" tag="T">Mary is washing (herself)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30585">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kriyol" iso-639-3="rop" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="968-971" line-types="M+AC+LN+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="968" tag="M+AC+LN+CN">  (30) Kriyol CP (Kihm 1996:220-2)</item>
+    <item id="o2" line="969" tag="L">  a    Si kabesa ta juda Mariya na si tarbaju</item>
+    <item id="o3" line="970" tag="G">       her head ASP help Mary in her work</item>
+    <item id="o4" line="971" tag="T">       `Her head helps Mary in her work'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="968" tag="M+AC+LN+CN">Kriyol CP (Kihm 1996:220-2</item>
+    <item id="c2" line="969" tag="L">a    Si kabesa ta juda Mariya na si tarbaju</item>
+    <item id="c3" line="970" tag="G">her head ASP help Mary in her work</item>
+    <item id="c4" line="971" tag="T">Her head helps Mary in her work</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30586">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kriyol" iso-639-3="rop" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="973-976" line-types="L G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="973" tag="L">  b     Mariya oja si kabesa na    spiju</item>
+    <item id="o2" line="974" tag="G">        Mary see her head in       mirror</item>
+    <item id="o3" line="975" tag="T">        (a) `Mary saw herself in   the mirror',</item>
+    <item id="o4" line="976" tag="T+AL">        (b) `May saw her/his/its   head in the mirror'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="973" tag="L">b     Mariya oja si kabesa na    spiju</item>
+    <item id="c2" line="974" tag="G">Mary see her head in       mirror</item>
+    <item id="c3" line="975" tag="T">`Mary saw herself in   the mirror',</item>
+    <item id="c4" line="976" tag="T+AL">`May saw her/his/its   head in the mirror</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+    <item id="t1" content="c4[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30587">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kriyol" iso-639-3="rop" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="978-980" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="978" tag="L">  c     Mariya mata si kabesa</item>
+    <item id="o2" line="979" tag="G">        Mary kill her head</item>
+    <item id="o3" line="980" tag="T">        `Mary killed herself'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="978" tag="L">c     Mariya mata si kabesa</item>
+    <item id="c2" line="979" tag="G">Mary kill her head</item>
+    <item id="c3" line="980" tag="T">Mary killed herself</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30636">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kriyol" iso-639-3="rop" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="1665-1668" line-types="M+AC+LN+CN L G T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1665" tag="M+AC+LN+CN">  (62) Kriyol CP (Kihm 1996:222)</item>
+    <item id="o2" line="1666" tag="L">  a    Mariya na       laba    si kurpu</item>
+    <item id="o3" line="1667" tag="G">       Mariya ASP wash her body</item>
+    <item id="o4" line="1668" tag="T+DB">       (i) `Mary is washing (herself)', (ii) `Mary is washing someone else's body'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1665" tag="M+AC+LN+CN">Kriyol CP (Kihm 1996:222</item>
+    <item id="c2" line="1666" tag="L">a    Mariya na       laba    si kurpu</item>
+    <item id="c3" line="1667" tag="G">Mariya ASP wash her body</item>
+    <item id="c4" line="1668" tag="T+DB">`Mary is washing (herself)', (ii) `Mary is washing someone else's body</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:70]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30637">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kriyol" iso-639-3="rop" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="1670-1672" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1670" tag="L">  b     Mariya na       laba kurpu</item>
+    <item id="o2" line="1671" tag="G">        Mariya ASP wash body</item>
+    <item id="o3" line="1672" tag="T">        `Mary is washing (herself)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1670" tag="L">b     Mariya na       laba kurpu</item>
+    <item id="c2" line="1671" tag="G">Mariya ASP wash body</item>
+    <item id="c3" line="1672" tag="T">Mary is washing (herself)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i84706">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kriol" iso-639-3="rop" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3621" line-range="835-837" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="835" tag="L">       (12)       im-in     faind-im    rein karlanin</item>
+    <item id="o2" line="836" tag="G">                  3sg-PST find-TRN rain west.ABL</item>
+    <item id="o3" line="837" tag="T">                  `He found rain coming from the west.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="835" tag="L">im-in     faind-im    rein karlanin</item>
+    <item id="c2" line="836" tag="G">3sg-PST find-TRN rain west.ABL</item>
+    <item id="c3" line="837" tag="T">He found rain coming from the west.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i84707">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kriol" iso-639-3="rop" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3621" line-range="846-848" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="846" tag="L">       (13)       imin                buldan     spilim</item>
+    <item id="o2" line="847" tag="G">                  PRO.3SG-PAST fall              spill</item>
+    <item id="o3" line="848" tag="T">                  (the milk) spilled.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="846" tag="L">imin                buldan     spilim</item>
+    <item id="c2" line="847" tag="G">PRO.3SG-PAST fall              spill</item>
+    <item id="c3" line="848" tag="T">(the milk) spilled.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i84722">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kriol" iso-639-3="rop" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3621" line-range="1065-1067" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1065" tag="L">      (27)   send-im      la      Melbourne</item>
+    <item id="o2" line="1066" tag="G">             send-TRN PREP Melbourne</item>
+    <item id="o3" line="1067" tag="T">             `Send it to Melbourne'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1065" tag="L">send-im      la      Melbourne</item>
+    <item id="c2" line="1066" tag="G">send-TRN PREP Melbourne</item>
+    <item id="c3" line="1067" tag="T">Send it to Melbourne</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i85124">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maca" iso-639-3="mca" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="4428-4432" line-types="M+LN+CR B L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4428" tag="M+LN+CR">  (3.12) M    AKÁ</item>
+    <item id="o2" line="4429" tag="B"></item>
+    <item id="o3" line="4430" tag="L">         a.   hoy-otoy</item>
+    <item id="o4" line="4431" tag="G">              1-dance</item>
+    <item id="o5" line="4432" tag="T+AC">              `Yo bailo' (I am dancing)                                        (Gerzenstein, 1994: 106)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4428" tag="M+LN+CR">M    AKÁ</item>
+    <item id="c2" line="4429" tag="B"/>
+    <item id="c3" line="4430" tag="L">hoy-otoy</item>
+    <item id="c4" line="4431" tag="G">1-dance</item>
+    <item id="c5" line="4432" tag="T+AC">Yo bailo' (I am dancing)                                        (Gerzenstein, 1994: 106)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:7]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:88]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85125">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maca" iso-639-3="mca" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="4433-4436" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4433" tag="L+CR">              hoy-otoy-i</item>
+    <item id="o2" line="4434" tag="L+CR">         b.                                 tse-kheen</item>
+    <item id="o3" line="4435" tag="G">              1-dance-PLUR                  FEM-DEM</item>
+    <item id="o4" line="4436" tag="T+AC">              `Yo y ella bailamos' (We -she and I- are dancing) (Gerzenstein, 1994: 103)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4433 4434" tag="L+CR">hoy-otoy-i                    tse-kheen</item>
+    <item id="c3" line="4435" tag="G">1-dance-PLUR                  FEM-DEM</item>
+    <item id="c4" line="4436" tag="T+AC">Yo y ella bailamos' (We-she and I-are dancing) (Gerzenstein, 1994: 103)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:71]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85126">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maca" iso-639-3="mca" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="4443-4448" line-types="M+LN+CR B L G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4443" tag="M+LN+CR">  (3.13) M    AKÁ</item>
+    <item id="o2" line="4444" tag="B"></item>
+    <item id="o3" line="4445" tag="L">         a.   akha'             xit-otoy</item>
+    <item id="o4" line="4446" tag="G+CR">              2PRON                    -dance</item>
+    <item id="o5" line="4447" tag="G+CR">                                INCL</item>
+    <item id="o6" line="4448" tag="T+AC">              `Tú y yo bailamos' (We -you and I- are dancing)                  (Gerzenstein, 1994: 103)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4443" tag="M+LN+CR">M    AKÁ</item>
+    <item id="c2" line="4444" tag="B"/>
+    <item id="c3" line="4445" tag="L">akha'             xit-otoy</item>
+    <item id="c4" line="4446 4447" tag="G+CR">2PRON             INCL-dance</item>
+    <item id="c6" line="4448" tag="T+AC">Tú y yo bailamos' (We-you and I-are dancing)                  (Gerzenstein, 1994: 103)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:86]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85127">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maca" iso-639-3="mca" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="4449-4453" line-types="L G+CR G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4449" tag="L">         b.   inekhewel                xi-yi-lan-xu'          na'         qametenaX</item>
+    <item id="o2" line="4450" tag="G+CR">              1+2+3PRON                       -3-kill-PLUR                tiger</item>
+    <item id="o3" line="4451" tag="G+CR">                                                              DEM</item>
+    <item id="o4" line="4452" tag="G+CR">                                       INCL</item>
+    <item id="o5" line="4453" tag="T+AC">              `A nosotros, el tigre nos mata' (The tiger killed us) (Gerzenstein, 1994: 176)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4449" tag="L">inekhewel                xi-yi-lan-xu'          na'         qametenaX</item>
+    <item id="c2" line="4450 4451 4452" tag="G+CR">1+2+3PRON                INCL-3-kill-PLUR    DEM         tiger</item>
+    <item id="c5" line="4453" tag="T+AC">A nosotros, el tigre nos mata' (The tiger killed us) (Gerzenstein, 1994: 176)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:77]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

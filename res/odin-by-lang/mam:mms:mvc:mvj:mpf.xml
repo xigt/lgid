@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i299">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mam" iso-639-3="mam:mms:mvc:mvj:mpf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2985" line-range="35-38" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="35" tag="M+LN">  (3)    Mam (Mayan; Guatemala and México)</item>
+    <item id="o2" line="36" tag="L">         a.    Alkyee x-            hi      b'eet?</item>
+    <item id="o3" line="37" tag="G">               who RECENT- 3plABS walk</item>
+    <item id="o4" line="38" tag="T">               `Who walked?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="35" tag="M+LN">Mam (Mayan; Guatemala and México</item>
+    <item id="c2" line="36" tag="L">Alkyee x-hi      b'eet?</item>
+    <item id="c3" line="37" tag="G">who RECENT-3plABS walk</item>
+    <item id="c4" line="38" tag="T">Who walked?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i300">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mam" iso-639-3="mam:mms:mvc:mvj:mpf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2985" line-range="39-41" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="39" tag="L">         b.    Alkyee- qa x-             hi     tzaj t-          tzyu- 7n   Cheep?</item>
+    <item id="o2" line="40" tag="G">               who-     PL RECENT- 3pABS DIR 3sERG-              grab- DIRS José</item>
+    <item id="o3" line="41" tag="T">               `Who did José grab?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="39" tag="L">Alkyee-qa x-hi     tzaj t-tzyu-7n   Cheep?</item>
+    <item id="c2" line="40" tag="G">who-PL RECENT-3pABS DIR 3sERG-grab-DIRS José</item>
+    <item id="c3" line="41" tag="T">Who did José grab?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i301">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mam" iso-639-3="mam:mms:mvc:mvj:mpf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2985" line-range="42-44" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="42" tag="L">         c.   *Alkyee saj                      t-       tzyu      7n   kab' xiinaq?</item>
+    <item id="o2" line="43" tag="G">               who     RECENT.3sABS.DIR 3sERG- grab-              DIRS two man</item>
+    <item id="o3" line="44" tag="T">               `Who grabbed the men?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="42" tag="L">*Alkyee saj                      t-tzyu      7n   kab' xiinaq?</item>
+    <item id="c2" line="43" tag="G">who     RECENT.3sABS.DIR 3sERG-grab-DIRS two man</item>
+    <item id="c3" line="44" tag="T">Who grabbed the men?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i302">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mam" iso-639-3="mam:mms:mvc:mvj:mpf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2985" line-range="50-52" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="50" tag="L">         d.      Alkyee saj              tzyuu- n    ky- e    kab' xiinaq?</item>
+    <item id="o2" line="51" tag="G">                 who    RECENT.3sABS.DIR grab- APASS 3PL- OBL two man</item>
+    <item id="o3" line="52" tag="T">                 `Who grabbed the men?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="50" tag="L">Alkyee saj              tzyuu-n    ky-e    kab' xiinaq?</item>
+    <item id="c2" line="51" tag="G">who    RECENT.3sABS.DIR grab-APASS 3PL-OBL two man</item>
+    <item id="c3" line="52" tag="T">Who grabbed the men?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

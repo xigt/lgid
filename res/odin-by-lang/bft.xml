@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i115587">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balti" iso-639-3="bft" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3380" line-range="1760-1764" line-types="M+LN B L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1760" tag="M+LN">  (68)   a.    Balti</item>
+    <item id="o2" line="1761" tag="B"></item>
+    <item id="o3" line="1762" tag="L">               de     rgom</item>
+    <item id="o4" line="1763" tag="G">               that box</item>
+    <item id="o5" line="1764" tag="T+AC">               `that box' (Read 1934: 23)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1760" tag="M+LN">Balti</item>
+    <item id="c2" line="1761" tag="B"/>
+    <item id="c3" line="1762" tag="L">de     rgom</item>
+    <item id="c4" line="1763" tag="G">that box</item>
+    <item id="c5" line="1764" tag="T+AC">that box' (Read 1934: 23)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:8]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115604">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balti" iso-639-3="bft" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3380" line-range="2075-2079" line-types="M+LN B L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2075" tag="M+LN">  (76)    Balti</item>
+    <item id="o2" line="2076" tag="B"></item>
+    <item id="o3" line="2077" tag="L">          chuli      bjÌ°</item>
+    <item id="o4" line="2078" tag="G">          apricot four</item>
+    <item id="o5" line="2079" tag="T+AC">          `four apricots' (Read 1934: 77)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2075" tag="M+LN">Balti</item>
+    <item id="c2" line="2076" tag="B"/>
+    <item id="c3" line="2077" tag="L">chuli      bjÌ°</item>
+    <item id="c4" line="2078" tag="G">apricot four</item>
+    <item id="c5" line="2079" tag="T+AC">four apricots' (Read 1934: 77)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

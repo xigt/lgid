@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i2525">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kewa" iso-639-3="kew:kjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="567" line-range="1286-1288" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1286" tag="L">  (19)   a    nipú ípu-la               pare ní          paalá     na-pía</item>
+    <item id="o2" line="1287" tag="G">              3sg come-3sgPRES but              1sg      afraid    NEG-be.3sgPRES</item>
+    <item id="o3" line="1288" tag="T">              'He is coming, but I am not afraid.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1286" tag="L">a    nipú ípu-la               pare ní          paalá     na-pía</item>
+    <item id="c2" line="1287" tag="G">3sg come-3sgPRES but              1sg      afraid    NEG-be.3sgPRES</item>
+    <item id="c3" line="1288" tag="T">He is coming, but I am not afraid.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i2526">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kewa" iso-639-3="kew:kjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="567" line-range="1290-1292" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1290" tag="L">         b.   (ní)   épo       lá-lo-pulu                  irikai      épa-lia.</item>
+    <item id="o2" line="1291" tag="G">              1sg    whistle say-1sgPRES-CAUSAL dog                    come-3sgFUT</item>
+    <item id="o3" line="1292" tag="T">              'Because I am whistling, the dog will come.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1290" tag="L">(ní)   épo       lá-lo-pulu                  irikai      épa-lia.</item>
+    <item id="c2" line="1291" tag="G">1sg    whistle say-1sgPRES-CAUSAL dog                    come-3sgFUT</item>
+    <item id="c3" line="1292" tag="T">Because I am whistling, the dog will come.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i2527">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kewa" iso-639-3="kew:kjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="567" line-range="1294-1296" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1294" tag="L">         c.   (ní)       épo        lá-ri           épa-wa</item>
+    <item id="o2" line="1295" tag="G">              1sg        whistle say-SIM.SS come-1sgPAST</item>
+    <item id="o3" line="1296" tag="T">              'I whistled while I came,' or 'I came whistling.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1294" tag="L">(ní)       épo        lá-ri           épa-wa</item>
+    <item id="c2" line="1295" tag="G">1sg        whistle say-SIM.SS come-1sgPAST</item>
+    <item id="c3" line="1296" tag="T">I whistled while I came,' or 'I came whistling.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8285">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kewa" iso-639-3="kew:kjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3209" line-range="509-512" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="509" tag="M+AC+LN">  (33) Kewa (Haiman 1983, 109)</item>
+    <item id="o2" line="510" tag="L">        a. Epo la-ri         epa-wa.</item>
+    <item id="o3" line="511" tag="G">            whistle say-SIM.SS come-1s</item>
+    <item id="o4" line="512" tag="T">            'I came whistling.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="509" tag="M+AC+LN">Kewa (Haiman 1983, 109</item>
+    <item id="c2" line="510" tag="L">Epo la-ri         epa-wa.</item>
+    <item id="c3" line="511" tag="G">whistle say-SIM.SS come-1s</item>
+    <item id="c4" line="512" tag="T">I came whistling.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8286">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kewa" iso-639-3="kew:kjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3209" line-range="517-519" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="517" tag="L">      b. Epo la-a                epa-wa</item>
+    <item id="o2" line="518" tag="G">           whistle say-SEQ.SS come-1s</item>
+    <item id="o3" line="519" tag="T">           'I whistled and then I came.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="517" tag="L">Epo la-a                epa-wa</item>
+    <item id="c2" line="518" tag="G">whistle say-SEQ.SS come-1s</item>
+    <item id="c3" line="519" tag="T">I whistled and then I came.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8287">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kewa" iso-639-3="kew:kjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3209" line-range="520-522" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="520" tag="L">      c. Epo la-na                 epa-wa.</item>
+    <item id="o2" line="521" tag="G">           whistle say-3s.PERSON come-1s</item>
+    <item id="o3" line="522" tag="T">         'He whistled and I came.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="520" tag="L">Epo la-na                 epa-wa.</item>
+    <item id="c2" line="521" tag="G">whistle say-3s.PERSON come-1s</item>
+    <item id="c3" line="522" tag="T">He whistled and I came.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42625">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kewa" iso-639-3="kew:kjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3498" line-range="32-34" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="32" tag="L">  (6.1)</item>
+    <item id="o2" line="33" tag="G">            3sg come-3sgPRES but 1sg afraid NEG-be.1sgPRES</item>
+    <item id="o3" line="34" tag="T">            `He is coming, but I am not afraid.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="32" tag="L">6.1</item>
+    <item id="c2" line="33" tag="G">3sg come-3sgPRES but 1sg afraid NEG-be.1sgPRES</item>
+    <item id="c3" line="34" tag="T">He is coming, but I am not afraid.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:3]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42626">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kewa" iso-639-3="kew:kjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3498" line-range="35-37" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="35" tag="L"></item>
+    <item id="o2" line="36" tag="G">            1sg whistle say-SIM.SS come-1sgPAST</item>
+    <item id="o3" line="37" tag="T">            `I whistled while I came,' or `I came whistling.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="35" tag="L"/>
+    <item id="c2" line="36" tag="G">1sg whistle say-SIM.SS come-1sgPAST</item>
+    <item id="c3" line="37" tag="T">I whistled while I came,' or `I came whistling.</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]"/>
+  </tier>
+</igt>
+<igt id="i42627">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kewa" iso-639-3="kew:kjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3498" line-range="38-40" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="38" tag="L"></item>
+    <item id="o2" line="39" tag="G">            1sg whistle say-1sgPRES-CAUSAL dog come-3sgFUT</item>
+    <item id="o3" line="40" tag="T">            `Because I am whistling, the dog will come.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="38" tag="L"/>
+    <item id="c2" line="39" tag="G">1sg whistle say-1sgPRES-CAUSAL dog come-3sgFUT</item>
+    <item id="c3" line="40" tag="T">Because I am whistling, the dog will come.</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]"/>
+  </tier>
+</igt>
+<igt id="i42661">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kewa" iso-639-3="kew:kjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3498" line-range="784-786" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="784" tag="L+LN">  (6.29)a.                                                                                      Kewa</item>
+    <item id="o2" line="785" tag="G">             stick-ERG 3sgABS hit-3sgPAST or what-ERG 3sgABS hit-3sgPAST or</item>
+    <item id="o3" line="786" tag="T">             `A stick hit him, or what hit him?</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="784" tag="L+LN">Kewa</item>
+    <item id="c2" line="785" tag="G">stick-ERG 3sgABS hit-3sgPAST or what-ERG 3sgABS hit-3sgPAST or</item>
+    <item id="c3" line="786" tag="T">A stick hit him, or what hit him?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:4]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42738">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kewa" iso-639-3="kew:kjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3500" line-range="582-587" line-types="M+AC+LN L+CR L+CR L+CR G+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="582" tag="M+AC+LN">                               Kewa (Papua-New Guinea; Franklin 1971)</item>
+    <item id="o2" line="583" tag="L+CR">              (1.6)</item>
+    <item id="o3" line="584" tag="L+CR">                               ´</item>
+    <item id="o4" line="585" tag="L+CR">                      a.       Ira-pa-niaa-ru.</item>
+    <item id="o5" line="586" tag="G+SY">                               cook-PERF-down-1sgPAST                                      (V-ASP-DIR-TNS)</item>
+    <item id="o6" line="587" tag="T">                               `I burned it downward (as a hill).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="582" tag="M+AC+LN">Kewa (Papua-New Guinea; Franklin 1971)</item>
+    <item id="c2" line="583 584" tag="L+CR">´</item>
+    <item id="c5" line="586" tag="G+SY">cook-PERF-down-1sgPAST                                      (V-ASP-DIR-TNS)</item>
+    <item id="c6" line="587" tag="T">I burned it downward (as a hill).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:1]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42739">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kewa" iso-639-3="kew:kjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3500" line-range="589-591" line-types="L G+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="589" tag="L">                      b.       Ira-pa-saa-ru.</item>
+    <item id="o2" line="590" tag="G+SY">                               cook-PERF-up-1sgPAST                                        (V-ASP-DIR-TNS)</item>
+    <item id="o3" line="591" tag="T">                               `I burned it upward (as a hill).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="589" tag="L">Ira-pa-saa-ru.</item>
+    <item id="c2" line="590" tag="G+SY">cook-PERF-up-1sgPAST                                        (V-ASP-DIR-TNS)</item>
+    <item id="c3" line="591" tag="T">I burned it upward (as a hill).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i142446">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kewa" iso-639-3="kew:kjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="56" line-range="322-324" line-types="M+AC+LN L-T G+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="322" tag="M+AC+LN">  (1.4) a. Kewa (Papua-New Guinea; Franklin 1971)</item>
+    <item id="o2" line="323" tag="L-T">           1. ra-pa-niaa-ru                                       `I burned it downward (as a hill).'</item>
+    <item id="o3" line="324" tag="G+SY">              cook-PERF-down-1sgPAST                              (V-ASPECT-DIR-TENSE)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="322" tag="M+AC+LN">a. Kewa (Papua-New Guinea; Franklin 1971</item>
+    <item id="c2" line="323" tag="L-T">ra-pa-niaa-ru                                       `I burned it downward (as a hill).</item>
+    <item id="c3" line="324" tag="G+SY">cook-PERF-down-1sgPAST                              (V-ASPECT-DIR-TENSE)</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:72]"/>
+  </tier>
+</igt>
+<igt id="i142447">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kewa" iso-639-3="kew:kjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="56" line-range="329-330" line-types="L-T G+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="329" tag="L-T">             2. ra-pa-saa-ru                                    `I burned it upward (as a hill).'</item>
+    <item id="o2" line="330" tag="G+SY">                 cook-PERF-up-1sgPAST                           (V-ASPECT-DIR-TENSE)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="329" tag="L-T">ra-pa-saa-ru                                    `I burned it upward (as a hill).</item>
+    <item id="c2" line="330" tag="G+SY">cook-PERF-up-1sgPAST                           (V-ASPECT-DIR-TENSE)</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:67]"/>
+  </tier>
+</igt>
+</xigt-corpus>

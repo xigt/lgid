@@ -1,0 +1,1490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i31777">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itzaj" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1456" line-range="515-517" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="515" tag="L+DB">  (3)    a. u-tz'omen aj-Jwan                b. u-wakax-il      San Andres</item>
+    <item id="o2" line="516" tag="G+DB">            3-brain       MASC-Juan             3-cow-POSS San Andres</item>
+    <item id="o3" line="517" tag="T+DB">            `the brain of Juan'                 `the cattle of San Andres' (a town)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="515" tag="L+DB">u-tz'omen aj-Jwan                b. u-wakax-il      San Andres</item>
+    <item id="c2" line="516" tag="G+DB">3-brain       MASC-Juan             3-cow-POSS San Andres</item>
+    <item id="c3" line="517" tag="T+DB">the brain of Juan'                 `the cattle of San Andres' (a town)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:70]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i31778">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itzaj" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1456" line-range="522-524" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="522" tag="L+DB">  (4)    a. u=y-ùuk'           le pàal-o'    b. u=y-ùuk'-il              ho'l le pàal-o'</item>
+    <item id="o2" line="523" tag="G+DB">            3.SG.E=EP-louse DEF child-DISTAL    3.SG.E=EP-louse-POSS head DEF child-DISTAL</item>
+    <item id="o3" line="524" tag="T+DB">            `that child's lice'                 `the lice of that child's head'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="522" tag="L+DB">u=y-ùuk'           le pàal-o'    b. u=y-ùuk'-il              ho'l le pàal-o</item>
+    <item id="c2" line="523" tag="G+DB">3.SG.E=EP-louse DEF child-DISTAL    3.SG.E=EP-louse-POSS head DEF child-DISTAL</item>
+    <item id="c3" line="524" tag="T+DB">that child's lice'                 `the lice of that child's head</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:78]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106207">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maya" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1511" line-range="5-13" line-types="L G T L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5" tag="L">  1. Sam-ih hatzka',</item>
+    <item id="o2" line="6" tag="G">     while-3sg early</item>
+    <item id="o3" line="7" tag="T">     A while ago, in the morning,</item>
+    <item id="o4" line="8" tag="L">  2 . nak'-een in-wil-a'u-yotoch .. .</item>
+    <item id="o5" line="9" tag="G">      climb-lsg lsg-see-SPM 3Ppr-house</item>
+    <item id="o6" line="10" tag="T">      I went up to see the house of</item>
+    <item id="o7" line="11" tag="L">  3 . ahPaabloRiveera . ...(pseudonym )</item>
+    <item id="o8" line="12" tag="G">      MASC PN</item>
+    <item id="o9" line="13" tag="T">      Pablo Rivera.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5" tag="L">Sam-ih hatzka',</item>
+    <item id="c2" line="6" tag="G">while-3sg early</item>
+    <item id="c3" line="7" tag="T">A while ago, in the morning,</item>
+    <item id="c4" line="8" tag="L">2 . nak'-een in-wil-a'u-yotoch .. .</item>
+    <item id="c5" line="9" tag="G">climb-lsg lsg-see-SPM 3Ppr-house</item>
+    <item id="c6" line="10" tag="T">I went up to see the house of</item>
+    <item id="c7" line="11" tag="L">3 . ahPaabloRiveera . ...(pseudonym )</item>
+    <item id="c8" line="12" tag="G">MASC PN</item>
+    <item id="c9" line="13" tag="T">Pablo Rivera.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+    <item id="p1" content="c4[0:35]"/>
+    <item id="p2" content="c7[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+    <item id="g1" content="c5[0:32]" alignment="p2"/>
+    <item id="g2" content="c8[0:7]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+    <item id="t1" content="c6[0:29]" alignment="p2"/>
+    <item id="t2" content="c9[0:13]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i106208">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maya" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1511" line-range="14-22" line-types="L G T L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14" tag="L">  4.   A'-nah-eh,</item>
+    <item id="o2" line="15" tag="G">       DET-house-TOP</item>
+    <item id="o3" line="16" tag="T">       The house</item>
+    <item id="o4" line="17" tag="L">  5 . p'at-a'an ,</item>
+    <item id="o5" line="18" tag="G">      leave-PART</item>
+    <item id="o6" line="19" tag="T">      was left,</item>
+    <item id="o7" line="20" tag="L">  6. k'ub'en-a'a n ten. .. .</item>
+    <item id="o8" line="21" tag="G">     recommend-PART lsglOp r</item>
+    <item id="o9" line="22" tag="T">     entrusted to me.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14" tag="L">A'-nah-eh,</item>
+    <item id="c2" line="15" tag="G">DET-house-TOP</item>
+    <item id="c3" line="16" tag="T">The house</item>
+    <item id="c4" line="17" tag="L">5 . p'at-a'an ,</item>
+    <item id="c5" line="18" tag="G">leave-PART</item>
+    <item id="c6" line="19" tag="T">was left,</item>
+    <item id="c7" line="20" tag="L">k'ub'en-a'a n ten. .. .</item>
+    <item id="c8" line="21" tag="G">recommend-PART lsglOp r</item>
+    <item id="c9" line="22" tag="T">entrusted to me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+    <item id="p1" content="c4[0:15]"/>
+    <item id="p2" content="c7[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+    <item id="g1" content="c5[0:10]" alignment="p2"/>
+    <item id="g2" content="c8[0:23]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+    <item id="t1" content="c6[0:9]" alignment="p2"/>
+    <item id="t2" content="c9[0:16]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i106209">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maya" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1511" line-range="23-25" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="23" tag="L">  7. In-tenyan-in-wil-ik. .. .</item>
+    <item id="o2" line="24" tag="G">     EMP-lsglp r OBLIG-lsg-see-PPM</item>
+    <item id="o3" line="25" tag="T">     I have to watch it.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="23" tag="L">In-tenyan-in-wil-ik. .. .</item>
+    <item id="c2" line="24" tag="G">EMP-lsglp r OBLIG-lsg-see-PPM</item>
+    <item id="c3" line="25" tag="T">I have to watch it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106210">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maya" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1511" line-range="26-37" line-types="L G T L G T L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="26" tag="L">  8. B'a-he'-la'-eh hach, tz'o'k-i h u-sup'-ul,</item>
+    <item id="o2" line="27" tag="G">     TEMP-OST-PROX-TOP very TERM-3sg 3-be overgrown-INTRAN</item>
+    <item id="o3" line="28" tag="T">     Now it has gotten very overgrown,</item>
+    <item id="o4" line="29" tag="L">  9. i nak'-een in-wil-a' hun tu(ul) winik,</item>
+    <item id="o5" line="30" tag="G">     and climb-lsg lsg-see-SPM one ANIM man</item>
+    <item id="o6" line="31" tag="T">     and I went up to see a man</item>
+    <item id="o7" line="32" tag="L">  10. t-u-k'a't-ah ten meyah,</item>
+    <item id="o8" line="33" tag="G">      COM-3-ask-DPM lsglOprwor k</item>
+    <item id="o9" line="34" tag="T">      that asked me for work</item>
+    <item id="o10" line="35" tag="L">  11 . i tak-u-paak-t-ik. .. .</item>
+    <item id="o11" line="36" tag="G">       and DESID-3-clear-TRAN-PPM</item>
+    <item id="o12" line="37" tag="T">       and wants to clear it.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="26" tag="L">B'a-he'-la'-eh hach, tz'o'k-i h u-sup'-ul,</item>
+    <item id="c2" line="27" tag="G">TEMP-OST-PROX-TOP very TERM-3sg 3-be overgrown-INTRAN</item>
+    <item id="c3" line="28" tag="T">Now it has gotten very overgrown,</item>
+    <item id="c4" line="29" tag="L">i nak'-een in-wil-a' hun tu(ul) winik,</item>
+    <item id="c5" line="30" tag="G">and climb-lsg lsg-see-SPM one ANIM man</item>
+    <item id="c6" line="31" tag="T">and I went up to see a man</item>
+    <item id="c7" line="32" tag="L">t-u-k'a't-ah ten meyah,</item>
+    <item id="c8" line="33" tag="G">COM-3-ask-DPM lsglOprwor k</item>
+    <item id="c9" line="34" tag="T">that asked me for work</item>
+    <item id="c10" line="35" tag="L">11 . i tak-u-paak-t-ik. .. .</item>
+    <item id="c11" line="36" tag="G">and DESID-3-clear-TRAN-PPM</item>
+    <item id="c12" line="37" tag="T">and wants to clear it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+    <item id="p1" content="c4[0:38]"/>
+    <item id="p2" content="c7[0:23]"/>
+    <item id="p3" content="c10[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+    <item id="g1" content="c5[0:38]" alignment="p2"/>
+    <item id="g2" content="c8[0:26]" alignment="p3"/>
+    <item id="g3" content="c11[0:26]" alignment="p4"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+    <item id="t1" content="c6[0:26]" alignment="p2"/>
+    <item id="t2" content="c9[0:22]" alignment="p3"/>
+    <item id="t3" content="c12[0:22]" alignment="p4"/>
+  </tier>
+</igt>
+<igt id="i106211">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maya" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1511" line-range="42-53" line-types="L G T L G T L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="42" tag="L">  12. T-in-wa'al-ah ti'ih ,</item>
+    <item id="o2" line="43" tag="G">      COM-lsg-say-DPM 3IOpr</item>
+    <item id="o3" line="44" tag="T">      I told him</item>
+    <item id="o4" line="45" tag="L">  13. lea' meyah-n-ak ka ' p' e k'in ,</item>
+    <item id="o5" line="46" tag="G">      SUB work-DETRAN-IRREAL two INAM day</item>
+    <item id="o6" line="47" tag="T">      to work two days,</item>
+    <item id="o7" line="48" tag="L">  14. k(a')-u-paak-t-eh ka'a x chen u-b'aak '</item>
+    <item id="o8" line="49" tag="G">      SUB-3-clear-TRAN-SPM although only 3Ppr-perimeter</item>
+    <item id="o9" line="50" tag="T">      that he clear it, even if only the perimeter</item>
+    <item id="o10" line="51" tag="L">        a'-nah-eh. .. .</item>
+    <item id="o11" line="52" tag="G">        DET-house-TOP</item>
+    <item id="o12" line="53" tag="T">        of the house.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="42" tag="L">T-in-wa'al-ah ti'ih ,</item>
+    <item id="c2" line="43" tag="G">COM-lsg-say-DPM 3IOpr</item>
+    <item id="c3" line="44" tag="T">I told him</item>
+    <item id="c4" line="45" tag="L">lea' meyah-n-ak ka ' p' e k'in ,</item>
+    <item id="c5" line="46" tag="G">SUB work-DETRAN-IRREAL two INAM day</item>
+    <item id="c6" line="47" tag="T">to work two days,</item>
+    <item id="c7" line="48" tag="L">k(a')-u-paak-t-eh ka'a x chen u-b'aak</item>
+    <item id="c8" line="49" tag="G">SUB-3-clear-TRAN-SPM although only 3Ppr-perimeter</item>
+    <item id="c9" line="50" tag="T">that he clear it, even if only the perimeter</item>
+    <item id="c10" line="51" tag="L">a'-nah-eh. .. .</item>
+    <item id="c11" line="52" tag="G">DET-house-TOP</item>
+    <item id="c12" line="53" tag="T">of the house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+    <item id="p1" content="c4[0:32]"/>
+    <item id="p2" content="c7[0:37]"/>
+    <item id="p3" content="c10[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+    <item id="g1" content="c5[0:35]" alignment="p2"/>
+    <item id="g2" content="c8[0:49]" alignment="p3"/>
+    <item id="g3" content="c11[0:13]" alignment="p4"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]" alignment="p1"/>
+    <item id="t1" content="c6[0:17]" alignment="p2"/>
+    <item id="t2" content="c9[0:44]" alignment="p3"/>
+    <item id="t3" content="c12[0:13]" alignment="p4"/>
+  </tier>
+</igt>
+<igt id="i106212">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maya" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1511" line-range="54-68" line-types="L G T L G T L G T L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="54" tag="L">  15. I ka'k'och-ee n</item>
+    <item id="o2" line="55" tag="G">      and when arrive- ls g</item>
+    <item id="o3" line="56" tag="T">      And when I arrived</item>
+    <item id="o4" line="57" tag="L">  16. sam-ih hatska'in-wil-a'-eh ,</item>
+    <item id="o5" line="58" tag="G">      while-3sg early 1 sg-see-SPM-TOP</item>
+    <item id="o6" line="59" tag="T">      a while ago in the morning to see it,</item>
+    <item id="o7" line="60" tag="L">  17.   tulakalu-koloh=che'-il ,</item>
+    <item id="o8" line="61" tag="G">        all 3Ppr-house posts-POS</item>
+    <item id="o9" line="62" tag="T">        all the house posts</item>
+    <item id="o10" line="63" tag="L">  18. tu'ux , kot-a'an a'-nah-eh .. .</item>
+    <item id="o11" line="64" tag="G">      where enclose-PART DET-house-REL</item>
+    <item id="o12" line="65" tag="T">      where the house is walled in,</item>
+    <item id="o13" line="66" tag="L">  19. lah-okol-a'an. .. .</item>
+    <item id="o14" line="67" tag="G">      all-steal-PART</item>
+    <item id="o15" line="68" tag="T">      are all stolen.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="54" tag="L">I ka'k'och-ee n</item>
+    <item id="c2" line="55" tag="G">and when arrive-ls g</item>
+    <item id="c3" line="56" tag="T">And when I arrived</item>
+    <item id="c4" line="57" tag="L">sam-ih hatska'in-wil-a'-eh ,</item>
+    <item id="c5" line="58" tag="G">while-3sg early 1 sg-see-SPM-TOP</item>
+    <item id="c6" line="59" tag="T">a while ago in the morning to see it,</item>
+    <item id="c7" line="60" tag="L">tulakalu-koloh=che'-il ,</item>
+    <item id="c8" line="61" tag="G">all 3Ppr-house posts-POS</item>
+    <item id="c9" line="62" tag="T">all the house posts</item>
+    <item id="c10" line="63" tag="L">tu'ux , kot-a'an a'-nah-eh .. .</item>
+    <item id="c11" line="64" tag="G">where enclose-PART DET-house-REL</item>
+    <item id="c12" line="65" tag="T">where the house is walled in,</item>
+    <item id="c13" line="66" tag="L">lah-okol-a'an. .. .</item>
+    <item id="c14" line="67" tag="G">all-steal-PART</item>
+    <item id="c15" line="68" tag="T">are all stolen.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+    <item id="p1" content="c4[0:28]"/>
+    <item id="p2" content="c7[0:24]"/>
+    <item id="p3" content="c10[0:31]"/>
+    <item id="p4" content="c13[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+    <item id="g1" content="c5[0:32]" alignment="p2"/>
+    <item id="g2" content="c8[0:24]" alignment="p3"/>
+    <item id="g3" content="c11[0:32]" alignment="p4"/>
+    <item id="g4" content="c14[0:14]" alignment="p5"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+    <item id="t1" content="c6[0:37]" alignment="p2"/>
+    <item id="t2" content="c9[0:19]" alignment="p3"/>
+    <item id="t3" content="c12[0:29]" alignment="p4"/>
+    <item id="t4" content="c15[0:15]" alignment="p5"/>
+  </tier>
+</igt>
+<igt id="i106213">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maya" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1511" line-range="69-87" line-types="L G T L G T L G T L G T B M M B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="69" tag="L">  20 . Mia' , tulakal a'-k'in-oo ' he'-la'</item>
+    <item id="o2" line="70" tag="G">       DUB all DET-day-PL OST-PROX</item>
+    <item id="o3" line="71" tag="T">       I think all these days</item>
+    <item id="o4" line="72" tag="L">  21 . tan-u-b'et-ik, ha'-eh .. .</item>
+    <item id="o5" line="73" tag="G">       DUR-3-make-PPM water-REL</item>
+    <item id="o6" line="74" tag="T">       that it was raining,</item>
+    <item id="o7" line="75" tag="L">  22 . a'-mak-do' kah-a'an-oo ' nats'-i'ih-eh,</item>
+    <item id="o8" line="76" tag="G">       DET-person-PL live-PART-PL close-LOC-REL</item>
+    <item id="o9" line="77" tag="T">       the people that live close to there,</item>
+    <item id="o10" line="78" tag="L">  23 . te' k-u-chM'-ik-oo' [wal] wal u-che'-il</item>
+    <item id="o11" line="79" tag="G">       LOC INC-3-take-PPM-PL [perhaps] perhaps 3Ppr-wood-POS</item>
+    <item id="o12" line="80" tag="T">       they took the wood there , perhaps,</item>
+    <item id="o13" line="81" tag="B"></item>
+    <item id="o14" line="82" tag="M">                                                                            11</item>
+    <item id="o15" line="83" tag="M">                                 Personal Narrative</item>
+    <item id="o16" line="84" tag="B"></item>
+    <item id="o17" line="85" tag="L">  24 . t(i'ih)-u-si'-in-t-oo'. .. .</item>
+    <item id="o18" line="86" tag="G">       SUB-3-firewood-CAUS-TRAN-PL</item>
+    <item id="o19" line="87" tag="T">       for making firewood.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="69" tag="L">20 . Mia' , tulakal a'-k'in-oo ' he'-la</item>
+    <item id="c2" line="70" tag="G">DUB all DET-day-PL OST-PROX</item>
+    <item id="c3" line="71" tag="T">I think all these days</item>
+    <item id="c4" line="72" tag="L">21 . tan-u-b'et-ik, ha'-eh .. .</item>
+    <item id="c5" line="73" tag="G">DUR-3-make-PPM water-REL</item>
+    <item id="c6" line="74" tag="T">that it was raining,</item>
+    <item id="c7" line="75" tag="L">22 . a'-mak-do' kah-a'an-oo ' nats'-i'ih-eh,</item>
+    <item id="c8" line="76" tag="G">DET-person-PL live-PART-PL close-LOC-REL</item>
+    <item id="c9" line="77" tag="T">the people that live close to there,</item>
+    <item id="c10" line="78" tag="L">23 . te' k-u-chM'-ik-oo' [wal] wal u-che'-il</item>
+    <item id="c11" line="79" tag="G">LOC INC-3-take-PPM-PL [perhaps] perhaps 3Ppr-wood-POS</item>
+    <item id="c12" line="80" tag="T">they took the wood there , perhaps,</item>
+    <item id="c13" line="81" tag="B"/>
+    <item id="c14" line="82" tag="M">11</item>
+    <item id="c15" line="83" tag="M">Personal Narrative</item>
+    <item id="c16" line="84" tag="B"/>
+    <item id="c17" line="85" tag="L">24 . t(i'ih)-u-si'-in-t-oo'. .. .</item>
+    <item id="c18" line="86" tag="G">SUB-3-firewood-CAUS-TRAN-PL</item>
+    <item id="c19" line="87" tag="T">for making firewood.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+    <item id="p1" content="c4[0:31]"/>
+    <item id="p2" content="c7[0:44]"/>
+    <item id="p3" content="c10[0:44]"/>
+    <item id="p4" content="c17[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+    <item id="g1" content="c5[0:24]" alignment="p2"/>
+    <item id="g2" content="c8[0:40]" alignment="p3"/>
+    <item id="g3" content="c11[0:53]" alignment="p4"/>
+    <item id="g4" content="c18[0:27]" alignment="p5"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+    <item id="t1" content="c6[0:20]" alignment="p2"/>
+    <item id="t2" content="c9[0:36]" alignment="p3"/>
+    <item id="t3" content="c12[0:35]" alignment="p4"/>
+    <item id="t4" content="c19[0:20]" alignment="p5"/>
+  </tier>
+</igt>
+<igt id="i106214">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maya" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1511" line-range="88-93" line-types="L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="88" tag="L">  25 . Lah-ch'ak-a'an u-ak'-il</item>
+    <item id="o2" line="89" tag="G">       all-cut-PART 3Ppr-vine-POS</item>
+    <item id="o3" line="90" tag="T">       All of the vines were cut</item>
+    <item id="o4" line="91" tag="L">  26 . a'-[&gt;]-tu , uxk , ax-a , an-ila'-koloh=che' . .. .</item>
+    <item id="o5" line="92" tag="G">       DET-where tie-PART-POS DET-house posts</item>
+    <item id="o6" line="93" tag="T">       where the house posts are tied.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="88" tag="L">25 . Lah-ch'ak-a'an u-ak'-il</item>
+    <item id="c2" line="89" tag="G">all-cut-PART 3Ppr-vine-POS</item>
+    <item id="c3" line="90" tag="T">All of the vines were cut</item>
+    <item id="c4" line="91" tag="L">26 . a'-[&gt;]-tu , uxk , ax-a , an-ila'-koloh=che' . .. .</item>
+    <item id="c5" line="92" tag="G">DET-where tie-PART-POS DET-house posts</item>
+    <item id="c6" line="93" tag="T">where the house posts are tied.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+    <item id="p1" content="c4[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+    <item id="g1" content="c5[0:38]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+    <item id="t1" content="c6[0:31]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106215">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maya" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1511" line-range="94-99" line-types="L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="94" tag="L">  27 . I kap-een in-k'a't-eh ,</item>
+    <item id="o2" line="95" tag="G">       and begin-lsg lsg-ask-SPM</item>
+    <item id="o3" line="96" tag="T">       And I began to ask</item>
+    <item id="o4" line="97" tag="L">  28 . wa ma'u-yohel-oo'. ,</item>
+    <item id="o5" line="98" tag="G">       COND NEG 3-know-PL</item>
+    <item id="o6" line="99" tag="T">       if they didn't know (who did it).</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="94" tag="L">27 . I kap-een in-k'a't-eh ,</item>
+    <item id="c2" line="95" tag="G">and begin-lsg lsg-ask-SPM</item>
+    <item id="c3" line="96" tag="T">And I began to ask</item>
+    <item id="c4" line="97" tag="L">28 . wa ma'u-yohel-oo'. ,</item>
+    <item id="c5" line="98" tag="G">COND NEG 3-know-PL</item>
+    <item id="c6" line="99" tag="T">if they didn't know (who did it).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+    <item id="p1" content="c4[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+    <item id="g1" content="c5[0:18]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+    <item id="t1" content="c6[0:33]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106216">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maya" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1511" line-range="100-105" line-types="L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="100" tag="L">  29 . Mixma k .. .</item>
+    <item id="o2" line="101" tag="G">       NEG person</item>
+    <item id="o3" line="102" tag="T">       No one,</item>
+    <item id="o4" line="103" tag="L">  30. mixmaku-yohel . ,</item>
+    <item id="o5" line="104" tag="G">      NEG person 3-know</item>
+    <item id="o6" line="105" tag="T">      no one knows.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="100" tag="L">29 . Mixma k .. .</item>
+    <item id="c2" line="101" tag="G">NEG person</item>
+    <item id="c3" line="102" tag="T">No one,</item>
+    <item id="c4" line="103" tag="L">mixmaku-yohel . ,</item>
+    <item id="c5" line="104" tag="G">NEG person 3-know</item>
+    <item id="c6" line="105" tag="T">no one knows.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+    <item id="p1" content="c4[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:10]" alignment="p1"/>
+    <item id="g1" content="c5[0:17]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:7]" alignment="p1"/>
+    <item id="t1" content="c6[0:13]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106217">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maya" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1511" line-range="106-111" line-types="L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="106" tag="L">  31 . Mix mak t-u-yil-ah</item>
+    <item id="o2" line="107" tag="G">       NEG person COM-3-see-DPM</item>
+    <item id="o3" line="108" tag="T">       No one saw</item>
+    <item id="o4" line="109" tag="L">  32. [u-,] u-ch'ak-b'-al a'-che'-eh. .. .</item>
+    <item id="o5" line="110" tag="G">      [3-] 3-cut-PAS-INTRAN DET-wood-TOP</item>
+    <item id="o6" line="111" tag="T">      the wood being cut.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="106" tag="L">31 . Mix mak t-u-yil-ah</item>
+    <item id="c2" line="107" tag="G">NEG person COM-3-see-DPM</item>
+    <item id="c3" line="108" tag="T">No one saw</item>
+    <item id="c4" line="109" tag="L">[u-,] u-ch'ak-b'-al a'-che'-eh. .. .</item>
+    <item id="c5" line="110" tag="G">[3-] 3-cut-PAS-INTRAN DET-wood-TOP</item>
+    <item id="c6" line="111" tag="T">the wood being cut.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+    <item id="p1" content="c4[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+    <item id="g1" content="c5[0:34]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]" alignment="p1"/>
+    <item id="t1" content="c6[0:19]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106218">
+  <metadata type="xigt-meta">
+    <meta type="language" name="maya" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1511" line-range="112-117" line-types="L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="112" tag="L">  33 . B'a-la b'e l in-ka'a ti tz'iib ti'ih ,</item>
+    <item id="o2" line="113" tag="G">       TEMP-PROX go lsg-go to write 3IOpr</item>
+    <item id="o3" line="114" tag="T">       Now I am going to write him</item>
+    <item id="o4" line="115" tag="L">  34. yok' u-yohel-t-ik b'i x yan-il.</item>
+    <item id="o5" line="116" tag="G">      SUB 3-know-TRAN-PPM how COP-POS?</item>
+    <item id="o6" line="117" tag="T">      so that he knows how it is.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="112" tag="L">33 . B'a-la b'e l in-ka'a ti tz'iib ti'ih ,</item>
+    <item id="c2" line="113" tag="G">TEMP-PROX go lsg-go to write 3IOpr</item>
+    <item id="c3" line="114" tag="T">Now I am going to write him</item>
+    <item id="c4" line="115" tag="L">yok' u-yohel-t-ik b'i x yan-il.</item>
+    <item id="c5" line="116" tag="G">SUB 3-know-TRAN-PPM how COP-POS?</item>
+    <item id="c6" line="117" tag="T">so that he knows how it is.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+    <item id="p1" content="c4[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+    <item id="g1" content="c5[0:32]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+    <item id="t1" content="c6[0:27]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106254">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="4-9" line-types="L G T L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4" tag="L">  1. Yan-ah-ihhump'ek'in ...</item>
+    <item id="o2" line="5" tag="G">     C0P-DIST-3sg one INAM day</item>
+    <item id="o3" line="6" tag="T">     There was a day</item>
+    <item id="o4" line="7" tag="L">  2. ke ... kal-een. ...</item>
+    <item id="o5" line="8" tag="G+CR">     SUB get drunk- ls g</item>
+    <item id="o6" line="9" tag="T">     that I got drunk.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4" tag="L">Yan-ah-ihhump'ek'in ...</item>
+    <item id="c2" line="5" tag="G">C0P-DIST-3sg one INAM day</item>
+    <item id="c3" line="6" tag="T">There was a day</item>
+    <item id="c4" line="7" tag="L">ke ... kal-een. ...</item>
+    <item id="c5" line="8" tag="G+CR">SUB get drunk-ls g</item>
+    <item id="c6" line="9" tag="T">that I got drunk.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+    <item id="p1" content="c4[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+    <item id="g1" content="c5[0:18]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+    <item id="t1" content="c6[0:17]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106255">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="10-15" line-types="L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10" tag="L">  3. I p'at-een ich kah ...</item>
+    <item id="o2" line="11" tag="G">     and remain-lsg in town</item>
+    <item id="o3" line="12" tag="T">     And I stayed in town,</item>
+    <item id="o4" line="13" tag="L">  4. ya chumuk ak'a'. ...</item>
+    <item id="o5" line="14" tag="G">     already mid night</item>
+    <item id="o6" line="15" tag="T">     it was already the middle of the night.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10" tag="L">I p'at-een ich kah ...</item>
+    <item id="c2" line="11" tag="G">and remain-lsg in town</item>
+    <item id="c3" line="12" tag="T">And I stayed in town,</item>
+    <item id="c4" line="13" tag="L">ya chumuk ak'a'. ...</item>
+    <item id="c5" line="14" tag="G">already mid night</item>
+    <item id="c6" line="15" tag="T">it was already the middle of the night.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+    <item id="p1" content="c4[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+    <item id="g1" content="c5[0:17]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+    <item id="t1" content="c6[0:39]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106256">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="16-21" line-types="L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="16" tag="L">  5. A'-ka' tal-een ti chi-tal t-in-wotoch-eh .. .</item>
+    <item id="o2" line="17" tag="G">     DET-when come-lsg SUB lie-POSIT to-lsgPpr-home-TOP</item>
+    <item id="o3" line="18" tag="T">     When I came to lie down in my home,</item>
+    <item id="o4" line="19" tag="L">  6. ya ... ak'a'u-sas-tal. ...</item>
+    <item id="o5" line="20" tag="G">     already night 3-light-INCHOAT</item>
+    <item id="o6" line="21" tag="T">     it was already dawning.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="16" tag="L">A'-ka' tal-een ti chi-tal t-in-wotoch-eh .. .</item>
+    <item id="c2" line="17" tag="G">DET-when come-lsg SUB lie-POSIT to-lsgPpr-home-TOP</item>
+    <item id="c3" line="18" tag="T">When I came to lie down in my home,</item>
+    <item id="c4" line="19" tag="L">ya ... ak'a'u-sas-tal. ...</item>
+    <item id="c5" line="20" tag="G">already night 3-light-INCHOAT</item>
+    <item id="c6" line="21" tag="T">it was already dawning.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+    <item id="p1" content="c4[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+    <item id="g1" content="c5[0:29]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+    <item id="t1" content="c6[0:23]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106257">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="22-27" line-types="L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="22" tag="L">  7. Ii, komohachyaab' ... a'-ha't-in-wuk'-ah-eh ...</item>
+    <item id="o2" line="23" tag="G">     and as very much DET-water COM-lsg-drink-DPM-REL</item>
+    <item id="o3" line="24" tag="T">     And, as it was a lot of the (flre)water that I drank,</item>
+    <item id="o4" line="25" tag="L">  8. t-u-kal-t-es-ah-en. ...</item>
+    <item id="o5" line="26" tag="G">     COM-3-get drunk-TRAN-CAUS-DPM-lsg</item>
+    <item id="o6" line="27" tag="T">     it made me drunk.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="22" tag="L">Ii, komohachyaab' ... a'-ha't-in-wuk'-ah-eh ...</item>
+    <item id="c2" line="23" tag="G">and as very much DET-water COM-lsg-drink-DPM-REL</item>
+    <item id="c3" line="24" tag="T">And, as it was a lot of the (flre)water that I drank,</item>
+    <item id="c4" line="25" tag="L">t-u-kal-t-es-ah-en. ...</item>
+    <item id="c5" line="26" tag="G">COM-3-get drunk-TRAN-CAUS-DPM-lsg</item>
+    <item id="c6" line="27" tag="T">it made me drunk.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+    <item id="p1" content="c4[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+    <item id="g1" content="c5[0:33]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+    <item id="t1" content="c6[0:17]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106258">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="28-37" line-types="L G T M M M B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="28" tag="L">  9. I hach kal-a'an-en</item>
+    <item id="o2" line="29" tag="G">     and very drunk-PART-lsg</item>
+    <item id="o3" line="30" tag="T">     And I was very drunk</item>
+    <item id="o4" line="31" tag="M"></item>
+    <item id="o5" line="32" tag="M">            Ix Tabay is a female demon who is infamous for luring men to their deaths.</item>
+    <item id="o6" line="33" tag="M">        1</item>
+    <item id="o7" line="34" tag="B"></item>
+    <item id="o8" line="35" tag="L">  10. a'-ka' k'och-een wave'. .. .</item>
+    <item id="o9" line="36" tag="G">      DET-when arrive-lsg here</item>
+    <item id="o10" line="37" tag="T">      when I arrived here.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="28" tag="L">I hach kal-a'an-en</item>
+    <item id="c2" line="29" tag="G">and very drunk-PART-lsg</item>
+    <item id="c3" line="30" tag="T">And I was very drunk</item>
+    <item id="c4" line="31" tag="M"/>
+    <item id="c5" line="32" tag="M">Ix Tabay is a female demon who is infamous for luring men to their deaths.</item>
+    <item id="c6" line="33" tag="M">1</item>
+    <item id="c7" line="34" tag="B"/>
+    <item id="c8" line="35" tag="L">a'-ka' k'och-een wave'. .. .</item>
+    <item id="c9" line="36" tag="G">DET-when arrive-lsg here</item>
+    <item id="c10" line="37" tag="T">when I arrived here.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+    <item id="p1" content="c8[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+    <item id="g1" content="c9[0:24]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+    <item id="t1" content="c10[0:20]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106259">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="38-46" line-types="L G G L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="38" tag="L">  11. Ya ma' pat-ah-ih mix in-wok-ol t-in-wotoch,</item>
+    <item id="o2" line="39" tag="G">      already NEG ABIL-DIST-3sg NEG lsg-enter-INTRAN in-lsgPpr-home</item>
+    <item id="o3" line="40" tag="G">      Already I couldn't even get in my home,</item>
+    <item id="o4" line="41" tag="L">  12. ka'p'at-een ...</item>
+    <item id="o5" line="42" tag="G">      then remain-lsg</item>
+    <item id="o6" line="43" tag="T">      so then I stayed,</item>
+    <item id="o7" line="44" tag="L">  13. t-in-wen-eltaan=ka'. .. .</item>
+    <item id="o8" line="45" tag="G">      DUR-1 sg-sleep-INTRAN outside</item>
+    <item id="o9" line="46" tag="T">      sleeping outside.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="38" tag="L">Ya ma' pat-ah-ih mix in-wok-ol t-in-wotoch,</item>
+    <item id="c2" line="39" tag="G">already NEG ABIL-DIST-3sg NEG lsg-enter-INTRAN in-lsgPpr-home</item>
+    <item id="c3" line="40" tag="G">Already I couldn't even get in my home,</item>
+    <item id="c4" line="41" tag="L">ka'p'at-een ...</item>
+    <item id="c5" line="42" tag="G">then remain-lsg</item>
+    <item id="c6" line="43" tag="T">so then I stayed,</item>
+    <item id="c7" line="44" tag="L">t-in-wen-eltaan=ka'. .. .</item>
+    <item id="c8" line="45" tag="G">DUR-1 sg-sleep-INTRAN outside</item>
+    <item id="c9" line="46" tag="T">sleeping outside.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+    <item id="p1" content="c4[0:15]"/>
+    <item id="p2" content="c7[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+    <item id="g1" content="c3[0:39]" alignment="p1"/>
+    <item id="g2" content="c5[0:15]" alignment="p2"/>
+    <item id="g3" content="c8[0:29]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:17]" alignment="p2"/>
+    <item id="t1" content="c9[0:17]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i106260">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="47-49" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="47" tag="L">  14. Lub'-een</item>
+    <item id="o2" line="48" tag="G">      fall-lsg</item>
+    <item id="o3" line="49" tag="T">      I fell</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="47" tag="L">Lub'-een</item>
+    <item id="c2" line="48" tag="G">fall-lsg</item>
+    <item id="c3" line="49" tag="T">I fell</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:8]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:6]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106261">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="50-55" line-types="L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="50" tag="L">  15. a'-tu'ux lub'-een-eh</item>
+    <item id="o2" line="51" tag="G">      DET-where fall-lsg-REL</item>
+    <item id="o3" line="52" tag="T">      where I fell,</item>
+    <item id="o4" line="53" tag="L">  16. te'p'at-eent-in-wen-el-i'ih. ...</item>
+    <item id="o5" line="54" tag="G">      LOG remain-lsg DUR-lsg-sleep-INTRAN-SCOPE</item>
+    <item id="o6" line="55" tag="T">      there I stayed sleeping.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="50" tag="L">a'-tu'ux lub'-een-eh</item>
+    <item id="c2" line="51" tag="G">DET-where fall-lsg-REL</item>
+    <item id="c3" line="52" tag="T">where I fell,</item>
+    <item id="c4" line="53" tag="L">te'p'at-eent-in-wen-el-i'ih. ...</item>
+    <item id="c5" line="54" tag="G">LOG remain-lsg DUR-lsg-sleep-INTRAN-SCOPE</item>
+    <item id="c6" line="55" tag="T">there I stayed sleeping.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+    <item id="p1" content="c4[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+    <item id="g1" content="c5[0:41]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+    <item id="t1" content="c6[0:24]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106262">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="56-61" line-types="L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="56" tag="L">  17. Ya tan-u-kay ah kax,</item>
+    <item id="o2" line="57" tag="G">      already DUR-3-sing MASC chicken</item>
+    <item id="o3" line="58" tag="T">      The roosters were already crowing,</item>
+    <item id="o4" line="59" tag="L">  18. ka' lik*-ih [in-...] in-watan. .. .</item>
+    <item id="o5" line="60" tag="G">      then get up-3sg [lsgPpr-] lsgPpr-wife</item>
+    <item id="o6" line="61" tag="T">      then my wife got up.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="56" tag="L">Ya tan-u-kay ah kax,</item>
+    <item id="c2" line="57" tag="G">already DUR-3-sing MASC chicken</item>
+    <item id="c3" line="58" tag="T">The roosters were already crowing,</item>
+    <item id="c4" line="59" tag="L">ka' lik*-ih [in-...] in-watan. .. .</item>
+    <item id="c5" line="60" tag="G">then get up-3sg [lsgPpr-] lsgPpr-wife</item>
+    <item id="c6" line="61" tag="T">then my wife got up.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+    <item id="p1" content="c4[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+    <item id="g1" content="c5[0:37]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+    <item id="t1" content="c6[0:20]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106263">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="62-67" line-types="L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="62" tag="L">  19. T-u-heb'-ah-oo' u-hola'-nah-eh ...</item>
+    <item id="o2" line="63" tag="G">      COM-3-open-DPM-PL 3Ppr-door DET-house-TOP</item>
+    <item id="o3" line="64" tag="T">      She opened the door of the house,</item>
+    <item id="o4" line="65" tag="L">  20. et-elin-na'. .. .</item>
+    <item id="o5" line="66" tag="G">      with-POS lsgPpr-mother</item>
+    <item id="o6" line="67" tag="T">      with my mother.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="62" tag="L">T-u-heb'-ah-oo' u-hola'-nah-eh ...</item>
+    <item id="c2" line="63" tag="G">COM-3-open-DPM-PL 3Ppr-door DET-house-TOP</item>
+    <item id="c3" line="64" tag="T">She opened the door of the house,</item>
+    <item id="c4" line="65" tag="L">et-elin-na'. .. .</item>
+    <item id="c5" line="66" tag="G">with-POS lsgPpr-mother</item>
+    <item id="c6" line="67" tag="T">with my mother.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+    <item id="p1" content="c4[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+    <item id="g1" content="c5[0:22]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+    <item id="t1" content="c6[0:15]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106264">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="68-70" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="68" tag="L">  21 . Lik'-oo' [u-,] u-yok-es-een-oo' ich nah. ...</item>
+    <item id="o2" line="69" tag="G">       get up-PL [3-] 3-enter-CAUS-lsg-PL inside house</item>
+    <item id="o3" line="70" tag="T">       They got up to bring me inside the house.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="68" tag="L">21 . Lik'-oo' [u-,] u-yok-es-een-oo' ich nah. ...</item>
+    <item id="c2" line="69" tag="G">get up-PL [3-] 3-enter-CAUS-lsg-PL inside house</item>
+    <item id="c3" line="70" tag="T">They got up to bring me inside the house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106265">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="71-80" line-types="L G T B L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="71" tag="L">  22. I a'-ka* t-u-heb'-ah-oo'u-hol a'-nah-eh .. .</item>
+    <item id="o2" line="72" tag="G">      and DET-when COM-3-open-DPM-PL 3Ppr-door DET-house-TOP</item>
+    <item id="o3" line="73" tag="T">      And when they opened the door of the house,</item>
+    <item id="o4" line="74" tag="B"></item>
+    <item id="o5" line="75" tag="L">  23. t-u-yil-ah-oo' hun tuul noxi' ix ch'up ...</item>
+    <item id="o6" line="76" tag="G">      COM-3-see-DPM-PL one ANIM big FEM woman</item>
+    <item id="o7" line="77" tag="T">      they saw a big woman (Ix Tabay)</item>
+    <item id="o8" line="78" tag="L">  24. tan-u-tal-el. ...</item>
+    <item id="o9" line="79" tag="G">      DUR-3-come-INTRAN</item>
+    <item id="o10" line="80" tag="T">      coming.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="71" tag="L">I a'-ka* t-u-heb'-ah-oo'u-hol a'-nah-eh .. .</item>
+    <item id="c2" line="72" tag="G">and DET-when COM-3-open-DPM-PL 3Ppr-door DET-house-TOP</item>
+    <item id="c3" line="73" tag="T">And when they opened the door of the house,</item>
+    <item id="c4" line="74" tag="B"/>
+    <item id="c5" line="75" tag="L">t-u-yil-ah-oo' hun tuul noxi' ix ch'up ...</item>
+    <item id="c6" line="76" tag="G">COM-3-see-DPM-PL one ANIM big FEM woman</item>
+    <item id="c7" line="77" tag="T">they saw a big woman (Ix Tabay)</item>
+    <item id="c8" line="78" tag="L">tan-u-tal-el. ...</item>
+    <item id="c9" line="79" tag="G">DUR-3-come-INTRAN</item>
+    <item id="c10" line="80" tag="T">coming.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+    <item id="p1" content="c5[0:42]"/>
+    <item id="p2" content="c8[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+    <item id="g1" content="c6[0:39]" alignment="p2"/>
+    <item id="g2" content="c9[0:17]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+    <item id="t1" content="c7[0:31]" alignment="p2"/>
+    <item id="t2" content="c10[0:7]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i106266">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="81-86" line-types="L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="81" tag="L">  25. Chawaku-[,]-tzo'otz-elu-pol. .. .</item>
+    <item id="o2" line="82" tag="G">      long 3Ppr-hair-POS 3Ppr-head</item>
+    <item id="o3" line="83" tag="T">      Long is the hair of her head.</item>
+    <item id="o4" line="84" tag="L">  26. K-u-lub'-ul [tak t-u-...] tak t-u-b'ak-el u-yit. ...</item>
+    <item id="o5" line="85" tag="G">      INC-3-foll-INTRAN [till to-3Ppr] till to-3Ppr-bone-POS 3Ppr-rump</item>
+    <item id="o6" line="86" tag="T">      It falls to the bone of her rump.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="81" tag="L">Chawaku-[,]-tzo'otz-elu-pol. .. .</item>
+    <item id="c2" line="82" tag="G">long 3Ppr-hair-POS 3Ppr-head</item>
+    <item id="c3" line="83" tag="T">Long is the hair of her head.</item>
+    <item id="c4" line="84" tag="L">K-u-lub'-ul [tak t-u-...] tak t-u-b'ak-el u-yit. ...</item>
+    <item id="c5" line="85" tag="G">INC-3-foll-INTRAN [till to-3Ppr] till to-3Ppr-bone-POS 3Ppr-rump</item>
+    <item id="c6" line="86" tag="T">It falls to the bone of her rump.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+    <item id="p1" content="c4[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+    <item id="g1" content="c5[0:64]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+    <item id="t1" content="c6[0:33]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106267">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="87-89" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="87" tag="L">  27. Iiho'm-ihu-manixch'up-eh. ...</item>
+    <item id="o2" line="88" tag="G">      and TERM-3sg 3-pass FEM woman-TOP</item>
+    <item id="o3" line="89" tag="T">      And the woman finished passing by.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="87" tag="L">Iiho'm-ihu-manixch'up-eh. ...</item>
+    <item id="c2" line="88" tag="G">and TERM-3sg 3-pass FEM woman-TOP</item>
+    <item id="c3" line="89" tag="T">And the woman finished passing by.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106268">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="90-95" line-types="L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="90" tag="L">  28. Ka' t-u-t'an-ah-een-oo',</item>
+    <item id="o2" line="91" tag="G">      then COM-3-talk-DPM-lsg-PL</item>
+    <item id="o3" line="92" tag="T">      Then they talked to me</item>
+    <item id="o4" line="93" tag="L">  29. ka' t-u-yok-s-ah-een-oo' ich nah. .. .</item>
+    <item id="o5" line="94" tag="G">      then COM-3-enter-CAUS-DPM-lsg-PL inside house</item>
+    <item id="o6" line="95" tag="T">      and they brought me inside the house.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="90" tag="L">Ka' t-u-t'an-ah-een-oo',</item>
+    <item id="c2" line="91" tag="G">then COM-3-talk-DPM-lsg-PL</item>
+    <item id="c3" line="92" tag="T">Then they talked to me</item>
+    <item id="c4" line="93" tag="L">ka' t-u-yok-s-ah-een-oo' ich nah. .. .</item>
+    <item id="c5" line="94" tag="G">then COM-3-enter-CAUS-DPM-lsg-PL inside house</item>
+    <item id="c6" line="95" tag="T">and they brought me inside the house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+    <item id="p1" content="c4[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+    <item id="g1" content="c5[0:45]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+    <item id="t1" content="c6[0:37]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106269">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="96-107" line-types="L G T L G T L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="96" tag="L">  30. I tantoh-in-wok-ol ich nah,</item>
+    <item id="o2" line="97" tag="G">      and IMMED-lsg-enter-INTRAN inside house</item>
+    <item id="o3" line="98" tag="T">      And I just entered inside the house</item>
+    <item id="o4" line="99" tag="L">  31. a'-ka', (t-u-)chema'-t-ah-oo',</item>
+    <item id="o5" line="100" tag="G">      DET-when (COM-3)-spy-TRAN-DPM-PL</item>
+    <item id="o6" line="101" tag="T">      when they spied</item>
+    <item id="o7" line="102" tag="L">  32. u-yil-a'-oo' u-ix ch'up-eh</item>
+    <item id="o8" line="103" tag="G">      3-see-SPM-PL 3Ppr-FEM woman-TOP</item>
+    <item id="o9" line="104" tag="T">      to see the woman,</item>
+    <item id="o10" line="105" tag="L">  33. tu'uxb'in-ih. ...</item>
+    <item id="o11" line="106" tag="G">      where go-3sg</item>
+    <item id="o12" line="107" tag="T">      where she went.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="96" tag="L">I tantoh-in-wok-ol ich nah,</item>
+    <item id="c2" line="97" tag="G">and IMMED-lsg-enter-INTRAN inside house</item>
+    <item id="c3" line="98" tag="T">And I just entered inside the house</item>
+    <item id="c4" line="99" tag="L">a'-ka', (t-u-)chema'-t-ah-oo',</item>
+    <item id="c5" line="100" tag="G">DET-when (COM-3)-spy-TRAN-DPM-PL</item>
+    <item id="c6" line="101" tag="T">when they spied</item>
+    <item id="c7" line="102" tag="L">u-yil-a'-oo' u-ix ch'up-eh</item>
+    <item id="c8" line="103" tag="G">3-see-SPM-PL 3Ppr-FEM woman-TOP</item>
+    <item id="c9" line="104" tag="T">to see the woman,</item>
+    <item id="c10" line="105" tag="L">tu'uxb'in-ih. ...</item>
+    <item id="c11" line="106" tag="G">where go-3sg</item>
+    <item id="c12" line="107" tag="T">where she went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+    <item id="p1" content="c4[0:30]"/>
+    <item id="p2" content="c7[0:26]"/>
+    <item id="p3" content="c10[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+    <item id="g1" content="c5[0:32]" alignment="p2"/>
+    <item id="g2" content="c8[0:31]" alignment="p3"/>
+    <item id="g3" content="c11[0:12]" alignment="p4"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+    <item id="t1" content="c6[0:15]" alignment="p2"/>
+    <item id="t2" content="c9[0:17]" alignment="p3"/>
+    <item id="t3" content="c12[0:15]" alignment="p4"/>
+  </tier>
+</igt>
+<igt id="i106270">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="108-117" line-types="L G T L G T B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="108" tag="L">  34. Ka't-u-yil-ah-oo'-eh ...</item>
+    <item id="o2" line="109" tag="G">      then COM-3-see-DPM-PL-TOP</item>
+    <item id="o3" line="110" tag="T">      Then they saw</item>
+    <item id="o4" line="111" tag="L">  35. ke ix ch'up-eh b'in-ih tulakal, t-a'-b'eh,</item>
+    <item id="o5" line="112" tag="G">      SUB FEM woman-TOP go-3sg all on-DET-road</item>
+    <item id="o6" line="113" tag="T">      that the woman went all along the road</item>
+    <item id="o7" line="114" tag="B"></item>
+    <item id="o8" line="115" tag="L">  36. k-u-b'el ich kah-eh. .. .</item>
+    <item id="o9" line="116" tag="G">      INC-3-go into town-REL</item>
+    <item id="o10" line="117" tag="T">      that goes into town.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="108" tag="L">Ka't-u-yil-ah-oo'-eh ...</item>
+    <item id="c2" line="109" tag="G">then COM-3-see-DPM-PL-TOP</item>
+    <item id="c3" line="110" tag="T">Then they saw</item>
+    <item id="c4" line="111" tag="L">ke ix ch'up-eh b'in-ih tulakal, t-a'-b'eh,</item>
+    <item id="c5" line="112" tag="G">SUB FEM woman-TOP go-3sg all on-DET-road</item>
+    <item id="c6" line="113" tag="T">that the woman went all along the road</item>
+    <item id="c7" line="114" tag="B"/>
+    <item id="c8" line="115" tag="L">k-u-b'el ich kah-eh. .. .</item>
+    <item id="c9" line="116" tag="G">INC-3-go into town-REL</item>
+    <item id="c10" line="117" tag="T">that goes into town.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+    <item id="p1" content="c4[0:42]"/>
+    <item id="p2" content="c8[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+    <item id="g1" content="c5[0:40]" alignment="p2"/>
+    <item id="g2" content="c9[0:22]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+    <item id="t1" content="c6[0:38]" alignment="p2"/>
+    <item id="t2" content="c10[0:20]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i106271">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="118-120" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="118" tag="L">  37. Te'b'in-ih-i'ih. .. .</item>
+    <item id="o2" line="119" tag="G">      LOC go-3sg-SCOPE</item>
+    <item id="o3" line="120" tag="T">      There she went.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="118" tag="L">Te'b'in-ih-i'ih. .. .</item>
+    <item id="c2" line="119" tag="G">LOC go-3sg-SCOPE</item>
+    <item id="c3" line="120" tag="T">There she went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106272">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="121-129" line-types="L G T L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="121" tag="L">  38. I ma' sam-ih k-u-b'el-eh,</item>
+    <item id="o2" line="122" tag="G">      and NEG while-3sg INC-3-go-REL</item>
+    <item id="o3" line="123" tag="T">      And it was a little while after she went,</item>
+    <item id="o4" line="124" tag="L">  39. ka' t-u-yil-ah-oo' b'in-eh,</item>
+    <item id="o5" line="125" tag="G">      when COM-3-see-DPM-PL REPORT-TOP</item>
+    <item id="o6" line="126" tag="T">      when they saw it, they say,</item>
+    <item id="o7" line="127" tag="L">  40. ka' ka'-sut-n-ah-ih. .. .</item>
+    <item id="o8" line="128" tag="G">      then REPET-return-DETRAN-DIST-3sg</item>
+    <item id="o9" line="129" tag="T">      then she returned again.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="121" tag="L">I ma' sam-ih k-u-b'el-eh,</item>
+    <item id="c2" line="122" tag="G">and NEG while-3sg INC-3-go-REL</item>
+    <item id="c3" line="123" tag="T">And it was a little while after she went,</item>
+    <item id="c4" line="124" tag="L">ka' t-u-yil-ah-oo' b'in-eh,</item>
+    <item id="c5" line="125" tag="G">when COM-3-see-DPM-PL REPORT-TOP</item>
+    <item id="c6" line="126" tag="T">when they saw it, they say,</item>
+    <item id="c7" line="127" tag="L">ka' ka'-sut-n-ah-ih. .. .</item>
+    <item id="c8" line="128" tag="G">then REPET-return-DETRAN-DIST-3sg</item>
+    <item id="c9" line="129" tag="T">then she returned again.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+    <item id="p1" content="c4[0:27]"/>
+    <item id="p2" content="c7[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+    <item id="g1" content="c5[0:32]" alignment="p2"/>
+    <item id="g2" content="c8[0:33]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+    <item id="t1" content="c6[0:27]" alignment="p2"/>
+    <item id="t2" content="c9[0:24]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i106273">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="130-132" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="130" tag="L">  41 . Ka'tal-ih-eh</item>
+    <item id="o2" line="131" tag="G">       when come-3sg-TOP</item>
+    <item id="o3" line="132" tag="T">       When she came</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="130" tag="L">41 . Ka'tal-ih-eh</item>
+    <item id="c2" line="131" tag="G">when come-3sg-TOP</item>
+    <item id="c3" line="132" tag="T">When she came</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106274">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="133-147" line-types="L G T L G T L G T L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="133" tag="L">  42. wa'-l-ah-ih waye' uk=taa n [t-a'-...] t-in-wotoeh-eh .. .</item>
+    <item id="o2" line="134" tag="G">      stand-POSIT-DIST-3sg here front [of-DET-] of-lsgPpr-home-TOP</item>
+    <item id="o3" line="135" tag="T">      she stood here in front of my home,</item>
+    <item id="o4" line="136" tag="L">  43 . ka' t-u-eh'a'-ah, a'-b'eh he'-la'</item>
+    <item id="o5" line="137" tag="G">       then COM-3-take-DPM DET-road OST-PROX</item>
+    <item id="o6" line="138" tag="T">       then she took this road (in front of house)</item>
+    <item id="o7" line="139" tag="L">  44. k-u-nak'-al,</item>
+    <item id="o8" line="140" tag="G">      INC-3-rise-INTRAN</item>
+    <item id="o9" line="141" tag="T">      that rises,</item>
+    <item id="o10" line="142" tag="L">  45 . tu'ux, k-u-b'el tak,</item>
+    <item id="o11" line="143" tag="G">       where INC-3-go till</item>
+    <item id="o12" line="144" tag="T">       where it goes up to</item>
+    <item id="o13" line="145" tag="L">  46. tu'ux [a'-,] k-u-muk-b'-ul a'-kim-en-oo'-eh. .. .</item>
+    <item id="o14" line="146" tag="G">      where [DET-] INC-3-bury-PAS-INTRAN DET-die-NOM-PL-REL</item>
+    <item id="o15" line="147" tag="T">      where the dead are buried (the cemetery).</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="133" tag="L">wa'-l-ah-ih waye' uk=taa n [t-a'-...] t-in-wotoeh-eh .. .</item>
+    <item id="c2" line="134" tag="G">stand-POSIT-DIST-3sg here front [of-DET-] of-lsgPpr-home-TOP</item>
+    <item id="c3" line="135" tag="T">she stood here in front of my home,</item>
+    <item id="c4" line="136" tag="L">43 . ka' t-u-eh'a'-ah, a'-b'eh he'-la</item>
+    <item id="c5" line="137" tag="G">then COM-3-take-DPM DET-road OST-PROX</item>
+    <item id="c6" line="138" tag="T">then she took this road (in front of house)</item>
+    <item id="c7" line="139" tag="L">k-u-nak'-al,</item>
+    <item id="c8" line="140" tag="G">INC-3-rise-INTRAN</item>
+    <item id="c9" line="141" tag="T">that rises,</item>
+    <item id="c10" line="142" tag="L">45 . tu'ux, k-u-b'el tak,</item>
+    <item id="c11" line="143" tag="G">where INC-3-go till</item>
+    <item id="c12" line="144" tag="T">where it goes up to</item>
+    <item id="c13" line="145" tag="L">tu'ux [a'-,] k-u-muk-b'-ul a'-kim-en-oo'-eh. .. .</item>
+    <item id="c14" line="146" tag="G">where [DET-] INC-3-bury-PAS-INTRAN DET-die-NOM-PL-REL</item>
+    <item id="c15" line="147" tag="T">where the dead are buried (the cemetery).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+    <item id="p1" content="c4[0:37]"/>
+    <item id="p2" content="c7[0:12]"/>
+    <item id="p3" content="c10[0:25]"/>
+    <item id="p4" content="c13[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+    <item id="g1" content="c5[0:37]" alignment="p2"/>
+    <item id="g2" content="c8[0:17]" alignment="p3"/>
+    <item id="g3" content="c11[0:19]" alignment="p4"/>
+    <item id="g4" content="c14[0:53]" alignment="p5"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+    <item id="t1" content="c6[0:43]" alignment="p2"/>
+    <item id="t2" content="c9[0:11]" alignment="p3"/>
+    <item id="t3" content="c12[0:19]" alignment="p4"/>
+    <item id="t4" content="c15[0:41]" alignment="p5"/>
+  </tier>
+</igt>
+<igt id="i106275">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="148-150" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="148" tag="L">  47. Te'b'in-ih-i'ih.</item>
+    <item id="o2" line="149" tag="G">      LOC go-3sg-SCOPE</item>
+    <item id="o3" line="150" tag="T">      There she went.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="148" tag="L">Te'b'in-ih-i'ih.</item>
+    <item id="c2" line="149" tag="G">LOC go-3sg-SCOPE</item>
+    <item id="c3" line="150" tag="T">There she went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106276">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="151-169" line-types="L G T B L G T L G T L G T L G T L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="151" tag="L">  48 . Ii, yalam a'-che'-oo', pak'-aal-oo'</item>
+    <item id="o2" line="152" tag="G">       and below DET-tree-PL plant-PART-PL</item>
+    <item id="o3" line="153" tag="T">       And below the planted trees</item>
+    <item id="o4" line="154" tag="B"></item>
+    <item id="o5" line="155" tag="L">  49. yan, waye' t-u-chi' a'-b'eh-eh ...</item>
+    <item id="o6" line="156" tag="G">      COP here at-3Ppr-edge DET-road-REL</item>
+    <item id="o7" line="157" tag="T">      that are here along the edge of the road,</item>
+    <item id="o8" line="158" tag="L">  50. ek'?=hoch'e'en, te' ... haw-ih-i'ih</item>
+    <item id="o9" line="159" tag="G">      darkness LOC disappear-3sg-SCOPE</item>
+    <item id="o10" line="160" tag="T">      (in the) darkness, there she disappeared,</item>
+    <item id="o11" line="161" tag="L">  51. i a'-ka' t-u-yil-ah-oo'-eh,</item>
+    <item id="o12" line="162" tag="G">      and DET-when COM-3-see-DPM-PL-TOP</item>
+    <item id="o13" line="163" tag="T">      and when they looked,</item>
+    <item id="o14" line="164" tag="L">  52. ya ma'an mix b'a'al</item>
+    <item id="o15" line="165" tag="G">      already NEG/COP NEG thing</item>
+    <item id="o16" line="166" tag="T">      there wasn't anything,</item>
+    <item id="o17" line="167" tag="L">  53. ya[b'ay]b'aychenik'-eh. ...</item>
+    <item id="o18" line="168" tag="G">      already [like] like just air-TOP</item>
+    <item id="o19" line="169" tag="T">      it was already like, just air.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="151" tag="L">48 . Ii, yalam a'-che'-oo', pak'-aal-oo</item>
+    <item id="c2" line="152" tag="G">and below DET-tree-PL plant-PART-PL</item>
+    <item id="c3" line="153" tag="T">And below the planted trees</item>
+    <item id="c4" line="154" tag="B"/>
+    <item id="c5" line="155" tag="L">yan, waye' t-u-chi' a'-b'eh-eh ...</item>
+    <item id="c6" line="156" tag="G">COP here at-3Ppr-edge DET-road-REL</item>
+    <item id="c7" line="157" tag="T">that are here along the edge of the road,</item>
+    <item id="c8" line="158" tag="L">ek'?=hoch'e'en, te' ... haw-ih-i'ih</item>
+    <item id="c9" line="159" tag="G">darkness LOC disappear-3sg-SCOPE</item>
+    <item id="c10" line="160" tag="T">(in the) darkness, there she disappeared,</item>
+    <item id="c11" line="161" tag="L">i a'-ka' t-u-yil-ah-oo'-eh,</item>
+    <item id="c12" line="162" tag="G">and DET-when COM-3-see-DPM-PL-TOP</item>
+    <item id="c13" line="163" tag="T">and when they looked,</item>
+    <item id="c14" line="164" tag="L">ya ma'an mix b'a'al</item>
+    <item id="c15" line="165" tag="G">already NEG/COP NEG thing</item>
+    <item id="c16" line="166" tag="T">there wasn't anything,</item>
+    <item id="c17" line="167" tag="L">ya[b'ay]b'aychenik'-eh. ...</item>
+    <item id="c18" line="168" tag="G">already [like] like just air-TOP</item>
+    <item id="c19" line="169" tag="T">it was already like, just air.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+    <item id="p1" content="c5[0:34]"/>
+    <item id="p2" content="c8[0:35]"/>
+    <item id="p3" content="c11[0:27]"/>
+    <item id="p4" content="c14[0:19]"/>
+    <item id="p5" content="c17[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+    <item id="g1" content="c6[0:34]" alignment="p2"/>
+    <item id="g2" content="c9[0:32]" alignment="p3"/>
+    <item id="g3" content="c12[0:33]" alignment="p4"/>
+    <item id="g4" content="c15[0:25]" alignment="p5"/>
+    <item id="g5" content="c18[0:32]" alignment="p6"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+    <item id="t1" content="c7[0:41]" alignment="p2"/>
+    <item id="t2" content="c10[0:41]" alignment="p3"/>
+    <item id="t3" content="c13[0:21]" alignment="p4"/>
+    <item id="t4" content="c16[0:22]" alignment="p5"/>
+    <item id="t5" content="c19[0:30]" alignment="p6"/>
+  </tier>
+</igt>
+<igt id="i106277">
+  <metadata type="xigt-meta">
+    <meta type="language" name="itza" iso-639-3="itz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1510" line-range="170-172" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="170" tag="L">  54. Ya ma' t-u-ka'-sut-n-ah-ih u-yil-a'-oo'.</item>
+    <item id="o2" line="171" tag="G">      already NEG to-3Ppr-REPET-return-DETRAN-DIST-3sg 3-see-SPM-PL</item>
+    <item id="o3" line="172" tag="T">      Then they didn't return to see her again.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="170" tag="L">Ya ma' t-u-ka'-sut-n-ah-ih u-yil-a'-oo'.</item>
+    <item id="c2" line="171" tag="G">already NEG to-3Ppr-REPET-return-DETRAN-DIST-3sg 3-see-SPM-PL</item>
+    <item id="c3" line="172" tag="T">Then they didn't return to see her again.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

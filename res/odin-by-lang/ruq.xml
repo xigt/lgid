@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i25023">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="731-733" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="731" tag="L+LN">  (20)        a.       Petre i                deadi        la                   feata         flor. MR</item>
+    <item id="o2" line="732" tag="G">                       Peter 3Sg.Dat.Cl       give.3Sg.Aor to                   girl+the.F.Sg flour</item>
+    <item id="o3" line="733" tag="T">                       `Peter gave a flower to the girl.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="731" tag="L+LN">Petre i                deadi        la                   feata         flor. MR</item>
+    <item id="c2" line="732" tag="G">Peter 3Sg.Dat.Cl       give.3Sg.Aor to                   girl+the.F.Sg flour</item>
+    <item id="c3" line="733" tag="T">Peter gave a flower to the girl.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25024">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="734-736" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="734" tag="L+LN">              b.       capu                   al      profesoru/maa                   MR</item>
+    <item id="o2" line="735" tag="G">                       head+the.M.Sg          of      professor+the.M.Sg/cat+the.F.Sg</item>
+    <item id="o3" line="736" tag="T">                       `the head of the professor/the cat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="734" tag="L+LN">capu                   al      profesoru/maa                   MR</item>
+    <item id="c2" line="735" tag="G">head+the.M.Sg          of      professor+the.M.Sg/cat+the.F.Sg</item>
+    <item id="c3" line="736" tag="T">the head of the professor/the cat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25025">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="737-739" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="737" tag="L+LN">              c.       picioru         di       masa/una mas                                           MR</item>
+    <item id="o2" line="738" tag="G">                       leg+the.M.Sg from table+the.F.Sg/a.F.Sg table</item>
+    <item id="o3" line="739" tag="T">                       `the leg of the/a table'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="737" tag="L+LN">picioru         di       masa/una mas                                           MR</item>
+    <item id="c2" line="738" tag="G">leg+the.M.Sg from table+the.F.Sg/a.F.Sg table</item>
+    <item id="c3" line="739" tag="T">the leg of the/a table</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25035">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="802-805" line-types="L+LN M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="802" tag="L+LN">          d       porcu                                                                    MR</item>
+    <item id="o2" line="803" tag="M">              1</item>
+    <item id="o3" line="804" tag="G">                  pig+the.M.Sg</item>
+    <item id="o4" line="805" tag="T">                  `the pig'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="802" tag="L+LN">d       porcu                                                                    MR</item>
+    <item id="c2" line="803" tag="M">1</item>
+    <item id="c3" line="804" tag="G">pig+the.M.Sg</item>
+    <item id="c4" line="805" tag="T">the pig</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:83]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25036">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="806-809" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="806" tag="L">          d       micu                  alb   porc</item>
+    <item id="o2" line="807" tag="M">              2</item>
+    <item id="o3" line="808" tag="G">                  small+the.M.Sg        white pig</item>
+    <item id="o4" line="809" tag="T">                  `the small white pig'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="806" tag="L">d       micu                  alb   porc</item>
+    <item id="c2" line="807" tag="M">2</item>
+    <item id="c3" line="808" tag="G">small+the.M.Sg        white pig</item>
+    <item id="c4" line="809" tag="T">the small white pig</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25052">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="980-983" line-types="L+CR L+LN+CR M G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="980" tag="L+CR">                                  a</item>
+    <item id="o2" line="981" tag="L+LN+CR">  (26)       a       i                                greali         ntriborli.         MR</item>
+    <item id="o3" line="982" tag="M">                 1</item>
+    <item id="o4" line="983" tag="G">                     3Sg.M.Dat.Cl are.3Pl.Cl          difficult.F.Pl questions+the.F.Pl</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="980 981" tag="L+CR+LN">a       i            a                   greali         ntriborli.         MR</item>
+    <item id="c3" line="982" tag="M">1</item>
+    <item id="c4" line="983" tag="G">3Sg.M.Dat.Cl are.3Pl.Cl          difficult.F.Pl questions+the.F.Pl</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25053">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="984-988" line-types="L+CR L+CR M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="984" tag="L+CR">                     Greali</item>
+    <item id="o2" line="985" tag="L+CR">             a                      i            a                 ntriborli.</item>
+    <item id="o3" line="986" tag="M">                 2</item>
+    <item id="o4" line="987" tag="G">                     difficult.M.Pl 3Sg.M.Dat.Cl are.3Pl.Cl        questions+the.F.Pl</item>
+    <item id="o5" line="988" tag="T">                     `His questions are difficult.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="984 985" tag="L+CR">a       Greali         i            a                 ntriborli.</item>
+    <item id="c3" line="986" tag="M">2</item>
+    <item id="c4" line="987" tag="G">difficult.M.Pl 3Sg.M.Dat.Cl are.3Pl.Cl        questions+the.F.Pl</item>
+    <item id="c5" line="988" tag="T">His questions are difficult.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25061">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1062-1065" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1062" tag="L+CR">                     NU  la</item>
+    <item id="o2" line="1063" tag="L+LN+CR">            b.                           MANc!                                                 MR</item>
+    <item id="o3" line="1064" tag="G">                     not    3Sg.M.Acc.Cl eat.2Sg.Imp</item>
+    <item id="o4" line="1065" tag="T">                     `Don't eat it!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1062 1063" tag="L+CR+LN">NU  la              MANc!                                                 MR</item>
+    <item id="c3" line="1064" tag="G">not    3Sg.M.Acc.Cl eat.2Sg.Imp</item>
+    <item id="c4" line="1065" tag="T">Don't eat it!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25065">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1109-1113" line-types="L+LN G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1109" tag="L+LN">              b.       Petre i-u                             ari             dat            MR</item>
+    <item id="o2" line="1110" tag="G">                       Petre 3Sg.Dat.Cl-3Sg.F.Acc.Cl         have.3Sg        given.Part</item>
+    <item id="o3" line="1111" tag="L">                       floarea/(*un floari)/(*floari) la     feata/(una      feat)/(*feat).</item>
+    <item id="o4" line="1112" tag="G">                       flower+the/(a flower)/flower to girl+the/(a           girl)/(*girl)</item>
+    <item id="o5" line="1113" tag="T">                       `Petre has given the flower/a flower/flower to the girl/a girl/girl.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1109" tag="L+LN">Petre i-u                             ari             dat            MR</item>
+    <item id="c2" line="1110" tag="G">Petre 3Sg.Dat.Cl-3Sg.F.Acc.Cl         have.3Sg        given.Part</item>
+    <item id="c3" line="1111" tag="L">floarea/(*un floari)/(*floari) la     feata/(una      feat)/(*feat).</item>
+    <item id="c4" line="1112" tag="G">flower+the/(a flower)/flower to girl+the/(a           girl)/(*girl)</item>
+    <item id="c5" line="1113" tag="T">Petre has given the flower/a flower/flower to the girl/a girl/girl.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+    <item id="p1" content="c3[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+    <item id="g1" content="c4[0:67]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:67]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i25091">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1293-1295" line-types="L+LN M G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1293" tag="L+LN">         a       Iani      si             briciati.                                  MR</item>
+    <item id="o2" line="1294" tag="M">             2</item>
+    <item id="o3" line="1295" tag="G">                 Iani      Acc.Imp.Cl shave.3Sg</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1293" tag="L+LN">a       Iani      si             briciati.                                  MR</item>
+    <item id="c2" line="1294" tag="M">2</item>
+    <item id="c3" line="1295" tag="G">Iani      Acc.Imp.Cl shave.3Sg</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25094">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1303-1306" line-types="L+LN M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1303" tag="L+LN">         b       Iani                     cont.                                      MR</item>
+    <item id="o2" line="1304" tag="M">             2</item>
+    <item id="o3" line="1305" tag="G">                 Iani       Impers.Dat.Cl sing.3Sg</item>
+    <item id="o4" line="1306" tag="T">                 `Iani is   singing to himself.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1303" tag="L+LN">b       Iani                     cont.                                      MR</item>
+    <item id="c2" line="1304" tag="M">2</item>
+    <item id="c3" line="1305" tag="G">Iani       Impers.Dat.Cl sing.3Sg</item>
+    <item id="c4" line="1306" tag="T">Iani is   singing to himself.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25113">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1455-1458" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1455" tag="L+CR">                                                            nevast-ta.34</item>
+    <item id="o2" line="1456" tag="L+LN+CR">             b.       i              este frumoasa                                                   MR</item>
+    <item id="o3" line="1457" tag="G">                      2Sg.Dat.Cl     is      beautiful.F.Sg wife-your.2Sg.F.Cl</item>
+    <item id="o4" line="1458" tag="T">                      `Your wife is beautiful.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1455 1456" tag="L+CR+LN">i              este frumoasa          nevast-ta.34                             MR</item>
+    <item id="c3" line="1457" tag="G">2Sg.Dat.Cl     is      beautiful.F.Sg wife-your.2Sg.F.Cl</item>
+    <item id="c4" line="1458" tag="T">Your wife is beautiful.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25124">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1595-1597" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1595" tag="L+LN">          b.      Po           s-ti/*il                              du/*duca.              MR</item>
+    <item id="o2" line="1596" tag="G">                  can/may.2Sg Subj.Mark-2/3Sg.Acc.Cl                 go.2/3Sg</item>
+    <item id="o3" line="1597" tag="T">                  `You can/may go.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1595" tag="L+LN">Po           s-ti/*il                              du/*duca.              MR</item>
+    <item id="c2" line="1596" tag="G">can/may.2Sg Subj.Mark-2/3Sg.Acc.Cl                 go.2/3Sg</item>
+    <item id="c3" line="1597" tag="T">You can/may go.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25156">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1829-1831" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1829" tag="L+LN">         e.     Nu     ari             di     i       si     ca.      MR</item>
+    <item id="o2" line="1830" tag="G">                not    have.Impers from what Subj.Mark catch.3Sg/Pl.Subj</item>
+    <item id="o3" line="1831" tag="T">                `There is nothing (s)he/they can hold onto.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1829" tag="L+LN">Nu     ari             di     i       si     ca.      MR</item>
+    <item id="c2" line="1830" tag="G">not    have.Impers from what Subj.Mark catch.3Sg/Pl.Subj</item>
+    <item id="c3" line="1831" tag="T">There is nothing (s)he/they can hold onto.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25172">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1995-1997" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1995" tag="L+LN">  (63)   a.      Si             vin.                                                MR</item>
+    <item id="o2" line="1996" tag="G">                 Subj.Mark      come.3Sg/Pl.Subj</item>
+    <item id="o3" line="1997" tag="T">                 `(S)he/they will come.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1995" tag="L+LN">Si             vin.                                                MR</item>
+    <item id="c2" line="1996" tag="G">Subj.Mark      come.3Sg/Pl.Subj</item>
+    <item id="c3" line="1997" tag="T">he/they will come.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25173">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1998-2000" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1998" tag="L+LN">         b.      S-la                           lea.                                MR</item>
+    <item id="o2" line="1999" tag="G">                 Subj.Mark-3Sg.M.Acc.Cl         take.2Sg</item>
+    <item id="o3" line="2000" tag="T">                 `You will take it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1998" tag="L+LN">S-la                           lea.                                MR</item>
+    <item id="c2" line="1999" tag="G">Subj.Mark-3Sg.M.Acc.Cl         take.2Sg</item>
+    <item id="c3" line="2000" tag="T">You will take it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25178">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="2035-2037" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2035" tag="L">  (66)   Si              vineau               ier.</item>
+    <item id="o2" line="2036" tag="G">         Subj.Mark       come.3Pl.Imperf      yesterday</item>
+    <item id="o3" line="2037" tag="T">         `(As far as I know) they were to come yesterday.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2035" tag="L">Si              vineau               ier.</item>
+    <item id="c2" line="2036" tag="G">Subj.Mark       come.3Pl.Imperf      yesterday</item>
+    <item id="c3" line="2037" tag="T">(As far as I know) they were to come yesterday.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25197">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="2270-2274" line-types="L+LN G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2270" tag="L+LN">   (77) a.       Zisi           ca         -li                                    MR</item>
+    <item id="o2" line="2271" tag="G">                 say.3Sg        that       2Sg.Dat.Cl+3Pl.F.Acc.Cl</item>
+    <item id="o3" line="2272" tag="L">                 vutau                     dat.</item>
+    <item id="o4" line="2273" tag="G">                 have.3Sg.Inv.Perf         given.Part</item>
+    <item id="o5" line="2274" tag="T">                 `(S)he says that (s)he   had given them to you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2270" tag="L+LN">Zisi           ca-li                                    MR</item>
+    <item id="c2" line="2271" tag="G">say.3Sg        that       2Sg.Dat.Cl+3Pl.F.Acc.Cl</item>
+    <item id="c3" line="2272" tag="L">vutau                     dat.</item>
+    <item id="c4" line="2273" tag="G">have.3Sg.Inv.Perf         given.Part</item>
+    <item id="c5" line="2274" tag="T">he says that (s)he   had given them to you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+    <item id="p1" content="c3[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+    <item id="g1" content="c4[0:36]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:43]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i25198">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="2275-2277" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2275" tag="L+LN">         b.      Vutau                 vizut          vrin feat n drumu. MR</item>
+    <item id="o2" line="2276" tag="G">                 have.3Sg.Inv.Perf     seen.Part      some girl     in road</item>
+    <item id="o3" line="2277" tag="T">                 `They had, reportedly, seen some girl on the way.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2275" tag="L+LN">Vutau                 vizut          vrin feat n drumu. MR</item>
+    <item id="c2" line="2276" tag="G">have.3Sg.Inv.Perf     seen.Part      some girl     in road</item>
+    <item id="c3" line="2277" tag="T">They had, reportedly, seen some girl on the way.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25199">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="2280-2282" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2280" tag="L+LN">  (78)   a.      Tu      fostai                ncrilat!                           MR</item>
+    <item id="o2" line="2281" tag="G">                 you     be.3Sg.Inv.Perf       clever</item>
+    <item id="o3" line="2282" tag="T">                 1. `You are clever!' (admiration)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2280" tag="L+LN">Tu      fostai                ncrilat!                           MR</item>
+    <item id="c2" line="2281" tag="G">you     be.3Sg.Inv.Perf       clever</item>
+    <item id="c3" line="2282" tag="T">`You are clever!' (admiration)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25200">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="2285-2287" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2285" tag="L+LN">         b.      sh            vutau                 un     mum trei feati.. MR</item>
+    <item id="o2" line="2286" tag="G">                 Impers.Dat.Cl have.3Sg.Inv.Perf     a.F    mother three girls</item>
+    <item id="o3" line="2287" tag="T">                 `(Once upon a time) a mother had three daughters ...'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2285" tag="L+LN">sh            vutau                 un     mum trei feati.. MR</item>
+    <item id="c2" line="2286" tag="G">Impers.Dat.Cl have.3Sg.Inv.Perf     a.F    mother three girls</item>
+    <item id="c3" line="2287" tag="T">(Once upon a time) a mother had three daughters ...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i35692">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno-romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="601" line-range="495-495" line-types="L-T+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="495" tag="L-T+LN">       Megleno-Romanian:            vea durmit `(s)he had slept'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="495" tag="L-T+LN">Megleno-Romanian:            vea durmit `(s)he had slept</item>
+  </tier>
+</igt>
+<igt id="i100929">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="731-733" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="731" tag="L+LN">  (20)        a.       Petre i                deadi        la                   feata         flor. MR</item>
+    <item id="o2" line="732" tag="G">                       Peter 3Sg.Dat.Cl       give.3Sg.Aor to                   girl+the.F.Sg flour</item>
+    <item id="o3" line="733" tag="T">                       `Peter gave a flower to the girl.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="731" tag="L+LN">Petre i                deadi        la                   feata         flor. MR</item>
+    <item id="c2" line="732" tag="G">Peter 3Sg.Dat.Cl       give.3Sg.Aor to                   girl+the.F.Sg flour</item>
+    <item id="c3" line="733" tag="T">Peter gave a flower to the girl.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i100930">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="734-736" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="734" tag="L+LN">              b.       capu                   al      profesoru/maa                   MR</item>
+    <item id="o2" line="735" tag="G">                       head+the.M.Sg          of      professor+the.M.Sg/cat+the.F.Sg</item>
+    <item id="o3" line="736" tag="T">                       `the head of the professor/the cat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="734" tag="L+LN">capu                   al      profesoru/maa                   MR</item>
+    <item id="c2" line="735" tag="G">head+the.M.Sg          of      professor+the.M.Sg/cat+the.F.Sg</item>
+    <item id="c3" line="736" tag="T">the head of the professor/the cat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i100931">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="737-739" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="737" tag="L+LN">              c.       picioru         di       masa/una mas                                           MR</item>
+    <item id="o2" line="738" tag="G">                       leg+the.M.Sg from table+the.F.Sg/a.F.Sg table</item>
+    <item id="o3" line="739" tag="T">                       `the leg of the/a table'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="737" tag="L+LN">picioru         di       masa/una mas                                           MR</item>
+    <item id="c2" line="738" tag="G">leg+the.M.Sg from table+the.F.Sg/a.F.Sg table</item>
+    <item id="c3" line="739" tag="T">the leg of the/a table</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i100941">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="802-805" line-types="L+LN+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="802" tag="L+LN+CR">          d       porcu                                                                    MR</item>
+    <item id="o2" line="803" tag="L+CR">              1</item>
+    <item id="o3" line="804" tag="G">                  pig+the.M.Sg</item>
+    <item id="o4" line="805" tag="T">                  `the pig'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="802 803" tag="L+LN+CR">d   1   porcu                                                                    MR</item>
+    <item id="c3" line="804" tag="G">pig+the.M.Sg</item>
+    <item id="c4" line="805" tag="T">the pig</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:83]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i100942">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="806-809" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="806" tag="L+CR">          d       micu                  alb   porc</item>
+    <item id="o2" line="807" tag="L+CR">              2</item>
+    <item id="o3" line="808" tag="G">                  small+the.M.Sg        white pig</item>
+    <item id="o4" line="809" tag="T">                  `the small white pig'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="806 807" tag="L+CR">d   2   micu                  alb   porc</item>
+    <item id="c3" line="808" tag="G">small+the.M.Sg        white pig</item>
+    <item id="c4" line="809" tag="T">the small white pig</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i100958">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="980-983" line-types="L+CR L+LN+CR L+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="980" tag="L+CR">                                  a</item>
+    <item id="o2" line="981" tag="L+LN+CR">  (26)       a       i                                greali         ntriborli.         MR</item>
+    <item id="o3" line="982" tag="L+CR">                 1</item>
+    <item id="o4" line="983" tag="G">                     3Sg.M.Dat.Cl are.3Pl.Cl          difficult.F.Pl questions+the.F.Pl</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="980 981 982" tag="L+CR+LN">a   1   i            a                   greali         ntriborli.         MR</item>
+    <item id="c4" line="983" tag="G">3Sg.M.Dat.Cl are.3Pl.Cl          difficult.F.Pl questions+the.F.Pl</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i100959">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="984-988" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="984" tag="L+CR">                     Greali</item>
+    <item id="o2" line="985" tag="L+CR">             a                      i            a                 ntriborli.</item>
+    <item id="o3" line="986" tag="L+CR">                 2</item>
+    <item id="o4" line="987" tag="G">                     difficult.M.Pl 3Sg.M.Dat.Cl are.3Pl.Cl        questions+the.F.Pl</item>
+    <item id="o5" line="988" tag="T">                     `His questions are difficult.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="984 985 986" tag="L+CR">a   2   Greali         i            a                 ntriborli.</item>
+    <item id="c4" line="987" tag="G">difficult.M.Pl 3Sg.M.Dat.Cl are.3Pl.Cl        questions+the.F.Pl</item>
+    <item id="c5" line="988" tag="T">His questions are difficult.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i100967">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1062-1065" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1062" tag="L+CR">                     NU  la</item>
+    <item id="o2" line="1063" tag="L+LN+CR">            b.                           MANc!                                                 MR</item>
+    <item id="o3" line="1064" tag="G">                     not    3Sg.M.Acc.Cl eat.2Sg.Imp</item>
+    <item id="o4" line="1065" tag="T">                     `Don't eat it!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1062 1063" tag="L+CR+LN">NU  la              MANc!                                                 MR</item>
+    <item id="c3" line="1064" tag="G">not    3Sg.M.Acc.Cl eat.2Sg.Imp</item>
+    <item id="c4" line="1065" tag="T">Don't eat it!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i100971">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1109-1113" line-types="L+LN G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1109" tag="L+LN">              b.       Petre i-u                             ari             dat            MR</item>
+    <item id="o2" line="1110" tag="G">                       Petre 3Sg.Dat.Cl-3Sg.F.Acc.Cl         have.3Sg        given.Part</item>
+    <item id="o3" line="1111" tag="L">                       floarea/(*un floari)/(*floari) la     feata/(una      feat)/(*feat).</item>
+    <item id="o4" line="1112" tag="G">                       flower+the/(a flower)/flower to girl+the/(a           girl)/(*girl)</item>
+    <item id="o5" line="1113" tag="T">                       `Petre has given the flower/a flower/flower to the girl/a girl/girl.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1109" tag="L+LN">Petre i-u                             ari             dat            MR</item>
+    <item id="c2" line="1110" tag="G">Petre 3Sg.Dat.Cl-3Sg.F.Acc.Cl         have.3Sg        given.Part</item>
+    <item id="c3" line="1111" tag="L">floarea/(*un floari)/(*floari) la     feata/(una      feat)/(*feat).</item>
+    <item id="c4" line="1112" tag="G">flower+the/(a flower)/flower to girl+the/(a           girl)/(*girl)</item>
+    <item id="c5" line="1113" tag="T">Petre has given the flower/a flower/flower to the girl/a girl/girl.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+    <item id="p1" content="c3[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+    <item id="g1" content="c4[0:67]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:67]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i100997">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1293-1295" line-types="L+LN+CR+EX L+CR G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1293" tag="L+LN+CR+EX">         a       Iani      si             briciati.                                  MR</item>
+    <item id="o2" line="1294" tag="L+CR">             2</item>
+    <item id="o3" line="1295" tag="G">                 Iani      Acc.Imp.Cl shave.3Sg</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1293 1294" tag="L+LN+CR+EX">a   2   Iani      si             briciati.                                  MR</item>
+    <item id="c3" line="1295" tag="G">Iani      Acc.Imp.Cl shave.3Sg</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101000">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1303-1306" line-types="L+LN+CR+EX L+CR+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1303" tag="L+LN+CR+EX">         b       Iani                     cont.                                      MR</item>
+    <item id="o2" line="1304" tag="L+CR+EX">             2</item>
+    <item id="o3" line="1305" tag="G">                 Iani       Impers.Dat.Cl sing.3Sg</item>
+    <item id="o4" line="1306" tag="T">                 `Iani is   singing to himself.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1303 1304" tag="L+LN+CR+EX">b   2   Iani                     cont.                                      MR</item>
+    <item id="c3" line="1305" tag="G">Iani       Impers.Dat.Cl sing.3Sg</item>
+    <item id="c4" line="1306" tag="T">Iani is   singing to himself.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101020">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1455-1458" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1455" tag="L+CR">                                                            nevast-ta.34</item>
+    <item id="o2" line="1456" tag="L+LN+CR">             b.       i              este frumoasa                                                   MR</item>
+    <item id="o3" line="1457" tag="G">                      2Sg.Dat.Cl     is      beautiful.F.Sg wife-your.2Sg.F.Cl</item>
+    <item id="o4" line="1458" tag="T">                      `Your wife is beautiful.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1455 1456" tag="L+CR+LN">i              este frumoasa          nevast-ta.34                             MR</item>
+    <item id="c3" line="1457" tag="G">2Sg.Dat.Cl     is      beautiful.F.Sg wife-your.2Sg.F.Cl</item>
+    <item id="c4" line="1458" tag="T">Your wife is beautiful.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101031">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1595-1597" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1595" tag="L+LN">          b.      Po           s-ti/*il                              du/*duca.              MR</item>
+    <item id="o2" line="1596" tag="G">                  can/may.2Sg Subj.Mark-2/3Sg.Acc.Cl                 go.2/3Sg</item>
+    <item id="o3" line="1597" tag="T">                  `You can/may go.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1595" tag="L+LN">Po           s-ti/*il                              du/*duca.              MR</item>
+    <item id="c2" line="1596" tag="G">can/may.2Sg Subj.Mark-2/3Sg.Acc.Cl                 go.2/3Sg</item>
+    <item id="c3" line="1597" tag="T">You can/may go.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101051">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1745-1749" line-types="L+LN G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1745" tag="L+LN">         c.     Ubides         capel      cari s-mi                                 MR</item>
+    <item id="o2" line="1746" tag="G">                look for.1Sg hat          which Subj.Mark-1Sg.Acc.Cl</item>
+    <item id="o3" line="1747" tag="L">                veaglj                    di      soare.</item>
+    <item id="o4" line="1748" tag="G">                protect.3Sg.Subj          from sun.</item>
+    <item id="o5" line="1749" tag="T">                `I am looking for a hat    that would protect me from the sun.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1745" tag="L+LN">Ubides         capel      cari s-mi                                 MR</item>
+    <item id="c2" line="1746" tag="G">look for.1Sg hat          which Subj.Mark-1Sg.Acc.Cl</item>
+    <item id="c3" line="1747" tag="L">veaglj                    di      soare.</item>
+    <item id="c4" line="1748" tag="G">protect.3Sg.Subj          from sun.</item>
+    <item id="c5" line="1749" tag="T">I am looking for a hat    that would protect me from the sun.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+    <item id="p1" content="c3[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+    <item id="g1" content="c4[0:35]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:61]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i101063">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1829-1831" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1829" tag="L+LN">         e.     Nu     ari             di     i       si     ca.      MR</item>
+    <item id="o2" line="1830" tag="G">                not    have.Impers from what Subj.Mark catch.3Sg/Pl.Subj</item>
+    <item id="o3" line="1831" tag="T">                `There is nothing (s)he/they can hold onto.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1829" tag="L+LN">Nu     ari             di     i       si     ca.      MR</item>
+    <item id="c2" line="1830" tag="G">not    have.Impers from what Subj.Mark catch.3Sg/Pl.Subj</item>
+    <item id="c3" line="1831" tag="T">There is nothing (s)he/they can hold onto.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101080">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1995-1997" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1995" tag="L+LN">  (63)   a.      Si             vin.                                                MR</item>
+    <item id="o2" line="1996" tag="G">                 Subj.Mark      come.3Sg/Pl.Subj</item>
+    <item id="o3" line="1997" tag="T">                 `(S)he/they will come.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1995" tag="L+LN">Si             vin.                                                MR</item>
+    <item id="c2" line="1996" tag="G">Subj.Mark      come.3Sg/Pl.Subj</item>
+    <item id="c3" line="1997" tag="T">he/they will come.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101081">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1998-2000" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1998" tag="L+LN">         b.      S-la                           lea.                                MR</item>
+    <item id="o2" line="1999" tag="G">                 Subj.Mark-3Sg.M.Acc.Cl         take.2Sg</item>
+    <item id="o3" line="2000" tag="T">                 `You will take it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1998" tag="L+LN">S-la                           lea.                                MR</item>
+    <item id="c2" line="1999" tag="G">Subj.Mark-3Sg.M.Acc.Cl         take.2Sg</item>
+    <item id="c3" line="2000" tag="T">You will take it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101086">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="2035-2037" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2035" tag="L">  (66)   Si              vineau               ier.</item>
+    <item id="o2" line="2036" tag="G">         Subj.Mark       come.3Pl.Imperf      yesterday</item>
+    <item id="o3" line="2037" tag="T">         `(As far as I know) they were to come yesterday.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2035" tag="L">Si              vineau               ier.</item>
+    <item id="c2" line="2036" tag="G">Subj.Mark       come.3Pl.Imperf      yesterday</item>
+    <item id="c3" line="2037" tag="T">(As far as I know) they were to come yesterday.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101105">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="2270-2274" line-types="L+LN G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2270" tag="L+LN">   (77) a.       Zisi           ca         -li                                    MR</item>
+    <item id="o2" line="2271" tag="G">                 say.3Sg        that       2Sg.Dat.Cl+3Pl.F.Acc.Cl</item>
+    <item id="o3" line="2272" tag="L">                 vutau                     dat.</item>
+    <item id="o4" line="2273" tag="G">                 have.3Sg.Inv.Perf         given.Part</item>
+    <item id="o5" line="2274" tag="T">                 `(S)he says that (s)he   had given them to you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2270" tag="L+LN">Zisi           ca-li                                    MR</item>
+    <item id="c2" line="2271" tag="G">say.3Sg        that       2Sg.Dat.Cl+3Pl.F.Acc.Cl</item>
+    <item id="c3" line="2272" tag="L">vutau                     dat.</item>
+    <item id="c4" line="2273" tag="G">have.3Sg.Inv.Perf         given.Part</item>
+    <item id="c5" line="2274" tag="T">he says that (s)he   had given them to you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+    <item id="p1" content="c3[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+    <item id="g1" content="c4[0:36]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:43]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i101106">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="2275-2277" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2275" tag="L+LN">         b.      Vutau                 vizut          vrin feat n drumu. MR</item>
+    <item id="o2" line="2276" tag="G">                 have.3Sg.Inv.Perf     seen.Part      some girl     in road</item>
+    <item id="o3" line="2277" tag="T">                 `They had, reportedly, seen some girl on the way.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2275" tag="L+LN">Vutau                 vizut          vrin feat n drumu. MR</item>
+    <item id="c2" line="2276" tag="G">have.3Sg.Inv.Perf     seen.Part      some girl     in road</item>
+    <item id="c3" line="2277" tag="T">They had, reportedly, seen some girl on the way.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101107">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="2280-2284" line-types="L+LN G T T+AL T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2280" tag="L+LN">  (78)   a.      Tu      fostai                ncrilat!                           MR</item>
+    <item id="o2" line="2281" tag="G">                 you     be.3Sg.Inv.Perf       clever</item>
+    <item id="o3" line="2282" tag="T">                 1. `You are clever!' (admiration)</item>
+    <item id="o4" line="2283" tag="T+AL">                 2. `(I am surprised to see that) you are so clever.</item>
+    <item id="o5" line="2284" tag="T+AL">                 3. `You clever!' (irony)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2280" tag="L+LN">Tu      fostai                ncrilat!                           MR</item>
+    <item id="c2" line="2281" tag="G">you     be.3Sg.Inv.Perf       clever</item>
+    <item id="c3" line="2282" tag="T">`You are clever!' (admiration)</item>
+    <item id="c4" line="2283" tag="T+AL">`(I am surprised to see that) you are so clever.</item>
+    <item id="c5" line="2284" tag="T+AL">`You clever!' (irony)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+    <item id="t1" content="c4[0:48]" alignment="p1"/>
+    <item id="t2" content="c5[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101108">
+  <metadata type="xigt-meta">
+    <meta type="language" name="megleno romanian" iso-639-3="ruq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="2285-2287" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2285" tag="L+LN">         b.      sh            vutau                 un     mum trei feati.. MR</item>
+    <item id="o2" line="2286" tag="G">                 Impers.Dat.Cl have.3Sg.Inv.Perf     a.F    mother three girls</item>
+    <item id="o3" line="2287" tag="T">                 `(Once upon a time) a mother had three daughters ...'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2285" tag="L+LN">sh            vutau                 un     mum trei feati.. MR</item>
+    <item id="c2" line="2286" tag="G">Impers.Dat.Cl have.3Sg.Inv.Perf     a.F    mother three girls</item>
+    <item id="c3" line="2287" tag="T">(Once upon a time) a mother had three daughters ...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

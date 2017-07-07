@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i26">
+  <metadata type="xigt-meta">
+    <meta type="language" name="michif" iso-639-3="crg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2984" line-range="481-485" line-types="M+LN L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="481" tag="M+LN">     (20) MICHIF &lt; ENGLISH</item>
+    <item id="o2" line="482" tag="L+CR">               kat dï zyjt gi:-lï-slibre:t-i-na:n</item>
+    <item id="o3" line="483" tag="L+CR">          lï</item>
+    <item id="o4" line="484" tag="G">          DET four of July         1PA-DET-celebrate-INF-IA.1PL</item>
+    <item id="o5" line="485" tag="T+AC">          `We celebrated the Fourth of July'. (Bakker 1997b: 115-16)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="481" tag="M+LN">MICHIF &lt; ENGLISH</item>
+    <item id="c2" line="482 483" tag="L+CR">lï  kat dï zyjt gi:-lï-slibre:t-i-na:n</item>
+    <item id="c4" line="484" tag="G">DET four of July         1PA-DET-celebrate-INF-IA.1PL</item>
+    <item id="c5" line="485" tag="T+AC">We celebrated the Fourth of July'. (Bakker 1997b: 115-16)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i11376">
+  <metadata type="xigt-meta">
+    <meta type="language" name="michif" iso-639-3="crg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2469" line-range="475-478" line-types="M+LN+DB L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="475" tag="M+LN+DB">      (20) MICHIF &lt; ENGLISH</item>
+    <item id="o2" line="476" tag="L">           lï   kat dï zyj t gi:-lï-s libre:t-i-na:n</item>
+    <item id="o3" line="477" tag="G">           DET four of July         1PA-DET-celebrate-INF-IA.1PL</item>
+    <item id="o4" line="478" tag="T+AC">           `We celebrated the Fourth of July'. (Bakker 1997b: 115-16)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="475" tag="M+LN+DB">MICHIF &lt; ENGLISH</item>
+    <item id="c2" line="476" tag="L">lï   kat dï zyj t gi:-lï-s libre:t-i-na:n</item>
+    <item id="c3" line="477" tag="G">DET four of July         1PA-DET-celebrate-INF-IA.1PL</item>
+    <item id="c4" line="478" tag="T+AC">We celebrated the Fourth of July'. (Bakker 1997b: 115-16)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

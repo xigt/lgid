@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i116578">
+  <metadata type="xigt-meta">
+    <meta type="language" name="angolar" iso-639-3="aoa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3648" line-range="97-101" line-types="M+AC+LN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="97" tag="M+AC+LN">  Angolar (Maurer 1995:113)</item>
+    <item id="o2" line="98" tag="L">  (5) Ê     ra     Têtêuga                                   ua          kiba        palaxu (...)</item>
+    <item id="o3" line="99" tag="G+CR">            3           give        Tortue                   a           piece       palace</item>
+    <item id="o4" line="100" tag="G+CR">                SG</item>
+    <item id="o5" line="101" tag="T">            'He gave a piece of his palace to Tortue.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="97" tag="M+AC+LN">Angolar (Maurer 1995:113)</item>
+    <item id="c2" line="98" tag="L">Ê     ra     Têtêuga                                   ua          kiba        palaxu (...</item>
+    <item id="c3" line="99 100" tag="G+CR">3   SG      give        Tortue                   a           piece       palace</item>
+    <item id="c5" line="101" tag="T">He gave a piece of his palace to Tortue.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:90]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:79]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

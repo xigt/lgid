@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i116068">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ch'ol" iso-639-3="ctu:cti" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="12064-12069" line-types="M+LN+CN+EX L G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12064" tag="M+LN+CN+EX">  (11) Ch'ol (Mayan, Ch'olan-Tzeltalan, Ch'olan): imperfective clauses</item>
+    <item id="o2" line="12065" tag="L">        a. ca        til-iy-on</item>
+    <item id="o3" line="12066" tag="G+CR">                     come-PRF-1SG</item>
+    <item id="o4" line="12067" tag="G+CR">            ASP</item>
+    <item id="o5" line="12068" tag="B"></item>
+    <item id="o6" line="12069" tag="T">            'I came.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12064" tag="M+LN+CN+EX">Ch'ol (Mayan, Ch'olan-Tzeltalan, Ch'olan): imperfective clauses</item>
+    <item id="c2" line="12065" tag="L">ca        til-iy-on</item>
+    <item id="c3" line="12066 12067" tag="G+CR">ASP      come-PRF-1SG</item>
+    <item id="c5" line="12068" tag="B"/>
+    <item id="c6" line="12069" tag="T">I came.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116069">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ch'ol" iso-639-3="ctu:cti" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="12070-12073" line-types="L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12070" tag="L">        b. mi-h      suht-el</item>
+    <item id="o2" line="12071" tag="G">           ASP-1SG.S return-IPFV</item>
+    <item id="o3" line="12072" tag="B"></item>
+    <item id="o4" line="12073" tag="T">            'I return.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12070" tag="L">mi-h      suht-el</item>
+    <item id="c2" line="12071" tag="G">ASP-1SG.S return-IPFV</item>
+    <item id="c3" line="12072" tag="B"/>
+    <item id="c4" line="12073" tag="T">I return.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116070">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ch'ol" iso-639-3="ctu:cti" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="12074-12078" line-types="L G B T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12074" tag="L">        c. mi-h      wahl-en-et</item>
+    <item id="o2" line="12075" tag="G">           ASP-1SG.A mock-IPFV-2SG</item>
+    <item id="o3" line="12076" tag="B"></item>
+    <item id="o4" line="12077" tag="T">            `I ridicule you.'</item>
+    <item id="o5" line="12078" tag="M+AC">                                                 (Quizar &amp; Knowles-Berry 1988:77,78)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12074" tag="L">mi-h      wahl-en-et</item>
+    <item id="c2" line="12075" tag="G">ASP-1SG.A mock-IPFV-2SG</item>
+    <item id="c3" line="12076" tag="B"/>
+    <item id="c4" line="12077" tag="T">I ridicule you.</item>
+    <item id="c5" line="12078" tag="M+AC">Quizar &amp; Knowles-Berry 1988:77,78</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

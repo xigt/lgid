@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i18092">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ndyuka" iso-639-3="djk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1607" line-range="1521-1523" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1521" tag="L">  (84) baana,     bakuba, angooki, kumukomu anga ala den                  soutu sani de</item>
+    <item id="o2" line="1522" tag="G">      plantain banana      gherkin    cucumber          and   all   these sort      thing there</item>
+    <item id="o3" line="1523" tag="T">      `plantains, bananas, gherkins, cucumbers, and all these kinds of things'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1521" tag="L">baana,     bakuba, angooki, kumukomu anga ala den                  soutu sani de</item>
+    <item id="c2" line="1522" tag="G">plantain banana      gherkin    cucumber          and   all   these sort      thing there</item>
+    <item id="c3" line="1523" tag="T">plantains, bananas, gherkins, cucumbers, and all these kinds of things</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:89]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:70]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30565">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ndyuka" iso-639-3="djk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="318-321" line-types="M+AC+LN+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="318" tag="M+AC+LN+CN">  (10) Ndyuka CE (Huttar          &amp; Huttar 1994:280)</item>
+    <item id="o2" line="319" tag="L">        Kii     i     seefi        á       bun</item>
+    <item id="o3" line="320" tag="G">        kill 2:SG self             NEG good</item>
+    <item id="o4" line="321" tag="T">        'Killing yourself is      not good'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="318" tag="M+AC+LN+CN">Ndyuka CE (Huttar          &amp; Huttar 1994:280</item>
+    <item id="c2" line="319" tag="L">Kii     i     seefi        á       bun</item>
+    <item id="c3" line="320" tag="G">kill 2:SG self             NEG good</item>
+    <item id="c4" line="321" tag="T">Killing yourself is      not good</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30626">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ndyuka" iso-639-3="djk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="1495-1498" line-types="M+AC+LN+CN L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1495" tag="M+AC+LN+CN">  (55) Ndyuka CE (Huttar &amp; Huttar       1994:274, 280-1)</item>
+    <item id="o2" line="1496" tag="L+SY">  a     Ai     á      sabi   pe         fu poti [en               seefi]i</item>
+    <item id="o3" line="1497" tag="G">        3:SG NEG know where              for put 3:OBL            self</item>
+    <item id="o4" line="1498" tag="T">        'She didn't know what to do     with herself'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1495" tag="M+AC+LN+CN">Ndyuka CE (Huttar &amp; Huttar       1994:274, 280-1</item>
+    <item id="c2" line="1496" tag="L+SY">a     Ai     á      sabi   pe         fu poti [en               seefi]i</item>
+    <item id="c3" line="1497" tag="G">3:SG NEG know where              for put 3:OBL            self</item>
+    <item id="c4" line="1498" tag="T">She didn't know what to do     with herself</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30627">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ndyuka" iso-639-3="djk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="1500-1502" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1500" tag="L">  b     Fa    alisi e      lepi, a       so     en     seefi e           lepi tu</item>
+    <item id="o2" line="1501" tag="G">        how rice CNT ripe BE thus 3:OBL self                     CNT ripe too</item>
+    <item id="o3" line="1502" tag="T">        'The way rice ripens, that's the way it [sesame] itself also ripens'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1500" tag="L">b     Fa    alisi e      lepi, a       so     en     seefi e           lepi tu</item>
+    <item id="c2" line="1501" tag="G">how rice CNT ripe BE thus 3:OBL self                     CNT ripe too</item>
+    <item id="c3" line="1502" tag="T">The way rice ripens, that's the way it [sesame] itself also ripens</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58595">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ndyuka" iso-639-3="djk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3186" line-range="1027-1029" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1027" tag="L">   (49)    a. (*i) gwe</item>
+    <item id="o2" line="1028" tag="G">              you leave</item>
+    <item id="o3" line="1029" tag="T">              `Leave!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1027" tag="L">(*i) gwe</item>
+    <item id="c2" line="1028" tag="G">you leave</item>
+    <item id="c3" line="1029" tag="T">Leave!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:9]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:6]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58596">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ndyuka" iso-639-3="djk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3186" line-range="1030-1032" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1030" tag="L">           b. *(i) gwe</item>
+    <item id="o2" line="1031" tag="G">              you leave</item>
+    <item id="o3" line="1032" tag="T">              `You are leaving'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1030" tag="L">*(i) gwe</item>
+    <item id="c2" line="1031" tag="G">you leave</item>
+    <item id="c3" line="1032" tag="T">You are leaving</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:9]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116584">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ndyuka" iso-639-3="djk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3648" line-range="142-146" line-types="M+AC+LN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="142" tag="M+AC+LN">  Ndyuka (Huttar &amp; Huttar 1994:158)</item>
+    <item id="o2" line="143" tag="L">  (11) Meke mi     gi     en     a                                       goni.</item>
+    <item id="o3" line="144" tag="G+CR">         make          1            give         3          the          gun</item>
+    <item id="o4" line="145" tag="G+CR">                           SG                        SG</item>
+    <item id="o5" line="146" tag="T">         'Let me give him the gun.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="142" tag="M+AC+LN">Ndyuka (Huttar &amp; Huttar 1994:158)</item>
+    <item id="c2" line="143" tag="L">Meke mi     gi     en     a                                       goni.</item>
+    <item id="c3" line="144 145" tag="G+CR">make          1   SG       give         3   SG     the          gun</item>
+    <item id="c5" line="146" tag="T">Let me give him the gun.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

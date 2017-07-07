@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i115646">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chang" iso-639-3="nbc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3380" line-range="2721-2726" line-types="M+LN B L G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2721" tag="M+LN">         b.   Chang</item>
+    <item id="o2" line="2722" tag="B"></item>
+    <item id="o3" line="2723" tag="L">              nge         ka?to        ta-ngam-po</item>
+    <item id="o4" line="2724" tag="G+CR">                                        NEG-strike-FUT</item>
+    <item id="o5" line="2725" tag="G+CR">              1SG,ERG     2SG-ACC</item>
+    <item id="o6" line="2726" tag="T+AC">              `I will not strike you' (Hutton 1987: 41)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2721" tag="M+LN">Chang</item>
+    <item id="c2" line="2722" tag="B"/>
+    <item id="c3" line="2723" tag="L">nge         ka?to        ta-ngam-po</item>
+    <item id="c4" line="2724 2725" tag="G+CR">1SG,ERG     2SG-ACC       NEG-strike-FUT</item>
+    <item id="c6" line="2726" tag="T+AC">I will not strike you' (Hutton 1987: 41)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

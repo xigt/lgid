@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i95346">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tonga-inhambane" iso-639-3="toh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2807" line-range="479-479" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="479" tag="L-T+DB">         (-)kheni         'I say, "...'                        kheni         'it is I'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="479" tag="L-T+DB">(-)kheni         'I say, "...'                        kheni         'it is I</item>
+  </tier>
+</igt>
+<igt id="i95347">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tonga-inhambane" iso-639-3="toh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2807" line-range="480-480" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="480" tag="L-T+DB">         (-)khuwe         'you say, "...'                      khuwe         'it is you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="480" tag="L-T+DB">(-)khuwe         'you say, "...'                      khuwe         'it is you</item>
+  </tier>
+</igt>
+<igt id="i95348">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tonga-inhambane" iso-639-3="toh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2807" line-range="481-481" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="481" tag="L-T+DB">         (-)khawo         'they say, "...'                     khawo         'it is they'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="481" tag="L-T+DB">(-)khawo         'they say, "...'                     khawo         'it is they</item>
+  </tier>
+</igt>
+<igt id="i95349">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tonga-inhambane" iso-639-3="toh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2807" line-range="483-485" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="483" tag="L">  (44)   nyamayi adi-wujisa kh-uye      ...</item>
+    <item id="o2" line="484" tag="G">         woman 3S:PST-ask Q-3S.PRO</item>
+    <item id="o3" line="485" tag="T+AC">         The woman asked saying, "... (Lanham 1955: 140)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="483" tag="L">nyamayi adi-wujisa kh-uye      ...</item>
+    <item id="c2" line="484" tag="G">woman 3S:PST-ask Q-3S.PRO</item>
+    <item id="c3" line="485" tag="T+AC">The woman asked saying, "... (Lanham 1955: 140)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95350">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tonga-inhambane" iso-639-3="toh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2807" line-range="487-490" line-types="M+CN L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="487" tag="M+CN">  - develops to quotative verb by innovative co-occurrence with pre-stem verb morphology</item>
+    <item id="o2" line="488" tag="L">  (45)   si-rengo si-ngu-kh-iso              ...</item>
+    <item id="o3" line="489" tag="G">         8-animal 8-PRS-QV-8</item>
+    <item id="o4" line="490" tag="T+AC">         the animals say, "...                     (Lanham 1955: 140)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="487" tag="M+CN">-develops to quotative verb by innovative co-occurrence with pre-stem verb morphology</item>
+    <item id="c2" line="488" tag="L">si-rengo si-ngu-kh-iso              ...</item>
+    <item id="c3" line="489" tag="G">8-animal 8-PRS-QV-8</item>
+    <item id="c4" line="490" tag="T+AC">the animals say, "...                     (Lanham 1955: 140)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

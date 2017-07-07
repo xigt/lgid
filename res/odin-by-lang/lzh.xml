@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i110247">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical chinese" iso-639-3="lzh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3359" line-range="341-343" line-types="L+LN G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="341" tag="L+LN">  (29)   mie-guo-zhe            wu-shi                                 Classical Chinese</item>
+    <item id="o2" line="342" tag="G">         destroy-country-NZL 50</item>
+    <item id="o3" line="343" tag="T+AC">         `His extinctions of countries were fifty.' (Meng 3B/9)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="341" tag="L+LN">mie-guo-zhe            wu-shi                                 Classical Chinese</item>
+    <item id="c2" line="342" tag="G">destroy-country-NZL 50</item>
+    <item id="c3" line="343" tag="T+AC">His extinctions of countries were fifty.' (Meng 3B/9)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i110251">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical chinese" iso-639-3="lzh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3359" line-range="415-417" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="415" tag="L">  (35)   you da jiang er ren. Er jiang...</item>
+    <item id="o2" line="416" tag="G">         be big general 2 CL 2 general..</item>
+    <item id="o3" line="417" tag="T+AC">         `There were two great generals. The two generals...' (Schafer (1948, p.413)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="415" tag="L">you da jiang er ren. Er jiang...</item>
+    <item id="c2" line="416" tag="G">be big general 2 CL 2 general..</item>
+    <item id="c3" line="417" tag="T+AC">There were two great generals. The two generals...' (Schafer (1948, p.413)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126952">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical chinese" iso-639-3="lzh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3474" line-range="203-205" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="203" tag="L+AC">        (19) Huan Jiang-lang jue!        (Shishuoxinyu, A.D. 425; Shi (2002))</item>
+    <item id="o2" line="204" tag="G">              call Jiang-lang awake</item>
+    <item id="o3" line="205" tag="T">              `(You) call Jiang-lang and make him awake!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="203" tag="L+AC">Huan Jiang-lang jue!        (Shishuoxinyu, A.D. 425; Shi (2002)</item>
+    <item id="c2" line="204" tag="G">call Jiang-lang awake</item>
+    <item id="c3" line="205" tag="T">(You) call Jiang-lang and make him awake!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126959">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical chinese" iso-639-3="lzh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3474" line-range="363-365" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="363" tag="L+AC">         (33) Tian se wei liao. (Lushan yuangong hua, A.D.800; Shi 2002)</item>
+    <item id="o2" line="364" tag="G">              fill color not complete</item>
+    <item id="o3" line="365" tag="T">              '(Someone) has bit completely filled in the color.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="363" tag="L+AC">Tian se wei liao. (Lushan yuangong hua, A.D.800; Shi 2002</item>
+    <item id="c2" line="364" tag="G">fill color not complete</item>
+    <item id="c3" line="365" tag="T">(Someone) has bit completely filled in the color.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126970">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical chinese" iso-639-3="lzh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3474" line-range="440-442" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="440" tag="L+AC">         (47) Feng xing er zhuo yu tu. (Zuozhuan, Zhuanggong, 550 B.C.)</item>
+    <item id="o2" line="441" tag="G">               wind move and attach to soil</item>
+    <item id="o3" line="442" tag="T">               'Wind moves and attaches to soil.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="440" tag="L+AC">Feng xing er zhuo yu tu. (Zuozhuan, Zhuanggong, 550 B.C.</item>
+    <item id="c2" line="441" tag="G">wind move and attach to soil</item>
+    <item id="c3" line="442" tag="T">Wind moves and attaches to soil.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

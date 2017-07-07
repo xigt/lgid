@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i144299">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ma'di" iso-639-3="mhi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1586" line-range="287-291" line-types="M+AC+LN L+DB+CR L+DB+CR G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="287" tag="M+AC+LN">  (14) Ma'di (Blackings&amp;Fabb 2003: 632)</item>
+    <item id="o2" line="288" tag="L+DB+CR">     a. í `mã                     b. í `mã                '?</item>
+    <item id="o3" line="289" tag="L+DB+CR">         -            rá              -            rá</item>
+    <item id="o4" line="290" tag="G+DB">        2SG NPST .go AFF             2SG NPST .go AFF Q</item>
+    <item id="o5" line="291" tag="T+DB">        `You will definitely go.'    `Are you definitely going?' / `Will you definitely go?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="287" tag="M+AC+LN">Ma'di (Blackings&amp;Fabb 2003: 632</item>
+    <item id="c2" line="288" tag="L+DB+CR">í `mã                     b. í `mã                '?</item>
+    <item id="c4" line="290" tag="G+DB">2SG NPST .go AFF             2SG NPST .go AFF Q</item>
+    <item id="c5" line="291" tag="T+DB">You will definitely go.'    `Are you definitely going?' / `Will you definitely go?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:82]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

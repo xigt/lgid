@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i13492">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2489" line-range="1473-1475" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1473" tag="L">  (i) Min mabb-it-ir-an-ilaw-oy-i                                           mo ngal sembe</item>
+    <item id="o2" line="1474" tag="G">    we close-REVERS-INSTR-BENEF-CELER-DISTANTIVE-PAST him it strength</item>
+    <item id="o3" line="1475" tag="T">      'We went and opened it for him with strength quickly'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1473" tag="L">Min mabb-it-ir-an-ilaw-oy-i                                           mo ngal sembe</item>
+    <item id="c2" line="1474" tag="G">we close-REVERS-INSTR-BENEF-CELER-DISTANTIVE-PAST him it strength</item>
+    <item id="c3" line="1475" tag="T">We went and opened it for him with strength quickly</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:83]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90006">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2624" line-range="299-305" line-types="M+LN M+CN L+CR L+CR G T T+LT+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="299" tag="M+LN">  (15)   Fula</item>
+    <item id="o2" line="300" tag="M+CN">         passive</item>
+    <item id="o3" line="301" tag="L+CR">                                                 min �gaari.</item>
+    <item id="o4" line="302" tag="L+CR">         a.      8e kirs-          an- ii-</item>
+    <item id="o5" line="303" tag="G">                 they slaughter- PST- APPL- us bull</item>
+    <item id="o6" line="304" tag="T">                 `They slaughtered a bull for us.'</item>
+    <item id="o7" line="305" tag="T+LT+AL">                 (lit. `They slaughtered us a bull.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="299" tag="M+LN">Fula</item>
+    <item id="c2" line="300" tag="M+CN">passive</item>
+    <item id="c3" line="301 302" tag="L+CR">8e kirs-an-ii-min �gaari.</item>
+    <item id="c5" line="303" tag="G">they slaughter-PST-APPL-us bull</item>
+    <item id="c6" line="304" tag="T">They slaughtered a bull for us.</item>
+    <item id="c7" line="305" tag="T+LT+AL">lit. `They slaughtered us a bull.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:31]" alignment="p1"/>
+    <item id="t1" content="c7[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90007">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2624" line-range="314-317" line-types="L G T T+LT+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="314" tag="L">         b.           gaari kirs-       an- aama- min.</item>
+    <item id="o2" line="315" tag="G">                   bull     slaughter- PST- PASS- us</item>
+    <item id="o3" line="316" tag="T">                   `A bull was slaughtered for us.'</item>
+    <item id="o4" line="317" tag="T+LT+AL">                   (lit. `A bull was slaughtered us.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="314" tag="L">gaari kirs-an-aama-min.</item>
+    <item id="c2" line="315" tag="G">bull     slaughter-PST-PASS-us</item>
+    <item id="c3" line="316" tag="T">A bull was slaughtered for us.</item>
+    <item id="c4" line="317" tag="T+LT+AL">lit. `A bull was slaughtered us.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+    <item id="t1" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90008">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2624" line-range="318-322" line-types="L+CR L+CR G T T+LT+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="318" tag="L+CR">                                      an- aama �gaari.</item>
+    <item id="o2" line="319" tag="L+CR">         c.        Min- kirs-</item>
+    <item id="o3" line="320" tag="G">                   we- slaughter- PST- PASS bull</item>
+    <item id="o4" line="321" tag="T">                   `We had a bull slaughtered for us.'</item>
+    <item id="o5" line="322" tag="T+LT+AL">                   (lit. `We were slaughtered a bull.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="318 319" tag="L+CR">Min-kirs-an-aama �gaari.</item>
+    <item id="c3" line="320" tag="G">we-slaughter-PST-PASS bull</item>
+    <item id="c4" line="321" tag="T">We had a bull slaughtered for us.</item>
+    <item id="c5" line="322" tag="T+LT+AL">lit. `We were slaughtered a bull.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+    <item id="t1" content="c5[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

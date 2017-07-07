@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i32710">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2025" line-range="5890-5892" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5890" tag="L">  (i)            so wil noch tün alles, daz ich vermach.</item>
+    <item id="o2" line="5891" tag="G">                 thus want still to-do everything, that I like.</item>
+    <item id="o3" line="5892" tag="T+AC">                  Thus I still want to do everything that I like' (et1-516)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5890" tag="L">so wil noch tün alles, daz ich vermach.</item>
+    <item id="c2" line="5891" tag="G">thus want still to-do everything, that I like.</item>
+    <item id="c3" line="5892" tag="T+AC">Thus I still want to do everything that I like' (et1-516)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i37405">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3829" line-range="5946-5949" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5946" tag="L">                     ich        enkan        decheinen         buochstap</item>
+    <item id="o2" line="5947" tag="G+CR">                                NEGCL.canany.ACC               letter.ACC</item>
+    <item id="o3" line="5948" tag="G+CR">                     I</item>
+    <item id="o4" line="5949" tag="T">                     ,,I don´t know any letter ­ I´m illiterate"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5946" tag="L">ich        enkan        decheinen         buochstap</item>
+    <item id="c2" line="5947 5948" tag="G+CR">I          NEGCL.canany.ACC               letter.ACC</item>
+    <item id="c4" line="5949" tag="T">,,I don´t know any letter ­ I´m illiterate</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45588">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="347" line-range="48-50" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="48" tag="L+AC">  (1) a. der was wol rosseloufes    wît                                    Iw. 6987</item>
+    <item id="o2" line="49" tag="G">         he was well horse-run-GEN away</item>
+    <item id="o3" line="50" tag="T">         "He was well as far away as a horse can run"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="48" tag="L+AC">der was wol rosseloufes    wît                                    Iw. 6987</item>
+    <item id="c2" line="49" tag="G">he was well horse-run-GEN away</item>
+    <item id="c3" line="50" tag="T">He was well as far away as a horse can run</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45589">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="347" line-range="52-54" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="52" tag="L+AC">       b. dâ wart er vröuden rôt                                           NL 770,1</item>
+    <item id="o2" line="53" tag="G">          there was he joy-GEN red</item>
+    <item id="o3" line="54" tag="T">          "He blushed with joy"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="52" tag="L+AC">dâ wart er vröuden rôt                                           NL 770,1</item>
+    <item id="c2" line="53" tag="G">there was he joy-GEN red</item>
+    <item id="c3" line="54" tag="T">He blushed with joy</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45590">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="347" line-range="57-59" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="57" tag="L+AC">        c. dar zuo is êren             mir geschehen                    Bit 7377</item>
+    <item id="o2" line="58" tag="G">           there to is honor-GEN       me happened</item>
+    <item id="o3" line="59" tag="T">           "I was honored for that"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="57" tag="L+AC">dar zuo is êren             mir geschehen                    Bit 7377</item>
+    <item id="c2" line="58" tag="G">there to is honor-GEN       me happened</item>
+    <item id="c3" line="59" tag="T">I was honored for that</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45591">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="347" line-range="61-63" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="61" tag="L+AC">        d.    swar      ih landes    kêre                               MF 52,31</item>
+    <item id="o2" line="62" tag="G">             where-ever I land-GEN go</item>
+    <item id="o3" line="63" tag="T">             "in whatever land I go"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="61" tag="L+AC">swar      ih landes    kêre                               MF 52,31</item>
+    <item id="c2" line="62" tag="G">where-ever I land-GEN go</item>
+    <item id="c3" line="63" tag="T">in whatever land I go</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i45592">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="347" line-range="65-67" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="65" tag="L+AC">        e. si   füerent roubes            eine magt                     Pz 122,20</item>
+    <item id="o2" line="66" tag="G">           they bring     robbery-GEN      a    maiden</item>
+    <item id="o3" line="67" tag="T">           "They have with them an abducted maiden"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="65" tag="L+AC">si   füerent roubes            eine magt                     Pz 122,20</item>
+    <item id="c2" line="66" tag="G">they bring     robbery-GEN      a    maiden</item>
+    <item id="c3" line="67" tag="T">They have with them an abducted maiden</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57199">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2723" line-range="1199-1201" line-types="L G M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1199" tag="L">  (34)    hern        Erchenpreht em               purkcrave von Gors</item>
+    <item id="o2" line="1200" tag="G">          lord:Dsm (name)             the:Dsm earl              of (name)</item>
+    <item id="o3" line="1201" tag="M+AC">          1301, Altenburg (Weinhold 1867:376)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1199" tag="L">hern        Erchenpreht em               purkcrave von Gors</item>
+    <item id="c2" line="1200" tag="G">lord:Dsm (name)             the:Dsm earl              of (name)</item>
+    <item id="c3" line="1201" tag="M+AC">1301, Altenburg (Weinhold 1867:376)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60181">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="1451-1452" line-types="L+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1451" tag="L+AC">          (b) thaz wib thaz thero duro sah (Otfrid IV,18,6)</item>
+    <item id="o2" line="1452" tag="T">              'the woman who saw the door (gen)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1451" tag="L+AC">thaz wib thaz thero duro sah (Otfrid IV,18,6</item>
+    <item id="c2" line="1452" tag="T">the woman who saw the door (gen)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60182">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="1540-1540" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1540" tag="L-T+DB">  1 (nomx\accy): ahtôn 'think, believe', bigrîfan 'understand', denken, thenken 'think, understand',</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1540" tag="L-T+DB">1 (nomx\accy): ahtôn 'think, believe', bigrîfan 'understand', denken, thenken 'think, understand',</item>
+  </tier>
+</igt>
+<igt id="i60183">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="1541-1544" line-types="L-T+DB C+DB C+DB C+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1541" tag="L-T+DB">  forhten 'fear', frewen 'be glad about', frowôn 'be glad about', gerôn 'strive for, desire', gilouben</item>
+    <item id="o2" line="1542" tag="C+DB">  'believe', hazzôn 'hate', hôren 'hear', kennen 'know', minnôn 'love', (h)riuwan, riuwen 'feel</item>
+    <item id="o3" line="1543" tag="C+DB">  sorry about, regret', wânen 'believe, hold true', wizzen 'know', wuntâron 'wonder', wunsgen,</item>
+    <item id="o4" line="1544" tag="C+DB">  wunschen 'want, desire'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1541" tag="L-T+DB">forhten 'fear', frewen 'be glad about', frowôn 'be glad about', gerôn 'strive for, desire', gilouben</item>
+    <item id="c2" line="1542" tag="C+DB">believe', hazzôn 'hate', hôren 'hear', kennen 'know', minnôn 'love', (h)riuwan, riuwen 'feel</item>
+    <item id="c3" line="1543" tag="C+DB">sorry about, regret', wânen 'believe, hold true', wizzen 'know', wuntâron 'wonder', wunsgen,</item>
+    <item id="c4" line="1544" tag="C+DB">wunschen 'want, desire</item>
+  </tier>
+</igt>
+<igt id="i60184">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="1545-1546" line-types="L-T+DB C+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1545" tag="L-T+DB">  2 (accx\nomy): anen 'have a presentiment, foresee', dunken, thunken 'believe, imagine', riuwen</item>
+    <item id="o2" line="1546" tag="C+DB">  'distress', ruoren 'move psychically', thwingan 'plague, distress'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1545" tag="L-T+DB">2 (accx\nomy): anen 'have a presentiment, foresee', dunken, thunken 'believe, imagine', riuwen</item>
+    <item id="c2" line="1546" tag="C+DB">distress', ruoren 'move psychically', thwingan 'plague, distress</item>
+  </tier>
+</igt>
+<igt id="i60185">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="1547-1548" line-types="L-T+DB C+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1547" tag="L-T+DB">  3 (nomx\daty): frewen 'be glad about', frowôn 'be glad about', goumen 'take heed', kenâden</item>
+    <item id="o2" line="1548" tag="C+DB">  'have mercy', milten 'feel mercy, compassion'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1547" tag="L-T+DB">3 (nomx\daty): frewen 'be glad about', frowôn 'be glad about', goumen 'take heed', kenâden</item>
+    <item id="c2" line="1548" tag="C+DB">have mercy', milten 'feel mercy, compassion</item>
+  </tier>
+</igt>
+<igt id="i60186">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="1549-1550" line-types="L-T+DB C+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1549" tag="L-T+DB">  4 (datx\nomy): anen 'have a presentiment, foresee', lîhhên 'like', dunken, thunken 'believe,</item>
+    <item id="o2" line="1550" tag="C+DB">  imagine', zeman 'like, be appropriate'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1549" tag="L-T+DB">4 (datx\nomy): anen 'have a presentiment, foresee', lîhhên 'like', dunken, thunken 'believe,</item>
+    <item id="c2" line="1550" tag="C+DB">imagine', zeman 'like, be appropriate</item>
+  </tier>
+</igt>
+<igt id="i60187">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="1551-1551" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1551" tag="L-T+DB">  5 (nomx\geny): denken, thenken 'think, understand', fergezzen 'forget', frewen 'be glad about',</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1551" tag="L-T+DB">5 (nomx\geny): denken, thenken 'think, understand', fergezzen 'forget', frewen 'be glad about',</item>
+  </tier>
+</igt>
+<igt id="i60188">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="1552-1552" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1552" tag="L-T+DB">  frowôn 'be glad about', gerôn 'strive for, desire', goumen 'take heed', gilouben 'believe',</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1552" tag="L-T+DB">frowôn 'be glad about', gerôn 'strive for, desire', goumen 'take heed', gilouben 'believe',</item>
+  </tier>
+</igt>
+<igt id="i60189">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="1553-1554" line-types="L-T+DB C+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1553" tag="L-T+DB">  kenâden 'have mercy', lustôn 'want, feel like', milten 'feel mercy, compassion', (fir)missan</item>
+    <item id="o2" line="1554" tag="C+DB">  'miss', wânen 'believe, hold true', wunsgen, wunschen 'want, desire'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1553" tag="L-T+DB">kenâden 'have mercy', lustôn 'want, feel like', milten 'feel mercy, compassion', (fir)missan</item>
+    <item id="c2" line="1554" tag="C+DB">miss', wânen 'believe, hold true', wunsgen, wunschen 'want, desire</item>
+  </tier>
+</igt>
+<igt id="i60190">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="1555-1556" line-types="L-T+DB C+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1555" tag="L-T+DB">  9 (accx\geny): bidriezen 'feel sad about', grûwen, grûsen 'shudder, feel uneasy about', jâmern</item>
+    <item id="o2" line="1556" tag="C+DB">  'feel sorrow, grieve', langen 'desire, long for', (gi)lusten 'want, feel like', wuntâr sîn 'wonder'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1555" tag="L-T+DB">9 (accx\geny): bidriezen 'feel sad about', grûwen, grûsen 'shudder, feel uneasy about', jâmern</item>
+    <item id="c2" line="1556" tag="C+DB">feel sorrow, grieve', langen 'desire, long for', (gi)lusten 'want, feel like', wuntâr sîn 'wonder</item>
+  </tier>
+</igt>
+<igt id="i60191">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="1557-1557" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1557" tag="L-T+DB">  10 (datx\geny): [brestan 'lack'], grûwen, grûsen 'shudder, be reluctant'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1557" tag="L-T+DB">10 (datx\geny): [brestan 'lack'], grûwen, grûsen 'shudder, be reluctant</item>
+  </tier>
+</igt>
+<igt id="i60288">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="3842-3845" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3842" tag="L">          (84) a.     si       tâten da     vil   leide      den             heiden        ûf des meres   îs</item>
+    <item id="o2" line="3843" tag="G">                      3p:NOM did there much harm:ACC the                     pagans:DAT on the sea:GEN ice</item>
+    <item id="o3" line="3844" tag="T">                      `They did a lot of harm to the pagans on the            frozen sea.'</item>
+    <item id="o4" line="3845" tag="M+AC">                                                             (livl.          Chronik 7932, DWb, col. 654)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3842" tag="L">si       tâten da     vil   leide      den             heiden        ûf des meres   îs</item>
+    <item id="c2" line="3843" tag="G">3p:NOM did there much harm:ACC the                     pagans:DAT on the sea:GEN ice</item>
+    <item id="c3" line="3844" tag="T">They did a lot of harm to the pagans on the            frozen sea.</item>
+    <item id="c4" line="3845" tag="M+AC">Chronik 7932, DWb, col. 654</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:86]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:84]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60289">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="3846-3848" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3846" tag="L">                 b.   daz      tuot mir        leid unde wê         z'allen     stunden</item>
+    <item id="o2" line="3847" tag="G">                      that     does 1s:DAT     harm and pain to-all             hours</item>
+    <item id="o3" line="3848" tag="T+AC">                      `This does me harm and hurts all the time.' (minnesang 1, 282, DwbVI, col. 653)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3846" tag="L">daz      tuot mir        leid unde wê         z'allen     stunden</item>
+    <item id="c2" line="3847" tag="G">that     does 1s:DAT     harm and pain to-all             hours</item>
+    <item id="c3" line="3848" tag="T+AC">This does me harm and hurts all the time.' (minnesang 1, 282, DwbVI, col. 653)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:78]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60290">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="3924-3926" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3924" tag="L">       (87)        war     sol     ich         sinnen /    nâch mînen                   lieben kinden</item>
+    <item id="o2" line="3925" tag="G">                   Whereto shall 1s:NOM        go:INF      to    1s:POSS                beloved children</item>
+    <item id="o3" line="3926" tag="T">                   `Where shall I go (to find) my beloved children?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3924" tag="L">war     sol     ich         sinnen /    nâch mînen                   lieben kinden</item>
+    <item id="c2" line="3925" tag="G">Whereto shall 1s:NOM        go:INF      to    1s:POSS                beloved children</item>
+    <item id="c3" line="3926" tag="T">Where shall I go (to find) my beloved children?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:85]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60292">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="3939-3942" line-types="L G T M+AC+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3939" tag="L">       (89)      wand         er           heim sinnete    in sînes oeheimes        hûs</item>
+    <item id="o2" line="3940" tag="G">                 when         3s:NOM       home go:3s:PAST in 3s:POSS uncle:GEN house</item>
+    <item id="o3" line="3941" tag="T">                 `When      he sent his thoughts towards home, (being) in the house of his uncle</item>
+    <item id="o4" line="3942" tag="M+AC+EX">                 (lit.:he   went home).'                   (Lanzelet 5572, DWb (X/I, col. 1158)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3939" tag="L">wand         er           heim sinnete    in sînes oeheimes        hûs</item>
+    <item id="c2" line="3940" tag="G">when         3s:NOM       home go:3s:PAST in 3s:POSS uncle:GEN house</item>
+    <item id="c3" line="3941" tag="T">When      he sent his thoughts towards home, (being) in the house of his uncle</item>
+    <item id="c4" line="3942" tag="M+AC+EX">lit.:he   went home).'                   (Lanzelet 5572, DWb (X/I, col. 1158</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:78]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60295">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="3994-3997" line-types="L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3994" tag="L">                       versûmten,          daz dô  Herwic        des hazzes        hie began</item>
+    <item id="o2" line="3995" tag="G">                       miss:3p:PAST that then H.                 the fight:GEN here start:3s:PAST</item>
+    <item id="o3" line="3996" tag="T">                       `The king's men failed to realise for far to long that Herwic already had started the</item>
+    <item id="o4" line="3997" tag="T">                       fight.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3994" tag="L">versûmten,          daz dô  Herwic        des hazzes        hie began</item>
+    <item id="c2" line="3995" tag="G">miss:3p:PAST that then H.                 the fight:GEN here start:3s:PAST</item>
+    <item id="c3" line="3996" tag="T">The king's men failed to realise for far to long that Herwic already had started the</item>
+    <item id="c4" line="3997" tag="T">fight.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:84]" alignment="p1"/>
+    <item id="t1" content="c4[0:6]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60314">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="4383-4386" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4383" tag="L">        (110)        ,,wir   trûwen      iu         áller êren",      sprach dô Swemmelîn.</item>
+    <item id="o2" line="4384" tag="G">                     1p:NOM trust        2p:DAT     all honour:GEN said then Swemmelin</item>
+    <item id="o3" line="4385" tag="T">                     '"We suppose that you are honourable", Swemmelin then said'</item>
+    <item id="o4" line="4386" tag="M+AC">                                                            (Willems/Pottelberge 1998:207)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4383" tag="L">,,wir   trûwen      iu         áller êren",      sprach dô Swemmelîn.</item>
+    <item id="c2" line="4384" tag="G">1p:NOM trust        2p:DAT     all honour:GEN said then Swemmelin</item>
+    <item id="c3" line="4385" tag="T">We suppose that you are honourable", Swemmelin then said</item>
+    <item id="c4" line="4386" tag="M+AC">Willems/Pottelberge 1998:207</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60315">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3031" line-range="4394-4398" line-types="L G+CR G+CR T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4394" tag="L">        (111)        weist iht, waz ich       vertriuwet               hân?</item>
+    <item id="o2" line="4395" tag="G+CR">                                              promise:1s:PERF          AUX</item>
+    <item id="o3" line="4396" tag="G+CR">                     know sth what 1s:NOM</item>
+    <item id="o4" line="4397" tag="T">                     `Don't you know what I have promised?</item>
+    <item id="o5" line="4398" tag="M+AC">                                                                       (Willems/Pottelberge 1998:215)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4394" tag="L">weist iht, waz ich       vertriuwet               hân?</item>
+    <item id="c2" line="4395 4396" tag="G+CR">know sth what 1s:NOM     promise:1s:PERF          AUX</item>
+    <item id="c4" line="4397" tag="T">Don't you know what I have promised?</item>
+    <item id="c5" line="4398" tag="M+AC">Willems/Pottelberge 1998:215</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i127783">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="450" line-range="569-571" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="569" tag="L">   (15)    a.        mich andet</item>
+    <item id="o2" line="570" tag="G">                     me-acc apprehends</item>
+    <item id="o3" line="571" tag="T+AC">                     `I apprehend...' (Tristan 236.1)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="569" tag="L">mich andet</item>
+    <item id="c2" line="570" tag="G">me-acc apprehends</item>
+    <item id="c3" line="571" tag="T+AC">I apprehend...' (Tristan 236.1)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i127784">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="450" line-range="572-574" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="572" tag="L">           b.        mir anet</item>
+    <item id="o2" line="573" tag="G">                     me-dat apprehends</item>
+    <item id="o3" line="574" tag="T+AC">                     `I apprehend...' (Herbort 9592)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="572" tag="L">mir anet</item>
+    <item id="c2" line="573" tag="G">me-dat apprehends</item>
+    <item id="c3" line="574" tag="T+AC">I apprehend...' (Herbort 9592)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i131369">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2664" line-range="77-80" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="77" tag="M+LN">  (2)   Middle High German</item>
+    <item id="o2" line="78" tag="L">        nu hoert ... wa daz er mir lougent niht aller mîner leide</item>
+    <item id="o3" line="79" tag="G">        now listen what that he me denies not all my pain</item>
+    <item id="o4" line="80" tag="T">        `Now listen how much of my pain he denies'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="77" tag="M+LN">Middle High German</item>
+    <item id="c2" line="78" tag="L">nu hoert ... wa daz er mir lougent niht aller mîner leide</item>
+    <item id="c3" line="79" tag="G">now listen what that he me denies not all my pain</item>
+    <item id="c4" line="80" tag="T">Now listen how much of my pain he denies</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i134395">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2378" line-range="1030-1033" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1030" tag="M+AC+LN">  (4)   Middle High German (Harris and Campbell 1995:287)</item>
+    <item id="o2" line="1031" tag="L">        Joh gizalta in    sâr            that, thiu sâlida untar in   uuas.</item>
+    <item id="o3" line="1032" tag="G">        and told     them immediately that the luck among them was</item>
+    <item id="o4" line="1033" tag="T">        `And told them immediately that good fortune was among them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1030" tag="M+AC+LN">Middle High German (Harris and Campbell 1995:287</item>
+    <item id="c2" line="1031" tag="L">Joh gizalta in    sâr            that, thiu sâlida untar in   uuas.</item>
+    <item id="c3" line="1032" tag="G">and told     them immediately that the luck among them was</item>
+    <item id="c4" line="1033" tag="T">And told them immediately that good fortune was among them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150180">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3461" line-range="1603-1605" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1603" tag="L">  (56)     a.     si             tâten da       vil   leide          den heiden              ûf des meres îs</item>
+    <item id="o2" line="1604" tag="G">                  3p:NOM         did    there much harm:ACC          the       pagans:DAT on the sea's ice</item>
+    <item id="o3" line="1605" tag="T+AC">                  `They did a lot of harm to the pagans on the frozen sea.' (livl. Chronik 7932, DWb, col. 654)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1603" tag="L">si             tâten da       vil   leide          den heiden              ûf des meres îs</item>
+    <item id="c2" line="1604" tag="G">3p:NOM         did    there much harm:ACC          the       pagans:DAT on the sea's ice</item>
+    <item id="c3" line="1605" tag="T+AC">They did a lot of harm to the pagans on the frozen sea.' (livl. Chronik 7932, DWb, col. 654)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:90]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:88]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:92]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150181">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3461" line-range="1607-1610" line-types="L G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1607" tag="L">           b.     daz tuot mir               leid unde wê            z'allen stunden</item>
+    <item id="o2" line="1608" tag="G+CR">                                             harm and pain to-all hours</item>
+    <item id="o3" line="1609" tag="G+CR">                  that does 1s:DAT</item>
+    <item id="o4" line="1610" tag="T+AC">                  `This does me harm and hurts all the time.' (minnesang 1, 282, DwbVI, col. 653)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1607" tag="L">daz tuot mir               leid unde wê            z'allen stunden</item>
+    <item id="c2" line="1608 1609" tag="G+CR">that does 1s:DAT           harm and pain to-all hours</item>
+    <item id="c4" line="1610" tag="T+AC">This does me harm and hurts all the time.' (minnesang 1, 282, DwbVI, col. 653)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:78]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150187">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3461" line-range="1748-1751" line-types="M L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1748" tag="M">        (V) a.     (ein teil sich dô ze lange der künec und sine man)</item>
+    <item id="o2" line="1749" tag="L">                   versûmten, daz dô Herwic des hazzes                   hie     began</item>
+    <item id="o3" line="1750" tag="G">                   miss:PAST:3p that then H.             the fight:GEN here start:PAST:3s</item>
+    <item id="o4" line="1751" tag="T">                   `The king's men failed to realise for far to long that Herwic already had started the fight.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1748" tag="M">a.     (ein teil sich dô ze lange der künec und sine man</item>
+    <item id="c2" line="1749" tag="L">versûmten, daz dô Herwic des hazzes                   hie     began</item>
+    <item id="c3" line="1750" tag="G">miss:PAST:3p that then H.             the fight:GEN here start:PAST:3s</item>
+    <item id="c4" line="1751" tag="T">The king's men failed to realise for far to long that Herwic already had started the fight.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:91]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150189">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3461" line-range="1782-1784" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1782" tag="L">  (61)               war            sol     ich           sinnen /         nâch mînen lieben kinden</item>
+    <item id="o2" line="1783" tag="G">                     Whereto        shall 1s:NOM          go:INF /         to   my beloved children</item>
+    <item id="o3" line="1784" tag="T">                     `Where shall I go (to find) my beloved children?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1782" tag="L">war            sol     ich           sinnen /         nâch mînen lieben kinden</item>
+    <item id="c2" line="1783" tag="G">Whereto        shall 1s:NOM          go:INF /         to   my beloved children</item>
+    <item id="c3" line="1784" tag="T">Where shall I go (to find) my beloved children?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:78]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150191">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3461" line-range="1796-1799" line-types="L G T C+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1796" tag="L">  (63)               wand er              heim sinnete         in sînes oeheimes hûs</item>
+    <item id="o2" line="1797" tag="G">                     when 3s:NOM          home go:PAST:3s in his uncle's house</item>
+    <item id="o3" line="1798" tag="T">                     `When he sent his thoughts towards home, (being) in the house of his uncle (lit.: he went</item>
+    <item id="o4" line="1799" tag="C+AC">                     home).' (Lanzelet 5572, DWb X/I, col. 1158)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1796" tag="L">wand er              heim sinnete         in sînes oeheimes hûs</item>
+    <item id="c2" line="1797" tag="G">when 3s:NOM          home go:PAST:3s in his uncle's house</item>
+    <item id="c3" line="1798" tag="T">When he sent his thoughts towards home, (being) in the house of his uncle (lit.: he went</item>
+    <item id="c4" line="1799" tag="C+AC">home).' (Lanzelet 5572, DWb X/I, col. 1158)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:88]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150192">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3461" line-range="1829-1832" line-types="L G T+AC C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1829" tag="L">  (64)               der geist der kaufmannschaft              sinnt          auf den erwerb der reichtümer</item>
+    <item id="o2" line="1830" tag="G">                     the mind:NOM of:the merchants             muse:PRS:3s    on the accumulation of wealth</item>
+    <item id="o3" line="1831" tag="T+AC">                     `The mind of the merchants is directed to the accumulation of wealths.' (Adelung, DWb X/I,</item>
+    <item id="o4" line="1832" tag="C">                     col. 1159)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1829" tag="L">der geist der kaufmannschaft              sinnt          auf den erwerb der reichtümer</item>
+    <item id="c2" line="1830" tag="G">the mind:NOM of:the merchants             muse:PRS:3s    on the accumulation of wealth</item>
+    <item id="c3" line="1831" tag="T+AC">The mind of the merchants is directed to the accumulation of wealths.' (Adelung, DWb X/I,</item>
+    <item id="c4" line="1832" tag="C">col. 1159)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:86]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:86]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:89]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150194">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3461" line-range="1971-1973" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1971" tag="L">  (67)              die     vögel         schrecken</item>
+    <item id="o2" line="1972" tag="G">                    the     birds:ACC     rouse:INF</item>
+    <item id="o3" line="1973" tag="T+AC">                    `to rouse birds' (Kramer, dt-ital. dict. 2 , DWb IX, col. 1669)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1971" tag="L">die     vögel         schrecken</item>
+    <item id="c2" line="1972" tag="G">the     birds:ACC     rouse:INF</item>
+    <item id="c3" line="1973" tag="T+AC">to rouse birds' (Kramer, dt-ital. dict. 2 , DWb IX, col. 1669)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150195">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3461" line-range="1978-1983" line-types="M L G+CR G+CR T+AC C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1978" tag="M">  (68)              (sprich böser Vorbed     eutung wort nicht aus!)</item>
+    <item id="o2" line="1979" tag="L">                    und schrecke              mich           der Sorge            nicht entgegen</item>
+    <item id="o3" line="1980" tag="G+CR">                                              1s:ACC         the sorrow:DAT       not     toward</item>
+    <item id="o4" line="1981" tag="G+CR">                    and scare:IMP</item>
+    <item id="o5" line="1982" tag="T+AC">                    `(Do not warn me of      evil!) and do not scare me towards sorrow.' (Goethe 9, 290, DWb IX, col.</item>
+    <item id="o6" line="1983" tag="C">                    1669)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1978" tag="M">(sprich böser Vorbed     eutung wort nicht aus!</item>
+    <item id="c2" line="1979" tag="L">und schrecke              mich           der Sorge            nicht entgegen</item>
+    <item id="c3" line="1980 1981" tag="G+CR">and scare:IMP             1s:ACC         the sorrow:DAT       not     toward</item>
+    <item id="c5" line="1982" tag="T+AC">(Do not warn me of      evil!) and do not scare me towards sorrow.' (Goethe 9, 290, DWb IX, col.</item>
+    <item id="c6" line="1983" tag="C">1669)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:96]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150205">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3461" line-range="2279-2283" line-types="L G+CR G+CR T+AC C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2279" tag="L">  (79)           "wir         trûwen iu            áller êren",        sprach dô Swemmelîn.</item>
+    <item id="o2" line="2280" tag="G+CR">                              trust 2p:DAT         all honour:GEN      said then Swemmelin</item>
+    <item id="o3" line="2281" tag="G+CR">                 1p:NOM</item>
+    <item id="o4" line="2282" tag="T+AC">                 `"We suppose that you are honourable", Swemmelin then said.' (Willems/van Pottelberge</item>
+    <item id="o5" line="2283" tag="C">                 1998: 207)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2279" tag="L">"wir         trûwen iu            áller êren",        sprach dô Swemmelîn.</item>
+    <item id="c2" line="2280 2281" tag="G+CR">1p:NOM       trust 2p:DAT         all honour:GEN      said then Swemmelin</item>
+    <item id="c4" line="2282" tag="T+AC">We suppose that you are honourable", Swemmelin then said.' (Willems/van Pottelberge</item>
+    <item id="c5" line="2283" tag="C">207)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:83]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150206">
+  <metadata type="xigt-meta">
+    <meta type="language" name="middle high german" iso-639-3="gmh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3461" line-range="2291-2294" line-types="L G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2291" tag="L">  (80)           weist iht,    waz ich             vertriuwet          hân?</item>
+    <item id="o2" line="2292" tag="G+CR">                                                   promise:PPERF       AUX:1s</item>
+    <item id="o3" line="2293" tag="G+CR">                 know sth      what 1s:NOM</item>
+    <item id="o4" line="2294" tag="T+AC">                 `Don't you know what I have promised?' (Willems/van Pottelberge 1998: 215)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2291" tag="L">weist iht,    waz ich             vertriuwet          hân?</item>
+    <item id="c2" line="2292 2293" tag="G+CR">know sth      what 1s:NOM         promise:PPERF       AUX:1s</item>
+    <item id="c4" line="2294" tag="T+AC">Don't you know what I have promised?' (Willems/van Pottelberge 1998: 215)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:73]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

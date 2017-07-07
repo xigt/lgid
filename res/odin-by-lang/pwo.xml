@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i69692">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western pwo" iso-639-3="pwo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3093" line-range="518-519" line-types="L+LN G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="518" tag="L+LN">    (36) j@-       d@y'     ga'gaun:       '@-   jein_         [Western Pwo Karen]</item>
+    <item id="o2" line="519" tag="G">            1sg    CAUSE break             his   house</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="518" tag="L+LN">j@-d@y'     ga'gaun:       '@-jein_         [Western Pwo Karen]</item>
+    <item id="c2" line="519" tag="G">1sg    CAUSE break             his   house</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

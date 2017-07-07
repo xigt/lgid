@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i41367">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guaymi" iso-639-3="gym" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="467-470" line-types="L M G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="467" tag="L">    (1) Tom Dori dema-e</item>
+    <item id="o2" line="468" tag="M">                   ¨</item>
+    <item id="o3" line="469" tag="G+CR">        T. D. greet-N P S       T</item>
+    <item id="o4" line="470" tag="T">        `Tom greets Doris.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="467" tag="L">Tom Dori dema-e</item>
+    <item id="c2" line="468" tag="M">¨</item>
+    <item id="c3" line="469" tag="G+CR">D. greet-N P S       T</item>
+    <item id="c4" line="470" tag="T">Tom greets Doris.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41368">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guaymi" iso-639-3="gym" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="471-474" line-types="L M G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="471" tag="L">    (2) Toma-gwe Dori dema-ini</item>
+    <item id="o2" line="472" tag="M">                        ¨</item>
+    <item id="o3" line="473" tag="G+CR">        T.-E R G  D. greet-P S T</item>
+    <item id="o4" line="474" tag="T">        `Tom greeted Doris.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="471" tag="L">Toma-gwe Dori dema-ini</item>
+    <item id="c2" line="472" tag="M">¨</item>
+    <item id="c3" line="473" tag="G+CR">T.-E R G  D. greet-P S T</item>
+    <item id="c4" line="474" tag="T">Tom greeted Doris.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41369">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guaymi" iso-639-3="gym" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="490-495" line-types="L+CR L+CR G+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="490" tag="L+CR">                                                            hi</item>
+    <item id="o2" line="491" tag="L+CR">    (1) nadya=ne        zu            ja-n-a                 ¦</item>
+    <item id="o3" line="492" tag="G+CR">                                                            be.P         . 3.</item>
+    <item id="o4" line="493" tag="G+CR">        Nadya.F = E R G zoo.M . L O C go-I N F - M .               RES          SG</item>
+    <item id="o5" line="494" tag="G+CR">                                                       SG</item>
+    <item id="o6" line="495" tag="T">        `Nadya wants to go to the zoo.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="490" tag="L+CR">hi</item>
+    <item id="c3" line="492 493 494" tag="G+CR">Nadya.F = E R G zoo.M . L O C go-I N F-M .   SG   be.P   RES   . 3.   SG</item>
+    <item id="c6" line="495" tag="T">Nadya wants to go to the zoo.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41370">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guaymi" iso-639-3="gym" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="498-502" line-types="L+CR L+CR M G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="498" tag="L+CR">                              kaaga lakh-t-i.</item>
+    <item id="o2" line="499" tag="L+CR">   (33)    silaa</item>
+    <item id="o3" line="500" tag="M">                                           §</item>
+    <item id="o4" line="501" tag="G+CR">           Sheela(F ).N O M letter(M) write-P S T- F</item>
+    <item id="o5" line="502" tag="T+AC">           `Sheela used to write a letter.' (Past) (Mistry 2001:335, 6)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="498 499" tag="L+CR">silaa              kaaga lakh-t-i.</item>
+    <item id="c3" line="500" tag="M">§</item>
+    <item id="c4" line="501" tag="G+CR">Sheela(F ).N O M letter(M) write-P S T-F</item>
+    <item id="c5" line="502" tag="T+AC">Sheela used to write a letter.' (Past) (Mistry 2001:335, 6)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41371">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guaymi" iso-639-3="gym" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="503-507" line-types="L+CR L+CR M G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="503" tag="L+CR">   (34)    silaa-e</item>
+    <item id="o2" line="504" tag="L+CR">                             cop i kharid-y-i.</item>
+    <item id="o3" line="505" tag="M">                                   ¨</item>
+    <item id="o4" line="506" tag="G+CR">           Sheela(F )-E R G book(F) buy-P E R F - F</item>
+    <item id="o5" line="507" tag="T+AC">           `Sheela bought a book.' (Perfective) (ibid:338, 15a)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="503 504" tag="L+CR">silaa-e           cop i kharid-y-i.</item>
+    <item id="c3" line="505" tag="M">¨</item>
+    <item id="c4" line="506" tag="G+CR">Sheela(F )-E R G book(F) buy-P E R F-F</item>
+    <item id="c5" line="507" tag="T+AC">Sheela bought a book.' (Perfective) (ibid:338, 15a)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41372">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guaymi" iso-639-3="gym" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="508-512" line-types="L+CR L+CR M G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="508" tag="L+CR">   (35)    silaa-e</item>
+    <item id="o2" line="509" tag="L+CR">                             cop i kharid-w-i.</item>
+    <item id="o3" line="510" tag="M">                                   ¨</item>
+    <item id="o4" line="511" tag="G+CR">           Sheela(F )-E R G book(F) buy-I N F - F</item>
+    <item id="o5" line="512" tag="T+AC">           `Sheela should buy the book.' (Recommendative) (ibid:339, 15b)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="508 509" tag="L+CR">silaa-e           cop i kharid-w-i.</item>
+    <item id="c3" line="510" tag="M">¨</item>
+    <item id="c4" line="511" tag="G+CR">Sheela(F )-E R G book(F) buy-I N F-F</item>
+    <item id="c5" line="512" tag="T+AC">Sheela should buy the book.' (Recommendative) (ibid:339, 15b)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41373">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guaymi" iso-639-3="gym" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="513-517" line-types="L+CR L+CR M G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="513" tag="L+CR">   (36)    silaa-(n)e</item>
+    <item id="o2" line="514" tag="L+CR">                                    cop i kharid-w-i che.</item>
+    <item id="o3" line="515" tag="M">                                               ¨</item>
+    <item id="o4" line="516" tag="G+CR">           Sheela(F )-AC C / D AT ? book(F) buy-I N F - F is</item>
+    <item id="o5" line="517" tag="T+AC">           `Sheela wishes to buy the book.' (Desiderative) (ibid:339, 15c)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="513 514" tag="L+CR">silaa-(n)e               cop i kharid-w-i che.</item>
+    <item id="c3" line="515" tag="M">¨</item>
+    <item id="c4" line="516" tag="G+CR">Sheela(F )-AC C / D AT ? book(F) buy-I N F-F is</item>
+    <item id="c5" line="517" tag="T+AC">Sheela wishes to buy the book.' (Desiderative) (ibid:339, 15c)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:62]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41374">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guaymi" iso-639-3="gym" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3510" line-range="518-522" line-types="L+CR L+CR L+CR G+CR T+AC+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="518" tag="L+CR">   (37)    silaa-thi</item>
+    <item id="o2" line="519" tag="L+CR">                              cop i kharid-aa-s-e.</item>
+    <item id="o3" line="520" tag="L+CR">                                       ¨</item>
+    <item id="o4" line="521" tag="G+CR">           Sheela(F )-I N S T book(F) buy-A B I L - F - I I I</item>
+    <item id="o5" line="522" tag="T+AC+EX">           `Sheela could buy the book.' (Abilitative) (ibid:338, 15e)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="518 519" tag="L+CR">silaa-thi          cop i kharid-aa-s-e.</item>
+    <item id="c4" line="521" tag="G+CR">Sheela(F )-I N S T book(F) buy-A B I L-F-I I I</item>
+    <item id="c5" line="522" tag="T+AC+EX">Sheela could buy the book.' (Abilitative) (ibid:338, 15e)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118631">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guaymi" iso-639-3="gym" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3661" line-range="230-234" line-types="M+LN+EX M+AC+EX L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="230" tag="M+LN+EX">  ·   Guaymi (Costa Rica and Panama) shows similar split intransitivity with lexical NPs</item>
+    <item id="o2" line="231" tag="M+AC+EX">      as well (data from Payne 1997:146-47):</item>
+    <item id="o3" line="232" tag="L">  (24) (a) Toma-gwe Dori          d"ma-ini</item>
+    <item id="o4" line="233" tag="G">           Tom-ERG Doris greet-PAST1</item>
+    <item id="o5" line="234" tag="T">          "Tom greeted Doris."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="230" tag="M+LN+EX">·   Guaymi (Costa Rica and Panama) shows similar split intransitivity with lexical NPs</item>
+    <item id="c2" line="231" tag="M+AC+EX">as well (data from Payne 1997:146-47):</item>
+    <item id="c3" line="232" tag="L">(a) Toma-gwe Dori          d"ma-ini</item>
+    <item id="c4" line="233" tag="G">Tom-ERG Doris greet-PAST1</item>
+    <item id="c5" line="234" tag="T">Tom greeted Doris.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118632">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guaymi" iso-639-3="gym" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3661" line-range="235-237" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="235" tag="L">       (b) Dori-gwe      blit-ani</item>
+    <item id="o2" line="236" tag="G">           Doris-ERG speak-PAST1</item>
+    <item id="o3" line="237" tag="T">          "Doris spoke."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="235" tag="L">Dori-gwe      blit-ani</item>
+    <item id="c2" line="236" tag="G">Doris-ERG speak-PAST1</item>
+    <item id="c3" line="237" tag="T">Doris spoke.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118633">
+  <metadata type="xigt-meta">
+    <meta type="language" name="guaymi" iso-639-3="gym" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3661" line-range="244-247" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="244" tag="L+CR">                           Nat-ani</item>
+    <item id="o2" line="245" tag="L+CR">      (c)     Nu</item>
+    <item id="o3" line="246" tag="G">              dog-ABS      die-PAST1</item>
+    <item id="o4" line="247" tag="T">             "The dog died."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="244 245" tag="L+CR">Nu           Nat-ani</item>
+    <item id="c3" line="246" tag="G">dog-ABS      die-PAST1</item>
+    <item id="c4" line="247" tag="T">The dog died.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

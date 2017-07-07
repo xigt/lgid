@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i28">
+  <metadata type="xigt-meta">
+    <meta type="language" name="romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2984" line-range="512-516" line-types="M+LN+CR L G T+AC+EX C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="512" tag="M+LN+CR">     (22) ROMANI (AGIA VARVARA) &lt; TURKIS          H</item>
+    <item id="o2" line="513" tag="L">          and o          sxoljo ka     siklos      te       okursun    ta    te      jazarsun</item>
+    <item id="o3" line="514" tag="G">          in     ART school FUT learn.2            COMP read.2SG and COMP write.2SG</item>
+    <item id="o4" line="515" tag="T+AC+EX">          `at school you will learn how to read   and write' (Bakker 2005:9) [Tur. okumak `to read',</item>
+    <item id="o5" line="516" tag="C">          yazmak `to write']</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="512" tag="M+LN+CR">ROMANI (AGIA VARVARA) &lt; TURKIS          H</item>
+    <item id="c2" line="513" tag="L">and o          sxoljo ka     siklos      te       okursun    ta    te      jazarsun</item>
+    <item id="c3" line="514" tag="G">in     ART school FUT learn.2            COMP read.2SG and COMP write.2SG</item>
+    <item id="c4" line="515" tag="T+AC+EX">at school you will learn how to read   and write' (Bakker 2005:9) [Tur. okumak `to read',</item>
+    <item id="c5" line="516" tag="C">yazmak `to write']</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:83]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:89]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i11378">
+  <metadata type="xigt-meta">
+    <meta type="language" name="agia varvara romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2469" line-range="504-508" line-types="M+LN+DB+CR L G T+AC C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="504" tag="M+LN+DB+CR">       (22) ROMANI (AGIA VARVARA) &lt; TURKIS           H</item>
+    <item id="o2" line="505" tag="L">            and o         sxoljo ka      siklos       te       okursun    ta    te      jazarsun</item>
+    <item id="o3" line="506" tag="G">            in     ART school FUT learn.2             COMP read.2SG and COMP write.2SG</item>
+    <item id="o4" line="507" tag="T+AC">            `at school you will learn how to read    and write' (Bakker 2005:9) [Tur. okumak `to read',</item>
+    <item id="o5" line="508" tag="C">          yazmak `to write']</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="504" tag="M+LN+DB+CR">ROMANI (AGIA VARVARA) &lt; TURKIS           H</item>
+    <item id="c2" line="505" tag="L">and o         sxoljo ka      siklos       te       okursun    ta    te      jazarsun</item>
+    <item id="c3" line="506" tag="G">in     ART school FUT learn.2             COMP read.2SG and COMP write.2SG</item>
+    <item id="c4" line="507" tag="T+AC">at school you will learn how to read    and write' (Bakker 2005:9) [Tur. okumak `to read',</item>
+    <item id="c5" line="508" tag="C">yazmak `to write']</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:84]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:90]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i24978">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="413-415" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="413" tag="L+LN">  (3)         a.       Romnie,             so     kerea?    (Nom romni)                              ABR</item>
+    <item id="o2" line="414" tag="G">                       woman.F.Sg.Voc      what do/make.2Sg</item>
+    <item id="o3" line="415" tag="T">                       `You woman, what are you doing?!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="413" tag="L+LN">Romnie,             so     kerea?    (Nom romni)                              ABR</item>
+    <item id="c2" line="414" tag="G">woman.F.Sg.Voc      what do/make.2Sg</item>
+    <item id="c3" line="415" tag="T">You woman, what are you doing?!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i24979">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="416-418" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="416" tag="L+LN">              b.       Manusea!                                                (Nom manus)               ABR</item>
+    <item id="o2" line="417" tag="G">                       man.M.Sg.Voc</item>
+    <item id="o3" line="418" tag="T">                       `You man!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="416" tag="L+LN">Manusea!                                                (Nom manus)               ABR</item>
+    <item id="c2" line="417" tag="G">man.M.Sg.Voc</item>
+    <item id="c3" line="418" tag="T">You man!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i24980">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="419-423" line-types="L+LN G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="419" tag="L+LN">              c.       Na      mangljum       te               avel (Nom macho)                          ABR</item>
+    <item id="o2" line="420" tag="G">                       not     wanted.1Sg Subj.Mark            go.1Sg.Subj</item>
+    <item id="o3" line="421" tag="L">                       odori,         machea',         vakhergja      ov.</item>
+    <item id="o4" line="422" tag="G">                       thither        fish.M.Sg.Voc say.3Sg.Past he</item>
+    <item id="o5" line="423" tag="T">                       "I didn't want to go there, fish', said he.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="419" tag="L+LN">Na      mangljum       te               avel (Nom macho)                          ABR</item>
+    <item id="c2" line="420" tag="G">not     wanted.1Sg Subj.Mark            go.1Sg.Subj</item>
+    <item id="c3" line="421" tag="L">odori,         machea',         vakhergja      ov.</item>
+    <item id="c4" line="422" tag="G">thither        fish.M.Sg.Voc say.3Sg.Past he</item>
+    <item id="c5" line="423" tag="T">I didn't want to go there, fish', said he.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+    <item id="p1" content="c3[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+    <item id="g1" content="c4[0:44]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:42]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i24996">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="510-512" line-types="L+LN+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="510" tag="L+LN+EX">  (9)     a.       Dikhljum       e                    basne.               (Nom basno)        ABR</item>
+    <item id="o2" line="511" tag="G">                   see.1Sg.Past the.Obl                cock.Acc</item>
+    <item id="o3" line="512" tag="T">                   `I saw the cock.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="510" tag="L+LN+EX">Dikhljum       e                    basne.               (Nom basno)        ABR</item>
+    <item id="c2" line="511" tag="G">see.1Sg.Past the.Obl                cock.Acc</item>
+    <item id="c3" line="512" tag="T">I saw the cock.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i24997">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="513-515" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="513" tag="L+LN">          b.       Ov     chingja             o                          mas.                  ABR</item>
+    <item id="o2" line="514" tag="G">                   he     cut.3Sg.Past        the.M.Sg.Nom               meat.Nom</item>
+    <item id="o3" line="515" tag="T">                   `He cut the meat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="513" tag="L+LN">Ov     chingja             o                          mas.                  ABR</item>
+    <item id="c2" line="514" tag="G">he     cut.3Sg.Past        the.M.Sg.Nom               meat.Nom</item>
+    <item id="c3" line="515" tag="T">He cut the meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25063">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1071-1073" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1071" tag="L+LN">            d.       Ma              de           le           MANgje!                       ABR</item>
+    <item id="o2" line="1072" tag="G">                     not.Mod         give.2Sg.Imp 3Sg.M.Acc.Cl 1Sg.Dat.Pron</item>
+    <item id="o3" line="1073" tag="T">                     `Don't give it to me!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1071" tag="L+LN">Ma              de           le           MANgje!                       ABR</item>
+    <item id="c2" line="1072" tag="G">not.Mod         give.2Sg.Imp 3Sg.M.Acc.Cl 1Sg.Dat.Pron</item>
+    <item id="c3" line="1073" tag="T">Don't give it to me!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25085">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1256-1260" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1256" tag="L">  (i)         I                 Merita DENGJA             le                o                   lil</item>
+    <item id="o2" line="1257" tag="G">              the.F.Sg.Nom      Merita gave.3Sg           3Sg.M.Acc.Cl      the.M.Sg            book</item>
+    <item id="o3" line="1258" tag="L">              jekhe chaveske!</item>
+    <item id="o4" line="1259" tag="G">              a.Obl man.Dat</item>
+    <item id="o5" line="1260" tag="T">              `Merita did give the book to a man!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1256" tag="L">I                 Merita DENGJA             le                o                   lil</item>
+    <item id="c2" line="1257" tag="G">the.F.Sg.Nom      Merita gave.3Sg           3Sg.M.Acc.Cl      the.M.Sg            book</item>
+    <item id="c3" line="1258" tag="L">jekhe chaveske!</item>
+    <item id="c4" line="1259" tag="G">a.Obl man.Dat</item>
+    <item id="c5" line="1260" tag="T">Merita did give the book to a man!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+    <item id="p1" content="c3[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:86]" alignment="p1"/>
+    <item id="g1" content="c4[0:13]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i25086">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1267-1269" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1267" tag="L+LN">  (37)   a.      Diklja       men                      amen.                         ABR</item>
+    <item id="o2" line="1268" tag="G">                 saw.3Sg      1Pl.Acc.Cl               3Pl.Acc.Pron</item>
+    <item id="o3" line="1269" tag="T">                 `He saw US.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1267" tag="L+LN">Diklja       men                      amen.                         ABR</item>
+    <item id="c2" line="1268" tag="G">saw.3Sg      1Pl.Acc.Cl               3Pl.Acc.Pron</item>
+    <item id="c3" line="1269" tag="T">He saw US.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25087">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1270-1272" line-types="L+LN G T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1270" tag="L+LN">         b.      Man            isi              ma(n)                jekh   kher.   ABR</item>
+    <item id="o2" line="1271" tag="G">                 1Sg.Acc.Pron be.Impers          1Sg.Acc.Cl           a      house</item>
+    <item id="o3" line="1272" tag="T+DB+LT">                 `I have a house.' (lit. `To me is a house.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1270" tag="L+LN">Man            isi              ma(n)                jekh   kher.   ABR</item>
+    <item id="c2" line="1271" tag="G">1Sg.Acc.Pron be.Impers          1Sg.Acc.Cl           a      house</item>
+    <item id="c3" line="1272" tag="T+DB+LT">I have a house.' (lit. `To me is a house.')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25096">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1319-1321" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1319" tag="L+LN">  (40)       Thovelape.                                                                 ABR</item>
+    <item id="o2" line="1320" tag="G">             wash.3Sg+Impers.Acc.Cl</item>
+    <item id="o3" line="1321" tag="T">             `(S)he washes himself/herself.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1319" tag="L+LN">Thovelape.                                                                 ABR</item>
+    <item id="c2" line="1320" tag="G">wash.3Sg+Impers.Acc.Cl</item>
+    <item id="c3" line="1321" tag="T">he washes himself/herself.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25116">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1484-1488" line-types="L+LN G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1484" tag="L+LN">  (49)    a.       So     suzi            stadik pletingja     ti                              ABR</item>
+    <item id="o2" line="1485" tag="G">                   what beautiful.F.Sg hat       knit.3Sg.Past your.2Sg.Cl</item>
+    <item id="o3" line="1486" tag="L">                   daj!</item>
+    <item id="o4" line="1487" tag="G">                   mother</item>
+    <item id="o5" line="1488" tag="T">                   `What a beautiful hat has your mother knitted for you!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1484" tag="L+LN">So     suzi            stadik pletingja     ti                              ABR</item>
+    <item id="c2" line="1485" tag="G">what beautiful.F.Sg hat       knit.3Sg.Past your.2Sg.Cl</item>
+    <item id="c3" line="1486" tag="L">daj!</item>
+    <item id="c4" line="1487" tag="G">mother</item>
+    <item id="c5" line="1488" tag="T">What a beautiful hat has your mother knitted for you!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+    <item id="p1" content="c3[0:4]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+    <item id="g1" content="c4[0:6]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:53]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i25117">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1489-1491" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1489" tag="L+LN">          b.       Kergja                 lafi    te                              dadea.      ABR</item>
+    <item id="o2" line="1490" tag="G">                   make.3Sg.Past          talk    your.2Sg.Obl.Cl                 dadea.Instr</item>
+    <item id="o3" line="1491" tag="T">                   `(S)he talked to your father.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1489" tag="L+LN">Kergja                 lafi    te                              dadea.      ABR</item>
+    <item id="c2" line="1490" tag="G">make.3Sg.Past          talk    your.2Sg.Obl.Cl                 dadea.Instr</item>
+    <item id="c3" line="1491" tag="T">he talked to your father.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25131">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1638-1640" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1638" tag="L+LN">         e.      Nietinela      te              dromarel/*dromarela.                ABR</item>
+    <item id="o2" line="1639" tag="G">                 intend.3Sg     Subj.Mark       travel.3/1Sg</item>
+    <item id="o3" line="1640" tag="T">                 `(S)he intends to travel.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1638" tag="L+LN">Nietinela      te              dromarel/*dromarela.                ABR</item>
+    <item id="c2" line="1639" tag="G">intend.3Sg     Subj.Mark       travel.3/1Sg</item>
+    <item id="c3" line="1640" tag="T">he intends to travel.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25136">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1667-1671" line-types="L+LN G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1667" tag="L+LN">         e.   Naredingja            i             Nafija te                  ABR</item>
+    <item id="o2" line="1668" tag="G">              ordered.3Sg.Past      the.F.Sg      Nafija Subj.Mark</item>
+    <item id="o3" line="1669" tag="L">              avel          akana.</item>
+    <item id="o4" line="1670" tag="G">              come.3Sg      now</item>
+    <item id="o5" line="1671" tag="T">              `He gave an order for Marija to come immediately.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1667" tag="L+LN">Naredingja            i             Nafija te                  ABR</item>
+    <item id="c2" line="1668" tag="G">ordered.3Sg.Past      the.F.Sg      Nafija Subj.Mark</item>
+    <item id="c3" line="1669" tag="L">avel          akana.</item>
+    <item id="c4" line="1670" tag="G">come.3Sg      now</item>
+    <item id="c5" line="1671" tag="T">He gave an order for Marija to come immediately.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+    <item id="p1" content="c3[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+    <item id="g1" content="c4[0:17]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:48]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i25141">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1694-1698" line-types="L+LN G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1694" tag="L+LN">          e.       Na      mangela      te             ovav/ovel       tlo/klo                ABR</item>
+    <item id="o2" line="1695" tag="G">                   not     want.3Sg     Subj.Mark      be.1/3Sg.Subj your</item>
+    <item id="o3" line="1696" tag="L">                   izmekjari.</item>
+    <item id="o4" line="1697" tag="G">                   servant</item>
+    <item id="o5" line="1698" tag="T">                   `(S)he doesn't want me/her/him to be your servant.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1694" tag="L+LN">Na      mangela      te             ovav/ovel       tlo/klo                ABR</item>
+    <item id="c2" line="1695" tag="G">not     want.3Sg     Subj.Mark      be.1/3Sg.Subj your</item>
+    <item id="c3" line="1696" tag="L">izmekjari.</item>
+    <item id="c4" line="1697" tag="G">servant</item>
+    <item id="c5" line="1698" tag="T">he doesn't want me/her/him to be your servant.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+    <item id="p1" content="c3[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+    <item id="g1" content="c4[0:7]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:46]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i25160">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1843-1845" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1843" tag="L+LN">         i.     Na(n)e        kasaja       te               avav.             ABR</item>
+    <item id="o2" line="1844" tag="G">                not+be.Impers who.Instr    Subj.Mark        come.1Sg</item>
+    <item id="o3" line="1845" tag="T">                `There is nobody with whom I can come.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1843" tag="L+LN">Na(n)e        kasaja       te               avav.             ABR</item>
+    <item id="c2" line="1844" tag="G">not+be.Impers who.Instr    Subj.Mark        come.1Sg</item>
+    <item id="c3" line="1845" tag="T">There is nobody with whom I can come.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25171">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="1984-1986" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1984" tag="L+LN">         d.      Ka              citinav        tukje        tajsa.                ABR</item>
+    <item id="o2" line="1985" tag="G">                 will.Mod.Cl read.1Sg           2Sg.Dat.Pron tomorrow</item>
+    <item id="o3" line="1986" tag="T">                 I will read/be reading to you tomorrow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1984" tag="L+LN">Ka              citinav        tukje        tajsa.                ABR</item>
+    <item id="c2" line="1985" tag="G">will.Mod.Cl read.1Sg           2Sg.Dat.Pron tomorrow</item>
+    <item id="c3" line="1986" tag="T">I will read/be reading to you tomorrow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25181">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2131" line-range="2062-2066" line-types="L+LN G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2062" tag="L+LN">  (68)   Dzi     akana/tajsa          ka            sikljovel             ABR</item>
+    <item id="o2" line="2063" tag="G">         till    now/tomorrow         will.Mod.Cl show/teach/learn.3Sg.M-P</item>
+    <item id="o3" line="2064" tag="L">         sine           te            nangjovel.</item>
+    <item id="o4" line="2065" tag="G">         Past.Mark      Subj.Mark      swim.3Sg</item>
+    <item id="o5" line="2066" tag="T">         `Till now/tomorrow he will have taught himself/learnt to swim.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2062" tag="L+LN">Dzi     akana/tajsa          ka            sikljovel             ABR</item>
+    <item id="c2" line="2063" tag="G">till    now/tomorrow         will.Mod.Cl show/teach/learn.3Sg.M-P</item>
+    <item id="c3" line="2064" tag="L">sine           te            nangjovel.</item>
+    <item id="c4" line="2065" tag="G">Past.Mark      Subj.Mark      swim.3Sg</item>
+    <item id="c5" line="2066" tag="T">Till now/tomorrow he will have taught himself/learnt to swim.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+    <item id="p1" content="c3[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+    <item id="g1" content="c4[0:38]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:61]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i34345">
+  <metadata type="xigt-meta">
+    <meta type="language" name="romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3709" line-range="329-333" line-types="L+LN B G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="329" tag="L+LN">         d.      Kas    o Demìri mislenola kas         i Arìfa dikhla?        R   OMANI</item>
+    <item id="o2" line="330" tag="B"></item>
+    <item id="o3" line="331" tag="G">                 whom Demir       think       whom A.         saw</item>
+    <item id="o4" line="332" tag="T">                 'Who does Demir think Arifa saw?'</item>
+    <item id="o5" line="333" tag="M+AC">                                                               (adapted from McDaniel 1989: 569n.5)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="329" tag="L+LN">Kas    o Demìri mislenola kas         i Arìfa dikhla?        R   OMANI</item>
+    <item id="c2" line="330" tag="B"/>
+    <item id="c3" line="331" tag="G">whom Demir       think       whom A.         saw</item>
+    <item id="c4" line="332" tag="T">Who does Demir think Arifa saw?</item>
+    <item id="c5" line="333" tag="M+AC">adapted from McDaniel 1989: 569n.5</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i37066">
+  <metadata type="xigt-meta">
+    <meta type="language" name="romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3834" line-range="812-814" line-types="L+LN+SY G+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="812" tag="L+LN+SY">              c. so misline [CP savo filmi o Demiri dikhla]                    Romani</item>
+    <item id="o2" line="813" tag="G+AC">                 what you.think   which film o demir saw                      (McDaniel 1989)</item>
+    <item id="o3" line="814" tag="T">                 "which film do you think Demir saw?"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="812" tag="L+LN+SY">so misline [CP savo filmi o Demiri dikhla]                    Romani</item>
+    <item id="c2" line="813" tag="G+AC">what you.think   which film o demir saw                      (McDaniel 1989)</item>
+    <item id="c3" line="814" tag="T">which film do you think Demir saw?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i37089">
+  <metadata type="xigt-meta">
+    <meta type="language" name="romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3834" line-range="1094-1096" line-types="L+LN+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1094" tag="L+LN+SY">                 d.[CP kas misline [CP kas o Demìri dikhlâ ]]                                         Romani</item>
+    <item id="o2" line="1095" tag="G">                       who you.think    who the demiri saw</item>
+    <item id="o3" line="1096" tag="T">                       "who do you think Demir saw?"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1094" tag="L+LN+SY">d.[CP kas misline [CP kas o Demìri dikhlâ ]]                                         Romani</item>
+    <item id="c2" line="1095" tag="G">who you.think    who the demiri saw</item>
+    <item id="c3" line="1096" tag="T">who do you think Demir saw?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:91]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41473">
+  <metadata type="xigt-meta">
+    <meta type="language" name="romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3515" line-range="888-891" line-types="L G T M+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="888" tag="L">  (51)     Kas    misline      kas     o     Demìri dikhlâ?</item>
+    <item id="o2" line="889" tag="G">           whom think.2.SG     whom the Demir saw</item>
+    <item id="o3" line="890" tag="T">           `Who do you think Demir saw?'</item>
+    <item id="o4" line="891" tag="M+AC+LN">                                   [Romani (Nunes 1999: 232, from McDaniel 1986: 182)]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="888" tag="L">Kas    misline      kas     o     Demìri dikhlâ?</item>
+    <item id="c2" line="889" tag="G">whom think.2.SG     whom the Demir saw</item>
+    <item id="c3" line="890" tag="T">Who do you think Demir saw?</item>
+    <item id="c4" line="891" tag="M+AC+LN">[Romani (Nunes 1999: 232, from McDaniel 1986: 182)]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i100884">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="413-415" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="413" tag="L+LN">  (3)         a.       Romnie,             so     kerea?    (Nom romni)                              ABR</item>
+    <item id="o2" line="414" tag="G">                       woman.F.Sg.Voc      what do/make.2Sg</item>
+    <item id="o3" line="415" tag="T">                       `You woman, what are you doing?!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="413" tag="L+LN">Romnie,             so     kerea?    (Nom romni)                              ABR</item>
+    <item id="c2" line="414" tag="G">woman.F.Sg.Voc      what do/make.2Sg</item>
+    <item id="c3" line="415" tag="T">You woman, what are you doing?!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i100885">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="416-418" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="416" tag="L+LN">              b.       Manusea!                                                (Nom manus)               ABR</item>
+    <item id="o2" line="417" tag="G">                       man.M.Sg.Voc</item>
+    <item id="o3" line="418" tag="T">                       `You man!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="416" tag="L+LN">Manusea!                                                (Nom manus)               ABR</item>
+    <item id="c2" line="417" tag="G">man.M.Sg.Voc</item>
+    <item id="c3" line="418" tag="T">You man!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i100886">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="419-423" line-types="L+LN G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="419" tag="L+LN">              c.       Na      mangljum       te               avel (Nom macho)                          ABR</item>
+    <item id="o2" line="420" tag="G">                       not     wanted.1Sg Subj.Mark            go.1Sg.Subj</item>
+    <item id="o3" line="421" tag="L">                       odori,         machea',         vakhergja      ov.</item>
+    <item id="o4" line="422" tag="G">                       thither        fish.M.Sg.Voc say.3Sg.Past he</item>
+    <item id="o5" line="423" tag="T">                       "I didn't want to go there, fish', said he.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="419" tag="L+LN">Na      mangljum       te               avel (Nom macho)                          ABR</item>
+    <item id="c2" line="420" tag="G">not     wanted.1Sg Subj.Mark            go.1Sg.Subj</item>
+    <item id="c3" line="421" tag="L">odori,         machea',         vakhergja      ov.</item>
+    <item id="c4" line="422" tag="G">thither        fish.M.Sg.Voc say.3Sg.Past he</item>
+    <item id="c5" line="423" tag="T">I didn't want to go there, fish', said he.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+    <item id="p1" content="c3[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+    <item id="g1" content="c4[0:44]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:42]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i100902">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="510-512" line-types="L+LN+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="510" tag="L+LN+EX">  (9)     a.       Dikhljum       e                    basne.               (Nom basno)        ABR</item>
+    <item id="o2" line="511" tag="G">                   see.1Sg.Past the.Obl                cock.Acc</item>
+    <item id="o3" line="512" tag="T">                   `I saw the cock.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="510" tag="L+LN+EX">Dikhljum       e                    basne.               (Nom basno)        ABR</item>
+    <item id="c2" line="511" tag="G">see.1Sg.Past the.Obl                cock.Acc</item>
+    <item id="c3" line="512" tag="T">I saw the cock.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i100903">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="513-515" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="513" tag="L+LN">          b.       Ov     chingja             o                          mas.                  ABR</item>
+    <item id="o2" line="514" tag="G">                   he     cut.3Sg.Past        the.M.Sg.Nom               meat.Nom</item>
+    <item id="o3" line="515" tag="T">                   `He cut the meat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="513" tag="L+LN">Ov     chingja             o                          mas.                  ABR</item>
+    <item id="c2" line="514" tag="G">he     cut.3Sg.Past        the.M.Sg.Nom               meat.Nom</item>
+    <item id="c3" line="515" tag="T">He cut the meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i100969">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1071-1073" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1071" tag="L+LN">            d.       Ma              de           le           MANgje!                       ABR</item>
+    <item id="o2" line="1072" tag="G">                     not.Mod         give.2Sg.Imp 3Sg.M.Acc.Cl 1Sg.Dat.Pron</item>
+    <item id="o3" line="1073" tag="T">                     `Don't give it to me!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1071" tag="L+LN">Ma              de           le           MANgje!                       ABR</item>
+    <item id="c2" line="1072" tag="G">not.Mod         give.2Sg.Imp 3Sg.M.Acc.Cl 1Sg.Dat.Pron</item>
+    <item id="c3" line="1073" tag="T">Don't give it to me!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i100991">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1256-1260" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1256" tag="L">  (i)         I                 Merita DENGJA             le                o                   lil</item>
+    <item id="o2" line="1257" tag="G">              the.F.Sg.Nom      Merita gave.3Sg           3Sg.M.Acc.Cl      the.M.Sg            book</item>
+    <item id="o3" line="1258" tag="L">              jekhe chaveske!</item>
+    <item id="o4" line="1259" tag="G">              a.Obl man.Dat</item>
+    <item id="o5" line="1260" tag="T">              `Merita did give the book to a man!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1256" tag="L">I                 Merita DENGJA             le                o                   lil</item>
+    <item id="c2" line="1257" tag="G">the.F.Sg.Nom      Merita gave.3Sg           3Sg.M.Acc.Cl      the.M.Sg            book</item>
+    <item id="c3" line="1258" tag="L">jekhe chaveske!</item>
+    <item id="c4" line="1259" tag="G">a.Obl man.Dat</item>
+    <item id="c5" line="1260" tag="T">Merita did give the book to a man!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+    <item id="p1" content="c3[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:86]" alignment="p1"/>
+    <item id="g1" content="c4[0:13]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i100992">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1267-1269" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1267" tag="L+LN">  (37)   a.      Diklja       men                      amen.                         ABR</item>
+    <item id="o2" line="1268" tag="G">                 saw.3Sg      1Pl.Acc.Cl               3Pl.Acc.Pron</item>
+    <item id="o3" line="1269" tag="T">                 `He saw US.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1267" tag="L+LN">Diklja       men                      amen.                         ABR</item>
+    <item id="c2" line="1268" tag="G">saw.3Sg      1Pl.Acc.Cl               3Pl.Acc.Pron</item>
+    <item id="c3" line="1269" tag="T">He saw US.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i100993">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1270-1272" line-types="L+LN G T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1270" tag="L+LN">         b.      Man            isi              ma(n)                jekh   kher.   ABR</item>
+    <item id="o2" line="1271" tag="G">                 1Sg.Acc.Pron be.Impers          1Sg.Acc.Cl           a      house</item>
+    <item id="o3" line="1272" tag="T+DB+LT">                 `I have a house.' (lit. `To me is a house.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1270" tag="L+LN">Man            isi              ma(n)                jekh   kher.   ABR</item>
+    <item id="c2" line="1271" tag="G">1Sg.Acc.Pron be.Impers          1Sg.Acc.Cl           a      house</item>
+    <item id="c3" line="1272" tag="T+DB+LT">I have a house.' (lit. `To me is a house.')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101002">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1319-1321" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1319" tag="L+LN">  (40)       Thovelape.                                                                 ABR</item>
+    <item id="o2" line="1320" tag="G">             wash.3Sg+Impers.Acc.Cl</item>
+    <item id="o3" line="1321" tag="T">             `(S)he washes himself/herself.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1319" tag="L+LN">Thovelape.                                                                 ABR</item>
+    <item id="c2" line="1320" tag="G">wash.3Sg+Impers.Acc.Cl</item>
+    <item id="c3" line="1321" tag="T">he washes himself/herself.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101023">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1484-1488" line-types="L+LN G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1484" tag="L+LN">  (49)    a.       So     suzi            stadik pletingja     ti                              ABR</item>
+    <item id="o2" line="1485" tag="G">                   what beautiful.F.Sg hat       knit.3Sg.Past your.2Sg.Cl</item>
+    <item id="o3" line="1486" tag="L">                   daj!</item>
+    <item id="o4" line="1487" tag="G">                   mother</item>
+    <item id="o5" line="1488" tag="T">                   `What a beautiful hat has your mother knitted for you!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1484" tag="L+LN">So     suzi            stadik pletingja     ti                              ABR</item>
+    <item id="c2" line="1485" tag="G">what beautiful.F.Sg hat       knit.3Sg.Past your.2Sg.Cl</item>
+    <item id="c3" line="1486" tag="L">daj!</item>
+    <item id="c4" line="1487" tag="G">mother</item>
+    <item id="c5" line="1488" tag="T">What a beautiful hat has your mother knitted for you!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+    <item id="p1" content="c3[0:4]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+    <item id="g1" content="c4[0:6]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:53]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i101024">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1489-1491" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1489" tag="L+LN">          b.       Kergja                 lafi    te                              dadea.      ABR</item>
+    <item id="o2" line="1490" tag="G">                   make.3Sg.Past          talk    your.2Sg.Obl.Cl                 dadea.Instr</item>
+    <item id="o3" line="1491" tag="T">                   `(S)he talked to your father.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1489" tag="L+LN">Kergja                 lafi    te                              dadea.      ABR</item>
+    <item id="c2" line="1490" tag="G">make.3Sg.Past          talk    your.2Sg.Obl.Cl                 dadea.Instr</item>
+    <item id="c3" line="1491" tag="T">he talked to your father.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101038">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1638-1640" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1638" tag="L+LN">         e.      Nietinela      te              dromarel/*dromarela.                ABR</item>
+    <item id="o2" line="1639" tag="G">                 intend.3Sg     Subj.Mark       travel.3/1Sg</item>
+    <item id="o3" line="1640" tag="T">                 `(S)he intends to travel.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1638" tag="L+LN">Nietinela      te              dromarel/*dromarela.                ABR</item>
+    <item id="c2" line="1639" tag="G">intend.3Sg     Subj.Mark       travel.3/1Sg</item>
+    <item id="c3" line="1640" tag="T">he intends to travel.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101043">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1667-1671" line-types="L+LN G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1667" tag="L+LN">         e.   Naredingja            i             Nafija te                  ABR</item>
+    <item id="o2" line="1668" tag="G">              ordered.3Sg.Past      the.F.Sg      Nafija Subj.Mark</item>
+    <item id="o3" line="1669" tag="L">              avel          akana.</item>
+    <item id="o4" line="1670" tag="G">              come.3Sg      now</item>
+    <item id="o5" line="1671" tag="T">              `He gave an order for Marija to come immediately.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1667" tag="L+LN">Naredingja            i             Nafija te                  ABR</item>
+    <item id="c2" line="1668" tag="G">ordered.3Sg.Past      the.F.Sg      Nafija Subj.Mark</item>
+    <item id="c3" line="1669" tag="L">avel          akana.</item>
+    <item id="c4" line="1670" tag="G">come.3Sg      now</item>
+    <item id="c5" line="1671" tag="T">He gave an order for Marija to come immediately.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+    <item id="p1" content="c3[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+    <item id="g1" content="c4[0:17]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:48]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i101048">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1694-1698" line-types="L+LN G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1694" tag="L+LN">          e.       Na      mangela      te             ovav/ovel       tlo/klo                ABR</item>
+    <item id="o2" line="1695" tag="G">                   not     want.3Sg     Subj.Mark      be.1/3Sg.Subj your</item>
+    <item id="o3" line="1696" tag="L">                   izmekjari.</item>
+    <item id="o4" line="1697" tag="G">                   servant</item>
+    <item id="o5" line="1698" tag="T">                   `(S)he doesn't want me/her/him to be your servant.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1694" tag="L+LN">Na      mangela      te             ovav/ovel       tlo/klo                ABR</item>
+    <item id="c2" line="1695" tag="G">not     want.3Sg     Subj.Mark      be.1/3Sg.Subj your</item>
+    <item id="c3" line="1696" tag="L">izmekjari.</item>
+    <item id="c4" line="1697" tag="G">servant</item>
+    <item id="c5" line="1698" tag="T">he doesn't want me/her/him to be your servant.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+    <item id="p1" content="c3[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+    <item id="g1" content="c4[0:7]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:46]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i101067">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1843-1845" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1843" tag="L+LN">         i.     Na(n)e        kasaja       te               avav.             ABR</item>
+    <item id="o2" line="1844" tag="G">                not+be.Impers who.Instr    Subj.Mark        come.1Sg</item>
+    <item id="o3" line="1845" tag="T">                `There is nobody with whom I can come.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1843" tag="L+LN">Na(n)e        kasaja       te               avav.             ABR</item>
+    <item id="c2" line="1844" tag="G">not+be.Impers who.Instr    Subj.Mark        come.1Sg</item>
+    <item id="c3" line="1845" tag="T">There is nobody with whom I can come.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101079">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="1984-1986" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1984" tag="L+LN">         d.      Ka              citinav        tukje        tajsa.                ABR</item>
+    <item id="o2" line="1985" tag="G">                 will.Mod.Cl read.1Sg           2Sg.Dat.Pron tomorrow</item>
+    <item id="o3" line="1986" tag="T">                 I will read/be reading to you tomorrow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1984" tag="L+LN">Ka              citinav        tukje        tajsa.                ABR</item>
+    <item id="c2" line="1985" tag="G">will.Mod.Cl read.1Sg           2Sg.Dat.Pron tomorrow</item>
+    <item id="c3" line="1986" tag="T">I will read/be reading to you tomorrow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101089">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkan romani" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1333" line-range="2062-2066" line-types="L+LN G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2062" tag="L+LN">  (68)   Dzi     akana/tajsa          ka            sikljovel             ABR</item>
+    <item id="o2" line="2063" tag="G">         till    now/tomorrow         will.Mod.Cl show/teach/learn.3Sg.M-P</item>
+    <item id="o3" line="2064" tag="L">         sine           te            nangjovel.</item>
+    <item id="o4" line="2065" tag="G">         Past.Mark      Subj.Mark      swim.3Sg</item>
+    <item id="o5" line="2066" tag="T">         `Till now/tomorrow he will have taught himself/learnt to swim.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2062" tag="L+LN">Dzi     akana/tajsa          ka            sikljovel             ABR</item>
+    <item id="c2" line="2063" tag="G">till    now/tomorrow         will.Mod.Cl show/teach/learn.3Sg.M-P</item>
+    <item id="c3" line="2064" tag="L">sine           te            nangjovel.</item>
+    <item id="c4" line="2065" tag="G">Past.Mark      Subj.Mark      swim.3Sg</item>
+    <item id="c5" line="2066" tag="T">Till now/tomorrow he will have taught himself/learnt to swim.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+    <item id="p1" content="c3[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+    <item id="g1" content="c4[0:38]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:61]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i141605">
+  <metadata type="xigt-meta">
+    <meta type="language" name="romany" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="38" line-range="557-557" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="557" tag="L-T">  (9) a. Ma! `Don't'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="557" tag="L-T">Ma! `Don't</item>
+  </tier>
+</igt>
+<igt id="i141606">
+  <metadata type="xigt-meta">
+    <meta type="language" name="romany" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="38" line-range="558-558" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="558" tag="L-T">      b. Ma be, Ismet! `Don't, hey, Ismet!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="558" tag="L-T">Ma be, Ismet! `Don't, hey, Ismet!</item>
+  </tier>
+</igt>
+<igt id="i141607">
+  <metadata type="xigt-meta">
+    <meta type="language" name="romany" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="38" line-range="559-560" line-types="L-T C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="559" tag="L-T">      c. Ma borie, ma mi chhaj, ma rov `Don't, O bride, don't my</item>
+    <item id="o2" line="560" tag="C">          daughter/girl, don't cry!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="559" tag="L-T">Ma borie, ma mi chhaj, ma rov `Don't, O bride, don't my</item>
+    <item id="c2" line="560" tag="C">daughter/girl, don't cry!</item>
+  </tier>
+</igt>
+<igt id="i141608">
+  <metadata type="xigt-meta">
+    <meta type="language" name="romany" iso-639-3="rmn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="38" line-range="561-561" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="561" tag="L-T">      d. Ma, ridzhai kjerava tukje, ma! `Don't, I beg you, don't!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="561" tag="L-T">Ma, ridzhai kjerava tukje, ma! `Don't, I beg you, don't!</item>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i33426">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kanasi" iso-639-3="soq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3138" line-range="385-388" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="385" tag="M+LN">                 (7) Kanasi</item>
+    <item id="o2" line="386" tag="L">                     a. ne na-'e-pa.</item>
+    <item id="o3" line="387" tag="G">                        I eat-2sg(P)-1sg:fut(A)</item>
+    <item id="o4" line="388" tag="T">                        `I will eat you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="385" tag="M+LN">Kanasi</item>
+    <item id="c2" line="386" tag="L">ne na-'e-pa.</item>
+    <item id="c3" line="387" tag="G">I eat-2sg(P)-1sg:fut(A)</item>
+    <item id="c4" line="388" tag="T">I will eat you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i33427">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kanasi" iso-639-3="soq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3138" line-range="389-392" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="389" tag="L">                     b. kaire          ema e-ne'e-pa.</item>
+    <item id="o2" line="390" tag="G">                        sweet potato dem 2sg(R)-give-1sg:fut(A)</item>
+    <item id="o3" line="391" tag="T">                        `I will give this sweet potato to you.'</item>
+    <item id="o4" line="392" tag="M+AC">                                                        (Pappenhagen 1985: 119, 110)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="389" tag="L">kaire          ema e-ne'e-pa.</item>
+    <item id="c2" line="390" tag="G">sweet potato dem 2sg(R)-give-1sg:fut(A)</item>
+    <item id="c3" line="391" tag="T">I will give this sweet potato to you.</item>
+    <item id="c4" line="392" tag="M+AC">119, 110</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i14124">
+  <metadata type="xigt-meta">
+    <meta type="language" name="louisiana french" iso-639-3="lou" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3534" line-range="246-247" line-types="M+LN L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="246" tag="M+LN">  (10)     Louisiana French Creole</item>
+    <item id="o2" line="247" tag="L-T">          a. Mo te pa wa pe(r)son                 I did not see anyone</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="246" tag="M+LN">Louisiana French Creole</item>
+    <item id="c2" line="247" tag="L-T">Mo te pa wa pe(r)son                 I did not see anyone</item>
+  </tier>
+</igt>
+<igt id="i14125">
+  <metadata type="xigt-meta">
+    <meta type="language" name="louisiana french" iso-639-3="lou" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3534" line-range="248-248" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="248" tag="L-T">          b. A(r)jen gruj pa                      Nothing moves</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="248" tag="L-T">A(r)jen gruj pa                      Nothing moves</item>
+  </tier>
+</igt>
+<igt id="i14130">
+  <metadata type="xigt-meta">
+    <meta type="language" name="louisiana french" iso-639-3="lou" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3534" line-range="265-267" line-types="M+LN L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="265" tag="M+LN">  (13)   Louisiana French Creole</item>
+    <item id="o2" line="266" tag="L">         a. malor capa rive mouen</item>
+    <item id="o3" line="267" tag="T">            Terrible things could happen to me</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="265" tag="M+LN">Louisiana French Creole</item>
+    <item id="c2" line="266" tag="L">malor capa rive mouen</item>
+    <item id="c3" line="267" tag="T">Terrible things could happen to me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:21]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14131">
+  <metadata type="xigt-meta">
+    <meta type="language" name="louisiana french" iso-639-3="lou" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3534" line-range="268-269" line-types="L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="268" tag="L">         b. O Pon Bro je pa gen koton ditu, je t'abitsyd lonton pase</item>
+    <item id="o2" line="269" tag="T">            In Breaux Bridge we don't have cotton anymore, but we used to</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="268" tag="L">O Pon Bro je pa gen koton ditu, je t'abitsyd lonton pase</item>
+    <item id="c2" line="269" tag="T">In Breaux Bridge we don't have cotton anymore, but we used to</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30624">
+  <metadata type="xigt-meta">
+    <meta type="language" name="louisiana" iso-639-3="lou" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="1471-1475" line-types="M+AC+LN+CN L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1471" tag="M+AC+LN+CN">  (54) Lousiana CF (Lane 1935:12)</item>
+    <item id="o2" line="1472" tag="L+CR">             tSwe            mEm</item>
+    <item id="o3" line="1473" tag="L+CR">  a      li            li-</item>
+    <item id="o4" line="1474" tag="G">        (he kill       him- self)</item>
+    <item id="o5" line="1475" tag="T">        'He has killed himself'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1471" tag="M+AC+LN+CN">Lousiana CF (Lane 1935:12</item>
+    <item id="c2" line="1472 1473" tag="L+CR">a      li  tSwe      li-mEm</item>
+    <item id="c4" line="1474" tag="G">he kill       him-self</item>
+    <item id="c5" line="1475" tag="T">He has killed himself</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30625">
+  <metadata type="xigt-meta">
+    <meta type="language" name="louisiana" iso-639-3="lou" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="1477-1480" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1477" tag="L+CR">                           mo- mEm</item>
+    <item id="o2" line="1478" tag="L+CR">  b      mo fe       sa</item>
+    <item id="o3" line="1479" tag="G">        (I      do that my- self)</item>
+    <item id="o4" line="1480" tag="T">        'I've done that myself'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1477 1478" tag="L+CR">b      mo fe       sa    mo-mEm</item>
+    <item id="c3" line="1479" tag="G">I      do that my-self</item>
+    <item id="c4" line="1480" tag="T">I've done that myself</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i39555">
+  <metadata type="xigt-meta">
+    <meta type="language" name="louisiana" iso-639-3="lou" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2966" line-range="578-582" line-types="M+LN M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="578" tag="M+LN">  Louisiana (St. Martin)</item>
+    <item id="o2" line="579" tag="M+CN">     [pa] postverbal (follows tense marker)</item>
+    <item id="o3" line="580" tag="L">         (7) [mo te pas kone_]</item>
+    <item id="o4" line="581" tag="G">                 me PST NEG know</item>
+    <item id="o5" line="582" tag="T">                 `I didn't know'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="578" tag="M+LN">Louisiana (St. Martin)</item>
+    <item id="c2" line="579" tag="M+CN">[pa] postverbal (follows tense marker)</item>
+    <item id="c3" line="580" tag="L">[mo te pas kone_]</item>
+    <item id="c4" line="581" tag="G">me PST NEG know</item>
+    <item id="c5" line="582" tag="T">I didn't know</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155551">
+  <metadata type="xigt-meta">
+    <meta type="language" name="louisiana creole" iso-639-3="lou" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3284" line-range="141-142" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="141" tag="L">  1. pa tchouwe</item>
+    <item id="o2" line="142" tag="G">      not killed</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="141" tag="L">pa tchouwe</item>
+    <item id="c2" line="142" tag="G">not killed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155552">
+  <metadata type="xigt-meta">
+    <meta type="language" name="louisiana creole" iso-639-3="lou" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3284" line-range="146-147" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="146" tag="L">  2. fe pa</item>
+    <item id="o2" line="147" tag="G">     do not</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="146" tag="L">fe pa</item>
+    <item id="c2" line="147" tag="G">do not</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:6]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155553">
+  <metadata type="xigt-meta">
+    <meta type="language" name="louisiana creole" iso-639-3="lou" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3284" line-range="172-173" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="172" tag="L">  3. pa trennaye isit e la-ba</item>
+    <item id="o2" line="173" tag="G">     not wander here and there</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="172" tag="L">pa trennaye isit e la-ba</item>
+    <item id="c2" line="173" tag="G">not wander here and there</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155554">
+  <metadata type="xigt-meta">
+    <meta type="language" name="louisiana creole" iso-639-3="lou" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3284" line-range="175-176" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="175" tag="L">  4. mo pa rapèl</item>
+    <item id="o2" line="176" tag="G">     I not remember</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="175" tag="L">mo pa rapèl</item>
+    <item id="c2" line="176" tag="G">I not remember</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

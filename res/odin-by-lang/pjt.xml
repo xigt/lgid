@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i87502">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pitjantjatjara" iso-639-3="pjt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3275" line-range="100-103" line-types="L G T+AC C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="100" tag="L">    (5) Henry-ku mama ngunytju puru</item>
+    <item id="o2" line="101" tag="G">        Henry-gen mother father      and</item>
+    <item id="o3" line="102" tag="T+AC">        `Henry's father and mother' (Pitjantjatjara, Glass and Hackett 1970:</item>
+    <item id="o4" line="103" tag="C">        66)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="100" tag="L">Henry-ku mama ngunytju puru</item>
+    <item id="c2" line="101" tag="G">Henry-gen mother father      and</item>
+    <item id="c3" line="102" tag="T+AC">Henry's father and mother' (Pitjantjatjara, Glass and Hackett 1970:</item>
+    <item id="c4" line="103" tag="C">66)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:67]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105425">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pitjantjatjara" iso-639-3="pjt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1539" line-range="299-302" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="299" tag="L">  (6)    Tjilka-ngku ngaya-nya          tjina            waka-rnu</item>
+    <item id="o2" line="300" tag="G+CR">         prickle-ERG 1SG-ACC            foot.            pierce-PAST</item>
+    <item id="o3" line="301" tag="G+CR">                                                ACC</item>
+    <item id="o4" line="302" tag="T">         `A prickle pierced my foot'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="299" tag="L">Tjilka-ngku ngaya-nya          tjina            waka-rnu</item>
+    <item id="c2" line="300 301" tag="G+CR">prickle-ERG 1SG-ACC            foot.   ACC      pierce-PAST</item>
+    <item id="c4" line="302" tag="T">A prickle pierced my foot</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i134466">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pitjantjatjara" iso-639-3="pjt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2373" line-range="709-712" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="709" tag="M+AC+LN">       (3) PITJANTJATJARA [Australian, Bowe 1990]</item>
+    <item id="o2" line="710" tag="L">           a. Minyma-ngku ngayu-nya pu-ngu</item>
+    <item id="o3" line="711" tag="G">              woman.ERG         I.ACC        hit-PAST</item>
+    <item id="o4" line="712" tag="T">              `The woman hit me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="709" tag="M+AC+LN">PITJANTJATJARA [Australian, Bowe 1990]</item>
+    <item id="c2" line="710" tag="L">Minyma-ngku ngayu-nya pu-ngu</item>
+    <item id="c3" line="711" tag="G">woman.ERG         I.ACC        hit-PAST</item>
+    <item id="c4" line="712" tag="T">The woman hit me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i134467">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pitjantjatjara" iso-639-3="pjt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2373" line-range="713-715" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="713" tag="L">           b. Ngayula minyma          pu-ngu</item>
+    <item id="o2" line="714" tag="G">              I.NOM       woman       hit-PAST</item>
+    <item id="o3" line="715" tag="T">              `I hit the woman.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="713" tag="L">Ngayula minyma          pu-ngu</item>
+    <item id="c2" line="714" tag="G">I.NOM       woman       hit-PAST</item>
+    <item id="c3" line="715" tag="T">I hit the woman.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i134468">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pitjantjatjara" iso-639-3="pjt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2373" line-range="716-718" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="716" tag="L">           c. Tjitji-ngku Billy-nya       nya-ngu</item>
+    <item id="o2" line="717" tag="G">              child.ERG     Billy.ACC     see-PAST</item>
+    <item id="o3" line="718" tag="T">              `The child saw Billy.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="716" tag="L">Tjitji-ngku Billy-nya       nya-ngu</item>
+    <item id="c2" line="717" tag="G">child.ERG     Billy.ACC     see-PAST</item>
+    <item id="c3" line="718" tag="T">The child saw Billy.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i134469">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pitjantjatjara" iso-639-3="pjt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2373" line-range="720-723" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="720" tag="M+AC+LN">       (4) PITJANTJATJARA [Australian; Bowe 1990]</item>
+    <item id="o2" line="721" tag="L">           a. Wati kuta-ngku               matu      kati-ngu</item>
+    <item id="o3" line="722" tag="G">              man older-brother.ERG kangaroo carry-PAST</item>
+    <item id="o4" line="723" tag="T">              `The older brother carried the kangaroo.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="720" tag="M+AC+LN">PITJANTJATJARA [Australian; Bowe 1990]</item>
+    <item id="c2" line="721" tag="L">Wati kuta-ngku               matu      kati-ngu</item>
+    <item id="c3" line="722" tag="G">man older-brother.ERG kangaroo carry-PAST</item>
+    <item id="c4" line="723" tag="T">The older brother carried the kangaroo.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i134470">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pitjantjatjara" iso-639-3="pjt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2373" line-range="724-726" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="724" tag="L">           b. Nyanga minima-ngku           mutaka palya-mnu</item>
+    <item id="o2" line="725" tag="G">              this      woman.ERG          car       fix-PAST</item>
+    <item id="o3" line="726" tag="T">              `This woman fixed the car.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="724" tag="L">Nyanga minima-ngku           mutaka palya-mnu</item>
+    <item id="c2" line="725" tag="G">this      woman.ERG          car       fix-PAST</item>
+    <item id="c3" line="726" tag="T">This woman fixed the car.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

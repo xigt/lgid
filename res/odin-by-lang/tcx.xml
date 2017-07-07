@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i84094">
+  <metadata type="xigt-meta">
+    <meta type="language" name="toda" iso-639-3="tcx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3623" line-range="942-942" line-types="L-T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="942" tag="L-T+EX">  (83)       moxk              `to the child'              [mox(k)][kixk]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="942" tag="L-T+EX">moxk              `to the child'              [mox(k)][kixk]</item>
+  </tier>
+</igt>
+<igt id="i84095">
+  <metadata type="xigt-meta">
+    <meta type="language" name="toda" iso-639-3="tcx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3623" line-range="944-944" line-types="L-T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="944" tag="L-T+EX">  (84)       me ts             `in the tree'               [me ts][xi ts]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="944" tag="L-T+EX">me ts             `in the tree'               [me ts][xi ts]</item>
+  </tier>
+</igt>
+<igt id="i84101">
+  <metadata type="xigt-meta">
+    <meta type="language" name="toda" iso-639-3="tcx" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3623" line-range="1005-1008" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1005" tag="L+CR">             [bandu] [gind]24iiye</item>
+    <item id="o2" line="1006" tag="L+CR">  (88)</item>
+    <item id="o3" line="1007" tag="G">              come. vbp echo.cont</item>
+    <item id="o4" line="1008" tag="T">             `Don't you dare come (back) or something.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1005 1006" tag="L+CR">[bandu] [gind]24iiye</item>
+    <item id="c3" line="1007" tag="G">come. vbp echo.cont</item>
+    <item id="c4" line="1008" tag="T">Don't you dare come (back) or something.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

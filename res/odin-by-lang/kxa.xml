@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i117966">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kaireru" iso-639-3="kxa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="375-378" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="375" tag="M+AC+LN">  (2)   Kaireru (Austronesian; New Guinea; Ross 2002: 214)</item>
+    <item id="o2" line="376" tag="L">        Ur       qa-qan         sabin!</item>
+    <item id="o3" line="377" tag="G">        banana 2SG-eat          PROH</item>
+    <item id="o4" line="378" tag="T">        `Don't eat the banana!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="375" tag="M+AC+LN">Kaireru (Austronesian; New Guinea; Ross 2002: 214</item>
+    <item id="c2" line="376" tag="L">Ur       qa-qan         sabin!</item>
+    <item id="c3" line="377" tag="G">banana 2SG-eat          PROH</item>
+    <item id="c4" line="378" tag="T">Don't eat the banana!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

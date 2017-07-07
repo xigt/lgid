@@ -1,0 +1,1968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i5993">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="44-47" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="44" tag="L+CR">  (1)   ein Frund vun denn</item>
+    <item id="o2" line="45" tag="L+CR">                 ¨                      Preister</item>
+    <item id="o3" line="46" tag="G">        a     friend of    the-M.SG.ACC priest.M.SG.ACC</item>
+    <item id="o4" line="47" tag="T">        "a friend of the priest"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="44" tag="L+CR">ein Frund vun denn</item>
+    <item id="c3" line="46" tag="G">a     friend of    the-M.SG.ACC priest.M.SG.ACC</item>
+    <item id="c4" line="47" tag="T">a friend of the priest</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i5994">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="49-51" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="49" tag="L">  (2)   dien        Naver-s          Eegen</item>
+    <item id="o2" line="50" tag="G">        your.M.SG neighbor.M.SG-POSS property.N.SG.NOM</item>
+    <item id="o3" line="51" tag="T">        "your neighbor's property"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="49" tag="L">dien        Naver-s          Eegen</item>
+    <item id="c2" line="50" tag="G">your.M.SG neighbor.M.SG-POSS property.N.SG.NOM</item>
+    <item id="c3" line="51" tag="T">your neighbor's property</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i5995">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="58-60" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="58" tag="L">  (3)   den              Jungen   sien         Vadder</item>
+    <item id="o2" line="59" tag="G">        the.M.SG.ACC boy.M.SG.ACC his.M.SG.NOM father.M.SG.NOM</item>
+    <item id="o3" line="60" tag="T">        "the boy's father"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="58" tag="L">den              Jungen   sien         Vadder</item>
+    <item id="c2" line="59" tag="G">the.M.SG.ACC boy.M.SG.ACC his.M.SG.NOM father.M.SG.NOM</item>
+    <item id="c3" line="60" tag="T">the boy's father</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i5996">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="64-66" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="64" tag="L">  (4)   sien         Vadder</item>
+    <item id="o2" line="65" tag="G">        his.M.SG.NOM father.M.SG.NOM</item>
+    <item id="o3" line="66" tag="T">        "his father"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="64" tag="L">sien         Vadder</item>
+    <item id="c2" line="65" tag="G">his.M.SG.NOM father.M.SG.NOM</item>
+    <item id="c3" line="66" tag="T">his father</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i5997">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="94-98" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="94" tag="L">  (5)   de              Alwine       ehr</item>
+    <item id="o2" line="95" tag="G">        the.F.SG.ACC Alwine.F.SG.ACC her.M.SG.NOM</item>
+    <item id="o3" line="96" tag="L">        Br¨ogam</item>
+    <item id="o4" line="97" tag="G">        bridegroom.M.SG.NOM</item>
+    <item id="o5" line="98" tag="T">        "Alwine's bridegroom"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="94" tag="L">de              Alwine       ehr</item>
+    <item id="c2" line="95" tag="G">the.F.SG.ACC Alwine.F.SG.ACC her.M.SG.NOM</item>
+    <item id="c3" line="96" tag="L">Br¨ogam</item>
+    <item id="c4" line="97" tag="G">bridegroom.M.SG.NOM</item>
+    <item id="c5" line="98" tag="T">Alwine's bridegroom</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+    <item id="p1" content="c3[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+    <item id="g1" content="c4[0:19]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:19]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i5998">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="100-102" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="100" tag="L">  (6)   daem            Herr       siene        Haunt</item>
+    <item id="o2" line="101" tag="G">        the-M.SG.DAT Lord.M.SG.DAT his-F.SG.NOM hand.F.SG.NOM</item>
+    <item id="o3" line="102" tag="T">        "the Lord's hand"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="100" tag="L">daem            Herr       siene        Haunt</item>
+    <item id="c2" line="101" tag="G">the-M.SG.DAT Lord.M.SG.DAT his-F.SG.NOM hand.F.SG.NOM</item>
+    <item id="c3" line="102" tag="T">the Lord's hand</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i5999">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="104-106" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="104" tag="L">  (7)   wecke            Geister       ehre    Kinner</item>
+    <item id="o2" line="105" tag="G">        what.PL.ACC spirit.PL.ACC their.PL.NOM children.PL.NOM</item>
+    <item id="o3" line="106" tag="T">        "the children of what spirits"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="104" tag="L">wecke            Geister       ehre    Kinner</item>
+    <item id="c2" line="105" tag="G">what.PL.ACC spirit.PL.ACC their.PL.NOM children.PL.NOM</item>
+    <item id="c3" line="106" tag="T">the children of what spirits</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6000">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="108-112" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="108" tag="L">  (8)   Un Hagar kreeg mit Ismail tosamen Gott</item>
+    <item id="o2" line="109" tag="G">        And Hagar got      with Ismail together God.M.SG.ACC</item>
+    <item id="o3" line="110" tag="L">        sienen          Segen.</item>
+    <item id="o4" line="111" tag="G">        his-M.SG.ACC blessing.M.SG.ACC</item>
+    <item id="o5" line="112" tag="T">        "And Hagar together with Ismail received God's blessing."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="108" tag="L">Un Hagar kreeg mit Ismail tosamen Gott</item>
+    <item id="c2" line="109" tag="G">And Hagar got      with Ismail together God.M.SG.ACC</item>
+    <item id="c3" line="110" tag="L">sienen          Segen.</item>
+    <item id="c4" line="111" tag="G">his-M.SG.ACC blessing.M.SG.ACC</item>
+    <item id="c5" line="112" tag="T">And Hagar together with Ismail received God's blessing.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+    <item id="p1" content="c3[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+    <item id="g1" content="c4[0:30]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:55]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i6001">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="117-124" line-types="L G L+CR G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="117" tag="L">  (9)   de                 ehr                Dackel                   wul l</item>
+    <item id="o2" line="118" tag="G">        DEM.PL.ACC         their.M.SG.NOM     dachshund.M.SG.NOM       wanted</item>
+    <item id="o3" line="119" tag="L+CR">        partout dat       nich doon, wat      al l Dackel     von      Natur</item>
+    <item id="o4" line="120" tag="G">        at.all   that     not do,     what    all dachhund.PL by       nature</item>
+    <item id="o5" line="121" tag="L">        doot</item>
+    <item id="o6" line="122" tag="G">        do</item>
+    <item id="o7" line="123" tag="T">        "those people's   dachshund didn't at all want to do what all dachshunds</item>
+    <item id="o8" line="124" tag="T">        do by nature"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="117" tag="L">de                 ehr                Dackel                   wul l</item>
+    <item id="c2" line="118" tag="G">DEM.PL.ACC         their.M.SG.NOM     dachshund.M.SG.NOM       wanted</item>
+    <item id="c3" line="119" tag="L+CR">partout dat       nich doon, wat      al l Dackel     von      Natur</item>
+    <item id="c4" line="120" tag="G">at.all   that     not do,     what    all dachhund.PL by       nature</item>
+    <item id="c5" line="121" tag="L">doot</item>
+    <item id="c6" line="122" tag="G">do</item>
+    <item id="c7" line="123" tag="T">those people's   dachshund didn't at all want to do what all dachshunds</item>
+    <item id="c8" line="124" tag="T">do by nature</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+    <item id="p1" content="c3[0:68]"/>
+    <item id="p2" content="c5[0:4]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+    <item id="g1" content="c4[0:69]" alignment="p2"/>
+    <item id="g2" content="c6[0:2]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:71]" alignment="p3"/>
+    <item id="t1" content="c8[0:12]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i6002">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="126-131" line-types="L+CR G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="126" tag="L+CR">  (10) Un wel l        sien               Hart                   dat noch nich</item>
+    <item id="o2" line="127" tag="G">       And who.ACC his.N.SG.NOM heart.N.SG.NOM                   that still not</item>
+    <item id="o3" line="128" tag="L">       kann, kickt    Kinner suk   ¨         as V¨ orbild       an.</item>
+    <item id="o4" line="129" tag="G">       can, looks.at children 3.REFL as role.model              on.</item>
+    <item id="o5" line="130" tag="T">       "And whose heart still isn't able to do this, looks at   children as a role</item>
+    <item id="o6" line="131" tag="T">       model."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="126" tag="L+CR">Un wel l        sien               Hart                   dat noch nich</item>
+    <item id="c2" line="127" tag="G">And who.ACC his.N.SG.NOM heart.N.SG.NOM                   that still not</item>
+    <item id="c3" line="128" tag="L">kann, kickt    Kinner suk   ¨         as V¨ orbild       an.</item>
+    <item id="c4" line="129" tag="G">can, looks.at children 3.REFL as role.model              on.</item>
+    <item id="c5" line="130" tag="T">And whose heart still isn't able to do this, looks at   children as a role</item>
+    <item id="c6" line="131" tag="T">model.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+    <item id="p1" content="c3[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:72]" alignment="p1"/>
+    <item id="g1" content="c4[0:60]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:74]" alignment="p2"/>
+    <item id="t1" content="c6[0:6]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i6003">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="133-138" line-types="L G L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="133" tag="L">  (11) Dit is de                 Mann,                  den</item>
+    <item id="o2" line="134" tag="G">       This is the.M.SG.NOM man.M.SG.NOM,               RelPrn.M.SG.ACC</item>
+    <item id="o3" line="135" tag="L">       sien            Huus             wi sehn        hebbt.</item>
+    <item id="o4" line="136" tag="G">       his.N.SG.ACC house.N.SG.ACC we seen             have.</item>
+    <item id="o5" line="137" tag="T">       "This is the man whose house we have seen."</item>
+    <item id="o6" line="138" tag="M+AC">        (Reinhard Hahn, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="133" tag="L">Dit is de                 Mann,                  den</item>
+    <item id="c2" line="134" tag="G">This is the.M.SG.NOM man.M.SG.NOM,               RelPrn.M.SG.ACC</item>
+    <item id="c3" line="135" tag="L">sien            Huus             wi sehn        hebbt.</item>
+    <item id="c4" line="136" tag="G">his.N.SG.ACC house.N.SG.ACC we seen             have.</item>
+    <item id="c5" line="137" tag="T">This is the man whose house we have seen.</item>
+    <item id="c6" line="138" tag="M+AC">Reinhard Hahn, p.c.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+    <item id="p1" content="c3[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+    <item id="g1" content="c4[0:53]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:41]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i6004">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="142-148" line-types="L+CR L+CR G L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="142" tag="L+CR">  (12) de               Gott,             v¨</item>
+    <item id="o2" line="143" tag="L+CR">                                           or          den</item>
+    <item id="o3" line="144" tag="G">       the.M.SG.NOM God.M.SG.NOM in.front.of RelPrn.M.SG.ACC</item>
+    <item id="o4" line="145" tag="L+CR">       siene           Herrlichkeit     de Minsch heel          lutt is</item>
+    <item id="o5" line="146" tag="L+CR">                                                                 ¨</item>
+    <item id="o6" line="147" tag="G">       his.F.SG.ACC glory.F.SG.ACC the man             wholly little is</item>
+    <item id="o7" line="148" tag="T">       "God in front of whose glory man is wholly insignificant"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="142" tag="L+CR">de               Gott,             v¨</item>
+    <item id="c3" line="144" tag="G">the.M.SG.NOM God.M.SG.NOM in.front.of RelPrn.M.SG.ACC</item>
+    <item id="c4" line="145" tag="L+CR">siene           Herrlichkeit     de Minsch heel          lutt is</item>
+    <item id="c6" line="147" tag="G">his.F.SG.ACC glory.F.SG.ACC the man             wholly little is</item>
+    <item id="c7" line="148" tag="T">God in front of whose glory man is wholly insignificant</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+    <item id="p1" content="c4[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:53]" alignment="p1"/>
+    <item id="g1" content="c6[0:64]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:55]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i6005">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="156-160" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="156" tag="L">  (13) Un     blots se              ehr             Rupen   heff ik</item>
+    <item id="o2" line="157" tag="G">       And    only 3.F.SG.ACC her.PL.ACC caterpillar.PL.ACC have I</item>
+    <item id="o3" line="158" tag="L">       doot   maakt.</item>
+    <item id="o4" line="159" tag="G">       dead   made.</item>
+    <item id="o5" line="160" tag="T">       "And   only her caterpillars, I have killed."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="156" tag="L">Un     blots se              ehr             Rupen   heff ik</item>
+    <item id="c2" line="157" tag="G">And    only 3.F.SG.ACC her.PL.ACC caterpillar.PL.ACC have I</item>
+    <item id="c3" line="158" tag="L">doot   maakt.</item>
+    <item id="c4" line="159" tag="G">dead   made.</item>
+    <item id="c5" line="160" tag="T">And   only her caterpillars, I have killed.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+    <item id="p1" content="c3[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+    <item id="g1" content="c4[0:12]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:43]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i6006">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="165-167" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="165" tag="L">  (14)  he           sien     book</item>
+    <item id="o2" line="166" tag="G">          3.M.SG.NOM his.N.SG book.N.SG</item>
+    <item id="o3" line="167" tag="T">       "his book"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="165" tag="L">he           sien     book</item>
+    <item id="c2" line="166" tag="G">3.M.SG.NOM his.N.SG book.N.SG</item>
+    <item id="c3" line="167" tag="T">his book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6007">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="169-171" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="169" tag="L">  (15) em         sien     book</item>
+    <item id="o2" line="170" tag="G">       3.M.SG.ACC his.N.SG book.N.SG</item>
+    <item id="o3" line="171" tag="T">       "his book"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="169" tag="L">em         sien     book</item>
+    <item id="c2" line="170" tag="G">3.M.SG.ACC his.N.SG book.N.SG</item>
+    <item id="c3" line="171" tag="T">his book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6008">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="178-182" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="178" tag="L">  (16) Hier kummt Se                 Ehr       Text</item>
+    <item id="o2" line="179" tag="G">       Here comes 2.HON.ACC PossPrn.2.M.SG.HON text.M.SG</item>
+    <item id="o3" line="180" tag="L">       hen</item>
+    <item id="o4" line="181" tag="G">       DEICT</item>
+    <item id="o5" line="182" tag="T">       "Your text will be put here."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="178" tag="L">Hier kummt Se                 Ehr       Text</item>
+    <item id="c2" line="179" tag="G">Here comes 2.HON.ACC PossPrn.2.M.SG.HON text.M.SG</item>
+    <item id="c3" line="180" tag="L">hen</item>
+    <item id="c4" line="181" tag="G">DEICT</item>
+    <item id="c5" line="182" tag="T">Your text will be put here.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+    <item id="p1" content="c3[0:3]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+    <item id="g1" content="c4[0:5]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i6009">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="197-203" line-types="L+CR L+CR G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="197" tag="L+CR">  (17) De Kinner w¨    orrn    fluggriep un gungen so bilutten jumehr</item>
+    <item id="o2" line="198" tag="L+CR">                                 ¨             ¨             ¨        ¨</item>
+    <item id="o3" line="199" tag="G">       The children became fledged       and went      so slowly their</item>
+    <item id="o4" line="200" tag="L">       egen Weeg.</item>
+    <item id="o5" line="201" tag="G">       own way.</item>
+    <item id="o6" line="202" tag="T">       "The children became fledged and slowly but surely went their own</item>
+    <item id="o7" line="203" tag="T">       ways."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="197" tag="L+CR">De Kinner w¨    orrn    fluggriep un gungen so bilutten jumehr</item>
+    <item id="c3" line="199" tag="G">The children became fledged       and went      so slowly their</item>
+    <item id="c4" line="200" tag="L">egen Weeg.</item>
+    <item id="c5" line="201" tag="G">own way.</item>
+    <item id="c6" line="202" tag="T">The children became fledged and slowly but surely went their own</item>
+    <item id="c7" line="203" tag="T">ways.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+    <item id="p1" content="c4[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+    <item id="g1" content="c5[0:8]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:64]" alignment="p2"/>
+    <item id="t1" content="c7[0:5]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i6010">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="211-214" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="211" tag="L">  (18) Dit         is Peiter und Anna jemmer  Bauk.</item>
+    <item id="o2" line="212" tag="G">       This.N.SG is Peter and Anna their.N.SG book.N.SG.</item>
+    <item id="o3" line="213" tag="T">       "This is Peter and Anna's book."</item>
+    <item id="o4" line="214" tag="M+AC">          (Friedrich W. Neumann, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="211" tag="L">Dit         is Peiter und Anna jemmer  Bauk.</item>
+    <item id="c2" line="212" tag="G">This.N.SG is Peter and Anna their.N.SG book.N.SG.</item>
+    <item id="c3" line="213" tag="T">This is Peter and Anna's book.</item>
+    <item id="c4" line="214" tag="M+AC">Friedrich W. Neumann, p.c.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6011">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="224-228" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="224" tag="L">  (19) daut       Besprenjunksbloot       daut baeta raet aus Abel</item>
+    <item id="o2" line="225" tag="G">       the.N.SG sprinkling.blood.N.SG that better saves as Abel</item>
+    <item id="o3" line="226" tag="L">       sient</item>
+    <item id="o4" line="227" tag="G">       his.N.SG.NOM</item>
+    <item id="o5" line="228" tag="T">       "the sprinkling blood that saves better than Abel's"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="224" tag="L">daut       Besprenjunksbloot       daut baeta raet aus Abel</item>
+    <item id="c2" line="225" tag="G">the.N.SG sprinkling.blood.N.SG that better saves as Abel</item>
+    <item id="c3" line="226" tag="L">sient</item>
+    <item id="c4" line="227" tag="G">his.N.SG.NOM</item>
+    <item id="c5" line="228" tag="T">the sprinkling blood that saves better than Abel's</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+    <item id="p1" content="c3[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+    <item id="g1" content="c4[0:12]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:50]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i6012">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="230-235" line-types="L G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="230" tag="L">  (20) jeedeen Oort kreeg sienen,             de Deerten        un Planten</item>
+    <item id="o2" line="231" tag="G">       every    kind got     his.M.SG.ACC, the animal-PL and plant-PL</item>
+    <item id="o3" line="232" tag="L">       ehren,             de Minschen ehren</item>
+    <item id="o4" line="233" tag="G">       theirs.M.SG.ACC the man-PL theirs.M.SG.ACC</item>
+    <item id="o5" line="234" tag="T">       "Every kind got its own, the animals and plants theirs, the people</item>
+    <item id="o6" line="235" tag="T">       theirs."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="230" tag="L">jeedeen Oort kreeg sienen,             de Deerten        un Planten</item>
+    <item id="c2" line="231" tag="G">every    kind got     his.M.SG.ACC, the animal-PL and plant-PL</item>
+    <item id="c3" line="232" tag="L">ehren,             de Minschen ehren</item>
+    <item id="c4" line="233" tag="G">theirs.M.SG.ACC the man-PL theirs.M.SG.ACC</item>
+    <item id="c5" line="234" tag="T">Every kind got its own, the animals and plants theirs, the people</item>
+    <item id="c6" line="235" tag="T">theirs.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+    <item id="p1" content="c3[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+    <item id="g1" content="c4[0:42]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:65]" alignment="p2"/>
+    <item id="t1" content="c6[0:7]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i6013">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="245-250" line-types="L G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="245" tag="L">  (21) Hans-Ohm         leet sik          dat garnich         so    marken, wat Klaas</item>
+    <item id="o2" line="246" tag="G">       Uncle-Hans       let 3.REFL        that not.at.all     so    notice,  that Klaas</item>
+    <item id="o3" line="247" tag="L">       sien               mehr noch       bald   weern       as      sien</item>
+    <item id="o4" line="248" tag="G">       his.PL.NOM         more still      almost were        than    his.PL.NOM</item>
+    <item id="o5" line="249" tag="T">        "Uncle Hans didn't let (anyone) notice that Klaas' were almost more</item>
+    <item id="o6" line="250" tag="T">        than his."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="245" tag="L">Hans-Ohm         leet sik          dat garnich         so    marken, wat Klaas</item>
+    <item id="c2" line="246" tag="G">Uncle-Hans       let 3.REFL        that not.at.all     so    notice,  that Klaas</item>
+    <item id="c3" line="247" tag="L">sien               mehr noch       bald   weern       as      sien</item>
+    <item id="c4" line="248" tag="G">his.PL.NOM         more still      almost were        than    his.PL.NOM</item>
+    <item id="c5" line="249" tag="T">Uncle Hans didn't let (anyone) notice that Klaas' were almost more</item>
+    <item id="c6" line="250" tag="T">than his.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+    <item id="p1" content="c3[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:80]" alignment="p1"/>
+    <item id="g1" content="c4[0:72]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:66]" alignment="p2"/>
+    <item id="t1" content="c6[0:9]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i6014">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="252-257" line-types="L G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="252" tag="L">  (22) Un nu weet       he         nich, wat       dit          sien</item>
+    <item id="o2" line="253" tag="G">       and now knows he            not, whether this.N.SG his.N.SG.NOM</item>
+    <item id="o3" line="254" tag="L">       Huus             is         oder mien               oder wat.</item>
+    <item id="o4" line="255" tag="G">       house.N.SG.NOM is           or   my.N.SG.NOM or           what else.</item>
+    <item id="o5" line="256" tag="T">       "And now he doesn't        know whether this is his house or mine or what</item>
+    <item id="o6" line="257" tag="T">       else."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="252" tag="L">Un nu weet       he         nich, wat       dit          sien</item>
+    <item id="c2" line="253" tag="G">and now knows he            not, whether this.N.SG his.N.SG.NOM</item>
+    <item id="c3" line="254" tag="L">Huus             is         oder mien               oder wat.</item>
+    <item id="c4" line="255" tag="G">house.N.SG.NOM is           or   my.N.SG.NOM or           what else.</item>
+    <item id="c5" line="256" tag="T">And now he doesn't        know whether this is his house or mine or what</item>
+    <item id="c6" line="257" tag="T">else.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+    <item id="p1" content="c3[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+    <item id="g1" content="c4[0:68]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:72]" alignment="p2"/>
+    <item id="t1" content="c6[0:5]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i6015">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="264-269" line-types="L G L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="264" tag="L">  (23) Dit         is Peiter siin                       Bauk.          Peiter</item>
+    <item id="o2" line="265" tag="G">       this.N.SG is Peter his.N.SG.NOM                  book.N.SG.NOM. Peter</item>
+    <item id="o3" line="266" tag="L+CR">       siin              is gr¨</item>
+    <item id="o4" line="267" tag="L+CR">                              otter as Anna             ehr't.</item>
+    <item id="o5" line="268" tag="G">       his.N.SG.NOM is bigger as Anna                   her-N.SG.NOM.</item>
+    <item id="o6" line="269" tag="T">       "This is Peter's book. Peter's is bigger        than Anna's."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="264" tag="L">Dit         is Peiter siin                       Bauk.          Peiter</item>
+    <item id="c2" line="265" tag="G">this.N.SG is Peter his.N.SG.NOM                  book.N.SG.NOM. Peter</item>
+    <item id="c3" line="266" tag="L+CR">siin              is gr¨</item>
+    <item id="c5" line="268" tag="G">his.N.SG.NOM is bigger as Anna                   her-N.SG.NOM.</item>
+    <item id="c6" line="269" tag="T">This is Peter's book. Peter's is bigger        than Anna's.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+    <item id="p1" content="c3[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+    <item id="g1" content="c5[0:62]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:59]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i6016">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="559-564" line-types="L G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="559" tag="L">  (33) Hans-Ohm leet sik           dat garnich         so marken, wat Klaas</item>
+    <item id="o2" line="560" tag="G">       Uncle-Hans let 3.REFL that not.at.all           so notice,    that Klaas</item>
+    <item id="o3" line="561" tag="L">       sien         mehr noch bald         weern      as    sien</item>
+    <item id="o4" line="562" tag="G">       his.PL.NOM more still almost were              than his.PL.NOM</item>
+    <item id="o5" line="563" tag="T">       "Uncle Hans didn't let (anyone) notice that    Klaas' were almost more</item>
+    <item id="o6" line="564" tag="T">       than his."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="559" tag="L">Hans-Ohm leet sik           dat garnich         so marken, wat Klaas</item>
+    <item id="c2" line="560" tag="G">Uncle-Hans let 3.REFL that not.at.all           so notice,    that Klaas</item>
+    <item id="c3" line="561" tag="L">sien         mehr noch bald         weern      as    sien</item>
+    <item id="c4" line="562" tag="G">his.PL.NOM more still almost were              than his.PL.NOM</item>
+    <item id="c5" line="563" tag="T">Uncle Hans didn't let (anyone) notice that    Klaas' were almost more</item>
+    <item id="c6" line="564" tag="T">than his.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+    <item id="p1" content="c3[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:72]" alignment="p1"/>
+    <item id="g1" content="c4[0:62]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:69]" alignment="p2"/>
+    <item id="t1" content="c6[0:9]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i6017">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="771-773" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="771" tag="L">  (37) Dit         is Peiter und Anna jemmer  Bauk.</item>
+    <item id="o2" line="772" tag="G">       This.N.SG is Peter and Anna their.N.SG book.N.SG.</item>
+    <item id="o3" line="773" tag="T">       "This is Peter and Anna's book."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="771" tag="L">Dit         is Peiter und Anna jemmer  Bauk.</item>
+    <item id="c2" line="772" tag="G">This.N.SG is Peter and Anna their.N.SG book.N.SG.</item>
+    <item id="c3" line="773" tag="T">This is Peter and Anna's book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6018">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="775-777" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="775" tag="L">  (38) de            Deerten     un Planten ehren</item>
+    <item id="o2" line="776" tag="G">       the.PL.ACC animal-PL and plant-PL their.M.SG</item>
+    <item id="o3" line="777" tag="T">       "that of the animals and plants"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="775" tag="L">de            Deerten     un Planten ehren</item>
+    <item id="c2" line="776" tag="G">the.PL.ACC animal-PL and plant-PL their.M.SG</item>
+    <item id="c3" line="777" tag="T">that of the animals and plants</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6019">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="787-792" line-types="L G L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="787" tag="L">  (39) Peter                    sien     un Hinnerk           sien</item>
+    <item id="o2" line="788" tag="G">       Peter.M.SG.ACC           his.N.SG and Hinnerk.M.SG.ACC his.N.SG</item>
+    <item id="o3" line="789" tag="L+CR">       Hus                       sund sch¨</item>
+    <item id="o4" line="790" tag="L+CR">                                  ¨       on.</item>
+    <item id="o5" line="791" tag="G">       house.N.SG.NOM            be-PL beautiful.</item>
+    <item id="o6" line="792" tag="T">         "Peter's and Hinnerk's house(s) are beautiful."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="787" tag="L">Peter                    sien     un Hinnerk           sien</item>
+    <item id="c2" line="788" tag="G">Peter.M.SG.ACC           his.N.SG and Hinnerk.M.SG.ACC his.N.SG</item>
+    <item id="c3" line="789" tag="L+CR">Hus                       sund sch¨</item>
+    <item id="c5" line="791" tag="G">house.N.SG.NOM            be-PL beautiful.</item>
+    <item id="c6" line="792" tag="T">Peter's and Hinnerk's house(s) are beautiful.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+    <item id="p1" content="c3[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+    <item id="g1" content="c5[0:42]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:45]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i6020">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="802-807" line-types="L G L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="802" tag="L">  (40)  Peter               sien        Hus        un Hinnerk</item>
+    <item id="o2" line="803" tag="G">          Peter.M.SG.ACC his.N.SG house.N.SG and Hinnerk.M.SG.ACC</item>
+    <item id="o3" line="804" tag="L+CR">       sien       is     sch¨</item>
+    <item id="o4" line="805" tag="L+CR">                            on.</item>
+    <item id="o5" line="806" tag="G">       his.N.SG be-SG beautiful.</item>
+    <item id="o6" line="807" tag="T">       "Peter's house and Hinnerk's is beautiful."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="802" tag="L">Peter               sien        Hus        un Hinnerk</item>
+    <item id="c2" line="803" tag="G">Peter.M.SG.ACC his.N.SG house.N.SG and Hinnerk.M.SG.ACC</item>
+    <item id="c3" line="804" tag="L+CR">sien       is     sch¨</item>
+    <item id="c5" line="806" tag="G">his.N.SG be-SG beautiful.</item>
+    <item id="c6" line="807" tag="T">Peter's house and Hinnerk's is beautiful.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+    <item id="p1" content="c3[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+    <item id="g1" content="c5[0:25]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:41]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i6021">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="895-898" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="895" tag="L+CR">  (46) n°</item>
+    <item id="o2" line="896" tag="L+CR">        agon    vi k¨anners      fel</item>
+    <item id="o3" line="897" tag="G">       someone we know-POSS mistake</item>
+    <item id="o4" line="898" tag="T">       someone we know's mistake</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="895" tag="L+CR">n°</item>
+    <item id="c3" line="897" tag="G">someone we know-POSS mistake</item>
+    <item id="c4" line="898" tag="T">someone we know's mistake</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25700">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="627-629" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="627" tag="L">  (29) [[de'n             Jung]              sien        Vadder]</item>
+    <item id="o2" line="628" tag="G+CR">       the.M . S G . AC C boy.M . S G . AC C his.M . S G father.M . S G</item>
+    <item id="o3" line="629" tag="T">       "the boy's father"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="627" tag="L">[[de'n             Jung]              sien        Vadder]</item>
+    <item id="c2" line="628" tag="G+CR">the.M . S G . AC C boy.M . S G . AC C his.M . S G father.M . S G</item>
+    <item id="c3" line="629" tag="T">the boy's father</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25701">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="637-639" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="637" tag="L">  (30) [[Gerda]            ehr        Mudder]</item>
+    <item id="o2" line="638" tag="G+CR">       Gerda.F. S G . AC C her.F. S G mother.F. S G</item>
+    <item id="o3" line="639" tag="T">       "Gerda's mother"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="637" tag="L">[[Gerda]            ehr        Mudder]</item>
+    <item id="c2" line="638" tag="G+CR">Gerda.F. S G . AC C her.F. S G mother.F. S G</item>
+    <item id="c3" line="639" tag="T">Gerda's mother</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25702">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="653-655" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="653" tag="L">  (31) [Wendtland sien Vadder] harr gor Fritz Reuter kennt.</item>
+    <item id="o2" line="654" tag="G">       Wendtland his father       had even Fritz Reuter known.</item>
+    <item id="o3" line="655" tag="T">       "Wendland's father had even known Fritz Reuter."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="653" tag="L">[Wendtland sien Vadder] harr gor Fritz Reuter kennt.</item>
+    <item id="c2" line="654" tag="G">Wendtland his father       had even Fritz Reuter known.</item>
+    <item id="c3" line="655" tag="T">Wendland's father had even known Fritz Reuter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25703">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="657-659" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="657" tag="L">  (32) ena [daem sien Shoobaunt] ekj nich faeich sie loos to moake</item>
+    <item id="o2" line="658" tag="G">       one who     his shoe string I        not able am loose to make</item>
+    <item id="o3" line="659" tag="T">       "one whose shoe string I am not able to untie"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="657" tag="L">ena [daem sien Shoobaunt] ekj nich faeich sie loos to moake</item>
+    <item id="c2" line="658" tag="G">one who     his shoe string I        not able am loose to make</item>
+    <item id="c3" line="659" tag="T">one whose shoe string I am not able to untie</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25704">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="661-663" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="661" tag="L">  (33) [[Paul siene Sesta] aea Saen]</item>
+    <item id="o2" line="662" tag="G">       Paul    his      sister her son</item>
+    <item id="o3" line="663" tag="T">       "Paul's sister's son"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="661" tag="L">[[Paul siene Sesta] aea Saen]</item>
+    <item id="c2" line="662" tag="G">Paul    his      sister her son</item>
+    <item id="c3" line="663" tag="T">Paul's sister's son</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25705">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="705-707" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="705" tag="L">  (35) De grugelige Bang' in [mudder ehr Ogen] seih ick noch hut.           ¨</item>
+    <item id="o2" line="706" tag="G">       the terrible    fear      in mother her eyes see I           still today</item>
+    <item id="o3" line="707" tag="T">       "Even today I still see the terrible fear in mother's eyes."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="705" tag="L">De grugelige Bang' in [mudder ehr Ogen] seih ick noch hut.           ¨</item>
+    <item id="c2" line="706" tag="G">the terrible    fear      in mother her eyes see I           still today</item>
+    <item id="c3" line="707" tag="T">Even today I still see the terrible fear in mother's eyes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25706">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="721-726" line-types="L+DB+CR L+DB+CR G+DB+CR G+DB+CR T+DB+CR T+DB+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="721" tag="L+DB+CR">  (36) [[wecke Geister] ehre Kinner] (37) [[numms] siin Vadder]</item>
+    <item id="o2" line="722" tag="L+DB+CR">                                             ¨</item>
+    <item id="o3" line="723" tag="G+DB+CR">                                          nobody     his father</item>
+    <item id="o4" line="724" tag="G+DB+CR">       whose minds        their children</item>
+    <item id="o5" line="725" tag="T+DB+CR">                                          "nobody's father"</item>
+    <item id="o6" line="726" tag="T+DB+CR">       "the children of whose minds"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="721" tag="L+DB+CR">[[wecke Geister] ehre Kinner] (37) [[numms] siin Vadder]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+</igt>
+<igt id="i25707">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="770-772" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="770" tag="L">  (40) [[de'n             Jung]              sien        Vadder]</item>
+    <item id="o2" line="771" tag="G+CR">       the.M . S G . AC C boy.M . S G . AC C his.M . S G father.M . S G</item>
+    <item id="o3" line="772" tag="T">       "the boy's father"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="770" tag="L">[[de'n             Jung]              sien        Vadder]</item>
+    <item id="c2" line="771" tag="G+CR">the.M . S G . AC C boy.M . S G . AC C his.M . S G father.M . S G</item>
+    <item id="c3" line="772" tag="T">the boy's father</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25708">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="829-834" line-types="L+DB M+DB M+DB G+DB+EX M+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="829" tag="L+DB">                                                           (43)  [[de'n Jung] Vadder]</item>
+    <item id="o2" line="830" tag="M+DB">                  -</item>
+    <item id="o3" line="831" tag="M+DB">  (42)     DP                     DP         D'</item>
+    <item id="o4" line="832" tag="G+DB+EX">                            (           )=   =                     the     boy     father</item>
+    <item id="o5" line="833" tag="M+DB">                                 POSS</item>
+    <item id="o6" line="834" tag="T+DB">                                                                "the boy's father"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="829" tag="L+DB">[[de'n Jung] Vadder]</item>
+    <item id="c2" line="830" tag="M+DB">-</item>
+    <item id="c3" line="831" tag="M+DB">DP                     DP         D</item>
+    <item id="c4" line="832" tag="G+DB+EX">(           )=   =                     the     boy     father</item>
+    <item id="c5" line="833" tag="M+DB">POSS</item>
+    <item id="c6" line="834" tag="T+DB">the boy's father</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25709">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="935-939" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="935" tag="L">  (47) Ik heff all        en moien Wogen, man [em sien Auto] is nog</item>
+    <item id="o2" line="936" tag="G">       I have already a nice car                 but him his car           is still</item>
+    <item id="o3" line="937" tag="L">       veel beter.</item>
+    <item id="o4" line="938" tag="G">       much better.</item>
+    <item id="o5" line="939" tag="T">       "I already have a very nice car, but his car is still much better."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="935" tag="L">Ik heff all        en moien Wogen, man [em sien Auto] is nog</item>
+    <item id="c2" line="936" tag="G">I have already a nice car                 but him his car           is still</item>
+    <item id="c3" line="937" tag="L">veel beter.</item>
+    <item id="c4" line="938" tag="G">much better.</item>
+    <item id="c5" line="939" tag="T">I already have a very nice car, but his car is still much better.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+    <item id="p1" content="c3[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+    <item id="g1" content="c4[0:12]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:65]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i25710">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="945-948" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="945" tag="L+CR">  (48) Dat sund [[em un sien Broder] ehr Peer].</item>
+    <item id="o2" line="946" tag="L+CR">             ¨</item>
+    <item id="o3" line="947" tag="G">       That are him and his Brother their horses</item>
+    <item id="o4" line="948" tag="T">       "Those are his and his brother's horses."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="945" tag="L+CR">Dat sund [[em un sien Broder] ehr Peer].</item>
+    <item id="c3" line="947" tag="G">That are him and his Brother their horses</item>
+    <item id="c4" line="948" tag="T">Those are his and his brother's horses.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25711">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="956-959" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="956" tag="L+CR">  (49) Wokeen hort      dei tou? ­ Och, dat is [em sien Wogen].</item>
+    <item id="o2" line="957" tag="L+CR">                ¨</item>
+    <item id="o3" line="958" tag="G">       Who    belongs that to?        Well, that is him his car</item>
+    <item id="o4" line="959" tag="T">       "Who does that one belong to? Well, that's his car."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="956" tag="L+CR">Wokeen hort      dei tou? ­ Och, dat is [em sien Wogen].</item>
+    <item id="c3" line="958" tag="G">Who    belongs that to?        Well, that is him his car</item>
+    <item id="c4" line="959" tag="T">Who does that one belong to? Well, that's his car.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25712">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="964-965" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="964" tag="L">  (50) Jan wull gern angeln gohn. He wull sien Frund Hinnerk ok inloden.</item>
+    <item id="o2" line="965" tag="G">       "Jan wanted to go fishing. He wanted to invite his friend Hinnerk."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="964" tag="L">Jan wull gern angeln gohn. He wull sien Frund Hinnerk ok inloden.</item>
+    <item id="c2" line="965" tag="G">Jan wanted to go fishing. He wanted to invite his friend Hinnerk.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25713">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="966-968" line-types="L+CR L+CR T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="966" tag="L+CR">                                  ¨¨</item>
+    <item id="o2" line="967" tag="L+CR">       Man [em sien Telefoon] woor twei.</item>
+    <item id="o3" line="968" tag="T+DB">       "But his phone was broken." (i.e. Hinnerk's phone was broken)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="966" tag="L+CR">¨¨</item>
+    <item id="c3" line="968" tag="T+DB">But his phone was broken." (i.e. Hinnerk's phone was broken)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25714">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="988-991" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="988" tag="L+CR">  (51) sai laegt hoor kop tegen [m^ ]     in</item>
+    <item id="o2" line="989" tag="L+CR">        ¨    ¨      ¨¨</item>
+    <item id="o3" line="990" tag="G">       she lays her head against mine</item>
+    <item id="o4" line="991" tag="T">       "She leans her head against mine."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="988" tag="L+CR">sai laegt hoor kop tegen [m^ ]     in</item>
+    <item id="c3" line="990" tag="G">she lays her head against mine</item>
+    <item id="c4" line="991" tag="T">She leans her head against mine.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25715">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="992-995" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="992" tag="L+CR">             ¨</item>
+    <item id="o2" line="993" tag="L+CR">  (52) Mien Oller . . . [Fritz sien]             ...    un [Korl sien]     ...</item>
+    <item id="o3" line="994" tag="G">       my age               Fritz his                   and Korl his</item>
+    <item id="o4" line="995" tag="T">       "My age . . . Fritz's . . . and Korl's . . . "</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="992" tag="L+CR">¨</item>
+    <item id="c3" line="994" tag="G">my age               Fritz his                   and Korl his</item>
+    <item id="c4" line="995" tag="T">My age . . . Fritz's . . . and Korl's . . .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:1]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25716">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="1074-1076" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1074" tag="L">  (55) Dat kann he doch        ni nich!</item>
+    <item id="o2" line="1075" tag="G">       that can he though never</item>
+    <item id="o3" line="1076" tag="T">       "But he could never do that!"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1074" tag="L">Dat kann he doch        ni nich!</item>
+    <item id="c2" line="1075" tag="G">that can he though never</item>
+    <item id="c3" line="1076" tag="T">But he could never do that!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25717">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="1081-1083" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1081" tag="L">  (56) Hest du dien, de Anner sien . . .</item>
+    <item id="o2" line="1082" tag="G">       have you yours the other his</item>
+    <item id="o3" line="1083" tag="T">       "If you have yours and the other his, . . . "</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1081" tag="L">Hest du dien, de Anner sien . . .</item>
+    <item id="c2" line="1082" tag="G">have you yours the other his</item>
+    <item id="c3" line="1083" tag="T">If you have yours and the other his, . . .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25719">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="1140-1143" line-types="L+DB+CR L+DB+CR G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1140" tag="L+DB+CR">  (59) [[hoor ollen] =s hus]                      (60) [[Antje] =s Broogam]</item>
+    <item id="o2" line="1141" tag="L+DB+CR">           ¨¨                                                           ¨¨</item>
+    <item id="o3" line="1142" tag="G+DB">       her     parents 's house                        Antje     's bridegroom</item>
+    <item id="o4" line="1143" tag="T+DB">       "her parents' house"                            "Antje's bridegroom"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1140" tag="L+DB+CR">[[hoor ollen] =s hus]                      (60) [[Antje] =s Broogam]</item>
+    <item id="c3" line="1142" tag="G+DB">her     parents 's house                        Antje     's bridegroom</item>
+    <item id="c4" line="1143" tag="T+DB">her parents' house"                            "Antje's bridegroom</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:71]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25720">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3866" line-range="1155-1157" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1155" tag="L">  (61) Hinnerk =s Huss iss groote den Antje =s.</item>
+    <item id="o2" line="1156" tag="G">       Hinnerk 's house is bigger than Antje 's</item>
+    <item id="o3" line="1157" tag="T">       "Hinnerk's house is bigger than Antje's."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1155" tag="L">Hinnerk =s Huss iss groote den Antje =s.</item>
+    <item id="c2" line="1156" tag="G">Hinnerk 's house is bigger than Antje 's</item>
+    <item id="c3" line="1157" tag="T">Hinnerk's house is bigger than Antje's.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118116">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="3554-3559" line-types="M+AC+LN L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3554" tag="M+AC+LN">  (8) LOW SAXON (Strunk 2004)</item>
+    <item id="o2" line="3555" tag="L">      Peter             sien         un Hinnerk                  sien</item>
+    <item id="o3" line="3556" tag="G">      Peter.M.SG.ACC his.N.SG        and Hinnerk.M.SG.ACC his.N.SG</item>
+    <item id="o4" line="3557" tag="L">       Hus             sünd schön</item>
+    <item id="o5" line="3558" tag="G">       house.n.SG.NOM be-PL beautiful</item>
+    <item id="o6" line="3559" tag="T">       `Peter's and Hinnerk's house(s) are beautiful.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3554" tag="M+AC+LN">LOW SAXON (Strunk 2004</item>
+    <item id="c2" line="3555" tag="L">Peter             sien         un Hinnerk                  sien</item>
+    <item id="c3" line="3556" tag="G">Peter.M.SG.ACC his.N.SG        and Hinnerk.M.SG.ACC his.N.SG</item>
+    <item id="c4" line="3557" tag="L">Hus             sünd schön</item>
+    <item id="c5" line="3558" tag="G">house.n.SG.NOM be-PL beautiful</item>
+    <item id="c6" line="3559" tag="T">Peter's and Hinnerk's house(s) are beautiful.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:63]"/>
+    <item id="p1" content="c4[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:60]" alignment="p1"/>
+    <item id="g1" content="c5[0:30]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:45]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i145399">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="484-489" line-types="L+DB+CR L+DB+CR G+DB+CR G+DB+CR T+DB+CR T+DB+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="484" tag="L+DB+CR">                                                                   (23) miene eajne Henj</item>
+    <item id="o2" line="485" tag="L+DB+CR">  (21) ehr Huus                   (22) uns Vadder</item>
+    <item id="o3" line="486" tag="G+DB+CR">                                                                        my    own hands</item>
+    <item id="o4" line="487" tag="G+DB+CR">       her house                       our father</item>
+    <item id="o5" line="488" tag="T+DB+CR">                                                                        "my own hands"</item>
+    <item id="o6" line="489" tag="T+DB+CR">       "her house"                     "our father"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="484 485" tag="L+DB+CR">ehr Huus                   (22) uns Vadder                  (23) miene eajne Henj</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+</igt>
+<igt id="i145401">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="627-629" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="627" tag="L">  (29) [[de'n             Jung]              sien        Vadder]</item>
+    <item id="o2" line="628" tag="G+CR">       the.M . S G . AC C boy.M . S G . AC C his.M . S G father.M . S G</item>
+    <item id="o3" line="629" tag="T">       "the boy's father"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="627" tag="L">[[de'n             Jung]              sien        Vadder]</item>
+    <item id="c2" line="628" tag="G+CR">the.M . S G . AC C boy.M . S G . AC C his.M . S G father.M . S G</item>
+    <item id="c3" line="629" tag="T">the boy's father</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145402">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="637-639" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="637" tag="L">  (30) [[Gerda]            ehr        Mudder]</item>
+    <item id="o2" line="638" tag="G+CR">       Gerda.F. S G . AC C her.F. S G mother.F. S G</item>
+    <item id="o3" line="639" tag="T">       "Gerda's mother"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="637" tag="L">[[Gerda]            ehr        Mudder]</item>
+    <item id="c2" line="638" tag="G+CR">Gerda.F. S G . AC C her.F. S G mother.F. S G</item>
+    <item id="c3" line="639" tag="T">Gerda's mother</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145403">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="653-655" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="653" tag="L">  (31) [Wendtland sien Vadder] harr gor Fritz Reuter kennt.</item>
+    <item id="o2" line="654" tag="G">       Wendtland his father       had even Fritz Reuter known.</item>
+    <item id="o3" line="655" tag="T">       "Wendland's father had even known Fritz Reuter."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="653" tag="L">[Wendtland sien Vadder] harr gor Fritz Reuter kennt.</item>
+    <item id="c2" line="654" tag="G">Wendtland his father       had even Fritz Reuter known.</item>
+    <item id="c3" line="655" tag="T">Wendland's father had even known Fritz Reuter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145404">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="657-659" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="657" tag="L">  (32) ena [daem sien Shoobaunt] ekj nich faeich sie loos to moake</item>
+    <item id="o2" line="658" tag="G">       one who     his shoe string I        not able am loose to make</item>
+    <item id="o3" line="659" tag="T">       "one whose shoe string I am not able to untie"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="657" tag="L">ena [daem sien Shoobaunt] ekj nich faeich sie loos to moake</item>
+    <item id="c2" line="658" tag="G">one who     his shoe string I        not able am loose to make</item>
+    <item id="c3" line="659" tag="T">one whose shoe string I am not able to untie</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145405">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="661-663" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="661" tag="L">  (33) [[Paul siene Sesta] aea Saen]</item>
+    <item id="o2" line="662" tag="G">       Paul    his      sister her son</item>
+    <item id="o3" line="663" tag="T">       "Paul's sister's son"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="661" tag="L">[[Paul siene Sesta] aea Saen]</item>
+    <item id="c2" line="662" tag="G">Paul    his      sister her son</item>
+    <item id="c3" line="663" tag="T">Paul's sister's son</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145406">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="705-707" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="705" tag="L">  (35) De grugelige Bang' in [mudder ehr Ogen] seih ick noch hut.           ¨</item>
+    <item id="o2" line="706" tag="G">       the terrible    fear      in mother her eyes see I           still today</item>
+    <item id="o3" line="707" tag="T">       "Even today I still see the terrible fear in mother's eyes."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="705" tag="L">De grugelige Bang' in [mudder ehr Ogen] seih ick noch hut.           ¨</item>
+    <item id="c2" line="706" tag="G">the terrible    fear      in mother her eyes see I           still today</item>
+    <item id="c3" line="707" tag="T">Even today I still see the terrible fear in mother's eyes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145407">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="721-726" line-types="L+DB+CR L+DB+CR G+DB+CR G+DB+CR T+DB+CR T+DB+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="721" tag="L+DB+CR">  (36) [[wecke Geister] ehre Kinner] (37) [[numms] siin Vadder]</item>
+    <item id="o2" line="722" tag="L+DB+CR">                                             ¨</item>
+    <item id="o3" line="723" tag="G+DB+CR">                                          nobody     his father</item>
+    <item id="o4" line="724" tag="G+DB+CR">       whose minds        their children</item>
+    <item id="o5" line="725" tag="T+DB+CR">                                          "nobody's father"</item>
+    <item id="o6" line="726" tag="T+DB+CR">       "the children of whose minds"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="721" tag="L+DB+CR">[[wecke Geister] ehre Kinner] (37) [[numms] siin Vadder]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+</igt>
+<igt id="i145408">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="770-772" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="770" tag="L">  (40) [[de'n             Jung]              sien        Vadder]</item>
+    <item id="o2" line="771" tag="G+CR">       the.M . S G . AC C boy.M . S G . AC C his.M . S G father.M . S G</item>
+    <item id="o3" line="772" tag="T">       "the boy's father"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="770" tag="L">[[de'n             Jung]              sien        Vadder]</item>
+    <item id="c2" line="771" tag="G+CR">the.M . S G . AC C boy.M . S G . AC C his.M . S G father.M . S G</item>
+    <item id="c3" line="772" tag="T">the boy's father</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145409">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="935-939" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="935" tag="L">  (47) Ik heff all        en moien Wogen, man [em sien Auto] is nog</item>
+    <item id="o2" line="936" tag="G">       I have already a nice car                 but him his car           is still</item>
+    <item id="o3" line="937" tag="L">       veel beter.</item>
+    <item id="o4" line="938" tag="G">       much better.</item>
+    <item id="o5" line="939" tag="T">       "I already have a very nice car, but his car is still much better."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="935" tag="L">Ik heff all        en moien Wogen, man [em sien Auto] is nog</item>
+    <item id="c2" line="936" tag="G">I have already a nice car                 but him his car           is still</item>
+    <item id="c3" line="937" tag="L">veel beter.</item>
+    <item id="c4" line="938" tag="G">much better.</item>
+    <item id="c5" line="939" tag="T">I already have a very nice car, but his car is still much better.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+    <item id="p1" content="c3[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+    <item id="g1" content="c4[0:12]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:65]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i145410">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="945-948" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="945" tag="L+CR">  (48) Dat sund [[em un sien Broder] ehr Peer].</item>
+    <item id="o2" line="946" tag="L+CR">             ¨</item>
+    <item id="o3" line="947" tag="G">       That are him and his Brother their horses</item>
+    <item id="o4" line="948" tag="T">       "Those are his and his brother's horses."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="945" tag="L+CR">Dat sund [[em un sien Broder] ehr Peer].</item>
+    <item id="c3" line="947" tag="G">That are him and his Brother their horses</item>
+    <item id="c4" line="948" tag="T">Those are his and his brother's horses.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145411">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="956-959" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="956" tag="L">  (49) Wokeen hort      dei tou? ­ Och, dat is [em sien Wogen].</item>
+    <item id="o2" line="957" tag="M">                ¨</item>
+    <item id="o3" line="958" tag="G">       Who    belongs that to?        Well, that is him his car</item>
+    <item id="o4" line="959" tag="T">       "Who does that one belong to? Well, that's his car."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="956" tag="L">Wokeen hort      dei tou? ­ Och, dat is [em sien Wogen].</item>
+    <item id="c2" line="957" tag="M">¨</item>
+    <item id="c3" line="958" tag="G">Who    belongs that to?        Well, that is him his car</item>
+    <item id="c4" line="959" tag="T">Who does that one belong to? Well, that's his car.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145412">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="964-965" line-types="L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="964" tag="L">  (50) Jan wull gern angeln gohn. He wull sien Frund Hinnerk ok inloden.</item>
+    <item id="o2" line="965" tag="T">       "Jan wanted to go fishing. He wanted to invite his friend Hinnerk."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="964" tag="L">Jan wull gern angeln gohn. He wull sien Frund Hinnerk ok inloden.</item>
+    <item id="c2" line="965" tag="T">Jan wanted to go fishing. He wanted to invite his friend Hinnerk.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145413">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="967-968" line-types="L T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="967" tag="L">       Man [em sien Telefoon] woor twei.</item>
+    <item id="o2" line="968" tag="T+EX">       "But his phone was broken." (i.e. Hinnerk's phone was broken)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="967" tag="L">Man [em sien Telefoon] woor twei.</item>
+    <item id="c2" line="968" tag="T+EX">But his phone was broken." (i.e. Hinnerk's phone was broken)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145414">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="988-991" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="988" tag="L">  (51) sai laegt hoor kop tegen [m^ ]     in</item>
+    <item id="o2" line="989" tag="M">        ¨    ¨      ¨¨</item>
+    <item id="o3" line="990" tag="G">       she lays her head against mine</item>
+    <item id="o4" line="991" tag="T">       "She leans her head against mine."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="988" tag="L">sai laegt hoor kop tegen [m^ ]     in</item>
+    <item id="c2" line="989" tag="M">¨    ¨      ¨¨</item>
+    <item id="c3" line="990" tag="G">she lays her head against mine</item>
+    <item id="c4" line="991" tag="T">She leans her head against mine.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145415">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="993-995" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="993" tag="L">  (52) Mien Oller . . . [Fritz sien]             ...    un [Korl sien]     ...</item>
+    <item id="o2" line="994" tag="G">       my age               Fritz his                   and Korl his</item>
+    <item id="o3" line="995" tag="T">       "My age . . . Fritz's . . . and Korl's . . . "</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="993" tag="L">Mien Oller . . . [Fritz sien]             ...    un [Korl sien]     ...</item>
+    <item id="c2" line="994" tag="G">my age               Fritz his                   and Korl his</item>
+    <item id="c3" line="995" tag="T">My age . . . Fritz's . . . and Korl's . . .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145416">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="1074-1076" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1074" tag="L">  (55) Dat kann he doch        ni nich!</item>
+    <item id="o2" line="1075" tag="G">       that can he though never</item>
+    <item id="o3" line="1076" tag="T">       "But he could never do that!"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1074" tag="L">Dat kann he doch        ni nich!</item>
+    <item id="c2" line="1075" tag="G">that can he though never</item>
+    <item id="c3" line="1076" tag="T">But he could never do that!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145417">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="1081-1083" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1081" tag="L">  (56) Hest du dien, de Anner sien . . .</item>
+    <item id="o2" line="1082" tag="G">       have you yours the other his</item>
+    <item id="o3" line="1083" tag="T">       "If you have yours and the other his, . . . "</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1081" tag="L">Hest du dien, de Anner sien . . .</item>
+    <item id="c2" line="1082" tag="G">have you yours the other his</item>
+    <item id="c3" line="1083" tag="T">If you have yours and the other his, . . .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145418">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="1140-1143" line-types="L+DB M G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1140" tag="L+DB">  (59) [[hoor ollen] =s hus]                      (60) [[Antje] =s Broogam]</item>
+    <item id="o2" line="1141" tag="M">           ¨¨                                                           ¨¨</item>
+    <item id="o3" line="1142" tag="G+DB">       her     parents 's house                        Antje     's bridegroom</item>
+    <item id="o4" line="1143" tag="T+DB">       "her parents' house"                            "Antje's bridegroom"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1140" tag="L+DB">[[hoor ollen] =s hus]                      (60) [[Antje] =s Broogam]</item>
+    <item id="c2" line="1141" tag="M">¨¨                                                           ¨¨</item>
+    <item id="c3" line="1142" tag="G+DB">her     parents 's house                        Antje     's bridegroom</item>
+    <item id="c4" line="1143" tag="T+DB">her parents' house"                            "Antje's bridegroom</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:71]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145419">
+  <metadata type="xigt-meta">
+    <meta type="language" name="low saxon" iso-639-3="nds" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3817" line-range="1155-1157" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1155" tag="L">  (61) Hinnerk =s Huss iss groote den Antje =s.</item>
+    <item id="o2" line="1156" tag="G">       Hinnerk 's house is bigger than Antje 's</item>
+    <item id="o3" line="1157" tag="T">       "Hinnerk's house is bigger than Antje's."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1155" tag="L">Hinnerk =s Huss iss groote den Antje =s.</item>
+    <item id="c2" line="1156" tag="G">Hinnerk 's house is bigger than Antje 's</item>
+    <item id="c3" line="1157" tag="T">Hinnerk's house is bigger than Antje's.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

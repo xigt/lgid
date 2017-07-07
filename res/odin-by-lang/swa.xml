@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i42946">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4030" line-range="22-24" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="22" tag="L+LN">       (2) a. U-me-leta    kitabu?                                          (Swahili)</item>
+    <item id="o2" line="23" tag="G">              2.SG-P-bring book</item>
+    <item id="o3" line="24" tag="T">              `Have you brought a book?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="22" tag="L+LN">a. U-me-leta    kitabu?                                          (Swahili</item>
+    <item id="c2" line="23" tag="G">2.SG-P-bring book</item>
+    <item id="c3" line="24" tag="T">Have you brought a book?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42981">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4030" line-range="397-401" line-types="M+CN B L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="397" tag="M+CN">  2.3 Differential Agreement</item>
+    <item id="o2" line="398" tag="B"></item>
+    <item id="o3" line="399" tag="L+LN">     (26)     a. U-me-leta    kitabu?                                (Swahili)</item>
+    <item id="o4" line="400" tag="G">                2.SG-P-bring book</item>
+    <item id="o5" line="401" tag="T">               `Have you brought a book?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="397" tag="M+CN">2.3 Differential Agreement</item>
+    <item id="c2" line="398" tag="B"/>
+    <item id="c3" line="399" tag="L+LN">a. U-me-leta    kitabu?                                (Swahili</item>
+    <item id="c4" line="400" tag="G">2.SG-P-bring book</item>
+    <item id="c5" line="401" tag="T">Have you brought a book?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47721">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="1580-1582" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1580" tag="L">  (59) a. maji    ya-me-tokata</item>
+    <item id="o2" line="1581" tag="G">          water it-PERF -boil</item>
+    <item id="o3" line="1582" tag="T">          `The water boiled.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1580" tag="L">maji    ya-me-tokata</item>
+    <item id="c2" line="1581" tag="G">water it-PERF-boil</item>
+    <item id="c3" line="1582" tag="T">The water boiled.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47722">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="1584-1586" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1584" tag="L">         b. Fatuma    a-me-toko-s-a                     maji</item>
+    <item id="o2" line="1585" tag="G">            Fatuma    she-PERF -boil-CS                 water</item>
+    <item id="o3" line="1586" tag="T+EX">            `Fatuma boiled the water.'31</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1584" tag="L">Fatuma    a-me-toko-s-a                     maji</item>
+    <item id="c2" line="1585" tag="G">Fatuma    she-PERF-boil-CS                 water</item>
+    <item id="c3" line="1586" tag="T+EX">Fatuma boiled the water.'31</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47723">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="1595-1597" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1595" tag="L">  (60) Baba a-li- m-fun g-ish-a           mtoto mlango</item>
+    <item id="o2" line="1596" tag="G">       father he-TEMP-him-close-CS        child    door</item>
+    <item id="o3" line="1597" tag="T">       `The father made the child close the door.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1595" tag="L">Baba a-li-m-fun g-ish-a           mtoto mlango</item>
+    <item id="c2" line="1596" tag="G">father he-TEMP-him-close-CS        child    door</item>
+    <item id="c3" line="1597" tag="T">The father made the child close the door.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47724">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="1616-1618" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1616" tag="L">  (61) Juma      a-me-m-toko-s-esh-a                             Fatuma         maji</item>
+    <item id="o2" line="1617" tag="G">       Juma      he-PERF -her-boil-CS-CS                         Fatuma         water</item>
+    <item id="o3" line="1618" tag="T+EX">       `Juma made Fatuma boil the water.'32</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1616" tag="L">Juma      a-me-m-toko-s-esh-a                             Fatuma         maji</item>
+    <item id="c2" line="1617" tag="G">Juma      he-PERF-her-boil-CS-CS                         Fatuma         water</item>
+    <item id="c3" line="1618" tag="T+EX">Juma made Fatuma boil the water.'32</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:77]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47725">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="1624-1626" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1624" tag="L">  (62) ?Hamida a-na-m-pik-ish-ish-a33   Fatuma Halima ugali</item>
+    <item id="o2" line="1625" tag="G">        Hamida she-PRES -her-cook-CS-CS Fatuma Halima porri dge</item>
+    <item id="o3" line="1626" tag="T">        `Hamida is making Fatuma make Halima cook porridge.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1624" tag="L">?Hamida a-na-m-pik-ish-ish-a33   Fatuma Halima ugali</item>
+    <item id="c2" line="1625" tag="G">Hamida she-PRES-her-cook-CS-CS Fatuma Halima porri dge</item>
+    <item id="c3" line="1626" tag="T">Hamida is making Fatuma make Halima cook porridge.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47726">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="1653-1655" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1653" tag="L+SY">  (63) Maria a-li-m-lip-ishiz-a              Johni                             watoto          pesa</item>
+    <item id="o2" line="1654" tag="G">       Mary SUBJ-PST-OBJ -pay-CS.CS-IND      John                              children        money</item>
+    <item id="o3" line="1655" tag="T">       `Mary made John pay the money to the children.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1653" tag="L+SY">Maria a-li-m-lip-ishiz-a              Johni                             watoto          pesa</item>
+    <item id="c2" line="1654" tag="G">Mary SUBJ-PST-OBJ-pay-CS.CS-IND      John                              children        money</item>
+    <item id="c3" line="1655" tag="T">Mary made John pay the money to the children.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:92]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:92]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47754">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="3322-3324" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3322" tag="L">  (94) a. Fatuma    a-me-toko-s-a                maji</item>
+    <item id="o2" line="3323" tag="G">          Fatuma    she-PERF -boil-CS            water</item>
+    <item id="o3" line="3324" tag="T">          `Fatuma boiled the water.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3322" tag="L">Fatuma    a-me-toko-s-a                maji</item>
+    <item id="c2" line="3323" tag="G">Fatuma    she-PERF-boil-CS            water</item>
+    <item id="c3" line="3324" tag="T">Fatuma boiled the water.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47755">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="3344-3346" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3344" tag="L+EX">  (95) a. Baba a-li- m-fun g-ish-a            mtoto mlango                     = (60)</item>
+    <item id="o2" line="3345" tag="G">          father he-TEMP-him-close-CS         child   door</item>
+    <item id="o3" line="3346" tag="T">          `The father made the child close the door.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3344" tag="L+EX">a. Baba a-li-m-fun g-ish-a            mtoto mlango                     = (60</item>
+    <item id="c2" line="3345" tag="G">father he-TEMP-him-close-CS         child   door</item>
+    <item id="c3" line="3346" tag="T">The father made the child close the door.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47756">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="3394-3396" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3394" tag="L">  (96) a. Juma      a-me-m-toko-s-esh-a                                     Fatuma       maji</item>
+    <item id="o2" line="3395" tag="G">          Juma      he-PERF -her-boil-CS-CS                                 Fatuma       water</item>
+    <item id="o3" line="3396" tag="T">          `Juma made Fatuma boil the water.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3394" tag="L">Juma      a-me-m-toko-s-esh-a                                     Fatuma       maji</item>
+    <item id="c2" line="3395" tag="G">Juma      he-PERF-her-boil-CS-CS                                 Fatuma       water</item>
+    <item id="c3" line="3396" tag="T">Juma made Fatuma boil the water.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:83]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:83]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47757">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="3426-3428" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3426" tag="L+EX">  (97) a. ?Hamida a-na-m-pik-ish-ish-a      Fatuma Halima ugali                             = (62)</item>
+    <item id="o2" line="3427" tag="G">           Hamida she-PRES -her-cook-CS-CS Fatuma Halima porri dge</item>
+    <item id="o3" line="3428" tag="T">          `Hamida is making Fatuma make Halima cook porridge.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3426" tag="L+EX">a. ?Hamida a-na-m-pik-ish-ish-a      Fatuma Halima ugali                             = (62</item>
+    <item id="c2" line="3427" tag="G">Hamida she-PRES-her-cook-CS-CS Fatuma Halima porri dge</item>
+    <item id="c3" line="3428" tag="T">Hamida is making Fatuma make Halima cook porridge.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:90]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47764">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="4336-4338" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4336" tag="L">  (105) a. Juma      a-me-m-toko-s-esh-a      Fatuma                   maji</item>
+    <item id="o2" line="4337" tag="G">           Juma      he-PERF -her-boil-CS-CS Fatuma                    water</item>
+    <item id="o3" line="4338" tag="T">           `Juma made Fatuma boil the water.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4336" tag="L">Juma      a-me-m-toko-s-esh-a      Fatuma                   maji</item>
+    <item id="c2" line="4337" tag="G">Juma      he-PERF-her-boil-CS-CS Fatuma                    water</item>
+    <item id="c3" line="4338" tag="T">Juma made Fatuma boil the water.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47766">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="4374-4376" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4374" tag="L">  (107) a. ?Hamida a-na-m-pik-ish-ish-a     Fatuma Halima ugali</item>
+    <item id="o2" line="4375" tag="G+CR">            Hamida she-PRES -her-cook-CS-CS Fatuma Halima porri dge</item>
+    <item id="o3" line="4376" tag="T">            `Hamida is making Fatuma make Halima cook porridge.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4374" tag="L">?Hamida a-na-m-pik-ish-ish-a     Fatuma Halima ugali</item>
+    <item id="c2" line="4375" tag="G+CR">Hamida she-PRES-her-cook-CS-CS Fatuma Halima porri dge</item>
+    <item id="c3" line="4376" tag="T">Hamida is making Fatuma make Halima cook porridge.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47779">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="4864-4866" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4864" tag="L">  (126)      Baba a-li- m-fun g-ish-a           mtoto mlango</item>
+    <item id="o2" line="4865" tag="G">             father he-TEMP-him-close-CS        child    door</item>
+    <item id="o3" line="4866" tag="T">             `The father made the child close the door.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4864" tag="L">Baba a-li-m-fun g-ish-a           mtoto mlango</item>
+    <item id="c2" line="4865" tag="G">father he-TEMP-him-close-CS        child    door</item>
+    <item id="c3" line="4866" tag="T">The father made the child close the door.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47780">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="4896-4898" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4896" tag="L">  (127)      ?Hamida a-na-m-pik-ish-ish-a      Fatuma Halima ugali</item>
+    <item id="o2" line="4897" tag="G">               Hamida she-PRES -her-cook-CS-CS Fatuma Halima porri dge</item>
+    <item id="o3" line="4898" tag="T">              `Hamida is making Fatuma make Halima cook porridge.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4896" tag="L">?Hamida a-na-m-pik-ish-ish-a      Fatuma Halima ugali</item>
+    <item id="c2" line="4897" tag="G">Hamida she-PRES-her-cook-CS-CS Fatuma Halima porri dge</item>
+    <item id="c3" line="4898" tag="T">Hamida is making Fatuma make Halima cook porridge.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59922">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3036" line-range="186-188" line-types="L+LN G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="186" tag="L+LN">    (6) a. Juma a-li-m-piga      risasi tembo jana         usiku.                                  Swahili</item>
+    <item id="o2" line="187" tag="G">           Juma SM - PST- OM-hit bullet elephant yesterday night</item>
+    <item id="o3" line="188" tag="T+EX">           `Juma shot an/the elephant last night.'                                          animate object</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="186" tag="L+LN">Juma a-li-m-piga      risasi tembo jana         usiku.                                  Swahili</item>
+    <item id="c2" line="187" tag="G">Juma SM-PST-OM-hit bullet elephant yesterday night</item>
+    <item id="c3" line="188" tag="T+EX">Juma shot an/the elephant last night.'                                          animate object</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:95]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:94]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i129544">
+  <metadata type="xigt-meta">
+    <meta type="language" name="swahili" iso-639-3="swa" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3989" line-range="303-306" line-types="M+LN+DB L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="303" tag="M+LN+DB">   Nairobi Swahili                                      Standard Swahili</item>
+    <item id="o2" line="304" tag="L+DB">   13) u-me-on-a vi-tabu         za-ngu?                14) u-me-vi-on-a vi-tabu vy-angu?</item>
+    <item id="o3" line="305" tag="G+DB">       You-tense-see-fv cl.8-book cl.10-my?                 You-tense-cl.8-see-fv cl.8-book cl.8-my</item>
+    <item id="o4" line="306" tag="T+DB">       `Have you seen my books'?                            `Have you seen my books?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="303" tag="M+LN+DB">Nairobi Swahili                                      Standard Swahili</item>
+    <item id="c2" line="304" tag="L+DB">u-me-on-a vi-tabu         za-ngu?                14) u-me-vi-on-a vi-tabu vy-angu?</item>
+    <item id="c3" line="305" tag="G+DB">You-tense-see-fv cl.8-book cl.10-my?                 You-tense-cl.8-see-fv cl.8-book cl.8-my</item>
+    <item id="c4" line="306" tag="T+DB">Have you seen my books'?                            `Have you seen my books?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:92]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:76]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

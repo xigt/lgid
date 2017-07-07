@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i14697">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tarascan" iso-639-3="pua:tsz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3538" line-range="3669-3671" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3669" tag="L">  (1)     a. echéri chopé -sha -Ø -ti</item>
+    <item id="o2" line="3670" tag="G">             soil get.hard-PRG -PRS-3IND</item>
+    <item id="o3" line="3671" tag="T">             `The soil is getting hard'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3669" tag="L">echéri chopé-sha-Ø-ti</item>
+    <item id="c2" line="3670" tag="G">soil get.hard-PRG-PRS-3IND</item>
+    <item id="c3" line="3671" tag="T">The soil is getting hard</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14698">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tarascan" iso-639-3="pua:tsz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3538" line-range="3673-3675" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3673" tag="L">            b. k'waní+ku-a -Ø ts´á -ni kurhínta chopéri-icha-ni</item>
+    <item id="o2" line="3674" tag="G">               throw.away-PL.OB-IMP those-OB.C. bread hard-PL-OB.C</item>
+    <item id="o3" line="3675" tag="T">                `Throw away those hard breads'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3673" tag="L">k'waní+ku-a-Ø ts´á-ni kurhínta chopéri-icha-ni</item>
+    <item id="c2" line="3674" tag="G">throw.away-PL.OB-IMP those-OB.C. bread hard-PL-OB.C</item>
+    <item id="c3" line="3675" tag="T">Throw away those hard breads</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14699">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tarascan" iso-639-3="pua:tsz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3538" line-range="3679-3681" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3679" tag="L">  (2)       tsakápu chopéri- i -s -Ø -ti</item>
+    <item id="o2" line="3680" tag="G">            stone hard -VRBL-PRF-PRS-3IND</item>
+    <item id="o3" line="3681" tag="T">            `the stone is hard'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3679" tag="L">tsakápu chopéri-i-s-Ø-ti</item>
+    <item id="c2" line="3680" tag="G">stone hard-VRBL-PRF-PRS-3IND</item>
+    <item id="c3" line="3681" tag="T">the stone is hard</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

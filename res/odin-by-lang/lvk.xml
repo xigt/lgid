@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i17857">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lavukaleve" iso-639-3="lvk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1605" line-range="59-62" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="59" tag="M+AC+LN">  (1)   Lavukaleve (Terrill°, ex. 9)</item>
+    <item id="o2" line="60" tag="L">        nga-bakala          nga-uia          t u la</item>
+    <item id="o3" line="61" tag="G">        1SG.POSS-paddle(M) 1SG.POSS-knife(F) small.         SG.F</item>
+    <item id="o4" line="62" tag="T">        'my paddle and my small knife'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="59" tag="M+AC+LN">Lavukaleve (Terrill°, ex. 9</item>
+    <item id="c2" line="60" tag="L">nga-bakala          nga-uia          t u la</item>
+    <item id="c3" line="61" tag="G">1SG.POSS-paddle(M) 1SG.POSS-knife(F) small.         SG.F</item>
+    <item id="c4" line="62" tag="T">my paddle and my small knife</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i17866">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lavukaleve" iso-639-3="lvk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1605" line-range="145-151" line-types="M+AC+LN+CN L G+CR G+CR L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="145" tag="M+AC+LN+CN">  (10) adversative coordination: Lavukaleve (Terrill°, ex. 40)</item>
+    <item id="o2" line="146" tag="L">       Oin a       sou fale-re          kini a-e-ve-meon               taman</item>
+    <item id="o3" line="147" tag="G+CR">       other.SG.M rise stand-NONFIN ACT 3SG.M.O-SBD-go-S               but</item>
+    <item id="o4" line="148" tag="G+CR">                                                                 URP</item>
+    <item id="o5" line="149" tag="L">       lake     ga       e-nua-ri-re...</item>
+    <item id="o6" line="150" tag="G">       road(N) SG.N.ART 3SG.N.O-be.amiss-CAUS-NONFIN</item>
+    <item id="o7" line="151" tag="T">       `He stood up, but he took the wrong path...'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="145" tag="M+AC+LN+CN">Lavukaleve (Terrill°, ex. 40</item>
+    <item id="c2" line="146" tag="L">Oin a       sou fale-re          kini a-e-ve-meon               taman</item>
+    <item id="c3" line="147 148" tag="G+CR">other.SG.M rise stand-NONFIN ACT 3SG.M.O-SBD-go-S         URP   but</item>
+    <item id="c5" line="149" tag="L">lake     ga       e-nua-ri-re...</item>
+    <item id="c6" line="150" tag="G">road(N) SG.N.ART 3SG.N.O-be.amiss-CAUS-NONFIN</item>
+    <item id="c7" line="151" tag="T">He stood up, but he took the wrong path...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:69]"/>
+    <item id="p1" content="c5[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:67]" alignment="p1"/>
+    <item id="g1" content="c6[0:45]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:42]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i17906">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lavukaleve" iso-639-3="lvk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1605" line-range="1051-1054" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1051" tag="M+AC+LN">       d. Lavukaleve (Terrill°, ex. 26)</item>
+    <item id="o2" line="1052" tag="L">          el          Mima</item>
+    <item id="o3" line="1053" tag="G">          1DU.EXCL Mima</item>
+    <item id="o4" line="1054" tag="T">          'Mima and I'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1051" tag="M+AC+LN">Lavukaleve (Terrill°, ex. 26)</item>
+    <item id="c2" line="1052" tag="L">el          Mima</item>
+    <item id="c3" line="1053" tag="G">1DU.EXCL Mima</item>
+    <item id="c4" line="1054" tag="T">Mima and I</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i17924">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lavukaleve" iso-639-3="lvk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1605" line-range="1332-1334" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1332" tag="L">  (54) solo-al       o    kofitaol  vo-na</item>
+    <item id="o2" line="1333" tag="G">       mountain-PL and valley.PL 3PL-in</item>
+    <item id="o3" line="1334" tag="T">       'over mountains and valleys'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1332" tag="L">solo-al       o    kofitaol  vo-na</item>
+    <item id="c2" line="1333" tag="G">mountain-PL and valley.PL 3PL-in</item>
+    <item id="c3" line="1334" tag="T">over mountains and valleys</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i33331">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lavukaleve" iso-639-3="lvk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2056" line-range="486-489" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="486" tag="M+AC+LN">  (27) Lavukaleve (East Papuan, Solomon Islands, Terrill 2003: 457, 460)</item>
+    <item id="o2" line="487" tag="L">      a.  le    inu    ria     ngoa me-m        inu</item>
+    <item id="o3" line="488" tag="G">          but 2SG where stay HAB-SG.M 2SG</item>
+    <item id="o4" line="489" tag="T">          `But where do you live?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="486" tag="M+AC+LN">Lavukaleve (East Papuan, Solomon Islands, Terrill 2003: 457, 460</item>
+    <item id="c2" line="487" tag="L">le    inu    ria     ngoa me-m        inu</item>
+    <item id="c3" line="488" tag="G">but 2SG where stay HAB-SG.M 2SG</item>
+    <item id="c4" line="489" tag="T">But where do you live?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i33332">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lavukaleve" iso-639-3="lvk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2056" line-range="490-492" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="490" tag="L">      b. me-kalam      vasia-m</item>
+    <item id="o2" line="491" tag="G">          2PL-father be.where-SG.M</item>
+    <item id="o3" line="492" tag="T">          `Where is your (PL) father?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="490" tag="L">me-kalam      vasia-m</item>
+    <item id="c2" line="491" tag="G">2PL-father be.where-SG.M</item>
+    <item id="c3" line="492" tag="T">Where is your (PL) father?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50515">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lavukaleve" iso-639-3="lvk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1781" line-range="205-208" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="205" tag="M+AC+LN">     (6) Lavukaleve (Terrill   1999: 415, 413)</item>
+    <item id="o2" line="206" tag="L">         a. Le inu ria         ngoa mem        inu? lore.</item>
+    <item id="o3" line="207" tag="G">             but you where     stay hab:sg:m you 3:du:say</item>
+    <item id="o4" line="208" tag="T">             `But where do     you live? the two say.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="205" tag="M+AC+LN">Lavukaleve (Terrill   1999: 415, 413</item>
+    <item id="c2" line="206" tag="L">Le inu ria         ngoa mem        inu? lore.</item>
+    <item id="c3" line="207" tag="G">but you where     stay hab:sg:m you 3:du:say</item>
+    <item id="c4" line="208" tag="T">But where do     you live? the two say.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i50516">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lavukaleve" iso-639-3="lvk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1781" line-range="213-216" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="213" tag="L+CR">                                              vasia-v?</item>
+    <item id="o2" line="214" tag="L+CR">               b. Le mola hoiga omalav                    hini fi marere ke.</item>
+    <item id="o3" line="215" tag="G">                  but canoe dem poss:people be:where-pl int foc 3:pl:say emph</item>
+    <item id="o4" line="216" tag="T">                  `But where are the people from that canoe? they say.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="213 214" tag="L+CR">Le mola hoiga omalav        vasia-v?    hini fi marere ke.</item>
+    <item id="c3" line="215" tag="G">but canoe dem poss:people be:where-pl int foc 3:pl:say emph</item>
+    <item id="c4" line="216" tag="T">But where are the people from that canoe? they say.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i68816">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lavukaleve" iso-639-3="lvk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3086" line-range="365-368" line-types="M+LN L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="365" tag="M+LN">  (40)   Lavukaleve, East Papuan, Indo-Pacific</item>
+    <item id="o2" line="366" tag="L+AC">  a.     ma-mita'keu-mal va         vo-ne                                                      (Terrill 2003:159)</item>
+    <item id="o3" line="367" tag="G">         3PL.POSS-dog-PL    PL.DEF 3PL-with</item>
+    <item id="o4" line="368" tag="T">         `with their dogs'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="365" tag="M+LN">Lavukaleve, East Papuan, Indo-Pacific</item>
+    <item id="c2" line="366" tag="L+AC">ma-mita'keu-mal va         vo-ne                                                      (Terrill 2003:159)</item>
+    <item id="c3" line="367" tag="G">3PL.POSS-dog-PL    PL.DEF 3PL-with</item>
+    <item id="c4" line="368" tag="T">with their dogs</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:104]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i68817">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lavukaleve" iso-639-3="lvk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3086" line-range="370-379" line-types="L G+CR G+CR G+CR B B L+AC G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="370" tag="L">  b.     airal         mima                  e-ma-re                     vo-mal      nala</item>
+    <item id="o2" line="371" tag="G+CR">                       way of life           3SG.NTR.OB-take-            come-DU     MASC.DU.DEF</item>
+    <item id="o3" line="372" tag="G+CR">         man:DU                                                 INF</item>
+    <item id="o4" line="373" tag="G+CR">                                     NTR</item>
+    <item id="o5" line="374" tag="B"></item>
+    <item id="o6" line="375" tag="B"></item>
+    <item id="o7" line="376" tag="L+AC">         finala       Sepo             ne       Laumate                                        (Terrill 2003:160)</item>
+    <item id="o8" line="377" tag="G">         3DU.MASC.FOC SMASC            and      LMASC</item>
+    <item id="o9" line="378" tag="B"></item>
+    <item id="o10" line="379" tag="T">         `The two men who brought the church were Sepo and Laumate.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="370" tag="L">airal         mima                  e-ma-re                     vo-mal      nala</item>
+    <item id="c2" line="371 372 373" tag="G+CR">man:DU        way of life   NTR     3SG.NTR.OB-take-INF      come-DU     MASC.DU.DEF</item>
+    <item id="c5" line="374" tag="B"/>
+    <item id="c6" line="375" tag="B"/>
+    <item id="c7" line="376" tag="L+AC">finala       Sepo             ne       Laumate                                        (Terrill 2003:160)</item>
+    <item id="c8" line="377" tag="G">3DU.MASC.FOC SMASC            and      LMASC</item>
+    <item id="c9" line="378" tag="B"/>
+    <item id="c10" line="379" tag="T">The two men who brought the church were Sepo and Laumate.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+    <item id="p1" content="c7[0:104]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:84]" alignment="p1"/>
+    <item id="g1" content="c8[0:44]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:57]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i134439">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lavukaleve" iso-639-3="lvk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2378" line-range="1736-1739" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1736" tag="M+AC+LN">  (2)   Lavukaleve (Terrill 1999: 415, 413)</item>
+    <item id="o2" line="1737" tag="L">        a.     Le inu ria           ngoa mem            inu? lore.</item>
+    <item id="o3" line="1738" tag="G">               but you where        stay HAB.SG.M you 3.DU.say</item>
+    <item id="o4" line="1739" tag="T">               `But where do you    live? the two say.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1736" tag="M+AC+LN">Lavukaleve (Terrill 1999: 415, 413</item>
+    <item id="c2" line="1737" tag="L">Le inu ria           ngoa mem            inu? lore.</item>
+    <item id="c3" line="1738" tag="G">but you where        stay HAB.SG.M you 3.DU.say</item>
+    <item id="c4" line="1739" tag="T">But where do you    live? the two say.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i134440">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lavukaleve" iso-639-3="lvk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2378" line-range="1740-1742" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1740" tag="L">        b.     Le mola hoiga        omalav       vasia-v?     hini fi  marere ke.</item>
+    <item id="o2" line="1741" tag="G">               but canoe DEM        POSS.people be:where-PL INT FOC 3.PL.say EMPH</item>
+    <item id="o3" line="1742" tag="T">               `But where are the   people from that canoe? they say.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1740" tag="L">Le mola hoiga        omalav       vasia-v?     hini fi  marere ke.</item>
+    <item id="c2" line="1741" tag="G">but canoe DEM        POSS.people be:where-PL INT FOC 3.PL.say EMPH</item>
+    <item id="c3" line="1742" tag="T">But where are the   people from that canoe? they say.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i144302">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lavukaleve" iso-639-3="lvk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1586" line-range="308-311" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="308" tag="M+AC+LN">  (16) Lavukaleve (Terril 1999: 35, 288, 408)</item>
+    <item id="o2" line="309" tag="L">     a. "tuna-Ø             mi?"           hide a-e-re-ge</item>
+    <item id="o3" line="310" tag="G">         be.reall y-SG .N 3SG .N .Q .FOC thus 3SG .M .OBJ.SBRD -say-ANT</item>
+    <item id="o4" line="311" tag="T">        `"Is it really true?" he said.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="308" tag="M+AC+LN">Lavukaleve (Terril 1999: 35, 288, 408</item>
+    <item id="c2" line="309" tag="L">"tuna-Ø             mi?"           hide a-e-re-ge</item>
+    <item id="c3" line="310" tag="G">be.reall y-SG .N 3SG .N .Q .FOC thus 3SG .M .OBJ.SBRD-say-ANT</item>
+    <item id="c4" line="311" tag="T">Is it really true?" he said.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i144303">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lavukaleve" iso-639-3="lvk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1586" line-range="312-314" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="312" tag="L">     b. legis      e-kae-e                    o-mi                      tuna-Ø           fi</item>
+    <item id="o2" line="313" tag="G">        kite(N ) 3SG .N .OBJ-put.up-NMLZ 3SG .POSS -speci al.th ing(N ) be.reall y-SG .N 3SG .N .FOC</item>
+    <item id="o3" line="314" tag="T">        `That's the special thing for kite-flying.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="312" tag="L">legis      e-kae-e                    o-mi                      tuna-Ø           fi</item>
+    <item id="c2" line="313" tag="G">kite(N ) 3SG .N .OBJ-put.up-NMLZ 3SG .POSS-speci al.th ing(N ) be.reall y-SG .N 3SG .N .FOC</item>
+    <item id="c3" line="314" tag="T">That's the special thing for kite-flying.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:83]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:91]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i144304">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lavukaleve" iso-639-3="lvk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1586" line-range="315-317" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="315" tag="L">     c. o-na                o-re-a               tuna-a      la</item>
+    <item id="o2" line="316" tag="G">        3SG .F.OBJ-INCL 3SG .SUBJ-say-SG .F be.reall y-SG .F SG .F.ART</item>
+    <item id="o3" line="317" tag="T">        `(He took the coconut) To the one she had really said.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="315" tag="L">o-na                o-re-a               tuna-a      la</item>
+    <item id="c2" line="316" tag="G">3SG .F.OBJ-INCL 3SG .SUBJ-say-SG .F be.reall y-SG .F SG .F.ART</item>
+    <item id="c3" line="317" tag="T">(He took the coconut) To the one she had really said.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

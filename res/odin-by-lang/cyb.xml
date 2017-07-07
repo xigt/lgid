@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i25367">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cayuvava" iso-639-3="cyb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2102" line-range="378-380" line-types="L G M"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="378" tag="L">                c.    me-ria rabiri</item>
+    <item id="o2" line="379" tag="G">                      plur-new paddle</item>
+    <item id="o3" line="380" tag="M">                                                                                           (Cayuvava)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="378" tag="L">me-ria rabiri</item>
+    <item id="c2" line="379" tag="G">plur-new paddle</item>
+    <item id="c3" line="380" tag="M">Cayuvava</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

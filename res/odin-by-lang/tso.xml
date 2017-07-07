@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i36256">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsonga" iso-639-3="tso" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3837" line-range="579-581" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="579" tag="L">  (19)   tihomu [leti       ti-dya-ka]</item>
+    <item id="o2" line="580" tag="G">         ox10       DEM10 SP10-eat-R       EL</item>
+    <item id="o3" line="581" tag="T+AC+LN">         'cattle which eat'                            (Tsonga; Doke 1954, 191)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="579" tag="L">tihomu [leti       ti-dya-ka]</item>
+    <item id="c2" line="580" tag="G">ox10       DEM10 SP10-eat-R       EL</item>
+    <item id="c3" line="581" tag="T+AC+LN">cattle which eat'                            (Tsonga; Doke 1954, 191)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:69]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155944">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsonga" iso-639-3="tso" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3302" line-range="714-717" line-types="L+DB+CR L+LN+DB+CR G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="714" tag="L+DB+CR">                                hi-ø-dya vuswa                     hi-ø-a-dy-á</item>
+    <item id="o2" line="715" tag="L+LN+DB+CR">          c. Tsonga (S53)</item>
+    <item id="o3" line="716" tag="G+DB">                                we-ø-eat porridge                  we-ø-FOC-eat</item>
+    <item id="o4" line="717" tag="T+DB">                                `We eat porridge'                  `We eat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="714 715" tag="L+DB+CR+LN">Tsonga (S53)       hi-ø-dya vuswa                     hi-ø-a-dy-á</item>
+    <item id="c3" line="716" tag="G+DB">we-ø-eat porridge                  we-ø-FOC-eat</item>
+    <item id="c4" line="717" tag="T+DB">We eat porridge'                  `We eat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

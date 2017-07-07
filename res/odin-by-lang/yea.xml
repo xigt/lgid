@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i116576">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yoruba" iso-639-3="yea" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3648" line-range="59-64" line-types="M+CN B M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="59" tag="M+CN">  Serial-Verb Construction (SVC):</item>
+    <item id="o2" line="60" tag="B"></item>
+    <item id="o3" line="61" tag="M+AC+LN">  Yoruba (Lord 1993:35)</item>
+    <item id="o4" line="62" tag="L">  (3) Ó    tà-á       fún   mi.</item>
+    <item id="o5" line="63" tag="G">      he sell-it      give me</item>
+    <item id="o6" line="64" tag="T">      'He sold it to/for me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="59" tag="M+CN">Serial-Verb Construction (SVC):</item>
+    <item id="c2" line="60" tag="B"/>
+    <item id="c3" line="61" tag="M+AC+LN">Yoruba (Lord 1993:35)</item>
+    <item id="c4" line="62" tag="L">Ó    tà-á       fún   mi.</item>
+    <item id="c5" line="63" tag="G">he sell-it      give me</item>
+    <item id="c6" line="64" tag="T">He sold it to/for me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c4[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

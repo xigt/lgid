@@ -1,0 +1,1617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i151018">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="242-245" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="242" tag="M+LN">  2   Yamphu</item>
+    <item id="o2" line="243" tag="L">      Tangiya yik.ti/.la.red.u.N</item>
+    <item id="o3" line="244" tag="G">      Tangiya chase.around.go_come.stop.&gt;3.EXPS</item>
+    <item id="o4" line="245" tag="T">      I chased [the ox] all the way to Tangiya and back.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="242" tag="M+LN">2   Yamphu</item>
+    <item id="c2" line="243" tag="L">Tangiya yik.ti/.la.red.u.N</item>
+    <item id="c3" line="244" tag="G">Tangiya chase.around.go_come.stop.&gt;3.EXPS</item>
+    <item id="c4" line="245" tag="T">I chased [the ox] all the way to Tangiya and back.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151025">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="542-550" line-types="L+CR L+CR G B L+CR L+CR G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="542" tag="L+CR">                 khad.a.j.iN,  khad.a.j.iN   Simma.æ/.yu</item>
+    <item id="o2" line="543" tag="L+CR">  9    mo.ba</item>
+    <item id="o3" line="544" tag="G">       that. ELA go.PT.DU.EXPS go.PT.DU.EXPS Simma.POS.HRZ</item>
+    <item id="o4" line="545" tag="B"></item>
+    <item id="o5" line="546" tag="L+CR">                      saks.a.j.iN</item>
+    <item id="o6" line="547" tag="L+CR">       iskul.bet.tu</item>
+    <item id="o7" line="548" tag="G">       school.LOC.UPW ascend.PT.DU.EXPS</item>
+    <item id="o8" line="549" tag="B"></item>
+    <item id="o9" line="550" tag="T">       Then we went on. In Simma we went up to the school.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="542 543" tag="L+CR">9    mo.ba     khad.a.j.iN,  khad.a.j.iN   Simma.æ/.yu</item>
+    <item id="c3" line="544" tag="G">that. ELA go.PT.DU.EXPS go.PT.DU.EXPS Simma.POS.HRZ</item>
+    <item id="c4" line="545" tag="B"/>
+    <item id="c5" line="546 547" tag="L+CR">iskul.bet.tu   saks.a.j.iN</item>
+    <item id="c7" line="548" tag="G">school.LOC.UPW ascend.PT.DU.EXPS</item>
+    <item id="c8" line="549" tag="B"/>
+    <item id="c9" line="550" tag="T">Then we went on. In Simma we went up to the school.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+    <item id="p1" content="c5[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+    <item id="g1" content="c7[0:32]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:51]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i151026">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="552-555" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="552" tag="L+CR">                                                 khæ·.N.æ,'</item>
+    <item id="o2" line="553" tag="L+CR">  10   moba       khad.a.ro `sam.bet.tu                     lu·s.u.ro</item>
+    <item id="o3" line="554" tag="G">       that.ELA go.PT.REP Tibet.LOC.UPW go.EXPS.FCT say..&gt;3.REP</item>
+    <item id="o4" line="555" tag="T">       [It] went. `I'm going to Tibet,' he said.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="552" tag="L+CR">khæ·.N.æ,</item>
+    <item id="c3" line="554" tag="G">that.ELA go.PT.REP Tibet.LOC.UPW go.EXPS.FCT say..&gt;3.REP</item>
+    <item id="c4" line="555" tag="T">[It] went. `I'm going to Tibet,' he said.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151027">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="557-566" line-types="L+CR L+CR G B L+CR L+CR G B T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="557" tag="L+CR">                        hæN pen.didok.m.æt.tu­      Na ni·ma</item>
+    <item id="o2" line="558" tag="L+CR">  11   igo.sok.pet.tu­</item>
+    <item id="o3" line="559" tag="G">       this.top.LOC.UPW you sit.as_if.ATNR.POS.UPW fish cook.INF</item>
+    <item id="o4" line="560" tag="B"></item>
+    <item id="o5" line="561" tag="L+CR">                   mimm.æn.dok.m.æ/.mu</item>
+    <item id="o6" line="562" tag="L+CR">       khad.a.ro                                    radi ag.a.ro</item>
+    <item id="o7" line="563" tag="G">       must.PT.REP down_there.POS.like.ATNR.POS.DWN rug weave.PT.REP</item>
+    <item id="o8" line="564" tag="B"></item>
+    <item id="o9" line="565" tag="T">       He had to cook the fish up here ­ just like where you're sitting ­ and just like</item>
+    <item id="o10" line="566" tag="T">       down there she was weaving the rug.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="557 558" tag="L+CR">11   igo.sok.pet.tu­ hæN pen.didok.m.æt.tu­      Na ni·ma</item>
+    <item id="c3" line="559" tag="G">this.top.LOC.UPW you sit.as_if.ATNR.POS.UPW fish cook.INF</item>
+    <item id="c4" line="560" tag="B"/>
+    <item id="c5" line="561 562" tag="L+CR">khad.a.ro   mimm.æn.dok.m.æ/.mu            radi ag.a.ro</item>
+    <item id="c7" line="563" tag="G">must.PT.REP down_there.POS.like.ATNR.POS.DWN rug weave.PT.REP</item>
+    <item id="c8" line="564" tag="B"/>
+    <item id="c9" line="565" tag="T">He had to cook the fish up here ­ just like where you're sitting ­ and just like</item>
+    <item id="c10" line="566" tag="T">down there she was weaving the rug.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+    <item id="p1" content="c5[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+    <item id="g1" content="c7[0:61]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:80]" alignment="p2"/>
+    <item id="t1" content="c10[0:35]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i151028">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="568-571" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="568" tag="L+CR">       hoN.go.re      ka·.go am.be/.yu             le·.tt.iN.æ</item>
+    <item id="o2" line="569" tag="L+CR">  12</item>
+    <item id="o3" line="570" tag="G">       LCQ.TH.CEF I.TH your.LOC.HRZ               come.PF.EXPS.FCT</item>
+    <item id="o4" line="571" tag="T">       That's why I've come to you.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="568 569" tag="L+CR">12   hoN.go.re      ka·.go am.be/.yu             le·.tt.iN.æ</item>
+    <item id="c3" line="570" tag="G">LCQ.TH.CEF I.TH your.LOC.HRZ               come.PF.EXPS.FCT</item>
+    <item id="c4" line="571" tag="T">That's why I've come to you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151029">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="625-633" line-types="L+CR L+CR G B L G B T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="625" tag="L+CR">          phe·ri pira gundri tu·.ho khim.hoNsi/.yu huliya.ba  læ·/.a.ma</item>
+    <item id="o2" line="626" tag="L+CR">  13</item>
+    <item id="o3" line="627" tag="G">          pheri pira gundri be.LCQ house.inside.HRZ hulnu.NOM do.PURP.INF</item>
+    <item id="o4" line="628" tag="B"></item>
+    <item id="o5" line="629" tag="L">          hæ·.ye</item>
+    <item id="o6" line="630" tag="G">          must.FCT</item>
+    <item id="o7" line="631" tag="B"></item>
+    <item id="o8" line="632" tag="T">          Moreover, if there are seats and mats, you have to put them away inside the</item>
+    <item id="o9" line="633" tag="T">          house.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="625 626" tag="L+CR">13      phe·ri pira gundri tu·.ho khim.hoNsi/.yu huliya.ba  læ·/.a.ma</item>
+    <item id="c3" line="627" tag="G">pheri pira gundri be.LCQ house.inside.HRZ hulnu.NOM do.PURP.INF</item>
+    <item id="c4" line="628" tag="B"/>
+    <item id="c5" line="629" tag="L">hæ·.ye</item>
+    <item id="c6" line="630" tag="G">must.FCT</item>
+    <item id="c7" line="631" tag="B"/>
+    <item id="c8" line="632" tag="T">Moreover, if there are seats and mats, you have to put them away inside the</item>
+    <item id="c9" line="633" tag="T">house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+    <item id="p1" content="c5[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+    <item id="g1" content="c6[0:8]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:75]" alignment="p2"/>
+    <item id="t1" content="c9[0:6]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i151030">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="635-643" line-types="L+CR L+CR G B L G B T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="635" tag="L+CR">                      li·.nuN    kho·.j.e/   sauk u·k.nuN sasok imaN</item>
+    <item id="o2" line="636" tag="L+CR">  14      nuha.ba</item>
+    <item id="o3" line="637" tag="G">          nuhaunu.NOM become.SOC s/he.NS.ERG skin peel.SOC entrail what</item>
+    <item id="o4" line="638" tag="B"></item>
+    <item id="o5" line="639" tag="L">          jammai hoNsi/.yu.ha    caN.bes.u.ji</item>
+    <item id="o6" line="640" tag="G">          jammai inside.HRZ.PLNR take_out.RES.&gt;3.3NS</item>
+    <item id="o7" line="641" tag="B"></item>
+    <item id="o8" line="642" tag="T">          After we had bathed, they cut the hide and took out the guts and everything</item>
+    <item id="o9" line="643" tag="T">          inside.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="635 636" tag="L+CR">14      nuha.ba     li·.nuN    kho·.j.e/   sauk u·k.nuN sasok imaN</item>
+    <item id="c3" line="637" tag="G">nuhaunu.NOM become.SOC s/he.NS.ERG skin peel.SOC entrail what</item>
+    <item id="c4" line="638" tag="B"/>
+    <item id="c5" line="639" tag="L">jammai hoNsi/.yu.ha    caN.bes.u.ji</item>
+    <item id="c6" line="640" tag="G">jammai inside.HRZ.PLNR take_out.RES.&gt;3.3NS</item>
+    <item id="c7" line="641" tag="B"/>
+    <item id="c8" line="642" tag="T">After we had bathed, they cut the hide and took out the guts and everything</item>
+    <item id="c9" line="643" tag="T">inside.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+    <item id="p1" content="c5[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:61]" alignment="p1"/>
+    <item id="g1" content="c6[0:42]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:75]" alignment="p2"/>
+    <item id="t1" content="c9[0:7]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i151031">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="661-668" line-types="L+CR L+CR G B L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="661" tag="L+CR">          mo.ban.no/                          hago igo.be/ hæN bora.hoNsi.yu</item>
+    <item id="o2" line="662" tag="L+CR">  15                   `lo buni.o,</item>
+    <item id="o3" line="663" tag="G">          that.ELA.EXF `well bond_friend.ARQ, now this.LOC you bora.inside.HRZ</item>
+    <item id="o4" line="664" tag="B"></item>
+    <item id="o5" line="665" tag="L">          pe/.yus.e!'</item>
+    <item id="o6" line="666" tag="G">          pass.down.IMP</item>
+    <item id="o7" line="667" tag="B"></item>
+    <item id="o8" line="668" tag="T">          Then [the bear] said, "Friend, you get into this sack."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="661 662" tag="L+CR">15      mo.ban.no/   `lo buni.o,            hago igo.be/ hæN bora.hoNsi.yu</item>
+    <item id="c3" line="663" tag="G">that.ELA.EXF `well bond_friend.ARQ, now this.LOC you bora.inside.HRZ</item>
+    <item id="c4" line="664" tag="B"/>
+    <item id="c5" line="665" tag="L">pe/.yus.e!</item>
+    <item id="c6" line="666" tag="G">pass.down.IMP</item>
+    <item id="c7" line="667" tag="B"/>
+    <item id="c8" line="668" tag="T">Then [the bear] said, "Friend, you get into this sack.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+    <item id="p1" content="c5[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:68]" alignment="p1"/>
+    <item id="g1" content="c6[0:13]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:54]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i151032">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="670-677" line-types="L+CR L+CR G B B B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="670" tag="L+CR">          swa·ma.hi.jhai ) dai.hoNsi/.mu   pe/.yus.a.mi.ro</item>
+    <item id="o2" line="671" tag="L+CR">  16</item>
+    <item id="o3" line="672" tag="G">          bee.NS.CTP       dahi.inside.DWN pass.down.PT.3PL.REP</item>
+    <item id="o4" line="673" tag="B"></item>
+    <item id="o5" line="674" tag="B"></item>
+    <item id="o6" line="675" tag="B">                                                                                               14</item>
+    <item id="o7" line="676" tag="B"></item>
+    <item id="o8" line="677" tag="T">          As for the bees, they entered into the curds.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="670 671" tag="L+CR">16      swa·ma.hi.jhai ) dai.hoNsi/.mu   pe/.yus.a.mi.ro</item>
+    <item id="c3" line="672" tag="G">bee.NS.CTP       dahi.inside.DWN pass.down.PT.3PL.REP</item>
+    <item id="c4" line="673" tag="B"/>
+    <item id="c5" line="674" tag="B"/>
+    <item id="c6" line="675" tag="B">14</item>
+    <item id="c7" line="676" tag="B"/>
+    <item id="c8" line="677" tag="T">As for the bees, they entered into the curds.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151033">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="679-682" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="679" tag="L+CR">          wadihaNma æm.ma           khæ·.N.ha</item>
+    <item id="o2" line="680" tag="L+CR">  17</item>
+    <item id="o3" line="681" tag="G">          leaven_herb put_down must</item>
+    <item id="o4" line="682" tag="T">          You must put in the leaven herb.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="679 680" tag="L+CR">17      wadihaNma æm.ma           khæ·.N.ha</item>
+    <item id="c3" line="681" tag="G">leaven_herb put_down must</item>
+    <item id="c4" line="682" tag="T">You must put in the leaven herb.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151034">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="703-710" line-types="L+CR L+CR G B L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="703" tag="L+CR">                   radaN.be/.mu  ikko kay.æ/æm.be/</item>
+    <item id="o2" line="704" tag="L+CR">  18      mo.ba                                         akma tu·.ye</item>
+    <item id="o3" line="705" tag="G">          that.ELA below.LOC.DWN one blacksmith.POS.LOC pig be.FCT</item>
+    <item id="o4" line="706" tag="B"></item>
+    <item id="o5" line="707" tag="L">          lu·.haks.a.mi</item>
+    <item id="o6" line="708" tag="G">          say.send.PT.3PL</item>
+    <item id="o7" line="709" tag="B"></item>
+    <item id="o8" line="710" tag="T">          They told us that there was a pig, down below at a blacksmith's.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="703 704" tag="L+CR">18      mo.ba    radaN.be/.mu  ikko kay.æ/æm.be/    akma tu·.ye</item>
+    <item id="c3" line="705" tag="G">that.ELA below.LOC.DWN one blacksmith.POS.LOC pig be.FCT</item>
+    <item id="c4" line="706" tag="B"/>
+    <item id="c5" line="707" tag="L">lu·.haks.a.mi</item>
+    <item id="c6" line="708" tag="G">say.send.PT.3PL</item>
+    <item id="c7" line="709" tag="B"/>
+    <item id="c8" line="710" tag="T">They told us that there was a pig, down below at a blacksmith's.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+    <item id="p1" content="c5[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+    <item id="g1" content="c6[0:15]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:64]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i151035">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="719-722" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="719" tag="L+CR">                    siNbu.sok.pe/ saN./itth.oN        lokhaN./it.c.u</item>
+    <item id="o2" line="720" tag="L+CR">  19      mo.ba</item>
+    <item id="o3" line="721" tag="G">          that. ELA treee.top.LOC ascend.PF.LCQ look.PF.DU.&gt;3</item>
+    <item id="o4" line="722" tag="T">          They climbed in a tree and looked [around].</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="719 720" tag="L+CR">19      mo.ba     siNbu.sok.pe/ saN./itth.oN        lokhaN./it.c.u</item>
+    <item id="c3" line="721" tag="G">that. ELA treee.top.LOC ascend.PF.LCQ look.PF.DU.&gt;3</item>
+    <item id="c4" line="722" tag="T">They climbed in a tree and looked [around].</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151036">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="750-753" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="750" tag="L+CR">          mettoN     soN.bet.tu</item>
+    <item id="o2" line="751" tag="L+CR">  20                                     sip.pe·.tt.æ</item>
+    <item id="o3" line="752" tag="G">          further_up above.LOC.UPW fall.RES.PF.FCT</item>
+    <item id="o4" line="753" tag="T">          [The snake] was a bit further up.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="750 751" tag="L+CR">20      mettoN     soN.bet.tu          sip.pe·.tt.æ</item>
+    <item id="c3" line="752" tag="G">further_up above.LOC.UPW fall.RES.PF.FCT</item>
+    <item id="c4" line="753" tag="T">[The snake] was a bit further up.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151037">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="755-758" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="755" tag="L+CR">                     RiNgatti.æ/æ khim.soN.be/       less.iN.æm.be/...</item>
+    <item id="o2" line="756" tag="L+CR">  21      mo.ba</item>
+    <item id="o3" line="757" tag="G">          that.ELA RiNgattiya.POS house.above.LOC come.EXPS.FCT.LOC...</item>
+    <item id="o4" line="758" tag="T">          Then I arrived above RiNgattiya's house...</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="755 756" tag="L+CR">21      mo.ba      RiNgatti.æ/æ khim.soN.be/       less.iN.æm.be/...</item>
+    <item id="c3" line="757" tag="G">that.ELA RiNgattiya.POS house.above.LOC come.EXPS.FCT.LOC...</item>
+    <item id="c4" line="758" tag="T">Then I arrived above RiNgattiya's house...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151038">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="818-821" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="818" tag="L+CR">           khi·.di./os.e                          hiN.si/</item>
+    <item id="o2" line="819" tag="L+CR">  22                                 miyu                    ti·.ra.e</item>
+    <item id="o3" line="820" tag="G">           carry.apply.PURP.IMP over_there feed.SUP go.go_come.IMP</item>
+    <item id="o4" line="821" tag="T">           Carry the stuff, go over there and feed him and come back.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="818 819" tag="L+CR">22       khi·.di./os.e            miyu          hiN.si/   ti·.ra.e</item>
+    <item id="c3" line="820" tag="G">carry.apply.PURP.IMP over_there feed.SUP go.go_come.IMP</item>
+    <item id="c4" line="821" tag="T">Carry the stuff, go over there and feed him and come back.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151039">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="823-826" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="823" tag="L+CR">                              yoNa op.y.ok.pe·.tt.u</item>
+    <item id="o2" line="824" tag="L+CR">  23       ...mindu.ra</item>
+    <item id="o3" line="825" tag="G">           ...up_there.MED water spill.UFM.bring_down.RES.PF.&gt;3</item>
+    <item id="o4" line="826" tag="T">           ...water was suddenly spilt from above.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="823 824" tag="L+CR">23       ...mindu.ra        yoNa op.y.ok.pe·.tt.u</item>
+    <item id="c3" line="825" tag="G">...up_there.MED water spill.UFM.bring_down.RES.PF.&gt;3</item>
+    <item id="c4" line="826" tag="T">...water was suddenly spilt from above.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151040">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="828-830" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="828" tag="L">  24       mo.ba    mimmu          ma·ks.æ gottha.bek.ko...</item>
+    <item id="o2" line="829" tag="G">           that.ELA down_there bear.POS goth.LOC.TH...</item>
+    <item id="o3" line="830" tag="T">           Down in the shed of the bear...</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="828" tag="L">24       mo.ba    mimmu          ma·ks.æ gottha.bek.ko...</item>
+    <item id="c2" line="829" tag="G">that.ELA down_there bear.POS goth.LOC.TH...</item>
+    <item id="c3" line="830" tag="T">Down in the shed of the bear...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151041">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="845-845" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="845" tag="L-T">   ke/yoæræN                       on this side</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="845" tag="L-T">ke/yoæræN                       on this side</item>
+  </tier>
+</igt>
+<igt id="i151042">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="846-846" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="846" tag="L-T">   kettoæraN                       up on this side</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="846" tag="L-T">kettoæraN                       up on this side</item>
+  </tier>
+</igt>
+<igt id="i151043">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="847-847" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="847" tag="L-T">   ke/moæræN                       down on this side</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="847" tag="L-T">ke/moæræN                       down on this side</item>
+  </tier>
+</igt>
+<igt id="i151044">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="849-849" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="849" tag="L-T">   ke/yoN                          further over this way</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="849" tag="L-T">ke/yoN                          further over this way</item>
+  </tier>
+</igt>
+<igt id="i151045">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="850-850" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="850" tag="L-T">   kettoN                          further up this way</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="850" tag="L-T">kettoN                          further up this way</item>
+  </tier>
+</igt>
+<igt id="i151046">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="851-851" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="851" tag="L-T">   ke/moN                          further down this way</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="851" tag="L-T">ke/moN                          further down this way</item>
+  </tier>
+</igt>
+<igt id="i151047">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="853-853" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="853" tag="L-T">   me/yoæræN                       over on the other side</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="853" tag="L-T">me/yoæræN                       over on the other side</item>
+  </tier>
+</igt>
+<igt id="i151048">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="854-854" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="854" tag="L-T">   mettoæræN                       up on the other side</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="854" tag="L-T">mettoæræN                       up on the other side</item>
+  </tier>
+</igt>
+<igt id="i151049">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="855-855" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="855" tag="L-T">   me/moæræN                       down on the other side</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="855" tag="L-T">me/moæræN                       down on the other side</item>
+  </tier>
+</igt>
+<igt id="i151050">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="857-857" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="857" tag="L-T">   me/yoN                          further away</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="857" tag="L-T">me/yoN                          further away</item>
+  </tier>
+</igt>
+<igt id="i151051">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="858-858" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="858" tag="L-T">   mettoN                          further up</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="858" tag="L-T">mettoN                          further up</item>
+  </tier>
+</igt>
+<igt id="i151052">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="859-859" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="859" tag="L-T">   me/moN                          further down</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="859" tag="L-T">me/moN                          further down</item>
+  </tier>
+</igt>
+<igt id="i151053">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="862-865" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="862" tag="L+CR">           me/yoN</item>
+    <item id="o2" line="863" tag="L+CR">  25                    sokkhuma       cupt.a.j.u.ro</item>
+    <item id="o3" line="864" tag="G">           futher_lev Urtica_dioica meet.PT.DU.&gt;3.REP</item>
+    <item id="o4" line="865" tag="T">           A little further along they met a stinging nettle</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="862 863" tag="L+CR">25       me/yoN       sokkhuma       cupt.a.j.u.ro</item>
+    <item id="c3" line="864" tag="G">futher_lev Urtica_dioica meet.PT.DU.&gt;3.REP</item>
+    <item id="c4" line="865" tag="T">A little further along they met a stinging nettle</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151054">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="867-870" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="867" tag="L+CR">           mettoN      wa/iN cupt.u.ji.ro</item>
+    <item id="o2" line="868" tag="L+CR">  26</item>
+    <item id="o3" line="869" tag="G">           further_up egg     meet.&gt;3.3NS.REP</item>
+    <item id="o4" line="870" tag="T">           Further up they met an egg.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="867 868" tag="L+CR">26       mettoN      wa/iN cupt.u.ji.ro</item>
+    <item id="c3" line="869" tag="G">further_up egg     meet.&gt;3.3NS.REP</item>
+    <item id="c4" line="870" tag="T">Further up they met an egg.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151055">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="912-915" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="912" tag="L+CR">         saks.a.j.iN</item>
+    <item id="o2" line="913" tag="L+CR">  27</item>
+    <item id="o3" line="914" tag="G">         ascend.PT.DU.EXPS</item>
+    <item id="o4" line="915" tag="T">         We went up.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="912 913" tag="L+CR">27     saks.a.j.iN</item>
+    <item id="c3" line="914" tag="G">ascend.PT.DU.EXPS</item>
+    <item id="c4" line="915" tag="T">We went up.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151056">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="917-920" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="917" tag="L+CR">                  me/moN         yu·s.a.j.iN</item>
+    <item id="o2" line="918" tag="L+CR">  28     mo.ba</item>
+    <item id="o3" line="919" tag="G">         that.ELA further_down descend.PT.DU.EXPS</item>
+    <item id="o4" line="920" tag="T">         So we went down a bit further.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="917 918" tag="L+CR">28     mo.ba    me/moN         yu·s.a.j.iN</item>
+    <item id="c3" line="919" tag="G">that.ELA further_down descend.PT.DU.EXPS</item>
+    <item id="c4" line="920" tag="T">So we went down a bit further.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151057">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="922-925" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="922" tag="L+CR">          `mo.be/ khak.sa.be·.tt.æ'             ka·.s.a.j.iN</item>
+    <item id="o2" line="923" tag="L+CR">  29</item>
+    <item id="o3" line="924" tag="G">          that.LOC pierce.ascend.RES.PF.FCT cry.PT.DU.EXPS</item>
+    <item id="o4" line="925" tag="T">  "It's wormed itself up into there," we cried.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="922 923" tag="L+CR">29      `mo.be/ khak.sa.be·.tt.æ'             ka·.s.a.j.iN</item>
+    <item id="c3" line="924" tag="G">that.LOC pierce.ascend.RES.PF.FCT cry.PT.DU.EXPS</item>
+    <item id="c4" line="925" tag="T">It's wormed itself up into there," we cried.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151058">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="927-930" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="927" tag="L+CR">         phe·ri paidhæk.pe/ pey.yus.a.ro</item>
+    <item id="o2" line="928" tag="L+CR">  30</item>
+    <item id="o3" line="929" tag="G">         pheri seat.LOC     sit.down.PT.REP</item>
+    <item id="o4" line="930" tag="T">         Then he sat down on the seat</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="927 928" tag="L+CR">30     phe·ri paidhæk.pe/ pey.yus.a.ro</item>
+    <item id="c3" line="929" tag="G">pheri seat.LOC     sit.down.PT.REP</item>
+    <item id="c4" line="930" tag="T">Then he sat down on the seat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151059">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="950-953" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="950" tag="L+CR">                    kæ/ma.so</item>
+    <item id="o2" line="951" tag="L+CR">  31     mo.ba                     kissima lu·.ye</item>
+    <item id="o3" line="952" tag="G">         that.ELA come_up.INF.too fear     be.FCT</item>
+    <item id="o4" line="953" tag="T">         We are afraid to come up.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="950 951" tag="L+CR">31     mo.ba      kæ/ma.so      kissima lu·.ye</item>
+    <item id="c3" line="952" tag="G">that.ELA come_up.INF.too fear     be.FCT</item>
+    <item id="c4" line="953" tag="T">We are afraid to come up.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151060">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="955-958" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="955" tag="L+CR">                  uks.a.j.iN           kancha.nuN</item>
+    <item id="o2" line="956" tag="L+CR">  32     mo.ba</item>
+    <item id="o3" line="957" tag="G">         that.ELA come_down.PT.DU.EXPS kancha.SOC</item>
+    <item id="o4" line="958" tag="T">         So Kancha and I came down.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="955 956" tag="L+CR">32     mo.ba    uks.a.j.iN           kancha.nuN</item>
+    <item id="c3" line="957" tag="G">that.ELA come_down.PT.DU.EXPS kancha.SOC</item>
+    <item id="c4" line="958" tag="T">So Kancha and I came down.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151061">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="960-962" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="960" tag="L">  33     mo.ba     dailo.ba ab.a.ro</item>
+    <item id="o2" line="961" tag="G">         that.ELA dailo.ELA come_levelly.PT.REP</item>
+    <item id="o3" line="962" tag="T">         Then she came over from the door.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="960" tag="L">33     mo.ba     dailo.ba ab.a.ro</item>
+    <item id="c2" line="961" tag="G">that.ELA dailo.ELA come_levelly.PT.REP</item>
+    <item id="c3" line="962" tag="T">Then she came over from the door.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151062">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="964-967" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="964" tag="L+CR">         hununununu hu·.yaN.gad.a.mi.ro</item>
+    <item id="o2" line="965" tag="L+CR">  34</item>
+    <item id="o3" line="966" tag="G">         zoom-zoom scatter.UFM.come_up.PT.3PL.REP</item>
+    <item id="o4" line="967" tag="T">         Suddenly "zoom-zoom" they swarmed up.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="964 965" tag="L+CR">34     hununununu hu·.yaN.gad.a.mi.ro</item>
+    <item id="c3" line="966" tag="G">zoom-zoom scatter.UFM.come_up.PT.3PL.REP</item>
+    <item id="c4" line="967" tag="T">Suddenly "zoom-zoom" they swarmed up.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151063">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="969-976" line-types="L+CR L+CR G B L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="969" tag="L+CR">                               thutta.so yokto/</item>
+    <item id="o2" line="970" tag="L+CR">  35     mo.ba    mindu.ra</item>
+    <item id="o3" line="971" tag="G">         that.ELA up_there.MED trunk.too with_a_crash</item>
+    <item id="o4" line="972" tag="B"></item>
+    <item id="o5" line="973" tag="L">         ciy.y.oks.a.ro</item>
+    <item id="o6" line="974" tag="G">         collapse.UFM.come_down.PT.REP</item>
+    <item id="o7" line="975" tag="B"></item>
+    <item id="o8" line="976" tag="T">         So the log suddenly fell down from above with a crash.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="969 970" tag="L+CR">35     mo.ba    mindu.ra     thutta.so yokto/</item>
+    <item id="c3" line="971" tag="G">that.ELA up_there.MED trunk.too with_a_crash</item>
+    <item id="c4" line="972" tag="B"/>
+    <item id="c5" line="973" tag="L">ciy.y.oks.a.ro</item>
+    <item id="c6" line="974" tag="G">collapse.UFM.come_down.PT.REP</item>
+    <item id="c7" line="975" tag="B"/>
+    <item id="c8" line="976" tag="T">So the log suddenly fell down from above with a crash.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+    <item id="p1" content="c5[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:44]" alignment="p1"/>
+    <item id="g1" content="c6[0:29]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:54]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i151064">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="978-981" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="978" tag="L+CR">                  te·./ab.iN.ma,        siN      yaN./apt.u.N.ma</item>
+    <item id="o2" line="979" tag="L+CR">  36     mo.ba</item>
+    <item id="o3" line="980" tag="G">         that.ELA turn.com.EXPS.12NS firewood carry.bring_levelly.&gt;3.EXAG.12NS</item>
+    <item id="o4" line="981" tag="T">         Then we came back and brought firewood with us</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="978 979" tag="L+CR">36     mo.ba    te·./ab.iN.ma,        siN      yaN./apt.u.N.ma</item>
+    <item id="c3" line="980" tag="G">that.ELA turn.com.EXPS.12NS firewood carry.bring_levelly.&gt;3.EXAG.12NS</item>
+    <item id="c4" line="981" tag="T">Then we came back and brought firewood with us</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151065">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="983-986" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="983" tag="L+CR">                  sæk.ktt.a.j.uN</item>
+    <item id="o2" line="984" tag="L+CR">  37     mo.ba</item>
+    <item id="o3" line="985" tag="G">         that.ELA pull.bring_up.PT.DU.&gt;3.EXAG</item>
+    <item id="o4" line="986" tag="T">         Then we reeled in [the line].</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="983 984" tag="L+CR">37     mo.ba    sæk.ktt.a.j.uN</item>
+    <item id="c3" line="985" tag="G">that.ELA pull.bring_up.PT.DU.&gt;3.EXAG</item>
+    <item id="c4" line="986" tag="T">Then we reeled in [the line].</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151066">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="988-990" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="988" tag="L">  38     Ragala.ba um.mukt.a.ju,                   Ka·makhola lend.a.ji</item>
+    <item id="o2" line="989" tag="G">         Ragala.ELA trail.bring_down.PT.DU.&gt;3 Kama_khola come.PT.DU</item>
+    <item id="o3" line="990" tag="T">         They traced [the dowsing rods] from Ragala down and came to the Kama river.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="988" tag="L">38     Ragala.ba um.mukt.a.ju,                   Ka·makhola lend.a.ji</item>
+    <item id="c2" line="989" tag="G">Ragala.ELA trail.bring_down.PT.DU.&gt;3 Kama_khola come.PT.DU</item>
+    <item id="c3" line="990" tag="T">They traced [the dowsing rods] from Ragala down and came to the Kama river.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151067">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="992-995" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="992" tag="L+CR">         le/y.a·pt.u.ro                             pa·kkhæ/.yu</item>
+    <item id="o2" line="993" tag="L+CR">  39</item>
+    <item id="o3" line="994" tag="G">         abandon.UFM.bring_levelly.&gt;3.REP           outside.HRZ</item>
+    <item id="o4" line="995" tag="T">         She left him outside</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="992 993" tag="L+CR">39     le/y.a·pt.u.ro                             pa·kkhæ/.yu</item>
+    <item id="c3" line="994" tag="G">abandon.UFM.bring_levelly.&gt;3.REP           outside.HRZ</item>
+    <item id="c4" line="995" tag="T">She left him outside</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151068">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1410-1418" line-types="L+CR L+CR L+CR G B L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1410" tag="L+CR">                         pi·.nuN  kaniN.æ/ mo.ba    cam akkhuma.be/</item>
+    <item id="o2" line="1411" tag="L+CR">  40      cam.jari</item>
+    <item id="o3" line="1412" tag="L+CR">                                    pe</item>
+    <item id="o4" line="1413" tag="G">          paddy.seed     give.SOC we .ERG that.ELA paddy soil.LOC</item>
+    <item id="o5" line="1414" tag="B"></item>
+    <item id="o6" line="1415" tag="L">          tub.u.N.ma</item>
+    <item id="o7" line="1416" tag="G">          sprinkle.&gt;3.EXAG.12NS</item>
+    <item id="o8" line="1417" tag="B"></item>
+    <item id="o9" line="1418" tag="T">          After [God] gave us this seed, we proceeded to sow it in the earth.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1410 1411" tag="L+CR">40      cam.jari       pi·.nuN  kaniN.æ/ mo.ba    cam akkhuma.be/</item>
+    <item id="c4" line="1413" tag="G">paddy.seed     give.SOC we .ERG that.ELA paddy soil.LOC</item>
+    <item id="c5" line="1414" tag="B"/>
+    <item id="c6" line="1415" tag="L">tub.u.N.ma</item>
+    <item id="c7" line="1416" tag="G">sprinkle.&gt;3.EXAG.12NS</item>
+    <item id="c8" line="1417" tag="B"/>
+    <item id="c9" line="1418" tag="T">After [God] gave us this seed, we proceeded to sow it in the earth.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+    <item id="p1" content="c6[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:55]" alignment="p1"/>
+    <item id="g1" content="c7[0:21]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:67]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i151069">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1425-1428" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1425" tag="L+CR">                                                             yok.ti.be·./.n.æ</item>
+    <item id="o2" line="1426" tag="L+CR">  41      Mottimb.ætt.tu        ca·r ma·na siya</item>
+    <item id="o3" line="1427" tag="G">          Mottimba.POS.UPW caar maanaa husked_rice seek.apply.DAT.PF.1&gt;2.FCT</item>
+    <item id="o4" line="1428" tag="T">          I've looked for four maanaa of rice for you up at Mottimba's.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1425 1426" tag="L+CR">41      Mottimb.ætt.tu        ca·r ma·na siya           yok.ti.be·./.n.æ</item>
+    <item id="c3" line="1427" tag="G">Mottimba.POS.UPW caar maanaa husked_rice seek.apply.DAT.PF.1&gt;2.FCT</item>
+    <item id="c4" line="1428" tag="T">I've looked for four maanaa of rice for you up at Mottimba's.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151070">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1473-1476" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1473" tag="L+CR">                                               khæ·.N.æ,'</item>
+    <item id="o2" line="1474" tag="L+CR">  41.1   mo.ba khad.a.ro `sam.bet.tu                      lu·s.u.ro</item>
+    <item id="o3" line="1475" tag="G">         that.ELA go.PT.REP Tibet.LOC.UPW go.EXPS.FCT say.&gt;3.REP</item>
+    <item id="o4" line="1476" tag="T">         Then "I'm going up to Tibet" he said.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1473" tag="L+CR">khæ·.N.æ,</item>
+    <item id="c3" line="1475" tag="G">that.ELA go.PT.REP Tibet.LOC.UPW go.EXPS.FCT say.&gt;3.REP</item>
+    <item id="c4" line="1476" tag="T">Then "I'm going up to Tibet" he said.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151071">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1478-1481" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1478" tag="L+CR">         me/yoN</item>
+    <item id="o2" line="1479" tag="L+CR">  41.2                    sokkhuma cupt.a.j.u.ro</item>
+    <item id="o3" line="1480" tag="G">         further_levelly nettle       meet.PT.DU.REP</item>
+    <item id="o4" line="1481" tag="T">         Further along they met a nettle.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1478 1479" tag="L+CR">41.2   me/yoN           sokkhuma cupt.a.j.u.ro</item>
+    <item id="c3" line="1480" tag="G">further_levelly nettle       meet.PT.DU.REP</item>
+    <item id="c4" line="1481" tag="T">Further along they met a nettle.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151072">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1483-1486" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1483" tag="L+CR">                           khæ·.N.æ,'</item>
+    <item id="o2" line="1484" tag="L+CR">  41.3   `sam.bet.tu                  ka·s.a.ro</item>
+    <item id="o3" line="1485" tag="G">         Tibet.LOC.UPW go.EXPS.FCT cry.PT.REP</item>
+    <item id="o4" line="1486" tag="T">         "Going up to Tibet"he cried</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1483" tag="L+CR">khæ·.N.æ,</item>
+    <item id="c3" line="1485" tag="G">Tibet.LOC.UPW go.EXPS.FCT cry.PT.REP</item>
+    <item id="c4" line="1486" tag="T">Going up to Tibet"he cried</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151073">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1488-1491" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1488" tag="L+CR">         me/yoN</item>
+    <item id="o2" line="1489" tag="L+CR">  41.4                    thutta cupt.u.ro</item>
+    <item id="o3" line="1490" tag="G">         further_levelly trunk meet.&gt;3.REP</item>
+    <item id="o4" line="1491" tag="T">         Further along they met a log.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1488 1489" tag="L+CR">41.4   me/yoN           thutta cupt.u.ro</item>
+    <item id="c3" line="1490" tag="G">further_levelly trunk meet.&gt;3.REP</item>
+    <item id="c4" line="1491" tag="T">Further along they met a log.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151074">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1493-1496" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1493" tag="L+CR">                                   khæ.N.æ,'</item>
+    <item id="o2" line="1494" tag="L+CR">  41.5   `ka·go sam.bet.tu                   ka·s.a.ro</item>
+    <item id="o3" line="1495" tag="G">         I.TH Tibet.LOC.UPW go.EXPS.FCT cry.PT.REP</item>
+    <item id="o4" line="1496" tag="T">         "I'm going up to Tibet" he cried"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1493 1494" tag="L+CR">41.5   `ka·go sam.bet.tu        khæ.N.æ,'ka·s.a.ro</item>
+    <item id="c3" line="1495" tag="G">I.TH Tibet.LOC.UPW go.EXPS.FCT cry.PT.REP</item>
+    <item id="c4" line="1496" tag="T">I'm going up to Tibet" he cried</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151075">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1498-1501" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1498" tag="L+CR">         mettoN      wa/iN cupt.u.ji.ro</item>
+    <item id="o2" line="1499" tag="L+CR">  41.6</item>
+    <item id="o3" line="1500" tag="G">         further_up egg meet.&gt;3.3NS.REP</item>
+    <item id="o4" line="1501" tag="T">         Further up they met an egg.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1498 1499" tag="L+CR">41.6   mettoN      wa/iN cupt.u.ji.ro</item>
+    <item id="c3" line="1500" tag="G">further_up egg meet.&gt;3.3NS.REP</item>
+    <item id="c4" line="1501" tag="T">Further up they met an egg.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151076">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1523-1525" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1523" tag="L">  42      thutta.dhappa.jhai tagar.æt.tu         sit.ti.ghad.a.ro</item>
+    <item id="o2" line="1524" tag="G">          trunk.big.CTP        threshold.POS.UPW hang.up.go.PT.REP</item>
+    <item id="o3" line="1525" tag="T">          hung (itself) up on the threshold</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1523" tag="L">42      thutta.dhappa.jhai tagar.æt.tu         sit.ti.ghad.a.ro</item>
+    <item id="c2" line="1524" tag="G">trunk.big.CTP        threshold.POS.UPW hang.up.go.PT.REP</item>
+    <item id="c3" line="1525" tag="T">hung (itself) up on the threshold</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151077">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1551-1554" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1551" tag="L+CR">          ikko.jhai) kæ/.nuN      WaluN.he/ma khad.a</item>
+    <item id="o2" line="1552" tag="L+CR">  43.1</item>
+    <item id="o3" line="1553" tag="G">          one.CTP come_up.SOC WaluN.side go.PT</item>
+    <item id="o4" line="1554" tag="T">          One came up (from Bahrabise) and went toward WaluN.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1551 1552" tag="L+CR">43.1    ikko.jhai) kæ/.nuN      WaluN.he/ma khad.a</item>
+    <item id="c3" line="1553" tag="G">one.CTP come_up.SOC WaluN.side go.PT</item>
+    <item id="c4" line="1554" tag="T">One came up (from Bahrabise) and went toward WaluN.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151078">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1556-1559" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1556" tag="L+CR">                        paN.gad.a</item>
+    <item id="o2" line="1557" tag="L+CR">  43.2    ikko i.dok</item>
+    <item id="o3" line="1558" tag="G">          one this.like go_behind.come_up.PT</item>
+    <item id="o4" line="1559" tag="T">          One came up across the ridge here.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1556 1557" tag="L+CR">43.2    ikko i.dok    paN.gad.a</item>
+    <item id="c3" line="1558" tag="G">one this.like go_behind.come_up.PT</item>
+    <item id="c4" line="1559" tag="T">One came up across the ridge here.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151079">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1566-1569" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1566" tag="L+CR">         ikko.jhai) minmu.no/</item>
+    <item id="o2" line="1567" tag="L+CR">  43.3                               pey.yag.a</item>
+    <item id="o3" line="1568" tag="G">         one.CTP down_there.EXF sit.stay.PT</item>
+    <item id="o4" line="1569" tag="T">         One stayed behind down there.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1566 1567" tag="L+CR">43.3   ikko.jhai) minmu.no/        pey.yag.a</item>
+    <item id="c3" line="1568" tag="G">one.CTP down_there.EXF sit.stay.PT</item>
+    <item id="c4" line="1569" tag="T">One stayed behind down there.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151080">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1571-1574" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1571" tag="L+CR">                  ikko.jhai) MaNba-khim, ikko.jhai) MaNji-khim</item>
+    <item id="o2" line="1572" tag="L+CR">  43.4   mo.ba</item>
+    <item id="o3" line="1573" tag="G">         that.ELA one.CTP MaNba-khim, one.CTP MaNji-khim</item>
+    <item id="o4" line="1574" tag="T">         One was MaNba-khim (clan), one was MaNji-khim (clan).</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1571 1572" tag="L+CR">43.4   mo.ba    ikko.jhai) MaNba-khim, ikko.jhai) MaNji-khim</item>
+    <item id="c3" line="1573" tag="G">that.ELA one.CTP MaNba-khim, one.CTP MaNji-khim</item>
+    <item id="c4" line="1574" tag="T">One was MaNba-khim (clan), one was MaNji-khim (clan).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151081">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1576-1580" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1576" tag="L+CR">         mo.dok læ·/.nuN mo.ba          kani i.be/</item>
+    <item id="o2" line="1577" tag="L+CR">  43.5                                             pen.i</item>
+    <item id="o3" line="1578" tag="L+CR">                                           pi</item>
+    <item id="o4" line="1579" tag="G">         that.like do.SOC that.ELA we this.LOC sit.12PL</item>
+    <item id="o5" line="1580" tag="T">         After doing that, we stayed here.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1576" tag="L+CR">mo.dok læ·/.nuN mo.ba          kani i.be/</item>
+    <item id="c4" line="1579" tag="G">that.like do.SOC that.ELA we this.LOC sit.12PL</item>
+    <item id="c5" line="1580" tag="T">After doing that, we stayed here.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151082">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1582-1585" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1582" tag="L+CR">         WaluN.be/.mu.ha.ji           WaluN.be/.mu.no/</item>
+    <item id="o2" line="1583" tag="L+CR">  43.6</item>
+    <item id="o3" line="1584" tag="G">         WaluN.LOC.DWN.PLNR.NS WaluN.LOC.DWN.EXF</item>
+    <item id="o4" line="1585" tag="T">         Those of WaluN down below are down in WaluN.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1582 1583" tag="L+CR">43.6   WaluN.be/.mu.ha.ji           WaluN.be/.mu.no/</item>
+    <item id="c3" line="1584" tag="G">WaluN.LOC.DWN.PLNR.NS WaluN.LOC.DWN.EXF</item>
+    <item id="c4" line="1585" tag="T">Those of WaluN down below are down in WaluN.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151083">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1610-1613" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1610" tag="L+CR">                  ap.pes.a.j.iN</item>
+    <item id="o2" line="1611" tag="L+CR">  44.1   mo.ba</item>
+    <item id="o3" line="1612" tag="G">         that.ELA come.RES.PT.DU.EXPS</item>
+    <item id="o4" line="1613" tag="T">         Then we came this way.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1610 1611" tag="L+CR">44.1   mo.ba    ap.pes.a.j.iN</item>
+    <item id="c3" line="1612" tag="G">that.ELA come.RES.PT.DU.EXPS</item>
+    <item id="c4" line="1613" tag="T">Then we came this way.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151084">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1615-1622" line-types="L+CR L+CR G B L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1615" tag="L+CR">         ap.pe.nuN    mo pusæ·/.mi kha i·.sæ·/    i·.sæ·/</item>
+    <item id="o2" line="1616" tag="L+CR">  44.2</item>
+    <item id="o3" line="1617" tag="G">         come.RES.SOC that snake.GEN word say.SMG say.SMG</item>
+    <item id="o4" line="1618" tag="B"></item>
+    <item id="o5" line="1619" tag="L">         ab.a.j.iN</item>
+    <item id="o6" line="1620" tag="G">         come.PT.DU.EXPS</item>
+    <item id="o7" line="1621" tag="B"></item>
+    <item id="o8" line="1622" tag="T">         We came, talking all the while about the snake.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1615 1616" tag="L+CR">44.2   ap.pe.nuN    mo pusæ·/.mi kha i·.sæ·/    i·.sæ·/</item>
+    <item id="c3" line="1617" tag="G">come.RES.SOC that snake.GEN word say.SMG say.SMG</item>
+    <item id="c4" line="1618" tag="B"/>
+    <item id="c5" line="1619" tag="L">ab.a.j.iN</item>
+    <item id="c6" line="1620" tag="G">come.PT.DU.EXPS</item>
+    <item id="c7" line="1621" tag="B"/>
+    <item id="c8" line="1622" tag="T">We came, talking all the while about the snake.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+    <item id="p1" content="c5[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+    <item id="g1" content="c6[0:15]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:47]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i151085">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yamphu" iso-639-3="ybi" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2421" line-range="1624-1627" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1624" tag="L+CR">         ab.a.j.iN          Na·/hoNm.æ/.yu less.a.j.iN</item>
+    <item id="o2" line="1625" tag="L+CR">  44.3</item>
+    <item id="o3" line="1626" tag="G">         come.PT.DU.EXPS Na·/hoNma.POS.HRZ come.PT.DU.EXPS</item>
+    <item id="o4" line="1627" tag="T">         We came and arrived at Na·/hoNma.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1624 1625" tag="L+CR">44.3   ab.a.j.iN          Na·/hoNm.æ/.yu less.a.j.iN</item>
+    <item id="c3" line="1626" tag="G">come.PT.DU.EXPS Na·/hoNma.POS.HRZ come.PT.DU.EXPS</item>
+    <item id="c4" line="1627" tag="T">We came and arrived at Na·/hoNma.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

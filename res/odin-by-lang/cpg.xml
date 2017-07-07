@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i71608">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cappadocian" iso-639-3="cpg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="618-622" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="618" tag="L+CR">  (19)     a. na</item>
+    <item id="o2" line="619" tag="L+CR">               ´        se pitakso</item>
+    <item id="o3" line="620" tag="L+CR">                              ´</item>
+    <item id="o4" line="621" tag="G">              MoodPart you I-send</item>
+    <item id="o5" line="622" tag="T">              `I want to send you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="618 620" tag="L+CR">na              ´</item>
+    <item id="c4" line="621" tag="G">MoodPart you I-send</item>
+    <item id="c5" line="622" tag="T">I want to send you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71609">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cappadocian" iso-639-3="cpg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="623-627" line-types="L+CR L+CR L+CR G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="623" tag="L+CR">          b. na</item>
+    <item id="o2" line="624" tag="L+CR">              ´         se ta doso</item>
+    <item id="o3" line="625" tag="L+CR">                               ´</item>
+    <item id="o4" line="626" tag="G">              MoodPart you him I-give</item>
+    <item id="o5" line="627" tag="T+EX">              `I'll give him to you' (ibid.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="623 625" tag="L+CR">na                ´</item>
+    <item id="c4" line="626" tag="G">MoodPart you him I-give</item>
+    <item id="c5" line="627" tag="T+EX">I'll give him to you' (ibid.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71610">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cappadocian" iso-639-3="cpg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="628-631" line-types="L+CR L+CR G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="628" tag="L+CR">                        galepso</item>
+    <item id="o2" line="629" tag="L+CR">           c. na           j´</item>
+    <item id="o3" line="630" tag="G">              MoodPart I-ride</item>
+    <item id="o4" line="631" tag="T+EX">              `for me to ride' (ibid.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="628" tag="L+CR">galepso</item>
+    <item id="c3" line="630" tag="G">MoodPart I-ride</item>
+    <item id="c4" line="631" tag="T+EX">for me to ride' (ibid.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i71620">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cappadocian" iso-639-3="cpg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2932" line-range="809-813" line-types="L+CR L+CR L+CR G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="809" tag="L+CR">          Ipen di  ino</item>
+    <item id="o2" line="810" tag="L+CR">          ´                                   ´</item>
+    <item id="o3" line="811" tag="L+CR">  (29)            je j´          o fugaras ki ¨                  ...</item>
+    <item id="o4" line="812" tag="G">          said di and that(DEM) the poor man that(COMP) . . .</item>
+    <item id="o5" line="813" tag="T+EX">          `and that poor man said that . . . ' (with direct discourse)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="809" tag="L+CR">Ipen di  ino</item>
+    <item id="c4" line="812" tag="G">said di and that(DEM) the poor man that(COMP) . . .</item>
+    <item id="c5" line="813" tag="T+EX">and that poor man said that . . . ' (with direct discourse)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

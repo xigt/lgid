@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i4834">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hoan" iso-639-3="ktz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3322" line-range="25-29" line-types="M+LN+EX L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="25" tag="M+LN+EX">  2        Basic }Hoan and Afrikaans data</item>
+    <item id="o2" line="26" tag="L+CR">                        [q{hu |'o]</item>
+    <item id="o3" line="27" tag="L+CR">  (1)       Ma a -                     d jo    ki    kx'u na</item>
+    <item id="o4" line="28" tag="G">            1sg prog pour put.in water part pot in</item>
+    <item id="o5" line="29" tag="T+AC">            'I am pouring water into the pot'[}Hoan](Collins, 2002, 1)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="25" tag="M+LN+EX">2        Basic }Hoan and Afrikaans data</item>
+    <item id="c2" line="26 27" tag="L+CR">Ma a-[q{hu |'o]     d jo    ki    kx'u na</item>
+    <item id="c4" line="28" tag="G">1sg prog pour put.in water part pot in</item>
+    <item id="c5" line="29" tag="T+AC">I am pouring water into the pot'[}Hoan](Collins, 2002, 1)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73307">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ju/'hoan" iso-639-3="ktz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="801-804" line-types="L+DB+CR L+DB+CR G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="801" tag="L+DB+CR">                                                     b. jù=à</item>
+    <item id="o2" line="802" tag="L+DB+CR">  (60) a. tjù          zé                                                  g|aoh</item>
+    <item id="o3" line="803" tag="G+DB">              house new                                    person=REL strong</item>
+    <item id="o4" line="804" tag="T+DB">              `a new house'                                `a strong person'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="801 802" tag="L+DB+CR">tjù          zé                          b. jù=à               g|aoh</item>
+    <item id="c3" line="803" tag="G+DB">house new                                    person=REL strong</item>
+    <item id="c4" line="804" tag="T+DB">a new house'                                `a strong person</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73308">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ju/'hoan" iso-639-3="ktz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="805-807" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="805" tag="L">         c. jù=à                [kú       dcàá mí tcísì]</item>
+    <item id="o2" line="806" tag="G">              person=REL [IMPERF steal 1SG thing]</item>
+    <item id="o3" line="807" tag="T">              `the person who is stealing my things'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="805" tag="L">jù=à                [kú       dcàá mí tcísì]</item>
+    <item id="c2" line="806" tag="G">person=REL [IMPERF steal 1SG thing]</item>
+    <item id="c3" line="807" tag="T">the person who is stealing my things</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

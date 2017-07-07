@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i106189">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hiri motu" iso-639-3="hmo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1538" line-range="4110-4114" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4110" tag="L">     (100) a. sisia idia diho</item>
+    <item id="o2" line="4111" tag="B"></item>
+    <item id="o3" line="4112" tag="G">                dog 3PL go down</item>
+    <item id="o4" line="4113" tag="B"></item>
+    <item id="o5" line="4114" tag="T+AC">             `The dogs went down.' (Dutton &amp; Voorhoeve, 1974: 15)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4110" tag="L">sisia idia diho</item>
+    <item id="c2" line="4111" tag="B"/>
+    <item id="c3" line="4112" tag="G">dog 3PL go down</item>
+    <item id="c4" line="4113" tag="B"/>
+    <item id="c5" line="4114" tag="T+AC">The dogs went down.' (Dutton &amp; Voorhoeve, 1974: 15)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106190">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hiri motu" iso-639-3="hmo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1538" line-range="4116-4119" line-types="L B G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4116" tag="L">             b. kekeni ia    tai</item>
+    <item id="o2" line="4117" tag="B"></item>
+    <item id="o3" line="4118" tag="G">                girl   3SG cry</item>
+    <item id="o4" line="4119" tag="T+AC">             `The girl cried.' (Dutton &amp; Voorhoeve, 1974: 27)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4116" tag="L">kekeni ia    tai</item>
+    <item id="c2" line="4117" tag="B"/>
+    <item id="c3" line="4118" tag="G">girl   3SG cry</item>
+    <item id="c4" line="4119" tag="T+AC">The girl cried.' (Dutton &amp; Voorhoeve, 1974: 27)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i106196">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hiri motu" iso-639-3="hmo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1538" line-range="4248-4261" line-types="M+LN L B G B L B G B T B T+AC B C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4248" tag="M+LN">     (105) Hiri Motu</item>
+    <item id="o2" line="4249" tag="L">          sisia idia diho -        idia        daekau tano dekenai, ma inai tauna diba</item>
+    <item id="o3" line="4250" tag="B"></item>
+    <item id="o4" line="4251" tag="G">          dog RP:3PL go down RP:3PL go up              land POSTP and this man arrow</item>
+    <item id="o5" line="4252" tag="B"></item>
+    <item id="o6" line="4253" tag="L">          peva ia       abia vadan        ia        lao dala dekena</item>
+    <item id="o7" line="4254" tag="B"></item>
+    <item id="o8" line="4255" tag="G">          bow RP:3SG take all right RP:3SG go road POSTP</item>
+    <item id="o9" line="4256" tag="B"></item>
+    <item id="o10" line="4257" tag="T">             `The dogs went down and up the land, and the man took his arrows and</item>
+    <item id="o11" line="4258" tag="B"></item>
+    <item id="o12" line="4259" tag="T+AC">              bow and also went his way along the track.' (Dutton &amp; Voorhoeve,</item>
+    <item id="o13" line="4260" tag="B"></item>
+    <item id="o14" line="4261" tag="C">              1974: 15)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4248" tag="M+LN">Hiri Motu</item>
+    <item id="c2" line="4249" tag="L">sisia idia diho-idia        daekau tano dekenai, ma inai tauna diba</item>
+    <item id="c3" line="4250" tag="B"/>
+    <item id="c4" line="4251" tag="G">dog RP:3PL go down RP:3PL go up              land POSTP and this man arrow</item>
+    <item id="c5" line="4252" tag="B"/>
+    <item id="c6" line="4253" tag="L">peva ia       abia vadan        ia        lao dala dekena</item>
+    <item id="c7" line="4254" tag="B"/>
+    <item id="c8" line="4255" tag="G">bow RP:3SG take all right RP:3SG go road POSTP</item>
+    <item id="c9" line="4256" tag="B"/>
+    <item id="c10" line="4257" tag="T">The dogs went down and up the land, and the man took his arrows and</item>
+    <item id="c11" line="4258" tag="B"/>
+    <item id="c12" line="4259" tag="T+AC">bow and also went his way along the track.' (Dutton &amp; Voorhoeve,</item>
+    <item id="c13" line="4260" tag="B"/>
+    <item id="c14" line="4261" tag="C">15)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:67]"/>
+    <item id="p1" content="c6[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:74]" alignment="p1"/>
+    <item id="g1" content="c8[0:46]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:67]" alignment="p2"/>
+    <item id="t1" content="c12[0:64]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

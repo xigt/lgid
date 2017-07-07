@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i116592">
+  <metadata type="xigt-meta">
+    <meta type="language" name="jeli" iso-639-3="jek" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3648" line-range="345-350" line-types="M+LN+EX L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="345" tag="M+LN+EX">  (21) Jeli (Tröbs 1998: 109)                                                                    (only R flagged; T &amp; P zero)</item>
+    <item id="o2" line="346" tag="L+CR">                           sO</item>
+    <item id="o3" line="347" tag="L+CR">                kumarO                               na       munu.</item>
+    <item id="o4" line="348" tag="L+CR">       Yi</item>
+    <item id="o5" line="349" tag="G">      water          cold                give        me        to</item>
+    <item id="o6" line="350" tag="T">      'Give the cold water to me!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="345" tag="M+LN+EX">Jeli (Tröbs 1998: 109)                                                                    (only R flagged; T &amp; P zero</item>
+    <item id="c2" line="346 347 348" tag="L+CR">Yi       kumarO     sO                        na       munu.</item>
+    <item id="c5" line="349" tag="G">water          cold                give        me        to</item>
+    <item id="c6" line="350" tag="T">Give the cold water to me!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

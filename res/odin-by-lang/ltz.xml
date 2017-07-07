@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i29701">
+  <metadata type="xigt-meta">
+    <meta type="language" name="luxembourgeois" iso-639-3="ltz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="259-263" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="259" tag="L">  (7)       a. Si    kommen fir eis        rosen ze maen,net             fir         eis ze hëllefen.</item>
+    <item id="o2" line="260" tag="B"></item>
+    <item id="o3" line="261" tag="G">               they come        for us     angry to make              not      for     us to help</item>
+    <item id="o4" line="262" tag="B"></item>
+    <item id="o5" line="263" tag="T+AC">               `They come to make us angry, not to help us.'                   Christophory (1974:93)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="259" tag="L">Si    kommen fir eis        rosen ze maen,net             fir         eis ze hëllefen.</item>
+    <item id="c2" line="260" tag="B"/>
+    <item id="c3" line="261" tag="G">they come        for us     angry to make              not      for     us to help</item>
+    <item id="c4" line="262" tag="B"/>
+    <item id="c5" line="263" tag="T+AC">They come to make us angry, not to help us.'                   Christophory (1974:93)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:86]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:82]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:85]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29702">
+  <metadata type="xigt-meta">
+    <meta type="language" name="luxembourgeois" iso-639-3="ltz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="267-271" line-types="L B G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="267" tag="L">            b. Fir ze stierwe brauch een         nët   vill,          awer fir         ze liewen.</item>
+    <item id="o2" line="268" tag="B"></item>
+    <item id="o3" line="269" tag="G">               for   to die      need      one not     much           but      for     to live</item>
+    <item id="o4" line="270" tag="M">                                                                                                           9</item>
+    <item id="o5" line="271" tag="T">               `One doesn't need much to die, but to live one does.'                                LW I</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="267" tag="L">Fir ze stierwe brauch een         nët   vill,          awer fir         ze liewen.</item>
+    <item id="c2" line="268" tag="B"/>
+    <item id="c3" line="269" tag="G">for   to die      need      one not     much           but      for     to live</item>
+    <item id="c4" line="270" tag="M">9</item>
+    <item id="c5" line="271" tag="T">One doesn't need much to die, but to live one does.'                                LW I</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:79]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:88]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29711">
+  <metadata type="xigt-meta">
+    <meta type="language" name="luxembourgeois" iso-639-3="ltz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="793-797" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="793" tag="L">  (20)     a. Ech si       frou       fir         ze raschten.                             L</item>
+    <item id="o2" line="794" tag="B"></item>
+    <item id="o3" line="795" tag="G">              I      am    happy      for         to rest</item>
+    <item id="o4" line="796" tag="B"></item>
+    <item id="o5" line="797" tag="T">              `I am happy to take a rest.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="793" tag="L">Ech si       frou       fir         ze raschten.                             L</item>
+    <item id="c2" line="794" tag="B"/>
+    <item id="c3" line="795" tag="G">I      am    happy      for         to rest</item>
+    <item id="c4" line="796" tag="B"/>
+    <item id="c5" line="797" tag="T">I am happy to take a rest.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29712">
+  <metadata type="xigt-meta">
+    <meta type="language" name="luxembourgeois" iso-639-3="ltz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="801-805" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="801" tag="L">           b. Gëf mer eppes                 fir      z 'iessen!</item>
+    <item id="o2" line="802" tag="B"></item>
+    <item id="o3" line="803" tag="G">              give me      something for             to-eat</item>
+    <item id="o4" line="804" tag="B"></item>
+    <item id="o5" line="805" tag="T">              `Give me something to eat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="801" tag="L">Gëf mer eppes                 fir      z 'iessen!</item>
+    <item id="c2" line="802" tag="B"/>
+    <item id="c3" line="803" tag="G">give me      something for             to-eat</item>
+    <item id="c4" line="804" tag="B"/>
+    <item id="c5" line="805" tag="T">Give me something to eat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29713">
+  <metadata type="xigt-meta">
+    <meta type="language" name="luxembourgeois" iso-639-3="ltz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="809-813" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="809" tag="L">           c. En     huet probéiert         fir      op de Bam ze klammen.</item>
+    <item id="o2" line="810" tag="B"></item>
+    <item id="o3" line="811" tag="G">              he     has   tried            for      on the tree to climb</item>
+    <item id="o4" line="812" tag="B"></item>
+    <item id="o5" line="813" tag="T">              `He tried to climb the tree.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="809" tag="L">En     huet probéiert         fir      op de Bam ze klammen.</item>
+    <item id="c2" line="810" tag="B"/>
+    <item id="c3" line="811" tag="G">he     has   tried            for      on the tree to climb</item>
+    <item id="c4" line="812" tag="B"/>
+    <item id="c5" line="813" tag="T">He tried to climb the tree.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29714">
+  <metadata type="xigt-meta">
+    <meta type="language" name="luxembourgeois" iso-639-3="ltz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="820-828" line-types="L B G B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="820" tag="L">           d. Hie versteet            et fir         engem            de    Mond      wässereg</item>
+    <item id="o2" line="821" tag="B"></item>
+    <item id="o3" line="822" tag="G">              he    understands       it for         somone.dat       the   mouth watery</item>
+    <item id="o4" line="823" tag="B"></item>
+    <item id="o5" line="824" tag="L">              ze maachen.</item>
+    <item id="o6" line="825" tag="B"></item>
+    <item id="o7" line="826" tag="G">              to make</item>
+    <item id="o8" line="827" tag="B"></item>
+    <item id="o9" line="828" tag="T">              `He knows how to make your mouth water.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="820" tag="L">Hie versteet            et fir         engem            de    Mond      wässereg</item>
+    <item id="c2" line="821" tag="B"/>
+    <item id="c3" line="822" tag="G">he    understands       it for         somone.dat       the   mouth watery</item>
+    <item id="c4" line="823" tag="B"/>
+    <item id="c5" line="824" tag="L">ze maachen.</item>
+    <item id="c6" line="825" tag="B"/>
+    <item id="c7" line="826" tag="G">to make</item>
+    <item id="c8" line="827" tag="B"/>
+    <item id="c9" line="828" tag="T">He knows how to make your mouth water.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+    <item id="p1" content="c5[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:74]" alignment="p1"/>
+    <item id="g1" content="c7[0:7]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:38]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i29715">
+  <metadata type="xigt-meta">
+    <meta type="language" name="luxembourgeois" iso-639-3="ltz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="832-836" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="832" tag="L">           e. En    huet mech gefrot           fir      em   eng Hand unzeleën.</item>
+    <item id="o2" line="833" tag="B"></item>
+    <item id="o3" line="834" tag="G">              he    has   me     asked         for      him a         hand put (up)</item>
+    <item id="o4" line="835" tag="B"></item>
+    <item id="o5" line="836" tag="T+AC">              `He asked me to lend him a hand.'                                       (Bruch 1973:103)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="832" tag="L">En    huet mech gefrot           fir      em   eng Hand unzeleën.</item>
+    <item id="c2" line="833" tag="B"/>
+    <item id="c3" line="834" tag="G">he    has   me     asked         for      him a         hand put (up)</item>
+    <item id="c4" line="835" tag="B"/>
+    <item id="c5" line="836" tag="T+AC">He asked me to lend him a hand.'                                       (Bruch 1973:103)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:87]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29716">
+  <metadata type="xigt-meta">
+    <meta type="language" name="luxembourgeois" iso-639-3="ltz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="840-854" line-types="L B G B L B G B L B G B T M T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="840" tag="L">           f. Et schéngt alles           drop ze weisen, wéi wann             si</item>
+    <item id="o2" line="841" tag="B"></item>
+    <item id="o3" line="842" tag="G">              it seemed everything on it to indicate as if                    they</item>
+    <item id="o4" line="843" tag="B"></item>
+    <item id="o5" line="844" tag="L">              an deem rouegen, déiwe           Gallesche bësch</item>
+    <item id="o6" line="845" tag="B"></item>
+    <item id="o7" line="846" tag="G">              in the    quiet    deep          Gallic        forest</item>
+    <item id="o8" line="847" tag="B"></item>
+    <item id="o9" line="848" tag="L">              prett wire fir     un      den dësch ze goën.</item>
+    <item id="o10" line="849" tag="B"></item>
+    <item id="o11" line="850" tag="G">              readywere for      at      the table        to go</item>
+    <item id="o12" line="851" tag="B"></item>
+    <item id="o13" line="852" tag="T">              `Everything seemed to indicate that in the deep quiet Gallic forest they were</item>
+    <item id="o14" line="853" tag="M">                                                                                                    25</item>
+    <item id="o15" line="854" tag="T+AC">              ready to sit down for their dinner.'                     (Goscinny &amp; Uderzo 1990:1)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="840" tag="L">Et schéngt alles           drop ze weisen, wéi wann             si</item>
+    <item id="c2" line="841" tag="B"/>
+    <item id="c3" line="842" tag="G">it seemed everything on it to indicate as if                    they</item>
+    <item id="c4" line="843" tag="B"/>
+    <item id="c5" line="844" tag="L">an deem rouegen, déiwe           Gallesche bësch</item>
+    <item id="c6" line="845" tag="B"/>
+    <item id="c7" line="846" tag="G">in the    quiet    deep          Gallic        forest</item>
+    <item id="c8" line="847" tag="B"/>
+    <item id="c9" line="848" tag="L">prett wire fir     un      den dësch ze goën.</item>
+    <item id="c10" line="849" tag="B"/>
+    <item id="c11" line="850" tag="G">readywere for      at      the table        to go</item>
+    <item id="c12" line="851" tag="B"/>
+    <item id="c13" line="852" tag="T">Everything seemed to indicate that in the deep quiet Gallic forest they were</item>
+    <item id="c14" line="853" tag="M">25</item>
+    <item id="c15" line="854" tag="T+AC">ready to sit down for their dinner.'                     (Goscinny &amp; Uderzo 1990:1)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+    <item id="p1" content="c5[0:48]"/>
+    <item id="p2" content="c9[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:68]" alignment="p1"/>
+    <item id="g1" content="c7[0:53]" alignment="p2"/>
+    <item id="g2" content="c11[0:49]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:76]" alignment="p3"/>
+    <item id="t1" content="c15[0:83]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i29717">
+  <metadata type="xigt-meta">
+    <meta type="language" name="luxembourgeois" iso-639-3="ltz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="874-878" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="874" tag="L">  (21)         `t as nët    gutt fir     eppes           te soën.                        L</item>
+    <item id="o2" line="875" tag="B"></item>
+    <item id="o3" line="876" tag="G">               it is not    good for     something to say</item>
+    <item id="o4" line="877" tag="B"></item>
+    <item id="o5" line="878" tag="T+AC">               `It is not good to say something.'                   (adapted from Bruch 1973:104)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="874" tag="L">`t as nët    gutt fir     eppes           te soën.                        L</item>
+    <item id="c2" line="875" tag="B"/>
+    <item id="c3" line="876" tag="G">it is not    good for     something to say</item>
+    <item id="c4" line="877" tag="B"/>
+    <item id="c5" line="878" tag="T+AC">It is not good to say something.'                   (adapted from Bruch 1973:104)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:81]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29718">
+  <metadata type="xigt-meta">
+    <meta type="language" name="luxembourgeois" iso-639-3="ltz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="890-892" line-types="L B G+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="890" tag="L">  (22)      a. `t as nët    gutt eppes           te soën.                                          L</item>
+    <item id="o2" line="891" tag="B"></item>
+    <item id="o3" line="892" tag="G+AC">               it is not    good something to say                   (adapted from Bruch 1973:104)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="890" tag="L">`t as nët    gutt eppes           te soën.                                          L</item>
+    <item id="c2" line="891" tag="B"/>
+    <item id="c3" line="892" tag="G+AC">it is not    good something to say                   (adapted from Bruch 1973:104)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:82]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29719">
+  <metadata type="xigt-meta">
+    <meta type="language" name="luxembourgeois" iso-639-3="ltz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="896-898" line-types="L B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="896" tag="L">            b. `t as nët    gutt eppes           soën.                                             L</item>
+    <item id="o2" line="897" tag="B"></item>
+    <item id="o3" line="898" tag="G">               it is not    good something say                                  (Bruch 1973:104)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="896" tag="L">`t as nët    gutt eppes           soën.                                             L</item>
+    <item id="c2" line="897" tag="B"/>
+    <item id="c3" line="898" tag="G">it is not    good something say                                  (Bruch 1973:104)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:81]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29720">
+  <metadata type="xigt-meta">
+    <meta type="language" name="luxembourgeois" iso-639-3="ltz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="908-912" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="908" tag="L">  (23)         Gëf mer eppes             z 'iessen.                                                L</item>
+    <item id="o2" line="909" tag="B"></item>
+    <item id="o3" line="910" tag="G">               give me      something to.eat</item>
+    <item id="o4" line="911" tag="B"></item>
+    <item id="o5" line="912" tag="T+AC">               `Give me something to eat.'                                      (Bruch 1973:104)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="908" tag="L">Gëf mer eppes             z 'iessen.                                                L</item>
+    <item id="c2" line="909" tag="B"/>
+    <item id="c3" line="910" tag="G">give me      something to.eat</item>
+    <item id="c4" line="911" tag="B"/>
+    <item id="c5" line="912" tag="T+AC">Give me something to eat.'                                      (Bruch 1973:104)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:80]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87130">
+  <metadata type="xigt-meta">
+    <meta type="language" name="luxemburgish" iso-639-3="ltz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3277" line-range="843-849" line-types="L+CR L+CR M+LN G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="843" tag="L+CR">                                                        zech       noch èèn den aner</item>
+    <item id="o2" line="844" tag="L+CR">            c.         ze               schlowe                                                          dowt</item>
+    <item id="o3" line="845" tag="M+LN">                                                                                                        (Arlon, Luxemburgish)</item>
+    <item id="o4" line="846" tag="G+CR">                       they-NOM beat-PL                            yet        one the other              dead</item>
+    <item id="o5" line="847" tag="G+CR">                                                        REFL</item>
+    <item id="o6" line="848" tag="B"></item>
+    <item id="o7" line="849" tag="T">                       `They will beat each other to death.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="843 844" tag="L+CR">ze               schlowe         zech       noch èèn den aner                   dowt</item>
+    <item id="c3" line="845" tag="M+LN">Arlon, Luxemburgish</item>
+    <item id="c4" line="846 847" tag="G+CR">they-NOM beat-PL                 REFL       yet        one the other              dead</item>
+    <item id="c6" line="848" tag="B"/>
+    <item id="c7" line="849" tag="T">They will beat each other to death.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:86]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95181">
+  <metadata type="xigt-meta">
+    <meta type="language" name="luxemburgish" iso-639-3="ltz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2831" line-range="1476-1483" line-types="L+LN G B B B M B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1476" tag="L+LN">  (85)   ... mat wiem (datt) s     de spazéiere ganng bas.                    [Luxemburgish]</item>
+    <item id="o2" line="1477" tag="G">              with who that 2sg you walk          gone are.2sg</item>
+    <item id="o3" line="1478" tag="B"></item>
+    <item id="o4" line="1479" tag="B"></item>
+    <item id="o5" line="1480" tag="B"></item>
+    <item id="o6" line="1481" tag="M">                                               80</item>
+    <item id="o7" line="1482" tag="B"></item>
+    <item id="o8" line="1483" tag="T">         `... with whom you went for a walk.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1476" tag="L+LN">mat wiem (datt) s     de spazéiere ganng bas.                    [Luxemburgish]</item>
+    <item id="c2" line="1477" tag="G">with who that 2sg you walk          gone are.2sg</item>
+    <item id="c3" line="1478" tag="B"/>
+    <item id="c4" line="1479" tag="B"/>
+    <item id="c5" line="1480" tag="B"/>
+    <item id="c6" line="1481" tag="M">80</item>
+    <item id="c7" line="1482" tag="B"/>
+    <item id="c8" line="1483" tag="T">with whom you went for a walk.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

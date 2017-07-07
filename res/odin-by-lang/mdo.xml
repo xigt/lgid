@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i95307">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mbódomo" iso-639-3="mdo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2807" line-range="120-124" line-types="M+LN L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="120" tag="M+LN">  (10)   Mbód m (Ubangi,             Niger-Congo)</item>
+    <item id="o2" line="121" tag="L+CR">                                                          sE@k</item>
+    <item id="o3" line="122" tag="L+CR">    a.   à    kpàá ndé                kpòó     n-à</item>
+    <item id="o4" line="123" tag="G">         3S find COMP                 meat remain-PST little</item>
+    <item id="o5" line="124" tag="T+AC">         He found that little        meat remained (Boyd 1997: 138)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="120" tag="M+LN">Mbód m (Ubangi,             Niger-Congo</item>
+    <item id="c2" line="121 122" tag="L+CR">à    kpàá ndé                kpòó     n-à sE@k</item>
+    <item id="c4" line="123" tag="G">3S find COMP                 meat remain-PST little</item>
+    <item id="c5" line="124" tag="T+AC">He found that little        meat remained (Boyd 1997: 138)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95308">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mbódomo" iso-639-3="mdo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2807" line-range="130-133" line-types="L+LN+CR L+LN+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="130" tag="L+LN+CR">         g @k      ndé       òlò       lák     vòló              ...</item>
+    <item id="o2" line="131" tag="L+LN+CR">   b.</item>
+    <item id="o3" line="132" tag="G">         serpent COMP LOG:D leave LOG:D:REFL</item>
+    <item id="o4" line="133" tag="T+AC">         The serpent (said) that they, themselves, leave (now) ... (Boyd 1997: 140)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="130 131" tag="L+LN+CR">g @k      ndé       òlò       lák     vòló              ...</item>
+    <item id="c3" line="132" tag="G">serpent COMP LOG:D leave LOG:D:REFL</item>
+    <item id="c4" line="133" tag="T+AC">The serpent (said) that they, themselves, leave (now) ... (Boyd 1997: 140)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

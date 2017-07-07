@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i68844">
+  <metadata type="xigt-meta">
+    <meta type="language" name="canela" iso-639-3="ram" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3086" line-range="569-573" line-types="M+LN L+AC+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="569" tag="M+LN">  (57)    Canela, Ge-Pano-Carib</item>
+    <item id="o2" line="570" tag="L+AC+CR">                                               tm                            (Popjes &amp; Popjes 1986:150)</item>
+    <item id="o3" line="571" tag="L+CR">      .   capi    me      kryt    ma            e</item>
+    <item id="o4" line="572" tag="G">          Capi    and     Kryt    away         go</item>
+    <item id="o5" line="573" tag="T">          `Capi and Kryt go away.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="569" tag="M+LN">Canela, Ge-Pano-Carib</item>
+    <item id="c2" line="570" tag="L+AC+CR">tm                            (Popjes &amp; Popjes 1986:150)</item>
+    <item id="c4" line="572" tag="G">Capi    and     Kryt    away         go</item>
+    <item id="c5" line="573" tag="T">Capi and Kryt go away.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113517">
+  <metadata type="xigt-meta">
+    <meta type="language" name="canela" iso-639-3="ram" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="1710-1714" line-types="L+DB+CR L+DB+CR G+DB M+CN+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1710" tag="L+DB+CR">  (106) a. wa ha                 pÌµx?juhk?</item>
+    <item id="o2" line="1711" tag="L+DB+CR">                                          ?           b. rop ita</item>
+    <item id="o3" line="1712" tag="G+DB">                 1SG FUT fruit buy                            dog this</item>
+    <item id="o4" line="1713" tag="M+CN+DB">                  S               O      V                     N Dem</item>
+    <item id="o5" line="1714" tag="T+DB">                 `I will buy fruit'                    `this dog'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1710" tag="L+DB+CR">wa ha                 pÌµx?juhk?</item>
+    <item id="c3" line="1712" tag="G+DB">1SG FUT fruit buy                            dog this</item>
+    <item id="c4" line="1713" tag="M+CN+DB">S               O      V                     N Dem</item>
+    <item id="c5" line="1714" tag="T+DB">I will buy fruit'                    `this dog</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i760">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fulfulde" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2990" line-range="367-374" line-types="L+DB M+DB G+DB L+DB M+DB G+DB M+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="367" tag="L+DB">            c. Baaba nyaami, haari,                loot i       juude</item>
+    <item id="o2" line="368" tag="M+DB">                                                                                        cream.'                                (Bernt Brendemoen, p.c.)</item>
+    <item id="o3" line="369" tag="G+DB">                father eat.SP become.full.SG.SP wash.SG.SP hands</item>
+    <item id="o4" line="370" tag="L+DB">                muudum, wi'i.. .</item>
+    <item id="o5" line="371" tag="M+DB">                                                                                Japanese, too, was shown in Chapter 2 to have conjunction-less coordina-</item>
+    <item id="o6" line="372" tag="G+DB">                his,      say.sp</item>
+    <item id="o7" line="373" tag="M+DB">                                                                                ton of clauses. However, for clausal coordination wit h non-conjunctive</item>
+    <item id="o8" line="374" tag="T+DB">               'The father ate, became full , washed his hands, and said .</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="367" tag="L+DB">Baaba nyaami, haari,                loot i       juude</item>
+    <item id="c2" line="368" tag="M+DB">cream.'                                (Bernt Brendemoen, p.c.)</item>
+    <item id="c3" line="369" tag="G+DB">father eat.SP become.full.SG.SP wash.SG.SP hands</item>
+    <item id="c4" line="370" tag="L+DB">muudum, wi'i.. .</item>
+    <item id="c5" line="371" tag="M+DB">Japanese, too, was shown in Chapter 2 to have conjunction-less coordina-</item>
+    <item id="c6" line="372" tag="G+DB">his,      say.sp</item>
+    <item id="c7" line="373" tag="M+DB">ton of clauses. However, for clausal coordination wit h non-conjunctive</item>
+    <item id="c8" line="374" tag="T+DB">The father ate, became full , washed his hands, and said .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+    <item id="p1" content="c4[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+    <item id="g1" content="c6[0:16]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:58]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i802">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fulfulde" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2990" line-range="1976-1980" line-types="L+CR M G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1976" tag="L+CR">    (59) Janngo   [m i yahay,      m i foonda            ki , m i ndaara...]</item>
+    <item id="o2" line="1977" tag="M">                                                                                   the phonological, features of the preceding phrase, occurs only on the</item>
+    <item id="o3" line="1978" tag="G">          Tomorrow I go.SG.HAB I investigate.SG.SI it I see.SI</item>
+    <item id="o4" line="1979" tag="M">                                                                                   first conjunct, the specifier: the subsequent conjuncts are al l treated like</item>
+    <item id="o5" line="1980" tag="T">         'Tomorrow I shall go and investigate it and see . . .'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1976" tag="L+CR">Janngo   [m i yahay,      m i foonda            ki , m i ndaara...]</item>
+    <item id="c2" line="1977" tag="M">the phonological, features of the preceding phrase, occurs only on the</item>
+    <item id="c3" line="1978" tag="G">Tomorrow I go.SG.HAB I investigate.SG.SI it I see.SI</item>
+    <item id="c4" line="1979" tag="M">first conjunct, the specifier: the subsequent conjuncts are al l treated like</item>
+    <item id="c5" line="1980" tag="T">Tomorrow I shall go and investigate it and see . . .</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i864">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fulfulde" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2990" line-range="4398-4400" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4398" tag="L+DB">     (50) Janngo   mi yahay,      mi foonda             ki , mi ndaara...                                     6.4. Summary</item>
+    <item id="o2" line="4399" tag="G+DB">          Tomorrow I go.SG.HAB I investigate.SG.SI it I see.SI</item>
+    <item id="o3" line="4400" tag="T+DB">         'Tomorrow I shall go and investigate it and see ... '                   To sum up, I have shown that there are two kinds of constructions that</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4398" tag="L+DB">Janngo   mi yahay,      mi foonda             ki , mi ndaara...                                     6.4. Summary</item>
+    <item id="c2" line="4399" tag="G+DB">Tomorrow I go.SG.HAB I investigate.SG.SI it I see.SI</item>
+    <item id="c3" line="4400" tag="T+DB">Tomorrow I shall go and investigate it and see ... '                   To sum up, I have shown that there are two kinds of constructions that</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:112]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:141]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i12110">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2499" line-range="8030-8031" line-types="L-T G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8030" tag="L-T">  (10)    a.   mi-loot-ii                 `I washed (General Past)'</item>
+    <item id="o2" line="8031" tag="G">               S1s-wash-GPast</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8030" tag="L-T">a.   mi-loot-ii                 `I washed (General Past</item>
+    <item id="c2" line="8031" tag="G">S1s-wash-GPast</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]"/>
+  </tier>
+</igt>
+<igt id="i12111">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2499" line-range="8032-8033" line-types="L-T G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8032" tag="L-T">          b.   loot-u-mi                  `I washed (Relative Past)'</item>
+    <item id="o2" line="8033" tag="G">               wash-RPast-S1s</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8032" tag="L-T">loot-u-mi                  `I washed (Relative Past)</item>
+    <item id="c2" line="8033" tag="G">wash-RPast-S1s</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]"/>
+  </tier>
+</igt>
+<igt id="i12203">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2499" line-range="12224-12225" line-types="L-T G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12224" tag="L-T">  (128)    a.   'o-warii-no                   `he had come'</item>
+    <item id="o2" line="12225" tag="G">                S3s-come:TNS-PRET</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12224" tag="L-T">'o-warii-no                   `he had come</item>
+    <item id="c2" line="12225" tag="G">S3s-come:TNS-PRET</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]"/>
+  </tier>
+</igt>
+<igt id="i12204">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2499" line-range="12226-12227" line-types="L-T+EX G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12226" tag="L-T+EX">           b.   'o on-no-wara                 `he was coming' (p. 141)</item>
+    <item id="o2" line="12227" tag="G">                S3s-PRET-come:TNS</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12226" tag="L-T+EX">'o on-no-wara                 `he was coming' (p. 141)</item>
+    <item id="c2" line="12227" tag="G">S3s-PRET-come:TNS</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]"/>
+  </tier>
+</igt>
+<igt id="i12205">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2499" line-range="12263-12265" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12263" tag="L">  (130)   taw-no- aa-mo</item>
+    <item id="o2" line="12264" tag="G">          find:RPast:ACT-PRET-you-him</item>
+    <item id="o3" line="12265" tag="T+EX">          `you had found him' (p. 218)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12263" tag="L">taw-no-aa-mo</item>
+    <item id="c2" line="12264" tag="G">find:RPast:ACT-PRET-you-him</item>
+    <item id="c3" line="12265" tag="T+EX">you had found him' (p. 218)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i12206">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2499" line-range="12282-12288" line-types="L B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12282" tag="L">  (131)   a.   mball-u-(noo)-mi- e</item>
+    <item id="o2" line="12283" tag="B"></item>
+    <item id="o3" line="12284" tag="B"></item>
+    <item id="o4" line="12285" tag="B"></item>
+    <item id="o5" line="12286" tag="B"></item>
+    <item id="o6" line="12287" tag="G">               help-REL:PAST:ACT-(PRET-)-I-them</item>
+    <item id="o7" line="12288" tag="T">               `I had helped them'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12282" tag="L">mball-u-(noo)-mi-e</item>
+    <item id="c2" line="12283" tag="B"/>
+    <item id="c3" line="12284" tag="B"/>
+    <item id="c4" line="12285" tag="B"/>
+    <item id="c5" line="12286" tag="B"/>
+    <item id="c6" line="12287" tag="G">help-REL:PAST:ACT-(PRET-)-I-them</item>
+    <item id="c7" line="12288" tag="T">I had helped them</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i12207">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2499" line-range="12289-12291" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12289" tag="L">          b.   mball-u-(no)-moo-mi</item>
+    <item id="o2" line="12290" tag="G">               help-REL:PAST:ACT-(PRET-)-him-I</item>
+    <item id="o3" line="12291" tag="T+AC">               `I had helped him' (Stump:165)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12289" tag="L">mball-u-(no)-moo-mi</item>
+    <item id="c2" line="12290" tag="G">help-REL:PAST:ACT-(PRET-)-him-I</item>
+    <item id="c3" line="12291" tag="T+AC">I had helped him' (Stump:165)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i34685">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3705" line-range="980-983" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="980" tag="M+AC+LN">    (42) Fula (Sylla (1979, p. 238-4))</item>
+    <item id="o2" line="981" tag="L">        a. Takko def-an-ii     sukaab'e b'e gertogal.</item>
+    <item id="o3" line="982" tag="G">            Takko cook-Ben-Tns children Det chicken</item>
+    <item id="o4" line="983" tag="T">            'Takko cooked a chicken for the children.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="980" tag="M+AC+LN">Fula (Sylla (1979, p. 238-4)</item>
+    <item id="c2" line="981" tag="L">Takko def-an-ii     sukaab'e b'e gertogal.</item>
+    <item id="c3" line="982" tag="G">Takko cook-Ben-Tns children Det chicken</item>
+    <item id="c4" line="983" tag="T">Takko cooked a chicken for the children.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i34686">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3705" line-range="985-987" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="985" tag="L">        b.   Sukaab'e b'e ndef-an-aama         gertogal.</item>
+    <item id="o2" line="986" tag="G">             children Det cook-Ben-Tns/Passive chicken</item>
+    <item id="o3" line="987" tag="T">             'The children had a chicken cooked for them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="985" tag="L">Sukaab'e b'e ndef-an-aama         gertogal.</item>
+    <item id="c2" line="986" tag="G">children Det cook-Ben-Tns/Passive chicken</item>
+    <item id="c3" line="987" tag="T">The children had a chicken cooked for them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i34687">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3705" line-range="989-991" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="989" tag="L">        c. *Gertogal def-an-aama          sukaab'e b'e.</item>
+    <item id="o2" line="990" tag="G">            chicken cook-Ben-Tns/Passive children Det</item>
+    <item id="o3" line="991" tag="T">            'The chicken was cooked for the children.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="989" tag="L">*Gertogal def-an-aama          sukaab'e b'e.</item>
+    <item id="c2" line="990" tag="G">chicken cook-Ben-Tns/Passive children Det</item>
+    <item id="c3" line="991" tag="T">The chicken was cooked for the children.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i34697">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3705" line-range="1051-1054" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1051" tag="M+AC+LN">    (46) Fula (Sylla (1979, p. 286-287))</item>
+    <item id="o2" line="1052" tag="L">        a. Aali tay'-r-ii     lekki jammbere.</item>
+    <item id="o3" line="1053" tag="G">            Aali cut-Inst-Tns tree axe</item>
+    <item id="o4" line="1054" tag="T">            'Aali cut a tree with an axe.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1051" tag="M+AC+LN">Fula (Sylla (1979, p. 286-287)</item>
+    <item id="c2" line="1052" tag="L">Aali tay'-r-ii     lekki jammbere.</item>
+    <item id="c3" line="1053" tag="G">Aali cut-Inst-Tns tree axe</item>
+    <item id="c4" line="1054" tag="T">Aali cut a tree with an axe.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i34698">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3705" line-range="1065-1068" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1065" tag="M+AC+LN">    (i) Fula (Sylla (1979, p. 289))</item>
+    <item id="o2" line="1066" tag="L">         a. Mi am-r-ii        pade.</item>
+    <item id="o3" line="1067" tag="G">            I dance-Inst-Tns shoes</item>
+    <item id="o4" line="1068" tag="T">            'I danced with shoes.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1065" tag="M+AC+LN">Fula (Sylla (1979, p. 289)</item>
+    <item id="c2" line="1066" tag="L">Mi am-r-ii        pade.</item>
+    <item id="c3" line="1067" tag="G">I dance-Inst-Tns shoes</item>
+    <item id="c4" line="1068" tag="T">I danced with shoes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i34699">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3705" line-range="1070-1072" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1070" tag="L">            b. Pad'e ngam-r-aama.</item>
+    <item id="o2" line="1071" tag="G">               shoes dance-Inst-Tns/Passive</item>
+    <item id="o3" line="1072" tag="T">               'Shoes were danced with.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1070" tag="L">Pad'e ngam-r-aama.</item>
+    <item id="c2" line="1071" tag="G">shoes dance-Inst-Tns/Passive</item>
+    <item id="c3" line="1072" tag="T">Shoes were danced with.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i34700">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3705" line-range="1080-1082" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1080" tag="L">        b.   Lekki tay'-r-aama          jammbere.</item>
+    <item id="o2" line="1081" tag="G">             tree cut-Inst-Tns/Passive axe</item>
+    <item id="o3" line="1082" tag="T">             'A tree was cut by using an axe.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1080" tag="L">Lekki tay'-r-aama          jammbere.</item>
+    <item id="c2" line="1081" tag="G">tree cut-Inst-Tns/Passive axe</item>
+    <item id="c3" line="1082" tag="T">A tree was cut by using an axe.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i34701">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3705" line-range="1084-1086" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1084" tag="L">        c. *Jammbere tay'-r-aama          lekki.</item>
+    <item id="o2" line="1085" tag="G">            axe      cut-Inst-Tns/Passive tree</item>
+    <item id="o3" line="1086" tag="T">            'A tree was cut by using an axe.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1084" tag="L">*Jammbere tay'-r-aama          lekki.</item>
+    <item id="c2" line="1085" tag="G">axe      cut-Inst-Tns/Passive tree</item>
+    <item id="c3" line="1086" tag="T">A tree was cut by using an axe.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i34705">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3705" line-range="1144-1147" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1144" tag="M+AC+LN">    (48) Fula (Sylla (1979, p. 286))</item>
+    <item id="o2" line="1145" tag="L">        a. Aali tay'-r-ii     lekki jammbere.</item>
+    <item id="o3" line="1146" tag="G">            Aali cut-Inst-Tns tree axe</item>
+    <item id="o4" line="1147" tag="T">            'Aali cut a tree with an axe.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1144" tag="M+AC+LN">Fula (Sylla (1979, p. 286)</item>
+    <item id="c2" line="1145" tag="L">Aali tay'-r-ii     lekki jammbere.</item>
+    <item id="c3" line="1146" tag="G">Aali cut-Inst-Tns tree axe</item>
+    <item id="c4" line="1147" tag="T">Aali cut a tree with an axe.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i34706">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3705" line-range="1149-1151" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1149" tag="L">        b. *Aali tay'-r-ii    jammbere lekki .</item>
+    <item id="o2" line="1150" tag="G">            Aali cut-Inst-Tns axe      tree</item>
+    <item id="o3" line="1151" tag="T">            'Aali cut a tree with an axe.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1149" tag="L">*Aali tay'-r-ii    jammbere lekki .</item>
+    <item id="c2" line="1150" tag="G">Aali cut-Inst-Tns axe      tree</item>
+    <item id="c3" line="1151" tag="T">Aali cut a tree with an axe.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82566">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="143-147" line-types="M+LN B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="143" tag="M+LN">  (1)     Fula</item>
+    <item id="o2" line="144" tag="B"></item>
+    <item id="o3" line="145" tag="L">        a. debbo     wari</item>
+    <item id="o4" line="146" tag="G">          woman      came</item>
+    <item id="o5" line="147" tag="T">          `The woman came'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="143" tag="M+LN">Fula</item>
+    <item id="c2" line="144" tag="B"/>
+    <item id="c3" line="145" tag="L">debbo     wari</item>
+    <item id="c4" line="146" tag="G">woman      came</item>
+    <item id="c5" line="147" tag="T">The woman came</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82567">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="149-151" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="149" tag="L">        b. rewe      Ngari</item>
+    <item id="o2" line="150" tag="G">          women      came</item>
+    <item id="o3" line="151" tag="T">          `The women came'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="149" tag="L">rewe      Ngari</item>
+    <item id="c2" line="150" tag="G">women      came</item>
+    <item id="c3" line="151" tag="T">The women came</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82568">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="153-155" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="153" tag="L">        c. o-wari</item>
+    <item id="o2" line="154" tag="G">          SM3S   -came</item>
+    <item id="o3" line="155" tag="T">          `(S)he came'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="153" tag="L">o-wari</item>
+    <item id="c2" line="154" tag="G">SM3S-came</item>
+    <item id="c3" line="155" tag="T">he came</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:9]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82569">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="168-171" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="168" tag="L">    d. e-Ngari</item>
+    <item id="o2" line="169" tag="G+CR">             3P-came</item>
+    <item id="o3" line="170" tag="G+CR">        SM</item>
+    <item id="o4" line="171" tag="T">        `They came'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="168" tag="L">e-Ngari</item>
+    <item id="c2" line="169 170" tag="G+CR">SM   3P-came</item>
+    <item id="c4" line="171" tag="T">They came</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82571">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="187-189" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="187" tag="L">        b. O-dafi/</item>
+    <item id="o2" line="188" tag="G">             SM3S   -sleep</item>
+    <item id="o3" line="189" tag="T">             `He is sleeping'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="187" tag="L">O-dafi/</item>
+    <item id="c2" line="188" tag="G">SM3S-sleep</item>
+    <item id="c3" line="189" tag="T">He is sleeping</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82572">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3639" line-range="191-194" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="191" tag="L">        c. kuaku/        di/E/   O-dafi/</item>
+    <item id="o2" line="192" tag="G+CR">             Kuaku               SM3S   -sleep</item>
+    <item id="o3" line="193" tag="G+CR">                         TOP</item>
+    <item id="o4" line="194" tag="T">             `As for Kuaku, he is sleeping'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="191" tag="L">kuaku/        di/E/   O-dafi/</item>
+    <item id="c2" line="192 193" tag="G+CR">Kuaku       TOP     SM3S-sleep</item>
+    <item id="c4" line="194" tag="T">As for Kuaku, he is sleeping</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93070">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1361" line-range="843-845" line-types="L M+LN G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="843" tag="L">                                Yolnde ma -ake.</item>
+    <item id="o2" line="844" tag="M+LN">        c. Fula</item>
+    <item id="o3" line="845" tag="G">                                door close-MID.COMPL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="843" tag="L">Yolnde ma-ake.</item>
+    <item id="c2" line="844" tag="M+LN">Fula</item>
+    <item id="c3" line="845" tag="G">door close-MID.COMPL</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93075">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1361" line-range="873-875" line-types="L+LN+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="873" tag="L+LN+CN">        d. modal reading:                     Fula           Nde-loot-oto.</item>
+    <item id="o2" line="874" tag="G">                                                             SBJ.CL9-wash-MID.INCOMPL</item>
+    <item id="o3" line="875" tag="T">                                                             `It is washable'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="873" tag="L+LN+CN">                    Fula           Nde-loot-oto.</item>
+    <item id="c2" line="874" tag="G">SBJ.CL9-wash-MID.INCOMPL</item>
+    <item id="c3" line="875" tag="T">It is washable</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[20:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140698">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1040" line-range="458-461" line-types="L+CR L+CR G T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="458" tag="L+CR">                  mball-u-on-mo</item>
+    <item id="o2" line="459" tag="L+CR">  (14)    a.</item>
+    <item id="o3" line="460" tag="G">                  help-PAST-2PL-3SG</item>
+    <item id="o4" line="461" tag="T+SY">                  `you(pl) helped him'                    V-SM-OM</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="458 459" tag="L+CR">mball-u-on-mo</item>
+    <item id="c3" line="460" tag="G">help-PAST-2PL-3SG</item>
+    <item id="c4" line="461" tag="T+SY">you(pl) helped him'                    V-SM-OM</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140699">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1040" line-range="463-466" line-types="L+CR L+CR G T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="463" tag="L+CR">                  mball-u-mi-e</item>
+    <item id="o2" line="464" tag="L+CR">          b.</item>
+    <item id="o3" line="465" tag="G">                  help-PAST-1SG-3   PL</item>
+    <item id="o4" line="466" tag="T+SY">                  `I helped them'                         V-SM-OM</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="463 464" tag="L+CR">mball-u-mi-e</item>
+    <item id="c3" line="465" tag="G">help-PAST-1SG-3   PL</item>
+    <item id="c4" line="466" tag="T+SY">I helped them'                         V-SM-OM</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i140700">
+  <metadata type="xigt-meta">
+    <meta type="language" name="fula" iso-639-3="fuv:fub:fuq:fuh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1040" line-range="468-471" line-types="L+CR L+CR G T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="468" tag="L+CR">                  mball-u-moo-mi</item>
+    <item id="o2" line="469" tag="L+CR">          c.</item>
+    <item id="o3" line="470" tag="G">                  help-PAST-3SG-1   SG</item>
+    <item id="o4" line="471" tag="T+SY">                  `I helped him'                          V-OM-SM</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="468 469" tag="L+CR">mball-u-moo-mi</item>
+    <item id="c3" line="470" tag="G">help-PAST-3SG-1   SG</item>
+    <item id="c4" line="471" tag="T+SY">I helped him'                          V-OM-SM</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

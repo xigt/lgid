@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i24003">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gujarati" iso-639-3="guj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1260" line-range="135-141" line-types="L+LN G B B M B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="135" tag="L+LN">  [Gujarati] a. te-thii huM anumaan karuM chuM         [ke maarii buddhi mand hashe]</item>
+    <item id="o2" line="136" tag="G">               this-from I. inference do-1s be-pres-1s that my intellect sluggish be-fut-3s</item>
+    <item id="o3" line="137" tag="B"></item>
+    <item id="o4" line="138" tag="B"></item>
+    <item id="o5" line="139" tag="M">                                                    3</item>
+    <item id="o6" line="140" tag="B"></item>
+    <item id="o7" line="141" tag="T+AC">  From this I make the inference that my intellect must have been sluggish'. (Masica 2000: 136</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="135" tag="L+LN">[Gujarati] a. te-thii huM anumaan karuM chuM         [ke maarii buddhi mand hashe]</item>
+    <item id="c2" line="136" tag="G">this-from I. inference do-1s be-pres-1s that my intellect sluggish be-fut-3s</item>
+    <item id="c3" line="137" tag="B"/>
+    <item id="c4" line="138" tag="B"/>
+    <item id="c5" line="139" tag="M">3</item>
+    <item id="c6" line="140" tag="B"/>
+    <item id="c7" line="141" tag="T+AC">From this I make the inference that my intellect must have been sluggish'. (Masica 2000: 136</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:92]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i24004">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gujarati" iso-639-3="guj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1260" line-range="143-146" line-types="L G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="143" tag="L">  [Gujarati] b. . ma-ne [[te-nii    aadhyaatmiktaa ochii thaatii hoy] em] naathi laagtuM</item>
+    <item id="o2" line="144" tag="G">               I-dat    this-from spiritual value   less be-cont-3s-such not strike-pres-3s</item>
+    <item id="o3" line="145" tag="B"></item>
+    <item id="o4" line="146" tag="T+AC">                'It did not seem to me [that their spiritual value was diminished' (Masica 2000:137)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="143" tag="L">[Gujarati] b. . ma-ne [[te-nii    aadhyaatmiktaa ochii thaatii hoy] em] naathi laagtuM</item>
+    <item id="c2" line="144" tag="G">I-dat    this-from spiritual value   less be-cont-3s-such not strike-pres-3s</item>
+    <item id="c3" line="145" tag="B"/>
+    <item id="c4" line="146" tag="T+AC">It did not seem to me [that their spiritual value was diminished' (Masica 2000:137)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:86]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:83]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i24005">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gujarati" iso-639-3="guj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1260" line-range="148-151" line-types="L G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="148" tag="L">  [Gujarati] c [[maarii buddhi mand         hashe] evuM] te-thii huM anamaan karuM chuM</item>
+    <item id="o2" line="149" tag="G">               my      intellect sluggish be-fut-3s such-n this-from 1s inference do-1s be-pres-1s</item>
+    <item id="o3" line="150" tag="B"></item>
+    <item id="o4" line="151" tag="T+AC">  From this I make the inference that my intellect must have been sluggish'. (Masica 2000: 142)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="148" tag="L">[Gujarati] c [[maarii buddhi mand         hashe] evuM] te-thii huM anamaan karuM chuM</item>
+    <item id="c2" line="149" tag="G">my      intellect sluggish be-fut-3s such-n this-from 1s inference do-1s be-pres-1s</item>
+    <item id="c3" line="150" tag="B"/>
+    <item id="c4" line="151" tag="T+AC">From this I make the inference that my intellect must have been sluggish'. (Masica 2000: 142)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:83]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:93]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i24018">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gujarati" iso-639-3="guj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1260" line-range="294-297" line-types="L+LN G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="294" tag="L+LN">  14) [Gujarati] raaj kaale     aawshe ne/ke/kharo?</item>
+    <item id="o2" line="295" tag="G">                 Raj tomorrow come-fut. not/Q/correct</item>
+    <item id="o3" line="296" tag="B"></item>
+    <item id="o4" line="297" tag="T+AC">                  `Will Raj come tomorrow?' (P.J. Mistry p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="294" tag="L+LN">[Gujarati] raaj kaale     aawshe ne/ke/kharo?</item>
+    <item id="c2" line="295" tag="G">Raj tomorrow come-fut. not/Q/correct</item>
+    <item id="c3" line="296" tag="B"/>
+    <item id="c4" line="297" tag="T+AC">Will Raj come tomorrow?' (P.J. Mistry p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i24027">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gujarati" iso-639-3="guj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1260" line-range="365-368" line-types="L+LN G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="365" tag="L+LN">  20) [Gujarati] . ramaa [raaj kaale aawshe ne/ke/kharo     ] em puche che</item>
+    <item id="o2" line="366" tag="G">                  Ram Raj tomorrow come-fut. not/Q/correct such ask be-pres</item>
+    <item id="o3" line="367" tag="B"></item>
+    <item id="o4" line="368" tag="T+AC">                `Ram is inquiring [whether Raj will come tomorrow] (P.J. Mistry p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="365" tag="L+LN">[Gujarati] . ramaa [raaj kaale aawshe ne/ke/kharo     ] em puche che</item>
+    <item id="c2" line="366" tag="G">Ram Raj tomorrow come-fut. not/Q/correct such ask be-pres</item>
+    <item id="c3" line="367" tag="B"/>
+    <item id="c4" line="368" tag="T+AC">Ram is inquiring [whether Raj will come tomorrow] (P.J. Mistry p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i39076">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gujarati" iso-639-3="guj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1181" line-range="122-126" line-types="M+LN B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="122" tag="M+LN">    · Gujarati (Indo-Iranian, India):</item>
+    <item id="o2" line="123" tag="B"></item>
+    <item id="o3" line="124" tag="L">       (7)   a. Ramesh       pen     kh@rid-t-o      h@-t-o</item>
+    <item id="o4" line="125" tag="G">                Ramesh.masc pen.fem buy-impf-masc aux-impf-masc</item>
+    <item id="o5" line="126" tag="T">                `Ramesh was buying the pen.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="122" tag="M+LN">· Gujarati (Indo-Iranian, India):</item>
+    <item id="c2" line="123" tag="B"/>
+    <item id="c3" line="124" tag="L">Ramesh       pen     kh@rid-t-o      h@-t-o</item>
+    <item id="c4" line="125" tag="G">Ramesh.masc pen.fem buy-impf-masc aux-impf-masc</item>
+    <item id="c5" line="126" tag="T">Ramesh was buying the pen.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i39077">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gujarati" iso-639-3="guj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1181" line-range="127-129" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="127" tag="L">             b. Ramesh-e          pen     kh@rid-y-i</item>
+    <item id="o2" line="128" tag="G">                Ramesch.masc-erg pen.fem buy-perf-fem</item>
+    <item id="o3" line="129" tag="T">                `Ramesh bought a pen.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="127" tag="L">Ramesh-e          pen     kh@rid-y-i</item>
+    <item id="c2" line="128" tag="G">Ramesch.masc-erg pen.fem buy-perf-fem</item>
+    <item id="c3" line="129" tag="T">Ramesh bought a pen.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101193">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gujerati" iso-639-3="guj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1346" line-range="8087-8089" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8087" tag="L+LN">  (151)    a. Ram-ne tav che                          Gujerati</item>
+    <item id="o2" line="8088" tag="G">              Ram-dat fever be.pres</item>
+    <item id="o3" line="8089" tag="T">              `Ram has a fever'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8087" tag="L+LN">Ram-ne tav che                          Gujerati</item>
+    <item id="c2" line="8088" tag="G">Ram-dat fever be.pres</item>
+    <item id="c3" line="8089" tag="T">Ram has a fever</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i101194">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gujerati" iso-639-3="guj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1346" line-range="8090-8095" line-types="L+CR L+CR L+CR G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8090" tag="L+CR">           b. mahne m¯ ¯ bh¯ e</item>
+    <item id="o2" line="8091" tag="L+CR">                        ara ain        thod¯ pays¯ ¯ v¯ a</item>
+    <item id="o3" line="8092" tag="L+CR">                                            a     a ap an¯        che</item>
+    <item id="o4" line="8093" tag="G">              I.dat my brother.dat a-little money give.gerund.dat be.pres</item>
+    <item id="o5" line="8094" tag="T">              `I have to give some money to my brother'</item>
+    <item id="o6" line="8095" tag="M+AC">          (Bhatt 1998: 22­23)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8090 8092" tag="L+CR">mahne m¯ ¯ bh¯ e           a     a ap an¯        che</item>
+    <item id="c4" line="8093" tag="G">I.dat my brother.dat a-little money give.gerund.dat be.pres</item>
+    <item id="c5" line="8094" tag="T">I have to give some money to my brother</item>
+    <item id="c6" line="8095" tag="M+AC">22­23</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i102436">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gujarati" iso-639-3="guj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1310" line-range="1339-1341" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1339" tag="L">  (45) raju         e    svati    ne  joyi.</item>
+    <item id="o2" line="1340" tag="G">       Raju(M.SG) ERG Svati(F.SG) ACC saw.F.SG</item>
+    <item id="o3" line="1341" tag="T">       `Raju saw Svati.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1339" tag="L">raju         e    svati    ne  joyi.</item>
+    <item id="c2" line="1340" tag="G">Raju(M.SG) ERG Svati(F.SG) ACC saw.F.SG</item>
+    <item id="c3" line="1341" tag="T">Raju saw Svati.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118105">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gujarati" iso-639-3="guj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="3366-3369" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3366" tag="M+AC+LN">  Gujarati (examples courtesy of Babu Suthar)</item>
+    <item id="o2" line="3367" tag="L">  (5a) sikshak-e      vidaarthi-ne pustak                mokl-y-un</item>
+    <item id="o3" line="3368" tag="G">       teacher-ERG student-DAT book.NEUTR.SG             send-PASTPERF-NEUTR.SG</item>
+    <item id="o4" line="3369" tag="T">       `The teacher sent a/the book to the student'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3366" tag="M+AC+LN">Gujarati (examples courtesy of Babu Suthar)</item>
+    <item id="c2" line="3367" tag="L">sikshak-e      vidaarthi-ne pustak                mokl-y-un</item>
+    <item id="c3" line="3368" tag="G">teacher-ERG student-DAT book.NEUTR.SG             send-PASTPERF-NEUTR.SG</item>
+    <item id="c4" line="3369" tag="T">The teacher sent a/the book to the student</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118106">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gujarati" iso-639-3="guj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="3370-3372" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3370" tag="L">  (5b) sikshak-e      delhi     pustak              mokl-y-un</item>
+    <item id="o2" line="3371" tag="G">       teacher-ERG Delhi        book.NEUTR.SG       send-PASTPERF-NEUTR.SG</item>
+    <item id="o3" line="3372" tag="T">       `The teacher sent a/the book to Delhi'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3370" tag="L">sikshak-e      delhi     pustak              mokl-y-un</item>
+    <item id="c2" line="3371" tag="G">teacher-ERG Delhi        book.NEUTR.SG       send-PASTPERF-NEUTR.SG</item>
+    <item id="c3" line="3372" tag="T">The teacher sent a/the book to Delhi</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136734">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gujarati" iso-639-3="guj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="972-978" line-types="M+LN B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="972" tag="M+LN">          (14)     Gujarati</item>
+    <item id="o2" line="973" tag="B"></item>
+    <item id="o3" line="974" tag="L">                   a. Ramesh pen kherid-t-o                 he-t-o</item>
+    <item id="o4" line="975" tag="B"></item>
+    <item id="o5" line="976" tag="G">                       Ramesh pen buy-IMP-MASC          AUX-IMP-MASC</item>
+    <item id="o6" line="977" tag="B"></item>
+    <item id="o7" line="978" tag="T">                       Ramesh was buying the pen</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="972" tag="M+LN">Gujarati</item>
+    <item id="c2" line="973" tag="B"/>
+    <item id="c3" line="974" tag="L">Ramesh pen kherid-t-o                 he-t-o</item>
+    <item id="c4" line="975" tag="B"/>
+    <item id="c5" line="976" tag="G">Ramesh pen buy-IMP-MASC          AUX-IMP-MASC</item>
+    <item id="c6" line="977" tag="B"/>
+    <item id="c7" line="978" tag="T">Ramesh was buying the pen</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136735">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gujarati" iso-639-3="guj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="980-986" line-types="L B G B T B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="980" tag="L">                   b. Ramesh-e        pen kherid-y-I</item>
+    <item id="o2" line="981" tag="B"></item>
+    <item id="o3" line="982" tag="G">                       Ramesh-ERG pen buy-PERF-FEM</item>
+    <item id="o4" line="983" tag="B"></item>
+    <item id="o5" line="984" tag="T">                       Ramesh bought the pen</item>
+    <item id="o6" line="985" tag="B"></item>
+    <item id="o7" line="986" tag="M+AC">                            /Delancey 1981, p.628/</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="980" tag="L">Ramesh-e        pen kherid-y-I</item>
+    <item id="c2" line="981" tag="B"/>
+    <item id="c3" line="982" tag="G">Ramesh-ERG pen buy-PERF-FEM</item>
+    <item id="c4" line="983" tag="B"/>
+    <item id="c5" line="984" tag="T">Ramesh bought the pen</item>
+    <item id="c6" line="985" tag="B"/>
+    <item id="c7" line="986" tag="M+AC">/Delancey 1981, p.628/</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

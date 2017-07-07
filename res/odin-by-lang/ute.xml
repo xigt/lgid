@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i28187">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="867" line-range="2749-2755" line-types="M+AC B L+LN+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2749" tag="M+AC">  (A)       (Givón 1982: 12)</item>
+    <item id="o2" line="2750" tag="B"></item>
+    <item id="o3" line="2751" tag="L+LN+CR">                       '                                                           [UTE]</item>
+    <item id="o4" line="2752" tag="B"></item>
+    <item id="o5" line="2753" tag="G">            goat-obj the.obj kill-pass-ant</item>
+    <item id="o6" line="2754" tag="B"></item>
+    <item id="o7" line="2755" tag="T">            `The goat was killed.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2749" tag="M+AC">(Givón 1982: 12</item>
+    <item id="c2" line="2750" tag="B"/>
+    <item id="c3" line="2751" tag="L+LN+CR">[UTE]</item>
+    <item id="c4" line="2752" tag="B"/>
+    <item id="c5" line="2753" tag="G">goat-obj the.obj kill-pass-ant</item>
+    <item id="c6" line="2754" tag="B"/>
+    <item id="c7" line="2755" tag="T">The goat was killed.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49097">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7313-7316" line-types="M+AC+LN C T L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7313" tag="M+AC+LN">  (146) Ute (Uto-Aztecan, Northern, Numic) (Givón and Southern Ute Tribe</item>
+    <item id="o2" line="7314" tag="C">        1980: 40)</item>
+    <item id="o3" line="7315" tag="T">  a.     `stand'</item>
+    <item id="o4" line="7316" tag="L-G">         wun(u)y         stand.SG</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7313" tag="M+AC+LN">Ute (Uto-Aztecan, Northern, Numic) (Givón and Southern Ute Tribe</item>
+    <item id="c2" line="7314" tag="C">40)</item>
+    <item id="c3" line="7315" tag="T">`stand</item>
+    <item id="c4" line="7316" tag="L-G">wun(u)y         stand.SG</item>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:6]"/>
+  </tier>
+</igt>
+<igt id="i49098">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7317-7317" line-types="L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7317" tag="L-G">         yuwiy           stand.PL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7317" tag="L-G">yuwiy           stand.PL</item>
+  </tier>
+</igt>
+<igt id="i49099">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7319-7320" line-types="T L-G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7319" tag="T">  b.      `kill'</item>
+    <item id="o2" line="7320" tag="L-G+CR">          paqai              kill.SG.OB   J</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7319" tag="T">`kill</item>
+    <item id="c2" line="7320" tag="L-G+CR">paqai              kill.SG.OB   J</item>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c1[0:5]"/>
+  </tier>
+</igt>
+<igt id="i49100">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7321-7321" line-types="L-G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7321" tag="L-G+CR">          qoaj               kill.PL.OB   J</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7321" tag="L-G+CR">qoaj               kill.PL.OB   J</item>
+  </tier>
+</igt>
+<igt id="i49109">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7764-7768" line-types="M+AC+LN C L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7764" tag="M+AC+LN">  (152) Ute (Uto-Aztecan, Northern, Numic) (Givón and Southern Ute Tribe</item>
+    <item id="o2" line="7765" tag="C">        1980: 41)</item>
+    <item id="o3" line="7766" tag="L">  a.     mama-ci               ka:-y</item>
+    <item id="o4" line="7767" tag="G">         woman-NOM:SUFF        sing-IMM</item>
+    <item id="o5" line="7768" tag="T">        `The woman is singing'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7764" tag="M+AC+LN">Ute (Uto-Aztecan, Northern, Numic) (Givón and Southern Ute Tribe</item>
+    <item id="c2" line="7765" tag="C">41)</item>
+    <item id="c3" line="7766" tag="L">mama-ci               ka:-y</item>
+    <item id="c4" line="7767" tag="G">woman-NOM:SUFF        sing-IMM</item>
+    <item id="c5" line="7768" tag="T">The woman is singing</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49110">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7770-7772" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7770" tag="L">  b.      ma:ma-ci-u                          ka:-qa-y</item>
+    <item id="o2" line="7771" tag="G+CR">          RDP-woman-NOM:SUFF-PL               sing-PL-IM   M</item>
+    <item id="o3" line="7772" tag="T">         `The women are singing'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7770" tag="L">ma:ma-ci-u                          ka:-qa-y</item>
+    <item id="c2" line="7771" tag="G+CR">RDP-woman-NOM:SUFF-PL               sing-PL-IM   M</item>
+    <item id="c3" line="7772" tag="T">The women are singing</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49111">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7778-7781" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7778" tag="M+AC+LN">  (153) Ute (Givón and Southern Ute Tribe 1980: 42)</item>
+    <item id="o2" line="7779" tag="L">  a.     tawa-ci            u      pui-puga</item>
+    <item id="o3" line="7780" tag="G">         man-NOM-SUFF       he     sleep.SG-REM</item>
+    <item id="o4" line="7781" tag="T">        `The man slept'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7778" tag="M+AC+LN">Ute (Givón and Southern Ute Tribe 1980: 42</item>
+    <item id="c2" line="7779" tag="L">tawa-ci            u      pui-puga</item>
+    <item id="c3" line="7780" tag="G">man-NOM-SUFF       he     sleep.SG-REM</item>
+    <item id="c4" line="7781" tag="T">The man slept</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49112">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7782-7784" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7782" tag="L">  b.      ta:tawa-ci-u                       umu         kway-puga</item>
+    <item id="o2" line="7783" tag="G">          RDP-man-NOM:SUFF-PL                they        sleep.PL-REM</item>
+    <item id="o3" line="7784" tag="T">         `The men slept'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7782" tag="L">ta:tawa-ci-u                       umu         kway-puga</item>
+    <item id="c2" line="7783" tag="G">RDP-man-NOM:SUFF-PL                they        sleep.PL-REM</item>
+    <item id="c3" line="7784" tag="T">The men slept</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49113">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7786-7789" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7786" tag="M+AC+LN">  (154) Ute (Givón and Southern Ute Tribe 1980: 122)</item>
+    <item id="o2" line="7787" tag="L">  a.     siva:tu-ci      uru        paa-gu:-pu</item>
+    <item id="o3" line="7788" tag="G">         goat-NOM        be         kill.SG-MOD-NOM</item>
+    <item id="o4" line="7789" tag="T">        `I wish s/he would kill the goat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7786" tag="M+AC+LN">Ute (Givón and Southern Ute Tribe 1980: 122</item>
+    <item id="c2" line="7787" tag="L">siva:tu-ci      uru        paa-gu:-pu</item>
+    <item id="c3" line="7788" tag="G">goat-NOM        be         kill.SG-MOD-NOM</item>
+    <item id="c4" line="7789" tag="T">I wish s/he would kill the goat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49114">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="7801-7803" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7801" tag="L">  b.       siva:tu-ci     uru         paa-qa-gu-pu</item>
+    <item id="o2" line="7802" tag="G">           goat-NOM       be          kill.sg-PL-MOD-NOM</item>
+    <item id="o3" line="7803" tag="T">          `I wish they would kill the goat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7801" tag="L">siva:tu-ci     uru         paa-qa-gu-pu</item>
+    <item id="c2" line="7802" tag="G">goat-NOM       be          kill.sg-PL-MOD-NOM</item>
+    <item id="c3" line="7803" tag="T">I wish they would kill the goat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49915">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1798" line-range="177-180" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="177" tag="M+LN">   (15) from Ute (Uto-Aztecan)</item>
+    <item id="o2" line="178" tag="L">         a. uwa-y-ax</item>
+    <item id="o3" line="179" tag="G">            rain-IMM-it</item>
+    <item id="o4" line="180" tag="T">            "It's raining"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="177" tag="M+LN">from Ute (Uto-Aztecan</item>
+    <item id="c2" line="178" tag="L">uwa-y-ax</item>
+    <item id="c3" line="179" tag="G">rain-IMM-it</item>
+    <item id="c4" line="180" tag="T">It's raining</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49916">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1798" line-range="181-183" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="181" tag="L">         b. nua-y-ax</item>
+    <item id="o2" line="182" tag="G">            wind-IMM-it</item>
+    <item id="o3" line="183" tag="T">            "It's windy"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="181" tag="L">nua-y-ax</item>
+    <item id="c2" line="182" tag="G">wind-IMM-it</item>
+    <item id="c3" line="183" tag="T">It's windy</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49917">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1798" line-range="184-186" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="184" tag="L">         c. kuturuuci-y-ax</item>
+    <item id="o2" line="185" tag="G">            hot-IMM-it</item>
+    <item id="o3" line="186" tag="T">            "It's hot"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="184" tag="L">kuturuuci-y-ax</item>
+    <item id="c2" line="185" tag="G">hot-IMM-it</item>
+    <item id="c3" line="186" tag="T">It's hot</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i62508">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3908" line-range="117-120" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="117" tag="M+CN">  (4) a. Passive:</item>
+    <item id="o2" line="118" tag="L">         múusa-chi paxá-ta-pu,=ga</item>
+    <item id="o3" line="119" tag="G">         cat-OBJ kill-PASS-REM</item>
+    <item id="o4" line="120" tag="T">         'The cat was killed'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="117" tag="M+CN">Passive:</item>
+    <item id="c2" line="118" tag="L">múusa-chi paxá-ta-pu,=ga</item>
+    <item id="c3" line="119" tag="G">cat-OBJ kill-PASS-REM</item>
+    <item id="c4" line="120" tag="T">The cat was killed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i62509">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3908" line-range="122-125" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="122" tag="M+CN">       b. Verb-phrase nominalization:</item>
+    <item id="o2" line="123" tag="L">          múusa-paxá-ta ka-'áy-wa-t     'ura-'ay</item>
+    <item id="o3" line="124" tag="G">          cat-kill-NOM NEG-good-NEG-NOM be-IMM</item>
+    <item id="o4" line="125" tag="T">          'Cat-killing is bad'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="122" tag="M+CN">Verb-phrase nominalization:</item>
+    <item id="c2" line="123" tag="L">múusa-paxá-ta ka-'áy-wa-t     'ura-'ay</item>
+    <item id="c3" line="124" tag="G">cat-kill-NOM NEG-good-NEG-NOM be-IMM</item>
+    <item id="c4" line="125" tag="T">Cat-killing is bad</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i62515">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3908" line-range="286-290" line-types="M+CN M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="286" tag="M+CN">  (10) Ute VP-nominalization passive (D):</item>
+    <item id="o2" line="287" tag="M+CN">      a. Nominalization:</item>
+    <item id="o3" line="288" tag="L">         múusachi paqxa-ta-'u              ka-'ay-wa-t 'ura-pu,-ga</item>
+    <item id="o4" line="289" tag="G">         cat/OBJ kill-NOM-3/POSS NEG-good-NEG-NOM be-REM</item>
+    <item id="o5" line="290" tag="T">         'His/her killing (of) the cat was bad'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="286" tag="M+CN">Ute VP-nominalization passive (D):</item>
+    <item id="c2" line="287" tag="M+CN">Nominalization:</item>
+    <item id="c3" line="288" tag="L">múusachi paqxa-ta-'u              ka-'ay-wa-t 'ura-pu,-ga</item>
+    <item id="c4" line="289" tag="G">cat/OBJ kill-NOM-3/POSS NEG-good-NEG-NOM be-REM</item>
+    <item id="c5" line="290" tag="T">His/her killing (of) the cat was bad</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i62516">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3908" line-range="291-294" line-types="M+EX L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="291" tag="M+EX">      a. Passive:</item>
+    <item id="o2" line="292" tag="L">        múusachi paqxa-ta-pu,-gay-'u</item>
+    <item id="o3" line="293" tag="G">        cat/OBJ kill-PASS-REM-3/OBJ</item>
+    <item id="o4" line="294" tag="T">        'The cat was killed'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="291" tag="M+EX">Passive:</item>
+    <item id="c2" line="292" tag="L">múusachi paqxa-ta-pu,-gay-'u</item>
+    <item id="c3" line="293" tag="G">cat/OBJ kill-PASS-REM-3/OBJ</item>
+    <item id="c4" line="294" tag="T">The cat was killed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63160">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kaibab" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2559" line-range="131-137" line-types="M+LN L G L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="131" tag="M+LN">           Kaibab (Uto-Aztecan):</item>
+    <item id="o2" line="132" tag="L">           b.    axa- nim -aru'ai mang</item>
+    <item id="o3" line="133" tag="G">                 Q-     do     -COP that.NOM</item>
+    <item id="o4" line="134" tag="L">                 kamunch       -ang -sinka -kain -n(a)?</item>
+    <item id="o5" line="135" tag="G">                 rabbit        -NOM -skin -PERF -OSP</item>
+    <item id="o6" line="136" tag="T">                 `How did you skin that rabbit?'</item>
+    <item id="o7" line="137" tag="M+AC">                 (Bunte 1986: 294)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="131" tag="M+LN">Kaibab (Uto-Aztecan):</item>
+    <item id="c2" line="132" tag="L">axa-nim-aru'ai mang</item>
+    <item id="c3" line="133" tag="G">Q-do-COP that.NOM</item>
+    <item id="c4" line="134" tag="L">kamunch-ang-sinka-kain-n(a)?</item>
+    <item id="c5" line="135" tag="G">rabbit-NOM-skin-PERF-OSP</item>
+    <item id="c6" line="136" tag="T">How did you skin that rabbit?</item>
+    <item id="c7" line="137" tag="M+AC">294</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:19]"/>
+    <item id="p1" content="c4[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:17]" alignment="p1"/>
+    <item id="g1" content="c5[0:24]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:29]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i73233">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="182-184" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="182" tag="L">  (9) a. 'ú ta'wáci</item>
+    <item id="o2" line="183" tag="G">               that man</item>
+    <item id="o3" line="184" tag="T">               `that man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="182" tag="L">'ú ta'wáci</item>
+    <item id="c2" line="183" tag="G">that man</item>
+    <item id="c3" line="184" tag="T">that man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:8]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73234">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="185-187" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="185" tag="L">         b. ta'wáci 'u</item>
+    <item id="o2" line="186" tag="G">               man        DEF</item>
+    <item id="o3" line="187" tag="T">               `the man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="185" tag="L">ta'wáci 'u</item>
+    <item id="c2" line="186" tag="G">man        DEF</item>
+    <item id="c3" line="187" tag="T">the man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73299">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chemehuevi" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="738-740" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="738" tag="L">  (55) a. [nukwi-c a aipac] pa÷a-j</item>
+    <item id="o2" line="739" tag="G">                  [run-PTCPL that boy] tall-PRES</item>
+    <item id="o3" line="740" tag="T">                  `the running boy is tall'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="738" tag="L">[nukwi-c a aipac] pa÷a-j</item>
+    <item id="c2" line="739" tag="G">[run-PTCPL that boy] tall-PRES</item>
+    <item id="c3" line="740" tag="T">the running boy is tall</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73300">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chemehuevi" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="741-743" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="741" tag="L">           b. [pa÷a-nt¥-m                aipac] nukwi-j</item>
+    <item id="o2" line="742" tag="G">                  [tall-PTCPL-ANIM boy] run-PRES</item>
+    <item id="o3" line="743" tag="T">                  `the tall boy is running'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="741" tag="L">[pa÷a-nt¥-m                aipac] nukwi-j</item>
+    <item id="c2" line="742" tag="G">[tall-PTCPL-ANIM boy] run-PRES</item>
+    <item id="c3" line="743" tag="T">the tall boy is running</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97425">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern paiute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="12237-12242" line-types="M+LN L B G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12237" tag="M+LN">            Southern Paiute</item>
+    <item id="o2" line="12238" tag="L">  (114) qacu=anga=ni                               n^/       imincuxwavaang/wain·iaanga.</item>
+    <item id="o3" line="12239" tag="B"></item>
+    <item id="o4" line="12240" tag="G">            NEG=OBJECT.CLIT=CLIT.1SG               I        shall.give.him.to.you</item>
+    <item id="o5" line="12241" tag="T">            `I shall not give him to you.'</item>
+    <item id="o6" line="12242" tag="M+AC">            (Steele 1977: 547)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12237" tag="M+LN">Southern Paiute</item>
+    <item id="c2" line="12238" tag="L">qacu=anga=ni                               n^/       imincuxwavaang/wain·iaanga.</item>
+    <item id="c3" line="12239" tag="B"/>
+    <item id="c4" line="12240" tag="G">NEG=OBJECT.CLIT=CLIT.1SG               I        shall.give.him.to.you</item>
+    <item id="c5" line="12241" tag="T">I shall not give him to you.</item>
+    <item id="c6" line="12242" tag="M+AC">547</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114165">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="759-763" line-types="M+LN L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="759" tag="M+LN">        (34) Ute</item>
+    <item id="o2" line="760" tag="L+CR">                                                wúuka-pug?</item>
+    <item id="o3" line="761" tag="L+CR">             a. mam?ci-aa           `u</item>
+    <item id="o4" line="762" tag="G">                woman-SUB-INT        that.SUB work-REM</item>
+    <item id="o5" line="763" tag="T">                `Did the woman work?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="759" tag="M+LN">Ute</item>
+    <item id="c2" line="760 761" tag="L+CR">mam?ci-aa           `u          wúuka-pug?</item>
+    <item id="c4" line="762" tag="G">woman-SUB-INT        that.SUB work-REM</item>
+    <item id="c5" line="763" tag="T">Did the woman work?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114166">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="764-767" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="764" tag="L">             b. kúaw-aa              pága-kway-kya?</item>
+    <item id="o2" line="765" tag="G+CR">                                     leave-go-ANT</item>
+    <item id="o3" line="766" tag="G+CR">                yesterday-INT</item>
+    <item id="o4" line="767" tag="T">                `Did (she) leave yesterday?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="764" tag="L">kúaw-aa              pága-kway-kya?</item>
+    <item id="c2" line="765 766" tag="G+CR">yesterday-INT        leave-go-ANT</item>
+    <item id="c4" line="767" tag="T">Did (she) leave yesterday?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i143109">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2327" line-range="522-524" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="522" tag="L">         kavá sá        a-r -m</item>
+    <item id="o2" line="523" tag="G">  (11)   horse white -ADJ-ANIM</item>
+    <item id="o3" line="524" tag="T">         `a white horse'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="522" tag="L">kavá sá        a-r-m</item>
+    <item id="c2" line="523" tag="G">horse white-ADJ-ANIM</item>
+    <item id="c3" line="524" tag="T">a white horse</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i143110">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2327" line-range="526-528" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="526" tag="L">         sá-     gavà</item>
+    <item id="o2" line="527" tag="G">  (12)   white- horse</item>
+    <item id="o3" line="528" tag="T">         `a white horse'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="526" tag="L">sá-gavà</item>
+    <item id="c2" line="527" tag="G">white-horse</item>
+    <item id="c3" line="528" tag="T">a white horse</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150680">
+  <metadata type="xigt-meta">
+    <meta type="language" name="southern paiute" iso-639-3="ute" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2406" line-range="3427-3432" line-types="M+LN L B G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3427" tag="M+LN">            Southern Paiute</item>
+    <item id="o2" line="3428" tag="L">  (114) qacu=anga=ni                               n^/       imincuxwavaang/wain·iaanga.</item>
+    <item id="o3" line="3429" tag="B"></item>
+    <item id="o4" line="3430" tag="G">            NEG=OBJECT.CLIT=CLIT.1SG               I        shall.give.him.to.you</item>
+    <item id="o5" line="3431" tag="T">            `I shall not give him to you.'</item>
+    <item id="o6" line="3432" tag="M+AC">            (Steele 1977: 547)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3427" tag="M+LN">Southern Paiute</item>
+    <item id="c2" line="3428" tag="L">qacu=anga=ni                               n^/       imincuxwavaang/wain·iaanga.</item>
+    <item id="c3" line="3429" tag="B"/>
+    <item id="c4" line="3430" tag="G">NEG=OBJECT.CLIT=CLIT.1SG               I        shall.give.him.to.you</item>
+    <item id="c5" line="3431" tag="T">I shall not give him to you.</item>
+    <item id="c6" line="3432" tag="M+AC">547</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

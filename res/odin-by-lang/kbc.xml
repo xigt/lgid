@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i30165">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kadiwéu" iso-639-3="kbc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="29.txt" line-range="203-206" line-types="L L+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="203" tag="L">      (5)   a. Maria yel:wadi       oqoqo:di yatita                      nod:a:jo.</item>
+    <item id="o2" line="204" tag="L+AL">               Maria y-el:wad      oqoqo:di y-ati-t+e-wa                 n-od:a:jo</item>
+    <item id="o3" line="205" tag="G">               Mary 3sg.SUBJ-kill chicken 3sg.SUBJ-take-rel+3sg.CL-dative alnbl-knife</item>
+    <item id="o4" line="206" tag="T">             'Mary killed the chicken with a knife'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="203" tag="L">Maria yel:wadi       oqoqo:di yatita                      nod:a:jo.</item>
+    <item id="c2" line="204" tag="L+AL">Maria y-el:wad      oqoqo:di y-ati-t+e-wa                 n-od:a:jo</item>
+    <item id="c3" line="205" tag="G">Mary 3sg.SUBJ-kill chicken 3sg.SUBJ-take-rel+3sg.CL-dative alnbl-knife</item>
+    <item id="c4" line="206" tag="T">Mary killed the chicken with a knife</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+    <item id="p1" content="c2[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:70]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i30166">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kadiwéu" iso-639-3="kbc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="29.txt" line-range="208-211" line-types="L L+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="208" tag="L">            b. Maria yaqadi    nekenigo            katiwed:i               nam:e:ja.</item>
+    <item id="o2" line="209" tag="L+AL">               Maria y-aqad    n-eke-nigo         ka-t-w+e-d:              n-am:e:ja</item>
+    <item id="o3" line="210" tag="G">            Mary 3sg.SUBJ-find alnbl-dog-animal Loc-rel-inward+3sg.CL-theme alnbl-table</item>
+    <item id="o4" line="211" tag="T">             'Mary found the dog under the table'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="208" tag="L">Maria yaqadi    nekenigo            katiwed:i               nam:e:ja.</item>
+    <item id="c2" line="209" tag="L+AL">Maria y-aqad    n-eke-nigo         ka-t-w+e-d:              n-am:e:ja</item>
+    <item id="c3" line="210" tag="G">Mary 3sg.SUBJ-find alnbl-dog-animal Loc-rel-inward+3sg.CL-theme alnbl-table</item>
+    <item id="c4" line="211" tag="T">Mary found the dog under the table</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+    <item id="p1" content="c2[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:75]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

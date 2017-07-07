@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i17899">
+  <metadata type="xigt-meta">
+    <meta type="language" name="east uvean" iso-639-3="wls" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1605" line-range="723-730" line-types="M+AC+LN L B B B G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="723" tag="M+AC+LN">  (36) East Uvean (Moye-Faurie &amp; Lynch°, ex. 77)</item>
+    <item id="o2" line="724" tag="L">       Ne`e momoe te     kiu    mo te     fo`i   `uga                   i   Vaitupu.</item>
+    <item id="o3" line="725" tag="B"></item>
+    <item id="o4" line="726" tag="B">                                                                                                 15</item>
+    <item id="o5" line="727" tag="B"></item>
+    <item id="o6" line="728" tag="G+CR">              sleep.PL DEF egret and DEF CLF         hermit.crab                  Vaitupu</item>
+    <item id="o7" line="729" tag="G+CR">        PAST                                                               O BL</item>
+    <item id="o8" line="730" tag="T">        `The egret and the hermit-crab slept at Vaitupu.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="723" tag="M+AC+LN">East Uvean (Moye-Faurie &amp; Lynch°, ex. 77</item>
+    <item id="c2" line="724" tag="L">Ne`e momoe te     kiu    mo te     fo`i   `uga                   i   Vaitupu.</item>
+    <item id="c3" line="725" tag="B"/>
+    <item id="c4" line="726" tag="B">15</item>
+    <item id="c5" line="727" tag="B"/>
+    <item id="c6" line="728 729" tag="G+CR">PAST  sleep.PL DEF egret and DEF CLF         hermit.crab           O BL   Vaitupu</item>
+    <item id="c8" line="730" tag="T">The egret and the hermit-crab slept at Vaitupu.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:81]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i17900">
+  <metadata type="xigt-meta">
+    <meta type="language" name="east uvean" iso-639-3="wls" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1605" line-range="747-751" line-types="M+AC+LN L G+CR G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="747" tag="M+AC+LN">  (37) East Uvean    (Moyse-Faurie &amp; Lynch°, ex. 78a-b)</item>
+    <item id="o2" line="748" tag="L">    a. `E `alu        te   tama mo      koe.</item>
+    <item id="o3" line="749" tag="G+CR">            go        DEF boy     with you</item>
+    <item id="o4" line="750" tag="G+CR">       NS</item>
+    <item id="o5" line="751" tag="T+CR">       `The boy w    ent off with you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="747" tag="M+AC+LN">East Uvean    (Moyse-Faurie &amp; Lynch°, ex. 78a-b</item>
+    <item id="c2" line="748" tag="L">`E `alu        te   tama mo      koe.</item>
+    <item id="c3" line="749 750" tag="G+CR">NS   go        DEF boy     with you</item>
+    <item id="c5" line="751" tag="T+CR">The boy w    ent off with you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i17901">
+  <metadata type="xigt-meta">
+    <meta type="language" name="east uvean" iso-639-3="wls" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1605" line-range="752-755" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="752" tag="L">    b. Ko     te      tama `e     `alu mo    koe.</item>
+    <item id="o2" line="753" tag="G+CR">        PRED DEF boy              go.SG with you</item>
+    <item id="o3" line="754" tag="G+CR">                             NS</item>
+    <item id="o4" line="755" tag="T">        `It's the boy who went with you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="752" tag="L">Ko     te      tama `e     `alu mo    koe.</item>
+    <item id="c2" line="753 754" tag="G+CR">PRED DEF boy         NS   go.SG with you</item>
+    <item id="c4" line="755" tag="T">It's the boy who went with you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

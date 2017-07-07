@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i23267">
+  <metadata type="xigt-meta">
+    <meta type="language" name="catalonian sign language" iso-639-3="csc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1271" line-range="78-80" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="78" tag="L+LN">        a. * SANTI CARN MENJAR NO                                                      (LSC)</item>
+    <item id="o2" line="79" tag="G">             Santi meat        eat     not</item>
+    <item id="o3" line="80" tag="T">             `Santi doesn't eat meat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="78" tag="L+LN">* SANTI CARN MENJAR NO                                                      (LSC)</item>
+    <item id="c2" line="79" tag="G">Santi meat        eat     not</item>
+    <item id="c3" line="80" tag="T">Santi doesn't eat meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i23269">
+  <metadata type="xigt-meta">
+    <meta type="language" name="catalan sign language" iso-639-3="csc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1271" line-range="157-160" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="157" tag="L+CR">                              hs                     hs</item>
+    <item id="o2" line="158" tag="L+CR">        a.   INDEX1 FUMAR            NO-RES</item>
+    <item id="o3" line="159" tag="G">             I          smoke.NEG NEG</item>
+    <item id="o4" line="160" tag="T">             `I haven't smoked (at all).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="157 158" tag="L+CR">INDEX1 FUMAR     hs     NO-RES          hs</item>
+    <item id="c3" line="159" tag="G">I          smoke.NEG NEG</item>
+    <item id="c4" line="160" tag="T">I haven't smoked (at all).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i23270">
+  <metadata type="xigt-meta">
+    <meta type="language" name="catalan sign language" iso-639-3="csc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1271" line-range="172-175" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="172" tag="L+CR">                                                  hs         hs</item>
+    <item id="o2" line="173" tag="L+CR">        c.   BERTA VERDURA MENJAR MAI</item>
+    <item id="o3" line="174" tag="G">             Berta     vegetables eat.NEG   never</item>
+    <item id="o4" line="175" tag="T">             `Berta never eats vegetables.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="172 173" tag="L+CR">BERTA VERDURA MENJAR MAI             hs         hs</item>
+    <item id="c3" line="174" tag="G">Berta     vegetables eat.NEG   never</item>
+    <item id="c4" line="175" tag="T">Berta never eats vegetables.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i23271">
+  <metadata type="xigt-meta">
+    <meta type="language" name="catalan sign language" iso-639-3="csc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1271" line-range="184-187" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="184" tag="L+CR">                                    hs                                hs</item>
+    <item id="o2" line="185" tag="L+CR">        a.   INDEX1 FUMAR NO MAI / NO-RES</item>
+    <item id="o3" line="186" tag="G">             I         smoke    not never / NEG</item>
+    <item id="o4" line="187" tag="T">             `I have never smoked / have not smoked at all.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="184" tag="L+CR">hs                                hs</item>
+    <item id="c3" line="186" tag="G">I         smoke    not never / NEG</item>
+    <item id="c4" line="187" tag="T">I have never smoked / have not smoked at all.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i23272">
+  <metadata type="xigt-meta">
+    <meta type="language" name="catalan sign language" iso-639-3="csc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1271" line-range="191-194" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="191" tag="L+CR">                              hs                  hs        hs</item>
+    <item id="o2" line="192" tag="L+CR">        c.   INDEX1 FUMAR          NO-RES              MAI</item>
+    <item id="o3" line="193" tag="G">             I         smoke.NEG NEG                   never</item>
+    <item id="o4" line="194" tag="T">             `I have never smoked (at all).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="191 192" tag="L+CR">INDEX1 FUMAR     hs   NO-RES         hs   MAI  hs</item>
+    <item id="c3" line="193" tag="G">I         smoke.NEG NEG                   never</item>
+    <item id="c4" line="194" tag="T">I have never smoked (at all).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i23282">
+  <metadata type="xigt-meta">
+    <meta type="language" name="catalan sign language" iso-639-3="csc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1271" line-range="451-454" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="451" tag="L+CR">                                                                      hs</item>
+    <item id="o2" line="452" tag="L+LN+CR">        c.   JARDÍ INDEX3 NEN+++ JUGAR PROHIBIT                                               (LSC)</item>
+    <item id="o3" line="453" tag="G">             garden index       child.PL    play       forbidden</item>
+    <item id="o4" line="454" tag="T">             `The children are not allowed to play in the garden.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="451 452" tag="L+CR+LN">JARDÍ INDEX3 NEN+++ JUGAR PROHIBIT                      hs                       (LSC)</item>
+    <item id="c3" line="453" tag="G">garden index       child.PL    play       forbidden</item>
+    <item id="c4" line="454" tag="T">The children are not allowed to play in the garden.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:86]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i23283">
+  <metadata type="xigt-meta">
+    <meta type="language" name="catalan sign language" iso-639-3="csc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1271" line-range="455-458" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="455" tag="L+CR">                                                            hs</item>
+    <item id="o2" line="456" tag="L+CR">        d.   ÚLTIM INDEX1 DORMIR PODER-NO</item>
+    <item id="o3" line="457" tag="G">             last       index      sleep can. NEG</item>
+    <item id="o4" line="458" tag="T">             `Lately I can't sleep.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="455 456" tag="L+CR">ÚLTIM INDEX1 DORMIR PODER-NO                  hs</item>
+    <item id="c3" line="457" tag="G">last       index      sleep can. NEG</item>
+    <item id="c4" line="458" tag="T">Lately I can't sleep.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i23284">
+  <metadata type="xigt-meta">
+    <meta type="language" name="catalan sign language" iso-639-3="csc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1271" line-range="466-469" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="466" tag="L+CR">                                                       hs                  hs</item>
+    <item id="o2" line="467" tag="L+LN+CR">        a. * AHIR       INDEX1 VENIR PODER-NO NO-RES                                          (LSC)</item>
+    <item id="o3" line="468" tag="G">             yesterday I           come can.NEG NEG</item>
+    <item id="o4" line="469" tag="T">             `Yesterday I wasn't able to come.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="466 467" tag="L+CR+LN">* AHIR       INDEX1 VENIR PODER-NO NO-RES   hs                  hs                 (LSC)</item>
+    <item id="c3" line="468" tag="G">yesterday I           come can.NEG NEG</item>
+    <item id="c4" line="469" tag="T">Yesterday I wasn't able to come.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:88]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72676">
+  <metadata type="xigt-meta">
+    <meta type="language" name="catalan sign language" iso-639-3="csc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="298-300" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="298" tag="L">                                                            ______________RS-i</item>
+    <item id="o2" line="299" tag="G">  (19)   YESTERDAY ANNAi IX-3a 3a-TELL-3b PEDRO IX-1i ANGRY AGR-2</item>
+    <item id="o3" line="300" tag="T">         `Yesterday Anna told Pedro that she was angry at him.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="298" tag="L">______________RS-i</item>
+    <item id="c2" line="299" tag="G">YESTERDAY ANNAi IX-3a 3a-TELL-3b PEDRO IX-1i ANGRY AGR-2</item>
+    <item id="c3" line="300" tag="T">Yesterday Anna told Pedro that she was angry at him.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72677">
+  <metadata type="xigt-meta">
+    <meta type="language" name="catalan sign language" iso-639-3="csc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="302-304" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="302" tag="L">                                                 __________RS-i</item>
+    <item id="o2" line="303" tag="G">  (20)   YESTERDAY ANNAi IX-3a 3a-TELL-1 IX-1i 1-HELP-2</item>
+    <item id="o3" line="304" tag="T">         `Yesterday Anna told me that she would help me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="302" tag="L">__________RS-i</item>
+    <item id="c2" line="303" tag="G">YESTERDAY ANNAi IX-3a 3a-TELL-1 IX-1i 1-HELP-2</item>
+    <item id="c3" line="304" tag="T">Yesterday Anna told me that she would help me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72687">
+  <metadata type="xigt-meta">
+    <meta type="language" name="catalan sign language" iso-639-3="csc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="560-563" line-types="L L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="560" tag="L">                               ____________________________________RS-i</item>
+    <item id="o2" line="561" tag="L">         _________t            __________eg:1____________________eg:front</item>
+    <item id="o3" line="562" tag="G">  (33)   PUPIL ALLi THINK^SEE.refl IX-1i INTELLIGENT SUPERLATIVE</item>
+    <item id="o4" line="563" tag="T">         `Every pupil thinks that he is the most intelligent.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="560" tag="L">____________________________________RS-i</item>
+    <item id="c2" line="561" tag="L">_________t            __________eg:1____________________eg:front</item>
+    <item id="c3" line="562" tag="G">PUPIL ALLi THINK^SEE.refl IX-1i INTELLIGENT SUPERLATIVE</item>
+    <item id="c4" line="563" tag="T">Every pupil thinks that he is the most intelligent.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+    <item id="p1" content="c2[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:51]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i72688">
+  <metadata type="xigt-meta">
+    <meta type="language" name="catalan sign language" iso-639-3="csc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="564-567" line-types="L L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="564" tag="L">                                  ____________________________________RS-i</item>
+    <item id="o2" line="565" tag="L">         ___________t             __________eg:1____________________eg:front</item>
+    <item id="o3" line="566" tag="G">  (34)   PUPIL EACHi THINK^SEE.refl IX-1i INTELLIGENT SUPERLATIVE</item>
+    <item id="o4" line="567" tag="T">         `Each pupil thinks that he is the most intelligent.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="564" tag="L">____________________________________RS-i</item>
+    <item id="c2" line="565" tag="L">___________t             __________eg:1____________________eg:front</item>
+    <item id="c3" line="566" tag="G">PUPIL EACHi THINK^SEE.refl IX-1i INTELLIGENT SUPERLATIVE</item>
+    <item id="c4" line="567" tag="T">Each pupil thinks that he is the most intelligent.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+    <item id="p1" content="c2[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:50]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i72689">
+  <metadata type="xigt-meta">
+    <meta type="language" name="catalan sign language" iso-639-3="csc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="577-581" line-types="L+CR L+CR G B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="577" tag="L+CR">  (35)   apoOUN         _e      hE     kO   ni        ye      SE</item>
+    <item id="o2" line="578" tag="L+CR">                  i</item>
+    <item id="o3" line="579" tag="G">         nobody         Neg     said   Comp he        is      handsome</item>
+    <item id="o4" line="580" tag="B"></item>
+    <item id="o5" line="581" tag="M+AC">                                                  (Koopman &amp; Sportiche 1989: 584)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="577 578" tag="L+CR">apoOUN   i     _e      hE     kO   ni        ye      SE</item>
+    <item id="c3" line="579" tag="G">nobody         Neg     said   Comp he        is      handsome</item>
+    <item id="c4" line="580" tag="B"/>
+    <item id="c5" line="581" tag="M+AC">Koopman &amp; Sportiche 1989: 584</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72690">
+  <metadata type="xigt-meta">
+    <meta type="language" name="catalan sign language" iso-639-3="csc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3107" line-range="606-608" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="606" tag="L">                                 ___________________RS-i</item>
+    <item id="o2" line="607" tag="G">  (36)   ANNAi IX-3 3-TELL-2 IX-1i FED-UP LOSE+++</item>
+    <item id="o3" line="608" tag="T">         `Anna told you that she is fed up with losing all the time.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="606" tag="L">___________________RS-i</item>
+    <item id="c2" line="607" tag="G">ANNAi IX-3 3-TELL-2 IX-1i FED-UP LOSE+++</item>
+    <item id="c3" line="608" tag="T">Anna told you that she is fed up with losing all the time.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

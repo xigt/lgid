@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i115137">
+  <metadata type="xigt-meta">
+    <meta type="language" name="oxchuk tzeltal" iso-639-3="tzh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3385" line-range="5653-5655" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5653" tag="L">              b.   tumin chij</item>
+    <item id="o2" line="5654" tag="G">                   cotton deer</item>
+    <item id="o3" line="5655" tag="T">                   `sheep'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5653" tag="L">tumin chij</item>
+    <item id="c2" line="5654" tag="G">cotton deer</item>
+    <item id="c3" line="5655" tag="T">sheep</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:5]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116041">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzeltal oxchuc" iso-639-3="tzh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11116-11123" line-types="M+LN+CR+EX M+CR L G+CR G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11116" tag="M+LN+CR+EX">         Tzeltal (Tenejapa dialect): universal quantification</item>
+    <item id="o2" line="11117" tag="M+CR">  (53)</item>
+    <item id="o3" line="11118" tag="L">         a. s-pisil          winik-etik     ya         x-ben--ik</item>
+    <item id="o4" line="11119" tag="G+CR">            3POSS-all        man-PL                    ICOMPL-</item>
+    <item id="o5" line="11120" tag="G+CR">                                                             walk-3-PL</item>
+    <item id="o6" line="11121" tag="G+CR">                                            ICOMPL</item>
+    <item id="o7" line="11122" tag="B"></item>
+    <item id="o8" line="11123" tag="T">              `All the men/every man walk(s).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11116 11117" tag="M+LN+CR+EX">Tzeltal (Tenejapa dialect): universal quantification</item>
+    <item id="c3" line="11118" tag="L">s-pisil          winik-etik     ya         x-ben--ik</item>
+    <item id="c4" line="11119 11121" tag="G+CR">3POSS-all        man-PL         ICOMPL     ICOMPL-</item>
+    <item id="c7" line="11122" tag="B"/>
+    <item id="c8" line="11123" tag="T">All the men/every man walk(s).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116042">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzeltal oxchuc" iso-639-3="tzh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11124-11129" line-types="L+CR L+CR G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11124" tag="L+CR">         b. s-pisil          winik-etik     ya                        mantzana</item>
+    <item id="o2" line="11125" tag="L+CR">                                                       s-lo'-ik-</item>
+    <item id="o3" line="11126" tag="G+CR">            3POSS- all       man-PL                    3.A-eat-PL.A-3 apple</item>
+    <item id="o4" line="11127" tag="G+CR">                                            ICOMPL</item>
+    <item id="o5" line="11128" tag="B"></item>
+    <item id="o6" line="11129" tag="T">              `All the men/every man eat(s) apples.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11124 11125" tag="L+CR">s-pisil          winik-etik     ya         s-lo'-ik-mantzana</item>
+    <item id="c3" line="11126 11127" tag="G+CR">3POSS-all       man-PL         ICOMPL     3.A-eat-PL.A-3 apple</item>
+    <item id="c5" line="11128" tag="B"/>
+    <item id="c6" line="11129" tag="T">All the men/every man eat(s) apples.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116043">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzeltal oxchuc" iso-639-3="tzh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11130-11135" line-types="L+CR L+CR G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11130" tag="L+CR">              juju-tul      ya                                  te     winik-etik</item>
+    <item id="o2" line="11131" tag="L+CR">         c.                               x-ben--ik</item>
+    <item id="o3" line="11132" tag="G+CR">              each-HUM                    ICOMPL-walk-3-PL             man-PL</item>
+    <item id="o4" line="11133" tag="G+CR">                            ICOMPL                              DEF</item>
+    <item id="o5" line="11134" tag="B"></item>
+    <item id="o6" line="11135" tag="T">              `Each of the men walks.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11130 11131" tag="L+CR">juju-tul      ya            x-ben--ik             te     winik-etik</item>
+    <item id="c3" line="11132 11133" tag="G+CR">each-HUM      ICOMPL        ICOMPL-walk-3-PL      DEF    man-PL</item>
+    <item id="c5" line="11134" tag="B"/>
+    <item id="c6" line="11135" tag="T">Each of the men walks.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116044">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzeltal oxchuc" iso-639-3="tzh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11136-11144" line-types="L+CR L+CR G+CR G+CR B L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11136" tag="L+CR">         d. ya                               mantzana      juju-tul      te</item>
+    <item id="o2" line="11137" tag="L+CR">                          s-k'ux-ik-</item>
+    <item id="o3" line="11138" tag="G+CR">                          3.A-eat-PL.A-3     apple         each-HUM</item>
+    <item id="o4" line="11139" tag="G+CR">              ICOMPL                                                     DEF</item>
+    <item id="o5" line="11140" tag="B"></item>
+    <item id="o6" line="11141" tag="L">              winik-etik=e</item>
+    <item id="o7" line="11142" tag="G">              man-PL=DEF</item>
+    <item id="o8" line="11143" tag="T">              `Each man is eating an apple.'</item>
+    <item id="o9" line="11144" tag="M+AC">                                                                       (via Penny Brown)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11136 11137" tag="L+CR">ya            s-k'ux-ik-mantzana      juju-tul      te</item>
+    <item id="c3" line="11138 11139" tag="G+CR">ICOMPL      3.A-eat-PL.A-3     apple         each-HUM      DEF</item>
+    <item id="c5" line="11140" tag="B"/>
+    <item id="c6" line="11141" tag="L">winik-etik=e</item>
+    <item id="c7" line="11142" tag="G">man-PL=DEF</item>
+    <item id="c8" line="11143" tag="T">Each man is eating an apple.</item>
+    <item id="c9" line="11144" tag="M+AC">via Penny Brown</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+    <item id="p1" content="c6[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:62]" alignment="p1"/>
+    <item id="g1" content="c7[0:10]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:28]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i116047">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzeltal oxchuc" iso-639-3="tzh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11250-11257" line-types="M+LN+CN+CR M+CR L+CR L+CR G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11250" tag="M+LN+CN+CR">           Tzeltal: antipassivization</item>
+    <item id="o2" line="11251" tag="M+CR">  (55)</item>
+    <item id="o3" line="11252" tag="L+CR">           a. ya                         te     alal-etik=e</item>
+    <item id="o4" line="11253" tag="L+CR">                          j-bijtes-</item>
+    <item id="o5" line="11254" tag="G+CR">                          1.A-teach-3           child-PL=DEF</item>
+    <item id="o6" line="11255" tag="G+CR">               ICOMPL                    DEF</item>
+    <item id="o7" line="11256" tag="B"></item>
+    <item id="o8" line="11257" tag="T">               `I teach the children.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11250 11251" tag="M+LN+CN+CR">antipassivization</item>
+    <item id="c3" line="11252 11253" tag="L+CR">ya          j-bijtes-te     alal-etik=e</item>
+    <item id="c5" line="11254 11255" tag="G+CR">ICOMPL     1.A-teach-3    DEF    child-PL=DEF</item>
+    <item id="c7" line="11256" tag="B"/>
+    <item id="c8" line="11257" tag="T">I teach the children.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116048">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzeltal oxchuc" iso-639-3="tzh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11271-11276" line-types="L G+CR G+CR B T+DB M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11271" tag="L">           b. ya          x-bijtes-wan-on</item>
+    <item id="o2" line="11272" tag="G+CR">                          ICOMPL-  teach-ANTIP-1SG</item>
+    <item id="o3" line="11273" tag="G+CR">               ICOMPL</item>
+    <item id="o4" line="11274" tag="B"></item>
+    <item id="o5" line="11275" tag="T+DB">               `I teach.'/ `I am a teacher.'</item>
+    <item id="o6" line="11276" tag="M+AC">                                                      (Polian (in preparation:148,149))</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11271" tag="L">ya          x-bijtes-wan-on</item>
+    <item id="c2" line="11272 11273" tag="G+CR">ICOMPL     ICOMPL-teach-ANTIP-1SG</item>
+    <item id="c4" line="11274" tag="B"/>
+    <item id="c5" line="11275" tag="T+DB">I teach.'/ `I am a teacher.</item>
+    <item id="c6" line="11276" tag="M+AC">Polian (in preparation:148,149)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

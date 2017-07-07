@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i90498">
+  <metadata type="xigt-meta">
+    <meta type="language" name="djapu" iso-639-3="duj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2640" line-range="331-335" line-types="L G L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="331" tag="L">   (21)   a. rdaykun-garri-nyara-y       nganapurr        ganggathi-rr-ny         ngula-ngur</item>
+    <item id="o2" line="332" tag="G">             sun-enter-NMLSR-TEMP we.EXCL.NOM get.up.and.go-UNM-PRO there-ABL</item>
+    <item id="o3" line="333" tag="L">             Gurrumuru-ngur</item>
+    <item id="o4" line="334" tag="G">             Gurrumuru-ABL</item>
+    <item id="o5" line="335" tag="T+EX">             glt "We left Gurrumuru at sunset" (39)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="331" tag="L">rdaykun-garri-nyara-y       nganapurr        ganggathi-rr-ny         ngula-ngur</item>
+    <item id="c2" line="332" tag="G">sun-enter-NMLSR-TEMP we.EXCL.NOM get.up.and.go-UNM-PRO there-ABL</item>
+    <item id="c3" line="333" tag="L">Gurrumuru-ngur</item>
+    <item id="c4" line="334" tag="G">Gurrumuru-ABL</item>
+    <item id="c5" line="335" tag="T+EX">glt "We left Gurrumuru at sunset" (39)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+    <item id="p1" content="c3[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+    <item id="g1" content="c4[0:13]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:38]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i90499">
+  <metadata type="xigt-meta">
+    <meta type="language" name="djapu" iso-639-3="duj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2640" line-range="336-340" line-types="L G L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="336" tag="L">          b. bala ngayi    ga:rri-nya-mara-m              birrka'mirr rdung'rtung</item>
+    <item id="o2" line="337" tag="G">             then he.NOM enter-NMLSR-CAUS-UNM anything.ABS palpitating.ABS</item>
+    <item id="o3" line="338" tag="L">             ngurikal-yi          yolngu-wal</item>
+    <item id="o4" line="339" tag="G">             that.OBL-ANAPH person-OBL</item>
+    <item id="o5" line="340" tag="T+EX">             "Then he puts some other palpitating thing into that person" (40)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="336" tag="L">bala ngayi    ga:rri-nya-mara-m              birrka'mirr rdung'rtung</item>
+    <item id="c2" line="337" tag="G">then he.NOM enter-NMLSR-CAUS-UNM anything.ABS palpitating.ABS</item>
+    <item id="c3" line="338" tag="L">ngurikal-yi          yolngu-wal</item>
+    <item id="c4" line="339" tag="G">that.OBL-ANAPH person-OBL</item>
+    <item id="c5" line="340" tag="T+EX">Then he puts some other palpitating thing into that person" (40)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+    <item id="p1" content="c3[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+    <item id="g1" content="c4[0:25]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:64]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i90500">
+  <metadata type="xigt-meta">
+    <meta type="language" name="djapu" iso-639-3="duj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2640" line-range="341-343" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="341" tag="L">          c. djamarrkurli' Milyin-gu nhina-'nhina            ngunha gali'-ngur</item>
+    <item id="o2" line="342" tag="G">             children.ABS Milyin-DAT sit-REDUP.UNM that.LOC side-LOC</item>
+    <item id="o3" line="343" tag="T+EX">             "Milyin's children are sitting over there" (43)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="341" tag="L">djamarrkurli' Milyin-gu nhina-'nhina            ngunha gali'-ngur</item>
+    <item id="c2" line="342" tag="G">children.ABS Milyin-DAT sit-REDUP.UNM that.LOC side-LOC</item>
+    <item id="c3" line="343" tag="T+EX">Milyin's children are sitting over there" (43)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90501">
+  <metadata type="xigt-meta">
+    <meta type="language" name="djapu" iso-639-3="duj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2640" line-range="348-353" line-types="L G L G T+DB+LT C+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="348" tag="L">   (22)   a. wungay' marrtji-nya                  ngunhi-ny-dhi          yolngu-n</item>
+    <item id="o2" line="349" tag="G">             honey.ABS go-PAST.NONINDIC that.ABS-PRO-ANAPH person-ACC</item>
+    <item id="o3" line="350" tag="L">             wapirti                                         warrtju-na-puyngu-nha-ny weka-nha</item>
+    <item id="o4" line="351" tag="G">             stingray-spear.PL-NMLSR-INHAB-ACC-PRO give-PAST.NONINDIC</item>
+    <item id="o5" line="352" tag="T+DB+LT">             "We would go and give honey to those people who were spearing stingrays [lit `to those</item>
+    <item id="o6" line="353" tag="C+AC">             stingray-spearing people')" (Morphy 1983:110)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="348" tag="L">wungay' marrtji-nya                  ngunhi-ny-dhi          yolngu-n</item>
+    <item id="c2" line="349" tag="G">honey.ABS go-PAST.NONINDIC that.ABS-PRO-ANAPH person-ACC</item>
+    <item id="c3" line="350" tag="L">wapirti                                         warrtju-na-puyngu-nha-ny weka-nha</item>
+    <item id="c4" line="351" tag="G">stingray-spear.PL-NMLSR-INHAB-ACC-PRO give-PAST.NONINDIC</item>
+    <item id="c5" line="352" tag="T+DB+LT">We would go and give honey to those people who were spearing stingrays [lit `to those</item>
+    <item id="c6" line="353" tag="C+AC">stingray-spearing people')" (Morphy 1983:110)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+    <item id="p1" content="c3[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+    <item id="g1" content="c4[0:56]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:85]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i90502">
+  <metadata type="xigt-meta">
+    <meta type="language" name="djapu" iso-639-3="duj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2640" line-range="354-358" line-types="L G L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="354" tag="L">          b. ngayi     ngunhi nganya nguli          buthuwa-ny            ngunhi-yi</item>
+    <item id="o2" line="355" tag="G">             he.NOM THAT him.ACC IRREAL give.birth.to.UNM-PRO that.ABS-ANAPH</item>
+    <item id="o3" line="356" tag="L">             yutjuwala-n</item>
+    <item id="o4" line="357" tag="G">             small-ACC</item>
+    <item id="o5" line="358" tag="T+EX">             "...when it gives birth to the small one" (129)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="354" tag="L">ngayi     ngunhi nganya nguli          buthuwa-ny            ngunhi-yi</item>
+    <item id="c2" line="355" tag="G">he.NOM THAT him.ACC IRREAL give.birth.to.UNM-PRO that.ABS-ANAPH</item>
+    <item id="c3" line="356" tag="L">yutjuwala-n</item>
+    <item id="c4" line="357" tag="G">small-ACC</item>
+    <item id="c5" line="358" tag="T+EX">...when it gives birth to the small one" (129)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+    <item id="p1" content="c3[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+    <item id="g1" content="c4[0:9]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:46]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i90503">
+  <metadata type="xigt-meta">
+    <meta type="language" name="djapu" iso-639-3="duj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2640" line-range="362-364" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="362" tag="L">          c. dhuwa nhe          yurru lili     dha:parng rongiyi-rr</item>
+    <item id="o2" line="363" tag="G">             this.ABS you.NOM FUT HITHER unsuccessful return-UNM</item>
+    <item id="o3" line="364" tag="T+EX">             "YOU will return empty handed [but not I]" (84)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="362" tag="L">dhuwa nhe          yurru lili     dha:parng rongiyi-rr</item>
+    <item id="c2" line="363" tag="G">this.ABS you.NOM FUT HITHER unsuccessful return-UNM</item>
+    <item id="c3" line="364" tag="T+EX">YOU will return empty handed [but not I]" (84)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150738">
+  <metadata type="xigt-meta">
+    <meta type="language" name="djapu" iso-639-3="duj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2398" line-range="1665-1667" line-types="L G+LN T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1665" tag="L">  (32b) manda          bäpa-`manydji       wapthu-n-dja</item>
+    <item id="o2" line="1666" tag="G+LN">  Djp   3duNOM         father-DYAD(ABS) jump-UNM-PRO</item>
+    <item id="o3" line="1667" tag="T+AC">        `Father and child jumped up and down.' (Morphy 1983:46)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1665" tag="L">manda          bäpa-`manydji       wapthu-n-dja</item>
+    <item id="c2" line="1666" tag="G+LN">Djp   3duNOM         father-DYAD(ABS) jump-UNM-PRO</item>
+    <item id="c3" line="1667" tag="T+AC">Father and child jumped up and down.' (Morphy 1983:46)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

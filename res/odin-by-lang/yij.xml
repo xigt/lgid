@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i64530">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yindjibarndi" iso-639-3="yij" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3067" line-range="2753-2757" line-types="M+AC+LN+CN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2753" tag="M+AC+LN+CN">  (120) Double accusative and passive in Yindjibarndi (Dryer 1986: 829, Wordick 1982: 174)</item>
+    <item id="o2" line="2754" tag="L">        a. Ngaarta yungku-nha ngayu murla-yi.</item>
+    <item id="o3" line="2755" tag="G+CR">                                 1sg.ACC meat-ACC</item>
+    <item id="o4" line="2756" tag="G+CR">           man       give-past</item>
+    <item id="o5" line="2757" tag="T">           A man gave me the meat.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2753" tag="M+AC+LN+CN">Double accusative and passive in Yindjibarndi (Dryer 1986: 829, Wordick 1982: 174</item>
+    <item id="c2" line="2754" tag="L">Ngaarta yungku-nha ngayu murla-yi.</item>
+    <item id="c3" line="2755 2756" tag="G+CR">man       give-past   1sg.ACC meat-ACC</item>
+    <item id="c5" line="2757" tag="T">A man gave me the meat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64531">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yindjibarndi" iso-639-3="yij" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3067" line-range="2758-2760" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2758" tag="L">        b. Ngayi yungku-nguli-nha murla-yi          ngaarta-lu.</item>
+    <item id="o2" line="2759" tag="G">           1sg.NOM give-PASS-PAST       meat-ACC man-INST</item>
+    <item id="o3" line="2760" tag="T">           I was given the meat by a man.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2758" tag="L">Ngayi yungku-nguli-nha murla-yi          ngaarta-lu.</item>
+    <item id="c2" line="2759" tag="G">1sg.NOM give-PASS-PAST       meat-ACC man-INST</item>
+    <item id="c3" line="2760" tag="T">I was given the meat by a man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64532">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yindjibarndi" iso-639-3="yij" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3067" line-range="2761-2764" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2761" tag="L">        c. *Murla yungku-nguli-nha ngayu ngaarta-lu.</item>
+    <item id="o2" line="2762" tag="G+CR">                     give-PASS-PAST     1sg.ACC man-INST</item>
+    <item id="o3" line="2763" tag="G+CR">           meat</item>
+    <item id="o4" line="2764" tag="T">           The meat was given to me by a man.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2761" tag="L">*Murla yungku-nguli-nha ngayu ngaarta-lu.</item>
+    <item id="c2" line="2762 2763" tag="G+CR">meat      give-PASS-PAST     1sg.ACC man-INST</item>
+    <item id="c4" line="2764" tag="T">The meat was given to me by a man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89979">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yindjibarndi" iso-639-3="yij" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2624" line-range="115-119" line-types="M+LN M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="115" tag="M+LN">  (6)   Yindjibarndi (Pama-Nyungan)</item>
+    <item id="o2" line="116" tag="M+CN">        passive</item>
+    <item id="o3" line="117" tag="L">        a.      Ngayi yungku- nguli- nha murla- yi   ngaarta- lu</item>
+    <item id="o4" line="118" tag="G">                I.NOM give-      PASS- PST meat- ACC man-     INSTR</item>
+    <item id="o5" line="119" tag="T">                `I was given the meat by a man.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="115" tag="M+LN">Yindjibarndi (Pama-Nyungan</item>
+    <item id="c2" line="116" tag="M+CN">passive</item>
+    <item id="c3" line="117" tag="L">Ngayi yungku-nguli-nha murla-yi   ngaarta-lu</item>
+    <item id="c4" line="118" tag="G">I.NOM give-PASS-PST meat-ACC man-INSTR</item>
+    <item id="c5" line="119" tag="T">I was given the meat by a man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89980">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yindjibarndi" iso-639-3="yij" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2624" line-range="127-130" line-types="L G T T+LT+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="127" tag="L">         b.    *Murla yungku- nguli- nha ngayu          ngaarta- lu.</item>
+    <item id="o2" line="128" tag="G">                meat give-       PASS- PST me.ACC man-           INSTR</item>
+    <item id="o3" line="129" tag="T">                `The meat was given to me by a man.'</item>
+    <item id="o4" line="130" tag="T+LT+AL">                (lit. `The meat was given me by a man.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="127" tag="L">*Murla yungku-nguli-nha ngayu          ngaarta-lu.</item>
+    <item id="c2" line="128" tag="G">meat give-PASS-PST me.ACC man-INSTR</item>
+    <item id="c3" line="129" tag="T">The meat was given to me by a man.</item>
+    <item id="c4" line="130" tag="T+LT+AL">lit. `The meat was given me by a man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+    <item id="t1" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

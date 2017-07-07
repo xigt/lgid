@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i2045">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="557" line-range="968-970" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="968" tag="L+AC">  (31) Séná xìá        wémà ló                                             Aboh (1998)</item>
+    <item id="o2" line="969" tag="G">        Sean read-PERF book the</item>
+    <item id="o3" line="970" tag="T">        `Sena read the book'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="968" tag="L+AC">Séná xìá        wémà ló                                             Aboh (1998</item>
+    <item id="c2" line="969" tag="G">Sean read-PERF book the</item>
+    <item id="c3" line="970" tag="T">Sena read the book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i2137">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="557" line-range="2385-2387" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2385" tag="L">  (37) Hwé-énenu Asíbá nò yì hwéví jrá gbé</item>
+    <item id="o2" line="2386" tag="G">        At that time Asiba Hab go fish sell Purpose</item>
+    <item id="o3" line="2387" tag="T">        `At that time Asiba habitually went out to sell fish'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2385" tag="L">Hwé-énenu Asíbá nò yì hwéví jrá gbé</item>
+    <item id="c2" line="2386" tag="G">At that time Asiba Hab go fish sell Purpose</item>
+    <item id="c3" line="2387" tag="T">At that time Asiba habitually went out to sell fish</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i5314">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3326" line-range="3483-3488" line-types="L+CR L+CR L+CR L+CR G+CR G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3483" tag="L+CR">                                                                         `.</item>
+    <item id="o2" line="3484" tag="L+CR">                        `                                                i</item>
+    <item id="o3" line="3485" tag="L+CR">  (140)     a.    Un   se      do      dan     lo    ya    Kofi   hu</item>
+    <item id="o4" line="3486" tag="L+CR">                                                      `</item>
+    <item id="o5" line="3487" tag="G+CR">                                                                  killed it</item>
+    <item id="o6" line="3488" tag="G+CR">                  I    heard   tha   t snake   the   Top   Kofi</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3483 3485" tag="L+CR">Un   se      do      dan     lo    ya    Kofi   hu     `.</item>
+    <item id="c5" line="3487 3488" tag="G+CR">I    heard   tha   t snake   the   Top   Kofi   killed it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i5315">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3326" line-range="3489-3492" line-types="L+CR L+CR L+CR G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3489" tag="L+CR">                        `</item>
+    <item id="o2" line="3490" tag="L+CR">            b.    Un   se      do      dan     lo    we    Kofi   hu.</item>
+    <item id="o3" line="3491" tag="L+CR">                                                       `</item>
+    <item id="o4" line="3492" tag="G+CR">                  I    heard   tha   t snake   the   Foc   Kofi   killed</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3489 3491" tag="L+CR"></item>
+    <item id="c4" line="3492" tag="G+CR">I    heard   tha   t snake   the   Foc   Kofi   killed</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:54]"/>
+  </tier>
+</igt>
+<igt id="i19544">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="267" line-range="111-113" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="111" tag="L+LN">        (i) àgásá sín      àfo                                                      Gungbe</item>
+    <item id="o2" line="112" tag="G">            crab Pos foot Nral Dem Det Num</item>
+    <item id="o3" line="113" tag="T">            'these (specific) three feet of crab'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="111" tag="L+LN">àgásá sín      àfo                                                      Gungbe</item>
+    <item id="c2" line="112" tag="G">crab Pos foot Nral Dem Det Num</item>
+    <item id="c3" line="113" tag="T">these (specific) three feet of crab</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i40493">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2954" line-range="419-421" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="419" tag="L+LN">  (30)        * Keke we Koku xo-e                                                    (Gungbe)</item>
+    <item id="o2" line="420" tag="G">                bicycle foc koku buy 3sg</item>
+    <item id="o3" line="421" tag="T">                'Koku bought A BICYCLE'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="419" tag="L+LN">* Keke we Koku xo-e                                                    (Gungbe</item>
+    <item id="c2" line="420" tag="G">bicycle foc koku buy 3sg</item>
+    <item id="c3" line="421" tag="T">Koku bought A BICYCLE</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i40515">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2954" line-range="614-616" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="614" tag="L+AC">  (55)         Gbá wè Séná gbá xwé ló                                                           (Aboh 1998)</item>
+    <item id="o2" line="615" tag="G">               Build FM Sena build-PERF house the</item>
+    <item id="o3" line="616" tag="T">               `Sena BUILT the house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="614" tag="L+AC">Gbá wè Séná gbá xwé ló                                                           (Aboh 1998</item>
+    <item id="c2" line="615" tag="G">Build FM Sena build-PERF house the</item>
+    <item id="c3" line="616" tag="T">Sena BUILT the house</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:91]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i40665">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2954" line-range="2050-2052" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2050" tag="L+AC">  (199) a.     Sénái *(wè) ti xía   wémà ló                                           (Aboh 1998)</item>
+    <item id="o2" line="2051" tag="G">               Sena wè read-PERF book the</item>
+    <item id="o3" line="2052" tag="T">               `SENA read the book'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2050" tag="L+AC">a.     Sénái *(wè) ti xía   wémà ló                                           (Aboh 1998</item>
+    <item id="c2" line="2051" tag="G">Sena wè read-PERF book the</item>
+    <item id="c3" line="2052" tag="T">SENA read the book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:88]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i40666">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2954" line-range="2053-2055" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2053" tag="L+AC">          b.   ménúi *(wè) ti xìa   wémà ló                                           (Aboh 1998)</item>
+    <item id="o2" line="2054" tag="G">               Who wè 3pl read-Perf book the</item>
+    <item id="o3" line="2055" tag="T">               `Who read the book?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2053" tag="L+AC">ménúi *(wè) ti xìa   wémà ló                                           (Aboh 1998)</item>
+    <item id="c2" line="2054" tag="G">Who wè 3pl read-Perf book the</item>
+    <item id="c3" line="2055" tag="T">Who read the book?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118160">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="5425-5428" line-types="M+EX L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5425" tag="M+EX">  2.   DIS, lexical copy</item>
+    <item id="o2" line="5426" tag="L">       a. Gbá w               Sná          gbá      xwé               l</item>
+    <item id="o3" line="5427" tag="G">          Build FOC           Sena         build.PF house       Spf[+Def]</item>
+    <item id="o4" line="5428" tag="T+AC+LN">          `Sena BUILT the house' (Gungbe; Aboh 2004:250)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5425" tag="M+EX">DIS, lexical copy</item>
+    <item id="c2" line="5426" tag="L">Gbá w               Sná          gbá      xwé               l</item>
+    <item id="c3" line="5427" tag="G">Build FOC           Sena         build.PF house       Spf[+Def]</item>
+    <item id="c4" line="5428" tag="T+AC+LN">Sena BUILT the house' (Gungbe; Aboh 2004:250)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126110">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3479" line-range="1588-1593" line-types="M+AC L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1588" tag="M+AC">               Gngbå (Aboh 2001)</item>
+    <item id="o2" line="1589" tag="L+CR">               Sït t§ ÅklÄ l zã Ý.</item>
+    <item id="o3" line="1590" tag="L+CR">                                 `</item>
+    <item id="o4" line="1591" tag="L+CR">         b.</item>
+    <item id="o5" line="1592" tag="G">               S. AUX biscuit DET take eat.   NOM</item>
+    <item id="o6" line="1593" tag="T">               ` Sït is eating the biscuit'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1588" tag="M+AC">Gngbå (Aboh 2001)</item>
+    <item id="c2" line="1589 1591" tag="L+CR">Sït t§ ÅklÄ l zã Ý.</item>
+    <item id="c5" line="1592" tag="G">AUX biscuit DET take eat.   NOM</item>
+    <item id="c6" line="1593" tag="T">Sït is eating the biscuit</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i132386">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="182" line-range="154-157" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="154" tag="L+CR">  (3) K]jó má x] kátìkátì l]</item>
+    <item id="o2" line="155" tag="L+LN+CR">        !           !              '              [Gungbe]</item>
+    <item id="o3" line="156" tag="G">      Kojo Neg buy kite           Det</item>
+    <item id="o4" line="157" tag="T">      `Kojo did not buy the kite'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="154" tag="L+CR">K]jó má x] kátìkátì l]</item>
+    <item id="c3" line="156" tag="G">Kojo Neg buy kite           Det</item>
+    <item id="c4" line="157" tag="T">Kojo did not buy the kite</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i133230">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="180.txt" line-range="36-38" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="36" tag="L+LN">  (3)   KO~jó    má     xO~     kátìkátì        lO!                           [Gungbe]</item>
+    <item id="o2" line="37" tag="G">        Kojo     Neg buy        kite            Det</item>
+    <item id="o3" line="38" tag="T">        `Kojo did not buy the kite'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="36" tag="L+LN">KO~jó    má     xO~     kátìkátì        lO!                           [Gungbe]</item>
+    <item id="c2" line="37" tag="G">Kojo     Neg buy        kite            Det</item>
+    <item id="c3" line="38" tag="T">Kojo did not buy the kite</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137409">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="303-307" line-types="L+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="303" tag="L+LN">           b. MO~pE~          lO!                        [Gungbe]</item>
+    <item id="o2" line="304" tag="B"></item>
+    <item id="o3" line="305" tag="G">               Priest         Det</item>
+    <item id="o4" line="306" tag="B"></item>
+    <item id="o5" line="307" tag="T">               `The aforementioned priest'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="303" tag="L+LN">MO~pE~          lO!                        [Gungbe]</item>
+    <item id="c2" line="304" tag="B"/>
+    <item id="c3" line="305" tag="G">Priest         Det</item>
+    <item id="c4" line="306" tag="B"/>
+    <item id="c5" line="307" tag="T">The aforementioned priest</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137412">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="348-352" line-types="L+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="348" tag="L+LN">        b. ÀlúE!         nO~    ù       gbàdó          [Gungbe]</item>
+    <item id="o2" line="349" tag="B"></item>
+    <item id="o3" line="350" tag="G">           magpie        Hab    eat     corn</item>
+    <item id="o4" line="351" tag="B"></item>
+    <item id="o5" line="352" tag="T">           `Magpie(s) habitually eat(s) corn'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="348" tag="L+LN">ÀlúE!         nO~    ù       gbàdó          [Gungbe]</item>
+    <item id="c2" line="349" tag="B"/>
+    <item id="c3" line="350" tag="G">magpie        Hab    eat     corn</item>
+    <item id="c4" line="351" tag="B"/>
+    <item id="c5" line="352" tag="T">Magpie(s) habitually eat(s) corn</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137413">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="370-374" line-types="L+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="370" tag="L+LN">        b. Àgásá         cè        éhè lO!      lE!            [Gungbe]</item>
+    <item id="o2" line="371" tag="B"></item>
+    <item id="o3" line="372" tag="G">           crab          1sg-Poss Dem Det       Numb</item>
+    <item id="o4" line="373" tag="B"></item>
+    <item id="o5" line="374" tag="T">           `These crabs of mine'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="370" tag="L+LN">Àgásá         cè        éhè lO!      lE!            [Gungbe]</item>
+    <item id="c2" line="371" tag="B"/>
+    <item id="c3" line="372" tag="G">crab          1sg-Poss Dem Det       Numb</item>
+    <item id="c4" line="373" tag="B"/>
+    <item id="c5" line="374" tag="T">These crabs of mine</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137419">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="447-451" line-types="L+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="447" tag="L+LN">        b.     [ME~]        ê       má       wà       àzO!n    má      ná       yí       kwE! [Gungbe]</item>
+    <item id="o2" line="448" tag="B"></item>
+    <item id="o3" line="449" tag="G">               One          Rel     Neg      do       work Neg         Fut      receive money</item>
+    <item id="o4" line="450" tag="B"></item>
+    <item id="o5" line="451" tag="T">               `Anyone who doesn't work will not get money'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="447" tag="L+LN">[ME~]        ê       má       wà       àzO!n    má      ná       yí       kwE! [Gungbe]</item>
+    <item id="c2" line="448" tag="B"/>
+    <item id="c3" line="449" tag="G">One          Rel     Neg      do       work Neg         Fut      receive money</item>
+    <item id="c4" line="450" tag="B"/>
+    <item id="c5" line="451" tag="T">Anyone who doesn't work will not get money</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:87]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:78]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137422">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="475-479" line-types="L+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="475" tag="L+LN">        c.     [Náwè        ê       wá       kpO!n    mì]      lO!     lE!               [Gungbe]</item>
+    <item id="o2" line="476" tag="B"></item>
+    <item id="o3" line="477" tag="G">               woman        Rel     come see          2pl      Det     Numb</item>
+    <item id="o4" line="478" tag="B"></item>
+    <item id="o5" line="479" tag="T">               `The aforementioned women that came to visit you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="475" tag="L+LN">[Náwè        ê       wá       kpO!n    mì]      lO!     lE!               [Gungbe]</item>
+    <item id="c2" line="476" tag="B"/>
+    <item id="c3" line="477" tag="G">woman        Rel     come see          2pl      Det     Numb</item>
+    <item id="c4" line="478" tag="B"/>
+    <item id="c5" line="479" tag="T">The aforementioned women that came to visit you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137433">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="1326-1330" line-types="L+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1326" tag="L+LN">        b.     [ME~]          ê         má       wà      àzO!n   má          ná     yí     kwE!     [Gungbe]</item>
+    <item id="o2" line="1327" tag="B"></item>
+    <item id="o3" line="1328" tag="G">               One            Rel       Neg      do      work Neg            Fut    receive money</item>
+    <item id="o4" line="1329" tag="B"></item>
+    <item id="o5" line="1330" tag="T">               `Anyone who doesn't work will not get money'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1326" tag="L+LN">[ME~]          ê         má       wà      àzO!n   má          ná     yí     kwE!     [Gungbe]</item>
+    <item id="c2" line="1327" tag="B"/>
+    <item id="c3" line="1328" tag="G">One            Rel       Neg      do      work Neg            Fut    receive money</item>
+    <item id="c4" line="1329" tag="B"/>
+    <item id="c5" line="1330" tag="T">Anyone who doesn't work will not get money</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:93]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:82]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137436">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="1350-1354" line-types="L+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1350" tag="L+LN">        c.     [Náwè          ê         wá       kpO!n   mì]     lO!         lE!           [Gungbe]</item>
+    <item id="o2" line="1351" tag="B"></item>
+    <item id="o3" line="1352" tag="G">               woman          Rel       come see         2pl     Det         Numb</item>
+    <item id="o4" line="1353" tag="B"></item>
+    <item id="o5" line="1354" tag="T">               `The aforementioned women that came to visit you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1350" tag="L+LN">[Náwè          ê         wá       kpO!n   mì]     lO!         lE!           [Gungbe]</item>
+    <item id="c2" line="1351" tag="B"/>
+    <item id="c3" line="1352" tag="G">woman          Rel       come see         2pl     Det         Numb</item>
+    <item id="c4" line="1353" tag="B"/>
+    <item id="c5" line="1354" tag="T">The aforementioned women that came to visit you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137437">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="1438-1442" line-types="L+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1438" tag="L+LN">  (24) a. Súrù kù       mótò lO!        wá                                    [Gungbe]</item>
+    <item id="o2" line="1439" tag="B"></item>
+    <item id="o3" line="1440" tag="G">           Suru drive car       Det     come</item>
+    <item id="o4" line="1441" tag="B"></item>
+    <item id="o5" line="1442" tag="T">           `Suru drove the aforementioned car back [i.e., he came with that car]'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1438" tag="L+LN">Súrù kù       mótò lO!        wá                                    [Gungbe]</item>
+    <item id="c2" line="1439" tag="B"/>
+    <item id="c3" line="1440" tag="G">Suru drive car       Det     come</item>
+    <item id="c4" line="1441" tag="B"/>
+    <item id="c5" line="1442" tag="T">Suru drove the aforementioned car back [i.e., he came with that car]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137438">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="1444-1448" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1444" tag="L">       b. Súrù kù       mótò é          wá</item>
+    <item id="o2" line="1445" tag="B"></item>
+    <item id="o3" line="1446" tag="G">           Suru drive car       Det     come</item>
+    <item id="o4" line="1447" tag="B"></item>
+    <item id="o5" line="1448" tag="T">           `Suru drove some car back [i.e., he came with a certain car]'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1444" tag="L">Súrù kù       mótò é          wá</item>
+    <item id="c2" line="1445" tag="B"/>
+    <item id="c3" line="1446" tag="G">Suru drive car       Det     come</item>
+    <item id="c4" line="1447" tag="B"/>
+    <item id="c5" line="1448" tag="T">Suru drove some car back [i.e., he came with a certain car]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137439">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="1450-1452" line-types="L B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1450" tag="L">       c. *Súrù         kù      mótò lO!       é        wá</item>
+    <item id="o2" line="1451" tag="B"></item>
+    <item id="o3" line="1452" tag="G">           Suru         drive car       Det    Det      come</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1450" tag="L">*Súrù         kù      mótò lO!       é        wá</item>
+    <item id="c2" line="1451" tag="B"/>
+    <item id="c3" line="1452" tag="G">Suru         drive car       Det    Det      come</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137440">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="1454-1458" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1454" tag="L">       d. Súrù kù       mótò lO!        lE!    wá</item>
+    <item id="o2" line="1455" tag="B"></item>
+    <item id="o3" line="1456" tag="G">           Suru drive car       Det     Numb come</item>
+    <item id="o4" line="1457" tag="B"></item>
+    <item id="o5" line="1458" tag="T">           `Suru drove the aforementioned cars back [i.e., he came with those cars]'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1454" tag="L">Súrù kù       mótò lO!        lE!    wá</item>
+    <item id="c2" line="1455" tag="B"/>
+    <item id="c3" line="1456" tag="G">Suru drive car       Det     Numb come</item>
+    <item id="c4" line="1457" tag="B"/>
+    <item id="c5" line="1458" tag="T">Suru drove the aforementioned cars back [i.e., he came with those cars]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:71]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137441">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="1460-1464" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1460" tag="L">       e. Súrù kù       mótò é          lE!    wá</item>
+    <item id="o2" line="1461" tag="B"></item>
+    <item id="o3" line="1462" tag="G">           Suru drive car       Det     Numb come</item>
+    <item id="o4" line="1463" tag="B"></item>
+    <item id="o5" line="1464" tag="T">           `Suru drove some cars back [i.e., he came with certain specific cars]'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1460" tag="L">Súrù kù       mótò é          lE!    wá</item>
+    <item id="c2" line="1461" tag="B"/>
+    <item id="c3" line="1462" tag="G">Suru drive car       Det     Numb come</item>
+    <item id="c4" line="1463" tag="B"/>
+    <item id="c5" line="1464" tag="T">Suru drove some cars back [i.e., he came with certain specific cars]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137445">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="1556-1560" line-types="L+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1556" tag="L+LN">  (27) a. Ùn      xO~   gíntá  mí mO~ tò cO!fù           mE~ égbè àfO!nú        lO!    [Gungbe]</item>
+    <item id="o2" line="1557" tag="B"></item>
+    <item id="o3" line="1558" tag="G">           1sg buy      guitar that 1pl see at shop      in today morning Det</item>
+    <item id="o4" line="1559" tag="B"></item>
+    <item id="o5" line="1560" tag="T">           `I bought that guitar that we saw in the shop this morning'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1556" tag="L+LN">Ùn      xO~   gíntá  mí mO~ tò cO!fù           mE~ égbè àfO!nú        lO!    [Gungbe]</item>
+    <item id="c2" line="1557" tag="B"/>
+    <item id="c3" line="1558" tag="G">1sg buy      guitar that 1pl see at shop      in today morning Det</item>
+    <item id="c4" line="1559" tag="B"/>
+    <item id="c5" line="1560" tag="T">I bought that guitar that we saw in the shop this morning</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137446">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="1562-1572" line-types="L B G B L B G B T B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1562" tag="L">       b. Ùn      mO~   gíntá é         égbè   àfO!nú,    má              sO!   flín</item>
+    <item id="o2" line="1563" tag="B"></item>
+    <item id="o3" line="1564" tag="G">           1sg see      guitar Det      today morning 1sg-Neg             again remember</item>
+    <item id="o4" line="1565" tag="B"></item>
+    <item id="o5" line="1566" tag="L">           mákù         étO~n           àmO!n é          ì        gíntá         tòwè     lO! káká</item>
+    <item id="o6" line="1567" tag="B"></item>
+    <item id="o7" line="1568" tag="G">           trade.mark 3sg-Poss          but    3sg       resemble guitar        2sg-Poss Det a lot</item>
+    <item id="o8" line="1569" tag="B"></item>
+    <item id="o9" line="1570" tag="T">           `I saw a certain guitar this morning, I can't remember its trade mark but it really</item>
+    <item id="o10" line="1571" tag="B"></item>
+    <item id="o11" line="1572" tag="T">           looked like that guitar of yours'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1562" tag="L">Ùn      mO~   gíntá é         égbè   àfO!nú,    má              sO!   flín</item>
+    <item id="c2" line="1563" tag="B"/>
+    <item id="c3" line="1564" tag="G">1sg see      guitar Det      today morning 1sg-Neg             again remember</item>
+    <item id="c4" line="1565" tag="B"/>
+    <item id="c5" line="1566" tag="L">mákù         étO~n           àmO!n é          ì        gíntá         tòwè     lO! káká</item>
+    <item id="c6" line="1567" tag="B"/>
+    <item id="c7" line="1568" tag="G">trade.mark 3sg-Poss          but    3sg       resemble guitar        2sg-Poss Det a lot</item>
+    <item id="c8" line="1569" tag="B"/>
+    <item id="c9" line="1570" tag="T">I saw a certain guitar this morning, I can't remember its trade mark but it really</item>
+    <item id="c10" line="1571" tag="B"/>
+    <item id="c11" line="1572" tag="T">looked like that guitar of yours</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+    <item id="p1" content="c5[0:86]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:77]" alignment="p1"/>
+    <item id="g1" content="c7[0:87]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:82]" alignment="p2"/>
+    <item id="t1" content="c11[0:32]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i137452">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="1820-1824" line-types="L+LN B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1820" tag="L+LN">  (31) a. Dàwè              lO!   sín     xwé    lO!                [Gungbe]</item>
+    <item id="o2" line="1821" tag="B"></item>
+    <item id="o3" line="1822" tag="G">           man              Det   Poss    house Det</item>
+    <item id="o4" line="1823" tag="B"></item>
+    <item id="o5" line="1824" tag="T+EX">           `The man's house [i.e., the aforementioned house of the aforementioned man]'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1820" tag="L+LN">Dàwè              lO!   sín     xwé    lO!                [Gungbe]</item>
+    <item id="c2" line="1821" tag="B"/>
+    <item id="c3" line="1822" tag="G">man              Det   Poss    house Det</item>
+    <item id="c4" line="1823" tag="B"/>
+    <item id="c5" line="1824" tag="T+EX">The man's house [i.e., the aforementioned house of the aforementioned man]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137453">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="1826-1830" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1826" tag="L">       b. Òxwé              Dàwè lO!      tO~n   lO!</item>
+    <item id="o2" line="1827" tag="B"></item>
+    <item id="o3" line="1828" tag="G">           House            man   Det     Poss   Det</item>
+    <item id="o4" line="1829" tag="B"></item>
+    <item id="o5" line="1830" tag="T+EX">           `The man's house [i.e., the aforementioned house of the aforementioned man]''</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1826" tag="L">Òxwé              Dàwè lO!      tO~n   lO!</item>
+    <item id="c2" line="1827" tag="B"/>
+    <item id="c3" line="1828" tag="G">House            man   Det     Poss   Det</item>
+    <item id="c4" line="1829" tag="B"/>
+    <item id="c5" line="1830" tag="T+EX">The man's house [i.e., the aforementioned house of the aforementioned man]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137459">
+  <metadata type="xigt-meta">
+    <meta type="language" name="gungbe" iso-639-3="guw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3757" line-range="1920-1924" line-types="L+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1920" tag="L+LN">       b. Náwè           [      ùn      mO~n    tò     àxìmE~] lO!            [Gungbe]</item>
+    <item id="o2" line="1921" tag="B"></item>
+    <item id="o3" line="1922" tag="G">           woman         that   1sg     see     at     market Det</item>
+    <item id="o4" line="1923" tag="B"></item>
+    <item id="o5" line="1924" tag="T">           `That aforementioned woman that I saw at the market'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1920" tag="L+LN">Náwè           [      ùn      mO~n    tò     àxìmE~] lO!            [Gungbe]</item>
+    <item id="c2" line="1921" tag="B"/>
+    <item id="c3" line="1922" tag="G">woman         that   1sg     see     at     market Det</item>
+    <item id="c4" line="1923" tag="B"/>
+    <item id="c5" line="1924" tag="T">That aforementioned woman that I saw at the market</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

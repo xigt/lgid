@@ -7,6 +7,8 @@ Usage:
   lgid [-v...] test     --model=PATH  CONFIG INFILE...
   lgid [-v...] list-mentions          CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
+  lgid [-v...] build-odin-lm          CONFIG
+
 
 Commands:
   train                     train a model from supervised data
@@ -64,6 +66,9 @@ from lgid.features import (
     l_features,
     m_features,
 )
+from lgid.buildlms import (
+    build_from_odin
+)
 
 
 def main():
@@ -84,6 +89,8 @@ def main():
         list_mentions(infiles, config)
     elif args['download-crubadan-data']:
         download_crubadan_data(config)
+    elif args['build-odin-lm']:
+        build_odin_lm(config)
 
 
 def train(infiles, modelpath, config):
@@ -284,6 +291,19 @@ def download_crubadan_data(config):
 
     logging.info('Successfully downloaded {} files from Crubadan'.format(i))
     logging.info('Successfully extracted {} files from Crubadan'.format(j))
+
+
+def build_odin_lm(config):
+    """
+    Build the LMs from the odin data
+    """
+    logging.info('Building ODIN LMs')
+    indirec = config['locations']['odin-source']
+    outdirec = config['locations']['odin-language-model']
+    nc = config['parameters']['character-n-gram-size']
+    nw = config['parameters']['word-n-gram-size']
+    build_from_odin(indirec, outdirec, nc, nw)
+    logging.info('Successfully built ODIN LMs')
 
 
 if __name__ == '__main__':

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i18587">
+  <metadata type="xigt-meta">
+    <meta type="language" name="solos" iso-639-3="sol" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="206-208" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="206" tag="L">         b. na       pinipo      e      ka-o-gu-a-na             i   nova</item>
+    <item id="o2" line="207" tag="G">            ART      village     PM be-TA-1SGS-LOC-I             ART PN</item>
+    <item id="o3" line="208" tag="T+AC+LN">            `The village I live at is Nova.' (Solos - Ross 1988:234)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="206" tag="L">na       pinipo      e      ka-o-gu-a-na             i   nova</item>
+    <item id="c2" line="207" tag="G">ART      village     PM be-TA-1SGS-LOC-I             ART PN</item>
+    <item id="c3" line="208" tag="T+AC+LN">The village I live at is Nova.' (Solos-Ross 1988:234)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18590">
+  <metadata type="xigt-meta">
+    <meta type="language" name="solos" iso-639-3="sol" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="220-222" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="220" tag="L">  (18)   a. n-e       kui-gu-a            o      tsinih pea tun</item>
+    <item id="o2" line="221" tag="G">            I-PM build-1SGS-FUT ART canoe big                    very</item>
+    <item id="o3" line="222" tag="T+AC+LN">            `I shall build a very big canoe.' (Solos - Ross 1982:23)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="220" tag="L">n-e       kui-gu-a            o      tsinih pea tun</item>
+    <item id="c2" line="221" tag="G">I-PM build-1SGS-FUT ART canoe big                    very</item>
+    <item id="c3" line="222" tag="T+AC+LN">I shall build a very big canoe.' (Solos-Ross 1982:23)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18594">
+  <metadata type="xigt-meta">
+    <meta type="language" name="solos" iso-639-3="sol" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="243-245" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="243" tag="L">  (20)      no      hen no-m-a                   a      tsi pos mahu</item>
+    <item id="o2" line="244" tag="G">            youSG eat       PROG-2SGS-FUT ART bit taro tomorrow</item>
+    <item id="o3" line="245" tag="T+AC+LN">            `You will be eating taro tomorrow.' (Solos - Ross 1982:23)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="243" tag="L">no      hen no-m-a                   a      tsi pos mahu</item>
+    <item id="c2" line="244" tag="G">youSG eat       PROG-2SGS-FUT ART bit taro tomorrow</item>
+    <item id="c3" line="245" tag="T+AC+LN">You will be eating taro tomorrow.' (Solos-Ross 1982:23)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

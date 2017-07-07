@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i48574">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tamang" iso-639-3="taj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="488-491" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="488" tag="L+CR">  (39) a. ná-la            tìm     caca mú-la</item>
+    <item id="o2" line="489" tag="L+CR">                                     TM</item>
+    <item id="o3" line="490" tag="G">              1SG-GEN house small be-INDEF</item>
+    <item id="o4" line="491" tag="T">              `my house is small'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="488" tag="L+CR">ná-la            tìm     caca mú-la</item>
+    <item id="c3" line="490" tag="G">1SG-GEN house small be-INDEF</item>
+    <item id="c4" line="491" tag="T">my house is small</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48575">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tamang" iso-639-3="taj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3428" line-range="492-495" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="492" tag="L+CR">         b. cu· mento caca</item>
+    <item id="o2" line="493" tag="L+CR">                        TM      TM</item>
+    <item id="o3" line="494" tag="G">              this flower small</item>
+    <item id="o4" line="495" tag="T">              `this flower is small'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="492" tag="L+CR">cu· mento caca</item>
+    <item id="c3" line="494" tag="G">this flower small</item>
+    <item id="c4" line="495" tag="T">this flower is small</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i149223">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mali" iso-639-3="gcc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="791" line-range="929-933" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="929" tag="L+CR">               * Wot nit pahtoliyas½ kisi-yuh-uk                                                                ½</item>
+    <item id="o2" line="930" tag="L+CR">                                                           Mali È wen kisi-komutonom-at/c-il</item>
+    <item id="o3" line="931" tag="L+CR">          b.                                                                                           t            .</item>
+    <item id="o4" line="932" tag="G">                 this that priest          Perf-tell-1Conj M.      who Perf-steal.from-3Conj-(PartObv)</item>
+    <item id="o5" line="933" tag="T">                 `This is the priest that I told Mary who robbed.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="929 930 931" tag="L+CR">* Wot nit pahtoliyas½ kisi-yuh-uk          Mali È wen kisi-komutonom-at/c-il          t         ½ .</item>
+    <item id="c4" line="932" tag="G">this that priest          Perf-tell-1Conj M.      who Perf-steal.from-3Conj-(PartObv)</item>
+    <item id="c5" line="933" tag="T">This is the priest that I told Mary who robbed.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:99]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:85]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

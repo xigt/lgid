@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i14661">
+  <metadata type="xigt-meta">
+    <meta type="language" name="picuris" iso-639-3="twf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3533" line-range="2856-2860" line-types="L+CR L+AC+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2856" tag="L+CR">                    ti-mon-'p</item>
+    <item id="o2" line="2857" tag="L+AC+CR">  (122) sanene                                                    (Zaharlick 1982)</item>
+    <item id="o3" line="2858" tag="G+CR">                    1sg:IIA see-PAST</item>
+    <item id="o4" line="2859" tag="G+CR">        man</item>
+    <item id="o5" line="2860" tag="T">        'I saw the man.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2856 2857" tag="L+CR+AC">sanene      ti-mon-'p                                     (Zaharlick 1982</item>
+    <item id="c3" line="2858 2859" tag="G+CR">man         1sg:IIA see-PAST</item>
+    <item id="c5" line="2860" tag="T">I saw the man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14662">
+  <metadata type="xigt-meta">
+    <meta type="language" name="picuris" iso-639-3="twf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3533" line-range="2867-2870" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2867" tag="L+CR">                               sanene-pa</item>
+    <item id="o2" line="2868" tag="L+CR">  (123) ta-mon-mia-'zp</item>
+    <item id="o3" line="2869" tag="G">        1sg:I-see-PASS-PAST man-OBL</item>
+    <item id="o4" line="2870" tag="T">        '1 am seen by the man.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2867 2868" tag="L+CR">ta-mon-mia-'zp         sanene-pa</item>
+    <item id="c3" line="2869" tag="G">1sg:I-see-PASS-PAST man-OBL</item>
+    <item id="c4" line="2870" tag="T">1 am seen by the man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14663">
+  <metadata type="xigt-meta">
+    <meta type="language" name="picuris" iso-639-3="twf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3533" line-range="2882-2884" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2882" tag="L">  (124) ta-me'p</item>
+    <item id="o2" line="2883" tag="G">        1sg-I go-PAST</item>
+    <item id="o3" line="2884" tag="T">        '1 went.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2882" tag="L">ta-me'p</item>
+    <item id="c2" line="2883" tag="G">1sg-I go-PAST</item>
+    <item id="c3" line="2884" tag="T">1 went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14664">
+  <metadata type="xigt-meta">
+    <meta type="language" name="picuris" iso-639-3="twf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3533" line-range="2904-2908" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2904" tag="L+CR">                      0-mon-'qn</item>
+    <item id="o2" line="2905" tag="L+CR">  (125)(sanene)</item>
+    <item id="o3" line="2906" tag="G+CR">                   3SG:iiA see-PAST</item>
+    <item id="o4" line="2907" tag="G+CR">        (man)</item>
+    <item id="o5" line="2908" tag="T">        'He (the man) saw him.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2904 2905" tag="L+CR">(sanene)       0-mon-'qn</item>
+    <item id="c3" line="2906 2907" tag="G+CR">(man)      3SG:iiA see-PAST</item>
+    <item id="c5" line="2908" tag="T">He (the man) saw him.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14665">
+  <metadata type="xigt-meta">
+    <meta type="language" name="picuris" iso-639-3="twf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3533" line-range="2918-2920" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2918" tag="L">  (126) 0-mon-mia-'y          sanene-pa</item>
+    <item id="o2" line="2919" tag="G">        3SG:I see-PASS-PAST man-OBL</item>
+    <item id="o3" line="2920" tag="T">        'He was seen by the man.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2918" tag="L">0-mon-mia-'y          sanene-pa</item>
+    <item id="c2" line="2919" tag="G">3SG:I see-PASS-PAST man-OBL</item>
+    <item id="c3" line="2920" tag="T">He was seen by the man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14666">
+  <metadata type="xigt-meta">
+    <meta type="language" name="picuris" iso-639-3="twf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3533" line-range="2928-2931" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2928" tag="L+CR">           0-mon-mia-' y</item>
+    <item id="o2" line="2929" tag="L+CR">  ( 127)</item>
+    <item id="o3" line="2930" tag="G">           3SG:I see-PASS-PAST</item>
+    <item id="o4" line="2931" tag="T">           'He was seen.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2928 2929" tag="L+CR">0-mon-mia-' y</item>
+    <item id="c3" line="2930" tag="G">3SG:I see-PASS-PAST</item>
+    <item id="c4" line="2931" tag="T">He was seen.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i16187">
+  <metadata type="xigt-meta">
+    <meta type="language" name="picuris" iso-639-3="twf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="9047-9054" line-types="M+AC+LN+CR+EX B L+DB+CR L+DB+CR L+DB+CR B G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9047" tag="M+AC+LN+CR+EX">  (6) P   ICURÍS CLAUSES WITH TWO ARGUMENTS (Klaiman 1991:215f)</item>
+    <item id="o2" line="9048" tag="B"></item>
+    <item id="o3" line="9049" tag="L+DB+CR">       a. Snene                                                      snene-pa.</item>
+    <item id="o4" line="9050" tag="L+DB+CR">                     ti-mon-'n.</item>
+    <item id="o5" line="9051" tag="L+DB+CR">                                               Ta-mon-mia-'n</item>
+    <item id="o6" line="9052" tag="B"></item>
+    <item id="o7" line="9053" tag="G+DB">           man       1sII-see-PT               1sI-see-MIA-PT        man-OBL</item>
+    <item id="o8" line="9054" tag="T+DB">           `I saw the man.'                    `The man saw me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9047" tag="M+AC+LN+CR+EX">P   ICURÍS CLAUSES WITH TWO ARGUMENTS (Klaiman 1991:215f</item>
+    <item id="c2" line="9048" tag="B"/>
+    <item id="c3" line="9049 9050 9051" tag="L+DB+CR">Snene      ti-mon-'n.                Ta-mon-mia-'n         snene-pa.</item>
+    <item id="c6" line="9052" tag="B"/>
+    <item id="c7" line="9053" tag="G+DB">man       1sII-see-PT               1sI-see-MIA-PT        man-OBL</item>
+    <item id="c8" line="9054" tag="T+DB">I saw the man.'                    `The man saw me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i16188">
+  <metadata type="xigt-meta">
+    <meta type="language" name="picuris" iso-639-3="twf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="9055-9060" line-types="L+DB+CR L+DB+CR L+DB+CR B G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9055" tag="L+DB+CR">       b. Snene                                                      snene-pa.</item>
+    <item id="o2" line="9056" tag="L+DB+CR">                     'a-mon-'n.</item>
+    <item id="o3" line="9057" tag="L+DB+CR">                                               'A-mon-mia-'n</item>
+    <item id="o4" line="9058" tag="B"></item>
+    <item id="o5" line="9059" tag="G+DB">           man       2sII-see-PT               2sI-see-MIA-PT        man-OBL</item>
+    <item id="o6" line="9060" tag="T+DB">           `Yous saw the man.'                 `The man saw yous.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9055 9056 9057" tag="L+DB+CR">Snene      'a-mon-'n.                'A-mon-mia-'n         snene-pa.</item>
+    <item id="c4" line="9058" tag="B"/>
+    <item id="c5" line="9059" tag="G+DB">man       2sII-see-PT               2sI-see-MIA-PT        man-OBL</item>
+    <item id="c6" line="9060" tag="T+DB">Yous saw the man.'                 `The man saw yous.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i16189">
+  <metadata type="xigt-meta">
+    <meta type="language" name="picuris" iso-639-3="twf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3537" line-range="9061-9066" line-types="L+DB+CR L+DB+CR L+DB+CR B G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9061" tag="L+DB+CR">       c. Snene                                                      snene-pa.</item>
+    <item id="o2" line="9062" tag="L+DB+CR">                     Ø-mon-'n.</item>
+    <item id="o3" line="9063" tag="L+DB+CR">                                               Ø-Mon-mia-'n</item>
+    <item id="o4" line="9064" tag="B"></item>
+    <item id="o5" line="9065" tag="G+DB">           man       3sII-see-PT               3sI-see-MIA-PT        man-OBL</item>
+    <item id="o6" line="9066" tag="T+DB">           `She saw the man.'                  `The man saw her.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9061 9062 9063" tag="L+DB+CR">Snene      Ø-mon-'n.                Ø-Mon-mia-'n         snene-pa.</item>
+    <item id="c4" line="9064" tag="B"/>
+    <item id="c5" line="9065" tag="G+DB">man       3sII-see-PT               3sI-see-MIA-PT        man-OBL</item>
+    <item id="c6" line="9066" tag="T+DB">She saw the man.'                  `The man saw her.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41663">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern tiwa" iso-639-3="twf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3517" line-range="518-521" line-types="M+AC+LN L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="518" tag="M+AC+LN">  (24) Picurís (= Northern Tiwa) (Zaharlick 1982:35-41)</item>
+    <item id="o2" line="519" tag="L+EX">      a. (2&gt;3) Snene a-mn-n.</item>
+    <item id="o3" line="520" tag="G">                   man    2SG-see-PST</item>
+    <item id="o4" line="521" tag="T">                   'You saw the man.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="518" tag="M+AC+LN">Picurís (= Northern Tiwa) (Zaharlick 1982:35-41</item>
+    <item id="c2" line="519" tag="L+EX">(2&gt;3) Snene a-mn-n.</item>
+    <item id="c3" line="520" tag="G">man    2SG-see-PST</item>
+    <item id="c4" line="521" tag="T">You saw the man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41664">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern tiwa" iso-639-3="twf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3517" line-range="523-526" line-types="L+CR L+CR+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="523" tag="L+CR">                   May-mn-n.</item>
+    <item id="o2" line="524" tag="L+CR+EX">      b. (2&gt;1)</item>
+    <item id="o3" line="525" tag="G">                   2&gt;1-see-PST</item>
+    <item id="o4" line="526" tag="T">                   'You saw me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="523 524" tag="L+CR+EX">(2&gt;1)     May-mn-n.</item>
+    <item id="c3" line="525" tag="G">2&gt;1-see-PST</item>
+    <item id="c4" line="526" tag="T">You saw me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41665">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern tiwa" iso-639-3="twf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3517" line-range="528-531" line-types="L+CR L+CR+EX G T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="528" tag="L+CR">                   a-mn-mia-n snene-pa.</item>
+    <item id="o2" line="529" tag="L+CR+EX">      c.   (3&gt;2)</item>
+    <item id="o3" line="530" tag="G">                   2SG-see-PASS-PST   man-OBL</item>
+    <item id="o4" line="531" tag="T+DB">                   'The man saw you.' ("You were seen by the man.")</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="528 529" tag="L+CR+EX">(3&gt;2)   a-mn-mia-n snene-pa.</item>
+    <item id="c3" line="530" tag="G">2SG-see-PASS-PST   man-OBL</item>
+    <item id="c4" line="531" tag="T+DB">The man saw you.' ("You were seen by the man.")</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41666">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern tiwa" iso-639-3="twf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3517" line-range="533-536" line-types="L+CR L+CR+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="533" tag="L+CR">                   Snene Ø-mn-n.</item>
+    <item id="o2" line="534" tag="L+CR+EX">      d. (3&gt;3)</item>
+    <item id="o3" line="535" tag="G">                   man    3SG-see-PST</item>
+    <item id="o4" line="536" tag="T">                   'The man saw him.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="533 534" tag="L+CR+EX">(3&gt;3)     Snene Ø-mn-n.</item>
+    <item id="c3" line="535" tag="G">man    3SG-see-PST</item>
+    <item id="c4" line="536" tag="T">The man saw him.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41667">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern tiwa" iso-639-3="twf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3517" line-range="538-541" line-types="L+CR L+CR+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="538" tag="L+CR">                   Mn-mia-n snene-pa.</item>
+    <item id="o2" line="539" tag="L+CR+EX">      e.   (3&gt;3)</item>
+    <item id="o3" line="540" tag="G">                   see-PASS-PST     man-OBL</item>
+    <item id="o4" line="541" tag="T">                   'He was seen by the man.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="538 539" tag="L+CR+EX">(3&gt;3)   Mn-mia-n snene-pa.</item>
+    <item id="c3" line="540" tag="G">see-PASS-PST     man-OBL</item>
+    <item id="c4" line="541" tag="T">He was seen by the man.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

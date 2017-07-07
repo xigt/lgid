@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i27936">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="868" line-range="940-942" line-types="L+LN G+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="940" tag="L+LN">    (37)        Aku te-gitaq           isiq    Ali                           (MenoÂ-MeneÂ Sasak)</item>
+    <item id="o2" line="941" tag="G+AC">                1s      PASS-see       by      NAME                          (Austin 2002)</item>
+    <item id="o3" line="942" tag="T">                'I was seen by Ali'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="940" tag="L+LN">Aku te-gitaq           isiq    Ali                           (MenoÂ-MeneÂ Sasak</item>
+    <item id="c2" line="941" tag="G+AC">1s      PASS-see       by      NAME                          (Austin 2002)</item>
+    <item id="c3" line="942" tag="T">I was seen by Ali</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27952">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="868" line-range="1209-1211" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1209" tag="L+AC">    (45) a.     Yaq=n         gitaq kanak-kanak=no            isiq    Herman         (Austin 2002)</item>
+    <item id="o2" line="1210" tag="G">                fut=3         see     child-child=tjat        by      NAME</item>
+    <item id="o3" line="1211" tag="T">                `Herman will see the children'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1209" tag="L+AC">a.     Yaq=n         gitaq kanak-kanak=no            isiq    Herman         (Austin 2002</item>
+    <item id="c2" line="1210" tag="G">fut=3         see     child-child=tjat        by      NAME</item>
+    <item id="c3" line="1211" tag="T">Herman will see the children</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:88]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27953">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="868" line-range="1213-1215" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1213" tag="L">         b.     Aku te-gitaq           isiq    Ali</item>
+    <item id="o2" line="1214" tag="G">                1s      PASS-see       by      NAME</item>
+    <item id="o3" line="1215" tag="T">                'I was seen by Ali'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1213" tag="L">Aku te-gitaq           isiq    Ali</item>
+    <item id="c2" line="1214" tag="G">1s      PASS-see       by      NAME</item>
+    <item id="c3" line="1215" tag="T">I was seen by Ali</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29511">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="244-244" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="244" tag="L-T+SY">  P NP       kance Ali                                   `with Ali'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="244" tag="L-T+SY">P NP       kance Ali                                   `with Ali</item>
+  </tier>
+</igt>
+<igt id="i29512">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="245-245" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="245" tag="L-T">             léq balé beléq nó                           `in that big house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="245" tag="L-T">léq balé beléq nó                           `in that big house</item>
+  </tier>
+</igt>
+<igt id="i29513">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="248-248" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="248" tag="L-T+SY">  Adj PP          senang léq hal nó                     `pleased about that matter'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="248" tag="L-T+SY">Adj PP          senang léq hal nó                     `pleased about that matter</item>
+  </tier>
+</igt>
+<igt id="i29514">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="249-249" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="249" tag="L-T+SY">  Adj PP          puas isiq kakenan ni                  `satisfied with this food'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="249" tag="L-T+SY">Adj PP          puas isiq kakenan ni                  `satisfied with this food</item>
+  </tier>
+</igt>
+<igt id="i29515">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="250-250" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="250" tag="L-T+SY">  Adj Adv         beléq lalòq                           `very big'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="250" tag="L-T+SY">Adj Adv         beléq lalòq                           `very big</item>
+  </tier>
+</igt>
+<igt id="i29516">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="253-253" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="253" tag="L-T+SY">  V PP            bedait kance Ali                       `meet with Ali'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="253" tag="L-T+SY">V PP            bedait kance Ali                       `meet with Ali</item>
+  </tier>
+</igt>
+<igt id="i29517">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="254-254" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="254" tag="L-T">                  tòkòl léq góbuk                        `stand in the village'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="254" tag="L-T">tòkòl léq góbuk                        `stand in the village</item>
+  </tier>
+</igt>
+<igt id="i29518">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="255-255" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="255" tag="L-T+SY">  V NP            mpuk acòng nó                          `hit that dog'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="255" tag="L-T+SY">V NP            mpuk acòng nó                          `hit that dog</item>
+  </tier>
+</igt>
+<igt id="i29519">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="256-256" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="256" tag="L-T+SY">  V NP PP         bèng hadiah ni jòk guru nó             `give this present to the teacher'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="256" tag="L-T+SY">V NP PP         bèng hadiah ni jòk guru nó             `give this present to the teacher</item>
+  </tier>
+</igt>
+<igt id="i29520">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="257-257" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="257" tag="L-T">                  jauq kedelé jòk peken                  `carry soybeans to market'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="257" tag="L-T">jauq kedelé jòk peken                  `carry soybeans to market</item>
+  </tier>
+</igt>
+<igt id="i29521">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="265-265" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="265" tag="L-T+SY">  N AP            kanak beléq lalòq                       `very big child'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="265" tag="L-T+SY">N AP            kanak beléq lalòq                       `very big child</item>
+  </tier>
+</igt>
+<igt id="i29522">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="266-266" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="266" tag="L-T+SY">  N PP            dengan éléq Penujaq                     `person from Penujaq'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="266" tag="L-T+SY">N PP            dengan éléq Penujaq                     `person from Penujaq</item>
+  </tier>
+</igt>
+<igt id="i29523">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="267-267" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="267" tag="L-T">                  balé léq góbuk nó                       `house in that village'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="267" tag="L-T">balé léq góbuk nó                       `house in that village</item>
+  </tier>
+</igt>
+<igt id="i29524">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="268-268" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="268" tag="L-T+SY">  N NPposs        balén Ali                               `Ali's house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="268" tag="L-T+SY">N NPposs        balén Ali                               `Ali's house</item>
+  </tier>
+</igt>
+<igt id="i29525">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="269-269" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="269" tag="L-T">                  semetòn dengan beléq nó                 `brother of that big man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="269" tag="L-T">semetòn dengan beléq nó                 `brother of that big man</item>
+  </tier>
+</igt>
+<igt id="i29526">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="270-270" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="270" tag="L-T+SY">  N relC          buku saq beléq lalòq                    `book which is very big'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="270" tag="L-T+SY">N relC          buku saq beléq lalòq                    `book which is very big</item>
+  </tier>
+</igt>
+<igt id="i29527">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="271-271" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="271" tag="L-T">                  buku saq kanak bace                     `book which the child is reading'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="271" tag="L-T">buku saq kanak bace                     `book which the child is reading</item>
+  </tier>
+</igt>
+<igt id="i29528">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="272-272" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="272" tag="L-T">                  kanak saq mpuk acòng nó                 `the child who hit the dog'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="272" tag="L-T">kanak saq mpuk acòng nó                 `the child who hit the dog</item>
+  </tier>
+</igt>
+<igt id="i29529">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="275-275" line-types="L-T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="275" tag="L-T+SY">  N Dem           dengan ni                               `this person'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="275" tag="L-T+SY">N Dem           dengan ni                               `this person</item>
+  </tier>
+</igt>
+<igt id="i29530">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="276-276" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="276" tag="L-T">                  balé nó                                 `that house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="276" tag="L-T">balé nó                                 `that house</item>
+  </tier>
+</igt>
+<igt id="i29531">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="277-277" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="277" tag="L-T">                  dengan sai                              `which person?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="277" tag="L-T">dengan sai                              `which person?</item>
+  </tier>
+</igt>
+<igt id="i29532">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="278-278" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="278" tag="L-T">                  balé saq mbé                            `which house?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="278" tag="L-T">balé saq mbé                            `which house?</item>
+  </tier>
+</igt>
+<igt id="i29533">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="349-351" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="349" tag="L">  (18)      Ime-n           Aózar            kaput=ne         isiq       Ali</item>
+    <item id="o2" line="350" tag="G">            hand-link       Aozar            bandage=3        by         Ali</item>
+    <item id="o3" line="351" tag="T">            `Ali bandaged Aozar's hand'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="349" tag="L">Ime-n           Aózar            kaput=ne         isiq       Ali</item>
+    <item id="c2" line="350" tag="G">hand-link       Aozar            bandage=3        by         Ali</item>
+    <item id="c3" line="351" tag="T">Ali bandaged Aozar's hand</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29534">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="353-355" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="353" tag="L">  (19)      Ali             ngaput=ne        ime-n            Aózar</item>
+    <item id="o2" line="354" tag="G">            Ali             N.bandage=3      hand-link        Aozar</item>
+    <item id="o3" line="355" tag="T">            `Ali bandaged Aozar's hand'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="353" tag="L">Ali             ngaput=ne        ime-n            Aózar</item>
+    <item id="c2" line="354" tag="G">Ali             N.bandage=3      hand-link        Aozar</item>
+    <item id="c3" line="355" tag="T">Ali bandaged Aozar's hand</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29535">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="370-372" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="370" tag="L">  (20)      Kanak=nó             bace          buku=ni</item>
+    <item id="o2" line="371" tag="G">            child=that           read          book=this</item>
+    <item id="o3" line="372" tag="T">            `That child reads this book'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="370" tag="L">Kanak=nó             bace          buku=ni</item>
+    <item id="c2" line="371" tag="G">child=that           read          book=this</item>
+    <item id="c3" line="372" tag="T">That child reads this book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29536">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="374-376" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="374" tag="L">  (21)      Kanak=nó             m-bace</item>
+    <item id="o2" line="375" tag="G">            child=that           N-read</item>
+    <item id="o3" line="376" tag="T">            `That child is reading'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="374" tag="L">Kanak=nó             m-bace</item>
+    <item id="c2" line="375" tag="G">child=that           N-read</item>
+    <item id="c3" line="376" tag="T">That child is reading</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29537">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="384-386" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="384" tag="L">  (22) Iaq=n           gitaq          kanak-kanak=nó                     isiq      Herman</item>
+    <item id="o2" line="385" tag="G">          fut=3        see            reduplicated-child=that            by        Herman</item>
+    <item id="o3" line="386" tag="T">         `Herman will see the children.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="384" tag="L">Iaq=n           gitaq          kanak-kanak=nó                     isiq      Herman</item>
+    <item id="c2" line="385" tag="G">fut=3        see            reduplicated-child=that            by        Herman</item>
+    <item id="c3" line="386" tag="T">Herman will see the children.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:79]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29538">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="394-396" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="394" tag="L">  (23) Aku         te-gitaq         isiq      Ali</item>
+    <item id="o2" line="395" tag="G">       1sg         pass-see         by        Ali</item>
+    <item id="o3" line="396" tag="T">       `I was seen by Ali'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="394" tag="L">Aku         te-gitaq         isiq      Ali</item>
+    <item id="c2" line="395" tag="G">1sg         pass-see         by        Ali</item>
+    <item id="c3" line="396" tag="T">I was seen by Ali</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29539">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="407-409" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="407" tag="L">  (24)   Kance      guru=m         iaq=k      bedait      lèmaq</item>
+    <item id="o2" line="408" tag="G">         with       teacher=2      fut=1sg    meet        tomorrow</item>
+    <item id="o3" line="409" tag="T">         `It's with your teacher that I will meet tomorrow'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="407" tag="L">Kance      guru=m         iaq=k      bedait      lèmaq</item>
+    <item id="c2" line="408" tag="G">with       teacher=2      fut=1sg    meet        tomorrow</item>
+    <item id="c3" line="409" tag="T">It's with your teacher that I will meet tomorrow</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29540">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="413-415" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="413" tag="L">  (25)   Lèmaq         kance      guru=m        iaq=k      bedait</item>
+    <item id="o2" line="414" tag="G">         tomorrow      with       teacher=2     fut=1sg    meet</item>
+    <item id="o3" line="415" tag="T">         `It's with your teacher that I will meet tomorrow'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="413" tag="L">Lèmaq         kance      guru=m        iaq=k      bedait</item>
+    <item id="c2" line="414" tag="G">tomorrow      with       teacher=2     fut=1sg    meet</item>
+    <item id="c3" line="415" tag="T">It's with your teacher that I will meet tomorrow</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29541">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="437-440" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="437" tag="M+CN">  Subordinate Conjunction</item>
+    <item id="o2" line="438" tag="L">  (27) Guru        iaq=n     tulak    malik     sèngaqm       mpuk=k</item>
+    <item id="o3" line="439" tag="G">        teacher    fut=3     return   again     because=2     hit=1</item>
+    <item id="o4" line="440" tag="T">        `The teacher will come back again because you hit me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="437" tag="M+CN">Subordinate Conjunction</item>
+    <item id="c2" line="438" tag="L">Guru        iaq=n     tulak    malik     sèngaqm       mpuk=k</item>
+    <item id="c3" line="439" tag="G">teacher    fut=3     return   again     because=2     hit=1</item>
+    <item id="c4" line="440" tag="T">The teacher will come back again because you hit me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29542">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="442-445" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="442" tag="M+CN">  Adverb</item>
+    <item id="o2" line="443" tag="L">  (28) Terus=k       iaq    bedait      kance       guru=nó</item>
+    <item id="o3" line="444" tag="G">        then=1       fut    meet        with        teacher=that</item>
+    <item id="o4" line="445" tag="T">        `Then I will meet that teacher'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="442" tag="M+CN">Adverb</item>
+    <item id="c2" line="443" tag="L">Terus=k       iaq    bedait      kance       guru=nó</item>
+    <item id="c3" line="444" tag="G">then=1       fut    meet        with        teacher=that</item>
+    <item id="c4" line="445" tag="T">Then I will meet that teacher</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29543">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="447-449" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="447" tag="L">  (29)   Telu      jam=k      antih=m      wah</item>
+    <item id="o2" line="448" tag="G">         three     hour=1     wait=2       already</item>
+    <item id="o3" line="449" tag="T">         `I already waited for you for three hours'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="447" tag="L">Telu      jam=k      antih=m      wah</item>
+    <item id="c2" line="448" tag="G">three     hour=1     wait=2       already</item>
+    <item id="c3" line="449" tag="T">I already waited for you for three hours</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29544">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="451-454" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="451" tag="M+CN">  AUX particle</item>
+    <item id="o2" line="452" tag="L">  (30) Inaq     iaq=n laló        jòk   peken            lèmaq</item>
+    <item id="o3" line="453" tag="G">       mother fut=3       go      to    market           tomorrow</item>
+    <item id="o4" line="454" tag="T">       `Mother will go to market tomorrow?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="451" tag="M+CN">AUX particle</item>
+    <item id="c2" line="452" tag="L">Inaq     iaq=n laló        jòk   peken            lèmaq</item>
+    <item id="c3" line="453" tag="G">mother fut=3       go      to    market           tomorrow</item>
+    <item id="c4" line="454" tag="T">Mother will go to market tomorrow?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29545">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="460-462" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="460" tag="L">  (31)     Mbé         éléq=n     tulak</item>
+    <item id="o2" line="461" tag="G">           where       from=3     return</item>
+    <item id="o3" line="462" tag="T">           `Where is he coming back from?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="460" tag="L">Mbé         éléq=n     tulak</item>
+    <item id="c2" line="461" tag="G">where       from=3     return</item>
+    <item id="c3" line="462" tag="T">Where is he coming back from?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29546">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="467-470" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="467" tag="M+CN">  Intransitive verb</item>
+    <item id="o2" line="468" tag="L">  (32)     Tulak=n      éléq    peken</item>
+    <item id="o3" line="469" tag="G">           return=3     from    market</item>
+    <item id="o4" line="470" tag="T">           `He comes back from the market'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="467" tag="M+CN">Intransitive verb</item>
+    <item id="c2" line="468" tag="L">Tulak=n      éléq    peken</item>
+    <item id="c3" line="469" tag="G">return=3     from    market</item>
+    <item id="c4" line="470" tag="T">He comes back from the market</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29547">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="474-477" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="474" tag="L+CR">          Kanak=nó      ndéq=n       iaq      mancing</item>
+    <item id="o2" line="475" tag="L+CR">  (33)</item>
+    <item id="o3" line="476" tag="G">          child=that    not=3        fut      N.fish</item>
+    <item id="o4" line="477" tag="T">          `That child will not fish'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="474 475" tag="L+CR">Kanak=nó      ndéq=n       iaq      mancing</item>
+    <item id="c3" line="476" tag="G">child=that    not=3        fut      N.fish</item>
+    <item id="c4" line="477" tag="T">That child will not fish</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29548">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="490-492" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="490" tag="L">  (34)     Iaq=m               gitaq=n       léq      peken</item>
+    <item id="o2" line="491" tag="G">           fut=2               see=3         loc      market</item>
+    <item id="o3" line="492" tag="T">           `Will you see him at the market?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="490" tag="L">Iaq=m               gitaq=n       léq      peken</item>
+    <item id="c2" line="491" tag="G">fut=2               see=3         loc      market</item>
+    <item id="c3" line="492" tag="T">Will you see him at the market?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29549">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="494-496" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="494" tag="L">  (35)     Iaq=m        bèng=k         kèpèng</item>
+    <item id="o2" line="495" tag="G">           fut=2        give-link=1sg  money</item>
+    <item id="o3" line="496" tag="T">           `Will you give me some money?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="494" tag="L">Iaq=m        bèng=k         kèpèng</item>
+    <item id="c2" line="495" tag="G">fut=2        give-link=1sg  money</item>
+    <item id="c3" line="496" tag="T">Will you give me some money?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29550">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="505-507" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="505" tag="L">  (36)     Muq=k               gitaq=n         léq    peken</item>
+    <item id="o2" line="506" tag="G">           AUX=1sg             see=3           loc    market</item>
+    <item id="o3" line="507" tag="T">           `I saw him at the market'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="505" tag="L">Muq=k               gitaq=n         léq    peken</item>
+    <item id="c2" line="506" tag="G">AUX=1sg             see=3           loc    market</item>
+    <item id="c3" line="507" tag="T">I saw him at the market</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29551">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="509-511" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="509" tag="L">  (37)     Muq=n          bace          buku=ni          isiq        kanak=nó</item>
+    <item id="o2" line="510" tag="G">           AUX=3          read          book=this        by          child=that</item>
+    <item id="o3" line="511" tag="T">           `That child reads this book'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="509" tag="L">Muq=n          bace          buku=ni          isiq        kanak=nó</item>
+    <item id="c2" line="510" tag="G">AUX=3          read          book=this        by          child=that</item>
+    <item id="c3" line="511" tag="T">That child reads this book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29552">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="519-521" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="519" tag="L">  (38)     Kanak saq          (*muq=n)      gitaq=n léq          peken=nó</item>
+    <item id="o2" line="520" tag="G">           child     rel                    see=3         loc    market=that</item>
+    <item id="o3" line="521" tag="T+EX">           `That child who saw him at the market' [relativised ACTOR]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="519" tag="L">Kanak saq          (*muq=n)      gitaq=n léq          peken=nó</item>
+    <item id="c2" line="520" tag="G">child     rel                    see=3         loc    market=that</item>
+    <item id="c3" line="521" tag="T+EX">That child who saw him at the market' [relativised ACTOR]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29553">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="524-526" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="524" tag="L">  (39)     Kanak saq            muq=k        gitaq (*gitaq=n) léq            peken=nó</item>
+    <item id="o2" line="525" tag="G">           child     rel        AUX=1        see                      loc    market=that</item>
+    <item id="o3" line="526" tag="T+EX">           `That child who I saw at the market' [relativised transitive UNDERGOER]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="524" tag="L">Kanak saq            muq=k        gitaq (*gitaq=n) léq            peken=nó</item>
+    <item id="c2" line="525" tag="G">child     rel        AUX=1        see                      loc    market=that</item>
+    <item id="c3" line="526" tag="T+EX">That child who I saw at the market' [relativised transitive UNDERGOER]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:77]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:70]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29554">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="528-530" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="528" tag="L">  (40)     Kanak saq             muq=k        bèng     (*bèng=n) kèpèng=nó</item>
+    <item id="o2" line="529" tag="G">           child     rel         AUX=1        give                    money=that</item>
+    <item id="o3" line="530" tag="T+EX">           `That child who I give money to' [relativised ditransitive UNDERGOER]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="528" tag="L">Kanak saq             muq=k        bèng     (*bèng=n) kèpèng=nó</item>
+    <item id="c2" line="529" tag="G">child     rel         AUX=1        give                    money=that</item>
+    <item id="c3" line="530" tag="T+EX">That child who I give money to' [relativised ditransitive UNDERGOER]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29555">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="592-596" line-types="L+CR L+CR G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="592" tag="L+CR">            nu         ie       kanak       saq    gitaq=kò    nuqng</item>
+    <item id="o2" line="593" tag="L+CR">  (41)</item>
+    <item id="o3" line="594" tag="G">            that       3        child       rel    see=1sg     that</item>
+    <item id="o4" line="595" tag="T">          (a) `That   is the   child who   I saw'</item>
+    <item id="o5" line="596" tag="T+AL">          (b) `That   is the   child who   saw me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="592 593" tag="L+CR">nu         ie       kanak       saq    gitaq=kò    nuqng</item>
+    <item id="c3" line="594" tag="G">that       3        child       rel    see=1sg     that</item>
+    <item id="c4" line="595" tag="T">`That   is the   child who   I saw</item>
+    <item id="c5" line="596" tag="T+AL">`That   is the   child who   saw me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+    <item id="t1" content="c5[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29556">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="633-638" line-types="L G M M B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="633" tag="L">  (42)      Sai        guru=n              Ali           iaq=m                 kance        bedait?</item>
+    <item id="o2" line="634" tag="G">            which      teacher-link        Ali           fut=2                 with         meet</item>
+    <item id="o3" line="635" tag="M">            [ NP[Spec N-link               NPlPOSS ]NP   AUX=encl              P ]PP        V</item>
+    <item id="o4" line="636" tag="M">          PP                                                          ACTOR</item>
+    <item id="o5" line="637" tag="B"></item>
+    <item id="o6" line="638" tag="T">           `Which teacher of Ali's will    you meet with?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="633" tag="L">Sai        guru=n              Ali           iaq=m                 kance        bedait?</item>
+    <item id="c2" line="634" tag="G">which      teacher-link        Ali           fut=2                 with         meet</item>
+    <item id="c3" line="635" tag="M">[ NP[Spec N-link               NPlPOSS ]NP   AUX=encl              P ]PP        V</item>
+    <item id="c4" line="636" tag="M">PP                                                          ACTOR</item>
+    <item id="c5" line="637" tag="B"/>
+    <item id="c6" line="638" tag="T">Which teacher of Ali's will    you meet with?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:87]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:84]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29557">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="672-674" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="672" tag="L">  (43)    Sai    kance=m     bedait     léq    peken?</item>
+    <item id="o2" line="673" tag="G">          who    with=2      meet       loc    market</item>
+    <item id="o3" line="674" tag="T">          `Who do you meet with in the market?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="672" tag="L">Sai    kance=m     bedait     léq    peken?</item>
+    <item id="c2" line="673" tag="G">who    with=2      meet       loc    market</item>
+    <item id="c3" line="674" tag="T">Who do you meet with in the market?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29558">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="685-687" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="685" tag="L">  (44)     Ape     isiq=m      mpuk=n?</item>
+    <item id="o2" line="686" tag="G">           what    with=2      hit=3</item>
+    <item id="o3" line="687" tag="T">           `What did you hit him with?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="685" tag="L">Ape     isiq=m      mpuk=n?</item>
+    <item id="c2" line="686" tag="G">what    with=2      hit=3</item>
+    <item id="c3" line="687" tag="T">What did you hit him with?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29559">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="696-698" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="696" tag="L">  (45)     Sai   kance=m       iaq     bedait       léq      peken?</item>
+    <item id="o2" line="697" tag="G">           who   with=2        fut     meet         loc      market</item>
+    <item id="o3" line="698" tag="T">           `Who will you meet at the market?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="696" tag="L">Sai   kance=m       iaq     bedait       léq      peken?</item>
+    <item id="c2" line="697" tag="G">who   with=2        fut     meet         loc      market</item>
+    <item id="c3" line="698" tag="T">Who will you meet at the market?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29560">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="700-702" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="700" tag="L">  (46)     Sai   iaq=m         kance     bedait        léq     peken?</item>
+    <item id="o2" line="701" tag="G">           who   fut=2         with      meet          loc     market</item>
+    <item id="o3" line="702" tag="T">           `Who will you meet at the market?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="700" tag="L">Sai   iaq=m         kance     bedait        léq     peken?</item>
+    <item id="c2" line="701" tag="G">who   fut=2         with      meet          loc     market</item>
+    <item id="c3" line="702" tag="T">Who will you meet at the market?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29561">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="707-709" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="707" tag="L">  (47)     Guru-n         sai     iaq=m       dengah    léq           masjit?</item>
+    <item id="o2" line="708" tag="G">           teacher-link   who     fut=2       hear      loc           mosque</item>
+    <item id="o3" line="709" tag="T">           `Whose teacher will you hear at the mosque?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="707" tag="L">Guru-n         sai     iaq=m       dengah    léq           masjit?</item>
+    <item id="c2" line="708" tag="G">teacher-link   who     fut=2       hear      loc           mosque</item>
+    <item id="c3" line="709" tag="T">Whose teacher will you hear at the mosque?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29562">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="711-713" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="711" tag="L">  (48)     Guru       éléq    mbé       harus=m       dengah?</item>
+    <item id="o2" line="712" tag="G">           teacher    from    where     must=2        hear</item>
+    <item id="o3" line="713" tag="T">           `The teacher from where must you listen to?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="711" tag="L">Guru       éléq    mbé       harus=m       dengah?</item>
+    <item id="c2" line="712" tag="G">teacher    from    where     must=2        hear</item>
+    <item id="c3" line="713" tag="T">The teacher from where must you listen to?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29563">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="719-721" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="719" tag="L">  (49)     Sai    guru-n           Ali    kance=m       iaq       bedait?</item>
+    <item id="o2" line="720" tag="G">           which teacher-link      Ali    with=2        fut       meet</item>
+    <item id="o3" line="721" tag="T">           `Which teacher of Ali's will you meet with?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="719" tag="L">Sai    guru-n           Ali    kance=m       iaq       bedait?</item>
+    <item id="c2" line="720" tag="G">which teacher-link      Ali    with=2        fut       meet</item>
+    <item id="c3" line="721" tag="T">Which teacher of Ali's will you meet with?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29564">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2789" line-range="725-727" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="725" tag="L">  (51)     Saq mbé     bije           kance=m          iaq     bedait?</item>
+    <item id="o2" line="726" tag="G">           which       child          with=2           fut     meet</item>
+    <item id="o3" line="727" tag="T">           `Which child will you meet with?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="725" tag="L">Saq mbé     bije           kance=m          iaq     bedait?</item>
+    <item id="c2" line="726" tag="G">which       child          with=2           fut     meet</item>
+    <item id="c3" line="727" tag="T">Which child will you meet with?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79541">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1645" line-range="9273-9275" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9273" tag="L">  34.      Takutk        l éq  acòng</item>
+    <item id="o2" line="9274" tag="G">           afraid.1SG LOC dog</item>
+    <item id="o3" line="9275" tag="T">           'I am afraid of dogs.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9273" tag="L">Takutk        l éq  acòng</item>
+    <item id="c2" line="9274" tag="G">afraid.1SG LOC dog</item>
+    <item id="c3" line="9275" tag="T">I am afraid of dogs.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79749">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1645" line-range="12373-12375" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12373" tag="L">  8.            Yaq-n bèng-k        hadiah-nò</item>
+    <item id="o2" line="12374" tag="G">                FUT-3     give-1SG  present-that</item>
+    <item id="o3" line="12375" tag="T">                'He will give me that present.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12373" tag="L">Yaq-n bèng-k        hadiah-nò</item>
+    <item id="c2" line="12374" tag="G">FUT-3     give-1SG  present-that</item>
+    <item id="c3" line="12375" tag="T">He will give me that present.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79826">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1645" line-range="13761-13764" line-types="M+LN L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="13761" tag="M+LN">  82.      Sasak</item>
+    <item id="o2" line="13762" tag="L">           Aku balé          beli</item>
+    <item id="o3" line="13763" tag="G">           1SG       house buy</item>
+    <item id="o4" line="13764" tag="T+AC">           'It is a house that I buy.' (Austin 2000: ex3)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="13761" tag="M+LN">Sasak</item>
+    <item id="c2" line="13762" tag="L">Aku balé          beli</item>
+    <item id="c3" line="13763" tag="G">1SG       house buy</item>
+    <item id="c4" line="13764" tag="T+AC">It is a house that I buy.' (Austin 2000: ex3)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79827">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1645" line-range="13774-13776" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="13774" tag="L">  83.        Aku         mbeli     balé</item>
+    <item id="o2" line="13775" tag="G">             1SG         N.buy     house</item>
+    <item id="o3" line="13776" tag="T+AC">             'As for me, I buy a house.' (Austin 2000: ex4)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="13774" tag="L">Aku         mbeli     balé</item>
+    <item id="c2" line="13775" tag="G">1SG         N.buy     house</item>
+    <item id="c3" line="13776" tag="T+AC">As for me, I buy a house.' (Austin 2000: ex4)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138305">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3733" line-range="12373-12375" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12373" tag="L">  8.            Yaq-n bèng-k        hadiah-nò</item>
+    <item id="o2" line="12374" tag="G">                FUT-3     give-1SG  present-that</item>
+    <item id="o3" line="12375" tag="T">                'He will give me that present.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12373" tag="L">Yaq-n bèng-k        hadiah-nò</item>
+    <item id="c2" line="12374" tag="G">FUT-3     give-1SG  present-that</item>
+    <item id="c3" line="12375" tag="T">He will give me that present.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138371">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3733" line-range="13761-13764" line-types="M+LN L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="13761" tag="M+LN">  82.      Sasak</item>
+    <item id="o2" line="13762" tag="L">           Aku balé          beli</item>
+    <item id="o3" line="13763" tag="G">           1SG       house buy</item>
+    <item id="o4" line="13764" tag="T+AC">           'It is a house that I buy.' (Austin 2000: ex3)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="13761" tag="M+LN">Sasak</item>
+    <item id="c2" line="13762" tag="L">Aku balé          beli</item>
+    <item id="c3" line="13763" tag="G">1SG       house buy</item>
+    <item id="c4" line="13764" tag="T+AC">It is a house that I buy.' (Austin 2000: ex3)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i138372">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sasak" iso-639-3="sas" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3733" line-range="13774-13776" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="13774" tag="L">  83.        Aku         mbeli     balé</item>
+    <item id="o2" line="13775" tag="G">             1SG         N.buy     house</item>
+    <item id="o3" line="13776" tag="T+AC">             'As for me, I buy a house.' (Austin 2000: ex4)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="13774" tag="L">Aku         mbeli     balé</item>
+    <item id="c2" line="13775" tag="G">1SG         N.buy     house</item>
+    <item id="c3" line="13776" tag="T+AC">As for me, I buy a house.' (Austin 2000: ex4)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

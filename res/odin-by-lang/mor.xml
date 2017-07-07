@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i77839">
+  <metadata type="xigt-meta">
+    <meta type="language" name="moro" iso-639-3="mor" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="1154-1158" line-types="L M G M+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1154" tag="L">  (73) ña-gamlu ña-gaber ña-gawad at a            -      ª              ña-gasa       ed e</item>
+    <item id="o2" line="1155" tag="M">                                                                                       -</item>
+    <item id="o3" line="1156" tag="G">          2PL-not.yet 2PL-not 2PL-able                  2PL-eat meat.PL</item>
+    <item id="o4" line="1157" tag="M+SY">                          NegAux ModAux                        V</item>
+    <item id="o5" line="1158" tag="T">          `you are still not able to eat meat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1154" tag="L">ña-gamlu ña-gaber ña-gawad at a-ª              ña-gasa       ed e</item>
+    <item id="c2" line="1155" tag="M">-</item>
+    <item id="c3" line="1156" tag="G">2PL-not.yet 2PL-not 2PL-able                  2PL-eat meat.PL</item>
+    <item id="c4" line="1157" tag="M+SY">NegAux ModAux                        V</item>
+    <item id="c5" line="1158" tag="T">you are still not able to eat meat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77847">
+  <metadata type="xigt-meta">
+    <meta type="language" name="moro" iso-639-3="mor" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="1242-1245" line-types="L G M+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1242" tag="L">          b. an ña-gabt n-suk  ª</item>
+    <item id="o2" line="1243" tag="G">                Q 2PL-go          to-Suk</item>
+    <item id="o3" line="1244" tag="M+SY">                Q             S</item>
+    <item id="o4" line="1245" tag="T">                `are you going to the Suk?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1242" tag="L">an ña-gabt n-suk  ª</item>
+    <item id="c2" line="1243" tag="G">Q 2PL-go          to-Suk</item>
+    <item id="c3" line="1244" tag="M+SY">Q             S</item>
+    <item id="c4" line="1245" tag="T">are you going to the Suk?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77905">
+  <metadata type="xigt-meta">
+    <meta type="language" name="moro" iso-639-3="mor" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="1982-1985" line-types="L G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1982" tag="L">  (125) maj-anda ildi                  ijin            l-amnu            l-ora</item>
+    <item id="o2" line="1983" tag="G">          man-PL this:NC10.PL three:NC10.PL NC10.PL-black NC10.PL-big</item>
+    <item id="o3" line="1984" tag="M">              N       Dem              Num                 A               A</item>
+    <item id="o4" line="1985" tag="T">          `these three big black men'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1982" tag="L">maj-anda ildi                  ijin            l-amnu            l-ora</item>
+    <item id="c2" line="1983" tag="G">man-PL this:NC10.PL three:NC10.PL NC10.PL-black NC10.PL-big</item>
+    <item id="c3" line="1984" tag="M">N       Dem              Num                 A               A</item>
+    <item id="c4" line="1985" tag="T">these three big black men</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113474">
+  <metadata type="xigt-meta">
+    <meta type="language" name="moro" iso-639-3="mor" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="1195-1199" line-types="L+CR L+CR G M+CN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1195" tag="L+CR">  (73) ña-gamlu ña-gaber ña-gawad at a            -     ?             ña-gasa       ed e</item>
+    <item id="o2" line="1196" tag="L+CR">                                                                                      -</item>
+    <item id="o3" line="1197" tag="G">          2PL-not.yet 2PL-not 2PL-able                    2PL-eat meat.PL</item>
+    <item id="o4" line="1198" tag="M+CN">                           NegAux ModAux                       V</item>
+    <item id="o5" line="1199" tag="T">          `you are still not able to eat meat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1195 1196" tag="L+CR">ña-gamlu ña-gaber ña-gawad at a-?             ña-gasa-ed e</item>
+    <item id="c3" line="1197" tag="G">2PL-not.yet 2PL-not 2PL-able                    2PL-eat meat.PL</item>
+    <item id="c4" line="1198" tag="M+CN">NegAux ModAux                       V</item>
+    <item id="c5" line="1199" tag="T">you are still not able to eat meat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113483">
+  <metadata type="xigt-meta">
+    <meta type="language" name="moro" iso-639-3="mor" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="1284-1287" line-types="L G M+CN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1284" tag="L">           b. an ña-gabt n-suk ?</item>
+    <item id="o2" line="1285" tag="G">                Q 2PL-go          to-Suk</item>
+    <item id="o3" line="1286" tag="M+CN">                Q             S</item>
+    <item id="o4" line="1287" tag="T">                `are you going to the Suk?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1284" tag="L">an ña-gabt n-suk ?</item>
+    <item id="c2" line="1285" tag="G">Q 2PL-go          to-Suk</item>
+    <item id="c3" line="1286" tag="M+CN">Q             S</item>
+    <item id="c4" line="1287" tag="T">are you going to the Suk?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113542">
+  <metadata type="xigt-meta">
+    <meta type="language" name="moro" iso-639-3="mor" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="2004-2007" line-types="L G M+CN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2004" tag="L">  (125) maj-anda ildi                   ijin            l-amnu           l-ora</item>
+    <item id="o2" line="2005" tag="G">           man-PL this.NC10.PL three.NC10.PL NC10.PL-black NC10.PL-big</item>
+    <item id="o3" line="2006" tag="M+CN">               N        Dem             Num                 A              A</item>
+    <item id="o4" line="2007" tag="T">           `these three big black men'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2004" tag="L">maj-anda ildi                   ijin            l-amnu           l-ora</item>
+    <item id="c2" line="2005" tag="G">man-PL this.NC10.PL three.NC10.PL NC10.PL-black NC10.PL-big</item>
+    <item id="c3" line="2006" tag="M+CN">N        Dem             Num                 A              A</item>
+    <item id="c4" line="2007" tag="T">these three big black men</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

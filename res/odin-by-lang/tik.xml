@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i57477">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tikar" iso-639-3="tik" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2716" line-range="356-358" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="356" tag="L">  (19)    wù sh-ê        mùn</item>
+    <item id="o2" line="357" tag="G">          2S say-IRR 1S</item>
+    <item id="o3" line="358" tag="T+AC">          `si tu me l'avais dit, ...' (Stanley 1991: 71)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="356" tag="L">wù sh-ê        mùn</item>
+    <item id="c2" line="357" tag="G">2S say-IRR 1S</item>
+    <item id="c3" line="358" tag="T+AC">si tu me l'avais dit, ...' (Stanley 1991: 71)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57478">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tikar" iso-639-3="tik" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2716" line-range="364-366" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="364" tag="L">  (20)    à        t/     nshe        sh</item>
+    <item id="o2" line="365" tag="G">          3S       IPFV luggage       ca r r y</item>
+    <item id="o3" line="366" tag="T+AC">          `i l   porte le bagage' (   Stanley    1991: 103)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="364" tag="L">à        t/     nshe        sh</item>
+    <item id="c2" line="365" tag="G">3S       IPFV luggage       ca r r y</item>
+    <item id="c3" line="366" tag="T+AC">i l   porte le bagage' (   Stanley    1991: 103)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57479">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tikar" iso-639-3="tik" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2716" line-range="367-369" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="367" tag="L">  (21)    à         unmi      nun       ji       f</item>
+    <item id="o2" line="368" tag="G">          3S       begin:PFV 3S         food     give</item>
+    <item id="o3" line="369" tag="T+AC">          `il    a commencé à lui     donner     de la nourriture' (Stanley 1991: 133)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="367" tag="L">à         unmi      nun       ji       f</item>
+    <item id="c2" line="368" tag="G">3S       begin:PFV 3S         food     give</item>
+    <item id="c3" line="369" tag="T+AC">il    a commencé à lui     donner     de la nourriture' (Stanley 1991: 133)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

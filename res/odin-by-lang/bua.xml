@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i18767">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buriat" iso-639-3="bua" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2906" line-range="1284-1288" line-types="M+LN L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1284" tag="M+LN">  21. Buriat (Mongolian)</item>
+    <item id="o2" line="1285" tag="L">      a. ferme daagßa        bi-b</item>
+    <item id="o3" line="1286" tag="G">         farm    manager     me-1SG</item>
+    <item id="o4" line="1287" tag="T">         `The farm-manager is me.'</item>
+    <item id="o5" line="1288" tag="M+AC">                                             (Bertagaev &amp; Cudendambaev 1962:58)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1284" tag="M+LN">Buriat (Mongolian)</item>
+    <item id="c2" line="1285" tag="L">ferme daagßa        bi-b</item>
+    <item id="c3" line="1286" tag="G">farm    manager     me-1SG</item>
+    <item id="c4" line="1287" tag="T">The farm-manager is me.</item>
+    <item id="c5" line="1288" tag="M+AC">Bertagaev &amp; Cudendambaev 1962:58</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41808">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buriat" iso-639-3="bua" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3512" line-range="2261-2265" line-types="M+LN L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2261" tag="M+LN">  21. Buriat (Mongolian)</item>
+    <item id="o2" line="2262" tag="L">      a. ferme daagßa        bi-b</item>
+    <item id="o3" line="2263" tag="G">         farm    manager     me-1SG</item>
+    <item id="o4" line="2264" tag="T">         `The farm-manager is me.'</item>
+    <item id="o5" line="2265" tag="M+AC">                                             (Bertagaev &amp; Cudendambaev 1962:58)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2261" tag="M+LN">Buriat (Mongolian)</item>
+    <item id="c2" line="2262" tag="L">ferme daagßa        bi-b</item>
+    <item id="c3" line="2263" tag="G">farm    manager     me-1SG</item>
+    <item id="c4" line="2264" tag="T">The farm-manager is me.</item>
+    <item id="c5" line="2265" tag="M+AC">Bertagaev &amp; Cudendambaev 1962:58</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i48156">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cree" iso-639-3="crk:csw:cwd:crj:crl:crm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3425" line-range="378-381" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="378" tag="L+CR">              ´               ´                  ´´</item>
+    <item id="o2" line="379" tag="L+CR">        (10) Ewe-lh       kw'etslexw the-l     si:la:-lh.</item>
+    <item id="o3" line="380" tag="G">             NEG.be-PST see          the.F-my grandparent-PST</item>
+    <item id="o4" line="381" tag="T+AC">                `He didn't see my late grandmother.' (Brent Galloway, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="378" tag="L+CR">´               ´                  ´´</item>
+    <item id="c3" line="380" tag="G">NEG.be-PST see          the.F-my grandparent-PST</item>
+    <item id="c4" line="381" tag="T+AC">He didn't see my late grandmother.' (Brent Galloway, p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48157">
+  <metadata type="xigt-meta">
+    <meta type="language" name="cree" iso-639-3="crk:csw:cwd:crj:crl:crm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3425" line-range="386-389" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="386" tag="L+CR">                  ´                                        ´´</item>
+    <item id="o2" line="387" tag="L+CR">        (11) El-'eliyemet-tsel-cha              the-l     si:la:-lh.</item>
+    <item id="o3" line="388" tag="G">             REDUP-dream.about-1SG.SUBJ-FUT the.F-my grandparent-PST</item>
+    <item id="o4" line="389" tag="T+AC">                `I'll be dreaming about my late grandmother.' (Brent Galloway, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="386" tag="L+CR">´                                        ´´</item>
+    <item id="c3" line="388" tag="G">REDUP-dream.about-1SG.SUBJ-FUT the.F-my grandparent-PST</item>
+    <item id="c4" line="389" tag="T+AC">I'll be dreaming about my late grandmother.' (Brent Galloway, p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:67]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

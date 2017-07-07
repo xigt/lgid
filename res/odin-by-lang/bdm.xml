@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i77866">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buduma" iso-639-3="bdm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="1493-1496" line-types="L G M+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1493" tag="L">  (95) a. kugúi a-tái                              ámbai</item>
+    <item id="o2" line="1494" tag="G">                 hen        3SG.MASC:PRES-lay egg</item>
+    <item id="o3" line="1495" tag="M+SY">                  S            V                    O</item>
+    <item id="o4" line="1496" tag="T">                 `the hen lays eggs'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1493" tag="L">kugúi a-tái                              ámbai</item>
+    <item id="c2" line="1494" tag="G">hen        3SG.MASC:PRES-lay egg</item>
+    <item id="c3" line="1495" tag="M+SY">S            V                    O</item>
+    <item id="c4" line="1496" tag="T">the hen lays eggs</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77867">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buduma" iso-639-3="bdm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="1498-1503" line-types="L+CR L+CR G+CR G+CR M+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1498" tag="L+CR">          b. [domo hámera ná-ci-n]</item>
+    <item id="o2" line="1499" tag="L+CR">                     ·       ·                                         ga</item>
+    <item id="o3" line="1500" tag="G+CR">                           cold      3SG.MASC:PAST-grip-1SG.OBJ since</item>
+    <item id="o4" line="1501" tag="G+CR">                 1SG</item>
+    <item id="o5" line="1502" tag="M+SY">                                Clause                               Subord</item>
+    <item id="o6" line="1503" tag="T">                 `since I am cold'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1498" tag="L+CR">[domo hámera ná-ci-n]</item>
+    <item id="c3" line="1500 1501" tag="G+CR">1SG       cold      3SG.MASC:PAST-grip-1SG.OBJ since</item>
+    <item id="c5" line="1502" tag="M+SY">Clause                               Subord</item>
+    <item id="c6" line="1503" tag="T">since I am cold</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113502">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buduma" iso-639-3="bdm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="1528-1532" line-types="L G M+CN T L+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1528" tag="L">  (95) a. kugúi a-tái                             ámbai</item>
+    <item id="o2" line="1529" tag="G">                 hen        3sg.masc.pres-lay egg</item>
+    <item id="o3" line="1530" tag="M+CN">                  S            V                   O</item>
+    <item id="o4" line="1531" tag="T">                 `the hen lays eggs'</item>
+    <item id="o5" line="1532" tag="L+AL">                 die Henne legt Eier</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1528" tag="L">kugúi a-tái                             ámbai</item>
+    <item id="c2" line="1529" tag="G">hen        3sg.masc.pres-lay egg</item>
+    <item id="c3" line="1530" tag="M+CN">S            V                   O</item>
+    <item id="c4" line="1531" tag="T">the hen lays eggs</item>
+    <item id="c5" line="1532" tag="L+AL">die Henne legt Eier</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+    <item id="p1" content="c5[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113503">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buduma" iso-639-3="bdm" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="1533-1538" line-types="L+CR L+CR G M+CN T L+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1533" tag="L+CR">           b. [domo hámera n?ci-n]</item>
+    <item id="o2" line="1534" tag="L+CR">                      ?     ?                                     ga</item>
+    <item id="o3" line="1535" tag="G">                 1sg cold             3sg.masc.past-grip-1sg.obj since</item>
+    <item id="o4" line="1536" tag="M+CN">                                 Clause                            Subord</item>
+    <item id="o5" line="1537" tag="T">                 `since I am cold'</item>
+    <item id="o6" line="1538" tag="L+AL">                 da mich Kälte ergriffen hat</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1533" tag="L+CR">[domo hámera n?ci-n]</item>
+    <item id="c3" line="1535" tag="G">1sg cold             3sg.masc.past-grip-1sg.obj since</item>
+    <item id="c4" line="1536" tag="M+CN">Clause                            Subord</item>
+    <item id="c5" line="1537" tag="T">since I am cold</item>
+    <item id="c6" line="1538" tag="L+AL">da mich Kälte ergriffen hat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+    <item id="p1" content="c6[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i155718">
+  <metadata type="xigt-meta">
+    <meta type="language" name="enets" iso-639-3="enh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="6769-6773" line-types="L+CR L+CR G+CR G+CR T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6769" tag="L+CR">        kaa n'e-n'                     d'ir'i-da           d''a-xan         kamuð-              aga-</item>
+    <item id="o2" line="6770" tag="L+CR">  (1)</item>
+    <item id="o3" line="6771" tag="G+CR">        [man child-1SG.GEN.SGo live-PART.SIM] land-LOC houses-PL.                               big-PL.</item>
+    <item id="o4" line="6772" tag="G+CR">                                                                                        NOM             NOM</item>
+    <item id="o5" line="6773" tag="T+EX">          `In the land where my son lives houses are big.' [elicitation]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6769 6770" tag="L+CR">kaa n'e-n'                     d'ir'i-da           d''a-xan         kamuð-aga-</item>
+    <item id="c3" line="6771 6772" tag="G+CR">[man child-1SG.GEN.SGo live-PART.SIM] land-LOC houses-PL.                       NOM     big-PL. NOM</item>
+    <item id="c5" line="6773" tag="T+EX">In the land where my son lives houses are big.' [elicitation]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:99]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155719">
+  <metadata type="xigt-meta">
+    <meta type="language" name="enets" iso-639-3="enh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="6774-6777" line-types="L+CR L+CR G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6774" tag="L+CR">        kaa n'e-n'                     n'e-xun       dud'inka-xað to-ða-ða-s                           ad'i-ð</item>
+    <item id="o2" line="6775" tag="L+CR">  (2)</item>
+    <item id="o3" line="6776" tag="G">        man_ child-1SG.GEN.SGo child-LOC [Dudinka-ABL come-CAUS-3SGso-PST] sit-1SGs</item>
+    <item id="o4" line="6777" tag="T+EX">          `I stay with my grandson that (my son) brought from Dudinka.' [elicitation]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6774 6775" tag="L+CR">kaa n'e-n'                     n'e-xun       dud'inka-xað to-ða-ða-s                           ad'i-ð</item>
+    <item id="c3" line="6776" tag="G">man_ child-1SG.GEN.SGo child-LOC [Dudinka-ABL come-CAUS-3SGso-PST] sit-1SGs</item>
+    <item id="c4" line="6777" tag="T+EX">I stay with my grandson that (my son) brought from Dudinka.' [elicitation]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:101]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155720">
+  <metadata type="xigt-meta">
+    <meta type="language" name="enets" iso-639-3="enh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="6778-6781" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6778" tag="L+CR">        bu     an'    o-ma-t             n'iw                   koma</item>
+    <item id="o2" line="6779" tag="L+CR">  (3)</item>
+    <item id="o3" line="6780" tag="G">        he     again [eat-ACT.IPF-T] NARR_         SPEC.3SG     want.3   SGs</item>
+    <item id="o4" line="6781" tag="T">             `He also wants to eat, you see.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6778 6779" tag="L+CR">bu     an'    o-ma-t             n'iw                   koma</item>
+    <item id="c3" line="6780" tag="G">he     again [eat-ACT.IPF-T] NARR_         SPEC.3SG     want.3   SGs</item>
+    <item id="c4" line="6781" tag="T">He also wants to eat, you see.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155721">
+  <metadata type="xigt-meta">
+    <meta type="language" name="enets" iso-639-3="enh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="6782-6785" line-types="L+CR L+CR G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6782" tag="L+CR">        mut' eju-j             kan'i               to-xað-da</item>
+    <item id="o2" line="6783" tag="L+CR">  (4)</item>
+    <item id="o3" line="6784" tag="G">        I        heart-1SG.SGo leave.3SGs      [come-ABL-3SG.OBL.SGo]</item>
+    <item id="o4" line="6785" tag="T+EX">             `I have got afraid because of his coming.' [elicitation]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6782 6783" tag="L+CR">mut' eju-j             kan'i               to-xað-da</item>
+    <item id="c3" line="6784" tag="G">I        heart-1SG.SGo leave.3SGs      [come-ABL-3SG.OBL.SGo]</item>
+    <item id="c4" line="6785" tag="T+EX">I have got afraid because of his coming.' [elicitation]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155722">
+  <metadata type="xigt-meta">
+    <meta type="language" name="enets" iso-639-3="enh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="6786-6789" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6786" tag="L+CR">        kan'-xugu              mot' mot-cygu               ob           pon'-bu-ta</item>
+    <item id="o2" line="6787" tag="L+CR">  (5)</item>
+    <item id="o3" line="6788" tag="G">        leave-HORT.1SGr I see/check-HORT.1SGr [what                     do-   COND-3SG.GEN/ACC.SG      o]</item>
+    <item id="o4" line="6789" tag="T">           `Let me go and check what he is doing (there).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6786 6787" tag="L+CR">kan'-xugu              mot' mot-cygu               ob           pon'-bu-ta</item>
+    <item id="c3" line="6788" tag="G">leave-HORT.1SGr I see/check-HORT.1SGr [what                     do-COND-3SG.GEN/ACC.SG      o]</item>
+    <item id="c4" line="6789" tag="T">Let me go and check what he is doing (there).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:94]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155723">
+  <metadata type="xigt-meta">
+    <meta type="language" name="enets" iso-639-3="enh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="6790-6794" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6790" tag="L+CR">        ka-bu-ny-n'                         kun' d'ir'i-da-r'iq?</item>
+    <item id="o2" line="6791" tag="L+CR">  (6)</item>
+    <item id="o3" line="6792" tag="G+CR">        [die-COND-NY-1SG.GEN.SGo] how live-                     -2DUs</item>
+    <item id="o4" line="6793" tag="G+CR">                                                          FUT</item>
+    <item id="o5" line="6794" tag="T">           `How will you live, if/when I die?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6790 6791" tag="L+CR">ka-bu-ny-n'                         kun' d'ir'i-da-r'iq?</item>
+    <item id="c3" line="6792 6793" tag="G+CR">[die-COND-NY-1SG.GEN.SGo] how live-FUT-2DUs</item>
+    <item id="c5" line="6794" tag="T">How will you live, if/when I die?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155724">
+  <metadata type="xigt-meta">
+    <meta type="language" name="enets" iso-639-3="enh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="6795-6798" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6795" tag="L+CR">        tor' toita-ða      an'   m'a-t               to-(a)-xað-da</item>
+    <item id="o2" line="6796" tag="L+CR">  (7)</item>
+    <item id="o3" line="6797" tag="G">        so     ask-3SGso again [house-DAT come-(NMN)-ABL-3                     SG.OBL.SG   o]</item>
+    <item id="o4" line="6798" tag="T">             `And he asked him this way, when he came home.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6795 6796" tag="L+CR">tor' toita-ða      an'   m'a-t               to-(a)-xað-da</item>
+    <item id="c3" line="6797" tag="G">so     ask-3SGso again [house-DAT come-(NMN)-ABL-3                     SG.OBL.SG   o]</item>
+    <item id="c4" line="6798" tag="T">And he asked him this way, when he came home.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:85]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155725">
+  <metadata type="xigt-meta">
+    <meta type="language" name="enets" iso-639-3="enh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="6799-6803" line-types="L+CR L+CR G+CR G+CR T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6799" tag="L+CR">        kan'e-n'                 orun,      e-b'                     s'i o-ta-s</item>
+    <item id="o2" line="6800" tag="L+CR">  (8)</item>
+    <item id="o3" line="6801" tag="G+CR">        [leave-1SG.GEN.SGo before] mother-1SG.SGo I.                        eat-   CAUS.3SGs-PST</item>
+    <item id="o4" line="6802" tag="G+CR">                                                                      ACC</item>
+    <item id="o5" line="6803" tag="T+EX">           `Before I left, my mother fed me.' [elicitation]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6799 6800" tag="L+CR">kan'e-n'                 orun,      e-b'                     s'i o-ta-s</item>
+    <item id="c3" line="6801 6802" tag="G+CR">[leave-1SG.GEN.SGo before] mother-1SG.SGo I.                  ACC   eat-CAUS.3SGs-PST</item>
+    <item id="c5" line="6803" tag="T+EX">Before I left, my mother fed me.' [elicitation]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:85]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

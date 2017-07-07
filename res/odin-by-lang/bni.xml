@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i898">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dzamba" iso-639-3="bni" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3008" line-range="468-478" line-types="L+CR L+AC+LN+CR B B B B M B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="468" tag="L+CR">         I-mu-kanda mu-tom-aki o-mwana.</item>
+    <item id="o2" line="469" tag="L+AC+LN+CR">  (7)                                                   Dzamba (Bokamba 1979)</item>
+    <item id="o3" line="470" tag="B"></item>
+    <item id="o4" line="471" tag="B"></item>
+    <item id="o5" line="472" tag="B"></item>
+    <item id="o6" line="473" tag="B"></item>
+    <item id="o7" line="474" tag="M">                                             10</item>
+    <item id="o8" line="475" tag="B"></item>
+    <item id="o9" line="476" tag="G+SY">          Spf-letteri SMi-send-PERF Spf-child</item>
+    <item id="o10" line="477" tag="B"></item>
+    <item id="o11" line="478" tag="T">          "The letter, the child (not the parent) sent it."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="468 469" tag="L+CR+AC+LN">I-mu-kanda mu-tom-aki o-mwana.                 Dzamba (Bokamba 1979</item>
+    <item id="c3" line="470" tag="B"/>
+    <item id="c4" line="471" tag="B"/>
+    <item id="c5" line="472" tag="B"/>
+    <item id="c6" line="473" tag="B"/>
+    <item id="c7" line="474" tag="M">10</item>
+    <item id="c8" line="475" tag="B"/>
+    <item id="c9" line="476" tag="G+SY">Spf-letteri SMi-send-PERF Spf-child</item>
+    <item id="c10" line="477" tag="B"/>
+    <item id="c11" line="478" tag="T">The letter, the child (not the parent) sent it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c9[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c11[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i993">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dzamba" iso-639-3="bni" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3005" line-range="253-258" line-types="L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="253" tag="L+CR">             i-mu-ndondo m - kpa - aki</item>
+    <item id="o2" line="254" tag="L+CR">  (5)                                           o-moto</item>
+    <item id="o3" line="255" tag="B"></item>
+    <item id="o4" line="256" tag="G">             The-jug AGRi-took-IMPERF the-person</item>
+    <item id="o5" line="257" tag="B"></item>
+    <item id="o6" line="258" tag="T">             `the jug who the person took'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="253 254" tag="L+CR">i-mu-ndondo m-kpa-aki          o-moto</item>
+    <item id="c3" line="255" tag="B"/>
+    <item id="c4" line="256" tag="G">The-jug AGRi-took-IMPERF the-person</item>
+    <item id="c5" line="257" tag="B"/>
+    <item id="c6" line="258" tag="T">the jug who the person took</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i1001">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dzamba" iso-639-3="bni" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3005" line-range="640-645" line-types="L+CR L+CR B G+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="640" tag="L+CR">                       ó - ta - ò - kpa - aki</item>
+    <item id="o2" line="641" tag="L+CR">  (11)   o-mo-to                                    i-mundondo emba</item>
+    <item id="o3" line="642" tag="B"></item>
+    <item id="o4" line="643" tag="G+SY">         the-personi RMi-NEG-AGRi-took-IMPERF the-jug             NEG</item>
+    <item id="o5" line="644" tag="B"></item>
+    <item id="o6" line="645" tag="T">         `the person who did not take the jug'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="640 641" tag="L+CR">o-mo-to       ó-ta-ò-kpa-aki     i-mundondo emba</item>
+    <item id="c3" line="642" tag="B"/>
+    <item id="c4" line="643" tag="G+SY">the-personi RMi-NEG-AGRi-took-IMPERF the-jug             NEG</item>
+    <item id="c5" line="644" tag="B"/>
+    <item id="c6" line="645" tag="T">the person who did not take the jug</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i1002">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dzamba" iso-639-3="bni" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3005" line-range="695-700" line-types="L+CR L+LN+CR B G+AC+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="695" tag="L+CR">          I-mukanda mu-tom-aki o-mwana.</item>
+    <item id="o2" line="696" tag="L+LN+CR">  (12)                                                            Dzamba</item>
+    <item id="o3" line="697" tag="B"></item>
+    <item id="o4" line="698" tag="G+AC+SY">          SPF-letteri AGRi-send-PERF SPF-child                    (Bokamba 1979)</item>
+    <item id="o5" line="699" tag="B"></item>
+    <item id="o6" line="700" tag="T">          `The letter, the child (not the parent) sent it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="695 696" tag="L+CR+LN">I-mukanda mu-tom-aki o-mwana.                           Dzamba</item>
+    <item id="c3" line="697" tag="B"/>
+    <item id="c4" line="698" tag="G+AC+SY">SPF-letteri AGRi-send-PERF SPF-child                    (Bokamba 1979)</item>
+    <item id="c5" line="699" tag="B"/>
+    <item id="c6" line="700" tag="T">The letter, the child (not the parent) sent it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60466">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dzamba" iso-639-3="bni" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3015" line-range="330-335" line-types="L+CR L+LN+CR B G+AC B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="330" tag="L+CR">                                ó - kpa - aki</item>
+    <item id="o2" line="331" tag="L+LN+CR">  (7)     a.      o-mo-to                           i-mundondo             Dzamba</item>
+    <item id="o3" line="332" tag="B"></item>
+    <item id="o4" line="333" tag="G+AC">                  he-personi AGRi-took-IMPERF the-jug                      (Bokamba 1976)</item>
+    <item id="o5" line="334" tag="B"></item>
+    <item id="o6" line="335" tag="T">                  `the person who took the jug'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="330 331" tag="L+CR+LN">o-mo-to       ó-kpa-aki      i-mundondo             Dzamba</item>
+    <item id="c3" line="332" tag="B"/>
+    <item id="c4" line="333" tag="G+AC">he-personi AGRi-took-IMPERF the-jug                      (Bokamba 1976)</item>
+    <item id="c5" line="334" tag="B"/>
+    <item id="c6" line="335" tag="T">the person who took the jug</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:71]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60476">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dzamba" iso-639-3="bni" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3015" line-range="982-987" line-types="L+CR L+LN+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="982" tag="L+CR">                 i-mu-ndondo m - kpa - aki</item>
+    <item id="o2" line="983" tag="L+LN+CR">  (18)   a.                                           o-moto          Dzamba</item>
+    <item id="o3" line="984" tag="B"></item>
+    <item id="o4" line="985" tag="G">                 the-jug AGRi-took-IMPERF the-person</item>
+    <item id="o5" line="986" tag="B"></item>
+    <item id="o6" line="987" tag="T">                 `the jug who the person took'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="982 983" tag="L+CR+LN">i-mu-ndondo m-kpa-aki            o-moto          Dzamba</item>
+    <item id="c3" line="984" tag="B"/>
+    <item id="c4" line="985" tag="G">the-jug AGRi-took-IMPERF the-person</item>
+    <item id="c5" line="986" tag="B"/>
+    <item id="c6" line="987" tag="T">the jug who the person took</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i60479">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dzamba" iso-639-3="bni" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3015" line-range="1202-1207" line-types="L+CR L+LN+CR B G+AC+SY B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1202" tag="L+CR">           I-mu-kanda mu-tom-aki</item>
+    <item id="o2" line="1203" tag="L+LN+CR">  (23)                                      o-mwana.                               Dzamba</item>
+    <item id="o3" line="1204" tag="B"></item>
+    <item id="o4" line="1205" tag="G+AC+SY">           Spf-letteri SMi-send-PERF Spf-child                                     (Bokamba 1976)</item>
+    <item id="o5" line="1206" tag="B"></item>
+    <item id="o6" line="1207" tag="T">           "The letter, the child (not the parent) sent it."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1202 1203" tag="L+CR+LN">I-mu-kanda mu-tom-aki            o-mwana.                               Dzamba</item>
+    <item id="c3" line="1204" tag="B"/>
+    <item id="c4" line="1205" tag="G+AC+SY">Spf-letteri SMi-send-PERF Spf-child                                     (Bokamba 1976)</item>
+    <item id="c5" line="1206" tag="B"/>
+    <item id="c6" line="1207" tag="T">The letter, the child (not the parent) sent it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:86]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88401">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dzamba" iso-639-3="bni" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3256" line-range="4723-4727" line-types="M+AC+LN+CN L+CR L+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4723" tag="M+AC+LN+CN">  (35)    Sentence-final focus in Dzamba (Bokamba 1976: 158, ex. (35b))</item>
+    <item id="o2" line="4724" tag="L+CR">                                        ´</item>
+    <item id="o3" line="4725" tag="L+CR">          a. oPoso            a-tom-el-aki oMusa         mwenzi loome.</item>
+    <item id="o4" line="4726" tag="G+CR">               P RO P. NA M E sent-to/for P RO P. NA M E message today</item>
+    <item id="o5" line="4727" tag="T">               `Poso sent Musa a message today.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4723" tag="M+AC+LN+CN">Sentence-final focus in Dzamba (Bokamba 1976: 158, ex. (35b)</item>
+    <item id="c2" line="4724" tag="L+CR">´</item>
+    <item id="c4" line="4726" tag="G+CR">P RO P. NA M E sent-to/for P RO P. NA M E message today</item>
+    <item id="c5" line="4727" tag="T">Poso sent Musa a message today.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:1]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i88402">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dzamba" iso-639-3="bni" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3256" line-range="4732-4734" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4732" tag="L">           b.    oPoso          a-tom-el-aki oMusa         loome nde?</item>
+    <item id="o2" line="4733" tag="G+CR">                 P RO P. NA M E sent-to/for P RO P. NA M E today what</item>
+    <item id="o3" line="4734" tag="T">                 `What did Poso send to Musa today?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4732" tag="L">oPoso          a-tom-el-aki oMusa         loome nde?</item>
+    <item id="c2" line="4733" tag="G+CR">P RO P. NA M E sent-to/for P RO P. NA M E today what</item>
+    <item id="c3" line="4734" tag="T">What did Poso send to Musa today?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

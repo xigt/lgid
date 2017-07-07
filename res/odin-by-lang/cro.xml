@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i111188">
+  <metadata type="xigt-meta">
+    <meta type="language" name="crow" iso-639-3="cro" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3362" line-range="1473-1476" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1473" tag="M+LN">             crow</item>
+    <item id="o2" line="1474" tag="L">        (92) ba:-xalússhi-w-isshi-k</item>
+    <item id="o3" line="1475" tag="G">               I-run-I-feel.like-decl</item>
+    <item id="o4" line="1476" tag="T">               `I feel like running.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1473" tag="M+LN">crow</item>
+    <item id="c2" line="1474" tag="L">ba:-xalússhi-w-isshi-k</item>
+    <item id="c3" line="1475" tag="G">I-run-I-feel.like-decl</item>
+    <item id="c4" line="1476" tag="T">I feel like running.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

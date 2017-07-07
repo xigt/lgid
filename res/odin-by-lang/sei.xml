@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i17856">
+  <metadata type="xigt-meta">
+    <meta type="language" name="seri" iso-639-3="sei" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1597" line-range="303-306" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="303" tag="M+LN">         (29)       Seri (Hokan; Mexico)</item>
+    <item id="o2" line="304" tag="L">                    Pap kiP toXi ma yoaPit</item>
+    <item id="o3" line="305" tag="G">                    deer the it.died ds it.was.eaten</item>
+    <item id="o4" line="306" tag="T">                    `Whenever a deer died, it was eaten.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="303" tag="M+LN">Seri (Hokan; Mexico</item>
+    <item id="c2" line="304" tag="L">Pap kiP toXi ma yoaPit</item>
+    <item id="c3" line="305" tag="G">deer the it.died ds it.was.eaten</item>
+    <item id="c4" line="306" tag="T">Whenever a deer died, it was eaten.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38147">
+  <metadata type="xigt-meta">
+    <meta type="language" name="seri" iso-639-3="sei" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1184" line-range="2821-2825" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2821" tag="L+CR">                                                                               a!o ma / *.</item>
+    <item id="o2" line="2822" tag="L+CR">                                     aÖ!-</item>
+    <item id="o3" line="2823" tag="L+CR">  (59)   a.      M-          yo-              kasni kokasni so m-      t-</item>
+    <item id="o4" line="2824" tag="G">                 2sgSUBJ- DIST- PASS- bite snake a 2sgSUBJ- REAL- see DIFF</item>
+    <item id="o5" line="2825" tag="T">                 `You were bitten, after you had seen a snake.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2821 2822 2823" tag="L+CR">M-yo-aÖ!-kasni kokasni so m-t-a!o ma / *.</item>
+    <item id="c4" line="2824" tag="G">2sgSUBJ-DIST-PASS-bite snake a 2sgSUBJ-REAL-see DIFF</item>
+    <item id="c5" line="2825" tag="T">You were bitten, after you had seen a snake.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i129441">
+  <metadata type="xigt-meta">
+    <meta type="language" name="seri" iso-639-3="sei" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3979" line-range="1443-1446" line-types="M+AC+LN L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1443" tag="M+AC+LN">  (40) Seri (Hokan; Mexico; Farrell et al. 1991)</item>
+    <item id="o2" line="1444" tag="L">      a. mi-nai        kom m-po-kixk             x,      atap ko-mi-si-a            a=a.</item>
+    <item id="o3" line="1445" tag="G">         2POSS-skin the     2sSBJ-IRR-wet        AUX mucus 3OBL-2sSBJ-IRR-be        AUX=DECL</item>
+    <item id="o4" line="1446" tag="T+EX">         `If you wet your skin, you will be with mucus.' (i.e. get a cold)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1443" tag="M+AC+LN">Seri (Hokan; Mexico; Farrell et al. 1991</item>
+    <item id="c2" line="1444" tag="L">mi-nai        kom m-po-kixk             x,      atap ko-mi-si-a            a=a.</item>
+    <item id="c3" line="1445" tag="G">2POSS-skin the     2sSBJ-IRR-wet        AUX mucus 3OBL-2sSBJ-IRR-be        AUX=DECL</item>
+    <item id="c4" line="1446" tag="T+EX">If you wet your skin, you will be with mucus.' (i.e. get a cold)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:83]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i129442">
+  <metadata type="xigt-meta">
+    <meta type="language" name="seri" iso-639-3="sei" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3979" line-range="1447-1449" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1447" tag="L">      b. at            ki   p-a-ka          x,         epo ki       mos si-a-ka        a=a.</item>
+    <item id="o2" line="1448" tag="G">         limberbush the     IRR-PASS-seek AUX ratan y the           also   IRR-PASS-seek AUX=DECL</item>
+    <item id="o3" line="1449" tag="T">         `If limberbush is looked for, white ratany should be looked for also.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1447" tag="L">at            ki   p-a-ka          x,         epo ki       mos si-a-ka        a=a.</item>
+    <item id="c2" line="1448" tag="G">limberbush the     IRR-PASS-seek AUX ratan y the           also   IRR-PASS-seek AUX=DECL</item>
+    <item id="c3" line="1449" tag="T">If limberbush is looked for, white ratany should be looked for also.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:88]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i129443">
+  <metadata type="xigt-meta">
+    <meta type="language" name="seri" iso-639-3="sei" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3979" line-range="1450-1452" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1450" tag="L">      c. m-yo-a-kasni,           kokasni so m-t-ao                  ma.</item>
+    <item id="o2" line="1451" tag="G+CR">         2sSBJ-DIST-PASS-bite    sn ak e    a         2sSBJ-REAL-see DS</item>
+    <item id="o3" line="1452" tag="T">         `You were bitten, after you had seen a snake.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1450" tag="L">m-yo-a-kasni,           kokasni so m-t-ao                  ma.</item>
+    <item id="c2" line="1451" tag="G+CR">2sSBJ-DIST-PASS-bite    sn ak e    a         2sSBJ-REAL-see DS</item>
+    <item id="c3" line="1452" tag="T">You were bitten, after you had seen a snake.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

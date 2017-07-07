@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i30581">
+  <metadata type="xigt-meta">
+    <meta type="language" name="antillean" iso-639-3="acf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="904-908" line-types="M+AC+LN+CN L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="904" tag="M+AC+LN+CN">  (26) Antillean CF (Goodman 1964:57)</item>
+    <item id="o2" line="905" tag="L+CR">              tSue kçi</item>
+    <item id="o3" line="906" tag="L+CR">         i</item>
+    <item id="o4" line="907" tag="G">        (3:SG kill body:3:SG)</item>
+    <item id="o5" line="908" tag="T">        `He has killed himself'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="904" tag="M+AC+LN+CN">Antillean CF (Goodman 1964:57</item>
+    <item id="c2" line="905 906" tag="L+CR">i    tSue kçi</item>
+    <item id="c4" line="907" tag="G">3:SG kill body:3:SG</item>
+    <item id="c5" line="908" tag="T">He has killed himself</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30600">
+  <metadata type="xigt-meta">
+    <meta type="language" name="st. lucian" iso-639-3="acf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1482" line-range="1109-1112" line-types="M+AC+LN+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1109" tag="M+AC+LN+CN">  (38) St. Lucian CF (Carrington 1984:74)</item>
+    <item id="o2" line="1110" tag="L">         amize kò      zot</item>
+    <item id="o3" line="1111" tag="G">        (amuse body you:PL)</item>
+    <item id="o4" line="1112" tag="T">        'amuse yourselves'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1109" tag="M+AC+LN+CN">St. Lucian CF (Carrington 1984:74</item>
+    <item id="c2" line="1110" tag="L">amize kò      zot</item>
+    <item id="c3" line="1111" tag="G">amuse body you:PL</item>
+    <item id="c4" line="1112" tag="T">amuse yourselves</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116580">
+  <metadata type="xigt-meta">
+    <meta type="language" name="st. lucia creole" iso-639-3="acf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3648" line-range="119-123" line-types="M+AC+LN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="119" tag="M+AC+LN">  St Lucia Creole (Carrington 1984:102)</item>
+    <item id="o2" line="120" tag="L">  (7) Nu      te     baj   zot    kat gud.</item>
+    <item id="o3" line="121" tag="G+CR">         1                       give        2            four dollars</item>
+    <item id="o4" line="122" tag="G+CR">             PL      PAST                        PL</item>
+    <item id="o5" line="123" tag="T">         'We had given you four dollars'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="119" tag="M+AC+LN">St Lucia Creole (Carrington 1984:102)</item>
+    <item id="c2" line="120" tag="L">Nu      te     baj   zot    kat gud.</item>
+    <item id="c3" line="121 122" tag="G+CR">1   PL      PAST        give        2   PL       four dollars</item>
+    <item id="c5" line="123" tag="T">We had given you four dollars'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155560">
+  <metadata type="xigt-meta">
+    <meta type="language" name="lesser antillean" iso-639-3="acf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3284" line-range="684-686" line-types="L+EX G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="684" tag="L+EX">     (2) Pyè sé               on            doktè       (cf. French Pierre, c'est un médecin)</item>
+    <item id="o2" line="685" tag="G">         Pierre SE            INDEF         doctor</item>
+    <item id="o3" line="686" tag="T+AC+LN">         Pierre is a doctor (Lesser Antillean, Bernabé 1987)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="684" tag="L+EX">Pyè sé               on            doktè       (cf. French Pierre, c'est un médecin</item>
+    <item id="c2" line="685" tag="G">Pierre SE            INDEF         doctor</item>
+    <item id="c3" line="686" tag="T+AC+LN">Pierre is a doctor (Lesser Antillean, Bernabé 1987)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:83]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

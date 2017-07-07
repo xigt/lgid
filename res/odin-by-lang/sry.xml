@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i55164">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sera" iso-639-3="sry" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1303" line-range="475-479" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="475" tag="L+CR">                                           tasol nou     wau se   sein Soken.</item>
+    <item id="o2" line="476" tag="L+CR">       a. Ese nou       purun sia</item>
+    <item id="o3" line="477" tag="G+CR">                                 my but house new COP his Soken</item>
+    <item id="o4" line="478" tag="G+CR">          this house big</item>
+    <item id="o5" line="479" tag="T">          `This big house is mine, but the new house is Soken's.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="475 476" tag="L+CR">Ese nou       purun sia          tasol nou     wau se   sein Soken.</item>
+    <item id="c3" line="477 478" tag="G+CR">this house big         my but house new COP his Soken</item>
+    <item id="c5" line="479" tag="T">This big house is mine, but the new house is Soken's.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i55165">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sera" iso-639-3="sry" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1303" line-range="480-483" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="480" tag="L">       b. Sopos uik n-oter-pei, bai rei pe tu        na-ker-pei.</item>
+    <item id="o2" line="481" tag="G+CR">                   we IRR-we-go FUT they self too IRR-they-go</item>
+    <item id="o3" line="482" tag="G+CR">          if</item>
+    <item id="o4" line="483" tag="T">          `If we go, they will go too.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="480" tag="L">Sopos uik n-oter-pei, bai rei pe tu        na-ker-pei.</item>
+    <item id="c2" line="481 482" tag="G+CR">if       we IRR-we-go FUT they self too IRR-they-go</item>
+    <item id="c4" line="483" tag="T">If we go, they will go too.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

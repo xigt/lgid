@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i89484">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kono" iso-639-3="kno" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="103-108" line-types="M+AC+LN L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="103" tag="M+AC+LN">  KOnO (Welmers n.d.: 41)</item>
+    <item id="o2" line="104" tag="L+CR">                      t` ngbE y´ n</item>
+    <item id="o3" line="105" tag="L+CR">                       E    `O</item>
+    <item id="o4" line="106" tag="L+CR">  (3)      à    á</item>
+    <item id="o5" line="107" tag="G">           3ps PFV basket spoil</item>
+    <item id="o6" line="108" tag="T">           `He spoiled the basket.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="103" tag="M+AC+LN">KOnO (Welmers n.d.: 41)</item>
+    <item id="c2" line="104 106" tag="L+CR">à    á   t` ngbE y´ n</item>
+    <item id="c5" line="107" tag="G">3ps PFV basket spoil</item>
+    <item id="c6" line="108" tag="T">He spoiled the basket.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89506">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kono" iso-639-3="kno" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="539-543" line-types="L+CR L+CR L+CR G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="539" tag="L+CR">              OE `                    E</item>
+    <item id="o2" line="540" tag="L+CR">                             bé</item>
+    <item id="o3" line="541" tag="L+CR">  (24)     m` .´ .n                  b` n.da</item>
+    <item id="o4" line="542" tag="G">           person.DF.pl      PROG gather. PROG</item>
+    <item id="o5" line="543" tag="T+CR">           `The people a    re gathering.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="539 540" tag="L+CR">OE `           bé      E</item>
+    <item id="c4" line="542" tag="G">person.DF.pl      PROG gather. PROG</item>
+    <item id="c5" line="543" tag="T+CR">The people a    re gathering.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

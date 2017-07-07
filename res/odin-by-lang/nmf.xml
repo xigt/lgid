@@ -1,0 +1,3120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i95956">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ukhrul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="18-22" line-types="L B B G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="18" tag="L">    (1) aa shaay kup ser ngaay haay-ra ra.</item>
+    <item id="o2" line="19" tag="B">                  `</item>
+    <item id="o3" line="20" tag="B">        `</item>
+    <item id="o4" line="21" tag="G+CR">        3 eat finish all want P E R F I R R</item>
+    <item id="o5" line="22" tag="T">           `He must have wanted to finish eating everything.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="18" tag="L">aa shaay kup ser ngaay haay-ra ra.</item>
+    <item id="c2" line="19" tag="B"></item>
+    <item id="c3" line="20" tag="B"></item>
+    <item id="c4" line="21" tag="G+CR">3 eat finish all want P E R F I R R</item>
+    <item id="c5" line="22" tag="T">He must have wanted to finish eating everything.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95957">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="309-312" line-types="L B G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="309" tag="L">    (3) a. i tsaat tsaa (y)ey.</item>
+    <item id="o2" line="310" tag="B">                     `     `</item>
+    <item id="o3" line="311" tag="G+CR">           1 rice eat R E A L</item>
+    <item id="o4" line="312" tag="T">            `I eat rice.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="309" tag="L">i tsaat tsaa (y)ey.</item>
+    <item id="c2" line="310" tag="B"></item>
+    <item id="c3" line="311" tag="G+CR">1 rice eat R E A L</item>
+    <item id="c4" line="312" tag="T">I eat rice.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95958">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="314-318" line-types="L B G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="314" tag="L">        b. i tsaat ma tsaa ma ney.</item>
+    <item id="o2" line="315" tag="B">                          `        `</item>
+    <item id="o3" line="316" tag="G+CR">           1 rice N E G eat N E G R E A   L</item>
+    <item id="o4" line="317" tag="B"></item>
+    <item id="o5" line="318" tag="T">            `I do not eat rice.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="314" tag="L">i tsaat ma tsaa ma ney.</item>
+    <item id="c2" line="315" tag="B"></item>
+    <item id="c3" line="316" tag="G+CR">1 rice N E G eat N E G R E A   L</item>
+    <item id="c4" line="317" tag="B"/>
+    <item id="c5" line="318" tag="T">I do not eat rice.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95959">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="320-324" line-types="L M G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="320" tag="L">        c. i laa saa saa ra.</item>
+    <item id="o2" line="321" tag="M">              `    ´`</item>
+    <item id="o3" line="322" tag="G+CR">           1 song do D U R R E     AL</item>
+    <item id="o4" line="323" tag="B"></item>
+    <item id="o5" line="324" tag="T">            `I will be singing a song.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="320" tag="L">i laa saa saa ra.</item>
+    <item id="c2" line="321" tag="M">´</item>
+    <item id="c3" line="322" tag="G+CR">1 song do D U R R E     AL</item>
+    <item id="c4" line="323" tag="B"/>
+    <item id="c5" line="324" tag="T">I will be singing a song.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95960">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="326-329" line-types="L M G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="326" tag="L">        d. i laa ma saa saa ma ra.</item>
+    <item id="o2" line="327" tag="M">              `          ´`</item>
+    <item id="o3" line="328" tag="G+CR">           1 song N E G do D U R N E G I R R</item>
+    <item id="o4" line="329" tag="T">            `I will not be singing a song.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="326" tag="L">i laa ma saa saa ma ra.</item>
+    <item id="c2" line="327" tag="M">´</item>
+    <item id="c3" line="328" tag="G+CR">1 song N E G do D U R N E G I R R</item>
+    <item id="c4" line="329" tag="T">I will not be singing a song.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95961">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="365-369" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="365" tag="L">    (4) a. hi nga.lung ney.</item>
+    <item id="o2" line="366" tag="B">                   ``   `</item>
+    <item id="o3" line="367" tag="G">           this stone  REA               L</item>
+    <item id="o4" line="368" tag="B"></item>
+    <item id="o5" line="369" tag="T">               `This is a stone.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="365" tag="L">hi nga.lung ney.</item>
+    <item id="c2" line="366" tag="B"></item>
+    <item id="c3" line="367" tag="G">this stone  REA               L</item>
+    <item id="c4" line="368" tag="B"/>
+    <item id="c5" line="369" tag="T">This is a stone.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95962">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="371-375" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="371" tag="L">           b. * hi nga.lung ma ­ ney.</item>
+    <item id="o2" line="372" tag="B">                        `          `</item>
+    <item id="o3" line="373" tag="G">                this stone  NEG ­ REA             L</item>
+    <item id="o4" line="374" tag="B"></item>
+    <item id="o5" line="375" tag="T">               Intended: `This is not a stone.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="371" tag="L">* hi nga.lung ma ­ ney.</item>
+    <item id="c2" line="372" tag="B"></item>
+    <item id="c3" line="373" tag="G">this stone  NEG ­ REA             L</item>
+    <item id="c4" line="374" tag="B"/>
+    <item id="c5" line="375" tag="T">`This is not a stone.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95963">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="377-382" line-types="L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="377" tag="L+CR">           c. hi nga.lung ma ­ n´</item>
+    <item id="o2" line="378" tag="L+CR">                      `          ing ma ­ ney.</item>
+    <item id="o3" line="379" tag="B">                                            `</item>
+    <item id="o4" line="380" tag="G">              this stone  NEG ­ NING NEG ­ REA                L</item>
+    <item id="o5" line="381" tag="B"></item>
+    <item id="o6" line="382" tag="T">               `This is not a stone.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="377" tag="L+CR">hi nga.lung ma ­ n´</item>
+    <item id="c3" line="379" tag="B"></item>
+    <item id="c4" line="380" tag="G">this stone  NEG ­ NING NEG ­ REA                L</item>
+    <item id="c5" line="381" tag="B"/>
+    <item id="c6" line="382" tag="T">This is not a stone.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95964">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="390-393" line-types="L B G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="390" tag="L">    (5) a. yong lu!</item>
+    <item id="o2" line="391" tag="B">             `   `</item>
+    <item id="o3" line="392" tag="G+CR">           run I M P</item>
+    <item id="o4" line="393" tag="T">               `Run!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="390" tag="L">yong lu!</item>
+    <item id="c2" line="391" tag="B"></item>
+    <item id="c3" line="392" tag="G+CR">run I M P</item>
+    <item id="c4" line="393" tag="T">Run!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:4]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95965">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="395-398" line-types="L G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="395" tag="L">           b. ma ­ yong lu!   `</item>
+    <item id="o2" line="396" tag="G+CR">              N E G run I M P</item>
+    <item id="o3" line="397" tag="B"></item>
+    <item id="o4" line="398" tag="T">               `Don't run!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="395" tag="L">ma ­ yong lu!</item>
+    <item id="c2" line="396" tag="G+CR">N E G run I M P</item>
+    <item id="c3" line="397" tag="B"/>
+    <item id="c4" line="398" tag="T">Don't run!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95966">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="431-434" line-types="L B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="431" tag="L">    (6) a. ka.shaaw</item>
+    <item id="o2" line="432" tag="B">            ``</item>
+    <item id="o3" line="433" tag="B"></item>
+    <item id="o4" line="434" tag="T">              `to beat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="431" tag="L">ka.shaaw</item>
+    <item id="c2" line="432" tag="B"></item>
+    <item id="c3" line="433" tag="B"/>
+    <item id="c4" line="434" tag="T">to beat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95967">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="436-439" line-types="L B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="436" tag="L">          b. shaaw kha.ngaay</item>
+    <item id="o2" line="437" tag="B">               `     `</item>
+    <item id="o3" line="438" tag="B"></item>
+    <item id="o4" line="439" tag="T">              `to want to beat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="436" tag="L">shaaw kha.ngaay</item>
+    <item id="c2" line="437" tag="B"></item>
+    <item id="c3" line="438" tag="B"/>
+    <item id="c4" line="439" tag="T">to want to beat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95968">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="441-444" line-types="L B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="441" tag="L">          c. shaaw ngaay ka.haay</item>
+    <item id="o2" line="442" tag="B">               `          `</item>
+    <item id="o3" line="443" tag="B"></item>
+    <item id="o4" line="444" tag="T">              `to have wanted to beat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="441" tag="L">shaaw ngaay ka.haay</item>
+    <item id="c2" line="442" tag="B"></item>
+    <item id="c3" line="443" tag="B"/>
+    <item id="c4" line="444" tag="T">to have wanted to beat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95969">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="502-507" line-types="L+CR L+CR B G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="502" tag="L+CR">    (7) a. haang shi</item>
+    <item id="o2" line="503" tag="L+CR">            `                 ka.haay</item>
+    <item id="o3" line="504" tag="B">                               `</item>
+    <item id="o4" line="505" tag="G+CR">           say find:difficult N M L.P E     RF</item>
+    <item id="o5" line="506" tag="B"></item>
+    <item id="o6" line="507" tag="T">             `to find difficult to say'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="502" tag="L+CR">haang shi</item>
+    <item id="c3" line="504" tag="B"></item>
+    <item id="c4" line="505" tag="G+CR">say find:difficult N M L.P E     RF</item>
+    <item id="c5" line="506" tag="B"/>
+    <item id="c6" line="507" tag="T">to find difficult to say</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95970">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="509-513" line-types="L M G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="509" tag="L">          b. saa ser ka.haay</item>
+    <item id="o2" line="510" tag="M">              ´        `</item>
+    <item id="o3" line="511" tag="G">             do every N M L.P E   RF</item>
+    <item id="o4" line="512" tag="B"></item>
+    <item id="o5" line="513" tag="T">             `to have done everything'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="509" tag="L">saa ser ka.haay</item>
+    <item id="c2" line="510" tag="M">´</item>
+    <item id="c3" line="511" tag="G">do every N M L.P E   RF</item>
+    <item id="c4" line="512" tag="B"/>
+    <item id="c5" line="513" tag="T">to have done everything</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95971">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="529-536" line-types="L+CR L+CR L+CR M G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="529" tag="L+CR">    (8) a. ma-yar-naaw ­ na</item>
+    <item id="o2" line="530" tag="L+CR">                   `      `            sh´ aaw ­ li</item>
+    <item id="o3" line="531" tag="L+CR">                                         i-n `             shaaw ra c` (y)ey.</item>
+    <item id="o4" line="532" tag="M">                                                                         i      `</item>
+    <item id="o5" line="533" tag="G+CR">           man         ­ NO            woman ­ O           strike I R R B E R E A L</item>
+    <item id="o6" line="534" tag="G+CR">                                  M                   BL</item>
+    <item id="o7" line="535" tag="B"></item>
+    <item id="o8" line="536" tag="T">             `The man will hit the woman.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="529 531" tag="L+CR">ma-yar-naaw ­ na             i-n `             shaaw ra c` (y)ey.</item>
+    <item id="c4" line="532" tag="M">i</item>
+    <item id="c5" line="533 534" tag="G+CR">man         ­ NO      M     woman ­ O    BL     strike I R R B E R E A L</item>
+    <item id="c7" line="535" tag="B"/>
+    <item id="c8" line="536" tag="T">The man will hit the woman.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95972">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="542-547" line-types="L+CR L+CR M G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="542" tag="L+CR">        b. aa laa ­ saa wu k´</item>
+    <item id="o2" line="543" tag="L+CR">           ``        ´           i c` haay-ra-saa ey.</item>
+    <item id="o3" line="544" tag="M">                                        i          ``</item>
+    <item id="o4" line="545" tag="G+CR">           3 song ­ do I N G R I N C H B E P E R F  RE    AL</item>
+    <item id="o5" line="546" tag="B"></item>
+    <item id="o6" line="547" tag="T">            `He was about to begin singing the song.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="542" tag="L+CR">aa laa ­ saa wu k´</item>
+    <item id="c3" line="544" tag="M">i</item>
+    <item id="c4" line="545" tag="G+CR">3 song ­ do I N G R I N C H B E P E R F  RE    AL</item>
+    <item id="c5" line="546" tag="B"/>
+    <item id="c6" line="547" tag="T">He was about to begin singing the song.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95973">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="574-577" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="574" tag="L">    (9) a. na tsaat thaay laa?</item>
+    <item id="o2" line="575" tag="M">            `         ´    ´</item>
+    <item id="o3" line="576" tag="G">           2 rice hungry Q</item>
+    <item id="o4" line="577" tag="T">            `Are you hungry?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="574" tag="L">na tsaat thaay laa?</item>
+    <item id="c2" line="575" tag="M">´    ´</item>
+    <item id="c3" line="576" tag="G">2 rice hungry Q</item>
+    <item id="c4" line="577" tag="T">Are you hungry?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95974">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="579-582" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="579" tag="L">        b. na khi ot   saa to?</item>
+    <item id="o2" line="580" tag="M">                        ´</item>
+    <item id="o3" line="581" tag="G">           2 what work do Q</item>
+    <item id="o4" line="582" tag="T">            `What work do you do?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="579" tag="L">na khi ot   saa to?</item>
+    <item id="c2" line="580" tag="M">´</item>
+    <item id="c3" line="581" tag="G">2 what work do Q</item>
+    <item id="c4" line="582" tag="T">What work do you do?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95975">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="584-587" line-types="L B G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="584" tag="L">        c. i-thum yong sey.</item>
+    <item id="o2" line="585" tag="B">               `   `    `</item>
+    <item id="o3" line="586" tag="G+CR">           1-P L run H O RT</item>
+    <item id="o4" line="587" tag="T">            `Let us run.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="584" tag="L">i-thum yong sey.</item>
+    <item id="c2" line="585" tag="B"></item>
+    <item id="c3" line="586" tag="G+CR">1-P L run H O RT</item>
+    <item id="c4" line="587" tag="T">Let us run.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95976">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="589-593" line-types="L B G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="589" tag="L">        d. haang luy-shit lo</item>
+    <item id="o2" line="590" tag="B">            `     `        `</item>
+    <item id="o3" line="591" tag="G+CR">           say again I M       P</item>
+    <item id="o4" line="592" tag="B"></item>
+    <item id="o5" line="593" tag="T">            `Say it again.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="589" tag="L">haang luy-shit lo</item>
+    <item id="c2" line="590" tag="B"></item>
+    <item id="c3" line="591" tag="G+CR">say again I M       P</item>
+    <item id="c4" line="592" tag="B"/>
+    <item id="c5" line="593" tag="T">Say it again.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95977">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="601-607" line-types="L+CR L+CR B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="601" tag="L+CR">      (10) a. na ­ na</item>
+    <item id="o2" line="602" tag="L+CR">                    `             hang saa ra l`</item>
+    <item id="o3" line="603" tag="B">                                   `       `           i.</item>
+    <item id="o4" line="604" tag="G+CR">              2 ­ NO              prepare D U R I R R P O</item>
+    <item id="o5" line="605" tag="G+CR">                              M                                  LITE</item>
+    <item id="o6" line="606" tag="B"></item>
+    <item id="o7" line="607" tag="T">                  `Well, you'll have to start cooking.' (polite)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="601" tag="L+CR">na ­ na</item>
+    <item id="c3" line="603" tag="B">i.</item>
+    <item id="c4" line="604 605" tag="G+CR">2 ­ NO         M    prepare D U R I R R P O       LITE</item>
+    <item id="c6" line="606" tag="B"/>
+    <item id="c7" line="607" tag="T">Well, you'll have to start cooking.' (polite)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95978">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="609-613" line-types="L B G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="609" tag="L">              b. ma.thaa naa kho.</item>
+    <item id="o2" line="610" tag="B">                   `</item>
+    <item id="o3" line="611" tag="G+CR">                 good very F E L I          C I TO U S</item>
+    <item id="o4" line="612" tag="B"></item>
+    <item id="o5" line="613" tag="T">                  `It's so good.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="609" tag="L">ma.thaa naa kho.</item>
+    <item id="c2" line="610" tag="B"></item>
+    <item id="c3" line="611" tag="G+CR">good very F E L I          C I TO U S</item>
+    <item id="c4" line="612" tag="B"/>
+    <item id="c5" line="613" tag="T">It's so good.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95979">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="640-646" line-types="L+CR L+CR L+CR G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="640" tag="L+CR">      (11) a. aa ­ na</item>
+    <item id="o2" line="641" tag="L+CR">              `     `             hang l`</item>
+    <item id="o3" line="642" tag="L+CR">                                   `       i.</item>
+    <item id="o4" line="643" tag="G+CR">              3 ­ NO              prepare P R</item>
+    <item id="o5" line="644" tag="G+CR">                             M                  ES</item>
+    <item id="o6" line="645" tag="B"></item>
+    <item id="o7" line="646" tag="T">                  `He is cooking (the dish).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="640 642" tag="L+CR">aa ­ na             `       i.</item>
+    <item id="c4" line="643 644" tag="G+CR">3 ­ NO        M     prepare P R  ES</item>
+    <item id="c6" line="645" tag="B"/>
+    <item id="c7" line="646" tag="T">He is cooking (the dish).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95980">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="648-653" line-types="L+CR L+CR L+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="648" tag="L+CR">              b. aa han ci ma ­ hang ma.ra</item>
+    <item id="o2" line="649" tag="L+CR">                 `                    `                                 l`</item>
+    <item id="o3" line="650" tag="L+CR">                                                                         i.</item>
+    <item id="o4" line="651" tag="G+CR">                 3 dish that N E G ­ prepare N E G.I               RR POL</item>
+    <item id="o5" line="652" tag="B"></item>
+    <item id="o6" line="653" tag="T">                  `He needn't cook that dish.' (polite)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="648 650" tag="L+CR">aa han ci ma ­ hang ma.ra                              i.</item>
+    <item id="c4" line="651" tag="G+CR">3 dish that N E G ­ prepare N E G.I               RR POL</item>
+    <item id="c5" line="652" tag="B"/>
+    <item id="c6" line="653" tag="T">He needn't cook that dish.' (polite)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95981">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="787-790" line-types="L M G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="787" tag="L">  (12) a. m` [ raa ra ka.c` ] paa ci</item>
+    <item id="o2" line="788" tag="M">           i              `i</item>
+    <item id="o3" line="789" tag="G+CR">          man come I R R N M L.be I N D that</item>
+    <item id="o4" line="790" tag="T">             `that man who will come'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="787" tag="L">m` [ raa ra ka.c` ] paa ci</item>
+    <item id="c2" line="788" tag="M">i              `i</item>
+    <item id="c3" line="789" tag="G+CR">man come I R R N M L.be I N D that</item>
+    <item id="c4" line="790" tag="T">that man who will come</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95982">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="792-797" line-types="L B G+CR M B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="792" tag="L">        b. [ ow-caa ney ka.c` ] m` ­ paa ci</item>
+    <item id="o2" line="793" tag="B">                      `       `i       i</item>
+    <item id="o3" line="794" tag="G+CR">             teacher R E A L N M L.C` man ­ I N D that</item>
+    <item id="o4" line="795" tag="M">                                    I</item>
+    <item id="o5" line="796" tag="B"></item>
+    <item id="o6" line="797" tag="T">             `that man who is a teacher'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="792" tag="L">[ ow-caa ney ka.c` ] m` ­ paa ci</item>
+    <item id="c2" line="793" tag="B">i       i</item>
+    <item id="c3" line="794" tag="G+CR">teacher R E A L N M L.C` man ­ I N D that</item>
+    <item id="c4" line="795" tag="M">I</item>
+    <item id="c5" line="796" tag="B"/>
+    <item id="c6" line="797" tag="T">that man who is a teacher</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95983">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="816-822" line-types="L+CR L+CR B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="816" tag="L+CR">  (13) a. i na</item>
+    <item id="o2" line="817" tag="L+CR">             `        hang haay li.</item>
+    <item id="o3" line="818" tag="B">                       `</item>
+    <item id="o4" line="819" tag="G+CR">          1 NO        prepare P E R F F H</item>
+    <item id="o5" line="820" tag="G+CR">                  M</item>
+    <item id="o6" line="821" tag="B"></item>
+    <item id="o7" line="822" tag="T">             `I am the one who has already cooked it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="816" tag="L+CR">i na</item>
+    <item id="c3" line="818" tag="B"></item>
+    <item id="c4" line="819 820" tag="G+CR">1 NO    M   prepare P E R F F H</item>
+    <item id="c6" line="821" tag="B"/>
+    <item id="c7" line="822" tag="T">I am the one who has already cooked it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:4]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95984">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="824-830" line-types="L+CR L+CR B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="824" tag="L+CR">        b. i na</item>
+    <item id="o2" line="825" tag="L+CR">              `       ma ­ hang haay ma.ney.</item>
+    <item id="o3" line="826" tag="B">                            `                    `</item>
+    <item id="o4" line="827" tag="G+CR">           1 NO          ­ prepare P E R F N E G.F H</item>
+    <item id="o5" line="828" tag="G+CR">                  M NEG</item>
+    <item id="o6" line="829" tag="B"></item>
+    <item id="o7" line="830" tag="T">             `I am the one who has not already cooked it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="824" tag="L+CR">i na</item>
+    <item id="c3" line="826" tag="B"></item>
+    <item id="c4" line="827 828" tag="G+CR">1 NO   M NEG  ­ prepare P E R F N E G.F H</item>
+    <item id="c6" line="829" tag="B"/>
+    <item id="c7" line="830" tag="T">I am the one who has not already cooked it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:4]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95985">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="856-862" line-types="L+CR L+CR T G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="856" tag="L+CR">  (14) a. aa.yaa    aa ­ na</item>
+    <item id="o2" line="857" tag="L+CR">                    `     `                        i ­ li        ma.sik ey.</item>
+    <item id="o3" line="858" tag="T">                                                                   `    `</item>
+    <item id="o4" line="859" tag="G+CR">          yesterday 3 ­ N O                        1­O           pinch R E</item>
+    <item id="o5" line="860" tag="G+CR">                                               M            BL                AL</item>
+    <item id="o6" line="861" tag="B"></item>
+    <item id="o7" line="862" tag="T">            `Yesterday, she pinched me.' or `Yesterday, she was pinching me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="856" tag="L+CR">aa.yaa    aa ­ na</item>
+    <item id="c3" line="858" tag="T"></item>
+    <item id="c4" line="859 860" tag="G+CR">yesterday 3 ­ N O                   M    1­O    BL     pinch R E  AL</item>
+    <item id="c6" line="861" tag="B"/>
+    <item id="c7" line="862" tag="T">Yesterday, she pinched me.' or `Yesterday, she was pinching me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:63]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95986">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="864-870" line-types="L+CR L+CR B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="864" tag="L+CR">         b. aa.ruy aa ­ na</item>
+    <item id="o2" line="865" tag="L+CR">                   `     `                    i ­ li        ma.sik ey.</item>
+    <item id="o3" line="866" tag="B">                                                              `    `</item>
+    <item id="o4" line="867" tag="G+CR">            now 3 ­ N O                       1­O           pinch R E</item>
+    <item id="o5" line="868" tag="G+CR">                                          M            BL                AL</item>
+    <item id="o6" line="869" tag="B"></item>
+    <item id="o7" line="870" tag="T">            `Now, she pinches me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="864" tag="L+CR">aa.ruy aa ­ na</item>
+    <item id="c3" line="866" tag="B"></item>
+    <item id="c4" line="867 868" tag="G+CR">now 3 ­ N O                  M    1­O    BL     pinch R E  AL</item>
+    <item id="c6" line="869" tag="B"/>
+    <item id="c7" line="870" tag="T">Now, she pinches me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95987">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="872-878" line-types="L+CR L+CR B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="872" tag="L+CR">         c. * aa.kha-ma aa ­ na</item>
+    <item id="o2" line="873" tag="L+CR">                        `     `                        i ­ li        ma.sik ey.</item>
+    <item id="o3" line="874" tag="B">                                                                       `    `</item>
+    <item id="o4" line="875" tag="G+CR">              tomorrow 3 ­ N O                         1­O           pinch R E</item>
+    <item id="o5" line="876" tag="G+CR">                                                   M            BL                AL</item>
+    <item id="o6" line="877" tag="B"></item>
+    <item id="o7" line="878" tag="T">            `Tomorrow, she will pinch me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="872" tag="L+CR">* aa.kha-ma aa ­ na</item>
+    <item id="c3" line="874" tag="B"></item>
+    <item id="c4" line="875 876" tag="G+CR">tomorrow 3 ­ N O                    M    1­O    BL     pinch R E  AL</item>
+    <item id="c6" line="877" tag="B"/>
+    <item id="c7" line="878" tag="T">Tomorrow, she will pinch me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95988">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="928-932" line-types="L B G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="928" tag="L">  (15) a. i ow-caa ney.</item>
+    <item id="o2" line="929" tag="B">                     `</item>
+    <item id="o3" line="930" tag="G+CR">          1 teacher R E A      LIS</item>
+    <item id="o4" line="931" tag="B"></item>
+    <item id="o5" line="932" tag="T">            `I am a teacher.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="928" tag="L">i ow-caa ney.</item>
+    <item id="c2" line="929" tag="B"></item>
+    <item id="c3" line="930" tag="G+CR">1 teacher R E A      LIS</item>
+    <item id="c4" line="931" tag="B"/>
+    <item id="c5" line="932" tag="T">I am a teacher.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95989">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="934-938" line-types="L B G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="934" tag="L">        b. hi thing-rong ney.</item>
+    <item id="o2" line="935" tag="B">                           `</item>
+    <item id="o3" line="936" tag="G+CR">           this wood-tree R E A         LIS</item>
+    <item id="o4" line="937" tag="B"></item>
+    <item id="o5" line="938" tag="T">            `This is a stick.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="934" tag="L">hi thing-rong ney.</item>
+    <item id="c2" line="935" tag="B"></item>
+    <item id="c3" line="936" tag="G+CR">this wood-tree R E A         LIS</item>
+    <item id="c4" line="937" tag="B"/>
+    <item id="c5" line="938" tag="T">This is a stick.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95990">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="940-945" line-types="L+CR L+CR B G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="940" tag="L+CR">        c. i thay ser ka.haay</item>
+    <item id="o2" line="941" tag="L+CR">               ´       `                   ney.</item>
+    <item id="o3" line="942" tag="B">                                            `</item>
+    <item id="o4" line="943" tag="G+CR">           1 know all N M L.P E         RF REALIS</item>
+    <item id="o5" line="944" tag="B"></item>
+    <item id="o6" line="945" tag="T">            `I have know it all.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="940" tag="L+CR">i thay ser ka.haay</item>
+    <item id="c3" line="942" tag="B"></item>
+    <item id="c4" line="943" tag="G+CR">1 know all N M L.P E         RF REALIS</item>
+    <item id="c5" line="944" tag="B"/>
+    <item id="c6" line="945" tag="T">I have know it all.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95991">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="947-952" line-types="L M G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="947" tag="L">        d. fu ­ na`          i ­ li                    ma.key m` ka.haay ney.</item>
+    <item id="o2" line="948" tag="M">                                                        `      i`         `</item>
+    <item id="o3" line="949" tag="G+CR">           dog ­ N O         bite give N   M L.P E R F R E A L I S</item>
+    <item id="o4" line="950" tag="G+CR">                         M</item>
+    <item id="o5" line="951" tag="B"></item>
+    <item id="o6" line="952" tag="T">            `The dog gave me a bite.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="947" tag="L">fu ­ na`          i ­ li                    ma.key m` ka.haay ney.</item>
+    <item id="c2" line="948" tag="M">i</item>
+    <item id="c3" line="949 950" tag="G+CR">dog ­ N O    M    bite give N   M L.P E R F R E A L I S</item>
+    <item id="c5" line="951" tag="B"/>
+    <item id="c6" line="952" tag="T">The dog gave me a bite.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95992">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="976-981" line-types="L+CR L+CR B G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="976" tag="L+CR">  (16) a. Aa.waan ­ na</item>
+    <item id="o2" line="977" tag="L+CR">                     `              hang li.</item>
+    <item id="o3" line="978" tag="B">                                     `</item>
+    <item id="o4" line="979" tag="G+CR">          Awan ­ N O                prepare F H</item>
+    <item id="o5" line="980" tag="G+CR">                                M</item>
+    <item id="o6" line="981" tag="T">            `It is Awan who is cooking.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="976" tag="L+CR">Aa.waan ­ na</item>
+    <item id="c3" line="978" tag="B"></item>
+    <item id="c4" line="979 980" tag="G+CR">Awan ­ N O           M    prepare F H</item>
+    <item id="c6" line="981" tag="T">It is Awan who is cooking.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95993">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="983-990" line-types="L+CR L+CR B G+CR G+CR T B T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="983" tag="L+CR">        b. Aa.waan ­ na</item>
+    <item id="o2" line="984" tag="L+CR">                      `             hang ey.</item>
+    <item id="o3" line="985" tag="B">                                     `      `</item>
+    <item id="o4" line="986" tag="G+CR">           Awan ­ N O               prepare R E</item>
+    <item id="o5" line="987" tag="G+CR">                                M                 AL</item>
+    <item id="o6" line="988" tag="T">            `It is Awan who is/was cooking.'</item>
+    <item id="o7" line="989" tag="B"></item>
+    <item id="o8" line="990" tag="T+AL">            `It was Awan who cooks.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="983" tag="L+CR">Aa.waan ­ na</item>
+    <item id="c3" line="985" tag="B"></item>
+    <item id="c4" line="986 987" tag="G+CR">Awan ­ N O          M    prepare R E  AL</item>
+    <item id="c6" line="988" tag="T">It is Awan who is/was cooking.</item>
+    <item id="c7" line="989" tag="B"/>
+    <item id="c8" line="990" tag="T+AL">It was Awan who cooks.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:30]" alignment="p1"/>
+    <item id="t1" content="c8[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95994">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1014-1020" line-types="L+CR L+CR B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1014" tag="L+CR">  (17) Aa.waan ­ na</item>
+    <item id="o2" line="1015" tag="L+CR">                  `        hang ­ ta ley.</item>
+    <item id="o3" line="1016" tag="B">                            `              `</item>
+    <item id="o4" line="1017" tag="G+CR">       Awan ­ N O          prepare ­ A DV exist</item>
+    <item id="o5" line="1018" tag="G+CR">                       M</item>
+    <item id="o6" line="1019" tag="B"></item>
+    <item id="o7" line="1020" tag="T">        `Awan is cooking.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1014" tag="L+CR">Aa.waan ­ na</item>
+    <item id="c3" line="1016" tag="B"></item>
+    <item id="c4" line="1017 1018" tag="G+CR">Awan ­ N O     M    prepare ­ A DV exist</item>
+    <item id="c6" line="1019" tag="B"/>
+    <item id="c7" line="1020" tag="T">Awan is cooking.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95995">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1028-1031" line-types="L B G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1028" tag="L">  (18) a. na thaak ­ ta tsat ey.</item>
+    <item id="o2" line="1029" tag="B">           ``             ``</item>
+    <item id="o3" line="1030" tag="G+CR">          2 quick ­ A DV walk R E     AL</item>
+    <item id="o4" line="1031" tag="T">           `You walk quickly.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1028" tag="L">na thaak ­ ta tsat ey.</item>
+    <item id="c2" line="1029" tag="B"></item>
+    <item id="c3" line="1030" tag="G+CR">2 quick ­ A DV walk R E     AL</item>
+    <item id="c4" line="1031" tag="T">You walk quickly.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95996">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1033-1036" line-types="L B G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1033" tag="L">        b. na cuy ­ ta haang ey.</item>
+    <item id="o2" line="1034" tag="B">            `             `    `</item>
+    <item id="o3" line="1035" tag="G+CR">           2 loud ­ A DV speak R E    AL</item>
+    <item id="o4" line="1036" tag="T">           `You speak loudly.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1033" tag="L">na cuy ­ ta haang ey.</item>
+    <item id="c2" line="1034" tag="B"></item>
+    <item id="c3" line="1035" tag="G+CR">2 loud ­ A DV speak R E    AL</item>
+    <item id="c4" line="1036" tag="T">You speak loudly.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95997">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1040-1043" line-types="L B G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1040" tag="L">  (19) a. aa ma.tuy ­ ta ley.</item>
+    <item id="o2" line="1041" tag="B">          `   ``          `</item>
+    <item id="o3" line="1042" tag="G+CR">          3 speak ­ A DV exist</item>
+    <item id="o4" line="1043" tag="T">           `He is speaking.' (lit. `He exists in a speaking manner.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1040" tag="L">aa ma.tuy ­ ta ley.</item>
+    <item id="c2" line="1041" tag="B"></item>
+    <item id="c3" line="1042" tag="G+CR">3 speak ­ A DV exist</item>
+    <item id="c4" line="1043" tag="T">He is speaking.' (lit. `He exists in a speaking manner.')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95998">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1045-1049" line-types="L+CR L+CR B G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1045" tag="L+CR">        b. aa p`</item>
+    <item id="o2" line="1046" tag="L+CR">           ` i ngaay ­ ta ley ra.</item>
+    <item id="o3" line="1047" tag="B">                                `</item>
+    <item id="o4" line="1048" tag="G+CR">           3 sleep want ­ A DV exist I R R</item>
+    <item id="o5" line="1049" tag="T">           `He must be sleepy (right now).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1045" tag="L+CR">aa p</item>
+    <item id="c3" line="1047" tag="B"></item>
+    <item id="c4" line="1048" tag="G+CR">3 sleep want ­ A DV exist I R R</item>
+    <item id="c5" line="1049" tag="T">He must be sleepy (right now).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:4]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95999">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1075-1078" line-types="L B G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1075" tag="L">  (20) a. naaw hi cap ra.</item>
+    <item id="o2" line="1076" tag="B">                      `</item>
+    <item id="o3" line="1077" tag="G+CR">          child this cry I R R</item>
+    <item id="o4" line="1078" tag="T">            `The child will cry.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1075" tag="L">naaw hi cap ra.</item>
+    <item id="c2" line="1076" tag="B"></item>
+    <item id="c3" line="1077" tag="G+CR">child this cry I R R</item>
+    <item id="c4" line="1078" tag="T">The child will cry.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96000">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1080-1087" line-types="L+CR L+CR L+CR B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1080" tag="L+CR">        b. i ­ na</item>
+    <item id="o2" line="1081" tag="L+CR">                `       aa ­ li</item>
+    <item id="o3" line="1082" tag="L+CR">                        `              laay-rik yor ra.</item>
+    <item id="o4" line="1083" tag="B">                                                 `</item>
+    <item id="o5" line="1084" tag="G+CR">           1 ­ NO       3 ­O           book sell I R R</item>
+    <item id="o6" line="1085" tag="G+CR">                    M             BL</item>
+    <item id="o7" line="1086" tag="B"></item>
+    <item id="o8" line="1087" tag="T">            `I will sell him a book.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1080 1082" tag="L+CR">i ­ na      `              laay-rik yor ra.</item>
+    <item id="c4" line="1083" tag="B"></item>
+    <item id="c5" line="1084 1085" tag="G+CR">1 ­ NO  M    3 ­O    BL     book sell I R R</item>
+    <item id="c7" line="1086" tag="B"/>
+    <item id="c8" line="1087" tag="T">I will sell him a book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96001">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1093-1096" line-types="L B G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1093" tag="L">  (21) * aa.yaa    naaw hi cap ra.</item>
+    <item id="o2" line="1094" tag="B">                               `</item>
+    <item id="o3" line="1095" tag="G+CR">         yesterday child this cry I R R</item>
+    <item id="o4" line="1096" tag="T">        Intended: `This child cried yesterday.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1093" tag="L">* aa.yaa    naaw hi cap ra.</item>
+    <item id="c2" line="1094" tag="B"></item>
+    <item id="c3" line="1095" tag="G+CR">yesterday child this cry I R R</item>
+    <item id="c4" line="1096" tag="T">`This child cried yesterday.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96002">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1112-1115" line-types="L B G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1112" tag="L">  (22) naaw cap ­ ta ley ra.</item>
+    <item id="o2" line="1113" tag="B">        `     `          `</item>
+    <item id="o3" line="1114" tag="G+CR">       child cry ­ A DV exist I R R</item>
+    <item id="o4" line="1115" tag="T">        `The child must be crying.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1112" tag="L">naaw cap ­ ta ley ra.</item>
+    <item id="c2" line="1113" tag="B"></item>
+    <item id="c3" line="1114" tag="G+CR">child cry ­ A DV exist I R R</item>
+    <item id="c4" line="1115" tag="T">The child must be crying.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96003">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1117-1120" line-types="L B G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1117" tag="L">  (23) naaw cap ­ ta ley li.</item>
+    <item id="o2" line="1118" tag="B">        `     `          `</item>
+    <item id="o3" line="1119" tag="G+CR">       child cry ­ A DV exist F H</item>
+    <item id="o4" line="1120" tag="T">        `The child is crying.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1117" tag="L">naaw cap ­ ta ley li.</item>
+    <item id="c2" line="1118" tag="B"></item>
+    <item id="c3" line="1119" tag="G+CR">child cry ­ A DV exist F H</item>
+    <item id="c4" line="1120" tag="T">The child is crying.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96004">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1136-1141" line-types="L B G T B T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1136" tag="L">  (24) aa aa.they shaay yang haay-ra ra.</item>
+    <item id="o2" line="1137" tag="B">       `                 `</item>
+    <item id="o3" line="1138" tag="G">       3 fruit eat try P E R F I R R</item>
+    <item id="o4" line="1139" tag="T">        `He must have tried to eat the fruit.'</item>
+    <item id="o5" line="1140" tag="B"></item>
+    <item id="o6" line="1141" tag="T+AL">        `He will have tried to eat the fruit.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1136" tag="L">aa aa.they shaay yang haay-ra ra.</item>
+    <item id="c2" line="1137" tag="B"></item>
+    <item id="c3" line="1138" tag="G">3 fruit eat try P E R F I R R</item>
+    <item id="c4" line="1139" tag="T">He must have tried to eat the fruit.</item>
+    <item id="c5" line="1140" tag="B"/>
+    <item id="c6" line="1141" tag="T+AL">He will have tried to eat the fruit.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+    <item id="t1" content="c6[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96005">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1155-1162" line-types="L+CR L+CR B B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1155" tag="L+CR">  (25) a. aa ma.laay haay saa ra i ­ na</item>
+    <item id="o2" line="1156" tag="L+CR">              `             `               `         ma haang si-ka.ce.</item>
+    <item id="o3" line="1157" tag="B">                                                          `        `</item>
+    <item id="o4" line="1158" tag="B">          `</item>
+    <item id="o5" line="1159" tag="G+CR">          3 forget P E R F D U R I R R 1 ­ N O           say if</item>
+    <item id="o6" line="1160" tag="G+CR">                                                 M NEG</item>
+    <item id="o7" line="1161" tag="B"></item>
+    <item id="o8" line="1162" tag="T">            `He would have forgotten if I hadn't said something.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1155" tag="L+CR">aa ma.laay haay saa ra i ­ na</item>
+    <item id="c3" line="1157" tag="B"></item>
+    <item id="c4" line="1158" tag="B"></item>
+    <item id="c5" line="1159 1160" tag="G+CR">3 forget P E R F D U R I R R 1 ­ N O  M NEG    say if</item>
+    <item id="c7" line="1161" tag="B"/>
+    <item id="c8" line="1162" tag="T">He would have forgotten if I hadn't said something.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96006">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1164-1168" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1164" tag="L">        b. ka.tsing row saa kha maa yu haay-ra ra</item>
+    <item id="o2" line="1165" tag="B">            `             `               `</item>
+    <item id="o3" line="1166" tag="G">           sky      rain D U R S U B J rice wet P E R F I R   R</item>
+    <item id="o4" line="1167" tag="B"></item>
+    <item id="o5" line="1168" tag="T">            If it has rained, the rice will be wet.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1164" tag="L">ka.tsing row saa kha maa yu haay-ra ra</item>
+    <item id="c2" line="1165" tag="B"></item>
+    <item id="c3" line="1166" tag="G">sky      rain D U R S U B J rice wet P E R F I R   R</item>
+    <item id="c4" line="1167" tag="B"/>
+    <item id="c5" line="1168" tag="T">If it has rained, the rice will be wet.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96007">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1172-1176" line-types="L+CR L+CR G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1172" tag="L+CR">            c. m` ci ma pha.raa saa si-ka.ce phaa laak</item>
+    <item id="o2" line="1173" tag="L+CR">                i               `   `       ``                ra</item>
+    <item id="o3" line="1174" tag="G">               man that N E G born D U R if    good certainly I R              R</item>
+    <item id="o4" line="1175" tag="B"></item>
+    <item id="o5" line="1176" tag="T">              `It would have been good if that man had never been born.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1172" tag="L+CR">m` ci ma pha.raa saa si-ka.ce phaa laak</item>
+    <item id="c3" line="1174" tag="G">man that N E G born D U R if    good certainly I R              R</item>
+    <item id="c4" line="1175" tag="B"/>
+    <item id="c5" line="1176" tag="T">It would have been good if that man had never been born.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:56]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96008">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1186-1191" line-types="L+CR+SY L+CR+SY L+CR G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1186" tag="L+CR+SY">  (26) a. [ aa ] [ ma.laay ­</item>
+    <item id="o2" line="1187" tag="L+CR+SY">            `        `                       ka.haay ]</item>
+    <item id="o3" line="1188" tag="L+CR">                                              `              ra</item>
+    <item id="o4" line="1189" tag="G">            3      forget N    M L.P E R F             IRR</item>
+    <item id="o5" line="1190" tag="B"></item>
+    <item id="o6" line="1191" tag="T">              `He must have forgotten.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1186 1188" tag="L+CR+SY">[ aa ] [ ma.laay ­                 `              ra</item>
+    <item id="c4" line="1189" tag="G">3      forget N    M L.P E R F             IRR</item>
+    <item id="c5" line="1190" tag="B"/>
+    <item id="c6" line="1191" tag="T">He must have forgotten.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96009">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1193-1198" line-types="L+CR+SY L+CR+SY B G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1193" tag="L+CR+SY">        b. [ aa ] [ ma.laay ­ ka.haay</item>
+    <item id="o2" line="1194" tag="L+CR+SY">             `        `        `               ] ney</item>
+    <item id="o3" line="1195" tag="B">                                                  `</item>
+    <item id="o4" line="1196" tag="G+CR">             3      forget ­ N M L.P E    RF    REAL</item>
+    <item id="o5" line="1197" tag="B"></item>
+    <item id="o6" line="1198" tag="T">              `He forgot.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1193" tag="L+CR+SY">[ aa ] [ ma.laay ­ ka.haay</item>
+    <item id="c3" line="1195" tag="B"></item>
+    <item id="c4" line="1196" tag="G+CR">3      forget ­ N M L.P E    RF    REAL</item>
+    <item id="c5" line="1197" tag="B"/>
+    <item id="c6" line="1198" tag="T">He forgot.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96010">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1319-1322" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1319" tag="L">  (27) a. ka.tsing row kha maa yu haaw ra.</item>
+    <item id="o2" line="1320" tag="M">           `                     ´</item>
+    <item id="o3" line="1321" tag="G">          sky      rain if rice wet R E S I R R</item>
+    <item id="o4" line="1322" tag="T">            `If it rained, by rice would get wet.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1319" tag="L">ka.tsing row kha maa yu haaw ra.</item>
+    <item id="c2" line="1320" tag="M">´</item>
+    <item id="c3" line="1321" tag="G">sky      rain if rice wet R E S I R R</item>
+    <item id="c4" line="1322" tag="T">If it rained, by rice would get wet.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96011">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1324-1334" line-types="L+CR L+CR L+CR B G+CR G+CR L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1324" tag="L+CR">         b. i ­ shi ­ naaw phak-laang ­ li</item>
+    <item id="o2" line="1325" tag="L+CR">                       `                          ma.khaaw nga.sak haay ­ ta i ­ na</item>
+    <item id="o3" line="1326" tag="L+CR">                                                    `        `                       `             aa ­ li</item>
+    <item id="o4" line="1327" tag="B">                                                                                                   `              shaaw haaw</item>
+    <item id="o5" line="1328" tag="G+CR">            1 ­ I P ­ child wall      ­O          dirty    cause P E R F ­ A DV 1 ­ N O            3 ­O           strike R E S</item>
+    <item id="o6" line="1329" tag="G+CR">                                             BL                                                M             BL</item>
+    <item id="o7" line="1330" tag="L">            (w)ey.</item>
+    <item id="o8" line="1331" tag="B">                `</item>
+    <item id="o9" line="1332" tag="G">            REAL</item>
+    <item id="o10" line="1333" tag="B"></item>
+    <item id="o11" line="1334" tag="T">            `My son was painting on the wall, so I hit him.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1324 1325" tag="L+CR">i ­ shi ­`naaw phak-laang ­ li     ma.khaaw nga.sak haay ­ ta i ­ na</item>
+    <item id="c4" line="1327" tag="B">shaaw haaw</item>
+    <item id="c5" line="1328 1329" tag="G+CR">1 ­ I P ­ child wall      ­O  BL      dirty    cause P E R F ­ A DV 1 ­ N O   M        3 ­OBL         strike R E S</item>
+    <item id="c7" line="1330" tag="L">ey.</item>
+    <item id="c8" line="1331" tag="B"></item>
+    <item id="c9" line="1332" tag="G">REAL</item>
+    <item id="c10" line="1333" tag="B"/>
+    <item id="c11" line="1334" tag="T">My son was painting on the wall, so I hit him.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+    <item id="p1" content="c7[0:3]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:114]" alignment="p1"/>
+    <item id="g1" content="c9[0:4]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c11[0:46]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i96012">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1336-1343" line-types="L+CR L+CR L+CR L+CR G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1336" tag="L+CR">         c. aa kha.raa</item>
+    <item id="o2" line="1337" tag="L+CR">            `    `´      aa.tam ­ li        i ­ na</item>
+    <item id="o3" line="1338" tag="L+CR">                                                 `       aa ­ li</item>
+    <item id="o4" line="1339" tag="L+CR">                                                         `              shaaw haaw (w)ey. `</item>
+    <item id="o5" line="1340" tag="G+CR">            3 N M L.come time ­ O           1 ­ NO       3 ­O           strike R E S R E A L</item>
+    <item id="o6" line="1341" tag="G+CR">                                       BL            M             BL</item>
+    <item id="o7" line="1342" tag="B"></item>
+    <item id="o8" line="1343" tag="T">            `When he came, I started to hit him.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1336 1338" tag="L+CR">aa kha.raa                           `       aa ­ li</item>
+    <item id="c5" line="1340 1341" tag="G+CR">3 N M L.come time ­ O     BL    1 ­ NO M     3 ­O   BL      strike R E S R E A L</item>
+    <item id="c7" line="1342" tag="B"/>
+    <item id="c8" line="1343" tag="T">When he came, I started to hit him.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:80]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96013">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1345-1349" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1345" tag="L">        d. haaw-phok haaw sey.</item>
+    <item id="o2" line="1346" tag="B">                           `</item>
+    <item id="o3" line="1347" tag="G">           being     RES SUG</item>
+    <item id="o4" line="1348" tag="B"></item>
+    <item id="o5" line="1349" tag="T">            `Let's start.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1345" tag="L">haaw-phok haaw sey.</item>
+    <item id="c2" line="1346" tag="B"></item>
+    <item id="c3" line="1347" tag="G">being     RES SUG</item>
+    <item id="c4" line="1348" tag="B"/>
+    <item id="c5" line="1349" tag="T">Let's start.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96014">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1377-1380" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1377" tag="L">      (28) a. i laa saa saa (y)ey.</item>
+    <item id="o2" line="1378" tag="M">                 `    ´`          `</item>
+    <item id="o3" line="1379" tag="G">              1 song do D U R R E A L</item>
+    <item id="o4" line="1380" tag="T">                  `I was singing a song (when you came in).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1377" tag="L">i laa saa saa (y)ey.</item>
+    <item id="c2" line="1378" tag="M">´</item>
+    <item id="c3" line="1379" tag="G">1 song do D U R R E A L</item>
+    <item id="c4" line="1380" tag="T">I was singing a song (when you came in).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96015">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1382-1385" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1382" tag="L">             b. i laa saa saa ra.</item>
+    <item id="o2" line="1383" tag="M">                   `    ´`</item>
+    <item id="o3" line="1384" tag="G">                1 song do D U R I R R</item>
+    <item id="o4" line="1385" tag="T">                  `I will be singing (when you come in).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1382" tag="L">i laa saa saa ra.</item>
+    <item id="c2" line="1383" tag="M">´</item>
+    <item id="c3" line="1384" tag="G">1 song do D U R I R R</item>
+    <item id="c4" line="1385" tag="T">I will be singing (when you come in).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96016">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1390-1393" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1390" tag="L">      (29) i laa saa saa li.</item>
+    <item id="o2" line="1391" tag="M">              `    ´`</item>
+    <item id="o3" line="1392" tag="G">           1 song do D U R F H</item>
+    <item id="o4" line="1393" tag="T">             `I am singing.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1390" tag="L">i laa saa saa li.</item>
+    <item id="c2" line="1391" tag="M">´</item>
+    <item id="c3" line="1392" tag="G">1 song do D U R F H</item>
+    <item id="c4" line="1393" tag="T">I am singing.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96017">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1406-1409" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1406" tag="L">      (30) a. aa laa saa pam saa (y)ey.</item>
+    <item id="o2" line="1407" tag="M">              `´      ´`       `        `</item>
+    <item id="o3" line="1408" tag="G">              3 song do D U R D U R R E A L</item>
+    <item id="o4" line="1409" tag="T">                  `He was in the process of singing.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1406" tag="L">aa laa saa pam saa (y)ey.</item>
+    <item id="c2" line="1407" tag="M">´      ´`</item>
+    <item id="c3" line="1408" tag="G">3 song do D U R D U R R E A L</item>
+    <item id="c4" line="1409" tag="T">He was in the process of singing.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96018">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1411-1415" line-types="L+CR L+CR G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1411" tag="L+CR">             b. i ma.nu pam saa (y)ey aa kha.raa</item>
+    <item id="o2" line="1412" tag="L+CR">                    `     `     `        ``       `´      aa.tam ­ li.</item>
+    <item id="o3" line="1413" tag="G">                1 laugh P RO G D U R R E A L 3 N M L.come time ­ O B          L</item>
+    <item id="o4" line="1414" tag="B"></item>
+    <item id="o5" line="1415" tag="T">                  `I was in the process of laughing when he came.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1411" tag="L+CR">i ma.nu pam saa (y)ey aa kha.raa</item>
+    <item id="c3" line="1413" tag="G">1 laugh P RO G D U R R E A L 3 N M L.come time ­ O B          L</item>
+    <item id="c4" line="1414" tag="B"/>
+    <item id="c5" line="1415" tag="T">I was in the process of laughing when he came.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96019">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1462-1465" line-types="L B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1462" tag="L">  (32) a. aa ma.laay haay-ra.</item>
+    <item id="o2" line="1463" tag="B">          `   `</item>
+    <item id="o3" line="1464" tag="G">          3 forget P E R F</item>
+    <item id="o4" line="1465" tag="T">            `He has forgotten.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1462" tag="L">aa ma.laay haay-ra.</item>
+    <item id="c2" line="1463" tag="B"></item>
+    <item id="c3" line="1464" tag="G">3 forget P E R F</item>
+    <item id="c4" line="1465" tag="T">He has forgotten.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96020">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1467-1472" line-types="L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1467" tag="L+CR">         b. aa ma.laay rang</item>
+    <item id="o2" line="1468" tag="L+CR">            `   `                  (ng)ey.</item>
+    <item id="o3" line="1469" tag="B">                                       `</item>
+    <item id="o4" line="1470" tag="G">            3 forget N E G.   PERF REAL</item>
+    <item id="o5" line="1471" tag="B"></item>
+    <item id="o6" line="1472" tag="T">            `He has not forgotten.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1467" tag="L+CR">aa ma.laay rang</item>
+    <item id="c3" line="1469" tag="B"></item>
+    <item id="c4" line="1470" tag="G">3 forget N E G.   PERF REAL</item>
+    <item id="c5" line="1471" tag="B"/>
+    <item id="c6" line="1472" tag="T">He has not forgotten.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96021">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1474-1480" line-types="L B G B B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1474" tag="L">         c. aa ma.laay haay-ra ra.</item>
+    <item id="o2" line="1475" tag="B">            `   `</item>
+    <item id="o3" line="1476" tag="G">            3 forget P E R F I R R</item>
+    <item id="o4" line="1477" tag="B"></item>
+    <item id="o5" line="1478" tag="B">                                                         23</item>
+    <item id="o6" line="1479" tag="B"></item>
+    <item id="o7" line="1480" tag="T">            `He must have forgotten.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1474" tag="L">aa ma.laay haay-ra ra.</item>
+    <item id="c2" line="1475" tag="B"></item>
+    <item id="c3" line="1476" tag="G">3 forget P E R F I R R</item>
+    <item id="c4" line="1477" tag="B"/>
+    <item id="c5" line="1478" tag="B">23</item>
+    <item id="c6" line="1479" tag="B"/>
+    <item id="c7" line="1480" tag="T">He must have forgotten.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96022">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1482-1487" line-types="L+CR L+CR G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1482" tag="L+CR">        d. aa ma ­ ma.laay rang</item>
+    <item id="o2" line="1483" tag="L+CR">           `           `                      ma ­ ra.</item>
+    <item id="o3" line="1484" tag="G+CR">           3 N E G ­ forget N E G.            NEG ­ IRR</item>
+    <item id="o4" line="1485" tag="G+CR">                                       PERF</item>
+    <item id="o5" line="1486" tag="B"></item>
+    <item id="o6" line="1487" tag="T">            `He must not have forgotten.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1482" tag="L+CR">aa ma ­ ma.laay rang</item>
+    <item id="c3" line="1484 1485" tag="G+CR">3 N E G ­ forget N E G.    PERF    NEG ­ IRR</item>
+    <item id="c5" line="1486" tag="B"/>
+    <item id="c6" line="1487" tag="T">He must not have forgotten.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96023">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1502-1505" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1502" tag="L">  (33) a. aa laa saa fu (y)ey.</item>
+    <item id="o2" line="1503" tag="M">          ``      ´           `</item>
+    <item id="o3" line="1504" tag="G">          3 song do still R E A L</item>
+    <item id="o4" line="1505" tag="T">            `He still sings.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1502" tag="L">aa laa saa fu (y)ey.</item>
+    <item id="c2" line="1503" tag="M">´</item>
+    <item id="c3" line="1504" tag="G">3 song do still R E A L</item>
+    <item id="c4" line="1505" tag="T">He still sings.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96024">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1507-1510" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1507" tag="L">         b. aa laa saa fu ra.</item>
+    <item id="o2" line="1508" tag="M">            ``      ´</item>
+    <item id="o3" line="1509" tag="G">            3 song do still I R R</item>
+    <item id="o4" line="1510" tag="T">            `He will still sing.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1507" tag="L">aa laa saa fu ra.</item>
+    <item id="c2" line="1508" tag="M">´</item>
+    <item id="c3" line="1509" tag="G">3 song do still I R R</item>
+    <item id="c4" line="1510" tag="T">He will still sing.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96025">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1512-1514" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1512" tag="L">         c. i ma ­ taa ´      fu ma ­ ra.</item>
+    <item id="o2" line="1513" tag="G">            1 N E G ­ descent still N E G ­ I R R</item>
+    <item id="o3" line="1514" tag="T">            `He will still not go down.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1512" tag="L">i ma ­ taa ´      fu ma ­ ra.</item>
+    <item id="c2" line="1513" tag="G">1 N E G ­ descent still N E G ­ I R R</item>
+    <item id="c3" line="1514" tag="T">He will still not go down.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96026">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1525-1532" line-types="L M G M B T B T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1525" tag="L">  (34) a. i tsaat tsaa k´ ­ ka.c` ney.</item>
+    <item id="o2" line="1526" tag="M">                    ` i `i          `</item>
+    <item id="o3" line="1527" tag="G">          1 rice eat k´ ­ N M L.be R E A</item>
+    <item id="o4" line="1528" tag="M">                        i                     L</item>
+    <item id="o5" line="1529" tag="B"></item>
+    <item id="o6" line="1530" tag="T">            `I should eat rice.'</item>
+    <item id="o7" line="1531" tag="B"></item>
+    <item id="o8" line="1532" tag="T+AL">            `I'm about to eat rice.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1525" tag="L">i tsaat tsaa k´ ­ ka.c` ney.</item>
+    <item id="c2" line="1526" tag="M">i `i</item>
+    <item id="c3" line="1527" tag="G">1 rice eat k´ ­ N M L.be R E A</item>
+    <item id="c4" line="1528" tag="M">i                     L</item>
+    <item id="c5" line="1529" tag="B"/>
+    <item id="c6" line="1530" tag="T">I should eat rice.</item>
+    <item id="c7" line="1531" tag="B"/>
+    <item id="c8" line="1532" tag="T+AL">I'm about to eat rice.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:18]" alignment="p1"/>
+    <item id="t1" content="c8[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96027">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1552-1557" line-types="L+CR L+CR G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1552" tag="L+CR">  (35) a. i ­ na</item>
+    <item id="o2" line="1553" tag="L+CR">               `         na ­ li        shaaw k´ i-cu (w)ey.`</item>
+    <item id="o3" line="1554" tag="G+CR">          1 ­ NO         3 ­O           strike I N C H R E A L</item>
+    <item id="o4" line="1555" tag="G+CR">                     M             BL</item>
+    <item id="o5" line="1556" tag="B"></item>
+    <item id="o6" line="1557" tag="T">            `I was about to hit you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1552" tag="L+CR">i ­ na</item>
+    <item id="c3" line="1554 1555" tag="G+CR">1 ­ NO    M    3 ­O    BL     strike I N C H R E A L</item>
+    <item id="c5" line="1556" tag="B"/>
+    <item id="c6" line="1557" tag="T">I was about to hit you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96028">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1559-1564" line-types="L+CR L+CR G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1559" tag="L+CR">         b. i ­ na</item>
+    <item id="o2" line="1560" tag="L+CR">                 `       na ­ li        shaaw k´ i-cu ra.</item>
+    <item id="o3" line="1561" tag="G+CR">            1 ­ NO       3 ­O           strike I N C H I R R</item>
+    <item id="o4" line="1562" tag="G+CR">                     M             BL</item>
+    <item id="o5" line="1563" tag="B"></item>
+    <item id="o6" line="1564" tag="T">            `I am about to hit you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1559" tag="L+CR">i ­ na</item>
+    <item id="c3" line="1561 1562" tag="G+CR">1 ­ NO  M    3 ­O    BL     strike I N C H I R R</item>
+    <item id="c5" line="1563" tag="B"/>
+    <item id="c6" line="1564" tag="T">I am about to hit you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96029">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1582-1585" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1582" tag="L">  (36) a. i ka.p` kup haay-ra-saa (y)ey</item>
+    <item id="o2" line="1583" tag="M">             `i                `     `</item>
+    <item id="o3" line="1584" tag="G">          1 write finish A N T    REAL</item>
+    <item id="o4" line="1585" tag="T">            `I had already finished writing.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1582" tag="L">i ka.p` kup haay-ra-saa (y)ey</item>
+    <item id="c2" line="1583" tag="M">i</item>
+    <item id="c3" line="1584" tag="G">1 write finish A N T    REAL</item>
+    <item id="c4" line="1585" tag="T">I had already finished writing.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96030">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1587-1590" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1587" tag="L+CR">         b. i ka.thum sh´ ­ ta ma.nu haay-ra-saay aa kha.raa</item>
+    <item id="o2" line="1588" tag="L+CR">                ``      i           `         ``       `´      aa.tam ­ li.</item>
+    <item id="o3" line="1589" tag="G">            1 three   time ­ A DV laugh A N T     3 N M L.come time ­ O B             L</item>
+    <item id="o4" line="1590" tag="T">            `I had already laughed three times when he arrived.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1587" tag="L+CR">i ka.thum sh´ ­ ta ma.nu haay-ra-saay aa kha.raa</item>
+    <item id="c3" line="1589" tag="G">1 three   time ­ A DV laugh A N T     3 N M L.come time ­ O B             L</item>
+    <item id="c4" line="1590" tag="T">I had already laughed three times when he arrived.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96031">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1592-1596" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1592" tag="L">         c. Aa.khaan ma.laay haay-ra-saa ra.</item>
+    <item id="o2" line="1593" tag="B">                      `               `</item>
+    <item id="o3" line="1594" tag="G">            Akhan forget A N T           IRR</item>
+    <item id="o4" line="1595" tag="B"></item>
+    <item id="o5" line="1596" tag="T">            `Akhan must have already forgotten.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1592" tag="L">Aa.khaan ma.laay haay-ra-saa ra.</item>
+    <item id="c2" line="1593" tag="B"></item>
+    <item id="c3" line="1594" tag="G">Akhan forget A N T           IRR</item>
+    <item id="c4" line="1595" tag="B"/>
+    <item id="c5" line="1596" tag="T">Akhan must have already forgotten.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96032">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1625-1627" line-types="L+CR L+CR B"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1625" tag="L+CR">  (37) a. aa laa saa saa-fu</item>
+    <item id="o2" line="1626" tag="L+CR">          ``      ´`                             (w)ey.</item>
+    <item id="o3" line="1627" tag="B">                                                    `</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1625" tag="L+CR">aa laa saa saa-fu</item>
+    <item id="c3" line="1627" tag="B"></item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+</igt>
+<igt id="i96033">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1628-1630" line-types="G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1628" tag="G">          3 song do D U R . P             ER REAL</item>
+    <item id="o2" line="1629" tag="B"></item>
+    <item id="o3" line="1630" tag="T">                `He was still singing.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1628" tag="G">3 song do D U R . P             ER REAL</item>
+    <item id="c2" line="1629" tag="B"/>
+    <item id="c3" line="1630" tag="T">He was still singing.</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c1[0:39]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]"/>
+  </tier>
+</igt>
+<igt id="i96034">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1632-1636" line-types="L+CR L+CR G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1632" tag="L+CR">            b. aa laa saa saa-fu</item>
+    <item id="o2" line="1633" tag="L+CR">               ``      ´`                        ra.</item>
+    <item id="o3" line="1634" tag="G">               3 song do D U R . P        ER IRR</item>
+    <item id="o4" line="1635" tag="B"></item>
+    <item id="o5" line="1636" tag="T">                `He will still be singing.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1632" tag="L+CR">aa laa saa saa-fu</item>
+    <item id="c3" line="1634" tag="G">3 song do D U R . P        ER IRR</item>
+    <item id="c4" line="1635" tag="B"/>
+    <item id="c5" line="1636" tag="T">He will still be singing.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96035">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1677-1683" line-types="L+CR L+CR B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1677" tag="L+CR">  (38) a. i ­ na</item>
+    <item id="o2" line="1678" tag="L+CR">               `         shaay paay ser (r)ey.</item>
+    <item id="o3" line="1679" tag="B">                                           `</item>
+    <item id="o4" line="1680" tag="G+CR">          1 ­ NO         eat can all R E A L</item>
+    <item id="o5" line="1681" tag="G+CR">                     M                           IS</item>
+    <item id="o6" line="1682" tag="B"></item>
+    <item id="o7" line="1683" tag="T">              `I am able to eat everything.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1677" tag="L+CR">i ­ na</item>
+    <item id="c3" line="1679" tag="B"></item>
+    <item id="c4" line="1680 1681" tag="G+CR">1 ­ NO    M    eat can all R E A L    IS</item>
+    <item id="c6" line="1682" tag="B"/>
+    <item id="c7" line="1683" tag="T">I am able to eat everything.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96036">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1685-1691" line-types="L+CR L+CR T G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1685" tag="L+CR">        b. i ­ na</item>
+    <item id="o2" line="1686" tag="L+CR">                `        shaay ser paay (y)ey.</item>
+    <item id="o3" line="1687" tag="T">                                           `</item>
+    <item id="o4" line="1688" tag="G+CR">           1 ­ NO        eat all can R E A L</item>
+    <item id="o5" line="1689" tag="G+CR">                     M                           IS</item>
+    <item id="o6" line="1690" tag="B"></item>
+    <item id="o7" line="1691" tag="T">              `Everything here, I am able to eat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1685" tag="L+CR">i ­ na</item>
+    <item id="c3" line="1687" tag="T"></item>
+    <item id="c4" line="1688 1689" tag="G+CR">1 ­ NO   M    eat all can R E A L    IS</item>
+    <item id="c6" line="1690" tag="B"/>
+    <item id="c7" line="1691" tag="T">Everything here, I am able to eat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96037">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1716-1720" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1716" tag="L">  (39) a. i tsaat tsaa pha.lung ra.</item>
+    <item id="o2" line="1717" tag="B">                    `    `</item>
+    <item id="o3" line="1718" tag="G">          1 rice eat must       IRR</item>
+    <item id="o4" line="1719" tag="B"></item>
+    <item id="o5" line="1720" tag="T">              `I must eat rice'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1716" tag="L">i tsaat tsaa pha.lung ra.</item>
+    <item id="c2" line="1717" tag="B"></item>
+    <item id="c3" line="1718" tag="G">1 rice eat must       IRR</item>
+    <item id="c4" line="1719" tag="B"/>
+    <item id="c5" line="1720" tag="T">I must eat rice</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96038">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1722-1726" line-types="L M G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1722" tag="L">        b. i ka.p` they pha.lung ra</item>
+    <item id="o2" line="1723" tag="M">              `i´         `</item>
+    <item id="o3" line="1724" tag="G">           1 write know must     IR      R</item>
+    <item id="o4" line="1725" tag="B"></item>
+    <item id="o5" line="1726" tag="T">              `I must know how to write.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1722" tag="L">i ka.p` they pha.lung ra</item>
+    <item id="c2" line="1723" tag="M">i´</item>
+    <item id="c3" line="1724" tag="G">1 write know must     IR      R</item>
+    <item id="c4" line="1725" tag="B"/>
+    <item id="c5" line="1726" tag="T">I must know how to write.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96039">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1737-1741" line-types="L M G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1737" tag="L">  (40) a. they ping ka.haay</item>
+    <item id="o2" line="1738" tag="M">            ´         `</item>
+    <item id="o3" line="1739" tag="G">          see before N M L.P E      RF</item>
+    <item id="o4" line="1740" tag="B"></item>
+    <item id="o5" line="1741" tag="T">             `to have seen before'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1737" tag="L">they ping ka.haay</item>
+    <item id="c2" line="1738" tag="M">´</item>
+    <item id="c3" line="1739" tag="G">see before N M L.P E      RF</item>
+    <item id="c4" line="1740" tag="B"/>
+    <item id="c5" line="1741" tag="T">to have seen before</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96040">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1743-1747" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1743" tag="L">         b. nga.raan ping ka.haay</item>
+    <item id="o2" line="1744" tag="B">              `             `</item>
+    <item id="o3" line="1745" tag="G">            prepare before N M L.P E     RF</item>
+    <item id="o4" line="1746" tag="B"></item>
+    <item id="o5" line="1747" tag="T">             `to have prepared in advance'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1743" tag="L">nga.raan ping ka.haay</item>
+    <item id="c2" line="1744" tag="B"></item>
+    <item id="c3" line="1745" tag="G">prepare before N M L.P E     RF</item>
+    <item id="c4" line="1746" tag="B"/>
+    <item id="c5" line="1747" tag="T">to have prepared in advance</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96041">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1755-1760" line-types="L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1755" tag="L+CR">  (41) a. shaay ran</item>
+    <item id="o2" line="1756" tag="L+CR">                 `       ka.haay</item>
+    <item id="o3" line="1757" tag="B">                          `</item>
+    <item id="o4" line="1758" tag="G">          eat right:time N M L.P E        RF</item>
+    <item id="o5" line="1759" tag="B"></item>
+    <item id="o6" line="1760" tag="T">             `to have been the right time to eat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1755" tag="L+CR">shaay ran</item>
+    <item id="c3" line="1757" tag="B"></item>
+    <item id="c4" line="1758" tag="G">eat right:time N M L.P E        RF</item>
+    <item id="c5" line="1759" tag="B"/>
+    <item id="c6" line="1760" tag="T">to have been the right time to eat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96042">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1762-1767" line-types="L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1762" tag="L+CR">         b. they ran</item>
+    <item id="o2" line="1763" tag="L+CR">              ´`           ka.haay</item>
+    <item id="o3" line="1764" tag="B">                            `</item>
+    <item id="o4" line="1765" tag="G">            see right:time N M L.P E     RF</item>
+    <item id="o5" line="1766" tag="B"></item>
+    <item id="o6" line="1767" tag="T">             `to have been the right time to see/know'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1762" tag="L+CR">they ran</item>
+    <item id="c3" line="1764" tag="B"></item>
+    <item id="c4" line="1765" tag="G">see right:time N M L.P E     RF</item>
+    <item id="c5" line="1766" tag="B"/>
+    <item id="c6" line="1767" tag="T">to have been the right time to see/know</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96043">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1773-1775" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1773" tag="L">  (42) i paa luy shit ra.</item>
+    <item id="o2" line="1774" tag="G">       1 read repeat again I R R</item>
+    <item id="o3" line="1775" tag="T">         `I will read it again.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1773" tag="L">i paa luy shit ra.</item>
+    <item id="c2" line="1774" tag="G">1 read repeat again I R R</item>
+    <item id="c3" line="1775" tag="T">I will read it again.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96044">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1779-1783" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1779" tag="L">  (43) a. paa shit ka.haay</item>
+    <item id="o2" line="1780" tag="B">                      `</item>
+    <item id="o3" line="1781" tag="G">          read again N M L.P E     RF</item>
+    <item id="o4" line="1782" tag="B"></item>
+    <item id="o5" line="1783" tag="T">             `to have read again'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1779" tag="L">paa shit ka.haay</item>
+    <item id="c2" line="1780" tag="B"></item>
+    <item id="c3" line="1781" tag="G">read again N M L.P E     RF</item>
+    <item id="c4" line="1782" tag="B"/>
+    <item id="c5" line="1783" tag="T">to have read again</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96045">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1785-1789" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1785" tag="L">         b. haay shit ka.haay</item>
+    <item id="o2" line="1786" tag="B">                       `</item>
+    <item id="o3" line="1787" tag="G">            put again N M L.P E    RF</item>
+    <item id="o4" line="1788" tag="B"></item>
+    <item id="o5" line="1789" tag="T">             `to have placed (something) again'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1785" tag="L">haay shit ka.haay</item>
+    <item id="c2" line="1786" tag="B"></item>
+    <item id="c3" line="1787" tag="G">put again N M L.P E    RF</item>
+    <item id="c4" line="1788" tag="B"/>
+    <item id="c5" line="1789" tag="T">to have placed (something) again</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96046">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1799-1803" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1799" tag="L">  (44) a. i laay-rik ma ­ yor laak ma-ra.</item>
+    <item id="o2" line="1800" tag="B">                           `</item>
+    <item id="o3" line="1801" tag="G">          1 book N E G ­ sell ever N E G.I R    R</item>
+    <item id="o4" line="1802" tag="B"></item>
+    <item id="o5" line="1803" tag="T">             `I will never sell him a book.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1799" tag="L">i laay-rik ma ­ yor laak ma-ra.</item>
+    <item id="c2" line="1800" tag="B"></item>
+    <item id="c3" line="1801" tag="G">1 book N E G ­ sell ever N E G.I R    R</item>
+    <item id="c4" line="1802" tag="B"/>
+    <item id="c5" line="1803" tag="T">I will never sell him a book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96047">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1805-1809" line-types="L M G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1805" tag="L">          b. i ma.taa yang ngaay laak ma-ney</item>
+    <item id="o2" line="1806" tag="M">                 `´      `                  `</item>
+    <item id="o3" line="1807" tag="G">             1 descend try want every N E G.R E     AL</item>
+    <item id="o4" line="1808" tag="B"></item>
+    <item id="o5" line="1809" tag="T">             `I don't ever want to try to go down (there).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1805" tag="L">i ma.taa yang ngaay laak ma-ney</item>
+    <item id="c2" line="1806" tag="M">´</item>
+    <item id="c3" line="1807" tag="G">1 descend try want every N E G.R E     AL</item>
+    <item id="c4" line="1808" tag="B"/>
+    <item id="c5" line="1809" tag="T">I don't ever want to try to go down (there).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96048">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1813-1818" line-types="L+CR L+CR B G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1813" tag="L+CR">  (45) they laak</item>
+    <item id="o2" line="1814" tag="L+CR">         `           ka.haay</item>
+    <item id="o3" line="1815" tag="B">                      `</item>
+    <item id="o4" line="1816" tag="G+CR">       see certainly N M L.P E     RF</item>
+    <item id="o5" line="1817" tag="B"></item>
+    <item id="o6" line="1818" tag="T">         `to have seen with certainty.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1813" tag="L+CR">they laak</item>
+    <item id="c3" line="1815" tag="B"></item>
+    <item id="c4" line="1816" tag="G+CR">see certainly N M L.P E     RF</item>
+    <item id="c5" line="1817" tag="B"/>
+    <item id="c6" line="1818" tag="T">to have seen with certainty.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96049">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1823-1827" line-types="L B G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1823" tag="L">  (46) a. aa paa naa-y!</item>
+    <item id="o2" line="1824" tag="B">          ``       `</item>
+    <item id="o3" line="1825" tag="G+CR">          3 crazy very.R     EAL</item>
+    <item id="o4" line="1826" tag="B"></item>
+    <item id="o5" line="1827" tag="T">             `He's very crazy!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1823" tag="L">aa paa naa-y!</item>
+    <item id="c2" line="1824" tag="B"></item>
+    <item id="c3" line="1825" tag="G+CR">3 crazy very.R     EAL</item>
+    <item id="c4" line="1826" tag="B"/>
+    <item id="c5" line="1827" tag="T">He's very crazy!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96050">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1829-1833" line-types="L B G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1829" tag="L">          b. paa naa ka.haay</item>
+    <item id="o2" line="1830" tag="B">                        `</item>
+    <item id="o3" line="1831" tag="G+CR">             read very N M L.P E   RF</item>
+    <item id="o4" line="1832" tag="B"></item>
+    <item id="o5" line="1833" tag="T">             `to read too much'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1829" tag="L">paa naa ka.haay</item>
+    <item id="c2" line="1830" tag="B"></item>
+    <item id="c3" line="1831" tag="G+CR">read very N M L.P E   RF</item>
+    <item id="c4" line="1832" tag="B"/>
+    <item id="c5" line="1833" tag="T">to read too much</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96051">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1840-1844" line-types="L B G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1840" tag="L">  (47) a. han shi ka.haay</item>
+    <item id="o2" line="1841" tag="B">                        `</item>
+    <item id="o3" line="1842" tag="G+CR">          glitter very N M L.P E    RF</item>
+    <item id="o4" line="1843" tag="B"></item>
+    <item id="o5" line="1844" tag="T">             `to be very glittering'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1840" tag="L">han shi ka.haay</item>
+    <item id="c2" line="1841" tag="B"></item>
+    <item id="c3" line="1842" tag="G+CR">glitter very N M L.P E    RF</item>
+    <item id="c4" line="1843" tag="B"/>
+    <item id="c5" line="1844" tag="T">to be very glittering</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96052">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1846-1850" line-types="L B G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1846" tag="L">          b. hung shi ka.haay</item>
+    <item id="o2" line="1847" tag="B">                       `</item>
+    <item id="o3" line="1848" tag="G+CR">             red very N M L.P E    RF</item>
+    <item id="o4" line="1849" tag="B"></item>
+    <item id="o5" line="1850" tag="T">             `to be very red'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1846" tag="L">hung shi ka.haay</item>
+    <item id="c2" line="1847" tag="B"></item>
+    <item id="c3" line="1848" tag="G+CR">red very N M L.P E    RF</item>
+    <item id="c4" line="1849" tag="B"/>
+    <item id="c5" line="1850" tag="T">to be very red</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96053">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1862-1865" line-types="L M G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1862" tag="L">   (48) raa ser haay-ra laa?</item>
+    <item id="o2" line="1863" tag="M">                          ´</item>
+    <item id="o3" line="1864" tag="G+CR">        come all P E R F Q</item>
+    <item id="o4" line="1865" tag="T">         `Has every(body) come?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1862" tag="L">raa ser haay-ra laa?</item>
+    <item id="c2" line="1863" tag="M">´</item>
+    <item id="c3" line="1864" tag="G+CR">come all P E R F Q</item>
+    <item id="c4" line="1865" tag="T">Has every(body) come?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96054">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1871-1875" line-types="L B G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1871" tag="L">   (49) a. puy ser (r)ey.</item>
+    <item id="o2" line="1872" tag="B">                       `</item>
+    <item id="o3" line="1873" tag="G+CR">           full all R E A L    IS</item>
+    <item id="o4" line="1874" tag="B"></item>
+    <item id="o5" line="1875" tag="T">             `(It's) all full; (they're) all full.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1871" tag="L">puy ser (r)ey.</item>
+    <item id="c2" line="1872" tag="B"></item>
+    <item id="c3" line="1873" tag="G+CR">full all R E A L    IS</item>
+    <item id="c4" line="1874" tag="B"/>
+    <item id="c5" line="1875" tag="T">(It's) all full; (they're) all full.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96055">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1877-1881" line-types="L B G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1877" tag="L">          b. thi ser (r)ey.</item>
+    <item id="o2" line="1878" tag="B">                        `</item>
+    <item id="o3" line="1879" tag="G+CR">             die all R E A L   IS</item>
+    <item id="o4" line="1880" tag="B"></item>
+    <item id="o5" line="1881" tag="T">             `Every(body) died.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1877" tag="L">thi ser (r)ey.</item>
+    <item id="c2" line="1878" tag="B"></item>
+    <item id="c3" line="1879" tag="G+CR">die all R E A L   IS</item>
+    <item id="c4" line="1880" tag="B"/>
+    <item id="c5" line="1881" tag="T">Every(body) died.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96056">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1883-1885" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1883" tag="L">   (50) a. i they shaay ser haay-ra.</item>
+    <item id="o2" line="1884" tag="G+CR">           1 fruit eat all P E R F</item>
+    <item id="o3" line="1885" tag="T">             `I have eaten all (these) kinds of fruit.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1883" tag="L">i they shaay ser haay-ra.</item>
+    <item id="c2" line="1884" tag="G+CR">1 fruit eat all P E R F</item>
+    <item id="c3" line="1885" tag="T">I have eaten all (these) kinds of fruit.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96057">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="366" line-range="1887-1890" line-types="L M G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1887" tag="L">          b. they ser (r)ey</item>
+    <item id="o2" line="1888" tag="M">               ´         `</item>
+    <item id="o3" line="1889" tag="G+CR">             know all R E A L</item>
+    <item id="o4" line="1890" tag="T">             `(He) knows all (things).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1887" tag="L">they ser (r)ey</item>
+    <item id="c2" line="1888" tag="M">´</item>
+    <item id="c3" line="1889" tag="G+CR">know all R E A L</item>
+    <item id="c4" line="1890" tag="T">(He) knows all (things).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115573">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3380" line-range="1476-1480" line-types="M+LN B L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1476" tag="M+LN">         b.   Tangkhul Naga</item>
+    <item id="o2" line="1477" tag="B"></item>
+    <item id="o3" line="1478" tag="L">              [aiya?     kha-ra·]     mÌ°    chi</item>
+    <item id="o4" line="1479" tag="G">              yesterday REL-come       man that</item>
+    <item id="o5" line="1480" tag="T+AC">              `the man who came yesterday' (Pettigrew 1918: 24)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1476" tag="M+LN">Tangkhul Naga</item>
+    <item id="c2" line="1477" tag="B"/>
+    <item id="c3" line="1478" tag="L">[aiya?     kha-ra·]     mÌ°    chi</item>
+    <item id="c4" line="1479" tag="G">yesterday REL-come       man that</item>
+    <item id="c5" line="1480" tag="T+AC">the man who came yesterday' (Pettigrew 1918: 24)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115578">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3380" line-range="1612-1615" line-types="L G M+SY T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1612" tag="L">  (61)   ci-li    [khni]            iwuy naw khmatha-pi                ci-li</item>
+    <item id="o2" line="1613" tag="G">         DEF-to   stand,REL         my       child beautiful-PLUR      DEF-to</item>
+    <item id="o3" line="1614" tag="M+SY">                      Rel                      N       Adj</item>
+    <item id="o4" line="1615" tag="T+AC">         `to my beautiful children who stand there' (Arokianathan 1987: 145)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1612" tag="L">ci-li    [khni]            iwuy naw khmatha-pi                ci-li</item>
+    <item id="c2" line="1613" tag="G">DEF-to   stand,REL         my       child beautiful-PLUR      DEF-to</item>
+    <item id="c3" line="1614" tag="M+SY">Rel                      N       Adj</item>
+    <item id="c4" line="1615" tag="T+AC">to my beautiful children who stand there' (Arokianathan 1987: 145)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115591">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tangkhul naga" iso-639-3="nmf" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3380" line-range="1795-1799" line-types="M+LN B L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1795" tag="M+LN">         b.   Tangkhul Naga</item>
+    <item id="o2" line="1796" tag="B"></item>
+    <item id="o3" line="1797" tag="L">              shim     hi</item>
+    <item id="o4" line="1798" tag="G">              house this</item>
+    <item id="o5" line="1799" tag="T+AC">              `this house' (Pettigrew 1918: 16)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1795" tag="M+LN">Tangkhul Naga</item>
+    <item id="c2" line="1796" tag="B"/>
+    <item id="c3" line="1797" tag="L">shim     hi</item>
+    <item id="c4" line="1798" tag="G">house this</item>
+    <item id="c5" line="1799" tag="T+AC">this house' (Pettigrew 1918: 16)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

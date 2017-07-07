@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i106239">
+  <metadata type="xigt-meta">
+    <meta type="language" name="larike" iso-639-3="alo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1523" line-range="7-10" line-types="L L+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7" tag="L">                   1.      Waktu mise       Amina mana kole renea           putidu.</item>
+    <item id="o2" line="8" tag="L+AL">                           waktu mise       Amina mana-kole rene-a          putu-tidu</item>
+    <item id="o3" line="9" tag="G">                           time mentioned Amina 3s:P-back sick-3sn;0 day-three</item>
+    <item id="o4" line="10" tag="T">                           Some time ago, Amina's back hurt for three days.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7" tag="L">Waktu mise       Amina mana kole renea           putidu.</item>
+    <item id="c2" line="8" tag="L+AL">waktu mise       Amina mana-kole rene-a          putu-tidu</item>
+    <item id="c3" line="9" tag="G">time mentioned Amina 3s:P-back sick-3sn;0 day-three</item>
+    <item id="c4" line="10" tag="T">Some time ago, Amina's back hurt for three days.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+    <item id="p1" content="c2[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:48]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106240">
+  <metadata type="xigt-meta">
+    <meta type="language" name="larike" iso-639-3="alo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1523" line-range="12-15" line-types="L L+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12" tag="L">                   2.      Ami eu    hiha biange        adipitotu          tidu.</item>
+    <item id="o2" line="13" tag="L+AL">                           ami-keu   hiha biange        adipito-tu         tidu</item>
+    <item id="o3" line="14" tag="G">                           1 pe: S-go call midwife night-NOM;PL three</item>
+    <item id="o4" line="15" tag="T">                           We went and called the midwife on the third night</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12" tag="L">Ami eu    hiha biange        adipitotu          tidu.</item>
+    <item id="c2" line="13" tag="L+AL">ami-keu   hiha biange        adipito-tu         tidu</item>
+    <item id="c3" line="14" tag="G">S-go call midwife night-NOM;PL three</item>
+    <item id="c4" line="15" tag="T">We went and called the midwife on the third night</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+    <item id="p1" content="c2[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:49]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106241">
+  <metadata type="xigt-meta">
+    <meta type="language" name="larike" iso-639-3="alo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1523" line-range="17-20" line-types="L L+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="17" tag="L">                   3.      Ami matawana adipitotu                   tidu.</item>
+    <item id="o2" line="18" tag="L+AL">                           ami-matawana       adipito-tu            tidu</item>
+    <item id="o3" line="19" tag="G">                           lpe:S-sleepless    night-NOM:PL          three</item>
+    <item id="o4" line="20" tag="T">                           We didn't sleep the third night.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="17" tag="L">Ami matawana adipitotu                   tidu.</item>
+    <item id="c2" line="18" tag="L+AL">ami-matawana       adipito-tu            tidu</item>
+    <item id="c3" line="19" tag="G">lpe:S-sleepless    night-NOM:PL          three</item>
+    <item id="c4" line="20" tag="T">We didn't sleep the third night.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+    <item id="p1" content="c2[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:46]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106242">
+  <metadata type="xigt-meta">
+    <meta type="language" name="larike" iso-639-3="alo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1523" line-range="22-25" line-types="L L+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="22" tag="L">                   4.      Tarus        ami eu      tana dokter        pi mantri        lete    Alanu.</item>
+    <item id="o2" line="23" tag="L+AL">                           tarus        ami-keu     tana dokter        pi mantri        lete    Allang</item>
+    <item id="o3" line="24" tag="G">                           directly     lpe:S-go take doctor           or medic         above   Allang</item>
+    <item id="o4" line="25" tag="T">                            We went   to get a doctor or medic from   Allang.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="22" tag="L">Tarus        ami eu      tana dokter        pi mantri        lete    Alanu.</item>
+    <item id="c2" line="23" tag="L+AL">tarus        ami-keu     tana dokter        pi mantri        lete    Allang</item>
+    <item id="c3" line="24" tag="G">directly     lpe:S-go take doctor           or medic         above   Allang</item>
+    <item id="c4" line="25" tag="T">We went   to get a doctor or medic from   Allang.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+    <item id="p1" content="c2[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:75]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:49]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106243">
+  <metadata type="xigt-meta">
+    <meta type="language" name="larike" iso-639-3="alo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1523" line-range="27-30" line-types="L L+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="27" tag="L">                   5.      Meila'i      hola       meibarenti       manit     hutidu.</item>
+    <item id="o2" line="28" tag="L+AL">                           mei-la?i     hola       mei-barenti      manit     hutidu</item>
+    <item id="o3" line="29" tag="G">                           3s: S-arrive here       3s: S-stop       minute thirty</item>
+    <item id="o4" line="30" tag="T">                           When he arrived here    he rested for   thirty minutes.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="27" tag="L">Meila'i      hola       meibarenti       manit     hutidu.</item>
+    <item id="c2" line="28" tag="L+AL">mei-la?i     hola       mei-barenti      manit     hutidu</item>
+    <item id="c3" line="29" tag="G">S-arrive here       3s: S-stop       minute thirty</item>
+    <item id="c4" line="30" tag="T">When he arrived here    he rested for   thirty minutes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+    <item id="p1" content="c2[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:55]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106244">
+  <metadata type="xigt-meta">
+    <meta type="language" name="larike" iso-639-3="alo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1523" line-range="32-35" line-types="L L+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="32" tag="L">                   6.      Pe*a          hima meipasinido.</item>
+    <item id="o2" line="33" tag="L+AL">                           pe?a          hima    mei-pasinido</item>
+    <item id="o3" line="34" tag="G">                           finished      that   3s: S-change clothes</item>
+    <item id="o4" line="35" tag="T">                           After that   he changed clothes.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="32" tag="L">Pe*a          hima meipasinido.</item>
+    <item id="c2" line="33" tag="L+AL">pe?a          hima    mei-pasinido</item>
+    <item id="c3" line="34" tag="G">finished      that   3s: S-change clothes</item>
+    <item id="c4" line="35" tag="T">After that   he changed clothes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+    <item id="p1" content="c2[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106245">
+  <metadata type="xigt-meta">
+    <meta type="language" name="larike" iso-639-3="alo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1523" line-range="37-40" line-types="L L+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="37" tag="L">                   1.      Pe'a       meirupuma          laku eta.</item>
+    <item id="o2" line="38" tag="L+AL">                           pe?a       mei-rupu-ma        laku eta</item>
+    <item id="o3" line="39" tag="G">                           finished 3s:S-stab-3s.O       with needle</item>
+    <item id="o4" line="40" tag="T">                            Then he gave her a shot.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="37" tag="L">Pe'a       meirupuma          laku eta.</item>
+    <item id="c2" line="38" tag="L+AL">pe?a       mei-rupu-ma        laku eta</item>
+    <item id="c3" line="39" tag="G">finished 3s:S-stab-3s.O       with needle</item>
+    <item id="c4" line="40" tag="T">Then he gave her a shot.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+    <item id="p1" content="c2[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106246">
+  <metadata type="xigt-meta">
+    <meta type="language" name="larike" iso-639-3="alo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1523" line-range="42-45" line-types="L L+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="42" tag="L">  S.    Narohi       hima     si'u,      laku   meileyana.</item>
+    <item id="o2" line="43" tag="L+AL">        narohi     hima si?u laku               mei-leyana</item>
+    <item id="o3" line="44" tag="G">        day        that    also then            3s: S-birth</item>
+    <item id="o4" line="45" tag="T">        That very day she gave birth.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="42" tag="L">Narohi       hima     si'u,      laku   meileyana.</item>
+    <item id="c2" line="43" tag="L+AL">narohi     hima si?u laku               mei-leyana</item>
+    <item id="c3" line="44" tag="G">day        that    also then            3s: S-birth</item>
+    <item id="c4" line="45" tag="T">That very day she gave birth.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+    <item id="p1" content="c2[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106247">
+  <metadata type="xigt-meta">
+    <meta type="language" name="larike" iso-639-3="alo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1523" line-range="47-55" line-types="L L+AL G B L L+AL G T T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="47" tag="L">  9     Laku     ana        meijaji        pe'a        laku salamate,</item>
+    <item id="o2" line="48" tag="L+AL">        laku     ana        mei-jaji       pe?a        laku salamate</item>
+    <item id="o3" line="49" tag="G">        and      child      3s:S-born      finished    with health</item>
+    <item id="o4" line="50" tag="B"></item>
+    <item id="o5" line="51" tag="L">        bam       biange     meilo'i     ana     meigunting mana tahale.</item>
+    <item id="o6" line="52" tag="L+AL">        baru      biange     mei-lo?i    ana     mei-gunting mana-tahale</item>
+    <item id="o7" line="53" tag="G">        before    midwife 3s:S-lift      child 3s:S-cut           3s:P-placenta</item>
+    <item id="o8" line="54" tag="T">        As soon as the child was safely delivered, the midwife lifted. the child and cut the</item>
+    <item id="o9" line="55" tag="T+EX">        placenta [from the umbilical cord J.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="47" tag="L">9     Laku     ana        meijaji        pe'a        laku salamate,</item>
+    <item id="c2" line="48" tag="L+AL">laku     ana        mei-jaji       pe?a        laku salamate</item>
+    <item id="c3" line="49" tag="G">and      child      3s:S-born      finished    with health</item>
+    <item id="c4" line="50" tag="B"/>
+    <item id="c5" line="51" tag="L">bam       biange     meilo'i     ana     meigunting mana tahale.</item>
+    <item id="c6" line="52" tag="L+AL">baru      biange     mei-lo?i    ana     mei-gunting mana-tahale</item>
+    <item id="c7" line="53" tag="G">before    midwife 3s:S-lift      child 3s:S-cut           3s:P-placenta</item>
+    <item id="c8" line="54" tag="T">As soon as the child was safely delivered, the midwife lifted. the child and cut the</item>
+    <item id="c9" line="55" tag="T+EX">placenta [from the umbilical cord J.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+    <item id="p1" content="c2[0:60]"/>
+    <item id="p2" content="c5[0:64]"/>
+    <item id="p3" content="c6[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:58]" alignment="p2"/>
+    <item id="g1" content="c7[0:71]" alignment="p4"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:84]" alignment="p4"/>
+    <item id="t1" content="c9[0:36]" alignment="p4"/>
+  </tier>
+</igt>
+<igt id="i106248">
+  <metadata type="xigt-meta">
+    <meta type="language" name="larike" iso-639-3="alo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1523" line-range="57-60" line-types="L L+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="57" tag="L">  10.   Tarus        meiruho'oa          laku okole.</item>
+    <item id="o2" line="58" tag="L+AL">        tarus        mei-suho?o-a        laku okole</item>
+    <item id="o3" line="59" tag="G">        directly     3s:S-close-3sn:0 with coconut shell</item>
+    <item id="o4" line="60" tag="T">         Then she   covered it with a coconut shell.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="57" tag="L">Tarus        meiruho'oa          laku okole.</item>
+    <item id="c2" line="58" tag="L+AL">tarus        mei-suho?o-a        laku okole</item>
+    <item id="c3" line="59" tag="G">directly     3s:S-close-3sn:0 with coconut shell</item>
+    <item id="c4" line="60" tag="T">Then she   covered it with a coconut shell.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+    <item id="p1" content="c2[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i106249">
+  <metadata type="xigt-meta">
+    <meta type="language" name="larike" iso-639-3="alo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1523" line-range="62-69" line-types="L L+AL G B L L+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="62" tag="L">  11.   Baru        biange     niko        mise          meihueku       mantahale</item>
+    <item id="o2" line="63" tag="L+AL">        baru        biange     niko        mise          mei-hueku      mana-tahale</item>
+    <item id="o3" line="64" tag="G">        before      midwife    earlier     mentioned     3s:S-bury:TR   3s:P-pIacenta</item>
+    <item id="o4" line="65" tag="B"></item>
+    <item id="o5" line="66" tag="L">        niko        mise.</item>
+    <item id="o6" line="67" tag="L+AL">        niko        mise</item>
+    <item id="o7" line="68" tag="G">        earlier     mentioned</item>
+    <item id="o8" line="69" tag="T">        Then the    midwife buried the placenta.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="62" tag="L">Baru        biange     niko        mise          meihueku       mantahale</item>
+    <item id="c2" line="63" tag="L+AL">baru        biange     niko        mise          mei-hueku      mana-tahale</item>
+    <item id="c3" line="64" tag="G">before      midwife    earlier     mentioned     3s:S-bury:TR   3s:P-pIacenta</item>
+    <item id="c4" line="65" tag="B"/>
+    <item id="c5" line="66" tag="L">niko        mise.</item>
+    <item id="c6" line="67" tag="L+AL">niko        mise</item>
+    <item id="c7" line="68" tag="G">earlier     mentioned</item>
+    <item id="c8" line="69" tag="T">Then the    midwife buried the placenta.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+    <item id="p1" content="c2[0:75]"/>
+    <item id="p2" content="c5[0:17]"/>
+    <item id="p3" content="c6[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:77]" alignment="p2"/>
+    <item id="g1" content="c7[0:21]" alignment="p4"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:40]" alignment="p4"/>
+  </tier>
+</igt>
+<igt id="i106250">
+  <metadata type="xigt-meta">
+    <meta type="language" name="larike" iso-639-3="alo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1523" line-range="71-74" line-types="L L+AL G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="71" tag="L">  12.   Meihueka                 hise        duma si'u       hilale.</item>
+    <item id="o2" line="72" tag="L+AL">        mei-hueku-a              hise        duma si?u hilale</item>
+    <item id="o3" line="73" tag="G">        3s: S-bury: TR-3sn:0 exist           house side inside</item>
+    <item id="o4" line="74" tag="T">        She buried it in the house near     the outside wall</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="71" tag="L">Meihueka                 hise        duma si'u       hilale.</item>
+    <item id="c2" line="72" tag="L+AL">mei-hueku-a              hise        duma si?u hilale</item>
+    <item id="c3" line="73" tag="G">S-bury: TR-3sn:0 exist           house side inside</item>
+    <item id="c4" line="74" tag="T">She buried it in the house near     the outside wall</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+    <item id="p1" content="c2[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:52]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

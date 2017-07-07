@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i69779">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3092" line-range="268-271" line-types="L+CR L+CR G T+DB+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="268" tag="L+CR">           (ka) wa           le   che.</item>
+    <item id="o2" line="269" tag="L+CR">  (7)</item>
+    <item id="o3" line="270" tag="G">           (FM) 3sg:DISJ CNJ go</item>
+    <item id="o4" line="271" tag="T+DB+EX">           `HE went.' ~ `It is HE who went.' (not you)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="268 269" tag="L+CR">(ka) wa           le   che.</item>
+    <item id="c3" line="270" tag="G">(FM) 3sg:DISJ CNJ go</item>
+    <item id="c4" line="271" tag="T+DB+EX">HE went.' ~ `It is HE who went.' (not you)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69780">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3092" line-range="290-294" line-types="L+EX M G+CR G+CR T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="290" tag="L+EX">             wa che-ka      sandem.                    Paradigm A</item>
+    <item id="o2" line="291" tag="M">                         7</item>
+    <item id="o3" line="292" tag="G+CR">                            Sandema</item>
+    <item id="o4" line="293" tag="G+CR">             3sg go-FM</item>
+    <item id="o5" line="294" tag="T+DB">             `He went to SANDEMA..' ~ `He WENT TO SANDEMA.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="290" tag="L+EX">wa che-ka      sandem.                    Paradigm A</item>
+    <item id="c2" line="291" tag="M">7</item>
+    <item id="c3" line="292 293" tag="G+CR">3sg go-FM      Sandema</item>
+    <item id="c5" line="294" tag="T+DB">He went to SANDEMA..' ~ `He WENT TO SANDEMA.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69781">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3092" line-range="296-301" line-types="M+CN L+CR L+CR+EX L+CR G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="296" tag="M+CN">  NSF</item>
+    <item id="o2" line="297" tag="L+CR">               (ka) sandem te     wa che.</item>
+    <item id="o3" line="298" tag="L+CR+EX">  (8) a.                                                     Paradigm C, rare:</item>
+    <item id="o4" line="299" tag="L+CR">               le</item>
+    <item id="o5" line="300" tag="G">               (FM) Sandema CNJ 3sg go</item>
+    <item id="o6" line="301" tag="T+EX">               `It is SANDEMA where he went.' (not Navrongo)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="296" tag="M+CN">NSF</item>
+    <item id="c2" line="297 298" tag="L+CR+EX">(ka) sandem te     wa che.                    Paradigm C, rare:</item>
+    <item id="c5" line="300" tag="G">(FM) Sandema CNJ 3sg go</item>
+    <item id="c6" line="301" tag="T+EX">It is SANDEMA where he went.' (not Navrongo)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69782">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3092" line-range="303-306" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="303" tag="L+CR">               john te      m     fb.</item>
+    <item id="o2" line="304" tag="L+CR">        b.</item>
+    <item id="o3" line="305" tag="G">               John CNJ 1sg:DISJ slap</item>
+    <item id="o4" line="306" tag="T">               `I slapped JOHN.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="303 304" tag="L+CR">john te      m     fb.</item>
+    <item id="c3" line="305" tag="G">John CNJ 1sg:DISJ slap</item>
+    <item id="c4" line="306" tag="T">I slapped JOHN.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69794">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3092" line-range="513-518" line-types="M+CN L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="513" tag="M+CN">  Subject RC</item>
+    <item id="o2" line="514" tag="L+CR">                              le che la ka m           da.</item>
+    <item id="o3" line="515" tag="L+CR">               nuru-waa</item>
+    <item id="o4" line="516" tag="L+CR">  (17)</item>
+    <item id="o5" line="517" tag="G">               person-IND:CL CNJ go DET COP 1sg:DISJ friend</item>
+    <item id="o6" line="518" tag="T">               `The person who has left is my friend.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="513" tag="M+CN">Subject RC</item>
+    <item id="c2" line="514 515 516" tag="L+CR">nuru-waa       le che la ka m           da.</item>
+    <item id="c5" line="517" tag="G">person-IND:CL CNJ go DET COP 1sg:DISJ friend</item>
+    <item id="c6" line="518" tag="T">The person who has left is my friend.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69795">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3092" line-range="520-524" line-types="M+CN L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="520" tag="M+CN">  Non-Subject RC</item>
+    <item id="o2" line="521" tag="L+CR">                 f le yal        nuru-waa        la     ka m    da.</item>
+    <item id="o3" line="522" tag="L+CR">  (18) a.</item>
+    <item id="o4" line="523" tag="G">                 2sg CNJ marry person-IND:CL DET COP 1sg:DISJ friend</item>
+    <item id="o5" line="524" tag="T">                 `The person you married is my friend.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="520" tag="M+CN">Non-Subject RC</item>
+    <item id="c2" line="521 522" tag="L+CR">f le yal        nuru-waa        la     ka m    da.</item>
+    <item id="c4" line="523" tag="G">2sg CNJ marry person-IND:CL DET COP 1sg:DISJ friend</item>
+    <item id="c5" line="524" tag="T">The person you married is my friend.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69796">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3092" line-range="526-529" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="526" tag="L+CR">                 nuru-waa        te f yal         la    ka m    da.</item>
+    <item id="o2" line="527" tag="L+CR">          b.</item>
+    <item id="o3" line="528" tag="G">                 person-IND:CL CNJ 2sg marry DET COP 1sg:DISJ friend</item>
+    <item id="o4" line="529" tag="T">                 `The person you married is my friend.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="526 527" tag="L+CR">nuru-waa        te f yal         la    ka m    da.</item>
+    <item id="c3" line="528" tag="G">person-IND:CL CNJ 2sg marry DET COP 1sg:DISJ friend</item>
+    <item id="c4" line="529" tag="T">The person you married is my friend.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69806">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3092" line-range="710-714" line-types="M+CN L+CR L+CR+EX G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="710" tag="M+CN">  NSF</item>
+    <item id="o2" line="711" tag="L+CR">             (ka) sandem   te  wa     che.</item>
+    <item id="o3" line="712" tag="L+CR+EX">  (27)                                                     (= ex. 8a)</item>
+    <item id="o4" line="713" tag="G">             (FM) Sandema CNJ 3sg go</item>
+    <item id="o5" line="714" tag="T+EX">             `It is SANDEMA where he went.' (not Navrongo)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="710" tag="M+CN">NSF</item>
+    <item id="c2" line="711 712" tag="L+CR+EX">(ka) sandem   te  wa     che.                 (= ex. 8a</item>
+    <item id="c4" line="713" tag="G">(FM) Sandema CNJ 3sg go</item>
+    <item id="c5" line="714" tag="T+EX">It is SANDEMA where he went.' (not Navrongo)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i69807">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3092" line-range="718-720" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="718" tag="L">             te    ba d jentaa ...</item>
+    <item id="o2" line="719" tag="G">             CNJ 3pl cook soup.DEF</item>
+    <item id="o3" line="720" tag="T">             `and they cooked the soup ...'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="718" tag="L">te    ba d jentaa ...</item>
+    <item id="c2" line="719" tag="G">CNJ 3pl cook soup.DEF</item>
+    <item id="c3" line="720" tag="T">and they cooked the soup ...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72431">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="53-56" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="53" tag="L+CR">               wa chen       ka     bal.</item>
+    <item id="o2" line="54" tag="L+CR">  (1) a.</item>
+    <item id="o3" line="55" tag="G">               CL come:ST FM next.year</item>
+    <item id="o4" line="56" tag="T">               `He is coming next year.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="53 54" tag="L+CR">wa chen       ka     bal.</item>
+    <item id="c3" line="55" tag="G">CL come:ST FM next.year</item>
+    <item id="c4" line="56" tag="T">He is coming next year.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72432">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="58-61" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="58" tag="L+CR">               bal,      wa le       jam.</item>
+    <item id="o2" line="59" tag="L+CR">       b.</item>
+    <item id="o3" line="60" tag="G">               next.year CL FUT come</item>
+    <item id="o4" line="61" tag="T">               `Next year, he will come.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="58 59" tag="L+CR">bal,      wa le       jam.</item>
+    <item id="c3" line="60" tag="G">next.year CL FUT come</item>
+    <item id="c4" line="61" tag="T">Next year, he will come.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72433">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="120-124" line-types="M+CN B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="120" tag="M+CN">  (5) a.    subject-final slot</item>
+    <item id="o2" line="121" tag="B"></item>
+    <item id="o3" line="122" tag="L">            wa dem          a kaab-ya.</item>
+    <item id="o4" line="123" tag="G">            CL yesterday NEG sacrifice-ASS.NEG</item>
+    <item id="o5" line="124" tag="T">            `He didn't sacrifice yesterday.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="120" tag="M+CN">subject-final slot</item>
+    <item id="c2" line="121" tag="B"/>
+    <item id="c3" line="122" tag="L">wa dem          a kaab-ya.</item>
+    <item id="c4" line="123" tag="G">CL yesterday NEG sacrifice-ASS.NEG</item>
+    <item id="c5" line="124" tag="T">He didn't sacrifice yesterday.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72434">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="126-131" line-types="M+CN B L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="126" tag="M+CN">       b.   predicate-initial slot</item>
+    <item id="o2" line="127" tag="B"></item>
+    <item id="o3" line="128" tag="L+CR">                     kasm-a      puus ba.</item>
+    <item id="o4" line="129" tag="L+CR">            wa</item>
+    <item id="o5" line="130" tag="G">            CL NEG always-IPF greet CL.NEG</item>
+    <item id="o6" line="131" tag="T">            `He does not always greet them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="126" tag="M+CN">predicate-initial slot</item>
+    <item id="c2" line="127" tag="B"/>
+    <item id="c3" line="128 129" tag="L+CR">wa       kasm-a      puus ba.</item>
+    <item id="c5" line="130" tag="G">CL NEG always-IPF greet CL.NEG</item>
+    <item id="c6" line="131" tag="T">He does not always greet them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72435">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="152-155" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="152" tag="L+CR">                     der n            tmu zuk lo.</item>
+    <item id="o2" line="153" tag="L+CR">             m</item>
+    <item id="o3" line="154" tag="G">             1sg.E just come.out tree.DEF head fall</item>
+    <item id="o4" line="155" tag="T">             `I just fell from the tree.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="152 153" tag="L+CR">m       der n            tmu zuk lo.</item>
+    <item id="c3" line="154" tag="G">1sg.E just come.out tree.DEF head fall</item>
+    <item id="c4" line="155" tag="T">I just fell from the tree.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72436">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="161-163" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="161" tag="L">             numu der yr jue tmu                   zuk.</item>
+    <item id="o2" line="162" tag="G">             bird.DEF just get.up climb tree.DEF head</item>
+    <item id="o3" line="163" tag="T">             `The bird suddenly flew on top of the tree.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="161" tag="L">numu der yr jue tmu                   zuk.</item>
+    <item id="c2" line="162" tag="G">bird.DEF just get.up climb tree.DEF head</item>
+    <item id="c3" line="163" tag="T">The bird suddenly flew on top of the tree.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72437">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="172-174" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="172" tag="L+EX">             n der n               tmu    zuk lo.             /der/</item>
+    <item id="o2" line="173" tag="G">             1sg just come.out tree.DEF head fall</item>
+    <item id="o3" line="174" tag="T">             `I just fell from the tree.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="172" tag="L+EX">n der n               tmu    zuk lo.             /der/</item>
+    <item id="c2" line="173" tag="G">1sg just come.out tree.DEF head fall</item>
+    <item id="c3" line="174" tag="T">I just fell from the tree.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72438">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="178-180" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="178" tag="L+EX">             wa der n            tmu       zuk lo.            /der/</item>
+    <item id="o2" line="179" tag="G">             CL just come.out tree.DEF head fall</item>
+    <item id="o3" line="180" tag="T">             `He just fell from the tree.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="178" tag="L+EX">wa der n            tmu       zuk lo.            /der/</item>
+    <item id="c2" line="179" tag="G">CL just come.out tree.DEF head fall</item>
+    <item id="c3" line="180" tag="T">He just fell from the tree.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72439">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="184-186" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="184" tag="L+EX">             wa sum-a       d t.                              /sum/</item>
+    <item id="o2" line="185" tag="G">             CL really-IPF cook CL</item>
+    <item id="o3" line="186" tag="T">             `He really cooks it well.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="184" tag="L+EX">wa sum-a       d t.                              /sum/</item>
+    <item id="c2" line="185" tag="G">CL really-IPF cook CL</item>
+    <item id="c3" line="186" tag="T">He really cooks it well.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72440">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="190-192" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="190" tag="L+EX">             ba chum       le     che skuul.                   /chum/</item>
+    <item id="o2" line="191" tag="G">             CL tomorrow FUT walk school</item>
+    <item id="o3" line="192" tag="T">             `Tomorrow they will go to school.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="190" tag="L+EX">ba chum       le     che skuul.                   /chum/</item>
+    <item id="c2" line="191" tag="G">CL tomorrow FUT walk school</item>
+    <item id="c3" line="192" tag="T">Tomorrow they will go to school.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72441">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="204-206" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="204" tag="L+EX">               t aan bas.                              /aa/</item>
+    <item id="o2" line="205" tag="G">               1pl already leave</item>
+    <item id="o3" line="206" tag="T">               `We have already left.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="204" tag="L+EX">t aan bas.                              /aa/</item>
+    <item id="c2" line="205" tag="G">1pl already leave</item>
+    <item id="c3" line="206" tag="T">We have already left.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72442">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="211-213" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="211" tag="L+EX">               n nchaama aan bas.                      /aa/</item>
+    <item id="o2" line="212" tag="G">               1sg guests.DEF already leave</item>
+    <item id="o3" line="213" tag="T">               `My guests have already left.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="211" tag="L+EX">n nchaama aan bas.                      /aa/</item>
+    <item id="c2" line="212" tag="G">1sg guests.DEF already leave</item>
+    <item id="c3" line="213" tag="T">My guests have already left.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72443">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="232-236" line-types="M+DB+SY B+DB L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="232" tag="M+DB+SY">  (11a) H H                            HH L</item>
+    <item id="o2" line="233" tag="B+DB"></item>
+    <item id="o3" line="234" tag="L+DB">        ka kk-sa.                      ka kk-sa.</item>
+    <item id="o4" line="235" tag="G+DB">                                       FM mahogany-CL</item>
+    <item id="o5" line="236" tag="T+DB">                                       `It is mahogany trees.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="232" tag="M+DB+SY">H H                            HH L</item>
+    <item id="c2" line="233" tag="B+DB"/>
+    <item id="c3" line="234" tag="L+DB">ka kk-sa.                      ka kk-sa.</item>
+    <item id="c4" line="235" tag="G+DB">FM mahogany-CL</item>
+    <item id="c5" line="236" tag="T+DB">It is mahogany trees.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72444">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="238-242" line-types="M+DB+SY B+DB L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="238" tag="M+DB+SY">  (11b) H H      LL                    HHH               LL</item>
+    <item id="o2" line="239" tag="B+DB"></item>
+    <item id="o3" line="240" tag="L+DB">        ka kk-sa s-ta.                 ka kk-sa          s-ta.</item>
+    <item id="o4" line="241" tag="G+DB">                                       FM mahogany-CL CL-three</item>
+    <item id="o5" line="242" tag="T+DB">                                       `It is three mahogany trees.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="238" tag="M+DB+SY">H H      LL                    HHH               LL</item>
+    <item id="c2" line="239" tag="B+DB"/>
+    <item id="c3" line="240" tag="L+DB">ka kk-sa s-ta.                 ka kk-sa          s-ta.</item>
+    <item id="c4" line="241" tag="G+DB">FM mahogany-CL CL-three</item>
+    <item id="c5" line="242" tag="T+DB">It is three mahogany trees.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72445">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="247-251" line-types="M+DB+SY B+DB L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="247" tag="M+DB+SY">  (12a)     LHHH                             LHH           HL</item>
+    <item id="o2" line="248" tag="B+DB"></item>
+    <item id="o3" line="249" tag="L+DB">           n sum -a di ti .                  n sum-a      d t.</item>
+    <item id="o4" line="250" tag="G+DB">                                             1sg really-IPF cook CL</item>
+    <item id="o5" line="251" tag="T+DB">                                             `I am really cooking it (well).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="247" tag="M+DB+SY">LHHH                             LHH           HL</item>
+    <item id="c2" line="248" tag="B+DB"/>
+    <item id="c3" line="249" tag="L+DB">n sum-a di ti .                  n sum-a      d t.</item>
+    <item id="c4" line="250" tag="G+DB">1sg really-IPF cook CL</item>
+    <item id="c5" line="251" tag="T+DB">I am really cooking it (well).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72446">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="253-257" line-types="M+DB+SY B+DB L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="253" tag="M+DB+SY">  (12b) H H       HM                         HHHHM</item>
+    <item id="o2" line="254" tag="B+DB"></item>
+    <item id="o3" line="255" tag="L+DB">       m i di ti kama.                       m  d t kama.</item>
+    <item id="o4" line="256" tag="G+DB">                                             1sg.E cook CL AFF</item>
+    <item id="o5" line="257" tag="T+DB">                                             `I have COOKed it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="253" tag="M+DB+SY">H H       HM                         HHHHM</item>
+    <item id="c2" line="254" tag="B+DB"/>
+    <item id="c3" line="255" tag="L+DB">m i di ti kama.                       m  d t kama.</item>
+    <item id="c4" line="256" tag="G+DB">1sg.E cook CL AFF</item>
+    <item id="c5" line="257" tag="T+DB">I have COOKed it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72447">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="271-274" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="271" tag="L+CR">              m        dm       k ka buuk t        wa.</item>
+    <item id="o2" line="272" tag="L+CR">  (13) a.</item>
+    <item id="o3" line="273" tag="G">              1sg.E last.year kill FM goat give CL</item>
+    <item id="o4" line="274" tag="T">              `I killed a goat for him last year.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="271 272" tag="L+CR">m        dm       k ka buuk t        wa.</item>
+    <item id="c3" line="273" tag="G">1sg.E last.year kill FM goat give CL</item>
+    <item id="c4" line="274" tag="T">I killed a goat for him last year.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72448">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="276-279" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="276" tag="L+CR">              ba dm k ka buuk t                  m.</item>
+    <item id="o2" line="277" tag="L+CR">         b.</item>
+    <item id="o3" line="278" tag="G">              CL last.year kill FM goat give 1sg</item>
+    <item id="o4" line="279" tag="T">              `They killed a goat for me last year.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="276 277" tag="L+CR">ba dm k ka buuk t                  m.</item>
+    <item id="c3" line="278" tag="G">CL last.year kill FM goat give 1sg</item>
+    <item id="c4" line="279" tag="T">They killed a goat for me last year.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72449">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="338-341" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="338" tag="L+CR">                          dem bo       ka dla.</item>
+    <item id="o2" line="339" tag="L+CR">         bu dem</item>
+    <item id="o3" line="340" tag="G">         CL yesterday still be:LOC FM here</item>
+    <item id="o4" line="341" tag="T">         it was still here yesterday.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="338 339" tag="L+CR">bu dem           dem bo       ka dla.</item>
+    <item id="c3" line="340" tag="G">CL yesterday still be:LOC FM here</item>
+    <item id="c4" line="341" tag="T">it was still here yesterday.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72450">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="351-354" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="351" tag="L+CR">              chum,     f le    tu ba.</item>
+    <item id="o2" line="352" tag="L+CR">  (17) a.</item>
+    <item id="o3" line="353" tag="G">              tomorrow 2sg FUT meet CL</item>
+    <item id="o4" line="354" tag="T">              Tomorrow, you will meet them.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="351 352" tag="L+CR">chum,     f le    tu ba.</item>
+    <item id="c3" line="353" tag="G">tomorrow 2sg FUT meet CL</item>
+    <item id="c4" line="354" tag="T">Tomorrow, you will meet them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72451">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="356-358" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="356" tag="L">         b. wa chum       ale jam.</item>
+    <item id="o2" line="357" tag="G">            CL tomorrow FUT come.Q</item>
+    <item id="o3" line="358" tag="T">            Will he come tomorrow?</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="356" tag="L">wa chum       ale jam.</item>
+    <item id="c2" line="357" tag="G">CL tomorrow FUT come.Q</item>
+    <item id="c3" line="358" tag="T">Will he come tomorrow?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i72452">
+  <metadata type="xigt-meta">
+    <meta type="language" name="buli" iso-639-3="bwu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3104" line-range="360-363" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="360" tag="L+CR">              nuruwa     le jam chum.</item>
+    <item id="o2" line="361" tag="L+CR">         c.</item>
+    <item id="o3" line="362" tag="G">              person.DEF FUT come tomorrow</item>
+    <item id="o4" line="363" tag="T">              The man will come tomorrow.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="360 361" tag="L+CR">nuruwa     le jam chum.</item>
+    <item id="c3" line="362" tag="G">person.DEF FUT come tomorrow</item>
+    <item id="c4" line="363" tag="T">The man will come tomorrow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i38029">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1191" line-range="404-406" line-types="L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="404" tag="L+LN+CR">  (12) a.                              ?                                                Dhivehi</item>
+    <item id="o2" line="405" tag="G">          Ali what say.PST.FOC Q</item>
+    <item id="o3" line="406" tag="T">          `What did Ali say?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="404" tag="L+LN+CR">?                                                Dhivehi</item>
+    <item id="c2" line="405" tag="G">Ali what say.PST.FOC Q</item>
+    <item id="c3" line="406" tag="T">What did Ali say?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38030">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1191" line-range="407-409" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="407" tag="L+CR">       b.                        ?</item>
+    <item id="o2" line="408" tag="G">          Ali say.PST.FOC what Q</item>
+    <item id="o3" line="409" tag="T">          `What did Ali say?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="407" tag="L+CR">?</item>
+    <item id="c2" line="408" tag="G">Ali say.PST.FOC what Q</item>
+    <item id="c3" line="409" tag="T">What did Ali say?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:1]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38031">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1191" line-range="411-412" line-types="G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="411" tag="G">            Male be.PST.PROG.when 1sg            drink.PRES.FOC ice cream</item>
+    <item id="o2" line="412" tag="T">            `When in Male, it is ice cream that I eat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="411" tag="G">Male be.PST.PROG.when 1sg            drink.PRES.FOC ice cream</item>
+    <item id="c2" line="412" tag="T">When in Male, it is ice cream that I eat.</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c1[0:61]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:41]"/>
+  </tier>
+</igt>
+<igt id="i42726">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3500" line-range="313-313" line-types="L+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="313" tag="L+CR">              (1.3) a.   Al¯ bun¯</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="313" tag="L+CR">Al¯ bun¯</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+</igt>
+<igt id="i42727">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3500" line-range="314-317" line-types="L+CR M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="314" tag="L+CR">                           i     i            k ¯ ke ta?</item>
+    <item id="o2" line="315" tag="M">                                                i</item>
+    <item id="o3" line="316" tag="G">                         Ali say.PAST.FOC what Q</item>
+    <item id="o4" line="317" tag="T">                         `What did Ali say?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="314" tag="L+CR">i     i            k ¯ ke ta?</item>
+    <item id="c2" line="315" tag="M">i</item>
+    <item id="c3" line="316" tag="G">Ali say.PAST.FOC what Q</item>
+    <item id="c4" line="317" tag="T">What did Ali say?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42728">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3500" line-range="318-321" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="318" tag="L+CR">                    a.   Al¯ k¯ e bun¯</item>
+    <item id="o2" line="319" tag="L+CR">                           i ik       i             ta?</item>
+    <item id="o3" line="320" tag="G">                         Ali what say.PAST.FOC Q</item>
+    <item id="o4" line="321" tag="T">                         `What did Ali say?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="318" tag="L+CR">Al¯ k¯ e bun¯</item>
+    <item id="c3" line="320" tag="G">Ali what say.PAST.FOC Q</item>
+    <item id="c4" line="321" tag="T">What did Ali say?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42729">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3500" line-range="322-326" line-types="L+CR L+CR M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="322" tag="L+CR">                    b.   Male ulun¯</item>
+    <item id="o2" line="323" tag="L+CR">                           ¯    . ima                  aharen bon¯  i         ais   kur ¯ mu .</item>
+    <item id="o3" line="324" tag="M">                                                                                        i</item>
+    <item id="o4" line="325" tag="G">                         Male be.PAST.PROG.when 1sg            drink.PRES.FOC ice   cream</item>
+    <item id="o5" line="326" tag="T">                         `When in Male, it is ice cream that I eat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="322" tag="L+CR">Male ulun¯</item>
+    <item id="c3" line="324" tag="M">i</item>
+    <item id="c4" line="325" tag="G">Male be.PAST.PROG.when 1sg            drink.PRES.FOC ice   cream</item>
+    <item id="c5" line="326" tag="T">When in Male, it is ice cream that I eat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42730">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3500" line-range="327-331" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="327" tag="L+CR">                    b.   Male ulun¯</item>
+    <item id="o2" line="328" tag="L+CR">                           ¯    . ima                   ais kur¯</item>
+    <item id="o3" line="329" tag="L+CR">                                                               imu bon¯i            aharen .</item>
+    <item id="o4" line="330" tag="G">                         Male be.PAST.PROG.when ice cream drink.PRES.FOC            1sg</item>
+    <item id="o5" line="331" tag="T">                         `When in Male, it is I who eat ice cream.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="327 329" tag="L+CR">Male ulun¯                           imu bon¯i            aharen .</item>
+    <item id="c4" line="330" tag="G">Male be.PAST.PROG.when ice cream drink.PRES.FOC            1sg</item>
+    <item id="c5" line="331" tag="T">When in Male, it is I who eat ice cream.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78832">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2503" line-range="1012-1015" line-types="L-T+DB L-T+DB L-T+DB L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1012" tag="L-T+DB">      fot        'book'                  dari         'child'</item>
+    <item id="o2" line="1013" tag="L-T+DB">      fotu-ge    'of the book'           dari@-ge     'of the child'</item>
+    <item id="o3" line="1014" tag="L-T+DB">      fotu-ga@   'in the book'           *dari@-ga@ 'in the child'</item>
+    <item id="o4" line="1015" tag="L-T">                                         (dari@-ge gai-ga@ 'in the child('s body)')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1012" tag="L-T+DB">fot        'book'                  dari         'child</item>
+    <item id="c2" line="1013" tag="L-T+DB">fotu-ge    'of the book'           dari@-ge     'of the child</item>
+    <item id="c3" line="1014" tag="L-T+DB">fotu-ga@   'in the book'           *dari@-ga@ 'in the child</item>
+    <item id="c4" line="1015" tag="L-T">dari@-ge gai-ga@ 'in the child('s body)</item>
+  </tier>
+</igt>
+<igt id="i95277">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2830" line-range="313-317" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="313" tag="L+CR">              (1.3) a.   Al¯ bun¯</item>
+    <item id="o2" line="314" tag="L+CR">                           i     i            k ¯ ke ta?</item>
+    <item id="o3" line="315" tag="L+CR">                                                i</item>
+    <item id="o4" line="316" tag="G">                         Ali say.PAST.FOC what Q</item>
+    <item id="o5" line="317" tag="T">                         `What did Ali say?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="313 315" tag="L+CR">Al¯ bun¯             i</item>
+    <item id="c4" line="316" tag="G">Ali say.PAST.FOC what Q</item>
+    <item id="c5" line="317" tag="T">What did Ali say?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95278">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2830" line-range="318-321" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="318" tag="L+CR">                    a.   Al¯ k¯ e bun¯</item>
+    <item id="o2" line="319" tag="L+CR">                           i ik       i             ta?</item>
+    <item id="o3" line="320" tag="G">                         Ali what say.PAST.FOC Q</item>
+    <item id="o4" line="321" tag="T">                         `What did Ali say?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="318" tag="L+CR">Al¯ k¯ e bun¯</item>
+    <item id="c3" line="320" tag="G">Ali what say.PAST.FOC Q</item>
+    <item id="c4" line="321" tag="T">What did Ali say?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95279">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2830" line-range="322-326" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="322" tag="L+CR">                    b.   Male ulun¯</item>
+    <item id="o2" line="323" tag="L+CR">                           ¯    . ima                  aharen bon¯  i         ais   kur ¯ mu .</item>
+    <item id="o3" line="324" tag="L+CR">                                                                                        i</item>
+    <item id="o4" line="325" tag="G">                         Male be.PAST.PROG.when 1sg            drink.PRES.FOC ice   cream</item>
+    <item id="o5" line="326" tag="T">                         `When in Male, it is ice cream that I eat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="322 324" tag="L+CR">Male ulun¯                                                    i</item>
+    <item id="c4" line="325" tag="G">Male be.PAST.PROG.when 1sg            drink.PRES.FOC ice   cream</item>
+    <item id="c5" line="326" tag="T">When in Male, it is ice cream that I eat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95280">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2830" line-range="327-331" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="327" tag="L+CR">                    b.   Male ulun¯</item>
+    <item id="o2" line="328" tag="L+CR">                           ¯    . ima                   ais kur¯</item>
+    <item id="o3" line="329" tag="L+CR">                                                               imu bon¯i            aharen .</item>
+    <item id="o4" line="330" tag="G">                         Male be.PAST.PROG.when ice cream drink.PRES.FOC            1sg</item>
+    <item id="o5" line="331" tag="T">                         `When in Male, it is I who eat ice cream.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="327 329" tag="L+CR">Male ulun¯                           imu bon¯i            aharen .</item>
+    <item id="c4" line="330" tag="G">Male be.PAST.PROG.when ice cream drink.PRES.FOC            1sg</item>
+    <item id="c5" line="331" tag="T">When in Male, it is I who eat ice cream.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105589">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="4-6" line-types="L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4" tag="L">  (233 ) a.      kudin      sifl    liyanl</item>
+    <item id="o2" line="5" tag="G">                 children letter write.PREPRO</item>
+    <item id="o3" line="6" tag="T+CR">                 Th e children are writing the letter/</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4" tag="L">kudin      sifl    liyanl</item>
+    <item id="c2" line="5" tag="G">children letter write.PREPRO</item>
+    <item id="c3" line="6" tag="T+CR">Th e children are writing the letter/</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105590">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="7-9" line-types="L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7" tag="L">         b.      mamma      kudin     lawa*          sifl      liyuwan l</item>
+    <item id="o2" line="8" tag="G">                 mother     children put.CAUS.PRT letter write.CAUS.PREPRO</item>
+    <item id="o3" line="9" tag="T+CR">                 Th e mother is making the children write the letter. *</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7" tag="L">mamma      kudin     lawa*          sifl      liyuwan l</item>
+    <item id="c2" line="8" tag="G">mother     children put.CAUS.PRT letter write.CAUS.PREPRO</item>
+    <item id="c3" line="9" tag="T+CR">Th e mother is making the children write the letter. *</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105591">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="11-13" line-types="L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11" tag="L">  (234 ) a.      kudin       si|T     fonuvanl             bappay-a§</item>
+    <item id="o2" line="12" tag="G">                 children letter      send.PRE.FOC         father-DAT</item>
+    <item id="o3" line="13" tag="T+CR">                 Th e children are sending the letter to the father.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11" tag="L">kudin       si|T     fonuvanl             bappay-a§</item>
+    <item id="c2" line="12" tag="G">children letter      send.PRE.FOC         father-DAT</item>
+    <item id="c3" line="13" tag="T+CR">Th e children are sending the letter to the father.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105592">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="14-16" line-types="L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14" tag="L">         b.      mamma kudin          law a          sit !  fonuvvanl          bappay-a§</item>
+    <item id="o2" line="15" tag="G">                 mother children putCAUS.PRT letter send.PRE.FOC father-DAT</item>
+    <item id="o3" line="16" tag="T+CR">                 lit e mother is making the children send die letter to die father.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14" tag="L">mamma kudin          law a          sit !  fonuvvanl          bappay-a§</item>
+    <item id="c2" line="15" tag="G">mother children putCAUS.PRT letter send.PRE.FOC father-DAT</item>
+    <item id="c3" line="16" tag="T+CR">lit e mother is making the children send die letter to die father.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105593">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="24-26" line-types="L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="24" tag="L">  (235 ) katlbu           kiyuw l                   c      fot</item>
+    <item id="o2" line="25" tag="G">         island-chief     read.CAUS.PST.FOC         mat    book</item>
+    <item id="o3" line="26" tag="T+CR">         Th e island chie f read that book.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="24" tag="L">katlbu           kiyuw l                   c      fot</item>
+    <item id="c2" line="25" tag="G">island-chief     read.CAUS.PST.FOC         mat    book</item>
+    <item id="c3" line="26" tag="T+CR">Th e island chie f read that book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105594">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="30-32" line-types="L G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="30" tag="L">  (236 ) a.      don    kamana       bo|u-ga       funa ajant</item>
+    <item id="o2" line="31" tag="G+CR">                 Do n Kamana         head-LOC      comb put.PREPRO</item>
+    <item id="o3" line="32" tag="T+CR">                 Do n Kamana is combing (her own) hair.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="30" tag="L">don    kamana       bo|u-ga       funa ajant</item>
+    <item id="c2" line="31" tag="G+CR">Do n Kamana         head-LOC      comb put.PREPRO</item>
+    <item id="c3" line="32" tag="T+CR">Do n Kamana is combing (her own) hair.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i105595">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="33-37" line-types="L G L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="33" tag="L">         b.      don      kamana         eitl-g e kujja-ge boju-ga</item>
+    <item id="o2" line="34" tag="G">                 Don      Kamana        (s)he-GEN child-GEN head-LOC</item>
+    <item id="o3" line="35" tag="L">                 funa ajuvanl</item>
+    <item id="o4" line="36" tag="G+CR">                 com b putCAUS.PR£PRO</item>
+    <item id="o5" line="37" tag="T">                 *Don Kamana is combing her child's hair.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="33" tag="L">don      kamana         eitl-g e kujja-ge boju-ga</item>
+    <item id="c2" line="34" tag="G">Don      Kamana        (s)he-GEN child-GEN head-LOC</item>
+    <item id="c3" line="35" tag="L">funa ajuvanl</item>
+    <item id="c4" line="36" tag="G+CR">com b putCAUS.PR£PRO</item>
+    <item id="c5" line="37" tag="T">*Don Kamana is combing her child's hair.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+    <item id="p1" content="c3[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+    <item id="g1" content="c4[0:20]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:40]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105596">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="61-65" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="61" tag="L">  (237) anga       gada        mitur-al           anga    madu     mitur-akl</item>
+    <item id="o2" line="62" tag="G">        mouth       strong      friend-CNPM          mourn    soft friend-EQ</item>
+    <item id="o3" line="63" tag="L">          vara! b°4u de          ekuverinn-eve</item>
+    <item id="o4" line="64" tag="G">          very great 2           friend-PL-END</item>
+    <item id="o5" line="65" tag="T">          Talkative Friend and Reserved Friend were two very good friends.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="61" tag="L">anga       gada        mitur-al           anga    madu     mitur-akl</item>
+    <item id="c2" line="62" tag="G">mouth       strong      friend-CNPM          mourn    soft friend-EQ</item>
+    <item id="c3" line="63" tag="L">vara! b°4u de          ekuverinn-eve</item>
+    <item id="c4" line="64" tag="G">very great 2           friend-PL-END</item>
+    <item id="c5" line="65" tag="T">Talkative Friend and Reserved Friend were two very good friends.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+    <item id="p1" content="c3[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+    <item id="g1" content="c4[0:36]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:64]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105597">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="67-71" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="67" tag="L">  (238) ek      duvah-aku         mi     de ekuveri-n           eb-bai</item>
+    <item id="o2" line="68" tag="G">        one     day-NSPC          this   two friend-PL          one-group</item>
+    <item id="o3" line="69" tag="L">          vc-gen     ntiSfuf mo^c-gen kef       eve</item>
+    <item id="o4" line="70" tag="G">          be-SUC     maafuh mix-SUC eat.PST.rao end</item>
+    <item id="o5" line="71" tag="T">          'One day they got together, mixed up some maafuh and ate it '</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="67" tag="L">ek      duvah-aku         mi     de ekuveri-n           eb-bai</item>
+    <item id="c2" line="68" tag="G">one     day-NSPC          this   two friend-PL          one-group</item>
+    <item id="c3" line="69" tag="L">vc-gen     ntiSfuf mo^c-gen kef       eve</item>
+    <item id="c4" line="70" tag="G">be-SUC     maafuh mix-SUC eat.PST.rao end</item>
+    <item id="c5" line="71" tag="T">One day they got together, mixed up some maafuh and ate it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+    <item id="p1" content="c3[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+    <item id="g1" content="c4[0:41]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:58]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105598">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="73-78" line-types="L G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="73" tag="L">  (239)    rndfuf kai-gen gos             ho|u-a|T-gai              jassali</item>
+    <item id="o2" line="74" tag="G">          maafuh eat-suc go.PRT           log-platform-LOC          touch.PST.RFRT</item>
+    <item id="o3" line="75" tag="L">          tan§          anga   madu mitur-a$        nidi-jje    eve</item>
+    <item id="o4" line="76" tag="G">          place.CNPM mouth soft friend-DAT sleep-PAST END</item>
+    <item id="o5" line="77" tag="T">          "Having eaten the maafuh, Reserved Friend went to where the raised log platform was</item>
+    <item id="o6" line="78" tag="T">          and fell asleep immediately/</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="73" tag="L">rndfuf kai-gen gos             ho|u-a|T-gai              jassali</item>
+    <item id="c2" line="74" tag="G">maafuh eat-suc go.PRT           log-platform-LOC          touch.PST.RFRT</item>
+    <item id="c3" line="75" tag="L">tan§          anga   madu mitur-a$        nidi-jje    eve</item>
+    <item id="c4" line="76" tag="G">place.CNPM mouth soft friend-DAT sleep-PAST END</item>
+    <item id="c5" line="77" tag="T">Having eaten the maafuh, Reserved Friend went to where the raised log platform was</item>
+    <item id="c6" line="78" tag="T">and fell asleep immediately/</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+    <item id="p1" content="c3[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:72]" alignment="p1"/>
+    <item id="g1" content="c4[0:47]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:82]" alignment="p2"/>
+    <item id="t1" content="c6[0:28]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105599">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="80-87" line-types="L G L G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="80" tag="L">  (240) anga  madu mitur-a§                nidi-fa          ow 5                     mi</item>
+    <item id="o2" line="81" tag="G">        mouth soft friend-DAT              sleep.iN-suc     be(horz.).PRE.RPRT       this</item>
+    <item id="o3" line="82" tag="L">          tan-a$    santimariyarabu       dat       gdni        hifai-gen</item>
+    <item id="o4" line="83" tag="G">          place-DAT santimariyambu        tooth     sack        grab-SUC</item>
+    <item id="o5" line="84" tag="L">          atuvcjje      eve</item>
+    <item id="o6" line="85" tag="G">          come.PFT     END</item>
+    <item id="o7" line="86" tag="T">          'Santimariyambu grabbed the tooth bag and came to the place where Reserved Friend</item>
+    <item id="o8" line="87" tag="T">          was asleep/</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="80" tag="L">anga  madu mitur-a§                nidi-fa          ow 5                     mi</item>
+    <item id="c2" line="81" tag="G">mouth soft friend-DAT              sleep.iN-suc     be(horz.).PRE.RPRT       this</item>
+    <item id="c3" line="82" tag="L">tan-a$    santimariyarabu       dat       gdni        hifai-gen</item>
+    <item id="c4" line="83" tag="G">place-DAT santimariyambu        tooth     sack        grab-SUC</item>
+    <item id="c5" line="84" tag="L">atuvcjje      eve</item>
+    <item id="c6" line="85" tag="G">come.PFT     END</item>
+    <item id="c7" line="86" tag="T">Santimariyambu grabbed the tooth bag and came to the place where Reserved Friend</item>
+    <item id="c8" line="87" tag="T">was asleep/</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+    <item id="p1" content="c3[0:63]"/>
+    <item id="p2" content="c5[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:81]" alignment="p1"/>
+    <item id="g1" content="c4[0:62]" alignment="p2"/>
+    <item id="g2" content="c6[0:16]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:80]" alignment="p3"/>
+    <item id="t1" content="c8[0:11]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i105600">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="89-104" line-types="L G B L G L G B M M B B L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="89" tag="L">  (241) anga       ma&lt;Ju       mituru mafuf         kai-gen       dayt-tak</item>
+    <item id="o2" line="90" tag="G">        mouth      soft      friend   maafuh        eat-SUC       tooth-PLU</item>
+    <item id="o3" line="91" tag="B"></item>
+    <item id="o4" line="92" tag="L">          hadi ve-fai        va          tan         feni-fai     dayt-tak</item>
+    <item id="o5" line="93" tag="G">          dirty be-suc       be.PRE.RPRT place       see-suc      tootb-PLU</item>
+    <item id="o6" line="94" tag="L">          urura-lS-ft    ifti            dat</item>
+    <item id="o7" line="95" tag="G">          remove-put-suc pretty          tooth</item>
+    <item id="o8" line="96" tag="B"></item>
+    <item id="o9" line="97" tag="M">                                                                                                     LW/M53</item>
+    <item id="o10" line="98" tag="M">                                         Phivehi(Ma|divJan)</item>
+    <item id="o11" line="99" tag="B"></item>
+    <item id="o12" line="100" tag="B"></item>
+    <item id="o13" line="101" tag="L">        pila-ek         jahai         dTfi-cve</item>
+    <item id="o14" line="102" tag="G">        bunch-INDF      put           give.PFT-END</item>
+    <item id="o15" line="103" tag="T">        Having seen where Reserved Friend's teeth were dirty from eating maqfuh, she</item>
+    <item id="o16" line="104" tag="T">        removed (his) teeth and put in beautiful teeth (in their place)/</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="89" tag="L">anga       ma&lt;Ju       mituru mafuf         kai-gen       dayt-tak</item>
+    <item id="c2" line="90" tag="G">mouth      soft      friend   maafuh        eat-SUC       tooth-PLU</item>
+    <item id="c3" line="91" tag="B"/>
+    <item id="c4" line="92" tag="L">hadi ve-fai        va          tan         feni-fai     dayt-tak</item>
+    <item id="c5" line="93" tag="G">dirty be-suc       be.PRE.RPRT place       see-suc      tootb-PLU</item>
+    <item id="c6" line="94" tag="L">urura-lS-ft    ifti            dat</item>
+    <item id="c7" line="95" tag="G">remove-put-suc pretty          tooth</item>
+    <item id="c8" line="96" tag="B"/>
+    <item id="c9" line="97" tag="M">LW/M53</item>
+    <item id="c10" line="98" tag="M">Phivehi(Ma|divJan)</item>
+    <item id="c11" line="99" tag="B"/>
+    <item id="c12" line="100" tag="B"/>
+    <item id="c13" line="101" tag="L">pila-ek         jahai         dTfi-cve</item>
+    <item id="c14" line="102" tag="G">bunch-INDF      put           give.PFT-END</item>
+    <item id="c15" line="103" tag="T">Having seen where Reserved Friend's teeth were dirty from eating maqfuh, she</item>
+    <item id="c16" line="104" tag="T">removed (his) teeth and put in beautiful teeth (in their place)/</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+    <item id="p1" content="c4[0:64]"/>
+    <item id="p2" content="c6[0:34]"/>
+    <item id="p3" content="c13[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:67]" alignment="p1"/>
+    <item id="g1" content="c5[0:65]" alignment="p2"/>
+    <item id="g2" content="c7[0:36]" alignment="p3"/>
+    <item id="g3" content="c14[0:42]" alignment="p4"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c15[0:76]" alignment="p4"/>
+    <item id="t1" content="c16[0:64]" alignment="p4"/>
+  </tier>
+</igt>
+<igt id="i105601">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="106-111" line-types="L G B L G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="106" tag="L">  (242 ) anga  madu          mituru      varaf       ufalu-n           gos         aaga  gada</item>
+    <item id="o2" line="107" tag="G">         mouth soft          friend      very        happy-lNS         go.PRT      mouth strong</item>
+    <item id="o3" line="108" tag="B"></item>
+    <item id="o4" line="109" tag="L">        mituru      kairlgai mi            vahaka kiyai dl-fi     eve</item>
+    <item id="o5" line="110" tag="G">        friend      near     mis          tale   tell   give-PFT EN D</item>
+    <item id="o6" line="111" tag="T+CR">        "Reserved Friend was very happy, and told mi s story to Talkative Friend.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="106" tag="L">anga  madu          mituru      varaf       ufalu-n           gos         aaga  gada</item>
+    <item id="c2" line="107" tag="G">mouth soft          friend      very        happy-lNS         go.PRT      mouth strong</item>
+    <item id="c3" line="108" tag="B"/>
+    <item id="c4" line="109" tag="L">mituru      kairlgai mi            vahaka kiyai dl-fi     eve</item>
+    <item id="c5" line="110" tag="G">friend      near     mis          tale   tell   give-PFT EN D</item>
+    <item id="c6" line="111" tag="T+CR">Reserved Friend was very happy, and told mi s story to Talkative Friend.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+    <item id="p1" content="c4[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:86]" alignment="p1"/>
+    <item id="g1" content="c5[0:61]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:72]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105602">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="113-120" line-types="L G L G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="113" tag="L">  (243 ) timanna ves          danam-e              kiya-fa       anga           gada   mituru</item>
+    <item id="o2" line="114" tag="G">         I(rep.) also         go.N3-FUT-QP         tell-su c     mouth          strong friend</item>
+    <item id="o3" line="115" tag="L">        raafuf kai-gen go s  holu-afi-gai      ofove</item>
+    <item id="o4" line="116" tag="G">        maqfuh eat-SUC go.PRT log-platform-LOC recline.PRT</item>
+    <item id="o5" line="117" tag="L">        nidS      kamaf           hadai-gen                 otT-eve</item>
+    <item id="o6" line="118" tag="G">        asleep    thing(event&gt;DAT make-sue                  be(horz.).PST.PRO-END</item>
+    <item id="o7" line="119" tag="T">        'Having said "I will also go," Talkative Friend ate maqfuh, laid down on the log</item>
+    <item id="o8" line="120" tag="T">        platform, and pretended to be asleep.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="113" tag="L">timanna ves          danam-e              kiya-fa       anga           gada   mituru</item>
+    <item id="c2" line="114" tag="G">I(rep.) also         go.N3-FUT-QP         tell-su c     mouth          strong friend</item>
+    <item id="c3" line="115" tag="L">raafuf kai-gen go s  holu-afi-gai      ofove</item>
+    <item id="c4" line="116" tag="G">maqfuh eat-SUC go.PRT log-platform-LOC recline.PRT</item>
+    <item id="c5" line="117" tag="L">nidS      kamaf           hadai-gen                 otT-eve</item>
+    <item id="c6" line="118" tag="G">asleep    thing(event&gt;DAT make-sue                  be(horz.).PST.PRO-END</item>
+    <item id="c7" line="119" tag="T">Having said "I will also go," Talkative Friend ate maqfuh, laid down on the log</item>
+    <item id="c8" line="120" tag="T">platform, and pretended to be asleep.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+    <item id="p1" content="c3[0:44]"/>
+    <item id="p2" content="c5[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:84]" alignment="p1"/>
+    <item id="g1" content="c4[0:50]" alignment="p2"/>
+    <item id="g2" content="c6[0:73]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:79]" alignment="p3"/>
+    <item id="t1" content="c8[0:37]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i105603">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="122-127" line-types="L G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="122" tag="L">  (244 ) anga     gada        mituru      mi      hen      owa"                 mi       tan-a§</item>
+    <item id="o2" line="123" tag="G">         moum     strong      friend      this    like     be(horz.).PRT        this     place-DAT</item>
+    <item id="o3" line="124" tag="L">        santimariyambu           dat   goni        hifai-gen      atuvejje eve</item>
+    <item id="o4" line="125" tag="G">        santimariambu            tooth sack        grab-sue       come.PFTEND</item>
+    <item id="o5" line="126" tag="T">        'Santimariyambu grabbed the tooth bag, and came to where Talkative Friend was lying</item>
+    <item id="o6" line="127" tag="T">        down like this.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="122" tag="L">anga     gada        mituru      mi      hen      owa"                 mi       tan-a§</item>
+    <item id="c2" line="123" tag="G">moum     strong      friend      this    like     be(horz.).PRT        this     place-DAT</item>
+    <item id="c3" line="124" tag="L">santimariyambu           dat   goni        hifai-gen      atuvejje eve</item>
+    <item id="c4" line="125" tag="G">santimariambu            tooth sack        grab-sue       come.PFTEND</item>
+    <item id="c5" line="126" tag="T">Santimariyambu grabbed the tooth bag, and came to where Talkative Friend was lying</item>
+    <item id="c6" line="127" tag="T">down like this.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:86]"/>
+    <item id="p1" content="c3[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:89]" alignment="p1"/>
+    <item id="g1" content="c4[0:69]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:82]" alignment="p2"/>
+    <item id="t1" content="c6[0:15]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105604">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="129-136" line-types="L G L G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="129" tag="L">  (245 ) anga     gada   mituru-ge              dayt-tak       ha^i     ve-fai         va"</item>
+    <item id="o2" line="130" tag="G">         mouth    strong friend-GEN             tooth-PLU      dirty    be-SUC         be.PRE.RPRT</item>
+    <item id="o3" line="131" tag="L">        tan   feni-fai       ifti       dat       pila-ek</item>
+    <item id="o4" line="132" tag="G">        place see-SUC        pretty     tooth     bunch-INDF</item>
+    <item id="o5" line="133" tag="L">        jahan      vc-gen        dayt-tak ufura-lai-fi-cve</item>
+    <item id="o6" line="134" tag="G">        put.iNF    be-su c      tooth-PLU remove-put-PFT-END</item>
+    <item id="o7" line="135" tag="T">        Having seen where Talkative Friend's dirty teeth were, she removed those teeth in</item>
+    <item id="o8" line="136" tag="T">        order to put in pretty teeth.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="129" tag="L">anga     gada   mituru-ge              dayt-tak       ha^i     ve-fai         va</item>
+    <item id="c2" line="130" tag="G">mouth    strong friend-GEN             tooth-PLU      dirty    be-SUC         be.PRE.RPRT</item>
+    <item id="c3" line="131" tag="L">tan   feni-fai       ifti       dat       pila-ek</item>
+    <item id="c4" line="132" tag="G">place see-SUC        pretty     tooth     bunch-INDF</item>
+    <item id="c5" line="133" tag="L">jahan      vc-gen        dayt-tak ufura-lai-fi-cve</item>
+    <item id="c6" line="134" tag="G">put.iNF    be-su c      tooth-PLU remove-put-PFT-END</item>
+    <item id="c7" line="135" tag="T">Having seen where Talkative Friend's dirty teeth were, she removed those teeth in</item>
+    <item id="c8" line="136" tag="T">order to put in pretty teeth.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+    <item id="p1" content="c3[0:49]"/>
+    <item id="p2" content="c5[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:89]" alignment="p1"/>
+    <item id="g1" content="c4[0:52]" alignment="p2"/>
+    <item id="g2" content="c6[0:52]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:81]" alignment="p3"/>
+    <item id="t1" content="c8[0:29]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i105605">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="138-151" line-types="L G L G L G B M B L G T T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="138" tag="L">  (246 ) anga     gada         mitur-a§          madu-n          no-ovevi-gen</item>
+    <item id="o2" line="139" tag="G">         mouth    strong       friend-DAT        soft-iNS        NEG-be(horz.)iN-suc</item>
+    <item id="o3" line="140" tag="L">        riti      dat         pila-ek    jahacce bum           a&lt;J-af</item>
+    <item id="o4" line="141" tag="G">        pretty    tooth       bunch-INDF put-iMPV say.PST.RPRT sound-DAT</item>
+    <item id="o5" line="142" tag="L">        santimariyambu anga                 gada           mituru-ge     mflnu</item>
+    <item id="o6" line="143" tag="G">        santimariyambu mouth                strong       friend-GEN      face</item>
+    <item id="o7" line="144" tag="B"></item>
+    <item id="o8" line="145" tag="M">  LW/M63                             Phjvehi(Ma]diviffl)</item>
+    <item id="o9" line="146" tag="B"></item>
+    <item id="o10" line="147" tag="L">        maccaf     dayt-tak  ukala-fai  duve          hinga-jje ev e</item>
+    <item id="o11" line="148" tag="G">        top-DAT    tooth-PLU throw-PS T run           walk.PFT END</item>
+    <item id="o12" line="149" tag="T">        Talkative Friend was not able to lie quietly and at the sound of him saying to her, "Put</item>
+    <item id="o13" line="150" tag="T">        in a beautiful set of teeth!," Santimariyambu threw the teeth on top of Talkative</item>
+    <item id="o14" line="151" tag="T">        Friend's face, and ran away.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="138" tag="L">anga     gada         mitur-a§          madu-n          no-ovevi-gen</item>
+    <item id="c2" line="139" tag="G">mouth    strong       friend-DAT        soft-iNS        NEG-be(horz.)iN-suc</item>
+    <item id="c3" line="140" tag="L">riti      dat         pila-ek    jahacce bum           a&lt;J-af</item>
+    <item id="c4" line="141" tag="G">pretty    tooth       bunch-INDF put-iMPV say.PST.RPRT sound-DAT</item>
+    <item id="c5" line="142" tag="L">santimariyambu anga                 gada           mituru-ge     mflnu</item>
+    <item id="c6" line="143" tag="G">santimariyambu mouth                strong       friend-GEN      face</item>
+    <item id="c7" line="144" tag="B"/>
+    <item id="c8" line="145" tag="M">LW/M63                             Phjvehi(Ma]diviffl)</item>
+    <item id="c9" line="146" tag="B"/>
+    <item id="c10" line="147" tag="L">maccaf     dayt-tak  ukala-fai  duve          hinga-jje ev e</item>
+    <item id="c11" line="148" tag="G">top-DAT    tooth-PLU throw-PS T run           walk.PFT END</item>
+    <item id="c12" line="149" tag="T">Talkative Friend was not able to lie quietly and at the sound of him saying to her, "Put</item>
+    <item id="c13" line="150" tag="T">in a beautiful set of teeth!," Santimariyambu threw the teeth on top of Talkative</item>
+    <item id="c14" line="151" tag="T">Friend's face, and ran away.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+    <item id="p1" content="c3[0:61]"/>
+    <item id="p2" content="c5[0:70]"/>
+    <item id="p3" content="c10[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:75]" alignment="p1"/>
+    <item id="g1" content="c4[0:64]" alignment="p2"/>
+    <item id="g2" content="c6[0:69]" alignment="p3"/>
+    <item id="g3" content="c11[0:58]" alignment="p4"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c12[0:88]" alignment="p4"/>
+    <item id="t1" content="c13[0:81]" alignment="p4"/>
+    <item id="t2" content="c14[0:28]" alignment="p4"/>
+  </tier>
+</igt>
+<igt id="i105606">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="153-157" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="153" tag="L">  (247 ) miharu   anga      gada       mituru-ge     munu     matl-ga-ai</item>
+    <item id="o2" line="154" tag="G">         no w     mouth     strong     friend-GEN    face     top-LOC-CNPM</item>
+    <item id="o3" line="155" tag="L">        anga        matT-gai van!              dat-eve</item>
+    <item id="o4" line="156" tag="G">        mouth      top-LOC be.PRE.PRO          tooth-END</item>
+    <item id="o5" line="157" tag="T">        "Now, Talkative Friend's face and mouth are (covered with) teeth/</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="153" tag="L">miharu   anga      gada       mituru-ge     munu     matl-ga-ai</item>
+    <item id="c2" line="154" tag="G">no w     mouth     strong     friend-GEN    face     top-LOC-CNPM</item>
+    <item id="c3" line="155" tag="L">anga        matT-gai van!              dat-eve</item>
+    <item id="c4" line="156" tag="G">mouth      top-LOC be.PRE.PRO          tooth-END</item>
+    <item id="c5" line="157" tag="T">Now, Talkative Friend's face and mouth are (covered with) teeth/</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+    <item id="p1" content="c3[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+    <item id="g1" content="c4[0:48]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:64]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i105607">
+  <metadata type="xigt-meta">
+    <meta type="language" name="dhivehi maldivian" iso-639-3="div" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1517" line-range="159-163" line-types="L G L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="159" tag="L">  (248 ) anga     gada     mituru      mi-kam-ai             hedi             vara§</item>
+    <item id="o2" line="160" tag="G">         mourn    strong   friend      this-thing-CNPM       make.iN.PRT      very</item>
+    <item id="o3" line="161" tag="L">        dera-ve-gen ge-a |    hinga-jje ev e</item>
+    <item id="o4" line="162" tag="G+CR">        sad-be-su c house-DAT walk-PFT EN D</item>
+    <item id="o5" line="163" tag="T">        Talkative Friend, being very sad about what happened, went to his home.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="159" tag="L">anga     gada     mituru      mi-kam-ai             hedi             vara§</item>
+    <item id="c2" line="160" tag="G">mourn    strong   friend      this-thing-CNPM       make.iN.PRT      very</item>
+    <item id="c3" line="161" tag="L">dera-ve-gen ge-a |    hinga-jje ev e</item>
+    <item id="c4" line="162" tag="G+CR">sad-be-su c house-DAT walk-PFT EN D</item>
+    <item id="c5" line="163" tag="T">Talkative Friend, being very sad about what happened, went to his home.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+    <item id="p1" content="c3[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:73]" alignment="p1"/>
+    <item id="g1" content="c4[0:35]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:71]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

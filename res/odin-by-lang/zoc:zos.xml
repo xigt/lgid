@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i155971">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chiapas zoque" iso-639-3="zoc:zos" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3287" line-range="1837-1838" line-types="L G-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1837" tag="L">         üjt nüt [n]-sutnu-bü kay u-de</item>
+    <item id="o2" line="1838" tag="G-T">         I AUX 1ERG-want-REL horse-COP `What I want is a horse'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1837" tag="L">üjt nüt [n]-sutnu-bü kay u-de</item>
+    <item id="c2" line="1838" tag="G-T">I AUX 1ERG-want-REL horse-COP `What I want is a horse</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+</igt>
+<igt id="i155972">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chiapas zoque" iso-639-3="zoc:zos" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3287" line-range="1843-1844" line-types="L G-T+CR+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1843" tag="L">         wiy uns e-de nü m-tsabu</item>
+    <item id="o2" line="1844" tag="G-T+CR+EX">         truth-FOC AUX 2ERG-s peak `You do speak the truth' (`You are abs olut ely right')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1843" tag="L">wiy uns e-de nü m-tsabu</item>
+    <item id="c2" line="1844" tag="G-T+CR+EX">truth-FOC AUX 2ERG-s peak `You do speak the truth' (`You are abs olut ely right')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+</igt>
+<igt id="i155973">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chiapas zoque" iso-639-3="zoc:zos" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3287" line-range="1846-1847" line-types="L G-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1846" tag="L">         ji'n-de üj-tsi</item>
+    <item id="o2" line="1847" tag="G-T">         NEG-FOC I-ABS `It is not me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1846" tag="L">ji'n-de üj-tsi</item>
+    <item id="c2" line="1847" tag="G-T">NEG-FOC I-ABS `It is not me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+</igt>
+</xigt-corpus>

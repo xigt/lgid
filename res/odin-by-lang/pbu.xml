@@ -1,0 +1,2326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i99338">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2458" line-range="109-111" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="109" tag="L">   (15)    ma [pro] w@-xwar-a</item>
+    <item id="o2" line="110" tag="G">           I [pro] perf-eat-fem.sg</item>
+    <item id="o3" line="111" tag="T">           "I ate it"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="109" tag="L">ma [pro] w@-xwar-a</item>
+    <item id="c2" line="110" tag="G">I [pro] perf-eat-fem.sg</item>
+    <item id="c3" line="111" tag="T">I ate it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126138">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="725-730" line-types="L B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="725" tag="L">  (14)   a.    de        Sangin    khyal      dee     [tshi       mashem    uda      dee]</item>
+    <item id="o2" line="726" tag="B"></item>
+    <item id="o3" line="727" tag="G+CR">                         Sangin    thought    be                  baby      sleep    be</item>
+    <item id="o4" line="728" tag="G+CR">               POSS                                   COMP</item>
+    <item id="o5" line="729" tag="B"></item>
+    <item id="o6" line="730" tag="T+AC">               'Sangin thinks the baby is sleeping' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="725" tag="L">de        Sangin    khyal      dee     [tshi       mashem    uda      dee]</item>
+    <item id="c2" line="726" tag="B"/>
+    <item id="c3" line="727 728" tag="G+CR">POSS      Sangin    thought    be      COMP        baby      sleep    be</item>
+    <item id="c5" line="729" tag="B"/>
+    <item id="c6" line="730" tag="T+AC">Sangin thinks the baby is sleeping' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126141">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="776-779" line-types="L+SY B G+CR G+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="776" tag="L+SY">  (16)         a.     hagheey     hagha mayshem             [CP     tshi     uda   dee]   khkol   krro</item>
+    <item id="o2" line="777" tag="B"></item>
+    <item id="o3" line="778" tag="G+CR">                                             baby                            sleep be     kiss    do</item>
+    <item id="o4" line="779" tag="G+CR">                      she         DET                               COMP</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="776" tag="L+SY">hagheey     hagha mayshem             [CP     tshi     uda   dee]   khkol   krro</item>
+    <item id="c2" line="777" tag="B"/>
+    <item id="c3" line="778 779" tag="G+CR">she         DET        baby                   COMP     sleep be     kiss    do</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:78]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126142">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pashto" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="784-789" line-types="L+SY B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="784" tag="L+SY">               b.     hagheey     hagha mayshem             khkol    krro [CP      tshi   uda     dee]</item>
+    <item id="o2" line="785" tag="B"></item>
+    <item id="o3" line="786" tag="G+CR">                      she                    baby           kiss     do                   sleep be</item>
+    <item id="o4" line="787" tag="G+CR">                                  DET                                              COMP</item>
+    <item id="o5" line="788" tag="B"></item>
+    <item id="o6" line="789" tag="T+AC">                      'she kissed the baby who is sleeping' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="784" tag="L+SY">hagheey     hagha mayshem             khkol    krro [CP      tshi   uda     dee]</item>
+    <item id="c2" line="785" tag="B"/>
+    <item id="c3" line="786 787" tag="G+CR">she         DET        baby           kiss     do            COMP   sleep be</item>
+    <item id="c5" line="788" tag="B"/>
+    <item id="c6" line="789" tag="T+AC">she kissed the baby who is sleeping' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126161">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="1798-1805" line-types="M+CN B L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1798" tag="M+CN">  (43)   Present imperfective</item>
+    <item id="o2" line="1799" tag="B"></item>
+    <item id="o3" line="1800" tag="L">         dzhobl-áw-em                        dee</item>
+    <item id="o4" line="1801" tag="B"></item>
+    <item id="o5" line="1802" tag="G+CR">                   TRANS(PRES IMPF   )-1SG   2</item>
+    <item id="o6" line="1803" tag="G+CR">         injure-                              SG</item>
+    <item id="o7" line="1804" tag="B"></item>
+    <item id="o8" line="1805" tag="T">         'I am injuring you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1798" tag="M+CN">Present imperfective</item>
+    <item id="c2" line="1799" tag="B"/>
+    <item id="c3" line="1800" tag="L">dzhobl-áw-em                        dee</item>
+    <item id="c4" line="1801" tag="B"/>
+    <item id="c5" line="1802 1803" tag="G+CR">injure-TRANS(PRES IMPF   )-1SG   2SG</item>
+    <item id="c7" line="1804" tag="B"/>
+    <item id="c8" line="1805" tag="T">I am injuring you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126162">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="1809-1815" line-types="M+CN B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1809" tag="M+CN">  (44)   Past imperfective</item>
+    <item id="o2" line="1810" tag="B"></item>
+    <item id="o3" line="1811" tag="L">         dzhobl-awél-em                      dee</item>
+    <item id="o4" line="1812" tag="B"></item>
+    <item id="o5" line="1813" tag="G">         injure-   TRANS(PAST IMPF   )-1SG   2SG</item>
+    <item id="o6" line="1814" tag="B"></item>
+    <item id="o7" line="1815" tag="T">         'you were injuring me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1809" tag="M+CN">Past imperfective</item>
+    <item id="c2" line="1810" tag="B"/>
+    <item id="c3" line="1811" tag="L">dzhobl-awél-em                      dee</item>
+    <item id="c4" line="1812" tag="B"/>
+    <item id="c5" line="1813" tag="G">injure-TRANS(PAST IMPF   )-1SG   2SG</item>
+    <item id="c6" line="1814" tag="B"/>
+    <item id="c7" line="1815" tag="T">you were injuring me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126163">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="1822-1829" line-types="M+CN+EX M B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1822" tag="M+CN+EX">         Present perfective17</item>
+    <item id="o2" line="1823" tag="M">  (45)</item>
+    <item id="o3" line="1824" tag="B"></item>
+    <item id="o4" line="1825" tag="L">         a.      dzhóbel      k-em                           dee</item>
+    <item id="o5" line="1826" tag="B"></item>
+    <item id="o6" line="1827" tag="G">                 injured      do(PRES   PERF TRANS)-1SG      2SG</item>
+    <item id="o7" line="1828" tag="B"></item>
+    <item id="o8" line="1829" tag="T">                 'I injure you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1822" tag="M+CN+EX">Present perfective17</item>
+    <item id="c2" line="1823" tag="M">45</item>
+    <item id="c3" line="1824" tag="B"/>
+    <item id="c4" line="1825" tag="L">dzhóbel      k-em                           dee</item>
+    <item id="c5" line="1826" tag="B"/>
+    <item id="c6" line="1827" tag="G">injured      do(PRES   PERF TRANS)-1SG      2SG</item>
+    <item id="c7" line="1828" tag="B"/>
+    <item id="c8" line="1829" tag="T">I injure you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c4[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126164">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="1833-1838" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1833" tag="L">         b.      dzhóbel      dee       k-em</item>
+    <item id="o2" line="1834" tag="B"></item>
+    <item id="o3" line="1835" tag="G+CR">                 injured      2         do(PRES   PERF TRANS)-1SG</item>
+    <item id="o4" line="1836" tag="G+CR">                                  SG</item>
+    <item id="o5" line="1837" tag="B"></item>
+    <item id="o6" line="1838" tag="T">                 'I injure you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1833" tag="L">dzhóbel      dee       k-em</item>
+    <item id="c2" line="1834" tag="B"/>
+    <item id="c3" line="1835 1836" tag="G+CR">injured      2   SG    do(PRES   PERF TRANS)-1SG</item>
+    <item id="c5" line="1837" tag="B"/>
+    <item id="c6" line="1838" tag="T">I injure you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126165">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="1842-1849" line-types="M+CN B L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1842" tag="M+CN">  (46)   Past perfective</item>
+    <item id="o2" line="1843" tag="B"></item>
+    <item id="o3" line="1844" tag="L">         a.      dzhóbel      krr-em                         dee</item>
+    <item id="o4" line="1845" tag="B"></item>
+    <item id="o5" line="1846" tag="G+CR">                                        PERF TRANS)-1SG      2</item>
+    <item id="o6" line="1847" tag="G+CR">                 injured      do(PAST                         SG</item>
+    <item id="o7" line="1848" tag="B"></item>
+    <item id="o8" line="1849" tag="T">                 'you injured me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1842" tag="M+CN">Past perfective</item>
+    <item id="c2" line="1843" tag="B"/>
+    <item id="c3" line="1844" tag="L">dzhóbel      krr-em                         dee</item>
+    <item id="c4" line="1845" tag="B"/>
+    <item id="c5" line="1846 1847" tag="G+CR">injured      do(PAST   PERF TRANS)-1SG      2SG</item>
+    <item id="c7" line="1848" tag="B"/>
+    <item id="c8" line="1849" tag="T">you injured me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126166">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="1853-1858" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1853" tag="L">         b.      dzhóbel      dee       krr-em</item>
+    <item id="o2" line="1854" tag="B"></item>
+    <item id="o3" line="1855" tag="G+CR">                                        do(PAST   PERF TRANS)-1SG</item>
+    <item id="o4" line="1856" tag="G+CR">                 injured      2   SG</item>
+    <item id="o5" line="1857" tag="B"></item>
+    <item id="o6" line="1858" tag="T">                 'you injured me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1853" tag="L">dzhóbel      dee       krr-em</item>
+    <item id="c2" line="1854" tag="B"/>
+    <item id="c3" line="1855 1856" tag="G+CR">injured      2   SG    do(PAST   PERF TRANS)-1SG</item>
+    <item id="c5" line="1857" tag="B"/>
+    <item id="c6" line="1858" tag="T">you injured me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126167">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="1919-1925" line-types="M+CN B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1919" tag="M+CN">  (47)   Present imperfective</item>
+    <item id="o2" line="1920" tag="B"></item>
+    <item id="o3" line="1921" tag="L">         a.      khaaysta       kaw-em                        dee</item>
+    <item id="o4" line="1922" tag="B"></item>
+    <item id="o5" line="1923" tag="G">                 beautiful      do(PRES   IMPF TRANS)-1SG     2SG</item>
+    <item id="o6" line="1924" tag="B"></item>
+    <item id="o7" line="1925" tag="T">                 'I am making you beautiful'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1919" tag="M+CN">Present imperfective</item>
+    <item id="c2" line="1920" tag="B"/>
+    <item id="c3" line="1921" tag="L">khaaysta       kaw-em                        dee</item>
+    <item id="c4" line="1922" tag="B"/>
+    <item id="c5" line="1923" tag="G">beautiful      do(PRES   IMPF TRANS)-1SG     2SG</item>
+    <item id="c6" line="1924" tag="B"/>
+    <item id="c7" line="1925" tag="T">I am making you beautiful</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126168">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="1937-1941" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1937" tag="L">         b.    *khaaysta       dee       kaw-em</item>
+    <item id="o2" line="1938" tag="B"></item>
+    <item id="o3" line="1939" tag="G">                beautiful      2SG       do(PRES   IMPF TRANS)-1SG</item>
+    <item id="o4" line="1940" tag="B"></item>
+    <item id="o5" line="1941" tag="T">                'I am making you beautiful'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1937" tag="L">*khaaysta       dee       kaw-em</item>
+    <item id="c2" line="1938" tag="B"/>
+    <item id="c3" line="1939" tag="G">beautiful      2SG       do(PRES   IMPF TRANS)-1SG</item>
+    <item id="c4" line="1940" tag="B"/>
+    <item id="c5" line="1941" tag="T">I am making you beautiful</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126169">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="1945-1951" line-types="M+CN B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1945" tag="M+CN">  (48)   Past imperfective</item>
+    <item id="o2" line="1946" tag="B"></item>
+    <item id="o3" line="1947" tag="L">         a.     khaaysta      kawél-em                       dee</item>
+    <item id="o4" line="1948" tag="B"></item>
+    <item id="o5" line="1949" tag="G">                beautiful     do(PAST    IMPF TRANS)-1SG     2SG</item>
+    <item id="o6" line="1950" tag="B"></item>
+    <item id="o7" line="1951" tag="T">                'you were making me beautiful'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1945" tag="M+CN">Past imperfective</item>
+    <item id="c2" line="1946" tag="B"/>
+    <item id="c3" line="1947" tag="L">khaaysta      kawél-em                       dee</item>
+    <item id="c4" line="1948" tag="B"/>
+    <item id="c5" line="1949" tag="G">beautiful     do(PAST    IMPF TRANS)-1SG     2SG</item>
+    <item id="c6" line="1950" tag="B"/>
+    <item id="c7" line="1951" tag="T">you were making me beautiful</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126170">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="1955-1959" line-types="L B G L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1955" tag="L">         b.    *khaaysta       dee       kawél-em</item>
+    <item id="o2" line="1956" tag="B"></item>
+    <item id="o3" line="1957" tag="G">                                         do(PAST   IMPF TRANS)-1SG</item>
+    <item id="o4" line="1958" tag="L">                beautiful      2SG</item>
+    <item id="o5" line="1959" tag="T">                'you were making me beautiful'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1955" tag="L">*khaaysta       dee       kawél-em</item>
+    <item id="c2" line="1956" tag="B"/>
+    <item id="c3" line="1957" tag="G">do(PAST   IMPF TRANS)-1SG</item>
+    <item id="c4" line="1958" tag="L">beautiful      2SG</item>
+    <item id="c5" line="1959" tag="T">you were making me beautiful</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+    <item id="p1" content="c4[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:28]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i126171">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="1965-1970" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1965" tag="L">         a.     khaaysta       k-em                           dee</item>
+    <item id="o2" line="1966" tag="B"></item>
+    <item id="o3" line="1967" tag="G+CR">                                         PERF TRANS)-1SG      2</item>
+    <item id="o4" line="1968" tag="G+CR">                beautiful      do(PRES                           SG</item>
+    <item id="o5" line="1969" tag="B"></item>
+    <item id="o6" line="1970" tag="T">                'I make you beautiful'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1965" tag="L">khaaysta       k-em                           dee</item>
+    <item id="c2" line="1966" tag="B"/>
+    <item id="c3" line="1967 1968" tag="G+CR">beautiful      do(PRES   PERF TRANS)-1SG      2  SG</item>
+    <item id="c5" line="1969" tag="B"/>
+    <item id="c6" line="1970" tag="T">I make you beautiful</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126172">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="1974-1978" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1974" tag="L">         b.     khaaysta       dee       k-em</item>
+    <item id="o2" line="1975" tag="B"></item>
+    <item id="o3" line="1976" tag="G">                beautiful      2SG       do(PRES   PERF TRANS)-1SG</item>
+    <item id="o4" line="1977" tag="B"></item>
+    <item id="o5" line="1978" tag="T">                'I make you beautiful'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1974" tag="L">khaaysta       dee       k-em</item>
+    <item id="c2" line="1975" tag="B"/>
+    <item id="c3" line="1976" tag="G">beautiful      2SG       do(PRES   PERF TRANS)-1SG</item>
+    <item id="c4" line="1977" tag="B"/>
+    <item id="c5" line="1978" tag="T">I make you beautiful</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126173">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="1982-1988" line-types="M+CN B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1982" tag="M+CN">  (50)   Past perfective</item>
+    <item id="o2" line="1983" tag="B"></item>
+    <item id="o3" line="1984" tag="L">         a.     khaaysta       krr-em                            dee</item>
+    <item id="o4" line="1985" tag="B"></item>
+    <item id="o5" line="1986" tag="G">                beautiful      do(PAST   PERF TRANS)-1SG         2SG</item>
+    <item id="o6" line="1987" tag="B"></item>
+    <item id="o7" line="1988" tag="T">                'you made me beautiful'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1982" tag="M+CN">Past perfective</item>
+    <item id="c2" line="1983" tag="B"/>
+    <item id="c3" line="1984" tag="L">khaaysta       krr-em                            dee</item>
+    <item id="c4" line="1985" tag="B"/>
+    <item id="c5" line="1986" tag="G">beautiful      do(PAST   PERF TRANS)-1SG         2SG</item>
+    <item id="c6" line="1987" tag="B"/>
+    <item id="c7" line="1988" tag="T">you made me beautiful</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126174">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="1995-1999" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1995" tag="L">         b.      khaaysta        dee       krr-em</item>
+    <item id="o2" line="1996" tag="B"></item>
+    <item id="o3" line="1997" tag="G">                 beautiful       2SG       do(PAST    PERF TRANS)-1SG</item>
+    <item id="o4" line="1998" tag="B"></item>
+    <item id="o5" line="1999" tag="T">                 'you made me beautiful'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1995" tag="L">khaaysta        dee       krr-em</item>
+    <item id="c2" line="1996" tag="B"/>
+    <item id="c3" line="1997" tag="G">beautiful       2SG       do(PAST    PERF TRANS)-1SG</item>
+    <item id="c4" line="1998" tag="B"/>
+    <item id="c5" line="1999" tag="T">you made me beautiful</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126175">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2025-2032" line-types="M+CN B L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2025" tag="M+CN">  (51)   Past perfective: object agreement</item>
+    <item id="o2" line="2026" tag="B"></item>
+    <item id="o3" line="2027" tag="L">         a.    sangin             kerkey                   maat-a             krr-a</item>
+    <item id="o4" line="2028" tag="B"></item>
+    <item id="o5" line="2029" tag="G+CR">               Sangin(MASC)       window(FEM    SG)        broken-            do(PAST   PERF)-FEM3SG</item>
+    <item id="o6" line="2030" tag="G+CR">                                                                     FEM SG</item>
+    <item id="o7" line="2031" tag="B"></item>
+    <item id="o8" line="2032" tag="T">               'Sangin broke the window'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2025" tag="M+CN">object agreement</item>
+    <item id="c2" line="2026" tag="B"/>
+    <item id="c3" line="2027" tag="L">sangin             kerkey                   maat-a             krr-a</item>
+    <item id="c4" line="2028" tag="B"/>
+    <item id="c5" line="2029 2030" tag="G+CR">Sangin(MASC)       window(FEM    SG)        broken-FEM SG   do(PAST   PERF)-FEM3SG</item>
+    <item id="c7" line="2031" tag="B"/>
+    <item id="c8" line="2032" tag="T">Sangin broke the window</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:82]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126176">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2044-2049" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2044" tag="L">         b.    sangin            kerkey                    maat-ee              krr-i</item>
+    <item id="o2" line="2045" tag="B"></item>
+    <item id="o3" line="2046" tag="G+CR">               Sangin(MASC)      windows(FEM          )    broken-              do(PAST       PERF)-FEM3PL</item>
+    <item id="o4" line="2047" tag="G+CR">                                                 PL                  FEM PL</item>
+    <item id="o5" line="2048" tag="B"></item>
+    <item id="o6" line="2049" tag="T">               'Sangin broke the windows'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2044" tag="L">sangin            kerkey                    maat-ee              krr-i</item>
+    <item id="c2" line="2045" tag="B"/>
+    <item id="c3" line="2046 2047" tag="G+CR">Sangin(MASC)      windows(FEM     PL   )    broken-FEM PL     do(PAST       PERF)-FEM3PL</item>
+    <item id="c5" line="2048" tag="B"/>
+    <item id="c6" line="2049" tag="T">Sangin broke the windows</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:88]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126177">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2053-2057" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2053" tag="L">         c.    sangin            war                       maat                 krr-o</item>
+    <item id="o2" line="2054" tag="B"></item>
+    <item id="o3" line="2055" tag="G">               Sangin(MASC)      door(MASC     SG)         broken(MASC    SG)   do(PAST       PERF)-MASC3SG</item>
+    <item id="o4" line="2056" tag="B"></item>
+    <item id="o5" line="2057" tag="T">               'Sangin broke the door'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2053" tag="L">sangin            war                       maat                 krr-o</item>
+    <item id="c2" line="2054" tag="B"/>
+    <item id="c3" line="2055" tag="G">Sangin(MASC)      door(MASC     SG)         broken(MASC    SG)   do(PAST       PERF)-MASC3SG</item>
+    <item id="c4" line="2056" tag="B"/>
+    <item id="c5" line="2057" tag="T">Sangin broke the door</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:92]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126178">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2061-2065" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2061" tag="L">         d.    sangin            warúna                    maat                 krr-el</item>
+    <item id="o2" line="2062" tag="B"></item>
+    <item id="o3" line="2063" tag="G">               Sangin(MASC)      doors(MASC    PL)         broken(MASC    PL)   do(PAST       PERF)-MASC3PL</item>
+    <item id="o4" line="2064" tag="B"></item>
+    <item id="o5" line="2065" tag="T">               'Sangin broke the doors'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2061" tag="L">sangin            warúna                    maat                 krr-el</item>
+    <item id="c2" line="2062" tag="B"/>
+    <item id="c3" line="2063" tag="G">Sangin(MASC)      doors(MASC    PL)         broken(MASC    PL)   do(PAST       PERF)-MASC3PL</item>
+    <item id="c4" line="2064" tag="B"/>
+    <item id="c5" line="2065" tag="T">Sangin broke the doors</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:92]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126179">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2079-2085" line-types="M+CN B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2079" tag="M+CN">  (52)   Present imperfective: subject agreement</item>
+    <item id="o2" line="2080" tag="B"></item>
+    <item id="o3" line="2081" tag="L">         a.    sangin            kerkey                   maat-aw-i</item>
+    <item id="o4" line="2082" tag="B"></item>
+    <item id="o5" line="2083" tag="G">               Sangin(MASC)      window(FEM)              broken-   TRANS(PRES IMPF   )-3SG</item>
+    <item id="o6" line="2084" tag="B"></item>
+    <item id="o7" line="2085" tag="T">               'Sangin is breaking the window(s)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2079" tag="M+CN">subject agreement</item>
+    <item id="c2" line="2080" tag="B"/>
+    <item id="c3" line="2081" tag="L">sangin            kerkey                   maat-aw-i</item>
+    <item id="c4" line="2082" tag="B"/>
+    <item id="c5" line="2083" tag="G">Sangin(MASC)      window(FEM)              broken-TRANS(PRES IMPF   )-3SG</item>
+    <item id="c6" line="2084" tag="B"/>
+    <item id="c7" line="2085" tag="T">Sangin is breaking the window(s)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126180">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2089-2093" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2089" tag="L">         b.    sangin            war                      maat-aw-i</item>
+    <item id="o2" line="2090" tag="B"></item>
+    <item id="o3" line="2091" tag="G">               Sangin(MASC)      door(MASC     SG)        broken-   TRANS(PRES IMPF   )-3SG</item>
+    <item id="o4" line="2092" tag="B"></item>
+    <item id="o5" line="2093" tag="T">               'Sangin is breaking the door'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2089" tag="L">sangin            war                      maat-aw-i</item>
+    <item id="c2" line="2090" tag="B"/>
+    <item id="c3" line="2091" tag="G">Sangin(MASC)      door(MASC     SG)        broken-TRANS(PRES IMPF   )-3SG</item>
+    <item id="c4" line="2092" tag="B"/>
+    <item id="c5" line="2093" tag="T">Sangin is breaking the door</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126181">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2100-2104" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2100" tag="L">         c.    sangin            warúna                     maat-aw-i</item>
+    <item id="o2" line="2101" tag="B"></item>
+    <item id="o3" line="2102" tag="G">               Sangin(MASC)      doors(MASC     PL)         broken-   TRANS(PRES IMPF   )-3SG</item>
+    <item id="o4" line="2103" tag="B"></item>
+    <item id="o5" line="2104" tag="T">               'Sangin is breaking the doors'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2100" tag="L">sangin            warúna                     maat-aw-i</item>
+    <item id="c2" line="2101" tag="B"/>
+    <item id="c3" line="2102" tag="G">Sangin(MASC)      doors(MASC     PL)         broken-TRANS(PRES IMPF   )-3SG</item>
+    <item id="c4" line="2103" tag="B"/>
+    <item id="c5" line="2104" tag="T">Sangin is breaking the doors</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126182">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2108-2112" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2108" tag="L">         d.    táaso             warúna                     maat-aw-ey</item>
+    <item id="o2" line="2109" tag="B"></item>
+    <item id="o3" line="2110" tag="G">               2PL               doors(MASC     PL)         broken-   TRANS(PRES IMPF   )-2PL</item>
+    <item id="o4" line="2111" tag="B"></item>
+    <item id="o5" line="2112" tag="T">               'you (PL) are breaking the doors'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2108" tag="L">táaso             warúna                     maat-aw-ey</item>
+    <item id="c2" line="2109" tag="B"/>
+    <item id="c3" line="2110" tag="G">2PL               doors(MASC     PL)         broken-TRANS(PRES IMPF   )-2PL</item>
+    <item id="c4" line="2111" tag="B"/>
+    <item id="c5" line="2112" tag="T">you (PL) are breaking the doors</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126183">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2116-2121" line-types="M+CN B L B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2116" tag="M+CN">  (53)   Past imperfective: object agreement</item>
+    <item id="o2" line="2117" tag="B"></item>
+    <item id="o3" line="2118" tag="L">         a.    Sangin             kerkey                      maat-aw-éla</item>
+    <item id="o4" line="2119" tag="B"></item>
+    <item id="o5" line="2120" tag="G">               Sangin(MASC)       window(FEM     SG)          broken-   TRANS-FEM3SG(PAST IMPF   )</item>
+    <item id="o6" line="2121" tag="T">               'Sangin was breaking the window'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2116" tag="M+CN">object agreement</item>
+    <item id="c2" line="2117" tag="B"/>
+    <item id="c3" line="2118" tag="L">Sangin             kerkey                      maat-aw-éla</item>
+    <item id="c4" line="2119" tag="B"/>
+    <item id="c5" line="2120" tag="G">Sangin(MASC)       window(FEM     SG)          broken-TRANS-FEM3SG(PAST IMPF   )</item>
+    <item id="c6" line="2121" tag="T">Sangin was breaking the window</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:80]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126184">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2125-2130" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2125" tag="L">         b.    Sangin             kerkey                      maat-aw-éli</item>
+    <item id="o2" line="2126" tag="B"></item>
+    <item id="o3" line="2127" tag="G+CR">               Sangin(MASC)       windows(FEM           )     broken-   TRANS-FEM3PL(PAST IMPF   )</item>
+    <item id="o4" line="2128" tag="G+CR">                                                   PL</item>
+    <item id="o5" line="2129" tag="B"></item>
+    <item id="o6" line="2130" tag="T">               'Sangin was breaking the windows'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2125" tag="L">Sangin             kerkey                      maat-aw-éli</item>
+    <item id="c2" line="2126" tag="B"/>
+    <item id="c3" line="2127 2128" tag="G+CR">Sangin(MASC)       windows(FEM      PL   )     broken-TRANS-FEM3PL(PAST IMPF   )</item>
+    <item id="c5" line="2129" tag="B"/>
+    <item id="c6" line="2130" tag="T">Sangin was breaking the windows</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:80]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126185">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2134-2137" line-types="L B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2134" tag="L">         c.    Sangin             war                         maat-aw-u</item>
+    <item id="o2" line="2135" tag="B"></item>
+    <item id="o3" line="2136" tag="G">               Sangin(MASC)       door(MASC     SG)           broken-   TRANS-MASC3SG(PAST IMPF      )</item>
+    <item id="o4" line="2137" tag="T">               'Sangin was breaking the door'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2134" tag="L">Sangin             war                         maat-aw-u</item>
+    <item id="c2" line="2135" tag="B"/>
+    <item id="c3" line="2136" tag="G">Sangin(MASC)       door(MASC     SG)           broken-TRANS-MASC3SG(PAST IMPF      )</item>
+    <item id="c4" line="2137" tag="T">Sangin was breaking the door</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:84]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126186">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2141-2144" line-types="L B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2141" tag="L">         d.    Sangin             warúna                      maat-aw-el</item>
+    <item id="o2" line="2142" tag="B"></item>
+    <item id="o3" line="2143" tag="G">               Sangin(MASC)       doors(MASC    PL)           broken-   TRANS-MASC3PL(PAST IMPF      )</item>
+    <item id="o4" line="2144" tag="T">               'Sangin was breaking the doors'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2141" tag="L">Sangin             warúna                      maat-aw-el</item>
+    <item id="c2" line="2142" tag="B"/>
+    <item id="c3" line="2143" tag="G">Sangin(MASC)       doors(MASC    PL)           broken-TRANS-MASC3PL(PAST IMPF      )</item>
+    <item id="c4" line="2144" tag="T">Sangin was breaking the doors</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:84]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126187">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2179-2186" line-types="M+CN B L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2179" tag="M+CN">  (54)   Present perfective: split agreement</item>
+    <item id="o2" line="2180" tag="B"></item>
+    <item id="o3" line="2181" tag="L">         a.    táaso     kerkey                maat-a               key</item>
+    <item id="o4" line="2182" tag="B"></item>
+    <item id="o5" line="2183" tag="G+CR">                         window(FEM    SG)     broken-              do(PRES    PERF 2PL   )</item>
+    <item id="o6" line="2184" tag="G+CR">               2 PL                                      FEM SG</item>
+    <item id="o7" line="2185" tag="B"></item>
+    <item id="o8" line="2186" tag="T">               'you (PL) break the window'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2179" tag="M+CN">split agreement</item>
+    <item id="c2" line="2180" tag="B"/>
+    <item id="c3" line="2181" tag="L">táaso     kerkey                maat-a               key</item>
+    <item id="c4" line="2182" tag="B"/>
+    <item id="c5" line="2183 2184" tag="G+CR">2 PL      window(FEM    SG)     broken-FEM SG     do(PRES    PERF 2PL   )</item>
+    <item id="c7" line="2185" tag="B"/>
+    <item id="c8" line="2186" tag="T">you (PL) break the window</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126188">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2190-2195" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2190" tag="L">         b.    táaso     kerkey                maat-ee              key</item>
+    <item id="o2" line="2191" tag="B"></item>
+    <item id="o3" line="2192" tag="G+CR">                         windows(FEM         ) broken-              do(PRES    PERF 2PL   )</item>
+    <item id="o4" line="2193" tag="G+CR">               2 PL                     PL               FEM PL</item>
+    <item id="o5" line="2194" tag="B"></item>
+    <item id="o6" line="2195" tag="T">               'you (PL) break the windows'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2190" tag="L">táaso     kerkey                maat-ee              key</item>
+    <item id="c2" line="2191" tag="B"/>
+    <item id="c3" line="2192 2193" tag="G+CR">2 PL      windows(FEM    PL   ) broken-FEM PL     do(PRES    PERF 2PL   )</item>
+    <item id="c5" line="2194" tag="B"/>
+    <item id="c6" line="2195" tag="T">you (PL) break the windows</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126189">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2198-2203" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2198" tag="L">         c.    táaso     war                   maat                 key</item>
+    <item id="o2" line="2199" tag="B"></item>
+    <item id="o3" line="2200" tag="G+CR">               2         door(MASC   SG)       broken(MASC   SG)    do(PRES    PERF 2PL   )</item>
+    <item id="o4" line="2201" tag="G+CR">                 PL</item>
+    <item id="o5" line="2202" tag="B"></item>
+    <item id="o6" line="2203" tag="T">               'you (PL) break the door'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2198" tag="L">táaso     war                   maat                 key</item>
+    <item id="c2" line="2199" tag="B"/>
+    <item id="c3" line="2200 2201" tag="G+CR">2 PL      door(MASC   SG)       broken(MASC   SG)    do(PRES    PERF 2PL   )</item>
+    <item id="c5" line="2202" tag="B"/>
+    <item id="c6" line="2203" tag="T">you (PL) break the door</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126190">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2210-2215" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2210" tag="L">         d.   táaso       warúna               maat                      key</item>
+    <item id="o2" line="2211" tag="B"></item>
+    <item id="o3" line="2212" tag="G+CR">              2           doors(MASC     PL)   broken(MASC         PL)   do(PRES   PERF 2PL   )</item>
+    <item id="o4" line="2213" tag="G+CR">               PL</item>
+    <item id="o5" line="2214" tag="B"></item>
+    <item id="o6" line="2215" tag="T">              'you (PL) break the doors'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2210" tag="L">táaso       warúna               maat                      key</item>
+    <item id="c2" line="2211" tag="B"/>
+    <item id="c3" line="2212 2213" tag="G+CR">2PL         doors(MASC     PL)   broken(MASC         PL)   do(PRES   PERF 2PL   )</item>
+    <item id="c5" line="2214" tag="B"/>
+    <item id="c6" line="2215" tag="T">you (PL) break the doors</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:81]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126191">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2218-2225" line-types="M+CN B L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2218" tag="M+CN">  (55)   Future: split agreement</item>
+    <item id="o2" line="2219" tag="B"></item>
+    <item id="o3" line="2220" tag="L">         a.   sangin       ba      kerkey                   maat-a                 krr-i</item>
+    <item id="o4" line="2221" tag="B"></item>
+    <item id="o5" line="2222" tag="G+CR">              Sangin               window(FEM    SG)        broken-                do(PAST   PERF)-MASC3SG</item>
+    <item id="o6" line="2223" tag="G+CR">                           FUT                                        FEM SG</item>
+    <item id="o7" line="2224" tag="B"></item>
+    <item id="o8" line="2225" tag="T">              'Sangin (   MASC)   will break the window'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2218" tag="M+CN">split agreement</item>
+    <item id="c2" line="2219" tag="B"/>
+    <item id="c3" line="2220" tag="L">sangin       ba      kerkey                   maat-a                 krr-i</item>
+    <item id="c4" line="2221" tag="B"/>
+    <item id="c5" line="2222 2223" tag="G+CR">Sangin       FUT     window(FEM    SG)        broken-FEM SG       do(PAST   PERF)-MASC3SG</item>
+    <item id="c7" line="2224" tag="B"/>
+    <item id="c8" line="2225" tag="T">Sangin (   MASC)   will break the window</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:89]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126192">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2229-2234" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2229" tag="L">         b.   sangin       ba      kerkey                   maat-ee                krr-i</item>
+    <item id="o2" line="2230" tag="B"></item>
+    <item id="o3" line="2231" tag="G+CR">                                   windows(FEM         ) broken-                   do(PAST   PERF)-MASC3SG</item>
+    <item id="o4" line="2232" tag="G+CR">              Sangin       FUT                    PL                  FEM PL</item>
+    <item id="o5" line="2233" tag="B"></item>
+    <item id="o6" line="2234" tag="T">              'Sangin (   MASC)   will break the windows'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2229" tag="L">sangin       ba      kerkey                   maat-ee                krr-i</item>
+    <item id="c2" line="2230" tag="B"/>
+    <item id="c3" line="2231 2232" tag="G+CR">Sangin       FUT     windows(FEM    PL   ) broken-FEM PL       do(PAST   PERF)-MASC3SG</item>
+    <item id="c5" line="2233" tag="B"/>
+    <item id="c6" line="2234" tag="T">Sangin (   MASC)   will break the windows</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:86]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126193">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2238-2243" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2238" tag="L">         c.   sangin       ba      war                      maat                   krr-i</item>
+    <item id="o2" line="2239" tag="B"></item>
+    <item id="o3" line="2240" tag="G+CR">                                   door(MASC   SG)          broken(MASC   SG)      do(PAST   PERF)-MASC3SG</item>
+    <item id="o4" line="2241" tag="G+CR">              Sangin       FUT</item>
+    <item id="o5" line="2242" tag="B"></item>
+    <item id="o6" line="2243" tag="T">              'Sangin (   MASC)   will break the door'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2238" tag="L">sangin       ba      war                      maat                   krr-i</item>
+    <item id="c2" line="2239" tag="B"/>
+    <item id="c3" line="2240 2241" tag="G+CR">Sangin       FUT     door(MASC   SG)          broken(MASC   SG)      do(PAST   PERF)-MASC3SG</item>
+    <item id="c5" line="2242" tag="B"/>
+    <item id="c6" line="2243" tag="T">Sangin (   MASC)   will break the door</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:92]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126194">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2246-2253" line-types="L+CR L+CR B G+CR G+CR B T+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2246" tag="L+CR">                                   warúna                   maat                   krr-i</item>
+    <item id="o2" line="2247" tag="L+CR">         d.   sangin       ba</item>
+    <item id="o3" line="2248" tag="B"></item>
+    <item id="o4" line="2249" tag="G+CR">              Sangin               doors(MASC   PL)         broken(MASC   PL)      do(PAST   PERF)-MASC3SG</item>
+    <item id="o5" line="2250" tag="G+CR">                           FUT</item>
+    <item id="o6" line="2251" tag="B"></item>
+    <item id="o7" line="2252" tag="T+CR">                          MASC)   will break the doors'</item>
+    <item id="o8" line="2253" tag="T+CR">              'Sangin (</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2246 2247" tag="L+CR">sangin       ba      warúna                   maat                   krr-i</item>
+    <item id="c3" line="2248" tag="B"/>
+    <item id="c4" line="2249 2250" tag="G+CR">Sangin       FUT     doors(MASC   PL)         broken(MASC   PL)      do(PAST   PERF)-MASC3SG</item>
+    <item id="c6" line="2251" tag="B"/>
+    <item id="c7" line="2252 2253" tag="T+CR">Sangin (   MASC)   will break the doors</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:92]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126195">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2256-2261" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2256" tag="L">         e.   táaso        ba      warúna                   maat                   krr-ey</item>
+    <item id="o2" line="2257" tag="B"></item>
+    <item id="o3" line="2258" tag="G+CR">              2                    doors(MASC   PL)         broken(MASC   PL)      do(PAST          )-2</item>
+    <item id="o4" line="2259" tag="G+CR">               PL          FUT                                                               PERF      PL</item>
+    <item id="o5" line="2260" tag="B"></item>
+    <item id="o6" line="2261" tag="T">              'you (PL) will break the doors'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2256" tag="L">táaso        ba      warúna                   maat                   krr-ey</item>
+    <item id="c2" line="2257" tag="B"/>
+    <item id="c3" line="2258 2259" tag="G+CR">2PL          FUT     doors(MASC   PL)         broken(MASC   PL)      do(PAST   PERF   )-2PL</item>
+    <item id="c5" line="2260" tag="B"/>
+    <item id="c6" line="2261" tag="T">you (PL) will break the doors</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:91]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126196">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2280-2287" line-types="M+CN B L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2280" tag="M+CN">  (56)   Imperative: split agreement</item>
+    <item id="o2" line="2281" tag="B"></item>
+    <item id="o3" line="2282" tag="L">         a.    dzhorr                       k-a</item>
+    <item id="o4" line="2283" tag="B"></item>
+    <item id="o5" line="2284" tag="G+CR">               built(MASC     SG)           do(PRES          )-2SG(IMP)</item>
+    <item id="o6" line="2285" tag="G+CR">                                                      PERF</item>
+    <item id="o7" line="2286" tag="B"></item>
+    <item id="o8" line="2287" tag="T">               'build it(   MASC SG)!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2280" tag="M+CN">split agreement</item>
+    <item id="c2" line="2281" tag="B"/>
+    <item id="c3" line="2282" tag="L">dzhorr                       k-a</item>
+    <item id="c4" line="2283" tag="B"/>
+    <item id="c5" line="2284 2285" tag="G+CR">built(MASC     SG)           do(PRES   PERF   )-2SG(IMP)</item>
+    <item id="c7" line="2286" tag="B"/>
+    <item id="c8" line="2287" tag="T">build it(   MASC SG)!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126197">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2292-2298" line-types="L B G+CR G+CR B T+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2292" tag="L">         b.    dzhórra                      k-a</item>
+    <item id="o2" line="2293" tag="B"></item>
+    <item id="o3" line="2294" tag="G+CR">               built(FEM     SG)            do(PRES          )-2SG(IMP)</item>
+    <item id="o4" line="2295" tag="G+CR">                                                      PERF</item>
+    <item id="o5" line="2296" tag="B"></item>
+    <item id="o6" line="2297" tag="T+CR">               'build it(             )!'</item>
+    <item id="o7" line="2298" tag="T+CR">                            FEM SG</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2292" tag="L">dzhórra                      k-a</item>
+    <item id="c2" line="2293" tag="B"/>
+    <item id="c3" line="2294 2295" tag="G+CR">built(FEM     SG)            do(PRES   PERF   )-2SG(IMP)</item>
+    <item id="c5" line="2296" tag="B"/>
+    <item id="c6" line="2297 2298" tag="T+CR">build it(   FEM SG    )!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126198">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2303-2308" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2303" tag="L">         c.    dzhorr                       k-a</item>
+    <item id="o2" line="2304" tag="B"></item>
+    <item id="o3" line="2305" tag="G+CR">                              PL)           do(PRES          )-2SG(IMP)</item>
+    <item id="o4" line="2306" tag="G+CR">               built(MASC                             PERF</item>
+    <item id="o5" line="2307" tag="B"></item>
+    <item id="o6" line="2308" tag="T">               'build it(   MASC PL)!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2303" tag="L">dzhorr                       k-a</item>
+    <item id="c2" line="2304" tag="B"/>
+    <item id="c3" line="2305 2306" tag="G+CR">built(MASC     PL)           do(PRES   PERF   )-2SG(IMP)</item>
+    <item id="c5" line="2307" tag="B"/>
+    <item id="c6" line="2308" tag="T">build it(   MASC PL)!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126199">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2313-2319" line-types="L B G+CR G+CR B T+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2313" tag="L">         d.    dzhórri                      k-a</item>
+    <item id="o2" line="2314" tag="B"></item>
+    <item id="o3" line="2315" tag="G+CR">                                  )         do(PRES          )-2SG(IMP)</item>
+    <item id="o4" line="2316" tag="G+CR">               built(FEM     PL                       PERF</item>
+    <item id="o5" line="2317" tag="B"></item>
+    <item id="o6" line="2318" tag="T+CR">                                      )!'</item>
+    <item id="o7" line="2319" tag="T+CR">               'build it(   FEM PL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2313" tag="L">dzhórri                      k-a</item>
+    <item id="c2" line="2314" tag="B"/>
+    <item id="c3" line="2315 2316" tag="G+CR">built(FEM     PL   )         do(PRES   PERF   )-2SG(IMP)</item>
+    <item id="c5" line="2317" tag="B"/>
+    <item id="c6" line="2318 2319" tag="T+CR">build it(   FEM PL    )!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126200">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2338-2345" line-types="M+CN B L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2338" tag="M+CN">  (57)      Imperative: split agreement</item>
+    <item id="o2" line="2339" tag="B"></item>
+    <item id="o3" line="2340" tag="L">            a.   dzhorr                       krr-ey</item>
+    <item id="o4" line="2341" tag="B"></item>
+    <item id="o5" line="2342" tag="G+CR">                 built(MASC     SG)           do(PAST          )-2</item>
+    <item id="o6" line="2343" tag="G+CR">                                                        PERF      PL</item>
+    <item id="o7" line="2344" tag="B"></item>
+    <item id="o8" line="2345" tag="T">                 'build it(   MASC SG)!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2338" tag="M+CN">split agreement</item>
+    <item id="c2" line="2339" tag="B"/>
+    <item id="c3" line="2340" tag="L">dzhorr                       krr-ey</item>
+    <item id="c4" line="2341" tag="B"/>
+    <item id="c5" line="2342 2343" tag="G+CR">built(MASC     SG)           do(PAST   PERF   )-2PL</item>
+    <item id="c7" line="2344" tag="B"/>
+    <item id="c8" line="2345" tag="T">build it(   MASC SG)!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126201">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2350-2356" line-types="L B G+CR G+CR B T+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2350" tag="L">            b.   dzhórra                      krr-ey</item>
+    <item id="o2" line="2351" tag="B"></item>
+    <item id="o3" line="2352" tag="G+CR">                 built(FEM     SG)            do(PAST          )-2</item>
+    <item id="o4" line="2353" tag="G+CR">                                                        PERF      PL</item>
+    <item id="o5" line="2354" tag="B"></item>
+    <item id="o6" line="2355" tag="T+CR">                 'build it(             )!'</item>
+    <item id="o7" line="2356" tag="T+CR">                              FEM SG</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2350" tag="L">dzhórra                      krr-ey</item>
+    <item id="c2" line="2351" tag="B"/>
+    <item id="c3" line="2352 2353" tag="G+CR">built(FEM     SG)            do(PAST   PERF   )-2PL</item>
+    <item id="c5" line="2354" tag="B"/>
+    <item id="c6" line="2355 2356" tag="T+CR">build it(   FEM SG    )!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126202">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2361-2366" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2361" tag="L">            c.   dzhorr                       krr-ey</item>
+    <item id="o2" line="2362" tag="B"></item>
+    <item id="o3" line="2363" tag="G+CR">                 built(MASC     PL)           do(PAST          )-2</item>
+    <item id="o4" line="2364" tag="G+CR">                                                        PERF      PL</item>
+    <item id="o5" line="2365" tag="B"></item>
+    <item id="o6" line="2366" tag="T">                 'build it(   MASC PL)!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2361" tag="L">dzhorr                       krr-ey</item>
+    <item id="c2" line="2362" tag="B"/>
+    <item id="c3" line="2363 2364" tag="G+CR">built(MASC     PL)           do(PAST   PERF   )-2PL</item>
+    <item id="c5" line="2365" tag="B"/>
+    <item id="c6" line="2366" tag="T">build it(   MASC PL)!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126203">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="2371-2377" line-types="L B G+CR G+CR B T+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2371" tag="L">            d.   dzhórri                      krr-ey</item>
+    <item id="o2" line="2372" tag="B"></item>
+    <item id="o3" line="2373" tag="G+CR">                                    )         do(PAST          )-2</item>
+    <item id="o4" line="2374" tag="G+CR">                 built(FEM     PL                       PERF      PL</item>
+    <item id="o5" line="2375" tag="B"></item>
+    <item id="o6" line="2376" tag="T+CR">                 'build it(             )!'</item>
+    <item id="o7" line="2377" tag="T+CR">                              FEM PL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2371" tag="L">dzhórri                      krr-ey</item>
+    <item id="c2" line="2372" tag="B"/>
+    <item id="c3" line="2373 2374" tag="G+CR">built(FEM     PL   )         do(PAST   PERF   )-2PL</item>
+    <item id="c5" line="2375" tag="B"/>
+    <item id="c6" line="2376 2377" tag="T+CR">build it(   FEM PL    )!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126278">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="5200-5205" line-types="L B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5200" tag="L">  (123)          a.   gad-eed-em                                   (*mee)</item>
+    <item id="o2" line="5201" tag="B"></item>
+    <item id="o3" line="5202" tag="G+CR">                                       -1SG(PAST          )        1</item>
+    <item id="o4" line="5203" tag="G+CR">                      dance-    INTR               IMPF             SG</item>
+    <item id="o5" line="5204" tag="B"></item>
+    <item id="o6" line="5205" tag="T+AC">                      'I was dancing' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5200" tag="L">a.   gad-eed-em                                   (*mee</item>
+    <item id="c2" line="5201" tag="B"/>
+    <item id="c3" line="5202 5203" tag="G+CR">dance-INTR-1SG(PAST   IMPF   )        1SG</item>
+    <item id="c5" line="5204" tag="B"/>
+    <item id="c6" line="5205" tag="T+AC">I was dancing' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126279">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="5209-5214" line-types="L B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5209" tag="L">                 b.   khkol-ew-i                                   mee        (*yee)</item>
+    <item id="o2" line="5210" tag="B"></item>
+    <item id="o3" line="5211" tag="G+CR">                              TRANS-3SG(PRES IMPF     )            1          3</item>
+    <item id="o4" line="5212" tag="G+CR">                      kiss-                                         SG         SG</item>
+    <item id="o5" line="5213" tag="B"></item>
+    <item id="o6" line="5214" tag="T+AC">                      'he is kissing me' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5209" tag="L">khkol-ew-i                                   mee        (*yee)</item>
+    <item id="c2" line="5210" tag="B"/>
+    <item id="c3" line="5211 5212" tag="G+CR">kiss-TRANS-3SG(PRES IMPF     )            1SG        3SG</item>
+    <item id="c5" line="5213" tag="B"/>
+    <item id="c6" line="5214" tag="T+AC">he is kissing me' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126280">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="5218-5221" line-types="L B G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5218" tag="L">                 c.   ahmad             (*mee)        khkol-ew-em</item>
+    <item id="o2" line="5219" tag="B"></item>
+    <item id="o3" line="5220" tag="G">                      Ahmad             1SG           kiss-   TRANS-1SG(PAST IMPF        )</item>
+    <item id="o4" line="5221" tag="T+AC">                      'Ahmad was kissing me' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5218" tag="L">ahmad             (*mee)        khkol-ew-em</item>
+    <item id="c2" line="5219" tag="B"/>
+    <item id="c3" line="5220" tag="G">Ahmad             1SG           kiss-TRANS-1SG(PAST IMPF        )</item>
+    <item id="c4" line="5221" tag="T+AC">Ahmad was kissing me' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126281">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="5225-5230" line-types="L B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5225" tag="L">                 d.   ahmad             (*yee)        gad-íg-i</item>
+    <item id="o2" line="5226" tag="B"></item>
+    <item id="o3" line="5227" tag="G+CR">                      Ahmad             3SG           dance-              -3SG(PRES          )</item>
+    <item id="o4" line="5228" tag="G+CR">                                                                   INTR               IMPF</item>
+    <item id="o5" line="5229" tag="B"></item>
+    <item id="o6" line="5230" tag="T+AC">                      'Ahmad is dancing' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5225" tag="L">ahmad             (*yee)        gad-íg-i</item>
+    <item id="c2" line="5226" tag="B"/>
+    <item id="c3" line="5227 5228" tag="G+CR">Ahmad             3SG           dance-INTR-3SG(PRES   IMPF   )</item>
+    <item id="c5" line="5229" tag="B"/>
+    <item id="c6" line="5230" tag="T+AC">Ahmad is dancing' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126294">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="5532-5535" line-types="L B G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5532" tag="L">  (130)         a.   parun         aman       aw         asad    kitab    olwelewu</item>
+    <item id="o2" line="5533" tag="B"></item>
+    <item id="o3" line="5534" tag="G">                     yesterday     Aman       and        Asad    book     read</item>
+    <item id="o4" line="5535" tag="T+AC">                     'Aman and Asad read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5532" tag="L">parun         aman       aw         asad    kitab    olwelewu</item>
+    <item id="c2" line="5533" tag="B"/>
+    <item id="c3" line="5534" tag="G">yesterday     Aman       and        Asad    book     read</item>
+    <item id="c4" line="5535" tag="T+AC">Aman and Asad read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126295">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="5539-5543" line-types="L B G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5539" tag="L">                b.   parun         taa        aw         maa     kitab    olwelewu</item>
+    <item id="o2" line="5540" tag="B"></item>
+    <item id="o3" line="5541" tag="G+CR">                                   PN2SG      and        PN1SG   book     read</item>
+    <item id="o4" line="5542" tag="G+CR">                     yesterday</item>
+    <item id="o5" line="5543" tag="T+AC">                     'you and I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5539" tag="L">parun         taa        aw         maa     kitab    olwelewu</item>
+    <item id="c2" line="5540" tag="B"/>
+    <item id="c3" line="5541 5542" tag="G+CR">yesterday     PN2SG      and        PN1SG   book     read</item>
+    <item id="c5" line="5543" tag="T+AC">you and I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126296">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="5547-5550" line-types="L B G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5547" tag="L">                c.   parun         Aman       aw         maa     kitab    olwelewu</item>
+    <item id="o2" line="5548" tag="B"></item>
+    <item id="o3" line="5549" tag="G">                     yesterday     Aman       and        PN1SG   book     read</item>
+    <item id="o4" line="5550" tag="T+AC">                     'Aman and I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5547" tag="L">parun         Aman       aw         maa     kitab    olwelewu</item>
+    <item id="c2" line="5548" tag="B"/>
+    <item id="c3" line="5549" tag="G">yesterday     Aman       and        PN1SG   book     read</item>
+    <item id="c4" line="5550" tag="T+AC">Aman and I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126297">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="5565-5568" line-types="L B G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5565" tag="L">               d.   parun           maa       aw         Aman       kitab   olwelewu</item>
+    <item id="o2" line="5566" tag="B"></item>
+    <item id="o3" line="5567" tag="G">                    yesterday       PN1SG     and        Aman       book    read</item>
+    <item id="o4" line="5568" tag="T+AC">                    'Aman and I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5565" tag="L">parun           maa       aw         Aman       kitab   olwelewu</item>
+    <item id="c2" line="5566" tag="B"/>
+    <item id="c3" line="5567" tag="G">yesterday       PN1SG     and        Aman       book    read</item>
+    <item id="c4" line="5568" tag="T+AC">Aman and I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126298">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="5578-5581" line-types="L B G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5578" tag="L">  (131)        a.   parun           dee       kitab        olwelewu</item>
+    <item id="o2" line="5579" tag="B"></item>
+    <item id="o3" line="5580" tag="G">                    yesterday       2SG       book         read</item>
+    <item id="o4" line="5581" tag="T+AC">                    'you read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5578" tag="L">parun           dee       kitab        olwelewu</item>
+    <item id="c2" line="5579" tag="B"/>
+    <item id="c3" line="5580" tag="G">yesterday       2SG       book         read</item>
+    <item id="c4" line="5581" tag="T+AC">you read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126299">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="5585-5589" line-types="L B G+CR G+CR T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5585" tag="L">               b.   parun           mee       kitab        olwelewu</item>
+    <item id="o2" line="5586" tag="B"></item>
+    <item id="o3" line="5587" tag="G+CR">                                              book         read</item>
+    <item id="o4" line="5588" tag="G+CR">                    yesterday       1SG</item>
+    <item id="o5" line="5589" tag="T+AC">                    'I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5585" tag="L">parun           mee       kitab        olwelewu</item>
+    <item id="c2" line="5586" tag="B"/>
+    <item id="c3" line="5587 5588" tag="G+CR">yesterday       1SG       book         read</item>
+    <item id="c5" line="5589" tag="T+AC">I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126300">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="5596-5602" line-types="L+CR L+CR B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5596" tag="L+CR">                                                aw       mee        kitab   olwelewu</item>
+    <item id="o2" line="5597" tag="L+CR">  (132)        a.   *parun           dee</item>
+    <item id="o3" line="5598" tag="B"></item>
+    <item id="o4" line="5599" tag="G+CR">                    yesterday        2SG        and      1          book    read</item>
+    <item id="o5" line="5600" tag="G+CR">                                                           SG</item>
+    <item id="o6" line="5601" tag="B"></item>
+    <item id="o7" line="5602" tag="T+AC">                    'you and I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5596 5597" tag="L+CR">*parun           dee        aw       mee        kitab   olwelewu</item>
+    <item id="c3" line="5598" tag="B"/>
+    <item id="c4" line="5599 5600" tag="G+CR">yesterday        2SG        and      1 SG       book    read</item>
+    <item id="c6" line="5601" tag="B"/>
+    <item id="c7" line="5602" tag="T+AC">you and I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126301">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="5605-5611" line-types="L+CR L+CR B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5605" tag="L+CR">                                                aw       dee        kitab   olwelewu</item>
+    <item id="o2" line="5606" tag="L+CR">               b.   *parun           mee</item>
+    <item id="o3" line="5607" tag="B"></item>
+    <item id="o4" line="5608" tag="G+CR">                    yesterday        1SG        and      2          book    read</item>
+    <item id="o5" line="5609" tag="G+CR">                                                           SG</item>
+    <item id="o6" line="5610" tag="B"></item>
+    <item id="o7" line="5611" tag="T+AC">                    'you and I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5605 5606" tag="L+CR">*parun           mee        aw       dee        kitab   olwelewu</item>
+    <item id="c3" line="5607" tag="B"/>
+    <item id="c4" line="5608 5609" tag="G+CR">yesterday        1SG        and      2 SG       book    read</item>
+    <item id="c6" line="5610" tag="B"/>
+    <item id="c7" line="5611" tag="T+AC">you and I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126302">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="5627-5632" line-types="L B G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5627" tag="L">  (133)       a.    *parun          Aman      aw      mee       kitab     olwelewu</item>
+    <item id="o2" line="5628" tag="B"></item>
+    <item id="o3" line="5629" tag="G+CR">                    yesterday       Aman      and     1         book      read</item>
+    <item id="o4" line="5630" tag="G+CR">                                                          SG</item>
+    <item id="o5" line="5631" tag="B"></item>
+    <item id="o6" line="5632" tag="T+AC">                    'Aman and I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5627" tag="L">*parun          Aman      aw      mee       kitab     olwelewu</item>
+    <item id="c2" line="5628" tag="B"/>
+    <item id="c3" line="5629 5630" tag="G+CR">yesterday       Aman      and     1   SG    book      read</item>
+    <item id="c5" line="5631" tag="B"/>
+    <item id="c6" line="5632" tag="T+AC">Aman and I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126303">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="5636-5639" line-types="L B G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5636" tag="L">              b.    *parun          mee       aw      Aman      kitab     olwelewu</item>
+    <item id="o2" line="5637" tag="B"></item>
+    <item id="o3" line="5638" tag="G">                    yesterday       1SG       and     Aman      book      read</item>
+    <item id="o4" line="5639" tag="T+AC">                    'Aman and I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5636" tag="L">*parun          mee       aw      Aman      kitab     olwelewu</item>
+    <item id="c2" line="5637" tag="B"/>
+    <item id="c3" line="5638" tag="G">yesterday       1SG       and     Aman      book      read</item>
+    <item id="c4" line="5639" tag="T+AC">Aman and I read a book yesterday' (Yusufzai)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126429">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="8895-8910" line-types="L B G+CR G+CR B L B G L B G+CR G+CR B T B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8895" tag="L">  (229)        maa               hagha      tsok             tshi     ne-poh-ig-em</item>
+    <item id="o2" line="8896" tag="B"></item>
+    <item id="o3" line="8897" tag="G+CR">               PN1SG(OBL     )   that       who(DIR)                  NEG-wise-INTR   -1</item>
+    <item id="o4" line="8898" tag="G+CR">                                                             COMP                       SG</item>
+    <item id="o5" line="8899" tag="B"></item>
+    <item id="o6" line="8900" tag="L">               Tor     meelma           kérr-ey                     wu</item>
+    <item id="o7" line="8901" tag="B"></item>
+    <item id="o8" line="8902" tag="G">               Tor     guest            do(PAST   PERF)-PART        be(PAST3SG)</item>
+    <item id="o9" line="8903" tag="L">               (aw)     ka       na       we-lid-e</item>
+    <item id="o10" line="8904" tag="B"></item>
+    <item id="o11" line="8905" tag="G+CR">               and      or       not              -saw-   MASC3SG</item>
+    <item id="o12" line="8906" tag="G+CR">                                          PERF</item>
+    <item id="o13" line="8907" tag="B"></item>
+    <item id="o14" line="8908" tag="T">               'I saw the person who I don't know whether Tor had invited or not'</item>
+    <item id="o15" line="8909" tag="B"></item>
+    <item id="o16" line="8910" tag="M+AC">                                                                          (Jan Mohammad, p.c.; Yusufzai)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8895" tag="L">maa               hagha      tsok             tshi     ne-poh-ig-em</item>
+    <item id="c2" line="8896" tag="B"/>
+    <item id="c3" line="8897 8898" tag="G+CR">PN1SG(OBL     )   that       who(DIR)         COMP     NEG-wise-INTR-1SG</item>
+    <item id="c5" line="8899" tag="B"/>
+    <item id="c6" line="8900" tag="L">Tor     meelma           kérr-ey                     wu</item>
+    <item id="c7" line="8901" tag="B"/>
+    <item id="c8" line="8902" tag="G">Tor     guest            do(PAST   PERF)-PART        be(PAST3SG)</item>
+    <item id="c9" line="8903" tag="L">(aw)     ka       na       we-lid-e</item>
+    <item id="c10" line="8904" tag="B"/>
+    <item id="c11" line="8905 8906" tag="G+CR">and      or       not      PERF-saw-MASC3SG</item>
+    <item id="c13" line="8907" tag="B"/>
+    <item id="c14" line="8908" tag="T">I saw the person who I don't know whether Tor had invited or not</item>
+    <item id="c15" line="8909" tag="B"/>
+    <item id="c16" line="8910" tag="M+AC">Jan Mohammad, p.c.; Yusufzai</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+    <item id="p1" content="c6[0:55]"/>
+    <item id="p2" content="c9[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:72]" alignment="p1"/>
+    <item id="g1" content="c8[0:64]" alignment="p2"/>
+    <item id="g2" content="c11[0:43]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c14[0:64]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i126430">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="8925-8942" line-types="L B G+CR G+CR B L+CR L+CR B G+CR G+CR B L B G B T B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8925" tag="L">  (230)      *hágha      sarray           [tshee    kema        dzhorra</item>
+    <item id="o2" line="8926" tag="B"></item>
+    <item id="o3" line="8927" tag="G+CR">                         man(DIR)                   which       suit</item>
+    <item id="o4" line="8928" tag="G+CR">              DET                          COMP</item>
+    <item id="o5" line="8929" tag="B"></item>
+    <item id="o6" line="8930" tag="L+CR">                         (yee)      aghust-ay        wa ]                   genda    wa ]</item>
+    <item id="o7" line="8931" tag="L+CR">              [tshee</item>
+    <item id="o8" line="8932" tag="B"></item>
+    <item id="o9" line="8933" tag="G+CR">                         3SG        wear-            be(PAST.IMPF3SG)       dirty    be</item>
+    <item id="o10" line="8934" tag="G+CR">               COMP                         PART</item>
+    <item id="o11" line="8935" tag="B"></item>
+    <item id="o12" line="8936" tag="L">              deer       bad      khkar-id-o</item>
+    <item id="o13" line="8937" tag="B"></item>
+    <item id="o14" line="8938" tag="G">              much       bad      look-   INTR-PAST3SG</item>
+    <item id="o15" line="8939" tag="B"></item>
+    <item id="o16" line="8940" tag="T">              'the man who the suit that (he) was wearing was dirty looked very bad'</item>
+    <item id="o17" line="8941" tag="B"></item>
+    <item id="o18" line="8942" tag="M+AC">                                                                       (Yusufzai; Jan Mohammad, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8925" tag="L">*hágha      sarray           [tshee    kema        dzhorra</item>
+    <item id="c2" line="8926" tag="B"/>
+    <item id="c3" line="8927 8928" tag="G+CR">DET        man(DIR)          COMP     which       suit</item>
+    <item id="c5" line="8929" tag="B"/>
+    <item id="c6" line="8930 8931" tag="L+CR">[tshee     (yee)      aghust-ay        wa ]                   genda    wa ]</item>
+    <item id="c8" line="8932" tag="B"/>
+    <item id="c9" line="8933 8934" tag="G+CR">COMP      3SG        wear-PART     be(PAST.IMPF3SG)       dirty    be</item>
+    <item id="c11" line="8935" tag="B"/>
+    <item id="c12" line="8936" tag="L">deer       bad      khkar-id-o</item>
+    <item id="c13" line="8937" tag="B"/>
+    <item id="c14" line="8938" tag="G">much       bad      look-INTR-PAST3SG</item>
+    <item id="c15" line="8939" tag="B"/>
+    <item id="c16" line="8940" tag="T">the man who the suit that (he) was wearing was dirty looked very bad</item>
+    <item id="c17" line="8941" tag="B"/>
+    <item id="c18" line="8942" tag="M+AC">Yusufzai; Jan Mohammad, p.c.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+    <item id="p1" content="c6[0:75]"/>
+    <item id="p2" content="c12[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:54]" alignment="p1"/>
+    <item id="g1" content="c9[0:69]" alignment="p2"/>
+    <item id="g2" content="c14[0:37]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c16[0:68]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i126431">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="8952-8968" line-types="L B G+CR G+CR B L B G+CR G+CR B L B G B T B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8952" tag="L">  (231)      *hágha      sarray           [tshee    kema        dzhorra</item>
+    <item id="o2" line="8953" tag="B"></item>
+    <item id="o3" line="8954" tag="G+CR">                         man(DIR)                   which       suit</item>
+    <item id="o4" line="8955" tag="G+CR">              DET                          COMP</item>
+    <item id="o5" line="8956" tag="B"></item>
+    <item id="o6" line="8957" tag="L">              [tshee     agha       aghust-ay        wa ]                    genda   wa ]</item>
+    <item id="o7" line="8958" tag="B"></item>
+    <item id="o8" line="8959" tag="G+CR">                         PN3SG      wear-            be(PAST.   IMPF3SG)     dirty   be</item>
+    <item id="o9" line="8960" tag="G+CR">               COMP                          PART</item>
+    <item id="o10" line="8961" tag="B"></item>
+    <item id="o11" line="8962" tag="L">              deer       bad      khkar-id-o</item>
+    <item id="o12" line="8963" tag="B"></item>
+    <item id="o13" line="8964" tag="G">              much       bad      look-   INTR-PAST3SG</item>
+    <item id="o14" line="8965" tag="B"></item>
+    <item id="o15" line="8966" tag="T">              'the man who the suit that (he) was wearing was dirty looked very bad'</item>
+    <item id="o16" line="8967" tag="B"></item>
+    <item id="o17" line="8968" tag="M+AC">                                                                                (Jan Mohammad, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8952" tag="L">*hágha      sarray           [tshee    kema        dzhorra</item>
+    <item id="c2" line="8953" tag="B"/>
+    <item id="c3" line="8954 8955" tag="G+CR">DET        man(DIR)          COMP     which       suit</item>
+    <item id="c5" line="8956" tag="B"/>
+    <item id="c6" line="8957" tag="L">[tshee     agha       aghust-ay        wa ]                    genda   wa ]</item>
+    <item id="c7" line="8958" tag="B"/>
+    <item id="c8" line="8959 8960" tag="G+CR">COMP      PN3SG      wear-PART    be(PAST.   IMPF3SG)     dirty   be</item>
+    <item id="c10" line="8961" tag="B"/>
+    <item id="c11" line="8962" tag="L">deer       bad      khkar-id-o</item>
+    <item id="c12" line="8963" tag="B"/>
+    <item id="c13" line="8964" tag="G">much       bad      look-INTR-PAST3SG</item>
+    <item id="c14" line="8965" tag="B"/>
+    <item id="c15" line="8966" tag="T">the man who the suit that (he) was wearing was dirty looked very bad</item>
+    <item id="c16" line="8967" tag="B"/>
+    <item id="c17" line="8968" tag="M+AC">Jan Mohammad, p.c.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+    <item id="p1" content="c6[0:75]"/>
+    <item id="p2" content="c11[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:54]" alignment="p1"/>
+    <item id="g1" content="c8[0:68]" alignment="p2"/>
+    <item id="g2" content="c13[0:37]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c15[0:68]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i126432">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="8999-9015" line-types="L B G+CR G+CR B L B G+CR G+CR B L B G B T B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8999" tag="L">  (232)       *hágha     sarrayi          [tshi        hágha deerishi</item>
+    <item id="o2" line="9000" tag="B"></item>
+    <item id="o3" line="9001" tag="G+CR">                         man(DIR)                                suit(FEM         )</item>
+    <item id="o4" line="9002" tag="G+CR">               DET                        COMP         DET                  DIR</item>
+    <item id="o5" line="9003" tag="B"></item>
+    <item id="o6" line="9004" tag="L">               [tshi   Øi      yee      ághund-i ]            khirena                 da ]</item>
+    <item id="o7" line="9005" tag="B"></item>
+    <item id="o8" line="9006" tag="G+CR">                               3SG      wear-   PRES3SG       dirty(FEM   DIR SG)     be(PRES   IMPF FEM3SG)</item>
+    <item id="o9" line="9007" tag="G+CR">               COMP</item>
+    <item id="o10" line="9008" tag="B"></item>
+    <item id="o11" line="9009" tag="L">               nen      deer      bad     khkar-ig-i</item>
+    <item id="o12" line="9010" tag="B"></item>
+    <item id="o13" line="9011" tag="G">               today    much bad          look-     INTR-PRES3SG</item>
+    <item id="o14" line="9012" tag="B"></item>
+    <item id="o15" line="9013" tag="T">               'the man who the suit that (he) wears is dirty looks very bad today'</item>
+    <item id="o16" line="9014" tag="B"></item>
+    <item id="o17" line="9015" tag="M+AC">                                                                                         (Jan Mohammad, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8999" tag="L">*hágha     sarrayi          [tshi        hágha deerishi</item>
+    <item id="c2" line="9000" tag="B"/>
+    <item id="c3" line="9001 9002" tag="G+CR">DET       man(DIR)         COMP         DET       suit(FEM   DIR   )</item>
+    <item id="c5" line="9003" tag="B"/>
+    <item id="c6" line="9004" tag="L">[tshi   Øi      yee      ághund-i ]            khirena                 da ]</item>
+    <item id="c7" line="9005" tag="B"/>
+    <item id="c8" line="9006 9007" tag="G+CR">COMP            3SG      wear-PRES3SG       dirty(FEM   DIR SG)     be(PRES   IMPF FEM3SG)</item>
+    <item id="c10" line="9008" tag="B"/>
+    <item id="c11" line="9009" tag="L">nen      deer      bad     khkar-ig-i</item>
+    <item id="c12" line="9010" tag="B"/>
+    <item id="c13" line="9011" tag="G">today    much bad          look-INTR-PRES3SG</item>
+    <item id="c14" line="9012" tag="B"/>
+    <item id="c15" line="9013" tag="T">the man who the suit that (he) wears is dirty looks very bad today</item>
+    <item id="c16" line="9014" tag="B"/>
+    <item id="c17" line="9015" tag="M+AC">Jan Mohammad, p.c.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+    <item id="p1" content="c6[0:75]"/>
+    <item id="p2" content="c11[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:68]" alignment="p1"/>
+    <item id="g1" content="c8[0:90]" alignment="p2"/>
+    <item id="g2" content="c13[0:44]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c15[0:66]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i126433">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="9023-9040" line-types="L B G+CR G+CR B L+CR L+CR B G+CR G+CR B L B G B T B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9023" tag="L">  (233)       ?hágha     sarray           [tshi        hágha deerishi</item>
+    <item id="o2" line="9024" tag="B"></item>
+    <item id="o3" line="9025" tag="G+CR">                         man(DIR)                                suit(FEM         )</item>
+    <item id="o4" line="9026" tag="G+CR">               DET                        COMP         DET                  DIR</item>
+    <item id="o5" line="9027" tag="B"></item>
+    <item id="o6" line="9028" tag="L+CR">                                                         ághund-i ]           khirena        da ]</item>
+    <item id="o7" line="9029" tag="L+CR">               [tshi   day/agha                 yee</item>
+    <item id="o8" line="9030" tag="B"></item>
+    <item id="o9" line="9031" tag="G+CR">                       PN3SG(VIS/INVIS)         3        wear-   PRES3SG      dirty          be(PRES   IMPF3SG)</item>
+    <item id="o10" line="9032" tag="G+CR">               COMP                               SG</item>
+    <item id="o11" line="9033" tag="B"></item>
+    <item id="o12" line="9034" tag="L">               nen      deer      bad     khkar-ig-i</item>
+    <item id="o13" line="9035" tag="B"></item>
+    <item id="o14" line="9036" tag="G">               today    much bad          look-     INTR-PRES3SG</item>
+    <item id="o15" line="9037" tag="B"></item>
+    <item id="o16" line="9038" tag="T">               'the man who the suit that he wears is dirty looks very bad today'</item>
+    <item id="o17" line="9039" tag="B"></item>
+    <item id="o18" line="9040" tag="M+AC">                                                                                         (Jan Mohammad, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9023" tag="L">?hágha     sarray           [tshi        hágha deerishi</item>
+    <item id="c2" line="9024" tag="B"/>
+    <item id="c3" line="9025 9026" tag="G+CR">DET       man(DIR)         COMP         DET       suit(FEM   DIR   )</item>
+    <item id="c5" line="9027" tag="B"/>
+    <item id="c6" line="9028 9029" tag="L+CR">[tshi   day/agha                 yee      ághund-i ]           khirena        da ]</item>
+    <item id="c8" line="9030" tag="B"/>
+    <item id="c9" line="9031 9032" tag="G+CR">COMP    PN3SG(VIS/INVIS)         3 SG     wear-PRES3SG      dirty          be(PRES   IMPF3SG)</item>
+    <item id="c11" line="9033" tag="B"/>
+    <item id="c12" line="9034" tag="L">nen      deer      bad     khkar-ig-i</item>
+    <item id="c13" line="9035" tag="B"/>
+    <item id="c14" line="9036" tag="G">today    much bad          look-INTR-PRES3SG</item>
+    <item id="c15" line="9037" tag="B"/>
+    <item id="c16" line="9038" tag="T">the man who the suit that he wears is dirty looks very bad today</item>
+    <item id="c17" line="9039" tag="B"/>
+    <item id="c18" line="9040" tag="M+AC">Jan Mohammad, p.c.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+    <item id="p1" content="c6[0:82]"/>
+    <item id="p2" content="c12[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:68]" alignment="p1"/>
+    <item id="g1" content="c9[0:93]" alignment="p2"/>
+    <item id="g2" content="c14[0:44]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c16[0:64]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i126434">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="9061-9066" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9061" tag="L">  (234)        hágha     sarray         nen         deer      bad    khkar-id-o</item>
+    <item id="o2" line="9062" tag="B"></item>
+    <item id="o3" line="9063" tag="G+CR">                         man(DIR)       today       much      bad    look-   INTR-PAST3SG</item>
+    <item id="o4" line="9064" tag="G+CR">               DET</item>
+    <item id="o5" line="9065" tag="B"></item>
+    <item id="o6" line="9066" tag="T">               'the man looked very bad today'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9061" tag="L">hágha     sarray         nen         deer      bad    khkar-id-o</item>
+    <item id="c2" line="9062" tag="B"/>
+    <item id="c3" line="9063 9064" tag="G+CR">DET       man(DIR)       today       much      bad    look-INTR-PAST3SG</item>
+    <item id="c5" line="9065" tag="B"/>
+    <item id="c6" line="9066" tag="T">the man looked very bad today</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:71]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126435">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="9070-9078" line-types="L+CR L+CR B G+CR G+CR B T B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9070" tag="L+CR">                                                                                        genda wa62</item>
+    <item id="o2" line="9071" tag="L+CR">  (235)        hágha dzhorra        tshee     kem     sarri         aghust-ay     wa</item>
+    <item id="o3" line="9072" tag="B"></item>
+    <item id="o4" line="9073" tag="G+CR">                        suit                          man(OBL) wear-part          was   dirty   was</item>
+    <item id="o5" line="9074" tag="G+CR">               DET                  COMP      DET</item>
+    <item id="o6" line="9075" tag="B"></item>
+    <item id="o7" line="9076" tag="T">               'the suit that the man was wearing was dirty'</item>
+    <item id="o8" line="9077" tag="B"></item>
+    <item id="o9" line="9078" tag="M+AC">                                                                        (Yusufzai; Jan Mohammad, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9070 9071" tag="L+CR">hágha dzhorra        tshee     kem     sarri         aghust-ay     wa   genda wa62</item>
+    <item id="c3" line="9072" tag="B"/>
+    <item id="c4" line="9073 9074" tag="G+CR">DET      suit        COMP      DET     man(OBL) wear-part          was   dirty   was</item>
+    <item id="c6" line="9075" tag="B"/>
+    <item id="c7" line="9076" tag="T">the suit that the man was wearing was dirty</item>
+    <item id="c8" line="9077" tag="B"/>
+    <item id="c9" line="9078" tag="M+AC">Yusufzai; Jan Mohammad, p.c.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:84]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126436">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="9086-9091" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9086" tag="L">  (236)        hágha     sarray         nen         deer      bad    khkar-ig-i</item>
+    <item id="o2" line="9087" tag="B"></item>
+    <item id="o3" line="9088" tag="G+CR">                         man(DIR)       today       much      bad    look-   INTR-PRES3SG</item>
+    <item id="o4" line="9089" tag="G+CR">               DET</item>
+    <item id="o5" line="9090" tag="B"></item>
+    <item id="o6" line="9091" tag="T">               'the man looks very bad today'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9086" tag="L">hágha     sarray         nen         deer      bad    khkar-ig-i</item>
+    <item id="c2" line="9087" tag="B"/>
+    <item id="c3" line="9088 9089" tag="G+CR">DET       man(DIR)       today       much      bad    look-INTR-PRES3SG</item>
+    <item id="c5" line="9090" tag="B"/>
+    <item id="c6" line="9091" tag="T">the man looks very bad today</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:71]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i126437">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yusufzai" iso-639-3="pbu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3490" line-range="9103-9114" line-types="L B G+CR G+CR B L B G B T B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9103" tag="L">  (237)        hágha     deerishi              tshi     sarray     yee   ághund-i</item>
+    <item id="o2" line="9104" tag="B"></item>
+    <item id="o3" line="9105" tag="G+CR">                         suit(FEM          )            man(DIR)   3     wear-   PRES3SG</item>
+    <item id="o4" line="9106" tag="G+CR">               DET                   DIR       COMP                 SG</item>
+    <item id="o5" line="9107" tag="B"></item>
+    <item id="o6" line="9108" tag="L">               khirena                 da</item>
+    <item id="o7" line="9109" tag="B"></item>
+    <item id="o8" line="9110" tag="G">               dirty(FEM   DIR SG)     be(PRES   IMPF FEM3SG)</item>
+    <item id="o9" line="9111" tag="B"></item>
+    <item id="o10" line="9112" tag="T">               'the suit that the man wears is dirty'</item>
+    <item id="o11" line="9113" tag="B"></item>
+    <item id="o12" line="9114" tag="M+AC">                                                                               (Jan Mohammad, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9103" tag="L">hágha     deerishi              tshi     sarray     yee   ághund-i</item>
+    <item id="c2" line="9104" tag="B"/>
+    <item id="c3" line="9105 9106" tag="G+CR">DET       suit(FEM    DIR   )   COMP     man(DIR)   3SG   wear-PRES3SG</item>
+    <item id="c5" line="9107" tag="B"/>
+    <item id="c6" line="9108" tag="L">khirena                 da</item>
+    <item id="c7" line="9109" tag="B"/>
+    <item id="c8" line="9110" tag="G">dirty(FEM   DIR SG)     be(PRES   IMPF FEM3SG)</item>
+    <item id="c9" line="9111" tag="B"/>
+    <item id="c10" line="9112" tag="T">the suit that the man wears is dirty</item>
+    <item id="c11" line="9113" tag="B"/>
+    <item id="c12" line="9114" tag="M+AC">Jan Mohammad, p.c.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+    <item id="p1" content="c6[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:70]" alignment="p1"/>
+    <item id="g1" content="c8[0:46]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:36]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i27227">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akhvakh" iso-639-3="akv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="791-797" line-types="M+LN B L G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="791" tag="M+LN">  (10) Akhvakh</item>
+    <item id="o2" line="792" tag="B"></item>
+    <item id="o3" line="793" tag="L">       a. ek'wa        w-oq'-io</item>
+    <item id="o4" line="794" tag="G+CR">          man                -come-PF.   NEG.SGM</item>
+    <item id="o5" line="795" tag="G+CR">                       SGM</item>
+    <item id="o6" line="796" tag="B"></item>
+    <item id="o7" line="797" tag="T">          `The man did not come'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="791" tag="M+LN">Akhvakh</item>
+    <item id="c2" line="792" tag="B"/>
+    <item id="c3" line="793" tag="L">ek'wa        w-oq'-io</item>
+    <item id="c4" line="794 795" tag="G+CR">man          SGM-come-PF.   NEG.SGM</item>
+    <item id="c6" line="796" tag="B"/>
+    <item id="c7" line="797" tag="T">The man did not come</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27228">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akhvakh" iso-639-3="akv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="799-801" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="799" tag="L">       b. jase j-eq'-ie</item>
+    <item id="o2" line="800" tag="G">          girl    SGF-come-PF.NEG.SGF</item>
+    <item id="o3" line="801" tag="T">          `The girl did not come'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="799" tag="L">jase j-eq'-ie</item>
+    <item id="c2" line="800" tag="G">girl    SGF-come-PF.NEG.SGF</item>
+    <item id="c3" line="801" tag="T">The girl did not come</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27229">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akhvakh" iso-639-3="akv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="803-806" line-types="L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="803" tag="L">       c. masina b-eq'-ie</item>
+    <item id="o2" line="804" tag="G">          car          SGN-come-PF.NEG.SGN</item>
+    <item id="o3" line="805" tag="B"></item>
+    <item id="o4" line="806" tag="T">          `The car did not come'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="803" tag="L">masina b-eq'-ie</item>
+    <item id="c2" line="804" tag="G">car          SGN-come-PF.NEG.SGN</item>
+    <item id="c3" line="805" tag="B"/>
+    <item id="c4" line="806" tag="T">The car did not come</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27230">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akhvakh" iso-639-3="akv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="808-812" line-types="L G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="808" tag="L">       d. ek'wassw-e           jase j-ic-ie</item>
+    <item id="o2" line="809" tag="G+CR">          man-                 girl   SGF-push-PF.NEG.SGF</item>
+    <item id="o3" line="810" tag="G+CR">                 ERG</item>
+    <item id="o4" line="811" tag="B"></item>
+    <item id="o5" line="812" tag="T">          `The man did not push the girl'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="808" tag="L">ek'wassw-e           jase j-ic-ie</item>
+    <item id="c2" line="809 810" tag="G+CR">man-ERG           girl   SGF-push-PF.NEG.SGF</item>
+    <item id="c4" line="811" tag="B"/>
+    <item id="c5" line="812" tag="T">The man did not push the girl</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27231">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akhvakh" iso-639-3="akv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="814-818" line-types="L G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="814" tag="L">       e. ek'wassw-e           masina b-ic-ie</item>
+    <item id="o2" line="815" tag="G+CR">          man-                 car         SGN-push-PF.NEG.SGN</item>
+    <item id="o3" line="816" tag="G+CR">                 ERG</item>
+    <item id="o4" line="817" tag="B"></item>
+    <item id="o5" line="818" tag="T">          `The man did not push the car'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="814" tag="L">ek'wassw-e           masina b-ic-ie</item>
+    <item id="c2" line="815 816" tag="G+CR">man-ERG           car         SGN-push-PF.NEG.SGN</item>
+    <item id="c4" line="817" tag="B"/>
+    <item id="c5" line="818" tag="T">The man did not push the car</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27232">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akhvakh" iso-639-3="akv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="830-834" line-types="L G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="830" tag="L">       f. jaso-de ek'wa            w-uc-io</item>
+    <item id="o2" line="831" tag="G+CR">         girl-         man               -push-PF.    NEG.SGM</item>
+    <item id="o3" line="832" tag="G+CR">                 ERG               SGM</item>
+    <item id="o4" line="833" tag="B"></item>
+    <item id="o5" line="834" tag="T">         `The girl did not push the man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="830" tag="L">jaso-de ek'wa            w-uc-io</item>
+    <item id="c2" line="831 832" tag="G+CR">girl-ERG   man         SGM-push-PF.    NEG.SGM</item>
+    <item id="c4" line="833" tag="B"/>
+    <item id="c5" line="834" tag="T">The girl did not push the man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27233">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akhvakh" iso-639-3="akv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="849-855" line-types="M+LN B L G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="849" tag="M+LN">  (11) Akhvakh</item>
+    <item id="o2" line="850" tag="B"></item>
+    <item id="o3" line="851" tag="L">       a. ek'wassw-e         jaso-ga eq-ere                  godi</item>
+    <item id="o4" line="852" tag="G+CR">         man-                girl-           look at-   CONV COP.SGN</item>
+    <item id="o5" line="853" tag="G+CR">                 ERG                   LAT</item>
+    <item id="o6" line="854" tag="B"></item>
+    <item id="o7" line="855" tag="T">         `The man is looking at the girl'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="849" tag="M+LN">Akhvakh</item>
+    <item id="c2" line="850" tag="B"/>
+    <item id="c3" line="851" tag="L">ek'wassw-e         jaso-ga eq-ere                  godi</item>
+    <item id="c4" line="852 853" tag="G+CR">man-ERG         girl-LAT   look at-CONV COP.SGN</item>
+    <item id="c6" line="854" tag="B"/>
+    <item id="c7" line="855" tag="T">The man is looking at the girl</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27234">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akhvakh" iso-639-3="akv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="857-860" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="857" tag="L">       b. we-de          jaso-ge q'alac'-ari</item>
+    <item id="o2" line="858" tag="G+CR">         dog-            girl-           bite-</item>
+    <item id="o3" line="859" tag="G+CR">                 ERG             ESS             PF</item>
+    <item id="o4" line="860" tag="T">         `The dog bit the girl'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="857" tag="L">we-de          jaso-ge q'alac'-ari</item>
+    <item id="c2" line="858 859" tag="G+CR">dog-ERG     girl-ESS     bite-PF</item>
+    <item id="c4" line="860" tag="T">The dog bit the girl</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27235">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akhvakh" iso-639-3="akv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="862-865" line-types="L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="862" tag="L">       c. mik'i-de       di-ge               q'it'ari</item>
+    <item id="o2" line="863" tag="G">         child-ERG       PRO1S-ESS           pinch-   PF</item>
+    <item id="o3" line="864" tag="B"></item>
+    <item id="o4" line="865" tag="T">         `The child pinched me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="862" tag="L">mik'i-de       di-ge               q'it'ari</item>
+    <item id="c2" line="863" tag="G">child-ERG       PRO1S-ESS           pinch-PF</item>
+    <item id="c3" line="864" tag="B"/>
+    <item id="c4" line="865" tag="T">The child pinched me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27236">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akhvakh" iso-639-3="akv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="893-899" line-types="M+LN B L G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="893" tag="M+LN">  (12) Akhvakh</item>
+    <item id="o2" line="894" tag="B"></item>
+    <item id="o3" line="895" tag="L">        ek'wassw-e      jaso-ge 'or-ari</item>
+    <item id="o4" line="896" tag="G+CR">        man-            girl-         hit-PF</item>
+    <item id="o5" line="897" tag="G+CR">               ERG              ESS</item>
+    <item id="o6" line="898" tag="B"></item>
+    <item id="o7" line="899" tag="T">        `The man hit the girl'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="893" tag="M+LN">Akhvakh</item>
+    <item id="c2" line="894" tag="B"/>
+    <item id="c3" line="895" tag="L">ek'wassw-e      jaso-ge 'or-ari</item>
+    <item id="c4" line="896 897" tag="G+CR">man-ERG      girl-ESS   hit-PF</item>
+    <item id="c6" line="898" tag="B"/>
+    <item id="c7" line="899" tag="T">The man hit the girl</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27237">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akhvakh" iso-639-3="akv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="905-911" line-types="M+LN B L G+CR G+CR B T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="905" tag="M+LN">  (13) Akhvakh</item>
+    <item id="o2" line="906" tag="B"></item>
+    <item id="o3" line="907" tag="L">     a. ek'wassw-e      jaso-ge rea 'or-ari</item>
+    <item id="o4" line="908" tag="G+CR">        man-            girl-         hand hit-</item>
+    <item id="o5" line="909" tag="G+CR">               ERG              ESS                   PF</item>
+    <item id="o6" line="910" tag="B"></item>
+    <item id="o7" line="911" tag="T+DB+LT">        `The man hit the girl with his hand' (lit. applied the hand to the girl)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="905" tag="M+LN">Akhvakh</item>
+    <item id="c2" line="906" tag="B"/>
+    <item id="c3" line="907" tag="L">ek'wassw-e      jaso-ge rea 'or-ari</item>
+    <item id="c4" line="908 909" tag="G+CR">man-ERG      girl-ESS   hand hit-PF</item>
+    <item id="c6" line="910" tag="B"/>
+    <item id="c7" line="911" tag="T+DB+LT">The man hit the girl with his hand' (lit. applied the hand to the girl)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:71]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27238">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akhvakh" iso-639-3="akv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="913-917" line-types="L G+CR G+CR B T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="913" tag="L">     b. ek'wassw-e      jaso-ge za             'or-ari</item>
+    <item id="o2" line="914" tag="G+CR">        man-            girl-         fist     hit-</item>
+    <item id="o3" line="915" tag="G+CR">               ERG              ESS                   PF</item>
+    <item id="o4" line="916" tag="B"></item>
+    <item id="o5" line="917" tag="T+DB+LT">        `The man hit the girl with his fist' (lit. applied the fist to the girl)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="913" tag="L">ek'wassw-e      jaso-ge za             'or-ari</item>
+    <item id="c2" line="914 915" tag="G+CR">man-ERG      girl-ESS   fist     hit-PF</item>
+    <item id="c4" line="916" tag="B"/>
+    <item id="c5" line="917" tag="T+DB+LT">The man hit the girl with his fist' (lit. applied the fist to the girl)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:71]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27239">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akhvakh" iso-639-3="akv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="919-922" line-types="L G+CR G+CR T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="919" tag="L">     c. ek'wassw-e      jaso-ge c'uli 'or-ari</item>
+    <item id="o2" line="920" tag="G+CR">                        girl-         stick hit-</item>
+    <item id="o3" line="921" tag="G+CR">        man-   ERG              ESS                   PF</item>
+    <item id="o4" line="922" tag="T+DB+LT">        `The man hit the girl with a stick' (lit. applied a stick to the girl)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="919" tag="L">ek'wassw-e      jaso-ge c'uli 'or-ari</item>
+    <item id="c2" line="920 921" tag="G+CR">man-ERG      girl-ESS   stick hit-PF</item>
+    <item id="c4" line="922" tag="T+DB+LT">The man hit the girl with a stick' (lit. applied a stick to the girl)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:69]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27240">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akhvakh" iso-639-3="akv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="924-928" line-types="L G+CR G+CR B T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="924" tag="L">     d. toturussw-e jaso-ge mezu                  'or-ari</item>
+    <item id="o2" line="925" tag="G+CR">        doctor-         girl-         needle          hit-</item>
+    <item id="o3" line="926" tag="G+CR">                  ERG           ESS                          PF</item>
+    <item id="o4" line="927" tag="B"></item>
+    <item id="o5" line="928" tag="T+DB+LT">        `The doctor gave an injection to the girl' (lit. applied a ne edle to the girl)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="924" tag="L">toturussw-e jaso-ge mezu                  'or-ari</item>
+    <item id="c2" line="925 926" tag="G+CR">doctor-ERG   girl-ESS   needle          hit-PF</item>
+    <item id="c4" line="927" tag="B"/>
+    <item id="c5" line="928" tag="T+DB+LT">The doctor gave an injection to the girl' (lit. applied a ne edle to the girl)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:78]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

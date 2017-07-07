@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i78266">
+  <metadata type="xigt-meta">
+    <meta type="language" name="susu" iso-639-3="sus" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2508" line-range="3293-3297" line-types="M+AC+LN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3293" tag="M+AC+LN">  (9) Susu     (Fr iedländer 1974: 66)</item>
+    <item id="o2" line="3294" tag="L">       Yi     saresoe mu sese sara-ma, ...</item>
+    <item id="o3" line="3295" tag="G+CR">              salesman NEG thing sell-ASP</item>
+    <item id="o4" line="3296" tag="G+CR">       this</item>
+    <item id="o5" line="3297" tag="T">      `This   salesman sells nothing, ...'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3293" tag="M+AC+LN">Susu     (Fr iedländer 1974: 66</item>
+    <item id="c2" line="3294" tag="L">Yi     saresoe mu sese sara-ma, ...</item>
+    <item id="c3" line="3295 3296" tag="G+CR">this   salesman NEG thing sell-ASP</item>
+    <item id="c5" line="3297" tag="T">This   salesman sells nothing, ...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i91751">
+  <metadata type="xigt-meta">
+    <meta type="language" name="susu" iso-639-3="sus" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3766" line-range="3293-3297" line-types="M+AC+LN+CR L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3293" tag="M+AC+LN+CR">  (9) Susu     (Fr iedländer 1974: 66)</item>
+    <item id="o2" line="3294" tag="L">       Yi     saresoe mu sese sara-ma, ...</item>
+    <item id="o3" line="3295" tag="G+CR">              salesman NEG thing sell-ASP</item>
+    <item id="o4" line="3296" tag="G+CR">       this</item>
+    <item id="o5" line="3297" tag="T">      `This   salesman sells nothing, ...'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3293" tag="M+AC+LN+CR">Susu     (Fr iedländer 1974: 66</item>
+    <item id="c2" line="3294" tag="L">Yi     saresoe mu sese sara-ma, ...</item>
+    <item id="c3" line="3295 3296" tag="G+CR">this   salesman NEG thing sell-ASP</item>
+    <item id="c5" line="3297" tag="T">This   salesman sells nothing, ...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

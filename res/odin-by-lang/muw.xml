@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i8209">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mundari" iso-639-3="muw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3208" line-range="290-297" line-types="M+AC M B B M+LN+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="290" tag="M+AC">                         Roland Pfau and Markus Steinbach</item>
+    <item id="o2" line="291" tag="M">                     8</item>
+    <item id="o3" line="292" tag="B"></item>
+    <item id="o4" line="293" tag="B"></item>
+    <item id="o5" line="294" tag="M+LN+CN">                            (6) Reciprocal infix triggers intransitive marking in Mundari</item>
+    <item id="o6" line="295" tag="L">                                a. Hon-ko horo nel-ke-d-a-ko</item>
+    <item id="o7" line="296" tag="G">                                    child-pl man see-past-tr-f-3:pl</item>
+    <item id="o8" line="297" tag="T">                                    `The children saw the man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="290" tag="M+AC">Roland Pfau and Markus Steinbach</item>
+    <item id="c2" line="291" tag="M">8</item>
+    <item id="c3" line="292" tag="B"/>
+    <item id="c4" line="293" tag="B"/>
+    <item id="c5" line="294" tag="M+LN+CN">Reciprocal infix triggers intransitive marking in Mundari</item>
+    <item id="c6" line="295" tag="L">Hon-ko horo nel-ke-d-a-ko</item>
+    <item id="c7" line="296" tag="G">child-pl man see-past-tr-f-3:pl</item>
+    <item id="c8" line="297" tag="T">The children saw the man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c6[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8210">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mundari" iso-639-3="muw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3208" line-range="298-300" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="298" tag="L">                                b. Hon-ko n-ep-el-ke-n-a-ko</item>
+    <item id="o2" line="299" tag="G">                                    child-pl rec-see-past-intr-f-3:pl</item>
+    <item id="o3" line="300" tag="T">                                    `The children saw one another'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="298" tag="L">Hon-ko n-ep-el-ke-n-a-ko</item>
+    <item id="c2" line="299" tag="G">child-pl rec-see-past-intr-f-3:pl</item>
+    <item id="c3" line="300" tag="T">The children saw one another</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i24548">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mundari" iso-639-3="muw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2111" line-range="777-786" line-types="M+AC+LN M+CN B L G B L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="777" tag="M+AC+LN">  Mundari (Munda, Austroasiatic; Jharkand, India; these examples from Osada f/c)</item>
+    <item id="o2" line="778" tag="M+CN">  Causative of reciprocal:</item>
+    <item id="o3" line="779" tag="B"></item>
+    <item id="o4" line="780" tag="L">  (64)   Hon-ko hora-re      seta-king=ko</item>
+    <item id="o5" line="781" tag="G">         child-PL street-LOC dog-DU=3plSubj</item>
+    <item id="o6" line="782" tag="B"></item>
+    <item id="o7" line="783" tag="L">         go&lt;po&gt;y-rika-ke-d-king-a.</item>
+    <item id="o8" line="784" tag="G">         kill&lt;RECIP&gt;-CAUS-Compl-TR-3duO-INDIC</item>
+    <item id="o9" line="785" tag="B"></item>
+    <item id="o10" line="786" tag="T">          `The children caused two dogs to fight each other on the street.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="777" tag="M+AC+LN">Mundari (Munda, Austroasiatic; Jharkand, India; these examples from Osada f/c)</item>
+    <item id="c2" line="778" tag="M+CN">Causative of reciprocal:</item>
+    <item id="c3" line="779" tag="B"/>
+    <item id="c4" line="780" tag="L">Hon-ko hora-re      seta-king=ko</item>
+    <item id="c5" line="781" tag="G">child-PL street-LOC dog-DU=3plSubj</item>
+    <item id="c6" line="782" tag="B"/>
+    <item id="c7" line="783" tag="L">go&lt;po&gt;y-rika-ke-d-king-a.</item>
+    <item id="c8" line="784" tag="G">kill&lt;RECIP&gt;-CAUS-Compl-TR-3duO-INDIC</item>
+    <item id="c9" line="785" tag="B"/>
+    <item id="c10" line="786" tag="T">The children caused two dogs to fight each other on the street.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c4[0:32]"/>
+    <item id="p1" content="c7[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:34]" alignment="p1"/>
+    <item id="g1" content="c8[0:36]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:63]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i24549">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mundari" iso-639-3="muw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2111" line-range="788-792" line-types="M+CN B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="788" tag="M+CN">  Passive of reciprocal:</item>
+    <item id="o2" line="789" tag="B"></item>
+    <item id="o3" line="790" tag="L">  (65)   A&lt;pa&gt;d-o?-ta-n-a=le</item>
+    <item id="o4" line="791" tag="G">         miss&lt;REC&gt;-PASS-PROGR.ORIENTED-INTR-INDIC=1pl.excl</item>
+    <item id="o5" line="792" tag="T">         `We were almost missed by each other.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="788" tag="M+CN">Passive of reciprocal:</item>
+    <item id="c2" line="789" tag="B"/>
+    <item id="c3" line="790" tag="L">A&lt;pa&gt;d-o?-ta-n-a=le</item>
+    <item id="c4" line="791" tag="G">miss&lt;REC&gt;-PASS-PROGR.ORIENTED-INTR-INDIC=1pl.excl</item>
+    <item id="c5" line="792" tag="T">We were almost missed by each other.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i24550">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mundari" iso-639-3="muw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2111" line-range="795-799" line-types="M+CN B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="795" tag="M+CN">  Reflexive of reciprocal:</item>
+    <item id="o2" line="796" tag="B"></item>
+    <item id="o3" line="797" tag="L">  (66)   A&lt;pa&gt;d-en-ta-n-a=le</item>
+    <item id="o4" line="798" tag="G">         miss&lt;REC&gt;-REFL-PROGR.ORIENTED-INTR-INDIC=1pl.excl</item>
+    <item id="o5" line="799" tag="T">         `We are almost missing each other by ourselves.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="795" tag="M+CN">Reflexive of reciprocal:</item>
+    <item id="c2" line="796" tag="B"/>
+    <item id="c3" line="797" tag="L">A&lt;pa&gt;d-en-ta-n-a=le</item>
+    <item id="c4" line="798" tag="G">miss&lt;REC&gt;-REFL-PROGR.ORIENTED-INTR-INDIC=1pl.excl</item>
+    <item id="c5" line="799" tag="T">We are almost missing each other by ourselves.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32106">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mundari" iso-639-3="muw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2020" line-range="588-590" line-types="L G+LN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="588" tag="L">  (17)       siku-ko=ko           da&lt;pa&gt;Ra-ta-n-a</item>
+    <item id="o2" line="589" tag="G+LN">  Mun        louse-PL=3plSubj     search&lt;RECIP&gt;-PROGR.ORIENTED-INTR-IND</item>
+    <item id="o3" line="590" tag="T">             `They are delousing one another.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="588" tag="L">siku-ko=ko           da&lt;pa&gt;Ra-ta-n-a</item>
+    <item id="c2" line="589" tag="G+LN">Mun        louse-PL=3plSubj     search&lt;RECIP&gt;-PROGR.ORIENTED-INTR-IND</item>
+    <item id="c3" line="590" tag="T">They are delousing one another.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41768">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mundari" iso-639-3="muw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3501" line-range="894-896" line-types="L G+LN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="894" tag="L">  (21)     siku-ko=ko           da&lt;pa&gt;Ra-ta-n-a</item>
+    <item id="o2" line="895" tag="G+LN">  Mun      louse-PL=3plSubj     search&lt;RECIP&gt;-PROGR.ORIENTED-INTR-IND</item>
+    <item id="o3" line="896" tag="T">           `They are delousing one another.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="894" tag="L">siku-ko=ko           da&lt;pa&gt;Ra-ta-n-a</item>
+    <item id="c2" line="895" tag="G+LN">Mun      louse-PL=3plSubj     search&lt;RECIP&gt;-PROGR.ORIENTED-INTR-IND</item>
+    <item id="c3" line="896" tag="T">They are delousing one another.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49227">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mundari" iso-639-3="muw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3408" line-range="334-336" line-types="L G+LN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="334" tag="L">  (21)    siku-ko=ko           da&lt;pa&gt;Ra-ta-n-a</item>
+    <item id="o2" line="335" tag="G+LN">  Mun     louse-PL=3plSubj     search&lt;RECIP&gt;-PROGR.ORIENTED-INTR-IND</item>
+    <item id="o3" line="336" tag="T">          `They are delousing one another.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="334" tag="L">siku-ko=ko           da&lt;pa&gt;Ra-ta-n-a</item>
+    <item id="c2" line="335" tag="G+LN">Mun     louse-PL=3plSubj     search&lt;RECIP&gt;-PROGR.ORIENTED-INTR-IND</item>
+    <item id="c3" line="336" tag="T">They are delousing one another.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57524">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bhumij" iso-639-3="muw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="427-430" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="427" tag="L+CR">               aiN           hçrçta-ke         lel-li-a-iN</item>
+    <item id="o2" line="428" tag="L+CR">        a.</item>
+    <item id="o3" line="429" tag="G">               1S.PRON man-ACC                 see-PAST-IND-1S</item>
+    <item id="o4" line="430" tag="T">               `I saw a man'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="427 428" tag="L+CR">aiN           hçrçta-ke         lel-li-a-iN</item>
+    <item id="c3" line="429" tag="G">1S.PRON man-ACC                 see-PAST-IND-1S</item>
+    <item id="c4" line="430" tag="T">I saw a man</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57525">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bhumij" iso-639-3="muw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="431-434" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="431" tag="L+CR">               aiN           maraN daru-iN</item>
+    <item id="o2" line="432" tag="L+CR">        b.                                     lel-ked-a</item>
+    <item id="o3" line="433" tag="G">               1S.PRON big           tree-1S   see-PAST-IND</item>
+    <item id="o4" line="434" tag="T">               `I saw a big tree'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="431 432" tag="L+CR">aiN           maraN daru-iN     lel-ked-a</item>
+    <item id="c3" line="433" tag="G">1S.PRON big           tree-1S   see-PAST-IND</item>
+    <item id="c4" line="434" tag="T">I saw a big tree</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57526">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bhumij" iso-639-3="muw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="435-438" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="435" tag="L+CR">               ka-iN</item>
+    <item id="o2" line="436" tag="L+CR">        c.                 sen-a</item>
+    <item id="o3" line="437" tag="G">               NEG-1S go-IND</item>
+    <item id="o4" line="438" tag="T">               `I shall not go'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="435 436" tag="L+CR">ka-iN       sen-a</item>
+    <item id="c3" line="437" tag="G">NEG-1S go-IND</item>
+    <item id="c4" line="438" tag="T">I shall not go</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57527">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bhumij" iso-639-3="muw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="439-442" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="439" tag="L+CR">               dayakate aiN-ke               madal-rase om-a-iN-me</item>
+    <item id="o2" line="440" tag="L+CR">        d.</item>
+    <item id="o3" line="441" tag="G">               please       1S.PRON-ACC apple-juice give-IND-1SO-2S</item>
+    <item id="o4" line="442" tag="T">               `please give me apple juice'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="439 440" tag="L+CR">dayakate aiN-ke               madal-rase om-a-iN-me</item>
+    <item id="c3" line="441" tag="G">please       1S.PRON-ACC apple-juice give-IND-1SO-2S</item>
+    <item id="c4" line="442" tag="T">please give me apple juice</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85160">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mundari" iso-639-3="muw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="289" line-range="18730-18734" line-types="M+LN B L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="18730" tag="M+LN">  (A.24) M    UNDARI</item>
+    <item id="o2" line="18731" tag="B"></item>
+    <item id="o3" line="18732" tag="L">          aling      Paku-lo</item>
+    <item id="o4" line="18733" tag="G">          1+3DL      Paku-COM</item>
+    <item id="o5" line="18734" tag="T+AC">          `I and Paku' (lit. `we with Paku')                             (Hoffmann, 1903: 24-25)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="18730" tag="M+LN">(A.24) M    UNDARI</item>
+    <item id="c2" line="18731" tag="B"/>
+    <item id="c3" line="18732" tag="L">aling      Paku-lo</item>
+    <item id="c4" line="18733" tag="G">1+3DL      Paku-COM</item>
+    <item id="c5" line="18734" tag="T+AC">I and Paku' (lit. `we with Paku')                             (Hoffmann, 1903: 24-25)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:85]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137169">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mundari" iso-639-3="muw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3731" line-range="112-114" line-types="L G T+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="112" tag="L">  (9 )     Sadom-ete hati       mananga-i</item>
+    <item id="o2" line="113" tag="G">           horse-from elephant big-pres-3sg</item>
+    <item id="o3" line="114" tag="T+LN">           `The elephant is bigger than the horse.'                            mundari</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="112" tag="L">Sadom-ete hati       mananga-i</item>
+    <item id="c2" line="113" tag="G">horse-from elephant big-pres-3sg</item>
+    <item id="c3" line="114" tag="T+LN">The elephant is bigger than the horse.'                            mundari</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

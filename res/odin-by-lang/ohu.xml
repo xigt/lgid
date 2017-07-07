@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i36064">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old hungarian" iso-639-3="ohu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="576" line-range="984-992" line-types="L L M+EX L+LN+AL L+AL G L+AC+CR+AL L+CR+AL T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="984" tag="L">    (31) kinec         odut        hotolm ovdonia            es</item>
+    <item id="o2" line="985" tag="L">                                                             ketnie</item>
+    <item id="o3" line="986" tag="M+EX">                                                            [ms. late 12th/early 13th c.]</item>
+    <item id="o4" line="987" tag="L+LN+AL">                                                       és köt-ni-e        [Mdn Hung])</item>
+    <item id="o5" line="988" tag="L+AL">            (kinek adatott hatalom alda-ni-a</item>
+    <item id="o6" line="989" tag="G">            who.dat was.given power untie-ci-3sg and tie-ci-3sg</item>
+    <item id="o7" line="990" tag="L+AC+CR+AL">            [cui data est potestas solvendi atque ligandi] (Sajnovics 1770: 5ff.)</item>
+    <item id="o8" line="991" tag="L+CR+AL">                                ¯         ¯             ¯</item>
+    <item id="o9" line="992" tag="T">            "who was given the capacity of untying and tying"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="984" tag="L">kinec         odut        hotolm ovdonia            es</item>
+    <item id="c2" line="985" tag="L">ketnie</item>
+    <item id="c3" line="986" tag="M+EX">[ms. late 12th/early 13th c.]</item>
+    <item id="c4" line="987" tag="L+LN+AL">és köt-ni-e        [Mdn Hung])</item>
+    <item id="c5" line="988" tag="L+AL">(kinek adatott hatalom alda-ni-a</item>
+    <item id="c6" line="989" tag="G">who.dat was.given power untie-ci-3sg and tie-ci-3sg</item>
+    <item id="c7" line="990" tag="L+AC+CR+AL">[cui data est potestas solvendi atque ligandi] (Sajnovics 1770: 5ff.)</item>
+    <item id="c9" line="992" tag="T">who was given the capacity of untying and tying</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+    <item id="p1" content="c2[0:6]"/>
+    <item id="p2" content="c4[0:30]"/>
+    <item id="p3" content="c5[0:32]"/>
+    <item id="p4" content="c7[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:51]" alignment="p4"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:47]" alignment="p5"/>
+  </tier>
+</igt>
+<igt id="i36065">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old hungarian" iso-639-3="ohu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="576" line-range="997-1002" line-types="L G L+EX G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="997" tag="L">    (32) mënd párádicsum-ben volou gyimilcs-ik-tül</item>
+    <item id="o2" line="998" tag="G">         all paradise-iness being fruit-pl-delat</item>
+    <item id="o3" line="999" tag="L+EX">         mundá        neki él-ni-e                                      [early 13th c.]</item>
+    <item id="o4" line="1000" tag="G">         say.pret.3sg he.dat live-ci-3sg</item>
+    <item id="o5" line="1001" tag="M">         "und sagte ihm, er solle von allen Früchten im Paradies leben"</item>
+    <item id="o6" line="1002" tag="T">         ("he told him to live from all fruits (that are) in paradise")</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="997" tag="L">mënd párádicsum-ben volou gyimilcs-ik-tül</item>
+    <item id="c2" line="998" tag="G">all paradise-iness being fruit-pl-delat</item>
+    <item id="c3" line="999" tag="L+EX">mundá        neki él-ni-e                                      [early 13th c.]</item>
+    <item id="c4" line="1000" tag="G">say.pret.3sg he.dat live-ci-3sg</item>
+    <item id="c5" line="1001" tag="M">und sagte ihm, er solle von allen Früchten im Paradies leben</item>
+    <item id="c6" line="1002" tag="T">he told him to live from all fruits (that are) in paradise</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+    <item id="p1" content="c3[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+    <item id="g1" content="c4[0:31]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:58]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i36066">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old hungarian" iso-639-3="ohu" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="576" line-range="1018-1020" line-types="L+EX G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1018" tag="L+EX">         (33) husszú utat     këll të-nn-em                                 [Jókai Codex, ca.1450]</item>
+    <item id="o2" line="1019" tag="G">              long way.acc must make-inf-1sg</item>
+    <item id="o3" line="1020" tag="T+AC">              "I must go a long way" (Zimmer 1982: 143)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1018" tag="L+EX">husszú utat     këll të-nn-em                                 [Jókai Codex, ca.1450]</item>
+    <item id="c2" line="1019" tag="G">long way.acc must make-inf-1sg</item>
+    <item id="c3" line="1020" tag="T+AC">I must go a long way" (Zimmer 1982: 143)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:84]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

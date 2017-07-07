@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i18596">
+  <metadata type="xigt-meta">
+    <meta type="language" name="haku" iso-639-3="hao" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="259-261" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="259" tag="L">         b. aku e          nan-e-nu-gu                potutu</item>
+    <item id="o2" line="260" tag="G">            I      PM eat-TR-PRES.PROG-1SGS taro</item>
+    <item id="o3" line="261" tag="T+AC+LN">            `I am eating taro.' (Haku - Ross 1982:22)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="259" tag="L">aku e          nan-e-nu-gu                potutu</item>
+    <item id="c2" line="260" tag="G">I      PM eat-TR-PRES.PROG-1SGS taro</item>
+    <item id="c3" line="261" tag="T+AC+LN">I am eating taro.' (Haku-Ross 1982:22)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

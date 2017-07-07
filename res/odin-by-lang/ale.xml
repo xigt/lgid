@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i58303">
+  <metadata type="xigt-meta">
+    <meta type="language" name="aleut" iso-639-3="ale" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3170" line-range="14-17" line-types="M+AC+EX L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14" tag="M+AC+EX">  (1)    Scrambling (exx. from Bergsland 1997: 154)</item>
+    <item id="o2" line="15" tag="L+LN">         a.   ...          gan nagaan slukax       igaaxtakum                        (Aleut)</item>
+    <item id="o3" line="16" tag="G">                  his.boat     out.of seagull.ABS flew</item>
+    <item id="o4" line="17" tag="T">              `... a seagull flew out of his boat'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14" tag="M+AC+EX">Scrambling (exx. from Bergsland 1997: 154</item>
+    <item id="c2" line="15" tag="L+LN">...          gan nagaan slukax       igaaxtakum                        (Aleut)</item>
+    <item id="c3" line="16" tag="G">his.boat     out.of seagull.ABS flew</item>
+    <item id="c4" line="17" tag="T">a seagull flew out of his boat</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i58304">
+  <metadata type="xigt-meta">
+    <meta type="language" name="aleut" iso-639-3="ale" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3170" line-range="18-20" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="18" tag="L">         b.   ... quganax hlagan kugan         husaqaa</item>
+    <item id="o2" line="19" tag="G">                  rock.ABS his.son on.top.of fell</item>
+    <item id="o3" line="20" tag="T">              `... a rock fell on top of his son'1</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="18" tag="L">... quganax hlagan kugan         husaqaa</item>
+    <item id="c2" line="19" tag="G">rock.ABS his.son on.top.of fell</item>
+    <item id="c3" line="20" tag="T">a rock fell on top of his son'1</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

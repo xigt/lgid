@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i128539">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tanaina" iso-639-3="tfn" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="432" line-range="11000-11001" line-types="G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11000" tag="G">         INCEP-CJ-2S-Ø-cry</item>
+    <item id="o2" line="11001" tag="T">         `you will cry'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11000" tag="G">INCEP-CJ-2S-Ø-cry</item>
+    <item id="c2" line="11001" tag="T">you will cry</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c1[0:17]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:12]"/>
+  </tier>
+</igt>
+</xigt-corpus>

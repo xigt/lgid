@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i139125">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hyow" iso-639-3="csh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2149" line-range="1983-1987" line-types="M+LN+EX L+AC G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1983" tag="M+LN+EX">  (10) Hyow: indirective flagging &amp; secundative indexing</item>
+    <item id="o2" line="1984" tag="L+AC">  (m) phIl=la   key ?O-NOwey-sO              (David Peterson, handout 2001)</item>
+    <item id="o3" line="1985" tag="G+CR">        snake=         I          1     .P-bite-</item>
+    <item id="o4" line="1986" tag="G+CR">                 ERG               SG               FINAL</item>
+    <item id="o5" line="1987" tag="T">      'A snake bit me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1983" tag="M+LN+EX">indirective flagging &amp; secundative indexing</item>
+    <item id="c2" line="1984" tag="L+AC">phIl=la   key ?O-NOwey-sO              (David Peterson, handout 2001</item>
+    <item id="c3" line="1985 1986" tag="G+CR">snake=   ERG   I          1SG   .P-bite-FINAL</item>
+    <item id="c5" line="1987" tag="T">A snake bit me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i139126">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hyow" iso-639-3="csh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2149" line-range="1988-1991" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1988" tag="L">  (d) cu=la key=a co                          ?e-pek</item>
+    <item id="o2" line="1989" tag="G+CR">        he=        I=LOC          book 1            .R-give</item>
+    <item id="o3" line="1990" tag="G+CR">           ERG                                 SG</item>
+    <item id="o4" line="1991" tag="T">        'He gave me a book.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1988" tag="L">cu=la key=a co                          ?e-pek</item>
+    <item id="c2" line="1989 1990" tag="G+CR">he=ERG     I=LOC          book 1       SG   .R-give</item>
+    <item id="c4" line="1991" tag="T">He gave me a book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i142859">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hyow" iso-639-3="csh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2343" line-range="156-160" line-types="M+LN+CN L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="156" tag="M+LN+CN">  (7) Hyow: indirective flagging, secundative indexing</item>
+    <item id="o2" line="157" tag="L+CR">  (m) ynta uy=la                         -owey-s</item>
+    <item id="o3" line="158" tag="L+CR">                                  key</item>
+    <item id="o4" line="159" tag="G">        yeste rday   dog=ERG      I      1SG.P-bite-CONCL</item>
+    <item id="o5" line="160" tag="T">        'Yesterday a dog bit me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="156" tag="M+LN+CN">indirective flagging, secundative indexing</item>
+    <item id="c2" line="157 158" tag="L+CR">ynta uy=la                  key-owey-s</item>
+    <item id="c4" line="159" tag="G">yeste rday   dog=ERG      I      1SG.P-bite-CONCL</item>
+    <item id="c5" line="160" tag="T">Yesterday a dog bit me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i142860">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hyow" iso-639-3="csh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2343" line-range="161-164" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="161" tag="L+CR">                          c           e-pek</item>
+    <item id="o2" line="162" tag="L+CR">  (d) cu=la      key=a</item>
+    <item id="o3" line="163" tag="G">        he=ERG I=LOC      book 1SG.R-give</item>
+    <item id="o4" line="164" tag="T+AC">        'He gave me a book.'                                      (Peterson 2003: 174, 179)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="161 162" tag="L+CR">cu=la      key=a    c           e-pek</item>
+    <item id="c3" line="163" tag="G">he=ERG I=LOC      book 1SG.R-give</item>
+    <item id="c4" line="164" tag="T+AC">He gave me a book.'                                      (Peterson 2003: 174, 179)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:82]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i44755">
+  <metadata type="xigt-meta">
+    <meta type="language" name="k'ekchi" iso-639-3="kek" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4021" line-range="1382-1385" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1382" tag="L+CR">         ma x--lok'-o-c</item>
+    <item id="o2" line="1383" tag="L+CR">  21.                          cua     laj Lu'</item>
+    <item id="o3" line="1384" tag="G">         Q tns-B3-buy-Ap-Asp tortillas Ncl Lu'</item>
+    <item id="o4" line="1385" tag="T">         "Did Pedro buy Tortillas?"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1382 1383" tag="L+CR">ma x--lok'-o-c        cua     laj Lu</item>
+    <item id="c3" line="1384" tag="G">Q tns-B3-buy-Ap-Asp tortillas Ncl Lu</item>
+    <item id="c4" line="1385" tag="T">Did Pedro buy Tortillas?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i44769">
+  <metadata type="xigt-meta">
+    <meta type="language" name="k'ekchi" iso-639-3="kek" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4021" line-range="4143-4146" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4143" tag="L+CR">           junelic na--a-q'ue</item>
+    <item id="o2" line="4144" tag="L+CR">  119.                           cu-e   li tumin</item>
+    <item id="o3" line="4145" tag="G">           always Tns-B3-A2-give A1-Dat the money</item>
+    <item id="o4" line="4146" tag="T">           "You always give money to me."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4143 4144" tag="L+CR">junelic na--a-q'ue    cu-e   li tumin</item>
+    <item id="c3" line="4145" tag="G">always Tns-B3-A2-give A1-Dat the money</item>
+    <item id="c4" line="4146" tag="T">You always give money to me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i44821">
+  <metadata type="xigt-meta">
+    <meta type="language" name="k'ekchi" iso-639-3="kek" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4021" line-range="6891-6894" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6891" tag="L+CR">         t--incu-aj</item>
+    <item id="o2" line="6892" tag="L+CR">  223.                     x-nau-bal     li K'ekchi</item>
+    <item id="o3" line="6893" tag="G">         Tns-B3-A1-want A3-know-Nom the K'ekchi</item>
+    <item id="o4" line="6894" tag="T">         "I want to understand K'ekchi."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6891 6892" tag="L+CR">t--incu-aj        x-nau-bal     li K'ekchi</item>
+    <item id="c3" line="6893" tag="G">Tns-B3-A1-want A3-know-Nom the K'ekchi</item>
+    <item id="c4" line="6894" tag="T">I want to understand K'ekchi.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i44822">
+  <metadata type="xigt-meta">
+    <meta type="language" name="k'ekchi" iso-639-3="kek" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4021" line-range="6896-6898" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="6896" tag="L">  224.   yo-qu-in     chi alinac</item>
+    <item id="o2" line="6897" tag="G">         Cont-Asp-B1 Prep run</item>
+    <item id="o3" line="6898" tag="T">         "I am running."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="6896" tag="L">yo-qu-in     chi alinac</item>
+    <item id="c2" line="6897" tag="G">Cont-Asp-B1 Prep run</item>
+    <item id="c3" line="6898" tag="T">I am running.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i102437">
+  <metadata type="xigt-meta">
+    <meta type="language" name="q'eqchi'" iso-639-3="kek" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1310" line-range="1363-1365" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1363" tag="L">   (46) a.           X-      at-       ka-          ch'aj.</item>
+    <item id="o2" line="1364" tag="G">                     TNS- ABS2- ERG1pl- wash</item>
+    <item id="o3" line="1365" tag="T">                     `We washed you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1363" tag="L">X-at-ka-ch'aj.</item>
+    <item id="c2" line="1364" tag="G">TNS-ABS2-ERG1pl-wash</item>
+    <item id="c3" line="1365" tag="T">We washed you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i102438">
+  <metadata type="xigt-meta">
+    <meta type="language" name="q'eqchi'" iso-639-3="kek" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1310" line-range="1366-1368" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1366" tag="L">           b.        X-      at-       yajer.</item>
+    <item id="o2" line="1367" tag="G">                     TNS- ABS2- sick</item>
+    <item id="o3" line="1368" tag="T">                     `You got sick.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1366" tag="L">X-at-yajer.</item>
+    <item id="c2" line="1367" tag="G">TNS-ABS2-sick</item>
+    <item id="c3" line="1368" tag="T">You got sick.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i102439">
+  <metadata type="xigt-meta">
+    <meta type="language" name="q'eqchi'" iso-639-3="kek" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1310" line-range="1369-1371" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1369" tag="L">           c.        X-      o-          a-         ch'aj.</item>
+    <item id="o2" line="1370" tag="G">                     TNS- ABS1pl- ERG2- wash</item>
+    <item id="o3" line="1371" tag="T">                     `You washed us.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1369" tag="L">X-o-a-ch'aj.</item>
+    <item id="c2" line="1370" tag="G">TNS-ABS1pl-ERG2-wash</item>
+    <item id="c3" line="1371" tag="T">You washed us.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i102440">
+  <metadata type="xigt-meta">
+    <meta type="language" name="q'eqchi'" iso-639-3="kek" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1310" line-range="1372-1375" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1372" tag="L+CR">                              /</item>
+    <item id="o2" line="1373" tag="L+CR">   (47) a.           T-      0-        in-        q'ue acu- e    li    hu                     a'in.</item>
+    <item id="o3" line="1374" tag="G">                     TNS- ABS3- ERG1- give 2-                DAT the book                     this</item>
+    <item id="o4" line="1375" tag="T">                     `I will give this book to you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1372" tag="L+CR">/</item>
+    <item id="c3" line="1374" tag="G">TNS-ABS3-ERG1-give 2-DAT the book                     this</item>
+    <item id="c4" line="1375" tag="T">I will give this book to you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:1]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i102441">
+  <metadata type="xigt-meta">
+    <meta type="language" name="q'eqchi'" iso-639-3="kek" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1310" line-range="1376-1379" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1376" tag="L+CR">                                                     /</item>
+    <item id="o2" line="1377" tag="L+CR">           b.        Jo'can nak pues qu-            0-     e'x-     serak'i                 cu- e  lain.</item>
+    <item id="o3" line="1378" tag="G">                     like       that well TNS- ABS3- ERG3pl- tell                           1- DAT I</item>
+    <item id="o4" line="1379" tag="T">                     `Well, that's how they told it to me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1376" tag="L+CR">/</item>
+    <item id="c3" line="1378" tag="G">like       that well TNS-ABS3-ERG3pl-tell                           1-DAT I</item>
+    <item id="c4" line="1379" tag="T">Well, that's how they told it to me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:1]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i102442">
+  <metadata type="xigt-meta">
+    <meta type="language" name="q'eqchi'" iso-639-3="kek" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1310" line-range="1380-1383" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1380" tag="L+CR">                                     /</item>
+    <item id="o2" line="1381" tag="L+CR">           c.        Lain x-         0-       in-       yeh r- e   laj Lu'.</item>
+    <item id="o3" line="1382" tag="G">                     I      TNS- ABS3- ERG1- tell 3- DAT Pedro</item>
+    <item id="o4" line="1383" tag="T">                     `I told it to Pedro.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1380" tag="L+CR">/</item>
+    <item id="c3" line="1382" tag="G">I      TNS-ABS3-ERG1-tell 3-DAT Pedro</item>
+    <item id="c4" line="1383" tag="T">I told it to Pedro.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:1]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i108232">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kekchi" iso-639-3="kek" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="927" line-range="298-298" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="298" tag="L-T+DB">  6.      ocàcocà "house" rocàocàeÖp "their house"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="298" tag="L-T+DB">ocàcocà "house" rocàocàeÖp "their house</item>
+  </tier>
+</igt>
+<igt id="i133800">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kekchi" iso-639-3="kek" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2376" line-range="5214-5216" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5214" tag="L">  84 x-at-x-b'oq</item>
+    <item id="o2" line="5215" tag="G">           PERF-B2-A3-call</item>
+    <item id="o3" line="5216" tag="T+AC">               `He called you.' Dayley 1981, 15</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5214" tag="L">84 x-at-x-b'oq</item>
+    <item id="c2" line="5215" tag="G">PERF-B2-A3-call</item>
+    <item id="c3" line="5216" tag="T+AC">He called you.' Dayley 1981, 15</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

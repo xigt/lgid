@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i2520">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="567" line-range="922-924" line-types="L G T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="922" tag="L">  (10)   a.   s-malal           li      ?anttz-e</item>
+    <item id="o2" line="923" tag="G">              3ERG-husband the woman-DEF</item>
+    <item id="o3" line="924" tag="T+DB+LT">              'the woman's husband' (lit: 'her-husband the woman')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="922" tag="L">s-malal           li      ?anttz-e</item>
+    <item id="c2" line="923" tag="G">3ERG-husband the woman-DEF</item>
+    <item id="c3" line="924" tag="T+DB+LT">the woman's husband' (lit: 'her-husband the woman')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i2521">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="567" line-range="926-928" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="926" tag="L">         b.   s-malal</item>
+    <item id="o2" line="927" tag="G">              3ERG-husband</item>
+    <item id="o3" line="928" tag="T">              'her husband'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="926" tag="L">s-malal</item>
+    <item id="c2" line="927" tag="G">3ERG-husband</item>
+    <item id="c3" line="928" tag="T">her husband</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28766">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chamula" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="848" line-range="4670-4674" line-types="L G L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4670" tag="L">           d. t-s-k'an                   ta                j-k'el              ta       j-tuk'ulantik</item>
+    <item id="o2" line="4671" tag="G">                INCMPL-A3-want           INCMPL            A1-look.after       INCMPL   A1-take.care</item>
+    <item id="o3" line="4672" tag="L">                ti       k-osil          j-banamiltik-e</item>
+    <item id="o4" line="4673" tag="G">                DET      A1-earth        A1-country-DETF</item>
+    <item id="o5" line="4674" tag="T+AC">                `We have to look after the earth.' (Volker Gast p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4670" tag="L">t-s-k'an                   ta                j-k'el              ta       j-tuk'ulantik</item>
+    <item id="c2" line="4671" tag="G">INCMPL-A3-want           INCMPL            A1-look.after       INCMPL   A1-take.care</item>
+    <item id="c3" line="4672" tag="L">ti       k-osil          j-banamiltik-e</item>
+    <item id="c4" line="4673" tag="G">DET      A1-earth        A1-country-DETF</item>
+    <item id="c5" line="4674" tag="T+AC">We have to look after the earth.' (Volker Gast p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:87]"/>
+    <item id="p1" content="c3[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:84]" alignment="p1"/>
+    <item id="g1" content="c4[0:40]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:52]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i28798">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chamula" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="848" line-range="4988-4990" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4988" tag="L">         d. I-k'ak'             li        (x-)xik'        (s-)sat-e     (...)</item>
+    <item id="o2" line="4989" tag="G">              CMPL-burn         DET A3-wing               A3-eye-DETF</item>
+    <item id="o3" line="4990" tag="T+AC">              `He burned his lid, (...).' (Volker Gast, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4988" tag="L">I-k'ak'             li        (x-)xik'        (s-)sat-e     (...)</item>
+    <item id="c2" line="4989" tag="G">CMPL-burn         DET A3-wing               A3-eye-DETF</item>
+    <item id="c3" line="4990" tag="T+AC">He burned his lid, (...).' (Volker Gast, p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28812">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chamula" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="848" line-range="5143-5145" line-types="L G+LN T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5143" tag="L">  E213. a. Toj k'ux              li        s-tsukut-e           yu'un oy            s-likum.</item>
+    <item id="o2" line="5144" tag="G+LN">  MTZ         very painful       DET A3-stomach-DETF            because EXIST       A3-worm</item>
+    <item id="o3" line="5145" tag="T+AC">              `He has stomach-ache because he has worms' (Gast 1998:99)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5143" tag="L">E213. a. Toj k'ux              li        s-tsukut-e           yu'un oy            s-likum.</item>
+    <item id="c2" line="5144" tag="G+LN">MTZ         very painful       DET A3-stomach-DETF            because EXIST       A3-worm</item>
+    <item id="c3" line="5145" tag="T+AC">He has stomach-ache because he has worms' (Gast 1998:99)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:90]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:89]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28813">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chamula" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="848" line-range="5146-5149" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5146" tag="L+CR">                           x-/-takij</item>
+    <item id="o2" line="5147" tag="L+CR">          b. ta                                         s-ti'</item>
+    <item id="o3" line="5148" tag="G">              INCMPL       NEUT-B3-parched              A3-mouth</item>
+    <item id="o4" line="5149" tag="T+AC">              `he is thirsty' (Volker Gast, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5146 5147" tag="L+CR">ta            x-/-takij                    s-ti</item>
+    <item id="c3" line="5148" tag="G">INCMPL       NEUT-B3-parched              A3-mouth</item>
+    <item id="c4" line="5149" tag="T+AC">he is thirsty' (Volker Gast, p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28814">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chamula" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="848" line-range="5150-5153" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5150" tag="L+CR">                           x-/-vi'naj</item>
+    <item id="o2" line="5151" tag="L+CR">          c. ta</item>
+    <item id="o3" line="5152" tag="G">              INCMPL       NEUT-B3-be.hungry</item>
+    <item id="o4" line="5153" tag="T+AC">              `he is hungry' (Volker Gast, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5150 5151" tag="L+CR">ta            x-/-vi'naj</item>
+    <item id="c3" line="5152" tag="G">INCMPL       NEUT-B3-be.hungry</item>
+    <item id="c4" line="5153" tag="T+AC">he is hungry' (Volker Gast, p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28825">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chamula" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="848" line-range="5225-5228" line-types="L+CR L+CR G+LN T+AC+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5225" tag="L+CR">                            /-sok</item>
+    <item id="o2" line="5226" tag="L+CR">  E217. a. ta                                      s-jol</item>
+    <item id="o3" line="5227" tag="G+LN">  MTZ        INCMPL         B3-decompose           A3-head</item>
+    <item id="o4" line="5228" tag="T+AC+DB+LT">             `he is furious.', lit.: `his head decomposes' (Volker Gast, p.c)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5225 5226" tag="L+CR">E217. a. ta               /-sok                  s-jol</item>
+    <item id="c3" line="5227" tag="G+LN">MTZ        INCMPL         B3-decompose           A3-head</item>
+    <item id="c4" line="5228" tag="T+AC+DB+LT">he is furious.', lit.: `his head decomposes' (Volker Gast, p.c)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:63]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28826">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chamula" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="848" line-range="5229-5232" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5229" tag="L+CR">                            x-/-'ilin</item>
+    <item id="o2" line="5230" tag="L+CR">         b. ta</item>
+    <item id="o3" line="5231" tag="G">             INCMPL         NEUT-B3-be.angry</item>
+    <item id="o4" line="5232" tag="T+AC">             `he is angry' (Volker Gast, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5229 5230" tag="L+CR">ta              x-/-'ilin</item>
+    <item id="c3" line="5231" tag="G">INCMPL         NEUT-B3-be.angry</item>
+    <item id="c4" line="5232" tag="T+AC">he is angry' (Volker Gast, p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28828">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chamula" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="848" line-range="5236-5241" line-types="L+CR L+CR G L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5236" tag="L+CR">                                        k-o'on yu'un i-/-lok'</item>
+    <item id="o2" line="5237" tag="L+CR">         d. Ch-k-at                                                           ech'el</item>
+    <item id="o3" line="5238" tag="G">             INCMPL-A1-count            A1-heart because CMPL-B3-exit away</item>
+    <item id="o4" line="5239" tag="L">             ta      j-na          li        j-ch'amal-e</item>
+    <item id="o5" line="5240" tag="G">             PREP A1-house         DET A1-son-DETF</item>
+    <item id="o6" line="5241" tag="T+AC">             `I am sad, because my son left my house.' (Volker Gast, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5236 5237" tag="L+CR">Ch-k-at                     k-o'on yu'un i-/-lok'                 ech'el</item>
+    <item id="c3" line="5238" tag="G">INCMPL-A1-count            A1-heart because CMPL-B3-exit away</item>
+    <item id="c4" line="5239" tag="L">ta      j-na          li        j-ch'amal-e</item>
+    <item id="c5" line="5240" tag="G">PREP A1-house         DET A1-son-DETF</item>
+    <item id="c6" line="5241" tag="T+AC">I am sad, because my son left my house.' (Volker Gast, p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+    <item id="p1" content="c4[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:61]" alignment="p1"/>
+    <item id="g1" content="c5[0:37]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:60]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i28832">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chamula" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="848" line-range="5263-5265" line-types="L G+LN T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5263" tag="L">  E219.      toj    lek x-k-a'i           li    manko-e</item>
+    <item id="o2" line="5264" tag="G+LN">  MTZ        very good NEUT-A1-feel DET mango-DETF</item>
+    <item id="o3" line="5265" tag="T+AC">             `I like mangos.' (Volker Gast, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5263" tag="L">E219.      toj    lek x-k-a'i           li    manko-e</item>
+    <item id="c2" line="5264" tag="G+LN">MTZ        very good NEUT-A1-feel DET mango-DETF</item>
+    <item id="c3" line="5265" tag="T+AC">I like mangos.' (Volker Gast, p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28835">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chamula" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="848" line-range="5287-5296" line-types="L+CR L+CR G+LN L+CR L+CR G L G T T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5287" tag="L+CR">                      buch'u x-/-jul</item>
+    <item id="o2" line="5288" tag="L+CR">  E221. a. Muk'                                      ta      s-jol     ti     y-il-oj     li   taiv</item>
+    <item id="o3" line="5289" tag="G+LN">  MTZ        NEG      who       NEUT-B3-come         PREP A3-head DET A3-see-PF DET snow</item>
+    <item id="o4" line="5290" tag="L+CR">                                                             i-/-yal</item>
+    <item id="o5" line="5291" tag="L+CR">             jech     chak      k'u cha'al      li</item>
+    <item id="o6" line="5292" tag="G">             so       similar   like            DET          CMPL-B3-come.down</item>
+    <item id="o7" line="5293" tag="L">             li       oy        xa        ta         yoxibal jabil-e.</item>
+    <item id="o8" line="5294" tag="G">             DET      EXIST     already PREP         third      year-DETF</item>
+    <item id="o9" line="5295" tag="T">             `Nobody remembers having seen a snowfall like the one that came down</item>
+    <item id="o10" line="5296" tag="T+AC">             three years ago.' (Volker Gast, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5287 5288" tag="L+CR">E221. a. Muk'       buch'u x-/-jul                 ta      s-jol     ti     y-il-oj     li   taiv</item>
+    <item id="c3" line="5289" tag="G+LN">MTZ        NEG      who       NEUT-B3-come         PREP A3-head DET A3-see-PF DET snow</item>
+    <item id="c4" line="5290 5291" tag="L+CR">jech     chak      k'u cha'al      li           i-/-yal</item>
+    <item id="c6" line="5292" tag="G">so       similar   like            DET          CMPL-B3-come.down</item>
+    <item id="c7" line="5293" tag="L">li       oy        xa        ta         yoxibal jabil-e.</item>
+    <item id="c8" line="5294" tag="G">DET      EXIST     already PREP         third      year-DETF</item>
+    <item id="c9" line="5295" tag="T">Nobody remembers having seen a snowfall like the one that came down</item>
+    <item id="c10" line="5296" tag="T+AC">three years ago.' (Volker Gast, p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:97]"/>
+    <item id="p1" content="c4[0:55]"/>
+    <item id="p2" content="c7[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:86]" alignment="p1"/>
+    <item id="g1" content="c6[0:65]" alignment="p2"/>
+    <item id="g2" content="c8[0:60]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:67]" alignment="p3"/>
+    <item id="t1" content="c10[0:37]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i28836">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chamula" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="848" line-range="5300-5305" line-types="L G L M+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5300" tag="L">            b. Li      ants-e           yakal     ta              s-ch'ay      ta   y-o'on</item>
+    <item id="o2" line="5301" tag="G">                DET woman-DETF PROG               INCMPL          A3-lose      PREP A3-heart</item>
+    <item id="o3" line="5302" tag="L">                li     anima s-malal-e.</item>
+    <item id="o4" line="5303" tag="M+AC">                                                                      (Volker Gast, p.c.)</item>
+    <item id="o5" line="5304" tag="G">                DET cadaver A3-husband-DETF</item>
+    <item id="o6" line="5305" tag="T">                `The woman is already forgetting the death of her husband.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5300" tag="L">Li      ants-e           yakal     ta              s-ch'ay      ta   y-o'on</item>
+    <item id="c2" line="5301" tag="G">DET woman-DETF PROG               INCMPL          A3-lose      PREP A3-heart</item>
+    <item id="c3" line="5302" tag="L">li     anima s-malal-e.</item>
+    <item id="c4" line="5303" tag="M+AC">Volker Gast, p.c.</item>
+    <item id="c5" line="5304" tag="G">DET cadaver A3-husband-DETF</item>
+    <item id="c6" line="5305" tag="T">The woman is already forgetting the death of her husband.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+    <item id="p1" content="c3[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+    <item id="g1" content="c5[0:27]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:57]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i28839">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chamula" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="848" line-range="5326-5328" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5326" tag="L">            b. x-/-a-na'</item>
+    <item id="o2" line="5327" tag="G">                NEUT-B3-A2-know</item>
+    <item id="o3" line="5328" tag="T+AC">                `You know it.' (Gast 1998:37)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5326" tag="L">x-/-a-na</item>
+    <item id="c2" line="5327" tag="G">NEUT-B3-A2-know</item>
+    <item id="c3" line="5328" tag="T+AC">You know it.' (Gast 1998:37)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i30845">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1487" line-range="247-249" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="247" tag="L+DB">         (11) a. Vo'on i-j-kolta.                   b. Li antz      i-kolta-on li petul-e.</item>
+    <item id="o2" line="248" tag="G+DB">                  1sg       CP-1.ERG-help              the woman CP-help-AF the Pedro-FC</item>
+    <item id="o3" line="249" tag="T+DB">                  `It was me who helped him.'          `It was the woman who helped Pedro.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="247" tag="L+DB">Vo'on i-j-kolta.                   b. Li antz      i-kolta-on li petul-e.</item>
+    <item id="c2" line="248" tag="G+DB">1sg       CP-1.ERG-help              the woman CP-help-AF the Pedro-FC</item>
+    <item id="c3" line="249" tag="T+DB">It was me who helped him.'          `It was the woman who helped Pedro.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:71]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i76208">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="105.txt" line-range="234-235" line-types="L-T G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="234" tag="L-T">       a. Vo'on i-j-kolta.                         `It was me who helped him'</item>
+    <item id="o2" line="235" tag="G">          1sg       CP-1.ERG-help</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="234" tag="L-T">Vo'on i-j-kolta.                         `It was me who helped him</item>
+    <item id="c2" line="235" tag="G">1sg       CP-1.ERG-help</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]"/>
+  </tier>
+</igt>
+<igt id="i76209">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="105.txt" line-range="236-237" line-types="L-T G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="236" tag="L-T">       a. Li antz      i-kolta-on li petul-e.      `It was the woman who helped Pedro'</item>
+    <item id="o2" line="237" tag="G">          the woman CP-help-AF the Pedro-FC</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="236" tag="L-T">Li antz      i-kolta-on li petul-e.      `It was the woman who helped Pedro</item>
+    <item id="c2" line="237" tag="G">the woman CP-help-AF the Pedro-FC</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]"/>
+  </tier>
+</igt>
+<igt id="i76220">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="105.txt" line-range="305-308" line-types="L G T+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="305" tag="L">       a. s-vixtak            i-s-kolta.                       (direct)</item>
+    <item id="o2" line="306" tag="G">          3-ERG-sisters       CP-3.ERG-help</item>
+    <item id="o3" line="307" tag="T+CR">                            sistersobv that sheprox helped'</item>
+    <item id="o4" line="308" tag="T+CR">          `It was herprox</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="305" tag="L">s-vixtak            i-s-kolta.                       (direct)</item>
+    <item id="c2" line="306" tag="G">3-ERG-sisters       CP-3.ERG-help</item>
+    <item id="c3" line="307 308" tag="T+CR">It was herprox   sistersobv that sheprox helped</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i76221">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="105.txt" line-range="309-312" line-types="L G T+AC+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="309" tag="L">       b. s-vixtak            i-kolta-on.                      (inverse)</item>
+    <item id="o2" line="310" tag="G">          3.ERG-sisters       CP-help-AF</item>
+    <item id="o3" line="311" tag="T+AC+CR">                            sistersobv who helped herprox'                   (Aissen 1999b:474)</item>
+    <item id="o4" line="312" tag="T+CR">          `It was herprox</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="309" tag="L">s-vixtak            i-kolta-on.                      (inverse)</item>
+    <item id="c2" line="310" tag="G">3.ERG-sisters       CP-help-AF</item>
+    <item id="c3" line="311 312" tag="T+AC+CR">It was herprox   sistersobv who helped herprox'                   (Aissen 1999b:474)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:84]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93470">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1372" line-range="383-390" line-types="L+AC+LN B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="383" tag="L+AC+LN">            b. i-s-poxta Xun li j ilol-e               Tzotzil (Aissen 1987:90)</item>
+    <item id="o2" line="384" tag="B"></item>
+    <item id="o3" line="385" tag="B"></item>
+    <item id="o4" line="386" tag="B"></item>
+    <item id="o5" line="387" tag="B"></item>
+    <item id="o6" line="388" tag="B"></item>
+    <item id="o7" line="389" tag="G">               Asp-3-care Xun the shaman-clitic</item>
+    <item id="o8" line="390" tag="T">               `The shaman treated Xun'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="383" tag="L+AC+LN">i-s-poxta Xun li j ilol-e               Tzotzil (Aissen 1987:90)</item>
+    <item id="c2" line="384" tag="B"/>
+    <item id="c3" line="385" tag="B"/>
+    <item id="c4" line="386" tag="B"/>
+    <item id="c5" line="387" tag="B"/>
+    <item id="c6" line="388" tag="B"/>
+    <item id="c7" line="389" tag="G">Asp-3-care Xun the shaman-clitic</item>
+    <item id="c8" line="390" tag="T">The shaman treated Xun</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93472">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1372" line-range="395-402" line-types="L+LN B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="395" tag="L+LN">            b.    i-s-poxta s-ba li Xun-e                     Tzotzil</item>
+    <item id="o2" line="396" tag="B"></item>
+    <item id="o3" line="397" tag="B"></item>
+    <item id="o4" line="398" tag="B"></item>
+    <item id="o5" line="399" tag="B"></item>
+    <item id="o6" line="400" tag="B"></item>
+    <item id="o7" line="401" tag="G">                 Asp-3-care 3-self art Xun-clitic</item>
+    <item id="o8" line="402" tag="T">                 `Xun treated himself '</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="395" tag="L+LN">i-s-poxta s-ba li Xun-e                     Tzotzil</item>
+    <item id="c2" line="396" tag="B"/>
+    <item id="c3" line="397" tag="B"/>
+    <item id="c4" line="398" tag="B"/>
+    <item id="c5" line="399" tag="B"/>
+    <item id="c6" line="400" tag="B"/>
+    <item id="c7" line="401" tag="G">Asp-3-care 3-self art Xun-clitic</item>
+    <item id="c8" line="402" tag="T">Xun treated himself</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i142465">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="56" line-range="797-799" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="797" tag="L+CR">  (1.11)a.</item>
+    <item id="o2" line="798" tag="G">           ASP-3ABS-3ERG-carry away woman DEF rabbit-DEF</item>
+    <item id="o3" line="799" tag="T">           `The rabbit carried away the woman.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="797" tag="L+CR">a.</item>
+    <item id="c2" line="798" tag="G">ASP-3ABS-3ERG-carry away woman DEF rabbit-DEF</item>
+    <item id="c3" line="799" tag="T">The rabbit carried away the woman.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i142466">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="56" line-range="800-802" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="800" tag="L">        b. i-Ø-s-pet.</item>
+    <item id="o2" line="801" tag="G">           ASP-3ABS-3ERG-carry</item>
+    <item id="o3" line="802" tag="T">           `He/she carried him/her/it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="800" tag="L">i-Ø-s-pet.</item>
+    <item id="c2" line="801" tag="G">ASP-3ABS-3ERG-carry</item>
+    <item id="c3" line="802" tag="T">He/she carried him/her/it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i142467">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="56" line-range="803-805" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="803" tag="L">        c. L-i-s-pet-otik.</item>
+    <item id="o2" line="804" tag="G">           ASP-1ABS-3ERG-carry-1plINCL</item>
+    <item id="o3" line="805" tag="T">           `He/she carried us (inclusive).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="803" tag="L">L-i-s-pet-otik.</item>
+    <item id="c2" line="804" tag="G">ASP-1ABS-3ERG-carry-1plINCL</item>
+    <item id="c3" line="805" tag="T">He/she carried us (inclusive).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155095">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="824-827" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="824" tag="L+CR">                            7i-s-pet     lok'el 7antz ti t'ul-e.</item>
+    <item id="o2" line="825" tag="L+CR">       (57)</item>
+    <item id="o3" line="826" tag="G">                            CP-A3-carry away woman the rabbit-CL</item>
+    <item id="o4" line="827" tag="T">                            `The rabbit carried away the woman.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="824 825" tag="L+CR">7i-s-pet     lok'el 7antz ti t'ul-e.</item>
+    <item id="c3" line="826" tag="G">CP-A3-carry away woman the rabbit-CL</item>
+    <item id="c4" line="827" tag="T">The rabbit carried away the woman.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155096">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="828-831" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="828" tag="L+CR">                            s-tot      li Xun-e</item>
+    <item id="o2" line="829" tag="L+CR">       (58)</item>
+    <item id="o3" line="830" tag="G">                            A3-father the Xun-CL</item>
+    <item id="o4" line="831" tag="T">                            `Xun's father'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="828 829" tag="L+CR">s-tot      li Xun-e</item>
+    <item id="c3" line="830" tag="G">A3-father the Xun-CL</item>
+    <item id="c4" line="831" tag="T">Xun's father</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155097">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="832-835" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="832" tag="L+CR">                            ta bala</item>
+    <item id="o2" line="833" tag="L+CR">       (59)</item>
+    <item id="o3" line="834" tag="G">                            with bullets</item>
+    <item id="o4" line="835" tag="T">                            `with bullets'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="832 833" tag="L+CR">ta bala</item>
+    <item id="c3" line="834" tag="G">with bullets</item>
+    <item id="c4" line="835" tag="T">with bullets</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155146">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="3884-3887" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3884" tag="L+CR">                    a. Muk'bu ¸-i-mil-van.</item>
+    <item id="o2" line="3885" tag="L+LN+CR">       (193)                                                                                                TZOTZIL</item>
+    <item id="o3" line="3886" tag="G">                       never      ASP-1SA-kill-APASS</item>
+    <item id="o4" line="3887" tag="T">                       `I never killed anyone.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3884 3885" tag="L+CR+LN">Muk'bu ¸-i-mil-van.                                                                 TZOTZIL</item>
+    <item id="c3" line="3886" tag="G">never      ASP-1SA-kill-APASS</item>
+    <item id="c4" line="3887" tag="T">I never killed anyone.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:91]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155147">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tzotzil" iso-639-3="tzc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="527" line-range="3888-3891" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3888" tag="L+CR">                                 sibatas-van-uk-0.</item>
+    <item id="o2" line="3889" tag="L+CR">                    b. ¸-k'ot</item>
+    <item id="o3" line="3890" tag="G">                       ASP-come frighten-APASS-uk-3SA</item>
+    <item id="o4" line="3891" tag="T">                       `He came to frighten someone.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3888 3889" tag="L+CR">¸-k'ot   sibatas-van-uk-0.</item>
+    <item id="c3" line="3890" tag="G">ASP-come frighten-APASS-uk-3SA</item>
+    <item id="c4" line="3891" tag="T">He came to frighten someone.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

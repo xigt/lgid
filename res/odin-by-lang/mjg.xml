@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i68828">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monguor" iso-639-3="mjg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3086" line-range="456-460" line-types="M+LN L+AC+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="456" tag="M+LN">  (46)    Monguor</item>
+    <item id="o2" line="457" tag="L+AC+CR">                                   ugu~                                                  (De Smedt &amp; Mostaert 1964:51)</item>
+    <item id="o3" line="458" tag="L+CR">  a.      mori    nige     da</item>
+    <item id="o4" line="459" tag="G">          horse one        also    not exist</item>
+    <item id="o5" line="460" tag="T">          `There is not a single horse.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="456" tag="M+LN">Monguor</item>
+    <item id="c2" line="457 458" tag="L+AC+CR">mori    nige     da      ugu~                                                  (De Smedt &amp; Mostaert 1964:51)</item>
+    <item id="c4" line="459" tag="G">horse one        also    not exist</item>
+    <item id="c5" line="460" tag="T">There is not a single horse.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:108]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i68829">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monguor" iso-639-3="mjg" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3086" line-range="462-465" line-types="L+AC+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="462" tag="L+AC+CR">                           rdïigeni   SulÇx                                          (De Smedt &amp; Mostaert 1964:163)</item>
+    <item id="o2" line="463" tag="L+CR">  b.      mori    da</item>
+    <item id="o3" line="464" tag="G">          horse and        donkey     hitch.up</item>
+    <item id="o4" line="465" tag="T">          `Hitch up the horse and the donkey.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="462 463" tag="L+AC+CR">mori    da       rdïigeni   SulÇx                                          (De Smedt &amp; Mostaert 1964:163)</item>
+    <item id="c3" line="464" tag="G">horse and        donkey     hitch.up</item>
+    <item id="c4" line="465" tag="T">Hitch up the horse and the donkey.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:105]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

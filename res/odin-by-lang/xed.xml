@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i9208">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hdi" iso-639-3="xed" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1809" line-range="286-288" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="286" tag="L+EX">  (8) a.     kà  ks-ú-tá       ùvá tá vàzák                        (neutral)</item>
+    <item id="o2" line="287" tag="G">             SEQ touch-SO-REF cat OBJ rooster</item>
+    <item id="o3" line="288" tag="T">             `And Cat devoured Rooster.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="286" tag="L+EX">a.     kà  ks-ú-tá       ùvá tá vàzák                        (neutral</item>
+    <item id="c2" line="287" tag="G">SEQ touch-SO-REF cat OBJ rooster</item>
+    <item id="c3" line="288" tag="T">And Cat devoured Rooster.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9209">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hdi" iso-639-3="xed" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1809" line-range="290-294" line-types="L+CR L+CR L+CR G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="290" tag="L+CR">                                                  s\</item>
+    <item id="o2" line="291" tag="L+CR">                                      yà tà            mbítsá      t1</item>
+    <item id="o3" line="292" tag="L+CR">        b.   [ghùz-á xìyá]1</item>
+    <item id="o4" line="293" tag="G">             beer-GEN guinea corn DEM IMPF drink M.</item>
+    <item id="o5" line="294" tag="T+EX">             `It is the corn beer that Mbitsa drinks.'             (OBJ-focus)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="290 291 292" tag="L+CR">[ghùz-á xìyá]1       yà tà     s\     mbítsá      t1</item>
+    <item id="c4" line="293" tag="G">beer-GEN guinea corn DEM IMPF drink M.</item>
+    <item id="c5" line="294" tag="T+EX">It is the corn beer that Mbitsa drinks.'             (OBJ-focus)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9218">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hdi" iso-639-3="xed" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1809" line-range="428-430" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="428" tag="L+EX">  (15) a.       mbàzá-ùgh-mbàzá Pghinta tá mbàzá                        (neutral)</item>
+    <item id="o2" line="429" tag="G">                wash-D:SO-wash   P.     OBJ wash</item>
+    <item id="o3" line="430" tag="T">                `Phinta washed.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="428" tag="L+EX">a.       mbàzá-ùgh-mbàzá Pghinta tá mbàzá                        (neutral</item>
+    <item id="c2" line="429" tag="G">wash-D:SO-wash   P.     OBJ wash</item>
+    <item id="c3" line="430" tag="T">Phinta washed.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9219">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hdi" iso-639-3="xed" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1809" line-range="432-434" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="432" tag="L+EX">         b.     mbàzá mbàzá-ùgh-mbàzá Pghinta                           (V(P)-focus)</item>
+    <item id="o2" line="433" tag="G">                wash wash-D:SO-wash        P.</item>
+    <item id="o3" line="434" tag="T">                `Phinta WASHED.' (lit. `Wash, Phinta washed.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="432" tag="L+EX">mbàzá mbàzá-ùgh-mbàzá Pghinta                           (V(P)-focus)</item>
+    <item id="c2" line="433" tag="G">wash wash-D:SO-wash        P.</item>
+    <item id="c3" line="434" tag="T">Phinta WASHED.' (lit. `Wash, Phinta washed.')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i36366">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hdi" iso-639-3="xed" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3830" line-range="1138-1141" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1138" tag="L+CR">                 Ñvà `á xdí-xà tá l'école wù</item>
+    <item id="o2" line="1139" tag="L+LN+CR">          b.                                                       [Hdi]</item>
+    <item id="o3" line="1140" tag="G">                 like SN Hdi-PL OBJ school SN</item>
+    <item id="o4" line="1141" tag="T">                 Hdi do not like school.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1138 1139" tag="L+CR+LN">Ñvà `á xdí-xà tá l'école wù               [Hdi]</item>
+    <item id="c3" line="1140" tag="G">like SN Hdi-PL OBJ school SN</item>
+    <item id="c4" line="1141" tag="T">Hdi do not like school.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85491">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tur" iso-639-3="xed" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="310" line-range="1262-1263" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1262" tag="L">           e.   Holger weint dicke Tr¨anen</item>
+    <item id="o2" line="1263" tag="G">                H.      cries thick tears</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1262" tag="L">Holger weint dicke Tr¨anen</item>
+    <item id="c2" line="1263" tag="G">cries thick tears</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85492">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tur" iso-639-3="xed" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="310" line-range="1264-1267" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1264" tag="L">           f.   Es regnet Bindfaden</item>
+    <item id="o2" line="1265" tag="M">                                ¨</item>
+    <item id="o3" line="1266" tag="G">                It rains strings</item>
+    <item id="o4" line="1267" tag="T">                 `It's pouring'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1264" tag="L">Es regnet Bindfaden</item>
+    <item id="c2" line="1265" tag="M">¨</item>
+    <item id="c3" line="1266" tag="G">It rains strings</item>
+    <item id="c4" line="1267" tag="T">It's pouring</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85674">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tur" iso-639-3="xed" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="310" line-range="8394-8397" line-types="L T L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8394" tag="L">  (180)    a.   Jana Novotna   und Helena Sukova waren das beste Doppel</item>
+    <item id="o2" line="8395" tag="T">                J.N.           and H.S.          were the best doubles</item>
+    <item id="o3" line="8396" tag="L">                der Welt</item>
+    <item id="o4" line="8397" tag="T">                of the world</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8394" tag="L">Jana Novotna   und Helena Sukova waren das beste Doppel</item>
+    <item id="c2" line="8395" tag="T">J.N.           and H.S.          were the best doubles</item>
+    <item id="c3" line="8396" tag="L">der Welt</item>
+    <item id="c4" line="8397" tag="T">of the world</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+    <item id="p1" content="c3[0:8]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:54]" alignment="p1"/>
+    <item id="t1" content="c4[0:12]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i85675">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tur" iso-639-3="xed" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="310" line-range="8398-8401" line-types="L G L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8398" tag="L">           b.   Jana Novotna   war mit Helena Sukova das beste Doppel</item>
+    <item id="o2" line="8399" tag="G">                J.N.           was with H.S.         the best doubles</item>
+    <item id="o3" line="8400" tag="L">                der Welt</item>
+    <item id="o4" line="8401" tag="G">                of the world</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8398" tag="L">Jana Novotna   war mit Helena Sukova das beste Doppel</item>
+    <item id="c2" line="8399" tag="G">J.N.           was with H.S.         the best doubles</item>
+    <item id="c3" line="8400" tag="L">der Welt</item>
+    <item id="c4" line="8401" tag="G">of the world</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+    <item id="p1" content="c3[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+    <item id="g1" content="c4[0:12]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

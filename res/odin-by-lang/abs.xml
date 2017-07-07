@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i42104">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ambonese malay" iso-639-3="abs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3508" line-range="266-270" line-types="M+LN L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="266" tag="M+LN">             Ambonese Malay</item>
+    <item id="o2" line="267" tag="L+CR">                                                 tete.</item>
+    <item id="o3" line="268" tag="L+CR">     (22)    De     su=kas-bajalang beta-ng</item>
+    <item id="o4" line="269" tag="G">             3SG PF =give-walk        1SG-GEN grandfather</item>
+    <item id="o5" line="270" tag="T">             `He sent my grandfather away.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="266" tag="M+LN">Ambonese Malay</item>
+    <item id="c2" line="267 268" tag="L+CR">De     su=kas-bajalang beta-ng      tete.</item>
+    <item id="c4" line="269" tag="G">3SG PF =give-walk        1SG-GEN grandfather</item>
+    <item id="c5" line="270" tag="T">He sent my grandfather away.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

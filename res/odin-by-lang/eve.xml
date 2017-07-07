@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i27287">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ojm'akon" iso-639-3="eve" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3881" line-range="398-402" line-types="M+AC+LN B L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="398" tag="M+AC+LN">  Even: Ojm'akon dialect (Malchukov 1995:38,39)</item>
+    <item id="o2" line="399" tag="B"></item>
+    <item id="o3" line="400" tag="L">  (8)    a.      Beji-l    hör-ce-wu-ten                emu-re-m</item>
+    <item id="o4" line="401" tag="G">                 Man-PL go-PERF.PART-ACC-3PL bring-NONFUT-1SG</item>
+    <item id="o5" line="402" tag="T">                 `I brought back the men who had left.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="398" tag="M+AC+LN">Ojm'akon dialect (Malchukov 1995:38,39)</item>
+    <item id="c2" line="399" tag="B"/>
+    <item id="c3" line="400" tag="L">Beji-l    hör-ce-wu-ten                emu-re-m</item>
+    <item id="c4" line="401" tag="G">Man-PL go-PERF.PART-ACC-3PL bring-NONFUT-1SG</item>
+    <item id="c5" line="402" tag="T">I brought back the men who had left.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27288">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ojm'akon" iso-639-3="eve" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3881" line-range="404-412" line-types="L G L B B M B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="404" tag="L">         b.      [Asi-Ø     unta-l-bu  aj-ca-n]</item>
+    <item id="o2" line="405" tag="G">                 woman-NOM shoe-PL-ACC mend-PERF.PART-3SG</item>
+    <item id="o3" line="406" tag="L">                 urke-le desci-r</item>
+    <item id="o4" line="407" tag="B"></item>
+    <item id="o5" line="408" tag="B"></item>
+    <item id="o6" line="409" tag="M">                                                                                              8</item>
+    <item id="o7" line="410" tag="B"></item>
+    <item id="o8" line="411" tag="G">                 door-LOC lie-NONFUT.3PL</item>
+    <item id="o9" line="412" tag="T">                 The shoes that the woman mended are by the door.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="404" tag="L">[Asi-Ø     unta-l-bu  aj-ca-n]</item>
+    <item id="c2" line="405" tag="G">woman-NOM shoe-PL-ACC mend-PERF.PART-3SG</item>
+    <item id="c3" line="406" tag="L">urke-le desci-r</item>
+    <item id="c4" line="407" tag="B"/>
+    <item id="c5" line="408" tag="B"/>
+    <item id="c6" line="409" tag="M">8</item>
+    <item id="c7" line="410" tag="B"/>
+    <item id="c8" line="411" tag="G">door-LOC lie-NONFUT.3PL</item>
+    <item id="c9" line="412" tag="T">The shoes that the woman mended are by the door.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+    <item id="p1" content="c3[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+    <item id="g1" content="c8[0:23]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:48]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

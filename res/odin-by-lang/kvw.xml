@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i111186">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kolana" iso-639-3="kvw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3362" line-range="1450-1452" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1450" tag="L">        (90) a. Pansi gaida              anin-a      g-ken          g-pai     ga-le-suru.</item>
+    <item id="o2" line="1451" tag="G">                   and.so 3sg.emph person-def 3abs-cloth 3abs-make 3abs-appl-be.removed</item>
+    <item id="o3" line="1452" tag="T">                   `And so he made that person remove his cloth.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1450" tag="L">Pansi gaida              anin-a      g-ken          g-pai     ga-le-suru.</item>
+    <item id="c2" line="1451" tag="G">and.so 3sg.emph person-def 3abs-cloth 3abs-make 3abs-appl-be.removed</item>
+    <item id="c3" line="1452" tag="T">And so he made that person remove his cloth.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i111187">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kolana" iso-639-3="kvw" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3362" line-range="1456-1458" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1456" tag="L">        (91) a. Wdi-saku medi Tumuru-saku g-biki                            le-g-suku.</item>
+    <item id="o2" line="1457" tag="G">                   sun-hon        take     east.wind-hon        3abs-strong appl-3abs-test</item>
+    <item id="o3" line="1458" tag="T">                   `The Sun and the East Wind tested their strength.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1456" tag="L">Wdi-saku medi Tumuru-saku g-biki                            le-g-suku.</item>
+    <item id="c2" line="1457" tag="G">sun-hon        take     east.wind-hon        3abs-strong appl-3abs-test</item>
+    <item id="c3" line="1458" tag="T">The Sun and the East Wind tested their strength.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:71]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

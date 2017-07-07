@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i134398">
+  <metadata type="xigt-meta">
+    <meta type="language" name="epena pedee" iso-639-3="sja" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2378" line-range="1070-1076" line-types="M+AC+LN L G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1070" tag="M+AC+LN">  (8) Epena Pedee (Harms 1994:144)</item>
+    <item id="o2" line="1071" tag="L">        tá-ci      náwe       te        cáa  peecia-dai-pá-ri        ma-pái  ci</item>
+    <item id="o3" line="1072" tag="G">        our-REF mother        house each dizzy-CMP-HAB-PRES that-only REF</item>
+    <item id="o4" line="1073" tag="L">        kari-pa-rí-pa           kari-pá-ri      kira     pa-ru-má-a.</item>
+    <item id="o5" line="1074" tag="G">        sing-HAB-PRES-ERG       sing-HAB-PRES face       arrive-PRES-LOC-DAT</item>
+    <item id="o6" line="1075" tag="T">        `The shaman gets dizzy and loses her balance in each house. And then the</item>
+    <item id="o7" line="1076" tag="T">        singer sings until she (the shaman) revives.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1070" tag="M+AC+LN">Epena Pedee (Harms 1994:144</item>
+    <item id="c2" line="1071" tag="L">tá-ci      náwe       te        cáa  peecia-dai-pá-ri        ma-pái  ci</item>
+    <item id="c3" line="1072" tag="G">our-REF mother        house each dizzy-CMP-HAB-PRES that-only REF</item>
+    <item id="c4" line="1073" tag="L">kari-pa-rí-pa           kari-pá-ri      kira     pa-ru-má-a.</item>
+    <item id="c5" line="1074" tag="G">sing-HAB-PRES-ERG       sing-HAB-PRES face       arrive-PRES-LOC-DAT</item>
+    <item id="c6" line="1075" tag="T">The shaman gets dizzy and loses her balance in each house. And then the</item>
+    <item id="c7" line="1076" tag="T">singer sings until she (the shaman) revives.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:71]"/>
+    <item id="p1" content="c4[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:65]" alignment="p1"/>
+    <item id="g1" content="c5[0:68]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:71]" alignment="p2"/>
+    <item id="t1" content="c7[0:44]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

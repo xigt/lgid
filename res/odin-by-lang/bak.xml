@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i73325">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bashkir" iso-639-3="bak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="936-938" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="936" tag="L">  (71) a. gafuri-e kitabï</item>
+    <item id="o2" line="937" tag="G">             Gafuri-GEN book</item>
+    <item id="o3" line="938" tag="T">             `Gafuri's book, i.e. the book belonging to Gafuri'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="936" tag="L">gafuri-e kitabï</item>
+    <item id="c2" line="937" tag="G">Gafuri-GEN book</item>
+    <item id="c3" line="938" tag="T">Gafuri's book, i.e. the book belonging to Gafuri</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73326">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bashkir" iso-639-3="bak" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="939-941" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="939" tag="L">        b. gafuri kitabï</item>
+    <item id="o2" line="940" tag="G">             Gafuri book</item>
+    <item id="o3" line="941" tag="T">             `the book on Gafuri'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="939" tag="L">gafuri kitabï</item>
+    <item id="c2" line="940" tag="G">Gafuri book</item>
+    <item id="c3" line="941" tag="T">the book on Gafuri</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:11]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

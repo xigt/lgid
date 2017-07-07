@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i8107">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="74-77" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="74" tag="L+CR">  (1)   Golia·f" pu·s-ma                         Davi·d"-dono.</item>
+    <item id="o2" line="75" tag="L+CR">                                    ·l-en"</item>
+    <item id="o3" line="76" tag="G">        G.        kill-PASS.PTC be-IIPRET3SG     D.- P O P (wi th)</item>
+    <item id="o4" line="77" tag="T+AC">        `Goliad" byl" ubit" Davidom".' (ChGr 1837: 237)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="74 75" tag="L+CR">Golia·f" pu·s-ma          ·l-en"        Davi·d"-dono.</item>
+    <item id="c3" line="76" tag="G">kill-PASS.PTC be-IIPRET3SG     D.-P O P (wi th)</item>
+    <item id="c4" line="77" tag="T+AC">Goliad" byl" ubit" Davidom".' (ChGr 1837: 237)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8108">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="117-123" line-types="L+CR L+CR G+CR G+CR M M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="117" tag="L+CR">  (2)   ää·z       ama·lm-odm           ä·zä cort-ton        ast-a·lt- m ang  · l- n</item>
+    <item id="o2" line="118" tag="L+CR">                                                                        ch</item>
+    <item id="o3" line="119" tag="G+CR">        mother- sleep-POP(during) child devil-               e-PASS-PASS.PTC be-IIPR ET3SG</item>
+    <item id="o4" line="120" tag="G+CR">        PX3SG                                 POP(with)</item>
+    <item id="o5" line="121" tag="M">        `als die Mutter schlief, wurde das Kind vom Teufel vertauscht'</item>
+    <item id="o6" line="122" tag="M+AC">        (Beke 1911: 297 &lt; Ramstedt 1902: 10)</item>
+    <item id="o7" line="123" tag="T">        [when the mother slept, the child was changed by the devil]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="117" tag="L+CR">ää·z       ama·lm-odm           ä·zä cort-ton        ast-a·lt-m ang  · l-n</item>
+    <item id="c3" line="119" tag="G+CR">mother-sleep-POP(during) child devil-e-PASS-PASS.PTC be-IIPR ET3SG</item>
+    <item id="c5" line="121" tag="M">als die Mutter schlief, wurde das Kind vom Teufel vertauscht</item>
+    <item id="c6" line="122" tag="M+AC">297 &lt; Ramstedt 1902: 10</item>
+    <item id="c7" line="123" tag="T">[when the mother slept, the child was changed by the devil]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8109">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="164-166" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="164" tag="L">  (4)   oksa     tül-alt-n</item>
+    <item id="o2" line="165" tag="G">        money pa y- P ASS-II PR ET3SG</item>
+    <item id="o3" line="166" tag="T+AC">        `The money is paid.' (Kangasmaa-Minn 1956: 95)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="164" tag="L">oksa     tül-alt-n</item>
+    <item id="c2" line="165" tag="G">money pa y-P ASS-II PR ET3SG</item>
+    <item id="c3" line="166" tag="T+AC">The money is paid.' (Kangasmaa-Minn 1956: 95)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8110">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="169-172" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="169" tag="L">  (5)   sic-lt-es            tamak-m         sups-n.</item>
+    <item id="o2" line="170" tag="G">        sit-REFL-PRES3SG tobacco-ACC smoke-AFF.GER</item>
+    <item id="o3" line="171" tag="T">        `He sits down [for a while] and smokes tobacco.'</item>
+    <item id="o4" line="172" tag="M+AC">        (Kangasmaa-Minn 1956: 95)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="169" tag="L">sic-lt-es            tamak-m         sups-n.</item>
+    <item id="c2" line="170" tag="G">sit-REFL-PRES3SG tobacco-ACC smoke-AFF.GER</item>
+    <item id="c3" line="171" tag="T">He sits down [for a while] and smokes tobacco.</item>
+    <item id="c4" line="172" tag="M+AC">Kangasmaa-Minn 1956: 95</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8111">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="175-177" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="175" tag="L">  (6)   kisk    pütr-alt-es             jr-em.</item>
+    <item id="o2" line="176" tag="G">        snake wind-REFL-PRES3SG POP(around)-PX1SG</item>
+    <item id="o3" line="177" tag="T+AC">        `The snake winds itself around me' (Kangasmaa-Minn 1956: 95)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="175" tag="L">kisk    pütr-alt-es             jr-em.</item>
+    <item id="c2" line="176" tag="G">snake wind-REFL-PRES3SG POP(around)-PX1SG</item>
+    <item id="c3" line="177" tag="T+AC">The snake winds itself around me' (Kangasmaa-Minn 1956: 95)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8112">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="238-242" line-types="L G+CR G+CR M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="238" tag="L">  (7)   Kelsmas        vij       terg-alt-es, man-t,              zap   sot dee.</item>
+    <item id="o2" line="239" tag="G+CR">        friendship     strength check-PASS- say-PRES3PL time Ø              POP(with)</item>
+    <item id="o3" line="240" tag="G+CR">                                 PRES3SG</item>
+    <item id="o4" line="241" tag="M+AC">        `Sila ljubvi, govorjat, proverjaetsja vremenem.' (Galkin 1958a: 13; SMJa 161)</item>
+    <item id="o5" line="242" tag="T">        [The strength of friendship, they say, is put to trial with time.]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="238" tag="L">Kelsmas        vij       terg-alt-es, man-t,              zap   sot dee.</item>
+    <item id="c2" line="239" tag="G+CR">friendship     strength check-PASS-say-PRES3PL time Ø              POP(with)</item>
+    <item id="c4" line="241" tag="M+AC">Sila ljubvi, govorjat, proverjaetsja vremenem.' (Galkin 1958a: 13; SMJa 161)</item>
+    <item id="c5" line="242" tag="T">[The strength of friendship, they say, is put to trial with time.]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8113">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="245-252" line-types="L B G+CR G+CR G+CR G+CR M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="245" tag="L">  (8) Ikmanas,          lica-m   da    cisla-m    onckt-as     ik    morfema      kuclt-alt-es.</item>
+    <item id="o2" line="246" tag="B"></item>
+    <item id="o3" line="247" tag="G+CR">        in one word     person- and    number- show-           one morpheme       use-       -</item>
+    <item id="o4" line="248" tag="G+CR">                                                        INF                           PASS</item>
+    <item id="o5" line="249" tag="G+CR">                                                                                  PRES3SG</item>
+    <item id="o6" line="250" tag="G+CR">                        ACC            ACC</item>
+    <item id="o7" line="251" tag="M+AC">        (Galkin 1986: 55)</item>
+    <item id="o8" line="252" tag="T">        `In one word, one morpheme is used to show person and number.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="245" tag="L">Ikmanas,          lica-m   da    cisla-m    onckt-as     ik    morfema      kuclt-alt-es.</item>
+    <item id="c2" line="246" tag="B"/>
+    <item id="c3" line="247 248" tag="G+CR">in one word     person-and    number-show-INF    one morpheme       use-PASS-</item>
+    <item id="c7" line="251" tag="M+AC">55</item>
+    <item id="c8" line="252" tag="T">In one word, one morpheme is used to show person and number.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:89]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:77]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8114">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="256-261" line-types="L G+CR G+CR G+CR M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="256" tag="L">  (9) Podl'ezasij tü          sot-sto    lüman     ojlmas     uzas   dee       kalas-alt-n.</item>
+    <item id="o2" line="257" tag="G+CR">      subject     head        according- noun      speech     part   POP(with) say-PASS-</item>
+    <item id="o3" line="258" tag="G+CR">                                                                               IIPRET3SG</item>
+    <item id="o4" line="259" tag="G+CR">                              INES</item>
+    <item id="o5" line="260" tag="M+AC">        (Galkin 1986: 107)</item>
+    <item id="o6" line="261" tag="T">        `In broad outline the subject was said with the noun speech part.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="256" tag="L">Podl'ezasij tü          sot-sto    lüman     ojlmas     uzas   dee       kalas-alt-n.</item>
+    <item id="c2" line="257" tag="G+CR">subject     head        according-noun      speech     part   POP(with) say-PASS-</item>
+    <item id="c5" line="260" tag="M+AC">107</item>
+    <item id="c6" line="261" tag="T">In broad outline the subject was said with the noun speech part.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:81]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8115">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="264-267" line-types="L G M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="264" tag="L">  (10) u       fabrika st-alt-es</item>
+    <item id="o2" line="265" tag="G">       new factory make-PASS-PRES3SG</item>
+    <item id="o3" line="266" tag="M+AC">       `stroitsja novaja fabrika' (MRM 447)</item>
+    <item id="o4" line="267" tag="T">       [a new factory is going to be build]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="264" tag="L">u       fabrika st-alt-es</item>
+    <item id="c2" line="265" tag="G">new factory make-PASS-PRES3SG</item>
+    <item id="c3" line="266" tag="M+AC">stroitsja novaja fabrika' (MRM 447)</item>
+    <item id="c4" line="267" tag="T">[a new factory is going to be build]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8116">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="274-280" line-types="L M G+CR G+CR G+CR M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="274" tag="L">  (11,   Mar          araka     jü-alt-n,       mar             taga   sl     kock-alt-n!</item>
+    <item id="o2" line="275" tag="M">  12)</item>
+    <item id="o3" line="276" tag="G+CR">         how much     spirits   drink-PASS- how much ram meat eat-                        -II   PRET3SG</item>
+    <item id="o4" line="277" tag="G+CR">                                                                                   PASS</item>
+    <item id="o5" line="278" tag="G+CR">                                IIPRET3SG</item>
+    <item id="o6" line="279" tag="M+AC">         `Skol'ko vypili vina, skol'ko baraniny s"eli!' (Smedman 1997: 116)</item>
+    <item id="o7" line="280" tag="T">         [How much spirits were drunk, how much mutton was eaten!]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="274" tag="L">(11,   Mar          araka     jü-alt-n,       mar             taga   sl     kock-alt-n!</item>
+    <item id="c2" line="275" tag="M">12)</item>
+    <item id="c3" line="276 277" tag="G+CR">how much     spirits   drink-PASS-how much ram meat eat-PASS-II   PRET3SG</item>
+    <item id="c6" line="279" tag="M+AC">Skol'ko vypili vina, skol'ko baraniny s"eli!' (Smedman 1997: 116)</item>
+    <item id="c7" line="280" tag="T">[How much spirits were drunk, how much mutton was eaten!]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:87]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8117">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="301-304" line-types="L G M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="301" tag="L">  (13)   kugu jer        st-alt-n</item>
+    <item id="o2" line="302" tag="G">         big     lake make-AUTOM-II PR ET3sg</item>
+    <item id="o3" line="303" tag="M+AC">         `obrazovalos' bol'soe ozero.' (MRM 447)</item>
+    <item id="o4" line="304" tag="T">         [a large lake was formed.]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="301" tag="L">kugu jer        st-alt-n</item>
+    <item id="c2" line="302" tag="G">big     lake make-AUTOM-II PR ET3sg</item>
+    <item id="c3" line="303" tag="M+AC">obrazovalos' bol'soe ozero.' (MRM 447)</item>
+    <item id="c4" line="304" tag="T">[a large lake was formed.]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8118">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="306-310" line-types="L G M+AC T M"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="306" tag="L">  (14)   me-mnan oncl-no            lop       ver poc-lt-n</item>
+    <item id="o2" line="307" tag="G">         we-GEN       front-INES lowland place open-AUTOM-II             PRET3SG</item>
+    <item id="o3" line="308" tag="M+AC">         `pered nami otkrylas' dolina' (RMS 249)</item>
+    <item id="o4" line="309" tag="T">         [in front of us a valley opened out]</item>
+    <item id="o5" line="310" tag="M">         &lt; poc-am `to open (tr.)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="306" tag="L">me-mnan oncl-no            lop       ver poc-lt-n</item>
+    <item id="c2" line="307" tag="G">we-GEN       front-INES lowland place open-AUTOM-II             PRET3SG</item>
+    <item id="c3" line="308" tag="M+AC">pered nami otkrylas' dolina' (RMS 249)</item>
+    <item id="c4" line="309" tag="T">[in front of us a valley opened out]</item>
+    <item id="c5" line="310" tag="M">&lt; poc-am `to open (tr.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:71]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8119">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="312-315" line-types="L G M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="312" tag="L">  (15)   Ime-samc-n sincalm-st              orva         jük      den        lug-alt-es.</item>
+    <item id="o2" line="313" tag="G">         horse-PL-GEN      neigh-PX3PL      carriage     sound POP(with) blend-AUT         OM-PRES3S G</item>
+    <item id="o3" line="314" tag="M+AC">         `Rzanie losadej smesivaetsja so    skripom    koles.' (Galkin 1958a: 13)</item>
+    <item id="o4" line="315" tag="T">         [The neigh of the horses blends    with the   sound of a carriage.]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="312" tag="L">Ime-samc-n sincalm-st              orva         jük      den        lug-alt-es.</item>
+    <item id="c2" line="313" tag="G">horse-PL-GEN      neigh-PX3PL      carriage     sound POP(with) blend-AUT         OM-PRES3S G</item>
+    <item id="c3" line="314" tag="M+AC">Rzanie losadej smesivaetsja so    skripom    koles.' (Galkin 1958a: 13)</item>
+    <item id="c4" line="315" tag="T">[The neigh of the horses blends    with the   sound of a carriage.]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:93]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:67]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8120">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="323-332" line-types="L G+CR G+CR G+CR L G+CR G+CR M+AC T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="323" tag="L">  (16) No          marij    jlm-ste        ikmar        narecij-m st-se              suffiks padez</item>
+    <item id="o2" line="324" tag="G+CR">       but         Mari     language-      some         adverb-   make-              suffix case</item>
+    <item id="o3" line="325" tag="G+CR">                                                                  ACT.PT</item>
+    <item id="o4" line="326" tag="G+CR">                            INES                        ACC                  C</item>
+    <item id="o5" line="327" tag="L">          forma    dee      og-es       kld-alt.</item>
+    <item id="o6" line="328" tag="G+CR">          form     POP(w neg-           tie-</item>
+    <item id="o7" line="329" tag="G+CR">                   ith)     PRES3SG     AUT OM</item>
+    <item id="o8" line="330" tag="M+AC">          (Galkin 1986: 102)</item>
+    <item id="o9" line="331" tag="T">          `But in the Mari language some suffixes forming adverbs are not connected with the</item>
+    <item id="o10" line="332" tag="T">          case forms.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="323" tag="L">No          marij    jlm-ste        ikmar        narecij-m st-se              suffiks padez</item>
+    <item id="c2" line="324" tag="G+CR">but         Mari     language-some         adverb-make-suffix case</item>
+    <item id="c5" line="327" tag="L">forma    dee      og-es       kld-alt.</item>
+    <item id="c6" line="328" tag="G+CR">form     POP(w neg-tie-</item>
+    <item id="c8" line="330" tag="M+AC">102</item>
+    <item id="c9" line="331" tag="T">But in the Mari language some suffixes forming adverbs are not connected with the</item>
+    <item id="c10" line="332" tag="T">case forms.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:91]"/>
+    <item id="p1" content="c5[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:66]" alignment="p1"/>
+    <item id="g1" content="c6[0:23]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:81]" alignment="p2"/>
+    <item id="t1" content="c10[0:11]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i8121">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="335-340" line-types="L G+CR G+CR G+CR M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="335" tag="L">  (17) Kurk marij          narecij-ste    tide utla-rak        sajn      aral-alt     kod-n.</item>
+    <item id="o2" line="336" tag="G+CR">       Hill Mari           dialect-INES   this more-COM        good      keep-        stay-IIPRET3</item>
+    <item id="o3" line="337" tag="G+CR">                                                           P                                      SG</item>
+    <item id="o4" line="338" tag="G+CR">                                                                         AUT OM</item>
+    <item id="o5" line="339" tag="M+AC">          (Galkin 1986: 56)</item>
+    <item id="o6" line="340" tag="T">          `In the Hill Mari dialect this has been kept better.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="335" tag="L">Kurk marij          narecij-ste    tide utla-rak        sajn      aral-alt     kod-n.</item>
+    <item id="c2" line="336 337" tag="G+CR">Hill Mari           dialect-INES   this more-COM    P   good      keep-stay-IIPRET3SG</item>
+    <item id="c5" line="339" tag="M+AC">56</item>
+    <item id="c6" line="340" tag="T">In the Hill Mari dialect this has been kept better.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:85]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8122">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="348-352" line-types="L G+CR G+CR M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="348" tag="L">  (18) Erkn-erkn tuemme godso joltas-vlak-at mond-alt-n-t.</item>
+    <item id="o2" line="349" tag="G+CR">       slowly(x2)     study       time- friend-PL-SX forget-AUTOM-II                       -3</item>
+    <item id="o3" line="350" tag="G+CR">                                                                                    PRET     PL</item>
+    <item id="o4" line="351" tag="M+AC">       `Postepenno zabyvalis' i tovarisci po ucëbe.' (Vasikova 1973: 135)</item>
+    <item id="o5" line="352" tag="T">       [As time goes on the fellow students were also forgotten.]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="348" tag="L">Erkn-erkn tuemme godso joltas-vlak-at mond-alt-n-t.</item>
+    <item id="c2" line="349 350" tag="G+CR">slowly(x2)     study       time-friend-PL-SX forget-AUTOM-II                PRET-3PL</item>
+    <item id="c4" line="351" tag="M+AC">Postepenno zabyvalis' i tovarisci po ucëbe.' (Vasikova 1973: 135)</item>
+    <item id="c5" line="352" tag="T">[As time goes on the fellow students were also forgotten.]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:84]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8123">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="374-377" line-types="L G M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="374" tag="L">  (19)   Mlande lüm dee               l'eved-alt-es.</item>
+    <item id="o2" line="375" tag="G">         ground snow POP(with) cover-AUTOM-PRES3SG</item>
+    <item id="o3" line="376" tag="M+AC">         `Zemlja pokryvaetsja snegom.' (Galkin 1958a: 15, 48)</item>
+    <item id="o4" line="377" tag="T">         [The ground is covered with snow.]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="374" tag="L">Mlande lüm dee               l'eved-alt-es.</item>
+    <item id="c2" line="375" tag="G">ground snow POP(with) cover-AUTOM-PRES3SG</item>
+    <item id="c3" line="376" tag="M+AC">Zemlja pokryvaetsja snegom.' (Galkin 1958a: 15, 48)</item>
+    <item id="c4" line="377" tag="T">[The ground is covered with snow.]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8124">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="380-386" line-types="L G+CR G+CR G+CR M M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="380" tag="L">  (20)   Jualge mardez den,             pück-lt-n lstas jol           jma-ke   jog-en</item>
+    <item id="o2" line="381" tag="G+CR">         cool     wind      POP(with) cut-AUT OM-      leaf   foot POP(under)- fall down-</item>
+    <item id="o3" line="382" tag="G+CR">                                        IIPRET3SG                              IIPRET3SG</item>
+    <item id="o4" line="383" tag="G+CR">                                                                      ILL</item>
+    <item id="o5" line="384" tag="M">         `Otryvajas' prohladnym vetrom, padali pod nogi list'ja'</item>
+    <item id="o6" line="385" tag="M+AC">         (Smedman 2000: 262­263)</item>
+    <item id="o7" line="386" tag="T">         [Cut loose by the cool wind the leaves fell down under the feet]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="380" tag="L">Jualge mardez den,             pück-lt-n lstas jol           jma-ke   jog-en</item>
+    <item id="c2" line="381" tag="G+CR">cool     wind      POP(with) cut-AUT OM-leaf   foot POP(under)-fall down-</item>
+    <item id="c5" line="384" tag="M">Otryvajas' prohladnym vetrom, padali pod nogi list'ja</item>
+    <item id="c6" line="385" tag="M+AC">262­263</item>
+    <item id="c7" line="386" tag="T">[Cut loose by the cool wind the leaves fell down under the feet]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8125">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="397-400" line-types="L G M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="397" tag="L">  (21)   Lüj-alt-am,              a        tarz-ze             o-m         lij!</item>
+    <item id="o2" line="398" tag="G">         shoot-REFL-PRES1SG but            servant-PX3SG       neg-1SG be</item>
+    <item id="o3" line="399" tag="M+AC">         `Zastreljus', no ne budu ego     slugoj!' (Galkin   1958a: 48; 1958b: 63; SMJa 161)</item>
+    <item id="o4" line="400" tag="T">         [I (shall) shoot myself, but I   am not going to    be his servant.]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="397" tag="L">Lüj-alt-am,              a        tarz-ze             o-m         lij!</item>
+    <item id="c2" line="398" tag="G">shoot-REFL-PRES1SG but            servant-PX3SG       neg-1SG be</item>
+    <item id="c3" line="399" tag="M+AC">Zastreljus', no ne budu ego     slugoj!' (Galkin   1958a: 48; 1958b: 63; SMJa 161)</item>
+    <item id="c4" line="400" tag="T">[I (shall) shoot myself, but I   am not going to    be his servant.]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8126">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="403-406" line-types="L G M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="403" tag="L">  (22)   Mj siel'          dee          l'eved-alt-am.</item>
+    <item id="o2" line="404" tag="G">         I      overcoat POP(with) cover-REFL-PRES1            SG</item>
+    <item id="o3" line="405" tag="M+AC">         `Ja ukryvajus' sinel'ju.' (Galkin 1958a: 15)</item>
+    <item id="o4" line="406" tag="T">         [I (shall) cover myself with the overcoat.]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="403" tag="L">Mj siel'          dee          l'eved-alt-am.</item>
+    <item id="c2" line="404" tag="G">I      overcoat POP(with) cover-REFL-PRES1            SG</item>
+    <item id="c3" line="405" tag="M+AC">Ja ukryvajus' sinel'ju.' (Galkin 1958a: 15)</item>
+    <item id="c4" line="406" tag="T">[I (shall) cover myself with the overcoat.]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8127">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="408-413" line-types="L+CR L+CR L+CR G M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="408" tag="L+CR">                                   tut-lan pasa-je-lan</item>
+    <item id="o2" line="409" tag="L+CR">         tarl-alt- m</item>
+    <item id="o3" line="410" tag="L+CR">  (23)</item>
+    <item id="o4" line="411" tag="G">         engage-REFL-IPRET1SG he-DAT work-human-DAT</item>
+    <item id="o5" line="412" tag="M+AC">         `ich verdingte mich ihm als Arbeiter' (OtschWb 138)</item>
+    <item id="o6" line="413" tag="T">         [I engaged myself to him as a worker]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="408 409 410" tag="L+CR">tarl-alt-m               tut-lan pasa-je-lan</item>
+    <item id="c4" line="411" tag="G">engage-REFL-IPRET1SG he-DAT work-human-DAT</item>
+    <item id="c5" line="412" tag="M+AC">ich verdingte mich ihm als Arbeiter' (OtschWb 138)</item>
+    <item id="c6" line="413" tag="T">[I engaged myself to him as a worker]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8128">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="416-419" line-types="L G M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="416" tag="L">  (24)   mera sürt-es         apt-alt-e</item>
+    <item id="o2" line="417" tag="G">         hare     wire-LAT tangle-REFL-IPRET3SG</item>
+    <item id="o3" line="418" tag="M+AC">         `der Hase verfing sich im Jagdnetz' (OtschWb 8)</item>
+    <item id="o4" line="419" tag="T">         [the hare got tangled in the wire]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="416" tag="L">mera sürt-es         apt-alt-e</item>
+    <item id="c2" line="417" tag="G">hare     wire-LAT tangle-REFL-IPRET3SG</item>
+    <item id="c3" line="418" tag="M+AC">der Hase verfing sich im Jagdnetz' (OtschWb 8)</item>
+    <item id="c4" line="419" tag="T">[the hare got tangled in the wire]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8129">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="431-434" line-types="L G M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="431" tag="L">  (25)   Bomba pudest-e / pudest-alt-e.</item>
+    <item id="o2" line="432" tag="G">         bomb      explode-IPRET3SG / explode-Ø-I       PRET3SG</item>
+    <item id="o3" line="433" tag="M+AC">         (Vasikova 1973: 135)</item>
+    <item id="o4" line="434" tag="T">         `The bomb exploded.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="431" tag="L">Bomba pudest-e / pudest-alt-e.</item>
+    <item id="c2" line="432" tag="G">bomb      explode-IPRET3SG / explode-Ø-I       PRET3SG</item>
+    <item id="c3" line="433" tag="M+AC">135</item>
+    <item id="c4" line="434" tag="T">The bomb exploded.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8130">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="437-440" line-types="L G M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="437" tag="L">  (26)   Muro jog-a / jog-alt-es.</item>
+    <item id="o2" line="438" tag="G">         Song sound-PRES3SG / sound-Ø-PRES3SG</item>
+    <item id="o3" line="439" tag="M+AC">         (Vasikova 1973: 135)</item>
+    <item id="o4" line="440" tag="T">         `The song sounds.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="437" tag="L">Muro jog-a / jog-alt-es.</item>
+    <item id="c2" line="438" tag="G">Song sound-PRES3SG / sound-Ø-PRES3SG</item>
+    <item id="c3" line="439" tag="M+AC">135</item>
+    <item id="c4" line="440" tag="T">The song sounds.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8131">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3215" line-range="443-448" line-types="L G+CR G+CR G+CR M+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="443" tag="L">  (27)   Casker-la-ste     kajk mur-a,        pel'eds-la vuj-sto müks özg-a / özg-alt-es.</item>
+    <item id="o2" line="444" tag="G+CR">         thicket-PL-       bird sing-         flower-PL      top-       bee    hum-PRES3SG /</item>
+    <item id="o3" line="445" tag="G+CR">                                   PRES3SG                                     hum-Ø-PRES3SG</item>
+    <item id="o4" line="446" tag="G+CR">         INES                                                INES</item>
+    <item id="o5" line="447" tag="M+AC">         `V cascobe pticy pojut, na cvetah zuzzat pcely.' (Smedman 1997: 116­117)</item>
+    <item id="o6" line="448" tag="T">         `In the thicket the birds are singing, in the flowers the bees are humming.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="443" tag="L">Casker-la-ste     kajk mur-a,        pel'eds-la vuj-sto müks özg-a / özg-alt-es.</item>
+    <item id="c2" line="444" tag="G+CR">thicket-PL-bird sing-flower-PL      top-bee    hum-PRES3SG /</item>
+    <item id="c5" line="447" tag="M+AC">V cascobe pticy pojut, na cvetah zuzzat pcely.' (Smedman 1997: 116­117)</item>
+    <item id="c6" line="448" tag="T">In the thicket the birds are singing, in the flowers the bees are humming.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i153057">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2750" line-range="60-62" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="60" tag="L">              (1) saj n lud- n           ­ voz-en            most-em</item>
+    <item id="o2" line="61" tag="G">                  well      read-Conv          write-Conv    can-1SgPres</item>
+    <item id="o3" line="62" tag="T">                  `I can read and write well.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="60" tag="L">saj n lud-n           ­ voz-en            most-em</item>
+    <item id="c2" line="61" tag="G">well      read-Conv          write-Conv    can-1SgPres</item>
+    <item id="c3" line="62" tag="T">I can read and write well.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i153058">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2750" line-range="75-80" line-types="L G L G T+EX C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="75" tag="L">        (2)      ajdeme t de nele         il s- ste saj lij-se-m</item>
+    <item id="o2" line="76" tag="G">                 man      this hard       life-Loc       good occur-Act.Part-Acc</item>
+    <item id="o3" line="77" tag="L">                 son-a ­ _        k cal-es</item>
+    <item id="o4" line="78" tag="G">                 think-3Sg.Prs     seek-3Sg.Prs</item>
+    <item id="o5" line="79" tag="T+EX">                       `A man in this hard life thinks, seeks for his interest/advantage (lit. seeks for (some) good</item>
+    <item id="o6" line="80" tag="C">                 occurred (thing)).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="75" tag="L">ajdeme t de nele         il s-ste saj lij-se-m</item>
+    <item id="c2" line="76" tag="G">man      this hard       life-Loc       good occur-Act.Part-Acc</item>
+    <item id="c3" line="77" tag="L">son-a ­ _        k cal-es</item>
+    <item id="c4" line="78" tag="G">think-3Sg.Prs     seek-3Sg.Prs</item>
+    <item id="c5" line="79" tag="T+EX">A man in this hard life thinks, seeks for his interest/advantage (lit. seeks for (some) good</item>
+    <item id="c6" line="80" tag="C">occurred (thing)).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+    <item id="p1" content="c3[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+    <item id="g1" content="c4[0:30]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:92]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i153059">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2750" line-range="95-97" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="95" tag="L">        (3)      erg- m         c la     kniga-m      kusked p tar-en</item>
+    <item id="o2" line="96" tag="G">                 son-Poss1Sg whole book-Acc tear             finish-PastII.3Sg</item>
+    <item id="o3" line="97" tag="T">                    `My son tore the whole book to pieces.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="95" tag="L">erg-m         c la     kniga-m      kusked p tar-en</item>
+    <item id="c2" line="96" tag="G">son-Poss1Sg whole book-Acc tear             finish-PastII.3Sg</item>
+    <item id="c3" line="97" tag="T">My son tore the whole book to pieces.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i153060">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2750" line-range="127-129" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="127" tag="L">        (5)    joca-m      temmesk -z-ak puks- st-                 jüks- st</item>
+    <item id="o2" line="128" tag="G">               child-Acc to.full-3Sg-Emph feed-PastI.3Pl           give.drink-PastI.3Pl</item>
+    <item id="o3" line="129" tag="T">                  `They fed the child and gave him to drink to full.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="127" tag="L">joca-m      temmesk-z-ak puks-st-jüks-st</item>
+    <item id="c2" line="128" tag="G">child-Acc to.full-3Sg-Emph feed-PastI.3Pl           give.drink-PastI.3Pl</item>
+    <item id="c3" line="129" tag="T">They fed the child and gave him to drink to full.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i153061">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2750" line-range="138-140" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="138" tag="L">        (6 )   m j - taml -m                     kock-am- jü-am</item>
+    <item id="o2" line="139" tag="G">               I --- tasty-Acc eat-Pres.1Sg drink-Pres.1Sg</item>
+    <item id="o3" line="140" tag="T">                 `I eat and drink tasty things.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="138" tag="L">m j-taml-m                     kock-am-jü-am</item>
+    <item id="c2" line="139" tag="G">I---tasty-Acc eat-Pres.1Sg drink-Pres.1Sg</item>
+    <item id="c3" line="140" tag="T">I eat and drink tasty things.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i153062">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2750" line-range="157-159" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="157" tag="L">         (7)    me tosto muro den kust mas-vlak- m mur-en-na-               kust-en-na</item>
+    <item id="o2" line="158" tag="G">                we old     song and dance-Pl-Acc         sing-PastII-1Pl dance-PastII-1Pl</item>
+    <item id="o3" line="159" tag="T">                  `We sing and dance old songs and dances.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="157" tag="L">me tosto muro den kust mas-vlak-m mur-en-na-kust-en-na</item>
+    <item id="c2" line="158" tag="G">we old     song and dance-Pl-Acc         sing-PastII-1Pl dance-PastII-1Pl</item>
+    <item id="c3" line="159" tag="T">We sing and dance old songs and dances.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i153063">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mari" iso-639-3="mhr:mrj" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2750" line-range="183-185" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="183" tag="L">         (8)    aca-ava-m           pagal-en-          kol st-en     il-as</item>
+    <item id="o2" line="184" tag="G">                father mother-Acc          respect-Conv      obey-Conv live-Inf</item>
+    <item id="o3" line="185" tag="T">                   `&lt;...&gt; to live respecting and obeying parents.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="183" tag="L">aca-ava-m           pagal-en-kol st-en     il-as</item>
+    <item id="c2" line="184" tag="G">father mother-Acc          respect-Conv      obey-Conv live-Inf</item>
+    <item id="c3" line="185" tag="T">&lt;...&gt; to live respecting and obeying parents.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

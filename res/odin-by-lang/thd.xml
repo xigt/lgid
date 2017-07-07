@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i24607">
+  <metadata type="xigt-meta">
+    <meta type="language" name="thayore" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2111" line-range="1655-1657" line-types="L G+LN T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1655" tag="L">  (129) melnkelnkarr ngay                  wuump              wak-rr-nan?</item>
+    <item id="o2" line="1656" tag="G+LN">  KTh tomorrow          1sgERG/NOM INTERROG                   hit-RECIP-FUT</item>
+    <item id="o3" line="1657" tag="T+AC">       'Do you think I'll be in a fight tomorrow?' (A. Gaby field notes)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1655" tag="L">melnkelnkarr ngay                  wuump              wak-rr-nan?</item>
+    <item id="c2" line="1656" tag="G+LN">KTh tomorrow          1sgERG/NOM INTERROG                   hit-RECIP-FUT</item>
+    <item id="c3" line="1657" tag="T+AC">Do you think I'll be in a fight tomorrow?' (A. Gaby field notes)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i32107">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kuuk thaayorre" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2020" line-range="608-610" line-types="L G+LN T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="608" tag="L">  (18)       parr-n          peln           ii     waarin-rr</item>
+    <item id="o2" line="609" tag="G+LN">  KTh        kid-ERG         3plERG         there chase-RECIP</item>
+    <item id="o3" line="610" tag="T+EX">             `All the kids are chasing each other.' [Gaby in prep.]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="608" tag="L">parr-n          peln           ii     waarin-rr</item>
+    <item id="c2" line="609" tag="G+LN">KTh        kid-ERG         3plERG         there chase-RECIP</item>
+    <item id="c3" line="610" tag="T+EX">All the kids are chasing each other.' [Gaby in prep.]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i37842">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kuuk thaayorre" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1189" line-range="1102-1104" line-types="L G+LN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1102" tag="L">  (29a) Parr_r         peln           ii    waarin-rr.</item>
+    <item id="o2" line="1103" tag="G+LN">  KTh kid(NOM) 3pl(NOM) there chase-RECIP</item>
+    <item id="o3" line="1104" tag="T">        `All the kids are chasing each other.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1102" tag="L">Parr_r         peln           ii    waarin-rr.</item>
+    <item id="c2" line="1103" tag="G+LN">KTh kid(NOM) 3pl(NOM) there chase-RECIP</item>
+    <item id="c3" line="1104" tag="T">All the kids are chasing each other.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i37843">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kuuk thaayorre" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1189" line-range="1106-1108" line-types="L G+LN T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1106" tag="L">  (29b) Parr-an peln            ii    waarin-rr.</item>
+    <item id="o2" line="1107" tag="G+LN">  KTh kid-ERG 3pl(ERG) there chase-RECIP</item>
+    <item id="o3" line="1108" tag="T+AC">        `All the kids are chasing each other.' [Gaby, field notes]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1106" tag="L">Parr-an peln            ii    waarin-rr.</item>
+    <item id="c2" line="1107" tag="G+LN">KTh kid-ERG 3pl(ERG) there chase-RECIP</item>
+    <item id="c3" line="1108" tag="T+AC">All the kids are chasing each other.' [Gaby, field notes]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i40086">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kuuk thaayorre" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2979" line-range="1101-1103" line-types="L G+LN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1101" tag="L">  (29a) Parr_r         peln           ii    waarin-rr.</item>
+    <item id="o2" line="1102" tag="G+LN">  KTh kid(NOM) 3pl(NOM) there chase-RECIP</item>
+    <item id="o3" line="1103" tag="T">        `All the kids are chasing each other.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1101" tag="L">Parr_r         peln           ii    waarin-rr.</item>
+    <item id="c2" line="1102" tag="G+LN">KTh kid(NOM) 3pl(NOM) there chase-RECIP</item>
+    <item id="c3" line="1103" tag="T">All the kids are chasing each other.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i40087">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kuuk thaayorre" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2979" line-range="1105-1107" line-types="L G+LN T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1105" tag="L">  (29b) Parr-an peln            ii    waarin-rr.</item>
+    <item id="o2" line="1106" tag="G+LN">  KTh kid-ERG 3pl(ERG) there chase-RECIP</item>
+    <item id="o3" line="1107" tag="T+AC">        `All the kids are chasing each other.' [Gaby, field notes]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1105" tag="L">Parr-an peln            ii    waarin-rr.</item>
+    <item id="c2" line="1106" tag="G+LN">KTh kid-ERG 3pl(ERG) there chase-RECIP</item>
+    <item id="c3" line="1107" tag="T+AC">All the kids are chasing each other.' [Gaby, field notes]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41705">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kuuk thaayorre" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3503" line-range="168-171" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="168" tag="M+AC+LN">  (5) Kuuk Thaayorre (Pama-Nyungan; Gaby 2004)</item>
+    <item id="o2" line="169" tag="L">          ngal         nhaanhath-rr</item>
+    <item id="o3" line="170" tag="G">          1DU.INCL REDUP:watch-RECP</item>
+    <item id="o4" line="171" tag="T">          `We two are looking at each other.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="168" tag="M+AC+LN">Kuuk Thaayorre (Pama-Nyungan; Gaby 2004</item>
+    <item id="c2" line="169" tag="L">ngal         nhaanhath-rr</item>
+    <item id="c3" line="170" tag="G">1DU.INCL REDUP:watch-RECP</item>
+    <item id="c4" line="171" tag="T">We two are looking at each other.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41769">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kuuk thaayorre" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3501" line-range="936-938" line-types="L G+LN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="936" tag="L">  (23)     parr-n          peln           ii      waarin-rr</item>
+    <item id="o2" line="937" tag="G+LN">  KTh      kid-ERG         3plERG         there chase-RECIP</item>
+    <item id="o3" line="938" tag="T">           `All the kids are chasing each other.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="936" tag="L">parr-n          peln           ii      waarin-rr</item>
+    <item id="c2" line="937" tag="G+LN">KTh      kid-ERG         3plERG         there chase-RECIP</item>
+    <item id="c3" line="938" tag="T">All the kids are chasing each other.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49220">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kuuk thaayorre" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3408" line-range="275-277" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="275" tag="L">  (16b)      [pam ith           p ul                 paanth-ak]                               nhiinat pul</item>
+    <item id="o2" line="276" tag="G">            man DEM 3du(NOM)           woman-DAT sit:PST 3du(NOM)</item>
+    <item id="o3" line="277" tag="T">            `The man and the woman sat down next to each other.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="275" tag="L">[pam ith           p ul                 paanth-ak]                               nhiinat pul</item>
+    <item id="c2" line="276" tag="G">man DEM 3du(NOM)           woman-DAT sit:PST 3du(NOM)</item>
+    <item id="c3" line="277" tag="T">The man and the woman sat down next to each other.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:92]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49221">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kuuk thaayorre" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3408" line-range="279-281" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="279" tag="L">  (16c)      [yuk thongkn]         [church-ak]                    thanan</item>
+    <item id="o2" line="280" tag="G">            TREE tree(NOM)         church-DAT                     stand:PRES</item>
+    <item id="o3" line="281" tag="T">            `The tree is next to the church.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="279" tag="L">[yuk thongkn]         [church-ak]                    thanan</item>
+    <item id="c2" line="280" tag="G">TREE tree(NOM)         church-DAT                     stand:PRES</item>
+    <item id="c3" line="281" tag="T">The tree is next to the church.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49222">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kuuk thaayorre" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3408" line-range="283-285" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="283" tag="L">  (16d) [Jimmy-nthurr Johnny-n     p ul ]  ngarngkan    thanp-rr-r p ul</item>
+    <item id="o2" line="284" tag="G">        Jimmy-ERG Johnny-DAT 3du(ERG) yesterday kick-REC-PST 3du(ERG)</item>
+    <item id="o3" line="285" tag="T">        `Jimmy and Johnny kicked each other yesterday.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="283" tag="L">[Jimmy-nthurr Johnny-n     p ul ]  ngarngkan    thanp-rr-r p ul</item>
+    <item id="c2" line="284" tag="G">Jimmy-ERG Johnny-DAT 3du(ERG) yesterday kick-REC-PST 3du(ERG)</item>
+    <item id="c3" line="285" tag="T">Jimmy and Johnny kicked each other yesterday.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i49228">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kuuk thaayorre" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3408" line-range="343-345" line-types="L G+LN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="343" tag="L">  (23)    parr-n          peln           ii      waarin-rr</item>
+    <item id="o2" line="344" tag="G+LN">  KTh     kid-ERG         3plERG         there chase-RECIP</item>
+    <item id="o3" line="345" tag="T">          `All the kids are chasing each other.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="343" tag="L">parr-n          peln           ii      waarin-rr</item>
+    <item id="c2" line="344" tag="G+LN">KTh     kid-ERG         3plERG         there chase-RECIP</item>
+    <item id="c3" line="345" tag="T">All the kids are chasing each other.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77815">
+  <metadata type="xigt-meta">
+    <meta type="language" name="thaayore" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="860-862" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="860" tag="L">  (52) a. [wutyÅn dÅni]-ke</item>
+    <item id="o2" line="861" tag="G">                     basket INDEF-LOC</item>
+    <item id="o3" line="862" tag="T">                     `into a basket'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="860" tag="L">[wutyÅn dÅni]-ke</item>
+    <item id="c2" line="861" tag="G">basket INDEF-LOC</item>
+    <item id="c3" line="862" tag="T">into a basket</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77816">
+  <metadata type="xigt-meta">
+    <meta type="language" name="thaayore" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="863-865" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="863" tag="L">              b. [Pa:th nhan]-man tha...th-irµ           ru:rµ      mant</item>
+    <item id="o2" line="864" tag="G">                     fire his-ERG            burn-PUNCT insect small</item>
+    <item id="o3" line="865" tag="T">                     `his fire scorched the small grub'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="863" tag="L">[Pa:th nhan]-man tha...th-irµ           ru:rµ      mant</item>
+    <item id="c2" line="864" tag="G">fire his-ERG            burn-PUNCT insect small</item>
+    <item id="c3" line="865" tag="T">his fire scorched the small grub</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98826">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kuuk thaayorre" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2887" line-range="1102-1104" line-types="L G+LN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1102" tag="L">  (29a) Parr_r         peln           ii    waarin-rr.</item>
+    <item id="o2" line="1103" tag="G+LN">  KTh kid(NOM) 3pl(NOM) there chase-RECIP</item>
+    <item id="o3" line="1104" tag="T">        `All the kids are chasing each other.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1102" tag="L">Parr_r         peln           ii    waarin-rr.</item>
+    <item id="c2" line="1103" tag="G+LN">KTh kid(NOM) 3pl(NOM) there chase-RECIP</item>
+    <item id="c3" line="1104" tag="T">All the kids are chasing each other.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i98827">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kuuk thaayorre" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2887" line-range="1106-1108" line-types="L G+LN T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1106" tag="L">  (29b) Parr-an peln            ii    waarin-rr.</item>
+    <item id="o2" line="1107" tag="G+LN">  KTh kid-ERG 3pl(ERG) there chase-RECIP</item>
+    <item id="o3" line="1108" tag="T+AC">        `All the kids are chasing each other.' [Gaby, field notes]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1106" tag="L">Parr-an peln            ii    waarin-rr.</item>
+    <item id="c2" line="1107" tag="G+LN">KTh kid-ERG 3pl(ERG) there chase-RECIP</item>
+    <item id="c3" line="1108" tag="T+AC">All the kids are chasing each other.' [Gaby, field notes]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113449">
+  <metadata type="xigt-meta">
+    <meta type="language" name="thaayore" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="909-911" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="909" tag="L">  (52) a. [wutyÅn dÅni]-ke</item>
+    <item id="o2" line="910" tag="G">                 basket INDEF-LOC</item>
+    <item id="o3" line="911" tag="T">                 `into a basket'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="909" tag="L">[wutyÅn dÅni]-ke</item>
+    <item id="c2" line="910" tag="G">basket INDEF-LOC</item>
+    <item id="c3" line="911" tag="T">into a basket</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113450">
+  <metadata type="xigt-meta">
+    <meta type="language" name="thaayore" iso-639-3="thd" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="912-914" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="912" tag="L">           b. [Pa:th nhan]-man tha...th-ir?               ru:r?   mant</item>
+    <item id="o2" line="913" tag="G">                 fire his-ERG             burn-PUNCT insect small</item>
+    <item id="o3" line="914" tag="T">                 `his fire scorched the small grub'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="912" tag="L">[Pa:th nhan]-man tha...th-ir?               ru:r?   mant</item>
+    <item id="c2" line="913" tag="G">fire his-ERG             burn-PUNCT insect small</item>
+    <item id="c3" line="914" tag="T">his fire scorched the small grub</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

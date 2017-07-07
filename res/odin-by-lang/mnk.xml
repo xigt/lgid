@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i89515">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mandinka" iso-639-3="mnk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="690-694" line-types="M+AC+LN L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="690" tag="M+AC+LN">  Mandinka (Creissels et al. 1983: 106, 105)</item>
+    <item id="o2" line="691" tag="L+CR">            báabaa.lu yé kánkaraN.o tíñaa</item>
+    <item id="o3" line="692" tag="L+CR">  (33)</item>
+    <item id="o4" line="693" tag="G">            termite.pl PFV roof.RF          destroy</item>
+    <item id="o5" line="694" tag="T">            `Termites (have) destroyed the roof.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="690" tag="M+AC+LN">Mandinka (Creissels et al. 1983: 106, 105)</item>
+    <item id="c2" line="691 692" tag="L+CR">báabaa.lu yé kánkaraN.o tíñaa</item>
+    <item id="c4" line="693" tag="G">termite.pl PFV roof.RF          destroy</item>
+    <item id="c5" line="694" tag="T">Termites (have) destroyed the roof.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89516">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mandinka" iso-639-3="mnk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="695-698" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="695" tag="L+CR">            búN.o</item>
+    <item id="o2" line="696" tag="L+CR">  (34)                lòo.ta</item>
+    <item id="o3" line="697" tag="G">            house.RF build.PFV</item>
+    <item id="o4" line="698" tag="T">            `The house was/has been built.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="695 696" tag="L+CR">búN.o    lòo.ta</item>
+    <item id="c3" line="697" tag="G">house.RF build.PFV</item>
+    <item id="c4" line="698" tag="T">The house was/has been built.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137177">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mandinka" iso-639-3="mnk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3731" line-range="151-153" line-types="L G T+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="151" tag="L">  (1 7 )    A ka gya ni ma</item>
+    <item id="o2" line="152" tag="G">            he is big me on</item>
+    <item id="o3" line="153" tag="T+LN">            `He is bigger than me.'                                          mandinka</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="151" tag="L">(1 7 )    A ka gya ni ma</item>
+    <item id="c2" line="152" tag="G">he is big me on</item>
+    <item id="c3" line="153" tag="T+LN">He is bigger than me.'                                          mandinka</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:72]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

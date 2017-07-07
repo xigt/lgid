@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i78794">
+  <metadata type="xigt-meta">
+    <meta type="language" name="highland puebla nahuatl" iso-639-3="azz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2516" line-range="27-29" line-types="L+EX G T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="27" tag="L+EX">      (2) a. No-siuauj kichijchiuj mole.             (Cuetzal an)</item>
+    <item id="o2" line="28" tag="G">             my-wife made mole</item>
+    <item id="o3" line="29" tag="T+CR">             `My wife mad e the mole.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="27" tag="L+EX">a. No-siuauj kichijchiuj mole.             (Cuetzal an</item>
+    <item id="c2" line="28" tag="G">my-wife made mole</item>
+    <item id="c3" line="29" tag="T+CR">My wife mad e the mole.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78795">
+  <metadata type="xigt-meta">
+    <meta type="language" name="highland puebla nahuatl" iso-639-3="azz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2516" line-range="30-31" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="30" tag="L">          b. Ne mole kichijchiuj nosiuauj.</item>
+    <item id="o2" line="31" tag="G">             the mole made my wife</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="30" tag="L">Ne mole kichijchiuj nosiuauj.</item>
+    <item id="c2" line="31" tag="G">the mole made my wife</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

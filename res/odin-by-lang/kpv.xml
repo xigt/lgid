@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i152634">
+  <metadata type="xigt-meta">
+    <meta type="language" name="komi-zyrian" iso-639-3="kpv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2753" line-range="353-361" line-types="L B G B L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="353" tag="L">  (3)    a.      Sidzkö myjkö            abu    na         sidzi   vö-ömyd     kydz   me</item>
+    <item id="o2" line="354" tag="B"></item>
+    <item id="o3" line="355" tag="G">                 so       something      NEG yet           so      do-PST2.2SG as     I</item>
+    <item id="o4" line="356" tag="B"></item>
+    <item id="o5" line="357" tag="L">                 tsöktyl-i</item>
+    <item id="o6" line="358" tag="B"></item>
+    <item id="o7" line="359" tag="G">                 order-PST1.1SG</item>
+    <item id="o8" line="360" tag="B"></item>
+    <item id="o9" line="361" tag="T+AC">                 `So, something you have not done as I told you to.' Leinonen (2001:427)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="353" tag="L">Sidzkö myjkö            abu    na         sidzi   vö-ömyd     kydz   me</item>
+    <item id="c2" line="354" tag="B"/>
+    <item id="c3" line="355" tag="G">so       something      NEG yet           so      do-PST2.2SG as     I</item>
+    <item id="c4" line="356" tag="B"/>
+    <item id="c5" line="357" tag="L">tsöktyl-i</item>
+    <item id="c6" line="358" tag="B"/>
+    <item id="c7" line="359" tag="G">order-PST1.1SG</item>
+    <item id="c8" line="360" tag="B"/>
+    <item id="c9" line="361" tag="T+AC">So, something you have not done as I told you to.' Leinonen (2001:427)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+    <item id="p1" content="c5[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:70]" alignment="p1"/>
+    <item id="g1" content="c7[0:14]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:70]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i152635">
+  <metadata type="xigt-meta">
+    <meta type="language" name="komi-zyrian" iso-639-3="kpv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2753" line-range="367-371" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="367" tag="L">                 vojnas                  zer-öma</item>
+    <item id="o2" line="368" tag="B"></item>
+    <item id="o3" line="369" tag="G">                 night.INESS.3SG         rain-PST2.3SG</item>
+    <item id="o4" line="370" tag="B"></item>
+    <item id="o5" line="371" tag="T+AC">                 `It has rained last night.'               Leinonen and Vilkuna (2000:499)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="367" tag="L">vojnas                  zer-öma</item>
+    <item id="c2" line="368" tag="B"/>
+    <item id="c3" line="369" tag="G">night.INESS.3SG         rain-PST2.3SG</item>
+    <item id="c4" line="370" tag="B"/>
+    <item id="c5" line="371" tag="T+AC">It has rained last night.'               Leinonen and Vilkuna (2000:499)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:72]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

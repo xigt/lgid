@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i18560">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="32-34" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="32" tag="L">  (1)       ha-na-nuhu-i-Ø</item>
+    <item id="o2" line="33" tag="G">            1SGS-IRR-dive-TR-3SGO</item>
+    <item id="o3" line="34" tag="T+AC+LN">            `I shall dive for it.' (Mono Alu - Ross 1982:14)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="32" tag="L">ha-na-nuhu-i-Ø</item>
+    <item id="c2" line="33" tag="G">1SGS-IRR-dive-TR-3SGO</item>
+    <item id="c3" line="34" tag="T+AC+LN">I shall dive for it.' (Mono Alu-Ross 1982:14)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18561">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="36-38" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="36" tag="L">  (2)    a. soipa ma-mate e-na</item>
+    <item id="o2" line="37" tag="G">            PN       RD-die AUX-3SGS</item>
+    <item id="o3" line="38" tag="T+AC+LN">            `Soipa is dying.' (Mono Alu - Ross 1988:250)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="36" tag="L">soipa ma-mate e-na</item>
+    <item id="c2" line="37" tag="G">PN       RD-die AUX-3SGS</item>
+    <item id="c3" line="38" tag="T+AC+LN">Soipa is dying.' (Mono Alu-Ross 1988:250)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18562">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="40-42" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="40" tag="L">         b. eli   sa-ria.</item>
+    <item id="o2" line="41" tag="G">            dig   AUX-3PLS</item>
+    <item id="o3" line="42" tag="T+AC+LN">            `They went on digging.' (Mono Alu - Wheeler 1926: text 29)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="40" tag="L">eli   sa-ria.</item>
+    <item id="c2" line="41" tag="G">dig   AUX-3PLS</item>
+    <item id="c3" line="42" tag="T+AC+LN">They went on digging.' (Mono Alu-Wheeler 1926: text 29)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18563">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="44-46" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="44" tag="L">  (3)    a. soipa e-na          toitoi</item>
+    <item id="o2" line="45" tag="G">            Soipa CP-3SGP banana</item>
+    <item id="o3" line="46" tag="T+AC+LN">            `Soipa's banana.' (Mono Alu - Ross 1988:250)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="44" tag="L">soipa e-na          toitoi</item>
+    <item id="c2" line="45" tag="G">Soipa CP-3SGP banana</item>
+    <item id="c3" line="46" tag="T+AC+LN">Soipa's banana.' (Mono Alu-Ross 1988:250)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18564">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="48-50" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="48" tag="L">         b. kai-gu         sa-na      auau</item>
+    <item id="o2" line="49" tag="G">            brother-1SGP GP-3SGP dog</item>
+    <item id="o3" line="50" tag="T+AC+LN">            `my brother's dog' (Mono Alu - Boch)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="48" tag="L">kai-gu         sa-na      auau</item>
+    <item id="c2" line="49" tag="G">brother-1SGP GP-3SGP dog</item>
+    <item id="c3" line="50" tag="T+AC+LN">my brother's dog' (Mono Alu-Boch)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18567">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="90-92" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="90" tag="L">  (7)    a. ta-tai    sa-na           sa-na         kanega    taro-na</item>
+    <item id="o2" line="91" tag="G">            RD-cry AUX-3SGS           AUX-3SGS man            spouse-3SGP</item>
+    <item id="o3" line="92" tag="T+AC+LN">            `She kept on weeping for her husband.' (Mono Alu - Ross 1982:40)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="90" tag="L">ta-tai    sa-na           sa-na         kanega    taro-na</item>
+    <item id="c2" line="91" tag="G">RD-cry AUX-3SGS           AUX-3SGS man            spouse-3SGP</item>
+    <item id="c3" line="92" tag="T+AC+LN">She kept on weeping for her husband.' (Mono Alu-Ross 1982:40)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18569">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="98-100" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="98" tag="L">  (8)    a. ba-baeni sa-mang</item>
+    <item id="o2" line="99" tag="G">            RD-ask     AUX-1EXCS</item>
+    <item id="o3" line="100" tag="T+AC+LN">            `We are praying.' (Mono Alu - Boch)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="98" tag="L">ba-baeni sa-mang</item>
+    <item id="c2" line="99" tag="G">RD-ask     AUX-1EXCS</item>
+    <item id="c3" line="100" tag="T+AC+LN">We are praying.' (Mono Alu-Boch)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18571">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="106-108" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="106" tag="L">  (9)       talaiva nihe      hu-hulau sa-ria</item>
+    <item id="o2" line="107" tag="G">            women snake RD-fear           AUX-3PLS</item>
+    <item id="o3" line="108" tag="T+AC+LN">            `Women are frightened of snakes.' (Mono Alu - Ross 1988:250)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="106" tag="L">talaiva nihe      hu-hulau sa-ria</item>
+    <item id="c2" line="107" tag="G">women snake RD-fear           AUX-3PLS</item>
+    <item id="c3" line="108" tag="T+AC+LN">Women are frightened of snakes.' (Mono Alu-Ross 1988:250)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18572">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="112-114" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="112" tag="L">  (10)   a. fafine-ng             ga      Ø-i-belu</item>
+    <item id="o2" line="113" tag="G">            cross.sibling-2SGP    ABS     3SGS-RL-be.hungry</item>
+    <item id="o3" line="114" tag="T+AC+LN">            `Your brother is hungry.' (Mono Alu - Fagan 1986:95)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="112" tag="L">fafine-ng             ga      Ø-i-belu</item>
+    <item id="c2" line="113" tag="G">cross.sibling-2SGP    ABS     3SGS-RL-be.hungry</item>
+    <item id="c3" line="114" tag="T+AC+LN">Your brother is hungry.' (Mono Alu-Fagan 1986:95)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18637">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="723-726" line-types="L G T T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="723" tag="L">  (42)   a. ir-i-gagana.         ir-i-nau.       gagana      sa-ria,           ir-i-soku                  hauroho</item>
+    <item id="o2" line="724" tag="G">            3PLS-RL-go           3PLS-RL-go      go          AUX-3PLS          3PLS-RL-reach              PN</item>
+    <item id="o3" line="725" tag="T">            `They went (on their way). They went. Having travelled, [ie. They were travelling and]</item>
+    <item id="o4" line="726" tag="T+AC+LN">            they reached the Hauroho river.' (Mono Alu ­ Ross 1982:38)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="723" tag="L">ir-i-gagana.         ir-i-nau.       gagana      sa-ria,           ir-i-soku                  hauroho</item>
+    <item id="c2" line="724" tag="G">3PLS-RL-go           3PLS-RL-go      go          AUX-3PLS          3PLS-RL-reach              PN</item>
+    <item id="c3" line="725" tag="T">They went (on their way). They went. Having travelled, [ie. They were travelling and]</item>
+    <item id="c4" line="726" tag="T+AC+LN">they reached the Hauroho river.' (Mono Alu ­ Ross 1982:38)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:101]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:96]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:85]" alignment="p1"/>
+    <item id="t1" content="c4[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18638">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="728-731" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="728" tag="L+CR">                                               Nka-na</item>
+    <item id="o2" line="729" tag="L+CR">         b. r-e-taofo               ga                               apa-na.</item>
+    <item id="o3" line="730" tag="G">            3PLS-RL-wail            ABS        mother-3SGP           father-3SGP</item>
+    <item id="o4" line="731" tag="T">            `His mother and father wailed for him.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="728 729" tag="L+CR">r-e-taofo               ga         Nka-na                apa-na.</item>
+    <item id="c3" line="730" tag="G">3PLS-RL-wail            ABS        mother-3SGP           father-3SGP</item>
+    <item id="c4" line="731" tag="T">His mother and father wailed for him.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18639">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="733-735" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="733" tag="L">            ta-taofo             sa-ria           Ø-i-boi.</item>
+    <item id="o2" line="734" tag="G">            RD-wail              AUX-3PLS         3SGS-RL-night</item>
+    <item id="o3" line="735" tag="T+AC+LN">            As they wailed [ie. They wailed and] night came on.' (Mono Alu - Wheeler 1926: text 29)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="733" tag="L">ta-taofo             sa-ria           Ø-i-boi.</item>
+    <item id="c2" line="734" tag="G">RD-wail              AUX-3PLS         3SGS-RL-night</item>
+    <item id="c3" line="735" tag="T+AC+LN">As they wailed [ie. They wailed and] night came on.' (Mono Alu-Wheeler 1926: text 29)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:85]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18640">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="741-744" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="741" tag="L+CR">                                                                     pata-aN</item>
+    <item id="o2" line="742" tag="L+CR">  (43)   a. au            e-na             hahine-na</item>
+    <item id="o3" line="743" tag="G">            exist         AUX-3SGS         cross.sibling-3SGP        shore-on</item>
+    <item id="o4" line="744" tag="T+AC">            `His sister stayed on the shore.' (Ross 1982:15/39)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="741 742" tag="L+CR">au            e-na             hahine-na                 pata-aN</item>
+    <item id="c3" line="743" tag="G">exist         AUX-3SGS         cross.sibling-3SGP        shore-on</item>
+    <item id="c4" line="744" tag="T+AC">His sister stayed on the shore.' (Ross 1982:15/39)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18641">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="746-748" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="746" tag="L">         b. o-na-au                        sa-m              ha-na-nuhu-i-Ø</item>
+    <item id="o2" line="747" tag="G">            2SGS-IRR-exist                 AUX-2SGS          1SGS-IRR-dive-TR-3SGO</item>
+    <item id="o3" line="748" tag="T+AC+LN">            `While you stay here, I shall dive for it.' (Mono Alu - Ross 1982:15/39)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="746" tag="L">o-na-au                        sa-m              ha-na-nuhu-i-Ø</item>
+    <item id="c2" line="747" tag="G">2SGS-IRR-exist                 AUX-2SGS          1SGS-IRR-dive-TR-3SGO</item>
+    <item id="c3" line="748" tag="T+AC+LN">While you stay here, I shall dive for it.' (Mono Alu-Ross 1982:15/39)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:69]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18642">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="750-753" line-types="L+CR L+CR G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="750" tag="L+CR">                                                                                          hanua-aN</item>
+    <item id="o2" line="751" tag="L+CR">  (44)      o-na-gagana                  sa-m             o-na-roro-i-Ø                                       saiga</item>
+    <item id="o3" line="752" tag="G">            2SGS-IRR-travel              AUX-2SGS         2SGS-IRR-see-TR-3SGO            men-LOC             garden</item>
+    <item id="o4" line="753" tag="T+AC+LN">            `As you travel on, you will see the men's gardens.' (Mono Alu - Ross 1982:39)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="750 751" tag="L+CR">o-na-gagana                  sa-m             o-na-roro-i-Ø                  hanua-aN             saiga</item>
+    <item id="c3" line="752" tag="G">2SGS-IRR-travel              AUX-2SGS         2SGS-IRR-see-TR-3SGO            men-LOC             garden</item>
+    <item id="c4" line="753" tag="T+AC+LN">As you travel on, you will see the men's gardens.' (Mono Alu-Ross 1982:39)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:103]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:104]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18643">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="787-790" line-types="L+CR L+CR G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="787" tag="L+CR">                        hanua-aN</item>
+    <item id="o2" line="788" tag="L+CR">  (45)   a. boitalu                    alu    roro-i-Ø-a             sa-ria        ga    niunu</item>
+    <item id="o3" line="789" tag="G">            formerly people-LOC PN            see-TR-3SGO-thither AUX-3PLS ABS coconut</item>
+    <item id="o4" line="790" tag="T+AC+LN">            `Formerly the Alu people could see the coconut palm.' (Mono Alu - Ross 1982:40)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="787 788" tag="L+CR">boitalu     hanua-aN       alu    roro-i-Ø-a             sa-ria        ga    niunu</item>
+    <item id="c3" line="789" tag="G">formerly people-LOC PN            see-TR-3SGO-thither AUX-3PLS ABS coconut</item>
+    <item id="c4" line="790" tag="T+AC+LN">Formerly the Alu people could see the coconut palm.' (Mono Alu-Ross 1982:40)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:76]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18644">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="792-794" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="792" tag="L">         b. fealao    auau   pe-peko    sa-ng</item>
+    <item id="o2" line="793" tag="G">            which     dog    RD-want AUX-2SGS</item>
+    <item id="o3" line="794" tag="T+AC+LN">            what dog do you want (Mono Alu - Boch)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="792" tag="L">fealao    auau   pe-peko    sa-ng</item>
+    <item id="c2" line="793" tag="G">which     dog    RD-want AUX-2SGS</item>
+    <item id="c3" line="794" tag="T+AC+LN">what dog do you want (Mono Alu-Boch)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18645">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="796-798" line-types="L G T+AC+LN+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="796" tag="L">         c. talaiva nihe      hu-hulau sa-ria</item>
+    <item id="o2" line="797" tag="G">            women snake RD-fear           AUX-3PLS</item>
+    <item id="o3" line="798" tag="T+AC+LN+EX">            `Women are frightened of snakes.' (repeating (9)) (Mono Alu - Ross 1988:250)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="796" tag="L">talaiva nihe      hu-hulau sa-ria</item>
+    <item id="c2" line="797" tag="G">women snake RD-fear           AUX-3PLS</item>
+    <item id="c3" line="798" tag="T+AC+LN+EX">Women are frightened of snakes.' (repeating (9)) (Mono Alu-Ross 1988:250)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:73]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i18646">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2916" line-range="803-805" line-types="L G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="803" tag="L">  (46)      soipa        ma-mate     e-na            ata</item>
+    <item id="o2" line="804" tag="G">            PN           RD-die      AUX-3SGS        now</item>
+    <item id="o3" line="805" tag="T+AC+LN">            `Soipa is dying.' (Mono Alu - Ross 1988:250)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="803" tag="L">soipa        ma-mate     e-na            ata</item>
+    <item id="c2" line="804" tag="G">PN           RD-die      AUX-3SGS        now</item>
+    <item id="c3" line="805" tag="T+AC+LN">Soipa is dying.' (Mono Alu-Ross 1988:250)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29170">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mono" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2791" line-range="484-484" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="484" tag="L-T">                            Mono                 malu¥       `soft'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="484" tag="L-T">Mono                 malu¥       `soft</item>
+  </tier>
+</igt>
+<igt id="i118114">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="3548-3550" line-types="M+AC+LN L G-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3548" tag="M+AC+LN">  (6) MONO-ALU (Fagan 1986: 34)</item>
+    <item id="o2" line="3549" tag="L">      [mafa e-gu]             iana</item>
+    <item id="o3" line="3550" tag="G-T">      1SG POSCLR-PR.1SG fish                           `my fish'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3548" tag="M+AC+LN">MONO-ALU (Fagan 1986: 34</item>
+    <item id="c2" line="3549" tag="L">[mafa e-gu]             iana</item>
+    <item id="c3" line="3550" tag="G-T">1SG POSCLR-PR.1SG fish                           `my fish</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:28]"/>
+  </tier>
+</igt>
+<igt id="i118152">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="4559-4561" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4559" tag="L+DB">  (1) a. eli       sa-ria                 b. soipa ma-mate      e-na ata</item>
+    <item id="o2" line="4560" tag="G+DB">           dig        AUX-3PL.SUBJ                Soipa REDUP-die     AUX-3SG.SUBJ now</item>
+    <item id="o3" line="4561" tag="T+DB">           `They continued digging.'          `Soipa is dying.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4559" tag="L+DB">eli       sa-ria                 b. soipa ma-mate      e-na ata</item>
+    <item id="c2" line="4560" tag="G+DB">dig        AUX-3PL.SUBJ                Soipa REDUP-die     AUX-3SG.SUBJ now</item>
+    <item id="c3" line="4561" tag="T+DB">They continued digging.'          `Soipa is dying.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118153">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="4567-4569" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4567" tag="L+DB">  (2) a. soipa sa-na auau                b. e-ria toitoi</item>
+    <item id="o2" line="4568" tag="G+DB">           S o ip a   GENPOSS-3SG.POSS dog        EDPOSS-3PL.POSSbanana</item>
+    <item id="o3" line="4569" tag="T+DB">             `Soipa's dog'                     `their bananas.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4567" tag="L+DB">soipa sa-na auau                b. e-ria toitoi</item>
+    <item id="c2" line="4568" tag="G+DB">S o ip a   GENPOSS-3SG.POSS dog        EDPOSS-3PL.POSSbanana</item>
+    <item id="c3" line="4569" tag="T+DB">Soipa's dog'                     `their bananas.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118154">
+  <metadata type="xigt-meta">
+    <meta type="language" name="monoalu" iso-639-3="mte" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="4574-4576" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4574" tag="L">  (3)     [o-na=au               sa-m]                  ha-na=nuhu-i-Ø</item>
+    <item id="o2" line="4575" tag="G">         2SG.SUBJ-IRR=exist        GENPOSS-2SG.POSS        1SG.SUBJ-IRR=dive-TR-3SGO</item>
+    <item id="o3" line="4576" tag="T">           `[During] your staying here, I'll dive for it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4574" tag="L">[o-na=au               sa-m]                  ha-na=nuhu-i-Ø</item>
+    <item id="c2" line="4575" tag="G">2SG.SUBJ-IRR=exist        GENPOSS-2SG.POSS        1SG.SUBJ-IRR=dive-TR-3SGO</item>
+    <item id="c3" line="4576" tag="T">[During] your staying here, I'll dive for it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

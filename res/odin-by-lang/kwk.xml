@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i1728">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwakw'ala" iso-639-3="kwk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="560" line-range="342-346" line-types="M+AC+LN L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="342" tag="M+AC+LN">  (5) Kwakw'ala (Wakashan; NW America; Anderson 1985)</item>
+    <item id="o2" line="343" tag="L+CR">                    gnanm=éxa gukw=sa</item>
+    <item id="o3" line="344" tag="L+CR">      nepflid=i=da                           tflism.</item>
+    <item id="o4" line="345" tag="G">         throw=SUBJ=DET child=OBJ                house=INSTR   rock</item>
+    <item id="o5" line="346" tag="T">         `The child threw a rock at the house.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="342" tag="M+AC+LN">Kwakw'ala (Wakashan; NW America; Anderson 1985</item>
+    <item id="c2" line="343 344" tag="L+CR">nepflid=i=da  gnanm=éxa gukw=sa       tflism.</item>
+    <item id="c4" line="345" tag="G">throw=SUBJ=DET child=OBJ                house=INSTR   rock</item>
+    <item id="c5" line="346" tag="T">The child threw a rock at the house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75579">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwakw'ala" iso-639-3="kwk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="314-318" line-types="M+AC+LN L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="314" tag="M+AC+LN">  (4) Kwakw'ala (Wakashan; NW America; Anderson 1985)</item>
+    <item id="o2" line="315" tag="L+CR">                    gúnanúm=Zxa gukw=sa      tßisúm.</item>
+    <item id="o3" line="316" tag="L+CR">      nepßid=i=da</item>
+    <item id="o4" line="317" tag="G">        throw=SUBJ=DET child=OBJ           house=INSTR   rock</item>
+    <item id="o5" line="318" tag="T">        `The child threw a rock at the house.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="314" tag="M+AC+LN">Kwakw'ala (Wakashan; NW America; Anderson 1985</item>
+    <item id="c2" line="315 316" tag="L+CR">nepßid=i=da  gúnanúm=Zxa gukw=sa      tßisúm.</item>
+    <item id="c4" line="317" tag="G">throw=SUBJ=DET child=OBJ           house=INSTR   rock</item>
+    <item id="c5" line="318" tag="T">The child threw a rock at the house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85911">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwakiutl" iso-639-3="kwk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="312" line-range="1481-1485" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1481" tag="L">  (30)   a.   xwa:'k!wena-L</item>
+    <item id="o2" line="1482" tag="B"></item>
+    <item id="o3" line="1483" tag="G">              canoe-FUT</item>
+    <item id="o4" line="1484" tag="B"></item>
+    <item id="o5" line="1485" tag="T">              `a future canoe'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1481" tag="L">xwa:'k!wena-L</item>
+    <item id="c2" line="1482" tag="B"/>
+    <item id="c3" line="1483" tag="G">canoe-FUT</item>
+    <item id="c4" line="1484" tag="B"/>
+    <item id="c5" line="1485" tag="T">a future canoe</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85912">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwakiutl" iso-639-3="kwk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="312" line-range="1489-1494" line-types="L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1489" tag="L+CR">              ´o:'mp´-w´L</item>
+    <item id="o2" line="1490" tag="L+CR">         b.</item>
+    <item id="o3" line="1491" tag="B"></item>
+    <item id="o4" line="1492" tag="G">              father-REMOTEPST</item>
+    <item id="o5" line="1493" tag="B"></item>
+    <item id="o6" line="1494" tag="T">              `the late father'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1489 1490" tag="L+CR">´o:'mp´-w´L</item>
+    <item id="c3" line="1491" tag="B"/>
+    <item id="c4" line="1492" tag="G">father-REMOTEPST</item>
+    <item id="c5" line="1493" tag="B"/>
+    <item id="c6" line="1494" tag="T">the late father</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i85913">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwakiutl" iso-639-3="kwk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="312" line-range="1498-1503" line-types="L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1498" tag="L+CR">              ´ax´a:'-s´id</item>
+    <item id="o2" line="1499" tag="L+CR">         c.</item>
+    <item id="o3" line="1500" tag="B"></item>
+    <item id="o4" line="1501" tag="G">              place-PST</item>
+    <item id="o5" line="1502" tag="B"></item>
+    <item id="o6" line="1503" tag="T">              `the place where [he] had been'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1498 1499" tag="L+CR">´ax´a:'-s´id</item>
+    <item id="c3" line="1500" tag="B"/>
+    <item id="c4" line="1501" tag="G">place-PST</item>
+    <item id="c5" line="1502" tag="B"/>
+    <item id="c6" line="1503" tag="T">the place where [he] had been</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:9]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118274">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwakwala" iso-639-3="kwk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3659" line-range="1891-1893" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1891" tag="L">  3.10 kw ix?id =ida bEgw anEma =x=a q'asa =s=is        t'Elwagw ayu</item>
+    <item id="o2" line="1892" tag="G">       clubbed=the man=OBJ=the          otter=INSTR=his club</item>
+    <item id="o3" line="1893" tag="T">       `The man clubbed the otter with his club.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1891" tag="L">3.10 kw ix?id =ida bEgw anEma =x=a q'asa =s=is        t'Elwagw ayu</item>
+    <item id="c2" line="1892" tag="G">clubbed=the man=OBJ=the          otter=INSTR=his club</item>
+    <item id="c3" line="1893" tag="T">The man clubbed the otter with his club.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i132651">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwakwala" iso-639-3="kwk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="195.txt" line-range="9816-9819" line-types="L G T M+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9816" tag="L">         b.    n p'idi-da g nan m=x.a         gukw=sa t'is m         (phonology)</item>
+    <item id="o2" line="9817" tag="G">               throw-deic child       [obj house] [obl rock]             (syntax)</item>
+    <item id="o3" line="9818" tag="T">               `The child hit the house with a rock by throwing.'</item>
+    <item id="o4" line="9819" tag="M+AC+LN">                                                         (Kwakwala: Levine 1980)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9816" tag="L">n p'idi-da g nan m=x.a         gukw=sa t'is m         (phonology)</item>
+    <item id="c2" line="9817" tag="G">throw-deic child       [obj house] [obl rock]             (syntax)</item>
+    <item id="c3" line="9818" tag="T">The child hit the house with a rock by throwing.</item>
+    <item id="c4" line="9819" tag="M+AC+LN">Levine 1980</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i141673">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwakiutl" iso-639-3="kwk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="61" line-range="1966-1968" line-types="L+CR G T+AC+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1966" tag="L+CR">  23)</item>
+    <item id="o2" line="1967" tag="G">         take-dem man           -obj-poss game (hunted animals)</item>
+    <item id="o3" line="1968" tag="T+AC+SY">         "The mani took hisi game" (Anderson (1984)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1966" tag="L+CR">23)</item>
+    <item id="c2" line="1967" tag="G">take-dem man-obj-poss game (hunted animals)</item>
+    <item id="c3" line="1968" tag="T+AC+SY">The mani took hisi game" (Anderson (1984)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:3]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i141674">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwakiutl" iso-639-3="kwk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="61" line-range="1970-1972" line-types="L+CR G T+AC+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1970" tag="L+CR">  24)</item>
+    <item id="o2" line="1971" tag="G">         take-dem man           -obj-poss game-poss</item>
+    <item id="o3" line="1972" tag="T+AC+SY">         "The mani took hisj game" (Anderson 1984)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1970" tag="L+CR">24)</item>
+    <item id="c2" line="1971" tag="G">take-dem man-obj-poss game-poss</item>
+    <item id="c3" line="1972" tag="T+AC+SY">The mani took hisj game" (Anderson 1984)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:3]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i141675">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwakiutl" iso-639-3="kwk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="61" line-range="1986-1991" line-types="L+CR G T+AC L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1986" tag="L+CR">  25)</item>
+    <item id="o2" line="1987" tag="G">             that-dem     man           cause.hurt -obj-the dog</item>
+    <item id="o3" line="1988" tag="T+AC">             "That's the man who hurt the dog" (Anderson 1984)</item>
+    <item id="o4" line="1989" tag="L+CR">  26)</item>
+    <item id="o5" line="1990" tag="G">             that-dem        dog      cause.hurt-pass -inst-the man -inst-the stick</item>
+    <item id="o6" line="1991" tag="T+AC">             "That's the dog which the man hurt with a stick" (Anderson 1984)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1986" tag="L+CR">25)</item>
+    <item id="c2" line="1987" tag="G">that-dem     man           cause.hurt-obj-the dog</item>
+    <item id="c3" line="1988" tag="T+AC">That's the man who hurt the dog" (Anderson 1984)</item>
+    <item id="c4" line="1989" tag="L+CR">26)</item>
+    <item id="c5" line="1990" tag="G">that-dem        dog      cause.hurt-pass-inst-the man-inst-the stick</item>
+    <item id="c6" line="1991" tag="T+AC">That's the dog which the man hurt with a stick" (Anderson 1984)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:3]"/>
+    <item id="p1" content="c4[0:3]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+    <item id="g1" content="c5[0:68]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+    <item id="t1" content="c6[0:63]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i141676">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwakiutl" iso-639-3="kwk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="61" line-range="1997-1999" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1997" tag="L+CR">  27)        a)</item>
+    <item id="o2" line="1998" tag="G">                    that-my allow-pass eat           -obj-the fish</item>
+    <item id="o3" line="1999" tag="T">                    "That's who I let eat the fish" (e.g., the cat).</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1997" tag="L+CR">a)</item>
+    <item id="c2" line="1998" tag="G">that-my allow-pass eat-obj-the fish</item>
+    <item id="c3" line="1999" tag="T">That's who I let eat the fish" (e.g., the cat).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i141677">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwakiutl" iso-639-3="kwk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="61" line-range="2001-2003" line-types="L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2001" tag="L+CR">             b)</item>
+    <item id="o2" line="2002" tag="G">                    that-my allow-pass eat           pass-inst-the cat</item>
+    <item id="o3" line="2003" tag="T">                    "That's who I let the cat eat" (e.g., the fish).</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2001" tag="L+CR">b)</item>
+    <item id="c2" line="2002" tag="G">that-my allow-pass eat           pass-inst-the cat</item>
+    <item id="c3" line="2003" tag="T">That's who I let the cat eat" (e.g., the fish).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i145502">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kwak'wala" iso-639-3="kwk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3820" line-range="954-960" line-types="M+LN B L+CR L+CR B G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="954" tag="M+LN">  Kwak'wala (Northern Wakashan: western Canada)</item>
+    <item id="o2" line="955" tag="B"></item>
+    <item id="o3" line="956" tag="L+CR">            ìuqw -ila-inuxw a-xa ìuq'w -iP</item>
+    <item id="o4" line="957" tag="L+CR">   (42)</item>
+    <item id="o5" line="958" tag="B"></item>
+    <item id="o6" line="959" tag="G">            dish-make-exp ert-O dish-nominal</item>
+    <item id="o7" line="960" tag="T+AC">            `the dishmaker (of dishes)'                                           (Anderson 1992:30)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="954" tag="M+LN">Kwak'wala (Northern Wakashan: western Canada)</item>
+    <item id="c2" line="955" tag="B"/>
+    <item id="c3" line="956 957" tag="L+CR">ìuqw-ila-inuxw a-xa ìuq'w-iP</item>
+    <item id="c5" line="958" tag="B"/>
+    <item id="c6" line="959" tag="G">dish-make-exp ert-O dish-nominal</item>
+    <item id="c7" line="960" tag="T+AC">the dishmaker (of dishes)'                                           (Anderson 1992:30)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:87]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

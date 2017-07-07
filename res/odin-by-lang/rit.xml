@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i150737">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ritharrngu" iso-639-3="rit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2398" line-range="1651-1653" line-types="L G+LN T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1651" tag="L">  (31a)</item>
+    <item id="o2" line="1652" tag="G+LN">  Rit   woman-Du</item>
+    <item id="o3" line="1653" tag="T+AC">        `two women' (Heath 1980:33)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1651" tag="L">31a</item>
+    <item id="c2" line="1652" tag="G+LN">Rit   woman-Du</item>
+    <item id="c3" line="1653" tag="T+AC">two women' (Heath 1980:33)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:3]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i150748">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ritharrngu" iso-639-3="rit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2398" line-range="1862-1864" line-types="L G+LN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1862" tag="L">  (41)   ba:pa-ka?</item>
+    <item id="o2" line="1863" tag="G+LN">  Rith   father-DYAD</item>
+    <item id="o3" line="1864" tag="T">         `father &amp; child'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1862" tag="L">ba:pa-ka?</item>
+    <item id="c2" line="1863" tag="G+LN">Rith   father-DYAD</item>
+    <item id="c3" line="1864" tag="T">father &amp; child</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

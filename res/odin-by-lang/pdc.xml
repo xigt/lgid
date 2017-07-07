@@ -1,0 +1,2868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i29709">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="424-434" line-types="L B G B L B G B T B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="424" tag="L">  (12)      a. Een owed         hot   en arme mann      en schupkarrich g'numme</item>
+    <item id="o2" line="425" tag="B"></item>
+    <item id="o3" line="426" tag="G">               one evening has        a poor man        a wheel-barrow           taken</item>
+    <item id="o4" line="427" tag="B"></item>
+    <item id="o5" line="428" tag="L">               fer    zu     eme nochbar blatz     geh ferriewe         holle.</item>
+    <item id="o6" line="429" tag="B"></item>
+    <item id="o7" line="430" tag="G">               for    to     a neighbour place     go   for   turnips fetch</item>
+    <item id="o8" line="431" tag="B"></item>
+    <item id="o9" line="432" tag="T">               `One evening a poor man took a wheel barrow to go to a neighbouring farm to</item>
+    <item id="o10" line="433" tag="B"></item>
+    <item id="o11" line="434" tag="T">               fetch turnips.'14</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="424" tag="L">Een owed         hot   en arme mann      en schupkarrich g'numme</item>
+    <item id="c2" line="425" tag="B"/>
+    <item id="c3" line="426" tag="G">one evening has        a poor man        a wheel-barrow           taken</item>
+    <item id="c4" line="427" tag="B"/>
+    <item id="c5" line="428" tag="L">fer    zu     eme nochbar blatz     geh ferriewe         holle.</item>
+    <item id="c6" line="429" tag="B"/>
+    <item id="c7" line="430" tag="G">for    to     a neighbour place     go   for   turnips fetch</item>
+    <item id="c8" line="431" tag="B"/>
+    <item id="c9" line="432" tag="T">One evening a poor man took a wheel barrow to go to a neighbouring farm to</item>
+    <item id="c10" line="433" tag="B"/>
+    <item id="c11" line="434" tag="T">fetch turnips.'14</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+    <item id="p1" content="c5[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:71]" alignment="p1"/>
+    <item id="g1" content="c7[0:60]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:74]" alignment="p2"/>
+    <item id="t1" content="c11[0:17]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i29710">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="438-442" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="438" tag="L">            b. Ich nemm         die schuh zum schumacher          ferg'fixt        waere.</item>
+    <item id="o2" line="439" tag="B"></item>
+    <item id="o3" line="440" tag="G">               I      take      the shoes to.the cobbler          fer      mended be</item>
+    <item id="o4" line="441" tag="B"></item>
+    <item id="o5" line="442" tag="T">               `I take the shoes to the cobbler (in order for them) to be mended.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="438" tag="L">Ich nemm         die schuh zum schumacher          ferg'fixt        waere.</item>
+    <item id="c2" line="439" tag="B"/>
+    <item id="c3" line="440" tag="G">I      take      the shoes to.the cobbler          fer      mended be</item>
+    <item id="c4" line="441" tag="B"/>
+    <item id="c5" line="442" tag="T">I take the shoes to the cobbler (in order for them) to be mended.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29721">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="938-952" line-types="L B G B L B G B L B G B T B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="938" tag="L">  (24)      a. Der Bill war zu               ehrlich</item>
+    <item id="o2" line="939" tag="B"></item>
+    <item id="o3" line="940" tag="G">               the     Bill was too          honest</item>
+    <item id="o4" line="941" tag="B"></item>
+    <item id="o5" line="942" tag="L">               fer     sei     land fon      die   Insching        zu       schtaela</item>
+    <item id="o6" line="943" tag="B"></item>
+    <item id="o7" line="944" tag="G">               for     his     land from the       Indian          to       steal</item>
+    <item id="o8" line="945" tag="B"></item>
+    <item id="o9" line="946" tag="L">               so hat        er es widder fon      ihnen         gekauft.</item>
+    <item id="o10" line="947" tag="B"></item>
+    <item id="o11" line="948" tag="G">               so had he it again            from them           bought</item>
+    <item id="o12" line="949" tag="B"></item>
+    <item id="o13" line="950" tag="T">               `Bill was too honest to steal his land from the Indians and so he bought it</item>
+    <item id="o14" line="951" tag="B"></item>
+    <item id="o15" line="952" tag="T+AC">               back from them.'                                                        (Horne 1905:201)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="938" tag="L">Der Bill war zu               ehrlich</item>
+    <item id="c2" line="939" tag="B"/>
+    <item id="c3" line="940" tag="G">the     Bill was too          honest</item>
+    <item id="c4" line="941" tag="B"/>
+    <item id="c5" line="942" tag="L">fer     sei     land fon      die   Insching        zu       schtaela</item>
+    <item id="c6" line="943" tag="B"/>
+    <item id="c7" line="944" tag="G">for     his     land from the       Indian          to       steal</item>
+    <item id="c8" line="945" tag="B"/>
+    <item id="c9" line="946" tag="L">so hat        er es widder fon      ihnen         gekauft.</item>
+    <item id="c10" line="947" tag="B"/>
+    <item id="c11" line="948" tag="G">so had he it again            from them           bought</item>
+    <item id="c12" line="949" tag="B"/>
+    <item id="c13" line="950" tag="T">Bill was too honest to steal his land from the Indians and so he bought it</item>
+    <item id="c14" line="951" tag="B"/>
+    <item id="c15" line="952" tag="T+AC">back from them.'                                                        (Horne 1905:201)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+    <item id="p1" content="c5[0:69]"/>
+    <item id="p2" content="c9[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+    <item id="g1" content="c7[0:66]" alignment="p2"/>
+    <item id="g2" content="c11[0:56]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:74]" alignment="p3"/>
+    <item id="t1" content="c15[0:88]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i29722">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="956-960" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="956" tag="L">            b. Se      wore ols         so      shlim      fer     danse.</item>
+    <item id="o2" line="957" tag="B"></item>
+    <item id="o3" line="958" tag="G">               they were always so              eager      for     dance</item>
+    <item id="o4" line="959" tag="B"></item>
+    <item id="o5" line="960" tag="T+AC">               `They were always so eager to dance.'                                   (Horne 1905:130)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="956" tag="L">Se      wore ols         so      shlim      fer     danse.</item>
+    <item id="c2" line="957" tag="B"/>
+    <item id="c3" line="958" tag="G">they were always so              eager      for     dance</item>
+    <item id="c4" line="959" tag="B"/>
+    <item id="c5" line="960" tag="T+AC">They were always so eager to dance.'                                   (Horne 1905:130)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:87]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29723">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="964-968" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="964" tag="L">            c. Erhat         die   Inschingall eiglauda ferkumma.</item>
+    <item id="o2" line="965" tag="B"></item>
+    <item id="o3" line="966" tag="G">               he has        the   Indians all invited for         come</item>
+    <item id="o4" line="967" tag="B"></item>
+    <item id="o5" line="968" tag="T+AC">               `He invited all the Indians to come.'                                   (Horne 1905:201)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="964" tag="L">Erhat         die   Inschingall eiglauda ferkumma.</item>
+    <item id="c2" line="965" tag="B"/>
+    <item id="c3" line="966" tag="G">he has        the   Indians all invited for         come</item>
+    <item id="c4" line="967" tag="B"/>
+    <item id="c5" line="968" tag="T+AC">He invited all the Indians to come.'                                   (Horne 1905:201)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:87]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29724">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1010-1014" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1010" tag="L">  (25)      a. Ich hab drei hunnert Daaler Tax zu                       bzaahle.</item>
+    <item id="o2" line="1011" tag="B"></item>
+    <item id="o3" line="1012" tag="G">               I     have three hundred dollar           tax    to      pay</item>
+    <item id="o4" line="1013" tag="B"></item>
+    <item id="o5" line="1014" tag="T+AC">               `I have three hundred dollars tax to pay.'            (Buffington and Barba 1965:78)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1010" tag="L">Ich hab drei hunnert Daaler Tax zu                       bzaahle.</item>
+    <item id="c2" line="1011" tag="B"/>
+    <item id="c3" line="1012" tag="G">I     have three hundred dollar           tax    to      pay</item>
+    <item id="c4" line="1013" tag="B"/>
+    <item id="c5" line="1014" tag="T+AC">I have three hundred dollars tax to pay.'            (Buffington and Barba 1965:78)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:83]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29725">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1018-1022" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1018" tag="L">            b. Des iss      hatt zu      lese.</item>
+    <item id="o2" line="1019" tag="B"></item>
+    <item id="o3" line="1020" tag="G">               this is      hard to      read</item>
+    <item id="o4" line="1021" tag="B"></item>
+    <item id="o5" line="1022" tag="T+AC">               `This is hard to read.'                               (Buffington and Barba 1965:79)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1018" tag="L">Des iss      hatt zu      lese.</item>
+    <item id="c2" line="1019" tag="B"/>
+    <item id="c3" line="1020" tag="G">this is      hard to      read</item>
+    <item id="c4" line="1021" tag="B"/>
+    <item id="c5" line="1022" tag="T+AC">This is hard to read.'                               (Buffington and Barba 1965:79)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:83]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29726">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1026-1030" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1026" tag="L">            c. Es    iss    net   schee,    die Veggel zu            schrecke.</item>
+    <item id="o2" line="1027" tag="B"></item>
+    <item id="o3" line="1028" tag="G">               it    is     not   nice      the birds      to        frighten</item>
+    <item id="o4" line="1029" tag="B"></item>
+    <item id="o5" line="1030" tag="T+AC">               `It is not nice to frighten the birds.'                             (Haag 1982:178)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1026" tag="L">Es    iss    net   schee,    die Veggel zu            schrecke.</item>
+    <item id="c2" line="1027" tag="B"/>
+    <item id="c3" line="1028" tag="G">it    is     not   nice      the birds      to        frighten</item>
+    <item id="c4" line="1029" tag="B"/>
+    <item id="c5" line="1030" tag="T+AC">It is not nice to frighten the birds.'                             (Haag 1982:178)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:82]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29727">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1049-1059" line-types="L B G B L B G B T B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1049" tag="L">  (26)         Erwaar wiescht genunk feren noch viel wieschdererNaam</item>
+    <item id="o2" line="1050" tag="B"></item>
+    <item id="o3" line="1051" tag="G">              he was ugly           enough for           an even more uglier                  name</item>
+    <item id="o4" line="1052" tag="B"></item>
+    <item id="o5" line="1053" tag="L">              zu    hawwe.</item>
+    <item id="o6" line="1054" tag="B"></item>
+    <item id="o7" line="1055" tag="G">              to    have</item>
+    <item id="o8" line="1056" tag="B"></item>
+    <item id="o9" line="1057" tag="T">              `He was ugly enough to have even a much uglier name.'</item>
+    <item id="o10" line="1058" tag="B"></item>
+    <item id="o11" line="1059" tag="M+AC">                                                                      (Buffington and Barba 1965:79)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1049" tag="L">Erwaar wiescht genunk feren noch viel wieschdererNaam</item>
+    <item id="c2" line="1050" tag="B"/>
+    <item id="c3" line="1051" tag="G">he was ugly           enough for           an even more uglier                  name</item>
+    <item id="c4" line="1052" tag="B"/>
+    <item id="c5" line="1053" tag="L">zu    hawwe.</item>
+    <item id="c6" line="1054" tag="B"/>
+    <item id="c7" line="1055" tag="G">to    have</item>
+    <item id="c8" line="1056" tag="B"/>
+    <item id="c9" line="1057" tag="T">He was ugly enough to have even a much uglier name.</item>
+    <item id="c10" line="1058" tag="B"/>
+    <item id="c11" line="1059" tag="M+AC">Buffington and Barba 1965:79</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+    <item id="p1" content="c5[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:84]" alignment="p1"/>
+    <item id="g1" content="c7[0:10]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:51]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i29728">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1079-1083" line-types="L+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1079" tag="L+LN">  (27)      a. Es   iss    en Wunner, ferClarence               selli Biecher    zu        lese.     SPG</item>
+    <item id="o2" line="1080" tag="B"></item>
+    <item id="o3" line="1081" tag="G">              it    is     a wonder         for     Clarence       these books        to      read</item>
+    <item id="o4" line="1082" tag="B"></item>
+    <item id="o5" line="1083" tag="T">              `It is unusual for Clarence to read these books.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1079" tag="L+LN">Es   iss    en Wunner, ferClarence               selli Biecher    zu        lese.     SPG</item>
+    <item id="c2" line="1080" tag="B"/>
+    <item id="c3" line="1081" tag="G">it    is     a wonder         for     Clarence       these books        to      read</item>
+    <item id="c4" line="1082" tag="B"/>
+    <item id="c5" line="1083" tag="T">It is unusual for Clarence to read these books.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:89]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:84]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29729">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1087-1091" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1087" tag="L">            b. Eswaar schee, ferihr Brief           zu     griege.</item>
+    <item id="o2" line="1088" tag="B"></item>
+    <item id="o3" line="1089" tag="G">              It was nice           for     their letter to        receive</item>
+    <item id="o4" line="1090" tag="B"></item>
+    <item id="o5" line="1091" tag="T+AC">              `It was nice to receive their letter.'                                   (Costello 1978:36)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1087" tag="L">Eswaar schee, ferihr Brief           zu     griege.</item>
+    <item id="c2" line="1088" tag="B"/>
+    <item id="c3" line="1089" tag="G">It was nice           for     their letter to        receive</item>
+    <item id="c4" line="1090" tag="B"/>
+    <item id="c5" line="1091" tag="T+AC">It was nice to receive their letter.'                                   (Costello 1978:36)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:90]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29730">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1095-1099" line-types="L+LN B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1095" tag="L+LN">  (28)         Ich gleiche ferBalle zu              schpiele.                                        SPG</item>
+    <item id="o2" line="1096" tag="B"></item>
+    <item id="o3" line="1097" tag="G">              I     like      for         ball to        play</item>
+    <item id="o4" line="1098" tag="B"></item>
+    <item id="o5" line="1099" tag="T+AC">              `I like to play ball.'                                                   (Costello 1978:39)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1095" tag="L+LN">Ich gleiche ferBalle zu              schpiele.                                        SPG</item>
+    <item id="c2" line="1096" tag="B"/>
+    <item id="c3" line="1097" tag="G">I     like      for         ball to        play</item>
+    <item id="c4" line="1098" tag="B"/>
+    <item id="c5" line="1099" tag="T+AC">I like to play ball.'                                                   (Costello 1978:39)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:89]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:90]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29731">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1300-1304" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1300" tag="L">  (29)      a. Ich kan immer            noch sene ferdie aerwet zu            schaffe.</item>
+    <item id="o2" line="1301" tag="B"></item>
+    <item id="o3" line="1302" tag="G">               I      can always still see            for    the work    to     do</item>
+    <item id="o4" line="1303" tag="B"></item>
+    <item id="o5" line="1304" tag="T">               `I can still see to do work.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1300" tag="L">Ich kan immer            noch sene ferdie aerwet zu            schaffe.</item>
+    <item id="c2" line="1301" tag="B"/>
+    <item id="c3" line="1302" tag="G">I      can always still see            for    the work    to     do</item>
+    <item id="c4" line="1303" tag="B"/>
+    <item id="c5" line="1304" tag="T">I can still see to do work.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29732">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1308-1322" line-types="L B G B L B G B L B G B T B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1308" tag="L">            b. Dass der     Vodda het           ihm Gelt         vaschenkt,</item>
+    <item id="o2" line="1309" tag="B"></item>
+    <item id="o3" line="1310" tag="G">               that the     Dad         has     him money given</item>
+    <item id="o4" line="1311" tag="B"></item>
+    <item id="o5" line="1312" tag="L">               Fier so en groosi        Trip zu       macha;</item>
+    <item id="o6" line="1313" tag="B"></item>
+    <item id="o7" line="1314" tag="G">               for    so a big          trip to       make</item>
+    <item id="o8" line="1315" tag="B"></item>
+    <item id="o9" line="1316" tag="L">               Un     mich nu      griega       far   die Erwat schaffa.</item>
+    <item id="o10" line="1317" tag="B"></item>
+    <item id="o11" line="1318" tag="G">               and me       now get             for   the work     do</item>
+    <item id="o12" line="1319" tag="B"></item>
+    <item id="o13" line="1320" tag="T">               `That his Dad gave him money to make such a big trip and then to hire me to</item>
+    <item id="o14" line="1321" tag="B"></item>
+    <item id="o15" line="1322" tag="T+AC">               do the work.'                                                   (Ben Sauder's poetry)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1308" tag="L">Dass der     Vodda het           ihm Gelt         vaschenkt,</item>
+    <item id="c2" line="1309" tag="B"/>
+    <item id="c3" line="1310" tag="G">that the     Dad         has     him money given</item>
+    <item id="c4" line="1311" tag="B"/>
+    <item id="c5" line="1312" tag="L">Fier so en groosi        Trip zu       macha;</item>
+    <item id="c6" line="1313" tag="B"/>
+    <item id="c7" line="1314" tag="G">for    so a big          trip to       make</item>
+    <item id="c8" line="1315" tag="B"/>
+    <item id="c9" line="1316" tag="L">Un     mich nu      griega       far   die Erwat schaffa.</item>
+    <item id="c10" line="1317" tag="B"/>
+    <item id="c11" line="1318" tag="G">and me       now get             for   the work     do</item>
+    <item id="c12" line="1319" tag="B"/>
+    <item id="c13" line="1320" tag="T">That his Dad gave him money to make such a big trip and then to hire me to</item>
+    <item id="c14" line="1321" tag="B"/>
+    <item id="c15" line="1322" tag="T+AC">do the work.'                                                   (Ben Sauder's poetry)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+    <item id="p1" content="c5[0:45]"/>
+    <item id="p2" content="c9[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+    <item id="g1" content="c7[0:43]" alignment="p2"/>
+    <item id="g2" content="c11[0:54]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:74]" alignment="p3"/>
+    <item id="t1" content="c15[0:85]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i29733">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1336-1340" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1336" tag="L">  (30)      a. Fer Sauder zu            haysa         is doch gar             ke Shand.</item>
+    <item id="o2" line="1337" tag="B"></item>
+    <item id="o3" line="1338" tag="G">               for    Sauder to         be-called     is but     absolutely noshame</item>
+    <item id="o4" line="1339" tag="B"></item>
+    <item id="o5" line="1340" tag="T">               `To be called Sauder is no shame at all.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1336" tag="L">Fer Sauder zu            haysa         is doch gar             ke Shand.</item>
+    <item id="c2" line="1337" tag="B"/>
+    <item id="c3" line="1338" tag="G">for    Sauder to         be-called     is but     absolutely noshame</item>
+    <item id="c4" line="1339" tag="B"/>
+    <item id="c5" line="1340" tag="T">To be called Sauder is no shame at all.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29734">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1347-1355" line-types="L B G B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1347" tag="L">           b. Eswaer                  ke groosi   Schand, fa           alles          zu        mache,</item>
+    <item id="o2" line="1348" tag="B"></item>
+    <item id="o3" line="1349" tag="G">              is would-be             nogreat     shame       for      everything to            make</item>
+    <item id="o4" line="1350" tag="B"></item>
+    <item id="o5" line="1351" tag="L">              yuscht bei              Hand.</item>
+    <item id="o6" line="1352" tag="B"></item>
+    <item id="o7" line="1353" tag="G">              only         by         hand</item>
+    <item id="o8" line="1354" tag="B"></item>
+    <item id="o9" line="1355" tag="T">              `It wouldn't be any great shame to make everything by hand.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1347" tag="L">Eswaer                  ke groosi   Schand, fa           alles          zu        mache,</item>
+    <item id="c2" line="1348" tag="B"/>
+    <item id="c3" line="1349" tag="G">is would-be             nogreat     shame       for      everything to            make</item>
+    <item id="c4" line="1350" tag="B"/>
+    <item id="c5" line="1351" tag="L">yuscht bei              Hand.</item>
+    <item id="c6" line="1352" tag="B"/>
+    <item id="c7" line="1353" tag="G">only         by         hand</item>
+    <item id="c8" line="1354" tag="B"/>
+    <item id="c9" line="1355" tag="T">It wouldn't be any great shame to make everything by hand.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:88]"/>
+    <item id="p1" content="c5[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:86]" alignment="p1"/>
+    <item id="g1" content="c7[0:28]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:58]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i29735">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1359-1363" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1359" tag="L">           c. Es iss gewiss ke groosi Schand fa zafridda sei                               im     a kalda Land.</item>
+    <item id="o2" line="1360" tag="B"></item>
+    <item id="o3" line="1361" tag="G">              it   is      certainly nogreat       shame       for content be              in     a cold country</item>
+    <item id="o4" line="1362" tag="B"></item>
+    <item id="o5" line="1363" tag="T">              `It's certainly no great shame to be content in a cold country.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1359" tag="L">Es iss gewiss ke groosi Schand fa zafridda sei                               im     a kalda Land.</item>
+    <item id="c2" line="1360" tag="B"/>
+    <item id="c3" line="1361" tag="G">it   is      certainly nogreat       shame       for content be              in     a cold country</item>
+    <item id="c4" line="1362" tag="B"/>
+    <item id="c5" line="1363" tag="T">It's certainly no great shame to be content in a cold country.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:97]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:98]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:62]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29736">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1381-1385" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1381" tag="L">  (31)     a. Es     iss        net     dawaert, fier die Schteddla zu                saachen.</item>
+    <item id="o2" line="1382" tag="B"></item>
+    <item id="o3" line="1383" tag="G">              is     is         not     worth     for   the townfolk to               say</item>
+    <item id="o4" line="1384" tag="B"></item>
+    <item id="o5" line="1385" tag="T">              `It's not worth telling those not on the land.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1381" tag="L">Es     iss        net     dawaert, fier die Schteddla zu                saachen.</item>
+    <item id="c2" line="1382" tag="B"/>
+    <item id="c3" line="1383" tag="G">is     is         not     worth     for   the townfolk to               say</item>
+    <item id="c4" line="1384" tag="B"/>
+    <item id="c5" line="1385" tag="T">It's not worth telling those not on the land.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29737">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1389-1393" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1389" tag="L">           b. Waerr             es v'leicht dawaert, ferdes Ding                browiera.</item>
+    <item id="o2" line="1390" tag="B"></item>
+    <item id="o3" line="1391" tag="G">              would-be it perhaps worth                 for         the thing   try</item>
+    <item id="o4" line="1392" tag="B"></item>
+    <item id="o5" line="1393" tag="T">              `It'd perhaps be worth trying the thing.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1389" tag="L">Waerr             es v'leicht dawaert, ferdes Ding                browiera.</item>
+    <item id="c2" line="1390" tag="B"/>
+    <item id="c3" line="1391" tag="G">would-be it perhaps worth                 for         the thing   try</item>
+    <item id="c4" line="1392" tag="B"/>
+    <item id="c5" line="1393" tag="T">It'd perhaps be worth trying the thing.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29738">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1400-1404" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1400" tag="L">            c. Es    iss   nimmi     dawaert, Schulde zu      mache.</item>
+    <item id="o2" line="1401" tag="B"></item>
+    <item id="o3" line="1402" tag="G">               it    is    never     worth    debts     to    make</item>
+    <item id="o4" line="1403" tag="B"></item>
+    <item id="o5" line="1404" tag="T+AC">               `It is never worth making debts.'                            (Ben Sauder poems)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1400" tag="L">Es    iss   nimmi     dawaert, Schulde zu      mache.</item>
+    <item id="c2" line="1401" tag="B"/>
+    <item id="c3" line="1402" tag="G">it    is    never     worth    debts     to    make</item>
+    <item id="c4" line="1403" tag="B"/>
+    <item id="c5" line="1404" tag="T+AC">It is never worth making debts.'                            (Ben Sauder poems)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:78]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29739">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1430-1446" line-types="L B G B L B G B L B G B T B T B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1430" tag="L">  (32)         Noh huhd dah teacher ahls           die Susanah Weber eerah notebooch</item>
+    <item id="o2" line="1431" tag="B"></item>
+    <item id="o3" line="1432" tag="G">               then has    the teacher always the Susanah Weber her           notebook</item>
+    <item id="o4" line="1433" tag="B"></item>
+    <item id="o5" line="1434" tag="L">               gahvisah    fawah viesah       vee     shay    see      shriebd, oon noh</item>
+    <item id="o6" line="1435" tag="B"></item>
+    <item id="o7" line="1436" tag="G">               shown       for       show     how lovelyshe      writesand now</item>
+    <item id="o8" line="1437" tag="B"></item>
+    <item id="o9" line="1438" tag="L">               huhd see    aw      mie notebooch gahvisah,       fawah        mich tsoo shehmah.</item>
+    <item id="o10" line="1439" tag="B"></item>
+    <item id="o11" line="1440" tag="G">               has   she   also my      notebook      shown      for          me     to      shame</item>
+    <item id="o12" line="1441" tag="B"></item>
+    <item id="o13" line="1442" tag="T">               `Then the teacher always showed Susanah Weber's notebook to show how</item>
+    <item id="o14" line="1443" tag="B"></item>
+    <item id="o15" line="1444" tag="T">               lovely she writes, and then she also showed my notebook to shame me.'</item>
+    <item id="o16" line="1445" tag="B"></item>
+    <item id="o17" line="1446" tag="M+AC">                                                                              (Buehler 1977:89)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1430" tag="L">Noh huhd dah teacher ahls           die Susanah Weber eerah notebooch</item>
+    <item id="c2" line="1431" tag="B"/>
+    <item id="c3" line="1432" tag="G">then has    the teacher always the Susanah Weber her           notebook</item>
+    <item id="c4" line="1433" tag="B"/>
+    <item id="c5" line="1434" tag="L">gahvisah    fawah viesah       vee     shay    see      shriebd, oon noh</item>
+    <item id="c6" line="1435" tag="B"/>
+    <item id="c7" line="1436" tag="G">shown       for       show     how lovelyshe      writesand now</item>
+    <item id="c8" line="1437" tag="B"/>
+    <item id="c9" line="1438" tag="L">huhd see    aw      mie notebooch gahvisah,       fawah        mich tsoo shehmah.</item>
+    <item id="c10" line="1439" tag="B"/>
+    <item id="c11" line="1440" tag="G">has   she   also my      notebook      shown      for          me     to      shame</item>
+    <item id="c12" line="1441" tag="B"/>
+    <item id="c13" line="1442" tag="T">Then the teacher always showed Susanah Weber's notebook to show how</item>
+    <item id="c14" line="1443" tag="B"/>
+    <item id="c15" line="1444" tag="T">lovely she writes, and then she also showed my notebook to shame me.</item>
+    <item id="c16" line="1445" tag="B"/>
+    <item id="c17" line="1446" tag="M+AC">Buehler 1977:89</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+    <item id="p1" content="c5[0:72]"/>
+    <item id="p2" content="c9[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:71]" alignment="p1"/>
+    <item id="g1" content="c7[0:63]" alignment="p2"/>
+    <item id="g2" content="c11[0:83]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:67]" alignment="p3"/>
+    <item id="t1" content="c15[0:68]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i29740">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1456-1466" line-types="L B G B L B G B T B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1456" tag="L">  (33)     a. Des vawah        ah "SHAWDY" mahsheen, oon huhd ah rawd</item>
+    <item id="o2" line="1457" tag="B"></item>
+    <item id="o3" line="1458" tag="G">              this was         a Shade                machine        and has         a wheel</item>
+    <item id="o4" line="1459" tag="B"></item>
+    <item id="o5" line="1460" tag="L">              caht voo         mah drayah huhd missah tsoo vehshah.</item>
+    <item id="o6" line="1461" tag="B"></item>
+    <item id="o7" line="1462" tag="G">              had which        one turn          has       must to      wash.</item>
+    <item id="o8" line="1463" tag="B"></item>
+    <item id="o9" line="1464" tag="T">              `That was a Shade machine and (it) had a wheel which one had to turn in</item>
+    <item id="o10" line="1465" tag="B"></item>
+    <item id="o11" line="1466" tag="T+AC">              order to wash.'                                                         (Buehler 1977:93)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1456" tag="L">Des vawah        ah "SHAWDY" mahsheen, oon huhd ah rawd</item>
+    <item id="c2" line="1457" tag="B"/>
+    <item id="c3" line="1458" tag="G">this was         a Shade                machine        and has         a wheel</item>
+    <item id="c4" line="1459" tag="B"/>
+    <item id="c5" line="1460" tag="L">caht voo         mah drayah huhd missah tsoo vehshah.</item>
+    <item id="c6" line="1461" tag="B"/>
+    <item id="c7" line="1462" tag="G">had which        one turn          has       must to      wash.</item>
+    <item id="c8" line="1463" tag="B"/>
+    <item id="c9" line="1464" tag="T">That was a Shade machine and (it) had a wheel which one had to turn in</item>
+    <item id="c10" line="1465" tag="B"/>
+    <item id="c11" line="1466" tag="T+AC">order to wash.'                                                         (Buehler 1977:93)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+    <item id="p1" content="c5[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:78]" alignment="p1"/>
+    <item id="g1" content="c7[0:63]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:70]" alignment="p2"/>
+    <item id="t1" content="c11[0:89]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i29741">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1470-1474" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1470" tag="L">           b. ... ehb ich      bawahd oon nehgahl hahvah dairf dehs mahchah.</item>
+    <item id="o2" line="1471" tag="B"></item>
+    <item id="o3" line="1472" tag="G">              ... if     I     boards and nails              have       may this make</item>
+    <item id="o4" line="1473" tag="B"></item>
+    <item id="o5" line="1474" tag="T+AC">              `... if I could have some boards and nails to make this.'              (Buehler 1977:109)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1470" tag="L">... ehb ich      bawahd oon nehgahl hahvah dairf dehs mahchah.</item>
+    <item id="c2" line="1471" tag="B"/>
+    <item id="c3" line="1472" tag="G">if     I     boards and nails              have       may this make</item>
+    <item id="c4" line="1473" tag="B"/>
+    <item id="c5" line="1474" tag="T+AC">if I could have some boards and nails to make this.'              (Buehler 1977:109)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:84]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29742">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1484-1488" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1484" tag="L">  (34)     a. Ahs is hied hahd fawah ahn ahldey drehsh mahsheen tsoo finah.</item>
+    <item id="o2" line="1485" tag="B"></item>
+    <item id="o3" line="1486" tag="G">              it       is today hard for         an        old       thresh     machine        to   find</item>
+    <item id="o4" line="1487" tag="B"></item>
+    <item id="o5" line="1488" tag="T+AC">              `It is hard today to find an old threshing machine.'                    (Buehler 1977:95)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1484" tag="L">Ahs is hied hahd fawah ahn ahldey drehsh mahsheen tsoo finah.</item>
+    <item id="c2" line="1485" tag="B"/>
+    <item id="c3" line="1486" tag="G">it       is today hard for         an        old       thresh     machine        to   find</item>
+    <item id="c4" line="1487" tag="B"/>
+    <item id="c5" line="1488" tag="T+AC">It is hard today to find an old threshing machine.'                    (Buehler 1977:95)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:90]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:88]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29743">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1492-1496" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1492" tag="L">           b. Dehsvawah        kshbahs fawah oof             dee trolleys gay.</item>
+    <item id="o2" line="1493" tag="B"></item>
+    <item id="o3" line="1494" tag="G">              it       was     fun         for        on     the     trolley    go</item>
+    <item id="o4" line="1495" tag="B"></item>
+    <item id="o5" line="1496" tag="T+AC">              `It was fun to go on the trolleys.'                                     (Buehler 1977:93)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1492" tag="L">Dehsvawah        kshbahs fawah oof             dee trolleys gay.</item>
+    <item id="c2" line="1493" tag="B"/>
+    <item id="c3" line="1494" tag="G">it       was     fun         for        on     the     trolley    go</item>
+    <item id="c4" line="1495" tag="B"/>
+    <item id="c5" line="1496" tag="T+AC">It was fun to go on the trolleys.'                                     (Buehler 1977:93)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:88]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29744">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1500-1504" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1500" tag="L">           c. See vawrah froh              mich tsoo saynah.</item>
+    <item id="o2" line="1501" tag="B"></item>
+    <item id="o3" line="1502" tag="G">              they were        happy       me    to        see</item>
+    <item id="o4" line="1503" tag="B"></item>
+    <item id="o5" line="1504" tag="T+AC">              `They were happy to see me.'                                           (Buehler 1977:111)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1500" tag="L">See vawrah froh              mich tsoo saynah.</item>
+    <item id="c2" line="1501" tag="B"/>
+    <item id="c3" line="1502" tag="G">they were        happy       me    to        see</item>
+    <item id="c4" line="1503" tag="B"/>
+    <item id="c5" line="1504" tag="T+AC">They were happy to see me.'                                           (Buehler 1977:111)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:88]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29745">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1510-1514" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1510" tag="L">            d. See vawrah surprised        fah    mich saynah.</item>
+    <item id="o2" line="1511" tag="B"></item>
+    <item id="o3" line="1512" tag="G">               they were       surprised   for    me    see</item>
+    <item id="o4" line="1513" tag="B"></item>
+    <item id="o5" line="1514" tag="T+AC">               `They were surprised to see me.'                            (Buehler 1977:115)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1510" tag="L">See vawrah surprised        fah    mich saynah.</item>
+    <item id="c2" line="1511" tag="B"/>
+    <item id="c3" line="1512" tag="G">they were       surprised   for    me    see</item>
+    <item id="c4" line="1513" tag="B"/>
+    <item id="c5" line="1514" tag="T+AC">They were surprised to see me.'                            (Buehler 1977:115)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:77]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29746">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1560-1564" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1560" tag="L">  (35)      a. Fer datt anner        laafe waer         sadde     dumm.</item>
+    <item id="o2" line="1561" tag="B"></item>
+    <item id="o3" line="1562" tag="G">               for    there towards walk would-be       sort-of stupid</item>
+    <item id="o4" line="1563" tag="B"></item>
+    <item id="o5" line="1564" tag="T">               `To walk there would be sort of stupid.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1560" tag="L">Fer datt anner        laafe waer         sadde     dumm.</item>
+    <item id="c2" line="1561" tag="B"/>
+    <item id="c3" line="1562" tag="G">for    there towards walk would-be       sort-of stupid</item>
+    <item id="c4" line="1563" tag="B"/>
+    <item id="c5" line="1564" tag="T">To walk there would be sort of stupid.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29747">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1571-1575" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1571" tag="L">            b. Eswaer hatt uff        ien    feruns        sene gee.</item>
+    <item id="o2" line="1572" tag="B"></item>
+    <item id="o3" line="1573" tag="G">               it was hard on         him for         us         see   go</item>
+    <item id="o4" line="1574" tag="B"></item>
+    <item id="o5" line="1575" tag="T">               `It was hard on him to see us go.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1571" tag="L">Eswaer hatt uff        ien    feruns        sene gee.</item>
+    <item id="c2" line="1572" tag="B"/>
+    <item id="c3" line="1573" tag="G">it was hard on         him for         us         see   go</item>
+    <item id="c4" line="1574" tag="B"/>
+    <item id="c5" line="1575" tag="T">It was hard on him to see us go.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29748">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1589-1593" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1589" tag="L">  (36)      a. Ich hab fufzich kieh fermelge</item>
+    <item id="o2" line="1590" tag="B"></item>
+    <item id="o3" line="1591" tag="G">               I     have fifty       cows for        milk</item>
+    <item id="o4" line="1592" tag="B"></item>
+    <item id="o5" line="1593" tag="T">               `I have fifty cows to milk.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1589" tag="L">Ich hab fufzich kieh fermelge</item>
+    <item id="c2" line="1590" tag="B"/>
+    <item id="c3" line="1591" tag="G">I     have fifty       cows for        milk</item>
+    <item id="c4" line="1592" tag="B"/>
+    <item id="c5" line="1593" tag="T">I have fifty cows to milk.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29749">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1597-1601" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1597" tag="L">            b. Ich hab alsnoch zwee brief                  ferschreiwe</item>
+    <item id="o2" line="1598" tag="B"></item>
+    <item id="o3" line="1599" tag="G">               I     have as still two letters             for     write</item>
+    <item id="o4" line="1600" tag="B"></item>
+    <item id="o5" line="1601" tag="T">               `I still have two letters to write.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1597" tag="L">Ich hab alsnoch zwee brief                  ferschreiwe</item>
+    <item id="c2" line="1598" tag="B"/>
+    <item id="c3" line="1599" tag="G">I     have as still two letters             for     write</item>
+    <item id="c4" line="1600" tag="B"/>
+    <item id="c5" line="1601" tag="T">I still have two letters to write.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29750">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1605-1609" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1605" tag="L">  (37)      a. Des buch war interesting ferlese</item>
+    <item id="o2" line="1606" tag="B"></item>
+    <item id="o3" line="1607" tag="G">               this book was        interesting to         read</item>
+    <item id="o4" line="1608" tag="B"></item>
+    <item id="o5" line="1609" tag="T">               `This book was interesting to read.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1605" tag="L">Des buch war interesting ferlese</item>
+    <item id="c2" line="1606" tag="B"/>
+    <item id="c3" line="1607" tag="G">this book was        interesting to         read</item>
+    <item id="c4" line="1608" tag="B"/>
+    <item id="c5" line="1609" tag="T">This book was interesting to read.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29751">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1613-1617" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1613" tag="L">            b. Sie waar e bissel          e hatte fraa             ferlewwe        mit.</item>
+    <item id="o2" line="1614" tag="B"></item>
+    <item id="o3" line="1615" tag="G">               she   was a bit            a hard woman for                  live      with</item>
+    <item id="o4" line="1616" tag="B"></item>
+    <item id="o5" line="1617" tag="T">               `She was a bit of a difficult woman to live with.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1613" tag="L">Sie waar e bissel          e hatte fraa             ferlewwe        mit.</item>
+    <item id="c2" line="1614" tag="B"/>
+    <item id="c3" line="1615" tag="G">she   was a bit            a hard woman for                  live      with</item>
+    <item id="c4" line="1616" tag="B"/>
+    <item id="c5" line="1617" tag="T">She was a bit of a difficult woman to live with.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29752">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1623-1627" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1623" tag="L">            c. Ich bin     verschtaunt ferdich sene do.</item>
+    <item id="o2" line="1624" tag="B"></item>
+    <item id="o3" line="1625" tag="G">               I     am    astonished for       you see             here</item>
+    <item id="o4" line="1626" tag="B"></item>
+    <item id="o5" line="1627" tag="T">               `I am astonished to see you here.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1623" tag="L">Ich bin     verschtaunt ferdich sene do.</item>
+    <item id="c2" line="1624" tag="B"/>
+    <item id="c3" line="1625" tag="G">I     am    astonished for       you see             here</item>
+    <item id="c4" line="1626" tag="B"/>
+    <item id="c5" line="1627" tag="T">I am astonished to see you here.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29753">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1639-1643" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1639" tag="L">  (38)      a. Ich hab versproche feriem helfe.</item>
+    <item id="o2" line="1640" tag="B"></item>
+    <item id="o3" line="1641" tag="G">               I     have promised      for     him help</item>
+    <item id="o4" line="1642" tag="B"></item>
+    <item id="o5" line="1643" tag="T">               `I promised to help him.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1639" tag="L">Ich hab versproche feriem helfe.</item>
+    <item id="c2" line="1640" tag="B"/>
+    <item id="c3" line="1641" tag="G">I     have promised      for     him help</item>
+    <item id="c4" line="1642" tag="B"/>
+    <item id="c5" line="1643" tag="T">I promised to help him.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29754">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1647-1651" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1647" tag="L">            b. No    hot   sie   so hatt browiert feralles                  sauwer halde.</item>
+    <item id="o2" line="1648" tag="B"></item>
+    <item id="o3" line="1649" tag="G">               then has    she   so hard tried           for        everything clean   keep</item>
+    <item id="o4" line="1650" tag="B"></item>
+    <item id="o5" line="1651" tag="T">               `Then she tried so hard to keep everything clean.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1647" tag="L">No    hot   sie   so hatt browiert feralles                  sauwer halde.</item>
+    <item id="c2" line="1648" tag="B"/>
+    <item id="c3" line="1649" tag="G">then has    she   so hard tried           for        everything clean   keep</item>
+    <item id="c4" line="1650" tag="B"/>
+    <item id="c5" line="1651" tag="T">Then she tried so hard to keep everything clean.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29755">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1655-1659" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1655" tag="L">            c. Ich hab g'denkt ferin schteddel                 gee.</item>
+    <item id="o2" line="1656" tag="B"></item>
+    <item id="o3" line="1657" tag="G">               I     have thought for         in town               go</item>
+    <item id="o4" line="1658" tag="B"></item>
+    <item id="o5" line="1659" tag="T">               `I thought of going into town.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1655" tag="L">Ich hab g'denkt ferin schteddel                 gee.</item>
+    <item id="c2" line="1656" tag="B"/>
+    <item id="c3" line="1657" tag="G">I     have thought for         in town               go</item>
+    <item id="c4" line="1658" tag="B"/>
+    <item id="c5" line="1659" tag="T">I thought of going into town.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29756">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1663-1667" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1663" tag="L">  (39)      a. Ich hab ien       verschwetzt       fergeh.</item>
+    <item id="o2" line="1664" tag="B"></item>
+    <item id="o3" line="1665" tag="G">               I     have him persuaded            for         go</item>
+    <item id="o4" line="1666" tag="B"></item>
+    <item id="o5" line="1667" tag="T">               `I persuaded him to go.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1663" tag="L">Ich hab ien       verschwetzt       fergeh.</item>
+    <item id="c2" line="1664" tag="B"/>
+    <item id="c3" line="1665" tag="G">I     have him persuaded            for         go</item>
+    <item id="c4" line="1666" tag="B"/>
+    <item id="c5" line="1667" tag="T">I persuaded him to go.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29757">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1671-1675" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1671" tag="L">            b. Sie ecschpect dich fer           kumme frie</item>
+    <item id="o2" line="1672" tag="B"></item>
+    <item id="o3" line="1673" tag="G">               she   expects     you for        come           early</item>
+    <item id="o4" line="1674" tag="B"></item>
+    <item id="o5" line="1675" tag="T">               `She expects you to come early.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1671" tag="L">Sie ecschpect dich fer           kumme frie</item>
+    <item id="c2" line="1672" tag="B"/>
+    <item id="c3" line="1673" tag="G">she   expects     you for        come           early</item>
+    <item id="c4" line="1674" tag="B"/>
+    <item id="c5" line="1675" tag="T">She expects you to come early.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29758">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1689-1693" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1689" tag="L">  (40)      a. Erscheint feren ehrliche man sei.</item>
+    <item id="o2" line="1690" tag="B"></item>
+    <item id="o3" line="1691" tag="G">               he seems    for    an honest man be</item>
+    <item id="o4" line="1692" tag="B"></item>
+    <item id="o5" line="1693" tag="T">               `He seems to be an honest man.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1689" tag="L">Erscheint feren ehrliche man sei.</item>
+    <item id="c2" line="1690" tag="B"/>
+    <item id="c3" line="1691" tag="G">he seems    for    an honest man be</item>
+    <item id="c4" line="1692" tag="B"/>
+    <item id="c5" line="1693" tag="T">He seems to be an honest man.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29759">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1697-1701" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1697" tag="L">            b. Ich hab ien        als       ghalde fere bissel arm       sei.</item>
+    <item id="o2" line="1698" tag="B"></item>
+    <item id="o3" line="1699" tag="G">               I     have him always held            for    a little stupid be</item>
+    <item id="o4" line="1700" tag="B"></item>
+    <item id="o5" line="1701" tag="T">               `I've always considered him to be a little bit thick.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1697" tag="L">Ich hab ien        als       ghalde fere bissel arm       sei.</item>
+    <item id="c2" line="1698" tag="B"/>
+    <item id="c3" line="1699" tag="G">I     have him always held            for    a little stupid be</item>
+    <item id="c4" line="1700" tag="B"/>
+    <item id="c5" line="1701" tag="T">I've always considered him to be a little bit thick.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29760">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1723-1733" line-types="L B G B L B G B T B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1723" tag="L">  (41)      a. Oof dee nehggschdah pages             villich   brahveerah mie</item>
+    <item id="o2" line="1724" tag="B"></item>
+    <item id="o3" line="1725" tag="G">               on    the   next             pages    will I       try            my</item>
+    <item id="o4" line="1726" tag="B"></item>
+    <item id="o5" line="1727" tag="L">               autobiographey gehvah.</item>
+    <item id="o6" line="1728" tag="B"></item>
+    <item id="o7" line="1729" tag="G">               autobiography      give</item>
+    <item id="o8" line="1730" tag="B"></item>
+    <item id="o9" line="1731" tag="T">               `On the following pages I will try to present my autobiography.'</item>
+    <item id="o10" line="1732" tag="B"></item>
+    <item id="o11" line="1733" tag="M+AC">                                                                                (Buehler 1977:85)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1723" tag="L">Oof dee nehggschdah pages             villich   brahveerah mie</item>
+    <item id="c2" line="1724" tag="B"/>
+    <item id="c3" line="1725" tag="G">on    the   next             pages    will I       try            my</item>
+    <item id="c4" line="1726" tag="B"/>
+    <item id="c5" line="1727" tag="L">autobiographey gehvah.</item>
+    <item id="c6" line="1728" tag="B"/>
+    <item id="c7" line="1729" tag="G">autobiography      give</item>
+    <item id="c8" line="1730" tag="B"/>
+    <item id="c9" line="1731" tag="T">On the following pages I will try to present my autobiography.</item>
+    <item id="c10" line="1732" tag="B"/>
+    <item id="c11" line="1733" tag="M+AC">Buehler 1977:85</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+    <item id="p1" content="c5[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:68]" alignment="p1"/>
+    <item id="g1" content="c7[0:23]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:62]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i29761">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1739-1743" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1739" tag="L">            b. .... ahgahbohd,          voo           see    brahveerah tsoo hahldah</item>
+    <item id="o2" line="1740" tag="B"></item>
+    <item id="o3" line="1741" tag="G">               .... a     commandment         whichthey try                to    uphold</item>
+    <item id="o4" line="1742" tag="B"></item>
+    <item id="o5" line="1743" tag="T">               `.... a commandment which they try to uphold'                         (Buehler 1977:97)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1739" tag="L">.... ahgahbohd,          voo           see    brahveerah tsoo hahldah</item>
+    <item id="c2" line="1740" tag="B"/>
+    <item id="c3" line="1741" tag="G">a     commandment         whichthey try                to    uphold</item>
+    <item id="c4" line="1742" tag="B"/>
+    <item id="c5" line="1743" tag="T">a commandment which they try to uphold'                         (Buehler 1977:97)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:81]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29762">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1747-1751" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1747" tag="L">            c. Erhot      brawiert feriwwerdie fens          tschumbe.</item>
+    <item id="o2" line="1748" tag="B"></item>
+    <item id="o3" line="1749" tag="G">               he has     tried   for   over          the fence     jump</item>
+    <item id="o4" line="1750" tag="B"></item>
+    <item id="o5" line="1751" tag="T+AC">               `He tried to jump over the fence.'                 (Buehler's collected sentences; nd)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1747" tag="L">Erhot      brawiert feriwwerdie fens          tschumbe.</item>
+    <item id="c2" line="1748" tag="B"/>
+    <item id="c3" line="1749" tag="G">he has     tried   for   over          the fence     jump</item>
+    <item id="c4" line="1750" tag="B"/>
+    <item id="c5" line="1751" tag="T+AC">He tried to jump over the fence.'                 (Buehler's collected sentences; nd)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:85]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29763">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1765-1769" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1765" tag="L">  (42)      a. Deedscht du        gleiche feren teacher sei              een daag?</item>
+    <item id="o2" line="1766" tag="B"></item>
+    <item id="o3" line="1767" tag="G">               would         you like         for     a teacher     be     one day</item>
+    <item id="o4" line="1768" tag="B"></item>
+    <item id="o5" line="1769" tag="T">               `Would you like to be a teacher one day?' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1765" tag="L">Deedscht du        gleiche feren teacher sei              een daag?</item>
+    <item id="c2" line="1766" tag="B"/>
+    <item id="c3" line="1767" tag="G">would         you like         for     a teacher     be     one day</item>
+    <item id="c4" line="1768" tag="B"/>
+    <item id="c5" line="1769" tag="T">Would you like to be a teacher one day?' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29764">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1773-1777" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1773" tag="L">            b. Ich hett gaen            ferdich bei          zeit kumme hawwe.</item>
+    <item id="o2" line="1774" tag="B"></item>
+    <item id="o3" line="1775" tag="G">               I        had willingly   for         you in        time come      have</item>
+    <item id="o4" line="1776" tag="B"></item>
+    <item id="o5" line="1777" tag="T">               `I would like to have you come in time/I'd like you not to be late.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1773" tag="L">Ich hett gaen            ferdich bei          zeit kumme hawwe.</item>
+    <item id="c2" line="1774" tag="B"/>
+    <item id="c3" line="1775" tag="G">I        had willingly   for         you in        time come      have</item>
+    <item id="c4" line="1776" tag="B"/>
+    <item id="c5" line="1777" tag="T">I would like to have you come in time/I'd like you not to be late.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:78]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29765">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1793-1797" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1793" tag="L">  (43)         Ich hab ien            gsehne ferdie             daer reikumme.</item>
+    <item id="o2" line="1794" tag="B"></item>
+    <item id="o3" line="1795" tag="G">               I         have him seen               for     the   door in-come</item>
+    <item id="o4" line="1796" tag="B"></item>
+    <item id="o5" line="1797" tag="T">               `I saw him coming through the door.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1793" tag="L">Ich hab ien            gsehne ferdie             daer reikumme.</item>
+    <item id="c2" line="1794" tag="B"/>
+    <item id="c3" line="1795" tag="G">I         have him seen               for     the   door in-come</item>
+    <item id="c4" line="1796" tag="B"/>
+    <item id="c5" line="1797" tag="T">I saw him coming through the door.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29766">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1823-1827" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1823" tag="L">  (44)         Es        muss schee      sei         fer     nix        zu        duh hawwe.</item>
+    <item id="o2" line="1824" tag="B"></item>
+    <item id="o3" line="1825" tag="G">               it        must lovelybe         for         nothing to        do     have</item>
+    <item id="o4" line="1826" tag="B"></item>
+    <item id="o5" line="1827" tag="T">               `It must be lovely to have nothing to do.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1823" tag="L">Es        muss schee      sei         fer     nix        zu        duh hawwe.</item>
+    <item id="c2" line="1824" tag="B"/>
+    <item id="c3" line="1825" tag="G">it        must lovelybe         for         nothing to        do     have</item>
+    <item id="c4" line="1826" tag="B"/>
+    <item id="c5" line="1827" tag="T">It must be lovely to have nothing to do.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29767">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1845-1853" line-types="L B G B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1845" tag="L">  (45)         Sie hot        nimmi     gewisst was zu     mache; sie      waar</item>
+    <item id="o2" line="1846" tag="B"></item>
+    <item id="o3" line="1847" tag="G">               she      has   never     known what to      do        she   was</item>
+    <item id="o4" line="1848" tag="B"></item>
+    <item id="o5" line="1849" tag="L">               am         end vun ierembendel.</item>
+    <item id="o6" line="1850" tag="B"></item>
+    <item id="o7" line="1851" tag="G">               at.the     end of        her   cord</item>
+    <item id="o8" line="1852" tag="B"></item>
+    <item id="o9" line="1853" tag="T">               `She never knew what to do; she was at the end of her tether.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1845" tag="L">Sie hot        nimmi     gewisst was zu     mache; sie      waar</item>
+    <item id="c2" line="1846" tag="B"/>
+    <item id="c3" line="1847" tag="G">she      has   never     known what to      do        she   was</item>
+    <item id="c4" line="1848" tag="B"/>
+    <item id="c5" line="1849" tag="L">am         end vun ierembendel.</item>
+    <item id="c6" line="1850" tag="B"/>
+    <item id="c7" line="1851" tag="G">at.the     end of        her   cord</item>
+    <item id="c8" line="1852" tag="B"/>
+    <item id="c9" line="1853" tag="T">She never knew what to do; she was at the end of her tether.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+    <item id="p1" content="c5[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+    <item id="g1" content="c7[0:35]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:60]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i29768">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1865-1869" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1865" tag="L">  (46)      a. Erscheint en ehrliche man zu sei.</item>
+    <item id="o2" line="1866" tag="B"></item>
+    <item id="o3" line="1867" tag="G">               he seems       an honest man to be</item>
+    <item id="o4" line="1868" tag="B"></item>
+    <item id="o5" line="1869" tag="T">               `He seems to be an honest man.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1865" tag="L">Erscheint en ehrliche man zu sei.</item>
+    <item id="c2" line="1866" tag="B"/>
+    <item id="c3" line="1867" tag="G">he seems       an honest man to be</item>
+    <item id="c4" line="1868" tag="B"/>
+    <item id="c5" line="1869" tag="T">He seems to be an honest man.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29769">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1873-1877" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1873" tag="L">            b. Erscheint feren ehrliche man sei.</item>
+    <item id="o2" line="1874" tag="B"></item>
+    <item id="o3" line="1875" tag="G">               he seems       for     an honest man be</item>
+    <item id="o4" line="1876" tag="B"></item>
+    <item id="o5" line="1877" tag="T">               `He seems to be an honest man.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1873" tag="L">Erscheint feren ehrliche man sei.</item>
+    <item id="c2" line="1874" tag="B"/>
+    <item id="c3" line="1875" tag="G">he seems       for     an honest man be</item>
+    <item id="c4" line="1876" tag="B"/>
+    <item id="c5" line="1877" tag="T">He seems to be an honest man.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29770">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1943-1947" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1943" tag="L">  (48)      a. Soh dahn in April 1912 hahvich awfahngah shahfah                  als     gnehcht.</item>
+    <item id="o2" line="1944" tag="B"></item>
+    <item id="o3" line="1945" tag="G">               so    then in April 1912 have.Ibegun            work.inf     as         hired man</item>
+    <item id="o4" line="1946" tag="B"></item>
+    <item id="o5" line="1947" tag="T">               `So then in April 1912 I began working as a hired man.' (p. 111)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1943" tag="L">Soh dahn in April 1912 hahvich awfahngah shahfah                  als     gnehcht.</item>
+    <item id="c2" line="1944" tag="B"/>
+    <item id="c3" line="1945" tag="G">so    then in April 1912 have.Ibegun            work.inf     as         hired man</item>
+    <item id="c4" line="1946" tag="B"/>
+    <item id="c5" line="1947" tag="T">So then in April 1912 I began working as a hired man.' (p. 111)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:81]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:63]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29771">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1953-1957" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1953" tag="L">            b. Dah gasoline enginehuhd yehts awfahgnah tsoo gahbrowcht             vairah.</item>
+    <item id="o2" line="1954" tag="B"></item>
+    <item id="o3" line="1955" tag="G">               The gasoline engine has      now begun        to     used           be</item>
+    <item id="o4" line="1956" tag="B"></item>
+    <item id="o5" line="1957" tag="T">               `The gasoline engine now began to be used.' (p. 95)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1953" tag="L">Dah gasoline enginehuhd yehts awfahgnah tsoo gahbrowcht             vairah.</item>
+    <item id="c2" line="1954" tag="B"/>
+    <item id="c3" line="1955" tag="G">The gasoline engine has      now begun        to     used           be</item>
+    <item id="c4" line="1956" tag="B"/>
+    <item id="c5" line="1957" tag="T">The gasoline engine now began to be used.' (p. 95)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29772">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="1975-1979" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1975" tag="L">  (49)      a. Ich hab's       kind ghaert     heile.</item>
+    <item id="o2" line="1976" tag="B"></item>
+    <item id="o3" line="1977" tag="G">               I     have.the child heard      cry</item>
+    <item id="o4" line="1978" tag="B"></item>
+    <item id="o5" line="1979" tag="T">               `I heard the child crying.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1975" tag="L">Ich hab's       kind ghaert     heile.</item>
+    <item id="c2" line="1976" tag="B"/>
+    <item id="c3" line="1977" tag="G">I     have.the child heard      cry</item>
+    <item id="c4" line="1978" tag="B"/>
+    <item id="c5" line="1979" tag="T">I heard the child crying.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29773">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2031-2035" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2031" tag="L">  (50)         Ich hab thirty kieh zu          melge.</item>
+    <item id="o2" line="2032" tag="B"></item>
+    <item id="o3" line="2033" tag="G">               I      have thirty cows to      milk</item>
+    <item id="o4" line="2034" tag="B"></item>
+    <item id="o5" line="2035" tag="T">               `I have thirty cows to milk.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2031" tag="L">Ich hab thirty kieh zu          melge.</item>
+    <item id="c2" line="2032" tag="B"/>
+    <item id="c3" line="2033" tag="G">I      have thirty cows to      milk</item>
+    <item id="c4" line="2034" tag="B"/>
+    <item id="c5" line="2035" tag="T">I have thirty cows to milk.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29774">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2077-2081" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2077" tag="L">  (52)         Ich hab a hunnert doller            tax   zu    bezahle.</item>
+    <item id="o2" line="2078" tag="B"></item>
+    <item id="o3" line="2079" tag="G">               I     have a hundred dollar         tax   to    pay</item>
+    <item id="o4" line="2080" tag="B"></item>
+    <item id="o5" line="2081" tag="T">               `I have one hundred dollars tax to pay.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2077" tag="L">Ich hab a hunnert doller            tax   zu    bezahle.</item>
+    <item id="c2" line="2078" tag="B"/>
+    <item id="c3" line="2079" tag="G">I     have a hundred dollar         tax   to    pay</item>
+    <item id="c4" line="2080" tag="B"/>
+    <item id="c5" line="2081" tag="T">I have one hundred dollars tax to pay.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29775">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2093-2097" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2093" tag="L">  (53)         Ich hab e hunnert acker frucht            ferdresche.</item>
+    <item id="o2" line="2094" tag="B"></item>
+    <item id="o3" line="2095" tag="G">               I     have a hundred acres grain          for   thresh</item>
+    <item id="o4" line="2096" tag="B"></item>
+    <item id="o5" line="2097" tag="T">               `I have a hundred acres of grain to thresh.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2093" tag="L">Ich hab e hunnert acker frucht            ferdresche.</item>
+    <item id="c2" line="2094" tag="B"/>
+    <item id="c3" line="2095" tag="G">I     have a hundred acres grain          for   thresh</item>
+    <item id="c4" line="2096" tag="B"/>
+    <item id="c5" line="2097" tag="T">I have a hundred acres of grain to thresh.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29776">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2111-2119" line-types="L B G B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2111" tag="L">  (54)         Ich hab forty kieh zu          melge</item>
+    <item id="o2" line="2112" tag="B"></item>
+    <item id="o3" line="2113" tag="G">               I     have forty cows to       milk</item>
+    <item id="o4" line="2114" tag="B"></item>
+    <item id="o5" line="2115" tag="L">               un    hab zwee man fermich helfe.</item>
+    <item id="o6" line="2116" tag="B"></item>
+    <item id="o7" line="2117" tag="G">               and have two men for           me       help</item>
+    <item id="o8" line="2118" tag="B"></item>
+    <item id="o9" line="2119" tag="T">               `I have forty cows to milk and have two hired men to help me.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2111" tag="L">Ich hab forty kieh zu          melge</item>
+    <item id="c2" line="2112" tag="B"/>
+    <item id="c3" line="2113" tag="G">I     have forty cows to       milk</item>
+    <item id="c4" line="2114" tag="B"/>
+    <item id="c5" line="2115" tag="L">un    hab zwee man fermich helfe.</item>
+    <item id="c6" line="2116" tag="B"/>
+    <item id="c7" line="2117" tag="G">and have two men for           me       help</item>
+    <item id="c8" line="2118" tag="B"/>
+    <item id="c9" line="2119" tag="T">I have forty cows to milk and have two hired men to help me.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+    <item id="p1" content="c5[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p1"/>
+    <item id="g1" content="c7[0:44]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:72]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i29777">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2145-2149" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2145" tag="L">  (55)      a. Erhelft mich de           kieh melge.</item>
+    <item id="o2" line="2146" tag="B"></item>
+    <item id="o3" line="2147" tag="G">                he helps me      the     cows milk</item>
+    <item id="o4" line="2148" tag="B"></item>
+    <item id="o5" line="2149" tag="T">                `He's helping me milk the cows.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2145" tag="L">Erhelft mich de           kieh melge.</item>
+    <item id="c2" line="2146" tag="B"/>
+    <item id="c3" line="2147" tag="G">he helps me      the     cows milk</item>
+    <item id="c4" line="2148" tag="B"/>
+    <item id="c5" line="2149" tag="T">He's helping me milk the cows.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29778">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2153-2157" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2153" tag="L">            b. Eskennt        helfe ferihn    besser    behaeve.</item>
+    <item id="o2" line="2154" tag="B"></item>
+    <item id="o3" line="2155" tag="G">                it could      help for     him better     behave</item>
+    <item id="o4" line="2156" tag="B"></item>
+    <item id="o5" line="2157" tag="T">                `It could help him to behave better.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2153" tag="L">Eskennt        helfe ferihn    besser    behaeve.</item>
+    <item id="c2" line="2154" tag="B"/>
+    <item id="c3" line="2155" tag="G">it could      help for     him better     behave</item>
+    <item id="c4" line="2156" tag="B"/>
+    <item id="c5" line="2157" tag="T">It could help him to behave better.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29779">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2175-2179" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2175" tag="L">  (56)          Ich gleich       zu leit      schwetze.</item>
+    <item id="o2" line="2176" tag="B"></item>
+    <item id="o3" line="2177" tag="G">                I      like      to people talk</item>
+    <item id="o4" line="2178" tag="B"></item>
+    <item id="o5" line="2179" tag="T">                `I like talking to people.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2175" tag="L">Ich gleich       zu leit      schwetze.</item>
+    <item id="c2" line="2176" tag="B"/>
+    <item id="c3" line="2177" tag="G">I      like      to people talk</item>
+    <item id="c4" line="2178" tag="B"/>
+    <item id="c5" line="2179" tag="T">I like talking to people.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29780">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2192-2196" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2192" tag="L">  (57)         Ich really           deed         gleiche fere tiescher         sei.</item>
+    <item id="o2" line="2193" tag="B"></item>
+    <item id="o3" line="2194" tag="G">               I      really        would        like      for   a teacher        be</item>
+    <item id="o4" line="2195" tag="B"></item>
+    <item id="o5" line="2196" tag="T">               `I would really like to be a teacher.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2192" tag="L">Ich really           deed         gleiche fere tiescher         sei.</item>
+    <item id="c2" line="2193" tag="B"/>
+    <item id="c3" line="2194" tag="G">I      really        would        like      for   a teacher        be</item>
+    <item id="c4" line="2195" tag="B"/>
+    <item id="c5" line="2196" tag="T">I would really like to be a teacher.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29781">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2206-2210" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2206" tag="L">  (58)         ?Deedscht du           gleiche fere kobbli kaffee               hawwe.</item>
+    <item id="o2" line="2207" tag="B"></item>
+    <item id="o3" line="2208" tag="G">                   would       you like             for    a cup coffe            have</item>
+    <item id="o4" line="2209" tag="B"></item>
+    <item id="o5" line="2210" tag="T">               `Would you like to have a cup of coffee.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2206" tag="L">?Deedscht du           gleiche fere kobbli kaffee               hawwe.</item>
+    <item id="c2" line="2207" tag="B"/>
+    <item id="c3" line="2208" tag="G">would       you like             for    a cup coffe            have</item>
+    <item id="c4" line="2209" tag="B"/>
+    <item id="c5" line="2210" tag="T">Would you like to have a cup of coffee.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29782">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2230-2234" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2230" tag="L">  (59)      a. Ich bin         am          brawiereDeitsch laenne.</item>
+    <item id="o2" line="2231" tag="B"></item>
+    <item id="o3" line="2232" tag="G">               I      am       on.the      try            PG     learn</item>
+    <item id="o4" line="2233" tag="B"></item>
+    <item id="o5" line="2234" tag="T">               `I am trying to learn Pennsylvania German.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2230" tag="L">Ich bin         am          brawiereDeitsch laenne.</item>
+    <item id="c2" line="2231" tag="B"/>
+    <item id="c3" line="2232" tag="G">I      am       on.the      try            PG     learn</item>
+    <item id="c4" line="2233" tag="B"/>
+    <item id="c5" line="2234" tag="T">I am trying to learn Pennsylvania German.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29783">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2236-2240" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2236" tag="L">            b. Ich bin         really hatt am              brawiere      ferDeitsch laenne.</item>
+    <item id="o2" line="2237" tag="B"></item>
+    <item id="o3" line="2238" tag="G">               I      am       really hard on.the          try           for      PG     learn</item>
+    <item id="o4" line="2239" tag="B"></item>
+    <item id="o5" line="2240" tag="T">               `I am really trying hard to learn Pennsylvania German.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2236" tag="L">Ich bin         really hatt am              brawiere      ferDeitsch laenne.</item>
+    <item id="c2" line="2237" tag="B"/>
+    <item id="c3" line="2238" tag="G">I      am       really hard on.the          try           for      PG     learn</item>
+    <item id="c4" line="2239" tag="B"/>
+    <item id="c5" line="2240" tag="T">I am really trying hard to learn Pennsylvania German.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:79]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29784">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2364-2368" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2364" tag="L">  (61)             [Ekind waar in de schtor       g'schickt    [ fer     rode peffer]] [zu kaafe]</item>
+    <item id="o2" line="2365" tag="B"></item>
+    <item id="o3" line="2366" tag="G">                    achild was in the store       sent          for      red pepper         to    buy</item>
+    <item id="o4" line="2367" tag="B"></item>
+    <item id="o5" line="2368" tag="T">                   `A child was sent to the store for red pepper, to buy (it).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2364" tag="L">[Ekind waar in de schtor       g'schickt    [ fer     rode peffer]] [zu kaafe]</item>
+    <item id="c2" line="2365" tag="B"/>
+    <item id="c3" line="2366" tag="G">achild was in the store       sent          for      red pepper         to    buy</item>
+    <item id="c4" line="2367" tag="B"/>
+    <item id="c5" line="2368" tag="T">A child was sent to the store for red pepper, to buy (it).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:81]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29785">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2384-2388" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2384" tag="L">  (61')            [E kind waar in de schtor      g'schickt] [fer [rode peffer          zu kaafe]]</item>
+    <item id="o2" line="2385" tag="B"></item>
+    <item id="o3" line="2386" tag="G">                   a child was in the store       sent          for    red pepper       to buy</item>
+    <item id="o4" line="2387" tag="B"></item>
+    <item id="o5" line="2388" tag="T">                   `A child was sent to the store (for) to buy red pepper'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2384" tag="L">[E kind waar in de schtor      g'schickt] [fer [rode peffer          zu kaafe]]</item>
+    <item id="c2" line="2385" tag="B"/>
+    <item id="c3" line="2386" tag="G">a child was in the store       sent          for    red pepper       to buy</item>
+    <item id="c4" line="2387" tag="B"/>
+    <item id="c5" line="2388" tag="T">A child was sent to the store (for) to buy red pepper</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29786">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2398-2402" line-types="L B G B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2398" tag="L">  (62)         Ich bin heit      rooner kooma for        tsu   sana weaga         a wennich bisness.</item>
+    <item id="o2" line="2399" tag="B"></item>
+    <item id="o3" line="2400" tag="G">               I    am today down come            for    to    see     about      a little business</item>
+    <item id="o4" line="2401" tag="B"></item>
+    <item id="o5" line="2402" tag="T+AC">               `I came down today to see about some business.'                      (Horne 1905:157)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2398" tag="L">Ich bin heit      rooner kooma for        tsu   sana weaga         a wennich bisness.</item>
+    <item id="c2" line="2399" tag="B"/>
+    <item id="c3" line="2400" tag="G">I    am today down come            for    to    see     about      a little business</item>
+    <item id="c4" line="2401" tag="B"/>
+    <item id="c5" line="2402" tag="T+AC">I came down today to see about some business.'                      (Horne 1905:157)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:84]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:84]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29787">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2638-2642" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2638" tag="L">  (63)         [Es is ungweenlich ferde John]           [harti Bicher zu lese]</item>
+    <item id="o2" line="2639" tag="B"></item>
+    <item id="o3" line="2640" tag="G">               it    is unusual         for   theJohn      hard books      to read</item>
+    <item id="o4" line="2641" tag="B"></item>
+    <item id="o5" line="2642" tag="T">               `It's unusual for John to read difficult books.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2638" tag="L">[Es is ungweenlich ferde John]           [harti Bicher zu lese]</item>
+    <item id="c2" line="2639" tag="B"/>
+    <item id="c3" line="2640" tag="G">it    is unusual         for   theJohn      hard books      to read</item>
+    <item id="c4" line="2641" tag="B"/>
+    <item id="c5" line="2642" tag="T">It's unusual for John to read difficult books.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29788">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2666-2668" line-types="L B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2666" tag="L">  (63')         Fer de John harti Bicher zu lese is ungweenlich.</item>
+    <item id="o2" line="2667" tag="B"></item>
+    <item id="o3" line="2668" tag="T">                `For John to read difficult books is unusual.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2666" tag="L">Fer de John harti Bicher zu lese is ungweenlich.</item>
+    <item id="c2" line="2667" tag="B"/>
+    <item id="c3" line="2668" tag="T">For John to read difficult books is unusual.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29789">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2682-2690" line-types="L B G B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2682" tag="L">  (64)          Sei      Heimuthhut     ga-kusht,    Finf Hundert Dolla,</item>
+    <item id="o2" line="2683" tag="B"></item>
+    <item id="o3" line="2684" tag="G">                his      home     has   cost         five hundred dollar</item>
+    <item id="o4" line="2685" tag="B"></item>
+    <item id="o5" line="2686" tag="L">                Un    Finf Dolla des    Yahr, vor    der     Tox, zu be-zahle</item>
+    <item id="o6" line="2687" tag="B"></item>
+    <item id="o7" line="2688" tag="G">                and five dollarthe      year for     the     tax   to pay</item>
+    <item id="o8" line="2689" tag="B"></item>
+    <item id="o9" line="2690" tag="T">                `His home cost 500 dollars, and five dollars a year tax to pay.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2682" tag="L">Sei      Heimuthhut     ga-kusht,    Finf Hundert Dolla,</item>
+    <item id="c2" line="2683" tag="B"/>
+    <item id="c3" line="2684" tag="G">his      home     has   cost         five hundred dollar</item>
+    <item id="c4" line="2685" tag="B"/>
+    <item id="c5" line="2686" tag="L">Un    Finf Dolla des    Yahr, vor    der     Tox, zu be-zahle</item>
+    <item id="c6" line="2687" tag="B"/>
+    <item id="c7" line="2688" tag="G">and five dollarthe      year for     the     tax   to pay</item>
+    <item id="c8" line="2689" tag="B"/>
+    <item id="c9" line="2690" tag="T">His home cost 500 dollars, and five dollars a year tax to pay.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+    <item id="p1" content="c5[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+    <item id="g1" content="c7[0:57]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:62]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i29790">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2708-2712" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2708" tag="L">  (65)          Ich hab net's        haez fersaage er sol          net.</item>
+    <item id="o2" line="2709" tag="B"></item>
+    <item id="o3" line="2710" tag="G">                I     have not.the heart for       say   he should not</item>
+    <item id="o4" line="2711" tag="B"></item>
+    <item id="o5" line="2712" tag="T">                `I haven't the heart to say he shouldn't.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2708" tag="L">Ich hab net's        haez fersaage er sol          net.</item>
+    <item id="c2" line="2709" tag="B"/>
+    <item id="c3" line="2710" tag="G">I     have not.the heart for       say   he should not</item>
+    <item id="c4" line="2711" tag="B"/>
+    <item id="c5" line="2712" tag="T">I haven't the heart to say he shouldn't.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29791">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2907-2909" line-types="L B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2907" tag="L">  (67)      a. Esis hatt       ferdie sache         uffpicke.</item>
+    <item id="o2" line="2908" tag="B"></item>
+    <item id="o3" line="2909" tag="G">               it is difficult for     those things    pick.up</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2907" tag="L">Esis hatt       ferdie sache         uffpicke.</item>
+    <item id="c2" line="2908" tag="B"/>
+    <item id="c3" line="2909" tag="G">it is difficult for     those things    pick.up</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29792">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2911-2913" line-types="L B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2911" tag="L">            b. Esis hatt       die sache         uffzu picke.</item>
+    <item id="o2" line="2912" tag="B"></item>
+    <item id="o3" line="2913" tag="G">               it is difficult those things      pick.up</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2911" tag="L">Esis hatt       die sache         uffzu picke.</item>
+    <item id="c2" line="2912" tag="B"/>
+    <item id="c3" line="2913" tag="G">it is difficult those things      pick.up</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29793">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="2915-2917" line-types="L B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2915" tag="L">            c. * Es is hatt          die sache      uffferpicke.</item>
+    <item id="o2" line="2916" tag="B"></item>
+    <item id="o3" line="2917" tag="T">               `It is difficult to pick these things up.'                                (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2915" tag="L">* Es is hatt          die sache      uffferpicke.</item>
+    <item id="c2" line="2916" tag="B"/>
+    <item id="c3" line="2917" tag="T">It is difficult to pick these things up.'                                (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:83]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29796">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="3015-3019" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3015" tag="L">  (69)      a. Erscheint en ehrliche man zu sei.</item>
+    <item id="o2" line="3016" tag="B"></item>
+    <item id="o3" line="3017" tag="G">                  he seems    an honest man to be</item>
+    <item id="o4" line="3018" tag="B"></item>
+    <item id="o5" line="3019" tag="T">                  `He seems to be an honest man.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3015" tag="L">Erscheint en ehrliche man zu sei.</item>
+    <item id="c2" line="3016" tag="B"/>
+    <item id="c3" line="3017" tag="G">he seems    an honest man to be</item>
+    <item id="c4" line="3018" tag="B"/>
+    <item id="c5" line="3019" tag="T">He seems to be an honest man.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29797">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="3023-3027" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3023" tag="L">            b. Erscheint feren ehrliche man sei.</item>
+    <item id="o2" line="3024" tag="B"></item>
+    <item id="o3" line="3025" tag="G">                  he seems    for     an honest man be</item>
+    <item id="o4" line="3026" tag="B"></item>
+    <item id="o5" line="3027" tag="T">                  `He seems to be an honest man.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3023" tag="L">Erscheint feren ehrliche man sei.</item>
+    <item id="c2" line="3024" tag="B"/>
+    <item id="c3" line="3025" tag="G">he seems    for     an honest man be</item>
+    <item id="c4" line="3026" tag="B"/>
+    <item id="c5" line="3027" tag="T">He seems to be an honest man.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29798">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="3056-3060" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3056" tag="L">  (71)      a. Sie ecschpect dich ferkumme frie</item>
+    <item id="o2" line="3057" tag="B"></item>
+    <item id="o3" line="3058" tag="G">                  she   expects       you for     come         early</item>
+    <item id="o4" line="3059" tag="B"></item>
+    <item id="o5" line="3060" tag="T">                  `She expects you to come early.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3056" tag="L">Sie ecschpect dich ferkumme frie</item>
+    <item id="c2" line="3057" tag="B"/>
+    <item id="c3" line="3058" tag="G">she   expects       you for     come         early</item>
+    <item id="c4" line="3059" tag="B"/>
+    <item id="c5" line="3060" tag="T">She expects you to come early.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29799">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="3064-3068" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3064" tag="L">            b. Ich hab ien            als       ghalde fere bissel arm       sei.</item>
+    <item id="o2" line="3065" tag="B"></item>
+    <item id="o3" line="3066" tag="G">                  I     have him always held             for     a little stupid be</item>
+    <item id="o4" line="3067" tag="B"></item>
+    <item id="o5" line="3068" tag="T">                  `I've always considered him to be a little bit thick.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3064" tag="L">Ich hab ien            als       ghalde fere bissel arm       sei.</item>
+    <item id="c2" line="3065" tag="B"/>
+    <item id="c3" line="3066" tag="G">I     have him always held             for     a little stupid be</item>
+    <item id="c4" line="3067" tag="B"/>
+    <item id="c5" line="3068" tag="T">I've always considered him to be a little bit thick.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29800">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="3098-3102" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3098" tag="L">  (72)         Fer ien      die sache        uffpicke is hatt.</item>
+    <item id="o2" line="3099" tag="B"></item>
+    <item id="o3" line="3100" tag="G">               for   him those things        pick up is difficult</item>
+    <item id="o4" line="3101" tag="B"></item>
+    <item id="o5" line="3102" tag="T">               `For him to pick those things up is difficult.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3098" tag="L">Fer ien      die sache        uffpicke is hatt.</item>
+    <item id="c2" line="3099" tag="B"/>
+    <item id="c3" line="3100" tag="G">for   him those things        pick up is difficult</item>
+    <item id="c4" line="3101" tag="B"/>
+    <item id="c5" line="3102" tag="T">For him to pick those things up is difficult.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29801">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="3112-3116" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3112" tag="L">  (73)      a. Eswaer          dumm fer's net         kaafe.</item>
+    <item id="o2" line="3113" tag="B"></item>
+    <item id="o3" line="3114" tag="G">               it would be     stupid   for.it not    buy</item>
+    <item id="o4" line="3115" tag="B"></item>
+    <item id="o5" line="3116" tag="T">               `It would be stupid not to buy it.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3112" tag="L">Eswaer          dumm fer's net         kaafe.</item>
+    <item id="c2" line="3113" tag="B"/>
+    <item id="c3" line="3114" tag="G">it would be     stupid   for.it not    buy</item>
+    <item id="c4" line="3115" tag="B"/>
+    <item id="c5" line="3116" tag="T">It would be stupid not to buy it.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29802">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="3120-3124" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3120" tag="L">            b. Sie ecschpect ien        fernet     glei do       sei.</item>
+    <item id="o2" line="3121" tag="B"></item>
+    <item id="o3" line="3122" tag="G">               she   expects      him for       not   soon there be</item>
+    <item id="o4" line="3123" tag="B"></item>
+    <item id="o5" line="3124" tag="T">               `She expects him not to get there soon.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3120" tag="L">Sie ecschpect ien        fernet     glei do       sei.</item>
+    <item id="c2" line="3121" tag="B"/>
+    <item id="c3" line="3122" tag="G">she   expects      him for       not   soon there be</item>
+    <item id="c4" line="3123" tag="B"/>
+    <item id="c5" line="3124" tag="T">She expects him not to get there soon.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29803">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="3130-3135" line-types="L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3130" tag="L+CR">                                                        man sei.43</item>
+    <item id="o2" line="3131" tag="L+CR">            c. Er    seemt    fer    net    en guter</item>
+    <item id="o3" line="3132" tag="B"></item>
+    <item id="o4" line="3133" tag="G">               He    seem     for       not a good         man be</item>
+    <item id="o5" line="3134" tag="B"></item>
+    <item id="o6" line="3135" tag="T">               `He seems not to be a good man.' (elicited)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3130 3131" tag="L+CR">Er    seemt    fer    net    en guter    man sei.43</item>
+    <item id="c3" line="3132" tag="B"/>
+    <item id="c4" line="3133" tag="G">He    seem     for       not a good         man be</item>
+    <item id="c5" line="3134" tag="B"/>
+    <item id="c6" line="3135" tag="T">He seems not to be a good man.' (elicited)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29804">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="3304-3308" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3304" tag="L">  (77)         Net ferien             geh waer         dumm.</item>
+    <item id="o2" line="3305" tag="B"></item>
+    <item id="o3" line="3306" tag="G">               not      for     ien     geh would be      stupid</item>
+    <item id="o4" line="3307" tag="B"></item>
+    <item id="o5" line="3308" tag="T">               `For him not to go would be stupid.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3304" tag="L">Net ferien             geh waer         dumm.</item>
+    <item id="c2" line="3305" tag="B"/>
+    <item id="c3" line="3306" tag="G">not      for     ien     geh would be      stupid</item>
+    <item id="c4" line="3307" tag="B"/>
+    <item id="c5" line="3308" tag="T">For him not to go would be stupid.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29805">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="3322-3326" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3322" tag="L">  (78)         Erhat          net     gwisst was zu       duh.</item>
+    <item id="o2" line="3323" tag="B"></item>
+    <item id="o3" line="3324" tag="G">               he has         not     known what for      do</item>
+    <item id="o4" line="3325" tag="B"></item>
+    <item id="o5" line="3326" tag="T">               `He didn't know what to do.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3322" tag="L">Erhat          net     gwisst was zu       duh.</item>
+    <item id="c2" line="3323" tag="B"/>
+    <item id="c3" line="3324" tag="G">he has         not     known what for      do</item>
+    <item id="c4" line="3325" tag="B"/>
+    <item id="c5" line="3326" tag="T">He didn't know what to do.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29808">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="3352-3356" line-types="L+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3352" tag="L+LN">            c. Er       hot     g'frogt wer (*as)         de stuhl      g'lehnt   het.    WCPG</item>
+    <item id="o2" line="3353" tag="B"></item>
+    <item id="o3" line="3354" tag="G">               he       had asked         who    comp the chair         borrowed have</item>
+    <item id="o4" line="3355" tag="B"></item>
+    <item id="o5" line="3356" tag="T">               `He asked who borrowed the chair.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3352" tag="L+LN">Er       hot     g'frogt wer (*as)         de stuhl      g'lehnt   het.    WCPG</item>
+    <item id="c2" line="3353" tag="B"/>
+    <item id="c3" line="3354" tag="G">he       had asked         who    comp the chair         borrowed have</item>
+    <item id="c4" line="3355" tag="B"/>
+    <item id="c5" line="3356" tag="T">He asked who borrowed the chair.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i29809">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="3397-3405" line-types="L B G B L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3397" tag="L">  (80)         Awwer er saagt imblatz fersaage "oh yes"</item>
+    <item id="o2" line="3398" tag="B"></item>
+    <item id="o3" line="3399" tag="G">               but      he says in place for         say   oh yes</item>
+    <item id="o4" line="3400" tag="B"></item>
+    <item id="o5" line="3401" tag="L">               no    saagt er immer "oh ei".</item>
+    <item id="o6" line="3402" tag="B"></item>
+    <item id="o7" line="3403" tag="G">               then says he always           oh ei</item>
+    <item id="o8" line="3404" tag="B"></item>
+    <item id="o9" line="3405" tag="T">               `But he says in place of saying `oh yes', he always says `oh ei'.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3397" tag="L">Awwer er saagt imblatz fersaage "oh yes</item>
+    <item id="c2" line="3398" tag="B"/>
+    <item id="c3" line="3399" tag="G">but      he says in place for         say   oh yes</item>
+    <item id="c4" line="3400" tag="B"/>
+    <item id="c5" line="3401" tag="L">no    saagt er immer "oh ei".</item>
+    <item id="c6" line="3402" tag="B"/>
+    <item id="c7" line="3403" tag="G">then says he always           oh ei</item>
+    <item id="c8" line="3404" tag="B"/>
+    <item id="c9" line="3405" tag="T">But he says in place of saying `oh yes', he always says `oh ei'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+    <item id="p1" content="c5[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+    <item id="g1" content="c7[0:35]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:64]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i29810">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="4333-4333" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4333" tag="L-T+DB">       Sie will ebbes `She wants something' / Sie wott fer ebbes `She wishes for something'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4333" tag="L-T+DB">Sie will ebbes `She wants something' / Sie wott fer ebbes `She wishes for something</item>
+  </tier>
+</igt>
+<igt id="i29811">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="4335-4335" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4335" tag="L-T+DB">       Sie ekspekt en brief `She expects a letter' / Sie hofft fer en brief `She hopes for a letter'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4335" tag="L-T+DB">Sie ekspekt en brief `She expects a letter' / Sie hofft fer en brief `She hopes for a letter</item>
+  </tier>
+</igt>
+<igt id="i29812">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="4337-4337" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4337" tag="L-T+DB">       Sie verwart en brief `She expects a letter'/ Sie wart (guckt) fer en brief `She waits for a letter'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4337" tag="L-T+DB">Sie verwart en brief `She expects a letter'/ Sie wart (guckt) fer en brief `She waits for a letter</item>
+  </tier>
+</igt>
+<igt id="i29813">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="4339-4339" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4339" tag="L-T+DB">       Sie foddert sel `She demands that' / Sie froogt fer sel `She asks for that'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4339" tag="L-T+DB">Sie foddert sel `She demands that' / Sie froogt fer sel `She asks for that</item>
+  </tier>
+</igt>
+<igt id="i29814">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="4341-4341" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4341" tag="L-T+DB">       Sie bestellt sel `She orders that' / Sie beddelt fer sel `She begs for that'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4341" tag="L-T+DB">Sie bestellt sel `She orders that' / Sie beddelt fer sel `She begs for that</item>
+  </tier>
+</igt>
+<igt id="i29815">
+  <metadata type="xigt-meta">
+    <meta type="language" name="pennsylvania german" iso-639-3="pdc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="37.txt" line-range="4365-4369" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4365" tag="L">       Er was      ready ahead geh         mit     der     bisness.</item>
+    <item id="o2" line="4366" tag="B"></item>
+    <item id="o3" line="4367" tag="G">       he was      ready ahead go          with    the     business</item>
+    <item id="o4" line="4368" tag="B"></item>
+    <item id="o5" line="4369" tag="T">       `He was ready to go ahead with the business' (Horne 1910/1875:202)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4365" tag="L">Er was      ready ahead geh         mit     der     bisness.</item>
+    <item id="c2" line="4366" tag="B"/>
+    <item id="c3" line="4367" tag="G">he was      ready ahead go          with    the     business</item>
+    <item id="c4" line="4368" tag="B"/>
+    <item id="c5" line="4369" tag="T">He was ready to go ahead with the business' (Horne 1910/1875:202)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>
