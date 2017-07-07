@@ -56,6 +56,8 @@ Usage:
   lgid [-v...] test     --model=PATH  CONFIG INFILE...
   lgid [-v...] list-mentions          CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
+  lgid [-v...] build-odin-lm          CONFIG
+
 ```
 
 Try `lgid.sh --help` for more usage information.

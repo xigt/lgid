@@ -9,6 +9,13 @@ online, and I don't see any indication that such inclusion would be
 improper use. If any of these files should be removed from this
 repository, please file an [issue](https://github.com/xigt/lgid/issues).
 
+## ODIN
+
+The ODIN data used is in the odin-by-lang directory. Each file contains IGT for one language
+identified by its code, and is in the xigt format. 
+
+The odin_lm directory contains word and char LMs built from the odin data.
+
 ## Crúbadán
 
 The [Crúbadán][] data is under the [CC BY 4.0][] license, and that
