@@ -54,28 +54,83 @@ def language_mentions(doc, lgtable, capitalization):
         'title': str.title
     }.get(capitalization, str)
 
+    space_hyphen_re = re.compile(r'[-\s]+', flags=re.U)
     lg_re = re.compile(
         r'\b({})\b'.format(
-            r'|'.join(re.escape(normcaps(name)) for name in lgtable)
+            r'|'.join(
+                r'[-\s]*'.join(
+                    map(re.escape, map(normcaps, re.split(space_hyphen_re, name))
+                )
+            ) for name in lgtable)
         ),
         flags=re.U
-    )
+     )
     i = 0
     for block in doc.blocks:
         logging.debug(block.block_id)
-        for line in block.lines:
-            startline = line.lineno
-            endline = line.lineno  # same for now
-            match = lg_re.search(normalize_characters(line))
-            if match is not None:
+        for i, line1 in enumerate(block.lines):
+            if i + 1 < len(block.lines):
+                line2 = block.lines[i + 1]
+                endline = line2.lineno
+                lines = line1.rstrip(' -') + line2.lstrip(' -')
+            else: # line 1 is the last line in the block
+                line2 = None
+                endline = line1.lineno
+                lines = line1.rstrip(' -')
+
+            startline = line1.lineno
+            line_break = len(line1.rstrip(' -'))
+            # match = lg_re.search(normalize_characters(lines))
+            for match in re.finditer(lg_re, normalize_characters(lines)):
                 i += 1
                 name = match.group(0).lower()
                 start, end = match.span()
-                text = line[start:end]
-                for code in lgtable[name]:
-                    yield Mention(
-                        startline, start, endline, end, name, code, text
-                    )
+                # end += 1
+
+                space_hyphen_count = 0
+                end_loop = end
+                for j, char in enumerate(lines[start:], start=start):
+                    if j == end_loop - 1:
+                        break
+                    if char == '-' or char == ' ':
+                        space_hyphen_count += 1
+                        print(char)
+                        print(j)
+                        end_loop += 1
+
+                orig_end = end + space_hyphen_count
+                this_startline, this_endline = startline, endline
+
+                if start < line_break and end > line_break: # match crosses lines
+                    orig_end -= len(line1) - 1
+                    orig_end += len(line2) - len(line2.lstrip(' -')) # account for leading whitespace on Freki lines
+                    text = line1[start:] + line2[:orig_end]
+                    hyphen_name = name[:line_break - start] + "-" + name[line_break - start:]
+                    space_name = name[:line_break - start] + " " + name[line_break - start:]
+                elif end < line_break: # match is only in line 1
+                    this_endline = line1.lineno
+                    text = line1[start:orig_end]
+                else: # match is only in line 2
+                    continue # if we include matches only in line2, they'll be doubled
+
+                lg_codes = lgtable[name]
+                if lg_codes != []:
+                    for code in lg_codes:
+                        yield Mention(
+                            this_startline, start, this_endline, orig_end, name, code, text
+                        )
+                elif hyphen_name:
+                    lg_codes = lgtable[hyphen_name]
+                    if lg_codes != []:
+                        for code in lg_codes:
+                            yield Mention(
+                                this_startline, start, this_endline, orig_end, hyphen_name, code, text
+                            )
+                    else:
+                        for code in lgtable[space_name]:
+                            yield Mention(
+                                this_startline, start, this_endline, orig_end, space_name, code, text
+                            )
     logging.info(str(i) + ' language mentions found')
 
 
