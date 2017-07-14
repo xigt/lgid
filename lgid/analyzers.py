@@ -80,12 +80,10 @@ def language_mentions(doc, lgtable, capitalization):
 
             startline = line1.lineno
             line_break = len(line1.rstrip(' -'))
-            # match = lg_re.search(normalize_characters(lines))
             for match in re.finditer(lg_re, normalize_characters(lines)):
                 i += 1
                 name = match.group(0).lower()
                 start, end = match.span()
-                # end += 1
 
                 space_hyphen_count = 0
                 end_loop = end
