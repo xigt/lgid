@@ -92,8 +92,6 @@ def language_mentions(doc, lgtable, capitalization):
                         break
                     if char == '-' or char == ' ':
                         space_hyphen_count += 1
-                        print(char)
-                        print(j)
                         end_loop += 1
 
                 orig_end = end + space_hyphen_count
