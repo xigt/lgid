@@ -2,11 +2,10 @@
 Build language models from the ODIN data and monolingual data.
 """
 
-#TODO: build from Crudaban
 
 from xigt.codecs import xigtxml
 from sklearn.feature_extraction.text import CountVectorizer
-from lgid.analyzers import  word_ngrams
+from lgid.analyzers import  word_ngrams, character_ngrams
 import re
 import glob
 import numpy as np
@@ -50,10 +49,11 @@ def build_from_odin(indirec, outdirec, nc, nw):
                             else:
                                 texts[langname] = item.value()
         for name in texts:
+            source = re.sub(" +", " ", texts[name])
             countsC = CountVectorizer(analyzer="char", ngram_range=(1, int(nc)))
-            cc = countsC.fit_transform([re.sub(" +", " ", texts[name])])
+            cc = countsC.fit_transform([source])
             countsW = CountVectorizer(analyzer="word", tokenizer=tokenizer, ngram_range=(1, int(nw)))
-            cw = countsW.fit_transform([texts[name]])
+            cw = countsW.fit_transform([source])
             name = re.sub("/", "-", name)
             lmfileC = open(outdirec + "/" + langcode + "_" + name + ".char", "w")
             lmfileW = open(outdirec + "/" + langcode + "_" + name + ".word", "w")
