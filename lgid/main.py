@@ -265,10 +265,11 @@ def download_crubadan_data(config):
         code = row[0]
         iso_code = row[8].strip()
         url = requests.compat.urljoin(baseuri, code + '.zip')
-        dest = os.path.join(output_dir, iso_code)
+        combined_code = "{}_{}".format(iso_code, code)
+        dest = os.path.join(output_dir, combined_code)
 
         logging.debug(
-            'Downloading Crubadan data for {} from {}'.format(iso_code, url)
+            'Downloading Crubadan data for {} from {}'.format(combined_code, url)
         )
         response = requests.get(url)
         file = ZipFile(BytesIO(response.content))
@@ -278,13 +279,13 @@ def download_crubadan_data(config):
         if any(os.path.exists(os.path.join(dest, p)) for p in file.namelist()):
             logging.error(
                 'Unzipping the archive for {} will overwrite data! Skipping...'
-                .format(iso_code)
+                .format(combined_code)
             )
             continue
 
         file.extractall(dest)
         j += 1
-        logging.debug('Successfully extracted data for {}'.format(iso_code))
+        logging.debug('Successfully extracted data for {}'.format(combined_code))
 
     logging.info('Successfully downloaded {} files from Crubadan'.format(i))
     logging.info('Successfully extracted {} files from Crubadan'.format(j))
