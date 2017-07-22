@@ -12,6 +12,15 @@ See README.md for more information about features.
 
 from collections import Counter
 
+from lgid.analyzers import (
+    character_ngrams,
+    word_ngrams
+)
+
+from lgid.util import (
+    read_crubadan_language_model,
+    read_odin_language_model
+)
 
 def gl_features(features, mentions, context, config):
     """
@@ -86,7 +95,7 @@ def w_features(features, mentions, context, config):
                          b+a_wsize)
 
 
-def l_features(features, mentions, olm, clm, context, config):
+def l_features(features, mentions, olm, context, config):
     """
     Set matching language (L) line features to `True`
 
@@ -106,9 +115,43 @@ def l_features(features, mentions, olm, clm, context, config):
     if olm is not None:
         pass
 
-    if clm is not None:
-        pass
+    pairs = list(features.keys())
+    for name, code in pairs:
+        # word n-grams
+        feature = 'L-CR-LMw'
+        if config['features'][feature]:
+            clm = read_crubadan_language_model(name, code, config)
+            if clm is not None:
+                word_thresh = float(config['parameters']['word-lm-threshold'])
+                n = int(config['parameters']['crubadan-word-size'])
+                ngrams = word_ngrams(line, n)
 
+                matches = 0
+                for ngram in ngrams:
+                    ngram = tuple(ngram)
+                    if ngram in clm:
+                        matches += 1
+                percent = matches / len(ngrams)
+                if percent >= word_thresh:
+                    features[(name, code)][feature] = True
+        
+        # character n-grams
+        feature = 'L-CR-LMc'
+        if config['features'][feature]:
+            clm = read_crubadan_language_model(name, code, config, characters=True)
+            if clm is not None:
+                char_thresh = float(config['parameters']['character-lm-threshold'])
+                n = int(config['parameters']['crubadan-char-size'])
+                ngrams = character_ngrams(line, n)
+
+                matches = 0
+                for ngram in ngrams:
+                    ngram = tuple(ngram)
+                    if ngram in clm:
+                        matches += 1
+                percent = matches / len(ngrams)
+                if percent >= char_thresh:
+                    features[(name, code)][feature] = True
 
 def g_features(features, olm, context, config):
     """

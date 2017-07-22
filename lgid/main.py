@@ -64,7 +64,8 @@ from lgid.features import (
     gl_features,
     w_features,
     l_features,
-    m_features,
+    g_features,
+    m_features
 )
 
 
@@ -153,13 +154,12 @@ def get_instances(infiles, config):
         training/test instances from Freki documents
     """
     locs = config['locations']
-    lgtable, olm, clm = {}, None, None
+    lgtable, olm = {}, None
     if locs['language-table']:
         lgtable = read_language_table(locs['language-table'])
     if locs['odin-language-model']:
-        olm = read_odin_language_model(locs['odin-language-model'])
-    if locs['crubadan-language-model']:
-        clm = read_crubadan_language_model(locs['crubadan-language-model'])
+        # olm = read_odin_language_model(locs['odin-language-model'])
+        olm = None # because read_odin_language_model isn't implmented yet
 
     for infile in infiles:
         doc = FrekiDoc.read(infile)
@@ -167,10 +167,10 @@ def get_instances(infiles, config):
         context = {}
         context['last-lineno'] = max(x.lineno for x in doc.lines())
         caps = config['parameters'].get('mention-capitalization', 'default')
-        
+
         lgmentions = list(language_mentions(doc, lgtable, caps))
         features_template = dict(((m.name, m.code), {}) for m in lgmentions)
-        
+
         for span in spans(doc):
             if not span:
                 continue
@@ -189,11 +189,11 @@ def get_instances(infiles, config):
                     lgname = line.attrs.get('lang_name', '???').lower()
                     lgcode = line.attrs.get('lang_code', 'und')
                     l_feats = dict(features_template)
-                    l_features(l_feats, lgmentions, olm, clm, context, config)
+                    l_features(l_feats, lgmentions, olm, context, config)
                     l_lines.append((line, l_feats, lgname, lgcode))
-                    # if L and some other tag co-occur, only record local feats                    
+                    # if L and some other tag co-occur, only record local feats
                     if 'G' in line.tag:
-                        g_features()
+                        g_features(features, olm, context, config)
                     if 'M' in line.tag:
                         m_features(features, lgmentions, context, config)
                 else:
@@ -256,7 +256,7 @@ def download_crubadan_data(config):
 
     os.makedirs(output_dir, exist_ok=True)
 
-    table = open(index,'r',encoding='utf8')
+    table = open(index, 'r', encoding='utf8')
     reader = csv.reader(table)
 
     i = j = 0
@@ -274,7 +274,7 @@ def download_crubadan_data(config):
         response = requests.get(url)
         file = ZipFile(BytesIO(response.content))
         i += 1
-        
+
         # basic validation (won't cover every scenario!)
         if any(os.path.exists(os.path.join(dest, p)) for p in file.namelist()):
             logging.error(
