@@ -26,7 +26,7 @@ def read_language_table(path):
     logging.info('Reading language table: ' + path)
     
     table = defaultdict(list)
-    for line in open(path):
+    for line in open(path, encoding='utf-8'):
         if line.strip():
             name, codes = line.rstrip().split('\t', 1)
             codes = codes.split()
@@ -54,11 +54,61 @@ def read_odin_language_model(path):
     """
     pass
 
-def read_crubadan_language_model(path):
+def read_crubadan_language_model(lang_name, iso_code, config, characters=False):
     """
-    Read a Crubadan language model at *path*
+    Read a Crubadan language model at for a (language name, ISO code) pair.
+
+    Args:
+        lang_name: unicode-normalized language name
+        iso_code: an ISO code
+        config: model parameters
+        characters: whether to use character or word ngrams
+    Returns:
+        list of tuples of ngrams, or None if no language model exists for
+        the given name-ISO pairing
     """
-    pass
+    import csv
+
+    base_path = config['locations']['crubadan-language-model']
+
+    table = open(config['locations']['crubadan-directory-index'], encoding='utf8')
+    reader = csv.reader(table)
+    header = next(reader) # discard header row
+
+    dir_map = {}
+    for row in reader:
+        name = row[0]
+        iso = row[1]
+        directory = row[2].strip()
+        dir_map[(name, iso)] = directory
+    table.close()
+
+    if characters:
+        file_basename = {
+            3: "-chartrigrams.txt"
+        }.get(int(config['parameters']['crubadan-char-size']))
+    else:
+        file_basename = {
+            1: "-words.txt",
+            2: "-wordbigrams.txt"
+        }.get(int(config['parameters']['crubadan-word-size']))
+        
+    try:
+        this_dir = dir_map[(lang_name, iso_code)]
+        crubadan_code = this_dir.split("_")[1]
+        with open("{}/{}/{}{}".format(base_path, this_dir, crubadan_code, file_basename), encoding='utf8') as f:
+            lines = f.readlines()
+    except (FileNotFoundError, KeyError):
+        return None
+
+    lm = []
+    for line in lines:
+        if line.strip() == '':
+            continue
+        line = line.split()[:-1]
+        feature = tuple(line[0]) if characters else tuple(line)
+        lm.append(feature)
+    return lm
 
 def encode_instance_id(doc_id, span_id, line_no, lang_name, lang_code):
     return '-'.join(map(str, [doc_id, span_id, line_no, lang_name, lang_code]))
