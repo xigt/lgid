@@ -130,13 +130,13 @@ def language_mentions(doc, lgtable, capitalization):
     logging.info(str(i) + ' language mentions found')
 
 
-def character_ngrams(s, n, lhs='<', rhs='>'):
+def character_ngrams(s, ngram_range, lhs='<', rhs='>'):
     """
     Extract character n-grams of length *n* from string *s*
 
     Args:
         s: the string whence n-grams are extracted
-        n: the length of each n-gram
+        ngram_range: tuple with two elements: the min and max ngram lengths
         lhs: left-padding character (to show token boundaries)
         rhs: right-padding character (to show token boundaries)
     Returns:
@@ -147,12 +147,13 @@ def character_ngrams(s, n, lhs='<', rhs='>'):
     for word in s.split():
         word = lhs + word + rhs
 
-        rangemax = len(word) - (n-1)
+        rangemax = len(word) - (ngram_range[1]-1)
         if rangemax < 1:
             rangemax = 1
 
         for i in range(rangemax):
-            ngrams.append(word[i:i+n])
+            for j in range(ngram_range[0], ngram_range[1] + 1):
+                ngrams.append(word[i:i+j])
 
     return ngrams
 

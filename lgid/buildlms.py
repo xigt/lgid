@@ -9,11 +9,12 @@ from lgid.analyzers import  word_ngrams, character_ngrams
 import re
 import glob
 import numpy as np
+from lgid import analyzers
 
 def tokenizer(s):
     return s.split()
 
-def build_from_odin(indirec, outdirec, nc, nw):
+def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>'):
     """
     Builds character and word language models from a directory of ODIN xml files, with each language in a separate
     file named with the language code.
@@ -26,6 +27,8 @@ def build_from_odin(indirec, outdirec, nc, nw):
         outdirec: the lm output directory
         nc: maximum ngram length for characters
         nw: maximum ngram length for words
+        lhs: left-padding character (to show token boundaries)
+        rhs: right-padding character (to show token boundaries)
     """
     for fname in glob.glob(indirec + "/*.xml"):
         texts = {}
@@ -50,7 +53,7 @@ def build_from_odin(indirec, outdirec, nc, nw):
                                 texts[langname] = item.value()
         for name in texts:
             source = re.sub(" +", " ", texts[name])
-            countsC = CountVectorizer(analyzer="char", ngram_range=(1, int(nc)))
+            countsC = CountVectorizer(analyzer=lambda doc: analyzers.character_ngrams(doc, (1, int(nc)), lhs, rhs))
             cc = countsC.fit_transform([source])
             countsW = CountVectorizer(analyzer="word", tokenizer=tokenizer, ngram_range=(1, int(nw)))
             cw = countsW.fit_transform([source])
