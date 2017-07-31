@@ -124,7 +124,8 @@ def test(infiles, modelpath, config):
     model.load(modelpath)
     for dist in model.test(instances):
         print(dir(dist))
-        print(dist.classes())
+        top = dist.best_class
+        print(top)
 
 def list_mentions(infiles, config):
     """

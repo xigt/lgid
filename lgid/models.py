@@ -48,10 +48,11 @@ class Distribution(object):
         self.best_class = None
         self.best_prob = 0.0
         for c, p in zip(classes, probs):
-            self.dict[c] = p
-            if p > self.best_prob:
+            p1 = p / max(probs)
+            self.dict[c] = p1
+            if p1 > self.best_prob:
                 self.best_class = c
-                self.best_prob = p
+                self.best_prob = p1
 
     def get(self, key, default=None):
         return self.dict.get(key, None)
@@ -122,6 +123,9 @@ class ClassifierWrapper(object):
             LOG.info('Writing feature weights to "{}"'.format(weight_path))
             self.dump_weights(weight_path)
 
+    def classify(self, datum):
+
+        return Distribution(self.classes(), p)
     def test(self, data):
         """
         Given a list of document instances, return a list
