@@ -24,7 +24,7 @@ def read_language_table(path):
         dictionary mapping normalized language names to lists of codes
     """
     logging.info('Reading language table: ' + path)
-    
+
     table = defaultdict(list)
     for line in open(path, encoding='utf-8'):
         if line.strip():
@@ -48,15 +48,48 @@ def normalize_characters(s):
     return ''.join(c for c in unicodedata.normalize('NFKD', s)
                      if not unicodedata.combining(c))
 
-def read_odin_language_model(path):
+def read_odin_language_model(lang_name, iso_code, config, characters):
     """
-    Read an ODIN language model (built from training data) at *path*
-    """
-    pass
+    Read an ODIN language model for a (language name, ISO code) pair.
 
-def read_crubadan_language_model(lang_name, iso_code, config, characters=False):
+    Args:
+        lang_name: unicode-normalized language name
+        iso_code: an ISO code
+        config: model parameters
+        characters: whether to use character or word ngrams
+    Returns:
+        list of tuples of ngrams, or None if no language model exists for
+        the given name-ISO pairing
     """
-    Read a Crubadan language model at for a (language name, ISO code) pair.
+    lang_name = lang_name.replace('/', '-')
+    base_path = config['locations']['odin-language-model']
+
+    if characters:
+        file_name = '{}/{}_{}.char'.format(base_path, iso_code, lang_name)
+        n = int(config['parameters']['character-n-gram-size'])
+    else:
+        file_name = '{}/{}_{}.word'.format(base_path, iso_code, lang_name)
+        n = int(config['parameters']['word-n-gram-size'])
+
+    try:
+        with open(file_name, encoding='utf8') as f:
+            lines = f.readlines()
+    except FileNotFoundError:
+        return None
+
+    lm = []
+    for line in lines:
+        if line.strip() == '':
+            continue
+        line = line.split()[0] if characters else line.split()[:-1]
+        if len(line) == n:
+            feature = tuple(line)
+            lm.append(feature)
+    return lm
+
+def read_crubadan_language_model(lang_name, iso_code, config, characters):
+    """
+    Read a Crubadan language model for a (language name, ISO code) pair.
 
     Args:
         lang_name: unicode-normalized language name
@@ -92,7 +125,7 @@ def read_crubadan_language_model(lang_name, iso_code, config, characters=False):
             1: "-words.txt",
             2: "-wordbigrams.txt"
         }.get(int(config['parameters']['crubadan-word-size']))
-        
+
     try:
         this_dir = dir_map[(lang_name, iso_code)]
         crubadan_code = this_dir.split("_")[1]
