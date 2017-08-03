@@ -267,61 +267,9 @@ def ngram_matching(features, feature, line, name, code, characters, dataset, con
                 ngram = tuple(ngram)
                 if ngram in lm:
                     matches += 1
-            percent = matches / len(ngrams)
+            try:
+                percent = matches / len(ngrams)
+            except ZeroDivisionError:
+                return
             if percent >= threshold:
                 features[(name, code)][feature] = True
-
-# def odin_ngram_matching(features, feature, line, name, code, characters, config):
-#     if characters:
-#         threshold = float(config['parameters']['character-lm-threshold'])
-#         n = int(config['parameters']['character-n-gram-size'])
-#     else:
-#         threshold = float(config['parameters']['word-lm-threshold'])
-#         n = int(config['parameters']['word-n-gram-size'])
-
-#     if config['features'][feature]:
-#         olm = read_odin_language_model(name, code, config, characters)
-#         if olm is not None:
-#             if characters:
-#                 ngrams = character_ngrams(line, (n, n))
-#             else:
-#                 ngrams = word_ngrams(line, n)
-#             # remove the initial and final '\n' from ngrams (the ODIN LM data doesn't have these)
-#             ngrams = ngrams[1:-1]
-
-#             matches = 0
-#             for ngram in ngrams:
-#                 ngram = tuple(ngram)
-#                 if ngram in olm:
-#                     matches += 1
-#             percent = matches / len(ngrams)
-#             if percent >= threshold:
-#                 features[(name, code)][feature] = True
-
-# def crubadan_ngram_matching(features, feature, line, name, code, characters, config):
-#     if characters:
-#         threshold = float(config['parameters']['character-lm-threshold'])
-#         n = int(config['parameters']['crubadan-char-size'])
-#     else:
-#         threshold = float(config['parameters']['word-lm-threshold'])
-#         n = int(config['parameters']['crubadan-word-size'])
-
-#     if config['features'][feature]:
-#         clm = read_crubadan_language_model(name, code, config, characters)
-#         if clm is not None:
-#             if characters:
-#                 ngrams = character_ngrams(line, (n, n))
-#             else:
-#                 ngrams = word_ngrams(line, n)
-#             # remove the initial and final '\n' from unigrams
-#             if n == 1:
-#                 ngrams = ngrams[1:-1]
-
-#             matches = 0
-#             for ngram in ngrams:
-#                 ngram = tuple(ngram)
-#                 if ngram in clm:
-#                     matches += 1
-#             percent = matches / len(ngrams)
-#             if percent >= threshold:
-#                 features[(name, code)][feature] = True
