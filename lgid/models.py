@@ -87,10 +87,12 @@ class ClassifierWrapper(object):
         # to whatever feature selector was defined during
         # training.
         if testing:
+
             if self.feat_selector is not None:
                 # LOG.info('Feature selection was enabled during training, limiting to {} features.'.format(
                 #     self.feat_selector.k))
                 return self.feat_selector.transform(vec)
+                
             else:
                 return vec
 
@@ -123,9 +125,6 @@ class ClassifierWrapper(object):
             LOG.info('Writing feature weights to "{}"'.format(weight_path))
             self.dump_weights(weight_path)
 
-    def classify(self, datum):
-
-        return Distribution(self.classes(), p)
     def test(self, data):
         """
         Given a list of document instances, return a list

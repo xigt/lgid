@@ -81,6 +81,8 @@ def main():
 
     if args['train']:
         train(infiles, modelpath, config)
+    elif args['classify']:
+        classify(infiles, modelpath, config)
     elif args['test']:
         test(infiles, modelpath, config)
     elif args['list-mentions']:
@@ -106,9 +108,32 @@ def train(infiles, modelpath, config):
     model = Model()
     model.feat_selector = chi2
     model.train(instances)
+    for one in instances:
+        print(dir(one))
     model.save(modelpath)
     # for dist in model.test(instances):
     #     print(dist.best_class, dist.best_prob, len(dist.dict))
+
+
+def classify(infiles, modelpath, config):
+    """
+        Classify instances found in the given files
+
+        Args:
+            infiles: iterable of Freki file paths
+            modelpath: the path where the model will be loaded
+            config: model parameters
+    """
+    chosen_classes = []
+    instances = list(get_instances(infiles, config))
+    model = Model()
+    model = model.load(modelpath)
+    for dist in model.test(instances):
+        top = dist.best_class
+        print(dir(dist))
+        print(top)
+        chosen_classes.append(top)
+    return chosen_classes
 
 def test(infiles, modelpath, config):
     """
@@ -120,12 +145,9 @@ def test(infiles, modelpath, config):
         config: model parameters
     """
     instances = list(get_instances(infiles, config))
-    model = Model()
-    model.load(modelpath)
-    for dist in model.test(instances):
-        print(dir(dist))
-        top = dist.best_class
-        print(top)
+    chosen_classes = classify(infiles, modelpath, config)
+
+
 
 def list_mentions(infiles, config):
     """

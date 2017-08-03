@@ -96,8 +96,8 @@ def language_mentions(doc, lgtable, capitalization):
 
                 orig_end = end + space_hyphen_count
                 this_startline, this_endline = startline, endline
-
-                if start < line_break and end > line_break: # match crosses lines
+                hyphen_name = None
+                if start < line_break and end > line_break and line1 and line2: # match crosses lines
                     orig_end -= len(line1) - 1
                     orig_end += len(line2) - len(line2.lstrip(' -')) # account for leading whitespace on Freki lines
                     text = line1[start:] + line2[:orig_end]
