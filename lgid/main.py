@@ -50,15 +50,11 @@ from lgid.models import (
 
 from lgid.util import (
     read_language_table,
-    read_odin_language_model,
-    read_crubadan_language_model,
     encode_instance_id,
     decode_instance_id
 )
 from lgid.analyzers import (
-    language_mentions,
-    character_ngrams,
-    word_ngrams
+    language_mentions
 )
 from lgid.features import (
     gl_features,
@@ -177,12 +173,9 @@ def get_instances(infiles, config):
         training/test instances from Freki documents
     """
     locs = config['locations']
-    lgtable, olm = {}, None
+    lgtable = {}
     if locs['language-table']:
         lgtable = read_language_table(locs['language-table'])
-    if locs['odin-language-model']:
-        # olm = read_odin_language_model(locs['odin-language-model'])
-        olm = None # because read_odin_language_model isn't implmented yet
 
     for infile in infiles:
         doc = FrekiDoc.read(infile)
@@ -212,11 +205,11 @@ def get_instances(infiles, config):
                     lgname = line.attrs.get('lang_name', '???').lower()
                     lgcode = line.attrs.get('lang_code', 'und')
                     l_feats = dict(features_template)
-                    l_features(l_feats, lgmentions, olm, context, config)
+                    l_features(l_feats, lgmentions, context, config)
                     l_lines.append((line, l_feats, lgname, lgcode))
                     # if L and some other tag co-occur, only record local feats
                     if 'G' in line.tag:
-                        g_features(features, olm, context, config)
+                        g_features(features, None, context, config)
                     if 'M' in line.tag:
                         m_features(features, lgmentions, context, config)
                 else:
