@@ -193,7 +193,10 @@ def frequent_mention(feature, features, mentions, thresh, top, bottom):
         (m.name, m.code) for m in get_window(mentions, top, bottom)
     )
     if thresh is None:
-        thresh = max(counts.values())
+        if len(counts.values()):
+            thresh = max(counts.values())
+        else:
+            thresh = 0
     for pair, count in counts.items():
         if count >= thresh:
             features[pair][feature] = True
