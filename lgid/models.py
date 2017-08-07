@@ -48,11 +48,10 @@ class Distribution(object):
         self.best_class = None
         self.best_prob = 0.0
         for c, p in zip(classes, probs):
-            p1 = p / max(probs)
-            self.dict[c] = p1
-            if p1 > self.best_prob:
+            self.dict[c] = p
+            if p > self.best_prob:
                 self.best_class = c
-                self.best_prob = p1
+                self.best_prob = p
 
     def get(self, key, default=None):
         return self.dict.get(key, None)
@@ -88,13 +87,13 @@ class ClassifierWrapper(object):
         # training.
         if testing:
 
-            if self.feat_selector is not None:
+            #if self.feat_selector is not None:
                 # LOG.info('Feature selection was enabled during training, limiting to {} features.'.format(
                 #     self.feat_selector.k))
-                return self.feat_selector.transform(vec)
+                #return self.feat_selector.transform(vec)
                 
-            else:
-                return vec
+            #else:
+            return vec
 
         # Only do feature selection if num_feats is positive, and there are more features
         # than max_num

@@ -37,6 +37,8 @@ Examples:
 import os
 from configparser import ConfigParser
 import logging
+import numpy as np
+import re
 
 import docopt
 
@@ -104,11 +106,33 @@ def train(infiles, modelpath, config):
     model = Model()
     model.feat_selector = chi2
     model.train(instances)
-    for one in instances:
-        print(dir(one))
     model.save(modelpath)
     # for dist in model.test(instances):
     #     print(dist.best_class, dist.best_prob, len(dist.dict))
+
+def find_best_and_normalize(instances, dists):
+    """
+        Normalize probabilities of languages and return the highest
+
+        Args:
+            instances: a list of instances relevant to a single sample of text
+            dists: a list of Distributions corresponding to the instances
+    """
+    labels = []
+    probs = []
+    for i in range(len(instances)):
+        lang = re.split("([0-9]+-){4}", instances[i].id)[2]
+        labels.append(lang)
+        assigned = bool(dists[i].best_class)
+        prob = dists[i].best_prob
+        if assigned:
+            probs.append(prob)
+        else:
+            probs.append(-prob)
+    probs = np.asarray(probs)
+    probs = (probs - np.amin(probs)) / (np.amax(probs) - np.amin(probs))
+    highest = np.argmax(probs)
+    return labels[highest]
 
 
 def classify(infiles, modelpath, config):
@@ -122,11 +146,18 @@ def classify(infiles, modelpath, config):
     """
     chosen_classes = []
     instances = list(get_instances(infiles, config))
+    inst_dict = {}
+    for inst in instances:
+        num = re.search("([0-9]+-){4}", inst.id).group(0)
+        if num in inst_dict:
+            inst_dict[num].append(inst)
+        else:
+            inst_dict[num] = [inst]
     model = Model()
     model = model.load(modelpath)
-    for dist in model.test(instances):
-        top = dist.best_class
-        print(dir(dist))
+    for inst_id in inst_dict:
+        results = model.test(inst_dict[inst_id])
+        top = find_best_and_normalize(inst_dict[inst_id], results)
         print(top)
         chosen_classes.append(top)
     return chosen_classes
