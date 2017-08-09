@@ -34,9 +34,6 @@ Examples:
   lgid -v download-crubadan-data config.ini
 '''
 
-import time
-t1 = time.time()
-
 import os
 from configparser import ConfigParser
 import logging
@@ -47,9 +44,17 @@ import docopt
 
 from freki.serialize import FrekiDoc
 
+from sklearn.feature_extraction.text import CountVectorizer as Vectorizer
+from sklearn.tree import DecisionTreeClassifier as Model
+from scipy.sparse import hstack
+import shutil
+import time
+import pickle
+t0 = time.time()
+t1 = time.time()
+
 from lgid.models import (
     StringInstance,
-    LogisticRegressionWrapper as Model,
     chi2
 )
 
@@ -66,8 +71,7 @@ from lgid.features import (
     w_features,
     l_features,
     g_features,
-    m_features,
-    store_dict
+    m_features
 )
 
 
@@ -96,114 +100,71 @@ def main():
 
 
 def train(infiles, modelpath, config):
-    """
-    Train a language-identification model from training data
-
-    Args:
-        infiles: iterable of Freki file paths
-        modelpath: the path where the model will be written
-        config: model parameters
-    """
-    print('getting instances')
-    instances = list(get_instances(infiles, config))
-    # for inst in instances:
-    #     print(inst.id, inst.label)
-    model = Model()
-    model.feat_selector = chi2
-    print('training')
-    model.train(instances)
-    print('saving model')
-    model.save(modelpath)
-    # for dist in model.test(instances):
-    #     print(dist.best_class, dist.best_prob, len(dist.dict))
-
-def find_best_and_normalize(instances, dists):
-    """
-        Normalize probabilities of languages and return the highest
-
-        Args:
-            instances: a list of instances relevant to a single sample of text
-            dists: a list of Distributions corresponding to the instances
-    """
-    labels = []
-    probs = []
-    for i in range(len(instances)):
-        lang = re.split("([0-9]+-){4}", instances[i].id)[2]
-        labels.append(lang)
-        assigned = bool(dists[i].best_class)
-        prob = dists[i].best_prob
-        if assigned:
-            probs.append(prob)
-        else:
-            probs.append(-prob)
-    probs = np.asarray(probs)
-    probs = (probs - np.amin(probs)) / (np.amax(probs) - np.amin(probs))
-    highest = np.argmax(probs)
-    return labels[highest]
-
-
-def classify(infiles, modelpath, config, instances=None):
     global t1
-    """
-        Classify instances found in the given files
-
-        Args:
-            infiles: iterable of Freki file paths
-            modelpath: the path where the model will be loaded
-            config: model parameters
-            instances: a list of instances passed by test() to streamline
-    """
-    if not instances:
-        print('before getting instances: ' + str(time.time() - t1))
-        t1 = time.time()
-        instances = list(get_instances(infiles, config))
-        print('getting instances: ' + str(time.time() - t1))
-        t1 = time.time()
-    inst_dict = {}
-    prediction_dict = {}
-    for inst in instances:
-        num = re.search("([0-9]+-){4}", inst.id).group(0)
-        if num in inst_dict:
-            inst_dict[num].append(inst)
-        else:
-            inst_dict[num] = [inst]
+    if os.path.exists(modelpath):
+        shutil.rmtree(modelpath)
+    os.makedirs(modelpath)
+    texts, labels = get_instances(infiles)
+    print('Getting instances: ' + str(time.time() - t1))
+    t1 = time.time()
+    char_max = int(config['parameters']['character-n-gram-size'])
+    char_count = Vectorizer(texts, ngram_range=(1, char_max), analyzer='char').fit(texts)
+    word_max = int(config['parameters']['word-n-gram-size'])
+    word_count = Vectorizer(texts, ngram_range=(1, word_max), analyzer='word').fit(texts)
+    print('Training vectorizers: ' + str(time.time() - t1))
+    t1 = time.time()
+    char_matrix = char_count.transform(texts)
+    word_matrix = word_count.transform(texts)
+    pickle.dump(char_count, open(modelpath + '/char.p', 'wb'))
+    pickle.dump(word_count, open(modelpath + '/word.p', 'wb'))
+    main_x = hstack([char_matrix, word_matrix])
+    labels = labels
     model = Model()
-    model = model.load(modelpath)
-    print('loading model: ' + str(time.time() - t1))
+    model.fit(main_x, labels)
+    print('Fitting model: ' + str(time.time() - t1))
+    pickle.dump(model, open(modelpath + '/model.p', 'wb'))
     t1 = time.time()
-    for inst_id in inst_dict:
-        results = model.test(inst_dict[inst_id])
-        top = find_best_and_normalize(inst_dict[inst_id], results)
-        prediction_dict[inst_id] = top
-    print('predicting:' + str(time.time() - t1))
-    t1 = time.time()
-    store_dict()
-    return prediction_dict
+
+
+def classify(texts, modelpath, config):
+    model = pickle.load(open(modelpath + '/model.p', 'rb'))
+    char_counts = pickle.load(open(modelpath + '/char.p', 'rb'))
+    word_counts = pickle.load(open(modelpath + '/word.p', 'rb'))
+
+    char_matrix = char_counts.transform(texts)
+    word_matrix = word_counts.transform(texts)
+
+    main_x = hstack([char_matrix, word_matrix])
+    result = model.predict(main_x)
+    return result
 
 def test(infiles, modelpath, config):
-    """
-    Test a language-identification model
+    print('Testing')
+    texts, y = get_instances(infiles)
 
-    Args:
-        infiles: iterable of Freki file paths
-        modelpath: the path where the model will be loaded
-        config: model parameters
-    """
-    real_classes = {}
-    instances = list(get_instances(infiles, config))
-    for inst in instances:
-        if bool(inst.label):
-            num = re.search("([0-9]+-){4}", inst.id).group(0)
-            real_classes[num] = re.split("([0-9]+-){4}", inst.id)[2]
-    predicted_classes = classify(infiles, modelpath, config, instances)
+    result = classify(texts, modelpath, config)
+
+    error_dict = {}
+    error = open('errors.txt', 'w')
+
     right = 0
-    for key in real_classes:
-        if key in real_classes and key in predicted_classes:
-            if real_classes[key] == predicted_classes[key]:
-                right += 1
-    print(real_classes)
-    print(predicted_classes)
-    print("Accuracy: " + str(float(right)/len(real_classes)))
+    for i in range(len(y)):
+        if y[i] == result[i]:
+            right += 1
+        else:
+            key = 'actual:\t' + y[i] + '\npredicted:\t' + result[i] + '\n'
+            if key in error_dict:
+                error_dict[key] += 1
+            else:
+                error_dict[key] = 1
+    for key in error_dict:
+        error.write(key)
+        error.write('count:\t' + str(error_dict[key]) + '\n')
+        error.write('\n')
+
+    print('Samples:\t' + str(len(y)))
+    print('Accuracy:\t' + str(right / len(y)))
+    print('Total time:\t' + str(time.time() - t0))
 
 
 def list_mentions(infiles, config):
@@ -223,83 +184,25 @@ def list_mentions(infiles, config):
             print('\t'.join(map(str, m)))
 
 
-def get_instances(infiles, config):
-    global t1
-    """
-    Read Freki documents from *infiles* and return training instances
-
-    Args:
-        infiles: iterable of Freki file paths
-        config: model parameters
-    Yields:
-        training/test instances from Freki documents
-    """
-    locs = config['locations']
-    lgtable = {}
-    if locs['language-table']:
-        lgtable = read_language_table(locs['language-table'])
-        print('reading lang table: ' + str(time.time() - t1))
-        t1 = time.time()
-    i = 1
-    for infile in infiles:
-        print('File ' + str(i) + '/' + str(len(infiles)))
-        i += 1
-        doc = FrekiDoc.read(infile)
-
-        context = {}
-        context['last-lineno'] = max(x.lineno for x in doc.lines())
-        caps = config['parameters'].get('mention-capitalization', 'default')
-
-        lgmentions = list(language_mentions(doc, lgtable, caps))
-        features_template = dict(((m.name, m.code), {}) for m in lgmentions)
-
-        for span in spans(doc):
-            if not span:
-                continue
-
-            context['span-top'] = span[0].lineno
-            context['span-bottom'] = span[-1].lineno
-
-            features = dict(features_template)
-            gl_features(features, lgmentions, context, config)
-            w_features(features, lgmentions, context, config)
-            l_lines = []
-            for line in span:
-                context['line'] = line
-                if 'L' in line.tag:
-                    lgname = line.attrs.get('lang_name', '???').lower()
-                    lgcode = line.attrs.get('lang_code', 'und')
-                    l_feats = dict(features_template)
-                    l_features(l_feats, lgmentions, context, config)
-                    t1 = time.time()
-                    l_lines.append((line, l_feats, lgname, lgcode))
-                    # if L and some other tag co-occur, only record local feats
-                    if 'G' in line.tag:
-                        g_features(features, None, context, config)
-
-                    if 'M' in line.tag:
-                        m_features(features, lgmentions, context, config)
-
-                else:
-                    # if G or M occur without L, record globally
-                    if 'G' in line.tag:
-                        pass
-                    if 'M' in line.tag:
-                        m_features(features, lgmentions, context, config)
-
-            for l_line, l_feats, lgname, lgcode in l_lines:
-                goldpair = (lgname, lgcode)
-                for pair, feats in l_feats.items():
-                    # print(pair, goldpair, pair == goldpair)
-                    id_ = encode_instance_id(
-                        os.path.splitext(os.path.basename(infile))[0],
-                        l_line.span_id, l_line.lineno,
-                        pair[0].replace(' ', '_'), pair[1]
-                    )
-                    label = True if pair == goldpair else False
-                    instfeats = dict(feats)
-                    instfeats.update(features[pair])
-                    yield StringInstance(id_, label, instfeats)
+def get_instances(infiles):
+    texts = []
+    labels = []
+    instances = []
+    for file in infiles:
+        for line in open(file, 'r').readlines():
+            if "tag=L" in line:
+                lang = re.search('lang_name=.+lang_code', line).group(0).split('=')[1].split('lang_code')[0].strip()
+                lang_code = re.search('lang_code=.+fonts', line).group(0).split('=')[1].split('fonts')[0].strip()
+                label = lang + '_' + lang_code
+                text = line.split(':')[1]
+                if type(text) == 'list':
+                    text = ''.join(text)
+                text = text.strip()
+                text = re.sub('\s+', ' ', text)
+                texts.append(text)
+                labels.append(label)
+                instances.append((text, label))
+    return texts, labels
 
 
 def spans(doc):
