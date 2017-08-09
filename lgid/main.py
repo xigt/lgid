@@ -34,6 +34,9 @@ Examples:
   lgid -v download-crubadan-data config.ini
 '''
 
+import time
+t1 = time.time()
+
 import os
 from configparser import ConfigParser
 import logging
@@ -63,7 +66,8 @@ from lgid.features import (
     w_features,
     l_features,
     g_features,
-    m_features
+    m_features,
+    store_dict
 )
 
 
@@ -100,12 +104,15 @@ def train(infiles, modelpath, config):
         modelpath: the path where the model will be written
         config: model parameters
     """
+    print('getting instances')
     instances = list(get_instances(infiles, config))
     # for inst in instances:
     #     print(inst.id, inst.label)
     model = Model()
     model.feat_selector = chi2
+    print('training')
     model.train(instances)
+    print('saving model')
     model.save(modelpath)
     # for dist in model.test(instances):
     #     print(dist.best_class, dist.best_prob, len(dist.dict))
@@ -135,7 +142,8 @@ def find_best_and_normalize(instances, dists):
     return labels[highest]
 
 
-def classify(infiles, modelpath, config):
+def classify(infiles, modelpath, config, instances=None):
+    global t1
     """
         Classify instances found in the given files
 
@@ -143,10 +151,16 @@ def classify(infiles, modelpath, config):
             infiles: iterable of Freki file paths
             modelpath: the path where the model will be loaded
             config: model parameters
+            instances: a list of instances passed by test() to streamline
     """
-    chosen_classes = []
-    instances = list(get_instances(infiles, config))
+    if not instances:
+        print('before getting instances: ' + str(time.time() - t1))
+        t1 = time.time()
+        instances = list(get_instances(infiles, config))
+        print('getting instances: ' + str(time.time() - t1))
+        t1 = time.time()
     inst_dict = {}
+    prediction_dict = {}
     for inst in instances:
         num = re.search("([0-9]+-){4}", inst.id).group(0)
         if num in inst_dict:
@@ -155,12 +169,16 @@ def classify(infiles, modelpath, config):
             inst_dict[num] = [inst]
     model = Model()
     model = model.load(modelpath)
+    print('loading model: ' + str(time.time() - t1))
+    t1 = time.time()
     for inst_id in inst_dict:
         results = model.test(inst_dict[inst_id])
         top = find_best_and_normalize(inst_dict[inst_id], results)
-        print(top)
-        chosen_classes.append(top)
-    return chosen_classes
+        prediction_dict[inst_id] = top
+    print('predicting:' + str(time.time() - t1))
+    t1 = time.time()
+    store_dict()
+    return prediction_dict
 
 def test(infiles, modelpath, config):
     """
@@ -171,9 +189,21 @@ def test(infiles, modelpath, config):
         modelpath: the path where the model will be loaded
         config: model parameters
     """
+    real_classes = {}
     instances = list(get_instances(infiles, config))
-    chosen_classes = classify(infiles, modelpath, config)
-
+    for inst in instances:
+        if bool(inst.label):
+            num = re.search("([0-9]+-){4}", inst.id).group(0)
+            real_classes[num] = re.split("([0-9]+-){4}", inst.id)[2]
+    predicted_classes = classify(infiles, modelpath, config, instances)
+    right = 0
+    for key in real_classes:
+        if key in real_classes and key in predicted_classes:
+            if real_classes[key] == predicted_classes[key]:
+                right += 1
+    print(real_classes)
+    print(predicted_classes)
+    print("Accuracy: " + str(float(right)/len(real_classes)))
 
 
 def list_mentions(infiles, config):
@@ -194,6 +224,7 @@ def list_mentions(infiles, config):
 
 
 def get_instances(infiles, config):
+    global t1
     """
     Read Freki documents from *infiles* and return training instances
 
@@ -207,8 +238,12 @@ def get_instances(infiles, config):
     lgtable = {}
     if locs['language-table']:
         lgtable = read_language_table(locs['language-table'])
-
+        print('reading lang table: ' + str(time.time() - t1))
+        t1 = time.time()
+    i = 1
     for infile in infiles:
+        print('File ' + str(i) + '/' + str(len(infiles)))
+        i += 1
         doc = FrekiDoc.read(infile)
 
         context = {}
@@ -228,7 +263,6 @@ def get_instances(infiles, config):
             features = dict(features_template)
             gl_features(features, lgmentions, context, config)
             w_features(features, lgmentions, context, config)
-
             l_lines = []
             for line in span:
                 context['line'] = line
@@ -237,12 +271,15 @@ def get_instances(infiles, config):
                     lgcode = line.attrs.get('lang_code', 'und')
                     l_feats = dict(features_template)
                     l_features(l_feats, lgmentions, context, config)
+                    t1 = time.time()
                     l_lines.append((line, l_feats, lgname, lgcode))
                     # if L and some other tag co-occur, only record local feats
                     if 'G' in line.tag:
                         g_features(features, None, context, config)
+
                     if 'M' in line.tag:
                         m_features(features, lgmentions, context, config)
+
                 else:
                     # if G or M occur without L, record globally
                     if 'G' in line.tag:
