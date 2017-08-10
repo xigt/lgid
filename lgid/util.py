@@ -7,6 +7,7 @@ from collections import defaultdict
 import unicodedata
 import re
 import logging
+import time
 
 def read_language_table(path):
     """
@@ -149,3 +150,13 @@ def encode_instance_id(doc_id, span_id, line_no, lang_name, lang_code):
 def decode_instance_id(s):
     doc_id, span_id, line_no, lang_name, lang_code = s.split('-')
     return doc_id, span_id, int(line_no), lang_name, lang_code
+
+def get_time(t):
+    """
+    Get time in hh:mm:ss format
+    :param t: time duration in seconds (from time.time())
+    :return: string in format hh:mm:ss
+    """
+    m, s = divmod(time.time() - t, 60)
+    h, m = divmod(m, 60)
+    return "%d:%02d:%02d" % (h, m, s)

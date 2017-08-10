@@ -1,278 +1,118 @@
-
-"""
-Feature functions for language identification
-
-Category-level functions (gl_features(), w_features(), l_features(),
-g_features(), and m_features()) call other functions for specific
-features. Information extracted from documents to be used in
-determining features comes from lgid.analyzers.
-
-See README.md for more information about features.
-"""
-
-from collections import Counter
+from freki.serialize import FrekiDoc
+import re
 
 from lgid.analyzers import (
-    character_ngrams,
-    word_ngrams
+    language_mentions
 )
-
 from lgid.util import (
-    read_crubadan_language_model,
-    read_odin_language_model
+    read_language_table,
+    get_time,
 )
 
-def gl_features(features, mentions, context, config):
+def get_mention_dict(mentions):
     """
-    Set matching global features to `True`
+    Get a dictionary mapping line number to a list of language mentions
 
-    Args:
-        features: mapping from (lgname, lgcode) pair to features to values
-        mentions: list of language mentions
-        context: contextual information about the document
-        config: model-building parameters
+    :param mentions: list of language mentions
+    :return: dictionary of (int) line number to list of mentions
     """
-    wsize = int(config['parameters']['window-size'])
-    minfreq = int(config['parameters']['article-frequent-mention-threshold'])
-    last = context['last-lineno']
-
-    if config['features']['GL-first-lines']:
-        window_mention('GL-first-lines', features, mentions, 0, wsize)
-
-    if config['features']['GL-last-lines']:
-        window_mention('GL-last-lines', features, mentions, last-wsize, last)
-
-    if config['features']['GL-frequent']:
-        frequent_mention('GL-frequent', features, mentions, minfreq, 0, last)
-
-    if config['features']['GL-most-frequent']:
-        frequent_mention('GL-most-frequent', features, mentions, None, 0, last)
-
-
-def w_features(features, mentions, context, config):
-    """
-    Set matching window features to `True`
-
-    Args:
-        features: mapping from (lgname, lgcode) pair to features to values
-        mentions: list of language mentions
-        context: contextual information about the document
-        config: model-building parameters
-    """
-    wsize = int(config['parameters']['window-size'])
-    a_wsize = int(config['parameters']['after-window-size'])
-    c_wsize = int(config['parameters']['close-window-size'])
-    ac_wsize = int(config['parameters']['after-close-window-size'])
-    minfreq = int(config['parameters']['frequent-mention-threshold'])
-    a_minfreq = int(config['parameters']['after-frequent-mention-threshold'])
-
-    t = context['span-top']
-    b = context['span-bottom']
-
-    if config['features']['W-prev']:
-        window_mention('W-prev', features, mentions, t-wsize, t)
-
-    if config['features']['W-close']:
-        window_mention('W-close', features, mentions, t-c_wsize, t)
-
-    if config['features']['W-closest']:
-        closest_mention('W-closest', features, mentions, t-wsize, t, t)
-
-    if config['features']['W-frequent']:
-        frequent_mention('W-frequent', features, mentions, minfreq, t-wsize, t)
-
-    if config['features']['W-after']:
-        window_mention('W-after', features, mentions, b, b+a_wsize)
-
-    if config['features']['W-close-after']:
-        window_mention('W-close-after', features, mentions, b, b+ac_wsize)
-
-    if config['features']['W-closest-after']:
-        closest_mention('W-closest-after', features, mentions, b, b+a_wsize, b)
-
-    if config['features']['W-frequent-after']:
-        frequent_mention('W-frequent-after', features, mentions, minfreq, b,
-                         b+a_wsize)
-
-
-def l_features(features, mentions, context, config):
-    """
-    Set matching language (L) line features to `True`
-
-    Args:
-        features: mapping from (lgname, lgcode) pair to features to values
-        mentions: list of language mentions
-        context: contextual information about the document
-        config: model-building parameters
-    """
-    line = context['line']
-
-    if config['features']['L-in-line']:
-        in_line_mention('L-in-line', features, mentions, line)
-
-    pairs = list(features.keys())
-    for name, code in pairs:
-        # ODIN n-grams
-        ngram_matching(features, 'L-LMw', line, name, code, False, 'odin', config)
-        ngram_matching(features, 'L-LMc', line, name, code, True, 'odin', config)
-
-        # Crubadan n-grams
-        ngram_matching(features, 'L-CR-LMw', line, name, code, False, 'crubadan', config)
-        ngram_matching(features, 'L-CR-LMc', line, name, code, True, 'crubadan', config)
-
-def g_features(features, olm, context, config):
-    """
-    Set matching gloss (G) line features to `True`
-
-    Args:
-        features: mapping from (lgname, lgcode) pair to features to values
-        olm: ODIN language model
-        context: contextual information about the document
-        config: model-building parameters
-    """
-    pass
-
-
-def m_features(features, mentions, context, config):
-    """
-    Set matching meta (M) line features to `True`
-
-    Args:
-        features: mapping from (lgname, lgcode) pair to features to values
-        mentions: list of language mentions
-        context: contextual information about the document
-        config: model-building parameters
-    """
-    line = context['line']
-    if config['features']['M-in-line']:
-        in_line_mention('M-in-line', features, mentions, line)
-
-
-def get_window(mentions, top, bottom):
-    """
-    Return language mentions that occur within a line-number window
-
-    Args:
-        mentions: list of language mentions
-        top: top (i.e. smallest) line number in the window
-        bottom: bottom (i.e. largest) line number in the window
-    """
-    for m in mentions:
-        if m.startline <= bottom and m.endline >= top:
-            yield m
-
-
-def window_mention(feature, features, mentions, top, bottom):
-    """
-    Set *feature* to `True` for mentions that occur within the window
-
-    Args:
-        feature: feature name
-        features: mapping from (lgname, lgcode) pair to features to values
-        mentions: list of language mentions
-        top: top (i.e. smallest) line number in the window
-        bottom: bottom (i.e. largest) line number in the window
-    """
-    for m in get_window(mentions, top, bottom):
-        features[(m.name, m.code)][feature] = True
-
-
-def frequent_mention(feature, features, mentions, thresh, top, bottom):
-    """
-    Set *feature* to `True` for mentions that occur frequently
-
-    Args:
-        feature: feature name
-        features: mapping from (lgname, lgcode) pair to features to values
-        mentions: list of language mentions
-        thresh: frequency threshold
-        top: top (i.e. smallest) line number in the window
-        bottom: bottom (i.e. largest) line number in the window
-    """
-    counts = Counter(
-        (m.name, m.code) for m in get_window(mentions, top, bottom)
-    )
-    if thresh is None:
-        if len(counts.values()):
-            thresh = max(counts.values())
+    mention_dict = {}
+    for mention in mentions:
+        index = int(mention.startline)
+        mention_dict[index] = [mention]
+        if index in mention_dict:
+            mention_dict[index].append(mention)
         else:
-            thresh = 0
-    for pair, count in counts.items():
-        if count >= thresh:
-            features[pair][feature] = True
+            mention_dict[index] = [mention]
+    return mention_dict
 
 
-def closest_mention(feature, features, mentions, top, bottom, ref):
+def get_features(line_num, mention_dict, config):
     """
-    Set *feature* to `True` for mentions that occur closest to *ref*
+    Find mention features relevant to language text on a given line. features are in the form of:
+    number of times a language is mentioned in the window -- (lang_name)_w : int
+    number of times a language is mentioned in the close window -- (lang_name)_c : int
 
-    Args:
-        feature: feature name
-        features: mapping from (lgname, lgcode) pair to features to values
-        mentions: list of language mentions
-        top: top (i.e. smallest) line number in the window
-        bottom: bottom (i.e. largest) line number in the window
-        ref: the reference line number for calculating distance
+    :param line_num: line number of the language text to be identified
+    :param mention_dict: dictionary of line_number to list of mentions
+    :param config: config object
+    :return: dictionary of feature to count
     """
-    window = sorted(
-        (abs(ref - m.startline), m)
-        for m in get_window(mentions, top, bottom)
-    )
-    if window:
-        smallest_delta = window[0][0]
-        for delta, mention in window:
-            if delta > smallest_delta:
-                break
-            features[(mention.name, mention.code)][feature] = True
+    before = int(config['parameters'].get('window-size', 'default'))
+    after = int(config['parameters'].get('after-window-size', 'default'))
+    c_before = int(config['parameters'].get('close-window-size', 'default'))
+    c_after = int(config['parameters'].get('after-close-window-size', 'default'))
+    feat_dict = {}
+    for i in range(line_num - before, line_num + after):
+        if i in mention_dict:
+            mentions = mention_dict[i]
+            for mention in mentions:
+                lang = mention.name
+                key = lang + '_w'
+                if key in feat_dict:
+                    feat_dict[key] += 1
+                else:
+                    feat_dict[key] = 1
+                if line_num - c_before < i < line_num + c_after:
+                    key = lang + '_c'
+                    if key in feat_dict:
+                        feat_dict[key] += 1
+                    else:
+                        feat_dict[key] = 1
+    return feat_dict
 
 
-def in_line_mention(feature, features, mentions, line):
+def get_instances(infiles, config, labeled=True):
     """
-    Set *feature* to `True` for mentions that occur on *line*
+    Find all instances of language text to be identified
 
-    Args:
-        feature: feature name
-        features: mapping from (lgname, lgcode) pair to features to values
-        mentions: list of language mentions
-        line: FrekiLine object to inspect
+    :param infiles: list of freki file paths
+    :param config: config object
+    :param labeled: True if processing data labeled with language names
+    :return: texts: list of language strings,
+            labels: list of gold labels for the texts,
+            other_feats: list of dicts of mention features for each text
+            ids: list of line_num, doc_id pairs
     """
-    for m in get_window(mentions, line.lineno, line.lineno):
-        features[(m.name, m.code)][feature] = True
-
-def ngram_matching(features, feature, line, name, code, characters, dataset, config):
-    if characters:
-        threshold = float(config['parameters']['character-lm-threshold'])
-        if dataset == 'odin':
-            n = int(config['parameters']['character-n-gram-size'])
-        elif dataset == 'crubadan':
-            n = int(config['parameters']['crubadan-char-size'])
-    else:
-        threshold = float(config['parameters']['word-lm-threshold'])
-        if dataset == 'odin':
-            n = int(config['parameters']['word-n-gram-size'])
-        elif dataset == 'crubadan':
-            n = int(config['parameters']['crubadan-word-size'])
-
-    if config['features'][feature]:
-        if dataset == 'odin':
-            lm = read_odin_language_model(name, code, config, characters)
-        elif dataset == 'crubadan':
-            lm = read_crubadan_language_model(name, code, config, characters)
-
-        if lm is not None:
-            ngrams = character_ngrams(line, (n, n)) if characters else word_ngrams(line, n)
-            # remove the initial and final '\n' from Crubadan unigrams and all ODIN ngrams
-            if dataset == 'odin' or n == 1:
-                ngrams = ngrams[1:-1]
-
-            matches = 0
-            for ngram in ngrams:
-                ngram = tuple(ngram)
-                if ngram in lm:
-                    matches += 1
-            try:
-                percent = matches / len(ngrams)
-            except ZeroDivisionError:
-                return
-            if percent >= threshold:
-                features[(name, code)][feature] = True
+    texts = []
+    ids = []
+    labels = []
+    other_feats = []
+    lgtable = read_language_table(config['locations']['language-table'])
+    caps = config['parameters'].get('mention-capitalization', 'default')
+    j = 1
+    for file in infiles:
+        print('Processing file ' + str(j) + '/' + str(len(infiles)))
+        j += 1
+        doc = FrekiDoc.read(file)
+        glob_mentions = {}
+        lgmentions = list(language_mentions(doc, lgtable, caps))
+        lg_dict = get_mention_dict(lgmentions)
+        for mention in lgmentions:
+            lang = mention.name
+            if lang in glob_mentions:
+                glob_mentions[lang] += 1
+            else:
+                glob_mentions[lang] = 1
+        all_text = open(file, 'r').read()
+        doc_id = int(re.search('doc_id=[0-9]+', all_text).group().split('=')[1])
+        lines = all_text.split('\n')
+        for i in range(len(lines)):
+            line = lines[i]
+            if "tag=L" in line:
+                if labeled:
+                    lang = re.search('lang_name=.+lang_code', line).group(0).split('=')[1].split('lang_code')[0].strip()
+                    lang_code = re.search('lang_code=.+fonts', line).group(0).split('=')[1].split('fonts')[0].strip()
+                    label = lang + '_' + lang_code
+                    labels.append(label)
+                text = line.split(':')[1]
+                if type(text) == 'list':
+                    text = ''.join(text)
+                text = text.strip()
+                text = re.sub('\s+', ' ', text)
+                texts.append(text)
+                feat_dict = get_features(i + 1, lg_dict, config)
+                ids.append((i + 1, doc_id))
+                feat_dict.update(glob_mentions)
+                other_feats.append(feat_dict)
+    return texts, labels, other_feats, ids
