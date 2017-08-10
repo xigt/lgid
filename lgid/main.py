@@ -45,6 +45,7 @@ import docopt
 from freki.serialize import FrekiDoc
 
 from sklearn.feature_extraction.text import CountVectorizer as Vectorizer
+from sklearn.feature_extraction import DictVectorizer
 from sklearn.tree import DecisionTreeClassifier as Model
 from scipy.sparse import hstack
 import shutil
@@ -99,50 +100,62 @@ def main():
         build_odin_lm(config)
 
 
+def get_time(t):
+    m, s = divmod(time.time() - t, 60)
+    h, m = divmod(m, 60)
+    return "%d:%02d:%02d" % (h, m, s)
+
 def train(infiles, modelpath, config):
+    global t0
     global t1
     if os.path.exists(modelpath):
         shutil.rmtree(modelpath)
     os.makedirs(modelpath)
-    texts, labels = get_instances(infiles)
+    texts, labels, others = get_instances(infiles, config)
     print('Getting instances: ' + str(time.time() - t1))
     t1 = time.time()
     char_max = int(config['parameters']['character-n-gram-size'])
     char_count = Vectorizer(texts, ngram_range=(1, char_max), analyzer='char').fit(texts)
     word_max = int(config['parameters']['word-n-gram-size'])
     word_count = Vectorizer(texts, ngram_range=(1, word_max), analyzer='word').fit(texts)
+    feat_vectr = DictVectorizer().fit(others)
     print('Training vectorizers: ' + str(time.time() - t1))
     t1 = time.time()
     char_matrix = char_count.transform(texts)
     word_matrix = word_count.transform(texts)
+    other_matrix = feat_vectr.transform(others)
     pickle.dump(char_count, open(modelpath + '/char.p', 'wb'))
     pickle.dump(word_count, open(modelpath + '/word.p', 'wb'))
-    main_x = hstack([char_matrix, word_matrix])
+    pickle.dump(feat_vectr, open(modelpath + '/feats.p', 'wb'))
+    main_x = hstack([char_matrix, word_matrix, other_matrix])
     labels = labels
     model = Model()
     model.fit(main_x, labels)
     print('Fitting model: ' + str(time.time() - t1))
     pickle.dump(model, open(modelpath + '/model.p', 'wb'))
     t1 = time.time()
+    print("Total training: " + get_time(t0))
 
 
-def classify(texts, modelpath, config):
+def classify(texts, others, modelpath, config):
     model = pickle.load(open(modelpath + '/model.p', 'rb'))
     char_counts = pickle.load(open(modelpath + '/char.p', 'rb'))
     word_counts = pickle.load(open(modelpath + '/word.p', 'rb'))
+    feat_vectr = pickle.load(open(modelpath + '/feats.p', 'rb'))
 
     char_matrix = char_counts.transform(texts)
     word_matrix = word_counts.transform(texts)
+    other_matrix = feat_vectr.transform(others)
 
-    main_x = hstack([char_matrix, word_matrix])
+    main_x = hstack([char_matrix, word_matrix, other_matrix])
     result = model.predict(main_x)
     return result
 
 def test(infiles, modelpath, config):
     print('Testing')
-    texts, y = get_instances(infiles)
+    texts, y, others = get_instances(infiles, config)
 
-    result = classify(texts, modelpath, config)
+    result = classify(texts, others, modelpath, config)
 
     error_dict = {}
     error = open('errors.txt', 'w')
@@ -164,7 +177,7 @@ def test(infiles, modelpath, config):
 
     print('Samples:\t' + str(len(y)))
     print('Accuracy:\t' + str(right / len(y)))
-    print('Total time:\t' + str(time.time() - t0))
+    print('Total time:\t' + get_time(t0))
 
 
 def list_mentions(infiles, config):
@@ -183,13 +196,90 @@ def list_mentions(infiles, config):
         for m in lgmentions:
             print('\t'.join(map(str, m)))
 
+def get_mention_dict(mentions):
+    """
+    Get a dictionary mapping line number to a list of language mentions
 
-def get_instances(infiles):
+    :param mentions: list of language mentions
+    :return: dictionary of (int) line number to list of mentions
+    """
+    mention_dict = {}
+    for mention in mentions:
+        index = int(mention.startline)
+        mention_dict[index] = [mention]
+        if index in mention_dict:
+            mention_dict[index].append(mention)
+        else:
+            mention_dict[index] = [mention]
+    return mention_dict
+
+def get_features(line_num, mention_dict, config):
+    """
+    Find mention features relevant to language text on a given line. features are in the form of:
+    number of times a language is mentioned in the window -- (lang_name)_w : int
+    number of times a language is mentioned in the close window -- (lang_name)_c : int
+
+    :param line_num: line number of the language text to be identified
+    :param mention_dict: dictionary of line_number to list of mentions
+    :param config: config object
+    :return: dictionary of feature to count
+    """
+    before = int(config['parameters'].get('window-size', 'default'))
+    after = int(config['parameters'].get('after-window-size', 'default'))
+    c_before = int(config['parameters'].get('close-window-size', 'default'))
+    c_after = int(config['parameters'].get('after-close-window-size', 'default'))
+    feat_dict = {}
+    for i in range(line_num - before, line_num + after):
+        if i in mention_dict:
+            mentions = mention_dict[i]
+            for mention in mentions:
+                lang = mention.name
+                key = lang + '_w'
+                if key in feat_dict:
+                    feat_dict[key] += 1
+                else:
+                    feat_dict[key] = 1
+                if line_num - c_before < i < line_num + c_after:
+                    key = lang + '_c'
+                    if key in feat_dict:
+                        feat_dict[key] += 1
+                    else:
+                        feat_dict[key] = 1
+    return feat_dict
+
+def get_instances(infiles, config):
+    """
+    Find all instances of language text to be identified
+
+    :param infiles: list of freki file paths
+    :param config: config object
+    :return: texts: list of language strings,
+            labels: list of gold labels for the texts,
+            others: list of dicts of mention features for each text
+    """
     texts = []
     labels = []
-    instances = []
+    other_feats = []
+    lgtable = read_language_table(config['locations']['language-table'])
+    caps = config['parameters'].get('mention-capitalization', 'default')
+    j = 1
     for file in infiles:
-        for line in open(file, 'r').readlines():
+        print(str(j) + '/' + str(len(infiles)))
+        j += 1
+        doc = FrekiDoc.read(file)
+        glob_mentions = {}
+        lgmentions = list(language_mentions(doc, lgtable, caps))
+        lg_dict = get_mention_dict(lgmentions)
+        for mention in lgmentions:
+            lang = mention.name
+            if lang in glob_mentions:
+                glob_mentions[lang] += 1
+            else:
+                glob_mentions[lang] = 1
+        all_text = open(file, 'r').read()
+        lines = all_text.split('\n')
+        for i in range(len(lines)):
+            line = lines[i]
             if "tag=L" in line:
                 lang = re.search('lang_name=.+lang_code', line).group(0).split('=')[1].split('lang_code')[0].strip()
                 lang_code = re.search('lang_code=.+fonts', line).group(0).split('=')[1].split('fonts')[0].strip()
@@ -201,8 +291,10 @@ def get_instances(infiles):
                 text = re.sub('\s+', ' ', text)
                 texts.append(text)
                 labels.append(label)
-                instances.append((text, label))
-    return texts, labels
+                feat_dict = get_features(i + 1, lg_dict, config)
+                feat_dict.update(glob_mentions)
+                other_feats.append(feat_dict)
+    return texts, labels, other_feats
 
 
 def spans(doc):
