@@ -2,9 +2,9 @@
 
 USAGE = '''
 Usage:
-  lgid [-v...] train    --model=PATH  CONFIG INFILE...
-  lgid [-v...] classify --model=PATH  CONFIG INFILE...
-  lgid [-v...] test     --model=PATH  CONFIG INFILE...
+  lgid [-v...] train    --model=PATH [--intermediate=DIR] CONFIG INFILE...
+  lgid [-v...] classify --model=PATH [--intermediate=DIR] CONFIG INFILE...
+  lgid [-v...] test     --model=PATH [--intermediate=DIR] CONFIG INFILE...
   lgid [-v...] list-mentions          CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
   lgid [-v...] build-odin-lm          CONFIG
@@ -25,6 +25,7 @@ Options:
   -h, --help                print this usage and exit
   -v, --verbose             increase logging verbosity
   --model PATH              where to save/load a trained model
+  --intermediate DIR        a directory to store intermediate files (e.g. feature vectors)   
 
 Examples:
   lgid -v train --model=model.gz config.ini 123.freki 456.freki
@@ -81,14 +82,15 @@ def main():
     config.read(args['CONFIG'])
 
     modelpath = args['--model']
+    intermediate_dir = args['--intermediate'].strip('/')
     infiles = args['INFILE']
 
     if args['train']:
-        train(infiles, modelpath, config)
+        train(infiles, modelpath, intermediate_dir, config)
     elif args['classify']:
-        classify(infiles, modelpath, config)
+        classify(infiles, modelpath, intermediate_dir, config)
     elif args['test']:
-        test(infiles, modelpath, config)
+        test(infiles, modelpath, intermediate_dir, config)
     elif args['list-mentions']:
         list_mentions(infiles, config)
     elif args['download-crubadan-data']:
@@ -97,7 +99,7 @@ def main():
         build_odin_lm(config)
 
 
-def train(infiles, modelpath, config):
+def train(infiles, modelpath, intermediate_dir, config):
     """
     Train a language-identification model from training data
 
@@ -108,8 +110,12 @@ def train(infiles, modelpath, config):
     """
     print('getting instances')
     instances = list(get_instances(infiles, config))
-    # for inst in instances:
-    #     print(inst.id, inst.label)
+    if intermediate_dir != None:
+        os.makedirs(intermediate_dir, exist_ok=True)
+        with open(intermediate_dir + '/training_feature_vectors', 'w') as f:
+            for inst in instances:
+                f.write('{}: {}\n'.format(inst.id, ", ".join(inst.feats)))
+
     model = Model()
     model.feat_selector = chi2
     print('training')
@@ -144,7 +150,7 @@ def find_best_and_normalize(instances, dists):
     return labels[highest]
 
 
-def classify(infiles, modelpath, config, instances=None):
+def classify(infiles, modelpath, config, intermediate_dir, instances=None):
     """
         Classify instances found in the given files
 
@@ -161,6 +167,13 @@ def classify(infiles, modelpath, config, instances=None):
         instances = list(get_instances(infiles, config))
         print('getting instances: ' + str(time.time() - t1))
         t1 = time.time()
+    
+    if intermediate_dir != None:
+        os.makedirs(intermediate_dir, exist_ok=True)
+        with open(intermediate_dir + '/classification_feature_vectors', 'w') as f:
+            for inst in instances:
+                f.write('{}: {}\n'.format(inst.id, ", ".join(inst.feats)))
+
     inst_dict = {}
     prediction_dict = {}
     for inst in instances:
@@ -182,7 +195,7 @@ def classify(infiles, modelpath, config, instances=None):
     store_dict()
     return prediction_dict
 
-def test(infiles, modelpath, config):
+def test(infiles, modelpath, intermediate_dir, config):
     """
     Test a language-identification model
 
@@ -193,6 +206,13 @@ def test(infiles, modelpath, config):
     """
     real_classes = {}
     instances = list(get_instances(infiles, config))
+
+    if intermediate_dir != None:
+        os.makedirs(intermediate_dir, exist_ok=True)
+        with open(intermediate_dir + '/testing_feature_vectors', 'w') as f:
+            for inst in instances:
+                f.write('{}: {}\n'.format(inst.id, ", ".join(inst.feats)))
+
     for inst in instances:
         if bool(inst.label):
             num = re.search("([0-9]+-){4}", inst.id).group(0)
