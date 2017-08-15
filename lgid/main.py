@@ -98,12 +98,6 @@ def main():
     elif args['build-odin-lm']:
         build_odin_lm(config)
 
-def print_feature_vectors(instances, intermediate_dir, filename):
-    os.makedirs(intermediate_dir, exist_ok=True)
-    with open(intermediate_dir + '/' + filename, 'w') as f:
-        for inst in instances:
-            f.write('{}: {}\n'.format(inst.id, ", ".join(inst.feats)))
-
 def train(infiles, modelpath, intermediate_dir, config):
     """
     Train a language-identification model from training data
@@ -114,11 +108,7 @@ def train(infiles, modelpath, intermediate_dir, config):
         config: model parameters
     """
     print('getting instances')
-    instances = list(get_instances(infiles, config))
-
-    if intermediate_dir != None:
-        print_feature_vectors(instances, intermediate_dir, 'training_feature_vectors')
-
+    instances = list(get_instances(infiles, config, intermediate_dir))
     model = Model()
     model.feat_selector = chi2
     print('training')
@@ -167,12 +157,9 @@ def classify(infiles, modelpath, config, intermediate_dir, instances=None):
     if not instances:
         print('before getting instances: ' + str(time.time() - t1))
         t1 = time.time()
-        instances = list(get_instances(infiles, config))
+        instances = list(get_instances(infiles, config, intermediate_dir))
         print('getting instances: ' + str(time.time() - t1))
         t1 = time.time()
-
-    if intermediate_dir != None:
-        print_feature_vectors(instances, intermediate_dir, 'classification_feature_vectors')
 
     inst_dict = {}
     prediction_dict = {}
@@ -205,11 +192,7 @@ def test(infiles, modelpath, intermediate_dir, config):
         config: model parameters
     """
     real_classes = {}
-    instances = list(get_instances(infiles, config))
-
-    if intermediate_dir != None:
-        print_feature_vectors(instances, intermediate_dir, 'testing_feature_vectors')
-
+    instances = list(get_instances(infiles, config, intermediate_dir))
     for inst in instances:
         if bool(inst.label):
             num = re.search("([0-9]+-){4}", inst.id).group(0)
@@ -241,8 +224,10 @@ def list_mentions(infiles, config):
         for m in lgmentions:
             print('\t'.join(map(str, m)))
 
+def print_feature_vector(_id, feats, file):
+    file.write('{}: {}\n'.format(_id, ", ".join(feats)))
 
-def get_instances(infiles, config):
+def get_instances(infiles, config, intermediate_dir):
     """
     Read Freki documents from *infiles* and return training instances
 
@@ -261,6 +246,10 @@ def get_instances(infiles, config):
         t1 = time.time()
     i = 1
     for infile in infiles:
+        if intermediate_dir != None:
+            os.makedirs(intermediate_dir, exist_ok=True)
+            vector_file = open(intermediate_dir + '/' + os.path.basename(infile) + '.vector', 'w')
+
         print('File ' + str(i) + '/' + str(len(infiles)))
         i += 1
         doc = FrekiDoc.read(infile)
@@ -325,7 +314,12 @@ def get_instances(infiles, config):
                     label = True if pair == goldpair else False
                     instfeats = dict(feats)
                     instfeats.update(features[pair])
+                    if intermediate_dir != None:
+                        print_feature_vector(id_, instfeats, vector_file)
                     yield StringInstance(id_, label, instfeats)
+
+        if vector_file:
+            vector_file.close()
 
 
 def spans(doc):
