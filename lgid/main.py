@@ -56,7 +56,9 @@ from lgid.models import (
 from lgid.util import (
     read_language_table,
     encode_instance_id,
-    decode_instance_id
+    decode_instance_id,
+    read_crubadan_language_model,
+    read_odin_language_model
 )
 from lgid.analyzers import (
     language_mentions
@@ -67,7 +69,7 @@ from lgid.features import (
     l_features,
     g_features,
     m_features,
-    store_dict
+    # store_dict
 )
 
 
@@ -143,7 +145,6 @@ def find_best_and_normalize(instances, dists):
 
 
 def classify(infiles, modelpath, config, instances=None):
-    global t1
     """
         Classify instances found in the given files
 
@@ -153,6 +154,7 @@ def classify(infiles, modelpath, config, instances=None):
             config: model parameters
             instances: a list of instances passed by test() to streamline
     """
+    global t1
     if not instances:
         print('before getting instances: ' + str(time.time() - t1))
         t1 = time.time()
@@ -224,7 +226,6 @@ def list_mentions(infiles, config):
 
 
 def get_instances(infiles, config):
-    global t1
     """
     Read Freki documents from *infiles* and return training instances
 
@@ -234,6 +235,7 @@ def get_instances(infiles, config):
     Yields:
         training/test instances from Freki documents
     """
+    global t1
     locs = config['locations']
     lgtable = {}
     if locs['language-table']:
@@ -253,6 +255,13 @@ def get_instances(infiles, config):
         lgmentions = list(language_mentions(doc, lgtable, caps))
         features_template = dict(((m.name, m.code), {}) for m in lgmentions)
 
+        name_code_pairs = list(features_template.keys())
+        word_clm = read_crubadan_language_model(name_code_pairs, config, False)
+        char_clm = read_crubadan_language_model(name_code_pairs, config, True)
+        word_olm = read_odin_language_model(name_code_pairs, config, False)
+        char_olm = read_odin_language_model(name_code_pairs, config, True)
+        lms = (word_clm, char_clm, word_olm, char_olm)
+
         for span in spans(doc):
             if not span:
                 continue
@@ -270,7 +279,7 @@ def get_instances(infiles, config):
                     lgname = line.attrs.get('lang_name', '???').lower()
                     lgcode = line.attrs.get('lang_code', 'und')
                     l_feats = dict(features_template)
-                    l_features(l_feats, lgmentions, context, config)
+                    l_features(l_feats, lgmentions, context, lms, config)
                     t1 = time.time()
                     l_lines.append((line, l_feats, lgname, lgcode))
                     # if L and some other tag co-occur, only record local feats
