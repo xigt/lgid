@@ -98,6 +98,11 @@ def main():
     elif args['build-odin-lm']:
         build_odin_lm(config)
 
+def print_feature_vectors(instances, intermediate_dir, filename):
+    os.makedirs(intermediate_dir, exist_ok=True)
+    with open(intermediate_dir + '/' + filename, 'w') as f:
+        for inst in instances:
+            f.write('{}: {}\n'.format(inst.id, ", ".join(inst.feats)))
 
 def train(infiles, modelpath, intermediate_dir, config):
     """
@@ -110,11 +115,9 @@ def train(infiles, modelpath, intermediate_dir, config):
     """
     print('getting instances')
     instances = list(get_instances(infiles, config))
+
     if intermediate_dir != None:
-        os.makedirs(intermediate_dir, exist_ok=True)
-        with open(intermediate_dir + '/training_feature_vectors', 'w') as f:
-            for inst in instances:
-                f.write('{}: {}\n'.format(inst.id, ", ".join(inst.feats)))
+        print_feature_vectors(instances, intermediate_dir, 'training_feature_vectors')
 
     model = Model()
     model.feat_selector = chi2
@@ -167,12 +170,9 @@ def classify(infiles, modelpath, config, intermediate_dir, instances=None):
         instances = list(get_instances(infiles, config))
         print('getting instances: ' + str(time.time() - t1))
         t1 = time.time()
-    
+
     if intermediate_dir != None:
-        os.makedirs(intermediate_dir, exist_ok=True)
-        with open(intermediate_dir + '/classification_feature_vectors', 'w') as f:
-            for inst in instances:
-                f.write('{}: {}\n'.format(inst.id, ", ".join(inst.feats)))
+        print_feature_vectors(instances, intermediate_dir, 'classification_feature_vectors')
 
     inst_dict = {}
     prediction_dict = {}
@@ -208,10 +208,7 @@ def test(infiles, modelpath, intermediate_dir, config):
     instances = list(get_instances(infiles, config))
 
     if intermediate_dir != None:
-        os.makedirs(intermediate_dir, exist_ok=True)
-        with open(intermediate_dir + '/testing_feature_vectors', 'w') as f:
-            for inst in instances:
-                f.write('{}: {}\n'.format(inst.id, ", ".join(inst.feats)))
+        print_feature_vectors(instances, intermediate_dir, 'testing_feature_vectors')
 
     for inst in instances:
         if bool(inst.label):
