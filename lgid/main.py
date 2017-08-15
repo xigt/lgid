@@ -2,9 +2,9 @@
 
 USAGE = '''
 Usage:
-  lgid [-v...] train    --model=PATH [--intermediate=DIR] CONFIG INFILE...
-  lgid [-v...] classify --model=PATH [--intermediate=DIR] CONFIG INFILE...
-  lgid [-v...] test     --model=PATH [--intermediate=DIR] CONFIG INFILE...
+  lgid [-v...] train    --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] classify --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] test     --model=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] list-mentions          CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
   lgid [-v...] build-odin-lm          CONFIG
@@ -25,7 +25,7 @@ Options:
   -h, --help                print this usage and exit
   -v, --verbose             increase logging verbosity
   --model PATH              where to save/load a trained model
-  --intermediate DIR        a directory to store intermediate files (e.g. feature vectors)   
+  --vectors DIR             a directory to print feature vectors for inspection
 
 Examples:
   lgid -v train --model=model.gz config.ini 123.freki 456.freki
@@ -82,15 +82,15 @@ def main():
     config.read(args['CONFIG'])
 
     modelpath = args['--model']
-    intermediate_dir = args['--intermediate'].strip('/')
+    vector_dir = args['--vectors'].strip('/')
     infiles = args['INFILE']
 
     if args['train']:
-        train(infiles, modelpath, intermediate_dir, config)
+        train(infiles, modelpath, vector_dir, config)
     elif args['classify']:
-        classify(infiles, modelpath, intermediate_dir, config)
+        classify(infiles, modelpath, vector_dir, config)
     elif args['test']:
-        test(infiles, modelpath, intermediate_dir, config)
+        test(infiles, modelpath, vector_dir, config)
     elif args['list-mentions']:
         list_mentions(infiles, config)
     elif args['download-crubadan-data']:
@@ -98,7 +98,7 @@ def main():
     elif args['build-odin-lm']:
         build_odin_lm(config)
 
-def train(infiles, modelpath, intermediate_dir, config):
+def train(infiles, modelpath, vector_dir, config):
     """
     Train a language-identification model from training data
 
@@ -108,7 +108,7 @@ def train(infiles, modelpath, intermediate_dir, config):
         config: model parameters
     """
     print('getting instances')
-    instances = list(get_instances(infiles, config, intermediate_dir))
+    instances = list(get_instances(infiles, config, vector_dir))
     model = Model()
     model.feat_selector = chi2
     print('training')
@@ -143,7 +143,7 @@ def find_best_and_normalize(instances, dists):
     return labels[highest]
 
 
-def classify(infiles, modelpath, config, intermediate_dir, instances=None):
+def classify(infiles, modelpath, config, vector_dir, instances=None):
     """
         Classify instances found in the given files
 
@@ -157,7 +157,7 @@ def classify(infiles, modelpath, config, intermediate_dir, instances=None):
     if not instances:
         print('before getting instances: ' + str(time.time() - t1))
         t1 = time.time()
-        instances = list(get_instances(infiles, config, intermediate_dir))
+        instances = list(get_instances(infiles, config, vector_dir))
         print('getting instances: ' + str(time.time() - t1))
         t1 = time.time()
 
@@ -182,7 +182,7 @@ def classify(infiles, modelpath, config, intermediate_dir, instances=None):
     store_dict()
     return prediction_dict
 
-def test(infiles, modelpath, intermediate_dir, config):
+def test(infiles, modelpath, vector_dir, config):
     """
     Test a language-identification model
 
@@ -192,7 +192,7 @@ def test(infiles, modelpath, intermediate_dir, config):
         config: model parameters
     """
     real_classes = {}
-    instances = list(get_instances(infiles, config, intermediate_dir))
+    instances = list(get_instances(infiles, config, vector_dir))
     for inst in instances:
         if bool(inst.label):
             num = re.search("([0-9]+-){4}", inst.id).group(0)
@@ -227,7 +227,7 @@ def list_mentions(infiles, config):
 def print_feature_vector(_id, feats, file):
     file.write('{}: {}\n'.format(_id, ", ".join(feats)))
 
-def get_instances(infiles, config, intermediate_dir):
+def get_instances(infiles, config, vector_dir):
     """
     Read Freki documents from *infiles* and return training instances
 
@@ -246,9 +246,9 @@ def get_instances(infiles, config, intermediate_dir):
         t1 = time.time()
     i = 1
     for infile in infiles:
-        if intermediate_dir != None:
-            os.makedirs(intermediate_dir, exist_ok=True)
-            vector_file = open(intermediate_dir + '/' + os.path.basename(infile) + '.vector', 'w')
+        if vector_dir != None:
+            os.makedirs(vector_dir, exist_ok=True)
+            vector_file = open(vector_dir + '/' + os.path.basename(infile) + '.vector', 'w')
 
         print('File ' + str(i) + '/' + str(len(infiles)))
         i += 1
@@ -314,7 +314,7 @@ def get_instances(infiles, config, intermediate_dir):
                     label = True if pair == goldpair else False
                     instfeats = dict(feats)
                     instfeats.update(features[pair])
-                    if intermediate_dir != None:
+                    if vector_dir != None:
                         print_feature_vector(id_, instfeats, vector_file)
                     yield StringInstance(id_, label, instfeats)
 
