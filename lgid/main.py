@@ -75,6 +75,37 @@ from lgid.features import (
 )
 
 
+def calc_mention_recall(infiles, config):
+    """
+    Calculate the upper bound for language mentions: the percentage of correct labels that are mentioned in the file
+    :param infiles: a list of freki filepaths
+    :param config: a config object
+    :return: none
+    """
+    lgtable = read_language_table(config['locations']['language-table'])
+    caps = config['parameters'].get('mention-capitalization', 'default')
+    positive = 0
+    length = 0
+    index = 1
+    for file in infiles:
+        doc = FrekiDoc.read(file)
+        mentions = language_mentions(doc, lgtable, caps)
+        texts, labels = get_instances([file])
+        print(str(index) + '/' + str(len(infiles)))
+        index += 1
+        length += len(labels)
+        names = set()
+        for mention in mentions:
+            name = mention.name[0].upper() + mention.name[1:] + '_' + mention.code
+            names.add(name)
+        for label in labels:
+            if label in names:
+                positive += 1
+    print("Language mention recall: " + str(float(positive)/length))
+
+
+
+
 def main():
     args = docopt.docopt(USAGE)
     logging.basicConfig(level=50 - ((args['--verbose'] + 2) * 10))
