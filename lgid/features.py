@@ -279,7 +279,6 @@ def ngram_matching(features, feature, line, name, code, characters, dataset, lm,
 
             matches = 0
             for ngram in ngrams:
-                #if feature == 'L-LMc':
                 ngram = tuple(ngram)
                 if ngram in lm:
                     matches += 1
@@ -291,6 +290,5 @@ def ngram_matching(features, feature, line, name, code, characters, dataset, lm,
                     percents[feature] = [percent]
             except ZeroDivisionError:
                 return
-            features[(name, code)][feature] = percent
-            #if percent >= threshold:
-            #    features[(name, code)][feature] = True
+            if percent >= threshold:
+                features[(name, code)][feature] = True

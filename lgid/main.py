@@ -64,7 +64,7 @@ from lgid.util import (
     read_odin_language_model
 )
 from lgid.analyzers import (
-    language_mentions
+    language_mentions,
 )
 from lgid.features import (
     gl_features,
@@ -218,7 +218,7 @@ def test(infiles, modelpath, vector_dir, config):
             logging.info("Language: " + real_classes[key] + '\tPredicted: ' + predicted_classes[key])
             if real_classes[key].split('-')[0] == predicted_classes[key].split('-')[0]:
                 right += 1
-                if real_classes[key].split == predicted_classes[key].split:
+                if real_classes[key] == predicted_classes[key]:
                     right_dialect += 1
     get_feature_weights(modelpath)
     print('Samples:\t' + str(len(real_classes)))
@@ -292,6 +292,7 @@ def get_instances(infiles, config, vector_dir):
         caps = config['parameters'].get('mention-capitalization', 'default')
 
         lgmentions = list(language_mentions(doc, lgtable, caps))
+
         features_template = dict(((m.name, m.code), {}) for m in lgmentions)
 
         name_code_pairs = list(features_template.keys())
