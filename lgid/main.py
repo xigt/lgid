@@ -2,9 +2,9 @@
 
 USAGE = '''
 Usage:
-  lgid [-v...] train    --model=PATH  CONFIG INFILE...
-  lgid [-v...] classify --model=PATH  CONFIG INFILE...
-  lgid [-v...] test     --model=PATH  CONFIG INFILE...
+  lgid [-v...] train    --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] classify --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] test     --model=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] list-mentions          CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
   lgid [-v...] build-odin-lm          CONFIG
@@ -25,6 +25,7 @@ Options:
   -h, --help                print this usage and exit
   -v, --verbose             increase logging verbosity
   --model PATH              where to save/load a trained model
+  --vectors DIR             a directory to print feature vectors for inspection
 
 Examples:
   lgid -v train --model=model.gz config.ini 123.freki 456.freki
@@ -39,6 +40,7 @@ t1 = time.time()
 t0 = time.time()
 
 import os
+import shutil
 from configparser import ConfigParser
 import logging
 import numpy as np
@@ -57,7 +59,9 @@ from lgid.models import (
 from lgid.util import (
     read_language_table,
     encode_instance_id,
-    decode_instance_id
+    decode_instance_id,
+    read_crubadan_language_model,
+    read_odin_language_model
 )
 from lgid.analyzers import (
     language_mentions
@@ -80,14 +84,18 @@ def main():
     config.read(args['CONFIG'])
 
     modelpath = args['--model']
+    try:
+        vector_dir = args['--vectors'].strip('/')
+    except AttributeError:
+        vector_dir = 'vectors'
     infiles = args['INFILE']
 
     if args['train']:
-        train(infiles, modelpath, config)
+        train(infiles, modelpath, vector_dir, config)
     elif args['classify']:
-        classify(infiles, modelpath, config)
+        classify(infiles, modelpath, vector_dir, config)
     elif args['test']:
-        test(infiles, modelpath, config)
+        test(infiles, modelpath, vector_dir, config)
     elif args['list-mentions']:
         list_mentions(infiles, config)
     elif args['download-crubadan-data']:
@@ -102,7 +110,7 @@ def get_time(t):
     return "%d:%02d:%02d" % (h, m, s)
 
 
-def train(infiles, modelpath, config):
+def train(infiles, modelpath, vector_dir, config):
     """
     Train a language-identification model from training data
 
@@ -112,9 +120,7 @@ def train(infiles, modelpath, config):
         config: model parameters
     """
     print('getting instances')
-    instances = list(get_instances(infiles, config))
-    # for inst in instances:
-    #     print(inst.id, inst.label)
+    instances = list(get_instances(infiles, config, vector_dir))
     model = Model()
     model.feat_selector = chi2
     print('training')
@@ -151,8 +157,7 @@ def find_best_and_normalize(instances, dists):
     return labels[highest]
 
 
-def classify(infiles, modelpath, config, instances=None):
-    global t1
+def classify(infiles, modelpath, config, vector_dir, instances=None):
     """
         Classify instances found in the given files
 
@@ -162,12 +167,14 @@ def classify(infiles, modelpath, config, instances=None):
             config: model parameters
             instances: a list of instances passed by test() to streamline
     """
+    global t1
     if not instances:
         logging.info('before getting instances: ' + str(time.time() - t1))
         t1 = time.time()
-        instances = list(get_instances(infiles, config))
+        instances = list(get_instances(infiles, config, vector_dir))
         logging.info('getting instances: ' + str(time.time() - t1))
         t1 = time.time()
+
     inst_dict = {}
     prediction_dict = {}
     for inst in instances:
@@ -188,7 +195,7 @@ def classify(infiles, modelpath, config, instances=None):
     t1 = time.time()
     return prediction_dict
 
-def test(infiles, modelpath, config):
+def test(infiles, modelpath, vector_dir, config):
     """
     Test a language-identification model
 
@@ -198,12 +205,12 @@ def test(infiles, modelpath, config):
         config: model parameters
     """
     real_classes = {}
-    instances = list(get_instances(infiles, config))
+    instances = list(get_instances(infiles, config, vector_dir))
     for inst in instances:
         if bool(inst.label):
             num = re.search("([0-9]+-){4}", inst.id).group(0)
             real_classes[num] = re.split("([0-9]+-){4}", inst.id)[2]
-    predicted_classes = classify(infiles, modelpath, config, instances)
+    predicted_classes = classify(infiles, modelpath, config, vector_dir, instances)
     right = 0
     right_dialect = 0
     for key in real_classes:
@@ -250,9 +257,10 @@ def list_mentions(infiles, config):
         for m in lgmentions:
             print('\t'.join(map(str, m)))
 
+def print_feature_vector(_id, feats, file):
+    file.write('{}: {}\n'.format(_id, ", ".join(feats)))
 
-def get_instances(infiles, config):
-    global t1
+def get_instances(infiles, config, vector_dir):
     """
     Read Freki documents from *infiles* and return training instances
 
@@ -262,6 +270,7 @@ def get_instances(infiles, config):
     Yields:
         training/test instances from Freki documents
     """
+    global t1
     locs = config['locations']
     lgtable = {}
     if locs['language-table']:
@@ -271,6 +280,10 @@ def get_instances(infiles, config):
     i = 1
     for infile in infiles:
         logging.info('File ' + str(i) + '/' + str(len(infiles)))
+        if vector_dir != None:
+            os.makedirs(vector_dir, exist_ok=True)
+            vector_file = open(vector_dir + '/' + os.path.basename(infile) + '.vector', 'w')
+
         i += 1
         doc = FrekiDoc.read(infile)
 
@@ -280,6 +293,13 @@ def get_instances(infiles, config):
 
         lgmentions = list(language_mentions(doc, lgtable, caps))
         features_template = dict(((m.name, m.code), {}) for m in lgmentions)
+
+        name_code_pairs = list(features_template.keys())
+        word_clm = read_crubadan_language_model(name_code_pairs, config, False)
+        char_clm = read_crubadan_language_model(name_code_pairs, config, True)
+        word_olm = read_odin_language_model(name_code_pairs, config, False)
+        char_olm = read_odin_language_model(name_code_pairs, config, True)
+        lms = (word_clm, char_clm, word_olm, char_olm)
 
         for span in spans(doc):
             if not span:
@@ -298,7 +318,7 @@ def get_instances(infiles, config):
                     lgname = line.attrs.get('lang_name', '???').lower()
                     lgcode = line.attrs.get('lang_code', 'und')
                     l_feats = dict(features_template)
-                    l_features(l_feats, lgmentions, context, config)
+                    l_features(l_feats, lgmentions, context, lms, config)
                     t1 = time.time()
                     l_lines.append((line, l_feats, lgname, lgcode))
                     # if L and some other tag co-occur, only record local feats
@@ -327,7 +347,12 @@ def get_instances(infiles, config):
                     label = True if pair == goldpair else False
                     instfeats = dict(feats)
                     instfeats.update(features[pair])
+                    if vector_dir != None:
+                        print_feature_vector(id_, instfeats, vector_file)
                     yield StringInstance(id_, label, instfeats)
+
+        if vector_file:
+            vector_file.close()
 
 
 def spans(doc):
