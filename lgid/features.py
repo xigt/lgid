@@ -11,6 +11,9 @@ See README.md for more information about features.
 """
 
 from collections import Counter
+import numpy as np
+import logging
+
 
 from lgid.analyzers import (
     character_ngrams,
@@ -21,6 +24,17 @@ from lgid.util import (
     read_crubadan_language_model,
     read_odin_language_model
 )
+
+lm_dict = {}
+percents = {}
+
+def get_threshold_info():
+    logging.info("LM threshold info:")
+    for feat in percents:
+        logging.info(feat)
+        logging.info("\tMean: " + str(np.mean(percents[feat])))
+        logging.info("\tStd. Dev: " + str(np.std(percents[feat])))
+
 
 def gl_features(features, mentions, context, config):
     """
@@ -119,6 +133,7 @@ def l_features(features, mentions, context, config):
         # Crubadan n-grams
         ngram_matching(features, 'L-CR-LMw', line, name, code, False, 'crubadan', config)
         ngram_matching(features, 'L-CR-LMc', line, name, code, True, 'crubadan', config)
+
 
 def g_features(features, olm, context, config):
     """
@@ -254,11 +269,15 @@ def ngram_matching(features, feature, line, name, code, characters, dataset, con
             n = int(config['parameters']['crubadan-word-size'])
 
     if config['features'][feature]:
-        if dataset == 'odin':
-            lm = read_odin_language_model(name, code, config, characters)
-        elif dataset == 'crubadan':
-            lm = read_crubadan_language_model(name, code, config, characters)
-
+        key = (name, dataset, characters)
+        if key in lm_dict:
+            lm = lm_dict[key]
+        else:
+            if dataset == 'odin':
+                lm = read_odin_language_model(name, code, config, characters)
+            elif dataset == 'crubadan':
+                lm = read_crubadan_language_model(name, code, config, characters)
+            lm_dict[key] = lm
         if lm is not None:
             ngrams = character_ngrams(line, (n, n)) if characters else word_ngrams(line, n)
             # remove the initial and final '\n' from Crubadan unigrams and all ODIN ngrams
@@ -267,12 +286,18 @@ def ngram_matching(features, feature, line, name, code, characters, dataset, con
 
             matches = 0
             for ngram in ngrams:
+                #if feature == 'L-LMc':
                 ngram = tuple(ngram)
                 if ngram in lm:
                     matches += 1
             try:
                 percent = matches / len(ngrams)
+                if feature in percents:
+                    percents[feature].append(percent)
+                else:
+                    percents[feature] = [percent]
             except ZeroDivisionError:
                 return
-            if percent >= threshold:
-                features[(name, code)][feature] = True
+            features[(name, code)][feature] = percent
+            #if percent >= threshold:
+            #    features[(name, code)][feature] = True

@@ -36,6 +36,7 @@ Examples:
 
 import time
 t1 = time.time()
+t0 = time.time()
 
 import os
 from configparser import ConfigParser
@@ -67,7 +68,7 @@ from lgid.features import (
     l_features,
     g_features,
     m_features,
-    store_dict
+    get_threshold_info
 )
 
 
@@ -95,6 +96,12 @@ def main():
         build_odin_lm(config)
 
 
+def get_time(t):
+    m, s = divmod(time.time() - t, 60)
+    h, m = divmod(m, 60)
+    return "%d:%02d:%02d" % (h, m, s)
+
+
 def train(infiles, modelpath, config):
     """
     Train a language-identification model from training data
@@ -114,6 +121,8 @@ def train(infiles, modelpath, config):
     model.train(instances)
     print('saving model')
     model.save(modelpath)
+    get_threshold_info()
+    get_feature_weights(modelpath)
     # for dist in model.test(instances):
     #     print(dist.best_class, dist.best_prob, len(dist.dict))
 
@@ -154,10 +163,10 @@ def classify(infiles, modelpath, config, instances=None):
             instances: a list of instances passed by test() to streamline
     """
     if not instances:
-        print('before getting instances: ' + str(time.time() - t1))
+        logging.info('before getting instances: ' + str(time.time() - t1))
         t1 = time.time()
         instances = list(get_instances(infiles, config))
-        print('getting instances: ' + str(time.time() - t1))
+        logging.info('getting instances: ' + str(time.time() - t1))
         t1 = time.time()
     inst_dict = {}
     prediction_dict = {}
@@ -169,15 +178,14 @@ def classify(infiles, modelpath, config, instances=None):
             inst_dict[num] = [inst]
     model = Model()
     model = model.load(modelpath)
-    print('loading model: ' + str(time.time() - t1))
+    logging.info('loading model: ' + str(time.time() - t1))
     t1 = time.time()
     for inst_id in inst_dict:
         results = model.test(inst_dict[inst_id])
         top = find_best_and_normalize(inst_dict[inst_id], results)
         prediction_dict[inst_id] = top
-    print('predicting:' + str(time.time() - t1))
+    logging.info('predicting:' + str(time.time() - t1))
     t1 = time.time()
-    store_dict()
     return prediction_dict
 
 def test(infiles, modelpath, config):
@@ -197,14 +205,34 @@ def test(infiles, modelpath, config):
             real_classes[num] = re.split("([0-9]+-){4}", inst.id)[2]
     predicted_classes = classify(infiles, modelpath, config, instances)
     right = 0
+    right_dialect = 0
     for key in real_classes:
         if key in real_classes and key in predicted_classes:
-            if real_classes[key] == predicted_classes[key]:
+            logging.info("Language: " + real_classes[key] + '\tPredicted: ' + predicted_classes[key])
+            if real_classes[key].split('-')[0] == predicted_classes[key].split('-')[0]:
                 right += 1
-    print(real_classes)
-    print(predicted_classes)
-    print("Accuracy: " + str(float(right)/len(real_classes)))
+                if real_classes[key].split == predicted_classes[key].split:
+                    right_dialect += 1
+    get_feature_weights(modelpath)
+    print('Samples:\t' + str(len(real_classes)))
+    print('Accuracy on Language (Name only):\t' + str(right / len(real_classes)))
+    print('Accuracy on Dialects (Name + Code):\t' + str(right_dialect / len(real_classes)))
+    print('Total time:\t' + get_time(t0))
 
+def get_feature_weights(modelpath):
+    model = Model()
+    model = model.load(modelpath)
+    feats_names = ["GL-first-lines", "GL-last-lines", "GL-frequent", "GL-most-frequent", "W-prev", "W-close",
+                   "W-closest", "W-frequent", "W-after", "W-close-after", "W-closest-after", "W-frequent-after",
+                   "L-in-line", "M-in-line", "L-LMw", "L-LMm", "L-LMc", "G-overlap", "L-CR-LMw", "L-CR-LMc",
+                   "W-prevclass"]
+    logging.info("Features not used:")
+    for feat in feats_names:
+        if feat not in model.feat_names():
+            print(feat)
+    logging.info("Feature weights:")
+    for i in range(len(model.feat_names())):
+        logging.info(model.feat_names()[i] + ": " + str(model.learner.coef_[0][i]))
 
 def list_mentions(infiles, config):
     """
@@ -238,11 +266,11 @@ def get_instances(infiles, config):
     lgtable = {}
     if locs['language-table']:
         lgtable = read_language_table(locs['language-table'])
-        print('reading lang table: ' + str(time.time() - t1))
+        logging.info('reading lang table: ' + str(time.time() - t1))
         t1 = time.time()
     i = 1
     for infile in infiles:
-        print('File ' + str(i) + '/' + str(len(infiles)))
+        logging.info('File ' + str(i) + '/' + str(len(infiles)))
         i += 1
         doc = FrekiDoc.read(infile)
 

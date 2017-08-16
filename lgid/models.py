@@ -136,7 +136,7 @@ class ClassifierWrapper(object):
         self._checklearner()
         labels = []
         feats = []
-
+        seen_feats = set()
         # We need to make this loop happen this way in case
         # the data is a generator, and doing list
         # comprehensions will result in one list being empty.
@@ -146,7 +146,6 @@ class ClassifierWrapper(object):
             # yield Distribution(self.classes(), probs[0])
             labels.append(datum.label)
             feats.append(datum.feats)
-
 
         vec = self._vectorize_and_select(feats, labels, testing=True)
         #
