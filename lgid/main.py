@@ -5,6 +5,7 @@ Usage:
   lgid [-v...] train    --model=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] classify --model=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] test     --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] list-model-weights   --model=PATH    CONFIG
   lgid [-v...] list-mentions          CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
   lgid [-v...] build-odin-lm          CONFIG
@@ -15,6 +16,7 @@ Commands:
   test                      test on new data using a saved model
   classify                  output predictions on new data using a saved model
   list-mentions             just print language mentions from input files
+  list-model-weights        show feature weights in a model and features not used
   download-crubadan-data    fetch the Crubadan language model data from the web
 
 Arguments:
@@ -96,6 +98,8 @@ def main():
         classify(infiles, modelpath, vector_dir, config)
     elif args['test']:
         test(infiles, modelpath, vector_dir, config)
+    elif args['list-model-weights']:
+        get_feature_weights(modelpath, config)
     elif args['list-mentions']:
         list_mentions(infiles, config)
     elif args['download-crubadan-data']:
@@ -128,7 +132,6 @@ def train(infiles, modelpath, vector_dir, config):
     print('saving model')
     model.save(modelpath)
     get_threshold_info()
-    get_feature_weights(modelpath)
     # for dist in model.test(instances):
     #     print(dist.best_class, dist.best_prob, len(dist.dict))
 
@@ -213,33 +216,36 @@ def test(infiles, modelpath, vector_dir, config):
     predicted_classes = classify(infiles, modelpath, config, vector_dir, instances)
     right = 0
     right_dialect = 0
+    right_code = 0
     for key in real_classes:
         if key in real_classes and key in predicted_classes:
             logging.info("Language: " + real_classes[key] + '\tPredicted: ' + predicted_classes[key])
+            if real_classes[key].split('-')[1] == predicted_classes[key].split('-')[1]:
+                right_code += 1
             if real_classes[key].split('-')[0] == predicted_classes[key].split('-')[0]:
                 right += 1
                 if real_classes[key] == predicted_classes[key]:
                     right_dialect += 1
-    get_feature_weights(modelpath)
     print('Samples:\t' + str(len(real_classes)))
     print('Accuracy on Language (Name only):\t' + str(right / len(real_classes)))
     print('Accuracy on Dialects (Name + Code):\t' + str(right_dialect / len(real_classes)))
+    print('Accuracy on Code Only:\t' + str(right_code / len(real_classes)))
     print('Total time:\t' + get_time(t0))
 
-def get_feature_weights(modelpath):
+def get_feature_weights(modelpath, config):
     model = Model()
     model = model.load(modelpath)
-    feats_names = ["GL-first-lines", "GL-last-lines", "GL-frequent", "GL-most-frequent", "W-prev", "W-close",
-                   "W-closest", "W-frequent", "W-after", "W-close-after", "W-closest-after", "W-frequent-after",
-                   "L-in-line", "M-in-line", "L-LMw", "L-LMm", "L-LMc", "G-overlap", "L-CR-LMw", "L-CR-LMc",
-                   "W-prevclass"]
-    logging.info("Features not used:")
-    for feat in feats_names:
-        if feat not in model.feat_names():
-            print(feat)
-    logging.info("Feature weights:")
+    print("Features not used:")
+    lower_feats = []
+    for a_feat in model.feat_names():
+        lower_feats.append(a_feat.lower())
+    for feat in config['features']:
+        if config['features'][feat] == 'yes':
+            if str(feat) not in lower_feats:
+                print('\t' + feat)
+    print("Feature weights:")
     for i in range(len(model.feat_names())):
-        logging.info(model.feat_names()[i] + ": " + str(model.learner.coef_[0][i]))
+        print('\t' + model.feat_names()[i] + ": " + str(model.learner.coef_[0][i]))
 
 def list_mentions(infiles, config):
     """
