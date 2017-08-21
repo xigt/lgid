@@ -82,7 +82,9 @@ def main():
     config.read(args['CONFIG'])
 
     modelpath = args['--model']
-    vector_dir = args['--vectors'].strip('/')
+    vector_dir = args['--vectors']
+    if vector_dir != None:
+        vector_dir = vector_dir.strip('/')
     infiles = args['INFILE']
 
     if args['train']:
