@@ -11,6 +11,9 @@ See README.md for more information about features.
 """
 
 from collections import Counter
+import numpy as np
+import logging
+
 
 from lgid.analyzers import (
     character_ngrams,
@@ -21,6 +24,17 @@ from lgid.util import (
     read_crubadan_language_model,
     read_odin_language_model
 )
+
+lm_dict = {}
+percents = {}
+
+def get_threshold_info():
+    logging.info("LM threshold info:")
+    for feat in percents:
+        logging.info(feat)
+        logging.info("\tMean: " + str(np.mean(percents[feat])))
+        logging.info("\tStd. Dev: " + str(np.std(percents[feat])))
+
 
 def gl_features(features, mentions, context, config):
     """
@@ -120,6 +134,7 @@ def l_features(features, mentions, context, lms, config):
         # Crubadan n-grams
         ngram_matching(features, 'L-CR-LMw', line, name, code, False, 'crubadan', word_clm, config)
         ngram_matching(features, 'L-CR-LMc', line, name, code, True, 'crubadan', char_clm, config)
+
 
 def g_features(features, olm, context, config):
     """
@@ -269,6 +284,10 @@ def ngram_matching(features, feature, line, name, code, characters, dataset, lm,
                     matches += 1
             try:
                 percent = matches / len(ngrams)
+                if feature in percents:
+                    percents[feature].append(percent)
+                else:
+                    percents[feature] = [percent]
             except ZeroDivisionError:
                 return
             if percent >= threshold:
