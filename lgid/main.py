@@ -87,10 +87,16 @@ def main():
     config.read(args['CONFIG'])
 
     modelpath = args['--model']
+<<<<<<< HEAD
+    vector_dir = args['--vectors']
+    if vector_dir != None:
+        vector_dir = vector_dir.strip('/')
+=======
     try:
         vector_dir = args['--vectors'].strip('/')
     except AttributeError:
         vector_dir = 'vectors'
+>>>>>>> 7efe3ba86d9d664a13351d4aa3aa11cf4b4a9d70
     infiles = args['INFILE']
 
     if args['train']:
