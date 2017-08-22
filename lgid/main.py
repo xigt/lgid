@@ -3,8 +3,8 @@
 USAGE = '''
 Usage:
   lgid [-v...] train    --model=PATH [--vectors=DIR] CONFIG INFILE...
-  lgid [-v...] classify --model=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] test     --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] classify --model=PATH --out=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] list-model-weights   --model=PATH    CONFIG
   lgid [-v...] list-mentions          CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
@@ -27,6 +27,7 @@ Options:
   -h, --help                print this usage and exit
   -v, --verbose             increase logging verbosity
   --model PATH              where to save/load a trained model
+  --out PATH                where to write freki files with added information
   --vectors DIR             a directory to print feature vectors for inspection
 
 Examples:
@@ -95,7 +96,9 @@ def main():
     if args['train']:
         train(infiles, modelpath, vector_dir, config)
     elif args['classify']:
-        classify(infiles, modelpath, vector_dir, config)
+        output = args['--out']
+        predictions = classify(infiles, modelpath, config, vector_dir)
+        write_to_files(infiles, predictions, output)
     elif args['test']:
         test(infiles, modelpath, vector_dir, config)
     elif args['list-model-weights']:
@@ -113,6 +116,36 @@ def get_time(t):
     h, m = divmod(m, 60)
     return "%d:%02d:%02d" % (h, m, s)
 
+
+def write_to_files(infiles, predictions, output):
+    """
+    Modify freki files to include predicted language names and write to an output directory
+    :param infiles: list of freki filepaths
+    :param predictions: dictionary of instance-id to language name and code prediction
+    :param output: filepath of the output directory
+    :return: none
+    """
+    if os.path.exists(output):
+        shutil.rmtree(output)
+    os.makedirs(output)
+    for file in infiles:
+        doc = FrekiDoc.read(file)
+        number = None
+        span_dict = doc.spans()
+        for span in span_dict:
+            start, end = span_dict[span]
+            start_line = doc.get_line(start)
+            number = start_line.block.doc_id
+            key = number + "-" + start_line.span_id + '-' + str(start_line.lineno) + '-'
+            pred = predictions[key].split('-')
+            lang_name = pred[0].title()
+            lang_code = pred[1]
+            for i in range(start, end):
+                line = doc.get_line(i)
+                line.attrs['lang_code'] = lang_code
+                line.attrs['lang_name'] = lang_name
+                doc.set_line(i, line)
+        open(output + '/' + str(number) + '.freki', 'w').write(str(doc))
 
 def train(infiles, modelpath, vector_dir, config):
     """
@@ -219,7 +252,6 @@ def test(infiles, modelpath, vector_dir, config):
     right_code = 0
     for key in real_classes:
         if key in real_classes and key in predicted_classes:
-            logging.info("Language: " + real_classes[key] + '\tPredicted: ' + predicted_classes[key])
             if real_classes[key].split('-')[1] == predicted_classes[key].split('-')[1]:
                 right_code += 1
             if real_classes[key].split('-')[0] == predicted_classes[key].split('-')[0]:
