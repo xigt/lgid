@@ -51,6 +51,8 @@ import logging
 import numpy as np
 import re
 from random import randint
+from collections import namedtuple
+
 
 import docopt
 
@@ -71,6 +73,7 @@ from lgid.util import (
 )
 from lgid.analyzers import (
     language_mentions,
+    Mention
 )
 from lgid.features import (
     gl_features,
@@ -114,23 +117,80 @@ def main():
     elif args['build-odin-lm']:
         build_odin_lm(config)
 
+
+def calc_mention_recall(infiles, config, instances=None):
+    """
+    Calculate the upper bound for language mentions: the percentage of correct labels that are mentioned in the file
+    :param infiles: a list of freki filepaths
+    :param config: a config object
+    :return: none
+    """
+    if not instances:
+        instances = get_instances(infiles, config, None)
+    lgtable = read_language_table(config['locations']['language-table'])
+    caps = config['parameters'].get('mention-capitalization', 'default')
+    positive = 0
+    length = 0
+    file_dict = {}
+    for inst in instances:
+        if inst.label:
+            file_num = inst.id.split('-')[0]
+            lang = '-'.join(inst.id.split('-')[-2:])
+            if file_num in file_dict:
+                file_dict[file_num].append(lang)
+            else:
+                file_dict[file_num] = [lang]
+    for file in infiles:
+        doc = FrekiDoc.read(file)
+        num = doc.get_line(1).block.doc_id
+        mentions = language_mentions(doc, lgtable, caps)
+        length += len(file_dict[num])
+        for label in file_dict[num]:
+            n = label.split('-')[0]
+            c = label.split('-')[1]
+            for mention in mentions:
+                if n == mention.name and c == mention.code:
+                    positive += 1
+                    break
+
+    recall = float(positive)/length
+    print("Language mention recall: " + str(recall))
+    return recall
+
 def n_fold_validation(n, infiles, modelpath, vector_dir, config):
+    accs_lang = []
+    accs_both = []
+    accs_code = []
+    recalls = []
     groups = {}
     for file in infiles:
-        choice = randint(1,n)
+        choice = randint(1, n)
         if choice in groups:
             groups[choice].append(file)
         else:
             groups[choice] = [file]
+    i = 1
     for group in groups:
+        logging.info("Cross validation group " + str(i) + '/' + str(n))
+        i += 1
         training = []
         testing = groups[group]
+        test_inst = list(get_instances(testing, config, vector_dir))
+        recall = calc_mention_recall(testing, config, instances=test_inst)
         for g2 in groups:
             if g2 != group:
                 training.extend(groups[g2])
         train(training, modelpath, vector_dir, config)
-        acc_lang, acc_both, acc_code = test(testing, modelpath, vector_dir, config)
-
+        acc_lang, acc_both, acc_code = test(testing, modelpath, vector_dir, config, instances=test_inst)
+        accs_lang.append(acc_lang)
+        accs_both.append(acc_both)
+        accs_code.append(acc_both)
+        recalls.append(recall)
+    print('Average and Std Dev of:')
+    print('Language Only:\t' + str(np.average(accs_lang)) + '\t' + str(np.std(accs_lang)))
+    print('Language and Code:\t' + str(np.average(accs_both)) + '\t' + str(np.std(accs_both)))
+    print('Code Only:\t' + str(np.average(accs_code)) + '\t' + str(np.std(accs_code)))
+    print('Language Mention Recall:\t' + str(np.average(recalls)) + '\t' + str(np.std(recalls)))
 
 
 def get_time(t):
@@ -169,7 +229,7 @@ def write_to_files(infiles, predictions, output):
                 doc.set_line(i, line)
         open(output + '/' + str(number) + '.freki', 'w').write(str(doc))
 
-def train(infiles, modelpath, vector_dir, config):
+def train(infiles, modelpath, vector_dir, config, instances=None):
     """
     Train a language-identification model from training data
 
@@ -178,8 +238,9 @@ def train(infiles, modelpath, vector_dir, config):
         modelpath: the path where the model will be written
         config: model parameters
     """
-    print('getting instances')
-    instances = list(get_instances(infiles, config, vector_dir))
+    if not instances:
+        print('getting instances')
+        instances = list(get_instances(infiles, config, vector_dir))
     model = Model()
     model.feat_selector = chi2
     print('training')
@@ -253,7 +314,7 @@ def classify(infiles, modelpath, config, vector_dir, instances=None):
     t1 = time.time()
     return prediction_dict
 
-def test(infiles, modelpath, vector_dir, config):
+def test(infiles, modelpath, vector_dir, config, instances=None):
     """
     Test a language-identification model
 
@@ -263,7 +324,8 @@ def test(infiles, modelpath, vector_dir, config):
         config: model parameters
     """
     real_classes = {}
-    instances = list(get_instances(infiles, config, vector_dir))
+    if not instances:
+        instances = list(get_instances(infiles, config, vector_dir))
     for inst in instances:
         if bool(inst.label):
             num = re.search("([0-9]+-){4}", inst.id).group(0)
@@ -326,6 +388,7 @@ def print_feature_vector(_id, feats, file):
     file.write('{}: {}\n'.format(_id, ", ".join(feats)))
 
 def get_instances(infiles, config, vector_dir):
+    vector_file = None
     """
     Read Freki documents from *infiles* and return training instances
 
