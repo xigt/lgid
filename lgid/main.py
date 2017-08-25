@@ -84,6 +84,7 @@ from lgid.features import (
     get_threshold_info
 )
 
+instance_dict = {}
 
 def main():
     args = docopt.docopt(USAGE)
@@ -143,15 +144,19 @@ def calc_mention_recall(infiles, config, instances=None):
     for file in infiles:
         doc = FrekiDoc.read(file)
         num = doc.get_line(1).block.doc_id
-        mentions = language_mentions(doc, lgtable, caps)
-        length += len(file_dict[num])
-        for label in file_dict[num]:
-            n = label.split('-')[0]
-            c = label.split('-')[1]
-            for mention in mentions:
-                if n == mention.name and c == mention.code:
-                    positive += 1
-                    break
+        if num in file_dict:
+            mentions = language_mentions(doc, lgtable, caps)
+            length += len(file_dict[num])
+            for label in file_dict[num]:
+                n = label.split('-')[0]
+                c = label.split('-')[1]
+                for mention in mentions:
+                    if n == mention.name and c == mention.code:
+                        positive += 1
+                        break
+        else:
+            print(num)
+            print(file_dict.keys())
 
     recall = float(positive)/length
     print("Language mention recall: " + str(recall))
@@ -388,6 +393,17 @@ def print_feature_vector(_id, feats, file):
     file.write('{}: {}\n'.format(_id, ", ".join(feats)))
 
 def get_instances(infiles, config, vector_dir):
+    insts = []
+    index = 1
+    for file in infiles:
+        logging.info("Instances from file " + str(index) + '/' + str(len(infiles)))
+        index += 1
+        if file not in instance_dict:
+            instance_dict[file] = list(real_get_instances([file], config, vector_dir))
+        insts.extend(instance_dict[file])
+    return insts
+
+def real_get_instances(infiles, config, vector_dir):
     vector_file = None
     """
     Read Freki documents from *infiles* and return training instances
@@ -403,11 +419,9 @@ def get_instances(infiles, config, vector_dir):
     lgtable = {}
     if locs['language-table']:
         lgtable = read_language_table(locs['language-table'])
-        logging.info('reading lang table: ' + str(time.time() - t1))
-        t1 = time.time()
     i = 1
     for infile in infiles:
-        logging.info('File ' + str(i) + '/' + str(len(infiles)))
+        #logging.info('File ' + str(i) + '/' + str(len(infiles)))
         if vector_dir != None:
             os.makedirs(vector_dir, exist_ok=True)
             vector_file = open(vector_dir + '/' + os.path.basename(infile) + '.vector', 'w')
