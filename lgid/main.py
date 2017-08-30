@@ -355,7 +355,7 @@ def get_instances(infiles, config, vector_dir):
                 if 'L' in line.tag:
                     lgname = line.attrs.get('lang_name', '???').lower()
                     lgcode = line.attrs.get('lang_code', 'und')
-                    l_feats = dict(features_template)
+                    l_feats = dict(((m.name, m.code), {}) for m in lgmentions)
                     l_features(l_feats, lgmentions, context, lms, config)
                     t1 = time.time()
                     l_lines.append((line, l_feats, lgname, lgcode))
