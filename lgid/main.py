@@ -297,10 +297,8 @@ def classify(infiles, modelpath, config, vector_dir, instances=None):
     """
     global t1
     if not instances:
-        logging.info('before getting instances: ' + str(time.time() - t1))
         t1 = time.time()
         instances = list(get_instances(infiles, config, vector_dir))
-        logging.info('getting instances: ' + str(time.time() - t1))
         t1 = time.time()
 
     inst_dict = {}
@@ -313,13 +311,11 @@ def classify(infiles, modelpath, config, vector_dir, instances=None):
             inst_dict[num] = [inst]
     model = Model()
     model = model.load(modelpath)
-    logging.info('loading model: ' + str(time.time() - t1))
     t1 = time.time()
     for inst_id in inst_dict:
         results = model.test(inst_dict[inst_id])
         top = find_best_and_normalize(inst_dict[inst_id], results)
         prediction_dict[inst_id] = top
-    logging.info('predicting:' + str(time.time() - t1))
     t1 = time.time()
     return prediction_dict
 
@@ -365,12 +361,11 @@ def test(infiles, modelpath, vector_dir, config, instances=None):
                 else:
                     mistake_counts[mistake_key] = 1
     for key2 in file_counts:
-        print("Accuracy on file " + str(key2) + ':\t' + str(float(file_counts[key2][0]) / file_counts[key2][1]))
+        logging.info("Accuracy on file " + str(key2) + ':\t' + str(float(file_counts[key2][0]) / file_counts[key2][1]))
     mistakes = open('errors.txt', 'w')
     mistakes.write('(real, predicted)\tcount\n')
     for mistake_key in sorted(mistake_counts, key=lambda x: mistake_counts[x], reverse=True):
         mistakes.write(str(mistake_key) + '\t' + str(mistake_counts[mistake_key]) + '\n')
-        logging.info(str(mistake_key) + '\t' + str(mistake_counts[mistake_key]))
     acc_lang = right / len(real_classes)
     acc_both = right_dialect / len(real_classes)
     acc_code = right_code / len(real_classes)
@@ -484,7 +479,7 @@ def real_get_instances(infiles, config, vector_dir):
                 if 'L' in line.tag:
                     lgname = line.attrs.get('lang_name', '???').lower()
                     lgcode = line.attrs.get('lang_code', 'und')
-                    l_feats = dict(features_template)
+                    l_feats = dict(((m.name, m.code), {}) for m in lgmentions)
                     l_features(l_feats, lgmentions, context, lms, config)
                     t1 = time.time()
                     l_lines.append((line, l_feats, lgname, lgcode))
