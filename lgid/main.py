@@ -346,7 +346,7 @@ def get_instances(infiles, config, vector_dir):
             context['span-top'] = span[0].lineno
             context['span-bottom'] = span[-1].lineno
 
-            features = dict(features_template)
+            features = dict(((m.name, m.code), {}) for m in lgmentions)
             gl_features(features, lgmentions, context, config)
             w_features(features, lgmentions, context, config)
             l_lines = []
