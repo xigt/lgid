@@ -6,6 +6,7 @@ Usage:
   lgid [-v...] test     --model=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] validate     --model=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] classify --model=PATH --out=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] get-lg-recall    CONFIG INFILE...
   lgid [-v...] list-model-weights   --model=PATH    CONFIG
   lgid [-v...] list-mentions          CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
@@ -17,6 +18,7 @@ Commands:
   test                      test on new data using a saved model
   validate                  Perform n-fold cross validation on the data
   classify                  output predictions on new data using a saved model
+  get-lg-recall             find the language mention recall upper bound for a set of files
   list-mentions             just print language mentions from input files
   list-model-weights        show feature weights in a model and features not used
   download-crubadan-data    fetch the Crubadan language model data from the web
@@ -105,6 +107,8 @@ def main():
         output = args['--out']
         predictions = classify(infiles, modelpath, config, vector_dir)
         write_to_files(infiles, predictions, output)
+    elif args['get-lg-recall']:
+        calc_mention_recall(infiles, config)
     elif args['test']:
         test(infiles, modelpath, vector_dir, config)
     elif args['validate']:
@@ -127,7 +131,7 @@ def calc_mention_recall(infiles, config, instances=None):
     :return: none
     """
     if not instances:
-        instances = get_instances(infiles, config, None)
+        instances = list(get_instances(infiles, config, None))
     lgtable = read_language_table(config['locations']['language-table'])
     caps = config['parameters'].get('mention-capitalization', 'default')
     positive = 0
@@ -335,18 +339,38 @@ def test(infiles, modelpath, vector_dir, config, instances=None):
         if bool(inst.label):
             num = re.search("([0-9]+-){4}", inst.id).group(0)
             real_classes[num] = re.split("([0-9]+-){4}", inst.id)[2]
-    predicted_classes = classify(infiles, modelpath, config, vector_dir, instances)
+    predicted_classes = classify(infiles, modelpath, config, vector_dir, instances=instances)
     right = 0
     right_dialect = 0
     right_code = 0
+    file_counts = {}
+    mistake_counts = {}
     for key in real_classes:
-        if key in real_classes and key in predicted_classes:
+        key2 = key.split('-')[0]
+        if key2 not in file_counts:
+            file_counts[key2] = [0, 0]
+        file_counts[key2][1] += 1
+        if key in predicted_classes:
             if real_classes[key].split('-')[1] == predicted_classes[key].split('-')[1]:
                 right_code += 1
             if real_classes[key].split('-')[0] == predicted_classes[key].split('-')[0]:
                 right += 1
                 if real_classes[key] == predicted_classes[key]:
                     right_dialect += 1
+                    file_counts[key2][0] += 1
+            else:
+                mistake_key = (real_classes[key], predicted_classes[key])
+                if mistake_key in mistake_counts:
+                    mistake_counts[mistake_key] += 1
+                else:
+                    mistake_counts[mistake_key] = 1
+    for key2 in file_counts:
+        print("Accuracy on file " + str(key2) + ':\t' + str(float(file_counts[key2][0]) / file_counts[key2][1]))
+    mistakes = open('errors.txt', 'w')
+    mistakes.write('(real, predicted)\tcount\n')
+    for mistake_key in sorted(mistake_counts, key=lambda x: mistake_counts[x], reverse=True):
+        mistakes.write(str(mistake_key) + '\t' + str(mistake_counts[mistake_key]) + '\n')
+        logging.info(str(mistake_key) + '\t' + str(mistake_counts[mistake_key]))
     acc_lang = right / len(real_classes)
     acc_both = right_dialect / len(real_classes)
     acc_code = right_code / len(real_classes)
@@ -451,7 +475,7 @@ def real_get_instances(infiles, config, vector_dir):
             context['span-top'] = span[0].lineno
             context['span-bottom'] = span[-1].lineno
 
-            features = dict(features_template)
+            features = dict(((m.name, m.code), {}) for m in lgmentions)
             gl_features(features, lgmentions, context, config)
             w_features(features, lgmentions, context, config)
             l_lines = []
@@ -493,7 +517,6 @@ def real_get_instances(infiles, config, vector_dir):
                     if vector_dir != None:
                         print_feature_vector(id_, instfeats, vector_file)
                     yield StringInstance(id_, label, instfeats)
-
         if vector_file:
             vector_file.close()
 
