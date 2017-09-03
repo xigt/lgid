@@ -39,7 +39,6 @@ Examples:
 '''
 
 import time
-t1 = time.time()
 t0 = time.time()
 
 import os
@@ -155,17 +154,17 @@ def train(infiles, modelpath, vector_dir, config):
         modelpath: the path where the model will be written
         config: model parameters
     """
-    print('getting instances')
+    logging.info('Getting instances')
     instances = list(get_instances(infiles, config, vector_dir))
     model = Model()
     model.feat_selector = chi2
-    print('training')
+    logging.info('Training')
     model.train(instances)
-    print('saving model')
+    logging.info('Saving model')
     model.save(modelpath)
     get_threshold_info()
-    # for dist in model.test(instances):
-    #     print(dist.best_class, dist.best_prob, len(dist.dict))
+    logging.info('Total time:\t' + get_time(t0))
+
 
 def find_best_and_normalize(instances, dists):
     """
@@ -202,13 +201,8 @@ def classify(infiles, modelpath, config, vector_dir, instances=None):
             config: model parameters
             instances: a list of instances passed by test() to streamline
     """
-    global t1
     if not instances:
-        logging.info('before getting instances: ' + str(time.time() - t1))
-        t1 = time.time()
         instances = list(get_instances(infiles, config, vector_dir))
-        logging.info('getting instances: ' + str(time.time() - t1))
-        t1 = time.time()
 
     inst_dict = {}
     prediction_dict = {}
@@ -220,14 +214,11 @@ def classify(infiles, modelpath, config, vector_dir, instances=None):
             inst_dict[num] = [inst]
     model = Model()
     model = model.load(modelpath)
-    logging.info('loading model: ' + str(time.time() - t1))
-    t1 = time.time()
     for inst_id in inst_dict:
         results = model.test(inst_dict[inst_id])
         top = find_best_and_normalize(inst_dict[inst_id], results)
         prediction_dict[inst_id] = top
-    logging.info('predicting:' + str(time.time() - t1))
-    t1 = time.time()
+    logging.info('Total time:\t' + get_time(t0))
     return prediction_dict
 
 def test(infiles, modelpath, vector_dir, config):
@@ -293,6 +284,8 @@ def list_mentions(infiles, config):
         lgmentions = list(language_mentions(doc, lgtable, caps))
         for m in lgmentions:
             print('\t'.join(map(str, m)))
+    logging.info('Total time:\t' + get_time(t0))
+
 
 def print_feature_vector(_id, feats, file):
     file.write('{}: {}\n'.format(_id, ", ".join(feats)))
