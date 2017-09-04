@@ -51,10 +51,12 @@ manages the activation/deactivation of the virtual environment:
 ```bash
 ~/lgid$ ./lgid.sh 
 Usage:
-  lgid [-v...] train    --model=PATH  CONFIG INFILE...
-  lgid [-v...] classify --model=PATH  CONFIG INFILE...
-  lgid [-v...] test     --model=PATH  CONFIG INFILE...
+  lgid [-v...] train    --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] test     --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] classify --model=PATH --out=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] list-model-weights   --model=PATH    CONFIG
   lgid [-v...] list-mentions          CONFIG INFILE...
+  lgid [-v...] find-common-codes      CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
   lgid [-v...] build-odin-lm          CONFIG
 
@@ -79,7 +81,9 @@ lgid
 │   └── util.py         # utility functions for reading/transforming resources
 └── res                 # resources for training
     ├── Crubadan.csv    # index file for downloading Crubadan data
-    └── lang_table.txt  # language name-code mapping
+    ├── lang_table.txt  # language name-code mapping
+    └── common_codes.txt  # Shows code most commonly paired with each language name
+
 
 ```
 
@@ -115,6 +119,8 @@ character-lm-threshold             | overlap threshold for character-lm features
 gloss-lm-threshold                 | overlap threshold for gloss-lm features
 word-n-gram-size                   | number of tokens in word-lm n-grams
 character-n-gram-size              | number of chars in character-lm n-grams
+crubadan-word-size                 | number of tokens in crubadan word-lm n-grams
+crubadan-char-size                 | number of chars in crubadan character-lm n-grams
 morpheme-delimiter                 | regular expression for tokenizing morphemes
 frequent-mention-threshold         | minimum window mentions to be "frequent"
 after-frequent-mention-threshold   | min. mentions after an IGT to be "frequent"
@@ -130,6 +136,7 @@ GL-first-lines   | language mentioned in the first window of the document
 GL-last-lines    | language mentioned in the last window of the document
 GL-frequent      | language mentioned `N+` times in the document
 GL-most-frequent | language is the most frequently mentioned one
+GL-most-frequent-code | code is the most frequent one paired with language
 W-prev           | language mentioned within the IGT's preceding window
 W-close          | language mentioned within a smaller preceding window
 W-closest        | language is closest to the IGT in the preceding window

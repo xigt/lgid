@@ -27,6 +27,11 @@ don't see the CSV file available on the Crúbadán website.
 The `res/lang_table.txt` file appears to be generated from the [ODIN][]
 data, but it could be produced from something else.
 
+## common_codes
+
+The `res/common_codes.txt` is generated from the lang_table. It pairs a language name with the code most commonly associated with it. This file was trained on the ODIN data using the find-common-codes command.
+
 [Crúbadán]: http://crubadan.org/
 [CC BY 4.0]: https://creativecommons.org/licenses/by/4.0/
 [ODIN]: http://depts.washington.edu/uwcl/odin/
+
