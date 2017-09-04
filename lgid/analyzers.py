@@ -168,7 +168,6 @@ def character_ngrams(s, ngram_range, lhs='<', rhs='>'):
         for i in range(rangemax):
             for j in range(ngram_range[0], ngram_range[1] + 1):
                 ngrams.append(word[i:i+j])
-
     return ngrams
 
 

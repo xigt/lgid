@@ -36,7 +36,7 @@ def get_threshold_info():
         logging.info("\tStd. Dev: " + str(np.std(percents[feat])))
 
 
-def gl_features(features, mentions, context, config):
+def gl_features(features, mentions, context, config, common_table):
     """
     Set matching global features to `True`
 
@@ -61,6 +61,9 @@ def gl_features(features, mentions, context, config):
 
     if config['features']['GL-most-frequent']:
         frequent_mention('GL-most-frequent', features, mentions, None, 0, last)
+
+    if config['features']['GL-most-frequent-code']:
+        most_frequent_code(features, common_table)
 
 
 def w_features(features, mentions, context, config):
@@ -292,3 +295,16 @@ def ngram_matching(features, feature, line, name, code, characters, dataset, lm,
                 return
             if percent >= threshold:
                 features[(name, code)][feature] = True
+
+
+def most_frequent_code(features, common_table):
+    """
+    Set feature to true if code is the most common one for language name
+    :param features: mapping from (lgname, lgcode) pair to features to values
+    :param common_table: language table mapping name to most common code
+    :return: none
+    """
+    for name, code in features:
+        if name in common_table:
+            if code in common_table[name]:
+                features[(name, code)]['GL-most-frequent-code'] = True

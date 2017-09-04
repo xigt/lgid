@@ -9,8 +9,10 @@ Usage:
   lgid [-v...] get-lg-recall    CONFIG INFILE...
   lgid [-v...] list-model-weights   --model=PATH    CONFIG
   lgid [-v...] list-mentions          CONFIG INFILE...
+  lgid [-v...] find-common-codes      CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
   lgid [-v...] build-odin-lm          CONFIG
+  
 
 
 Commands:
@@ -20,6 +22,7 @@ Commands:
   classify                  output predictions on new data using a saved model
   get-lg-recall             find the language mention recall upper bound for a set of files
   list-mentions             just print language mentions from input files
+  find-common-codes         build the text file at most-common-codes showing the most common code for each language
   list-model-weights        show feature weights in a model and features not used
   download-crubadan-data    fetch the Crubadan language model data from the web
 
@@ -53,8 +56,7 @@ import logging
 import numpy as np
 import re
 from random import randint
-from collections import namedtuple
-
+from collections import defaultdict
 
 import docopt
 
@@ -71,7 +73,9 @@ from lgid.util import (
     encode_instance_id,
     decode_instance_id,
     read_crubadan_language_model,
-    read_odin_language_model
+    read_odin_language_model,
+    spans,
+    find_common_codes
 )
 from lgid.analyzers import (
     language_mentions,
@@ -117,6 +121,8 @@ def main():
         get_feature_weights(modelpath, config)
     elif args['list-mentions']:
         list_mentions(infiles, config)
+    elif args['find-common-codes']:
+        find_common_codes(infiles, config)
     elif args['download-crubadan-data']:
         download_crubadan_data(config)
     elif args['build-odin-lm']:
@@ -411,18 +417,27 @@ def list_mentions(infiles, config):
 def print_feature_vector(_id, feats, file):
     file.write('{}: {}\n'.format(_id, ", ".join(feats)))
 
+
 def get_instances(infiles, config, vector_dir):
+    locs = config['locations']
+    lgtable = {}
+    if locs['language-table']:
+        lgtable = read_language_table(locs['language-table'])
+    common_table = {}
+    if locs['most-common-codes']:
+        common_table = read_language_table(locs['most-common-codes'])
     insts = []
     index = 1
     for file in infiles:
         logging.info("Instances from file " + str(index) + '/' + str(len(infiles)))
         index += 1
         if file not in instance_dict:
-            instance_dict[file] = list(real_get_instances([file], config, vector_dir))
+            instance_dict[file] = list(real_get_instances([file], config, vector_dir, lgtable, common_table))
         insts.extend(instance_dict[file])
     return insts
 
-def real_get_instances(infiles, config, vector_dir):
+
+def real_get_instances(infiles, config, vector_dir, lgtable, common_table):
     vector_file = None
     """
     Read Freki documents from *infiles* and return training instances
@@ -434,10 +449,6 @@ def real_get_instances(infiles, config, vector_dir):
         training/test instances from Freki documents
     """
     global t1
-    locs = config['locations']
-    lgtable = {}
-    if locs['language-table']:
-        lgtable = read_language_table(locs['language-table'])
     i = 1
     for infile in infiles:
         #logging.info('File ' + str(i) + '/' + str(len(infiles)))
@@ -462,7 +473,6 @@ def real_get_instances(infiles, config, vector_dir):
         word_olm = read_odin_language_model(name_code_pairs, config, False)
         char_olm = read_odin_language_model(name_code_pairs, config, True)
         lms = (word_clm, char_clm, word_olm, char_olm)
-
         for span in spans(doc):
             if not span:
                 continue
@@ -471,7 +481,7 @@ def real_get_instances(infiles, config, vector_dir):
             context['span-bottom'] = span[-1].lineno
 
             features = dict(((m.name, m.code), {}) for m in lgmentions)
-            gl_features(features, lgmentions, context, config)
+            gl_features(features, lgmentions, context, config, common_table)
             w_features(features, lgmentions, context, config)
             l_lines = []
             for line in span:
@@ -514,27 +524,6 @@ def real_get_instances(infiles, config, vector_dir):
                     yield StringInstance(id_, label, instfeats)
         if vector_file:
             vector_file.close()
-
-
-def spans(doc):
-    """
-    Scan the FrekiDoc *doc* and yield the IGT spans found
-
-    This requires the documents to have the span_id attribute from
-    IGT detection.
-    """
-    span = []
-    span_id = None
-    for line in doc.lines():
-        new_span_id = line.attrs.get('span_id')
-        if new_span_id != span_id and span:
-            yield span
-            span = []
-            span_id = new_span_id
-        if new_span_id is not None:
-            span.append(line)
-    if span:
-        yield span
 
 
 def download_crubadan_data(config):

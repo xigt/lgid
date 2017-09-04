@@ -4,6 +4,7 @@ Utility functions for language idenfication tasks
 """
 
 from collections import defaultdict
+from freki.serialize import FrekiDoc
 import unicodedata
 import re
 import logging
@@ -155,3 +156,66 @@ def encode_instance_id(doc_id, span_id, line_no, lang_name, lang_code):
 def decode_instance_id(s):
     doc_id, span_id, line_no, lang_name, lang_code = s.split('-')
     return doc_id, span_id, int(line_no), lang_name, lang_code
+
+
+def spans(doc):
+    """
+    Scan the FrekiDoc *doc* and yield the IGT spans found
+
+    This requires the documents to have the span_id attribute from
+    IGT detection.
+    """
+    span = []
+    span_id = None
+    for line in doc.lines():
+        new_span_id = line.attrs.get('span_id')
+        if new_span_id != span_id and span:
+            yield span
+            span = []
+            span_id = new_span_id
+        if new_span_id is not None:
+            span.append(line)
+    if span:
+        yield span
+
+
+def find_common_codes(infiles, config):
+    """
+    Build the res file showing the most common code for each language
+    :param infiles: list of freki filepaths
+    :param config: config object
+    :return: None, writes to most-common-codes location
+    """
+    dialect_count = defaultdict(lambda: defaultdict(int))
+    locs = config['locations']
+    lgtable = {}
+    if locs['language-table']:
+        lgtable = read_language_table(locs['language-table'])
+    for infile in infiles:
+        doc = FrekiDoc.read(infile)
+        for span in spans(doc):
+            if not span:
+                continue
+            for line in span:
+                if 'L' in line.tag:
+                    lgname = line.attrs.get('lang_name', '???').lower()
+                    lgcode = line.attrs.get('lang_code', 'und')
+                    if len(lgcode.split(':')) > 1:
+                        parts = lgcode.split(':')
+                        for part in parts:
+                            dialect_count[lgname][part] += 1
+                    else:
+                        dialect_count[lgname][lgcode] += 1
+    out = open(locs['most-common-codes'], 'w')
+    for key in lgtable:
+        a_line = ''
+        if len(lgtable[key]) == 1:
+            a_line = key + '\t'
+            a_line += lgtable[key][0]
+            a_line += '\n'
+        if dialect_count[key]:
+            a_line = key + '\t'
+            a_line += sorted(dialect_count[key], key=lambda x: dialect_count[key][x], reverse=True)[0]
+            a_line += '\n'
+        out.write(a_line)
+
