@@ -479,10 +479,7 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table):
 
             context['span-top'] = span[0].lineno
             context['span-bottom'] = span[-1].lineno
-
             features = dict(((m.name, m.code), {}) for m in lgmentions)
-            gl_features(features, lgmentions, context, config, common_table)
-            w_features(features, lgmentions, context, config)
             l_lines = []
             for line in span:
                 context['line'] = line
@@ -507,6 +504,8 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table):
                     if 'M' in line.tag:
                         m_features(features, lgmentions, context, config)
 
+            gl_features(features, lgmentions, context, config, common_table)
+            w_features(features, lgmentions, context, config)
             for l_line, l_feats, lgname, lgcode in l_lines:
                 goldpair = (lgname, lgcode)
                 for pair, feats in l_feats.items():
