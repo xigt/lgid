@@ -146,6 +146,8 @@ W-close-after    | language mentioned within a smaller following window
 W-closest-after  | language is closest to the IGT in the following window
 W-frequent-after | language mentioned `N+` in the following window
 L-in-line        | language mentioned in the IGT's language line
+G-in-line        | language mentioned in the IGT's gloss line
+T-in-line        | language mentioned in the IGT's translation line
 M-in-line        | language mentioned in the IGT's meta lines
 L-LMw            | at least `M%` of word ngrams occur in the training data
 L-LMm            | at least `M%` of morpheme ngrams occur in training data
@@ -164,6 +166,7 @@ GL-            | feature is relevant globally
 W-             | feature is relevant within a window
 L-             | feature is relevant for the language line
 G-             | feature is relevant for the gloss line
+T-             | feature is relevant for the translation line
 M-             | feature is relevant for a meta line
 
 
