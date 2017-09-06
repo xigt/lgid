@@ -325,6 +325,6 @@ def flag_common_words(features, config):
             if name in words:
                 features[(name, code)]['GL-possible-english-word'] = True
         if config['features']['GL-short-lang-name']:
-            if len(name) <= config['parameters']['short-name-size']:
+            if len(name) <= int(config['parameters']['short-name-size']):
                 features[(name, code)]['GL-short-lang-name'] = True
 
