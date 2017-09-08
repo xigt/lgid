@@ -324,6 +324,8 @@ def get_instances(infiles, config, vector_dir):
     common_table = {}
     if locs['most-common-codes']:
         common_table = read_language_table(locs['most-common-codes'])
+    if locs['english-word-names']:
+        eng_words = open(locs['english-word-names'], 'r').read().split('\n')
 
     i = 1
     for infile in infiles:
@@ -386,7 +388,7 @@ def get_instances(infiles, config, vector_dir):
                     if 'M' in line.tag:
                         m_features(features, lgmentions, context, config)
 
-            gl_features(features, lgmentions, context, config, common_table)
+            gl_features(features, lgmentions, context, config, common_table, eng_words)
             w_features(features, lgmentions, context, config)
             for l_line, l_feats, lgname, lgcode in l_lines:
                 goldpair = (lgname, lgcode)

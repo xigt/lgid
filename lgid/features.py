@@ -36,7 +36,7 @@ def get_threshold_info():
         logging.info("\tStd. Dev: " + str(np.std(percents[feat])))
 
 
-def gl_features(features, mentions, context, config, common_table):
+def gl_features(features, mentions, context, config, common_table, eng_words):
     """
     Set matching global features to `True`
 
@@ -65,7 +65,7 @@ def gl_features(features, mentions, context, config, common_table):
     if config['features']['GL-most-frequent-code']:
         most_frequent_code(features, common_table)
 
-    flag_common_words(features, config)
+    flag_common_words(features, eng_words, config)
 
 
 def w_features(features, mentions, context, config):
@@ -331,14 +331,13 @@ def most_frequent_code(features, common_table):
                 features[(name, code)]['GL-most-frequent-code'] = True
 
 
-def flag_common_words(features, config):
+def flag_common_words(features, words, config):
     """
     Add features for languages that are often false positive language mentions
     :param features: mapping from (lgname, lgcode) pair to features to values
     :param config: config object
     :return: none
     """
-    words = open(config['locations']['english-word-names'], 'r').read().split('\n')
     for name, code in features:
         if config['features']['GL-possible-english-word']:
             if name in words:
