@@ -31,6 +31,10 @@ data, but it could be produced from something else.
 
 The `res/common_codes.txt` is generated from the lang_table. It pairs a language name with the code most commonly associated with it. This file was trained on the ODIN data using the find-common-codes command.
 
+## english_word_language_names
+
+The `res/english_word_language_names.txt` contains language names that are also ENglish words or proper names, and so are often false positive language mentions predicted by the system.
+
 [Crúbadán]: http://crubadan.org/
 [CC BY 4.0]: https://creativecommons.org/licenses/by/4.0/
 [ODIN]: http://depts.washington.edu/uwcl/odin/

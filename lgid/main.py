@@ -266,6 +266,7 @@ def test(infiles, modelpath, vector_dir, config):
     print('Accuracy on Code Only:\t' + str(acc_code))
     print('Total time:\t' + get_time(t0))
 
+
 def get_feature_weights(modelpath, config):
     model = Model()
     model = model.load(modelpath)
@@ -301,6 +302,7 @@ def list_mentions(infiles, config):
 
 def print_feature_vector(_id, feats, file):
     file.write('{}: {}\n'.format(_id, ", ".join(feats)))
+
 
 def get_instances(infiles, config, vector_dir):
     """
@@ -355,8 +357,7 @@ def get_instances(infiles, config, vector_dir):
             context['span-bottom'] = span[-1].lineno
 
             features = dict(((m.name, m.code), {}) for m in lgmentions)
-            gl_features(features, lgmentions, context, config, common_table)
-            w_features(features, lgmentions, context, config)
+
             l_lines = []
             for line in span:
                 context['line'] = line
@@ -381,6 +382,8 @@ def get_instances(infiles, config, vector_dir):
                     if 'M' in line.tag:
                         m_features(features, lgmentions, context, config)
 
+            gl_features(features, lgmentions, context, config, common_table)
+            w_features(features, lgmentions, context, config)
             for l_line, l_feats, lgname, lgcode in l_lines:
                 goldpair = (lgname, lgcode)
                 for pair, feats in l_feats.items():

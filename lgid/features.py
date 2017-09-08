@@ -65,6 +65,8 @@ def gl_features(features, mentions, context, config, common_table):
     if config['features']['GL-most-frequent-code']:
         most_frequent_code(features, common_table)
 
+    flag_common_words(features, config)
+
 
 def w_features(features, mentions, context, config):
     """
@@ -296,6 +298,7 @@ def ngram_matching(features, feature, line, name, code, characters, dataset, lm,
             if percent >= threshold:
                 features[(name, code)][feature] = True
 
+
 def most_frequent_code(features, common_table):
     """
     Set feature to true if code is the most common one for language name
@@ -307,3 +310,21 @@ def most_frequent_code(features, common_table):
         if name in common_table:
             if code in common_table[name]:
                 features[(name, code)]['GL-most-frequent-code'] = True
+
+
+def flag_common_words(features, config):
+    """
+    Add features for languages that are often false positive language mentions
+    :param features: mapping from (lgname, lgcode) pair to features to values
+    :param config: config object
+    :return: none
+    """
+    words = open(config['locations']['english-word-names'], 'r').read().split('\n')
+    for name, code in features:
+        if config['features']['GL-possible-english-word']:
+            if name in words:
+                features[(name, code)]['GL-possible-english-word'] = True
+        if config['features']['GL-short-lang-name']:
+            if len(name) <= int(config['parameters']['short-name-size']):
+                features[(name, code)]['GL-short-lang-name'] = True
+

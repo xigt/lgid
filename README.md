@@ -126,6 +126,8 @@ frequent-mention-threshold         | minimum window mentions to be "frequent"
 after-frequent-mention-threshold   | min. mentions after an IGT to be "frequent"
 article-frequent-mention-threshold | min. mentions in document to be "frequent"
 mention-capitalization             | case-normalization for language mentions
+short-name-size             | a language name shorter than or equal to this length is flagged, as very short names are often false positive mentions
+
 
 The `[features]` section has boolean flags for turning on/off specific
 features. The available features are:
@@ -137,6 +139,8 @@ GL-last-lines    | language mentioned in the last window of the document
 GL-frequent      | language mentioned `N+` times in the document
 GL-most-frequent | language is the most frequently mentioned one
 GL-most-frequent-code | code is the most frequent one paired with language
+GL-possible-english-word | language name is possibly an English word or name
+GL-short-lang-name | language name is shorter than short-name-size, and may be a false positive because it occurs as a word in some language
 W-prev           | language mentioned within the IGT's preceding window
 W-close          | language mentioned within a smaller preceding window
 W-closest        | language is closest to the IGT in the preceding window
