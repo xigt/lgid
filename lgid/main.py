@@ -427,18 +427,19 @@ def get_instances(infiles, config, vector_dir):
     common_table = {}
     if locs['most-common-codes']:
         common_table = read_language_table(locs['most-common-codes'])
+    eng_words = open(locs['english-word-names'], 'r').read().split('\n')
     insts = []
     index = 1
     for file in infiles:
         logging.info("Instances from file " + str(index) + '/' + str(len(infiles)))
         index += 1
         if file not in instance_dict:
-            instance_dict[file] = list(real_get_instances([file], config, vector_dir, lgtable, common_table))
+            instance_dict[file] = list(real_get_instances([file], config, vector_dir, lgtable, common_table, eng_words))
         insts.extend(instance_dict[file])
     return insts
 
 
-def real_get_instances(infiles, config, vector_dir, lgtable, common_table):
+def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_words):
     vector_file = None
     """
     Read Freki documents from *infiles* and return training instances
@@ -465,6 +466,8 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table):
         caps = config['parameters'].get('mention-capitalization', 'default')
 
         lgmentions = list(language_mentions(doc, lgtable, caps))
+        if not lgmentions:
+            lgmentions = []
 
         features_template = dict(((m.name, m.code), {}) for m in lgmentions)
 
@@ -493,7 +496,7 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table):
                     l_lines.append((line, l_feats, lgname, lgcode))
                     # if L and some other tag co-occur, only record local feats
                     if 'G' in line.tag:
-                        g_features(features, None, context, config)
+                        g_features(features, lgmentions, context, config)
                     if 'T' in line.tag:
                         t_features(features, lgmentions, context, config)
                     if 'M' in line.tag:
@@ -508,7 +511,7 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table):
                     if 'M' in line.tag:
                         m_features(features, lgmentions, context, config)
 
-            gl_features(features, lgmentions, context, config, common_table)
+            gl_features(features, lgmentions, context, config, common_table, eng_words)
             w_features(features, lgmentions, context, config)
             for l_line, l_feats, lgname, lgcode in l_lines:
                 goldpair = (lgname, lgcode)
