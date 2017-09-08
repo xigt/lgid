@@ -86,6 +86,7 @@ from lgid.features import (
     w_features,
     l_features,
     g_features,
+    t_features,
     m_features,
     get_threshold_info
 )
@@ -493,14 +494,17 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table):
                     # if L and some other tag co-occur, only record local feats
                     if 'G' in line.tag:
                         g_features(features, None, context, config)
-
+                    if 'T' in line.tag:
+                        t_features(features, lgmentions, context, config)
                     if 'M' in line.tag:
                         m_features(features, lgmentions, context, config)
 
                 else:
                     # if G or M occur without L, record globally
                     if 'G' in line.tag:
-                        pass
+                        g_features(features, lgmentions, context, config)
+                    if 'T' in line.tag:
+                        t_features(features, lgmentions, context, config)
                     if 'M' in line.tag:
                         m_features(features, lgmentions, context, config)
 
