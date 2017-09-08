@@ -141,17 +141,36 @@ def l_features(features, mentions, context, lms, config):
         ngram_matching(features, 'L-CR-LMc', line, name, code, True, 'crubadan', char_clm, config)
 
 
-def g_features(features, olm, context, config):
+def g_features(features, mentions, context, config):
     """
     Set matching gloss (G) line features to `True`
 
     Args:
         features: mapping from (lgname, lgcode) pair to features to values
-        olm: ODIN language model
+        mentions: list of language mentions
         context: contextual information about the document
         config: model-building parameters
     """
-    pass
+    line = context['line']
+
+    if config['features']['G-in-line']:
+        in_line_mention('G-in-line', features, mentions, line)
+
+
+def t_features(features, mentions, context, config):
+    """
+    Set matching translation (T) line features to `True`
+
+    Args:
+        features: mapping from (lgname, lgcode) pair to features to values
+        mentions: list of language mentions
+        context: contextual information about the document
+        config: model-building parameters
+    """
+    line = context['line']
+
+    if config['features']['T-in-line']:
+        in_line_mention('T-in-line', features, mentions, line)
 
 
 def m_features(features, mentions, context, config):
