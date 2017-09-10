@@ -80,14 +80,14 @@ def read_odin_language_model(pairs, config, characters):
         except FileNotFoundError:
             continue
 
-        lm = []
+        lm = set()
         for line in lines:
             if line.strip() == '':
                 continue
             line = line.split()[0] if characters else line.split()[:-1]
             if len(line) == n:
                 feature = tuple(line)
-                lm.append(feature)
+                lm.add(feature)
         all_lms[(lang_name, iso_code)] = lm
     return all_lms
 
@@ -140,13 +140,13 @@ def read_crubadan_language_model(pairs, config, characters):
         except (FileNotFoundError, KeyError):
             continue
 
-        lm = []
+        lm = set()
         for line in lines:
             if line.strip() == '':
                 continue
             line = line.split()[:-1]
             feature = tuple(line[0]) if characters else tuple(line)
-            lm.append(feature)
+            lm.add(feature)
         all_lms[(lang_name, iso_code)] = lm
     return all_lms
 

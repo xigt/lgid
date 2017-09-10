@@ -11,15 +11,43 @@ import pickle
 # import multiprocessing
 
 from sklearn.ensemble import AdaBoostClassifier
+from sklearn.feature_extraction.text import CountVectorizer as Vectorizer
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import chi2
+from sklearn.tree import DecisionTreeClassifier as Model
+from scipy.sparse import hstack
+import shutil
+import time
+import pickle
 
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 # from abc import abstractclassmethod
 
 LOG = logging.getLogger()
+
+def LM_train(texts, labels, modelpath, config):
+    if os.path.exists(modelpath):
+        shutil.rmtree(modelpath)
+    os.makedirs(modelpath)
+    char_max = int(config['parameters']['character-n-gram-size'])
+    char_count = Vectorizer(texts, ngram_range=(1, char_max), analyzer='char').fit(texts)
+    word_max = int(config['parameters']['word-n-gram-size'])
+    word_count = Vectorizer(texts, ngram_range=(1, word_max), analyzer='word').fit(texts)
+    char_matrix = char_count.transform(texts)
+    word_matrix = word_count.transform(texts)
+    pickle.dump(char_count, open(modelpath + '/char.p', 'wb'))
+    pickle.dump(word_count, open(modelpath + '/word.p', 'wb'))
+    #main_x = hstack([char_matrix, word_matrix])
+    labels = labels
+    c_model = Model()
+    w_model = Model()
+    c_model.fit(char_matrix, labels)
+    w_model.fit(word_matrix, labels)
+    pickle.dump(c_model, open(modelpath + '/c_model.p', 'wb'))
+    pickle.dump(w_model, open(modelpath + '/w_model.p', 'wb'))
+
 
 
 class DataInstance(object):

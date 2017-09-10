@@ -57,6 +57,11 @@ import numpy as np
 import re
 from random import randint
 from collections import defaultdict
+import pickle
+from scipy.sparse import hstack
+import cProfile
+pr = cProfile.Profile()
+pr.enable()
 
 import docopt
 
@@ -65,7 +70,8 @@ from freki.serialize import FrekiDoc
 from lgid.models import (
     StringInstance,
     LogisticRegressionWrapper as Model,
-    chi2
+    chi2,
+    LM_train,
 )
 
 from lgid.util import (
@@ -88,7 +94,8 @@ from lgid.features import (
     g_features,
     t_features,
     m_features,
-    get_threshold_info
+    get_threshold_info,
+    get_mention_by_lines
 )
 
 instance_dict = {}
@@ -191,12 +198,12 @@ def n_fold_validation(n, infiles, modelpath, vector_dir, config):
         i += 1
         training = []
         testing = groups[group]
-        test_inst = list(get_instances(testing, config, vector_dir))
-        recall = calc_mention_recall(testing, config, instances=test_inst)
         for g2 in groups:
             if g2 != group:
                 training.extend(groups[g2])
         train(training, modelpath, vector_dir, config)
+        test_inst = list(get_instances(testing, config, vector_dir, modelpath))
+        recall = calc_mention_recall(testing, config, instances=test_inst)
         acc_lang, acc_both, acc_code = test(testing, modelpath, vector_dir, config, instances=test_inst)
         accs_lang.append(acc_lang)
         accs_both.append(acc_both)
@@ -207,6 +214,9 @@ def n_fold_validation(n, infiles, modelpath, vector_dir, config):
     print('Language and Code:\t' + str(np.average(accs_both)) + '\t' + str(np.std(accs_both)))
     print('Code Only:\t' + str(np.average(accs_code)) + '\t' + str(np.std(accs_code)))
     print('Language Mention Recall:\t' + str(np.average(recalls)) + '\t' + str(np.std(recalls)))
+    pr.create_stats()
+    pr.print_stats('cumtime')
+    pr.disable()
 
 
 def get_time(t):
@@ -254,9 +264,13 @@ def train(infiles, modelpath, vector_dir, config, instances=None):
         modelpath: the path where the model will be written
         config: model parameters
     """
+    if config['features']['L-LMc-predict'] and config['features']['L-LMw-predict']:
+        texts, labels = get_t_l(infiles, train=True)
+        LM_train(texts, labels, modelpath + '_LM', config)
     if not instances:
         print('getting instances')
-        instances = list(get_instances(infiles, config, vector_dir))
+        instances = list(get_instances(infiles, config, vector_dir, modelpath))
+
     model = Model()
     model.feat_selector = chi2
     print('training')
@@ -305,9 +319,8 @@ def classify(infiles, modelpath, config, vector_dir, instances=None):
     global t1
     if not instances:
         t1 = time.time()
-        instances = list(get_instances(infiles, config, vector_dir))
+        instances = list(get_instances(infiles, config, vector_dir, modelpath))
         t1 = time.time()
-
     inst_dict = {}
     prediction_dict = {}
     for inst in instances:
@@ -337,7 +350,7 @@ def test(infiles, modelpath, vector_dir, config, instances=None):
     """
     real_classes = {}
     if not instances:
-        instances = list(get_instances(infiles, config, vector_dir))
+        instances = list(get_instances(infiles, config, vector_dir, modelpath))
     for inst in instances:
         if bool(inst.label):
             num = re.search("([0-9]+-){4}", inst.id).group(0)
@@ -361,7 +374,7 @@ def test(infiles, modelpath, vector_dir, config, instances=None):
                 if real_classes[key] == predicted_classes[key]:
                     right_dialect += 1
                     file_counts[key2][0] += 1
-            else:
+            if real_classes[key] != predicted_classes[key]:
                 mistake_key = (real_classes[key], predicted_classes[key])
                 if mistake_key in mistake_counts:
                     mistake_counts[mistake_key] += 1
@@ -419,7 +432,7 @@ def print_feature_vector(_id, feats, file):
     file.write('{}: {}\n'.format(_id, ", ".join(feats)))
 
 
-def get_instances(infiles, config, vector_dir):
+def get_instances(infiles, config, vector_dir, modelpath):
     locs = config['locations']
     lgtable = {}
     if locs['language-table']:
@@ -434,12 +447,12 @@ def get_instances(infiles, config, vector_dir):
         logging.info("Instances from file " + str(index) + '/' + str(len(infiles)))
         index += 1
         if file not in instance_dict:
-            instance_dict[file] = list(real_get_instances([file], config, vector_dir, lgtable, common_table, eng_words))
+            instance_dict[file] = list(real_get_instances([file], config, vector_dir, lgtable, common_table, eng_words, modelpath))
         insts.extend(instance_dict[file])
     return insts
 
 
-def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_words):
+def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_words, modelpath):
     vector_file = None
     """
     Read Freki documents from *infiles* and return training instances
@@ -450,6 +463,11 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_w
     Yields:
         training/test instances from Freki documents
     """
+    if config['features']['L-LMc-predict'] and config['features']['L-LMw-predict']:
+        c_model = pickle.load(open(modelpath + '_LM/c_model.p', 'rb'))
+        w_model = pickle.load(open(modelpath + '_LM/w_model.p', 'rb'))
+        char_counts = pickle.load(open(modelpath + '_LM/char.p', 'rb'))
+        word_counts = pickle.load(open(modelpath + '_LM/word.p', 'rb'))
     global t1
     i = 1
     for infile in infiles:
@@ -468,6 +486,7 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_w
         lgmentions = list(language_mentions(doc, lgtable, caps))
         if not lgmentions:
             lgmentions = []
+        mention_dict = get_mention_by_lines(lgmentions)
 
         features_template = dict(((m.name, m.code), {}) for m in lgmentions)
 
@@ -491,28 +510,41 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_w
                     lgname = line.attrs.get('lang_name', '???').lower()
                     lgcode = line.attrs.get('lang_code', 'und')
                     l_feats = dict(((m.name, m.code), {}) for m in lgmentions)
-                    l_features(l_feats, lgmentions, context, lms, config)
+                    l_features(l_feats, mention_dict, context, lms, config)
                     t1 = time.time()
                     l_lines.append((line, l_feats, lgname, lgcode))
+                    if config['features']['L-LMc-predict'] and config['features']['L-LMw-predict']:
+                        char_matrix = char_counts.transform([str(line)])
+                        word_matrix = word_counts.transform([str(line)])
+
+                        #main_x = hstack([char_matrix, word_matrix])
+                        result = tuple(c_model.predict(char_matrix)[0].split('-')[:2])
+                        if result not in features:
+                            features[result] = {}
+                        features[result]['L-LMc-predict'] = True
+                        result = tuple(w_model.predict(word_matrix)[0].split('-')[:2])
+                        if result not in features:
+                            features[result] = {}
+                        features[result]['L-LMw-predict'] = True
                     # if L and some other tag co-occur, only record local feats
                     if 'G' in line.tag:
-                        g_features(features, lgmentions, context, config)
+                        g_features(features, mention_dict, context, config)
                     if 'T' in line.tag:
-                        t_features(features, lgmentions, context, config)
+                        t_features(features, mention_dict, context, config)
                     if 'M' in line.tag:
-                        m_features(features, lgmentions, context, config)
+                        m_features(features, mention_dict, context, config)
 
                 else:
                     # if G or M occur without L, record globally
                     if 'G' in line.tag:
-                        g_features(features, lgmentions, context, config)
+                        g_features(features, mention_dict, context, config)
                     if 'T' in line.tag:
-                        t_features(features, lgmentions, context, config)
+                        t_features(features, mention_dict, context, config)
                     if 'M' in line.tag:
-                        m_features(features, lgmentions, context, config)
+                        m_features(features, mention_dict, context, config)
 
-            gl_features(features, lgmentions, context, config, common_table, eng_words)
-            w_features(features, lgmentions, context, config)
+            gl_features(features, mention_dict, context, config, common_table, eng_words)
+            w_features(features, mention_dict, context, config)
             for l_line, l_feats, lgname, lgcode in l_lines:
                 goldpair = (lgname, lgcode)
                 for pair, feats in l_feats.items():
@@ -530,6 +562,35 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_w
                     yield StringInstance(id_, label, instfeats)
         if vector_file:
             vector_file.close()
+
+def get_t_l(infiles, train):
+    vector_file = None
+    """
+    Read Freki documents from *infiles* and return training instances
+
+    Args:
+        infiles: iterable of Freki file paths
+        config: model parameters
+    Yields:
+        training/test instances from Freki documents
+    """
+    texts = []
+    labels = []
+    for infile in infiles:
+        #logging.info('File ' + str(i) + '/' + str(len(infiles)))
+
+        doc = FrekiDoc.read(infile)
+        for span in spans(doc):
+            if not span:
+                continue
+            for line in span:
+                if 'L' in line.tag:
+                    if train:
+                        lgname = line.attrs.get('lang_name', '???').lower()
+                        lgcode = line.attrs.get('lang_code', 'und')
+                        labels.append(lgname + '-' + lgcode)
+                    texts.append(str(line))
+    return texts, labels
 
 
 def download_crubadan_data(config):
