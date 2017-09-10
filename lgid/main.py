@@ -49,8 +49,7 @@ from configparser import ConfigParser
 import logging
 import numpy as np
 import re
-from collections import defaultdict
-
+import codecs
 
 import docopt
 
@@ -152,7 +151,7 @@ def write_to_files(infiles, predictions, output):
                 line.attrs['lang_code'] = lang_code
                 line.attrs['lang_name'] = lang_name
                 doc.set_line(i, line)
-        open(output + '/' + str(number) + '.freki', 'w').write(str(doc))
+        codecs.open(output + '/' + str(number) + '.freki', 'w', encoding='utf8').write(str(doc))
 
 def train(infiles, modelpath, vector_dir, config):
     """

@@ -10,7 +10,6 @@ should be turned on.
 import re
 from collections import namedtuple
 import logging
-import pickle
 
 from lgid.util import normalize_characters
 
@@ -27,7 +26,7 @@ Mention = namedtuple(
 )
 
 
-def find_language_mentions(doc, lgtable, capitalization):
+def language_mentions(doc, lgtable, capitalization):
     """
     Find mentions of languages in a document
 
@@ -129,19 +128,6 @@ def find_language_mentions(doc, lgtable, capitalization):
                                 this_startline, start, this_endline, orig_end, space_name, code, text
                             )
     logging.info(str(i) + ' language mentions found')
-
-
-def language_mentions(doc, lgtable, capitalization):
-    key = str(doc)[:20]
-    try:
-        mention_dict = pickle.load(open('mentions.p', 'rb'))
-    except FileNotFoundError:
-        mention_dict = {}
-    if key not in mention_dict:
-        mentions = list(find_language_mentions(doc, lgtable, capitalization))
-        mention_dict[key] = mentions
-        pickle.dump(mention_dict, open('mentions.p', 'wb'))
-    return mention_dict[key]
 
 
 def character_ngrams(s, ngram_range, lhs='<', rhs='>'):
