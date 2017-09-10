@@ -44,6 +44,7 @@ import time
 t0 = time.time()
 
 import os
+import errno
 import shutil
 from configparser import ConfigParser
 import logging
@@ -151,7 +152,14 @@ def write_to_files(infiles, predictions, output):
                 line.attrs['lang_code'] = lang_code
                 line.attrs['lang_name'] = lang_name
                 doc.set_line(i, line)
-        codecs.open(output + '/' + str(f_name) + '.freki', 'w', encoding='utf8').write(str(doc))
+        path = output + '/' + '/'.join(file.split('/')[-2:])
+        if not os.path.exists(os.path.dirname(path)):
+            try:
+                os.makedirs(os.path.dirname(path))
+            except OSError as exc:  # Guard against race condition
+                if exc.errno != errno.EEXIST:
+                    raise
+        codecs.open(path, 'w', encoding='utf8').write(str(doc))
 
 def train(infiles, modelpath, vector_dir, config):
     """
