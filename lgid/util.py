@@ -151,10 +151,10 @@ def read_crubadan_language_model(pairs, config, characters):
     return all_lms
 
 def encode_instance_id(doc_id, span_id, line_no, lang_name, lang_code):
-    return '-'.join(map(str, [doc_id, span_id, line_no, lang_name, lang_code]))
+    return (doc_id, span_id, line_no, lang_name, lang_code)
 
 def decode_instance_id(s):
-    doc_id, span_id, line_no, lang_name, lang_code = s.split('-')
+    doc_id, span_id, line_no, lang_name, lang_code = s.id
     return doc_id, span_id, int(line_no), lang_name, lang_code
 
 

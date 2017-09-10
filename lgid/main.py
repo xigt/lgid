@@ -136,13 +136,13 @@ def write_to_files(infiles, predictions, output):
     os.makedirs(output)
     for file in infiles:
         doc = FrekiDoc.read(file)
-        number = None
         span_dict = doc.spans()
+        f_name = file.split('/')[-1]
+        f_name = re.sub('.freki', '', f_name)
         for span in span_dict:
             start, end = span_dict[span]
             start_line = doc.get_line(start)
-            number = start_line.block.doc_id
-            key = number + "-" + start_line.span_id + '-' + str(start_line.lineno) + '-'
+            key = (str(f_name), start_line.span_id, start_line.lineno)
             pred = predictions[key].split('-')
             lang_name = pred[0].title()
             lang_code = pred[1]
@@ -151,7 +151,7 @@ def write_to_files(infiles, predictions, output):
                 line.attrs['lang_code'] = lang_code
                 line.attrs['lang_name'] = lang_name
                 doc.set_line(i, line)
-        codecs.open(output + '/' + str(number) + '.freki', 'w', encoding='utf8').write(str(doc))
+        codecs.open(output + '/' + str(f_name) + '.freki', 'w', encoding='utf8').write(str(doc))
 
 def train(infiles, modelpath, vector_dir, config):
     """
@@ -185,7 +185,7 @@ def find_best_and_normalize(instances, dists):
     labels = []
     probs = []
     for i in range(len(instances)):
-        lang = re.split("([0-9]+-){4}", instances[i].id)[2]
+        lang = '-'.join(decode_instance_id(instances[i])[-2:])
         labels.append(lang)
         assigned = bool(dists[i].best_class)
         prob = dists[i].best_prob
@@ -215,7 +215,7 @@ def classify(infiles, modelpath, config, vector_dir, instances=None):
     inst_dict = {}
     prediction_dict = {}
     for inst in instances:
-        num = re.search("([0-9]+-){4}", inst.id).group(0)
+        num = tuple(decode_instance_id(inst)[:-2])
         if num in inst_dict:
             inst_dict[num].append(inst)
         else:
@@ -242,8 +242,8 @@ def test(infiles, modelpath, vector_dir, config):
     instances = list(get_instances(infiles, config, vector_dir))
     for inst in instances:
         if bool(inst.label):
-            num = re.search("([0-9]+-){4}", inst.id).group(0)
-            real_classes[num] = re.split("([0-9]+-){4}", inst.id)[2]
+            num = tuple(decode_instance_id(inst)[:-2])
+            real_classes[num] = '-'.join(decode_instance_id(inst)[-2:])
     predicted_classes = classify(infiles, modelpath, config, vector_dir, instances)
     right = 0
     right_dialect = 0
