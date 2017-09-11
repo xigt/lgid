@@ -264,7 +264,7 @@ def train(infiles, modelpath, vector_dir, config, instances=None):
         modelpath: the path where the model will be written
         config: model parameters
     """
-    if config['features']['L-LMc-predict'] and config['features']['L-LMw-predict']:
+    if config['features']['L-LM-predict']:
         texts, labels = get_t_l(infiles, train=True)
         LM_train(texts, labels, modelpath + '_LM', config)
     if not instances:
@@ -463,7 +463,7 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_w
     Yields:
         training/test instances from Freki documents
     """
-    if config['features']['L-LMc-predict'] and config['features']['L-LMw-predict']:
+    if config['features']['L-LM-predict']:
         model = pickle.load(open(modelpath + '_LM/model.p', 'rb'))
         char_counts = pickle.load(open(modelpath + '_LM/char.p', 'rb'))
         word_counts = pickle.load(open(modelpath + '_LM/word.p', 'rb'))
@@ -512,7 +512,7 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_w
                     l_features(l_feats, mention_dict, context, lms, config)
                     t1 = time.time()
                     l_lines.append((line, l_feats, lgname, lgcode))
-                    if config['features']['L-LMc-predict'] and config['features']['L-LMw-predict']:
+                    if config['features']['L-LM-predict']:
                         char_matrix = char_counts.transform([str(line)])
                         word_matrix = word_counts.transform([str(line)])
 
