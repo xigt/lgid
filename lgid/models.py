@@ -39,14 +39,11 @@ def LM_train(texts, labels, modelpath, config):
     word_matrix = word_count.transform(texts)
     pickle.dump(char_count, open(modelpath + '/char.p', 'wb'))
     pickle.dump(word_count, open(modelpath + '/word.p', 'wb'))
-    #main_x = hstack([char_matrix, word_matrix])
+    main_x = hstack([char_matrix, word_matrix])
     labels = labels
-    c_model = Model()
-    w_model = Model()
-    c_model.fit(char_matrix, labels)
-    w_model.fit(word_matrix, labels)
-    pickle.dump(c_model, open(modelpath + '/c_model.p', 'wb'))
-    pickle.dump(w_model, open(modelpath + '/w_model.p', 'wb'))
+    model = Model()
+    model.fit(main_x, labels)
+    pickle.dump(model, open(modelpath + '/model.p', 'wb'))
 
 
 

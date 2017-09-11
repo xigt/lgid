@@ -464,8 +464,7 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_w
         training/test instances from Freki documents
     """
     if config['features']['L-LMc-predict'] and config['features']['L-LMw-predict']:
-        c_model = pickle.load(open(modelpath + '_LM/c_model.p', 'rb'))
-        w_model = pickle.load(open(modelpath + '_LM/w_model.p', 'rb'))
+        model = pickle.load(open(modelpath + '_LM/model.p', 'rb'))
         char_counts = pickle.load(open(modelpath + '_LM/char.p', 'rb'))
         word_counts = pickle.load(open(modelpath + '_LM/word.p', 'rb'))
     global t1
@@ -517,15 +516,11 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_w
                         char_matrix = char_counts.transform([str(line)])
                         word_matrix = word_counts.transform([str(line)])
 
-                        #main_x = hstack([char_matrix, word_matrix])
-                        result = tuple(c_model.predict(char_matrix)[0].split('-')[:2])
+                        main_x = hstack([char_matrix, word_matrix])
+                        result = tuple(model.predict(main_x)[0].split('-')[:2])
                         if result not in features:
                             features[result] = {}
-                        features[result]['L-LMc-predict'] = True
-                        result = tuple(w_model.predict(word_matrix)[0].split('-')[:2])
-                        if result not in features:
-                            features[result] = {}
-                        features[result]['L-LMw-predict'] = True
+                        features[result]['L-LM-predict'] = True
                     # if L and some other tag co-occur, only record local feats
                     if 'G' in line.tag:
                         g_features(features, mention_dict, context, config)
