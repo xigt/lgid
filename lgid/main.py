@@ -81,7 +81,8 @@ from lgid.features import (
     g_features,
     t_features,
     m_features,
-    get_threshold_info
+    get_threshold_info,
+    get_mention_by_lines
 )
 
 
@@ -349,6 +350,9 @@ def get_instances(infiles, config, vector_dir):
         caps = config['parameters'].get('mention-capitalization', 'default')
 
         lgmentions = list(language_mentions(doc, lgtable, caps))
+        if not lgmentions:
+            lgmentions = []
+        mention_dict = get_mention_by_lines(lgmentions)
 
         features_template = dict(((m.name, m.code), {}) for m in lgmentions)
 
@@ -375,28 +379,28 @@ def get_instances(infiles, config, vector_dir):
                     lgname = line.attrs.get('lang_name', '???').lower()
                     lgcode = line.attrs.get('lang_code', 'und')
                     l_feats = dict(((m.name, m.code), {}) for m in lgmentions)
-                    l_features(l_feats, lgmentions, context, lms, config)
+                    l_features(l_feats, mention_dict, context, lms, config)
                     t1 = time.time()
                     l_lines.append((line, l_feats, lgname, lgcode))
                     # if L and some other tag co-occur, only record local feats
                     if 'G' in line.tag:
-                        g_features(features, lgmentions, context, config)
+                        g_features(features, mention_dict, context, config)
                     if 'T' in line.tag:
-                        t_features(features, lgmentions, context, config)
+                        t_features(features, mention_dict, context, config)
                     if 'M' in line.tag:
-                        m_features(features, lgmentions, context, config)
+                        m_features(features, mention_dict, context, config)
 
                 else:
                     # if G, L, or M occur without L, record globally
                     if 'G' in line.tag:
-                        g_features(features, lgmentions, context, config)
+                        g_features(features, mention_dict, context, config)
                     if 'T' in line.tag:
-                        t_features(features, lgmentions, context, config)
+                        t_features(features, mention_dict, context, config)
                     if 'M' in line.tag:
-                        m_features(features, lgmentions, context, config)
+                        m_features(features, mention_dict, context, config)
 
-            gl_features(features, lgmentions, context, config, common_table, eng_words)
-            w_features(features, lgmentions, context, config)
+            gl_features(features, mention_dict, context, config, common_table, eng_words)
+            w_features(features, mention_dict, context, config)
             for l_line, l_feats, lgname, lgcode in l_lines:
                 goldpair = (lgname, lgcode)
                 for pair, feats in l_feats.items():
