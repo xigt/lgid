@@ -73,7 +73,7 @@ def read_odin_language_model(pairs, config, characters):
         else:
             file_name = '{}/{}_{}.word'.format(base_path, iso_code, lang_name)
             n = int(config['parameters']['word-n-gram-size'])
-
+        file_name = file_name.encode('ascii', 'ignore').decode('ascii')
         try:
             with open(file_name, encoding='utf8') as f:
                 lines = f.readlines()
