@@ -137,7 +137,7 @@ def read_crubadan_language_model(pairs, config, characters):
             crubadan_code = this_dir.split("_")[1]
             with open("{}/{}/{}{}".format(base_path, this_dir, crubadan_code, file_basename), encoding='utf8') as f:
                 lines = f.readlines()
-        except (FileNotFoundError, KeyError):
+        except (FileNotFoundError, KeyError, IndexError):
             continue
 
         lm = set()
