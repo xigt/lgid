@@ -175,6 +175,7 @@ def spans(doc):
             span_id = new_span_id
         if new_span_id is not None:
             span.append(line)
+            span_id = new_span_id
     if span:
         yield span
 

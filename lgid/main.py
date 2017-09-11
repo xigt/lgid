@@ -138,21 +138,23 @@ def write_to_files(infiles, predictions, output):
     os.makedirs(output)
     for file in infiles:
         doc = FrekiDoc.read(file)
-        span_dict = doc.spans()
         f_name = file.split('/')[-1]
         f_name = re.sub('.freki', '', f_name)
-        for span in span_dict:
-            start, end = span_dict[span]
-            start_line = doc.get_line(start)
-            key = (str(f_name), start_line.span_id, start_line.lineno)
-            pred = predictions[key].split('-')
-            lang_name = pred[0].title()
-            lang_code = pred[1]
-            for i in range(start, end):
-                line = doc.get_line(i)
-                line.attrs['lang_code'] = lang_code
-                line.attrs['lang_name'] = lang_name
-                doc.set_line(i, line)
+        for span in spans(doc):
+            l_lines = []
+            for line in span:
+                if 'L' in line.tag:
+                    l_lines.append(line)
+            for l_line in l_lines:
+                key = (str(f_name), l_line.span_id, l_line.lineno)
+                pred = predictions[key].split('-')
+                lang_name = pred[0].title()
+                lang_code = pred[1]
+                for line in span:
+                    if line.lineno >= l_line.lineno:
+                        line.attrs['lang_code'] = lang_code
+                        line.attrs['lang_name'] = lang_name
+                        doc.set_line(line.lineno, line)
         path = output + '/' + '/'.join(file.split('/')[-2:])
         if not os.path.exists(os.path.dirname(path)):
             try:
