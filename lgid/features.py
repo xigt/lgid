@@ -316,8 +316,12 @@ def ngram_matching(features, feature, line, pairs, characters, dataset, lms, con
                     #    percents[feature] = [percent]
                 except ZeroDivisionError:
                     return
-                if percent >= threshold:
-                    features[(name, code)][feature] = True
+                inc = 0.1
+                threshold = 0
+                while threshold < 1:
+                    threshold = round(threshold + inc, 2)
+                    if percent >= threshold:
+                        features[(name, code)][feature + '>' + str(threshold)] = True
 
 
 def most_frequent_code(features, common_table):
@@ -328,6 +332,8 @@ def most_frequent_code(features, common_table):
     :return: none
     """
     for name, code in features:
+        if code == 'eng':
+            features[(name, code)]['GL-is-english'] = True
         if name in common_table:
             if code in common_table[name]:
                 features[(name, code)]['GL-most-frequent-code'] = True

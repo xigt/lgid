@@ -73,7 +73,7 @@ def read_odin_language_model(pairs, config, characters):
         else:
             file_name = '{}/{}_{}.word'.format(base_path, iso_code, lang_name)
             n = int(config['parameters']['word-n-gram-size'])
-
+        file_name = file_name.encode('ascii', 'ignore').decode('ascii')
         try:
             with open(file_name, encoding='utf8') as f:
                 lines = f.readlines()
@@ -85,7 +85,7 @@ def read_odin_language_model(pairs, config, characters):
             if line.strip() == '':
                 continue
             line = line.split()[0] if characters else line.split()[:-1]
-            if len(line) == n:
+            if len(line) <= n:
                 feature = tuple(line)
                 lm.add(feature)
         all_lms[(lang_name, iso_code)] = lm
@@ -137,7 +137,7 @@ def read_crubadan_language_model(pairs, config, characters):
             crubadan_code = this_dir.split("_")[1]
             with open("{}/{}/{}{}".format(base_path, this_dir, crubadan_code, file_basename), encoding='utf8') as f:
                 lines = f.readlines()
-        except (FileNotFoundError, KeyError):
+        except (FileNotFoundError, KeyError, IndexError):
             continue
 
         lm = set()
@@ -175,6 +175,7 @@ def spans(doc):
             span_id = new_span_id
         if new_span_id is not None:
             span.append(line)
+            span_id = new_span_id
     if span:
         yield span
 

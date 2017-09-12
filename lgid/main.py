@@ -61,7 +61,7 @@ import pickle
 from scipy.sparse import hstack
 import cProfile
 pr = cProfile.Profile()
-pr.enable()
+#pr.enable()
 
 import docopt
 
@@ -214,9 +214,9 @@ def n_fold_validation(n, infiles, modelpath, vector_dir, config):
     print('Language and Code:\t' + str(np.average(accs_both)) + '\t' + str(np.std(accs_both)))
     print('Code Only:\t' + str(np.average(accs_code)) + '\t' + str(np.std(accs_code)))
     print('Language Mention Recall:\t' + str(np.average(recalls)) + '\t' + str(np.std(recalls)))
-    pr.create_stats()
-    pr.print_stats('cumtime')
-    pr.disable()
+    #pr.create_stats()
+    #pr.print_stats('cumtime')
+    #pr.disable()
 
 
 def get_time(t):
@@ -238,22 +238,31 @@ def write_to_files(infiles, predictions, output):
     os.makedirs(output)
     for file in infiles:
         doc = FrekiDoc.read(file)
-        number = None
-        span_dict = doc.spans()
-        for span in span_dict:
-            start, end = span_dict[span]
-            start_line = doc.get_line(start)
-            number = start_line.block.doc_id
-            key = number + "-" + start_line.span_id + '-' + str(start_line.lineno) + '-'
-            pred = predictions[key].split('-')
-            lang_name = pred[0].title()
-            lang_code = pred[1]
-            for i in range(start, end):
-                line = doc.get_line(i)
-                line.attrs['lang_code'] = lang_code
-                line.attrs['lang_name'] = lang_name
-                doc.set_line(i, line)
-        open(output + '/' + str(number) + '.freki', 'w').write(str(doc))
+        f_name = file.split('/')[-1]
+        f_name = re.sub('.freki', '', f_name)
+        for span in spans(doc):
+            l_lines = []
+            for line in span:
+                if 'L' in line.tag:
+                    l_lines.append(line)
+            for l_line in l_lines:
+                key = (str(f_name), l_line.span_id, l_line.lineno)
+                pred = predictions[key].split('-')
+                lang_name = pred[0].title()
+                lang_code = pred[1]
+                for line in span:
+                    if line.lineno >= l_line.lineno:
+                        line.attrs['lang_code'] = lang_code
+                        line.attrs['lang_name'] = lang_name
+                        doc.set_line(line.lineno, line)
+        path = output + '/' + '/'.join(file.split('/')[-2:])
+        if not os.path.exists(os.path.dirname(path)):
+            try:
+                os.makedirs(os.path.dirname(path))
+            except OSError as exc:  # Guard against race condition
+                if exc.errno != errno.EEXIST:
+                    raise
+        codecs.open(path, 'w', encoding='utf8').write(str(doc))
 
 def train(infiles, modelpath, vector_dir, config, instances=None):
     """
@@ -264,9 +273,9 @@ def train(infiles, modelpath, vector_dir, config, instances=None):
         modelpath: the path where the model will be written
         config: model parameters
     """
-    if config['features']['L-LM-predict']:
+    '''if config['features']['L-LM-predict']:
         texts, labels = get_t_l(infiles, train=True)
-        LM_train(texts, labels, modelpath + '_LM', config)
+        LM_train(texts, labels, modelpath + '_LM', config)'''
     if not instances:
         print('getting instances')
         instances = list(get_instances(infiles, config, vector_dir, modelpath))
@@ -463,10 +472,10 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_w
     Yields:
         training/test instances from Freki documents
     """
-    if config['features']['L-LM-predict']:
+    '''if config['features']['L-LM-predict']:
         model = pickle.load(open(modelpath + '_LM/model.p', 'rb'))
         char_counts = pickle.load(open(modelpath + '_LM/char.p', 'rb'))
-        word_counts = pickle.load(open(modelpath + '_LM/word.p', 'rb'))
+        word_counts = pickle.load(open(modelpath + '_LM/word.p', 'rb'))'''
     global t1
     i = 1
     for infile in infiles:
@@ -512,7 +521,7 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_w
                     l_features(l_feats, mention_dict, context, lms, config)
                     t1 = time.time()
                     l_lines.append((line, l_feats, lgname, lgcode))
-                    if config['features']['L-LM-predict']:
+                    '''if config['features']['L-LM-predict']:
                         char_matrix = char_counts.transform([str(line)])
                         word_matrix = word_counts.transform([str(line)])
 
@@ -520,7 +529,7 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_w
                         result = tuple(model.predict(main_x)[0].split('-')[:2])
                         if result not in features:
                             features[result] = {}
-                        features[result]['L-LM-predict'] = True
+                        features[result]['L-LM-predict'] = True'''
                     # if L and some other tag co-occur, only record local feats
                     if 'G' in line.tag:
                         g_features(features, mention_dict, context, config)
