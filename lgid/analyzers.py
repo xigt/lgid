@@ -170,7 +170,7 @@ def word_ngrams(s, n, lhs='\\n', rhs='\\n'):
     Returns:
         list of n-grams in *s*
     """
-    ngrams = [] 
+    ngrams = []
 
     words = [lhs] + s.split() + [rhs]
 

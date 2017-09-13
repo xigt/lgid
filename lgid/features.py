@@ -65,6 +65,9 @@ def gl_features(features, mentions, context, config, common_table, eng_words):
     if config['features']['GL-most-frequent-code']:
         most_frequent_code(features, common_table)
 
+    if config['features']['GL-is-english']:
+        features[('english', 'eng')]['GL-is-english'] = True
+
     flag_common_words(features, eng_words, config)
 
 
@@ -315,8 +318,12 @@ def ngram_matching(features, feature, line, pairs, characters, dataset, lms, con
                     #    percents[feature] = [percent]
                 except ZeroDivisionError:
                     return
-                if percent >= threshold:
-                    features[(name, code)][feature] = True
+                inc = 0.1
+                threshold = 0
+                while threshold < 1:
+                    threshold = round(threshold + inc, 2)
+                    if percent >= threshold:
+                        features[(name, code)][feature + '>' + str(threshold)] = True
 
 
 def most_frequent_code(features, common_table):

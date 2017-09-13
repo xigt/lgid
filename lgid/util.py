@@ -85,7 +85,7 @@ def read_odin_language_model(pairs, config, characters):
             if line.strip() == '':
                 continue
             line = line.split()[0] if characters else line.split()[:-1]
-            if len(line) == n:
+            if len(line) <= n:
                 feature = tuple(line)
                 lm.add(feature)
         all_lms[(lang_name, iso_code)] = lm

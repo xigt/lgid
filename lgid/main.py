@@ -119,12 +119,6 @@ def main():
         build_odin_lm(config)
 
 
-def get_time(t):
-    m, s = divmod(time.time() - t, 60)
-    h, m = divmod(m, 60)
-    return "%d:%02d:%02d" % (h, m, s)
-
-
 def write_to_files(infiles, predictions, output):
     """
     Modify freki files to include predicted language names and write to an output directory
@@ -164,6 +158,7 @@ def write_to_files(infiles, predictions, output):
                     raise
         codecs.open(path, 'w', encoding='utf8').write(str(doc))
 
+
 def train(infiles, modelpath, vector_dir, config):
     """
     Train a language-identification model from training data
@@ -171,6 +166,7 @@ def train(infiles, modelpath, vector_dir, config):
     Args:
         infiles: iterable of Freki file paths
         modelpath: the path where the model will be written
+        vector_dir: directory where feature vectors will be written
         config: model parameters
     """
     logging.info('Getting instances')
@@ -182,7 +178,6 @@ def train(infiles, modelpath, vector_dir, config):
     logging.info('Saving model')
     model.save(modelpath)
     get_threshold_info()
-    logging.info('Total time:\t' + get_time(t0))
 
 
 def find_best_and_normalize(instances, dists):
@@ -237,8 +232,8 @@ def classify(infiles, modelpath, config, vector_dir, instances=None):
         results = model.test(inst_dict[inst_id])
         top = find_best_and_normalize(inst_dict[inst_id], results)
         prediction_dict[inst_id] = top
-    logging.info('Total time:\t' + get_time(t0))
     return prediction_dict
+
 
 def test(infiles, modelpath, vector_dir, config):
     """
@@ -247,6 +242,7 @@ def test(infiles, modelpath, vector_dir, config):
     Args:
         infiles: iterable of Freki file paths
         modelpath: the path where the model will be loaded
+        vector_dir: directory where feature vectors will be written
         config: model parameters
     """
     real_classes = {}
@@ -275,10 +271,15 @@ def test(infiles, modelpath, vector_dir, config):
     print('Accuracy on Language (Name only):\t' + str(acc_lang))
     print('Accuracy on Dialects (Name + Code):\t' + str(acc_both))
     print('Accuracy on Code Only:\t' + str(acc_code))
-    print('Total time:\t' + get_time(t0))
 
 
 def get_feature_weights(modelpath, config):
+    """
+    print config features not used and weights of individual features
+    :param modelpath: path to model
+    :param config: config object
+    :return: none, prints to console
+    """
     model = Model()
     model = model.load(modelpath)
     print("Features not used:")
@@ -292,6 +293,7 @@ def get_feature_weights(modelpath, config):
     print("Feature weights:")
     for i in range(len(model.feat_names())):
         print('\t' + model.feat_names()[i] + ": " + str(model.learner.coef_[0][i]))
+
 
 def list_mentions(infiles, config):
     """
@@ -308,10 +310,16 @@ def list_mentions(infiles, config):
         lgmentions = list(language_mentions(doc, lgtable, caps))
         for m in lgmentions:
             print('\t'.join(map(str, m)))
-    logging.info('Total time:\t' + get_time(t0))
 
 
 def print_feature_vector(_id, feats, file):
+    """
+    print the feature values of a given vector to a file
+    :param _id: instance id
+    :param feats: feature dictionary
+    :param file: file to write to
+    :return: none, writes to file
+    """
     file.write('{}: {}\n'.format(_id, ", ".join(feats)))
 
 
