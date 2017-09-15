@@ -219,3 +219,70 @@ def find_common_codes(infiles, config):
             a_line += '\n'
         out.write(a_line)
 
+
+def generate_language_name_mapping(config):
+    """
+    Generates mappings from all words appearing in the langauge table
+    to unique ints. Writes the mappings to a file.
+
+    Also generates and writes to a file mappings from each language
+    name to the sequence of ints making up its name.
+
+    Args:
+        config: parameters/settings
+    """
+    normcaps = {
+        'upper': str.upper,
+        'lower': str.lower,
+        'title': str.title
+    }.get(config['parameters'].get('mention-capitalization', 'default'), str)
+
+    locs = config['locations']
+    lgtable = {}
+    if locs['language-table']:
+        lgtable = read_language_table(locs['language-table'])
+    words = set()
+    for lang in lgtable:
+        for word in lang.split():
+            words.add(normcaps(word.strip()))
+
+    mappings = {}
+    dest = open(locs['language-name-index'], 'w', encoding='utf8')
+    i = 10000 # so that all words will have a mapping 5 digits long
+    for word in words:
+        dest.write('{} {}\n'.format(word, i))
+        mappings[word] = i
+        i += 1
+    dest.close()
+
+    with open(locs['language-index-mapping'], 'w', encoding='utf8') as f:
+        for lang in lgtable:
+            index = ''
+            for word in lang.split():
+                index += str(mappings[normcaps(word.strip())])
+            f.write('{}\t{}\n'.format(normcaps(lang), index))
+
+
+def read_language_mapping_table(config):
+    """
+    Reads from a file mappings from language names to int sequences
+    and builds a dictionary mapping from ints to language names and
+    one mapping from language names to ints.
+
+    Args:
+        config: parameters/settings
+
+    Returns:
+        a dictionary mapping from int to language name
+    """
+    locs = config['locations']
+    lang_to_int = {}
+    int_to_lang = {}
+    if not os.path.exists(locs['language-index-mapping']):
+        generate_language_name_mapping(config)
+    with open(locs['language-index-mapping'], encoding='utf8') as f:
+        for line in f.readlines():
+            line = line.split('\t')
+            lang_to_int[line[0]] = line[1].strip()
+            int_to_lang[line[1].strip()] = line[0]
+    return lang_to_int, int_to_lang

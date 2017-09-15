@@ -27,7 +27,7 @@ Mention = namedtuple(
 )
 
 
-def find_language_mentions(doc, lgtable, capitalization):
+def find_language_mentions(doc, lgtable, lang_mapping_tables, capitalization):
     """
     Find mentions of languages in a document
 
@@ -78,6 +78,30 @@ def find_language_mentions(doc, lgtable, capitalization):
                 line2 = None
                 endline = line1.lineno
                 lines = line1.rstrip(' -')
+
+            # speedy
+            int_to_lang = lang_mapping_tables[1]
+            lang_to_int = lang_mapping_tables[0]
+            idlines = ''
+            for w in lines.split():
+                w = normcaps(w)
+                if w in lang_to_int:
+                    idlines += lang_to_int[w] # issue
+                else:
+                    idlines += 'N'
+            idlines = [x for x in idlines.split('N') if x != '']
+
+            for result in idlines:
+                i = 0
+                language = ''
+                while i < len(result):
+                    num = result[i:i + 5]
+                    word = int_to_lang[num]
+                    language += word + ' '
+                    i += 5
+                print(language)
+
+            #end speedy
 
             startline = line1.lineno
             line_break = len(line1.rstrip(' -'))

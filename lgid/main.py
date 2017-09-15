@@ -69,7 +69,8 @@ from lgid.util import (
     read_crubadan_language_model,
     read_odin_language_model,
     spans,
-    find_common_codes
+    find_common_codes,
+    read_language_mapping_table
 )
 from lgid.analyzers import (
     language_mentions,
@@ -292,10 +293,11 @@ def list_mentions(infiles, config):
         config: model parameters
     """
     lgtable = read_language_table(config['locations']['language-table'])
+    lang_mapping_tables = read_language_mapping_table(config)
     caps = config['parameters'].get('mention-capitalization', 'default')
     for infile in infiles:
         doc = FrekiDoc.read(infile)
-        lgmentions = list(language_mentions(doc, lgtable, caps))
+        lgmentions = list(language_mentions(doc, lgtable, lang_mapping_tables, caps))
         for m in lgmentions:
             print('\t'.join(map(str, m)))
     logging.info('Total time:\t' + get_time(t0))
@@ -324,6 +326,7 @@ def get_instances(infiles, config, vector_dir):
     common_table = {}
     if locs['most-common-codes']:
         common_table = read_language_table(locs['most-common-codes'])
+    lang_mapping_table = read_language_mapping_table(config)
     if locs['english-word-names']:
         eng_words = open(locs['english-word-names'], 'r').read().split('\n')
 
@@ -341,7 +344,7 @@ def get_instances(infiles, config, vector_dir):
         context['last-lineno'] = max(x.lineno for x in doc.lines())
         caps = config['parameters'].get('mention-capitalization', 'default')
 
-        lgmentions = list(language_mentions(doc, lgtable, caps))
+        lgmentions = list(language_mentions(doc, lgtable, lang_mapping_table, caps))
 
         features_template = dict(((m.name, m.code), {}) for m in lgmentions)
 
