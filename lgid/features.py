@@ -67,7 +67,7 @@ def gl_features(features, mentions, context, config, common_table, eng_words):
     if config['features']['GL-most-frequent-code']:
         most_frequent_code(features, common_table)
 
-    if config['features']['GL-is-english']:
+    if config['features']['GL-is-english'] and ('english', 'eng') in features:
         features[('english', 'eng')]['GL-is-english'] = True
 
     flag_common_words(features, eng_words, config)
