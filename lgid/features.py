@@ -28,14 +28,6 @@ from lgid.util import (
 )
 
 lm_dict = {}
-percents = {}
-
-def get_threshold_info():
-    logging.info("LM threshold info:")
-    for feat in percents:
-        logging.info(feat)
-        logging.info("\tMean: " + str(np.mean(percents[feat])))
-        logging.info("\tStd. Dev: " + str(np.std(percents[feat])))
 
 
 def gl_features(features, mentions, context, config, common_table, eng_words):
@@ -338,10 +330,6 @@ def ngram_matching(features, feature, line, pairs, gram_type, dataset, lms, conf
                         matches += 1
                 try:
                     percent = matches / len(ngrams)
-                    #if feature in percents:
-                    #    percents[feature].append(percent)
-                    #else:
-                    #    percents[feature] = [percent]
                 except ZeroDivisionError:
                     return
                 inc = 0.1

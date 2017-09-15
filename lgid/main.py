@@ -83,7 +83,6 @@ from lgid.features import (
     g_features,
     t_features,
     m_features,
-    get_threshold_info,
     get_mention_by_lines
 )
 
@@ -181,7 +180,6 @@ def train(infiles, modelpath, vector_dir, config):
     model.train(instances)
     logging.info('Saving model')
     model.save(modelpath)
-    get_threshold_info()
 
 
 def find_best_and_normalize(instances, dists):
@@ -271,7 +269,6 @@ def test(infiles, modelpath, vector_dir, config):
     acc_lang = right / len(real_classes)
     acc_both = right_dialect / len(real_classes)
     acc_code = right_code / len(real_classes)
-    print('Samples:\t' + str(len(real_classes)))
     print('Accuracy on Language (Name only):\t' + str(acc_lang))
     print('Accuracy on Dialects (Name + Code):\t' + str(acc_both))
     print('Accuracy on Code Only:\t' + str(acc_code))
@@ -523,7 +520,8 @@ def build_odin_lm(config):
     outdirec = config['locations']['odin-language-model']
     nc = config['parameters']['character-n-gram-size']
     nw = config['parameters']['word-n-gram-size']
-    build_from_odin(indirec, outdirec, nc, nw)
+    morph_split = config['parameters']['morpheme-delimiter']
+    build_from_odin(indirec, outdirec, nc, nw, morph_split)
     logging.info('Successfully built ODIN LMs')
 
 

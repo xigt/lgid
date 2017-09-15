@@ -32,14 +32,10 @@ class morph_tokenizer:
         :param s: string
         :return: list of morpheme strings
         """
-        reg = '[\s'
-        for char in self.split:
-            reg += re.escape(char)
-        reg += ']'
-        return re.split(reg, s)
+        return re.split(self.split, s)
 
 
-def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='-=+'):
+def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\s\-\=\+]+'):
     """
     Builds character and word language models from a directory of ODIN xml files, with each language in a separate
     file named with the language code.

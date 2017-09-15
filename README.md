@@ -113,9 +113,6 @@ window-size                        | number of lines before an IGT to consider
 after-window-size                  | number of lines after an IGT to consider
 close-window-size                  | smaller window before an IGT
 after-close-window-size            | smaller window after an IGT
-word-lm-threshold                  | overlap threshold for word-lm features
-morpheme-lm-threshold              | overlap threshold for morpheme-lm features
-character-lm-threshold             | overlap threshold for character-lm features
 gloss-lm-threshold                 | overlap threshold for gloss-lm features
 word-n-gram-size                   | number of tokens in word-lm n-grams
 character-n-gram-size              | number of chars in character-lm n-grams
@@ -141,6 +138,7 @@ GL-most-frequent | language is the most frequently mentioned one
 GL-most-frequent-code | code is the most frequent one paired with language
 GL-possible-english-word | language name is possibly an English word or name
 GL-short-lang-name | language name is shorter than short-name-size, and may be a false positive because it occurs as a word in some language
+GL-is-english | language is English
 W-prev           | language mentioned within the IGT's preceding window
 W-close          | language mentioned within a smaller preceding window
 W-closest        | language is closest to the IGT in the preceding window
