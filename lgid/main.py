@@ -69,6 +69,7 @@ from lgid.util import (
     decode_instance_id,
     read_crubadan_language_model,
     read_odin_language_model,
+    read_morpheme_language_model,
     spans,
     find_common_codes
 )
@@ -316,6 +317,13 @@ def list_mentions(infiles, config):
 
 
 def count_mentions(infiles, config):
+    """
+    List all languages mentioned found in the given files with their counts
+
+    Args:
+        infiles: iterable of Freki file paths
+        config: model parameters
+    """
     lgtable = read_language_table(config['locations']['language-table'])
     caps = config['parameters'].get('mention-capitalization', 'default')
     mentions = {}
@@ -391,7 +399,8 @@ def get_instances(infiles, config, vector_dir):
         char_clm = read_crubadan_language_model(name_code_pairs, config, True)
         word_olm = read_odin_language_model(name_code_pairs, config, False)
         char_olm = read_odin_language_model(name_code_pairs, config, True)
-        lms = (word_clm, char_clm, word_olm, char_olm)
+        morph_olm = read_morpheme_language_model(name_code_pairs, config)
+        lms = (word_clm, char_clm, word_olm, char_olm, morph_olm)
 
         for span in spans(doc):
             if not span:

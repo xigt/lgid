@@ -13,11 +13,13 @@ See README.md for more information about features.
 from collections import Counter
 import numpy as np
 import logging
+import re
 
 
 from lgid.analyzers import (
     character_ngrams,
-    word_ngrams
+    word_ngrams,
+    morpheme_ngrams
 )
 
 from lgid.util import (
@@ -125,6 +127,7 @@ def l_features(features, mentions, context, lms, config):
         features: mapping from (lgname, lgcode) pair to features to values
         mentions: list of language mentions
         context: contextual information about the document
+        lms: tuple of different language models
         config: model-building parameters
     """
     line = context['line']
@@ -132,15 +135,16 @@ def l_features(features, mentions, context, lms, config):
     if config['features']['L-in-line']:
         in_line_mention('L-in-line', features, mentions, line)
 
-    word_clm, char_clm, word_olm, char_olm = lms
+    word_clm, char_clm, word_olm, char_olm, morph_olm = lms
     pairs = list(features.keys())
     # ODIN n-grams
-    ngram_matching(features, 'L-LMw', line, pairs, False, 'odin', word_olm, config)
-    ngram_matching(features, 'L-LMc', line, pairs, True, 'odin', char_olm, config)
+    ngram_matching(features, 'L-LMw', line, pairs, 'word', 'odin', word_olm, config)
+    ngram_matching(features, 'L-LMc', line, pairs, 'character', 'odin', char_olm, config)
+    ngram_matching(features, 'L-LMm', line, pairs, 'morpheme', 'odin', morph_olm, config)
 
     # Crubadan n-grams
-    ngram_matching(features, 'L-CR-LMw', line, pairs, False, 'crubadan', word_clm, config)
-    ngram_matching(features, 'L-CR-LMc', line, pairs, True, 'crubadan', char_clm, config)
+    ngram_matching(features, 'L-CR-LMw', line, pairs, 'word', 'crubadan', word_clm, config)
+    ngram_matching(features, 'L-CR-LMc', line, pairs, 'character', 'crubadan', char_clm, config)
 
 
 def g_features(features, mentions, context, config):
@@ -283,25 +287,47 @@ def in_line_mention(feature, features, mentions, line):
     for m in get_window(mentions, line.lineno, line.lineno):
         features[(m.name, m.code)][feature] = True
 
-def ngram_matching(features, feature, line, pairs, characters, dataset, lms, config):
-    if characters:
-        threshold = float(config['parameters']['character-lm-threshold'])
+def ngram_matching(features, feature, line, pairs, gram_type, dataset, lms, config):
+    """
+    Set *feature* to `True` for features involving n-gram matching
+
+    Args:
+        features: mapping from (lgname, lgcode) pair to features to values
+        feature: feature name
+        line: FrekiLine object to inspect
+        pairs: list of (name, code) tuples
+        gram_type: what type of gram to use: 'character', 'word', or 'morpheme'
+        dataset: which language model to use: 'odin' or 'crubadan'
+        lms: the language model object to use
+        config: parameters
+    """
+    if gram_type == 'character':
+        # threshold = float(config['parameters']['character-lm-threshold'])
         if dataset == 'odin':
             n = int(config['parameters']['character-n-gram-size'])
         elif dataset == 'crubadan':
             n = int(config['parameters']['crubadan-char-size'])
+    elif gram_type == 'morpheme':
+        # threshold = float(config['parameters']['morpheme-lm-threshold'])
+        n = int(config['parameters']['morpheme-n-gram-size'])
     else:
-        threshold = float(config['parameters']['word-lm-threshold'])
+        # threshold = float(config['parameters']['word-lm-threshold'])
         if dataset == 'odin':
             n = int(config['parameters']['word-n-gram-size'])
         elif dataset == 'crubadan':
             n = int(config['parameters']['crubadan-word-size'])
 
-    ngrams = character_ngrams(line, (n, n)) if characters else word_ngrams(line, n)
-    # remove the initial and final '\n' from Crubadan unigrams and all ODIN ngrams
+    if gram_type == 'character':
+        ngrams = character_ngrams(line, (n, n))
+    elif gram_type == 'morpheme':
+        ngrams = morpheme_ngrams(line, n, re.compile(config['parameters']['morpheme-delimiter']))
+    else:
+        ngrams = word_ngrams(line, n)
 
+    # remove the initial and final '\n' from Crubadan unigrams and all ODIN ngrams
     if dataset == 'odin' or n == 1:
         ngrams = ngrams[1:-1]
+
     if config['features'][feature]:
         for (name, code) in pairs:
             if (name, code) in lms:

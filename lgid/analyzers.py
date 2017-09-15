@@ -182,3 +182,28 @@ def word_ngrams(s, n, lhs='\\n', rhs='\\n'):
         ngrams.append(tuple(words[i:i+n]))
 
     return ngrams
+
+def morpheme_ngrams(s, n, splitter, lhs='', rhs=''):
+    """
+    Extract morpheme n-grams of length *n* from string *s*
+
+    Args:
+        s: the string whence n-grams are extracted
+        n: the length of each n-gram
+        lhs: left-padding character (to show token boundaries)
+        rhs: right-padding character (to show token boundaries)
+    Returns:
+        list of n-grams in *s*
+    """
+    ngrams = []
+
+    words = [lhs] + re.split(splitter, s) + [rhs]
+
+    rangemax = len(words) - (n-1)
+    if rangemax < 1:
+        rangemax = 1
+
+    for i in range(rangemax):
+        ngrams.append(tuple(words[i:i+n]))
+
+    return ngrams
