@@ -7,6 +7,7 @@ Usage:
   lgid [-v...] classify --model=PATH --out=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] list-model-weights   --model=PATH    CONFIG
   lgid [-v...] list-mentions          CONFIG INFILE...
+  lgid [-v...] count-mentions         CONFIG INFILE...
   lgid [-v...] find-common-codes      CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
   lgid [-v...] build-odin-lm          CONFIG
@@ -110,6 +111,8 @@ def main():
         get_feature_weights(modelpath, config)
     elif args['list-mentions']:
         list_mentions(infiles, config)
+    elif args['count-mentions']:
+        count_mentions(infiles, config)
     elif args['find-common-codes']:
         find_common_codes(infiles, config)
     elif args['download-crubadan-data']:
@@ -299,6 +302,23 @@ def list_mentions(infiles, config):
         for m in lgmentions:
             print('\t'.join(map(str, m)))
     logging.info('Total time:\t' + get_time(t0))
+
+
+def count_mentions(infiles, config):
+    lgtable = read_language_table(config['locations']['language-table'])
+    caps = config['parameters'].get('mention-capitalization', 'default')
+    mentions = {}
+    for infile in infiles:
+        doc = FrekiDoc.read(infile)
+        lgmentions = list(language_mentions(doc, lgtable, caps))
+        for m in lgmentions:
+            if m[4] in mentions:
+                mentions[m[4]] += 1
+            else:
+                mentions[m[4]] = 1
+    ordered = sorted(mentions, key=lambda x: mentions[x], reverse=True)
+    for m in ordered:
+        print('{}: {}'.format(m, mentions[m]))
 
 
 def print_feature_vector(_id, feats, file):
