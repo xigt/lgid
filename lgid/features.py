@@ -65,6 +65,9 @@ def gl_features(features, mentions, context, config, common_table, eng_words):
     if config['features']['GL-most-frequent-code']:
         most_frequent_code(features, common_table)
 
+    if config['features']['GL-is-english']:
+        features[('english', 'eng')]['GL-is-english'] = True
+
     flag_common_words(features, eng_words, config)
 
 
@@ -131,14 +134,13 @@ def l_features(features, mentions, context, lms, config):
 
     word_clm, char_clm, word_olm, char_olm = lms
     pairs = list(features.keys())
-    for name, code in pairs:
-        # ODIN n-grams
-        ngram_matching(features, 'L-LMw', line, name, code, False, 'odin', word_olm, config)
-        ngram_matching(features, 'L-LMc', line, name, code, True, 'odin', char_olm, config)
+    # ODIN n-grams
+    ngram_matching(features, 'L-LMw', line, pairs, False, 'odin', word_olm, config)
+    ngram_matching(features, 'L-LMc', line, pairs, True, 'odin', char_olm, config)
 
-        # Crubadan n-grams
-        ngram_matching(features, 'L-CR-LMw', line, name, code, False, 'crubadan', word_clm, config)
-        ngram_matching(features, 'L-CR-LMc', line, name, code, True, 'crubadan', char_clm, config)
+    # Crubadan n-grams
+    ngram_matching(features, 'L-CR-LMw', line, pairs, False, 'crubadan', word_clm, config)
+    ngram_matching(features, 'L-CR-LMc', line, pairs, True, 'crubadan', char_clm, config)
 
 
 def g_features(features, mentions, context, config):
@@ -197,9 +199,11 @@ def get_window(mentions, top, bottom):
         top: top (i.e. smallest) line number in the window
         bottom: bottom (i.e. largest) line number in the window
     """
-    for m in mentions:
-        if m.startline <= bottom and m.endline >= top:
-            yield m
+    for i in range(top, bottom + 1):
+        if i in mentions:
+            for m in mentions[i]:
+                if m.startline <= bottom and m.endline >= top:
+                    yield m
 
 
 def window_mention(feature, features, mentions, top, bottom):
@@ -279,7 +283,7 @@ def in_line_mention(feature, features, mentions, line):
     for m in get_window(mentions, line.lineno, line.lineno):
         features[(m.name, m.code)][feature] = True
 
-def ngram_matching(features, feature, line, name, code, characters, dataset, lm, config):
+def ngram_matching(features, feature, line, pairs, characters, dataset, lms, config):
     if characters:
         threshold = float(config['parameters']['character-lm-threshold'])
         if dataset == 'odin':
@@ -293,29 +297,33 @@ def ngram_matching(features, feature, line, name, code, characters, dataset, lm,
         elif dataset == 'crubadan':
             n = int(config['parameters']['crubadan-word-size'])
 
-    if config['features'][feature]:
-        if (name, code) in lm:
-            lm = lm[(name, code)]
-            ngrams = character_ngrams(line, (n, n)) if characters else word_ngrams(line, n)
-            # remove the initial and final '\n' from Crubadan unigrams and all ODIN ngrams
-            if dataset == 'odin' or n == 1:
-                ngrams = ngrams[1:-1]
+    ngrams = character_ngrams(line, (n, n)) if characters else word_ngrams(line, n)
+    # remove the initial and final '\n' from Crubadan unigrams and all ODIN ngrams
 
-            matches = 0
-            for ngram in ngrams:
-                ngram = tuple(ngram)
-                if ngram in lm:
-                    matches += 1
-            try:
-                percent = matches / len(ngrams)
-                if feature in percents:
-                    percents[feature].append(percent)
-                else:
-                    percents[feature] = [percent]
-            except ZeroDivisionError:
-                return
-            if percent >= threshold:
-                features[(name, code)][feature] = True
+    if dataset == 'odin' or n == 1:
+        ngrams = ngrams[1:-1]
+    if config['features'][feature]:
+        for (name, code) in pairs:
+            if (name, code) in lms:
+                lm = lms[(name, code)]
+                matches = 0
+                for ngram in ngrams:
+                    if ngram in lm:
+                        matches += 1
+                try:
+                    percent = matches / len(ngrams)
+                    #if feature in percents:
+                    #    percents[feature].append(percent)
+                    #else:
+                    #    percents[feature] = [percent]
+                except ZeroDivisionError:
+                    return
+                inc = 0.1
+                threshold = 0
+                while threshold < 1:
+                    threshold = round(threshold + inc, 2)
+                    if percent >= threshold:
+                        features[(name, code)][feature + '>' + str(threshold)] = True
 
 
 def most_frequent_code(features, common_table):
@@ -346,3 +354,12 @@ def flag_common_words(features, words, config):
             if len(name) <= int(config['parameters']['short-name-size']):
                 features[(name, code)]['GL-short-lang-name'] = True
 
+
+def get_mention_by_lines(mentions):
+    mention_dict = {}
+    for m in mentions:
+        key = m.startline
+        if key not in mention_dict:
+            mention_dict[key] = []
+        mention_dict[key].append(m)
+    return mention_dict

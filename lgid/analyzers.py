@@ -10,7 +10,6 @@ should be turned on.
 import re
 from collections import namedtuple
 import logging
-import pickle
 
 from lgid.util import normalize_characters
 
@@ -27,7 +26,7 @@ Mention = namedtuple(
 )
 
 
-def find_language_mentions(doc, lgtable, capitalization):
+def language_mentions(doc, lgtable, capitalization):
     """
     Find mentions of languages in a document
 
@@ -66,7 +65,7 @@ def find_language_mentions(doc, lgtable, capitalization):
         ),
         flags=re.U
      )
-    i = 0
+    k = 0
     for block in doc.blocks:
         logging.debug(block.block_id)
         for i, line1 in enumerate(block.lines):
@@ -82,7 +81,7 @@ def find_language_mentions(doc, lgtable, capitalization):
             startline = line1.lineno
             line_break = len(line1.rstrip(' -'))
             for match in re.finditer(lg_re, normalize_characters(lines)):
-                i += 1
+                k += 1
                 name = match.group(0).lower()
                 start, end = match.span()
 
@@ -128,20 +127,7 @@ def find_language_mentions(doc, lgtable, capitalization):
                             yield Mention(
                                 this_startline, start, this_endline, orig_end, space_name, code, text
                             )
-    logging.info(str(i) + ' language mentions found')
-
-
-def language_mentions(doc, lgtable, capitalization):
-    key = str(doc)[:20]
-    try:
-        mention_dict = pickle.load(open('mentions.p', 'rb'))
-    except FileNotFoundError:
-        mention_dict = {}
-    if key not in mention_dict:
-        mentions = list(find_language_mentions(doc, lgtable, capitalization))
-        mention_dict[key] = mentions
-        pickle.dump(mention_dict, open('mentions.p', 'wb'))
-    return mention_dict[key]
+    logging.info(str(k) + ' language mentions found')
 
 
 def character_ngrams(s, ngram_range, lhs='<', rhs='>'):
@@ -167,7 +153,7 @@ def character_ngrams(s, ngram_range, lhs='<', rhs='>'):
 
         for i in range(rangemax):
             for j in range(ngram_range[0], ngram_range[1] + 1):
-                ngrams.append(word[i:i+j])
+                ngrams.append(tuple(word[i:i+j]))
 
     return ngrams
 
@@ -184,7 +170,7 @@ def word_ngrams(s, n, lhs='\\n', rhs='\\n'):
     Returns:
         list of n-grams in *s*
     """
-    ngrams = [] 
+    ngrams = []
 
     words = [lhs] + s.split() + [rhs]
 
@@ -193,6 +179,6 @@ def word_ngrams(s, n, lhs='\\n', rhs='\\n'):
         rangemax = 1
 
     for i in range(rangemax):
-        ngrams.append(words[i:i+n])
+        ngrams.append(tuple(words[i:i+n]))
 
     return ngrams

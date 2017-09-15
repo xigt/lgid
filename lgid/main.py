@@ -45,13 +45,13 @@ import time
 t0 = time.time()
 
 import os
+import errno
 import shutil
 from configparser import ConfigParser
 import logging
 import numpy as np
 import re
-from collections import defaultdict
-
+import codecs
 
 import docopt
 
@@ -82,7 +82,8 @@ from lgid.features import (
     g_features,
     t_features,
     m_features,
-    get_threshold_info
+    get_threshold_info,
+    get_mention_by_lines
 )
 
 
@@ -121,12 +122,6 @@ def main():
         build_odin_lm(config)
 
 
-def get_time(t):
-    m, s = divmod(time.time() - t, 60)
-    h, m = divmod(m, 60)
-    return "%d:%02d:%02d" % (h, m, s)
-
-
 def write_to_files(infiles, predictions, output):
     """
     Modify freki files to include predicted language names and write to an output directory
@@ -140,22 +135,32 @@ def write_to_files(infiles, predictions, output):
     os.makedirs(output)
     for file in infiles:
         doc = FrekiDoc.read(file)
-        number = None
-        span_dict = doc.spans()
-        for span in span_dict:
-            start, end = span_dict[span]
-            start_line = doc.get_line(start)
-            number = start_line.block.doc_id
-            key = number + "-" + start_line.span_id + '-' + str(start_line.lineno) + '-'
-            pred = predictions[key].split('-')
-            lang_name = pred[0].title()
-            lang_code = pred[1]
-            for i in range(start, end):
-                line = doc.get_line(i)
-                line.attrs['lang_code'] = lang_code
-                line.attrs['lang_name'] = lang_name
-                doc.set_line(i, line)
-        open(output + '/' + str(number) + '.freki', 'w').write(str(doc))
+        f_name = file.split('/')[-1]
+        f_name = re.sub('.freki', '', f_name)
+        for span in spans(doc):
+            l_lines = []
+            for line in span:
+                if 'L' in line.tag:
+                    l_lines.append(line)
+            for l_line in l_lines:
+                key = (str(f_name), l_line.span_id, l_line.lineno)
+                pred = predictions[key].split('-')
+                lang_name = pred[0].title()
+                lang_code = pred[1]
+                for line in span:
+                    if line.lineno >= l_line.lineno:
+                        line.attrs['lang_code'] = lang_code
+                        line.attrs['lang_name'] = lang_name
+                        doc.set_line(line.lineno, line)
+        path = output + '/' + '/'.join(file.split('/')[-2:])
+        if not os.path.exists(os.path.dirname(path)):
+            try:
+                os.makedirs(os.path.dirname(path))
+            except OSError as exc:  # Guard against race condition
+                if exc.errno != errno.EEXIST:
+                    raise
+        codecs.open(path, 'w', encoding='utf8').write(str(doc))
+
 
 def train(infiles, modelpath, vector_dir, config):
     """
@@ -164,6 +169,7 @@ def train(infiles, modelpath, vector_dir, config):
     Args:
         infiles: iterable of Freki file paths
         modelpath: the path where the model will be written
+        vector_dir: directory where feature vectors will be written
         config: model parameters
     """
     logging.info('Getting instances')
@@ -175,7 +181,6 @@ def train(infiles, modelpath, vector_dir, config):
     logging.info('Saving model')
     model.save(modelpath)
     get_threshold_info()
-    logging.info('Total time:\t' + get_time(t0))
 
 
 def find_best_and_normalize(instances, dists):
@@ -189,7 +194,7 @@ def find_best_and_normalize(instances, dists):
     labels = []
     probs = []
     for i in range(len(instances)):
-        lang = re.split("([0-9]+-){4}", instances[i].id)[2]
+        lang = '-'.join(decode_instance_id(instances[i])[-2:])
         labels.append(lang)
         assigned = bool(dists[i].best_class)
         prob = dists[i].best_prob
@@ -219,7 +224,7 @@ def classify(infiles, modelpath, config, vector_dir, instances=None):
     inst_dict = {}
     prediction_dict = {}
     for inst in instances:
-        num = re.search("([0-9]+-){4}", inst.id).group(0)
+        num = tuple(decode_instance_id(inst)[:-2])
         if num in inst_dict:
             inst_dict[num].append(inst)
         else:
@@ -230,8 +235,8 @@ def classify(infiles, modelpath, config, vector_dir, instances=None):
         results = model.test(inst_dict[inst_id])
         top = find_best_and_normalize(inst_dict[inst_id], results)
         prediction_dict[inst_id] = top
-    logging.info('Total time:\t' + get_time(t0))
     return prediction_dict
+
 
 def test(infiles, modelpath, vector_dir, config):
     """
@@ -240,14 +245,15 @@ def test(infiles, modelpath, vector_dir, config):
     Args:
         infiles: iterable of Freki file paths
         modelpath: the path where the model will be loaded
+        vector_dir: directory where feature vectors will be written
         config: model parameters
     """
     real_classes = {}
     instances = list(get_instances(infiles, config, vector_dir))
     for inst in instances:
         if bool(inst.label):
-            num = re.search("([0-9]+-){4}", inst.id).group(0)
-            real_classes[num] = re.split("([0-9]+-){4}", inst.id)[2]
+            num = tuple(decode_instance_id(inst)[:-2])
+            real_classes[num] = '-'.join(decode_instance_id(inst)[-2:])
     predicted_classes = classify(infiles, modelpath, config, vector_dir, instances)
     right = 0
     right_dialect = 0
@@ -268,10 +274,15 @@ def test(infiles, modelpath, vector_dir, config):
     print('Accuracy on Language (Name only):\t' + str(acc_lang))
     print('Accuracy on Dialects (Name + Code):\t' + str(acc_both))
     print('Accuracy on Code Only:\t' + str(acc_code))
-    print('Total time:\t' + get_time(t0))
 
 
 def get_feature_weights(modelpath, config):
+    """
+    print config features not used and weights of individual features
+    :param modelpath: path to model
+    :param config: config object
+    :return: none, prints to console
+    """
     model = Model()
     model = model.load(modelpath)
     print("Features not used:")
@@ -285,6 +296,7 @@ def get_feature_weights(modelpath, config):
     print("Feature weights:")
     for i in range(len(model.feat_names())):
         print('\t' + model.feat_names()[i] + ": " + str(model.learner.coef_[0][i]))
+
 
 def list_mentions(infiles, config):
     """
@@ -301,7 +313,6 @@ def list_mentions(infiles, config):
         lgmentions = list(language_mentions(doc, lgtable, caps))
         for m in lgmentions:
             print('\t'.join(map(str, m)))
-    logging.info('Total time:\t' + get_time(t0))
 
 
 def count_mentions(infiles, config):
@@ -322,6 +333,13 @@ def count_mentions(infiles, config):
 
 
 def print_feature_vector(_id, feats, file):
+    """
+    print the feature values of a given vector to a file
+    :param _id: instance id
+    :param feats: feature dictionary
+    :param file: file to write to
+    :return: none, writes to file
+    """
     file.write('{}: {}\n'.format(_id, ", ".join(feats)))
 
 
@@ -362,6 +380,9 @@ def get_instances(infiles, config, vector_dir):
         caps = config['parameters'].get('mention-capitalization', 'default')
 
         lgmentions = list(language_mentions(doc, lgtable, caps))
+        if not lgmentions:
+            lgmentions = []
+        mention_dict = get_mention_by_lines(lgmentions)
 
         features_template = dict(((m.name, m.code), {}) for m in lgmentions)
 
@@ -388,28 +409,28 @@ def get_instances(infiles, config, vector_dir):
                     lgname = line.attrs.get('lang_name', '???').lower()
                     lgcode = line.attrs.get('lang_code', 'und')
                     l_feats = dict(((m.name, m.code), {}) for m in lgmentions)
-                    l_features(l_feats, lgmentions, context, lms, config)
+                    l_features(l_feats, mention_dict, context, lms, config)
                     t1 = time.time()
                     l_lines.append((line, l_feats, lgname, lgcode))
                     # if L and some other tag co-occur, only record local feats
                     if 'G' in line.tag:
-                        g_features(features, lgmentions, context, config)
+                        g_features(features, mention_dict, context, config)
                     if 'T' in line.tag:
-                        t_features(features, lgmentions, context, config)
+                        t_features(features, mention_dict, context, config)
                     if 'M' in line.tag:
-                        m_features(features, lgmentions, context, config)
+                        m_features(features, mention_dict, context, config)
 
                 else:
                     # if G, L, or M occur without L, record globally
                     if 'G' in line.tag:
-                        g_features(features, lgmentions, context, config)
+                        g_features(features, mention_dict, context, config)
                     if 'T' in line.tag:
-                        t_features(features, lgmentions, context, config)
+                        t_features(features, mention_dict, context, config)
                     if 'M' in line.tag:
-                        m_features(features, lgmentions, context, config)
+                        m_features(features, mention_dict, context, config)
 
-            gl_features(features, lgmentions, context, config, common_table, eng_words)
-            w_features(features, lgmentions, context, config)
+            gl_features(features, mention_dict, context, config, common_table, eng_words)
+            w_features(features, mention_dict, context, config)
             for l_line, l_feats, lgname, lgcode in l_lines:
                 goldpair = (lgname, lgcode)
                 for pair, feats in l_feats.items():
