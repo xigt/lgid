@@ -9,6 +9,7 @@ Usage:
   lgid [-v...] get-lg-recall    CONFIG INFILE...
   lgid [-v...] list-model-weights   --model=PATH    CONFIG
   lgid [-v...] list-mentions          CONFIG INFILE...
+  lgid [-v...] count-mentions         CONFIG INFILE...
   lgid [-v...] find-common-codes      CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
   lgid [-v...] build-odin-lm          CONFIG
@@ -71,7 +72,6 @@ from lgid.models import (
     StringInstance,
     LogisticRegressionWrapper as Model,
     chi2,
-    LM_train,
 )
 
 from lgid.util import (
@@ -80,6 +80,7 @@ from lgid.util import (
     decode_instance_id,
     read_crubadan_language_model,
     read_odin_language_model,
+    read_morpheme_language_model,
     spans,
     find_common_codes
 )
@@ -129,6 +130,8 @@ def main():
         get_feature_weights(modelpath, config)
     elif args['list-mentions']:
         list_mentions(infiles, config)
+    elif args['count-mentions']:
+        count_mentions(infiles, config)
     elif args['find-common-codes']:
         find_common_codes(infiles, config)
     elif args['download-crubadan-data']:
@@ -264,6 +267,7 @@ def write_to_files(infiles, predictions, output):
                     raise
         codecs.open(path, 'w', encoding='utf8').write(str(doc))
 
+
 def train(infiles, modelpath, vector_dir, config, instances=None):
     """
     Train a language-identification model from training data
@@ -348,6 +352,7 @@ def classify(infiles, modelpath, config, vector_dir, instances=None):
     t1 = time.time()
     return prediction_dict
 
+
 def test(infiles, modelpath, vector_dir, config, instances=None):
     """
     Test a language-identification model
@@ -421,6 +426,7 @@ def get_feature_weights(modelpath, config):
     for i in range(len(model.feat_names())):
         print('\t' + model.feat_names()[i] + ": " + str(model.learner.coef_[0][i]))
 
+
 def list_mentions(infiles, config):
     """
     List all language mentions found in the given files
@@ -437,7 +443,39 @@ def list_mentions(infiles, config):
         for m in lgmentions:
             print('\t'.join(map(str, m)))
 
+
+def count_mentions(infiles, config):
+    """
+    List all languages mentioned found in the given files with their counts
+
+    Args:
+        infiles: iterable of Freki file paths
+        config: model parameters
+    """
+    lgtable = read_language_table(config['locations']['language-table'])
+    caps = config['parameters'].get('mention-capitalization', 'default')
+    mentions = {}
+    for infile in infiles:
+        doc = FrekiDoc.read(infile)
+        lgmentions = list(language_mentions(doc, lgtable, caps))
+        for m in lgmentions:
+            if m[4] in mentions:
+                mentions[m[4]] += 1
+            else:
+                mentions[m[4]] = 1
+    ordered = sorted(mentions, key=lambda x: mentions[x], reverse=True)
+    for m in ordered:
+        print('{}: {}'.format(m, mentions[m]))
+
+
 def print_feature_vector(_id, feats, file):
+    """
+    print the feature values of a given vector to a file
+    :param _id: instance id
+    :param feats: feature dictionary
+    :param file: file to write to
+    :return: none, writes to file
+    """
     file.write('{}: {}\n'.format(_id, ", ".join(feats)))
 
 
@@ -503,7 +541,9 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_w
         char_clm = read_crubadan_language_model(name_code_pairs, config, True)
         word_olm = read_odin_language_model(name_code_pairs, config, False)
         char_olm = read_odin_language_model(name_code_pairs, config, True)
-        lms = (word_clm, char_clm, word_olm, char_olm)
+        morph_olm = read_morpheme_language_model(name_code_pairs, config)
+        lms = (word_clm, char_clm, word_olm, char_olm, morph_olm)
+
         for span in spans(doc):
             if not span:
                 continue
@@ -660,7 +700,8 @@ def build_odin_lm(config):
     outdirec = config['locations']['odin-language-model']
     nc = config['parameters']['character-n-gram-size']
     nw = config['parameters']['word-n-gram-size']
-    build_from_odin(indirec, outdirec, nc, nw)
+    morph_split = config['parameters']['morpheme-delimiter']
+    build_from_odin(indirec, outdirec, nc, nw, morph_split)
     logging.info('Successfully built ODIN LMs')
 
 

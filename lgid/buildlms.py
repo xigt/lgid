@@ -5,7 +5,7 @@ Build language models from the ODIN data and monolingual data.
 
 from xigt.codecs import xigtxml
 from sklearn.feature_extraction.text import CountVectorizer
-from lgid.analyzers import  word_ngrams, character_ngrams
+from lgid.analyzers import word_ngrams, character_ngrams
 import re
 import glob
 import numpy as np
@@ -17,18 +17,25 @@ def tokenizer(s):
 
 
 class morph_tokenizer:
+    """
+    Tokenizes strings by morpheme
+    """
     def __init__(self, split):
+        """
+        :param split: string containing morpheme delimiting characters
+        """
         self.split = split
 
     def tok(self, s):
-        reg = '[\s'
-        for char in self.split:
-            reg += re.escape(char)
-        reg += ']'
-        return re.split(reg, s)
+        """
+        split a string into morphemes
+        :param s: string
+        :return: list of morpheme strings
+        """
+        return re.split(self.split, s)
 
 
-def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='-=+'):
+def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\s\-\=\+]+'):
     """
     Builds character and word language models from a directory of ODIN xml files, with each language in a separate
     file named with the language code.
@@ -43,6 +50,7 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='-=
         nw: maximum ngram length for words
         lhs: left-padding character (to show token boundaries)
         rhs: right-padding character (to show token boundaries)
+        morph_split: string containing morpheme delimiting characters
     """
     for fname in glob.glob(indirec + "/*.xml"):
         texts = {}
