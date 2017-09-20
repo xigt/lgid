@@ -11,16 +11,14 @@ repository, please file an [issue](https://github.com/xigt/lgid/issues).
 
 ## ODIN
 
-The ODIN data used is in the odin-by-lang directory. Each file contains IGT for one language
+The [ODIN][] data used is in the odin-by-lang directory. Each file contains IGT for one language
 identified by its code, and is in the xigt format. 
-
-The odin_lm directory contains word and char LMs built from the odin data.
 
 ## Crúbadán
 
 The [Crúbadán][] data is under the [CC BY 4.0][] license, and that
-possibly extends to the included `res/Crubadan.csv` file, although I
-don't see the CSV file available on the Crúbadán website.
+possibly extends to the included `res/Crubadan.csv` file.
+The `res/Crubadan.csv` file is the CSV download available on the Crúbadán website.
 
 ## lang_table
 
@@ -33,7 +31,11 @@ The `res/common_codes.txt` is generated from `lang_table.txt`. It pairs a langua
 
 ## english_word_language_names
 
-The `res/english_word_language_names.txt` contains language names that are also English words or proper names, and so are often false positive language mentions predicted by the system.
+The `res/english_word_language_names.txt` file contains language names that are also English words or proper names, and so are often false positive language mentions predicted by the system. This list is hand-curated.
+
+## crubadan_directory_index
+
+The `res/crubadan_directory_index.csv` file contains information on which subdirectory of Crúbadán data to use for each language.
 
 [Crúbadán]: http://crubadan.org/
 [CC BY 4.0]: https://creativecommons.org/licenses/by/4.0/

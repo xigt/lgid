@@ -28,9 +28,13 @@ classifying data, and testing the trained models.
 
 ## Installation
 
-The basic requirements are probably satisfied by any modern Linux setup:
-Bash, git, Python (3.3 or higher), and [virtualenv][]. First clone the
-repository:
+The basic requirements are probably satisfied by any modern Linux or Mac setup:
+- bash
+- git
+- Python (3.3 or higher)
+- [virtualenv][]
+
+First clone the repository:
 
 ```bash
 ~$ git clone https://github.com/xigt/lgid.git
@@ -56,6 +60,7 @@ Usage:
   lgid [-v...] classify --model=PATH --out=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] list-model-weights   --model=PATH    CONFIG
   lgid [-v...] list-mentions          CONFIG INFILE...
+  lgid [-v...] count-mentions         CONFIG INFILE...
   lgid [-v...] find-common-codes      CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
   lgid [-v...] build-odin-lm          CONFIG
@@ -71,7 +76,7 @@ Here is an overview of the imporant files in the repository:
 ```bash
 lgid
 ├── setup-env.sh        # first-time setup
-├── lgid.sh             # main command
+├── lgid.sh             # main script for running the program
 ├── config.ini          # configuration parameters
 ├── lgid                # source code
 │   ├── analyzers.py    # functions for extracting info from input documents
@@ -80,9 +85,11 @@ lgid
 │   ├── models.py       # abstraction of the machine learning model(s)
 │   └── util.py         # utility functions for reading/transforming resources
 └── res                 # resources for training
-    ├── Crubadan.csv    # index file for downloading Crubadan data
+    ├── Crubadan.csv    # index file for downloading Crúbadán data
     ├── lang_table.txt  # language name-code mapping
-    └── common_codes.txt  # Shows code most commonly paired with each language name
+    ├── common_codes.txt  # Shows code most commonly paired with each language name
+    ├── english_word_language_names.txt # list of language names that are English words
+    └── crubadan_directory_index.csv # table of what directory holds Crúbadán data for each language 
 
 
 ```
@@ -103,6 +110,19 @@ model.
 The `[locations]` section contains paths for finding various
 resources.
 
+location                           | description
+---------------------------------- | -----------
+lgid-dir                           | location of the system files on disk
+language-table                     | location of the master language table
+most-common-codes                  | location of table of most common codes for each language
+english-word-names                 | location of list of languages whose names are also English words
+odin-source                        | 
+odin-language-model                | directory containing the ODIN language model files
+Crúbadán-index                     | location of file containing index and download location for Crúbadán language model data
+Crúbadán-base-uri                  | base URL where Crúbadán data files are downloaded from
+Crúbadán-language-model            | directory containing the Crúbadán language model
+Crúbadán-directory-index           | location of table tracking location of Crúbadán language model for each language
+
 The `[parameters]` section contains parameters for modifying
 the behavior of feature functions. Available parameters are described
 below:
@@ -113,11 +133,11 @@ window-size                        | number of lines before an IGT to consider
 after-window-size                  | number of lines after an IGT to consider
 close-window-size                  | smaller window before an IGT
 after-close-window-size            | smaller window after an IGT
-gloss-lm-threshold                 | overlap threshold for gloss-lm features
 word-n-gram-size                   | number of tokens in word-lm n-grams
+morpheme-n-gram-size               | number of tokens in morpheme-lm n-grams
 character-n-gram-size              | number of chars in character-lm n-grams
-crubadan-word-size                 | number of tokens in crubadan word-lm n-grams
-crubadan-char-size                 | number of chars in crubadan character-lm n-grams
+Crúbadán-char-size                 | number of chars in Crúbadán character-lm n-grams
+Crúbadán-word-size                 | number of tokens in Crúbadán word-lm n-grams
 morpheme-delimiter                 | regular expression for tokenizing morphemes
 frequent-mention-threshold         | minimum window mentions to be "frequent"
 after-frequent-mention-threshold   | min. mentions after an IGT to be "frequent"
@@ -129,8 +149,8 @@ short-name-size             | a language name shorter than or equal to this leng
 The `[features]` section has boolean flags for turning on/off specific
 features. The available features are:
 
-feature name     | description
----------------- | -----------
+feature name     | description    | notes
+---------------- | -------------- | -------
 GL-first-lines   | language mentioned in the first window of the document
 GL-last-lines    | language mentioned in the last window of the document
 GL-frequent      | language mentioned `N+` times in the document
@@ -151,13 +171,13 @@ L-in-line        | language mentioned in the IGT's language line
 G-in-line        | language mentioned in the IGT's gloss line
 T-in-line        | language mentioned in the IGT's translation line
 M-in-line        | language mentioned in the IGT's meta lines
-L-LMw            | at least `M%` of word ngrams occur in the training data
-L-LMm            | at least `M%` of morpheme ngrams occur in training data
-L-LMc            | at least `M%` of character ngrams occur in training data
-G-overlap        | at least `M%` of gloss tokens occur in the training data
-L-CR-LMw         | same as L-LMw, but for Crubadan data
-L-CR-LMc         | same as L-LMc, but for Crubadan data
-W-prevclass      | language is predicted for the previous IGT
+L-LMw            | more than `M%` of word ngrams occur in the training data, using ODIN data
+L-LMm            | more than `M%` of morpheme ngrams occur in training data, using ODIN data
+L-LMc            | more than `M%` of character ngrams occur in training data, using ODIN data
+L-CR-LMw         | same as L-LMw, but using Crúbadán data
+L-CR-LMc         | same as L-LMc, but using Crúbadán data
+G-overlap        | at least `M%` of gloss tokens occur in the training data | not implemented
+W-prevclass      | language is predicted for the previous IGT | not implemented
 
 Note that the features have prefixes that group them into categories.
 The categories are:
@@ -174,4 +194,4 @@ M-             | feature is relevant for a meta line
 
 [virtualenv]: https://virtualenv.pypa.io/
 [ODIN]: http://depts.washington.edu/uwcl/odin/
-[Crúbadán]: http://crubadan.org/
+[Crúbadán]: http://Crubadan.org/
