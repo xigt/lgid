@@ -27,7 +27,7 @@ Mention = namedtuple(
 )
 
 
-def find_language_mentions(doc, lgtable, capitalization):
+def language_mentions(doc, lgtable, capitalization):
     """
     Find mentions of languages in a document
 
@@ -54,18 +54,14 @@ def find_language_mentions(doc, lgtable, capitalization):
         'lower': str.lower,
         'title': str.title
     }.get(capitalization, str)
-
     space_hyphen_re = re.compile(r'[-\s]+', flags=re.U)
-    lg_re = re.compile(
-        r'\b({})\b'.format(
+    lg_re = re.compile(r'\b({})\b'.format(
             r'|'.join(
                 r'[-\s]*'.join(
                     map(re.escape, map(normcaps, re.split(space_hyphen_re, name))
                 )
             ) for name in lgtable)
-        ),
-        flags=re.U
-     )
+        ), flags=re.U)
     k = 0
     for block in doc.blocks:
         logging.debug(block.block_id)
@@ -129,19 +125,6 @@ def find_language_mentions(doc, lgtable, capitalization):
                                 this_startline, start, this_endline, orig_end, space_name, code, text
                             )
     logging.info(str(k) + ' language mentions found')
-
-
-def language_mentions(doc, lgtable, capitalization):
-    key = str(doc)[:20]
-    try:
-        mention_dict = pickle.load(open('mentions.p', 'rb'))
-    except FileNotFoundError:
-        mention_dict = {}
-    if key not in mention_dict:
-        mentions = list(find_language_mentions(doc, lgtable, capitalization))
-        mention_dict[key] = mentions
-        pickle.dump(mention_dict, open('mentions.p', 'wb'))
-    return mention_dict[key]
 
 
 def character_ngrams(s, ngram_range, lhs='<', rhs='>'):

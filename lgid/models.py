@@ -27,25 +27,6 @@ from sklearn.linear_model import LogisticRegression
 
 LOG = logging.getLogger()
 
-def LM_train(texts, labels, modelpath, config):
-    if os.path.exists(modelpath):
-        shutil.rmtree(modelpath)
-    os.makedirs(modelpath)
-    char_max = int(config['parameters']['character-n-gram-size'])
-    char_count = Vectorizer(texts, ngram_range=(1, char_max), analyzer='char').fit(texts)
-    word_max = int(config['parameters']['word-n-gram-size'])
-    word_count = Vectorizer(texts, ngram_range=(1, word_max), analyzer='word').fit(texts)
-    char_matrix = char_count.transform(texts)
-    word_matrix = word_count.transform(texts)
-    pickle.dump(char_count, open(modelpath + '/char.p', 'wb'))
-    pickle.dump(word_count, open(modelpath + '/word.p', 'wb'))
-    main_x = hstack([char_matrix, word_matrix])
-    labels = labels
-    model = Model()
-    model.fit(main_x, labels)
-    pickle.dump(model, open(modelpath + '/model.p', 'wb'))
-
-
 
 class DataInstance(object):
     def __init__(self, label, feats):

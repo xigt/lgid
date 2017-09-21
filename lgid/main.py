@@ -166,18 +166,16 @@ def calc_mention_recall(infiles, config, instances=None):
         doc = FrekiDoc.read(file)
         num = doc.get_line(1).block.doc_id
         if num in file_dict:
-            mentions = language_mentions(doc, lgtable, caps)
+            mentions = list(language_mentions(doc, lgtable, caps))
             length += len(file_dict[num])
             for label in file_dict[num]:
                 n = label.split('-')[0]
+                n = re.sub('_', ' ', n)
                 c = label.split('-')[1]
                 for mention in mentions:
                     if n == mention.name and c == mention.code:
                         positive += 1
                         break
-        else:
-            print(num)
-            print(file_dict.keys())
 
     recall = float(positive)/length
     print("Language mention recall: " + str(recall))
@@ -205,7 +203,7 @@ def n_fold_validation(n, infiles, modelpath, vector_dir, config):
             if g2 != group:
                 training.extend(groups[g2])
         train(training, modelpath, vector_dir, config)
-        test_inst = list(get_instances(testing, config, vector_dir, modelpath))
+        test_inst = list(get_instances(testing, config, vector_dir))
         recall = calc_mention_recall(testing, config, instances=test_inst)
         acc_lang, acc_both, acc_code = test(testing, modelpath, vector_dir, config, instances=test_inst)
         accs_lang.append(acc_lang)
@@ -282,7 +280,7 @@ def train(infiles, modelpath, vector_dir, config, instances=None):
         LM_train(texts, labels, modelpath + '_LM', config)'''
     if not instances:
         print('getting instances')
-        instances = list(get_instances(infiles, config, vector_dir, modelpath))
+        instances = list(get_instances(infiles, config, vector_dir))
 
     model = Model()
     model.feat_selector = chi2
@@ -332,7 +330,7 @@ def classify(infiles, modelpath, config, vector_dir, instances=None):
     global t1
     if not instances:
         t1 = time.time()
-        instances = list(get_instances(infiles, config, vector_dir, modelpath))
+        instances = list(get_instances(infiles, config, vector_dir))
         t1 = time.time()
     inst_dict = {}
     prediction_dict = {}
@@ -364,7 +362,7 @@ def test(infiles, modelpath, vector_dir, config, instances=None):
     """
     real_classes = {}
     if not instances:
-        instances = list(get_instances(infiles, config, vector_dir, modelpath))
+        instances = list(get_instances(infiles, config, vector_dir))
     for inst in instances:
         if bool(inst.label):
             num = re.search("([0-9]+-){4}", inst.id).group(0)
@@ -390,6 +388,7 @@ def test(infiles, modelpath, vector_dir, config, instances=None):
                     file_counts[key2][0] += 1
             if real_classes[key] != predicted_classes[key]:
                 mistake_key = (real_classes[key], predicted_classes[key])
+                print(mistake_key)
                 if mistake_key in mistake_counts:
                     mistake_counts[mistake_key] += 1
                 else:
@@ -479,7 +478,7 @@ def print_feature_vector(_id, feats, file):
     file.write('{}: {}\n'.format(_id, ", ".join(feats)))
 
 
-def get_instances(infiles, config, vector_dir, modelpath):
+def get_instances(infiles, config, vector_dir):
     locs = config['locations']
     lgtable = {}
     if locs['language-table']:
@@ -494,12 +493,12 @@ def get_instances(infiles, config, vector_dir, modelpath):
         logging.info("Instances from file " + str(index) + '/' + str(len(infiles)))
         index += 1
         if file not in instance_dict:
-            instance_dict[file] = list(real_get_instances([file], config, vector_dir, lgtable, common_table, eng_words, modelpath))
+            instance_dict[file] = list(real_get_instances([file], config, vector_dir, lgtable, common_table, eng_words))
         insts.extend(instance_dict[file])
     return insts
 
 
-def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_words, modelpath):
+def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_words):
     vector_file = None
     """
     Read Freki documents from *infiles* and return training instances
@@ -510,10 +509,6 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_w
     Yields:
         training/test instances from Freki documents
     """
-    '''if config['features']['L-LM-predict']:
-        model = pickle.load(open(modelpath + '_LM/model.p', 'rb'))
-        char_counts = pickle.load(open(modelpath + '_LM/char.p', 'rb'))
-        word_counts = pickle.load(open(modelpath + '_LM/word.p', 'rb'))'''
     global t1
     i = 1
     for infile in infiles:
@@ -561,15 +556,6 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_w
                     l_features(l_feats, mention_dict, context, lms, config)
                     t1 = time.time()
                     l_lines.append((line, l_feats, lgname, lgcode))
-                    '''if config['features']['L-LM-predict']:
-                        char_matrix = char_counts.transform([str(line)])
-                        word_matrix = word_counts.transform([str(line)])
-
-                        main_x = hstack([char_matrix, word_matrix])
-                        result = tuple(model.predict(main_x)[0].split('-')[:2])
-                        if result not in features:
-                            features[result] = {}
-                        features[result]['L-LM-predict'] = True'''
                     # if L and some other tag co-occur, only record local feats
                     if 'G' in line.tag:
                         g_features(features, mention_dict, context, config)
@@ -606,35 +592,6 @@ def real_get_instances(infiles, config, vector_dir, lgtable, common_table, eng_w
                     yield StringInstance(id_, label, instfeats)
         if vector_file:
             vector_file.close()
-
-def get_t_l(infiles, train):
-    vector_file = None
-    """
-    Read Freki documents from *infiles* and return training instances
-
-    Args:
-        infiles: iterable of Freki file paths
-        config: model parameters
-    Yields:
-        training/test instances from Freki documents
-    """
-    texts = []
-    labels = []
-    for infile in infiles:
-        #logging.info('File ' + str(i) + '/' + str(len(infiles)))
-
-        doc = FrekiDoc.read(infile)
-        for span in spans(doc):
-            if not span:
-                continue
-            for line in span:
-                if 'L' in line.tag:
-                    if train:
-                        lgname = line.attrs.get('lang_name', '???').lower()
-                        lgcode = line.attrs.get('lang_code', 'und')
-                        labels.append(lgname + '-' + lgcode)
-                    texts.append(str(line))
-    return texts, labels
 
 
 def download_crubadan_data(config):
