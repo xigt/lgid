@@ -5,7 +5,7 @@ Build language models from the ODIN data and monolingual data.
 
 from xigt.codecs import xigtxml
 from sklearn.feature_extraction.text import CountVectorizer
-from lgid.analyzers import  word_ngrams, character_ngrams
+from lgid.analyzers import word_ngrams, character_ngrams
 import re
 import glob
 import numpy as np

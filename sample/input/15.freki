@@ -1,0 +1,1131 @@
+doc_id=15 page=1 block_id=1-1 bbox=203.16,665.26,408.0,682.48 label=tt 1 1
+line=1 fonts=F0-17.2 bbox=203.16,665.26,408.0,682.48:         The Passive as a Lexical Rule
+
+doc_id=15 page=1 block_id=1-2 bbox=241.68,576.58,369.59,648.42 label=tbt 2 6
+line=2 fonts=F0-12.0 bbox=272.64,636.46,338.66,648.42            :                        Stefan Müller
+line=3 fonts=F0-12.0 bbox=241.68,621.46,369.59,633.42 iscore=0.00:                   Language Technology Lab
+line=4 fonts=F0-12.0 bbox=273.96,606.46,337.34,618.42 iscore=0.00:                        DFKI  GmbH
+line=5 fonts=F0-12.0 bbox=252.72,591.58,358.54,603.54 iscore=0.00:                     Stuhlsatzenhausweg 3
+line=6 fonts=F0-12.0 bbox=253.08,576.58,358.09,588.54 iscore=0.50:                     D-66123 Saarbrücken
+
+doc_id=15 page=1 block_id=1-3 bbox=247.68,546.7,363.43,558.66 label=tbb 7 7
+line=7 fonts=F0-12.0 bbox=247.68,546.7,363.43,558.66:                      Stefan.Mueller@dfki.de
+
+doc_id=15 page=1 block_id=1-4 bbox=133.8,491.02,233.17,505.37 label=bt 8 8
+line=8 fonts=F1-14.4 bbox=133.8,491.02,233.17,505.37:1  Introduction
+
+doc_id=15 page=1 block_id=1-5 bbox=133.8,385.18,477.56,478.78 label=bbtt 9 16
+line=9 fonts=F0-10.0 bbox=133.8,468.82,477.54,478.78             :In HPSG  grammars  for English (Pollard and Sag, 1987, p. 214–218) and in LFG (Bres-
+line=10 fonts=F0-10.0 bbox=133.8,456.82,477.46,466.78 iscore=0.27:nan, 1982), the passive is analyzed as a lexical rule. For German many authors fol-
+line=11 fonts=F0-10.0 bbox=133.8,444.94,477.53,454.9 iscore=0.13 :lowed  Haider (1986a) and analyzed the passive as object-to-subject-raising (Kathol,
+line=12 fonts=F0-10.0 bbox=133.8,432.94,477.53,442.9 iscore=0.25 :1991, 1994; Heinz  and Matiasek, 1994; Lebeth, 1994; Pollard, 1994; Müller, 1999).
+line=13 fonts=F0-10.0 bbox=133.8,420.94,477.52,430.9 iscore=0.27 :The advantage  of the raising analysis is that one entry for the participle is sufficient.
+line=14 fonts=F0-10.0 bbox=133.8,409.06,477.56,419.02 iscore=0.27:The auxiliary for the perfect (1a), passive (1b), or dative passive (1c) attracts the argu-
+line=15 fonts=F0-10.0 bbox=133.8,397.06,477.47,407.02 iscore=0.13:ments of the embedded  participle in a way that is appropriate for the construction at
+line=16 fonts=F0-10.0 bbox=133.8,385.18,155.66,395.14 iscore=0.07:hand.
+
+doc_id=15 page=1 block_id=1-6 bbox=138.72,258.34,407.13,376.18 label=bbtbt 17 25
+line=17 tag=L span_id=15-1 lang_name=German lang_code=deu fonts=F0-10.0 bbox=138.72,366.22,407.13,376.18                  : (1)  a. Der Mann      hat den Ball     dem Jungen  geschenkt.
+line=18 tag=G span_id=15-1 lang_name=German lang_code=deu fonts=F0-10.0,F0-8.0 bbox=176.4,354.22,386.68,364.18 iscore=1.00:         the man-NOM   has the ball-ACC the boy-DAT given
+line=19 tag=T span_id=15-1 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,339.82,314.72,349.78 iscore=0.50       :         ‘The man  gave the ball to the boy.’
+line=20 tag=L span_id=15-2 lang_name=German lang_code=deu fonts=F0-10.0 bbox=162.6,325.42,361.29,335.38 iscore=0.25       :      b. Der Ball     wurde  dem Jungen  geschenkt.
+line=21 tag=G span_id=15-2 lang_name=German lang_code=deu fonts=F0-10.0,F0-8.0 bbox=176.4,313.42,340.84,323.38 iscore=1.00:         the ball-NOM was    the boy-DAT given
+line=22 tag=T span_id=15-2 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,299.14,301.64,309.1 iscore=0.43        :         ‘The ball was given to the boy.’
+line=23 tag=L span_id=15-3 lang_name=German lang_code=deu fonts=F0-10.0 bbox=162.72,284.62,361.05,294.58 iscore=0.43      :      c. Der Junge    bekam  den Ball     geschenkt.
+line=24 tag=G span_id=15-3 lang_name=German lang_code=deu fonts=F0-10.0,F0-8.0 bbox=176.4,272.74,340.6,282.7 iscore=1.00  :         the boy-NOM  got    the ball-ACC given
+line=25 tag=T span_id=15-3 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,258.34,314.12,268.3 iscore=0.38        :         ‘The boy got the ball as a present.’
+
+doc_id=15 page=1 block_id=1-7 bbox=133.8,227.5,477.5,249.34 label=bbtbb 26 27
+line=26 fonts=F0-10.0 bbox=133.8,239.38,477.5,249.34            :In the passive in (1b) the accusative object becomes the subject and the logical subject
+line=27 fonts=F0-10.0 bbox=133.8,227.5,477.43,237.46 iscore=0.38:of the main verb is suppressed. In the dative passive a dative object is promoted to
+
+doc_id=15 page=1 block_id=1-8 bbox=140.28,139.3,477.76,215.84 label=bbb 28 33
+line=28 fonts=F0-6.0,F0-8.0 bbox=140.28,206.98,477.44,215.84            :  ^{†}I gave talks about the German passive in Tübingen at the Seminar für Sprachwissenschaft and in Ilmenau
+line=29 fonts=F0-8.0 bbox=143.76,197.5,460.6,205.47 iscore=0.18         :   at Konvens 2000. I thank Tübingen for the invitation and the audiences of both talks for discussion.
+line=30 fonts=F0-8.0 bbox=143.76,188.14,477.48,196.11 iscore=0.18       :   The research carried out for this paper was supported by a research grant from the German Bundesministe-
+line=31 fonts=F0-6.4,F0-8.0 bbox=143.76,178.66,477.76,186.63 iscore=0.06:   rium für Bildung, Wissenschaft, Forschung und Technologie (BMBF) to the DFKI project WHITEBOARD
+line=32 fonts=F0-8.0 bbox=143.76,169.18,395.07,177.15 iscore=0.23       :   (“Multilevel Annotation for Dynamic Free Text Processing”), FKZ 01 IW 002.
+line=33 fonts=F0-10.0 bbox=303.12,139.3,308.1,149.26 iscore=0.00        :                                                1
+
+doc_id=15 page=2 block_id=2-1 bbox=133.8,611.5,477.53,717.1 label=t 34 42
+line=34 fonts=F0-10.0 bbox=133.8,707.14,477.46,717.1                     :subject. The situation is similar for bare infinitives in future tense constructions, mid-
+line=35 fonts=F0-10.0 bbox=133.8,695.14,477.5,705.1 iscore=0.15          :dle constructions, and the causative passive, and for so-called modal infinitives, i.e.,
+line=36 fonts=F0-10.0,F2-10.0 bbox=133.8,683.26,477.45,693.22 iscore=0.23:infinitives with zu. See (Müller, Submitted, Chapter 4) for a general discussion. Modal
+line=37 fonts=F0-10.0 bbox=133.8,671.26,272.37,681.22 iscore=0.23        :infinitives will be discussed below.
+line=38 fonts=F0-10.0 bbox=148.68,659.26,477.46,669.22 iscore=0.00       :    However,  none of the proposed object-to-subject-raising analyses is without prob-
+line=39 fonts=F0-10.0 bbox=133.8,647.38,477.46,657.34 iscore=0.00        :lems.  I will discuss both the lexical rule-based approach to the German passive and
+line=40 fonts=F0-10.0 bbox=133.8,635.38,477.5,645.34 iscore=0.14         :the object-to-subject-raising analyses and suggest that the first is better suited to ex-
+line=41 fonts=F0-10.0 bbox=133.8,623.5,477.53,633.46 iscore=0.43         :plain the empirical facts. The decision for lexical rules will have consequences for the
+line=42 fonts=F0-10.0 bbox=133.8,611.5,472.41,621.46 iscore=0.21         :analysis of (derivational) morphology, since -bar-derivation is a passive-like process.
+
+doc_id=15 page=2 block_id=2-2 bbox=133.8,577.9,315.45,592.25 label=btt 43 43
+line=43 fonts=F1-14.4 bbox=133.8,577.9,315.45,592.25:2  Object-to-Subject-Raising
+
+doc_id=15 page=2 block_id=2-3 bbox=133.8,436.06,477.55,565.54 label=btb 44 54
+line=44 fonts=F0-10.0 bbox=133.8,555.58,477.55,565.54                  :There are four proposals for object-to-subject-raising analyses for the German passive.
+line=45 fonts=F0-10.0 bbox=133.8,543.7,477.48,553.66 iscore=0.13       :The one that will be discussed first was suggested by Pollard (1994) and elaborated by
+line=46 fonts=F0-10.0,F0-7.4 bbox=133.8,531.7,477.46,542.67 iscore=0.07:me in my  1999 book.^{1} This analysis assumes a separate specification of subjects and
+line=47 fonts=F0-10.0 bbox=133.8,519.7,477.42,529.66 iscore=0.21       :other complements  for non-finite verbs as is assumed in this article also. The second
+line=48 fonts=F0-10.0 bbox=133.8,507.82,477.44,517.78 iscore=0.36      :analysis was originally developed by Haider (1986a) in the GB framework and partly
+line=49 fonts=F0-10.0 bbox=133.8,495.82,477.42,505.78 iscore=0.23      :transferred to HPSG by Heinz and Matiasek (1994). Heinz and Mathiasek assume that
+line=50 fonts=F0-10.0 bbox=133.8,483.82,477.5,493.78 iscore=0.21       :both subjects and complements are always listed on the subcat list. Their approach will
+line=51 fonts=F0-10.0 bbox=133.8,471.94,477.46,481.9 iscore=0.21       :be discussed in section 2.2. The third approach was suggested by Lebeth (1994) and
+line=52 fonts=F0-10.0 bbox=133.8,459.94,477.42,469.9 iscore=0.38       :is also based on Haider’s ideas. It will be discussed in section 2.2.1. In a subsection
+line=53 fonts=F0-10.0 bbox=133.8,448.06,477.43,458.02 iscore=0.19      :Kathol (1994, Chapter 7.3.3) discusses a further variant which will be examined in
+line=54 fonts=F0-10.0 bbox=133.8,436.06,186.93,446.02 iscore=0.15      :section 2.2.2.
+
+doc_id=15 page=2 block_id=2-4 bbox=133.8,407.5,297.86,419.46 label=bbtt 55 55
+line=55 fonts=F1-12.0 bbox=133.8,407.5,297.86,419.46:2.1  Designating the Accusative
+
+doc_id=15 page=2 block_id=2-5 bbox=133.8,353.02,477.57,398.86 label=bbtbt 56 59
+line=56 fonts=F0-10.0 bbox=133.8,388.9,477.43,398.86                    :Pollard (1994) designates the argument that has the properties of an accusative object.
+line=57 fonts=F0-10.0 bbox=133.8,376.9,477.5,386.86 iscore=0.29         :For unergative verbs that take an accusative object, the designated argument is the di-
+line=58 fonts=F0-10.0,F2-10.0 bbox=133.8,364.9,477.57,374.86 iscore=0.38:rect object, for ergative verbs it is the subject. (2) shows the lexical entry for geschenkt
+line=59 fonts=F0-10.0 bbox=133.8,353.02,352.62,362.98 iscore=0.19       :as it is used in the analysis of all three sentences in (1).
+
+doc_id=15 page=2 block_id=2-6 bbox=143.76,290.02,311.8,344.02 label=bbtbbt 60 63
+line=60 fonts=F0-10.0,F2-10.0,F3-10.6 bbox=143.76,328.6,311.8,344.02                :   (2)   geschenkt¡   (‘¤£ given’ participle form¨ © ): ���
+line=61 fonts=F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=168.5,316.6,311.8,329.11 iscore=0.14:          ¡             SUBJ     NP[str]             �
+line=62 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=168.5,303.5,311.8,315.3 iscore=0.38        :          ¡ HEAD        ACC    ¦   2  §      �       �
+line=63 fonts=F2-9.0 bbox=215.28,290.02,231.21,298.99 iscore=0.17                   :                        verb
+
+doc_id=15 page=2 block_id=2-7 bbox=168.5,258.34,309.2,285.5 label=bbtbbb 64 65
+line=64 fonts=F0-5.0,F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=168.5,273.0,309.2,285.5:          ¢ SUBCAT   ¦   2  NP[str],  NP[ldat]  § �
+line=65 fonts=F2-9.0 bbox=171.96,258.34,182.92,267.31 iscore=0.14             :           cat
+
+doc_id=15 page=2 block_id=2-8 bbox=133.8,220.06,477.49,242.02 label=bbbt 66 67
+line=66 fonts=F0-10.0 bbox=133.8,232.06,477.49,242.02                   :Pollard assumes  that the subject of non-finite verbs is not represented on the subcat
+line=67 fonts=F0-10.0,F0-8.0 bbox=133.8,220.06,477.43,230.02 iscore=0.21:list, but as the value of a special feature SUBJ. I assume the dative to be a lexical case.
+
+doc_id=15 page=2 block_id=2-9 bbox=140.28,169.18,477.52,206.36 label=bbbb 68 71
+line=68 fonts=F0-6.0,F0-6.4,F0-8.0 bbox=140.28,197.5,477.44,206.36      :  ^{1}Pollard’s proposal is an elaboration of Kathol’s ideas (1991). Kathol introduced a feature named ERG to
+line=69 fonts=F0-8.0 bbox=143.76,188.14,477.42,196.11 iscore=0.11       :   single out the complement that has accusative properties. This feature is also used by Pollard. In his paper
+line=70 fonts=F0-8.0 bbox=143.76,178.66,477.52,186.63 iscore=0.39       :   he unifies the analyses for the personal und impersonal passive and also discusses the remote passive. In
+line=71 fonts=F0-6.4,F0-8.0 bbox=143.76,169.18,434.65,177.15 iscore=0.18:   what follows I will use the feature name ACC instead of ERG since this is more appropriate.
+
+doc_id=15 page=3 block_id=3-1 bbox=133.8,671.26,477.53,717.1 label=ttt 72 75
+line=72 fonts=F0-10.0,F2-10.0 bbox=133.8,707.14,477.53,717.1     :For the majority of verbs nominative  and accusative are structural cases. str is the
+line=73 fonts=F0-10.0 bbox=133.8,695.14,477.43,705.1 iscore=0.14 :abbreviation for structural case. For a justification of this lexical/structural distinction
+line=74 fonts=F0-10.0 bbox=133.8,683.26,477.42,693.22 iscore=0.23:see (Müller, To Appear), for case assignment see (Meurers, 1999). The following list
+line=75 fonts=F0-10.0 bbox=133.8,671.26,408.64,681.22 iscore=0.15:gives some examples  for ergative verbs and other non-ergative verbs:
+
+doc_id=15 page=3 block_id=3-2 bbox=143.76,652.3,381.06,662.26 label=ttbtt 76 76
+line=76 fonts=F0-10.0,F0-7.2 bbox=143.76,652.3,381.06,662.26:  (3)                     SUBJ          ACC   SUBCAT
+
+doc_id=15 page=3 block_id=3-3 bbox=165.36,632.6,354.9,643.7 label=ttbtb 77 77
+line=77 fonts=F0-5.0,F0-9.0,F2-9.0,F3-10.6 bbox=165.36,632.6,354.9,643.7:         a. ankommen     (ergative): ¦  1  NP[str]   §  ¦  1  §����
+
+doc_id=15 page=3 block_id=3-4 bbox=165.36,613.2,354.9,624.3 label=ttbbtt 78 78
+line=78 fonts=F0-9.0,F2-9.0,F3-10.6 bbox=165.36,613.2,354.9,624.3:          b. tanzen   (non-ergative):   ¦ NP[str]    §       ���       ���
+
+doc_id=15 page=3 block_id=3-5 bbox=165.36,594.0,394.5,605.1 label=ttbbtbt 79 79
+line=79 fonts=F0-5.0,F0-9.0,F2-9.0,F3-10.6 bbox=165.36,594.0,394.5,605.1:          c. auffallen  (ergative):     ¦   1  NP[str]   §   ¦  1  §  ¦  NP[ldat]   §
+
+doc_id=15 page=3 block_id=3-6 bbox=165.36,574.7,405.6,585.8 label=ttbbtbbt 80 80
+line=80 fonts=F0-5.0,F0-9.0,F2-9.0,F3-10.6 bbox=165.36,574.7,405.6,585.8:          d. lieben  (non-ergative):   ¦ NP[str]   §        ¦  1  §  ¦   1  NP[str]   §
+
+doc_id=15 page=3 block_id=3-7 bbox=165.36,555.5,394.5,566.6 label=ttbbtbbb 81 81
+line=81 fonts=F0-9.0,F2-9.0,F3-10.6 bbox=165.36,555.5,394.5,566.6:          e. helfen (non-ergative):    ¦ NP[str]  §       ���       ¦ NP[ldat]   §
+
+doc_id=15 page=3 block_id=3-8 bbox=133.8,487.66,477.58,545.38 label=ttbbb 82 86
+line=82 fonts=F0-10.0,F0-8.0,F2-10.0 bbox=133.8,535.42,477.43,545.38     :For  ergative verbs  like ankommen    (‘arrive’) the ACC   value  is identical with
+line=83 fonts=F0-10.0,F0-8.0 bbox=133.8,523.54,477.51,533.5 iscore=0.07  :the SUBJ   value.  For  non-ergative verbs  the ACC   value is identical to the di-
+line=84 fonts=F0-10.0 bbox=133.8,511.54,477.44,521.5 iscore=0.12         :rect object if there is one  and  the empty  list if there is no accusative  object,
+line=85 fonts=F0-10.0,F2-10.0 bbox=133.8,499.66,477.58,509.62 iscore=0.12:as  for instance helfen  (‘help’).  (4)  shows  the  lexical entry for  the passive
+line=86 fonts=F0-10.0,F0-7.4 bbox=133.8,487.66,477.33,498.63 iscore=0.38 :auxiliary which  is  similar to the one  that  was  suggested  by  Pollard (1994).^{2}
+
+doc_id=15 page=3 block_id=3-9 bbox=143.76,427.5,396.4,477.94 label=tbt 87 90
+line=87 fonts=F0-10.0,F2-10.0 bbox=143.76,467.98,336.13,477.94              :   (4)  werden  (passive auxiliary non-finite form):
+line=88 fonts=F0-5.0,F0-7.2 bbox=215.52,456.1,246.69,463.27 iscore=0.00     :                     SUBJ   1
+line=89 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=168.5,439.5,396.4,453.4 iscore=0.33:         ¡ HEAD      ACC    1 �                                     �
+line=90 fonts=F2-9.0,F3-10.6 bbox=168.5,427.5,396.4,438.31 iscore=0.50      :         ¡           verb                                           �
+
+doc_id=15 page=3 block_id=3-10 bbox=133.8,224.38,477.61,421.03 label=tbb 91 106
+line=91 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=168.5,409.6,396.4,421.03                                :        ¡ SUBCAT   2                                           �
+line=92 fonts=F0-5.0,F0-7.2,F0-9.0,F2-7.0,F2-9.0,F3-10.6 bbox=172.2,392.0,382.4,409.3 iscore=0.08:         VCOMP    � V[ppp, LEX+, SUBJ ¦ NP[str]_{ref} § , ACC 1 ,
+line=93 fonts=F0-5.0,F0-7.2,F0-9.0 bbox=225.96,384.22,342.82,393.19 iscore=0.33                  :                      SUBCAT   1     2 , VCOMP   ]
+line=94 fonts=F2-9.0 bbox=171.96,370.06,182.92,379.03 iscore=0.00                                :         cat
+line=95 fonts=F0-10.0,F3-10.6 bbox=133.8,355.9,477.43,366.5 iscore=0.00                          :The  � stands for the concatenation of two lists. The lexical entry accounts for both
+line=96 fonts=F0-10.0 bbox=133.8,343.9,477.61,353.86 iscore=0.20                                 :the personal and the impersonal passive and blocks the passive with ergative verbs.
+line=97 fonts=F0-10.0,F0-8.0,F2-10.0 bbox=133.8,332.02,477.52,341.98 iscore=0.29                 :The impersonal  passive is formed with verbs like tanzen and helfen. The ACC value
+line=98 fonts=F0-10.0 bbox=133.8,320.02,477.53,329.98 iscore=0.12                                :is the empty list, it can be subtracted from the subcat list of the embedded verb, the
+line=99 fonts=F0-10.0,F0-8.0 bbox=133.8,308.02,477.5,317.98 iscore=0.24                          :result being the original subcat list. In the case of an empty ACC value the subject of
+line=100 fonts=F0-10.0 bbox=133.8,296.14,477.43,306.1 iscore=0.35                                :the embedded  verb is suppressed, nothing else changes. If verbs have an element in
+line=101 fonts=F0-10.0,F0-8.0 bbox=134.04,284.14,477.52,294.1 iscore=0.13                        :ACC,  the personal passive results. The ACC element is promoted to subject and it is
+line=102 fonts=F0-10.0 bbox=133.8,272.26,477.47,282.22 iscore=0.25                               :subtracted from the subcat list of the embedded verb, where it was listed as object at
+line=103 fonts=F0-10.0 bbox=133.8,260.26,201.04,270.22 iscore=0.06                               :the first position.
+line=104 fonts=F0-10.0 bbox=148.68,248.26,477.46,258.22 iscore=0.10                              :    Sentences like (5) are problematic for object-to-subject-raising analyses. The agent
+line=105 fonts=F0-10.0 bbox=133.8,236.38,477.5,246.34 iscore=0.13                                :in passive constructions, which may be expressed by a von-PP, has to be represented as
+line=106 fonts=F0-10.0 bbox=133.8,224.38,477.53,234.34 iscore=0.18                               :a complement  of the passive auxiliary, since it is not present in the subcat lists of the
+
+doc_id=15 page=3 block_id=3-11 bbox=140.28,169.18,477.53,206.36 label=b 107 110
+line=107 fonts=F0-6.0,F0-6.4,F0-8.0 bbox=140.28,197.5,477.53,206.36      :  ^{2}Pollard does not use VCOMP. VCOMP is a valance feature that was introduced by (Chung, 1993) for
+line=108 fonts=F0-8.0 bbox=143.76,188.14,477.48,196.11 iscore=0.16       :   Korean and by Rentier (1994) for Dutch for the selection of verbs that form a complex with their head.
+line=109 fonts=F0-8.0 bbox=143.76,178.66,477.47,186.63 iscore=0.26       :   See also (Müller, 1997) for an analysis of German verbal complexes. In (Müller, Submitted) I suggested
+line=110 fonts=F0-6.4,F0-8.0 bbox=143.76,169.18,381.91,177.15 iscore=0.25:   selecting all complements that are part of a complex predicate via VCOMP.
+
+doc_id=15 page=4 block_id=4-1 bbox=133.8,671.26,477.51,718.11 label=tt 111 114
+line=111 fonts=F0-10.0,F0-7.4 bbox=133.8,707.14,477.51,718.11     :participles (see (2) and (3), but also the valance lists discussed in the next section).^{3} As
+line=112 fonts=F0-10.0 bbox=133.8,695.14,477.45,705.1 iscore=0.24 :I mentioned in (Müller, 1999, p. 376), it cannot be explained why the PP can be fronted
+line=113 fonts=F0-10.0 bbox=133.8,683.26,477.43,693.22 iscore=0.12:together with the participle. See (Müller, Submitted, Chapter 4.2.1.1.8) for a similar
+line=114 fonts=F0-10.0 bbox=133.8,671.26,286.58,681.22 iscore=0.25:example  with the middle construction.
+
+doc_id=15 page=4 block_id=4-2 bbox=138.72,549.94,477.52,663.82 label=tbt 115 123
+line=115 tag=L span_id=15-4 lang_name=German lang_code=deu fonts=F0-10.0 bbox=138.72,653.86,447.13,663.82                  : (5)   a. Von Grammatikern  angeführt  werden auch Fälle mit  dem Partizip
+line=116 tag=G span_id=15-4 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,641.86,453.91,651.82 iscore=1.00       :          by  grammarians   mentioned  get    also cases with the participle
+line=117 tag=L span_id=15-4 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,628.9,254.93,638.86 iscore=0.11        :          intransitiver Verben
+line=118 tag=G span_id=15-4 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,616.9,248.2,626.86 iscore=1.00         :          intransitive  verbs
+line=119 tag=T span_id=15-4 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,602.86,473.0,612.82 iscore=0.10        :          ‘Grammarians  also mention cases with the participle of intransitive verbs.’
+line=120 tag=L span_id=15-5 lang_name=German lang_code=deu fonts=F0-10.0 bbox=162.6,588.58,477.52,598.54 iscore=0.29       :       b. Von Riemsdijk entdeckt sind nun Daten, die zeigen, daß es möglich ist, eine
+line=121 tag=L span_id=15-5 lang_name=German lang_code=deu fonts=F0-10.0,F2-10.0 bbox=176.4,576.7,316.08,586.66 iscore=0.08:          W-Phrase  hinter glauben zu haben.
+line=122 tag=T span_id=15-5 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,561.94,477.43,571.9 iscore=0.08        :          ‘Riemsdijk has now  discovered data that demonstrate that it is possible to
+line=123 tag=T span_id=15-5 lang_name=German lang_code=deu fonts=F0-10.0,F2-10.0 bbox=176.4,549.94,323.36,559.9 iscore=0.08:          have a W-phrase following glauben.’
+
+doc_id=15 page=4 block_id=4-3 bbox=133.8,448.78,477.53,542.38 label=tbbt 124 131
+line=124 fonts=F0-10.0,F2-10.0 bbox=133.8,532.42,477.53,542.38     :Since German  is assumed to be a V2 language, von Grammatikern  angeführt should
+line=125 fonts=F0-10.0 bbox=133.8,520.54,477.53,530.5 iscore=0.24  :be one phrase. If the von-PP is not a complement of the main verb but a complement
+line=126 fonts=F0-10.0 bbox=133.8,508.54,477.48,518.5 iscore=0.18  :of the auxiliary, the sentences in (5) would have two constituents in the position before
+line=127 fonts=F0-10.0 bbox=133.8,496.66,477.53,506.62 iscore=0.35 :the finite verb. If one assumes a lexical rule for passive, the lexical rule can change the
+line=128 fonts=F0-10.0 bbox=133.8,484.66,477.48,494.62 iscore=0.28 :subject of a verb into a PP complement and the PP is then a complement of the main
+line=129 fonts=F0-10.0 bbox=133.8,472.66,342.45,482.62 iscore=0.11 :verb and can be fronted together with the main verb.
+line=130 fonts=F0-10.0 bbox=148.68,460.78,477.51,470.74 iscore=0.08:   Another  problem for Pollard’s approach is that one needs the participles with pas-
+line=131 fonts=F0-10.0 bbox=133.8,448.78,426.06,458.74 iscore=0.23 :sive argument structure anyway to account for sentences like those in (6).
+
+doc_id=15 page=4 block_id=4-4 bbox=138.72,365.02,439.63,441.34 label=tbbbt 132 137
+line=132 tag=L span_id=15-6 lang_name=German lang_code=deu fonts=F0-10.0 bbox=138.72,431.38,323.81,441.34           : (6)   a. weil    er die Äpfel  gewaschen ißt.
+line=133 tag=G span_id=15-6 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,419.38,326.29,429.34 iscore=1.00:          because he the apples washed    eats
+line=134 tag=T span_id=15-6 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,405.22,319.28,415.18 iscore=0.33:          ‘because he eats the apples washed’
+line=135 tag=L span_id=15-7 lang_name=German lang_code=deu fonts=F0-10.0 bbox=162.6,391.06,387.83,401.02 iscore=0.33:       b. So lange gilt   die 39-Jährige  als nicht suspendiert.
+line=136 tag=G span_id=15-7 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,379.06,381.46,389.02 iscore=0.80:          so long  counts the 39 year old as  not   suspended
+line=137 tag=T span_id=15-7 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,365.02,439.63,374.98 iscore=0.08:          ‘The 39 year old woman is regarded as suspended for this period.’
+
+doc_id=15 page=4 block_id=4-5 bbox=133.8,311.62,477.52,357.46 label=tbbbb 138 141
+line=138 fonts=F0-10.0 bbox=133.8,347.5,477.44,357.46                     :For (6) a passive participle is needed that can be used as a predicate directly. In (6a)
+line=139 fonts=F0-10.0,F2-10.0 bbox=133.8,335.5,477.52,345.46 iscore=0.24 :gewaschen  is a participle that functions as a depictive secondary predicate, and in (6b)
+line=140 fonts=F0-10.0,F2-10.0 bbox=133.8,323.62,477.45,333.58 iscore=0.38:gelten selects als + predicate. There are no auxiliaries in (6) that could do an object-to-
+line=141 fonts=F0-10.0 bbox=133.8,311.62,194.95,321.58 iscore=0.06        :subject-raising.
+
+doc_id=15 page=4 block_id=4-6 bbox=133.8,283.54,301.95,295.5 label=bt 142 142
+line=142 fonts=F1-12.0 bbox=133.8,283.54,301.95,295.5:2.2  Designating the Nominative
+
+doc_id=15 page=4 block_id=4-7 bbox=133.8,205.06,477.5,274.9 label=bbt 143 148
+line=143 fonts=F0-10.0 bbox=133.8,264.94,477.42,274.9                    :The alternative to Pollard’s approach was first suggested by Haider (1986a) and later
+line=144 fonts=F0-10.0 bbox=133.8,252.94,477.5,262.9 iscore=0.21         :formalized by Heinz and Matiasek (1994) and Lebeth (1994) in an HPSG style. Later
+line=145 fonts=F0-10.0,F2-10.0 bbox=133.8,240.94,477.49,250.9 iscore=0.43:this analaysis was extended to the causative passive with lassen by Gunkel (1999).
+line=146 fonts=F0-10.0 bbox=133.8,229.06,477.49,239.02 iscore=0.31       :Haider suggested designating one argument as the external argument. This designated
+line=147 fonts=F0-10.0 bbox=133.8,217.06,477.49,227.02 iscore=0.21       :argument is the subject of non-ergative verbs. Ergative verbs do not have a designated
+line=148 fonts=F0-10.0 bbox=133.8,205.06,337.41,215.02 iscore=0.14       :argument. The following list gives some examples:
+
+doc_id=15 page=4 block_id=4-8 bbox=140.28,169.18,477.45,197.0 label=bbb 149 151
+line=149 fonts=F0-6.0,F0-8.0 bbox=140.28,188.14,477.45,197.0      :  ^{3}An alternative would be to assume that the PP is an adjunct, but then one had to explain how the thematic
+line=150 fonts=F0-8.0 bbox=143.76,178.66,477.44,186.63 iscore=0.05:   linking is established. In lexical rule-based approaches to passive the PP is always treated as an optional
+line=151 fonts=F0-8.0 bbox=143.76,169.18,185.16,177.15 iscore=0.06:   complement.
+
+doc_id=15 page=5 block_id=5-1 bbox=143.76,707.14,365.35,717.1 label=ttt 152 152
+line=152 fonts=F0-10.0,F0-8.0 bbox=143.76,707.14,365.35,717.1:  (7)                     DA           SUBCAT
+
+doc_id=15 page=5 block_id=5-2 bbox=165.36,688.18,370.4,699.1 label=ttb 153 153
+line=153 fonts=F0-10.0,F0-9.0,F2-9.0,F3-10.6 bbox=165.36,688.18,370.4,699.1:        a. ankommen     (ergative): ���              � NP[str] �
+
+doc_id=15 page=5 block_id=5-3 bbox=165.36,649.18,270.9,678.4 label=tbtl 154 155
+line=154 fonts=F0-10.0,F3-10.6 bbox=165.36,667.78,267.5,678.4            :         b. tanzen (non-ergative):  �
+line=155 fonts=F0-10.0,F3-10.6 bbox=165.36,649.18,270.9,659.8 iscore=0.75:         c. auffallen (ergative):   ���
+
+doc_id=15 page=5 block_id=5-4 bbox=280.08,648.8,408.7,678.6 label=tbtr 156 157
+line=156 fonts=F0-5.0,F0-9.0,F2-9.0,F3-10.6 bbox=280.08,667.8,354.3,678.6    :                                               1  NP[str]   �  �   1  �
+line=157 fonts=F0-9.0,F2-9.0,F3-10.6 bbox=333.1,648.8,408.7,659.7 iscore=0.25:                                                               � NP[str],   NP[ldat]   �
+
+doc_id=15 page=5 block_id=5-5 bbox=165.36,607.78,394.6,639.4 label=tbb 158 159
+line=158 fonts=F0-10.0,F0-5.0,F0-9.0,F2-9.0,F3-10.6 bbox=165.36,628.42,390.2,639.4            :         d. lieben  (non-ergative):   �   1  NP[str]  �  �   1 , NP[str] �
+line=159 fonts=F0-10.0,F0-5.0,F0-9.0,F2-9.0,F3-10.6 bbox=165.36,607.78,394.6,618.6 iscore=0.92:         e. helfen  (non-ergative):   �   1  NP[str]  �  �   1 , NP[ldat]  �
+
+doc_id=15 page=5 block_id=5-6 bbox=133.8,550.66,477.55,596.5 label=btt 160 163
+line=160 fonts=F0-10.0 bbox=133.8,586.54,477.55,596.5             :Haider suggests a blocking of the designated argument  for participles. The external
+line=161 fonts=F0-10.0 bbox=133.8,574.66,477.54,584.62 iscore=0.21:argument  is blocked and cannot be realized in a phrasal projection. Only the perfect
+line=162 fonts=F0-10.0 bbox=133.8,562.66,477.42,572.62 iscore=0.21:auxiliary can deblock this argument. Heinz and Mathiasek  suggest a lexical rule that
+line=163 fonts=F0-10.0 bbox=133.8,550.66,327.31,560.62 iscore=0.31:produces the lexical entries in (8) for participles.
+
+doc_id=15 page=5 block_id=5-7 bbox=143.76,531.82,374.71,541.78 label=btbtt 164 164
+line=164 fonts=F0-10.0,F0-8.0 bbox=143.76,531.82,374.71,541.78:  (8)                       DA           SUBCAT
+
+doc_id=15 page=5 block_id=5-8 bbox=165.36,512.74,379.8,523.8 label=btbtb 165 165
+line=165 fonts=F0-10.0,F0-9.0,F2-9.0,F3-10.6 bbox=165.36,512.74,379.8,523.8:        a. angekommen     (ergative): ���              � NP[str] �
+
+doc_id=15 page=5 block_id=5-9 bbox=165.36,492.46,363.7,503.3 label=btbbtt 166 166
+line=166 fonts=F0-10.0,F0-5.0,F0-9.0,F2-9.0,F3-10.6 bbox=165.36,492.46,363.7,503.3:         b. getanzt  (non-ergative):     �   1  NP[str]  �  �   1 �
+
+doc_id=15 page=5 block_id=5-10 bbox=165.36,473.5,418.1,484.5 label=btbbtb 167 167
+line=167 fonts=F0-10.0,F0-9.0,F2-9.0,F3-10.6 bbox=165.36,473.5,418.1,484.5:         c. aufgefallen  (ergative):     ���               � NP[str],  NP[ldat]  �
+
+doc_id=15 page=5 block_id=5-11 bbox=165.36,453.1,399.4,463.9 label=btbbb 168 168
+line=168 fonts=F0-10.0,F0-5.0,F0-9.0,F2-9.0,F3-10.6 bbox=165.36,453.1,399.4,463.9:         d. geliebt  (non-ergative):     �   1  NP[str]  �  �   1 , NP[str] �
+
+doc_id=15 page=5 block_id=5-12 bbox=165.36,432.46,403.9,443.3 label=bbt 169 169
+line=169 fonts=F0-10.0,F0-5.0,F0-9.0,F2-9.0,F3-10.6 bbox=165.36,432.46,403.9,443.3:         e. geholfen  (non-ergative):   �   1 NP[str]  �  �   1 , NP[ldat]  �
+
+doc_id=15 page=5 block_id=5-13 bbox=133.8,303.58,477.61,421.18 label=bbbt 170 179
+line=170 fonts=F0-10.0,F0-8.0 bbox=133.8,411.22,477.53,421.18           :The designated argument  is contained in the DA value of the participle, but not in the
+line=171 fonts=F0-10.0 bbox=133.8,399.22,477.53,409.18 iscore=0.25      :subcat list. The passive auxiliary takes over the subcat list, but does not reactivate the
+line=172 fonts=F0-10.0,F0-8.0 bbox=133.8,387.34,477.53,397.3 iscore=0.33:designated argument.  In contrast the perfect auxiliary appends the DA value and the
+line=173 fonts=F0-10.0 bbox=133.8,375.34,477.43,385.3 iscore=0.23       :subcat value and therefore contains the designated argument of the embedded participle
+line=174 fonts=F0-10.0 bbox=133.8,363.34,198.51,373.3 iscore=0.17       :in its subcat list.
+line=175 fonts=F0-10.0 bbox=148.68,351.46,477.61,361.42 iscore=0.00     :    This approach has the advantage that participles always have a passive argument
+line=176 fonts=F0-10.0 bbox=133.8,339.46,477.53,349.42 iscore=0.00      :structure. They may therefore be input to adjective formation lexical rules that produce
+line=177 fonts=F0-10.0 bbox=133.8,327.58,333.18,337.54 iscore=0.23      :adjectives which can be used in an analysis of (6).
+line=178 fonts=F0-10.0 bbox=148.68,315.58,477.48,325.54 iscore=0.15     :    However, the approach really gets into difficulties when it comes to modal infini-
+line=179 fonts=F0-10.0 bbox=133.8,303.58,189.78,313.54 iscore=0.00      :tives as in (9).
+
+doc_id=15 page=5 block_id=5-14 bbox=138.72,217.66,355.64,294.7 label=bbbbt 180 185
+line=180 tag=L span_id=15-8 lang_name=German lang_code=deu fonts=F0-10.0 bbox=138.72,284.74,355.64,294.7            : (9)   a. Die Angelegenheit  ist von euch zu erledigen.
+line=181 tag=G span_id=15-8 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,272.74,337.11,282.7 iscore=1.00 :          the matter         is  by  you  to settle
+line=182 tag=T span_id=15-8 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,258.34,318.07,268.3 iscore=0.25 :          ‘The matter is to be settled by you.’
+line=183 tag=L span_id=15-9 lang_name=German lang_code=deu fonts=F0-10.0 bbox=162.6,243.94,341.36,253.9 iscore=0.12 :       b. Ihr habt die Angelegenheit  zu erledigen.
+line=184 tag=G span_id=15-9 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,231.94,322.83,241.9 iscore=1.00 :          you have the matter         to settle
+line=185 tag=T span_id=15-9 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,217.66,297.67,227.62 iscore=0.33:          ‘You have  to settle the matter.’
+
+doc_id=15 page=5 block_id=5-15 bbox=133.8,174.82,477.47,208.66 label=bbbbb 186 188
+line=186 fonts=F0-10.0,F2-10.0 bbox=133.8,198.7,477.47,208.66            :In general, for every active sentence there is a sentence with the zu infinitive and haben
+line=187 fonts=F0-10.0,F2-10.0 bbox=133.8,186.7,477.43,196.66 iscore=0.31:and for every passive sentence there is a sentence with the zu infinitive and sein (Bier-
+line=188 fonts=F0-10.0 bbox=133.8,174.82,211.85,184.78 iscore=0.12       :wisch, 1963, p. 72).
+
+doc_id=15 page=6 block_id=6-1 bbox=133.8,683.26,477.53,717.1 label=tt 189 191
+line=189 fonts=F0-10.0 bbox=148.68,707.14,477.48,717.1            :    Heinz and Mathiasek  do not discuss this construction, but they are entirely parallel
+line=190 fonts=F0-10.0 bbox=133.8,695.14,477.53,705.1 iscore=0.19 :to the passive cases and this was also noted by Haider.  The  lexical entries for the
+line=191 fonts=F0-10.0 bbox=133.8,683.26,247.93,693.22 iscore=0.06:infinitives are shown in (10).
+
+doc_id=15 page=6 block_id=6-2 bbox=138.72,649.42,273.19,675.22 label=tbltt 192 193
+line=192 fonts=F0-10.0 bbox=138.72,665.26,155.32,675.22            : (10)
+line=193 fonts=F0-10.0 bbox=165.36,649.42,273.19,659.38 iscore=0.00:       a. anzukommen  (ergative):
+
+doc_id=15 page=6 block_id=6-3 bbox=165.36,617.86,275.95,643.66 label=tbltb 194 195
+line=194 fonts=F0-10.0 bbox=165.36,633.7,275.95,643.66             :        b. zu tanzen (non-ergative):
+line=195 fonts=F0-10.0 bbox=165.36,617.86,264.31,627.82 iscore=0.50:        c. aufzufallen (ergative):
+
+doc_id=15 page=6 block_id=6-4 bbox=165.36,580.66,274.87,609.22 label=tblb 196 197
+line=196 fonts=F0-10.0 bbox=165.36,599.26,274.27,609.22            :        d. zu lieben (non-ergative):
+line=197 fonts=F0-10.0 bbox=165.36,580.66,274.87,590.62 iscore=1.00:        e. zu helfen (non-ergative):
+
+doc_id=15 page=6 block_id=6-5 bbox=287.64,617.5,411.2,673.23 label=tbrt 198 201
+line=198 fonts=F0-8.0 bbox=287.64,665.26,367.75,673.23                        :                                                DA            SUBCAT
+line=199 fonts=F0-9.0,F2-9.0,F3-10.6 bbox=288.3,649.06,372.9,660.1 iscore=0.50:                                                ���           � NP[str]   �
+line=200 fonts=F0-9.0,F2-9.0,F3-10.6 bbox=288.3,633.3,338.9,644.3 iscore=0.50 :                                                � NP[str]  �  ���
+line=201 fonts=F0-9.0,F2-9.0,F3-10.6 bbox=288.3,617.5,411.2,628.5 iscore=0.40 :                                                ���           � NP[str],   NP[ldat]   �
+
+doc_id=15 page=6 block_id=6-6 bbox=288.3,580.3,377.4,609.8 label=tbrb 202 203
+line=202 fonts=F0-9.0,F2-9.0,F3-10.6 bbox=288.3,598.9,372.9,609.8            :                                                  � NP[str]   �  � NP[str]    �
+line=203 fonts=F0-9.0,F2-9.0,F3-10.6 bbox=288.3,580.3,377.4,591.2 iscore=0.83:                                                  � NP[str]   �  � NP[ldat]    �
+
+doc_id=15 page=6 block_id=6-7 bbox=133.8,536.5,477.51,570.46 label=bt 204 206
+line=204 fonts=F0-10.0,F2-10.0 bbox=133.8,560.5,477.5,570.46             :The  designated argument is blocked and can only  be reactiveted by the haben. In
+line=205 fonts=F0-10.0,F2-10.0 bbox=133.8,548.5,477.51,558.46 iscore=0.38:connection with sein it stays blocked. The problem now is that all infinitves in (10) can
+line=206 fonts=F0-10.0 bbox=133.8,536.5,263.26,546.46 iscore=0.06        :be used in control constructions:
+
+doc_id=15 page=6 block_id=6-8 bbox=133.8,330.58,388.52,528.46 label=bbt 207 221
+line=207 tag=L span_id=15-10 lang_name=German lang_code=deu fonts=F0-10.0 bbox=133.8,518.5,306.82,528.46                  :(11)   a. Er behauptet, spät anzukommen.
+line=208 tag=G span_id=15-10 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,506.62,283.9,516.58 iscore=1.00      :          he claims     late to.arrive
+line=209 tag=T span_id=15-10 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,492.34,277.4,502.3 iscore=0.40       :          ‘He claims to arrive late.’
+line=210 tag=L span_id=15-11 lang_name=German lang_code=deu fonts=F0-10.0 bbox=162.6,478.06,350.69,488.02 iscore=0.29     :       b. Er behauptet, nicht gern          zu tanzen.
+line=211 tag=G span_id=15-11 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,466.18,345.43,476.14 iscore=1.00     :          he claims     not   with.pleasure to dance
+line=212 tag=T span_id=15-11 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,451.9,302.0,461.86 iscore=0.33       :          ‘He claims to not like dancing.’
+line=213 tag=L span_id=15-12 lang_name=German lang_code=deu fonts=F0-10.0 bbox=162.72,437.62,362.42,447.58 iscore=0.33    :       c. Er behauptet, Frauen      selten aufzufallen.
+line=214 tag=G span_id=15-12 lang_name=German lang_code=deu fonts=F0-10.0,F0-8.0 bbox=176.4,425.74,387.5,435.7 iscore=1.00:          he claims     women-DAT   seldom to.attract.attention
+line=215 tag=T span_id=15-12 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,411.46,388.52,421.42 iscore=0.22     :          ‘He claims to seldom attract the attention of women.’
+line=216 tag=L span_id=15-13 lang_name=German lang_code=deu fonts=F0-10.0 bbox=162.24,397.18,285.92,407.14 iscore=0.22    :       d. Er behauptet, sie zu lieben.
+line=217 tag=G span_id=15-13 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,385.3,276.1,395.26 iscore=1.00       :          he claims     her to love
+line=218 tag=T span_id=15-13 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,371.02,269.24,380.98 iscore=0.40     :          ‘He claims to love her.’
+line=219 tag=L span_id=15-14 lang_name=German lang_code=deu fonts=F0-10.0 bbox=162.72,356.74,305.31,366.7 iscore=0.33     :       e. Er behauptet, Blinden zu helfen.
+line=220 tag=G span_id=15-14 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,344.86,295.08,354.82 iscore=1.00     :          he claims     blind   to help
+line=221 tag=T span_id=15-14 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,330.58,307.04,340.54 iscore=0.50     :          ‘He claims to help blind people.’
+
+doc_id=15 page=6 block_id=6-9 bbox=133.8,169.18,477.61,322.54 label=bbb 222 234
+line=222 fonts=F0-10.0 bbox=133.8,312.58,477.53,322.54                   :Since the subject of the embedded verb is not represented in a uniform way for the
+line=223 fonts=F0-10.0 bbox=133.8,300.7,477.46,310.66 iscore=0.31        :controlled verbs in (11), the controlling verb had to distinguish between ergative and
+line=224 fonts=F0-10.0 bbox=133.8,288.7,477.5,298.66 iscore=0.08         :non-ergative embedded  verbs. Heinz  and Mathiasek  propose an analysis of control
+line=225 fonts=F0-10.0 bbox=133.8,276.7,477.53,286.66 iscore=0.12        :were the first element of the subcat list of the embedded verb is coindexed with the
+line=226 fonts=F0-10.0 bbox=133.8,264.82,477.44,274.78 iscore=0.12       :subject or an oblique complement of the matrix verb, but this analysis only works, if
+line=227 fonts=F0-10.0 bbox=133.8,252.82,477.61,262.78 iscore=0.27       :no designated argument  reduction is assumed for infinitives. But such an argument
+line=228 fonts=F0-10.0 bbox=133.8,240.94,419.95,250.9 iscore=0.17        :reduction is necessary because of the modal infinitives discussed above.
+line=229 fonts=F0-10.0,F0-8.0 bbox=148.68,228.94,477.44,238.9 iscore=0.14:    One could  try to save this approach by stipulating a SUBJ feature that contains
+line=230 fonts=F0-10.0 bbox=133.8,216.94,477.53,226.9 iscore=0.20        :the subject of both ergative and non-ergative verbs and that is used to establish the
+line=231 fonts=F0-10.0 bbox=133.8,205.06,477.5,215.02 iscore=0.07        :control relation only. The problem of this approach is the notion of phrase: The control
+line=232 fonts=F0-10.0 bbox=133.8,193.06,477.52,203.02 iscore=0.27       :verb (in incoherent constructions) can neither select for an infinitive with one single
+line=233 fonts=F0-10.0 bbox=133.8,181.06,477.48,191.02 iscore=0.25       :element on the subcat list, as was suggested by Heinz and Mathiasek nor can it select
+line=234 fonts=F0-10.0 bbox=133.8,169.18,477.53,179.14 iscore=0.12       :for a fully saturated projection of an infinitive. The first option does not work since the
+
+doc_id=15 page=7 block_id=7-1 bbox=133.8,659.26,477.5,717.1 label=ttt 235 239
+line=235 fonts=F0-10.0 bbox=133.8,707.14,477.48,717.1                    :designated argument of non-ergative verbs is blocked and there is either nothing left on
+line=236 fonts=F0-10.0,F2-10.0 bbox=133.8,695.14,477.44,705.1 iscore=0.18:the subcat list (tanzen) or the elements that are left have to be reailized in a projection
+line=237 fonts=F0-10.0,F2-10.0 bbox=133.8,683.26,477.5,693.22 iscore=0.18:of the infinitive (lieben, helfen). The second option does not work since the subject of
+line=238 fonts=F0-10.0 bbox=133.8,671.26,477.42,681.22 iscore=0.27       :ergative verbs still is a member of the subcat list. The approach wrongly would predict
+line=239 fonts=F0-10.0 bbox=133.8,659.26,329.01,669.22 iscore=0.20       :that sentences like those in (12) are grammatical.
+
+doc_id=15 page=7 block_id=7-2 bbox=133.8,628.42,329.74,650.38 label=ttbtt 240 241
+line=240 tag=L span_id=15-15 lang_name=German lang_code=deu fonts=F0-10.0 bbox=133.8,640.42,329.74,650.38             :(12)   a.  * Er behauptet, er spät anzukommen.
+line=241 tag=G span_id=15-15 lang_name=German lang_code=deu fonts=F0-10.0 bbox=187.44,628.42,306.82,638.38 iscore=1.00:             he claims     he late to.arrive
+
+doc_id=15 page=7 block_id=7-3 bbox=162.6,601.06,390.5,622.9 label=ttbtb 242 243
+line=242 tag=L span_id=15-16 lang_name=German lang_code=deu fonts=F0-10.0 bbox=162.6,612.94,365.42,622.9             :       b.  * Er behauptet, er Frauen selten aufzufallen.
+line=243 tag=G span_id=15-16 lang_name=German lang_code=deu fonts=F0-10.0 bbox=187.44,601.06,390.5,611.02 iscore=1.00:             he claims     he women  seldom to.attract.attention
+
+doc_id=15 page=7 block_id=7-4 bbox=133.8,534.94,477.52,592.66 label=ttbb 244 248
+line=244 fonts=F0-10.0 bbox=133.8,582.7,477.45,592.66             :So the only solution to this problem seems to be to stipulate special lexical entries for
+line=245 fonts=F0-10.0 bbox=133.8,570.82,477.5,580.78 iscore=0.19 :infinitives in incoherent control constructions. See Gunkel (1999, p. 144–145) for such
+line=246 fonts=F0-10.0 bbox=133.8,558.82,477.52,568.78 iscore=0.14:an approach.  But with this stipulation one has again a proliferation of lexical entries
+line=247 fonts=F0-10.0 bbox=133.8,546.82,477.49,556.78 iscore=0.13:and avoidance of this was one of the main purposes of shifting the active/passive change
+line=248 fonts=F0-10.0 bbox=133.8,534.94,210.43,544.9 iscore=0.13 :into the auxiliaries.
+
+doc_id=15 page=7 block_id=7-5 bbox=133.8,394.06,477.63,518.38 label=tb 249 258
+line=249 fonts=F1-10.0 bbox=133.8,508.42,245.04,518.38            :2.2.1  Lebeth’s Approach
+line=250 fonts=F0-10.0 bbox=133.8,489.7,477.45,499.66 iscore=0.17 :Lebeth also assumes a designated argument. The designated argument is not contained
+line=251 fonts=F0-10.0 bbox=133.8,477.7,477.5,487.66 iscore=0.06  :in the subcat list of base lexical entries. It is introduced into the subcat list by the tem-
+line=252 fonts=F0-10.0 bbox=133.8,465.82,477.47,475.78 iscore=0.28:pus morpheme,   i.e., it is a member of the subcat list only for finite verbs. With this
+line=253 fonts=F0-10.0 bbox=133.8,453.82,477.43,463.78 iscore=0.12:approach no  argument reduction lexical rule is needed to license the participle, since
+line=254 fonts=F0-10.0 bbox=133.8,441.82,477.63,451.78 iscore=0.27:the designated argument was  not listed in the subcat list in the first place. Lebeth’s
+line=255 fonts=F0-10.0 bbox=133.8,429.94,477.53,439.9 iscore=0.13 :approach suffers from the same problem that Heinz and Mathiasek’s approach  suffers
+line=256 fonts=F0-10.0 bbox=133.8,417.94,477.46,427.9 iscore=0.23 :from: since the logical subject of ergative and non-ergative verbs is represented dif-
+line=257 fonts=F0-10.0 bbox=133.8,406.06,477.5,416.02 iscore=0.21 :ferently, control relations cannot be established in a uniform way and the notion of
+line=258 fonts=F0-10.0 bbox=133.8,394.06,259.65,404.02 iscore=0.21:maximal  projection is not clear.
+
+doc_id=15 page=7 block_id=7-6 bbox=133.8,348.82,460.55,377.5 label=btt 259 260
+line=259 fonts=F1-10.0 bbox=133.8,367.54,244.56,377.5             :2.2.2  Kathol’s Approach
+line=260 fonts=F0-10.0 bbox=133.8,348.82,460.55,358.78 iscore=0.20:Kathol (1994, Chapter 7.3.3) suggests the following representation for participles:
+
+doc_id=15 page=7 block_id=7-7 bbox=138.72,329.98,421.86,339.94 label=btbt 261 261
+line=261 fonts=F0-10.0,F0-7.2 bbox=138.72,329.98,421.86,339.94: (13)                        EXT            SUBJ       SUBCAT
+
+doc_id=15 page=7 block_id=7-8 bbox=165.36,310.1,395.7,321.2 label=btbbt 262 262
+line=262 fonts=F0-5.0,F0-9.0,F2-9.0,F3-10.6 bbox=165.36,310.1,395.7,321.2:         a. angekommen     (ergative):   ¦  1  NP[nom]    §  ¦   1 §        ���
+
+doc_id=15 page=7 block_id=7-9 bbox=165.36,290.8,395.7,301.9 label=btbbbt 263 263
+line=263 fonts=F0-9.0,F2-9.0,F3-10.6 bbox=165.36,290.8,395.7,301.9:          b. geschlafen  (non-ergative):  ¦ NP[nom]    §       ���             ���
+
+doc_id=15 page=7 block_id=7-10 bbox=165.36,271.6,395.7,282.7 label=btbbbb 264 264
+line=264 fonts=F0-9.0,F2-9.0,F3-10.6 bbox=165.36,271.6,395.7,282.7:         c. geliebt (non-ergative):     ¦ NP[nom]   §      ¦ NP[acc]   §����
+
+doc_id=15 page=7 block_id=7-11 bbox=133.8,224.5,477.54,258.46 label=bbt 265 267
+line=265 fonts=F0-10.0,F2-10.0 bbox=133.8,248.5,477.54,258.46           :The  logical subject of all participles is represented uniformly, but note that geliebt
+line=266 fonts=F0-10.0,F0-8.0 bbox=133.8,236.5,477.43,246.46 iscore=0.13:does not have any elements in the SUBCAT list. This falsely predicts that the participle
+line=267 fonts=F0-10.0 bbox=133.8,224.5,309.06,234.46 iscore=0.13       :cannot be combined  with any complements.
+
+doc_id=15 page=7 block_id=7-12 bbox=138.72,179.26,289.86,215.62 label=bbb 268 270
+line=268 tag=L span_id=15-17 lang_name=German lang_code=deu fonts=F0-10.0 bbox=138.72,205.66,282.63,215.62            : (14)  Seine Frau geliebt hat er nie.
+line=269 tag=G span_id=15-17 lang_name=German lang_code=deu fonts=F0-10.0 bbox=165.36,193.66,289.86,203.62 iscore=1.00:       his   wife loved   has he never
+line=270 tag=T span_id=15-17 lang_name=German lang_code=deu fonts=F0-10.0 bbox=165.36,179.26,268.28,189.22 iscore=0.17:       ‘He  never loved his wife.’
+
+doc_id=15 page=8 block_id=8-1 bbox=133.8,659.26,477.53,717.1 label=tt 271 275
+line=271 fonts=F0-10.0,F2-10.0 bbox=133.8,707.14,477.47,717.1                   :Since in Kathol’s approach the auxiliary hat deblocks both the external argument and
+line=272 fonts=F0-10.0,F0-8.0,F2-10.0 bbox=133.8,695.14,477.53,705.1 iscore=0.19:the SUBJ element, seine Frau in (14) depends on the auxiliary and it is unclear what
+line=273 fonts=F0-10.0,F2-10.0 bbox=133.8,683.26,477.44,693.22 iscore=0.19      :licenses this NP together with the participle in the Vorfeld. Apart from this problem
+line=274 fonts=F0-10.0 bbox=133.8,671.26,477.43,681.22 iscore=0.07              :this approach cannot account for incoherent infinitival constructions: It has the same
+line=275 fonts=F0-10.0 bbox=133.8,659.26,402.79,669.22 iscore=0.08              :problem that Heinz and Mathiasek’s and Lebeth’s approaches have.
+
+doc_id=15 page=8 block_id=8-2 bbox=133.8,518.5,477.55,642.7 label=tb 276 285
+line=276 fonts=F1-10.0 bbox=133.8,632.74,211.29,642.7                     :2.2.3  Conclusion
+line=277 fonts=F0-10.0 bbox=133.8,614.14,477.45,624.1 iscore=0.09         :In concluding this section about object-to-subject-raising approaches, it must be said
+line=278 fonts=F0-10.0 bbox=133.8,602.14,477.55,612.1 iscore=0.21         :that neither the object to subject raising approach of Pollard (1994) and the exten-
+line=279 fonts=F0-10.0 bbox=133.8,590.14,477.5,600.1 iscore=0.21          :sions that I suggested in (Müller, 1999, Chapter 15) nor the HPSG implementation of
+line=280 fonts=F0-10.0 bbox=133.8,578.26,477.47,588.22 iscore=0.29        :Haider’s approach by Heinz  and Mathiasek, Lebeth, and Kathol  are satisfying. While
+line=281 fonts=F0-10.0 bbox=133.8,566.26,477.55,576.22 iscore=0.31        :the first approach cannot provide a unified treatment of passivization and adjective for-
+line=282 fonts=F0-10.0 bbox=133.8,554.38,477.46,564.34 iscore=0.38        :mation, the latter fail comepletely in accounting for modal infintitve constructions and
+line=283 fonts=F0-10.0,F2-10.0 bbox=133.8,542.38,477.43,552.34 iscore=0.07:for incoherent constructions with zu infinitives. In what follows I will provide an alter-
+line=284 fonts=F0-10.0 bbox=133.8,530.38,477.48,540.34 iscore=0.20        :native analysis that uses lexical rules to derive several lexical entries per verb that all
+line=285 fonts=F0-10.0 bbox=133.8,518.5,387.43,528.46 iscore=0.13         :reflect the argument structure that later surfaces in the sentence.
+
+doc_id=15 page=8 block_id=8-3 bbox=133.8,484.9,237.79,499.25 label=bt 286 286
+line=286 fonts=F1-14.4 bbox=133.8,484.9,237.79,499.25:3  Lexical Rules
+
+doc_id=15 page=8 block_id=8-4 bbox=133.8,438.7,477.46,472.54 label=bbt 287 289
+line=287 fonts=F0-10.0 bbox=133.8,462.58,477.42,472.54            :Proponents of lexical rule-based analyses were not able to explain the so-called remote
+line=288 fonts=F0-10.0 bbox=133.8,450.58,477.46,460.54 iscore=0.35:passive in a satisfying way: Kiss (1992) does not account for it at all, and Hinrichs and
+line=289 fonts=F0-10.0 bbox=133.8,438.7,360.82,448.66 iscore=0.18 :Nakazawa  (1998) stipulate a special purpose lexical rule.
+
+doc_id=15 page=8 block_id=8-5 bbox=138.72,393.46,398.98,429.7 label=bbbt 290 292
+line=290 tag=L span_id=15-18 lang_name=German lang_code=deu fonts=F0-10.0 bbox=138.72,419.74,398.98,429.7             : (15)   weil    der Wagen  oft  [[zu reparieren versucht] wurde].
+line=291 tag=G span_id=15-18 lang_name=German lang_code=deu fonts=F0-10.0 bbox=165.36,407.74,383.66,417.7 iscore=0.88 :        because the car    often to  repair     tried     was
+line=292 tag=T span_id=15-18 lang_name=German lang_code=deu fonts=F0-10.0 bbox=165.36,393.46,339.68,403.42 iscore=0.22:        ‘because it was often tried to repair the car.’
+
+doc_id=15 page=8 block_id=8-6 bbox=133.8,326.62,477.58,384.46 label=bbbbt 293 297
+line=293 fonts=F0-10.0 bbox=133.8,374.5,477.58,384.46                     :In remote passive constructions the object of a verb that is embedded under the passive
+line=294 fonts=F0-10.0,F2-10.0 bbox=133.8,362.5,477.45,372.46 iscore=0.27 :participle becomes subject of the clause. This was explained by the assumption that zu
+line=295 fonts=F0-10.0,F2-10.0 bbox=133.8,350.62,477.47,360.58 iscore=0.33:reparieren (16) and versucht (17) form a verbal complex (18), and the object of this
+line=296 fonts=F0-10.0 bbox=133.8,338.62,477.42,348.58 iscore=0.33        :verbal complex is promoted to the subject of the complete verbal complex by its head,
+line=297 fonts=F0-10.0,F2-10.0 bbox=133.8,326.62,217.89,336.58 iscore=0.07:the auxiliary werden.
+
+doc_id=15 page=8 block_id=8-7 bbox=138.72,218.86,362.11,317.74 label=bbbbb 298 304
+line=298 fonts=F0-10.0,F0-6.4,F2-10.0,F3-10.4,F3-10.6 bbox=138.72,303.8,362.11,317.74      : (16)    reparieren¡   (¤£entry for base form¨ © ���and zu infinitive):
+line=299 fonts=F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=168.5,292.5,293.5,304.5 iscore=0.00       :          ¡              SUBJ   ¦ NP[str]  §    �
+line=300 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=168.5,274.6,293.5,288.5 iscore=0.50              :          ¡ HEAD         ACC    ¦  2   §     �  �
+line=301 fonts=F2-9.0,F3-10.6 bbox=168.5,262.6,293.5,273.2 iscore=0.25                     :          ¡             verb                    �
+line=302 fonts=F0-5.0,F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=172.2,246.4,259.4,257.5 iscore=0.00:            SUBCAT    ¦   2 NP[str]   §
+line=303 fonts=F0-7.2,F3-10.6 bbox=168.5,231.2,290.9,243.4 iscore=0.40                     :          ¢ VCOMP     ���                      �
+line=304 fonts=F2-9.0 bbox=171.96,218.86,182.92,227.83 iscore=0.00                         :           cat
+
+doc_id=15 page=9 block_id=9-1 bbox=138.72,660.1,436.6,717.1 label=ttt 305 308
+line=305 fonts=F0-10.0,F2-10.0,F3-10.6,F3-10.7 bbox=138.72,701.9,436.6,717.1         : (17)    versuchen¡   (entry¥¤£ for base form¨ © and zu infinitive):                     ���
+line=306 fonts=F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=168.5,690.0,436.6,702.19 iscore=0.11:          ¡             SUBJ     NP[str]                                                 �
+line=307 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=168.5,678.0,436.6,691.1 iscore=0.67        :          ¡ HEAD        ACC      2           �                                           �
+line=308 fonts=F2-9.0,F3-10.6 bbox=168.5,660.1,436.6,676.6 iscore=0.50               :          ¡¡            verb                                                             ��
+
+doc_id=15 page=9 block_id=9-2 bbox=133.8,414.6,477.49,657.43 label=ttbt 309 325
+line=309 fonts=F0-5.0,F0-7.2 bbox=172.2,650.26,214.89,657.43                                               :          SUBCAT    3
+line=310 fonts=F0-5.0,F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=168.5,634.7,434.0,647.0 iscore=0.05                :         ¢ VCOMP   ¦ V[inf , LEX+, SUBJ ¦ NP[str] § , ACC  2 , SUBCAT   3  ] § �
+line=311 fonts=F2-9.0 bbox=171.96,620.02,182.92,628.99 iscore=0.06                                         :          cat
+line=312 fonts=F0-10.0,F2-10.0,F3-10.6 bbox=138.72,602.0,293.5,615.82 iscore=0.00                          : (18)   zu¡ reparieren¤£ versucht:     ¨ © ��
+line=313 fonts=F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=168.5,590.8,293.5,602.9 iscore=0.17                       :         ¡           SUBJ  ¦ NP[str] §   �
+line=314 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=168.5,572.8,293.5,586.7 iscore=0.50                              :         ¡ HEAD      ACC   ¦   2 §     � �
+line=315 fonts=F2-9.0,F3-10.6 bbox=168.5,560.9,293.5,571.5 iscore=0.38                                     :         ¡           verb                �
+line=316 fonts=F0-5.0,F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=172.2,544.6,259.4,555.7 iscore=0.00                :          SUBCAT   ¦  2 NP[str]  §
+line=317 fonts=F0-7.2,F3-10.6 bbox=168.5,529.5,290.9,541.7 iscore=0.40                                     :         ¢ VCOMP   ���                   �
+line=318 fonts=F2-9.0 bbox=171.96,517.06,182.92,526.03 iscore=0.33                                         :          cat
+line=319 fonts=F0-10.0 bbox=133.8,502.66,477.46,512.62 iscore=0.00                                         :In what  follows, I will propose  a  lexical rule that can account  for the personal and
+line=320 fonts=F0-10.0 bbox=133.8,490.66,477.49,500.62 iscore=0.25                                         :impersonal  variants of the normal  passive and for the remote  passive as well. The rule
+line=321 fonts=F0-10.0,F0-8.0 bbox=133.8,478.66,477.43,488.62 iscore=0.20                                  :uses the feature ACC  to designate  the accusative element.  This  feature is eqivalent to
+line=322 fonts=F0-10.0,F0-7.4,F0-8.0 bbox=133.8,466.78,225.81,477.75 iscore=0.07                           :Pollard’s ACC  feature.^{4}
+line=323 fonts=F0-5.0,F0-7.2,F0-9.0,F2-7.0,F2-9.0,F3-10.6,F3-10.7 bbox=168.5,440.26,395.0,458.5 iscore=0.00:         ¡                   ¥¤ HEAD    SUBJ  ¦ NP[str]  _{1} ref § � © �
+line=324 fonts=F0-10.0,F0-5.0,F0-7.2,F3-10.6 bbox=138.72,424.06,386.5,439.39 iscore=0.25                   : (19)     SYNSEM   LOC  CAT             ACC     2                 �
+line=325 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=168.5,414.6,402.0,425.5 iscore=0.17                              :         ¢                    SUBCAT    2  �  3                    �"!
+
+doc_id=15 page=9 block_id=9-3 bbox=168.5,358.9,269.06,406.99 label=ttbblt 326 328
+line=326 fonts=F2-9.0,F3-10.4,F3-10.6 bbox=168.5,388.2,244.3,406.99    :         ¡ stem-verb          ¤£
+line=327 fonts=F0-4.0,F3-10.6 bbox=168.5,371.1,269.06,388.0 iscore=0.67:         ¡¡                   ¤¤¥HEAD
+line=328 fonts=F0-7.2 bbox=172.2,358.9,239.46,366.07 iscore=0.00       :          SYNSEM    LOC  CAT
+
+doc_id=15 page=9 block_id=9-4 bbox=168.5,319.66,277.5,346.0 label=ttbblb 329 330
+line=329 fonts=F0-7.2,F3-10.6 bbox=168.5,335.4,277.5,346.0        :         ¢                    SUBCAT
+line=330 fonts=F2-9.0 bbox=171.96,319.66,213.68,328.63 iscore=0.00:          lexical-sign
+
+doc_id=15 page=9 block_id=9-5 bbox=285.5,335.4,405.6,400.7 label=ttbbr 331 335
+line=331 fonts=F3-10.6 bbox=285.5,389.1,405.6,400.7                                   :                                               ¥¤£                      ¨ ©         ���
+line=332 fonts=F0-7.2,F2-9.0 bbox=288.72,381.94,365.57,390.91 iscore=0.00             :                                                VFORM     passive-part
+line=333 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=288.72,365.1,405.6,379.1 iscore=0.25        :                                                SUBJ        2           �            �
+line=334 fonts=F0-5.0,F0-7.2 bbox=288.72,356.5,329.13,363.67 iscore=0.50              :                                                ACC         2
+line=335 fonts=F0-5.0,F0-9.0,F2-9.0,F3-10.6 bbox=287.88,335.4,403.0,349.27 iscore=0.14:                                                3  �#¦  (PP[von-durch]      _{1} ^{)} § �
+
+doc_id=15 page=9 block_id=9-6 bbox=133.8,262.54,477.48,308.38 label=tb 336 339
+line=336 fonts=F0-10.0 bbox=133.8,298.42,477.43,308.38           :I follow Krieger and Nerbonne (1993), Copestake and Briscoe (1992) and Meurers
+line=337 fonts=F0-10.0 bbox=133.8,286.54,477.48,296.5 iscore=0.25:(1995; 2000, chapter 4) in assuming Description Level Lexical Rules (DLR). Such
+line=338 fonts=F0-10.0 bbox=133.8,274.54,477.48,284.5 iscore=0.29:lexical rules are fully integrated into the HPSG formalism. DLRs are similar to unary
+line=339 fonts=F0-10.0 bbox=133.8,262.54,380.57,272.5 iscore=0.29:branching dominance schemata. (19) can be rewritten as (20):
+
+doc_id=15 page=9 block_id=9-7 bbox=140.28,169.18,477.46,187.52 label=b 340 341
+line=340 fonts=F0-6.0,F0-8.0 bbox=140.28,178.66,477.46,187.52            :  ^{4}A less general rule that produces similar results was suggested by Kathol (1998, p. 255). Kathol does not
+line=341 fonts=F0-6.4,F0-8.0 bbox=143.76,169.18,415.75,177.15 iscore=0.12:   use the ACC feature in his rule. His rule does not extend to the cases discussed below.
+
+doc_id=15 page=10 block_id=10-1 bbox=168.5,661.6,277.5,725.9 label=ttl 342 344
+line=342 fonts=F0-4.2,F3-10.4,F3-10.6 bbox=168.5,697.5,269.06,725.9     :          ¡¡¡¡                   ¤£¤¤¤¥HEAD
+line=343 fonts=F0-7.2,F3-10.6 bbox=168.5,679.5,239.46,692.71 iscore=0.25:          ¡ SYNSEM    LOC   CAT
+line=344 fonts=F0-7.2,F3-10.6 bbox=168.5,661.6,277.5,678.2 iscore=0.25  :          ¡¡                      SUBCAT
+
+doc_id=15 page=10 block_id=10-2 bbox=285.5,679.5,445.8,727.2 label=ttrt 345 347
+line=345 fonts=F0-7.2,F2-9.0,F3-10.5,F3-10.6 bbox=285.5,708.46,445.8,727.2     :                                                      ¥¤£ VFORM   passive-part¨    ©         ¨ ©_{©}         � �_{�}
+line=346 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=288.72,695.1,365.6,705.7 iscore=0.14 :                                                       SUBJ         2             �
+line=347 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=288.72,679.5,445.8,690.19 iscore=0.67:                                                       ACC          2                                         �
+
+doc_id=15 page=10 block_id=10-3 bbox=287.88,660.8,445.8,678.2 label=ttrb 348 348
+line=348 fonts=F0-5.0,F0-9.0,F2-9.0,F3-10.6 bbox=287.88,660.8,445.8,678.2:                                                        3   �  ¦ (PP[¥  von-durch]      _{1} ^{)} §              ��
+
+doc_id=15 page=10 block_id=10-4 bbox=138.72,580.06,445.8,658.7 label=tb 349 354
+line=349 fonts=F0-10.0,F0-5.0,F0-7.2,F0-9.0,F2-7.0,F2-9.0,F3-10.6 bbox=138.72,637.18,445.8,658.7: (20)     ¡¡           ¤¤¤                   ¥¤ HEAD      SUBJ   ¦ NP[str]   _{1} ref § � © _{©}©© ��
+line=350 fonts=F0-4.2,F0-5.0,F0-7.2 bbox=213.7,628.9,364.77,636.19 iscore=0.23                  :                       ¤¥SYNSEM   LOC   CAT               ACC      2
+line=351 fonts=F0-7.2 bbox=172.2,621.58,206.5,628.75 iscore=0.00                                :           LEX-DTR
+line=352 fonts=F0-5.0,F0-7.2 bbox=292.44,611.74,359.97,618.91 iscore=0.00                       :                                              SUBCAT      2      3
+line=353 fonts=F2-9.0,F3-10.6 bbox=168.5,595.54,443.2,606.5 iscore=0.00                         :          ¢             stem-verb                                                         �
+line=354 fonts=F2-9.0 bbox=171.96,580.06,281.6,589.03 iscore=0.00                               :           passive-lr-derived-lexical-sign
+
+doc_id=15 page=10 block_id=10-5 bbox=133.8,350.1,477.56,568.78 label=btt 355 371
+line=355 fonts=F0-10.0,F2-10.0 bbox=133.8,558.82,477.51,568.78                             :Note  that (20) differs from (19) in that the lexical rule has a type (passive-lr-derived-
+line=356 fonts=F0-10.0,F2-10.0 bbox=133.8,546.94,477.47,556.9 iscore=0.13                  :lexical-sign). Therefore it is possible to capture generalizations over lexical rules. See
+line=357 fonts=F0-10.0 bbox=133.8,534.94,171.99,544.9 iscore=0.08                          :section 6.
+line=358 fonts=F0-10.0 bbox=148.68,523.06,367.93,533.02 iscore=0.09                        :    The output  this rule produces for (16) is shown in (21).
+line=359 fonts=F0-10.0,F2-10.0,F3-10.6 bbox=138.72,507.7,309.0,521.02 iscore=0.18          : (21)   repariert¡ (passive participle):    � �
+line=360 fonts=F0-5.0,F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=168.5,495.9,309.0,507.9 iscore=0.14:         ¡           SUBJ   1  ¦ NP[str] §   �
+line=361 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=168.5,482.86,309.0,494.5 iscore=0.57             :         ¡ HEAD      ACC    1                �
+line=362 fonts=F2-9.0,F3-10.6 bbox=168.5,466.0,309.0,478.39 iscore=0.60                    :         ¡           verb                    �
+line=363 fonts=F0-7.2,F3-10.6 bbox=172.2,453.4,211.0,464.0 iscore=0.00                     :          SUBCAT   ���
+line=364 fonts=F0-7.2,F3-10.6 bbox=172.2,440.5,211.0,451.1 iscore=1.00                     :          VCOMP    ���
+line=365 fonts=F2-9.0 bbox=171.96,428.02,182.92,436.99 iscore=0.50                         :          cat
+line=366 fonts=F0-10.0 bbox=133.8,413.62,477.56,423.58 iscore=0.00                         :The    passive   auxiliary   is  a   raising   verb   that  selects   a   passive   par-
+line=367 fonts=F0-10.0 bbox=133.8,401.74,477.53,411.7 iscore=0.08                          :ticiple  and   raises   both   its  subject  and    its  complements     (Kiss,  1992).
+line=368 fonts=F0-10.0,F2-10.0 bbox=138.72,389.74,272.98,399.7 iscore=0.00                 : (22)   werden  (passive auxiliary):
+line=369 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=168.5,373.9,364.3,385.03 iscore=0.00             :         ¡           SUBJ   1                              �
+line=370 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=168.5,361.9,364.3,375.2 iscore=0.67              :         ¡ HEAD      ACC    1 �                            �
+line=371 fonts=F2-9.0,F3-10.6 bbox=168.5,350.1,364.3,360.7 iscore=0.50                     :         ¡           verb                                  �
+
+doc_id=15 page=10 block_id=10-6 bbox=133.8,291.22,447.01,342.79 label=btb 372 375
+line=372 fonts=F0-5.0,F0-7.2 bbox=172.2,335.62,214.89,342.79                               :         SUBCAT    2
+line=373 fonts=F0-5.0,F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=168.5,320.0,361.7,331.1 iscore=0.08:         ¢VCOMP    ¦ V[pass-part, SUBJ  1 , SUBCAT  2 ] § �
+line=374 fonts=F2-9.0 bbox=171.96,305.38,182.92,314.35 iscore=0.09                         :         cat
+line=375 fonts=F0-10.0,F2-10.0 bbox=133.8,291.22,447.01,301.18 iscore=0.00                 :The result of an application of (19) to the entry for versuchen is shown in (23).
+
+doc_id=15 page=10 block_id=10-7 bbox=138.72,182.26,364.5,282.22 label=bb 376 382
+line=376 fonts=F0-10.0,F2-10.0,F3-10.6 bbox=138.72,268.6,364.5,282.22                        : (23)    versucht¡ (attraction version,  passive participle):   ���
+line=377 fonts=F0-5.0,F0-7.2 bbox=214.8,259.66,245.85,266.83 iscore=0.25                     :                       SUBJ    2
+line=378 fonts=F2-9.0,F3-10.6 bbox=168.5,244.7,364.5,256.8 iscore=0.25                       :          ¡            verb      %                              �
+line=379 fonts=F0-5.0,F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=168.5,226.7,364.5,243.3 iscore=0.20  :          ¡¡ SUBCAT   3  �  ¦ (PP[von-durch]   _{1} ^{)} §      ��
+line=380 fonts=F0-5.0,F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=172.2,204.7,350.24,222.55 iscore=0.18:           VCOMP     � V[inf , LEX+, SUBJ  ¦ NP[str]   _{1} § ,
+line=381 fonts=F0-5.0,F0-7.2,F0-9.0 bbox=225.96,196.42,337.66,205.39 iscore=0.00             :                          ACC   2  , SUBCAT   2      3  ]
+line=382 fonts=F2-9.0 bbox=171.96,182.26,182.92,191.23 iscore=0.00                           :           cat
+
+doc_id=15 page=11 block_id=11-1 bbox=133.8,619.42,477.53,717.1 label=ttttt 383 390
+line=383 fonts=F0-10.0,F0-8.0 bbox=133.8,707.14,477.53,717.1                        :The interesting thing about this result of the rule application is that the ACC value of the
+line=384 fonts=F0-10.0,F2-10.0 bbox=133.8,695.14,477.49,705.1 iscore=0.12           :verb that is embedded  under versucht is subtracted from the embedded  verb’s subcat
+line=385 fonts=F0-10.0 bbox=133.8,683.26,477.52,693.22 iscore=0.17                  :list and only the remainder of this list is raised. The accusative object of the verb that is
+line=386 fonts=F0-10.0,F2-10.0 bbox=133.8,671.26,477.49,681.22 iscore=0.06          :embedded  under  versucht is the subject of the passive participle. After the combination
+line=387 fonts=F0-10.0 bbox=133.8,659.26,257.41,669.22 iscore=0.23                  :of (23) with (16) one gets (24).
+line=388 fonts=F0-10.0,F2-10.0,F3-10.6 bbox=138.72,643.5,328.23,657.34 iscore=0.14  : (24)   zu¡ reparieren versucht (verbal complex��� ):
+line=389 fonts=F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=168.5,627.9,291.9,644.0 iscore=0.14:        ¡ HEAD     $ SUBJ  NP[str] §  �
+line=390 fonts=F2-9.0 bbox=214.56,619.42,230.49,628.39 iscore=0.25                  :                    verb
+
+doc_id=15 page=11 block_id=11-2 bbox=133.8,511.18,477.49,613.5 label=ttttb 391 398
+line=391 fonts=F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=172.2,602.4,278.3,613.5         :         SUBCAT   ¦ (PP[von-durch]) §
+line=392 fonts=F0-7.2,F3-10.6 bbox=172.2,587.2,211.0,597.8 iscore=0.50           :         VCOMP    ���
+line=393 fonts=F2-9.0 bbox=171.96,574.78,182.92,583.75 iscore=0.50               :         cat
+line=394 fonts=F0-10.0,F0-5.0,F2-10.0 bbox=133.8,559.06,477.42,569.02 iscore=0.00:The  object of zu reparieren ( ^{2} in (16)) is subtracted from the complete subcat list
+line=395 fonts=F0-10.0 bbox=133.8,547.06,477.49,557.02 iscore=0.12               :of the embedded  verb. Since the embedded   verb had only one element on  its subcat
+line=396 fonts=F0-10.0,F0-5.0,F2-10.0 bbox=133.8,535.18,477.46,545.14 iscore=0.15:list, the result ( ^{3} in (23)) is the empty list. The only element in the subcat list of zu
+line=397 fonts=F0-10.0,F2-10.0 bbox=133.8,523.18,339.67,533.14 iscore=0.05       :reparieren versucht is the optional PP for the agent.
+line=398 fonts=F0-10.0 bbox=148.68,511.18,424.33,521.14 iscore=0.00              :    The preliminary rule in (19) cannot account for the sentences in (25).
+
+doc_id=15 page=11 block_id=11-3 bbox=133.8,425.26,381.63,503.31 label=tttb 399 404
+line=399 tag=L span_id=15-19 lang_name=German lang_code=deu fonts=F0-10.0,F0-7.4 bbox=133.8,492.34,352.17,503.31            :(25)   a. Keine Zeitung   wird ihr zu lesen erlaubt.^{5}
+line=400 tag=G span_id=15-19 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,480.34,349.48,490.3 iscore=1.00        :          no    newspaper was  her to read  allowed
+line=401 tag=T span_id=15-19 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,465.94,353.48,475.9 iscore=0.38        :          ‘She is not allowed to read any newspapers.’
+line=402 tag=L span_id=15-20 lang_name=German lang_code=deu fonts=F0-10.0,F0-7.4 bbox=162.6,451.54,377.49,462.51 iscore=0.25:       b. Der Erfolg  wurde uns nicht auszukosten erlaubt.^{6}
+line=403 tag=G span_id=15-20 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,439.54,381.63,449.5 iscore=1.00        :          the success was   us  not   to.enjoy    permitted
+line=404 tag=T span_id=15-20 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,425.26,358.52,435.22 iscore=0.38       :          ‘We were not permitted to enjoy our success.’
+
+doc_id=15 page=11 block_id=11-4 bbox=133.8,342.3,443.84,416.26 label=ttbt 405 409
+line=405 fonts=F0-10.0,F2-10.0 bbox=133.8,406.3,443.84,416.26                       :The  reason is that erlauben is an object control verb that takes a dative object.
+line=406 fonts=F0-10.0,F2-10.0,F3-10.6 bbox=138.72,384.0,436.6,397.3 iscore=0.14    : (26)   erlauben¡ (entry for base and  zu infinitive):                         � �
+line=407 fonts=F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=168.5,372.1,436.6,384.3 iscore=0.12:         ¡            SUBJ  ¦ NP[str] §                                         �
+line=408 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=168.5,359.38,436.6,371.3 iscore=0.50      :         ¡ HEAD       ACC    2          �                                       �
+line=409 fonts=F2-9.0,F3-10.6 bbox=168.5,342.3,436.6,354.91 iscore=0.33             :         ¡           verb                                                       �
+
+doc_id=15 page=11 block_id=11-5 bbox=168.5,298.18,287.1,340.1 label=ttbbl 410 412
+line=410 fonts=F0-5.0,F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=172.2,329.0,274.41,340.1    :          SUBCAT    ¦ NP[dat] §  �   3
+line=411 fonts=F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=168.5,312.5,287.1,324.0 iscore=0.38:         ¢ VCOMP    ¦ V[inf , LEX+, SUBJ ¦
+line=412 fonts=F2-9.0 bbox=171.96,298.18,182.92,307.15 iscore=0.14                  :          cat
+
+doc_id=15 page=11 block_id=11-6 bbox=287.1,312.5,434.0,324.0 label=ttbbr 413 413
+line=413 fonts=F0-5.0,F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=287.1,312.5,434.0,324.0:                                             ¦ NP[str]  § , ACC    2 , SUBCAT    3  ] § �
+
+doc_id=15 page=11 block_id=11-7 bbox=133.8,253.06,477.51,286.9 label=tb 414 416
+line=414 fonts=F0-10.0,F2-10.0 bbox=133.8,276.94,477.45,286.9     :Since the dative object is at the first position in the subcat list of erlauben, a possibly
+line=415 fonts=F0-10.0 bbox=133.8,265.06,477.51,275.02 iscore=0.29:raised object of the embedded verb cannot be subtracted from the beginning of this list.
+line=416 fonts=F0-10.0 bbox=133.8,253.06,285.97,263.02 iscore=0.07:The rule in (19) is generalized to (27).
+
+doc_id=15 page=11 block_id=11-8 bbox=140.28,169.18,477.52,197.36 label=b 417 419
+line=417 fonts=F0-6.0,F0-8.0,F2-8.0 bbox=140.28,188.38,477.52,197.36     :  ^{5}Stefan Zweig. Marie Antoinette. Leipzig: Insel-Verlag. 1932, p. 515, quoted from (Bech, 1955, p. 309).
+line=418 fonts=F0-8.0 bbox=143.76,179.02,391.22,186.99 iscore=0.20       :   That this is an instance of remote passive was noted by Askedal (1988, p. 13).
+line=419 fonts=F0-6.0,F0-8.0 bbox=140.28,169.18,217.89,178.04 iscore=0.00:  ^{6}(Haider, 1986b, p. 110)
+
+doc_id=15 page=12 block_id=12-1 bbox=168.5,673.3,277.5,727.6 label=tttltt 420 422
+line=420 fonts=F0-7.2,F3-10.5,F3-10.6 bbox=168.5,696.7,269.06,727.6:          ¡¡¡¡                ¤£¤¥¤ HEAD
+line=421 fonts=F0-7.2 bbox=172.2,690.58,239.46,697.75 iscore=0.00  :           SYNSEM   LOC  CAT
+line=422 fonts=F0-7.2 bbox=247.68,673.3,277.5,680.47 iscore=0.00   :                               SUBCAT
+
+doc_id=15 page=12 block_id=12-2 bbox=168.5,647.1,244.3,665.35 label=tttltb 423 423
+line=423 fonts=F2-9.0,F3-10.5,F3-10.6 bbox=168.5,647.1,244.3,665.35:            ¡ stem-verb               ¤£
+
+doc_id=15 page=12 block_id=12-3 bbox=168.5,605.7,277.5,646.0 label=tttlbt 424 426
+line=424 fonts=F0-7.2,F3-10.6 bbox=168.5,633.34,269.06,646.0          :       ¡                HEAD
+line=425 fonts=F0-7.2 bbox=172.2,623.26,239.46,630.43 iscore=0.00     :        SYNSEM  LOC CAT
+line=426 fonts=F0-7.2,F3-10.6 bbox=168.5,605.7,277.5,616.3 iscore=0.00:       ¢                SUBCAT
+
+doc_id=15 page=12 block_id=12-4 bbox=171.96,589.9,213.68,598.87 label=tttlbb 427 427
+line=427 fonts=F2-9.0 bbox=171.96,589.9,213.68,598.87:           lexical-sign
+
+doc_id=15 page=12 block_id=12-5 bbox=285.5,672.9,402.0,733.1 label=tttrt 428 430
+line=428 fonts=F0-5.0,F0-7.2,F0-9.0,F2-7.0,F2-9.0,F3-10.6 bbox=285.5,701.1,395.0,733.1:                                                                          ¥£ SUBJ      ¦  NP[str]          _{1} ref  §  ¨� ¨ ©_{©}© � ���
+line=429 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=288.72,684.9,386.5,697.63 iscore=0.18       :                                                                           ACC           2                                 �
+line=430 fonts=F0-5.0,F3-10.6 bbox=287.88,672.9,402.0,683.6 iscore=0.33               :                                                                           3                                                  �    !
+
+doc_id=15 page=12 block_id=12-6 bbox=288.0,626.0,433.2,658.0 label=tttrbt 431 433
+line=431 fonts=F3-10.6 bbox=424.7,647.0,433.2,658.0                          :                                                                                      ¨© ���
+line=432 fonts=F0-7.2,F2-9.0 bbox=288.0,639.58,364.85,648.55 iscore=0.00     :                                             VFORM     passive-part
+line=433 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=288.0,626.0,364.9,636.6 iscore=0.33:                                             SUBJ        2          %
+
+doc_id=15 page=12 block_id=12-7 bbox=283.4,605.7,430.6,619.51 label=tttrbb 434 434
+line=434 fonts=F0-5.0,F0-9.0,F2-9.0,F3-10.6 bbox=283.4,605.7,430.6,619.51:                                                       &  3  '    2  ()�  ¦  (PP[von-durch]         _{1} ^{)} § �
+
+doc_id=15 page=12 block_id=12-8 bbox=133.8,545.38,477.53,580.0 label=ttbt 435 437
+line=435 fonts=F0-10.0,F2-10.0,F3-10.6 bbox=133.8,569.38,477.51,580.0     :The  ‘* ’ in A * B + C stands for a relation were C is equal to A, iff B is the empty list.
+line=436 fonts=F0-10.0,F2-10.0 bbox=133.8,557.38,477.53,567.34 iscore=0.36:Otherwise  C is the list that deletes the first part in A that is identical to B. (28) lists the
+line=437 fonts=F0-10.0 bbox=133.8,545.38,327.45,555.34 iscore=0.10        :cases that are relevant for the present discussion.
+
+doc_id=15 page=12 block_id=12-9 bbox=138.72,526.66,267.0,537.6 label=ttbbt 438 438
+line=438 fonts=F0-10.0,F0-9.0,F3-10.6 bbox=138.72,526.66,267.0,537.6:  (28)     � a, b, c �   *,���  =  � a, b, c  �
+
+doc_id=15 page=12 block_id=12-10 bbox=166.3,507.1,268.2,518.1 label=ttbbb 439 439
+line=439 fonts=F0-10.0,F0-9.0,F3-10.6 bbox=166.3,507.1,268.2,518.1:               � a,  b,  c  �    *    � a  �   =    � b,  c  �
+
+doc_id=15 page=12 block_id=12-11 bbox=166.3,487.4,268.2,498.4 label=tbt 440 440
+line=440 fonts=F0-10.0,F0-9.0,F3-10.6 bbox=166.3,487.4,268.2,498.4:               � a,  b,  c  �    *    � b   �   =   � a,  c  �
+
+doc_id=15 page=12 block_id=12-12 bbox=138.72,390.7,450.4,477.58 label=tbb 441 446
+line=441 fonts=F0-10.0,F2-10.0,F3-10.6 bbox=138.72,464.3,450.4,477.58                        : (29)    erlaubt¡ (attraction  version,  passive  participle):                             ���
+line=442 fonts=F0-5.0,F0-7.2 bbox=214.8,454.66,245.85,461.83 iscore=0.00                     :                       SUBJ     2
+line=443 fonts=F2-9.0,F3-10.6 bbox=168.5,440.4,450.4,451.8 iscore=0.25                       :          ¡            verb       %                                                         �
+line=444 fonts=F0-5.0,F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=172.2,422.02,406.3,434.71 iscore=0.00:           SUBCAT    &�& ¦ NP[dat] § �   3 (-'  2  (�� ¦ (PP[von-durch]    _{1} ^{)} §
+line=445 fonts=F0-5.0,F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=168.5,404.7,447.8,417.55 iscore=0.05 :          ¢ VCOMP     ¦ V[inf , LEX+, SUBJ  ¦ NP[str]   _{1} § , ACC  2 , SUBCAT    3  ] § �
+line=446 fonts=F2-9.0 bbox=171.96,390.7,182.92,399.67 iscore=0.05                            :           cat
+
+doc_id=15 page=12 block_id=12-13 bbox=133.8,332.14,477.52,378.5 label=btt 447 450
+line=447 fonts=F0-10.0,F3-10.6 bbox=133.8,367.9,477.52,378.5              :In the rule (27) the subcat list of the input is not split by � as in (19), but instead * is
+line=448 fonts=F0-10.0,F0-8.0 bbox=133.8,356.02,477.5,365.98 iscore=0.27  :used in the output to subtract the ACC value, possibly coming from an embedded sign.
+line=449 fonts=F0-10.0,F2-10.0 bbox=133.8,344.02,477.52,353.98 iscore=0.07:The entry for auszukosten has the same syntactic features as the one for zu reparieren
+line=450 fonts=F0-10.0 bbox=133.8,332.14,440.77,342.1 iscore=0.20         :which was  given in (16). The combination of (29) with this entry yields (30).
+
+doc_id=15 page=12 block_id=12-14 bbox=138.72,278.1,399.99,321.82 label=btbt 451 453
+line=451 fonts=F0-10.0,F2-10.0,F3-10.6 bbox=138.72,308.1,399.99,321.82              : (30)    auszukosten¡  erlaubt (attraction version, passive��� participle):
+line=452 fonts=F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=168.5,292.4,340.9,308.5 iscore=0.14:          ¡ HEAD     $ SUBJ    NP[str] §                 �
+line=453 fonts=F2-9.0,F3-10.6 bbox=168.5,278.1,340.9,292.87 iscore=0.43             :          ¡           verb                               �
+
+doc_id=15 page=12 block_id=12-15 bbox=171.96,239.38,333.5,278.1 label=btbb 454 456
+line=454 fonts=F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=172.2,266.9,333.5,278.1:           SUBCAT   ¦ NP[dat]  § �  ¦ (PP[von-durch])  §
+line=455 fonts=F0-7.2,F3-10.6 bbox=172.2,251.8,211.0,262.4 iscore=0.25  :           VCOMP    ���
+line=456 fonts=F2-9.0 bbox=171.96,239.38,182.92,248.35 iscore=0.50      :           cat
+
+doc_id=15 page=12 block_id=12-16 bbox=133.8,169.18,477.53,226.9 label=bb 457 461
+line=457 fonts=F0-10.0 bbox=148.68,216.94,477.49,226.9                   :    This is exactly what is needed to analyze (25). Note that the rule in (27) does not
+line=458 fonts=F0-10.0 bbox=133.8,205.06,477.45,215.02 iscore=0.12       :apply to ergative verbs although ergative verbs are unifyable with the left hand side
+line=459 fonts=F0-10.0 bbox=133.8,193.06,477.53,203.02 iscore=0.24       :of the rule. The rule does not produce a result, since the subtraction in the right hand
+line=460 fonts=F0-10.0,F3-10.6 bbox=133.8,181.06,477.46,191.7 iscore=0.30:side of the rule fails. This is even clearer if (27) is given in DLR notation: * is just a
+line=461 fonts=F0-10.0 bbox=133.8,169.18,305.24,179.14 iscore=0.10       :constraint attached to a feature description.
+
+doc_id=15 page=13 block_id=13-1 bbox=133.8,695.14,477.46,717.1 label=t 462 463
+line=462 fonts=F0-10.0 bbox=148.68,707.14,477.46,717.1          :   After having shown  how  a lexical-rule-based account works, I will now discuss
+line=463 fonts=F0-10.0 bbox=133.8,695.14,316.7,705.1 iscore=0.00:some putative arguments against lexical rules.
+
+doc_id=15 page=13 block_id=13-2 bbox=133.8,662.26,236.96,676.61 label=btt 464 464
+line=464 fonts=F1-14.4 bbox=133.8,662.26,236.96,676.61:4  Binding Data
+
+doc_id=15 page=13 block_id=13-3 bbox=133.8,628.06,477.5,649.9 label=btbt 465 466
+line=465 fonts=F0-10.0 bbox=133.8,639.94,477.5,649.9              :Binding principles in HPSG  are formulated with reference to the relation (local) o-
+line=466 fonts=F0-10.0 bbox=133.8,628.06,440.32,638.02 iscore=0.38:command   (Pollard and Sag, 1994, Chapter 6). The definitions are as follows:
+
+doc_id=15 page=13 block_id=13-4 bbox=133.8,575.62,477.48,616.3 label=btbbt 467 469
+line=467 fonts=F0-10.0,F0-8.0,F1-10.0,F2-10.0 bbox=133.8,606.34,477.48,616.3:Def. 1 Let Y and Z be synsem objects with distinct LOCAL values, Y referential. Then
+line=468 fonts=F2-10.0 bbox=133.8,594.34,375.35,604.3 iscore=0.25           :Y locally o-commands Z just in case Y is less oblique than Z.
+line=469 fonts=F0-10.0 bbox=133.8,575.62,382.51,585.58 iscore=0.15          :Obliqueness is defined in reference to the following hierarchy:
+
+doc_id=15 page=13 block_id=13-5 bbox=133.8,543.82,455.66,565.0 label=btbbb 470 471
+line=470 fonts=F0-8.0,F3-10.6 bbox=133.8,554.38,449.98,565.0     :SUBJECT .0/ DIRECT .0/ INDIRECT .0/ OBLIQUES .1/ GENITIVES .1/ OBJECTS OF
+line=471 fonts=F0-8.0 bbox=185.4,543.82,455.66,551.79 iscore=0.30:            OBJECT     OBJECT                                 COMPARISON
+
+doc_id=15 page=13 block_id=13-6 bbox=133.8,487.9,477.48,528.58 label=bbt 472 474
+line=472 fonts=F0-10.0,F0-8.0,F1-10.0,F2-10.0 bbox=133.8,518.62,477.48,528.58:Def. 2 Let Y and Z be synsem objects with distinct LOCAL values, Y referential. Then
+line=473 fonts=F2-10.0 bbox=133.8,506.62,406.07,516.58 iscore=0.31           :Y o-commands  Z just in case Y locally o-commands X dominating Z.
+line=474 fonts=F0-10.0 bbox=133.8,487.9,368.18,497.86 iscore=0.17            :Using these definitions what ‘binds’ means can be defined.
+
+doc_id=15 page=13 block_id=13-7 bbox=133.8,435.46,477.5,476.14 label=bbbt 475 477
+line=475 fonts=F1-10.0,F2-10.0 bbox=133.8,466.18,477.5,476.14      :Def. 3 Y (locally) o-binds Z just in case Y and Z are coindexed and  Y (locally) o-
+line=476 fonts=F2-10.0 bbox=133.8,454.18,444.93,464.14 iscore=0.22 :commands   Z. If Z is not (locally) o-bound, then it is said to be (locally) o-free.
+line=477 fonts=F0-10.0 bbox=148.68,435.46,299.44,445.42 iscore=0.07:    The binding principles are as follows:
+
+doc_id=15 page=13 block_id=13-8 bbox=133.8,385.3,421.24,425.62 label=bbbbt 478 480
+line=478 fonts=F1-10.0 bbox=133.8,415.66,285.95,425.62                    :Principle 1 (HPSG Binding Theory)
+line=479 fonts=F0-10.0,F1-10.0 bbox=133.8,403.66,421.24,413.62 iscore=0.40:Principle A Alocallyo-commandedanaphormustbelocallyo-bound.
+line=480 fonts=F0-10.0,F1-10.0 bbox=133.8,385.3,329.97,395.26 iscore=1.00 :Principle B Apersonalpronounmustbeo-free.
+
+doc_id=15 page=13 block_id=13-9 bbox=133.8,288.22,477.53,376.78 label=bbbbbt 481 487
+line=481 fonts=F0-10.0,F1-10.0 bbox=133.8,366.82,309.21,376.78     :Principle C Anonpronounmustbeo-free.
+line=482 fonts=F0-10.0 bbox=148.68,347.98,477.5,357.94 iscore=0.00 :   In Müller (1999, Chapter 20) I have shown that the HPSG Binding Theory  as it
+line=483 fonts=F0-10.0 bbox=133.8,336.1,477.52,346.06 iscore=0.13  :is has some fundamental problems. Evidence from binding data should therefore be
+line=484 fonts=F0-10.0 bbox=133.8,324.1,477.53,334.06 iscore=0.27  :treated with care: In the absence of a working Binding Theory, binding data has the
+line=485 fonts=F0-10.0 bbox=133.8,312.22,264.61,322.18 iscore=0.07 :same status as coordination data.
+line=486 fonts=F0-10.0 bbox=148.68,300.22,477.48,310.18 iscore=0.07:   In what follows I will nevertheless discuss some binding data that was used by
+line=487 fonts=F0-10.0 bbox=133.8,288.22,416.67,298.18 iscore=0.00 :Kathol (1994, p. 252) to argue for an object-to-subject-raising analysis.
+
+doc_id=15 page=13 block_id=13-10 bbox=138.72,245.62,296.85,281.5 label=bbbbbbt 488 490
+line=488 tag=L span_id=15-21 lang_name=German lang_code=deu fonts=F0-10.0 bbox=138.72,271.54,296.85,281.5             : (31)   Otto wird von sich selbst geliebt.
+line=489 tag=G span_id=15-21 lang_name=German lang_code=deu fonts=F0-10.0 bbox=165.36,259.66,289.24,269.62 iscore=0.83:        Otto is   by  self        loved
+line=490 tag=T span_id=15-21 lang_name=German lang_code=deu fonts=F0-10.0 bbox=165.36,245.62,247.16,255.58 iscore=0.40:        ‘Otto loves himself.’
+
+doc_id=15 page=13 block_id=13-11 bbox=133.8,169.18,477.53,238.9 label=bbbbbbb 491 496
+line=491 fonts=F0-10.0 bbox=133.8,228.94,477.45,238.9                     :He  assumes that the von-PP is an argument  of the auxiliary. Since in an object-to-
+line=492 fonts=F0-10.0 bbox=133.8,216.94,477.45,226.9 iscore=0.12         :subject raising analysis the subcat list of the embedded verb is still present, it is also
+line=493 fonts=F0-10.0,F2-10.0 bbox=133.8,205.06,477.53,215.02 iscore=0.12:relevant for Binding Theory: The  logical subject of geliebt locally o-commands the
+line=494 fonts=F0-10.0,F2-10.0 bbox=133.8,193.06,477.43,203.02 iscore=0.13:object (Otto). The logical subject is realized by the von-PP which is an oblique com-
+line=495 fonts=F0-10.0 bbox=133.8,181.06,477.5,191.02 iscore=0.25         :plement of the matrix verb. The subject of the auxiliary is the object of the embedded
+line=496 fonts=F0-10.0 bbox=133.8,169.18,153.69,179.14 iscore=0.06        :verb.
+
+doc_id=15 page=14 block_id=14-1 bbox=133.8,596.5,477.52,717.1 label=tt 497 505
+line=497 fonts=F0-10.0,F2-7.4 bbox=133.8,705.7,245.53,717.1                                                                  :(32)   a. geliebt: NP_{i}, NP_{j}
+line=498 fonts=F0-10.0,F2-7.4 bbox=162.6,691.54,264.73,702.94 iscore=0.60                                                    :       b. wird geliebt:    NP_{j}, PP_{i}
+line=499 fonts=F0-10.0 bbox=133.8,675.7,477.48,685.66 iscore=0.00                                                            :So, since all phrases locally o-command each other, we have a contradiction. Kathol
+line=500 fonts=F0-10.0 bbox=133.8,663.7,477.46,673.66 iscore=0.12                                                            :claims that this is the reason for (31) being ungrammatical. I do not agree with his
+line=501 fonts=F0-10.0 bbox=133.8,651.82,477.52,661.78 iscore=0.25                                                           :judgement, since (31) can be uttered in an appropriate context. And (33) indeed is an
+line=502 fonts=F0-10.0 bbox=133.8,639.82,286.22,649.78 iscore=0.13                                                           :instance of an analogous construction.
+line=503 tag=L span_id=15-22 lang_name=German lang_code=deu fonts=F0-10.0,F0-7.4 bbox=138.72,622.54,437.84,633.51 iscore=0.08: (33)  Das  schon,  aber ich will mich von  mir besser verstanden fühlen.^{7}
+line=504 tag=G span_id=15-22 lang_name=German lang_code=deu fonts=F0-10.0 bbox=165.36,610.54,420.89,620.5 iscore=1.00        :       that already but  I   want me   from me  better understood feel
+line=505 tag=T span_id=15-22 lang_name=German lang_code=deu fonts=F0-10.0 bbox=165.36,596.5,367.28,606.46 iscore=0.09        :       ‘Yes, but I want to feel I understand myself better.’
+
+doc_id=15 page=14 block_id=14-2 bbox=133.8,555.34,477.51,589.18 label=tb 506 508
+line=506 fonts=F0-10.0 bbox=133.8,579.22,477.51,589.18            :This means  that Kathol’s example actually seems to support the lexical rule analysis.
+line=507 fonts=F0-10.0 bbox=133.8,567.22,477.43,577.18 iscore=0.19:To analyze the phrase that expresses the logical subject as an adjunct is not a solution
+line=508 fonts=F0-10.0 bbox=133.8,555.34,444.89,565.3 iscore=0.25 :since in German adjuncts are not excempt from Binding Theory as in English.
+
+doc_id=15 page=14 block_id=14-3 bbox=133.8,522.22,426.13,536.57 label=bt 509 509
+line=509 fonts=F1-14.4 bbox=133.8,522.22,426.13,536.57:5  The Accessibility of the Argument Structure
+
+doc_id=15 page=14 block_id=14-4 bbox=133.8,476.02,477.46,509.86 label=bbt 510 512
+line=510 fonts=F0-10.0 bbox=133.8,499.9,477.43,509.86             :The sentences in (34), which are discussed in (Müller, Submitted, Chapter 5) in more
+line=511 fonts=F0-10.0 bbox=133.8,487.9,477.46,497.86 iscore=0.29 :detail, show that depictive predicates can refer to the logical subject of a passivized
+line=512 fonts=F0-10.0 bbox=133.8,476.02,309.33,485.98 iscore=0.07:predicate even if this is not realized by a PP.
+
+doc_id=15 page=14 block_id=14-5 bbox=133.8,392.38,306.67,468.7 label=bbbt 513 518
+line=513 tag=L span_id=15-23 lang_name=German lang_code=deu fonts=F0-10.0 bbox=133.8,458.74,303.81,468.7             :(34)  a.  Das  Buch wurde nackt gelesen.
+line=514 tag=G span_id=15-23 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,446.74,288.58,456.7 iscore=1.00 :          the  book was   naked read
+line=515 tag=T span_id=15-23 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,432.7,286.63,442.66 iscore=0.60 :          ‘The book was read naked.’
+line=516 tag=L span_id=15-24 lang_name=German lang_code=deu fonts=F0-10.0 bbox=162.6,418.54,290.8,428.5 iscore=0.43  :      b.  Das Buch ist nackt zu lesen.
+line=517 tag=G span_id=15-24 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,406.54,284.98,416.5 iscore=1.00 :          the book is  naked to read
+line=518 tag=T span_id=15-24 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,392.38,306.67,402.34 iscore=0.43:          ‘The book has to be read naked.’
+
+doc_id=15 page=14 block_id=14-6 bbox=133.8,267.58,477.53,385.06 label=bbbbt 519 528
+line=519 fonts=F0-10.0 bbox=133.8,375.1,477.51,385.06             :Subjects, objects, and other complements are possible antecedents for depictive predi-
+line=520 fonts=F0-10.0 bbox=133.8,363.22,477.5,373.18 iscore=0.21 :cates. Since these elements may be non-overt, they must be represented at some place
+line=521 fonts=F0-10.0 bbox=133.8,351.22,477.43,361.18 iscore=0.36:where  they can be accessed by the depictive predicate. This suggests that the com-
+line=522 fonts=F0-10.0 bbox=133.8,339.34,477.43,349.3 iscore=0.14 :plete argument structure is still present in syntax. Hence an object-to-subject-raising
+line=523 fonts=F0-10.0 bbox=133.8,327.34,477.53,337.3 iscore=0.13 :analysis seems to be the better alternative here, as all dependents are represented in the
+line=524 fonts=F0-10.0 bbox=133.8,315.34,477.53,325.3 iscore=0.25 :lexical entry for the participle. In a lexical rule-based approach one has to use a feature
+line=525 fonts=F0-10.0 bbox=133.8,303.46,477.43,313.42 iscore=0.12:that contains the complete argument structure or analyze adjuncts as complements to
+line=526 fonts=F0-10.0 bbox=133.8,291.46,477.49,301.42 iscore=0.21:allow reference to the logical subject of a passive participle. However, the advantage of
+line=527 fonts=F0-10.0 bbox=133.8,279.46,477.46,289.42 iscore=0.21:the object-to-subject-raising analysis is only an apparent one. Consider examples like
+line=528 fonts=F0-10.0 bbox=133.8,267.58,186.6,277.54 iscore=0.09 :those in (35).
+
+doc_id=15 page=14 block_id=14-7 bbox=133.8,169.18,456.43,260.26 label=bbbbb 529 535
+line=529 tag=L span_id=15-25 lang_name=German lang_code=deu fonts=F0-10.0 bbox=133.8,250.3,425.17,260.26             :(35)   a. Jedes nackt geputzte Fenster muß  extra      bezahlt werden.
+line=530 tag=G span_id=15-25 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,238.3,405.53,248.26 iscore=1.00 :          every naked cleaned  window  must separately payed   get
+line=531 tag=T span_id=15-25 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,224.26,456.43,234.22 iscore=0.25:          ‘Every window  that has been cleaned naked has to be paid separately.’
+line=532 tag=L span_id=15-26 lang_name=German lang_code=deu fonts=F0-10.0 bbox=162.6,210.1,283.59,220.06 iscore=0.08 :       b. das nackt zu lesende Buch
+line=533 tag=G span_id=15-26 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,198.1,282.48,208.06 iscore=1.00 :          the naked to read    book
+line=534 tag=T span_id=15-26 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,184.06,312.24,194.02 iscore=0.38:          ‘the book that is to be read naked’
+line=535 fonts=F0-6.0,F0-8.0 bbox=140.28,169.18,269.47,178.04 iscore=0.00                                            :  ^{7}Helge Schneider, Spiegel, 30/99, p.176
+
+doc_id=15 page=15 block_id=15-1 bbox=133.8,599.5,477.53,717.1 label=tt 536 545
+line=536 fonts=F0-10.0 bbox=133.8,707.14,477.49,717.1                           :The adjectival forms are derived by a lexical rule or by a head affix combination. The
+line=537 fonts=F0-10.0,F0-8.0 bbox=133.8,695.14,477.44,705.1 iscore=0.18        :result is a lexical entry that has SUBJ and subcat values that are different from the input
+line=538 fonts=F0-10.0 bbox=133.8,683.26,477.5,693.22 iscore=0.06               :of the rule or from the embedded  verbal stem, respectively. The logical subject of
+line=539 fonts=F0-10.0,F0-8.0 bbox=133.8,671.26,477.43,681.22 iscore=0.18       :the verb stem is neither represented in the SUBJ, nor in the subcat list in the resulting
+line=540 fonts=F0-10.0 bbox=133.8,659.26,477.53,669.22 iscore=0.06              :sign. This means  that the object-to-subject-raising analysis also has to represent the
+line=541 fonts=F0-10.0,F0-7.4,F0-8.0 bbox=133.8,647.38,477.48,658.35 iscore=0.17:argument  structure separately from valence and SUBJ representations.^{8} Such a separate
+line=542 fonts=F0-10.0 bbox=133.8,635.38,477.53,645.34 iscore=0.18              :representation was suggested independently  for various reasons. The feature for the
+line=543 fonts=F0-10.0,F0-8.0 bbox=133.8,623.5,365.73,633.46 iscore=0.27        :representation of the argument structure is called ARG-ST.
+line=544 fonts=F0-10.0 bbox=148.68,611.5,477.49,621.46 iscore=0.08              :    So the possibility of depictive predicates to refer to non-overt material does not
+line=545 fonts=F0-10.0 bbox=133.8,599.5,284.19,609.46 iscore=0.08               :provide arguments for either analysis.
+
+doc_id=15 page=15 block_id=15-2 bbox=133.8,565.9,251.71,580.25 label=tbt 546 546
+line=546 fonts=F1-14.4 bbox=133.8,565.9,251.71,580.25:6  Generalizations
+
+doc_id=15 page=15 block_id=15-3 bbox=133.8,531.7,477.5,553.66 label=tbbt 547 548
+line=547 fonts=F0-10.0 bbox=133.8,543.7,477.5,553.66             :In auxiliary based approaches  to passive, the generalizations about passive are repre-
+line=548 fonts=F0-10.0 bbox=133.8,531.7,462.79,541.66 iscore=0.14:sented in the part of the type hierarchy that describes lexical entries for auxiliaries.
+
+doc_id=15 page=15 block_id=15-4 bbox=138.72,485.3,403.8,522.7 label=tbbbtt 549 551
+line=549 fonts=F0-10.0,F3-10.6 bbox=138.72,509.2,403.8,522.7                  : (36)    Supertype¡ of all passive auxiliaries:                          ���
+line=550 fonts=F0-5.0,F0-7.2 bbox=212.4,500.14,240.69,507.31 iscore=0.00      :                     ACC    1
+line=551 fonts=F0-7.2,F2-9.0,F3-10.6 bbox=168.5,485.3,403.8,501.07 iscore=0.20:         ¡ HEAD      verb     %                                          �
+
+doc_id=15 page=15 block_id=15-5 bbox=168.5,425.1,401.2,480.1 label=tbbbtb 552 554
+line=552 fonts=F0-5.0,F0-7.2,F0-9.0,F2-7.0,F2-9.0,F3-10.6 bbox=168.5,454.6,401.2,480.1:          ¢ VCOMP   � V[non-finSUBCAT, LEX2 +,, VCOMPSUBJ ¦ ���NP] [str]_{ref} § , ACC 1 , � �
+line=553 fonts=F2-9.0 bbox=171.96,440.86,182.92,449.83 iscore=0.06                    :           cat
+line=554 fonts=F0-10.0,F0-5.0,F3-10.6 bbox=190.68,425.1,233.37,435.7 iscore=0.00      :                =   2  *   1
+
+doc_id=15 page=15 block_id=15-6 bbox=133.8,321.34,477.59,415.06 label=tbbbbt 555 562
+line=555 fonts=F0-10.0 bbox=133.8,405.1,477.59,415.06                      :The type in (36) contains the generalization that all passive auxiliaries form a verbal
+line=556 fonts=F0-10.0,F0-8.0 bbox=133.8,393.1,477.5,403.06 iscore=0.25    :complex  with the verb they embed. Whatever the value of ACC is has to be subtractable
+line=557 fonts=F0-10.0 bbox=133.8,381.1,477.47,391.06 iscore=0.29          :from the subcat list of the embedded verb. In this general type, the result of the sub-
+line=558 fonts=F0-10.0 bbox=133.8,369.22,477.52,379.18 iscore=0.12         :traction is not coreferent with any other value in the description. Therefore the tag is
+line=559 fonts=F0-10.0 bbox=133.8,357.22,160.77,367.18 iscore=0.07         :empty.
+line=560 fonts=F0-10.0,F2-10.0 bbox=148.68,345.22,477.55,355.18 iscore=0.00:    The type in (37) is the supertype of the auxiliaries for the normal werden passive,
+line=561 fonts=F0-10.0,F2-10.0 bbox=133.8,333.34,477.53,343.3 iscore=0.20  :the stative passive formed with sein, the modal infinitive formed with sein and the
+line=562 fonts=F0-10.0,F2-10.0 bbox=133.8,321.34,192.67,331.3 iscore=0.07  :lassen passive.
+
+doc_id=15 page=15 block_id=15-7 bbox=133.8,220.78,462.25,312.34 label=tbbbbb 563 568
+line=563 fonts=F0-10.0,F3-10.6 bbox=138.72,299.2,408.11,312.34                        : (37)   Supertype¡ of all passive auxiliaries except the dative passive��� :
+line=564 fonts=F0-5.0,F0-7.2,F0-9.0,F3-10.6 bbox=172.2,286.66,297.7,299.23 iscore=0.00:          SUBCAT       �   2 �3¦  (PP  _{3} ) §
+line=565 fonts=F0-5.0,F0-7.2,F0-9.0,F3-10.6 bbox=168.5,269.4,384.6,282.19 iscore=0.18 :         ¢ VCOMP   ¦ V[SUBJ  ¦ NP  _{3} § , ACC 1 , SUBCAT  4 ] § �
+line=566 fonts=F2-9.0 bbox=171.96,255.34,182.92,264.31 iscore=0.06                    :          cat
+line=567 fonts=F0-10.0,F0-5.0,F3-10.6 bbox=180.12,240.8,233.37,251.4 iscore=0.00      :            2  =  4  *   1
+line=568 fonts=F0-10.0 bbox=133.8,220.78,462.25,230.74 iscore=0.08                    :Together  with the constraints that are inherited from (36), this corresponds to (38).
+
+doc_id=15 page=15 block_id=15-8 bbox=140.28,169.18,477.5,187.52 label=b 569 570
+line=569 fonts=F0-6.0,F0-8.0 bbox=140.28,178.66,477.5,187.52     :  ^{8}This is not true for the analysis that uses the designated argument. But this analysis was dismissed because
+line=570 fonts=F0-8.0 bbox=143.76,169.18,349.3,177.15 iscore=0.06:   of problems with modal infinitives and incoherent constructions.
+
+doc_id=15 page=16 block_id=16-1 bbox=138.72,602.98,499.66,717.1 label=tt 571 578
+line=571 fonts=F0-10.0,F3-10.6 bbox=138.72,703.5,499.66,717.1                                : (38)   Supertype¡  of all passive auxiliaries except the dative passive +��� inherited constraints:
+line=572 fonts=F0-5.0,F0-7.2 bbox=214.8,694.54,243.21,701.71 iscore=0.00                     :                      ACC    1
+line=573 fonts=F0-7.2,F2-9.0,F3-10.6 bbox=168.5,679.6,411.0,695.47 iscore=0.20               :         ¡ HEAD       verb     %                                          �
+line=574 fonts=F0-5.0,F0-7.2,F0-9.0,F3-10.6 bbox=168.5,661.6,411.0,678.2 iscore=0.27         :         ¡¡ SUBCAT      �   2 �  ¦ (PP  _{3} ^{)} §                       ��
+line=575 fonts=F0-5.0,F0-7.2,F0-9.0,F2-9.0,F3-10.6 bbox=172.2,639.5,399.08,657.43 iscore=0.15:          VCOMP     � V[non-fin, LEX+, SUBJ  ¦ NP[str]  _{3} § , ACC 1 ,
+line=576 fonts=F0-5.0,F0-7.2,F0-9.0 bbox=225.96,631.3,318.1,640.27 iscore=0.00               :                         SUBCAT    4 , VCOMP     ]
+line=577 fonts=F2-9.0 bbox=171.96,617.14,182.92,626.11 iscore=0.00                           :          cat
+line=578 fonts=F0-10.0,F0-5.0,F3-10.6 bbox=180.12,602.98,233.37,613.6 iscore=0.00            :            2  =   4  *   1
+
+doc_id=15 page=16 block_id=16-2 bbox=133.8,432.34,477.58,592.78 label=tb 579 591
+line=579 fonts=F0-10.0 bbox=133.8,582.82,477.52,592.78                            :This type has a subtype for the first three variants of passive where the empty tag is
+line=580 fonts=F0-10.0,F0-8.0 bbox=133.8,570.82,477.49,580.78 iscore=0.18         :instantiated as the empty list and the SUBJ value is identical to the ACC value. The
+line=581 fonts=F0-10.0 bbox=133.8,558.94,477.56,568.9 iscore=0.38                 :subtypes of this type are the types that describe the actual lexical entries for the var-
+line=582 fonts=F0-10.0,F0-8.0 bbox=133.8,546.94,477.5,556.9 iscore=0.25           :ious passive forms. These subtypes only  add information about the VFORM   value of
+line=583 fonts=F0-10.0,F0-8.0 bbox=133.8,535.06,477.53,545.02 iscore=0.08         :the embedded  verbal complex, the PFORM   value of the preposition that expresses the
+line=584 fonts=F0-10.0 bbox=133.8,523.06,477.58,533.02 iscore=0.07                :logical subject, and information about the semantics in the case of the modal infinitive
+line=585 fonts=F0-10.0,F2-10.0 bbox=133.8,511.06,477.53,521.02 iscore=0.19        :construction. In the case of the lassen passive, the empty tag in (38) corresponds to the
+line=586 fonts=F0-10.0,F0-8.0,F2-10.0 bbox=134.04,499.18,285.95,509.14 iscore=0.06:ACC  value. lassen has its own subject.
+line=587 fonts=F0-10.0 bbox=148.68,487.18,477.43,497.14 iscore=0.17               :    In the lexical rule-based approach, generalizations can be captured in a similar
+line=588 fonts=F0-10.0 bbox=133.8,475.18,477.46,485.14 iscore=0.13                :way.  The generalizations are not expressed in a hierarchy for lexical entries, but in a
+line=589 fonts=F0-10.0 bbox=133.8,463.3,477.48,473.26 iscore=0.33                 :hierarchy of lexical rules that license lexical entries. (39) shows the supertype of all
+line=590 fonts=F0-10.0 bbox=133.8,451.3,244.75,461.26 iscore=0.07                 :lexical rules for the passive.
+line=591 fonts=F0-10.0 bbox=138.72,432.34,342.71,442.3 iscore=0.00                : (39)   Supertype of all lexical rules for the passive:
+
+doc_id=15 page=16 block_id=16-3 bbox=168.5,393.1,431.0,421.7 label=bt 592 593
+line=592 fonts=F0-7.2,F2-9.0,F3-10.6 bbox=168.5,410.02,431.0,421.7            :         ¡                         VFORM   non-fin                          �
+line=593 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=168.5,393.1,431.0,410.95 iscore=0.33:         ¡¡ SYNSEM LOC CAT  HEAD   ACC       1    %                         ��
+
+doc_id=15 page=16 block_id=16-4 bbox=168.5,301.18,431.0,391.9 label=bbt 594 600
+line=594 fonts=F0-7.2,F0-9.0,F2-7.0,F2-9.0,F3-10.6 bbox=168.5,372.7,431.0,391.9  :          ¡¡           ¤¤                    HEAD       $ SUBJ  ¦ NP[str]_{ref} §  ©© ��
+line=595 fonts=F0-4.2,F0-5.0,F0-7.2 bbox=213.7,364.54,363.93,372.07 iscore=0.22  :                       ¤¥SYNSEM   LOC  CAT               ACC     1
+line=596 fonts=F0-7.2 bbox=172.2,357.22,206.5,364.39 iscore=0.00                 :           LEX-DTR
+line=597 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=292.44,346.0,422.5,356.6 iscore=0.00   :                                             SUBCAT      2                        �
+line=598 fonts=F2-9.0,F3-10.6 bbox=168.5,332.38,428.4,344.1 iscore=0.00          :          ¢             stem-verb                                                   �
+line=599 fonts=F2-9.0 bbox=171.96,316.9,207.32,325.87 iscore=0.00                :           passive-lr
+line=600 fonts=F0-10.0,F0-5.0,F3-10.6 bbox=190.68,301.18,233.37,311.8 iscore=0.00:                =   2  *    1
+
+doc_id=15 page=16 block_id=16-5 bbox=133.8,245.26,477.58,291.1 label=bbb 601 604
+line=601 fonts=F0-10.0 bbox=133.8,281.14,253.57,291.1                     :This type corresponds to (36).
+line=602 fonts=F0-10.0,F2-10.0 bbox=148.68,269.14,477.58,279.1 iscore=0.00:    The supertype of all lexical rules that are needed for the werden passive, the stative
+line=603 fonts=F0-10.0,F2-10.0 bbox=133.8,257.14,477.58,267.1 iscore=0.27 :passive formed with sein, the modal infinitive formed with sein and the lassen passive
+line=604 fonts=F0-10.0 bbox=133.8,245.26,200.53,255.22 iscore=0.07        :is shown in (40).
+
+doc_id=15 page=17 block_id=17-1 bbox=153.72,630.2,458.63,709.3 label=ttt 605 609
+line=605 fonts=F0-10.0 bbox=153.72,699.34,458.63,709.3                              :     (40)    Supertype  of all lexical rules for the passive except  the dative passive:
+line=606 fonts=F0-7.2,F2-9.0,F3-10.6 bbox=183.3,677.74,452.2,689.3 iscore=0.08      :             ¡                    ¤           VFORM    non-fin          ©              �
+line=607 fonts=F0-4.1,F0-5.0,F0-7.2,F3-10.6 bbox=259.3,664.5,361.7,675.1 iscore=0.40:                                  ¤¥HEAD      SUBJ       1    �
+line=608 fonts=F0-5.0,F0-7.2,F3-10.6 bbox=183.3,648.9,452.2,661.99 iscore=0.29      :             ¡ SYNSEM   LOC  CAT              ACC        1                             �
+line=609 fonts=F0-5.0,F0-7.2,F0-9.0,F3-10.6 bbox=183.3,630.2,452.2,647.5 iscore=0.14:             ¡¡                    SUBCAT    & 2  '  1 (-� ¥ ¦ (PP _{3} ) §            ��
+
+doc_id=15 page=17 block_id=17-2 bbox=183.3,581.14,452.2,628.1 label=ttbt 610 613
+line=610 fonts=F0-5.0,F0-7.2,F0-9.0,F2-9.0,F3-10.6,F3-10.7 bbox=183.3,606.46,452.2,628.1:              ¡¡            ¤¤¤                   ¥¤ HEAD      SUBJ   ¦ NP[str]   _{3} § � © ©©© ��
+line=611 fonts=F0-4.2,F0-5.0,F0-7.2 bbox=228.6,598.18,379.65,605.47 iscore=0.17         :                            ¤¥SYNSEM   LOC  CAT                ACC     1
+line=612 fonts=F0-7.2 bbox=187.08,590.98,221.38,598.15 iscore=0.00                      :                LEX-DTR
+line=613 fonts=F0-5.0,F0-7.2 bbox=307.44,581.14,350.13,588.31 iscore=0.00               :                                                   SUBCAT      2
+
+doc_id=15 page=17 block_id=17-3 bbox=133.8,379.78,477.6,575.9 label=ttbb 614 629
+line=614 fonts=F2-9.0,F3-10.6 bbox=183.3,564.82,449.6,575.9               :            ¢           stem-verb                                           �
+line=615 fonts=F2-9.0 bbox=186.84,549.34,237.43,558.31 iscore=0.00        :             passive-lr-acc
+line=616 fonts=F0-10.0,F2-10.0 bbox=133.8,535.18,477.46,545.14 iscore=0.06:Note that the lexical rule for the lassen passive differs from the rules for the other sorts
+line=617 fonts=F0-10.0,F0-8.0 bbox=133.8,523.18,477.47,533.14 iscore=0.35 :of passive only in its VFORM value. In the auxiliary based approach an additional type
+line=618 fonts=F0-10.0,F2-10.0 bbox=133.8,511.3,477.53,521.26 iscore=0.20 :was needed  since the valence properties of the passive lassen differ from those of the
+line=619 fonts=F0-10.0 bbox=133.8,499.3,209.24,509.26 iscore=0.07         :passive auxiliaries.
+line=620 fonts=F0-10.0 bbox=148.68,487.42,477.44,497.38 iscore=0.00       :    If one wants to capture the generalization about passive in a uniform way, one has
+line=621 fonts=F0-10.0 bbox=133.8,475.42,477.6,485.38 iscore=0.20         :to treat morphological processes that yield lexical entries with a passive-like valence
+line=622 fonts=F0-10.0 bbox=133.8,463.42,477.5,473.38 iscore=0.25         :in a way that corresponds to the treatment in syntax. So, if one assumes an auxiliary
+line=623 fonts=F0-10.0,F2-10.0 bbox=133.8,451.54,477.46,461.5 iscore=0.18 :based approach  to passive, one has to assume that -bar in (41b) is an affix that fulfills
+line=624 fonts=F0-10.0 bbox=133.8,439.54,477.53,449.5 iscore=0.35         :the function of the passive auxiliaries. The description of the affix is a subtype of the
+line=625 fonts=F0-10.0 bbox=133.8,427.54,477.43,437.5 iscore=0.12         :type (37), which is a generalization of all heads that do a object-to-subject-raising with
+line=626 fonts=F0-10.0 bbox=133.8,415.66,368.94,425.62 iscore=0.14        :the arguments of the verb that is embedded under the head.
+line=627 fonts=F0-10.0 bbox=148.68,403.66,477.46,413.62 iscore=0.12       :    If one assumes that passive is analyzed with lexical rules, one also has to assume a
+line=628 fonts=F0-10.0 bbox=133.8,391.78,477.46,401.74 iscore=0.00        :lexical rule-based approach for derivational morphology. The lexical rule that licenses
+line=629 fonts=F0-10.0,F2-10.0 bbox=133.8,379.78,318.0,389.74 iscore=0.18 :lesbar on the basis of les- is a subtype of (40).
+
+doc_id=15 page=17 block_id=17-4 bbox=133.8,321.46,272.9,370.78 label=tbt 630 633
+line=630 tag=L span_id=15-27 lang_name=German lang_code=deu fonts=F0-10.0 bbox=133.8,360.82,262.19,370.78            :(41)   a. Er liest den Aufsatz.
+line=631 tag=T span_id=15-27 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,348.94,250.3,358.9 iscore=1.00  :          he reads the essay
+line=632 tag=L span_id=15-28 lang_name=German lang_code=deu fonts=F0-10.0 bbox=162.6,333.46,264.93,343.42 iscore=0.40:       b. Der  Aufsatz ist lesbar.
+line=633 tag=T span_id=15-28 lang_name=German lang_code=deu fonts=F0-10.0 bbox=176.4,321.46,272.9,331.42 iscore=1.00 :          the  essay   is  readable
+
+doc_id=15 page=17 block_id=17-5 bbox=133.8,279.22,477.52,313.18 label=tbb 634 636
+line=634 fonts=F0-10.0 bbox=133.8,303.22,477.52,313.18            :A lexical rule-based approach to morphology was suggested by Orgun (1996), Riehe-
+line=635 fonts=F0-10.0 bbox=133.8,291.22,477.46,301.18 iscore=0.08:mann (1998), Ackerman and Webelhuth (1998), and Koenig (1999). See (Müller, Sub-
+line=636 fonts=F0-10.0 bbox=133.8,279.22,305.6,289.18 iscore=0.08 :mitted, Chapter 7.2.5) for some discussion.
+
+doc_id=15 page=17 block_id=17-6 bbox=133.8,245.62,215.85,259.97 label=bt 637 637
+line=637 fonts=F1-14.4 bbox=133.8,245.62,215.85,259.97:7  Summary
+
+doc_id=15 page=17 block_id=17-7 bbox=133.8,187.54,477.64,233.38 label=bb 638 641
+line=638 fonts=F0-10.0 bbox=133.8,223.42,477.64,233.38            :In this paper a lexical rule-based analysis for the passive in German was developed
+line=639 fonts=F0-10.0 bbox=133.8,211.42,477.53,221.38 iscore=0.21:which also covers the complicated remote passive cases. The analysis uses a feature
+line=640 fonts=F0-10.0 bbox=133.8,199.42,477.48,209.38 iscore=0.20:to designate the accusative element that is equivalent to the one that was introduced by
+line=641 fonts=F0-10.0 bbox=133.8,187.54,477.48,197.5 iscore=0.07 :Kathol (1991) and Pollard (1994) who suggested an object-to-subject-raising analyses.
+
+doc_id=15 page=18 block_id=18-1 bbox=133.8,659.26,477.55,717.1 label=t 642 646
+line=642 fonts=F0-10.0 bbox=148.68,707.14,477.5,717.1              :    Binding data that has been used for arguing against lexical rule-based analyses of
+line=643 fonts=F0-10.0 bbox=133.8,695.14,477.55,705.1 iscore=0.13  :passive has been discussed and it has been shown that the premises for the argumenta-
+line=644 fonts=F0-10.0 bbox=133.8,683.26,199.6,693.22 iscore=0.20  :tion do not hold.
+line=645 fonts=F0-10.0 bbox=148.68,671.26,477.53,681.22 iscore=0.06:    It was shown that the decision to use lexical rules in syntax makes the use of lexical
+line=646 fonts=F0-10.0 bbox=133.8,659.26,473.83,669.22 iscore=0.29 :rules in morphology necessary since otherwise generalizations could not be captured.
+
+doc_id=15 page=18 block_id=18-2 bbox=133.8,625.66,213.93,640.01 label=bt 647 647
+line=647 fonts=F1-14.4 bbox=133.8,625.66,213.93,640.01:Bibliography
+
+doc_id=15 page=18 block_id=18-3 bbox=133.8,591.46,477.42,613.42 label=bbt 648 649
+line=648 fonts=F0-10.0,F2-10.0 bbox=133.8,603.46,477.42,613.42     :Ackerman,  Farrell and Webelhuth, Gert. 1998. A Theory of Predicates. CSLI Lecture
+line=649 fonts=F0-10.0 bbox=143.76,591.46,365.43,601.42 iscore=0.00:  Notes, No. 76, Stanford, California: CSLI Publications.
+
+doc_id=15 page=18 block_id=18-4 bbox=133.8,559.54,477.46,581.5 label=bbbt 650 651
+line=650 fonts=F0-10.0,F2-10.0 bbox=133.8,571.54,477.46,581.5             :Askedal, John Ole. 1988. Über den Infinitiv als Subjekt im Deutschen. Zeitschrift für
+line=651 fonts=F0-10.0,F2-10.0 bbox=143.76,559.54,288.45,569.5 iscore=0.00:  Germanistische  Linguistik 16, 1–25.
+
+doc_id=15 page=18 block_id=18-5 bbox=133.8,527.74,477.44,549.58 label=bbbbt 652 653
+line=652 fonts=F0-10.0,F2-10.0 bbox=133.8,539.62,477.44,549.58    :Bech, Gunnar. 1955. Studien über das deutsche Verbum infinitum. Linguistische Ar-
+line=653 fonts=F0-10.0 bbox=143.76,527.74,463.17,537.7 iscore=0.27:  beiten, No. 139, Tübingen: Max Niemeyer Verlag, 2nd unchanged edition 1983.
+
+doc_id=15 page=18 block_id=18-6 bbox=133.8,495.82,477.48,517.78 label=bbbbbt 654 655
+line=654 fonts=F0-10.0,F2-10.0 bbox=133.8,507.82,477.48,517.78     :Bierwisch, Manfred. 1963. Grammatik  des deutschen Verbs. studia grammatica II,
+line=655 fonts=F0-10.0 bbox=143.76,495.82,246.44,505.78 iscore=0.00:  Berlin: Akademie Verlag.
+
+doc_id=15 page=18 block_id=18-7 bbox=133.8,440.02,477.52,485.86 label=bbbbbbtt 656 659
+line=656 fonts=F0-10.0,F2-10.0 bbox=133.8,475.9,477.5,485.86              :Bresnan, Joan. 1982. The Passive in Lexical Theory. In Joan Bresnan (ed.), The Mental
+line=657 fonts=F0-10.0,F2-10.0 bbox=143.76,463.9,477.45,473.86 iscore=0.23:  Representation of Grammatical Relations, MIT Press Series on Cognitive Theory
+line=658 fonts=F0-10.0 bbox=143.76,452.02,477.52,461.98 iscore=0.10       :  and Mental Representation, pages 3–86, Cambridge: Massachusetts, London: Eng-
+line=659 fonts=F0-10.0 bbox=143.76,440.02,228.96,449.98 iscore=0.11       :  land: The MIT Press.
+
+doc_id=15 page=18 block_id=18-8 bbox=133.8,372.34,477.57,430.06 label=bbbbbbtb 660 664
+line=660 fonts=F0-10.0 bbox=133.8,420.1,477.5,430.06                       :Chung,  Chan. 1993. Korean Auxiliary Verb Constructions Without VP Nodes. In
+line=661 fonts=F0-10.0 bbox=143.76,408.1,477.46,418.06 iscore=0.09         :  Susumo  Kuno,  Ik-Hwan Lee, John Whitman,  Joan Maling, Young-Se Kang  and
+line=662 fonts=F0-10.0,F2-10.0 bbox=143.76,396.22,477.57,406.18 iscore=0.25:  Young  joo Kim (eds.), Proceedings of the 1993 Workshop on Korean Linguistics,
+line=663 fonts=F0-10.0 bbox=143.76,384.22,477.43,394.18 iscore=0.17        :  Harvard Studies in Korean Linguistics, No. 5, pages 274–286, Cambridge: Mas-
+line=664 fonts=F0-10.0 bbox=143.76,372.34,377.97,382.3 iscore=0.18         :  sachusetts: Harvard University, Department of Linguistics.
+
+doc_id=15 page=18 block_id=18-9 bbox=133.8,304.54,478.15,362.38 label=bbbbbbbt 665 669
+line=665 fonts=F0-10.0 bbox=133.8,352.42,477.45,362.38                     :Copestake, Ann and Briscoe, Ted. 1992. Lexical Rules in a Unification Based Frame-
+line=666 fonts=F0-10.0,F2-10.0 bbox=143.76,340.42,477.42,350.38 iscore=0.08:  work.  In James  Pustejovsky and Sabine  Bergler (eds.), Lexical Semantics and
+line=667 fonts=F0-10.0,F2-10.0 bbox=143.76,328.42,477.48,338.38 iscore=0.18:  Knowledge  Representation, Lecture Notes in Artificial Intelligence, No. 627, pages
+line=668 fonts=F0-10.0 bbox=143.76,316.54,478.15,326.5 iscore=0.10         :  101–119,  Berlin: Springer-Verlag, http://www.cl.cam.ac.uk/Research/NL/acquilex/
+line=669 fonts=F0-10.0 bbox=143.76,304.54,193.01,314.5 iscore=0.25         :  papers.html.
+
+doc_id=15 page=18 block_id=18-10 bbox=133.8,252.7,477.73,294.58 label=bbbbbbbbt 670 672
+line=670 fonts=F0-10.0,F2-10.0 bbox=133.8,284.62,474.64,294.58            :Gunkel, Lutz. 1999. Causatives in German. Theoretical Linguistics 25(2/3), 133–159.
+line=671 fonts=F0-10.0 bbox=133.8,264.7,477.73,274.66 iscore=0.30         :Haider, Hubert. 1986a. Fehlende Argumente:  vom  Passiv zu kohärenten Infinitiven.
+line=672 fonts=F0-10.0,F2-10.0 bbox=143.76,252.7,277.65,262.66 iscore=0.11:  Linguistische Berichte 101, 3–33.
+
+doc_id=15 page=18 block_id=18-11 bbox=133.8,220.9,477.45,242.74 label=bbbbbbbbbt 673 674
+line=673 fonts=F0-10.0,F2-10.0 bbox=133.8,232.78,477.45,242.74            :Haider, Hubert. 1986b. Nicht-sententiale Infinitive. Groninger Arbeiten zur Germani-
+line=674 fonts=F0-10.0,F2-10.0 bbox=143.76,220.9,268.05,230.86 iscore=0.00:  stischen Linguistik 28, 73–114.
+
+doc_id=15 page=18 block_id=18-12 bbox=133.8,188.98,477.51,210.94 label=bbbbbbbbbb 675 676
+line=675 fonts=F0-10.0 bbox=133.8,200.98,477.51,210.94             :Heinz, Wolfgang and Matiasek, Johannes. 1994. Argument Structure and Case Assign-
+line=676 fonts=F0-10.0 bbox=143.76,188.98,383.55,198.94 iscore=0.00:  ment in German. In Nerbonne et. al. (1994), pages 199–236.
+
+doc_id=15 page=19 block_id=19-1 bbox=133.8,683.26,477.54,717.1 label=t 677 679
+line=677 fonts=F0-10.0,F2-10.0 bbox=133.8,707.14,477.54,717.1             :Hinrichs, Erhard W., Kathol, Andreas and Nakazawa, Tsuneko  (eds.). 1998. Com-
+line=678 fonts=F0-10.0,F2-10.0 bbox=143.76,695.14,477.42,705.1 iscore=0.25:  plex Predicates in Nonderivational Syntax, volume 30 of Syntax and Semantics. San
+line=679 fonts=F0-10.0 bbox=143.76,683.26,240.24,693.22 iscore=0.17       :  Diego: Academic  Press.
+
+doc_id=15 page=19 block_id=19-2 bbox=133.8,651.7,477.53,673.66 label=btt 680 681
+line=680 fonts=F0-10.0 bbox=133.8,663.7,477.53,673.66             :Hinrichs, Erhard W. and Nakazawa, Tsuneko. 1998. Third Construction and VP Extra-
+line=681 fonts=F0-10.0 bbox=143.76,651.7,474.16,661.66 iscore=0.15:  position in German: An HPSG Analysis. In Hinrichs et. al. (1998), pages 115–157.
+
+doc_id=15 page=19 block_id=19-3 bbox=133.8,608.26,477.7,642.1 label=btb 682 684
+line=682 fonts=F0-10.0,F2-10.0 bbox=133.8,632.14,477.7,642.1             :Höhle, Tilman N. 1978. Lexikalische Syntax: Die Aktiv-Passiv-Relation und andere
+line=683 fonts=F0-10.0,F2-10.0 bbox=143.76,620.14,477.5,630.1 iscore=0.11:  Infinitkonstruktionen im Deutschen. Linguistische Arbeiten, No. 67, Tübingen: Max
+line=684 fonts=F0-10.0 bbox=143.76,608.26,213.92,618.22 iscore=0.11      :  Niemeyer  Verlag.
+
+doc_id=15 page=19 block_id=19-4 bbox=133.8,552.82,477.53,598.66 label=bbtt 685 688
+line=685 fonts=F0-10.0 bbox=133.8,588.7,477.49,598.66                      :Kathol, Andreas. 1991. Verbal and Adjectival Passives in German. In Jonathan David
+line=686 fonts=F0-10.0,F2-10.0 bbox=143.76,576.7,477.52,586.66 iscore=0.23 :  Bobaljik and Tony Bures (eds.), Papers from the Third Student Conference in Lin-
+line=687 fonts=F0-10.0,F2-10.0 bbox=143.76,564.82,477.53,574.78 iscore=0.23:  guistics, volume 14 of MIT Working Papers in Linguistics, pages 115–130, Cam-
+line=688 fonts=F0-10.0 bbox=143.76,552.82,257.73,562.78 iscore=0.17        :  bridge, Massachusetts: MIT.
+
+doc_id=15 page=19 block_id=19-5 bbox=133.8,521.26,477.49,543.22 label=bbtb 689 690
+line=689 fonts=F0-10.0 bbox=133.8,533.26,477.49,543.22             :Kathol, Andreas. 1994. Passives without Lexical Rules. In Nerbonne et. al. (1994),
+line=690 fonts=F0-10.0 bbox=143.76,521.26,206.32,531.22 iscore=0.09:  pages 237–272.
+
+doc_id=15 page=19 block_id=19-6 bbox=133.8,489.82,477.5,511.66 label=bbbtt 691 692
+line=691 fonts=F0-10.0 bbox=133.8,501.7,477.5,511.66               :Kathol, Andreas. 1998. Constituency and Linearization of Verbal Complexes. In Hin-
+line=692 fonts=F0-10.0 bbox=143.76,489.82,283.24,499.78 iscore=0.00:  richs et. al. (1998), pages 221–270.
+
+doc_id=15 page=19 block_id=19-7 bbox=133.8,458.26,477.52,480.22 label=bbbtb 693 694
+line=693 fonts=F0-10.0 bbox=133.8,470.26,477.52,480.22                     :Kiss, Tibor. 1992. Variable Subkategorisierung. Eine Theorie unpersönlicher Einbet-
+line=694 fonts=F0-10.0,F2-10.0 bbox=143.76,458.26,382.24,468.22 iscore=0.12:  tungen im Deutschen. Linguistische Berichte 140, 256–293.
+
+doc_id=15 page=19 block_id=19-8 bbox=133.8,426.7,477.45,448.66 label=bbbbtt 695 696
+line=695 fonts=F0-10.0,F2-10.0 bbox=133.8,438.7,477.45,448.66     :Koenig, Jean-Pierre. 1999. Lexical Relations. Stanford Monographs  in Linguistics,
+line=696 fonts=F0-10.0 bbox=143.76,426.7,219.51,436.66 iscore=0.12:  CSLI  Publications.
+
+doc_id=15 page=19 block_id=19-9 bbox=133.8,323.5,477.58,417.1 label=bbbbtb 697 704
+line=697 fonts=F0-10.0 bbox=133.8,407.14,477.47,417.1                      :Krieger, Hans-Ulrich and Nerbonne, John. 1993. Feature-Based Inheritance Networks
+line=698 fonts=F0-10.0 bbox=143.76,395.26,477.58,405.22 iscore=0.17        :  for Computational Lexicons. In Ted Briscoe, Ann Copestake and Valeria de Paiva
+line=699 fonts=F0-10.0,F2-10.0 bbox=143.76,383.26,477.53,393.22 iscore=0.25:  (eds.), Inheritance, Defaults, and the Lexicon, pages 90–136, Cambridge: Cam-
+line=700 fonts=F0-10.0 bbox=143.76,371.26,477.51,381.22 iscore=0.23        :  bridge University Press, a version of this paper is available as DFKI Research
+line=701 fonts=F0-10.0 bbox=143.76,359.38,477.52,369.34 iscore=0.15        :  Report  RR-91-31  ftp://lt-ftp.dfki.de/pub/papers/local/RR-91-31.ps.Z. 03.23.2000.
+line=702 fonts=F0-10.0 bbox=143.76,347.38,477.46,357.34 iscore=0.09        :  Also published in: Proceedings of the ACQUILEX   Workshop   on Default Inheri-
+line=703 fonts=F0-10.0 bbox=143.76,335.38,477.48,345.34 iscore=0.08        :  tance in the Lexicon, Technical Report No. 238, University of Cambridge, Computer
+line=704 fonts=F0-10.0 bbox=143.76,323.5,249.33,333.46 iscore=0.17         :  Laboratory, October 1991.
+
+doc_id=15 page=19 block_id=19-10 bbox=133.8,268.06,477.78,313.9 label=bbbbbt 705 708
+line=705 fonts=F0-10.0 bbox=133.8,303.94,477.78,313.9              :Lebeth, Kai. 1994. Morphosyntaktischer Strukturaufbau – Die Generierung komplexer
+line=706 fonts=F0-10.0 bbox=143.76,291.94,477.53,301.9 iscore=0.25 :  Verben im HPSG-Lexikon   eines Sprachproduktionssystems. Hamburger Arbeitspa-
+line=707 fonts=F0-10.0 bbox=143.76,280.06,477.46,290.02 iscore=0.27:  piere zur Sprachproduktion – IV Arbeitspapier No. 16, Universität Hamburg, Fach-
+line=708 fonts=F0-10.0 bbox=143.76,268.06,220.66,278.02 iscore=0.09:  bereich Informatik.
+
+doc_id=15 page=19 block_id=19-11 bbox=133.8,212.62,478.17,258.46 label=bbbbbbt 709 712
+line=709 fonts=F0-10.0 bbox=133.8,248.5,477.47,258.46                      :Meurers, Walt Detmar. 1995. Towards a Semantics for Lexical Rules as used in HPSG.
+line=710 fonts=F0-10.0,F2-10.0 bbox=143.75,236.5,477.5,246.46 iscore=0.21  :  In Glyn V. Morrill and Richard T. Oehrle (eds.), Proceedings of the Formal Grammar
+line=711 fonts=F0-10.0,F2-10.0 bbox=143.75,224.62,478.17,234.58 iscore=0.14:  Conference, Barcelona, Spain, http://www.sfs.nphil.uni-tuebingen.de/~dm/LR/sem.
+line=712 fonts=F0-10.0 bbox=143.75,212.62,206.79,222.58 iscore=0.25        :  ps.gz. 11.23.99.
+
+doc_id=15 page=19 block_id=19-12 bbox=133.79,169.18,477.62,203.02 label=bbbbbbb 713 715
+line=713 fonts=F0-10.0,F2-10.0 bbox=133.79,193.06,477.61,203.02            :Meurers, Walt Detmar. 1999. Raising Spirits (and Assigning Them Case). Groninger
+line=714 fonts=F0-10.0,F2-10.0 bbox=143.75,181.06,477.62,191.02 iscore=0.20:  Arbeiten zur Germanistischen Linguistik (GAGL) 43, 173–226, http://www.sfs.nphil.
+line=715 fonts=F0-10.0 bbox=143.75,169.18,364.0,179.14 iscore=0.12         :  uni-tuebingen.de/~dm/papers/gagl99.html. 04.18.2000.
+
+doc_id=15 page=20 block_id=20-1 bbox=133.8,683.26,478.04,717.1 label=t 716 718
+line=716 fonts=F0-10.0 bbox=133.8,707.14,477.43,717.1              :Meurers, Walt Detmar. 2000. Lexical Generalizations in the Syntax of German Non-
+line=717 fonts=F0-10.0 bbox=143.76,695.14,478.04,705.1 iscore=0.18 :  Finite Constructions. Arbeitspapiere des SFB 340 145, Eberhard-Karls-Universität,
+line=718 fonts=F0-10.0 bbox=143.76,683.26,184.44,693.22 iscore=0.12:  Tübingen.
+
+doc_id=15 page=20 block_id=20-2 bbox=133.8,627.46,477.5,673.3 label=bt 719 722
+line=719 fonts=F0-10.0 bbox=133.8,663.34,477.5,673.3                      :Müller, Stefan. 1997. Yet another Paper about Partial Verb Phrase Fronting in German.
+line=720 fonts=F0-10.0 bbox=143.76,651.34,477.48,661.3 iscore=0.00        :  Research Report  RR-97-07, Deutsches Forschungszentrum  für Künstliche Intelli-
+line=721 fonts=F0-10.0,F2-10.0 bbox=143.76,639.34,477.48,649.3 iscore=0.17:  genz, Saarbrücken, a shorter version appeared in Proceedings of COLING 96, pages
+line=722 fonts=F0-10.0 bbox=143.76,627.46,409.0,637.42 iscore=0.08        :  800–805. http://www.dfki.de/~stefan/Pub/e_pvp.html. 11.17.2000.
+
+doc_id=15 page=20 block_id=20-3 bbox=133.8,583.54,477.58,617.5 label=bbt 723 725
+line=723 fonts=F0-10.0,F2-10.0 bbox=133.8,607.54,477.58,617.5             :Müller, Stefan. 1999. Deutsche Syntax  deklarativ. Head-Driven Phrase Structure
+line=724 fonts=F0-10.0,F2-10.0 bbox=143.76,595.54,477.42,605.5 iscore=0.09:  Grammar   für das Deutsche. Linguistische Arbeiten, No. 394, Tübingen: Max Nie-
+line=725 fonts=F0-10.0 bbox=143.76,583.54,431.32,593.5 iscore=0.09        :  meyer Verlag, http://www.dfki.de/~stefan/Pub/e_hpsg.html. 11.17.2000.
+
+doc_id=15 page=20 block_id=20-4 bbox=133.8,539.74,477.48,573.58 label=bbbt 726 728
+line=726 fonts=F0-10.0,F2-10.0 bbox=133.8,563.62,477.48,573.58            :Müller, Stefan. Submitted. Complex Predicates: Verbal Complexes, Resultative Con-
+line=727 fonts=F0-10.0,F2-10.0 bbox=143.76,551.74,477.44,561.7 iscore=0.10:  structions, and Particle Verbs in German. Habilitationsschrift, Universität des Saar-
+line=728 fonts=F0-10.0 bbox=143.76,539.74,473.68,549.7 iscore=0.10        :  landes, Saarbrücken, http://www.dfki.de/~stefan/Pub/e_complex.html. 11.17.2000.
+
+doc_id=15 page=20 block_id=20-5 bbox=133.8,483.94,477.69,529.78 label=bbbbtt 729 732
+line=729 fonts=F0-10.0 bbox=133.8,519.82,477.45,529.78                    :Müller, Stefan. To Appear. Case in German – Towards an HPSG  Analysis. In Tibor
+line=730 fonts=F0-10.0,F2-10.0 bbox=143.76,507.94,477.69,517.9 iscore=0.23:  Kiss and Detmar Meurers (eds.), Constraint-Based Approaches to Germanic Syntax,
+line=731 fonts=F0-10.0 bbox=143.76,495.94,477.52,505.9 iscore=0.18        :  Studies in Constraint-Based Lexicalism, Stanford: Center for the Study of Language
+line=732 fonts=F0-10.0 bbox=143.76,483.94,440.8,493.9 iscore=0.09         :  and Information, http://www.dfki.de/~stefan/Pub/e_case.html. 11.17.2000.
+
+doc_id=15 page=20 block_id=20-6 bbox=133.8,440.14,477.53,473.98 label=bbbbtb 733 735
+line=733 fonts=F0-10.0,F2-10.0 bbox=133.8,464.02,477.53,473.98            :Nerbonne, John, Netter, Klaus and Pollard, Carl J. (eds.). 1994. German in Head-
+line=734 fonts=F0-10.0,F2-10.0 bbox=143.76,452.14,477.52,462.1 iscore=0.25:  Driven Phrase Structure Grammar. CSLI  Lecture Notes, No. 46, Stanford: Center
+line=735 fonts=F0-10.0 bbox=143.76,440.14,317.8,450.1 iscore=0.18         :  for the Study of Language and Information.
+
+doc_id=15 page=20 block_id=20-7 bbox=133.8,408.22,477.5,430.18 label=bbbbbt 736 737
+line=736 fonts=F0-10.0,F2-10.0 bbox=133.8,420.22,477.5,430.18      :Orgun, Cemil Orhan. 1996. Sign-Based Morphology and Phonology. Ph. D.thesis, Uni-
+line=737 fonts=F0-10.0 bbox=143.76,408.22,263.85,418.18 iscore=0.00:  versity of Califonia, Berkeley.
+
+doc_id=15 page=20 block_id=20-8 bbox=133.8,376.42,477.52,398.26 label=bbbbbbt 738 739
+line=738 fonts=F0-10.0 bbox=133.8,388.3,477.52,398.26              :Pollard, Carl J. 1994. Toward a Unified Account of Passive in German. In Nerbonne
+line=739 fonts=F0-10.0 bbox=143.76,376.42,261.28,386.38 iscore=0.23:  et. al. (1994), pages 273–296.
+
+doc_id=15 page=20 block_id=20-9 bbox=133.8,332.5,477.5,366.46 label=bbbbbbbt 740 742
+line=740 fonts=F0-10.0,F2-10.0 bbox=133.8,356.5,477.5,366.46              :Pollard, Carl J. and Sag, Ivan A. 1987. Information-Based Syntax and Semantics Vol-
+line=741 fonts=F0-10.0,F2-10.0 bbox=143.76,344.5,477.45,354.46 iscore=0.23:  ume  1 Fundamentals. CSLI Lecture Notes, No. 13, Stanford: Center for the Study
+line=742 fonts=F0-10.0 bbox=143.76,332.5,263.2,342.46 iscore=0.08         :  of Language and Information.
+
+doc_id=15 page=20 block_id=20-10 bbox=133.8,300.7,477.46,322.54 label=bbbbbbbbt 743 744
+line=743 fonts=F0-10.0,F2-10.0 bbox=133.8,312.58,477.46,322.54    :Pollard, Carl J. and Sag, Ivan A. 1994. Head-Driven Phrase Structure Grammar. Stud-
+line=744 fonts=F0-10.0 bbox=143.76,300.7,466.08,310.66 iscore=0.08:  ies in Contemporary Linguistics, Chicago, London: University of Chicago Press.
+
+doc_id=15 page=20 block_id=20-11 bbox=133.8,256.78,477.95,290.74 label=bbbbbbbbbt 745 747
+line=745 fonts=F0-10.0,F2-10.0 bbox=133.8,280.78,477.39,290.74             :Rentier, Gerrit. 1994. Dutch Cross  Serial Dependencies in HPSG.   In Proceed-
+line=746 fonts=F0-10.0,F2-10.0 bbox=143.76,268.78,477.95,278.74 iscore=0.10:  ings of COLING   94, pages 818–822,  Kyoto, Japan, http://xxx.lanl.gov/abs/cmp-
+line=747 fonts=F0-10.0 bbox=143.76,256.78,231.4,266.74 iscore=0.11         :  lg/9410016. 04.07.99.
+
+doc_id=15 page=20 block_id=20-12 bbox=133.8,212.98,478.17,246.82 label=bbbbbbbbbb 748 750
+line=748 fonts=F0-10.0,F2-10.0 bbox=133.8,236.86,477.53,246.82             :Riehemann,  Susanne Z. 1998. Type-Based Derivational Morphology. Journal of Com-
+line=749 fonts=F0-10.0,F2-10.0 bbox=143.76,224.98,478.17,234.94 iscore=0.11:  parative Germanic Linguistics 2, 49–77, http://doors.stanford.edu/~sr/morphology.
+line=750 fonts=F0-10.0 bbox=143.76,212.98,194.92,222.94 iscore=0.17        :  ps. 11.29.99.

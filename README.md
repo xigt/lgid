@@ -53,9 +53,12 @@ manages the activation/deactivation of the virtual environment:
 Usage:
   lgid [-v...] train    --model=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] test     --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] validate     --model=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] classify --model=PATH --out=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] get-lg-recall    CONFIG INFILE...
   lgid [-v...] list-model-weights   --model=PATH    CONFIG
   lgid [-v...] list-mentions          CONFIG INFILE...
+  lgid [-v...] count-mentions         CONFIG INFILE...
   lgid [-v...] find-common-codes      CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
   lgid [-v...] build-odin-lm          CONFIG
@@ -63,6 +66,20 @@ Usage:
 ```
 
 Try `lgid.sh --help` for more usage information.
+
+## Examples of Usage
+
+Test the performance of the prebuilt model on the included sample input:
+
+```bash
+./lgid.sh -v test --model=model/sample_model config.ini sample/input/*
+```
+
+Classify the sample input and output the files with predicted languages marked:
+
+```bash
+./lgid.sh -v classify --model=model/sample_model --out=sample/output config.ini sample/input/*
+```
 
 ## Code and Resources
 
@@ -102,6 +119,20 @@ model.
 
 The `[locations]` section contains paths for finding various
 resources.
+
+location                          | description
+---------------------------------- | -----------
+language-table | tab-separated text file showing the possible codes for each language name
+most-common-codes | tab-separated text file showing the most common code for each language name
+english-word-names | text file containing language names that are also English words
+odin-source | directory containing the ODIN source data sorted by language code
+odin-language-model | directory containing language models build from the ODIN data
+crubadan-index | table containing language data and source information
+crubadan-base-uri | base source of crubadan files
+crubadan-language-model | directory containing crubadan language models
+crubadan-directory-index | table matching language names to codes
+classify-error-file | language id errors are written to this text file
+
 
 The `[parameters]` section contains parameters for modifying
 the behavior of feature functions. Available parameters are described

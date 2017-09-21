@@ -1,0 +1,700 @@
+doc_id=125 page=1 block_id=1-1 bbox=185.52,672.48,426.48,684.48 label=ttt 1 1
+line=1 fonts=F0-12.0,F0-7.2 bbox=185.52,672.48,426.48,684.48:              Focus alignment and optimal order in Zapotec^{1}
+
+doc_id=125 page=1 block_id=1-2 bbox=234.48,616.08,377.81,656.4 label=ttb 2 4
+line=2 fonts=F1-12.0 bbox=245.76,644.4,366.52,656.4              :                         George Aaron Broadwell
+line=3 fonts=F1-12.0 bbox=257.28,630.24,355.14,642.24 iscore=0.00:                           University at Albany
+line=4 fonts=F1-12.0 bbox=234.48,616.08,377.81,628.08 iscore=0.00:                       State University of New York
+
+doc_id=125 page=1 block_id=1-3 bbox=108.0,587.52,222.29,599.52 label=tbtt 5 5
+line=5 fonts=F0-12.0,F1-12.0 bbox=108.0,587.52,222.29,599.52:1 Order and PS-rules
+
+doc_id=125 page=1 block_id=1-4 bbox=108.0,474.24,504.11,571.2 label=tbtb 6 12
+line=6 fonts=F1-12.0 bbox=108.0,559.2,504.04,571.2               :In standard theory, phrase structure rules encode both dominance relationship and
+line=7 fonts=F1-12.0 bbox=108.0,545.04,504.07,557.04 iscore=0.27 :precedence relationships. Various linguists have suggested that these two ideas can
+line=8 fonts=F1-12.0 bbox=108.0,530.88,504.11,542.88 iscore=0.21 :be disentangled so that the PS-rules tell us only what the dominance relationships are,
+line=9 fonts=F1-12.0 bbox=108.0,516.72,504.06,528.72 iscore=0.12 :while a separate set of rules or principles tell us what the linear order should be.
+line=10 fonts=F1-12.0 bbox=108.0,502.56,504.07,514.56 iscore=0.19:Within older government-binding theory, such ideas have been proposed by Farmer
+line=11 fonts=F1-12.0 bbox=108.0,488.4,504.07,500.4 iscore=0.23  :(1984) and Stowell (1981); within HPSG  by  Pollard and Sag (1987); and within
+line=12 fonts=F1-12.0 bbox=108.0,474.24,320.76,486.24 iscore=0.23:Lexical Functional Grammar by Falk (1983).
+
+doc_id=125 page=1 block_id=1-5 bbox=108.0,417.6,504.09,457.92 label=tbbt 13 15
+line=13 fonts=F1-12.0 bbox=136.8,445.92,504.09,457.92            :     In sharp distinction to this approach, much recent work within the Minimalist
+line=14 fonts=F1-12.0 bbox=108.0,431.76,504.05,443.76 iscore=0.17:Program  (Chomsky  1995) has adopted Kayne’s  (1994) Linear Correspondence
+line=15 fonts=F1-12.0 bbox=108.0,417.6,319.83,429.6 iscore=0.22  :Axiom, which can be summarized as follows
+
+doc_id=125 page=1 block_id=1-6 bbox=108.0,304.32,504.17,401.28 label=tbbb 16 22
+line=16 fonts=F1-12.0 bbox=108.0,389.28,504.17,401.28            :(1)    “...the human language faculty is in fact rigidly inflexible when it comes to the
+line=17 fonts=F1-12.0 bbox=144.0,375.12,504.08,387.12 iscore=0.29:       relation between hierarchical structure and linear order. Heads must always
+line=18 fonts=F1-12.0 bbox=144.0,360.96,504.11,372.96 iscore=0.10:       precede  their associated complement position. Adjunctions must always be
+line=19 fonts=F1-12.0 bbox=144.0,346.8,504.07,358.8 iscore=0.17  :       to the left, never to the right...This inflexibility extends to specifiers, too,
+line=20 fonts=F1-12.0 bbox=144.0,332.64,504.11,344.64 iscore=0.15:       which  I argue to be an instance of adjunction. Hence, specifier positions must
+line=21 fonts=F1-12.0 bbox=144.0,318.48,504.02,330.48 iscore=0.15:       invariably appear to the left of their associated head, never to the right.”
+line=22 fonts=F1-12.0 bbox=144.0,304.32,224.54,316.32 iscore=0.08:       (Kayne  1994:vii)
+
+doc_id=125 page=1 block_id=1-7 bbox=108.0,247.68,504.11,273.84 label=bt 23 24
+line=23 fonts=F1-12.0 bbox=108.0,261.84,504.11,273.84            :In Kayne’s view, apparent counterexamples result from the application of movement
+line=24 fonts=F1-12.0 bbox=108.0,247.68,133.99,259.68 iscore=0.09:rules.
+
+doc_id=125 page=1 block_id=1-8 bbox=108.0,162.72,504.1,231.36 label=bbt 25 29
+line=25 fonts=F1-12.0 bbox=122.4,219.36,504.09,231.36            :   In this paper, I will argue against Kayne’s LCA and in favor of the position that
+line=26 fonts=F1-12.0 bbox=108.0,205.2,504.1,217.2 iscore=0.19   :PS-rules encode only dominance relationships. Linear precedence, I will suggest, is
+line=27 fonts=F1-12.0 bbox=108.0,191.04,504.07,203.04 iscore=0.36:the result of violable optimality-theoretic constraints. My account will be framed
+line=28 fonts=F1-12.0 bbox=108.0,176.88,504.1,188.88 iscore=0.18 :within the optimality-theoretic implementation of Lexical Functional Grammar
+line=29 fonts=F1-12.0 bbox=108.0,162.72,246.99,174.72 iscore=0.12:proposed by Bresnan  (1998).
+
+doc_id=125 page=1 block_id=1-9 bbox=108.0,134.16,336.27,146.16 label=bbbt 30 30
+line=30 fonts=F0-12.0 bbox=108.0,134.16,336.27,146.16:2  Basic word order in San Dionicio Zapotec
+
+doc_id=125 page=1 block_id=1-10 bbox=108.0,77.76,504.12,118.08 label=bbbb 31 33
+line=31 fonts=F1-12.0 bbox=108.0,106.08,504.06,118.08           :San Dionicio Ocotepec Zapotec (hereafter SDZ) is an Otomanguean language spoken
+line=32 fonts=F1-12.0 bbox=108.0,91.92,504.12,103.92 iscore=0.21:in Oaxaca, Mexico. The basic word order of this language is VSO, with prepositional
+line=33 fonts=F1-12.0 bbox=108.0,77.76,146.94,89.76 iscore=0.07 :phrases:
+
+doc_id=125 page=2 block_id=2-1 bbox=108.0,644.4,301.53,670.56 label=tt 34 35
+line=34 tag=L span_id=125-1 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,658.56,300.82,670.56          :(2)  Ù-díny  Juàny bè’cw   cùn  yàg.
+line=35 tag=G span_id=125-1 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=136.8,644.4,301.53,656.4 iscore=1.00:     com-hit John  dog     with stick
+
+doc_id=125 page=2 block_id=2-2 bbox=136.8,616.08,285.89,628.08 label=tb 36 36
+line=36 tag=T span_id=125-1 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=136.8,616.08,285.89,628.08:      ‘John hit that dog with a stick’.
+
+doc_id=125 page=2 block_id=2-3 bbox=122.4,573.6,452.71,585.6 label=btt 37 37
+line=37 fonts=F1-12.0 bbox=122.4,573.6,452.71,585.6:   The PS-rules we seem to need for SDZ are approximately as follows:
+
+doc_id=125 page=2 block_id=2-4 bbox=108.0,545.28,254.15,557.28 label=btb 38 38
+line=38 fonts=F1-12.0 bbox=108.0,545.28,254.15,557.28:(3)  S’ –> (Spec), (Comp), S
+
+doc_id=125 page=2 block_id=2-5 bbox=136.8,502.8,317.81,528.96 label=bbtt 39 40
+line=39 fonts=F1-12.0 bbox=136.8,516.96,294.19,528.96           :     S –> V,  NP,    NP,    PP
+line=40 fonts=F1-12.0 bbox=186.24,502.8,317.81,514.8 iscore=0.33:             [SUBJ]  [OBJ]    [ADJ]
+
+doc_id=125 page=2 block_id=2-6 bbox=136.8,460.32,245.71,486.48 label=bbtbt 41 42
+line=41 fonts=F1-12.0 bbox=136.8,474.48,244.31,486.48            :     NP –> N, {Det, NP}
+line=42 fonts=F1-12.0 bbox=208.8,460.32,245.71,472.32 iscore=0.00:                [POSS]
+
+doc_id=125 page=2 block_id=2-7 bbox=136.8,417.84,209.29,444.0 label=bbtbbt 43 44
+line=43 fonts=F1-12.0 bbox=136.8,432.0,200.61,444.0              :     PP –> P, NP
+line=44 fonts=F1-12.0 bbox=180.0,417.84,209.29,429.84 iscore=1.00:              [OBJ]
+
+doc_id=125 page=2 block_id=2-8 bbox=108.0,361.2,504.08,401.52 label=bbtbbb 45 47
+line=45 fonts=F1-12.0 bbox=108.0,389.52,504.08,401.52                  :I’ll assume that the Zapotec clause is dominated by S, which is a non-endocentric
+line=46 fonts=F1-12.0,F1-7.2 bbox=108.0,375.36,504.0,387.36 iscore=0.14:category in this language, though nothing in what follows hinges crucially on this.^{2}
+line=47 fonts=F1-12.0 bbox=108.0,361.2,471.45,373.2 iscore=0.31        :Then the following linear precedence constraints will give us the right order:
+
+doc_id=125 page=2 block_id=2-9 bbox=108.0,318.72,233.35,344.88 label=bbbttl 48 49
+line=48 fonts=F1-12.0 bbox=108.0,332.88,173.77,344.88            :(4) X < YP
+line=49 fonts=F1-12.0 bbox=136.8,318.72,233.35,330.72 iscore=0.20:    SUBJ < OBJ < ADJ
+
+doc_id=125 page=2 block_id=2-10 bbox=252.0,304.56,503.48,344.88 label=bbbttr 50 52
+line=50 fonts=F1-12.0 bbox=252.0,332.88,489.21,344.88            :                            (lexical categories precede non-lexical categories)
+line=51 fonts=F1-12.0 bbox=252.0,318.72,503.48,330.72 iscore=0.17:                            (less oblique  arguments  precede more  oblique
+line=52 fonts=F1-12.0 bbox=252.0,304.56,305.57,316.56 iscore=0.17:                            arguments)
+
+doc_id=125 page=2 block_id=2-11 bbox=122.4,276.24,444.32,288.24 label=bbbtb 53 53
+line=53 fonts=F1-12.0 bbox=122.4,276.24,444.32,288.24:   Wh-questions in SDZ require leftward movement of the wh-phrase:
+
+doc_id=125 page=2 block_id=2-12 bbox=108.0,233.76,306.44,259.92 label=bbbbtt 54 55
+line=54 tag=L span_id=125-2 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,247.92,306.44,259.92             :(5)  ¿Tú    ù-díny  Juàny cùn    yàg?
+line=55 tag=G span_id=125-2 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=139.44,233.76,294.07,245.76 iscore=0.60:      what  com-hit John  with stick
+
+doc_id=125 page=2 block_id=2-13 bbox=133.2,205.44,276.48,217.44 label=bbbbtb 56 56
+line=56 tag=T span_id=125-2 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0,F1-7.2 bbox=133.2,205.44,276.48,217.44:     ‘What did John with a stick?’^{3}
+
+doc_id=125 page=2 block_id=2-14 bbox=133.2,162.96,297.19,189.12 label=bbbbbt 57 58
+line=57 tag=L span_id=125-3 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,177.12,296.84,189.12             :     *¿Ù-díny  Juàny tú   cùn  yàg?
+line=58 tag=G span_id=125-3 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=145.68,162.96,297.19,174.96 iscore=0.60:       com-hit John  what with stick
+
+doc_id=125 page=2 block_id=2-15 bbox=108.0,134.64,465.43,146.64 label=bbbbbbt 59 59
+line=59 fonts=F1-12.0 bbox=108.0,134.64,465.43,146.64:This suggests that SDZ shows the effects of a constraint like the following:
+
+doc_id=125 page=2 block_id=2-16 bbox=108.0,106.32,234.07,118.32 label=bbbbbbbt 60 60
+line=60 fonts=F1-12.0 bbox=108.0,106.32,234.07,118.32:(6)  Align (IntF, L, S’, L)
+
+doc_id=125 page=2 block_id=2-17 bbox=133.2,78.0,476.48,90.0 label=bbbbbbbb 61 61
+line=61 fonts=F1-12.0 bbox=133.2,78.0,476.48,90.0:     Align the left edge of interrogative focus phrase with the left edge of S’.
+
+doc_id=125 page=3 block_id=3-1 bbox=108.0,658.56,341.17,670.56 label=tt 62 62
+line=62 fonts=F1-12.0 bbox=108.0,658.56,341.17,670.56:This suggests a simple tableau like the following:
+
+doc_id=125 page=3 block_id=3-2 bbox=108.0,630.24,122.1,642.24 label=tbtt 63 63
+line=63 fonts=F1-12.0 bbox=108.0,630.24,122.1,642.24:(7)
+
+doc_id=125 page=3 block_id=3-3 bbox=312.0,610.08,412.87,622.08 label=tbtb 64 64
+line=64 fonts=F1-12.0 bbox=312.0,610.08,412.87,622.08:                                         Align (IntF, L, S’, L)
+
+doc_id=125 page=3 block_id=3-4 bbox=114.0,572.88,257.45,599.04 label=tbbt 65 66
+line=65 tag=L span_id=125-4 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0,F2-12.0 bbox=114.0,587.04,257.45,599.04     : L¿Tú   ù-díny Juàny cùn yàg?
+line=66 tag=G span_id=125-4 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=126.48,572.88,250.64,584.88 iscore=0.00:   (What hit John with stick)
+
+doc_id=125 page=3 block_id=3-5 bbox=114.0,535.68,318.0,561.84 label=tbbb 67 68
+line=67 tag=L span_id=125-5 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,549.84,318.0,561.84              : *¿Ù-díny Juàny tú cùn yàg?           *
+line=68 tag=G span_id=125-5 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=120.24,535.68,244.86,547.68 iscore=0.20:  (Hit John what with stick)
+
+doc_id=125 page=3 block_id=3-6 bbox=108.0,475.92,238.34,487.92 label=bt 69 69
+line=69 fonts=F0-12.0,F1-12.0 bbox=108.0,475.92,238.34,487.92:3 Objects of prepositions
+
+doc_id=125 page=3 block_id=3-7 bbox=108.0,433.44,504.04,459.6 label=bbt 70 71
+line=70 fonts=F1-12.0 bbox=108.0,447.6,504.04,459.6              :When  we  question the object of a preposition in this language, we get a surprising
+line=71 fonts=F1-12.0 bbox=108.0,433.44,137.79,445.44 iscore=0.07:result:
+
+doc_id=125 page=3 block_id=3-8 bbox=108.0,390.96,318.37,417.12 label=bbbt 72 73
+line=72 tag=L span_id=125-6 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,405.12,318.37,417.12            :(8)  ¿Xhí   cùn  ù-díny  Juàny  bè’cw?
+line=73 tag=G span_id=125-6 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,390.96,302.56,402.96 iscore=1.00:     what   with com-hit John   dog
+
+doc_id=125 page=3 block_id=3-9 bbox=133.2,362.64,293.61,374.64 label=bbbbt 74 74
+line=74 tag=T span_id=125-6 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,362.64,293.61,374.64:     ‘What did John hit the dog with?’
+
+doc_id=125 page=3 block_id=3-10 bbox=108.0,291.84,504.14,346.32 label=bbbbbt 75 78
+line=75 fonts=F1-12.0 bbox=108.0,334.32,504.1,346.32             :This pattern has been labelled ‘pied-piping with inversion’ (Smith Stark 1988), and
+line=76 fonts=F1-12.0 bbox=108.0,320.16,504.14,332.16 iscore=0.21:it is found in all Zapotecan languages and in many other Mesoamerican languages as
+line=77 fonts=F1-12.0 bbox=108.0,306.0,504.1,318.0 iscore=0.13   :well. (8) is the only grammatical order for this question in SDZ. It is ungrammatical
+line=78 fonts=F1-12.0 bbox=108.0,291.84,255.44,303.84 iscore=0.13:to have either of the following:
+
+doc_id=125 page=3 block_id=3-11 bbox=108.0,249.36,330.85,275.52 label=bbbbbbt 79 80
+line=79 tag=L span_id=125-7 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,263.52,330.85,275.52            :(9)  a. *¿Cùn xhí  ù-díny   Juàny  bè’cw?
+line=80 tag=G span_id=125-7 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=158.4,249.36,315.04,261.36 iscore=0.80:         with what com-hit  John   dog
+
+doc_id=125 page=3 block_id=3-12 bbox=133.2,206.88,325.8,233.04 label=bbbbbbbt 81 82
+line=81 tag=L span_id=125-8 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,221.04,325.8,233.04              :     b. *¿Xhí ù-díny   Juàny  bè’cw cùn?
+line=82 tag=G span_id=125-8 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=155.04,206.88,323.31,218.88 iscore=0.40:         what com-hit  John   dog  with
+
+doc_id=125 page=3 block_id=3-13 bbox=108.0,164.4,504.06,190.56 label=bbbbbbbb 83 84
+line=83 fonts=F1-12.0 bbox=108.0,178.56,504.06,190.56          :The ungrammaticality of (9b) seems to be due to an undominated constraint in SDZ
+line=84 fonts=F1-12.0 bbox=108.0,164.4,426.31,176.4 iscore=0.14:that forbids preposition stranding. It can be formulated as follows:
+
+doc_id=125 page=4 block_id=4-1 bbox=108.0,672.72,220.85,684.72 label=ttt 85 85
+line=85 fonts=F1-12.0 bbox=108.0,672.72,220.85,684.72:(10)   *Prep stranding
+
+doc_id=125 page=4 block_id=4-2 bbox=145.68,644.4,349.97,656.4 label=ttbt 86 86
+line=86 fonts=F1-12.0 bbox=145.68,644.4,349.97,656.4:        A preposition must be a sister to its object.
+
+doc_id=125 page=4 block_id=4-3 bbox=108.0,616.08,438.08,628.08 label=ttbb 87 87
+line=87 fonts=F1-12.0 bbox=108.0,616.08,438.08,628.08:The following ranking of constraints will select the correct candidate.
+
+doc_id=125 page=4 block_id=4-4 bbox=108.0,587.76,128.12,599.76 label=tb 88 88
+line=88 fonts=F1-12.0 bbox=108.0,587.76,128.12,599.76:(11)
+
+doc_id=125 page=4 block_id=4-5 bbox=262.8,539.28,292.09,565.44 label=btlt 89 90
+line=89 fonts=F1-12.0 bbox=262.8,553.44,290.86,565.44            :                              *Prep
+line=90 fonts=F1-12.0 bbox=262.8,539.28,292.09,551.28 iscore=1.00:                              strand
+
+doc_id=125 page=4 block_id=4-6 bbox=114.0,487.92,234.51,528.24 label=btlbt 91 93
+line=91 tag=L span_id=125-9 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,516.24,234.17,528.24            : ¿Ù-díny Juàny bè’cw cùn
+line=92 tag=L span_id=125-9 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,502.08,133.75,514.08 iscore=0.25: xhí?
+line=93 tag=G span_id=125-9 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,487.92,234.51,499.92 iscore=0.20: (Hit John dog with what)
+
+doc_id=125 page=4 block_id=4-7 bbox=114.0,436.56,234.06,476.88 label=btlbbt 94 96
+line=94 tag=L span_id=125-10 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,464.88,219.81,476.88            : ¿Cùn xhí ù-díny Juàny
+line=95 tag=L span_id=125-10 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,450.72,147.97,462.72 iscore=0.25: bè’cw?
+line=96 tag=G span_id=125-10 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,436.56,234.06,448.56 iscore=0.20: (With what hit John dog)
+
+doc_id=125 page=4 block_id=4-8 bbox=114.0,385.2,272.72,425.52 label=btlbbbt 97 99
+line=97 tag=L span_id=125-11 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,413.52,272.72,425.52            : ¿Xhí ù-díny Juàny bè’cw     *!
+line=98 tag=L span_id=125-11 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,399.36,136.22,411.36 iscore=0.20: cùn?
+line=99 tag=G span_id=125-11 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,385.2,234.06,397.2 iscore=0.20  : (What hit John dog with)
+
+doc_id=125 page=4 block_id=4-9 bbox=114.0,333.84,234.06,374.16 label=btlbbbb 100 102
+line=100 tag=L span_id=125-12 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0,F2-12.0 bbox=114.0,362.16,231.07,374.16    : L¿Xhí  cùn ù-díny Juàny
+line=101 tag=L span_id=125-12 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,348.0,147.97,360.0 iscore=0.25  : bè’cw?
+line=102 tag=G span_id=125-12 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,333.84,234.06,345.84 iscore=0.20: (What with hit John dog)
+
+doc_id=125 page=4 block_id=4-10 bbox=331.92,539.28,470.41,565.44 label=btrttt 103 104
+line=103 fonts=F1-12.0 bbox=331.92,553.44,470.41,565.44            :                                         Align (IntF,L, S’, X  <YP
+line=104 fonts=F1-12.0 bbox=331.92,539.28,343.22,551.28 iscore=0.20:                                         L)
+
+doc_id=125 page=4 block_id=4-11 bbox=331.92,516.24,359.79,528.24 label=btrttb 105 105
+line=105 fonts=F1-12.0 bbox=331.92,516.24,359.79,528.24:                                        *!***
+
+doc_id=125 page=4 block_id=4-12 bbox=331.92,464.88,341.84,476.88 label=btrtb 106 106
+line=106 fonts=F1-12.0 bbox=331.92,464.88,341.84,476.88:                                             *!
+
+doc_id=125 page=4 block_id=4-13 bbox=436.56,362.16,442.56,374.16 label=btrb 107 107
+line=107 fonts=F1-12.0 bbox=436.56,362.16,442.56,374.16:                                                       *
+
+doc_id=125 page=4 block_id=4-14 bbox=108.0,288.48,504.12,314.64 label=bbtt 108 109
+line=108 fonts=F1-12.0 bbox=108.0,302.64,504.12,314.64            :This result falls out easily from the optimality theoretic point of view, but is difficult
+line=109 fonts=F1-12.0 bbox=108.0,288.48,289.52,300.48 iscore=0.07:to get in standard movement  analyses.
+
+doc_id=125 page=4 block_id=4-15 bbox=108.0,246.0,504.08,272.16 label=bbtb 110 111
+line=110 fonts=F1-12.0 bbox=108.0,260.16,504.08,272.16         :What  is of special interest here is that the ordering of heads before complements is
+line=111 fonts=F1-12.0 bbox=108.0,246.0,255.9,258.0 iscore=0.07:treated as a violable constraint.
+
+doc_id=125 page=4 block_id=4-16 bbox=108.0,217.44,287.3,229.44 label=bbbt 112 112
+line=112 fonts=F0-12.0,F1-12.0 bbox=108.0,217.44,287.3,229.44:4 Against an alternative treatment
+
+doc_id=125 page=4 block_id=4-17 bbox=108.0,174.96,504.11,201.12 label=bbbb 113 114
+line=113 fonts=F1-12.0 bbox=108.0,189.12,504.11,201.12            :The analysis given so far predicts that the correct tree for the winning candidate in the
+line=114 fonts=F1-12.0 bbox=108.0,174.96,253.55,186.96 iscore=0.06:tableau above is the following:
+
+doc_id=125 page=5 block_id=5-1 bbox=302.64,621.36,310.32,630.0 label=tt 115 115
+line=115 fonts=F3-8.6 bbox=302.64,621.36,310.32,630.0:                                                   S’
+
+doc_id=125 page=5 block_id=5-2 bbox=190.8,576.48,379.92,585.12 label=tbt 116 116
+line=116 fonts=F3-8.6 bbox=190.8,576.48,379.92,585.12:                Spec                                S
+
+doc_id=125 page=5 block_id=5-3 bbox=194.88,531.6,453.6,540.24 label=tbbt 117 117
+line=117 fonts=F3-8.6 bbox=194.88,531.6,453.6,540.24:               PP                V           NP          NP
+
+doc_id=125 page=5 block_id=5-4 bbox=156.24,442.08,460.84,495.6 label=tbbb 118 119
+line=118 fonts=F3-8.6 bbox=159.36,486.96,460.84,495.6             :           NP              P             ù-díny         Juàny          bè’cw?
+line=119 fonts=F3-8.6 bbox=156.24,442.08,242.88,450.72 iscore=0.20:           ¿Xhí           cùn
+
+doc_id=125 page=5 block_id=5-5 bbox=108.0,251.76,504.09,374.64 label=b 120 127
+line=120 fonts=F0-10.1,F1-10.1 bbox=126.0,364.56,396.46,374.64           :    Figure 1 Proposed structure for pied-piping with inversion in SDZ
+line=121 fonts=F1-12.0 bbox=108.0,336.72,504.08,348.72 iscore=0.08       :However,  this structure is incompatible with the view that constituent order is fixed
+line=122 fonts=F1-12.0 bbox=108.0,322.56,504.07,334.56 iscore=0.13       :by the PS-rules. In particular, it is not compatible with Kayne’s (1994) view that the
+line=123 fonts=F1-12.0 bbox=108.0,308.4,372.09,320.4 iscore=0.07         :grammar  universally forces Spec-Head-Comp  ordering.
+line=124 fonts=F1-12.0 bbox=145.68,294.24,504.08,306.24 iscore=0.08      :        A defender of Kayne’s position would need to propose a derivation in which
+line=125 fonts=F1-12.0 bbox=108.0,280.08,504.05,292.08 iscore=0.28       :PP is first moved to Spec. Subsequent to this, the NP object is moved out of the PP
+line=126 fonts=F1-12.0 bbox=108.0,265.92,504.09,277.92 iscore=0.22       :to some position further to the left. In fact, an analysis like this has been suggested
+line=127 fonts=F1-12.0,F1-7.2 bbox=108.0,251.76,305.76,263.76 iscore=0.12:by Black (1994) for Quiegolani Zapotec.^{4}
+
+doc_id=125 page=6 block_id=6-1 bbox=169.2,596.64,354.19,661.44 label=tt 128 129
+line=128 fonts=F3-10.3 bbox=298.8,651.12,313.29,661.44            :                              CP
+line=129 fonts=F3-10.3 bbox=169.2,596.64,354.19,606.96 iscore=0.00:         DP                          C’
+
+doc_id=125 page=6 block_id=6-2 bbox=165.6,528.72,440.43,552.48 label=tbt 130 131
+line=130 fonts=F3-10.3 bbox=165.6,542.16,440.43,552.48             :          Who                    PP                     X’
+line=131 fonts=F3-10.3 bbox=293.52,528.72,318.67,539.04 iscore=0.00:                                [+wh]
+
+doc_id=125 page=6 block_id=6-3 bbox=258.72,433.2,440.07,498.0 label=tbb 132 133
+line=132 fonts=F3-10.3 bbox=259.68,487.68,440.07,498.0            :                                 P                DP                  ...
+line=133 fonts=F3-10.3 bbox=258.72,433.2,350.87,443.52 iscore=0.00:                                to                  t
+
+doc_id=125 page=6 block_id=6-4 bbox=108.0,209.28,504.17,374.64 label=bt 134 144
+line=134 fonts=F0-10.1,F1-10.1 bbox=126.0,364.56,391.47,374.64            :    Figure 2 Proposed structure for Quiegolani Zapotec (Black 1994)
+line=135 fonts=F1-12.0 bbox=145.68,336.72,504.06,348.72 iscore=0.08       :        A real problem for such an approach is the preposition stranding created by
+line=136 fonts=F1-12.0 bbox=108.0,322.56,504.06,334.56 iscore=0.31        :the second application of a movement   rule. Many  languages  show  a restriction
+line=137 fonts=F1-12.0 bbox=108.0,308.4,504.08,320.4 iscore=0.25          :against preposition stranding, and within Principles and Parameters approaches there
+line=138 fonts=F1-12.0 bbox=108.0,294.24,504.04,306.24 iscore=0.15        :have been a variety of proposed explanations of this restriction. For example, van
+line=139 fonts=F1-12.0 bbox=108.0,280.08,504.09,292.08 iscore=0.36        :Riemsdijk (1978) suggest that PP is a bounding node in languages with no preposition
+line=140 fonts=F1-12.0 bbox=108.0,265.92,504.04,277.92 iscore=0.14        :stranding, and Kayne  (1981) suggests that in languages with a restriction against
+line=141 fonts=F1-12.0 bbox=108.0,251.76,401.83,263.76 iscore=0.08        :preposition stranding, the preposition assigns an oblique case.
+line=142 fonts=F1-12.0 bbox=145.68,237.6,504.07,249.6 iscore=0.18         :        Whatever the account of the restriction against preposition stranding, it ought
+line=143 fonts=F1-12.0,F4-12.0 bbox=108.0,223.44,504.17,235.44 iscore=0.15:to apply in equal force to extraction from a PP which is in situ and a PP which is in
+line=144 fonts=F1-12.0 bbox=108.0,209.28,223.55,221.28 iscore=0.05        :sentence-initial position.
+
+doc_id=125 page=6 block_id=6-5 bbox=108.0,180.72,233.07,192.72 label=bbt 145 145
+line=145 fonts=F0-12.0,F1-12.0 bbox=108.0,180.72,233.07,192.72:5 Questioning  specifiers
+
+doc_id=125 page=6 block_id=6-6 bbox=108.0,152.4,350.52,164.4 label=bbb 146 146
+line=146 fonts=F1-12.0 bbox=108.0,152.4,350.52,164.4:In SDZ, specifiers of NP normally follow the head:
+
+doc_id=125 page=7 block_id=7-1 bbox=108.0,658.56,284.64,684.72 label=tt 147 148
+line=147 fonts=F1-12.0,F1-7.2 bbox=108.0,672.72,284.64,684.72     :(12) x-pè’cw Juàny   ‘John’s dog’^{5}
+line=148 fonts=F1-12.0 bbox=133.2,658.56,196.41,670.56 iscore=0.25:     p-dog  John
+
+doc_id=125 page=7 block_id=7-2 bbox=133.2,616.08,268.54,642.24 label=tb 149 150
+line=149 tag=L-T span_id=125-14 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,630.24,268.54,642.24          :     bè’cw re’        ‘that dog’
+line=150 tag=G span_id=125-14 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,616.08,182.09,628.08 iscore=0.50:     dog   that
+
+doc_id=125 page=7 block_id=7-3 bbox=108.0,573.6,504.1,599.76 label=btt 151 152
+line=151 fonts=F1-12.0 bbox=120.48,587.76,504.1,599.76          :  We  also see pied-piping with inversion for genitives and demonstratives. Compare
+line=152 fonts=F1-12.0 bbox=108.0,573.6,295.75,585.6 iscore=0.00:the following statements and questions.
+
+doc_id=125 page=7 block_id=7-4 bbox=108.0,531.12,285.41,557.28 label=btb 153 154
+line=153 tag=L span_id=125-15 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,545.28,279.9,557.28             :(13) Juà:ny cù’á  x-pè’cw Màrì:.
+line=154 tag=G span_id=125-15 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,531.12,285.41,543.12 iscore=0.50:     John  com:grab p-dog   Mary
+
+doc_id=125 page=7 block_id=7-5 bbox=133.2,502.8,299.58,514.8 label=bbtt 155 155
+line=155 tag=T span_id=125-15 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,502.8,299.58,514.8:     ‘John grabbed Mary’s dog.’ 4:214
+
+doc_id=125 page=7 block_id=7-6 bbox=133.2,460.32,295.74,486.48 label=bbtbt 156 157
+line=156 tag=L span_id=125-16 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,474.48,295.74,486.48             :     *Juà:ny cù’á    Màrì: x-pè’cw.
+line=157 tag=G span_id=125-16 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=139.44,460.32,279.17,472.32 iscore=0.50:      John  com:grab Mary p-dog
+
+doc_id=125 page=7 block_id=7-7 bbox=108.0,417.84,281.95,444.0 label=bbtbbt 158 159
+line=158 tag=L span_id=125-17 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,432.0,281.95,444.0               :(14) ¿Tú  x-pè’cw cù’á   Juàny?
+line=159 tag=G span_id=125-17 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=139.44,417.84,277.46,429.84 iscore=0.25:      who p-dog   com:grab John
+
+doc_id=125 page=7 block_id=7-8 bbox=133.2,389.52,299.04,401.52 label=bbtbbbt 160 160
+line=160 tag=T span_id=125-17 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,389.52,299.04,401.52:     ‘Whose dog did John grab?’ 4:214
+
+doc_id=125 page=7 block_id=7-9 bbox=133.2,347.04,291.55,373.2 label=bbtbbbb 161 162
+line=161 tag=L span_id=125-18 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,361.2,291.55,373.2               :    *¿X-pè’cw tú  cù’á     Juány?
+line=162 tag=G span_id=125-18 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=145.68,347.04,280.58,359.04 iscore=0.75:       p-dog  who com:grab John
+
+doc_id=125 page=7 block_id=7-10 bbox=108.0,290.4,504.07,330.72 label=bbbt 163 165
+line=163 fonts=F1-12.0 bbox=108.0,318.72,504.03,330.72            :These  sentences show  that the possessor may  not precede the possessed  in a
+line=164 fonts=F1-12.0 bbox=108.0,304.56,504.07,316.56 iscore=0.31:declarative. But in an interrogative, this is the only grammatical order. The
+line=165 fonts=F1-12.0 bbox=108.0,290.4,398.01,302.4 iscore=0.08  :following sentences make the same point for demonstratives:
+
+doc_id=125 page=7 block_id=7-11 bbox=108.0,247.92,264.66,274.08 label=bbbbt 166 167
+line=166 tag=L span_id=125-19 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,262.08,260.24,274.08            :(15) Juàny cù’á     bè’cw re’
+line=167 tag=G span_id=125-19 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,247.92,264.66,259.92 iscore=0.75:     John  com:grab dog   that
+
+doc_id=125 page=7 block_id=7-12 bbox=133.2,219.6,250.35,231.6 label=bbbbbt 168 168
+line=168 tag=T span_id=125-19 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,219.6,250.35,231.6:     ‘John grabbed that dog.’
+
+doc_id=125 page=7 block_id=7-13 bbox=133.2,177.12,266.25,203.28 label=bbbbbb 169 170
+line=169 tag=L span_id=125-20 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,191.28,266.25,203.28             :     *Juàny cù’á   re’  bè’cw.
+line=170 tag=G span_id=125-20 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=136.32,177.12,249.38,189.12 iscore=0.50:     John com:grab that dog
+
+doc_id=125 page=8 block_id=8-1 bbox=108.0,658.56,272.59,684.72 label=tttt 171 172
+line=171 tag=L span_id=125-21 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,672.72,272.59,684.72            :(16) ¿Tú   bè’cw cù’á     Juàny?
+line=172 tag=G span_id=125-21 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,658.56,265.76,670.56 iscore=1.00:     which dog   com:grab John
+
+doc_id=125 page=8 block_id=8-2 bbox=133.2,630.24,265.8,642.24 label=tttb 173 173
+line=173 tag=T span_id=125-21 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,630.24,265.8,642.24:     ‘Which dog did John grab?’
+
+doc_id=125 page=8 block_id=8-3 bbox=133.2,587.76,294.88,613.92 label=ttbtt 174 175
+line=174 tag=L span_id=125-22 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,601.92,294.88,613.92             :     *¿Bè’cw tú   cù’á     Juà:ny?
+line=175 tag=G span_id=125-22 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=145.68,587.76,281.61,599.76 iscore=0.50:       dog  which com:grab John
+
+doc_id=125 page=8 block_id=8-4 bbox=108.0,516.96,504.13,571.44 label=ttbtbt 176 179
+line=176 fonts=F1-12.0,F4-12.0 bbox=108.0,559.44,504.08,571.44            :Note that the interrogative tú is the equivalent of both ‘who, what (animate)’ and
+line=177 fonts=F1-12.0 bbox=108.0,545.28,504.09,557.28 iscore=0.21        :‘which (animate)’ in SDZ. Within a NP, the two are differentiated by the presence
+line=178 fonts=F1-12.0 bbox=108.0,531.12,504.13,543.12 iscore=0.33        :of the /x-/ possessive prefix on the noun when there is a genitive. The same is true for
+line=179 fonts=F1-12.0,F4-12.0 bbox=108.0,516.96,485.16,528.96 iscore=0.28:xhí, which is the equivalent of both ‘what (inanimate)’ and ‘which (inanimate)’.
+
+doc_id=125 page=8 block_id=8-5 bbox=108.0,474.48,504.11,500.64 label=ttbtbbt 180 181
+line=180 fonts=F1-12.0 bbox=145.68,488.64,504.11,500.64           :       As  in English, it is ungrammatical to attempt to extract either a determiner or
+line=181 fonts=F1-12.0 bbox=108.0,474.48,364.63,486.48 iscore=0.07:a possessive from the NP without pied-piping the NP:
+
+doc_id=125 page=8 block_id=8-6 bbox=108.0,432.0,288.63,458.16 label=ttbtbbb 182 183
+line=182 tag=L span_id=125-23 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,446.16,288.63,458.16           :(17) *¿Tú   cù’á     Juàny bè’cw?
+line=183 tag=G span_id=125-23 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=145.68,432.0,275.12,444.0 iscore=0.50:       which com:grab John dog
+
+doc_id=125 page=8 block_id=8-7 bbox=145.68,403.68,278.74,415.68 label=ttbbtt 184 184
+line=184 tag=T span_id=125-23 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=145.68,403.68,278.74,415.68:       (Which did John grab dog?)
+
+doc_id=125 page=8 block_id=8-8 bbox=108.0,361.2,295.56,387.36 label=ttbbtb 185 186
+line=185 tag=L span_id=125-24 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,375.36,295.56,387.36           :(18) *¿Tú  cù’á     Juàny x-pè’cw?
+line=186 tag=G span_id=125-24 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=145.68,361.2,281.28,373.2 iscore=0.75:       who com:grab John  p-dog
+
+doc_id=125 page=8 block_id=8-9 bbox=145.68,332.88,280.86,344.88 label=ttbbb 187 187
+line=187 tag=T span_id=125-24 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=145.68,332.88,280.86,344.88:       (Whose did John grab dog?)
+
+doc_id=125 page=8 block_id=8-10 bbox=108.0,290.4,426.34,302.4 label=tbtt 188 188
+line=188 fonts=F1-12.0 bbox=108.0,290.4,426.34,302.4:These facts are easily handled if we posit the following constraints:
+
+doc_id=125 page=8 block_id=8-11 bbox=108.0,262.08,198.62,274.08 label=tbtb 189 189
+line=189 fonts=F1-12.0 bbox=108.0,262.08,198.62,274.08:(19) X’ < specifier
+
+doc_id=125 page=8 block_id=8-12 bbox=133.2,233.76,302.5,245.76 label=tbbt 190 190
+line=190 fonts=F1-12.0 bbox=133.2,233.76,302.5,245.76:     X’ precedes the specifier within XP
+
+doc_id=125 page=8 block_id=8-13 bbox=108.0,205.44,205.46,217.44 label=tbbbt 191 191
+line=191 fonts=F1-12.0 bbox=108.0,205.44,205.46,217.44:(20) *NP extraction
+
+doc_id=125 page=8 block_id=8-14 bbox=133.2,177.12,334.65,189.12 label=tbbbb 192 192
+line=192 fonts=F1-12.0 bbox=133.2,177.12,334.65,189.12:     The specifier of NP must be a sister of N’.
+
+doc_id=125 page=8 block_id=8-15 bbox=108.0,120.48,504.09,146.64 label=b 193 194
+line=193 fonts=F1-12.0 bbox=108.0,134.64,504.09,146.64            :Then the following tableau (for the possessive case) shows how the correct candidate
+line=194 fonts=F1-12.0 bbox=108.0,120.48,159.92,132.48 iscore=0.08:is selected.
+
+doc_id=125 page=9 block_id=9-1 bbox=108.0,672.72,128.12,684.72 label=tt 195 195
+line=195 fonts=F1-12.0 bbox=108.0,672.72,128.12,684.72:(21)
+
+doc_id=125 page=9 block_id=9-2 bbox=114.0,572.88,217.75,627.36 label=tbtlt 196 199
+line=196 tag=L span_id=125-25 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,615.36,199.08,627.36            : ¿Tú cù’á Juàny x-
+line=197 tag=L span_id=125-25 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,601.2,148.17,613.2 iscore=0.25  : pè’cw?
+line=198 tag=G span_id=125-25 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,587.04,217.75,599.04 iscore=0.33: (Whose John grabbed
+line=199 tag=G span_id=125-25 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,572.88,141.35,584.88 iscore=0.33: dog?)
+
+doc_id=125 page=9 block_id=9-3 bbox=114.0,441.84,213.86,561.84 label=tbtlb 200 207
+line=200 tag=L span_id=125-26 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0,F2-12.0 bbox=114.0,549.84,208.88,561.84    : L¿Tú  x-pè’cw cù’á
+line=201 tag=L span_id=125-26 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,535.68,146.35,547.68 iscore=0.33: Juàny?
+line=202 tag=G span_id=125-26 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,521.52,213.64,533.52 iscore=0.33: (Whose dog grabbed
+line=203 tag=G span_id=125-26 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,507.36,145.53,519.36 iscore=0.33: John?)
+line=204 tag=L span_id=125-27 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,484.32,196.85,496.32 iscore=0.33: ¿X-pè’cw tú cù’á
+line=205 tag=L span_id=125-27 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,470.16,146.35,482.16 iscore=0.33: Juàny?
+line=206 tag=G span_id=125-27 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,456.0,213.86,468.0 iscore=0.33  : (Dog whose grabbed
+line=207 tag=G span_id=125-27 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,441.84,145.53,453.84 iscore=0.33: John?)
+
+doc_id=125 page=9 block_id=9-4 bbox=233.28,638.4,496.22,650.4 label=tbtrtt 208 208
+line=208 fonts=F1-12.0 bbox=233.28,638.4,496.22,650.4:                         *NP  extraction  Align (IntF,L, S’, L) X’ < specifier
+
+doc_id=125 page=9 block_id=9-5 bbox=233.28,615.36,243.2,627.36 label=tbtrtb 209 209
+line=209 fonts=F1-12.0 bbox=233.28,615.36,243.2,627.36:                         *!
+
+doc_id=125 page=9 block_id=9-6 bbox=430.8,549.84,436.8,561.84 label=tbtrbt 210 210
+line=210 fonts=F1-12.0 bbox=430.8,549.84,436.8,561.84:                                                      *
+
+doc_id=125 page=9 block_id=9-7 bbox=318.96,484.32,328.88,496.32 label=tbtrbb 211 211
+line=211 fonts=F1-12.0 bbox=318.96,484.32,328.88,496.32:                                           *!
+
+doc_id=125 page=9 block_id=9-8 bbox=108.0,338.16,504.15,422.64 label=tbbt 212 217
+line=212 fonts=F1-12.0 bbox=108.0,410.64,504.1,422.64             :Once  again, these facts present a real difficulty for the Kaynean view of phrase
+line=213 fonts=F1-12.0 bbox=108.0,396.48,504.15,408.48 iscore=0.14:structure. In this example, the initial position of specifiers seen in wh-questions must
+line=214 fonts=F1-12.0 bbox=108.0,382.32,504.06,394.32 iscore=0.29:probably  be taken  as the basic order, with  the final position of specifiers in
+line=215 fonts=F1-12.0 bbox=108.0,368.16,504.13,380.16 iscore=0.21:declaratives derived via movement  of the head, possibly along the following lines
+line=216 fonts=F1-12.0 bbox=108.0,354.0,194.28,366.0 iscore=0.08  :shown  in figure 3:
+line=217 fonts=F3-8.2 bbox=273.84,338.16,287.05,346.32 iscore=0.00:                                  FP
+
+doc_id=125 page=9 block_id=9-9 bbox=237.12,252.48,382.78,321.84 label=tbbbt 218 221
+line=218 fonts=F3-8.2 bbox=237.12,313.68,332.14,321.84                   :                       Spec          DP
+line=219 fonts=F3-5.3,F3-8.2 bbox=239.76,291.84,354.76,302.16 iscore=0.33:                       dog_{i}  Spec      D'
+line=220 fonts=F3-8.2 bbox=288.24,269.28,382.78,282.24 iscore=0.33       :                                John   D      NP
+line=221 fonts=F3-5.3,F3-8.2 bbox=328.08,252.48,379.47,262.56 iscore=0.50:                                       t_{1}   N
+
+doc_id=125 page=9 block_id=9-10 bbox=217.44,201.6,378.3,242.88 label=tbbbb 222 223
+line=222 fonts=F3-5.3,F3-8.2 bbox=372.24,232.8,378.3,242.88               :                                                              t_{1}
+line=223 fonts=F0-10.1,F1-10.1 bbox=217.44,201.6,342.03,211.68 iscore=0.00:                          Figure 3 A possible derivation
+
+doc_id=125 page=9 block_id=9-11 bbox=108.0,84.96,504.12,167.76 label=b 224 229
+line=224 fonts=F1-12.0 bbox=108.0,155.76,504.08,167.76                   :In this tree, FP represents a maximal projection headed by some feature (possibly
+line=225 fonts=F1-12.0 bbox=108.0,141.6,504.08,153.6 iscore=0.21         :Case or Number) and N moves from the head of NP to the head of FP via the empty
+line=226 fonts=F1-12.0 bbox=108.0,127.44,146.15,139.44 iscore=0.05       :D node.
+line=227 fonts=F1-12.0 bbox=133.2,113.28,504.1,125.28 iscore=0.00        :     The unanswered question, of course, is why this movement must occur when the
+line=228 fonts=F1-12.0,F4-12.0 bbox=108.0,99.12,504.12,111.12 iscore=0.16:FP is in situ but may not appear when the phrase is pied-piped to the front of S’. One
+line=229 fonts=F1-12.0 bbox=108.0,84.96,504.08,96.96 iscore=0.21         :could claim that only the DP gets pied-piped, but this would raise two questions: 1.)
+
+doc_id=125 page=10 block_id=10-1 bbox=108.0,516.96,504.08,684.72 label=tt 230 240
+line=230 fonts=F1-12.0 bbox=108.0,672.72,504.08,684.72                            :Why  is FP pied-piping is not possible? and 2.) If N is forced to move to the head of
+line=231 fonts=F1-12.0 bbox=108.0,658.56,467.37,670.56 iscore=0.11                :FP to check some feature, how is this feature checked if only DP is moved?
+line=232 fonts=F1-12.0 bbox=133.2,644.4,283.98,656.4 iscore=0.00                  :     Theoptimalitytheoreticaccount
+line=233 fonts=F1-12.0 bbox=108.0,630.24,283.93,642.24 iscore=0.00                :of  constituent  ordering   doesn’t
+line=234 fonts=F1-12.0 bbox=108.0,616.08,283.98,628.08 iscore=0.60                :encounter  these problems.  In this
+line=235 fonts=F1-12.0 bbox=108.0,601.92,283.91,613.92 iscore=0.38                :view, NP  can have either of the two
+line=236 fonts=F1-12.0 bbox=108.0,587.76,227.35,599.76 iscore=0.25                :orders shown in figure 4.
+line=237 fonts=F0-10.1,F1-10.1,F1-12.0 bbox=108.0,559.44,437.11,571.44 iscore=0.08:violable constraints, and a language Figure 4 Two possible orders for PP
+line=238 fonts=F1-12.0 bbox=108.0,545.28,284.02,557.28 iscore=0.17                :like SDZ   can   easily show   both
+line=239 fonts=F1-12.0 bbox=108.0,531.12,504.06,543.12 iscore=0.25                :possibilities in different contexts. This account also correctly connects the word order
+line=240 fonts=F1-12.0 bbox=108.0,516.96,417.19,528.96 iscore=0.23                :variation seen in NPs to that seen in the same conditions for PPs.
+
+doc_id=125 page=10 block_id=10-2 bbox=108.0,488.4,194.19,500.4 label=tbt 241 241
+line=241 fonts=F0-12.0,F1-12.0 bbox=108.0,488.4,194.19,500.4:6 Complications
+
+doc_id=125 page=10 block_id=10-3 bbox=108.0,445.92,504.07,472.08 label=tbbt 242 243
+line=242 fonts=F1-12.0 bbox=108.0,460.08,504.07,472.08            :What happens when  we attempt to question the specifier of the object of a prepostion
+line=243 fonts=F1-12.0 bbox=108.0,445.92,482.49,457.92 iscore=0.40:in SDZ?  The following examples show that there are two grammatical results:
+
+doc_id=125 page=10 block_id=10-4 bbox=108.0,403.44,318.49,429.6 label=tbbbt 244 245
+line=244 tag=L span_id=125-28 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,417.6,316.32,429.6              :(22) Ù-díny  Juàny bè’cw cùn   yàg   ré’.
+line=245 tag=G span_id=125-28 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,403.44,318.49,415.44 iscore=0.83:     com-hit John  dog   with  stick that
+
+doc_id=125 page=10 block_id=10-5 bbox=133.2,375.12,291.65,387.12 label=tbbbb 246 246
+line=246 tag=T span_id=125-28 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,375.12,291.65,387.12:     ‘John hit the dog with that stick.’
+
+doc_id=125 page=10 block_id=10-6 bbox=108.0,332.64,343.57,358.8 label=btt 247 248
+line=247 tag=L span_id=125-29 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,346.8,343.57,358.8               :(23) ¿Cùn   xhí    yàg   ù-díny  Juàny bè’cw?
+line=248 tag=G span_id=125-29 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=139.44,332.64,327.76,344.64 iscore=0.67:      with which   stick com-hit John  dog
+
+doc_id=125 page=10 block_id=10-7 bbox=133.2,304.32,324.11,316.32 label=btbt 249 249
+line=249 tag=T span_id=125-29 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,304.32,324.11,316.32:     ‘With which stick did John hit the dog?’
+
+doc_id=125 page=10 block_id=10-8 bbox=108.0,261.84,330.85,288.0 label=btbbt 250 251
+line=250 tag=L span_id=125-30 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,276.0,330.85,288.0               :(24) ¿Xhí   cùn  yàg   ù-díny Juàny bè’cw?
+line=251 tag=G span_id=125-30 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=136.32,261.84,315.04,273.84 iscore=0.83:     which  with stick com-hit John dog
+
+doc_id=125 page=10 block_id=10-9 bbox=133.2,233.52,324.58,245.52 label=btbbbt 252 252
+line=252 tag=T span_id=125-30 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,233.52,324.58,245.52:     (Which with stick did John hit the dog?)
+
+doc_id=125 page=10 block_id=10-10 bbox=108.0,205.2,395.63,217.2 label=btbbbb 253 253
+line=253 fonts=F1-12.0 bbox=108.0,205.2,395.63,217.2:Three other logically possible candidates are ungrammatical:
+
+doc_id=125 page=10 block_id=10-11 bbox=108.0,162.72,343.57,188.88 label=bbt 254 255
+line=254 tag=L span_id=125-31 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,176.88,343.57,188.88             :(25) *¿Xhí    yàg   cùn  ù-díny Juàny bè’cw?
+line=255 tag=G span_id=125-31 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=142.56,162.72,327.76,174.72 iscore=0.67:      which   stick with com-hit John dog
+
+doc_id=125 page=10 block_id=10-12 bbox=108.0,120.24,329.67,146.4 label=bbb 256 257
+line=256 tag=L span_id=125-32 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,134.4,329.67,146.4               :(26) *¿Yàg  xhí  cùn ù-díny  Juàny bè’cw?
+line=257 tag=G span_id=125-32 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=145.68,120.24,315.04,132.24 iscore=0.50:       stick which with com-hit John dog
+
+doc_id=125 page=11 block_id=11-1 bbox=108.0,658.56,344.3,684.72 label=t 258 259
+line=258 tag=L span_id=125-33 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,672.72,344.3,684.72              :(27) *¿Xhí    yàg   ù-díny  Juàny bè’cw cùn?
+line=259 tag=G span_id=125-33 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=145.68,658.56,343.07,670.56 iscore=0.83:       which  stick com-hit John  dog   with
+
+doc_id=125 page=11 block_id=11-2 bbox=108.0,616.08,360.57,628.08 label=bt 260 260
+line=260 fonts=F1-12.0 bbox=108.0,616.08,360.57,628.08:Exactly the same facts are found with the possessive:
+
+doc_id=125 page=11 block_id=11-3 bbox=108.0,573.6,343.57,599.76 label=bbtt 261 262
+line=261 tag=L span_id=125-34 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,587.76,343.57,599.76           :(28) ¿Cùn tú    x-cyàg ù-díny   Juàny bè’cw?
+line=262 tag=G span_id=125-34 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=136.32,573.6,327.76,585.6 iscore=0.83:     with whose p-stick com-hit John  dog
+
+doc_id=125 page=11 block_id=11-4 bbox=133.2,545.28,326.25,557.28 label=bbtb 263 263
+line=263 tag=T span_id=125-34 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,545.28,326.25,557.28:     ‘With whose stick did John hit the dog?’
+
+doc_id=125 page=11 block_id=11-5 bbox=108.0,502.8,343.57,528.96 label=bbbtt 264 265
+line=264 tag=L span_id=125-35 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,516.96,343.57,528.96           :(29) ¿Tú    cùn  x-cyàg  ù-díny  Juàny bè’cw?
+line=265 tag=G span_id=125-35 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=139.44,502.8,327.76,514.8 iscore=0.83:      whose with p-stick com-hit John  dog
+
+doc_id=125 page=11 block_id=11-6 bbox=133.2,474.48,326.71,486.48 label=bbbtbt 266 266
+line=266 tag=T span_id=125-35 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,474.48,326.71,486.48:     (Whose with stick did John hit the dog?)
+
+doc_id=125 page=11 block_id=11-7 bbox=108.0,432.0,356.05,458.16 label=bbbtbb 267 268
+line=267 tag=L span_id=125-36 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,446.16,356.05,458.16           :(30) *¿Tú     x-cyàg cùn ù-díny  Juàny bè’cw?
+line=268 tag=G span_id=125-36 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=142.56,432.0,327.76,444.0 iscore=0.50:      whose   p-stick with com-hit John dog
+
+doc_id=125 page=11 block_id=11-8 bbox=108.0,389.52,354.87,415.68 label=bbbbtt 269 270
+line=269 tag=L span_id=125-37 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,403.68,354.87,415.68             :(31) *¿X-cyàg  tú    cùn ù-díny  Juàny bè’cw?
+line=270 tag=G span_id=125-37 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=145.68,389.52,340.24,401.52 iscore=0.50:       p-stick whose with com-hit John  dog
+
+doc_id=125 page=11 block_id=11-9 bbox=108.0,347.04,369.5,373.2 label=bbbbtb 271 272
+line=271 tag=L span_id=125-38 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,361.2,369.5,373.2                :(32) *¿Tú     x-cyàg   ù-díny  Juàny bè’cw  cùn?
+line=272 tag=G span_id=125-38 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=145.68,347.04,368.27,359.04 iscore=0.83:       whose  p-stick  com-hit John  dog    with
+
+doc_id=125 page=11 block_id=11-10 bbox=108.0,304.56,504.07,330.72 label=bbbbbtt 273 274
+line=273 fonts=F1-12.0 bbox=108.0,318.72,504.07,330.72            :The two  grammatical possibilities for such questions, with suggested labels, are
+line=274 fonts=F1-12.0 bbox=108.0,304.56,174.32,316.56 iscore=0.09:shown  below:
+
+doc_id=125 page=11 block_id=11-11 bbox=108.0,262.08,370.44,288.24 label=bbbbbtbt 275 276
+line=275 fonts=F1-12.0 bbox=108.0,276.24,360.34,288.24            :(33) a. Prep Wh   N .........      (P-initial question)
+line=276 fonts=F1-12.0 bbox=133.2,262.08,370.44,274.08 iscore=0.71:     b. Wh  Prep  N .........      (Wh-initial question)
+
+doc_id=125 page=11 block_id=11-12 bbox=108.0,233.76,462.0,245.76 label=bbbbbtbbt 277 277
+line=277 fonts=F1-12.0,F1-7.2 bbox=108.0,233.76,462.0,245.76:Due  to space restrictions, this paper only examines the P-initial questions.^{6}
+
+doc_id=125 page=11 block_id=11-13 bbox=108.0,177.12,504.09,217.44 label=bbbbbtbbb 278 280
+line=278 fonts=F1-12.0 bbox=145.68,205.44,504.09,217.44           :        The key  to explaining why P-initial questions occur is understanding the
+line=279 fonts=F1-12.0 bbox=108.0,191.28,504.06,203.28 iscore=0.18:constraints that rule out alternative candidates. Consider again the following pair
+line=280 fonts=F1-12.0 bbox=108.0,177.12,217.71,189.12 iscore=0.18:(repeated from above):
+
+doc_id=125 page=11 block_id=11-14 bbox=108.0,134.64,368.77,160.8 label=bbbbbbt 281 282
+line=281 tag=L span_id=125-39 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,148.8,368.77,160.8               :(34) ¿Cùn   tú     x-cyàg   ù-díny  Juàny bè’cw?
+line=282 tag=G span_id=125-39 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=139.44,134.64,327.76,146.64 iscore=0.17:      with whose   p-stick com-hit John dog
+
+doc_id=125 page=11 block_id=11-15 bbox=133.2,106.32,326.25,118.32 label=bbbbbbb 283 283
+line=283 tag=T span_id=125-39 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=133.2,106.32,326.25,118.32:     ‘With whose stick did John hit the dog?’
+
+doc_id=125 page=12 block_id=12-1 bbox=108.0,658.56,356.05,684.72 label=t 284 285
+line=284 tag=L span_id=125-40 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,672.72,356.05,684.72             :(35) *¿Tú     x-cyàg  cùn  ù-díny Juàny bè’cw?
+line=285 tag=G span_id=125-40 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=142.56,658.56,340.24,670.56 iscore=0.67:      whose   p-stick with com-hit John dog
+
+doc_id=125 page=12 block_id=12-2 bbox=108.0,516.96,504.11,628.08 label=btt 286 293
+line=286 fonts=F1-12.0 bbox=108.0,616.08,504.04,628.08            :The candidate sentence in (37) requires a structure for PP in which two ordering
+line=287 fonts=F1-12.0 bbox=108.0,601.92,504.03,613.92 iscore=0.29:constraints—  X <  YP  and X’  <  specifier—are violated. We   have seen that
+line=288 fonts=F1-12.0 bbox=108.0,587.76,504.01,599.76 iscore=0.08:individually both of these constraints are outranked by Align (IntF, L, S’, L).
+line=289 fonts=F1-12.0 bbox=108.0,573.6,504.1,585.6 iscore=0.23   :However,  it seems that a candidate which simultaneously violates both ordering
+line=290 fonts=F1-12.0 bbox=108.0,559.44,504.03,571.44 iscore=0.29:preferences is completely ruled out. To account for this, I will follow the now
+line=291 fonts=F1-12.0 bbox=108.0,545.28,504.07,557.28 iscore=0.14:standard assumption  in phonology  that the conjunction of constraints may be
+line=292 fonts=F1-12.0 bbox=108.0,531.12,504.11,543.12 iscore=0.25:separately ranked. The ungrammaticality of the following example also shows us that
+line=293 fonts=F1-12.0 bbox=108.0,516.96,414.76,528.96 iscore=0.25:of the two ordering preferences, X < YP outranks X’< specifier:
+
+doc_id=125 page=12 block_id=12-3 bbox=108.0,474.48,354.87,500.64 label=btb 294 295
+line=294 tag=L span_id=125-41 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=108.0,488.64,354.87,500.64             :(36) *¿X-cyàg  tú    cùn  ù-díny  Juàny bè’cw?
+line=295 tag=G span_id=125-41 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=145.68,474.48,340.24,486.48 iscore=0.67:       p-stick whose with com-hit John  dog
+
+doc_id=125 page=12 block_id=12-4 bbox=108.0,417.84,504.09,444.0 label=bb 296 297
+line=296 fonts=F1-12.0 bbox=108.0,432.0,504.09,444.0              :We  can account for success of the P-initial candidate relative to the other candidates
+line=297 fonts=F1-12.0 bbox=108.0,417.84,235.55,429.84 iscore=0.14:with the following tableau:
+
+doc_id=125 page=13 block_id=13-1 bbox=191.76,652.56,237.83,664.56 label=tlt 298 298
+line=298 fonts=F1-12.0 bbox=191.76,652.56,237.83,664.56:                *P-strand
+
+doc_id=125 page=13 block_id=13-2 bbox=114.0,263.04,201.68,627.36 label=tlb 299 322
+line=299 tag=L span_id=125-42 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,615.36,166.41,627.36                    : ¿X-cyàg tú
+line=300 tag=L span_id=125-42 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,601.2,164.55,613.2 iscore=0.50          : cùn ù-díny
+line=301 tag=L span_id=125-42 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,587.04,178.23,599.04 iscore=0.50        : Juàny  bè’cw?
+line=302 tag=G span_id=125-42 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,572.88,176.19,584.88 iscore=1.00        : (Stick whose
+line=303 tag=G span_id=125-42 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,558.72,175.79,570.72 iscore=0.33        : with hit John
+line=304 tag=G span_id=125-42 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,544.56,154.04,556.56 iscore=0.33        : the dog)
+line=305 tag=L span_id=125-43 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0,F2-12.0 bbox=114.0,521.52,175.29,533.52 iscore=0.33: L¿Cùn  tú x-
+line=306 tag=L span_id=125-43 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,507.36,169.61,519.36 iscore=0.33        : cyàg ù-díny
+line=307 tag=L span_id=125-43 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,493.2,178.23,505.2 iscore=0.50          : Juàny bè’cw?
+line=308 tag=G span_id=125-43 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,479.04,175.04,491.04 iscore=1.00        : (With whose
+line=309 tag=G span_id=125-43 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,464.88,177.21,476.88 iscore=0.33        : stick hit John
+line=310 tag=G span_id=125-43 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,450.72,154.04,462.72 iscore=0.33        : the dog)
+line=311 tag=L span_id=125-44 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,427.68,167.41,439.68 iscore=0.50        : ¿Tú x-cyàg
+line=312 tag=L span_id=125-44 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,413.52,164.55,425.52 iscore=1.00        : cùn ù-díny
+line=313 tag=L span_id=125-44 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,399.36,178.23,411.36 iscore=0.50        : Juàny bè’cw?
+line=314 tag=G span_id=125-44 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,385.2,176.46,397.2 iscore=0.50          : (Whose  stick
+line=315 tag=G span_id=125-44 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,371.04,175.79,383.04 iscore=0.33        : with hit John
+line=316 tag=G span_id=125-44 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,356.88,154.04,368.88 iscore=0.33        : the dog)
+line=317 tag=L span_id=125-45 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,333.84,201.68,345.84 iscore=0.33        : ¿Tú x-cyàg     *!
+line=318 tag=L span_id=125-45 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,319.68,174.66,331.68 iscore=0.33        : ù-díny Juàny
+line=319 tag=L span_id=125-45 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,305.52,168.12,317.52 iscore=1.00        : bè’cw  cùn?
+line=320 tag=G span_id=125-45 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,291.36,176.46,303.36 iscore=0.50        : (Whose   stick
+line=321 tag=G span_id=125-45 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,277.2,169.52,289.2 iscore=0.67          : hit John the
+line=322 tag=G span_id=125-45 lang_name=San Dionicio Ocotepec Zapotec lang_code=ztu fonts=F1-12.0 bbox=114.0,263.04,160.34,275.04 iscore=0.33        : dog with)
+
+doc_id=125 page=13 block_id=13-3 bbox=252.0,638.4,495.88,664.56 label=trtt 323 324
+line=323 fonts=F1-12.0,F5-12.0 bbox=252.0,652.56,495.88,664.56  :                        X’<Spec v   Align         X < YP  X’<Spec
+line=324 fonts=F1-12.0 bbox=252.0,638.4,387.59,650.4 iscore=0.29:                        X < YP      (IntF,L, S’, L)
+
+doc_id=125 page=13 block_id=13-4 bbox=318.96,615.36,412.4,627.36 label=trtb 325 325
+line=325 fonts=F1-12.0 bbox=318.96,615.36,412.4,627.36:                                        *              *!
+
+doc_id=125 page=13 block_id=13-5 bbox=318.96,521.52,459.36,533.52 label=trbt 326 326
+line=326 fonts=F1-12.0 bbox=318.96,521.52,459.36,533.52:                                   *                      *
+
+doc_id=125 page=13 block_id=13-6 bbox=252.0,427.68,459.36,439.68 label=trbbt 327 327
+line=327 fonts=F1-12.0 bbox=252.0,427.68,459.36,439.68:                          *!                          *        *
+
+doc_id=125 page=13 block_id=13-7 bbox=453.36,333.84,459.36,345.84 label=trbbb 328 328
+line=328 fonts=F1-12.0 bbox=453.36,333.84,459.36,345.84:                                                          *
+
+doc_id=125 page=13 block_id=13-8 bbox=108.0,217.44,177.62,229.44 label=bt 329 329
+line=329 fonts=F0-12.0,F1-12.0 bbox=108.0,217.44,177.62,229.44:7 Conclusion
+
+doc_id=125 page=13 block_id=13-9 bbox=108.0,75.84,504.13,201.12 label=bb 330 338
+line=330 fonts=F1-12.0 bbox=108.0,189.12,504.03,201.12            :In this paper, I hope to have demonstrated that an approach which accounts for word-
+line=331 fonts=F1-12.0 bbox=108.0,174.96,504.13,186.96 iscore=0.20:order variation through violable constraints is able to provide a simple explanation of
+line=332 fonts=F1-12.0 bbox=108.0,160.8,504.08,172.8 iscore=0.29  :some otherwise difficult facts in the syntax of San Dionicio Ocotepec Zapotec. I do
+line=333 fonts=F1-12.0 bbox=108.0,146.64,504.0,158.64 iscore=0.20 :not doubt that it is possible to construct some account of these data which would
+line=334 fonts=F1-12.0 bbox=108.0,132.48,504.04,144.48 iscore=0.13:make  them  compatible with Kayne’s  (1994) approach  to phrase structure; with
+line=335 fonts=F1-12.0 bbox=108.0,118.32,504.11,130.32 iscore=0.18:enough maximal  projections and movements almost any conceivable word order can
+line=336 fonts=F1-12.0 bbox=108.0,104.16,504.11,116.16 iscore=0.12:be derived. But I would argue that any account of these facts which fails to recognize
+line=337 fonts=F1-12.0 bbox=108.0,90.0,504.08,102.0 iscore=0.06   :the competition between alignment constraints and ordering constraints will fall to
+line=338 fonts=F1-12.0 bbox=108.0,75.84,402.81,87.84 iscore=0.17  :capture the essence of what is really going on in the language.
+
+doc_id=125 page=14 block_id=14-1 bbox=291.84,672.48,320.42,684.48 label=tt 339 339
+line=339 fonts=F0-12.0 bbox=291.84,672.48,320.42,684.48:                                Notes
+
+doc_id=125 page=14 block_id=14-2 bbox=108.0,550.08,504.07,656.16 label=tbtt 340 348
+line=340 fonts=F1-10.1 bbox=108.0,646.08,504.0,656.16                    :1. Thanks are due to Lee Bickmore, Javier Gutierrez Rexach, Ed Keer, Jerrold Sadock, and Robert
+line=341 fonts=F1-10.1 bbox=108.0,634.08,504.04,644.16 iscore=0.38       :Van Valin for helpful discussions of this paper. Special thanks to Luisa Martínez, who supplied all
+line=342 fonts=F1-10.1 bbox=108.0,622.08,142.73,632.16 iscore=0.06       :the data.
+line=343 fonts=F1-10.1 bbox=144.0,610.08,503.99,620.16 iscore=0.00       :        The orthography for SDZ  is adapted from the practical orthographies for other Zapotec
+line=344 fonts=F1-10.1 bbox=108.0,598.08,504.07,608.16 iscore=0.11       :languages spoken in the Valley of Oaxaca. In the SDZ orthography, <x> = /¥/ before a vowel and
+line=345 fonts=F1-10.1 bbox=108.0,586.08,504.05,596.16 iscore=0.14       :/•/ before a consonant, <xh> = /•/, <dx> = /®/, <ch> = /±/, <c> = /k/ before back vowels, <qu> =
+line=346 fonts=F1-10.1,F6-10.1 bbox=108.0,574.08,504.0,584.16 iscore=0.33:/k/ before front vowels, and <eh> = /e/. SDZ is a language with four contrastive phonation types:
+line=347 fonts=F1-10.1 bbox=108.0,562.08,352.31,572.16 iscore=0.06       :breathy <Vj>, creaky <VV>, checked <V’>, and plain <V>.
+line=348 fonts=F1-10.1 bbox=144.0,550.08,471.89,560.16 iscore=0.17       :        Glosses use the following abbreviations: com = completive aspect, p = possessed.
+
+doc_id=125 page=14 block_id=14-3 bbox=108.0,502.08,504.0,536.16 label=tbtbt 349 351
+line=349 fonts=F1-10.1 bbox=108.0,526.08,503.99,536.16            :2. As suggested by King (1995) and Bresnan (1998), Universal Grammar allows clauses with both
+line=350 fonts=F1-10.1 bbox=108.0,514.08,504.0,524.16 iscore=0.27 :endocentric (IP) and lexocentric (S) organizations. Some VSO languages are best analyzed with the
+line=351 fonts=F1-10.1 bbox=108.0,502.08,398.19,512.16 iscore=0.21:LFG  analogue of head-movement to INFL; others show a flatter syntax.
+
+doc_id=125 page=14 block_id=14-4 bbox=108.0,466.08,503.99,488.16 label=tbtbbt 352 353
+line=352 fonts=F1-10.1,F4-10.1 bbox=108.0,478.08,503.99,488.16    :3. SDZ uses the wh-word xhí ‘what, which’ for inanimates and tú ‘who, what, which’ for animates
+line=353 fonts=F1-10.1 bbox=108.0,466.08,482.87,476.16 iscore=0.18:(both people and animals). I’ve glossed the examples with the appropriate English wh-word.
+
+doc_id=125 page=14 block_id=14-5 bbox=108.0,370.08,504.05,452.16 label=tbtbbbt 354 360
+line=354 fonts=F1-10.1 bbox=108.0,442.08,504.05,452.16            :4. Quiegolani Zapotec is distantly related to SDZ, but shows the same basic word-order patterns for
+line=355 fonts=F1-10.1 bbox=108.0,430.08,504.03,440.16 iscore=0.19:questions of this type. Black (1994:171) insightfully notes the problems with this structure and
+line=356 fonts=F1-10.1 bbox=108.0,418.08,503.98,428.16 iscore=0.20:suggests that the correct solution may require constraint ranking. She notes that the observed data
+line=357 fonts=F1-10.1 bbox=108.0,406.08,503.95,416.16 iscore=0.13:could be derived if the Wh-criterion (requiring a Wh-phrase in [Comp, Spec]) outranks the ECP
+line=358 fonts=F1-10.1 bbox=108.0,394.08,475.17,404.16 iscore=0.20:(which rules out preposition-stranding, on the assumption that P is not a proper governor).
+line=359 fonts=F1-10.1 bbox=144.0,382.08,503.99,392.16 iscore=0.08:        Although  Black  does  not develop an  optimality-theoretic solution for her data, her
+line=360 fonts=F1-10.1 bbox=108.0,370.08,411.58,380.16 iscore=0.23:suggestion was an inspiration for the treatment of SDZ given in this paper.
+
+doc_id=125 page=14 block_id=14-6 bbox=108.0,322.08,504.0,356.16 label=tbtbbbbt 361 363
+line=361 fonts=F1-10.1 bbox=108.0,346.08,504.0,356.16                     :5. In SDZ alienable possession, the possessed N has a /x-/ prefix, and the initial consonant of the
+line=362 fonts=F1-10.1,F4-10.1 bbox=108.0,334.08,503.97,344.16 iscore=0.17:noun stem  is devoiced. In a few cases there are irregular changes to the initial consonant, e.g. yàg
+line=363 fonts=F1-10.1,F4-10.1 bbox=108.0,322.08,252.95,332.16 iscore=0.06:‘stick’, x-cyàg Juàny ‘John’s stick’.
+
+doc_id=125 page=14 block_id=14-7 bbox=108.0,286.08,504.01,308.16 label=tbtbbbbb 364 365
+line=364 fonts=F1-10.1 bbox=108.0,298.08,504.01,308.16            :6. For a fuller version of this paper which includes a discussion an analysis of the wh-initial pattern,
+line=365 fonts=F1-10.1 bbox=108.0,286.08,350.89,296.16 iscore=0.06:please see http://www.albany.edu/anthro/fac/broadwell.htm.
+
+doc_id=125 page=14 block_id=14-8 bbox=278.4,258.0,333.68,270.0 label=tbb 366 366
+line=366 fonts=F0-12.0 bbox=278.4,258.0,333.68,270.0:                               References
+
+doc_id=125 page=14 block_id=14-9 bbox=108.0,75.6,504.01,241.68 label=b 367 380
+line=367 fonts=F1-10.1 bbox=108.0,231.6,504.0,241.68              :Black, Cheryl. 1994. Quiegolani Zapotec syntax. PhD thesis. University of California, Santa Cruz.
+line=368 fonts=F1-10.1 bbox=108.0,219.6,503.98,229.68 iscore=0.08 :Bresnan,  Joan.  1998.     Optimal   syntax.    Ms.  Stanford   University. (Available  at
+line=369 fonts=F1-10.1 bbox=120.48,207.6,315.11,217.68 iscore=0.00:   http://www-lfg.stanford.edu/lfg/bresnan/pt3.ps.)
+line=370 fonts=F1-10.1 bbox=108.0,195.6,430.78,205.68 iscore=0.00 :Chomsky,  Noam.  1995. The minimalist program. Cambridge, MA:  MIT  Press.
+line=371 fonts=F1-10.1 bbox=108.0,183.6,503.98,193.68 iscore=0.08 :Falk, Yehuda. 1983. Constituency, word order, and phrase structure rules. Linguistic Analysis
+line=372 fonts=F1-10.1 bbox=120.48,171.6,169.66,181.68 iscore=0.00:   11:331-360.
+line=373 fonts=F1-10.1 bbox=108.0,159.6,504.01,169.68 iscore=0.00 :Farmer, Ann, 1984. Modularity in syntax: A study of Japanese and English. Cambridge, MA: MIT
+line=374 fonts=F1-10.1 bbox=120.48,147.6,144.25,157.68 iscore=0.00:   Press.
+line=375 fonts=F1-10.1 bbox=108.0,135.6,503.97,145.68 iscore=0.00 :Grimshaw,  Jane. 1991. Extended projection. Ms. Dept. of Linguistics and Center for Cognitive
+line=376 fonts=F1-10.1 bbox=120.48,123.6,235.23,133.68 iscore=0.08:   Science, Rutgers University.
+line=377 fonts=F1-10.1 bbox=108.0,111.6,468.46,121.68 iscore=0.10 :Grimshaw,  Jane. 1997. Projection, heads, and optimality. Linguistic Inquiry 28:73-422.
+line=378 fonts=F1-10.1 bbox=108.0,99.6,503.95,109.68 iscore=0.42  :Kayne, Richard. 1981. On  certain differences between French and English. Linguistic Inquiry
+line=379 fonts=F1-10.1 bbox=120.48,87.6,164.62,97.68 iscore=0.00  :   12:349-71.
+line=380 fonts=F1-10.1 bbox=108.0,75.6,439.68,85.68 iscore=0.00   :Kayne, Richard. 1994. The antisymmetry of syntax. Cambridge, MA: MIT  Press.
+
+doc_id=125 page=15 block_id=15-1 bbox=108.0,602.4,503.98,684.48 label= 381 387
+line=381 fonts=F1-10.1 bbox=108.0,674.4,457.45,684.48             :King, Tracy Holloway. 1995. Configuring topic and focus in Russian. Stanford: CSLI.
+line=382 fonts=F1-10.1 bbox=108.0,662.4,477.34,672.48 iscore=0.25 :Pollard, Carl and Ivan Sag. 1987. Information-based syntax and semantics. Stanford:CSLI.
+line=383 fonts=F1-10.1 bbox=108.0,650.4,503.95,660.48 iscore=0.15 :Smith Stark, Thomas. 1988. ‘Pied-piping’ con inversion en preguntas parciales. Ms. Centro de
+line=384 fonts=F1-10.1 bbox=120.48,638.4,471.61,648.48 iscore=0.08:   estudios lingüísticos y literarios, Colegio de México y Seminario de lenguas indígenas.
+line=385 fonts=F1-10.1 bbox=108.0,626.4,392.87,636.48 iscore=0.08 :Stowell, Timothy. 1981. Origins of phrase structure. PhD thesis, MIT.
+line=386 fonts=F1-10.1 bbox=108.0,614.4,503.98,624.48 iscore=0.14 :van  Riemsdijk, Henk.  1978. A  case study in syntactic markedness:  The binding  nature of
+line=387 fonts=F1-10.1 bbox=120.48,602.4,281.5,612.48 iscore=0.08 :   prepositional phrases. Dordrecht: Foris.
