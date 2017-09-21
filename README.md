@@ -80,17 +80,18 @@ lgid
 ├── config.ini          # configuration parameters
 ├── lgid                # source code
 │   ├── analyzers.py    # functions for extracting info from input documents
+│   ├── buildlms.py     # functions for building language model files out of ODIN data
 │   ├── features.py     # functions for activating model features
 │   ├── main.py         # main process; entry point for the lgid.sh command
 │   ├── models.py       # abstraction of the machine learning model(s)
 │   └── util.py         # utility functions for reading/transforming resources
-└── res                 # resources for training
-    ├── Crubadan.csv    # index file for downloading Crúbadán data
-    ├── lang_table.txt  # language name-code mapping
-    ├── common_codes.txt  # Shows code most commonly paired with each language name
-    ├── english_word_language_names.txt # list of language names that are English words
-    └── crubadan_directory_index.csv # table of what directory holds Crúbadán data for each language 
-
+├── res                 # resources for running
+│    ├── Crubadan.csv    # index file for downloading Crúbadán data
+│    ├── lang_table.txt  # language name-code mapping
+│    ├── common_codes.txt  # Shows code most commonly paired with each language name
+│    ├── english_word_language_names.txt # list of language names that are English words
+│    └── crubadan_directory_index.csv # table of what directory holds Crúbadán data for each language 
+└── sample              # results from sample runs
 
 ```
 
@@ -101,6 +102,22 @@ Only static files that we have rights to, like the language name-code
 mapping table, should be checked in. Other resources, like the compiled
 language model or [Crúbadán][] data, may reside here on a local machine,
 but they should not be committed to the remote repository.
+
+## File Formats
+
+All of the functions that take `INFILE` as an argument expect that file or files to be in [Freki](https://github.com/xigt/freki) format.
+The `classify` function produces Freki files as output.
+
+The `build-odin-lm` function expects its input files to be in the [XIGT](https://github.com/xigt/xigt) format.
+
+The [ODIN][] language model files have one ngram on each line, with the format `<ngram>\t<count>`. There are no special symbols
+used for beginning or end of line. Each file contains ngrams for all values of n, 1-3 for characters and 1-2 for words. The
+morpheme language models are built using the word data.
+
+The [Crúbadán][] language model files have one ngram on each line, with the format `<ngram> <count>`. The `\n` character is used
+to indicate beginning or end of line for word ngrams. The `<` and `>` characters are used for the beginning and end of word, respectively,
+for character ngrams. Each file contains ngrams for only one value of n. The Crúbadán language models have only
+trigrams for characters and both unigrams and bigrams for words.
 
 ## Configuration
 
