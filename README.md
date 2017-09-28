@@ -135,10 +135,10 @@ most-common-codes                  | location of table of most common codes for 
 english-word-names                 | location of list of languages whose names are also English words
 odin-source                        | 
 odin-language-model                | directory containing the ODIN language model files
-Crúbadán-index                     | location of file containing index and download location for Crúbadán language model data
-Crúbadán-base-uri                  | base URL where Crúbadán data files are downloaded from
-Crúbadán-language-model            | directory containing the Crúbadán language model
-Crúbadán-directory-index           | location of table tracking location of Crúbadán language model for each language
+crubadan-index                     | location of file containing index and download location for Crúbadán language model data
+crubadan-base-uri                  | base URL where Crúbadán data files are downloaded from
+crubadan-language-model            | directory containing the Crúbadán language model
+crubadan-directory-index           | location of table tracking location of Crúbadán language model for each language
 
 The `[parameters]` section contains parameters for modifying
 the behavior of feature functions. Available parameters are described
@@ -153,8 +153,8 @@ after-close-window-size            | smaller window after an IGT
 word-n-gram-size                   | number of tokens in word-lm n-grams
 morpheme-n-gram-size               | number of tokens in morpheme-lm n-grams
 character-n-gram-size              | number of chars in character-lm n-grams
-Crúbadán-char-size                 | number of chars in Crúbadán character-lm n-grams
-Crúbadán-word-size                 | number of tokens in Crúbadán word-lm n-grams
+crubadan-char-size                 | number of chars in Crúbadán character-lm n-grams
+crubadan-word-size                 | number of tokens in Crúbadán word-lm n-grams
 morpheme-delimiter                 | regular expression for tokenizing morphemes
 frequent-mention-threshold         | minimum window mentions to be "frequent"
 after-frequent-mention-threshold   | min. mentions after an IGT to be "frequent"
@@ -211,4 +211,4 @@ M-             | feature is relevant for a meta line
 
 [virtualenv]: https://virtualenv.pypa.io/
 [ODIN]: http://depts.washington.edu/uwcl/odin/
-[Crúbadán]: http://Crubadan.org/
+[Crúbadán]: http://crubadan.org/
