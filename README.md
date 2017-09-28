@@ -54,7 +54,7 @@ The dependencies installed by this script are:
 - [SciPy][] (0.19)
 - [scikit-learn][] (0.19)
 - [Requests][] (2.18)
-- [Freki][] (most recent version)
+- [Freki][]
 
 When completed, run `lgid.sh` as the front end to all tasks, as it
 manages the activation/deactivation of the virtual environment:
@@ -108,13 +108,14 @@ lgid
 │   ├── main.py         # main process; entry point for the lgid.sh command
 │   ├── models.py       # abstraction of the machine learning model(s)
 │   └── util.py         # utility functions for reading/transforming resources
-├── res                 # resources for running
+├── res                 # resources for running the program
 │    ├── Crubadan.csv    # index file for downloading Crúbadán data
 │    ├── lang_table.txt  # language name-code mapping
 │    ├── common_codes.txt  # Shows code most commonly paired with each language name
 │    ├── english_word_language_names.txt # list of language names that are English words
-│    └── crubadan_directory_index.csv # table of what directory holds Crúbadán data for each language 
-└── sample              # results from sample runs
+│    ├── crubadan_directory_index.csv # table of what directory holds Crúbadán data for each language 
+     └── odin-lm.zip    # files for building teh ODIN language model
+└── sample              # inputs and results for/from sample runs
 
 ```
 
@@ -131,7 +132,7 @@ but they should not be committed to the remote repository.
 All of the functions that take `INFILE` as an argument expect that file or files to be in [Freki](https://github.com/xigt/freki) format.
 The `classify` function produces Freki files as output.
 
-The `build-odin-lm` function expects its input files to be in the [XIGT](https://github.com/xigt/xigt) format.
+The `build-odin-lm` function expects its input files to be in the [Xigt][] format.
 
 The [ODIN][] language model files have one ngram on each line, with the format `<ngram>\t<count>`. There are no special symbols
 used for beginning or end of line. Each file contains ngrams for all values of n, 1-3 for characters and 1-2 for words. The
@@ -241,4 +242,4 @@ M-             | feature is relevant for a meta line
 [scikit-learn]: http://scikit-learn.org
 [Requests]: http://docs.python-requests.org/
 [Freki]: https://github.com/xigt/freki
-[XIGT]: http://depts.washington.edu/uwcl/xigt
+[Xigt]: http://depts.washington.edu/uwcl/xigt
