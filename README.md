@@ -32,7 +32,7 @@ The basic requirements are probably satisfied by any modern Linux or Mac setup:
 - bash
 - git
 - Python (3.3 or higher)
-- [virtualenv][]
+- [virtualenv][] (15.1)
 
 First clone the repository:
 
@@ -48,6 +48,13 @@ dependencies into it:
 ~$ cd lgid/
 ~/lgid$ bash setup-env.sh
 ```
+
+The dependencies installed by this script are:
+- [docopt][] (0.6)
+- [SciPy][] (0.19)
+- [scikit-learn][] (0.19)
+- [Requests][] (2.18)
+- [Freki][] (most recent version)
 
 When completed, run `lgid.sh` as the front end to all tasks, as it
 manages the activation/deactivation of the virtual environment:
@@ -229,3 +236,9 @@ M-             | feature is relevant for a meta line
 [virtualenv]: https://virtualenv.pypa.io/
 [ODIN]: http://depts.washington.edu/uwcl/odin/
 [Crúbadán]: http://crubadan.org/
+[docopt]: http://docopt.org/
+[SciPy]: https://www.scipy.org/
+[scikit-learn]: http://scikit-learn.org
+[Requests]: http://docs.python-requests.org/
+[Freki]: https://github.com/xigt/freki
+[XIGT]: http://depts.washington.edu/uwcl/xigt

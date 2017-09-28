@@ -11,7 +11,7 @@ echo "Entering virtual environment"
 source "$BASE/env/bin/activate"
 
 echo "Fetching dependencies"
-pip install docopt scipy scikit-learn requests
+pip install docopt~=0.6 scipy~=0.19 scikit-learn~=0.19 requests~=2.18
 
 # Freki is not in PyPI, so install it from git if it isn't already installed
 if ! $( python -c "import freki" 2>/dev/null >/dev/null ); then
