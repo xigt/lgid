@@ -9,6 +9,10 @@ online, and I don't see any indication that such inclusion would be
 improper use. If any of these files should be removed from this
 repository, please file an [issue](https://github.com/xigt/lgid/issues).
 
+## Prebuilt Language Models
+
+The zip file odin-lm.zip contains word, character, and morpheme language models for 1999 languages. If you want to use your own LMs or build LMs from your own files, you can change the locations in `config.ini`, or download the raw ODIN data to the location in the config. LMs are in the format `Ngram\tFrequency\n`.
+
 ## ODIN
 
 The [ODIN][] data used is in the odin-by-lang directory. Each file contains IGT for one language

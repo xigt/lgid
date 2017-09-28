@@ -57,7 +57,9 @@ manages the activation/deactivation of the virtual environment:
 Usage:
   lgid [-v...] train    --model=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] test     --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] validate     --model=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] classify --model=PATH --out=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] get-lg-recall    CONFIG INFILE...
   lgid [-v...] list-model-weights   --model=PATH    CONFIG
   lgid [-v...] list-mentions          CONFIG INFILE...
   lgid [-v...] count-mentions         CONFIG INFILE...
@@ -68,6 +70,20 @@ Usage:
 ```
 
 Try `lgid.sh --help` for more usage information.
+
+## Examples of Usage
+
+Test the performance of the prebuilt model on the included sample input:
+
+```bash
+./lgid.sh -v test --model=model/sample_model config.ini sample/input/*
+```
+
+Classify the sample input and output the files with predicted languages marked:
+
+```bash
+./lgid.sh -v classify --model=model/sample_model --out=sample/output config.ini sample/input/*
+```
 
 ## Code and Resources
 
@@ -139,6 +155,7 @@ crubadan-index                     | location of file containing index and downl
 crubadan-base-uri                  | base URL where Crúbadán data files are downloaded from
 crubadan-language-model            | directory containing the Crúbadán language model
 crubadan-directory-index           | location of table tracking location of Crúbadán language model for each language
+classify-error-file | language id errors are written to this text file
 
 The `[parameters]` section contains parameters for modifying
 the behavior of feature functions. Available parameters are described

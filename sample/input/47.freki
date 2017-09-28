@@ -1,0 +1,1544 @@
+doc_id=47 page=1 block_id=1-1 bbox=99.0,472.92,512.64,499.4 label=tt 1 2
+line=1 fonts=F0-12.0 bbox=99.0,487.44,512.64,499.4               : ARGUMENT COMPOSITION AND LINEARIZATION: KOREAN COMPLEX
+line=2 fonts=F0-12.0 iscore=0.25 bbox=210.96,472.92,400.89,484.88:               PREDICATES AND SCRAMBLING
+
+doc_id=47 page=1 block_id=1-2 bbox=274.68,428.52,337.25,440.48 label=tb 3 3
+line=3 fonts=F1-12.0 bbox=274.68,428.52,337.25,440.48:                               Sun-Hee Lee
+
+doc_id=47 page=1 block_id=1-3 bbox=283.8,348.12,328.15,360.08 label=bt 4 4
+line=4 fonts=F0-12.0 bbox=283.8,348.12,328.15,360.08:                                   Abstract
+
+doc_id=47 page=1 block_id=1-4 bbox=119.28,194.28,492.66,321.8 label=bbt 5 13
+line=5 fonts=F1-12.0 bbox=137.16,309.84,492.32,321.8                     :         This paper deals with the formation of complex predicates and some in-
+line=6 fonts=F1-12.0 iscore=0.25 bbox=119.28,295.44,492.53,307.4         :      teresting scrambling facts in Korean. First, we extend the notion of complex
+line=7 fonts=F1-12.0 iscore=0.33 bbox=119.28,280.92,492.37,292.88        :      predicates to include various noun-verb combinations by providing syntactic
+line=8 fonts=F1-12.0 iscore=0.17 bbox=119.28,266.52,492.28,278.48        :      and semantic evidence. Within the HPSG framework, we then propose a gen-
+line=9 fonts=F1-12.0 iscore=0.17 bbox=119.28,252.0,492.38,263.96         :      eral schema based on argument composition, which can be used for different
+line=10 fonts=F1-12.0 iscore=0.17 bbox=119.28,237.6,492.25,249.56        :      types of complex predicates. Furthermore, in opposition to Chung (1998)’s ap-
+line=11 fonts=F1-12.0 iscore=0.09 bbox=119.28,223.2,492.36,235.16        :      proach using argument composition for scrambling phenomena, we argue that
+line=12 fonts=F1-12.0 iscore=0.30 bbox=119.28,208.68,492.66,220.64       :      linearization constraint is better to account for various permutation possibilities
+line=13 fonts=F1-12.0,F2-8.0 iscore=0.10 bbox=119.28,194.28,173.27,206.57:      in Korean.^{1}
+
+doc_id=47 page=1 block_id=1-5 bbox=90.0,155.88,172.5,167.84 label=bbbt 14 14
+line=14 fonts=F0-12.0 bbox=90.0,155.88,172.5,167.84:1  Introduction
+
+doc_id=47 page=1 block_id=1-6 bbox=90.0,103.08,521.55,129.56 label=bbbbtt 15 16
+line=15 fonts=F1-12.0 bbox=126.0,117.6,521.55,129.56            :       Within the framework of Head-driven Phrase Structure Grammar, there have been
+line=16 fonts=F1-12.0 iscore=0.25 bbox=90.0,103.08,521.48,115.04:various proposals on complex predicate (or CP) constructions in Korean; Chung (1998),
+
+doc_id=47 page=1 block_id=1-7 bbox=90.0,69.72,521.63,92.29 label=bbbbtb 17 18
+line=17 fonts=F3-7.0,F4-10.0 bbox=103.92,81.72,521.63,92.29   :   ^{1}I would like to thank Carl Pollard, Bob Kasper, and Bob Levine for their valuable comments and help.
+line=18 fonts=F4-10.0 iscore=0.06 bbox=90.0,69.72,285.23,79.68:All errors and shortcomings are, of course, mine.
+
+doc_id=47 page=1 block_id=1-8 bbox=90.0,27.84,441.42,49.8 label=bbbbb 19 20
+line=19 fonts=F2-8.0,F4-10.0,F5-10.0 bbox=90.24,39.84,441.42,49.8:LEE, SUN-HEE.  2001. Argument Composition and Linearization. OSUWPL 56, 53–78.
+line=20 fonts=F4-10.0 iscore=0.20 bbox=90.0,27.84,274.17,38.16   :Copyright c 2001 The Ohio State University.
+
+doc_id=47 page=2 block_id=2-1 bbox=269.88,747.0,341.82,756.56 label=t 21 21
+line=21 fonts=F7-9.6 bbox=269.88,747.0,341.82,756.56:                           SUN-HEE LEE
+
+doc_id=47 page=2 block_id=2-2 bbox=90.0,619.08,521.63,717.68 label=btt 22 28
+line=22 fonts=F1-12.0 bbox=90.0,705.72,521.48,717.68                   :Bratt (1996), and Ryu (1993) analyzed each different kinds of CP construction. Chung
+line=23 fonts=F1-12.0 iscore=0.27 bbox=90.0,691.32,521.51,703.28       :(1998) proposed that an auxiliary verb and its preceding verb form a CP. Bratt (1996)
+line=24 fonts=F1-12.0,F8-12.0 iscore=0.19 bbox=90.0,676.92,521.5,688.88:extended the notion of a CP to combinations of a verb and the causative hata. Instead
+line=25 fonts=F1-12.0 iscore=0.38 bbox=90.0,662.4,521.46,674.36        :of verbal complexes, Ryu (1993) analyzed the combination of a noun and the light verb
+line=26 fonts=F1-12.0,F8-12.0 iscore=0.13 bbox=90.0,648.0,521.51,659.96:hata, so-called verbal noun construction as a CP. While maintaining different points of
+line=27 fonts=F1-12.0 iscore=0.23 bbox=90.0,633.48,521.63,645.44       :view in classifying CPs, all three researches utilized argument composition as the licensing
+line=28 fonts=F1-12.0,F2-8.0 iscore=0.08 bbox=90.0,619.08,186.59,631.37:mechanism  of CPs.^{2}
+
+doc_id=47 page=2 block_id=2-3 bbox=90.0,506.04,521.64,604.64 label=btb 29 35
+line=29 fonts=F1-12.0 bbox=126.0,592.68,521.53,604.64                  :       In this paper, we will focus on the formation of noun-verb CPs by extending Ryu’s
+line=30 fonts=F1-12.0 iscore=0.20 bbox=90.0,578.28,521.59,590.24       :(1993) notion of verbal noun constructions. In requiring syntactic arguments, a verbal
+line=31 fonts=F1-12.0,F2-8.0 iscore=0.31 bbox=90.0,563.76,521.64,576.05:noun^{3} functions as the main verbal or adjectival predicate of a sentence in Korean. A verbal
+line=32 fonts=F1-12.0 iscore=0.44 bbox=90.0,549.36,521.61,561.32       :noun combines  with a small group of verbs, which lack the semantic properties normally
+line=33 fonts=F1-12.0 iscore=0.21 bbox=90.0,534.84,521.49,546.8        :associated with main predicates. In particular, those verbs have traditionally been called
+line=34 fonts=F1-12.0 iscore=0.24 bbox=90.0,520.44,521.47,532.4        :light verbs or function verbs. We refer to various combinations of a verbal noun and a verb
+line=35 fonts=F1-12.0 iscore=0.18 bbox=90.0,506.04,257.94,518.0        :in terms of noun-verb CPs as in (1)
+
+doc_id=47 page=2 block_id=2-4 bbox=99.48,444.48,420.96,485.24 label=bbt 36 38
+line=36 tag=L span_id=47-1 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=99.48,473.28,395.16,485.24             :  (1) John-i    ku   saken-ul     cosa-lul          ha-yess-ta
+line=37 tag=G span_id=47-1 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=119.28,458.76,420.96,470.72:      John-Nom  that accident-Acc investigation-Acc do-Past-Ending
+line=38 tag=T span_id=47-1 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.14 bbox=119.28,444.48,326.14,456.44:      ‘John did an investigation of that accident.’
+
+doc_id=47 page=2 block_id=2-5 bbox=90.0,369.24,521.7,424.52 label=bbbtt 39 42
+line=39 fonts=F1-12.0,F8-12.0 bbox=90.0,412.56,521.53,424.52   :In example  (1), cosa-lul (investigation-Acc) and hata form a single unit at the level of
+line=40 fonts=F1-12.0 iscore=0.40 bbox=90.0,398.04,521.7,410.0 :syntax even though they do not morphologically form a word. This combination exhibits
+line=41 fonts=F1-12.0 iscore=0.06 bbox=90.0,383.64,521.52,395.6:some  distinctive properties as one syntactic unit, so the notion of CPs can be applied to
+line=42 fonts=F1-12.0 iscore=0.25 bbox=90.0,369.24,508.64,381.2:include these noun-verb complexes in Korean. This issue will be discussed in section 2.
+
+doc_id=47 page=2 block_id=2-6 bbox=90.0,241.68,521.72,354.8 label=bbbtbt 43 50
+line=43 fonts=F1-12.0 bbox=126.0,342.84,521.54,354.8            :       In this study, we will provide an analysis of Korean CPs by presenting a revised ver-
+line=44 fonts=F1-12.0 iscore=0.25 bbox=90.0,328.32,521.72,340.28:sion of Chung’s (1998) Gov-Head schema. The schema will utilize argument composition
+line=45 fonts=F1-12.0 iscore=0.20 bbox=90.0,313.92,521.46,325.88:mechanism  as in Chung (1998), who extends its notion to license various word order facts.
+line=46 fonts=F1-12.0 iscore=0.13 bbox=90.0,299.4,521.68,311.36 :We, however, oppose to Chung’s flat structure approach based on argument composition.
+line=47 fonts=F1-12.0 iscore=0.36 bbox=90.0,285.0,521.5,296.96  :Instead we will argue that a linearization model provides a more systematic explanation for
+line=48 fonts=F1-12.0 iscore=0.14 bbox=90.0,270.6,521.52,282.56 :scrambling facts in Korean. We will specify how the domain union of linearization the-
+line=49 fonts=F1-12.0 iscore=0.20 bbox=90.0,256.08,521.56,268.04:ory based on Reape (1996) can be used for various scrambling phenomena not only within
+line=50 fonts=F1-12.0 iscore=0.20 bbox=90.0,241.68,446.56,253.64:simplex clauses but also within complex clauses with an embedded clause.
+
+doc_id=47 page=2 block_id=2-7 bbox=90.0,114.12,521.65,227.24 label=bbbtbbt 51 58
+line=51 fonts=F1-12.0 bbox=126.0,215.28,521.55,227.24           :       The organization of this paper is as follows. In section 2, we briefly compare the
+line=52 fonts=F1-12.0 iscore=0.13 bbox=90.0,200.76,521.49,212.72:previous analysis of Korean CPs and discuss various characteristics of noun-verb CPs. In
+line=53 fonts=F1-12.0 iscore=0.20 bbox=90.0,186.36,521.49,198.32:section 3, we will explain the formation of CPs by providing a revised Gov-Head schema,
+line=54 fonts=F1-12.0 iscore=0.07 bbox=90.0,171.96,521.65,183.92:which percolates the VALENCE   feature of a noun into a higher phrasal category. This
+line=55 fonts=F1-12.0 iscore=0.21 bbox=90.0,157.44,521.65,169.4 :schema  includes verbal CPs as well as noun-verb CPs. Section 4 deals with scrambling
+line=56 fonts=F1-12.0 iscore=0.14 bbox=90.0,143.04,521.49,155.0 :phenomena  in Korean within a linearization model. A linearization approach provides a
+line=57 fonts=F1-12.0 iscore=0.17 bbox=90.0,128.64,521.58,140.6 :more succinct answer for both sentence internal and long-distance scrambling than Chung’s
+line=58 fonts=F1-12.0 iscore=0.17 bbox=90.0,114.12,281.37,126.08:(1998) argument composition approach.
+
+doc_id=47 page=2 block_id=2-8 bbox=90.0,69.72,521.61,104.17 label=bbbtbbb 59 61
+line=59 fonts=F3-7.0,F4-10.0 bbox=103.92,93.6,392.87,104.17            :   ^{2}Argument composition was proposed by Hinrichs & Nakayama (1994).
+line=60 fonts=F3-7.0,F4-10.0 iscore=0.18 bbox=103.92,81.72,521.61,92.29:   ^{3}A great amount of verbal nouns in Korean originally come from Chinese or some foreign languages. For
+line=61 fonts=F4-10.0 iscore=0.12 bbox=90.0,69.72,463.7,79.68          :example, English verb “study” is adopted in Korean by taking the format of “study-Acc + do”
+
+doc_id=47 page=2 block_id=2-9 bbox=300.0,39.84,311.98,51.8 label=bbbb 62 62
+line=62 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   54
+
+doc_id=47 page=3 block_id=3-1 bbox=223.08,747.0,387.93,756.56 label=ttt 63 63
+line=63 fonts=F7-9.6 bbox=223.08,747.0,387.93,756.56:                    KOREAN COMPLEX PREDICATES
+
+doc_id=47 page=3 block_id=3-2 bbox=90.0,705.72,279.44,717.68 label=ttbt 64 64
+line=64 fonts=F0-12.0 bbox=90.0,705.72,279.44,717.68:2  Complex  Predicate Constructions
+
+doc_id=47 page=3 block_id=3-3 bbox=90.0,667.44,207.49,679.4 label=ttbbt 65 65
+line=65 fonts=F0-12.0 bbox=90.0,667.44,207.49,679.4:2.1  Formation of CPs
+
+doc_id=47 page=3 block_id=3-4 bbox=90.0,556.8,521.62,641.0 label=ttbbbt 66 71
+line=66 fonts=F1-12.0 bbox=126.0,629.04,521.53,641.0            :       In general, the term CP has been used in reference to the broad range of predicates
+line=67 fonts=F1-12.0 iscore=0.06 bbox=90.0,614.64,521.58,626.6 :including both syntactic combinations of words and morphological combinations of a stem
+line=68 fonts=F1-12.0 iscore=0.28 bbox=90.0,600.12,521.55,612.08:with various affixes. In this paper, however, we restrict the use of the term , CP to the
+line=69 fonts=F1-12.0 iscore=0.28 bbox=90.0,585.72,521.62,597.68:former. A CP is considered to have a single argument structure and to work as a single unit
+line=70 fonts=F1-12.0 iscore=0.22 bbox=90.0,571.32,521.6,583.28 :at the syntactic level, even though its components do not morphologically form a single
+line=71 fonts=F1-12.0 iscore=0.07 bbox=90.0,556.8,117.44,568.76 :word.
+
+doc_id=47 page=3 block_id=3-5 bbox=90.0,458.16,521.72,542.36 label=ttbbbb 72 77
+line=72 fonts=F1-12.0 bbox=126.0,530.4,521.54,542.36                    :       Focusing on the lexical compositional properties of CPs, Chung (1998) and Bratt
+line=73 fonts=F1-12.0 iscore=0.23 bbox=90.0,516.0,521.63,527.96         :(1996) discuss the formation of the Korean verbal complex within the HPSG framework.
+line=74 fonts=F1-12.0 iscore=0.15 bbox=90.0,501.48,521.59,513.44        :Chung  (1998) analyzes certain auxiliary verb constructions as CPs using argument compo-
+line=75 fonts=F1-12.0,F8-12.0 iscore=0.21 bbox=90.0,487.08,521.67,499.04:sition, as proposed by Hinrichs & Nakayama (1994). He introduces a new sort, non-phrase,
+line=76 fonts=F1-12.0,F8-12.0 iscore=0.20 bbox=90.0,472.68,521.72,484.64:with two subsorts word and complex-word into the sort hierarchy as in (2), which subsumes
+line=77 fonts=F1-12.0 iscore=0.07 bbox=90.0,458.16,191.76,470.12        :various kinds of CPs.
+
+doc_id=47 page=3 block_id=3-6 bbox=150.36,404.28,164.26,416.24 label=tblt 78 78
+line=78 fonts=F1-12.0 bbox=150.36,404.28,164.26,416.24:             (2)
+
+doc_id=47 page=3 block_id=3-7 bbox=238.1,320.1,288.9,362.4 label=tblbt 79 80
+line=79 fonts=F10-10.1,F10-10.3 bbox=268.0,345.3,288.9,362.4             :                                                                                            ¡¡    ¡    ¡
+line=80 fonts=F10-10.1,F9-10.9 iscore=0.25 bbox=238.1,320.1,279.32,337.67:                                                                             ¡    ¡    word¡ ¢
+
+doc_id=47 page=3 block_id=3-8 bbox=170.16,288.0,224.76,320.2 label=tblbb 81 82
+line=81 fonts=F10-10.1,F10-10.4 bbox=197.3,306.5,208.3,320.2     :                           ¡¡ ¡
+line=82 fonts=F9-10.9 iscore=0.00 bbox=170.16,288.0,224.76,298.91:                    simple-word
+
+doc_id=47 page=3 block_id=3-9 bbox=388.9,391.8,417.5,415.19 label=tbrt 83 83
+line=83 fonts=F10-10.1,F9-10.9 bbox=388.9,391.8,417.5,415.19:                                                                                                                    sign£   £   £
+
+doc_id=47 page=3 block_id=3-10 bbox=308.8,357.7,470.81,390.3 label=tbrbt 84 84
+line=84 fonts=F10-10.1,F9-10.9 bbox=308.8,357.7,470.81,390.3:                                                               ¡  nonphrase¡ ¡ ¢ ¢                    phrase£
+
+doc_id=47 page=3 block_id=3-11 bbox=378.12,326.76,440.99,357.9 label=tbrbbt 85 86
+line=85 fonts=F10-10.1,F10-9.9 bbox=378.7,341.0,399.5,357.9       :                                                                        ¢  ¢ ¢¢
+line=86 fonts=F9-10.9 iscore=0.33 bbox=378.12,326.76,440.99,337.67:                                                                        complex-word
+
+doc_id=47 page=3 block_id=3-12 bbox=307.9,288.0,361.71,319.1 label=tbrbbb 87 88
+line=87 fonts=F10-10.1,F10-9.8 bbox=307.9,302.3,328.7,319.1      :                                                        ¢  ¢ ¢¢
+line=88 fonts=F9-10.9 iscore=0.00 bbox=316.08,288.0,361.71,298.91:                                                          compound
+
+doc_id=47 page=3 block_id=3-13 bbox=90.0,161.52,521.87,245.72 label=bt 89 94
+line=89 fonts=F1-12.0,F8-12.0 bbox=126.0,233.76,521.53,245.72                  :       Bratt (1996) argues that a combination of a verb and the causative verb hata form
+line=90 fonts=F1-12.0 iscore=0.20 bbox=90.0,219.24,521.47,231.2                :a CP like an auxiliary verb construction. Even though she uses argument composition, her
+line=91 fonts=F1-12.0 iscore=0.19 bbox=90.0,204.84,521.51,216.8                :analysis of CPs is different from Chung (1998) as follows: First, Chung does not include the
+line=92 fonts=F1-12.0,F2-8.0,F8-12.0 iscore=0.12 bbox=90.0,190.32,521.87,202.73:causative hata construction^{4} among the verbal complexes. Instead he analyzes the dative
+line=93 fonts=F1-12.0,F8-12.0 iscore=0.33 bbox=90.0,175.92,521.5,187.88        :causative hata constructions as VP-complement structures and argues that they have flat
+line=94 fonts=F1-12.0,F2-8.0 iscore=0.17 bbox=90.0,161.52,312.95,173.81        :structures derived by a lexical rule as follows.^{5}
+
+doc_id=47 page=3 block_id=3-14 bbox=90.0,69.72,521.62,147.1 label=bbt 95 100
+line=95 fonts=F10-10.1,F3-7.0,F4-10.0,F5-10.0 bbox=103.92,129.48,517.5,147.1    :   ^{4}There are two types of the causative hata in Korean; the first takes an NP with the accusative case ^{¤} -lul¥
+line=96 fonts=F10-10.1,F4-10.0,F5-10.0 iscore=0.19 bbox=90.0,117.48,521.62,127.6:while the latter takes an NP with the dative case -eykey¥ . Besides the causative verb hata constructions, the
+line=97 fonts=F4-10.0,F5-10.0 iscore=0.35 bbox=90.0,105.6,521.51,115.56         :same form  hata works as a light verb, which combines with a verbal noun. We will see these examples in
+line=98 fonts=F4-10.0,F5-10.0 iscore=0.35 bbox=90.0,93.6,453.75,103.56          :section 2.2. The verb hata works as a proform for general verbs like the verb do in English.
+line=99 fonts=F3-7.0,F4-10.0 iscore=0.11 bbox=103.92,81.72,521.52,92.29         :   ^{5}We slightly modify here some of the notations in the lexical rule that Chung (1998) provides. Note that
+line=100 fonts=F4-10.0,F5-10.0 iscore=0.28 bbox=90.0,69.72,374.04,79.68         :Chung  considers hata to be a control verb but not a component of a CP.
+
+doc_id=47 page=3 block_id=3-15 bbox=300.0,39.84,311.98,51.8 label=bbb 101 101
+line=101 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   55
+
+doc_id=47 page=4 block_id=4-1 bbox=269.88,747.0,341.82,756.56 label=tt 102 102
+line=102 fonts=F7-9.6 bbox=269.88,747.0,341.82,756.56:                           SUN-HEE LEE
+
+doc_id=47 page=4 block_id=4-2 bbox=99.48,669.9,302.8,718.5 label=tbtlt 103 105
+line=103 fonts=F1-12.0,F11-11.7 bbox=99.48,705.7,154.8,718.5                     :    (3)      ¡             ¡
+line=104 fonts=F11-11.7,F12-6.0 iscore=0.33 bbox=120.9,693.7,187.07,706.06       :             ¡              SUBJ     NP
+line=105 fonts=F11-11.7,F12-11.7,F12-6.0 iscore=0.11 bbox=120.9,669.9,302.8,693.6:             ¡¡¡ CAT VAL    COMPS      § ¤ NP  ¨ ¦�©��   VP� SUBJ¤   NP  ¨  ¦�� : � ����� � ��
+
+doc_id=47 page=4 block_id=4-3 bbox=120.9,626.52,316.2,665.4 label=tbtlb 106 108
+line=106 fonts=F11-11.7,F12-6.0 bbox=156.84,653.7,302.8,665.4           :                       RELN  x                                            �
+line=107 fonts=F11-11.7,F12-6.0 iscore=0.12 bbox=120.9,634.6,316.2,653.4:           ¢ CONT  �  ¢ ARG1ARG2 ^{¨} ����                               �������
+line=108 fonts=F12-6.0 iscore=0.25 bbox=156.84,626.52,184.29,632.5      :                       SOA-ARG
+
+doc_id=47 page=4 block_id=4-4 bbox=330.9,638.2,506.1,705.4 label=tbtr 109 112
+line=109 fonts=F11-11.7,F12-6.0 bbox=330.9,681.9,404.9,705.4             :                                                                                                          ¡¡¡            ¡¡ SUBJ  ¤ NP   ¥ ¦
+line=110 fonts=F11-11.7,F12-6.0 iscore=0.09 bbox=334.44,659.7,506.1,680.5:                                                                                                            CAT   £ VAL  ¢ COMPS      §   ©��   V � SUBJ   ¤ NP  ¨  ¦  : � !  ©   � ���� � ��
+line=111 fonts=F12-6.0 iscore=0.08 bbox=424.08,654.12,445.9,660.1        :                                                                                                                                                    COMPS
+line=112 fonts=F11-11.7,F12-6.0 iscore=0.00 bbox=334.44,638.2,355.0,649.9:                                                                                                            CONT     �
+
+doc_id=47 page=4 block_id=4-5 bbox=90.0,500.16,522.0,598.76 label=tbbt 113 119
+line=113 fonts=F1-12.0 bbox=90.0,586.8,521.56,598.76                            :The input to the above lexical rule is a lexical entry with a controller NP and a VP com-
+line=114 fonts=F1-12.0 iscore=0.16 bbox=90.0,572.4,521.51,584.36                :plement in the COMPS   list of a governing verb. Argument Composition as introduced by
+line=115 fonts=F1-12.0 iscore=0.29 bbox=90.0,557.88,521.62,569.84               :Hinrichs & Nakayama   (1994) allows syntactic composition of two predicates in the input
+line=116 fonts=F1-12.0,F11-11.7,F2-8.0 iscore=0.29 bbox=90.0,543.48,522.0,555.77:and structure sharing of their arguments via the operation append( " ).^{6} Through argument
+line=117 fonts=F1-12.0 iscore=0.29 bbox=90.0,529.08,521.47,541.04               :composition, the unsaturated arguments of the argument predicate are introduced into the
+line=118 fonts=F1-12.0,F8-12.0 iscore=0.21 bbox=90.0,514.56,521.61,526.52       :argument  structure of the selecting predicate. Based on this, the clause headed by hata
+line=119 fonts=F1-12.0 iscore=0.21 bbox=90.0,500.16,499.79,512.12               :causative verb has the canonical structure allowing free word order variation as in (4).
+
+doc_id=47 page=4 block_id=4-6 bbox=99.48,447.0,293.6,476.0 label=tbbb 120 120
+line=120 fonts=F1-12.0,F11-11.5,F11-11.7,F9-7.2 bbox=99.48,447.0,293.6,476.0:           (4)                                                                                                   #           #           #           #           #.          #.       S50            05          5           5           5           5
+
+doc_id=47 page=4 block_id=4-7 bbox=119.28,396.72,395.04,446.3 label=bt 121 122
+line=121 fonts=F11-11.7,F13-10.9,F2-8.0,F9-10.9 bbox=119.28,408.9,395.04,446.3:        NP# #   NP  $ %'&�(*),+-+ / NP   V  ¢ SUBJ 1 NP 2 3 ^{�}  V[PHON5 5    hata]
+line=122 fonts=F11-11.7,F2-8.0 iscore=0.33 bbox=252.48,396.72,305.2,409.1     :                                             COMPS   ¤ 4 NP �
+
+doc_id=47 page=4 block_id=4-8 bbox=90.0,327.72,521.6,368.6 label=bbt 123 125
+line=123 fonts=F1-12.0,F8-12.0 bbox=90.0,356.64,521.53,368.6     :By  contrast, Bratt claims that the causative hata forms a verbal cluster with its preceding
+line=124 fonts=F1-12.0 iscore=0.13 bbox=90.0,342.24,521.6,354.2  :verb without using a lexical rule. According to her, the canonical structure of the causative
+line=125 fonts=F1-12.0 iscore=0.20 bbox=90.0,327.72,281.28,339.68:constructions can be presented as in (5).
+
+doc_id=47 page=4 block_id=4-9 bbox=99.48,245.6,295.3,303.56 label=bbbtt 126 128
+line=126 fonts=F1-12.0,F11-11.7,F9-7.2 bbox=99.48,287.1,204.7,303.56                      :     (5)                                            #   S5
+line=127 fonts=F11-11.5,F11-11.7,F11-11.9 iscore=0.00 bbox=134.0,272.0,265.4,286.3        :                      ##   #                                                      5    55
+line=128 fonts=F10-10.1,F11-11.7,F2-8.0,F9-10.9 iscore=0.00 bbox=119.28,245.6,295.3,269.75:               NP      subj                                         ¡    ¡    ¡    ¡    ¡ VP0¢   0 ¢   ¢
+
+doc_id=47 page=4 block_id=4-10 bbox=204.96,180.6,376.52,234.17 label=bbbtb 129 130
+line=129 fonts=F11-11.7,F2-8.0,F9-8.0 bbox=204.96,216.7,334.54,234.17          :                               NPcausee            NPobj   6 6 V1
+line=130 fonts=F11-11.7,F2-8.0,F9-8.0 iscore=0.00 bbox=287.4,180.6,376.52,205.1:                                                     V2         7  7 7 Vcause7
+
+doc_id=47 page=4 block_id=4-11 bbox=90.0,128.04,521.62,168.8 label=bbbbtt 131 133
+line=131 fonts=F1-12.0 bbox=126.0,156.84,521.52,168.8                   :       Second, while Bratt concludes that causatives with dative and accusative case share
+line=132 fonts=F1-12.0 iscore=0.17 bbox=90.0,142.44,521.62,154.4        :the same structures, Chung distinguishes two different causative constructions: a control
+line=133 fonts=F1-12.0,F2-8.0 iscore=0.09 bbox=90.0,128.04,313.55,140.33:verb construction and a raising construction.^{7} .
+
+doc_id=47 page=4 block_id=4-12 bbox=90.0,69.72,521.59,117.3 label=bbbbtb 134 137
+line=134 fonts=F11-11.7,F14-6.0,F3-7.0,F4-10.0 bbox=103.92,105.6,521.59,117.3   :   ^{6}A list satistifes the description D1 8 D2 if it is the concatenation of two lists satisfying the description D1
+line=135 fonts=F14-6.0,F4-10.0 iscore=0.05 bbox=90.0,93.6,169.33,103.56         :and D2 respectively.
+line=136 fonts=F3-7.0,F4-10.0,F5-10.0 iscore=0.00 bbox=103.92,81.72,521.54,92.29:   ^{7}Chung claims that the accusative hata causatives are more restricted than the dative causatives with
+line=137 fonts=F4-10.0 iscore=0.00 bbox=90.0,69.72,177.85,79.68                 :respect to scrambling.
+
+doc_id=47 page=4 block_id=4-13 bbox=300.0,39.84,311.98,51.8 label=bbbbb 138 138
+line=138 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   56
+
+doc_id=47 page=5 block_id=5-1 bbox=223.08,747.0,387.93,756.56 label=t 139 139
+line=139 fonts=F7-9.6 bbox=223.08,747.0,387.93,756.56:                    KOREAN COMPLEX PREDICATES
+
+doc_id=47 page=5 block_id=5-2 bbox=90.0,662.4,521.67,717.68 label=bttt 140 143
+line=140 fonts=F1-12.0 bbox=126.0,705.72,521.67,717.68           :       Third, with respect to scrambling, Chung argues that clause internal scrambling
+line=141 fonts=F1-12.0 iscore=0.25 bbox=90.0,691.32,521.58,703.28:and long-distance scrambling are explained by the same mechanism of argument composi-
+line=142 fonts=F1-12.0 iscore=0.17 bbox=90.0,676.92,521.57,688.88:tion in Korean. Bratt, however, proposes that clause-bounded scrambling is fundamentally
+line=143 fonts=F1-12.0 iscore=0.09 bbox=90.0,662.4,275.3,674.36  :different from long distant scrambling.
+
+doc_id=47 page=5 block_id=5-3 bbox=90.0,563.76,521.73,647.96 label=bttb 144 149
+line=144 fonts=F1-12.0 bbox=126.0,636.0,521.54,647.96                    :       When  we  consider adjunct scope in the causative hata-construction, it is hard to
+line=145 fonts=F1-12.0,F8-12.0 iscore=0.33 bbox=90.0,621.6,521.48,633.56 :support Chung’s argument that the causative verb hata takes a VP complement. In the fol-
+line=146 fonts=F1-12.0 iscore=0.20 bbox=90.0,607.08,521.58,619.04        :lowing examples, an adverb modifies only the immediately following verb in an embedded
+line=147 fonts=F1-12.0 iscore=0.15 bbox=90.0,592.68,521.62,604.64        :S- or VP-complement construction. However, the two different interpretations of (6c) show
+line=148 fonts=F1-12.0,F8-12.0 iscore=0.23 bbox=90.0,578.28,521.73,590.24:that the adverb kakkum (sometimes) takes scope over not only the immediately following
+line=149 fonts=F1-12.0 iscore=0.23 bbox=90.0,563.76,327.66,575.72        :verb but also the whole causative verbal complex.
+
+doc_id=47 page=5 block_id=5-4 bbox=99.48,498.36,495.9,539.0 label=btbtt 150 152
+line=150 tag=L+SY span_id=47-2 lang_name=Korean lang_code=kor fonts=F1-12.0,F14-6.0 bbox=99.48,527.04,495.9,539.0    :  (6) a. John-i   [S Mary-ka  chayk-ul kakkum    ilke-yahan-tako] malhayssta
+line=151 tag=G span_id=47-2 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.86 bbox=134.16,512.64,461.98,524.6 :         John-Nom    Mary-Nom book-Acc sometimes read-must-Comp   said
+line=152 tag=T span_id=47-2 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.22 bbox=134.16,498.36,386.92,510.32:        ‘John said that Mary should read a book sometimes.’
+
+doc_id=47 page=5 block_id=5-5 bbox=119.88,444.72,493.15,485.36 label=btbtbt 153 155
+line=153 tag=L+SY span_id=47-3 lang_name=Korean lang_code=kor fonts=F1-12.0,F14-6.0 bbox=119.88,473.4,493.15,485.36  :      b. John-i   Mary-eykey [VP chayk-ul kakkum    ilk-ulako]  seltukhayssta
+line=154 tag=G span_id=47-3 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.86 bbox=134.16,459.0,477.69,470.96 :         John-Nom Mary-to        book-Acc sometimes read-Ending persuaded
+line=155 tag=T span_id=47-3 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.25 bbox=134.16,444.72,372.41,456.68:        ‘John persuaded Mary to sometimes read a book.’
+
+doc_id=47 page=5 block_id=5-6 bbox=120.0,378.36,468.96,431.72 label=btbtbb 156 159
+line=156 tag=L+SY span_id=47-4 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=120.0,419.76,468.96,431.72             :     c. John-i    Mary-eykey chayk-ul kakkum    [ ilk-key     hayessta ]
+line=157 tag=G span_id=47-4 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.75 bbox=134.16,405.36,454.07,417.32   :        John-Nom  Mary-Dat   book-Acc sometimes   read-Ending caused
+line=158 tag=T span_id=47-4 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.22 bbox=134.16,392.88,370.01,404.84   :        1. ‘Sometimes John caused Mary to read a book.’
+line=159 tag=T+AL span_id=47-4 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.56 bbox=134.16,378.36,368.57,390.32:        2. ‘John caused Mary to sometimes read a book.’
+
+doc_id=47 page=5 block_id=5-7 bbox=90.0,315.6,521.61,356.48 label=btbb 160 162
+line=160 fonts=F1-12.0 bbox=90.0,344.52,521.61,356.48            :Further evidence that the adverb modifies not only the immediately following predicate but
+line=161 fonts=F1-12.0 iscore=0.31 bbox=90.0,330.12,521.52,342.08:also the whole cluster is that the occurrence of an adverb is semantically restricted by the
+line=162 fonts=F1-12.0 iscore=0.06 bbox=90.0,315.6,316.52,327.56 :whole verbal cluster. Consider the example (7).
+
+doc_id=47 page=5 block_id=5-8 bbox=99.48,250.08,434.06,290.84 label=bbt 163 165
+line=163 tag=L span_id=47-5 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=99.48,278.88,434.06,290.84            :  (7) John-i   Mary-lul  han sikan-maney kippu-key       hayessta
+line=164 tag=G span_id=47-5 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.86 bbox=119.28,264.48,426.0,276.44:      John-Nom Mary-Acc  one hour-in     be happy-Ending caused
+line=165 tag=T span_id=47-5 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.22 bbox=119.28,250.08,326.6,262.04:     ‘John caused Mary to be happy in an hour.’
+
+doc_id=47 page=5 block_id=5-9 bbox=90.0,199.8,521.63,226.16 label=bbbtt 166 167
+line=166 fonts=F1-12.0,F8-12.0 bbox=126.0,214.2,521.63,226.16           :       In Korean, the adverbial phrase han sikan man-ey, the correspondent of the time
+line=167 fonts=F1-12.0,F8-12.0 iscore=0.13 bbox=90.0,199.8,521.51,211.76:adverbial in an hour, modifies only telic predicates which specify the end point of the
+
+doc_id=47 page=5 block_id=5-10 bbox=105.96,154.92,359.12,188.64 label=bbbtbtt 168 170
+line=168 tag=L span_id=47-6 lang_name=Korean lang_code=kor fonts=F4-10.0 bbox=105.96,178.68,359.12,188.64            :    1. Mary-ka   ku   chayk-ul ilk-key     John-eykey hayessta
+line=169 tag=G span_id=47-6 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=1.00 bbox=119.28,166.8,352.53,176.76 :       Mary-Nom  that book-Acc read-Ending John-to    caused
+line=170 tag=T span_id=47-6 lang_name=Korean lang_code=kor fonts=F5-10.0 iscore=0.14 bbox=119.28,154.92,267.52,164.88:      ‘Mary caused John to read the book.’
+
+doc_id=47 page=5 block_id=5-11 bbox=105.96,112.8,351.82,146.52 label=bbbtbtb 171 173
+line=171 tag=L span_id=47-7 lang_name=Korean lang_code=kor fonts=F4-10.0 bbox=105.96,136.56,351.82,146.52            :    2. *Mary-ka  ku   chayk-ul ilk-key     John-ul  hayessta
+line=172 tag=G span_id=47-7 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=1.00 bbox=119.28,124.56,345.19,134.52:       Mary-Nom  that book-Acc read-Ending John-Acc caused
+line=173 tag=T span_id=47-7 lang_name=Korean lang_code=kor fonts=F5-10.0 iscore=0.29 bbox=119.28,112.8,267.52,122.76 :      ‘Mary caused John to read the book.’
+
+doc_id=47 page=5 block_id=5-12 bbox=90.0,69.72,521.63,103.56 label=bbbtbb 174 176
+line=174 fonts=F4-10.0 bbox=90.0,93.6,521.49,103.56            :There seems to be a difference between an accusative NP and others in Korean. We are not sure whether we
+line=175 fonts=F4-10.0 iscore=0.19 bbox=90.0,81.72,521.63,91.68:must distinguish two causatives according to the case marker of an NP or not. Since this is not one of main
+line=176 fonts=F4-10.0 iscore=0.10 bbox=90.0,69.72,297.96,79.68:concerns of this paper, we will not discuss it further.
+
+doc_id=47 page=5 block_id=5-13 bbox=300.0,39.84,311.98,51.8 label=bbbb 177 177
+line=177 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   57
+
+doc_id=47 page=6 block_id=6-1 bbox=269.88,747.0,341.82,756.56 label=t 178 178
+line=178 fonts=F7-9.6 bbox=269.88,747.0,341.82,756.56:                           SUN-HEE LEE
+
+doc_id=47 page=6 block_id=6-2 bbox=90.0,590.16,521.63,717.68 label=btt 179 187
+line=179 fonts=F1-12.0,F8-12.0 bbox=90.0,705.72,521.51,717.68            :event. Although  the adjective kipputa (be happy) is stative, and therefore is not a telic
+line=180 fonts=F1-12.0,F8-12.0 iscore=0.13 bbox=90.0,691.32,521.49,703.28:predicate, the adverbial han sikan man-ey appears in (7). This suggests that it modifies the
+line=181 fonts=F1-12.0,F8-12.0 iscore=0.18 bbox=90.0,676.92,521.6,688.88 :event of causing Mary to be happy as a whole. Thus, the adverbials in the causative hata
+line=182 fonts=F1-12.0 iscore=0.18 bbox=90.0,662.4,521.61,674.36         :constructions can modify either the causative relation or the lower verb’s semantic relation.
+line=183 fonts=F1-12.0 iscore=0.12 bbox=90.0,648.0,521.49,659.96         :This is hard to explain without accepting the verbal complex analysis of the lower verb and
+line=184 fonts=F1-12.0,F8-12.0 iscore=0.19 bbox=90.0,633.48,521.58,645.44:the causative verb hata. In addition, the sentence adverb scope undermines the claim that
+line=185 fonts=F1-12.0,F8-12.0 iscore=0.35 bbox=90.0,619.08,521.63,631.04:the causative hata takes a VP as its argument. In general, a sentential adverb of a matrix
+line=186 fonts=F1-12.0 iscore=0.33 bbox=90.0,604.68,521.48,616.64        :predicate does not occur among the elements of the embedded S or VP as in (8b) and (9b),
+line=187 fonts=F1-12.0 iscore=0.33 bbox=90.0,590.16,457.34,602.12        :but it can intervene between the embedded verb and its argument as in (10b).
+
+doc_id=47 page=6 block_id=6-3 bbox=99.48,523.92,462.59,564.68 label=btbtt 188 190
+line=188 tag=L+SY span_id=47-8 lang_name=Korean lang_code=kor fonts=F1-12.0,F14-6.0 bbox=99.48,552.72,462.59,564.68  :  (8) a. tahaynghi,  John-i  [S Mary-ka  chayk-ul  ilk-key]    hayessta
+line=189 tag=G span_id=47-8 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.86 bbox=134.16,538.2,454.53,550.16 :         fortunately John-Nom   Mary-Nom book-Acc  read-Ending caused
+line=190 tag=T span_id=47-8 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.12 bbox=134.16,523.92,363.65,535.88:        ‘Fortunately, John caused Mary to read a book.’
+
+doc_id=47 page=6 block_id=6-4 bbox=119.88,470.04,462.62,510.8 label=btbtb 191 193
+line=191 tag=L+SY span_id=47-9 lang_name=Korean lang_code=kor fonts=F1-12.0,F14-6.0 bbox=119.88,498.84,462.62,510.8 :      b. John-i   [S Mary-ka,  tahaynghi,  chayk-ul ilk-key]    hayessta
+line=192 tag=G span_id=47-9 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.71 bbox=134.16,484.44,454.53,496.4:        John-Nom     Mary-Nom  fortunately book-Acc read-Ending caused
+line=193 tag=T span_id=47-9 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.25 bbox=134.16,470.04,363.65,482.0:        ‘Fortunately, John caused Mary to read a book.’
+
+doc_id=47 page=6 block_id=6-5 bbox=120.0,416.16,460.34,456.92 label=btbb 194 196
+line=194 tag=L+SY span_id=47-10 lang_name=Korean lang_code=kor fonts=F1-12.0,F14-6.0 bbox=120.0,444.96,460.34,456.92  :      c. John-i   [S Mary-ka   chayk-ul, tahaynghi,  ilk-key]    hayessta
+line=195 tag=G span_id=47-10 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.71 bbox=134.16,430.56,452.27,442.52:        John-Nom     Mary-Nom  a book    fortunately read-Ending caused
+line=196 tag=T span_id=47-10 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.25 bbox=134.16,416.16,363.65,428.12:        ‘Fortunately, John caused Mary to read a book.’
+
+doc_id=47 page=6 block_id=6-6 bbox=99.48,348.84,490.89,389.6 label=bbtt 197 199
+line=197 tag=L span_id=47-11 lang_name=Korean lang_code=kor fonts=F1-12.0,F14-6.0 bbox=99.48,377.64,490.89,389.6      :  (9) a. tahaynghi,  John-i   Mary-ul  [VP chay-ul  ilk-key ]   seltukhayessta
+line=198 tag=G span_id=47-11 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.75 bbox=134.16,363.12,470.11,375.08:         fortunately John-Nom Mary-Acc     book-Acc read-Ending persuaded
+line=199 tag=T span_id=47-11 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.12 bbox=134.16,348.84,380.19,360.8 :        ‘Fortunately, John persuaded Mary to read a book.’
+
+doc_id=47 page=6 block_id=6-7 bbox=119.88,294.96,490.91,335.72 label=bbtb 200 202
+line=200 tag=L+SY span_id=47-12 lang_name=Korean lang_code=kor fonts=F1-12.0,F14-6.0 bbox=119.88,323.76,490.91,335.72 :      b. John-i    Mary-ul   [VP chay-ul, tahaynghi,  ilk-key ]   seltukhayessta
+line=201 tag=G span_id=47-12 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.62 bbox=134.16,309.24,470.11,321.2 :        John-Nom   Mary-Acc      book-Acc fortunately read-Ending persuaded
+line=202 tag=T span_id=47-12 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.25 bbox=134.16,294.96,380.19,306.92:        ‘Fortunately, John persuaded Mary to read a book.’
+
+doc_id=47 page=6 block_id=6-8 bbox=93.48,227.52,430.88,268.28 label=bbbttt 203 205
+line=203 tag=L span_id=47-13 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,256.32,430.88,268.28             : (10) a. tahaynghi,  John-i   Mary-eykey chayk-ul ilk-key hayessta
+line=204 tag=G span_id=47-13 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,241.92,422.91,253.88:         fortunately John-Nom Mary-Dat   book-Acc read    caused
+line=205 tag=T span_id=47-13 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.25 bbox=134.16,227.52,363.65,239.48:        ‘Fortunately, John caused Mary to read a book.’
+
+doc_id=47 page=6 block_id=6-9 bbox=119.88,173.76,456.45,214.4 label=bbbttb 206 208
+line=206 tag=L span_id=47-14 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,202.44,456.45,214.4             :      b. John-i   Mary-eykey  chayk-ul, tahaynghi,  ilk-key     hayessta
+line=207 tag=G span_id=47-14 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,188.04,448.43,200.0 :         John-Nom Mary-Dat    book-Acc  fortunately read-Ending caused
+line=208 tag=T span_id=47-14 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.12 bbox=134.16,173.76,363.65,185.72:        ‘Fortunately, John caused Mary to read a book.’
+
+doc_id=47 page=6 block_id=6-10 bbox=90.0,136.92,293.57,148.88 label=bbbtb 209 209
+line=209 fonts=F0-12.0 bbox=90.0,136.92,293.57,148.88:2.2  Verbal Noun Constructions as CPs
+
+doc_id=47 page=6 block_id=6-11 bbox=90.0,69.72,521.76,110.6 label=bbbbt 210 212
+line=210 fonts=F1-12.0,F8-12.0 bbox=126.0,98.64,521.76,110.6   :       In addition to auxiliary verb constructions and the causative hata constructions,
+line=211 fonts=F1-12.0 iscore=0.00 bbox=90.0,84.12,521.51,96.08:there are some combinations of a noun and a verb which have been classified as CPs in
+line=212 fonts=F1-12.0 iscore=0.06 bbox=90.0,69.72,127.74,81.68:Korean.
+
+doc_id=47 page=6 block_id=6-12 bbox=300.0,39.84,311.98,51.8 label=bbbbb 213 213
+line=213 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   58
+
+doc_id=47 page=7 block_id=7-1 bbox=223.08,747.0,387.93,756.56 label=ttt 214 214
+line=214 fonts=F7-9.6 bbox=223.08,747.0,387.93,756.56:                    KOREAN COMPLEX PREDICATES
+
+doc_id=47 page=7 block_id=7-2 bbox=93.48,677.04,435.96,717.68 label=ttb 215 217
+line=215 tag=L span_id=47-15 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,705.72,410.13,717.68             : (11) a. John-i    ku saken-ul       cosa-ul           ha-yess-ta
+line=216 tag=G span_id=47-15 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.80 bbox=134.16,691.32,435.96,703.28:         John-Nom  that accident-Acc investigation-Acc do-Past-Ending
+line=217 tag=T span_id=47-15 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.29 bbox=134.16,677.04,341.02,689.0 :         ‘John did an investigation of that accident.’
+
+doc_id=47 page=7 block_id=7-3 bbox=119.88,603.96,436.68,644.96 label=tb 218 220
+line=218 tag=L span_id=47-16 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,633.0,410.86,644.96             :      b. John-i    ku saken-uy       cosa-lul          ha-yess-ta
+line=219 tag=G span_id=47-16 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.80 bbox=134.16,618.36,436.68,630.32:         John-Nom  that accident-Gen investigation-Acc do-Past-Ending
+line=220 tag=T span_id=47-16 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.29 bbox=134.16,603.96,341.02,615.92:         ‘John did an investigation of that accident.’
+
+doc_id=47 page=7 block_id=7-4 bbox=93.48,512.64,393.77,553.4 label=btt 221 223
+line=221 tag=L span_id=47-17 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,541.44,367.86,553.4              : (12) a. John-i    kutul-kwa hyepsang-ul     ha-yess-ta
+line=222 tag=G span_id=47-17 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,526.92,393.77,538.88:         John-Nom  them-with negotiation-Acc do-Past-Ending
+line=223 tag=T span_id=47-17 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.17 bbox=134.16,512.64,310.82,524.6 :        ‘John made  a negotiation with them.’
+
+doc_id=47 page=7 block_id=7-5 bbox=119.88,439.68,417.62,480.68 label=btb 224 226
+line=224 tag=L span_id=47-18 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,468.72,391.74,480.68            :      b. John-i   kutul-kwa-uy   hyepsang-ul     ha-yess-ta
+line=225 tag=G span_id=47-18 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,453.96,417.62,465.92:         John-Nom them-with-Gen  negotiation-Acc do-Past-Ending
+line=226 tag=T span_id=47-18 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.17 bbox=134.16,439.68,310.82,451.64:        ‘John made a negotiation with them.’
+
+doc_id=47 page=7 block_id=7-6 bbox=90.0,292.32,521.64,390.92 label=bbttt 227 233
+line=227 fonts=F1-12.0,F8-12.0 bbox=90.0,378.96,521.47,390.92            :In the given examples, the underlined elements are required by cosa (investigation) and
+line=228 fonts=F1-12.0,F8-12.0 iscore=0.23 bbox=90.0,364.56,521.58,376.52:hyepsang  (negotiation), and not by hata. This kind of argument-predicate relationship is
+line=229 fonts=F1-12.0 iscore=0.25 bbox=90.0,350.16,521.48,362.12        :supported by the examples of (11b) and (12b); the elements can be realized under the NP
+line=230 fonts=F1-12.0 iscore=0.19 bbox=90.0,335.64,521.38,347.6         :by taking a genitive case marker. A notable point is that the underlined elements are real-
+line=231 fonts=F1-12.0 iscore=0.24 bbox=90.0,321.24,521.64,333.2         :ized directly under the VP in (11a) and (12a). If the arguments were located in the sister
+line=232 fonts=F1-12.0 iscore=0.18 bbox=90.0,306.84,521.46,318.8         :position of the verbal noun, we would expect topicalization, or pseudocleft formation to be
+line=233 fonts=F1-12.0 iscore=0.21 bbox=90.0,292.32,349.86,304.28        :prohibited like normal elements under NPs as follows.
+
+doc_id=47 page=7 block_id=7-7 bbox=126.0,251.52,204.88,263.48 label=bbttb 234 234
+line=234 fonts=F1-12.0 bbox=126.0,251.52,204.88,263.48:        [ topicalization ]
+
+doc_id=47 page=7 block_id=7-8 bbox=93.48,171.6,438.0,212.36 label=bbtbt 235 237
+line=235 tag=L span_id=47-19 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,200.4,412.16,212.36             : (13) a. ku   saken-un     John-i    cosa-lul          ha-yess-ta
+line=236 tag=G span_id=47-19 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.83 bbox=134.16,185.88,438.0,197.84:         that accident-Top John- Nom investigation-Acc do-Past-Ending
+line=237 tag=T span_id=47-19 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.38 bbox=134.16,171.6,344.87,183.56:         ‘As for that accident, I did an investigation.’
+
+doc_id=47 page=7 block_id=7-9 bbox=119.88,98.88,415.95,139.64 label=bbtbb 238 240
+line=238 tag=L span_id=47-20 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,127.68,390.05,139.64            :      b. kutul-kwa-nun John-i    hyepsang-ul     ha-yess-ta
+line=239 tag=G span_id=47-20 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,113.16,415.95,125.12:         them-with-Top John-Nom  negotiation-Acc do-Past-Ending
+line=240 tag=T span_id=47-20 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.12 bbox=134.16,98.88,345.94,110.84 :        ‘As for with them, John made a negotiation.’
+
+doc_id=47 page=7 block_id=7-10 bbox=300.0,39.84,311.98,51.8 label=bbb 241 241
+line=241 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   59
+
+doc_id=47 page=8 block_id=8-1 bbox=269.88,747.0,341.82,756.56 label=t 242 242
+line=242 fonts=F7-9.6 bbox=269.88,747.0,341.82,756.56:                           SUN-HEE LEE
+
+doc_id=47 page=8 block_id=8-2 bbox=126.0,705.72,191.92,717.68 label=bt 243 243
+line=243 fonts=F1-12.0 bbox=126.0,705.72,191.92,717.68:       [pseudocleft ]
+
+doc_id=47 page=8 block_id=8-3 bbox=93.48,639.24,461.85,680.0 label=bbtt 244 246
+line=244 tag=L span_id=47-21 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,668.04,422.71,680.0              : (14) a. John-i    cosa-lul          ha-n   kes-un   ku   saken-ita
+line=245 tag=G span_id=47-21 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,653.52,461.85,665.48:         John-Nom  investigation-Acc do-Rel what-Top that accident-Copular
+line=246 tag=T span_id=47-21 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.25 bbox=134.16,639.24,377.23,651.2 :         ‘What John did an investigation was that accident’
+
+doc_id=47 page=8 block_id=8-4 bbox=119.88,583.2,443.04,623.96 label=bbtb 247 249
+line=247 tag=L span_id=47-22 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,612.0,415.74,623.96            :      b. John-i   hyepsang-ul     ha-n   kes-un   kutul-kwa-ita
+line=248 tag=G span_id=47-22 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,597.6,443.04,609.56:         John-Nom negotiation-Acc do-Rel what-Top them-with-Copular
+line=249 tag=T span_id=47-22 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.38 bbox=134.16,583.2,357.34,595.16:        ‘Who  John made a negotiation with was them.’
+
+doc_id=47 page=8 block_id=8-5 bbox=90.0,531.96,521.48,558.32 label=bbbt 250 251
+line=250 fonts=F1-12.0 bbox=90.0,546.36,521.48,558.32            :Morphologically, nominal argument takes genitive case only under an NP in Korean as in
+line=251 fonts=F1-12.0 iscore=0.07 bbox=90.0,531.96,204.81,543.92:the following examples.
+
+doc_id=47 page=8 block_id=8-6 bbox=93.48,465.36,384.49,506.12 label=bbbbtt 252 254
+line=252 tag=L span_id=47-23 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,494.16,384.49,506.12             : (15) a. Yenghuy-ka     chingwu-uy   oppa-lul    salanghanta
+line=253 tag=G span_id=47-23 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,479.76,353.13,491.72:         Yenghuy-Nom    friend-Gen   brother-Acc loves
+line=254 tag=T span_id=47-23 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.60 bbox=134.16,465.36,306.61,477.32:         ‘Yenghuy loves her friend’s brother.’
+
+doc_id=47 page=8 block_id=8-7 bbox=119.88,409.44,396.49,450.08 label=bbbbtbt 255 257
+line=255 tag=L span_id=47-24 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,438.12,396.49,450.08            :      b. *chingwu-nun Yenghuy-ka    oppa-lul    salanghanta
+line=256 tag=G span_id=47-24 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,423.72,365.13,435.68:         friend-Top   Yenghuy-Nom   brother-Acc loves
+line=257 tag=T span_id=47-24 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.12 bbox=134.16,409.44,342.22,421.4 :        ‘As for a friend, Yenghuy loves her brother.’
+
+doc_id=47 page=8 block_id=8-8 bbox=120.0,353.4,442.2,394.16 label=bbbbtbb 258 260
+line=258 tag=L span_id=47-25 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=120.0,382.2,434.98,394.16                :      c. *Yenghuy-ka  oppa-lul    salangha-nun kes-un  chingwu-ita
+line=259 tag=G span_id=47-25 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,367.68,442.2,379.64   :         Yenghui-Nom  brother-Acc loves-REL    who-Top friend-copula
+line=260 tag=T+LT span_id=47-25 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.12 bbox=134.16,353.4,373.29,365.36:        ‘It is her friend whose brother Yenghuy loves.(lit)’
+
+doc_id=47 page=8 block_id=8-9 bbox=90.0,215.4,521.64,328.4 label=bbbbbtt 261 268
+line=261 fonts=F1-12.0,F8-12.0 bbox=90.0,316.44,521.64,328.4             :The accusative case ‘ul/lul’ and the postposition wa/kwa (with) in (11a) and (12a) show
+line=262 fonts=F1-12.0 iscore=0.33 bbox=90.0,302.04,521.5,314.0          :that the underlined arguments come directly under the VP node of the sentence. In the
+line=263 fonts=F1-12.0 iscore=0.20 bbox=90.0,287.52,521.64,299.48        :given examples, the argument structure of the CP is mainly inherited from the nominal
+line=264 fonts=F1-12.0,F8-12.0 iscore=0.07 bbox=90.0,273.12,521.43,285.08:component,  the combining noun has been called a verbal noun. Besides the verb hata has
+line=265 fonts=F1-12.0 iscore=0.27 bbox=90.0,258.72,521.47,270.68        :been considered to take a functional role by accompanying a tense or aspect marker and
+line=266 fonts=F1-12.0 iscore=0.13 bbox=90.0,244.2,521.51,256.16         :completing a sentence while it does not semantically restrict the arguments of a sentence
+line=267 fonts=F1-12.0,F8-12.0 iscore=0.24 bbox=90.0,229.8,521.49,241.76 :as other predicates. In this respect, the verb hata is similar to auxiliary verbs, so has been
+line=268 fonts=F1-12.0,F2-8.0 iscore=0.12 bbox=90.0,215.4,384.47,227.69  :called a light verb in contrast with other verbs (heavy verbs).^{8}
+
+doc_id=47 page=8 block_id=8-10 bbox=90.0,116.76,521.94,200.96 label=bbbbbtbt 269 274
+line=269 fonts=F1-12.0 bbox=126.0,189.0,521.53,200.96                   :       The verbal noun constructions have been paid much attention in the literature, in-
+line=270 fonts=F1-12.0 iscore=0.38 bbox=90.0,174.48,521.38,186.44       :cluding Grimshaw  & Mester’s (1988) proposal of argument transfer, which percolates ar-
+line=271 fonts=F1-12.0 iscore=0.12 bbox=90.0,160.08,521.58,172.04       :guments of the nominal to the light verb, Ahn’s (1989) analysis based on a heavy and light
+line=272 fonts=F1-12.0 iscore=0.29 bbox=90.0,145.56,521.48,157.52       :verb distinction, and Ryu’s (1993) approach within the HPSG framework. Among the var-
+line=273 fonts=F1-12.0 iscore=0.31 bbox=90.0,131.16,521.46,143.12       :ious mechanisms for explaining the formation of noun-verb complexes, Ryu (1993) uses
+line=274 fonts=F1-12.0,F2-8.0 iscore=0.25 bbox=90.0,116.76,521.94,129.05:argument composition, following the idea of Hinrichs & Nakayama (1994).^{9} Similarly, Lee
+
+doc_id=47 page=8 block_id=8-11 bbox=90.0,69.72,521.76,104.17 label=bbbbbtbb 275 277
+line=275 fonts=F3-7.0,F4-10.0 bbox=103.92,93.6,463.13,104.17            :   ^{8}Especially in generative grammar including Grimshaw & Mester (1988) and Ahn (1989).
+line=276 fonts=F3-7.0,F4-10.0 iscore=0.19 bbox=103.92,81.72,521.76,92.29:   ^{9}Instead of argument composition, he actually uses the term ‘argument transfer’ but there is not much
+line=277 fonts=F4-10.0 iscore=0.00 bbox=90.0,69.72,132.9,79.68          :difference.
+
+doc_id=47 page=8 block_id=8-12 bbox=300.0,39.84,311.98,51.8 label=bbbbbb 278 278
+line=278 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   60
+
+doc_id=47 page=9 block_id=9-1 bbox=223.08,747.0,387.93,756.56 label=ttt 279 279
+line=279 fonts=F7-9.6 bbox=223.08,747.0,387.93,756.56:                    KOREAN COMPLEX PREDICATES
+
+doc_id=47 page=9 block_id=9-2 bbox=90.0,662.4,521.99,718.01 label=ttb 280 283
+line=280 fonts=F1-12.0,F2-8.0 bbox=90.0,705.72,521.99,718.01             :(1993) uses theta-role raising to V-bar within the GB framework.^{10} Even though it has not
+line=281 fonts=F1-12.0 iscore=0.33 bbox=90.0,691.32,521.46,703.28        :been noticed in many previous approaches on CPs, there are many other verbs which can
+line=282 fonts=F1-12.0,F8-12.0 iscore=0.40 bbox=90.0,676.92,521.72,688.88:be combined with verbal nouns besides the light verb hata. Let us consider the following
+line=283 fonts=F1-12.0 iscore=0.07 bbox=90.0,662.4,138.05,674.36         :examples.
+
+doc_id=47 page=9 block_id=9-3 bbox=93.48,593.88,450.59,634.64 label=tbt 284 286
+line=284 tag=L span_id=47-26 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,622.68,422.12,634.64             : (16) a. John-i     ku   saken-ul     cosa-lul         machi-ess-ta
+line=285 tag=G span_id=47-26 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.80 bbox=134.16,608.28,450.59,620.24:         John-Nom   that accident-Acc investigation-Acc finish-Past-Ending
+line=286 tag=T span_id=47-26 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.14 bbox=134.16,593.88,365.58,605.84:         ‘John finished the investigation of that accident.’
+
+doc_id=47 page=9 block_id=9-4 bbox=119.88,539.28,451.31,580.04 label=tbb 287 289
+line=287 tag=L span_id=47-27 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,568.08,422.86,580.04            :      b. John-i    ku   saken-uy     cosa-lul          machi-ess-ta
+line=288 tag=G span_id=47-27 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,553.56,451.31,565.52:         John-Nom  that accident-Gen investigation-Acc finish-Past-Ending
+line=289 tag=T span_id=47-27 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.14 bbox=134.16,539.28,365.58,551.24:         ‘John finished the investigation of that accident.’
+
+doc_id=47 page=9 block_id=9-5 bbox=93.48,469.68,399.05,510.44 label=bttt 290 292
+line=290 tag=L span_id=47-28 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,498.48,395.18,510.44             : (17) a. John-i    kutul-kwa hyepsang-ul     kkuthnay-ess-ta
+line=291 tag=G span_id=47-28 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,483.96,399.05,495.92:         John-Nom  them-with negotiation-Acc end-Past-Ending
+line=292 tag=T span_id=47-28 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.17 bbox=134.16,469.68,322.2,481.64 :        ‘John ended the negotiation with them.’
+
+doc_id=47 page=9 block_id=9-6 bbox=119.88,415.08,422.9,455.84 label=bttb 293 295
+line=293 tag=L span_id=47-29 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,443.88,419.06,455.84           :      b. John-i    kutul-kwa-uy  hyepsang-ul     kkuthnay-ess-ta
+line=294 tag=G span_id=47-29 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,429.36,422.9,441.32:         John-Nom  them-with-Gen negotiation-Acc end-Past-Ending
+line=295 tag=T span_id=47-29 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.17 bbox=134.16,415.08,322.2,427.04:        ‘John ended the negotiation with them.’
+
+doc_id=47 page=9 block_id=9-7 bbox=90.0,361.68,521.49,388.16 label=btbt 296 297
+line=296 fonts=F1-12.0 bbox=90.0,376.2,521.49,388.16                     :Moreover, there are some combinations of a verbal noun and a verb in which the verb
+line=297 fonts=F1-12.0,F8-12.0 iscore=0.06 bbox=90.0,361.68,291.58,373.64:cannot be substituted for by the verb hata.
+
+doc_id=47 page=9 block_id=9-8 bbox=93.48,296.28,391.19,337.04 label=btbbt 298 300
+line=298 tag=L span_id=47-30 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,325.08,369.41,337.04                : (18) a. Na-nun  nay salm-ey hoyuy-lul      nukki-ess-ta
+line=299 tag=G span_id=47-30 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,310.68,391.19,322.64   :         I-Top   my  life-in skepticism-Acc feel-Past-Ending
+line=300 tag=T+LT span_id=47-30 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.29 bbox=134.16,296.28,294.34,308.24:         ‘I felt a skepticism in my life.(lit)’
+
+doc_id=47 page=9 block_id=9-9 bbox=119.88,241.68,312.3,282.44 label=btbbb 301 303
+line=301 tag=L span_id=47-31 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,270.48,290.55,282.44            :      b. Na-nun sulpum-lul  nukki-ess-ta
+line=302 tag=G span_id=47-31 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,256.08,312.3,268.04 :         I-Top  sorrow-Acc  feel-Past-Ending
+line=303 tag=T span_id=47-31 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.33 bbox=134.16,241.68,201.29,253.64:         ‘I felt sorrow.’
+
+doc_id=47 page=9 block_id=9-10 bbox=93.48,172.08,522.31,212.84 label=bbtt 304 306
+line=304 tag=L span_id=47-32 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,200.88,491.79,212.84             : (19) a. Chelswu-ka   John-eykey kocangnan  sikye-lul swuli-lul  mathki-ess-ta
+line=305 tag=G span_id=47-32 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,186.36,522.31,198.32:         Chelswu-Nom  John-to    broken     watch-Acc repair-Acc entrust-Past-Ending
+line=306 tag=T span_id=47-32 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.10 bbox=134.16,172.08,408.26,184.04:        ‘Chelswu  entrusted the repair of a broken watch to John.’
+
+doc_id=47 page=9 block_id=9-11 bbox=119.88,117.48,392.13,158.24 label=bbtbt 307 309
+line=307 tag=L span_id=47-33 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,146.28,361.62,158.24            :      b. Na-nun John-eykey caysan-ul    mathki-ess-ta
+line=308 tag=G span_id=47-33 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,131.76,392.13,143.72:         I-Top  John-to    property-Acc entrust-Past-Ending
+line=309 tag=T span_id=47-33 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.17 bbox=134.16,117.48,293.56,129.44:         ‘I entrusted my property to John.’
+
+doc_id=47 page=9 block_id=9-12 bbox=90.0,69.72,521.71,104.17 label=bbtbb 310 312
+line=310 fonts=F3-7.0,F4-10.0 bbox=100.44,93.6,521.64,104.17   :  ^{10}Grimshaw & Mester (1988) also proposes an operation of ‘argument transfer’ to deal with the syntax of
+line=311 fonts=F4-10.0 iscore=0.18 bbox=90.0,81.72,521.71,91.68:light verb constructions. However, their account is dependent on the notion of ‘partial argument transfer’,
+line=312 fonts=F4-10.0 iscore=0.27 bbox=90.0,69.72,400.77,79.68:which does not apply to Korean. For this, refer to Lee (1993) and Ryu (1993).
+
+doc_id=47 page=9 block_id=9-13 bbox=300.0,39.84,311.98,51.8 label=bbb 313 313
+line=313 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   61
+
+doc_id=47 page=10 block_id=10-1 bbox=269.88,747.0,341.82,756.56 label=t 314 314
+line=314 fonts=F7-9.6 bbox=269.88,747.0,341.82,756.56:                           SUN-HEE LEE
+
+doc_id=47 page=10 block_id=10-2 bbox=90.0,619.08,521.62,717.68 label=bttt 315 321
+line=315 fonts=F1-12.0,F8-12.0 bbox=90.0,705.72,521.46,717.68            :The underlined arguments nay salm-ey (my life-in) and kocangnan sikye-lul (broken watch-
+line=316 fonts=F1-12.0,F8-12.0 iscore=0.14 bbox=90.0,691.32,521.62,703.28:Acc) are not related to the argument structure of nukkita and mathkita. Considering this,
+line=317 fonts=F1-12.0,F8-12.0 iscore=0.16 bbox=90.0,676.92,521.62,688.88:the combinations of a noun and a verb of (18) and (19) are similar to the light verb hata
+line=318 fonts=F1-12.0 iscore=0.21 bbox=90.0,662.4,521.59,674.36         :constructions. The arguments of a noun cannot form pseudocleft sentences or be topical-
+line=319 fonts=F1-12.0 iscore=0.27 bbox=90.0,648.0,521.47,659.96         :ized, while the arguments of a verbal noun can. Pointing out these properties, Lee (1993)
+line=320 fonts=F1-12.0 iscore=0.20 bbox=90.0,633.48,521.62,645.44        :suggested that a verbal noun licenses its arguments in VP by constituting a CP construction
+line=321 fonts=F1-12.0,F8-12.0 iscore=0.27 bbox=90.0,619.08,368.79,631.04:with a specific verb as in the light verb hata constructions.
+
+doc_id=47 page=10 block_id=10-3 bbox=90.0,563.76,521.52,604.64 label=bttb 322 324
+line=322 fonts=F1-12.0 bbox=126.0,592.68,521.52,604.64                  :       Adverb  scope supports that a verbal noun and its following verb form a single syn-
+line=323 fonts=F1-12.0 iscore=0.27 bbox=90.0,578.28,521.49,590.24       :tactic unit. In general, adverbs of manner and degree tend to immediately precede their
+line=324 fonts=F1-12.0,F2-8.0 iscore=0.29 bbox=90.0,563.76,494.39,576.05:modifying verbal categories. In the above sentences, they precede the verbal nouns^{11}
+
+doc_id=47 page=10 block_id=10-4 bbox=93.48,501.96,466.78,542.6 label=btbt 325 327
+line=325 tag=L span_id=47-34 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,530.64,440.91,542.6              : (20) a. Na-nun  ku   saken-ul    chelcehi   cosa-lul          ha-yess-ta
+line=326 tag=G span_id=47-34 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,516.24,466.78,528.2 :         I-Top   that accident-ul thoroughly investigation-Acc do-Past-Ending
+line=327 tag=T span_id=47-34 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.12 bbox=134.16,501.96,376.61,513.92:         ‘I did an investigation of that accident thoroughly.’
+
+doc_id=47 page=10 block_id=10-5 bbox=119.88,448.68,466.78,489.44 label=btbb 328 330
+line=328 tag=L span_id=47-35 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,477.48,440.93,489.44            :      b. Na-nun  ku   saken-ul    cosa-lul          chelcehi   ha-yess-ta
+line=329 tag=G span_id=47-35 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,463.08,466.78,475.04:         I-Top   that accident-ul investigation-Acc thoroughly do-Past-Ending
+line=330 tag=T span_id=47-35 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.12 bbox=134.16,448.68,376.62,460.64:         ‘I did an investigation of that accident thoroughly.’
+
+doc_id=47 page=10 block_id=10-6 bbox=93.48,383.88,423.07,424.52 label=bbtttt 331 333
+line=331 tag=L span_id=47-36 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,412.56,401.28,424.52                : (21) a. Na-un nay  salm-ey khukey  hoyuy-lul      nukki-ess-ta
+line=332 tag=G span_id=47-36 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,398.16,423.07,410.12   :         I-Top my   life-in greatly skepticism-Acc feel-Past-Ending
+line=333 tag=T+LT span_id=47-36 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.12 bbox=134.16,383.88,328.98,395.84:         ‘I greatly felt a skepticism in my life.’(lit)
+
+doc_id=47 page=10 block_id=10-7 bbox=119.88,330.6,429.07,371.36 label=bbtttb 334 336
+line=334 tag=L span_id=47-37 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,359.4,407.29,371.36               :      b. Na-nun  nay salm-ey hoyuy-lul      khukey  nukki-ess-ta
+line=335 tag=G span_id=47-37 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,345.0,429.07,356.96   :         I-Top   my  life-in skepticism-Acc greatly feel-Past-Ending
+line=336 tag=T+LT span_id=47-37 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.22 bbox=134.16,330.6,330.79,342.56:         ‘I greatly felt a skepticism in my life’ (lit)
+
+doc_id=47 page=10 block_id=10-8 bbox=90.0,282.0,521.6,308.48 label=bbttb 337 338
+line=337 fonts=F1-12.0 bbox=90.0,296.52,521.6,308.48            :There are some adverbs that are morphologically related to the adjectives modifying verbal
+line=338 fonts=F1-12.0 iscore=0.46 bbox=90.0,282.0,247.84,293.96:nouns as we see in (20) and (21).
+
+doc_id=47 page=10 block_id=10-9 bbox=93.48,218.28,447.23,259.04 label=bbtb 339 341
+line=339 tag=L span_id=47-38 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,247.08,421.35,259.04             : (22) Na-nun  ku   saken-ul    chelcehan cosa-lul          ha-yess-ta
+line=340 tag=G span_id=47-38 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=119.28,232.56,447.23,244.52:      I-Top   that accident-ul thorough  investigation-Acc do-Past-Ending
+line=341 tag=T span_id=47-38 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.12 bbox=119.28,218.28,347.48,230.24:      ‘I did a thorough investigation of that accident.’
+
+doc_id=47 page=10 block_id=10-10 bbox=93.48,153.36,359.77,194.12 label=bbbt 342 344
+line=342 tag=L span_id=47-39 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,182.16,337.98,194.12                : (23) Na-nun  salm-ey khun  hoyuy-ul   nukki-ess-ta
+line=343 tag=G span_id=47-39 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=119.28,167.76,359.77,179.72   :      I-Top   life-in great skepticism feel-Past-Ending
+line=344 tag=T+LT span_id=47-39 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.25 bbox=119.28,153.36,308.46,165.32:      ‘I felt a great skepticism in my life.’(lit.)
+
+doc_id=47 page=10 block_id=10-11 bbox=90.0,90.36,521.69,131.24 label=bbbbtt 345 347
+line=345 fonts=F1-12.0,F8-12.0 bbox=90.0,119.28,521.69,131.24    :The adverbs like chelcehakey and khukey do modify nouns in Korean. The morphologi-
+line=346 fonts=F1-12.0 iscore=0.15 bbox=90.0,104.76,521.35,116.72:cal correspondence between an adverb and an adjective suggests that these modifiers are
+line=347 fonts=F1-12.0 iscore=0.15 bbox=90.0,90.36,391.2,102.32  :semantically related to the verbal noun rather than to the verbs.
+
+doc_id=47 page=10 block_id=10-12 bbox=100.44,69.72,521.71,80.29 label=bbbbtb 348 348
+line=348 fonts=F3-7.0,F4-10.0 bbox=100.44,69.72,521.71,80.29:  ^{11}This, however, is not a strong evidence since those adverbs commonly precede objective NPs in Korean.
+
+doc_id=47 page=10 block_id=10-13 bbox=300.0,39.84,311.98,51.8 label=bbbbb 349 349
+line=349 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   62
+
+doc_id=47 page=11 block_id=11-1 bbox=223.08,747.0,387.93,756.56 label=ttt 350 350
+line=350 fonts=F7-9.6 bbox=223.08,747.0,387.93,756.56:                    KOREAN COMPLEX PREDICATES
+
+doc_id=47 page=11 block_id=11-2 bbox=90.0,705.72,228.38,717.68 label=ttbt 351 351
+line=351 fonts=F0-12.0 bbox=90.0,705.72,228.38,717.68:3  Argument Composition
+
+doc_id=47 page=11 block_id=11-3 bbox=90.0,624.12,521.55,679.4 label=ttbbt 352 355
+line=352 fonts=F1-12.0 bbox=126.0,667.44,521.55,679.4            :       In this section, we will discuss the formation of CPs. Following Chung (1998) and
+line=353 fonts=F1-12.0 iscore=0.07 bbox=90.0,652.92,521.49,664.88:Bratt (1996), we basically assume argument composition for the noun-verb CP construc-
+line=354 fonts=F1-12.0 iscore=0.15 bbox=90.0,638.52,521.52,650.48:tions. Argument Composition  refers to the mechanism that attracts the arguments of the
+line=355 fonts=F1-12.0 iscore=0.08 bbox=90.0,624.12,294.59,636.08:complement  to the valence list of the head.
+
+doc_id=47 page=11 block_id=11-4 bbox=90.0,510.96,521.61,609.68 label=ttbbb 356 362
+line=356 fonts=F1-12.0 bbox=126.0,597.72,521.54,609.68                  :       To deal with verbal noun CPs, Ryu (1993) adopted the structure sharing mecha-
+line=357 fonts=F1-12.0 iscore=0.24 bbox=90.0,583.2,521.5,595.16         :nism but he did not propose a new schema capturing the formation of a CP. Instead, he
+line=358 fonts=F1-12.0 iscore=0.18 bbox=90.0,568.8,521.49,580.76        :uses the head-complement schema  for the general combinations of a head and its com-
+line=359 fonts=F1-12.0 iscore=0.14 bbox=90.0,554.28,521.51,566.24       :plements. With this schema, CPs cannot be differentiated from general object and verb
+line=360 fonts=F1-12.0,F2-8.0 iscore=0.23 bbox=90.0,539.88,521.61,552.17:combinations.^{12} Furthermore, his Head-Comp schema allows partial structure sharing of
+line=361 fonts=F1-12.0 iscore=0.08 bbox=90.0,525.48,521.53,537.44       :arguments similar to Grimshaw & Mester’s argument transfer, so it incorrectly licenses the
+line=362 fonts=F1-12.0 iscore=0.08 bbox=90.0,510.96,261.74,522.92       :following ungrammatical examples.
+
+doc_id=47 page=11 block_id=11-5 bbox=93.48,437.76,445.7,478.52 label=tbtt 363 365
+line=363 tag=L+SY span_id=47-40 lang_name=Korean lang_code=kor fonts=F1-12.0,F14-6.0 bbox=93.48,466.56,404.44,478.52  : (24) a. John-i    tosekwan-ey [NP chayk-uy pannap-ul] ha-n-ta
+line=364 tag=G span_id=47-40 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.83 bbox=134.16,452.04,445.7,464.0  :         John-Nom  library-to      book-Gen return-Acc do-Pres-Ending
+line=365 tag=T span_id=47-40 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.14 bbox=134.16,437.76,312.61,449.72:         ‘John returns the book to the library.’
+
+doc_id=47 page=11 block_id=11-6 bbox=119.88,379.2,458.31,419.96 label=tbtb 366 368
+line=366 tag=L+SY span_id=47-41 lang_name=Korean lang_code=kor fonts=F1-12.0,F14-6.0 bbox=119.88,408.0,417.05,419.96  :      b. John-i   Mary-eykey  [NP kkoch-uy   senmwul-ul] ha-n-ta
+line=367 tag=G span_id=47-41 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.67 bbox=134.16,393.48,458.31,405.44:        John-Nom  Mary-to         flower-Gen present-Acc do-Pres-Ending
+line=368 tag=T span_id=47-41 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.20 bbox=134.16,379.2,286.61,391.16 :        ‘John presents flowers to Mary.’
+
+doc_id=47 page=11 block_id=11-7 bbox=90.0,290.64,521.92,346.25 label=tbbtt 369 372
+line=369 fonts=F1-12.0,F2-8.0 bbox=90.0,333.96,521.92,346.25    :Chung  (1998) also proposed the Gov-Head schema licensing verbal CPs.^{13} According to
+line=370 fonts=F1-12.0 iscore=0.33 bbox=90.0,319.44,521.56,331.4:Chung  (1998),however, only nonphrasal categories are allowed to appear as a governed
+line=371 fonts=F1-12.0 iscore=0.12 bbox=90.0,305.04,521.5,317.0 :element, so we cannot explain the fact that a governed element can be modified by an
+line=372 fonts=F1-12.0 iscore=0.19 bbox=90.0,290.64,249.76,302.6:adverb or an adjective as follows.
+
+doc_id=47 page=11 block_id=11-8 bbox=90.0,169.8,521.84,276.01 label=tbbtb 373 381
+line=373 fonts=F3-7.0,F4-10.0,F5-10.0 bbox=100.44,265.44,521.84,276.01    :  ^{12}In addition, Ryu includes sikhita (to cause), toyta (to become) in the same category with hata. According
+line=374 fonts=F4-10.0 iscore=0.22 bbox=90.0,253.44,521.73,263.4          :to him, these verbs derive causative or passive CPs from verbal nouns and cause a change in grammatical
+line=375 fonts=F4-10.0 iscore=0.28 bbox=90.0,241.56,521.73,251.52         :function at the level of the syntax without depending on a lexical rule. The notion of grammatical function
+line=376 fonts=F4-10.0 iscore=0.17 bbox=90.0,229.56,521.7,239.52          :change here is, however, not clear to me. Even though Ryu categorized some verbs causing grammatical
+line=377 fonts=F4-10.0 iscore=0.18 bbox=90.0,217.68,521.58,227.64         :function change as function verbs, empirically many verbs form a CP both verbal nouns. The arguments of
+line=378 fonts=F4-10.0 iscore=0.29 bbox=90.0,205.68,453.98,215.64         :the noun can appear directly under the VPs as we have already seen in the previous section.
+line=379 fonts=F3-7.0,F4-10.0 iscore=0.25 bbox=100.44,193.68,521.71,204.25:  ^{13}Chung (1998) proposes the Gov-Head schema and demonstrates how it works for auxiliary verb complex
+line=380 fonts=F4-10.0 iscore=0.12 bbox=90.0,181.8,521.6,191.76           :predicates in Korean. With this schema, however, we cannot fully explain the formation of CPs including the
+line=381 fonts=F4-10.0,F5-10.0 iscore=0.06 bbox=90.0,169.8,233.8,179.76   :causative verb hata or verbal nouns.
+
+doc_id=47 page=11 block_id=11-9 bbox=253.2,118.7,351.6,152.64 label=tbbb 382 382
+line=382 fonts=F10-10.1,F11-11.7,F4-10.0 bbox=253.2,118.7,351.6,152.64:                                           ^{complex-word}£ �£GOV£  1  3
+
+doc_id=47 page=11 block_id=11-10 bbox=188.88,82.44,415.9,116.8 label=bt 383 383
+line=383 fonts=F10-10.1,F11-11.7,F4-10.0 bbox=188.88,82.44,415.9,116.8:                       nonphrase  �SYNSEM      �        ^{simple-word}£ £ �GOV 1 3
+
+doc_id=47 page=11 block_id=11-11 bbox=300.0,39.84,311.98,51.8 label=bb 384 384
+line=384 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   63
+
+doc_id=47 page=12 block_id=12-1 bbox=269.88,747.0,341.82,756.56 label=t 385 385
+line=385 fonts=F7-9.6 bbox=269.88,747.0,341.82,756.56:                           SUN-HEE LEE
+
+doc_id=47 page=12 block_id=12-2 bbox=93.48,677.04,372.55,717.68 label=bt 386 388
+line=386 tag=L span_id=47-42 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,705.72,372.55,717.68             : (25) John-i   Mary-eykey  [[ ppalli ka-key ]  hayessta]
+line=387 tag=G span_id=47-42 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.71 bbox=119.28,691.32,354.01,703.28:      John-Nom Mary-to        fast   go-Ending made
+line=388 tag=T span_id=47-42 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.20 bbox=119.28,677.04,244.4,689.0  :     ‘John made Mary  go fast.’
+
+doc_id=47 page=12 block_id=12-3 bbox=93.48,610.2,448.23,650.96 label=bbtt 389 391
+line=389 tag=L span_id=47-43 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,639.0,448.23,650.96             : (26) John-i    ku saken-ul      [[ chelcehan cosa-lul ]      hayessta]
+line=390 tag=G span_id=47-43 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.50 bbox=119.28,624.6,419.04,636.56:      John-Nom  that accident-Acc   thorough investigation-Acc did
+line=391 tag=T span_id=47-43 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.14 bbox=119.28,610.2,357.41,622.16:      ‘John did thorough investigation of that accident.’
+
+doc_id=47 page=12 block_id=12-4 bbox=90.0,545.4,521.58,586.28 label=bbtb 392 394
+line=392 fonts=F1-12.0 bbox=90.0,574.32,521.49,586.28           :In order to correctly capture the formation of a verbal noun construction, we propose to
+line=393 fonts=F1-12.0 iscore=0.20 bbox=90.0,559.8,521.58,571.76:revise the Gov-Head schema proposed by Chung  (1998) to license a new type of syntactic
+line=394 fonts=F1-12.0 iscore=0.20 bbox=90.0,545.4,401.88,557.36:structure working as a single unit at the level of syntax as in (27).
+
+doc_id=47 page=12 block_id=12-5 bbox=93.48,503.4,243.4,529.0 label=bbbtt 395 395
+line=395 fonts=F1-12.0,F11-11.7 bbox=93.48,503.4,243.4,529.0: (27)                    ¡GOV   1  3
+
+doc_id=47 page=12 block_id=12-6 bbox=204.6,470.3,253.65,495.8 label=bbbtb 396 396
+line=396 fonts=F1-12.0,F10-10.1 bbox=204.6,470.3,253.65,495.8:                   NPCOMP£ £
+
+doc_id=47 page=12 block_id=12-7 bbox=123.96,403.8,349.4,468.4 label=bbbbt 397 399
+line=397 fonts=F10-10.1,F10-9.7 bbox=274.9,446.3,305.8,468.4                       :                                    £ £ £ ££
+line=398 fonts=F1-12.0,F11-11.7,F17-5.3 iscore=0.17 bbox=123.96,423.36,326.0,437.84:       SYNSEM    ^{¡}                 GOV  1 ¡ 3
+line=399 fonts=F1-12.0,F11-11.7 iscore=0.33 bbox=123.96,403.8,349.4,421.4          :       NPCOMP     �                   NPCOMP      ���
+
+doc_id=47 page=12 block_id=12-8 bbox=90.0,220.32,521.65,376.76 label=bbbbbtt 400 410
+line=400 fonts=F1-12.0 bbox=126.0,364.8,521.46,376.76            :       For the revised schema, we assume two features, GOV(ERNMENT) and NPCOMP.
+line=401 fonts=F1-12.0 iscore=0.27 bbox=90.0,350.28,521.54,362.24:GOV  feature takes either an empty list or a singleton list containing a governee’s SYNSEM
+line=402 fonts=F1-12.0 iscore=0.13 bbox=90.0,335.88,521.47,347.84:value. This captures the syntactic relationshipt between a governee, a verbal noun and a
+line=403 fonts=F1-12.0 iscore=0.27 bbox=90.0,321.48,521.65,333.44:head, the following verb. We can use the NPCOMP  feature in order to capture adjunct
+line=404 fonts=F1-12.0 iscore=0.13 bbox=90.0,306.96,521.51,318.92:modification of a governed element. NPCOMP is the feature which Hinrichs and Nakazawa
+line=405 fonts=F1-12.0 iscore=0.33 bbox=90.0,292.56,521.62,304.52:(1994) use for recording whether a verbal projection (or, in the present setting a verbal
+line=406 fonts=F1-12.0 iscore=0.20 bbox=90.0,278.04,521.48,290.0 :noun projection) has yet discharged any nominal arguments. In case an argument of a
+line=407 fonts=F1-12.0 iscore=0.12 bbox=90.0,263.64,521.59,275.6 :verbal noun is realized within the verbal noun phrase by taking the genitive case, a verbal
+line=408 fonts=F1-12.0 iscore=0.31 bbox=90.0,249.24,521.5,261.2  :noun and the following verb are a syntactic combination which is formed by the Head-
+line=409 fonts=F1-12.0 iscore=0.27 bbox=90.0,234.72,521.52,246.68:Comp/Head-Subject  schema. Thus, a verbal noun in this case takes an [NPCOMP +] and
+line=410 fonts=F1-12.0 iscore=0.21 bbox=90.0,220.32,398.41,232.28:its combination with the following predicate does not form a CP.
+
+doc_id=47 page=12 block_id=12-9 bbox=90.0,150.6,521.96,205.88 label=bbbbbtbt 411 414
+line=411 fonts=F1-12.0 bbox=126.0,193.92,521.64,205.88                 :       The ungrammatical examples like(24) can be excluded from CPs because the Gov-
+line=412 fonts=F1-12.0 iscore=0.00 bbox=90.0,179.52,521.57,191.48      :Head schema  does not apply for noun-verb combinations. The Gov-Head schema works
+line=413 fonts=F1-12.0 iscore=0.31 bbox=90.0,165.0,521.77,176.96       :as a syntactic schema not only for noun-verb CPs but for other CPs as well, including
+line=414 fonts=F1-12.0,F2-8.0 iscore=0.12 bbox=90.0,150.6,521.96,162.89:auxiliary verbs and causative constructions.^{14} In verbal noun constructions, the combining
+
+doc_id=47 page=12 block_id=12-10 bbox=90.0,69.72,521.81,140.05 label=bbbbbtbb 415 420
+line=415 fonts=F3-7.0,F4-10.0 bbox=100.44,129.48,521.77,140.05   :  ^{14}With respect to scrambling, there is some difference among the three types of CPs since auxiliary verb
+line=416 fonts=F4-10.0 iscore=0.18 bbox=90.0,117.48,521.59,127.44:constructions do not allow intervention of adjuncts between a verb and the following auxiliary verb. This can
+line=417 fonts=F4-10.0 iscore=0.18 bbox=90.0,105.6,521.62,115.56 :be treated in terms of morphological properties of auxiliary verbs. In Korean, all the auxiliary verbs imme-
+line=418 fonts=F4-10.0 iscore=0.12 bbox=90.0,93.6,521.81,103.56  :diately follow main predicates, so they have been assumed to form morphosyntactic constructions according
+line=419 fonts=F4-10.0 iscore=0.25 bbox=90.0,81.72,521.63,91.68  :to traditional grammar. Here, we attribute the prohibition of adjuncts in auxiliary verb constructions to the
+line=420 fonts=F4-10.0 iscore=0.19 bbox=90.0,69.72,304.89,79.68  :property of AUX  in Korean, as explained in section 4.
+
+doc_id=47 page=12 block_id=12-11 bbox=300.0,39.84,311.98,51.8 label=bbbbbb 421 421
+line=421 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   64
+
+doc_id=47 page=13 block_id=13-1 bbox=223.08,747.0,387.93,756.56 label=ttt 422 422
+line=422 fonts=F7-9.6 bbox=223.08,747.0,387.93,756.56:                    KOREAN COMPLEX PREDICATES
+
+doc_id=47 page=13 block_id=13-2 bbox=90.0,648.0,521.49,717.68 label=ttb 423 427
+line=423 fonts=F1-12.0 bbox=90.0,705.72,521.48,717.68                    :verb syntactically subcategorizes for the preceding verbal noun via the GOV feature just as
+line=424 fonts=F1-12.0,F8-12.0 iscore=0.19 bbox=90.0,691.32,521.49,703.28:an auxiliary verb or the causative verb hata does. When we consider the head final linear
+line=425 fonts=F1-12.0 iscore=0.29 bbox=90.0,676.92,521.45,688.88        :ordering and the fact that case marking of a verbal noun depends on the combining verb in
+line=426 fonts=F1-12.0 iscore=0.35 bbox=90.0,662.4,521.48,674.36         :Korean, we can conclude that the final verb functions as the head. The lexical entries of the
+line=427 fonts=F1-12.0,F8-12.0 iscore=0.29 bbox=90.0,648.0,495.08,659.96 :light verb hata and a verbal noun cosa can be provided as in the following examples.
+
+doc_id=47 page=13 block_id=13-3 bbox=93.48,513.0,381.2,585.2 label=tbtt 428 430
+line=428 fonts=F1-12.0,F11-11.7,F13-10.9,F9-10.9,F9-12.9,F9-14.3 bbox=93.48,560.8,260.1,585.2: (28)      hata     ‘do’     ^{¡}¡_{¡} ¡¡¡ HEAD     verb�    bse�
+line=429 fonts=F11-11.7,F17-5.3,F9-10.9 iscore=0.33 bbox=163.4,536.9,381.2,557.0             :                             ¡¡       ¡¡         ¡¡ SUBJ     1  ¡ 3                                            ���_{�} ���_{�}
+line=430 fonts=F11-11.7,F9-10.9 iscore=0.56 bbox=163.4,513.0,381.2,537.4                     :                             ¡¡¡      ¡¡¡        ¡¡ COMPS         1    3                                     ���_{�} �� ��
+
+doc_id=47 page=13 block_id=13-4 bbox=163.4,447.6,381.2,513.4 label=tbtbt 431 434
+line=431 fonts=F11-11.7,F9-10.9,F9-14.3 bbox=163.4,493.56,381.2,513.4            :                       ¡¡ S-S ¡¡       ¡           ¡¡ HEAD    NOUN       �+PRED�        � � �
+line=432 fonts=F11-11.7,F17-5.3,F9-10.9 iscore=0.57 bbox=163.4,471.5,381.2,494.03:                       ¡¡     ¡ VAL    ¡¡          ¡¡      ¡ SUBJ    1 ¡ 3           ���_{�} �� �� ��
+line=433 fonts=F11-11.7,F18-5.4,F9-10.9 iscore=0.10 bbox=218.88,461.7,381.2,473.4:                                        GOV     ¡                                         �
+line=434 fonts=F11-11.7,F9-10.9 iscore=0.12 bbox=163.4,447.6,381.2,462.83        :                       ¡                            VAL     COMPS              _{�}   � � � �
+
+doc_id=47 page=13 block_id=13-5 bbox=285.6,425.8,381.2,444.4 label=tbtbb 435 435
+line=435 fonts=F11-11.7,F9-10.9 bbox=285.6,425.8,381.2,444.4:                                                                            GOV       1   3                   � � ��
+
+doc_id=47 page=13 block_id=13-6 bbox=167.16,404.88,215.4,415.79 label=tbb 436 436
+line=436 fonts=F18-5.4,F9-10.9 bbox=167.16,404.88,215.4,415.79:            NPCOMP ¢
+
+doc_id=47 page=13 block_id=13-7 bbox=93.48,242.7,217.8,314.1 label=bttl 437 437
+line=437 fonts=F1-12.0,F11-11.7,F8-12.0 bbox=93.48,242.7,217.8,314.1: (29)    cosa    ‘investigation’       ^{¡}¡_{¡}¡¡¡¡¡¡¡¡
+
+doc_id=47 page=13 block_id=13-8 bbox=222.9,244.3,372.3,313.5 label=bttrt 438 440
+line=438 fonts=F11-11.7,F9-10.9 bbox=248.4,289.8,355.88,313.5                            :                                         ¡¡¡ HEAD    noun[+PRED]
+line=439 fonts=F11-11.7,F9-10.9,F9-13.3 iscore=0.29 bbox=248.4,269.5,372.3,287.2         :                                         ¡           ¡¡ SUBJ 1 NP3     ��� ���
+line=440 fonts=F11-11.7,F18-5.4,F9-10.9,F9-13.3 iscore=0.30 bbox=222.9,244.3,372.3,269.39:                                  ¡ S-S   VAL         COMPS     1 NP3 � �_{�} �� ���
+
+doc_id=47 page=13 block_id=13-9 bbox=297.84,226.5,372.3,244.2 label=bttrb 441 441
+line=441 fonts=F11-11.7,F9-10.9 bbox=297.84,226.5,372.3,244.2:                                                                        GOV      1   3          � ��
+
+doc_id=47 page=13 block_id=13-10 bbox=221.04,206.5,269.3,217.43 label=btb 442 442
+line=442 fonts=F18-5.4,F9-10.9 bbox=221.04,206.5,269.3,217.43:                    NPCOMP  ¢
+
+doc_id=47 page=13 block_id=13-11 bbox=90.0,69.72,521.48,110.6 label=bbt 443 445
+line=443 fonts=F1-12.0 bbox=90.0,98.64,521.48,110.6            :Based on this schema, argument composition allows arguments of the verbal noun to be-
+line=444 fonts=F1-12.0 iscore=0.27 bbox=90.0,84.12,521.39,96.08:come  arguments of the CP. These provide the following structure for the verbal noun CP
+line=445 fonts=F1-12.0 iscore=0.07 bbox=90.0,69.72,156.86,81.68:constructions.
+
+doc_id=47 page=13 block_id=13-12 bbox=300.0,39.84,311.98,51.8 label=bbb 446 446
+line=446 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   65
+
+doc_id=47 page=14 block_id=14-1 bbox=269.88,747.0,341.82,756.56 label=ttt 447 447
+line=447 fonts=F7-9.6 bbox=269.88,747.0,341.82,756.56:                           SUN-HEE LEE
+
+doc_id=47 page=14 block_id=14-2 bbox=93.48,655.4,213.9,720.4 label=ttbtt 448 451
+line=448 fonts=F1-12.0,F11-11.7,F14-6.0 bbox=93.48,702.7,213.9,720.4     : (30)                  S ^{¡}¡ SUBJ ¤ ¦
+line=449 fonts=F14-6.0 iscore=0.33 bbox=173.52,689.04,193.79,695.02      :                          COMPS
+line=450 fonts=F14-6.0 iscore=1.00 bbox=173.52,675.12,186.23,681.1       :                          GOV
+line=451 fonts=F10-10.1,F14-6.0 iscore=0.50 bbox=173.52,655.4,203.1,669.7:                          NPCOMP£  £
+
+doc_id=47 page=14 block_id=14-3 bbox=119.28,571.4,293.5,653.5 label=ttbtb 452 456
+line=452 fonts=F10-10.1,F10-9.8 bbox=233.0,639.5,243.7,653.5              :                                                     £  ££
+line=453 fonts=F11-11.7,F14-6.0 iscore=0.00 bbox=125.52,624.6,273.6,637.9 :             NP                                   VP  _{¡} SUBJ ¤ NP ¥ ¦
+line=454 fonts=F11-11.7,F14-6.0 iscore=0.33 bbox=235.7,602.0,279.0,616.9  :                                                      ¢ COMPS        ����
+line=455 fonts=F14-6.0,F9-10.9 iscore=0.33 bbox=119.28,590.4,251.87,602.86:           John-i                                      GOV
+line=456 fonts=F11-11.7,F14-6.0 iscore=0.25 bbox=239.16,571.4,293.5,591.46:                                                       NPCOMP5      5  5   5
+
+doc_id=47 page=14 block_id=14-4 bbox=165.36,499.1,374.1,564.1 label=ttbbtt 457 460
+line=457 fonts=F11-11.7,F14-6.0 bbox=188.2,546.4,368.7,564.1                      :                                 § NP                                         V ^{¡}¡ SUBJ ¤ NP ¥ ¦
+line=458 fonts=F11-11.7,F14-6.0 iscore=0.33 bbox=330.8,523.7,374.1,538.66         :                                                                                ¢ COMPS       ����
+line=459 fonts=F14-6.0,F9-10.9 iscore=0.33 bbox=165.36,513.48,347.03,524.74       :                         ku     saken-ul                                         GOV
+line=460 fonts=F10-10.1,F14-6.0,F19-4.8 iscore=0.50 bbox=334.32,499.1,361.2,513.34:                                                                                 NPCOMP£  £¡
+
+doc_id=47 page=14 block_id=14-5 bbox=240.96,418.08,434.6,497.3 label=ttbbtb 461 466
+line=461 fonts=F10-10.1,F10-9.9 bbox=390.3,483.1,401.0,497.3              :                                                                                                            £   ££
+line=462 fonts=F11-11.7,F14-6.0 iscore=0.00 bbox=240.96,467.2,423.45,481.4:                                                      NP  ¡       ¡ HEAD  noun[+PRED]                      V ¡ HEAD  verb
+line=463 fonts=F14-6.0 iscore=0.67 bbox=276.12,458.52,421.44,466.78       :                                                                    SUBJ  NP                                   SUBJ  NP
+line=464 fonts=F11-11.7,F14-6.0 iscore=0.15 bbox=253.92,440.5,434.6,458.6 :                                                           S-S    ¢ COMPS  ¤ § ¦      ���� ����               COMPS   ¤ § ¦ �
+line=465 fonts=F11-11.7,F14-6.0 iscore=0.27 bbox=276.12,428.5,434.6,441.3 :                                                                   GOV                   �                    GOV           �
+line=466 fonts=F14-6.0,F19-4.8 iscore=0.25 bbox=253.92,418.08,421.6,426.1 :                                                           NPCOMP    ¡                                        NPCOMP    ¡
+
+doc_id=47 page=14 block_id=14-6 bbox=273.0,380.4,429.27,393.35 label=ttbbb 467 467
+line=467 fonts=F9-10.9 bbox=273.0,380.4,429.27,393.35:                                         cosa-lul                    hayessta
+
+doc_id=47 page=14 block_id=14-7 bbox=90.0,271.08,521.63,340.88 label=tbt 468 472
+line=468 fonts=F1-12.0,F8-12.0 bbox=126.0,328.92,521.54,340.88          :       The lexical entry of hata shows that it subcategorizes for the verbal noun cosa (in-
+line=469 fonts=F1-12.0 iscore=0.00 bbox=90.0,314.4,521.59,326.36        :vestigation)and allows the inheritance of arguments through argument composition. Lexi-
+line=470 fonts=F1-12.0,F8-12.0 iscore=0.31 bbox=90.0,300.0,521.63,311.96:cal specification of a verbal noun and the light verb hata brings two separate lexical items
+line=471 fonts=F1-12.0 iscore=0.12 bbox=90.0,285.6,521.61,297.56        :together at the syntactic level through the Gov-Head schema. This mechanism  explains
+line=472 fonts=F1-12.0 iscore=0.08 bbox=90.0,271.08,409.17,283.04       :how  two independent categories function as a single syntactic unit.
+
+doc_id=47 page=14 block_id=14-8 bbox=90.0,232.8,316.62,244.76 label=tbbt 473 473
+line=473 fonts=F0-12.0 bbox=90.0,232.8,316.62,244.76:4  Linearization with respect to Scrambling
+
+doc_id=47 page=14 block_id=14-9 bbox=90.0,151.08,521.75,206.36 label=tbbb 474 477
+line=474 fonts=F1-12.0 bbox=126.0,194.4,521.61,206.36            :       Even though Korean is generally considered to be a free word order language, some
+line=475 fonts=F1-12.0 iscore=0.07 bbox=90.0,180.0,521.75,191.96 :specific restrictions exist. As is well-known, an argument cannot appear in the position
+line=476 fonts=F1-12.0 iscore=0.31 bbox=90.0,165.48,521.7,177.44 :where it follows its head. This phenomenon appears in noun-verb complex constructions,
+line=477 fonts=F1-12.0 iscore=0.08 bbox=90.0,151.08,108.33,163.04:too.
+
+doc_id=47 page=14 block_id=14-10 bbox=93.48,68.16,464.11,108.92 label=bt 478 480
+line=478 tag=L span_id=47-44 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,96.96,438.24,108.92            : (31) a. John-i    secem-eyse   ku   chayk-ul kwuip-ul     ha-yess-ta
+line=479 tag=G span_id=47-44 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,82.56,464.11,94.52:         John-Nom  bookstore-at that book-Acc purchase-Acc do-Past-Ending
+line=480 tag=T span_id=47-44 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.14 bbox=134.16,68.16,345.67,80.12:        ‘John purchased that book at the bookstore.’
+
+doc_id=47 page=14 block_id=14-11 bbox=300.0,39.84,311.98,51.8 label=bb 481 481
+line=481 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   66
+
+doc_id=47 page=15 block_id=15-1 bbox=223.08,747.0,387.93,756.56 label=t 482 482
+line=482 fonts=F7-9.6 bbox=223.08,747.0,387.93,756.56:                    KOREAN COMPLEX PREDICATES
+
+doc_id=47 page=15 block_id=15-2 bbox=119.88,677.04,464.1,717.68 label=btttt 483 485
+line=483 tag=L span_id=47-45 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,705.72,438.27,717.68           :      b. John-i    ku   chayk-ul secem-eyse   kwuip-ul     ha-yess-ta
+line=484 tag=G span_id=47-45 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,691.32,464.1,703.28:         John-Nom  that book-Acc bookstore-at purchase-Acc do-Past-Ending
+line=485 tag=T span_id=47-45 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.14 bbox=134.16,677.04,345.66,689.0:        ‘John purchased that book at the bookstore.’
+
+doc_id=47 page=15 block_id=15-3 bbox=120.0,621.72,464.1,662.48 label=btttb 486 488
+line=486 tag=L span_id=47-46 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=120.0,650.52,438.26,662.48             :      c. *John-i   secem-eyse   kwuip-ul     ku   chayk-ul ha-yess-ta
+line=487 tag=G span_id=47-46 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=1.00 bbox=134.16,636.12,464.1,648.08 :         John-Nom  bookstore-at purchase-Acc that book-Acc do-Past-Ending
+line=488 tag=T span_id=47-46 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.14 bbox=134.16,621.72,345.66,633.68:        ‘John purchased that book at the bookstore.’
+
+doc_id=47 page=15 block_id=15-4 bbox=90.0,553.2,521.52,594.08 label=bttbtt 489 491
+line=489 fonts=F1-12.0,F8-12.0 bbox=90.0,582.12,521.5,594.08    :As in (31), the complement NP ku chayk-ul (that book) cannot follow its head kwuip (pur-
+line=490 fonts=F1-12.0 iscore=0.19 bbox=90.0,567.6,521.52,579.56:chase). This fact can be explained by the following LP constraint, which is needed to
+line=491 fonts=F1-12.0 iscore=0.13 bbox=90.0,553.2,290.38,565.16:explain the head-final property of Korean.
+
+doc_id=47 page=15 block_id=15-5 bbox=95.28,516.96,271.64,529.7 label=bttbtbt 492 492
+line=492 fonts=F20-12.7,F9-10.9 bbox=95.28,516.96,271.64,529.7: (32) a. X   [COMPS  ¡£¢¥¤ X ¦§¢©¨ ]
+
+doc_id=47 page=15 block_id=15-6 bbox=120.6,492.48,210.74,505.2 label=bttbtbb 493 493
+line=493 fonts=F20-12.7,F9-10.9 bbox=120.6,492.48,210.74,505.2:      b. X   [GOV   ¤ X ¦ ]
+
+doc_id=47 page=15 block_id=15-7 bbox=90.0,426.48,521.62,467.36 label=bttbb 494 496
+line=494 fonts=F1-12.0 bbox=90.0,455.4,521.62,467.36             :The property of free word order in Korean can be found not only among the elements
+line=495 fonts=F1-12.0 iscore=0.31 bbox=90.0,441.0,521.52,452.96 :in a simple sentence but also in a complex sentence containing an embedded VP or S
+line=496 fonts=F1-12.0 iscore=0.06 bbox=90.0,426.48,152.19,438.44:complement.
+
+doc_id=47 page=15 block_id=15-8 bbox=93.48,357.24,440.02,398.0 label=btbt 497 499
+line=497 tag=L span_id=47-47 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,386.04,440.02,398.0             : (33) a. John-i   Mary-eykey  ku chayk-ul   ilk-ulako seltukhayssta
+line=498 tag=G span_id=47-47 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.83 bbox=134.16,371.64,424.58,383.6:         John-Nom Mary-to     that book-Acc read-Comp persuaded
+line=499 tag=T span_id=47-47 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.12 bbox=134.16,357.24,335.25,369.2:        ‘John persuaded Mary to read that book .’
+
+doc_id=47 page=15 block_id=15-9 bbox=119.88,316.44,440.04,342.8 label=btbbt 500 501
+line=500 tag=L span_id=47-48 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,330.84,440.04,342.8            :      b. John-i   ku chayk-ul   Mary-eykey ilk-ulako seltukhayssta
+line=501 tag=G span_id=47-48 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.83 bbox=134.16,316.44,424.58,328.4:         John-Nom that book-Acc Mary-to    read-Comp persuaded
+
+doc_id=47 page=15 block_id=15-10 bbox=120.0,275.64,440.03,302.0 label=btbbb 502 503
+line=502 tag=L span_id=47-49 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=120.0,290.04,440.03,302.0             :      c. ku chayk-ul,  John-i   Mary-eykey ilk-ulako seltukhayssta
+line=503 tag=G span_id=47-49 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.83 bbox=134.16,275.64,424.58,287.6:         that book-Acc John-Nom Mary-to    read-Comp persuaded
+
+doc_id=47 page=15 block_id=15-11 bbox=93.48,205.32,467.94,246.08 label=bbtt 504 506
+line=504 tag=L span_id=47-50 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,234.12,467.94,246.08             : (34) a. John-i   Mary-ka    hakyo-eyse nolko iss-tako  sayngkakhayssta
+line=505 tag=G span_id=47-50 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.83 bbox=134.16,219.72,424.21,231.68:         John-Nom Mary-Nom   school-at  be playing-Comp thought
+line=506 tag=T span_id=47-50 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.25 bbox=134.16,205.32,348.45,217.28:        ‘John thought Mary is playing at the school.’
+
+doc_id=47 page=15 block_id=15-12 bbox=119.88,164.4,459.67,190.88 label=bbtbt 507 508
+line=507 tag=L span_id=47-51 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,178.92,459.67,190.88           :     b. hakkyo-eyse John-i   Mary-ka   nolko iss-tako sayngkakhayssta
+line=508 tag=G span_id=47-51 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.67 bbox=134.16,164.4,415.95,176.36:        school-at   John-Nom Mary-Nom   playing-Comp  thought
+
+doc_id=47 page=15 block_id=15-13 bbox=120.0,123.72,473.95,150.08 label=bbtbb 509 510
+line=509 tag=L span_id=47-52 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=120.0,138.12,473.95,150.08             :     c. John-i    hakkyo-eyse Mary-ka   nolko iss-tako  sayngkakhayssta
+line=510 tag=G span_id=47-52 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.83 bbox=134.16,123.72,430.21,135.68:        John-Nom  school-at   Mary-Nom  be playing-Comp thought
+
+doc_id=47 page=15 block_id=15-14 bbox=90.0,69.72,521.62,96.08 label=bbbt 511 512
+line=511 fonts=F1-12.0 bbox=90.0,84.12,521.62,96.08            :Considering that the subject of the embedded clause changes its position and the matrix
+line=512 fonts=F1-12.0 iscore=0.24 bbox=90.0,69.72,521.51,81.68:subject does not appear in the embedded clause, we can identify that it is the element of
+
+doc_id=47 page=15 block_id=15-15 bbox=300.0,39.84,311.98,51.8 label=bbbb 513 513
+line=513 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   67
+
+doc_id=47 page=16 block_id=16-1 bbox=269.88,747.0,341.82,756.56 label=ttt 514 514
+line=514 fonts=F7-9.6 bbox=269.88,747.0,341.82,756.56:                           SUN-HEE LEE
+
+doc_id=47 page=16 block_id=16-2 bbox=90.0,561.24,521.89,718.01 label=ttb 515 525
+line=515 fonts=F1-12.0,F2-8.0 bbox=90.0,705.72,521.89,718.01            :the embedded  phrase or clause which changes its canonical position.^{15} In order to capture
+line=516 fonts=F1-12.0 iscore=0.36 bbox=90.0,691.32,521.48,703.28       :this property, Chung (1998) provides a flat structure analysis. According to him, the ele-
+line=517 fonts=F1-12.0 iscore=0.06 bbox=90.0,676.92,521.64,688.88       :ments of the embedded  VP or S are freely ordered unless a specific LP constraint applies.
+line=518 fonts=F1-12.0 iscore=0.19 bbox=90.0,662.4,521.6,674.36         :He, furthermore, proposes a lexical rule using argument composition for a verb forming
+line=519 fonts=F1-12.0 iscore=0.25 bbox=90.0,648.0,521.51,659.96        :a complex sentence. As an output of the lexical rule, flat structures are licensed. The flat
+line=520 fonts=F1-12.0 iscore=0.19 bbox=90.0,633.48,521.53,645.44       :structure analysis, however, requires less realistic VP or S as an input of the lexical rule,
+line=521 fonts=F1-12.0 iscore=0.06 bbox=90.0,619.08,521.64,631.04       :which does not exist any more in the output structure. With the application of the lexical
+line=522 fonts=F1-12.0 iscore=0.31 bbox=90.0,604.68,521.52,616.64       :rule, all the elements inside of the VP or S-complement appear among the elements of the
+line=523 fonts=F1-12.0 iscore=0.24 bbox=90.0,590.16,521.5,602.12        :matrix predicate, so we cannot find the embedded VP or S in the outputs. The elements of
+line=524 fonts=F1-12.0 iscore=0.18 bbox=90.0,575.76,521.49,587.72       :the embedded  VP or S, however, form a constituent in the output structure since they can
+line=525 fonts=F1-12.0,F8-12.0 iscore=0.31 bbox=90.0,561.24,487.28,573.2:be replaced by an anaphoric verb phrase kulehkey hata (do so) or kulayssta(did so).
+
+doc_id=47 page=16 block_id=16-3 bbox=93.48,490.8,463.17,531.56 label=tbt 526 528
+line=526 tag=L span_id=47-53 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,519.6,446.74,531.56             : (35) a. John-i   Mary-eykey  ku chayk-ul   ilk-ulako seltukhayss- ta
+line=527 tag=G span_id=47-53 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.71 bbox=134.16,505.2,463.17,517.16:         John-Nom Mary-to     that book-Acc read-Comp persuaded-Ending
+line=528 tag=T span_id=47-53 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.14 bbox=134.16,490.8,332.25,502.76:        ‘John persuaded Mary to read that book.’
+
+doc_id=47 page=16 block_id=16-4 bbox=119.88,434.52,423.99,475.28 label=tbb 529 531
+line=529 tag=L span_id=47-54 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,463.32,404.74,475.28            :      b. John-un  Tom-eykey-to kulehkey ha-lako seltukhayss-ta
+line=530 tag=G span_id=47-54 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.80 bbox=134.16,448.92,423.99,460.88:         John-Top Tom-to-also  do so-Comp       persuaded-Ending
+line=531 tag=T span_id=47-54 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.14 bbox=134.16,434.52,305.77,446.48:        ‘John also persuaded Tom to do so.’
+
+doc_id=47 page=16 block_id=16-5 bbox=93.48,363.0,470.63,403.76 label=btt 532 534
+line=532 tag=L span_id=47-55 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,391.8,470.46,403.76              : (36) a. John-i Tom-eykey Mary-ka  ku chayk-ul   ilkess-tako malhayss-ta
+line=533 tag=G span_id=47-55 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.86 bbox=134.16,377.28,470.63,389.24:         John-i Tom-to    Mary-Nom that book-Acc read-Ending told-Ending
+line=534 tag=T span_id=47-55 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.25 bbox=134.16,363.0,333.72,374.96 :        ‘John told Tom that Mary read that book.’
+
+doc_id=47 page=16 block_id=16-6 bbox=119.88,306.6,402.29,347.48 label=btb 535 537
+line=535 tag=L span_id=47-56 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=119.88,335.52,402.18,347.48            :      b. John-i    Jim-eykey-to kulayss-tako      malhayss-ta
+line=536 tag=G span_id=47-56 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.67 bbox=134.16,321.12,402.29,333.08:         John-Nom  Jim-to-also  (she) did so-Comp told-Ending
+line=537 tag=T span_id=47-56 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.20 bbox=134.16,306.6,325.23,318.56 :        ‘John also told to Jim that (she) did so ’
+
+doc_id=47 page=16 block_id=16-7 bbox=90.0,164.76,521.63,277.76 label=bbtt 538 545
+line=538 fonts=F1-12.0,F8-12.0 bbox=90.0,265.8,521.61,277.76            :In (35) and (36), kulehkey ha-lako (do so-Comp) replaces the VP ku chayk-ul ilk-ulako
+line=539 fonts=F1-12.0,F8-12.0 iscore=0.21 bbox=90.0,251.4,521.52,263.36:(read that book) and kulayss-tako ((she) did so-Comp), the whole S. The flat structure
+line=540 fonts=F1-12.0 iscore=0.13 bbox=90.0,237.0,521.48,248.96        :approach is hard to capture this kind of phrasal constituency. Chung’s lexical rule takes a
+line=541 fonts=F1-12.0 iscore=0.18 bbox=90.0,222.48,521.5,234.44        :phantom  S or VP only in the input structure, but by going through the application of the
+line=542 fonts=F1-12.0 iscore=0.16 bbox=90.0,208.08,521.63,220.04       :rule, it does not exist in the output structure. Thus, it is hard to explain why there is some
+line=543 fonts=F1-12.0 iscore=0.21 bbox=90.0,193.68,521.58,205.64       :evidence of syntactic combinations of a noun and a verb. Another defect of the argument
+line=544 fonts=F1-12.0 iscore=0.47 bbox=90.0,179.16,521.5,191.12        :composition approach is that it does not explain the asymmetric distribution of adjuncts in
+line=545 fonts=F1-12.0,F2-8.0 iscore=0.21 bbox=90.0,164.76,422.15,177.05:S- and VP-complement   structures, as Chung (1998) himself admits.^{16}
+
+doc_id=47 page=16 block_id=16-8 bbox=90.0,69.72,521.83,152.05 label=bbtb 546 552
+line=546 fonts=F3-7.0,F4-10.0 bbox=100.44,141.48,521.54,152.05            :  ^{15}In case of (34b), it is hard to tell what is the element that changes it canonical position. In general, a
+line=547 fonts=F4-10.0 iscore=0.14 bbox=90.0,129.48,518.24,139.44         :focused or topicalized element occupies the sentence initial position out of its canonical position in Korean.
+line=548 fonts=F3-7.0,F4-10.0 iscore=0.13 bbox=100.44,117.48,521.53,128.17:  ^{16}According to Chung, argument composition gives a flat structure for a sentence containing an S-
+line=549 fonts=F4-10.0 iscore=0.20 bbox=90.0,105.6,521.6,115.56           :complement.   By this mechanism, he argues that scrambling out an S-complement  can be accounted for.
+line=550 fonts=F4-10.0 iscore=0.14 bbox=90.0,93.6,521.83,103.56           :He also argues that an adjunct of the matrix head verb may occur any place in a sentence once the argument
+line=551 fonts=F4-10.0 iscore=0.19 bbox=90.0,81.72,521.64,91.68           :composition rule is applied. He argues that an adjunct of a complement verb is attracted to the ADJT list of
+line=552 fonts=F4-10.0 iscore=0.20 bbox=90.0,69.72,354.81,79.68           :a matrix verb instead of COMPS list unless something else is said.
+
+doc_id=47 page=16 block_id=16-9 bbox=300.0,39.84,311.98,51.8 label=bbb 553 553
+line=553 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   68
+
+doc_id=47 page=17 block_id=17-1 bbox=223.08,747.0,387.93,756.56 label=t 554 554
+line=554 fonts=F7-9.6 bbox=223.08,747.0,387.93,756.56:                    KOREAN COMPLEX PREDICATES
+
+doc_id=47 page=17 block_id=17-2 bbox=96.84,681.36,474.73,715.68 label=bttt 555 557
+line=555 tag=L span_id=47-57 lang_name=Korean lang_code=kor fonts=F14-6.0,F4-10.0 bbox=96.84,705.72,474.73,715.68     :  (37) a. Mary-ka ilcwuil ceney [S John-i ku proceyhthu-lul kkuthnay-yahan-tako] malhayssta
+line=556 tag=G span_id=47-57 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.67 bbox=134.16,693.24,446.08,703.2 :          M-Nom   one week ago     J-Nom  the project-Acc   finish-must-Comp     told
+line=557 tag=T span_id=47-57 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.17 bbox=134.16,681.36,378.19,691.32:          ‘One week ago, Mary said that John had to finish the project’
+
+doc_id=47 page=17 block_id=17-3 bbox=121.32,647.88,474.76,670.44 label=bttbtt 558 559
+line=558 tag=L span_id=47-58 lang_name=Korean lang_code=kor fonts=F14-6.0,F4-10.0 bbox=121.32,660.48,474.76,670.44    :       b. Mary-ka [S John-i ku proceykthu-lul kkuthnay-yahan-tako] ilcwuil ceney malhayssta
+line=559 tag=G span_id=47-58 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.67 bbox=134.16,647.88,446.08,657.84:          M-Nom      J-Nom  that project-Acc  finish-must-Comp     one week ago  told
+
+doc_id=47 page=17 block_id=17-4 bbox=121.44,614.64,482.31,637.08 label=bttbtb 560 561
+line=560 tag=L span_id=47-59 lang_name=Korean lang_code=kor fonts=F14-6.0,F4-10.0 bbox=121.44,627.12,482.31,637.08   :       c. *Mary-ka [S John-i ilcwuil ceney ku proceykthu-lul kkuthnay- yahan-tako] malhayssta
+line=561 tag=G span_id=47-59 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.60 bbox=134.16,614.64,453.64,624.6:          M-Nom       J-Nom  one week ago  that project-Acc  finish-must-Comp      told
+
+doc_id=47 page=17 block_id=17-5 bbox=120.84,581.28,482.31,603.72 label=bttbb 562 563
+line=562 tag=L span_id=47-60 lang_name=Korean lang_code=kor fonts=F14-6.0,F4-10.0 bbox=120.84,593.76,482.31,603.72    :       d. *Mary-ka [S John-i ku proceykthu-lul ilcwuil ceney kkuthnay- yahan-tako] malhayssta
+line=563 tag=G span_id=47-60 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.50 bbox=134.16,581.28,453.64,591.24:          M-Nom      J-Nom  that project-Acc one week ago finish-must-Comp   told
+
+doc_id=47 page=17 block_id=17-6 bbox=90.0,459.0,521.85,557.6 label=btb 564 570
+line=564 fonts=F1-12.0 bbox=126.0,545.64,521.53,557.6                   :       The adjunct modifying the matrix predicate in (37a) cannot intervene among the
+line=565 fonts=F1-12.0 iscore=0.20 bbox=90.0,531.24,521.5,543.2         :elements of the embedded  sentence as in (37c) and (37d). However, it still modifies the
+line=566 fonts=F1-12.0 iscore=0.20 bbox=90.0,516.84,521.61,528.8        :martrix predicate when it follows the embedded clause as in (37b). In contrast, an adjunct
+line=567 fonts=F1-12.0 iscore=0.20 bbox=90.0,502.32,521.47,514.28       :modifying the embedded  predicate scrambles out of the embedded sentence as we have
+line=568 fonts=F1-12.0,F2-8.0 iscore=0.14 bbox=90.0,487.92,521.85,500.21:already seen in (34).^{17} In order to explain this asymmetry, Chung proposes the following
+line=569 fonts=F1-12.0 iscore=0.29 bbox=90.0,473.4,521.52,485.36        :Interpretive Principle which requires that the adjunct be semantically dependent on the
+line=570 fonts=F1-12.0,F2-8.0 iscore=0.08 bbox=90.0,459.0,297.83,471.29 :embedded  predicate in a certain structure.^{18}
+
+doc_id=47 page=17 block_id=17-7 bbox=93.48,377.4,521.63,432.68 label=bbt 571 574
+line=571 fonts=F1-12.0,F8-12.0 bbox=93.48,420.72,521.58,432.68     : (38) Interpretive Principle : Suppose (i) that Y is an NP[nom], (ii) that X is the first verb
+line=572 fonts=F1-12.0 iscore=0.29 bbox=119.28,406.32,521.55,418.28:      following Y, and (iii) that Z is any constituent occurs between Y and X. Then Z can-
+line=573 fonts=F1-12.0 iscore=0.06 bbox=119.28,391.8,521.63,403.76 :      not be a semantic dependent (semantic argument or functor) of a verb superordinate
+line=574 fonts=F1-12.0 iscore=0.08 bbox=119.28,377.4,143.13,389.36 :      to X.
+
+doc_id=47 page=17 block_id=17-8 bbox=90.0,281.4,521.66,351.08 label=bbbtt 575 579
+line=575 fonts=F1-12.0 bbox=126.0,339.12,521.66,351.08           :       This restriction excludes the ungrammatical examples of (37c) and (37d). How-
+line=576 fonts=F1-12.0 iscore=0.33 bbox=90.0,324.72,521.62,336.68:ever, this assumption is rather ad hoc since it requires a configurational restriction to block
+line=577 fonts=F1-12.0 iscore=0.13 bbox=90.0,310.2,521.6,322.16  :ungrammatical  examples. Moreover, this kind of configurational restriction is not enough
+line=578 fonts=F1-12.0 iscore=0.08 bbox=90.0,295.8,521.6,307.76  :to cover the fact that the same phenomenon exists in VP-complement constructions, even
+line=579 fonts=F1-12.0 iscore=0.08 bbox=90.0,281.4,268.69,293.36 :though Chung  argues that it does not.
+
+doc_id=47 page=17 block_id=17-9 bbox=96.84,222.84,438.97,256.56 label=bbbtbt 580 582
+line=580 tag=L+SY span_id=47-61 lang_name=Korean lang_code=kor fonts=F14-6.0,F4-10.0 bbox=96.84,246.6,438.97,256.56  :  (39) a. John-i    Mary-eykey [VP ku chayk-ul   nayil    ilk-ulako] seltukayssta
+line=581 tag=G span_id=47-61 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.75 bbox=134.16,234.6,431.42,244.56:          John-Nom  Mary-to        that book-Acc tomorrow read-Comp  persuaded
+line=582 tag=T span_id=47-61 lang_name=Korean lang_code=kor fonts=F5-10.0 iscore=0.12 bbox=134.16,222.84,336.22,232.8:          ‘John persuaded Mary to read the book tomorrow’
+
+doc_id=47 page=17 block_id=17-10 bbox=121.32,178.08,437.92,211.8 label=bbbtbb 583 585
+line=583 tag=L+SY span_id=47-62 lang_name=Korean lang_code=kor fonts=F14-6.0,F4-10.0 bbox=121.32,201.84,437.92,211.8  :       b. John-i   nayil     Mary-eykey [VP ku chayk-ul   ilk-ulako] malhaysstta
+line=584 tag=G span_id=47-62 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.75 bbox=134.16,189.84,431.42,199.8 :          John-Nom tomorrow  Mary-to        that book-Acc read-Comp  persuaded
+line=585 tag=T span_id=47-62 lang_name=Korean lang_code=kor fonts=F5-10.0 iscore=0.12 bbox=134.16,178.08,334.65,188.04:          ‘John persuaded Mary to read the book tomorrow.
+
+doc_id=47 page=17 block_id=17-11 bbox=96.84,118.32,460.37,152.16 label=bbbbtt 586 588
+line=586 tag=L+SY span_id=47-63 lang_name=Korean lang_code=kor fonts=F14-6.0,F4-10.0 bbox=96.84,142.2,460.37,152.16   :  (40) a. tahaynghi   John-i   Mary-ekey [VP chong-ul patak-ey noh-ulako ] seltukhayssta
+line=587 tag=G span_id=47-63 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.78 bbox=134.16,130.2,447.85,140.16 :          fortunately John-Nom Mary-to       gun-Acc  floor-on put-Comp    persuaded
+line=588 tag=T span_id=47-63 lang_name=Korean lang_code=kor fonts=F5-10.0 iscore=0.36 bbox=134.16,118.32,379.83,128.28:          ‘Fortunatly, John persuaded Mary to put the gun on the floor.’
+
+doc_id=47 page=17 block_id=17-12 bbox=90.0,69.72,521.72,104.17 label=bbbbtb 589 591
+line=589 fonts=F3-7.0,F4-10.0 bbox=100.44,93.6,521.72,104.17            :  ^{17}The sentences (34a) and (34b) are ambiguous, so the adverb can be interpreted to modify a matrix verb
+line=590 fonts=F4-10.0 iscore=0.11 bbox=90.0,81.72,209.13,91.68         :as well as the embedded verb.
+line=591 fonts=F3-7.0,F4-10.0 iscore=0.17 bbox=100.44,69.72,236.22,80.29:  ^{18}Refer to p.203 in Chung (1998).
+
+doc_id=47 page=17 block_id=17-13 bbox=300.0,39.84,311.98,51.8 label=bbbbb 592 592
+line=592 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   69
+
+doc_id=47 page=18 block_id=18-1 bbox=269.88,747.0,341.82,756.56 label=t 593 593
+line=593 fonts=F7-9.6 bbox=269.88,747.0,341.82,756.56:                           SUN-HEE LEE
+
+doc_id=47 page=18 block_id=18-2 bbox=121.32,681.96,450.54,715.68 label=bt 594 596
+line=594 tag=L+SY span_id=47-64 lang_name=Korean lang_code=kor fonts=F14-6.0,F4-10.0 bbox=121.32,705.72,450.54,715.68 :       b. *John-i Mary-eykey [VP chong-ul patak-ey tahanghi    noh-ulako] seltukhayssta
+line=595 tag=G span_id=47-64 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.88 bbox=134.16,693.84,438.03,703.8 :          John-i  Mary-to        gun-Acc  floor-on fortunately put-Comp   persuaded
+line=596 tag=T span_id=47-64 lang_name=Korean lang_code=kor fonts=F5-10.0 iscore=0.11 bbox=134.16,681.96,373.24,691.92:          ‘Fortunately, John persuaded Mary to read the book loudly.’
+
+doc_id=47 page=18 block_id=18-3 bbox=90.0,610.44,521.76,659.6 label=bbt 597 600
+line=597 fonts=F1-12.0 bbox=126.0,647.64,521.54,659.6                   :       Since Chung’s interpretive principle does not include the configuration of the VP,
+line=598 fonts=F1-12.0,F2-8.0 iscore=0.35 bbox=90.0,634.32,521.76,646.61:it does not explain the contrast in (39) and (40).^{19} In addition, the same asymmetry can be
+line=599 fonts=F1-12.0 iscore=0.18 bbox=90.0,622.32,521.49,634.28       :found not only in adjuncts but also in arguments in the embedded S or VP constructions as
+line=600 fonts=F1-12.0 iscore=0.06 bbox=90.0,610.44,128.71,622.4        :follows.
+
+doc_id=47 page=18 block_id=18-4 bbox=96.84,556.44,465.85,590.28 label=bbbtt 601 603
+line=601 tag=L+SY span_id=47-65 lang_name=Korean lang_code=kor fonts=F2-8.0,F4-10.0 bbox=96.84,580.32,465.85,590.28   :  (41) a. Mary-ka Tom-eykey  [S John-i ku proceykthu-lul kkuthnay-yahanta-ko] malhayssta
+line=602 tag=G span_id=47-65 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.75 bbox=134.16,568.32,437.27,578.28:          M-Nom   T-to          J-Nom  that project-Acc  finish-Must-Comp     told
+line=603 tag=T span_id=47-65 lang_name=Korean lang_code=kor fonts=F5-10.0 iscore=0.22 bbox=134.16,556.44,330.61,566.4 :          ‘Mary told Tom that John must finish the project.’
+
+doc_id=47 page=18 block_id=18-5 bbox=121.32,525.0,468.38,546.84 label=bbbtbtt 604 605
+line=604 tag=L+SY span_id=47-66 lang_name=Korean lang_code=kor fonts=F2-8.0,F4-10.0 bbox=121.32,536.88,468.38,546.84 :       b. ku proceykthu-lul, Mary-ka Tom-eykey [S John-i kkuthnayya-hanta-ko] malhayssta
+line=605 tag=G span_id=47-66 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.75 bbox=134.16,525.0,439.78,534.96:          that probject-Acc  M-Nom   T-to         J-Nom  finish-must-Comp     told
+
+doc_id=47 page=18 block_id=18-6 bbox=121.44,493.56,470.78,515.52 label=bbbtbtbt 606 607
+line=606 tag=L+SY span_id=47-67 lang_name=Korean lang_code=kor fonts=F2-8.0,F4-10.0 bbox=121.44,505.56,470.78,515.52  :       c. Mary-ka, ku proceykthu-lul, Tom-eykey [S John-i kkuthnay-yahanta-ko] malhayssta
+line=607 tag=G span_id=47-67 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.75 bbox=134.16,493.56,442.18,503.52:          M-Nom    that probject-Acc  T-to         J-Nom  finish-must-Comp     told
+
+doc_id=47 page=18 block_id=18-7 bbox=120.84,462.12,476.05,484.08 label=bbbtbtbb 608 609
+line=608 tag=L+SY span_id=47-68 lang_name=Korean lang_code=kor fonts=F2-8.0,F4-10.0 bbox=120.84,474.12,476.05,484.08  :       d. *Mary-ka [S John-i, Tom-eykey , ku proceykthu-lul kkuthnay-yahanta-ko] malhayssta
+line=609 tag=G span_id=47-68 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.67 bbox=134.16,462.12,447.47,472.08:          M-Nom       J-Nom   T-to        that project-Acc  finish-must-Comp     told
+
+doc_id=47 page=18 block_id=18-8 bbox=121.44,430.8,475.09,452.64 label=bbbtbb 610 611
+line=610 tag=L+SY span_id=47-69 lang_name=Korean lang_code=kor fonts=F2-8.0,F4-10.0 bbox=121.44,442.68,475.09,452.64 :       e. *Mary-ka [S John-i ku proceykthu-lul, Tom-eykey, kkuthnay-yahanta-ko] malhayssta
+line=611 tag=G span_id=47-69 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.62 bbox=134.16,430.8,446.49,440.76:          M-Nom       J-Nom  that project-Acc Tom-to       finish-must-Comp     told
+
+doc_id=47 page=18 block_id=18-9 bbox=90.0,327.6,521.65,411.8 label=bbbbtt 612 617
+line=612 fonts=F1-12.0,F8-12.0 bbox=126.0,399.84,521.65,411.8            :       As we  see in (41b)and (41c), the argument of the embedded S ku proceykthu-lul
+line=613 fonts=F1-12.0,F8-12.0 iscore=0.07 bbox=90.0,385.32,521.64,397.28:(that project-Acc) appears among the elements of the matrix predicate malhata (told).
+line=614 fonts=F1-12.0,F8-12.0 iscore=0.17 bbox=90.0,370.92,521.52,382.88:However,  the argument of the matrix predicate Tom-eykey (Tom-to) cannot intersperse
+line=615 fonts=F1-12.0 iscore=0.17 bbox=90.0,356.52,521.46,368.48        :among  the elements of the embedded clause as in (41d) and (41e). It can be argued that an
+line=616 fonts=F1-12.0 iscore=0.17 bbox=90.0,342.0,521.59,353.96         :element(or elements) of the embedded predicate move out of the embedded clause. How-
+line=617 fonts=F1-12.0 iscore=0.12 bbox=90.0,327.6,521.47,339.56         :ever, this claim can be reputed by the fact that the subject of the embedded clause precedes
+
+doc_id=47 page=18 block_id=18-10 bbox=90.0,269.52,521.76,315.97 label=bbbbtbtt 618 621
+line=618 fonts=F3-7.0,F4-10.0 bbox=100.44,305.4,521.71,315.97    :  ^{19}Even though topicalization and preposing are common phenomena in Korean, they are not applicable
+line=619 fonts=F4-10.0 iscore=0.06 bbox=90.0,293.4,521.76,303.36 :to two more elements. Thus, it is hard to claim that two elements are simultaneously scrambled in (40b).
+line=620 fonts=F4-10.0 iscore=0.21 bbox=90.0,281.4,521.49,291.36 :We, thus, argue that it is the sentencial adverb which goes through scrambling. However, it is not easy to
+line=621 fonts=F4-10.0 iscore=0.16 bbox=90.0,269.52,428.46,279.48:determine which element appears in noncanonical position in the following example.
+
+doc_id=47 page=18 block_id=18-11 bbox=108.12,227.52,426.34,261.24 label=bbbbtbtbt 622 624
+line=622 tag=L span_id=47-70 lang_name=Korean lang_code=kor fonts=F4-10.0 bbox=108.12,251.28,426.34,261.24            :    i. John-i    Mary-ekey chong-ul tahanghi    patak-ey noh-ulako seltukhayssta
+line=623 tag=G span_id=47-70 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=1.00 bbox=119.28,239.4,413.77,249.36 :       John-Nom  Mary-to   gun-Acc  fortunately floor-on put-Comp  persuaded
+line=624 tag=T span_id=47-70 lang_name=Korean lang_code=kor fonts=F5-10.0 iscore=0.09 bbox=119.28,227.52,369.26,237.48:       ‘Fortunately, John persuaded Mary to put the gun on the floor.’
+
+doc_id=47 page=18 block_id=18-12 bbox=90.0,179.04,438.43,219.72 label=bbbbtbtbb 625 627
+line=625 fonts=F4-10.0 bbox=90.0,209.76,352.49,219.72                                                                          :We  can provide two kind of structures for the sentence as follows.
+line=626 tag=L+SY span_id=47-71 lang_name=Korean lang_code=kor fonts=F2-8.0,F4-10.0 iscore=0.18 bbox=105.36,191.64,438.43,201.6:    ii. John-i Mary-eykey chong-ul tahaynghi [VP t patak-ey noh-ulako] seltukhayssta
+line=627 tag=G span_id=47-71 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.78 bbox=119.28,179.04,425.91,189.0          :        John-i Mary-to    gun-Acc  fortunately     floor-on put-Comp   persuaded
+
+doc_id=47 page=18 block_id=18-13 bbox=102.6,147.12,438.43,169.56 label=bbbbtbbt 628 629
+line=628 tag=L+SY span_id=47-72 lang_name=Korean lang_code=kor fonts=F2-8.0,F4-10.0 bbox=102.6,159.6,438.43,169.56    :   iii. John-i Mary-eykey t [VP chong-ul tahaynghi   patak-ey noh-ulako] seltukhayssta
+line=629 tag=G span_id=47-72 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.89 bbox=119.28,147.12,425.91,157.08:        John-i Mary-to    t     gun-Acc  fortunately floor-on put-Comp   persuaded
+
+doc_id=47 page=18 block_id=18-14 bbox=90.0,69.72,521.91,139.44 label=bbbbtbbb 630 635
+line=630 fonts=F4-10.0,F5-10.0 bbox=90.0,129.48,521.58,139.44           :In the given example, the adverb tahaynghi (fortunately) modifies the matrix sentence. If it is analyzed to have
+line=631 fonts=F4-10.0 iscore=0.20 bbox=90.0,117.48,521.91,127.44       :the structure of (ii), it is not compatible with the asymmetric facts in scrambling into an S or VP argument.
+line=632 fonts=F4-10.0,F5-10.0 iscore=0.20 bbox=90.0,105.6,521.49,115.56:In (i), we can observe that pause or pitch accent frequently appears with chong-ul (gun-Acc) but not with
+line=633 fonts=F4-10.0,F5-10.0 iscore=0.11 bbox=90.0,93.6,521.57,103.56 :tahaynghi (fortunately). Putting pause or pitch accent is a common phenomenon among the elements which
+line=634 fonts=F4-10.0 iscore=0.26 bbox=90.0,81.72,521.61,91.68         :occur in noncanonical position. In other words, it suggests that it is the element of the embedded VP which
+line=635 fonts=F4-10.0 iscore=0.05 bbox=90.0,69.72,194.85,79.68         :undergoes the scrambling.
+
+doc_id=47 page=18 block_id=18-15 bbox=300.0,39.84,311.98,51.8 label=bbbbb 636 636
+line=636 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   70
+
+doc_id=47 page=19 block_id=19-1 bbox=223.08,747.0,387.93,756.56 label=t 637 637
+line=637 fonts=F7-9.6 bbox=223.08,747.0,387.93,756.56:                    KOREAN COMPLEX PREDICATES
+
+doc_id=47 page=19 block_id=19-2 bbox=90.0,676.92,521.5,717.68 label=bttt 638 640
+line=638 fonts=F1-12.0 bbox=90.0,705.72,521.5,717.68                     :it; the subject of an embedded predicate has been known not to scramble out of the em-
+line=639 fonts=F1-12.0,F8-12.0 iscore=0.35 bbox=90.0,691.32,521.35,703.28:bedded clause in Korean. The fact that the embedded subject John-i precedes Tom-eykey
+line=640 fonts=F1-12.0,F2-8.0 iscore=0.15 bbox=90.0,676.92,481.67,689.21 :shows that the element of the matrix predicate appears in noncanonical position.^{20}
+
+doc_id=47 page=19 block_id=19-3 bbox=90.0,592.68,521.66,662.48 label=bttbt 641 645
+line=641 fonts=F1-12.0 bbox=126.0,650.52,521.66,662.48           :       In summary, Chung’s interpretive rule only deals with the scrambling of the mod-
+line=642 fonts=F1-12.0 iscore=0.07 bbox=90.0,636.0,521.61,647.96 :ifiers of the embedded predicate, so it is not enough to explain the scrambling asymmetry
+line=643 fonts=F1-12.0 iscore=0.53 bbox=90.0,621.6,521.59,633.56 :between an embedded  VP  or S and a matrix clause. By depending on argument composi-
+line=644 fonts=F1-12.0 iscore=0.38 bbox=90.0,607.08,521.62,619.04:tion, we need to assume several interpretive rules to deal with the same kind of scrambling
+line=645 fonts=F1-12.0 iscore=0.06 bbox=90.0,592.68,308.38,604.64:asymmetry, which is not a desirable situation.
+
+doc_id=47 page=19 block_id=19-4 bbox=90.0,450.72,523.9,578.24 label=bttbbt 646 654
+line=646 fonts=F1-12.0 bbox=126.0,566.28,523.9,578.24            :       In order to handle the scrambling phenomena systematically, we propose that Reape-
+line=647 fonts=F1-12.0 iscore=0.23 bbox=90.0,551.88,521.61,563.84:style linearization theory is more naturally applicable than the analysis based on argument
+line=648 fonts=F1-12.0 iscore=0.23 bbox=90.0,537.36,521.49,549.32:composition.  By accepting a fundamental  dissociation between syntactic structure and
+line=649 fonts=F1-12.0 iscore=0.23 bbox=90.0,522.96,521.48,534.92:linear order, a systematic explanation can be provided for various constituent orders and
+line=650 fonts=F1-12.0 iscore=0.31 bbox=90.0,508.44,521.57,520.4 :moreover, the asymmetric behavior of adjuncts in long distance scrambling can be handled
+line=651 fonts=F1-12.0 iscore=0.23 bbox=90.0,494.04,521.52,506.0 :without introducing the hypothesis of intermediate flat structures. While the formation of
+line=652 fonts=F1-12.0 iscore=0.14 bbox=90.0,479.64,521.47,491.6 :CPs is accounted for by argument composition, word order variation can be effectively han-
+line=653 fonts=F1-12.0 iscore=0.21 bbox=90.0,465.12,521.48,477.08:dled by using the linearization model (Dowty (1996), Reape (1996), Pollard Carl & Kasper
+line=654 fonts=F1-12.0 iscore=0.14 bbox=90.0,450.72,202.16,462.68:(1993), Kathol (1995)).
+
+doc_id=47 page=19 block_id=19-5 bbox=90.0,352.08,521.74,436.28 label=bttbbb 655 660
+line=655 fonts=F1-12.0 bbox=126.0,424.32,521.52,436.28           :       The linearization approach makes a basic distinction between tectogrammatical and
+line=656 fonts=F1-12.0 iscore=0.20 bbox=90.0,409.92,521.74,421.88:phenogrammatical  structure. Tectogrammatical  structure involves grammatical-function
+line=657 fonts=F1-12.0 iscore=0.10 bbox=90.0,395.4,521.71,407.36 :based, compositional structure of a sentence, while phenogrammatical structure involves
+line=658 fonts=F1-12.0 iscore=0.12 bbox=90.0,381.0,521.65,392.96 :the actual form of the words in a string with a particular ordering. Dowty proposes that
+line=659 fonts=F1-12.0 iscore=0.12 bbox=90.0,366.48,521.46,378.44:discontinuous syntactic phenomena can be correctly described by LP principles but not by
+line=660 fonts=F1-12.0 iscore=0.08 bbox=90.0,352.08,348.29,364.04:hierarchical structures based on phrase structure trees.
+
+doc_id=47 page=19 block_id=19-6 bbox=90.0,224.52,521.73,337.64 label=btbt 661 668
+line=661 fonts=F1-12.0 bbox=126.0,325.68,521.64,337.64                  :       Reape  (1996) introduces the phenogrammatical notion of word order domains,
+line=662 fonts=F1-12.0 iscore=0.09 bbox=90.0,311.28,521.73,323.24       :which involves the actual ordering of words in sentences. Tectogrammatic combinations
+line=663 fonts=F1-12.0 iscore=0.25 bbox=90.0,296.76,521.58,308.72       :can appear as discontinuous or non-adjacent elements. Reape restricts word order through
+line=664 fonts=F1-12.0 iscore=0.14 bbox=90.0,282.36,521.62,294.32       :domain  union. Domain  union is a sequence union relation of two DOM values, which
+line=665 fonts=F1-12.0,F21-14.7 iscore=0.27 bbox=90.0,267.8,521.58,282.5:represent linear order information, ¢¡¤£ (A, B, C) where C is the result of sequence
+line=666 fonts=F1-12.0 iscore=0.41 bbox=90.0,253.44,521.48,265.4        :unioning A and B and contains all and only the elements of them. Thus, the relative order
+line=667 fonts=F1-12.0 iscore=0.35 bbox=90.0,239.04,521.49,251.0        :of elements of any daughter domain must be the same as that of its mother domain. Adapt-
+line=668 fonts=F1-12.0 iscore=0.29 bbox=90.0,224.52,521.52,236.48       :ing Reape’s idea for representing information about linear order, Pollard Carl & Kasper
+
+doc_id=47 page=19 block_id=19-7 bbox=90.0,163.8,521.72,210.25 label=btbbtt 669 672
+line=669 fonts=F3-7.0,F4-10.0,F5-10.0 bbox=100.44,199.68,521.6,210.25:  ^{20}Even though most elements can be topicalized by taking topic marker un/nun occurring in the sentence
+line=670 fonts=F4-10.0 iscore=0.15 bbox=90.0,187.68,521.72,197.64    :initial position in Korean, the embedded subject is hard to topicalize. It also cannot be used as a head noun
+line=671 fonts=F4-10.0 iscore=0.15 bbox=90.0,175.68,521.6,185.64     :of a relative clause. This supports that the embedded subject does not intersperse among the elements of the
+line=672 fonts=F4-10.0 iscore=0.06 bbox=90.0,163.8,179.66,173.76     :matrix predicate in (i).
+
+doc_id=47 page=19 block_id=19-8 bbox=108.12,120.48,464.77,154.2 label=btbbtb 673 675
+line=673 tag=L span_id=47-73 lang_name=Korean lang_code=kor fonts=F4-10.0 bbox=108.12,144.24,464.77,154.2             :    i. *John-un Mary-ka   Tom-eykey  [ ku proceykth-lul kkuthnay-yahan-tako] malhayssta.
+line=674 tag=G span_id=47-73 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.88 bbox=119.28,132.24,433.61,142.2 :       John-Top Mary-Nom  Tom-to     that project-Acc   finish-must-Comp     told
+line=675 tag=T span_id=47-73 lang_name=Korean lang_code=kor fonts=F5-10.0 iscore=0.11 bbox=119.28,120.48,315.61,130.44:       ‘Mary told Tom that John must finish the project.’
+
+doc_id=47 page=19 block_id=19-9 bbox=105.36,74.4,434.7,108.12 label=btbbb 676 678
+line=676 tag=L span_id=47-74 lang_name=Korean lang_code=kor fonts=F4-10.0 bbox=105.36,98.16,434.58,108.12          :   ii. *Mary-ka  Tom-eykey  [ ku proceykth-lul kkuthnay- yahan-tako] malha-n  John
+line=677 tag=G span_id=47-74 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.78 bbox=119.28,86.28,434.7,96.24:       Mary-Nom  Tom-to     that project-Acc   finish-must-Comp      told-Rel John
+line=678 tag=T span_id=47-74 lang_name=Korean lang_code=kor fonts=F5-10.0 iscore=0.20 bbox=119.28,74.4,334.67,84.36:       ‘John who Mary told Tom that must finish the project.’
+
+doc_id=47 page=19 block_id=19-10 bbox=300.0,39.84,311.98,51.8 label=bb 679 679
+line=679 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   71
+
+doc_id=47 page=20 block_id=20-1 bbox=269.88,747.0,341.82,756.56 label=tt 680 680
+line=680 fonts=F7-9.6 bbox=269.88,747.0,341.82,756.56:                           SUN-HEE LEE
+
+doc_id=47 page=20 block_id=20-2 bbox=90.0,648.0,521.71,717.68 label=tbtt 681 685
+line=681 fonts=F1-12.0 bbox=90.0,705.72,521.62,717.68                  :(1993) propose that DOM features do not take signs as their values but rather a grouping
+line=682 fonts=F1-12.0 iscore=0.25 bbox=90.0,691.32,521.55,703.28      :of PHON  and SYNSEM    attributes. In Kathol (1995) this type of grouping is referred as to
+line=683 fonts=F1-12.0 iscore=0.19 bbox=90.0,676.92,521.71,688.88      :DOM(AIN)-OBJ(ECT),    rather than NODE  as in Pollard Carl & Kasper (1993). We also
+line=684 fonts=F1-12.0 iscore=0.27 bbox=90.0,662.4,521.49,674.36       :follow Calcagno (1993) in assuming that words are specified for a word order domain, so
+line=685 fonts=F1-12.0,F2-8.0 iscore=0.13 bbox=90.0,648.0,374.75,660.29:that every sign (phrasal and lexical) bears a DOM feature.^{21}
+
+doc_id=47 page=20 block_id=20-3 bbox=90.0,592.68,530.72,633.56 label=tbtb 686 688
+line=686 fonts=F1-12.0 bbox=126.0,621.6,530.72,633.56            :       Through the feature DOM, phenogrammatical  information is encoded. Kathol (1995),
+line=687 fonts=F1-12.0 iscore=0.08 bbox=90.0,607.08,521.46,619.04:furthermore, argues that a domain object, which contains linear order information projected
+line=688 fonts=F1-12.0 iscore=0.25 bbox=90.0,592.68,412.18,604.64:from a sign, is associated with that sign by the compaction relation.
+
+doc_id=47 page=20 block_id=20-4 bbox=93.48,517.68,418.0,573.8 label=tbb 689 691
+line=689 fonts=F1-12.0,F11-11.7,F9-10.9 bbox=93.48,549.12,378.64,573.8                  : (42)                ¡¡¡ sign                           ¡¡ dom-obj
+line=690 fonts=F11-11.7,F17-5.3,F9-10.9 iscore=0.27 bbox=122.04,530.4,418.0,548.1       :       compaction  �  SYNSEM     ^{¡}                 ��� , ¢ SYNSEM ^{¡} ���� !
+line=691 fonts=F11-11.7,F22-7.4,F9-10.9,F9-8.0 iscore=0.22 bbox=186.6,517.68,398.9,530.1:                      DOM   1 [PHON   ], ..[PHON    ]    PHON     ¡ ,...¡
+
+doc_id=47 page=20 block_id=20-5 bbox=90.0,286.68,521.82,486.44 label=btt 692 705
+line=692 fonts=F1-12.0 bbox=126.0,474.48,521.67,486.44           :       According to Kathol, instead of having a separate DOM-OBJ attribute containing
+line=693 fonts=F1-12.0 iscore=0.07 bbox=90.0,460.08,521.45,472.04:SYNSEM    and PHON   values, we can map a sign’s SYNSEM  value directly on the corre-
+line=694 fonts=F1-12.0 iscore=0.27 bbox=90.0,445.68,521.48,457.64:sponding domain object. The PHON   value of the domain objects corresponds to the con-
+line=695 fonts=F1-12.0 iscore=0.18 bbox=90.0,431.16,521.52,443.12:catenation of the PHON values of all the elements in the sign’s domain. With the notion of
+line=696 fonts=F1-12.0 iscore=0.24 bbox=90.0,416.76,521.48,428.72:compaction, we can easily explain the reason why the element of the matrix predicate does
+line=697 fonts=F1-12.0 iscore=0.35 bbox=90.0,402.24,521.46,414.2 :not intervene among the elements of the embedded VP or S as we observed (41d) and (41e).
+line=698 fonts=F1-12.0 iscore=0.18 bbox=90.0,387.84,521.63,399.8 :Since the embedded S or VP is compacted by combining  with its head verb, the element
+line=699 fonts=F1-12.0 iscore=0.25 bbox=90.0,373.44,521.74,385.4 :of the matrix predicate cannot be inserted into it. Compaction, however, is too restrictive
+line=700 fonts=F1-12.0 iscore=0.21 bbox=90.0,358.92,521.54,370.88:to fully license scrambling possibilities in Korean. This kind of element insertion into a
+line=701 fonts=F1-12.0 iscore=0.21 bbox=90.0,344.52,521.46,356.48:higher domain while other elements are compacted together can be explained by replacing
+line=702 fonts=F1-12.0 iscore=0.15 bbox=90.0,330.12,521.82,342.08:the notion of compaction with partial compaction as proposed in Kathol (1995). Intuitively,
+line=703 fonts=F1-12.0 iscore=0.15 bbox=90.0,315.6,521.6,327.56  :partial compaction allows designated domain objects to be liberated into a higher domain,
+line=704 fonts=F1-12.0 iscore=0.21 bbox=90.0,301.2,521.49,313.16 :while the remaining elements of the source domain are compacted. The definition of partial
+line=705 fonts=F1-12.0 iscore=0.07 bbox=90.0,286.68,256.59,298.64:compaction is provided as follows.
+
+doc_id=47 page=20 block_id=20-6 bbox=93.48,197.5,303.2,266.4 label=btbl 706 709
+line=706 fonts=F1-12.0,F11-11.7,F17-5.3,F22-7.4 bbox=93.48,247.2,234.0,266.4                             : (43) ^{(}^{p-compaction} ^{¡} , , ^{$} ) ¢
+line=707 fonts=F1-12.0,F11-11.7 iscore=0.00 bbox=133.4,230.52,282.18,245.2                               :         ¡ sign                 ¡ dom-obj
+line=708 fonts=F1-12.0,F11-11.2,F11-11.7,F17-5.3,F18-5.4,F22-7.4 iscore=0.23 bbox=120.6,210.9,303.2,228.5:       ¡ :¢ SYNSEM    ¡ ��� ¤   : ¢ SYNSEM    ¡ �� �
+line=709 fonts=F1-12.0,F22-7.4 iscore=0.20 bbox=136.92,197.5,274.05,209.48                               :          DOM    £               PHON
+
+doc_id=47 page=20 block_id=20-7 bbox=314.4,213.9,482.76,231.5 label=btbr 710 710
+line=710 fonts=F1-12.0,F1-6.0,F11-11.7,F22-7.4 bbox=314.4,213.9,482.76,231.5:                                                                       ¤  shuffle(    ¥ , ^{$} , £ ) ^{¤} joinPHON(  ¥ , ^{/} )
+
+doc_id=47 page=20 block_id=20-8 bbox=90.0,127.08,521.6,167.96 label=bbtt 711 713
+line=711 fonts=F1-12.0 bbox=126.0,156.0,521.54,167.96            :       In long-distance scrambling constructions as in (41b) - (41c), the designated el-
+line=712 fonts=F1-12.0 iscore=0.29 bbox=90.0,141.48,521.38,153.44:ement  of the embedded clause becomes  liberated into the higher domain, while the re-
+line=713 fonts=F1-12.0 iscore=0.07 bbox=90.0,127.08,521.6,139.04 :maining elements are compacted  into a single domain object through partial compaction.
+
+doc_id=47 page=20 block_id=20-9 bbox=90.0,69.72,521.86,116.17 label=bbtb 714 717
+line=714 fonts=F3-7.0,F4-10.0 bbox=100.44,105.6,521.64,116.17  :  ^{21}Reape assumes that a DOM is appropriate only for phrasal signs. Extending Pollard, Levine & Kasper’s
+line=715 fonts=F4-10.0 iscore=0.25 bbox=90.0,93.6,521.59,103.56:(1993) idea, Calcagno points out that once DOM is defined on all signs, we can constrain the order of elements
+line=716 fonts=F4-10.0 iscore=0.20 bbox=90.0,81.72,521.86,91.68:in a DOM  value by more general constraints on signs. The ID schemata mediate between tectogrammatical
+line=717 fonts=F4-10.0 iscore=0.25 bbox=90.0,69.72,378.97,79.68:notion and phenogrammatical information by way of the DOM attribute.
+
+doc_id=47 page=20 block_id=20-10 bbox=300.0,39.84,311.98,51.8 label=bbb 718 718
+line=718 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   72
+
+doc_id=47 page=21 block_id=21-1 bbox=223.08,747.0,387.93,756.56 label=ttt 719 719
+line=719 fonts=F7-9.6 bbox=223.08,747.0,387.93,756.56:                    KOREAN COMPLEX PREDICATES
+
+doc_id=47 page=21 block_id=21-2 bbox=90.0,662.4,521.5,717.68 label=ttbt 720 723
+line=720 fonts=F1-12.0 bbox=90.0,705.72,521.47,717.68            :In general, the liberated element receives focus interpretation by accompanying pause or
+line=721 fonts=F1-12.0 iscore=0.13 bbox=90.0,691.32,521.49,703.28:pitch accent. This mechanism licenses scrambling of an element out of an embedded S or
+line=722 fonts=F1-12.0 iscore=0.44 bbox=90.0,676.92,521.5,688.88 :VP. In contrast, an element of the matrix predicate does not scramble into the embedded S
+line=723 fonts=F1-12.0 iscore=0.25 bbox=90.0,662.4,403.29,674.36 :or VP, which is already compacted together as in (41d) and (41e).
+
+doc_id=47 page=21 block_id=21-3 bbox=90.0,563.76,521.63,647.96 label=ttbb 724 729
+line=724 fonts=F1-12.0 bbox=126.0,636.0,521.55,647.96                   :       Now  let us consider how this kind of phenogrammatical information can be en-
+line=725 fonts=F1-12.0 iscore=0.31 bbox=90.0,621.6,521.62,633.56        :coded.  Instead of using distinct Head-Subject and Head-Complement Schema,  Kathol
+line=726 fonts=F1-12.0,F2-8.0 iscore=0.09 bbox=90.0,607.08,521.63,619.49:uses a binary Head-Argument  Schema  for licensing particular combinations of signs.^{22}
+line=727 fonts=F1-12.0 iscore=0.18 bbox=90.0,592.68,521.49,604.64       :Moreover, he proposes a Head-Argument  Composition  Relation dispensing with phrase
+line=728 fonts=F1-12.0 iscore=0.15 bbox=90.0,578.28,521.52,590.24       :structure-based analysis using the DTRS attribute in favor of relation based syntactic com-
+line=729 fonts=F1-12.0 iscore=0.08 bbox=90.0,563.76,132.3,575.72        :bination.
+
+doc_id=47 page=21 block_id=21-4 bbox=93.48,492.48,521.13,518.0 label=tbt 730 731
+line=730 fonts=F1-12.0,F9-10.9 bbox=93.48,506.04,521.13,518.0      : (44) The ternary relation HEAD-ARGUMENT COMPOSITION   holds of three signs M, H, and
+line=731 fonts=F9-10.9 iscore=0.17 bbox=119.28,492.48,189.34,503.39:     A if and only if:
+
+doc_id=47 page=21 block_id=21-5 bbox=105.24,439.32,521.47,463.79 label=tbbt 732 733
+line=732 fonts=F9-10.9 bbox=105.24,452.88,521.47,463.79            :   1. M’s SYNSEM LOCAL  CAT  COMPS  is token-identical to H’s SYNSEM LOCAL CAT
+line=733 fonts=F9-10.9 iscore=0.09 bbox=125.04,439.32,309.39,450.23:      COMPS  value minus A’s SYNSEM value.
+
+doc_id=47 page=21 block_id=21-6 bbox=105.24,386.28,521.21,410.7 label=tbbb 734 735
+line=734 fonts=F23-11.0,F9-10.9,F9-8.0 bbox=105.24,399.7,521.21,410.7:   2. M’s DOM  value is a sequence union of H’s DOM value and CA¡  , where CA is the p-
+line=735 fonts=F9-10.9 iscore=0.05 bbox=119.28,386.28,195.21,397.19  :      compaction of A.
+
+doc_id=47 page=21 block_id=21-7 bbox=90.0,226.44,521.64,339.56 label=bt 736 743
+line=736 fonts=F1-12.0 bbox=126.0,327.6,521.64,339.56            :       Adopting the above Head-Argument  Composition Relation for syntactic combina-
+line=737 fonts=F1-12.0 iscore=0.25 bbox=90.0,313.2,521.37,325.16 :tion of a head and its complements including subjects in Korean, we drop the TOPO feature
+line=738 fonts=F1-12.0 iscore=0.12 bbox=90.0,298.68,521.47,310.64:from the constraint, which is introduced for languages like German. According to this rule,
+line=739 fonts=F1-12.0 iscore=0.24 bbox=90.0,284.28,521.61,296.24:the domain of the mother is the sequence union of the domain of the head daughter with
+line=740 fonts=F1-12.0 iscore=0.18 bbox=90.0,269.76,521.48,281.72:the singleton list containing the compaction of the argument. Through compaction and
+line=741 fonts=F1-12.0 iscore=0.15 bbox=90.0,255.36,521.47,267.32:sequence union, essentially a shuffle operator, arbitrary permutations of a domain can be
+line=742 fonts=F1-12.0 iscore=0.21 bbox=90.0,240.96,521.62,252.92:licensed unless LP constraints are provided. The combination of a CP and its complement
+line=743 fonts=F1-12.0 iscore=0.21 bbox=90.0,226.44,377.52,238.4 :can be licensed by Head-Argument Composition as follows.
+
+doc_id=47 page=21 block_id=21-8 bbox=95.28,141.72,358.34,179.63 label=bbt 744 746
+line=744 tag=L span_id=47-75 lang_name=Korean lang_code=kor fonts=F9-10.9 bbox=95.28,168.72,334.86,179.63              : (45) a. John-i    chayk-ul  kwuip-ul     ha-yess-ta
+line=745 tag=G span_id=47-75 lang_name=Korean lang_code=kor fonts=F9-10.9 iscore=1.00 bbox=134.16,155.16,358.34,166.07 :         John-Nom  book-Acc  purchase-Acc do-Past-Ending
+line=746 tag=T span_id=47-75 lang_name=Korean lang_code=kor fonts=F13-10.9 iscore=0.25 bbox=134.16,141.72,242.89,152.63:         ‘John purchased a book.’
+
+doc_id=47 page=21 block_id=21-9 bbox=90.0,69.72,521.74,116.17 label=bbbt 747 750
+line=747 fonts=F3-7.0,F4-10.0 bbox=100.44,105.6,521.65,116.17  :   ^{22}Kathol (1995) argues for this general combinatorial system in order to avoid the differences in the ar-
+line=748 fonts=F4-10.0 iscore=0.06 bbox=90.0,93.6,521.74,103.56:gument  structures of finite and nonfinite verbs posited by Kiss and others, and to avoid positing different
+line=749 fonts=F4-10.0 iscore=0.41 bbox=90.0,81.72,521.61,91.68:representations of subjects of fronting constructions in German. For this, refer to Kathol (1995) ch.5 and
+line=750 fonts=F4-10.0 iscore=0.06 bbox=90.0,69.72,313.52,79.68:ch.7. This is not directly relevant to this paper, however.
+
+doc_id=47 page=21 block_id=21-10 bbox=300.0,39.84,311.98,51.8 label=bbbb 751 751
+line=751 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   73
+
+doc_id=47 page=22 block_id=22-1 bbox=269.88,747.0,341.82,756.56 label=ttt 752 752
+line=752 fonts=F7-9.6 bbox=269.88,747.0,341.82,756.56:                           SUN-HEE LEE
+
+doc_id=47 page=22 block_id=22-2 bbox=120.6,657.9,369.6,724.9 label=ttb 753 754
+line=753 fonts=F11-11.7,F17-5.3,F22-7.4,F24-20.5,F9-10.9 bbox=120.6,701.4,245.7,724.9:        b.                   ¡ 1 ¥ 3¡      ¡
+line=754 fonts=F10-10.1,F11-11.7,F9-10.9 iscore=0.14 bbox=199.68,657.9,369.6,698.1   :                              SYNSEM¡   ¡  ¡ LOC¡ ¡ ¡ CAT¢ ¢ ¢ SUBCAT¢  1 / 3���
+
+doc_id=47 page=22 block_id=22-3 bbox=136.1,600.9,253.6,658.5 label=tbtl 755 756
+line=755 fonts=F10-10.1,F11-11.7,F9-10.9 bbox=143.0,626.04,196.0,658.5                  :                ¡¡ SYNSEM       ^{$}¡
+line=756 fonts=F11-11.7,F22-7.4,F9-10.9,F9-13.3 iscore=0.27 bbox=136.1,600.9,253.6,618.6:              £ ¢ DOM     ¥  � � 1 chayk-ul3   ! ���� _{�}
+
+doc_id=47 page=22 block_id=22-4 bbox=278.0,591.0,458.4,656.9 label=tbtr 757 758
+line=757 fonts=F10-10.1,F11-11.7,F17-5.3,F9-10.9,F9-13.4 bbox=278.0,617.76,437.2,656.9:                                           ¡¡¡ DOM ^{¡} � �1 kwuip-ul3¢ ¢ ,� 1 hayessta3 !
+line=758 fonts=F11-11.7,F9-10.9 iscore=0.30 bbox=281.64,591.0,458.4,604.3             :                                            SYNSEM      LOC    CAT   SUBCAT    1  ,  3
+
+doc_id=47 page=22 block_id=22-5 bbox=90.0,503.4,521.59,558.8 label=tbbttt 759 762
+line=759 fonts=F1-12.0 bbox=126.0,546.84,521.52,558.8            :       For licensing the combination of a verbal noun and a head verb in the above struc-
+line=760 fonts=F1-12.0 iscore=0.12 bbox=90.0,532.32,521.59,544.28:ture, we need another Composition Relation. On the basis of the Gov-Head schema, which
+line=761 fonts=F1-12.0 iscore=0.36 bbox=90.0,517.92,521.48,529.88:has been presented in the previous chapter, the Gov-Head Composition Relation can be
+line=762 fonts=F1-12.0 iscore=0.08 bbox=90.0,503.4,170.66,515.36 :given as follows.
+
+doc_id=47 page=22 block_id=22-6 bbox=93.48,451.8,520.94,477.32 label=tbbttbt 763 764
+line=763 fonts=F1-12.0,F9-10.9 bbox=93.48,465.36,520.94,477.32    : (46) A  sign M is licensed in a Gov-Head Composition Relation, provided there exist two signs
+line=764 fonts=F9-10.9 iscore=0.07 bbox=119.28,451.8,267.16,462.71:      G(overnee) and H(ead), such that:
+
+doc_id=47 page=22 block_id=22-7 bbox=105.24,414.84,515.71,439.31 label=tbbttbbt 765 766
+line=765 fonts=F9-10.9 bbox=105.24,428.4,515.71,439.31             :   1. M’s SYNSEM LOCAL   CAT  GOV  value is token-identical to H’s SYNSEM LOCAL
+line=766 fonts=F9-10.9 iscore=0.17 bbox=119.28,414.84,317.31,425.75:     CAT  GOV value minus G’s SYNSEM value
+
+doc_id=47 page=22 block_id=22-8 bbox=105.24,368.04,430.94,402.35 label=tbbttbbb 767 768
+line=767 fonts=F18-5.4,F9-10.9 bbox=105.24,391.4,270.57,402.35     :   2. M, G, H’s NPCOMP values are ¢ .
+line=768 fonts=F9-10.9 iscore=0.27 bbox=105.24,368.04,430.94,378.95:   3. M’s DOM value is the append of H’s DOM value with G’s DOM value.
+
+doc_id=47 page=22 block_id=22-9 bbox=90.0,314.64,521.54,341.12 label=tbbtb 769 770
+line=769 fonts=F1-12.0 bbox=126.0,329.16,521.54,341.12          :       This relation licenses the following local composition of a verbal noun and a head
+line=770 fonts=F1-12.0 iscore=0.00 bbox=90.0,314.64,125.11,326.6:in (47).
+
+doc_id=47 page=22 block_id=22-10 bbox=93.48,259.0,189.7,294.6 label=tbbbtlt 771 772
+line=771 fonts=F1-12.0,F11-11.7 bbox=93.48,272.88,189.7,294.6   : (47)                              ¡¡
+line=772 fonts=F11-11.7 iscore=1.00 bbox=189.7,259.0,189.7,270.7:                                   ¡
+
+doc_id=47 page=22 block_id=22-11 bbox=193.32,237.36,224.1,250.6 label=tbbbtlb 773 773
+line=773 fonts=F11-11.7,F9-10.9 bbox=193.32,237.36,224.1,250.6:                      GOV   1 3
+
+doc_id=47 page=22 block_id=22-12 bbox=231.3,236.8,398.8,278.6 label=tbbbtr 774 775
+line=774 fonts=F11-11.7,F9-13.4 bbox=231.3,264.12,391.0,278.6   :                                                     � � 1 kwuip-ul3        !             � � 1 hayessta3       !
+line=775 fonts=F11-11.7 iscore=0.00 bbox=398.8,236.8,398.8,260.5:                                                                                                                   ���
+
+doc_id=47 page=22 block_id=22-13 bbox=193.32,195.3,355.6,229.67 label=tbbbb 776 776
+line=776 fonts=F11-11.7,F18-5.4,F9-10.9 bbox=193.32,195.3,355.6,229.67:                                                NPCOMP#             #  ¢ #   #    #    #   #    5    5   5    5    5   5    5
+
+doc_id=47 page=22 block_id=22-14 bbox=120.6,117.8,232.4,195.0 label=btl 777 779
+line=777 fonts=F11-11.7,F17-5.3,F9-10.9,F9-13.3 bbox=120.6,157.92,224.6,195.0:       ¡¡¡¡ DOM ^{¡} � � 1 kwuip-ul3# !
+line=778 fonts=F11-11.7,F9-10.9 iscore=0.25 bbox=120.6,129.8,232.4,144.23    :       ¢ SYNSEM                   � �
+line=779 fonts=F18-5.4,F9-10.9 iscore=0.33 bbox=124.08,117.8,172.5,128.75    :        NPCOMP      ¢
+
+doc_id=47 page=22 block_id=22-15 bbox=330.7,112.2,493.5,195.0 label=btr 780 783
+line=780 fonts=F11-11.7,F9-10.9 bbox=330.7,157.56,432.2,195.0           :                                                    ¡¡¡¡ DOM � �1 hayessta5 3 !
+line=781 fonts=F11-11.7 iscore=0.14 bbox=330.7,146.4,330.7,158.1        :                                                    ¡
+line=782 fonts=F11-11.7,F9-10.9 iscore=0.00 bbox=334.2,130.2,493.5,144.1:                                                     SYNSEM     LOC    CAT    GOV  1  3 �
+line=783 fonts=F18-5.4,F9-10.9 iscore=0.14 bbox=334.2,112.2,382.6,123.11:                                                     NPCOMP    ¢
+
+doc_id=47 page=22 block_id=22-16 bbox=90.0,69.72,489.94,81.68 label=bbt 784 784
+line=784 fonts=F1-12.0 bbox=90.0,69.72,489.94,81.68:Depending  on the above relational constraints, the following sentences are licensed.
+
+doc_id=47 page=22 block_id=22-17 bbox=300.0,39.84,311.98,51.8 label=bbb 785 785
+line=785 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   74
+
+doc_id=47 page=23 block_id=23-1 bbox=223.08,747.0,387.93,756.56 label=tt 786 786
+line=786 fonts=F7-9.6 bbox=223.08,747.0,387.93,756.56:                    KOREAN COMPLEX PREDICATES
+
+doc_id=47 page=23 block_id=23-2 bbox=95.28,705.7,418.1,717.4 label=tbttt 787 787
+line=787 fonts=F18-5.4,F23-11.0,F25-11.7,F9-10.9 bbox=95.28,705.7,418.1,717.4:  (48)    a.  DOM       ¡£¢¥¤§¦©¨����¥¢    ¢�¤������������¨�� ¢�������£¢¥��¤��! ¢�¤§�"����£¨����¥#�$%$'&(�)� ¡
+
+doc_id=47 page=23 block_id=23-3 bbox=120.6,681.6,418.1,693.3 label=tbttbt 788 788
+line=788 fonts=F18-5.4,F23-11.0,F25-11.7,F9-10.9 bbox=120.6,681.6,418.1,693.3:          b.   DOM      ¡£¢¥¤�¦*¨§�+�¥¢    ¢,¤§�"��������-¨§�  ¢�������£¢¥�.¤§!�  ¢�¤�������£¨§�+�¥#�$%$�&/�0� ¡
+
+doc_id=47 page=23 block_id=23-4 bbox=120.84,657.48,428.4,669.2 label=tbttbb 789 789
+line=789 fonts=F18-5.4,F23-11.0,F25-11.7,F9-10.9 bbox=120.84,657.48,428.4,669.2:          c.  *?DOM        ¡�����¨��     ¢,������£¢¥¤§¦©¨����¥¢ ¢�¤�������£¨§�+�¥#�$%$�&/�0����£¢¥��¤��! ¢,¤§�"� ¡
+
+doc_id=47 page=23 block_id=23-5 bbox=120.12,632.5,439.46,644.2 label=tbtb 790 790
+line=790 fonts=F18-5.4,F23-11.0,F25-11.7,F9-10.9 bbox=120.12,632.5,439.46,644.2:          d.   *DOM       ¡�����¨��     ¢,������£¢¥��¤��!  ¢,¤§�"����£¢¥¤§¦©¨����¥¢ ¢�¤�������£¨§�+�¥#�$%$�&/�0� ¡ ...
+
+doc_id=47 page=23 block_id=23-6 bbox=90.0,534.72,521.62,604.4 label=tbbt 791 795
+line=791 fonts=F1-12.0 bbox=90.0,592.44,521.62,604.4                    :As we see in the above examples, there are some restrictions on the permutations. Follow-
+line=792 fonts=F1-12.0 iscore=0.27 bbox=90.0,578.04,521.45,590.0        :ing Chung (1998) and Calcagno (1993), we can exclude the ungrammatical examples of
+line=793 fonts=F1-12.0 iscore=0.19 bbox=90.0,563.52,521.38,575.48       :(48c) and (48d) by the Head Final Constraint. This holds for the governed elements of CPs
+line=794 fonts=F1-12.0 iscore=0.25 bbox=90.0,549.12,521.6,561.08        :such as verbal nouns or other verbs as well as arguments. We need the following constraint
+line=795 fonts=F1-12.0,F2-8.0 iscore=0.25 bbox=90.0,534.72,471.95,547.01:for the immediate precedence between a verb and an auxiliary verb in Korean.^{23}
+
+doc_id=47 page=23 block_id=23-7 bbox=93.48,474.9,223.2,506.24 label=tbbb 796 797
+line=796 fonts=F1-12.0,F25-11.7,F9-10.9 bbox=93.48,494.0,207.3,506.24             : (49) X 1    AUX      2
+line=797 fonts=F11-11.7,F9-10.9,F9-13.3 iscore=0.40 bbox=143.52,474.9,223.2,494.63:          V  COMPS    1 X3 �
+
+doc_id=47 page=23 block_id=23-8 bbox=90.0,403.68,521.54,444.44 label=btt 798 800
+line=798 fonts=F1-12.0 bbox=126.0,432.48,521.54,444.44           :       Now  let us consider adjuncts interspersed among complements. For the syntac-
+line=799 fonts=F1-12.0 iscore=0.20 bbox=90.0,418.08,521.49,430.04:tic combination of a head and an adjunct, we need another relational constraint of Head-
+line=800 fonts=F1-12.0 iscore=0.13 bbox=90.0,403.68,494.18,415.64:Adjunct Composition Relation similar to the Head-Argument Composition Relation.
+
+doc_id=47 page=23 block_id=23-9 bbox=93.48,350.88,520.92,376.4 label=btbt 801 802
+line=801 fonts=F1-12.0,F9-10.9 bbox=93.48,364.44,520.92,376.4      : (50) The ternary relation Head-Adjunct Composition holds of three signs, M, H and A if and only
+line=802 fonts=F9-10.9 iscore=0.06 bbox=119.28,350.88,128.85,361.79:      if:
+
+doc_id=47 page=23 block_id=23-10 bbox=108.0,326.76,495.32,337.67 label=btbbt 803 803
+line=803 fonts=F9-10.9 bbox=108.0,326.76,495.32,337.67:   1 H’s SYNSEM  value is token identical to A’s SYNSEM LOCAL CAT MOD value.
+
+doc_id=47 page=23 block_id=23-11 bbox=108.0,289.2,521.25,313.8 label=btbbb 804 805
+line=804 fonts=F23-11.0,F9-10.9,F9-8.0 bbox=108.0,302.76,521.25,313.8:   2  M’s DOM   value is a sequence union of H’s DOM value and CA ¡ , where CA is the
+line=805 fonts=F9-10.9 iscore=0.11 bbox=119.28,289.2,195.21,300.11   :      compaction of A.
+
+doc_id=47 page=23 block_id=23-12 bbox=90.0,234.6,521.5,261.08 label=bbt 806 807
+line=806 fonts=F1-12.0 bbox=90.0,249.12,521.5,261.08            :Based on the Head-Adjunct Composition Relation, the following DOM value of the phrase
+line=807 fonts=F1-12.0 iscore=0.15 bbox=90.0,234.6,343.12,246.56:containing an adjunct phrase and its head is licensed.
+
+doc_id=47 page=23 block_id=23-13 bbox=93.48,165.84,389.91,206.48 label=bbbttt 808 810
+line=808 tag=L span_id=47-76 lang_name=Korean lang_code=kor fonts=F1-12.0 bbox=93.48,194.52,364.03,206.48             : (51) a. secem-eyse   chay-ul  kwuip-ul     ha-yess-ta
+line=809 tag=G span_id=47-76 lang_name=Korean lang_code=kor fonts=F1-12.0 iscore=0.75 bbox=134.16,180.12,389.91,192.08:         bookstore-at book-Acc purchase-Acc do-Past-Ending
+line=810 tag=T span_id=47-76 lang_name=Korean lang_code=kor fonts=F8-12.0 iscore=0.12 bbox=134.16,165.84,325.07,177.8 :         ‘(I) purchased a book at the book store.’
+
+doc_id=47 page=23 block_id=23-14 bbox=119.88,136.56,478.55,150.56 label=bbbttb 811 811
+line=811 fonts=F1-12.0,F9-10.9 bbox=119.88,136.56,478.55,150.56:     b.   PHON  secem-eyse PHON  chayk-ul PHON  kwuip-ul PHON  hayessta
+
+doc_id=47 page=23 block_id=23-15 bbox=90.0,69.72,521.74,104.17 label=bbbtb 812 814
+line=812 fonts=F3-7.0,F4-10.0 bbox=100.44,93.6,521.74,104.17   :  ^{23}In auxiliary verb construction, delimiters can intervene between a predicate and the following auxiliary
+line=813 fonts=F4-10.0 iscore=0.12 bbox=90.0,81.72,521.59,91.68:verb. This kind of insertion is commonly found in complex or compound word constructions. It is attributed
+line=814 fonts=F4-10.0 iscore=0.06 bbox=90.0,69.72,494.76,79.68:to the morpho-syntactic property of delimiters in Korean. Thus, it does no harm for the LP constraint.
+
+doc_id=47 page=23 block_id=23-16 bbox=300.0,39.84,311.98,51.8 label=bbbb 815 815
+line=815 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   75
+
+doc_id=47 page=24 block_id=24-1 bbox=269.88,747.0,341.82,756.56 label=tt 816 816
+line=816 fonts=F7-9.6 bbox=269.88,747.0,341.82,756.56:                           SUN-HEE LEE
+
+doc_id=47 page=24 block_id=24-2 bbox=90.0,676.92,521.67,717.68 label=tbt 817 819
+line=817 fonts=F1-12.0 bbox=126.0,705.72,521.67,717.68           :       Within a linearization model, we can provide the following structure for the exam-
+line=818 fonts=F1-12.0 iscore=0.29 bbox=90.0,691.32,521.48,703.28:ple containing an element, which scrambles out of the embedded S argument. We repeat
+line=819 fonts=F1-12.0 iscore=0.21 bbox=90.0,676.92,214.16,688.88:the example (41c) in (52).
+
+doc_id=47 page=24 block_id=24-3 bbox=96.84,619.2,476.06,652.92 label=tbbt 820 822
+line=820 tag=L+SY span_id=47-77 lang_name=Korean lang_code=kor fonts=F2-8.0,F4-10.0 bbox=96.84,642.96,476.06,652.92  :  (52) a. Mary-ka    ku proceykth-lul Tom-eykey [S John-i kkuthnay-yahan-tako] malhayssta
+line=821 tag=G span_id=47-77 lang_name=Korean lang_code=kor fonts=F4-10.0 iscore=0.75 bbox=134.16,630.96,447.4,640.92:          Mary-Nom   that project-Acc Tom-to    John-Nom  finish-must-Comp     told
+line=822 tag=T span_id=47-77 lang_name=Korean lang_code=kor fonts=F5-10.0 iscore=0.22 bbox=134.16,619.2,333.85,629.16:          ‘Mary told Tom that John must finish that project.’
+
+doc_id=47 page=24 block_id=24-4 bbox=122.64,575.88,256.0,603.17 label=tbbbl 823 824
+line=823 fonts=F2-8.0 bbox=122.64,595.08,236.99,603.17                  :        b.                     VP
+line=824 fonts=F11-11.7,F2-8.0 iscore=0.50 bbox=226.8,575.88,256.0,589.4:                               DOM    �
+
+doc_id=47 page=24 block_id=24-5 bbox=264.4,557.1,505.2,595.5 label=tbbbr 825 825
+line=825 fonts=F11-11.7,F2-8.0,F26-5.0 bbox=264.4,557.1,505.2,595.5:                                                                            2  � ¤ ku proceykth-lul      ¦ � ,# ¡ �# ¤ John-i# ¥ kkuthnayyahantako¥ ¥ ¥  ¦ � , ¢ � ¤ malhayssta   ¦�� � ^{�}�
+
+doc_id=47 page=24 block_id=24-6 bbox=168.0,493.1,518.8,557.4 label=bt 826 827
+line=826 fonts=F11-11.7,F2-8.0,F26-5.0 bbox=177.84,531.12,463.4,557.4          :                                       S                                           #  #                                                            ¥ V  ¥   ¥    ¥  ¥
+line=827 fonts=F11-11.7,F2-8.0,F26-5.0 iscore=0.06 bbox=168.0,493.1,518.8,527.8:                                  £    DOM      �  � ¤ John-i ¦�� ,¤� ¤ ku¤ proceykth-lul¤ ¤ 5 5 ¦5 � ,� ¤ kkuthnayyahantako  ¦ � � �                 ¢  DOM      �  � ¤ malhayssta    ¦ � � �
+
+doc_id=47 page=24 block_id=24-7 bbox=134.6,425.64,249.2,492.1 label=bbttl 828 830
+line=828 fonts=F2-8.0,F26-5.0 bbox=139.44,467.04,209.9,492.1                    :                       NP             ¤  ¤    ¤    ¤   ¤
+line=829 fonts=F11-11.7,F2-8.0 iscore=0.38 bbox=139.44,444.4,205.2,461.5        :                       DOM      �  � ¤ John-i   ¦�� � �
+line=830 fonts=F11-11.7,F2-8.0,F26-5.0 iscore=0.08 bbox=134.6,425.64,249.2,439.3:                     ¦    P-compaction          ( ^{£} , ¤ ¡ ¦ , ¤ ¦ )   ¦
+
+doc_id=47 page=24 block_id=24-8 bbox=279.96,444.4,452.2,493.3 label=bbttrt 831 832
+line=831 fonts=F11-11.7,F2-8.0 bbox=279.96,467.04,355.7,493.3           :                                                                     VP                       5 5
+line=832 fonts=F11-11.7,F2-8.0 iscore=0.07 bbox=279.96,444.4,452.2,461.5:                                                                     DOM    � � ¤ ku proceykth-lul  ¦�� ,� ¤ kkuthnayahantako ¦ � � �
+
+doc_id=47 page=24 block_id=24-9 bbox=262.08,425.64,343.68,441.2 label=bbttrb 833 833
+line=833 fonts=F11-11.7,F2-12.1,F2-12.4,F2-8.0,F26-5.0 bbox=262.08,425.64,343.68,441.2:                                                                                                       shuffle       (¤   ¡  ¦ ,¤  2   ¦ ,  ¢  ,      )
+
+doc_id=47 page=24 block_id=24-10 bbox=90.0,331.68,521.73,401.48 label=bbtbt 834 838
+line=834 fonts=F1-12.0 bbox=90.0,389.52,521.46,401.48                    :As shown  in (52), the embedded sentence becomes compacted when it combines with the
+line=835 fonts=F1-12.0,F8-12.0 iscore=0.29 bbox=90.0,375.12,521.61,387.08:verbal head while the focused element ku proceykth-lul (that project-Acc) is scrambled out
+line=836 fonts=F1-12.0 iscore=0.22 bbox=90.0,360.6,521.51,372.56         :of it. In other words, the focused element is inserted into the domain of the matrix VP. The
+line=837 fonts=F1-12.0,F8-12.0 iscore=0.17 bbox=90.0,346.2,521.59,358.16 :rest of the embedded clause John-i kkuthnayyahantako (John-Nom finish-must-Comp) is
+line=838 fonts=F1-12.0,F8-12.0 iscore=0.15 bbox=90.0,331.68,521.73,343.64:compacted together forming a single list when it combines with the verb malhyassta(told).
+
+doc_id=47 page=24 block_id=24-11 bbox=90.0,204.24,521.66,317.24 label=bbtbb 839 846
+line=839 fonts=F1-12.0 bbox=126.0,305.28,521.66,317.24           :       In case the list of liberated domain objects is empty, however, the domain object
+line=840 fonts=F1-12.0 iscore=0.11 bbox=90.0,290.88,521.53,302.84:of the sign is totally compacted to a single list. In that case no element of the matrix verb
+line=841 fonts=F1-12.0 iscore=0.16 bbox=90.0,276.48,521.6,288.44 :intervene among the compacted  elements. This correctly captures the asymmetry in long
+line=842 fonts=F1-12.0 iscore=0.23 bbox=90.0,261.96,521.5,273.92 :distance scrambling between the elements of the matrix and the embedded clauses. Par-
+line=843 fonts=F1-12.0 iscore=0.15 bbox=90.0,247.56,521.61,259.52:tial compaction involves Focus or Topic interpretations. Therefore, the exact mechanism
+line=844 fonts=F1-12.0 iscore=0.15 bbox=90.0,233.04,521.48,245.0 :introducing this sort of compaction relation should be more carefully investigated by con-
+line=845 fonts=F1-12.0 iscore=0.08 bbox=90.0,218.64,521.51,230.6 :sidering various pragmatic sort of information; however, we leave this subject for future
+line=846 fonts=F1-12.0 iscore=0.08 bbox=90.0,204.24,118.27,216.2 :study.
+
+doc_id=47 page=24 block_id=24-12 bbox=90.0,165.84,164.95,177.8 label=bbbt 847 847
+line=847 fonts=F0-12.0 bbox=90.0,165.84,164.95,177.8:5  Conclusion
+
+doc_id=47 page=24 block_id=24-13 bbox=90.0,69.72,521.66,139.4 label=bbbbt 848 852
+line=848 fonts=F1-12.0 bbox=126.0,127.44,521.66,139.4           :       In this paper, we examined various kinds of CPs in Korean and tried to draw some
+line=849 fonts=F1-12.0 iscore=0.19 bbox=90.0,113.04,521.61,125.0:generalizations based on the similarities among them. The combination of a verbal noun
+line=850 fonts=F1-12.0 iscore=0.19 bbox=90.0,98.64,521.47,110.6 :and a verb shows various properties of CPs. Especially, adverb scope can be used as one
+line=851 fonts=F1-12.0 iscore=0.24 bbox=90.0,84.12,521.64,96.08 :of the identifying tools for a CP in Korean both verbal and noun-verb complex. A CP is
+line=852 fonts=F1-12.0 iscore=0.06 bbox=90.0,69.72,521.46,81.68 :formed by an argument composition mechanism, as proposed by Hinrichs & Nakayama
+
+doc_id=47 page=24 block_id=24-14 bbox=300.0,39.84,311.98,51.8 label=bbbbb 853 853
+line=853 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   76
+
+doc_id=47 page=25 block_id=25-1 bbox=223.08,747.0,387.93,756.56 label=t 854 854
+line=854 fonts=F7-9.6 bbox=223.08,747.0,387.93,756.56:                    KOREAN COMPLEX PREDICATES
+
+doc_id=47 page=25 block_id=25-2 bbox=90.0,561.24,521.74,717.68 label=bt 855 865
+line=855 fonts=F1-12.0 bbox=90.0,705.72,521.59,717.68            :(1994). We have shown  that the syntactic coherence of a CP can be captured by Gov-Head
+line=856 fonts=F1-12.0 iscore=0.25 bbox=90.0,691.32,521.5,703.28 :schema  licensed by the lexical properties of a verbal noun and the following verb. We
+line=857 fonts=F1-12.0 iscore=0.20 bbox=90.0,676.92,521.53,688.88:argue that while argument composition captures the properties of CPs, it is not quite ap-
+line=858 fonts=F1-12.0 iscore=0.33 bbox=90.0,662.4,521.49,674.36 :propriate to explain various scrambling facts as Chung (1998) proposes. His flat structure
+line=859 fonts=F1-12.0 iscore=0.08 bbox=90.0,648.0,521.59,659.96 :analysis based on argument composition does not fully explain long-distance scrambling
+line=860 fonts=F1-12.0 iscore=0.23 bbox=90.0,633.48,521.64,645.44:without rather arbitrary interpretive rules. By using the linearization model, we claim that
+line=861 fonts=F1-12.0 iscore=0.23 bbox=90.0,619.08,521.48,631.04:scrambling facts can be more systematically explained. This approach enhances the ex-
+line=862 fonts=F1-12.0 iscore=0.42 bbox=90.0,604.68,521.74,616.64:planatory power of the theory by providing proper empirical generalizations for distinct
+line=863 fonts=F1-12.0 iscore=0.08 bbox=90.0,590.16,521.54,602.12:syntactic phenomena. Long-distance scrambling phenomena,  however, are entangled with
+line=864 fonts=F1-12.0 iscore=0.08 bbox=90.0,575.76,521.49,587.72:complicated pragmatic factors such as focus or topic interpretations, which remains as an
+line=865 fonts=F1-12.0 iscore=0.08 bbox=90.0,561.24,252.88,573.2 :important subject for future study.
+
+doc_id=47 page=25 block_id=25-3 bbox=90.0,522.96,145.26,534.92 label=bbt 866 866
+line=866 fonts=F0-12.0 bbox=90.0,522.96,145.26,534.92:References
+
+doc_id=47 page=25 block_id=25-4 bbox=90.24,476.4,521.63,502.76 label=bbbtt 867 868
+line=867 fonts=F1-12.0,F7-9.6,F8-12.0 bbox=90.24,490.8,521.63,502.76:AHN,  HEE-DON.   1989.  Ling Verb, VP-Movement, Negation and Clausal Architecture.
+line=868 fonts=F1-12.0 iscore=0.11 bbox=113.4,476.4,381.41,488.36   :    Madison, WI: Univ. of Wisconsin-Madison dissertation.
+
+doc_id=47 page=25 block_id=25-5 bbox=90.24,435.96,521.51,462.44 label=bbbtbtt 869 870
+line=869 fonts=F1-12.0,F7-9.6,F8-12.0 bbox=90.24,450.48,521.51,462.44     :BRATT,  ELIZABETH.   1996.  Argument  Composition and the Lexicon; Lexical and Pe-
+line=870 fonts=F1-12.0,F8-12.0 iscore=0.00 bbox=113.4,435.96,474.29,447.92:    riphrastic Causatives in Korean. Stanford, CA: Stanford Univ. dissertation.
+
+doc_id=47 page=25 block_id=25-6 bbox=90.24,395.64,521.51,422.0 label=bbbtbtb 871 872
+line=871 fonts=F1-12.0,F7-9.6 bbox=90.24,410.04,521.51,422.0             :CALCAGNO,    MIKE.  1993. Toward  a linearization approach to word order variation in
+line=872 fonts=F1-12.0,F8-12.0 iscore=0.18 bbox=113.4,395.64,382.33,407.6:    japanese. OSU Working Papers in Linguistics 42.24–45.
+
+doc_id=47 page=25 block_id=25-7 bbox=90.24,340.8,521.63,381.68 label=bbbtbbt 873 875
+line=873 fonts=F1-12.0,F7-9.6 bbox=90.24,369.72,521.47,381.68            :CHUNG,   CHAN.  1998. Argument  composition and long-distance scrambling in korean.
+line=874 fonts=F1-12.0,F8-12.0 iscore=0.08 bbox=113.4,355.2,521.63,367.16:    In Complex Predicates in Nonderivational Syntax, ed. by Andreas Kathol & Michael
+line=875 fonts=F1-12.0 iscore=0.08 bbox=113.4,340.8,371.2,352.76         :    Bernstein, 159–220. San Diego, CA: Academic Press.
+
+doc_id=47 page=25 block_id=25-8 bbox=90.24,285.96,521.65,326.84 label=bbbtbbbtt 876 878
+line=876 fonts=F1-12.0,F7-9.6,F8-12.0 bbox=90.24,314.88,521.65,326.84     :DOWTY,   DAVID.  1996. Towards a minimalist theory of syntactic structure. In Discon-
+line=877 fonts=F1-12.0,F8-12.0 iscore=0.08 bbox=113.4,300.48,521.46,312.44:    tinuous Constituency, Natural language processing, number 6., ed. by Harry Bunt &
+line=878 fonts=F1-12.0 iscore=0.08 bbox=113.4,285.96,469.96,297.92        :    Arthur van Horck, 11–62. Berlin: Mouton, Germany: Mouton-De Gruyter.
+
+doc_id=47 page=25 block_id=25-9 bbox=90.24,245.64,521.66,272.0 label=bbbtbbbtb 879 880
+line=879 fonts=F1-12.0,F7-9.6,F8-12.0 bbox=90.24,260.04,521.66,272.0    :GRIMSHAW,   JANE, & ARMIN  MESTER.   1988. Light verbs and -marking. Linguistic
+line=880 fonts=F1-12.0,F8-12.0 iscore=0.00 bbox=113.4,245.64,211.4,257.6:    Inquiry 19.205–232.
+
+doc_id=47 page=25 block_id=25-10 bbox=90.24,219.72,465.97,231.68 label=bbbtbbbbt 881 881
+line=881 fonts=F1-12.0,F7-9.6,F8-12.0 bbox=90.24,219.72,465.97,231.68:HAN, HAK  SUNG.  1988. Light verbs and -marking. Language Research 4.4.
+
+doc_id=47 page=25 block_id=25-11 bbox=90.24,150.48,521.63,205.76 label=bbbtbbbbbt 882 885
+line=882 fonts=F1-12.0,F7-9.6 bbox=90.24,193.8,521.63,205.76              :HINRICHS, ERHARD,  &  TSUNEKO  NAKAYAMA.   1994. Linearizing auxs in german verbal
+line=883 fonts=F1-12.0,F8-12.0 iscore=0.00 bbox=113.4,179.28,521.41,191.24:    complexes.  In German in Head-Driven Phrase Structure Grammar, CSLI Lecture
+line=884 fonts=F1-12.0,F8-12.0 iscore=0.07 bbox=113.4,164.88,521.49,176.84:    Notes 46, ed. by John Nerbonne, Klaus Netter, & Carl J. Pollard, 11–37. Stanford,
+line=885 fonts=F1-12.0 iscore=0.07 bbox=113.4,150.48,233.4,162.44         :    CA: CSLI  Publishcation.
+
+doc_id=47 page=25 block_id=25-12 bbox=90.24,110.04,521.75,136.52 label=bbbtbbbbbbt 886 887
+line=886 fonts=F1-12.0,F7-9.6,F8-12.0 bbox=90.24,124.56,521.75,136.52    :JAYASEELAN,   K.A.  1988.  Complex  predicates and -theory. In Thematic Relations,
+line=887 fonts=F1-12.0,F8-12.0 iscore=0.10 bbox=113.4,110.04,418.52,122.0:    Syntax and Semantics 21, ed. by W.Wilkins, –. Academic Press.
+
+doc_id=47 page=25 block_id=25-13 bbox=90.24,69.72,521.62,96.08 label=bbbtbbbbbbb 888 889
+line=888 fonts=F1-12.0,F7-9.6,F8-12.0 bbox=90.24,84.12,521.62,96.08:JEONG,  TAEGOO.   1992. Argument  Structure and Serial Verbs in Korean. Austin, TX:
+line=889 fonts=F1-12.0 iscore=0.09 bbox=113.4,69.72,243.8,81.68    :    Univ. of Texas dissertation.
+
+doc_id=47 page=25 block_id=25-14 bbox=300.0,39.84,311.98,51.8 label=bbbb 890 890
+line=890 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   77
+
+doc_id=47 page=26 block_id=26-1 bbox=269.88,747.0,341.82,756.56 label=tt 891 891
+line=891 fonts=F7-9.6 bbox=269.88,747.0,341.82,756.56:                           SUN-HEE LEE
+
+doc_id=47 page=26 block_id=26-2 bbox=90.24,691.32,521.39,717.68 label=tbt 892 893
+line=892 fonts=F1-12.0,F7-9.6 bbox=90.24,705.72,521.39,717.68    :KASPER,  BOB,  & CARL  POLLARD.   1993. A relational interpretation of linear precedence
+line=893 fonts=F1-12.0 iscore=0.00 bbox=113.4,691.32,302.9,703.28:    constraints. Ms., Ohio State University.
+
+doc_id=47 page=26 block_id=26-3 bbox=90.24,652.44,521.49,678.92 label=tbbtt 894 895
+line=894 fonts=F1-12.0,F7-9.6,F8-12.0 bbox=90.24,666.96,521.49,678.92:KATHOL,  ANDREAS.    1995. Linearization-based German Syntax. Columbus, OH: The
+line=895 fonts=F1-12.0 iscore=0.12 bbox=113.4,652.44,278.34,664.4    :    Ohio State University dissertation.
+
+doc_id=47 page=26 block_id=26-4 bbox=90.24,628.08,457.47,640.04 label=tbbtbt 896 896
+line=896 fonts=F1-12.0,F7-9.6,F8-12.0 bbox=90.24,628.08,457.47,640.04:LEE, SUN  HEE. 1993. Complex precdicate constructions in korean. Mal 18.
+
+doc_id=47 page=26 block_id=26-5 bbox=90.24,589.2,521.47,615.56 label=tbbtbb 897 898
+line=897 fonts=F1-12.0,F7-9.6,F8-12.0 bbox=90.24,603.6,521.47,615.56:POLLARD,  CARL, & IVAN SAG. 1994. Head-Driven Phrase Structure Grammar. Chicago,
+line=898 fonts=F1-12.0 iscore=0.00 bbox=113.4,589.2,243.69,601.16   :    IL: Univ. of Chicago Press.
+
+doc_id=47 page=26 block_id=26-6 bbox=90.24,535.92,521.56,576.8 label=tbbbt 899 901
+line=899 fonts=F1-12.0,F7-9.6 bbox=90.24,564.84,521.56,576.8      :POLLARD   CARL,  BOB  LEVINE,  & BOB  KASPER.   1993. Studies in constituent order-
+line=900 fonts=F1-12.0 iscore=0.00 bbox=113.4,550.32,521.52,562.28:    ing:toward a theory of linearization in head-driven phrase structure. Grand Proposal
+line=901 fonts=F1-12.0 iscore=0.09 bbox=113.4,535.92,167.11,547.88:    to the NSF.
+
+doc_id=47 page=26 block_id=26-7 bbox=90.24,482.64,521.62,523.4 label=tbbbbt 902 904
+line=902 fonts=F1-12.0,F7-9.6,F8-12.0 bbox=90.24,511.44,521.62,523.4     :REAPE,  MIKE.   1996. Getting thigs in order. In Discontinuous Constinuecy,. Natural
+line=903 fonts=F1-12.0,F8-12.0 iscore=0.08 bbox=113.4,497.04,521.57,509.0:    language processing, number 6, ed. by Harry Bunt & Arthur van Horck, 209–253.
+line=904 fonts=F1-12.0 iscore=0.08 bbox=113.4,482.64,299.3,494.6         :    Berlin, New York: Mouton de Gruyter.
+
+doc_id=47 page=26 block_id=26-8 bbox=90.24,443.76,521.49,470.12 label=tbbbbbt 905 906
+line=905 fonts=F1-12.0,F7-9.6 bbox=90.24,458.16,521.49,470.12     :RYU,  BYONG-RAE.    1993. Structure sharing and argument transfer-an hpsg approach to
+line=906 fonts=F1-12.0 iscore=0.00 bbox=113.4,443.76,500.52,455.72:    verbal noun construction. Seminar für Sprachwissenschaft Universität Tübingen.
+
+doc_id=47 page=26 block_id=26-9 bbox=90.24,404.88,521.6,431.24 label=tbbbbbbt 907 908
+line=907 fonts=F1-12.0,F7-9.6,F8-12.0 bbox=90.24,419.28,521.6,431.24     :SELLS,  PETER.  1991. Complex  predicates and argument structure in korean. Harvard
+line=908 fonts=F1-12.0,F8-12.0 iscore=0.10 bbox=113.4,404.88,265.5,416.84:    Studies in Korean Linguistics 4.
+
+doc_id=47 page=26 block_id=26-10 bbox=90.24,366.0,521.62,392.48 label=tbbbbbbb 909 910
+line=909 fonts=F1-12.0,F7-9.6,F8-12.0 bbox=90.24,380.52,521.62,392.48    :YOO,  EUN  JUNG.  1993. Subcategorization and case marking in korean. OSU Working
+line=910 fonts=F1-12.0,F8-12.0 iscore=0.09 bbox=113.4,366.0,276.74,377.96:    Papers in Linguistics 42.178–198.
+
+doc_id=47 page=26 block_id=26-11 bbox=300.0,39.84,311.98,51.8 label=b 911 911
+line=911 fonts=F1-12.0 bbox=300.0,39.84,311.98,51.8:                                   78

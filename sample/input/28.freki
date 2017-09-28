@@ -1,0 +1,1260 @@
+doc_id=28 page=1 block_id=1-1 bbox=107.97,628.77,359.53,640.77 label=tt 1 1
+line=1 fonts=F1-12.0 bbox=107.97,628.77,359.53,640.77:CHAPTER 1.          INTRODUCTION
+
+doc_id=28 page=1 block_id=1-2 bbox=107.97,550.77,534.23,584.85 label=tbtt 2 3
+line=2 fonts=F0-10.1 bbox=143.97,574.77,531.12,584.85                    :        Sometimes  what is not said may convey as much meaning as what is. For example, if a woman
+line=3 fonts=F0-10.1,F2-10.1 bbox=107.97,550.77,534.23,560.85 iscore=0.30:says she has one brother, we quite readily infer that she has only one brother, though she has not actually
+
+doc_id=28 page=1 block_id=1-3 bbox=107.97,502.77,539.24,536.85 label=tbtbt 4 5
+line=4 fonts=F0-10.1 bbox=107.97,526.77,535.7,536.85             :said this. When a friend cries “Look out!” we conclude that the imperative is, or at least may be, directed
+line=5 fonts=F0-10.1 bbox=107.97,502.77,539.24,512.85 iscore=0.20:at ourselves, though the friend has not specified who should follow his command. When we then turn and
+
+doc_id=28 page=1 block_id=1-4 bbox=107.97,430.77,532.08,488.85 label=tbtbb 6 8
+line=6 fonts=F0-10.1 bbox=107.97,478.77,532.08,488.85                    :see a large truck bearing down on us, we further conclude that this truck is what we are supposed to look
+line=7 fonts=F0-10.1,F2-10.1 bbox=107.97,454.77,518.14,464.85 iscore=0.14:out for though this has been left similarly unspoken. In the extreme case, and using the most general
+line=8 fonts=F0-10.1 bbox=107.97,430.77,452.37,440.85 iscore=0.11        :definition of meaning, even refusing to answer a question conveys some information.
+
+doc_id=28 page=1 block_id=1-5 bbox=107.97,376.77,536.64,410.85 label=tbbtt 9 10
+line=9 fonts=F0-10.1 bbox=143.97,400.77,532.09,410.85             :        All of these phenomena are interesting and important parts of human communication, but some
+line=10 fonts=F0-10.1 bbox=107.97,376.77,536.64,386.85 iscore=0.22:rely on more than just linguistic information. For a linguist attempting to model a grammar or develop a
+
+doc_id=28 page=1 block_id=1-6 bbox=107.97,304.77,539.7,362.85 label=tbbtb 11 13
+line=11 fonts=F0-10.1,F2-10.1 bbox=107.97,352.77,539.7,362.85     :theory of grammar, one of the more interesting types of unspoken or non-overt information is found when
+line=12 fonts=F0-10.1 bbox=107.97,328.77,530.4,338.85 iscore=0.24 :some argument of a sentence or phrase is apparently missing. The grammar must account for these null
+line=13 fonts=F0-10.1 bbox=107.97,304.77,509.76,314.85 iscore=0.12:arguments at some level and explain the difference between when they do and do not occur overtly.
+
+doc_id=28 page=1 block_id=1-7 bbox=107.97,250.76,522.48,284.85 label=tbbbt 14 15
+line=14 fonts=F0-10.1 bbox=143.97,274.77,506.87,284.85            :        This thesis describes certain ‘missing’ arguments in English, explaining how they fit into
+line=15 fonts=F0-10.1 bbox=107.97,250.76,522.48,260.84 iscore=0.18:English grammar  and how they relate to general theories of null arguments, and showing what type of
+
+doc_id=28 page=1 block_id=1-8 bbox=107.97,178.76,519.55,236.84 label=tbbbb 16 18
+line=16 fonts=F0-10.1 bbox=107.97,226.76,519.55,236.84            :meaning  they convey in a discourse context. This information is incorporated into a formal discourse
+line=17 fonts=F0-10.1 bbox=107.97,202.76,518.82,212.84 iscore=0.19:model, with the intention of making these discourse effects of null arguments in English accessible to
+line=18 fonts=F0-10.1 bbox=107.97,178.76,255.57,188.84 iscore=0.12:more applied computational models.
+
+doc_id=28 page=1 block_id=1-9 bbox=320.85,74.85,326.85,86.85 label=b 19 19
+line=19 fonts=F0-12.0 bbox=320.85,74.85,326.85,86.85:                                   1
+
+doc_id=28 page=2 block_id=2-1 bbox=107.97,646.77,517.68,710.85 label=ttt 20 21
+line=20 fonts=F1-10.1 bbox=107.97,700.77,358.08,710.85            :1.1.                WHAT   NULL  ARGUMENTS     ARE
+line=21 fonts=F0-10.1 bbox=143.97,646.77,517.68,656.85 iscore=0.06:       Natural languages have a variety of means for marking the contextual status of an entity. In
+
+doc_id=28 page=2 block_id=2-2 bbox=107.97,574.77,535.4,632.85 label=ttb 22 24
+line=22 fonts=F0-10.1 bbox=107.97,622.77,535.4,632.85             :particular, speakers can formally distinguish various levels of “givenness” or saliency that an entity may
+line=23 fonts=F0-10.1 bbox=107.97,598.77,506.32,608.85 iscore=0.22:hold at a point in a discourse (cf. Prince 1981). A hearer uses these distinctions primarily to place
+line=24 fonts=F0-10.1 bbox=107.97,574.77,418.75,584.85 iscore=0.11:information contained in an utterance into the appropriate discourse context.
+
+doc_id=28 page=2 block_id=2-3 bbox=107.97,520.77,535.13,554.85 label=tbtt 25 26
+line=25 fonts=F0-10.1 bbox=143.97,544.77,525.08,554.85            :        In English, indefinite and definite determiners, personal pronouns, and reflexive anaphors are
+line=26 fonts=F0-10.1 bbox=107.97,520.77,535.13,530.85 iscore=0.25:some  of the tools used by speakers to mark different saliency levels. In examples (1) - (3) below the three
+
+doc_id=28 page=2 block_id=2-4 bbox=107.97,472.77,517.9,506.85 label=tbtbt 27 28
+line=27 fonts=F0-10.1 bbox=107.97,496.77,517.9,506.85             :sentences may all describe the same event; only the marked saliency of the entities represented by the
+line=28 fonts=F0-10.1 bbox=107.97,472.77,243.33,482.85 iscore=0.06:subject and the object is changed.
+
+doc_id=28 page=2 block_id=2-5 bbox=107.97,400.77,378.68,458.85 label=tbtbb 29 31
+line=29 fonts=F0-10.1 bbox=107.97,448.77,362.14,458.85            :(1).                  A  pilot flew a plane through the storm.
+line=30 fonts=F0-10.1 bbox=107.97,424.77,378.68,434.85 iscore=0.22:(2).                  The  pilot flew the plane through the storm.
+line=31 fonts=F0-10.1 bbox=107.97,400.77,321.56,410.85 iscore=0.33:(3).                  He  flew it through the storm.
+
+doc_id=28 page=2 block_id=2-6 bbox=107.97,346.77,528.96,380.85 label=tbbtt 32 33
+line=32 fonts=F0-10.1 bbox=143.97,370.77,528.72,380.85            :         Loosely speaking, the use of indefinite articles on pilot and plane in (1) may indicate that these
+line=33 fonts=F0-10.1 bbox=107.97,346.77,528.96,356.85 iscore=0.05:entities are new to the discourse and perhaps also to the hearer. In (2), the definite article is a linguistic
+
+doc_id=28 page=2 block_id=2-7 bbox=107.97,298.77,532.98,332.85 label=tbbtbt 34 35
+line=34 fonts=F0-10.1 bbox=107.97,322.77,510.0,332.85             :cue that the entities under discussion are identifiable, and not new to the hearer, either having been
+line=35 fonts=F0-10.1 bbox=107.97,298.77,532.98,308.85 iscore=0.12:explicitly introduced into the discourse in some earlier utterance or being inferable in some way from the
+
+doc_id=28 page=2 block_id=2-8 bbox=107.97,250.77,516.89,284.85 label=tbbtbb 36 37
+line=36 fonts=F0-10.1 bbox=107.97,274.77,516.89,284.85                   :context. Finally, replacing the noun phrases referring to the pilot and the plane with pronouns in (3)
+line=37 fonts=F0-10.1,F0-7.9 bbox=107.97,250.77,465.69,261.57 iscore=0.41:indicates that these entities are not only previously identified, but also currently salient.^{1}
+
+doc_id=28 page=2 block_id=2-9 bbox=107.97,172.77,539.23,230.85 label=tbbb 38 40
+line=38 fonts=F0-10.1 bbox=143.97,220.77,535.86,230.85            :        Although  it is hard to imagine a reasonable natural language without tools of this sort, the exact
+line=39 fonts=F0-10.1 bbox=107.97,196.77,539.23,206.85 iscore=0.28:nature of the marked saliency distinctions and the means to represent them may differ to some extent from
+line=40 fonts=F0-10.1 bbox=107.97,172.77,489.52,182.85 iscore=0.28:language to language. Not all languages, for instance, have indefinite or definite determiners.
+
+doc_id=28 page=2 block_id=2-10 bbox=107.97,102.69,523.19,125.49 label=bt 41 42
+line=41 fonts=F0-10.1,F0-7.9 bbox=143.97,114.69,523.19,125.49     :        ^{1}By `salient' I mean that an entity has not just been previously mentioned but is also currently
+line=42 fonts=F0-10.1 bbox=107.97,102.69,359.51,112.77 iscore=0.06:assumed  to be in the hearer's consciousness (Cf. Prince 1981).
+
+doc_id=28 page=2 block_id=2-11 bbox=320.85,74.85,326.85,86.85 label=bb 43 43
+line=43 fonts=F0-12.0 bbox=320.85,74.85,326.85,86.85:                                   2
+
+doc_id=28 page=3 block_id=3-1 bbox=107.97,676.77,539.76,710.85 label=ttt 44 45
+line=44 fonts=F0-10.1 bbox=143.97,700.77,539.76,710.85            :        Japanese is one example of a language with neither type. Optional adverbial number-marking, as
+line=45 fonts=F0-10.1 bbox=107.97,676.77,382.55,686.85 iscore=0.14:shown  in (4), is the closest functional approximation to indefinites.
+
+doc_id=28 page=3 block_id=3-2 bbox=107.97,604.77,386.13,662.85 label=ttb 46 48
+line=46 tag=L span_id=28-1 lang_name=Japanese lang_code=jpn fonts=F0-10.1 bbox=107.97,652.77,291.56,662.85               :(4).                  Ringo  o hitotu tabeta.
+line=47 tag=G span_id=28-1 lang_name=Japanese lang_code=jpn fonts=F2-10.1 iscore=0.25 bbox=203.97,628.77,281.0,638.85    :                      apple-obj one  ate
+line=48 tag=T+AC span_id=28-1 lang_name=Japanese lang_code=jpn fonts=F0-10.1 iscore=0.25 bbox=203.97,604.77,386.13,614.85:                      “I ate an apple (lit.) one-ly” (Kuno 1973:26)
+
+doc_id=28 page=3 block_id=3-3 bbox=107.97,550.77,530.6,584.85 label=tbtt 49 50
+line=49 fonts=F0-10.1 bbox=143.97,574.77,530.6,584.85                    :        The  lack of (in)definite determiners in a language does not entail that speakers of this language
+line=50 fonts=F0-10.1,F0-7.9 bbox=107.97,550.77,521.56,561.57 iscore=0.19:are incapable of conveying (in)definiteness in the semantic sense.2 It simply means that, for whatever
+
+doc_id=28 page=3 block_id=3-4 bbox=107.97,502.77,519.09,536.85 label=tbtbt 51 52
+line=51 fonts=F0-10.1 bbox=107.97,526.77,519.09,536.85            :distinctions they do convey, they use other linguistic devices. In Japanese, for instance, the use of the
+line=52 fonts=F0-10.1 bbox=107.97,502.77,517.13,512.85 iscore=0.24:morphological  marker ‘-wa’, in addition to topic-marking the NP, indicates indirectly that the entity
+
+doc_id=28 page=3 block_id=3-5 bbox=107.97,454.77,491.77,488.85 label=tbtbbt 53 54
+line=53 fonts=F0-10.1 bbox=107.97,478.77,491.77,488.85            :represented by that expression is not brand-new. Alternatively, Japanese speakers can also use
+line=54 fonts=F0-10.1 bbox=107.97,454.77,372.44,464.85 iscore=0.15:demonstratives for this purpose (cf. Kuno 1973), as shown in (5).
+
+doc_id=28 page=3 block_id=3-6 bbox=107.97,382.77,413.48,440.85 label=tbtbbb 55 57
+line=55 tag=L span_id=28-2 lang_name=Japanese lang_code=jpn fonts=F0-10.1 bbox=107.97,430.77,355.66,440.85               :(5).                Ano  hito wa saikin doosite imasu ka?
+line=56 tag=G span_id=28-2 lang_name=Japanese lang_code=jpn fonts=F2-10.1 iscore=0.43 bbox=203.97,406.77,381.1,416.85    :                    that person TOP  recently how  is   Q
+line=57 tag=T+AC span_id=28-2 lang_name=Japanese lang_code=jpn fonts=F0-10.1 iscore=0.25 bbox=203.97,382.77,413.48,392.85:                    “How  is he doing these days? (Kuno 1973:282)
+
+doc_id=28 page=3 block_id=3-7 bbox=107.97,304.77,532.53,362.85 label=tbbt 58 60
+line=58 fonts=F0-10.1 bbox=143.97,352.77,532.53,362.85            :        The absence of some methods  for marking contextual status in a particular language may not be
+line=59 fonts=F0-10.1 bbox=107.97,328.77,531.62,338.85 iscore=0.12:arbitrary. The structure of the language may not meet the necessary conditions for the existence of some
+line=60 fonts=F0-10.1 bbox=107.97,304.77,524.9,314.85 iscore=0.12 :linguistic device, or may heavily constrain the syntactic environments in which some device can occur.
+
+doc_id=28 page=3 block_id=3-8 bbox=107.97,250.77,538.06,284.85 label=tbbbt 61 62
+line=61 fonts=F0-10.1 bbox=143.97,274.77,538.06,284.85            :        For example, many languages, including English, do not allow long-distance anaphors, as shown
+line=62 fonts=F0-10.1 bbox=107.97,250.77,133.17,260.85 iscore=0.00:in (6).
+
+doc_id=28 page=3 block_id=3-9 bbox=107.97,225.33,418.9,236.85 label=tbbbbt 63 63
+line=63 fonts=F0-10.1,F3-6.0 bbox=107.97,225.33,418.9,236.85:(6).                   * Rob3 believes that Diana will be watching himself3.
+
+doc_id=28 page=3 block_id=3-10 bbox=107.97,178.77,528.22,212.85 label=tbbbbb 64 65
+line=64 fonts=F0-10.1 bbox=107.97,202.77,528.22,212.85            :The binding conditions on anaphors in English force this exclusion, even though the construction could
+line=65 fonts=F0-10.1 bbox=107.97,178.77,391.63,188.85 iscore=0.07:otherwise serve to disambiguate contexts such as the one in (7) below.
+
+doc_id=28 page=3 block_id=3-11 bbox=107.97,102.69,522.4,149.49 label=bt 66 69
+line=66 fonts=F0-10.1,F0-7.9 bbox=143.97,138.69,515.23,149.49     :         ^{2}In order to avoid the confusion that can arise from the ambiguous use of these terms, I will
+line=67 fonts=F0-10.1 bbox=107.97,126.69,522.4,136.77 iscore=0.06 :henceforth use (in)definite only to describe forms of expressions. `Brand-new', `hearer-old/discourse-
+line=68 fonts=F0-10.1 bbox=107.97,114.69,522.23,124.77 iscore=0.17:new', and `discourse-old', as defined in Prince 1981, will be used to describe the contextual status of a
+line=69 fonts=F0-10.1 bbox=107.97,102.69,193.41,112.77 iscore=0.06:expression's referent.
+
+doc_id=28 page=3 block_id=3-12 bbox=320.85,74.85,326.85,86.85 label=bb 70 70
+line=70 fonts=F0-12.0 bbox=320.85,74.85,326.85,86.85:                                   3
+
+doc_id=28 page=4 block_id=4-1 bbox=107.97,676.77,211.55,710.85 label=ttl 71 72
+line=71 fonts=F0-10.1 bbox=107.97,700.77,210.99,710.85            :(7).                       a.
+line=72 fonts=F0-10.1 bbox=203.97,676.77,211.55,686.85 iscore=1.00:                           b.
+
+doc_id=28 page=4 block_id=4-2 bbox=233.83,699.33,495.32,710.85 label=ttrt 73 73
+line=73 fonts=F0-10.1,F3-6.0 bbox=233.83,699.33,495.32,710.85:                             Does  John4 think Diana will see the surprise party guests arrive?
+
+doc_id=28 page=4 block_id=4-3 bbox=234.01,675.33,332.61,686.85 label=ttrbt 74 74
+line=74 fonts=F0-10.1,F3-6.0 bbox=234.01,675.33,332.61,686.85:                              He4 doesn't know, but ...
+
+doc_id=28 page=4 block_id=4-4 bbox=233.97,650.37,477.72,662.85 label=ttrbb 75 75
+line=75 fonts=F0-10.1,F3-6.0,F3-7.0,F4-4.3 bbox=233.97,650.37,477.72,662.85:                              Rob3  believes that Diana will be looking at him3/4 /*himself3.
+
+doc_id=28 page=4 block_id=4-5 bbox=107.97,598.77,530.87,632.85 label=tbt 76 77
+line=76 fonts=F0-10.1 bbox=143.97,622.77,530.87,632.85            :        The  point of this discussion is that null arguments, such as pro-drop and null objects, constitute
+line=77 fonts=F0-10.1 bbox=107.97,598.77,520.55,608.85 iscore=0.25:another type of referential expression which may have a specifiable pragmatic/discourse function, and
+
+doc_id=28 page=4 block_id=4-6 bbox=107.97,550.77,527.47,584.85 label=tbbt 78 79
+line=78 fonts=F0-10.1 bbox=107.97,574.77,527.47,584.85            :which has been argued to occur only in languages meeting certain strict structural conditions. Whether
+line=79 fonts=F0-10.1 bbox=107.97,550.77,414.69,560.85 iscore=0.13:and to what extent they occur in English is still something of an open issue.
+
+doc_id=28 page=4 block_id=4-7 bbox=107.97,502.77,528.4,536.85 label=tbbbt 80 81
+line=80 fonts=F0-10.1,F2-10.1 bbox=107.97,526.77,499.13,536.85   :A clarification should be made here. The term Null argument is frequently used without a rigid
+line=81 fonts=F0-10.1 bbox=107.97,502.77,528.4,512.85 iscore=0.18:definition, referring to one phenomenon here and another there. For my purposes, I would like to make
+
+doc_id=28 page=4 block_id=4-8 bbox=107.97,454.77,529.55,488.85 label=tbbbbt 82 83
+line=82 fonts=F0-10.1,F2-10.1 bbox=107.97,478.77,529.55,488.85    :use of this range of meanings in the following way -- henceforth a null argument is any argument in an
+line=83 fonts=F0-10.1 bbox=107.97,454.77,521.21,464.85 iscore=0.30:utterance which does not have an overt phonological (or written) representation. In other words, I am
+
+doc_id=28 page=4 block_id=4-9 bbox=107.97,358.77,534.02,440.85 label=tbbbbb 84 86
+line=84 fonts=F0-10.1 bbox=107.97,430.77,534.02,440.85                   :starting with the broadest possible class of ‘missing’ subjects and objects, though various subtypes of null
+line=85 fonts=F0-10.1,F0-7.9 bbox=107.97,406.77,284.25,417.57 iscore=0.12:arguments may  differ in form or function. ^{3}
+line=86 fonts=F1-10.1 bbox=107.97,358.77,319.42,368.85 iscore=0.12       :1.1.1.                Null Arguments   In English
+
+doc_id=28 page=4 block_id=4-10 bbox=107.97,256.77,503.73,314.85 label=btt 87 89
+line=87 fonts=F0-10.1 bbox=143.97,304.77,503.73,314.85                    :        Relatively little attention has been given to English null arguments. The reason for their
+line=88 fonts=F0-10.1,F2-10.1 bbox=107.97,280.77,498.17,290.85 iscore=0.00:exclusion is primarily that they are not members of the types of null arguments most commonly
+line=89 fonts=F0-10.1 bbox=107.97,256.77,154.05,266.85 iscore=0.06        :considered.
+
+doc_id=28 page=4 block_id=4-11 bbox=107.97,202.77,533.7,236.85 label=btb 90 91
+line=90 fonts=F0-10.1 bbox=143.97,226.77,533.7,236.85             :        The  popular view is that some languages freely allow null arguments, while other languages fall
+line=91 fonts=F0-10.1 bbox=107.97,202.77,517.88,212.85 iscore=0.38:into a small number of categories with limited null arguments, and still others allow none. Japanese,
+
+doc_id=28 page=4 block_id=4-12 bbox=107.97,114.69,539.72,173.49 label=bbt 92 96
+line=92 fonts=F0-10.1,F0-7.9,F2-10.1 bbox=143.97,162.69,531.12,173.49:        ^{3}Note, however, that this definition does not include theory-specific elements like traces where
+line=93 fonts=F0-10.1 bbox=107.97,150.69,523.21,160.77 iscore=0.19   :an argument that is not overtly represented in its canonical sentence position but is overtly represented
+line=94 fonts=F0-10.1 bbox=107.97,138.69,539.72,148.77 iscore=0.16   :elsewhere in the sentence is argued to leave a phonologically null marker at another node (or nodes) in the
+line=95 fonts=F0-10.1 bbox=107.97,126.69,527.22,136.77 iscore=0.16   :sentence structure. Although the relationship between null arguments and these types of elements is an
+line=96 fonts=F0-10.1 bbox=107.97,114.69,370.56,124.77 iscore=0.07   :interesting study, it is orthogonal to this work (cf. Chung 1989).
+
+doc_id=28 page=4 block_id=4-13 bbox=320.85,74.85,326.85,86.85 label=bbb 97 97
+line=97 fonts=F0-12.0 bbox=320.85,74.85,326.85,86.85:                                   4
+
+doc_id=28 page=5 block_id=5-1 bbox=107.97,652.77,538.28,710.85 label=tt 98 100
+line=98 fonts=F0-10.1 bbox=107.97,700.77,515.21,710.85             :Warlpiri and Russian, for example, are considered to be very free with their null arguments. Italian,
+line=99 fonts=F0-10.1 bbox=107.97,676.77,538.28,686.85 iscore=0.25 :Spanish, and even German are supposedly somewhere  in the middle, while English and French are placed
+line=100 fonts=F0-10.1 bbox=107.97,652.77,364.32,662.85 iscore=0.12:at the other extreme with, supposedly, no null arguments at all.
+
+doc_id=28 page=5 block_id=5-2 bbox=107.97,574.77,535.36,632.85 label=tbt 101 103
+line=101 fonts=F0-10.1 bbox=143.97,622.77,535.36,632.85            :        Under  this view, there are implicit limitations on what constitutes a null argument. Specifically,
+line=102 fonts=F0-10.1 bbox=107.97,598.77,503.98,608.85 iscore=0.18:an argument must  be able to be non-overt in formal (even written) registers of the language under
+line=103 fonts=F0-10.1 bbox=107.97,574.77,457.18,584.85 iscore=0.12:consideration, and the non-overtness of the argument must not be lexically dependent.
+
+doc_id=28 page=5 block_id=5-3 bbox=107.97,520.77,518.57,554.85 label=tbbtt 104 105
+line=104 fonts=F0-10.1 bbox=143.97,544.77,518.57,554.85                  :        Most  null arguments in English fail to meet one or the other of these implicit conditions and
+line=105 fonts=F0-10.1,F0-7.9 bbox=107.97,520.77,507.4,531.57 iscore=0.24:have therefore been excluded.4 For instance, example (8), which has a missing subject (i.e., it), is
+
+doc_id=28 page=5 block_id=5-4 bbox=107.97,472.77,534.48,506.85 label=tbbtbt 106 107
+line=106 fonts=F0-10.1 bbox=107.97,496.77,534.48,506.85            :acceptable in conversational English but not in most written contexts, and example (9) demonstrates how
+line=107 fonts=F0-10.1 bbox=107.97,472.77,525.29,482.85 iscore=0.06:two otherwise similar verbs in English may contrast with respect to the grammaticality of a null object.
+
+doc_id=28 page=5 block_id=5-5 bbox=107.97,424.77,396.95,458.85 label=tbbtbbt 108 109
+line=108 fonts=F0-10.1 bbox=107.97,448.77,396.95,458.85            :(A more complete overview of the English data is given in section 1.3.)
+line=109 fonts=F0-10.1 bbox=107.97,424.77,278.14,434.85 iscore=0.08:(8).                  Works every time.
+
+doc_id=28 page=5 block_id=5-6 bbox=107.97,376.77,211.57,410.85 label=tbbtbbbl 110 111
+line=110 fonts=F0-10.1 bbox=107.97,400.77,211.09,410.85            :(9).                       a.
+line=111 fonts=F0-10.1 bbox=203.97,376.77,211.57,386.85 iscore=1.00:                           b.
+
+doc_id=28 page=5 block_id=5-7 bbox=233.93,376.77,439.86,410.85 label=tbbtbbbr 112 113
+line=112 fonts=F0-10.1 bbox=233.93,400.77,406.03,410.85            :                             Henry  finally ate 0/his dinner at midnight.
+line=113 fonts=F0-10.1 bbox=234.04,376.77,439.86,386.85 iscore=0.43:                             Henry  finally consumed *0/his dinner at midnight.
+
+doc_id=28 page=5 block_id=5-8 bbox=107.97,322.77,533.99,356.85 label=tbbbt 114 115
+line=114 fonts=F0-10.1 bbox=143.97,346.77,533.99,356.85            :        Despite these constraints, English null arguments have a lot in common with their better-known
+line=115 fonts=F0-10.1 bbox=107.97,322.77,527.02,332.85 iscore=0.20:cousins and I will attempt to point out the similarities as well as the differences. As will be shown, the
+
+doc_id=28 page=5 block_id=5-9 bbox=107.97,274.77,529.2,308.85 label=tbbbbt 116 117
+line=116 fonts=F0-10.1 bbox=107.97,298.77,521.73,308.85           :similarities do not lie entirely in the realm of sentential syntax. Null arguments across language types
+line=117 fonts=F0-10.1 bbox=107.97,274.77,529.2,284.85 iscore=0.18:may  be similar in a sense that is not apparent until we look beyond the level of the sentence. In order to
+
+doc_id=28 page=5 block_id=5-10 bbox=107.97,226.77,534.7,260.85 label=tbbbbb 118 119
+line=118 fonts=F0-10.1 bbox=107.97,250.77,534.7,260.85             :argue for this similarity I must first demonstrate that it is possible to talk about language in a non-written
+line=119 fonts=F0-10.1 bbox=107.97,226.77,283.88,236.85 iscore=0.05:context, and about intersentential structure.
+
+doc_id=28 page=5 block_id=5-11 bbox=143.97,114.69,423.83,125.49 label=bt 120 120
+line=120 fonts=F0-10.1,F0-7.9 bbox=143.97,114.69,423.83,125.49:        ^{4}Imperatives are an exception and they will be considered separately.
+
+doc_id=28 page=5 block_id=5-12 bbox=320.85,74.85,326.85,86.85 label=bb 121 121
+line=121 fonts=F0-12.0 bbox=320.85,74.85,326.85,86.85:                                   5
+
+doc_id=28 page=6 block_id=6-1 bbox=107.97,646.77,511.91,710.85 label=ttt 122 123
+line=122 fonts=F1-10.1 bbox=107.97,700.77,434.89,710.85            :1.1.2.               Null Arguments  and Language  Beyond  Sentence-level
+line=123 fonts=F0-10.1 bbox=143.97,646.77,511.91,656.85 iscore=0.07:        The definition of language that we linguists assume crucially affects what we study. These
+
+doc_id=28 page=6 block_id=6-2 bbox=107.97,574.77,519.78,632.85 label=ttb 124 126
+line=124 fonts=F0-10.1 bbox=107.97,622.77,519.78,632.85            :boundaries that we place on the domain of language are useful. They provide the necessary exactness
+line=125 fonts=F0-10.1 bbox=107.97,598.77,489.82,608.85 iscore=0.19:needed for grammar-building. They may also, however, cause us to overlook some interesting
+line=126 fonts=F0-10.1 bbox=107.97,574.77,157.41,584.85 iscore=0.08:phenomena.
+
+doc_id=28 page=6 block_id=6-3 bbox=107.97,520.77,536.36,554.85 label=tbttt 127 128
+line=127 fonts=F0-10.1 bbox=143.97,544.77,536.36,554.85           :        For the last 30 years or more, the common assumption has been that language is divided (at least
+line=128 fonts=F0-10.1 bbox=107.97,520.77,513.8,530.85 iscore=0.06:for the purposes of study and modeling) into a set of independent modules, most importantly syntax,
+
+doc_id=28 page=6 block_id=6-4 bbox=107.97,496.77,535.67,507.57 label=tbttb 129 129
+line=129 fonts=F0-10.1,F0-7.9 bbox=107.97,496.77,535.67,507.57:semantics, and phonology.5  This assumption has led to a great deal of productive research and is still an
+
+doc_id=28 page=6 block_id=6-5 bbox=107.97,448.77,539.28,482.85 label=tbtbt 130 131
+line=130 fonts=F0-10.1 bbox=107.97,472.77,539.28,482.85            :important component of many theories of grammar. There is, however, another assumption that has been
+line=131 fonts=F0-10.1 bbox=107.97,448.77,517.16,458.85 iscore=0.17:strongly tied to the assumption of modularity -- namely that these modules operate on the level of the
+
+doc_id=28 page=6 block_id=6-6 bbox=107.97,400.77,522.24,434.85 label=tbtbbt 132 133
+line=132 fonts=F0-10.1 bbox=107.97,424.77,515.74,434.85            :sentence and only on that level. A model of language competence was said to be complete if it could
+line=133 fonts=F0-10.1 bbox=107.97,400.77,522.24,410.85 iscore=0.21:accept all and only the sentences of a language. The facts of language in context were relegated to the
+
+doc_id=28 page=6 block_id=6-7 bbox=107.97,352.77,503.49,386.85 label=tbtbbb 134 135
+line=134 fonts=F0-10.1 bbox=107.97,376.77,503.49,386.85            :nebulous realm of “language use” or “production”, along with memory limitations, mental errors,
+line=135 fonts=F0-10.1 bbox=107.97,352.77,244.51,362.85 iscore=0.08:rhetorical practices, and so forth.
+
+doc_id=28 page=6 block_id=6-8 bbox=107.97,298.77,531.29,332.85 label=tbbtt 136 137
+line=136 fonts=F0-10.1 bbox=143.97,322.77,516.41,332.85            :        Perhaps the motivation for this assumption was that it provided a relatively clear-cut area of
+line=137 fonts=F0-10.1 bbox=107.97,298.77,531.29,308.85 iscore=0.00:study; the dividing lines between competence and use, and between language and general knowledge are
+
+doc_id=28 page=6 block_id=6-9 bbox=107.97,250.77,536.37,284.85 label=tbbtb 138 139
+line=138 fonts=F0-10.1 bbox=107.97,274.77,536.37,284.85            :more problematic if we do not accept the sentence boundary. Nonetheless, it is not obvious that sentences
+line=139 fonts=F0-10.1 bbox=107.97,250.77,401.48,260.85 iscore=0.24:are the best units to use, even for the purpose of establishing boundaries.
+
+doc_id=28 page=6 block_id=6-10 bbox=107.97,196.77,534.48,230.85 label=tbbbt 140 141
+line=140 fonts=F0-10.1 bbox=143.97,220.77,534.48,230.85            :        In fact, the sentence is arguably an artifact of written language rather than a universal primitive.
+line=141 fonts=F0-10.1 bbox=107.97,196.77,531.54,206.85 iscore=0.31:Certainly, a native speaker does not always speak in complete sentences, nor does she instinctively know
+
+doc_id=28 page=6 block_id=6-11 bbox=107.97,148.76,526.78,182.85 label=tbbbb 142 143
+line=142 fonts=F0-10.1 bbox=107.97,172.77,526.78,182.85            :that what is acceptable in spoken language is not necessarily acceptable in written language. It is even
+line=143 fonts=F0-10.1 bbox=107.97,148.76,515.71,158.84 iscore=0.12:possible to compose sentences that obey writing constraints but do not obey the constraints of spoken
+
+doc_id=28 page=6 block_id=6-12 bbox=143.97,102.69,455.71,113.49 label=bt 144 144
+line=144 fonts=F0-10.1,F0-7.9 bbox=143.97,102.69,455.71,113.49:        ^{5}Whether or not morphology is a separate module has been subject to debate.
+
+doc_id=28 page=6 block_id=6-13 bbox=320.85,74.85,326.85,86.85 label=bb 145 145
+line=145 fonts=F0-12.0 bbox=320.85,74.85,326.85,86.85:                                   6
+
+doc_id=28 page=7 block_id=7-1 bbox=107.97,652.77,532.29,710.85 label=tt 146 148
+line=146 fonts=F0-10.1 bbox=107.97,700.77,524.1,710.85             :language, as in (10) below. Therefore, despite its usefulness at one level, understanding the concept of
+line=147 fonts=F0-10.1 bbox=107.97,676.77,532.29,686.85 iscore=0.12:‘sentence’ in a language is not clearly equatable to having native linguistic competence in that language.
+line=148 fonts=F0-10.1 bbox=107.97,652.77,509.01,662.85 iscore=0.19:(10).                 The  managing of an office by Peter is liked by John. (from Chafe 1992:18)
+
+doc_id=28 page=7 block_id=7-2 bbox=107.97,598.77,538.25,632.85 label=tbtt 149 150
+line=149 fonts=F0-10.1 bbox=143.97,622.77,538.25,632.85            :        The tendency to define language based on sentences has led to a parallel tendency to look at what
+line=150 fonts=F0-10.1 bbox=107.97,598.77,523.42,608.85 iscore=0.11:is acceptable in written language, the domain in which sentential units are most clear. However, since
+
+doc_id=28 page=7 block_id=7-3 bbox=107.97,550.77,535.18,584.85 label=tbtbt 151 152
+line=151 fonts=F0-10.1 bbox=107.97,574.77,535.18,584.85            :spoken  language has been traditionally and is still currently thought of as the core of linguistic ability (cf.
+line=152 fonts=F0-10.1 bbox=107.97,550.77,488.88,560.85 iscore=0.22:Aronoff  (1994) for a recent discussion)), while written language is derivative, it is ultimately
+
+doc_id=28 page=7 block_id=7-4 bbox=107.97,502.77,538.17,536.85 label=tbtbbt 153 154
+line=153 fonts=F0-10.1 bbox=107.97,526.77,537.35,536.85                   :inappropriate to exclude constructions which occur primarily in conversational language. When there are
+line=154 fonts=F0-10.1,F0-7.9 bbox=107.97,502.77,538.17,513.57 iscore=0.07:differences between written and spoken language these must eventually be accounted for in the grammar.^{6}
+
+doc_id=28 page=7 block_id=7-5 bbox=107.97,430.77,538.29,488.85 label=tbtbbb 155 157
+line=155 fonts=F0-10.1 bbox=107.97,478.77,537.81,488.85            :This task, broadly defined, may be somewhat more difficult than the already impressive goal of describing
+line=156 fonts=F0-10.1 bbox=107.97,454.77,538.29,464.85 iscore=0.18:all that occurs in the domain of written language, yet we can look at individual conversational phenomena
+line=157 fonts=F0-10.1 bbox=107.97,430.77,311.22,440.85 iscore=0.24:such as null subjects in English with relative ease.
+
+doc_id=28 page=7 block_id=7-6 bbox=107.97,376.77,528.25,410.85 label=tbbtt 158 159
+line=158 fonts=F0-10.1 bbox=143.97,400.77,520.08,410.85            :        There is precedence for this approach. Most research has at this point gone beyond the basic
+line=159 fonts=F0-10.1 bbox=107.97,376.77,528.25,386.85 iscore=0.12:‘language-as-sentence’ definition. As will be discussed in Chapter 2, it now seems clear that grammars
+
+doc_id=28 page=7 block_id=7-7 bbox=107.97,328.77,522.4,362.85 label=tbbtbt 160 161
+line=160 fonts=F0-10.1 bbox=107.97,352.77,510.72,362.85           :that hope to represent conversational data must accept minimal units smaller than sentences. More
+line=161 fonts=F0-10.1 bbox=107.97,328.77,522.4,338.85 iscore=0.25:saliently, certain constructions that had been rejected as ungrammatical since they tend not to occur in
+
+doc_id=28 page=7 block_id=7-8 bbox=107.97,280.77,532.79,314.85 label=tbbtbbt 162 163
+line=162 fonts=F0-10.1 bbox=107.97,304.77,519.55,314.85            :formal language, have been re-assessed as grammatical components of English. For example, Kroch
+line=163 fonts=F0-10.1 bbox=107.97,280.77,532.79,290.85 iscore=0.20:(1981) has demonstrated, relying largely on data from spoken language, that resumptive pronouns play a
+
+doc_id=28 page=7 block_id=7-9 bbox=107.97,232.77,534.96,266.85 label=tbbtbbb 164 165
+line=164 fonts=F0-10.1 bbox=107.97,256.77,534.96,266.85            :legitimate role in English -- in both spoken and written language, and Prince (1984) has shown that left-
+line=165 fonts=F0-10.1 bbox=107.97,232.77,466.26,242.85 iscore=0.17:dislocation is a common and pragmatically well-defined construction in spoken English.
+
+doc_id=28 page=7 block_id=7-10 bbox=107.97,178.77,536.42,212.85 label=tbbb 166 167
+line=166 fonts=F0-10.1 bbox=143.97,202.77,532.78,212.85            :        Once  we move  beyond the idea that a language is a set of sentences, we are also able to consider
+line=167 fonts=F0-10.1 bbox=107.97,178.77,536.42,188.85 iscore=0.15:the possibility that our linguistic competence includes an awareness of units larger than a single sentence.
+
+doc_id=28 page=7 block_id=7-11 bbox=107.97,114.69,527.49,137.49 label=bt 168 169
+line=168 fonts=F0-10.1,F0-7.9 bbox=143.97,126.69,527.49,137.49     :        ^{6}The exception to this is when non-linguistic cognitive factors such as memory constraints can
+line=169 fonts=F0-10.1 bbox=107.97,114.69,214.06,124.77 iscore=0.07:account for the difference.
+
+doc_id=28 page=7 block_id=7-12 bbox=320.85,74.85,326.85,86.85 label=bb 170 170
+line=170 fonts=F0-12.0 bbox=320.85,74.85,326.85,86.85:                                   7
+
+doc_id=28 page=8 block_id=8-1 bbox=107.97,676.77,520.81,710.85 label=ttt 171 172
+line=171 fonts=F0-10.1 bbox=107.97,700.77,514.57,710.85            :Prince (1988) describes some criteria for including discourse phenomena in the study of language. I
+line=172 fonts=F0-10.1 bbox=107.97,676.77,520.81,686.85 iscore=0.11:discuss and expand this idea further in Chapter 5 of this thesis. But again, there is already theoretical
+
+doc_id=28 page=8 block_id=8-2 bbox=107.97,628.77,527.68,662.85 label=ttb 173 174
+line=173 fonts=F0-10.1 bbox=107.97,652.77,527.68,662.85            :work that relies on this perspective. As an example, research by Heim (1982) and Kamp (1981) on the
+line=174 fonts=F0-10.1 bbox=107.97,628.77,466.27,638.85 iscore=0.39:semantic scope of indefinites relies on the possibility of a domain larger than a sentence.
+
+doc_id=28 page=8 block_id=8-3 bbox=107.97,574.77,516.65,608.85 label=tbt 175 176
+line=175 fonts=F0-10.1 bbox=143.97,598.77,516.65,608.85            :         The potential benefits of considering the larger class of null arguments across languages are
+line=176 fonts=F0-10.1 bbox=107.97,574.77,514.51,584.85 iscore=0.19:clear. A non-exhaustive  list includes: helping us to clarify the notion of ‘zero pronoun’ in so-called
+
+doc_id=28 page=8 block_id=8-4 bbox=107.97,526.77,527.49,560.85 label=tbbt 177 178
+line=177 fonts=F0-10.1 bbox=107.97,550.77,505.13,560.85                    :‘discourse-oriented’ languages (described in Section 1.2.2 below), providing a broader picture for
+line=178 fonts=F0-10.1,F2-10.1 bbox=107.97,526.77,527.49,536.85 iscore=0.21:distinguishing (or collapsing) the theories of pro and PRO, bringing other apparently idiosyncratic pro-
+
+doc_id=28 page=8 block_id=8-5 bbox=107.97,430.77,523.17,512.85 label=tbbb 179 181
+line=179 fonts=F0-10.1 bbox=107.97,502.77,523.17,512.85                   :drop languages (such as Yiddish) into a unified account of pro-drop, and showing how some apparent
+line=180 fonts=F0-10.1,F0-7.9 bbox=107.97,478.77,382.65,489.57 iscore=0.12:pragmatic inferences may be represented in grammatical structure.^{7}
+line=181 fonts=F1-10.1 bbox=107.97,430.77,229.17,440.85 iscore=0.12       :1.1.3.                Issues
+
+doc_id=28 page=8 block_id=8-6 bbox=107.97,352.77,531.32,386.85 label=bttt 182 183
+line=182 fonts=F0-10.1 bbox=143.97,376.77,529.44,386.85            :        The  broad definition of null arguments stated earlier leaves open four major issues. First, what
+line=183 fonts=F0-10.1 bbox=107.97,352.77,531.32,362.85 iscore=0.06:methods  can be used to determine the presence of an argument in the absence of an overt representation;
+
+doc_id=28 page=8 block_id=8-7 bbox=107.97,280.77,539.3,338.85 label=bttb 184 186
+line=184 fonts=F0-10.1 bbox=107.97,328.77,539.3,338.85             :second, at what level(s) of the grammar are the various types of null arguments represented; third, what, if
+line=185 fonts=F0-10.1 bbox=107.97,304.77,530.87,314.85 iscore=0.06:any, particular grammatical conditions do null arguments require; and fourth, what special pragmatic or
+line=186 fonts=F0-10.1 bbox=107.97,280.77,286.27,290.85 iscore=0.07:discourse functions do null arguments have.
+
+doc_id=28 page=8 block_id=8-8 bbox=107.97,226.77,535.43,260.85 label=btbt 187 188
+line=187 fonts=F0-10.1 bbox=143.97,250.77,535.43,260.85            :        These issues have been addressed to one degree or another for various types of null arguments in
+line=188 fonts=F0-10.1 bbox=107.97,226.77,532.06,236.85 iscore=0.06:languages other than English. In the remainder of this introductory chapter I discuss work that has been
+
+doc_id=28 page=8 block_id=8-9 bbox=107.97,154.77,536.86,212.85 label=btbb 189 191
+line=189 fonts=F0-10.1 bbox=107.97,202.77,536.86,212.85            :done on null arguments cross-linguistically, addressing the extent to which generalizations have been and
+line=190 fonts=F0-10.1 bbox=107.97,178.77,529.36,188.85 iscore=0.16:can be made, give a general overview of the types of null arguments found in English, and describe how
+line=191 fonts=F0-10.1 bbox=107.97,154.77,203.26,164.85 iscore=0.11:this thesis is organized.
+
+doc_id=28 page=8 block_id=8-10 bbox=143.97,102.69,410.6,113.49 label=bbt 192 192
+line=192 fonts=F0-10.1,F0-7.9 bbox=143.97,102.69,410.6,113.49:         7 Some of these ideas will be addressed further later in this thesis.
+
+doc_id=28 page=8 block_id=8-11 bbox=320.85,74.85,326.85,86.85 label=bbb 193 193
+line=193 fonts=F0-12.0 bbox=320.85,74.85,326.85,86.85:                                   8
+
+doc_id=28 page=9 block_id=9-1 bbox=107.97,676.77,478.06,710.85 label=t 194 195
+line=194 fonts=F1-10.1 bbox=107.97,700.77,478.06,710.85            :1.2.           A REVIEW OF CROSS-LINGUISTIC RESEARCH ON NULL
+line=195 fonts=F1-10.1 bbox=203.97,676.77,269.25,686.85 iscore=0.14:               ARGUMENTS
+
+doc_id=28 page=9 block_id=9-2 bbox=107.97,598.77,536.63,632.85 label=btt 196 197
+line=196 fonts=F0-10.1 bbox=143.97,622.77,533.05,632.85            :        In this section, I discuss the various types of null arguments that have been studied in languages
+line=197 fonts=F0-10.1 bbox=107.97,598.77,536.63,608.85 iscore=0.18:other than English, detailing the theories that have been proposed to account for these phenomena. Each
+
+doc_id=28 page=9 block_id=9-3 bbox=107.97,502.77,504.65,584.85 label=btb 198 200
+line=198 fonts=F0-10.1 bbox=107.97,574.77,504.65,584.85            :of these theories has both strengths and weaknesses. I attempt to point these out, and I suggest an
+line=199 fonts=F0-10.1 bbox=107.97,550.77,339.09,560.85 iscore=0.11:alternative perspective on cross-linguistic generalization.
+line=200 fonts=F1-10.1 bbox=107.97,502.77,243.09,512.85 iscore=0.20:1.2.1.                 Pro-drop
+
+doc_id=28 page=9 block_id=9-4 bbox=107.97,424.77,536.32,458.85 label=bbttt 201 202
+line=201 fonts=F0-10.1 bbox=143.97,448.77,536.32,458.85                    :        Pro-drop is a term from the syntax literature used to refer to a missing subject which is treated as
+line=202 fonts=F0-10.1,F2-10.1 bbox=107.97,424.77,520.75,434.85 iscore=0.26:an pronominal empty  category, pro, in the subject position of a tensed clause and which is licensed by
+
+doc_id=28 page=9 block_id=9-5 bbox=107.97,376.77,536.32,410.85 label=bbttbt 203 204
+line=203 fonts=F0-10.1 bbox=107.97,400.77,536.32,410.85            :particular syntactic or morphological properties of certain languages. It is also considered by some to be
+line=204 fonts=F0-10.1 bbox=107.97,376.77,533.29,386.85 iscore=0.25:a parameter of universal grammar, patterning with subject-inversion and lack of that-trace effects. Some
+
+doc_id=28 page=9 block_id=9-6 bbox=107.97,328.77,538.76,362.85 label=bbttbbt 205 206
+line=205 fonts=F0-10.1 bbox=107.97,352.77,527.77,362.85            :more or less clear examples of pro-drop languages include Spanish, Italian, Catalan, and Hebrew. The
+line=206 fonts=F0-10.1 bbox=107.97,328.77,538.76,338.85 iscore=0.15:null subjects in these languages are claimed to be of the same type, all licensed by syntax and all somehow
+
+doc_id=28 page=9 block_id=9-7 bbox=107.97,280.77,538.48,314.85 label=bbttbbbt 207 208
+line=207 fonts=F0-10.1 bbox=107.97,304.77,538.48,314.85            :marking the person and number of the missing subject. For example, in the Spanish sentence in (11), the
+line=208 fonts=F0-10.1 bbox=107.97,280.77,387.84,290.85 iscore=0.22:missing subject in each case is recoverable from the form of the verb.
+
+doc_id=28 page=9 block_id=9-8 bbox=107.97,208.76,427.17,266.85 label=bbttbbbb 209 211
+line=209 tag=L span_id=28-3 lang_name=Spanish lang_code=spa fonts=F0-10.1 bbox=107.97,256.77,357.33,266.85            :(11).               Compran/compramos  unos recuerdos.
+line=210 tag=G span_id=28-3 lang_name=Spanish lang_code=spa fonts=F2-10.1 iscore=0.00 bbox=206.74,232.76,427.17,242.84:                     buy-PRES-3plur/buy-PRES-1plur  some  souvenirs
+line=211 tag=T span_id=28-3 lang_name=Spanish lang_code=spa fonts=F0-10.1 iscore=0.00 bbox=203.97,208.76,343.16,218.84:                    “(They/we) are buying souvenirs.”
+
+doc_id=28 page=9 block_id=9-9 bbox=107.97,130.76,517.89,188.84 label=bbtb 212 214
+line=212 fonts=F0-10.1 bbox=143.97,178.76,504.17,188.84            :        The use of pro-drop in these languages is most often described as equivalent to the use of
+line=213 fonts=F0-10.1 bbox=107.97,154.76,517.89,164.84 iscore=0.18:unstressed pronouns in languages like English. In other words, pro-drop is the most common type of
+line=214 fonts=F0-10.1 bbox=107.97,130.76,426.7,140.84 iscore=0.12 :‘pronominal’ subject in these languages (cf. Vallduví 1987, Di Eugenio 1990).
+
+doc_id=28 page=9 block_id=9-10 bbox=320.85,74.85,326.85,86.85 label=bbb 215 215
+line=215 fonts=F0-12.0 bbox=320.85,74.85,326.85,86.85:                                   9
+
+doc_id=28 page=10 block_id=10-1 bbox=107.97,676.77,528.88,710.85 label=ttt 216 217
+line=216 fonts=F0-10.1 bbox=143.97,700.77,528.88,710.85           :        There  have been several proposals about the exact nature of the syntactic licensing of pro-drop.
+line=217 fonts=F0-10.1 bbox=107.97,676.77,501.6,686.85 iscore=0.06:The first of these is that, though subject case must always be assigned, in languages with ‘strong’
+
+doc_id=28 page=10 block_id=10-2 bbox=107.97,628.77,528.66,662.85 label=ttbt 218 219
+line=218 fonts=F0-10.1 bbox=107.97,652.77,518.61,662.85            :inflection, the subject case may be absorbed by the inflective morphology, eliminating the need for an
+line=219 fonts=F0-10.1 bbox=107.97,628.77,528.66,638.85 iscore=0.17:overt subject. In languages with weak inflection, the case can only be assigned to an overt subject. One
+
+doc_id=28 page=10 block_id=10-3 bbox=107.97,580.77,507.12,614.85 label=ttbb 220 221
+line=220 fonts=F0-10.1 bbox=107.97,604.77,507.12,614.85            :version of this proposal also accounts for certain ‘discourse-oriented’ languages (discussed below)
+line=221 fonts=F0-10.1 bbox=107.97,580.77,455.28,590.85 iscore=0.06:which do not have inflection by suggesting that they do not have IPs (cf. Speas 1994).
+
+doc_id=28 page=10 block_id=10-4 bbox=107.97,526.77,529.62,560.85 label=tbtt 222 223
+line=222 fonts=F0-10.1 bbox=143.97,550.77,529.62,560.85            :         Another proposal is that in certain languages the strong inflection is, in fact the subject, and an
+line=223 fonts=F0-10.1 bbox=107.97,526.77,512.41,536.85 iscore=0.12:overt ‘subject’ is actually in an adjunct position (cf. Jelinek 1984). This argument has been used to
+
+doc_id=28 page=10 block_id=10-5 bbox=107.97,478.77,526.55,512.85 label=tbtbt 224 225
+line=224 fonts=F0-10.1 bbox=107.97,502.77,526.55,512.85            :explain examples like (12) in Spanish, where the inflectional features on the overt subject do not match
+line=225 fonts=F0-10.1 bbox=107.97,478.77,179.72,488.85 iscore=0.12:those on the verb.
+
+doc_id=28 page=10 block_id=10-6 bbox=107.97,406.76,407.72,464.85 label=tbtbb 226 228
+line=226 tag=L+AC span_id=28-4 lang_name=Spanish lang_code=spa fonts=F0-10.1 bbox=107.97,454.77,407.72,464.85         :(12).               Las mujeres tenemos esperanza. (Jelinek 1984:48)
+line=227 tag=G span_id=28-4 lang_name=Spanish lang_code=spa fonts=F2-10.1 iscore=0.33 bbox=203.97,430.77,361.64,440.85:                    the women  have-PRES-1plur  hope
+line=228 tag=T span_id=28-4 lang_name=Spanish lang_code=spa fonts=F0-10.1 iscore=0.50 bbox=203.97,406.76,304.77,416.84:                    “We women  have hope.”
+
+doc_id=28 page=10 block_id=10-7 bbox=107.97,352.76,539.46,386.84 label=tbbt 229 230
+line=229 fonts=F0-10.1,F2-10.1 bbox=143.97,376.76,539.46,386.84            :        It has also been suggested that similar constraints may allow pro to occur in the object position of
+line=230 fonts=F0-10.1,F2-10.1 bbox=107.97,352.76,536.61,362.84 iscore=0.11:some  languages. However, null objects are not freely found in all pro-drop languages, and the idea of pro
+
+doc_id=28 page=10 block_id=10-8 bbox=107.97,304.76,519.6,338.84 label=tbbbt 231 232
+line=231 fonts=F0-10.1 bbox=107.97,328.76,500.38,338.84           :occurring in object position has not been widely accepted. An alternative theory is that there is a
+line=232 fonts=F0-10.1 bbox=107.97,304.76,519.6,314.84 iscore=0.29:pronominal empty  category in TOPIC position in these cases, while the object position has a variable
+
+doc_id=28 page=10 block_id=10-9 bbox=107.97,256.76,522.22,290.84 label=tbbbbt 233 234
+line=233 fonts=F0-10.1 bbox=107.97,280.76,522.22,290.84            :(again null) indexed with this topic (cf. Huang 1984, Authier 1989, Speas 1990). This theory predicts
+line=234 fonts=F0-10.1 bbox=107.97,256.76,510.42,266.84 iscore=0.12:different behavior than does a pronominal account of null arguments. Empirical evidence has been
+
+doc_id=28 page=10 block_id=10-10 bbox=107.97,208.76,537.09,242.84 label=tbbbbb 235 236
+line=235 fonts=F0-10.1,F2-10.1 bbox=107.97,232.76,537.09,242.84    :presented against the variable analysis as well as for it, leading some linguists to maintain support for pro
+line=236 fonts=F0-10.1 bbox=107.97,208.76,359.75,218.84 iscore=0.17:objects, at least in some pro-drop languages (cf. Farrell 1984).
+
+doc_id=28 page=10 block_id=10-11 bbox=317.97,74.85,329.97,86.85 label=b 237 237
+line=237 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   10
+
+doc_id=28 page=11 block_id=11-1 bbox=107.97,646.77,527.48,710.85 label=ttt 238 239
+line=238 fonts=F1-10.1 bbox=107.97,700.77,281.24,710.85            :1.2.2.                Zero Pronominals
+line=239 fonts=F0-10.1 bbox=143.97,646.77,527.48,656.85 iscore=0.08:        Another class of languages, described as the ‘discourse-oriented’ languages, has null anaphora
+
+doc_id=28 page=11 block_id=11-2 bbox=107.97,598.77,531.11,632.85 label=ttbt 240 241
+line=240 fonts=F0-10.1 bbox=107.97,622.77,531.11,632.85            :not just for subjects, but for a wide range of arguments. Examples of languages that have been placed in
+line=241 fonts=F0-10.1 bbox=107.97,598.77,522.66,608.85 iscore=0.21:this class are Japanese, Korean, Russian, and Chinese. These languages are distinguished from others
+
+doc_id=28 page=11 block_id=11-3 bbox=107.97,550.77,539.52,584.85 label=ttbbt 242 243
+line=242 fonts=F0-10.1 bbox=107.97,574.77,531.11,584.85            :primarily by the properties of “topic prominency” (cf. Li and Thompson 1976, Gundel 1980, Kameyama
+line=243 fonts=F0-10.1 bbox=107.97,550.77,539.52,560.85 iscore=0.13:1985) and discourse-bound anaphors (Huang 1984), and also, secondarily, by a rich semantic specification
+
+doc_id=28 page=11 block_id=11-4 bbox=107.97,526.77,245.37,537.57 label=ttbbb 244 244
+line=244 fonts=F0-10.1,F0-7.9 bbox=107.97,526.77,245.37,537.57:of arguments (Kameyama 1985).^{8}
+
+doc_id=28 page=11 block_id=11-5 bbox=107.97,472.77,533.69,506.85 label=tbtt 245 246
+line=245 fonts=F0-10.1 bbox=143.97,496.77,533.69,506.85            :        According  to Gundel (1980), in topic prominent languages, the topic more consistently occupies
+line=246 fonts=F0-10.1 bbox=107.97,472.77,533.08,482.85 iscore=0.18:a particular structural position. In Japanese, for example, the suffix -wa topic marks a nominal, and has
+
+doc_id=28 page=11 block_id=11-6 bbox=107.97,424.77,538.02,458.85 label=tbtbt 247 248
+line=247 fonts=F0-10.1 bbox=107.97,448.77,538.02,458.85            :been identified loosely with the less common and more complex expressions “speaking of x” or “as for x”
+line=248 fonts=F0-10.1 bbox=107.97,424.77,525.58,434.85 iscore=0.22:in English. In principle -wa may be placed on any nominal, argument or adjunct, in Japanese (though
+
+doc_id=28 page=11 block_id=11-7 bbox=107.97,376.77,509.95,410.85 label=tbtbbt 249 250
+line=249 fonts=F0-10.1 bbox=107.97,400.77,509.95,410.85                                                                :the appropriate discourse contexts will of course vary) as shown in the two sentences in (13) below.
+line=250 tag=L span_id=28-5 lang_name=Japanese lang_code=jpn fonts=F0-10.1 iscore=0.06 bbox=107.97,376.77,352.76,386.85:(13).                 a.     Hanako  wa Taroo o aimasita.
+
+doc_id=28 page=11 block_id=11-8 bbox=233.97,328.77,480.93,362.85 label=tbtbbbt 251 252
+line=251 tag=G span_id=28-5 lang_name=Japanese lang_code=jpn fonts=F2-10.1 bbox=265.49,352.77,346.06,362.85            :                                TOP     OBJ  met
+line=252 tag=T span_id=28-5 lang_name=Japanese lang_code=jpn fonts=F0-10.1 iscore=0.00 bbox=233.97,328.77,480.93,338.85:                          “Hanako met Taroo.” (Speaking of Hanako, she met Taroo.)
+
+doc_id=28 page=11 block_id=11-9 bbox=203.97,256.77,457.88,314.85 label=tbtbbbb 253 255
+line=253 tag=L span_id=28-6 lang_name=Japanese lang_code=jpn fonts=F0-10.1 bbox=203.97,304.77,357.54,314.85            :                    b.    Taroo wa Hanako ga aimasita.
+line=254 tag=G span_id=28-6 lang_name=Japanese lang_code=jpn fonts=F2-10.1 iscore=0.50 bbox=257.73,280.77,355.64,290.85:                               TOP       SUBJ  met
+line=255 tag=T span_id=28-6 lang_name=Japanese lang_code=jpn fonts=F0-10.1 iscore=0.11 bbox=233.97,256.77,457.88,266.85:                          “Hanako met Taroo.” (As for Taroo, Hanako met him.)
+
+doc_id=28 page=11 block_id=11-10 bbox=107.97,178.77,533.04,236.85 label=tbb 256 258
+line=256 fonts=F0-10.1 bbox=143.97,226.77,528.49,236.85            :        This -wa marking has been shown  to have a significant effect on the preferred interpretation of
+line=257 fonts=F0-10.1 bbox=107.97,202.77,532.75,212.85 iscore=0.19:null arguments in subsequent utterances (cf. Kameyama 1985, 1986; Walker, Iida and Cote 1990, 1994).
+line=258 fonts=F0-10.1 bbox=107.97,178.77,533.04,188.85 iscore=0.12:Walker et al. have additionally shown that the notion of topic marking is sufficiently central in Japanese
+
+doc_id=28 page=11 block_id=11-11 bbox=107.97,114.69,499.61,137.49 label=bt 259 260
+line=259 fonts=F0-10.1,F0-7.9 bbox=143.97,126.69,499.61,137.49    :         ^{8}Kameyama notes, however, that this latter property is less unique to discourse-oriented
+line=260 fonts=F0-10.1 bbox=107.97,114.69,205.9,124.77 iscore=0.00:languages than the first.
+
+doc_id=28 page=11 block_id=11-12 bbox=317.97,74.85,329.97,86.85 label=bb 261 261
+line=261 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   11
+
+doc_id=28 page=12 block_id=12-1 bbox=107.97,676.77,533.46,710.85 label=tt 262 263
+line=262 fonts=F0-10.1 bbox=107.97,700.77,533.46,710.85            :that there is a “Zero Topic Assignment” effect in which, under the right conditions, a null argument may
+line=263 fonts=F0-10.1 bbox=107.97,676.77,216.21,686.85 iscore=0.11:act as if it is topic-marked.
+
+doc_id=28 page=12 block_id=12-2 bbox=107.97,622.77,538.01,656.85 label=tbttt 264 265
+line=264 fonts=F0-10.1 bbox=143.97,646.77,538.01,656.85            :        Discourse-oriented languages are also noted to use anaphors that are not syntactically bound. An
+line=265 fonts=F0-10.1 bbox=107.97,622.77,248.85,632.85 iscore=0.14:example in Korean is given below:
+
+doc_id=28 page=12 block_id=12-3 bbox=107.97,598.77,372.44,610.05 label=tbttb 266 266
+line=266 tag=L span_id=28-7 lang_name=Korean lang_code=kor fonts=F0-10.1 bbox=107.97,598.77,372.44,610.05:(14).                  a.     John-i   salam-il–  ponae-ess-ni?
+
+doc_id=28 page=12 block_id=12-4 bbox=233.97,550.77,388.29,584.85 label=tbtbt 267 268
+line=267 tag=G span_id=28-7 lang_name=Korean lang_code=kor fonts=F2-10.1 bbox=248.11,574.77,388.29,584.85            :                          -NOM     -ACC send-PAST-Q
+line=268 tag=T span_id=28-7 lang_name=Korean lang_code=kor fonts=F0-10.1 iscore=0.20 bbox=233.97,550.77,340.76,560.85:                       “Did John send the man?”
+
+doc_id=28 page=12 block_id=12-5 bbox=203.97,478.77,471.12,536.85 label=tbtbb 269 271
+line=269 tag=L span_id=28-8 lang_name=Korean lang_code=kor fonts=F0-10.1 bbox=203.97,526.77,370.29,536.85               :                    b.     ani, caki-ka cikcep  o-ess-ta.
+line=270 tag=G span_id=28-8 lang_name=Korean lang_code=kor fonts=F2-10.1 iscore=0.25 bbox=233.97,502.77,430.78,512.85   :                           no   self-NOM  in-person come-PAST-DEC
+line=271 tag=T+AC span_id=28-8 lang_name=Korean lang_code=kor fonts=F0-10.1 iscore=0.29 bbox=233.97,478.77,471.12,488.85:                           “No, self came in person.”         (Huang 1984:57)
+
+doc_id=28 page=12 block_id=12-6 bbox=107.97,424.77,531.33,458.85 label=tbbtt 272 273
+line=272 fonts=F0-10.1 bbox=143.97,448.77,529.67,458.85            :        The other property that has been informally associated with discourse-oriented languages is the
+line=273 fonts=F0-10.1 bbox=107.97,424.77,531.33,434.85 iscore=0.08:“rich semantic specification of arguments.” (Kameyama 1985:32). Kameyama  lists four particular types
+
+doc_id=28 page=12 block_id=12-7 bbox=107.97,376.76,537.79,410.85 label=tbbtbt 274 275
+line=274 fonts=F0-10.1 bbox=107.97,400.77,537.79,410.85                   :of semantic specification that seem more prominent in Japanese and Chinese. Perhaps the most definitive
+line=275 fonts=F0-10.1,F0-7.9 bbox=107.97,376.76,525.59,387.57 iscore=0.24:of these is what she refers to as the “strict animacy constraint.”9 This constraint in colloquial Japanese
+
+doc_id=28 page=12 block_id=12-8 bbox=107.97,328.77,512.01,362.85 label=tbbtbbt 276 277
+line=276 fonts=F0-10.1 bbox=107.97,352.77,498.49,362.85            :prevents non-animate entities from being the subject of transitive constructions. The other types
+line=277 fonts=F0-10.1 bbox=107.97,328.77,512.01,338.85 iscore=0.06:Kameyama   cites include a more distinct set of transitive verbs for [+human] vs. [-human] objects in
+
+doc_id=28 page=12 block_id=12-9 bbox=107.97,256.77,538.81,314.85 label=tbbtbbb 278 280
+line=278 fonts=F0-10.1 bbox=107.97,304.77,538.81,314.85            :Chinese, subtler distinctions in semantic fields, particularly in verb meanings or contexts, and honorificity
+line=279 fonts=F0-10.1 bbox=107.97,280.77,532.78,290.85 iscore=0.12:features on verbs. Kameyama   notes however that the extent to which this property extends to discourse-
+line=280 fonts=F0-10.1 bbox=107.97,256.77,388.51,266.85 iscore=0.31:oriented languages other than Japanese and Chinese is yet to be seen.
+
+doc_id=28 page=12 block_id=12-10 bbox=107.97,202.77,531.12,236.85 label=tbbbt 281 282
+line=281 fonts=F0-10.1 bbox=143.97,226.77,531.12,236.85            :        The null arguments in discourse-oriented languages have been argued to be phonologically null
+line=282 fonts=F0-10.1 bbox=107.97,202.77,497.21,212.85 iscore=0.00:(zero) pronominals that do not require overt person-number marking and whose antecedents are
+
+doc_id=28 page=12 block_id=12-11 bbox=107.97,154.77,513.8,188.85 label=tbbbb 283 284
+line=283 fonts=F0-10.1 bbox=107.97,178.77,513.8,188.85             :determined instead by discourse features. In other words, the argument is that zero pronominals are
+line=284 fonts=F0-10.1 bbox=107.97,154.77,509.71,164.85 iscore=0.27:simply permissible in discourse-oriented languages without any special requirements, and that zero
+
+doc_id=28 page=12 block_id=12-12 bbox=143.97,102.69,373.39,113.49 label=bt 285 285
+line=285 fonts=F0-10.1,F0-7.9 bbox=143.97,102.69,373.39,113.49:        ^{9}This property is described for Japanese in Kuno (1973).
+
+doc_id=28 page=12 block_id=12-13 bbox=317.97,74.85,329.97,86.85 label=bb 286 286
+line=286 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   12
+
+doc_id=28 page=13 block_id=13-1 bbox=107.97,676.77,539.96,710.85 label=ttt 287 288
+line=287 fonts=F0-10.1 bbox=107.97,700.77,539.96,710.85            :pronominals behave equivalently to unstressed pronouns. Conversely, it has also been suggested that what
+line=288 fonts=F0-10.1 bbox=107.97,676.77,519.82,686.85 iscore=0.21:is actually seen in more discourse-oriented languages is an increased acceptance of sentence fragment
+
+doc_id=28 page=13 block_id=13-2 bbox=107.97,652.77,425.97,663.57 label=ttb 289 289
+line=289 fonts=F0-10.1,F0-7.9 bbox=107.97,652.77,425.97,663.57:production, and not grammars that allows null arguments (cf. Jelinek 1984).^{10}
+
+doc_id=28 page=13 block_id=13-3 bbox=107.97,598.77,533.77,632.85 label=tbt 290 291
+line=290 fonts=F0-10.1 bbox=143.97,622.77,533.77,632.85                    :        Another  proposal, mentioned in the discussion of pro-drop above, collapses the zero pronominal
+line=291 fonts=F0-10.1,F2-10.1 bbox=107.97,598.77,522.93,608.85 iscore=0.16:subject in languages like Japanese with pro, licensed in Japanese by the lack of an IP (cf. Speas 1994).
+
+doc_id=28 page=13 block_id=13-4 bbox=107.97,550.77,531.12,584.85 label=tbbt 292 293
+line=292 fonts=F0-10.1 bbox=107.97,574.77,531.12,584.85            :Zero non-subjects are then treated under the analysis that they are variables bound to a null TOPIC (also
+line=293 fonts=F0-10.1 bbox=107.97,550.77,514.98,560.85 iscore=0.17:described above). Again though, there is some debate outstanding over whether null objects in these
+
+doc_id=28 page=13 block_id=13-5 bbox=107.97,502.77,533.01,536.85 label=tbbbt 294 295
+line=294 fonts=F0-10.1 bbox=107.97,526.77,533.01,536.85            :languages act more like pronouns or variables with respect to other, independent grammatical effects (cf.
+line=295 fonts=F0-10.1 bbox=107.97,502.77,527.52,512.85 iscore=0.28:Zhang  1988). In an effort to resolve this issue without allowing null objects to be null pronominals and
+
+doc_id=28 page=13 block_id=13-6 bbox=107.97,454.77,535.2,488.85 label=tbbbbt 296 297
+line=296 fonts=F0-10.1 bbox=107.97,478.77,526.51,488.85           :thereby relinquishing the syntactic licensing constraint which is the crux of the pro-drop theory, Huang
+line=297 fonts=F0-10.1 bbox=107.97,454.77,535.2,464.85 iscore=0.22:(1991) makes use of the notion in Lasnik (1991) of pronominal r-expressions to add an entirely new class
+
+doc_id=28 page=13 block_id=13-7 bbox=107.97,358.77,533.05,440.85 label=tbbbbb 298 300
+line=298 fonts=F0-10.1 bbox=107.97,430.77,533.05,440.85            :of empty categories. He labels these new empty categories “zero epithets” and posits that they are what is
+line=299 fonts=F0-10.1 bbox=107.97,406.77,228.69,416.85 iscore=0.06:found in null object positions.
+line=300 fonts=F1-10.1 bbox=107.97,358.77,335.24,368.85 iscore=0.20:1.2.3.                Non-configurational  languages
+
+doc_id=28 page=13 block_id=13-8 bbox=107.97,280.77,522.19,314.85 label=bt 301 302
+line=301 fonts=F0-10.1 bbox=143.97,304.77,522.19,314.85            :        Null anaphora  is also commonly found in so-called “non-configurational” languages, another
+line=302 fonts=F0-10.1 bbox=107.97,280.77,521.95,290.85 iscore=0.06:typological designation for a number of characteristics that tend to pattern together. In addition to the
+
+doc_id=28 page=13 block_id=13-9 bbox=107.97,113.73,536.15,245.97 label=bbt 303 313
+line=303 fonts=F0-10.1,F0-7.9 bbox=143.97,235.17,536.15,245.97                                                                 :        ^{10}Kuno (1989) allows for the existence of zero pronouns in Japanese but points out that there are
+line=304 fonts=F0-10.1,F2-10.1 bbox=107.97,223.17,513.83,233.25 iscore=0.06                                                    :also contexts in which discourse deletion leads to utterances that simply look superficially similar to
+line=305 fonts=F0-10.1 bbox=107.97,211.17,520.76,221.25 iscore=0.27                                                            :utterances with zero pronouns. The second utterance in the discourse segment below illustrates these
+line=306 fonts=F0-10.1 bbox=107.97,199.17,221.97,209.25 iscore=0.07                                                            :“pseudo-zero-pronominals."
+line=307 tag=L span_id=28-9 lang_name=Japanese lang_code=jpn fonts=F0-10.1,F3-6.0 iscore=0.00 bbox=143.97,185.73,527.93,197.25 :        i.            a.     Taroo3 ga   Hanako4 ni  Ziroo5 o   gakkoo de syookaisita no desu ka?
+line=308 tag=G span_id=28-9 lang_name=Japanese lang_code=jpn fonts=F2-10.1 iscore=0.00 bbox=265.16,174.93,495.59,185.01        :                                    SUB           OBJ2        OBJ  school  at introduced
+line=309 tag=T span_id=28-9 lang_name=Japanese lang_code=jpn fonts=F2-10.1 iscore=0.00 bbox=107.97,163.17,115.81,173.25        :Q
+line=310 fonts=F0-10.1 bbox=233.97,151.17,436.79,161.25 iscore=0.00                                                            :                             “Did Taroo introduce Ziroo to Hanako at school?"
+line=311 tag=L span_id=28-10 lang_name=Japanese lang_code=jpn fonts=F0-10.1 iscore=0.50 bbox=203.97,139.17,381.11,149.25       :                      b.     Hai, gakkoo de syookaisita no desu.
+line=312 tag=G span_id=28-10 lang_name=Japanese lang_code=jpn fonts=F2-10.1 iscore=0.50 bbox=233.97,127.17,350.6,137.25        :                             yes, school at  introduced
+line=313 tag=T span_id=28-10 lang_name=Japanese lang_code=jpn fonts=F0-10.1,F3-6.0 iscore=0.25 bbox=233.97,113.73,430.98,125.25:                             “Yes, (he3) introduced (him5) (to her4) at school.
+
+doc_id=28 page=13 block_id=13-10 bbox=317.97,74.85,329.97,86.85 label=bbb 314 314
+line=314 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   13
+
+doc_id=28 page=14 block_id=14-1 bbox=107.97,676.77,532.08,710.85 label=tt 315 316
+line=315 fonts=F0-10.1 bbox=107.97,700.77,532.08,710.85                   :availability of null anaphora for all arguments, these non-configurational characteristics most commonly
+line=316 fonts=F0-10.1,F0-7.9 bbox=107.97,676.77,499.89,687.57 iscore=0.14:include free word order and the use of syntactically discontinuous expressions. (cf. Hale 1983).^{11}
+
+doc_id=28 page=14 block_id=14-2 bbox=107.97,622.77,533.0,656.85 label=tbtt 317 318
+line=317 fonts=F0-10.1 bbox=143.97,646.77,531.82,656.85           :        A  relatively well-known example of this type of language is the Australian aboriginal language,
+line=318 fonts=F0-10.1 bbox=107.97,622.77,533.0,632.85 iscore=0.06:Warlpiri. Warlpiri makes  extensive use of null anaphora. As in (15), the features of the null arguments
+
+doc_id=28 page=14 block_id=14-3 bbox=107.97,574.77,479.52,608.85 label=tbtbt 319 320
+line=319 fonts=F0-10.1 bbox=107.97,598.77,479.52,608.85                                                                 :are generally marked on the auxiliary, with third person singular being the unmarked case.
+line=320 tag=L span_id=28-11 lang_name=Warlpiri lang_code=wbp fonts=F0-10.1 iscore=0.07 bbox=107.97,574.77,332.19,584.85:(15).                 Punta- rni      kapi-rna-ngku.
+
+doc_id=28 page=14 block_id=14-4 bbox=203.97,526.77,446.35,560.85 label=tbtbb 321 322
+line=321 tag=G span_id=28-11 lang_name=Warlpiri lang_code=wbp fonts=F2-10.1 bbox=203.97,550.77,359.26,560.85               :                     divest NONPAST    FUT-1subj- 2obj
+line=322 tag=T+AC span_id=28-11 lang_name=Warlpiri lang_code=wbp fonts=F0-10.1 iscore=0.11 bbox=203.97,526.77,446.35,536.85:                     “(I) will take (him/her/it) away from (you).” (Hale 1983:19)
+
+doc_id=28 page=14 block_id=14-5 bbox=107.97,472.77,521.04,506.85 label=tbbtt 323 324
+line=323 fonts=F0-10.1 bbox=143.97,496.77,521.04,506.85            :        Although  null anaphora often co-occurs with person-number marking in non-configurational
+line=324 fonts=F0-10.1 bbox=107.97,472.77,520.03,482.85 iscore=0.18:languages, Hale points out that this is not always the case. For instance, unlike Warlpiri, the Arandic
+
+doc_id=28 page=14 block_id=14-6 bbox=107.97,424.77,520.99,458.85 label=tbbtbt 325 326
+line=325 fonts=F0-10.1 bbox=107.97,448.77,520.99,458.85            :languages of Central Australia lack a person-number system yet they too allow null anaphora. This is
+line=326 fonts=F0-10.1 bbox=107.97,424.77,306.22,434.85 iscore=0.19:illustrated in the following example from Kaititj:
+
+doc_id=28 page=14 block_id=14-7 bbox=107.97,376.77,413.27,410.85 label=tbbtbbt 327 328
+line=327 tag=L span_id=28-12 lang_name=Kaytetye lang_code=gbb fonts=F0-10.1 bbox=107.97,400.77,386.81,410.85            :(16).              Weye wampere atye  are-nhe, eylpwere-rle
+line=328 tag=G span_id=28-12 lang_name=Kaytetye lang_code=gbb fonts=F2-10.1 iscore=0.17 bbox=203.97,376.77,413.27,386.85:                   meat  possum   I(ERG) see-PAST  hollow LOC
+
+doc_id=28 page=14 block_id=14-8 bbox=203.97,328.76,474.92,362.84 label=tbbtbbbt 329 330
+line=329 tag=L span_id=28-12 lang_name=Kaytetye lang_code=gbb fonts=F0-10.1 bbox=203.97,352.76,441.3,362.84             :                    anteyanenge- warle, elepe- le- lke atye arte-nherre,
+line=330 tag=G span_id=28-12 lang_name=Kaytetye lang_code=gbb fonts=F2-10.1 iscore=0.25 bbox=203.97,328.76,474.92,338.84:                    sitting     COMP   axe  INST AFTER    I(ERG) chop PAST,
+
+doc_id=28 page=14 block_id=14-9 bbox=203.97,280.76,347.48,314.84 label=tbbtbbbbt 331 332
+line=331 tag=L span_id=28-12 lang_name=Kaytetye lang_code=gbb fonts=F0-10.1 bbox=203.97,304.76,319.19,314.84            :                     eylpwere, alarre- nhe atye.
+line=332 tag=G span_id=28-12 lang_name=Kaytetye lang_code=gbb fonts=F2-10.1 iscore=0.25 bbox=203.97,280.76,347.48,290.84:                     hollow      kill PAST    I(ERG)
+
+doc_id=28 page=14 block_id=14-10 bbox=203.97,232.76,515.47,266.84 label=tbbtbbbbb 333 334
+line=333 tag=T span_id=28-12 lang_name=Kaytetye lang_code=gbb fonts=F0-10.1 bbox=203.97,256.76,515.47,266.84               :                       “I saw a possum sitting in a hollow tree: so then I chopped it, the hollow tree
+line=334 tag=T+AC span_id=28-12 lang_name=Kaytetye lang_code=gbb fonts=F0-10.1 iscore=0.12 bbox=203.97,232.76,349.66,242.84:                       and killed (it).” (Hale 1983:17:fn9)
+
+doc_id=28 page=14 block_id=14-11 bbox=107.97,178.76,539.69,212.84 label=tbbb 335 336
+line=335 fonts=F0-10.1 bbox=143.97,202.76,539.69,212.84            :        Hale (1983) suggests that there is a configurationality parameter which allows for variation in the
+line=336 fonts=F0-10.1 bbox=107.97,178.76,525.29,188.84 iscore=0.20:domain  of the projection principle. Roughly speaking, non-configurational languages only require the
+
+doc_id=28 page=14 block_id=14-12 bbox=107.97,114.69,519.3,137.49 label=bt 337 338
+line=337 fonts=F0-10.1,F0-7.9 bbox=143.97,126.69,519.3,137.49      :         ^{11}Not all non-configurational languages have every one of these characteristics. It should be
+line=338 fonts=F0-10.1 bbox=107.97,114.69,412.79,124.77 iscore=0.08:noted in particular that even null anaphora is not universal. (cf. Hale 1983)
+
+doc_id=28 page=14 block_id=14-13 bbox=317.97,74.85,329.97,86.85 label=bb 339 339
+line=339 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   14
+
+doc_id=28 page=15 block_id=15-1 bbox=107.97,676.77,523.14,710.85 label=tttt 340 341
+line=340 fonts=F0-10.1 bbox=107.97,700.77,523.14,710.85            :projection principle to apply at LS. Certain superficial characteristics, such as those mentioned above,
+line=341 fonts=F0-10.1 bbox=107.97,676.77,511.67,686.85 iscore=0.19:become  possible but not necessary under these conditions. As applied to null anaphora, this can be
+
+doc_id=28 page=15 block_id=15-2 bbox=107.97,628.77,535.69,662.85 label=tttbt 342 343
+line=342 fonts=F0-10.1 bbox=107.97,652.77,532.75,662.85            :interpreted as meaning that argument positions do not have to project to surface structure. Hale suggests
+line=343 fonts=F0-10.1 bbox=107.97,628.77,535.69,638.85 iscore=0.19:that null anaphora in Japanese and other discourse-oriented languages could also potentially be explained
+
+doc_id=28 page=15 block_id=15-3 bbox=107.97,556.77,526.98,614.85 label=tttbb 344 346
+line=344 fonts=F0-10.1 bbox=107.97,604.77,526.98,614.85            :in this way. In fact, contrasting with the previous discussion, Japanese has at times been argued to be a
+line=345 fonts=F0-10.1 bbox=107.97,580.77,515.26,590.85 iscore=0.16:non-configurational language. (cf. Chomsky 1981)  This analysis raises the issue of the reality of the
+line=346 fonts=F0-10.1 bbox=107.97,556.77,399.09,566.85 iscore=0.07:contrast between discourse-oriented and non-configurational languages.
+
+doc_id=28 page=15 block_id=15-4 bbox=107.97,502.77,532.06,536.85 label=ttbt 347 348
+line=347 fonts=F0-10.1 bbox=143.97,526.77,519.1,536.85             :        An  alternative proposal in Simpson (1983), is that non-configurational languages, or at least
+line=348 fonts=F0-10.1 bbox=107.97,502.77,532.06,512.85 iscore=0.08:Warlpiri-like languages, allow null pronominals mainly because the AUX features meet a “completeness
+
+doc_id=28 page=15 block_id=15-5 bbox=107.97,454.77,538.81,488.85 label=ttbbt 349 350
+line=349 fonts=F0-10.1 bbox=107.97,478.77,533.24,488.85            :constraint”, i.e., the features of the null argument are recoverable from these AUX features. Though this
+line=350 fonts=F0-10.1 bbox=107.97,454.77,538.81,464.85 iscore=0.38:proposal allows for a stronger similarity between null anaphora in non-configurational languages and pro-
+
+doc_id=28 page=15 block_id=15-6 bbox=107.97,406.76,534.88,440.85 label=ttbbbt 351 352
+line=351 fonts=F0-10.1 bbox=107.97,430.77,534.88,440.85            :drop, the parallel is not perfect. Simpson notes that the case is somewhat different in nonfinite clauses in
+line=352 fonts=F0-10.1 bbox=107.97,406.76,517.43,416.84 iscore=0.11:Warlpiri. “...even in non-finite clauses, it is possible to have null pronominals with non-third person
+
+doc_id=28 page=15 block_id=15-7 bbox=107.97,358.76,531.84,392.84 label=ttbbbbt 353 354
+line=353 fonts=F0-10.1 bbox=107.97,382.76,523.13,392.84            :referents, providing this information is recoverable from the context.” Simpson's proposal also leaves
+line=354 fonts=F0-10.1 bbox=107.97,358.76,531.84,368.84 iscore=0.31:open the issue of those non-configurational languages which have null anaphora but do not have person-
+
+doc_id=28 page=15 block_id=15-8 bbox=107.97,286.76,360.92,344.84 label=ttbbbbb 355 356
+line=355 fonts=F0-10.1 bbox=107.97,334.76,178.53,344.84            :number  marking.
+line=356 fonts=F1-10.1 bbox=107.97,286.76,360.92,296.84 iscore=0.17:1.2.4.               Arbitrary and  indefinite null objects
+
+doc_id=28 page=15 block_id=15-9 bbox=107.97,208.76,533.2,242.84 label=tbt 357 358
+line=357 fonts=F0-10.1 bbox=143.97,232.76,533.2,242.84             :        Some   languages allow only a restricted use of null objects, occurring in sentences with ‘generic’
+line=358 fonts=F0-10.1 bbox=107.97,208.76,526.53,218.84 iscore=0.13:time reference provided they are also given an arbitrary interpretation. Italian and French, though they
+
+doc_id=28 page=15 block_id=15-10 bbox=107.97,160.76,536.15,194.84 label=tbb 359 360
+line=359 fonts=F0-10.1 bbox=107.97,184.76,536.15,194.84            :differ with respect to subject pro-drop, are both argued to have these arbitrary null objects (cf. Rizzi 1986,
+line=360 fonts=F0-10.1 bbox=107.97,160.76,497.03,170.84 iscore=0.11:Bouchard  1987, Authier 1989a).  (17) demonstrates the use of an arbitrary null object in Italian.
+
+doc_id=28 page=15 block_id=15-11 bbox=317.97,74.85,329.97,86.85 label=b 361 361
+line=361 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   15
+
+doc_id=28 page=16 block_id=16-1 bbox=107.97,652.77,448.98,710.85 label=tt 362 364
+line=362 tag=L+AC span_id=28-13 lang_name=Italian lang_code=ita fonts=F0-10.1 bbox=107.97,700.77,448.98,710.85         :(17).                Questo conduce  a concludere  quanto segue. (Rizzi 1986)
+line=363 tag=G span_id=28-13 lang_name=Italian lang_code=ita fonts=F2-10.1 iscore=0.25 bbox=203.97,676.77,407.5,686.85 :                     This   leads     to    conclude  what  follows
+line=364 tag=T span_id=28-13 lang_name=Italian lang_code=ita fonts=F0-10.1 iscore=0.14 bbox=203.97,652.77,383.97,662.85:                     “This leads (one) to conclude what follows.”
+
+doc_id=28 page=16 block_id=16-2 bbox=107.97,598.77,538.06,632.85 label=tbtt 365 366
+line=365 fonts=F0-10.1 bbox=143.97,622.77,538.06,632.85            :         Rizzi (1986) and Authier (1989a) both argue that these null objects are structurally present in the
+line=366 fonts=F0-10.1 bbox=107.97,598.77,537.82,608.85 iscore=0.12:sentences in which they occur, though they differ in some significant details. Rizzi treats them essentially
+
+doc_id=28 page=16 block_id=16-3 bbox=107.97,550.77,539.0,584.85 label=tbtbt 367 368
+line=367 fonts=F0-10.1 bbox=107.97,574.77,539.0,584.85             :as null pronouns with the feature [+arb], while Authier argues that they are variables bound at LF by overt
+line=368 fonts=F0-10.1 bbox=107.97,550.77,536.84,560.85 iscore=0.21:or non-overt adverbs of quantification adjoined to the clause whose tense selects them. In contrast to both
+
+doc_id=28 page=16 block_id=16-4 bbox=107.97,502.77,537.58,536.85 label=tbtbb 369 370
+line=369 fonts=F0-10.1 bbox=107.97,526.77,537.58,536.85                   :of these theories, however, Bouchard (1987) allows for the possibility that these null objects do not project
+line=370 fonts=F0-10.1,F0-7.9 bbox=107.97,502.77,189.33,513.57 iscore=0.06:out of the lexicon.^{12}
+
+doc_id=28 page=16 block_id=16-5 bbox=107.97,448.77,511.65,482.85 label=tbbttt 371 372
+line=371 fonts=F0-10.1 bbox=143.97,472.77,511.65,482.85            :        Other specialized or idiosyncratic types of null objects have also been found. For example,
+line=372 fonts=F0-10.1 bbox=107.97,448.77,499.19,458.85 iscore=0.31:Campos  (1986) shows that indefinite direct objects may be dropped in Spanish, as in (18) below.
+
+doc_id=28 page=16 block_id=16-6 bbox=107.97,424.77,315.77,435.57 label=tbbttb 373 373
+line=373 tag=L span_id=28-14 lang_name=Spanish lang_code=spa fonts=F0-10.1 bbox=107.97,424.77,315.77,435.57:(18).                 a.     ¿Compraste    cafe´?
+
+doc_id=28 page=16 block_id=16-7 bbox=233.97,376.77,329.73,410.85 label=tbbtbtt 374 375
+line=374 tag=G span_id=28-14 lang_name=Spanish lang_code=spa fonts=F2-10.1 bbox=233.97,400.77,329.73,410.85            :                           buy-past-2sing coffee
+line=375 tag=T span_id=28-14 lang_name=Spanish lang_code=spa fonts=F0-10.1 iscore=0.25 bbox=233.97,376.77,323.02,386.85:                           “Did you buy coffee?”
+
+doc_id=28 page=16 block_id=16-8 bbox=203.97,352.77,280.28,363.57 label=tbbtbtb 376 376
+line=376 tag=L span_id=28-15 lang_name=Spanish lang_code=spa fonts=F0-10.1 bbox=203.97,352.77,280.28,363.57:                       b.     Si, compre´.
+
+doc_id=28 page=16 block_id=16-9 bbox=233.97,304.77,330.21,338.85 label=tbbtbb 377 378
+line=377 tag=G span_id=28-15 lang_name=Spanish lang_code=spa fonts=F2-10.1 bbox=233.97,328.77,317.96,338.85            :                           yes buy-past-1sing
+line=378 tag=T span_id=28-15 lang_name=Spanish lang_code=spa fonts=F0-10.1 iscore=0.25 bbox=233.97,304.77,330.21,314.85:                           “Yes, I bought (some).”
+
+doc_id=28 page=16 block_id=16-10 bbox=107.97,250.77,521.46,284.85 label=tbbbt 379 380
+line=379 fonts=F0-10.1 bbox=143.97,274.77,521.46,284.85            :        Campos   argues that this is a variable position (a trace of OP). In this case, he is motivated to
+line=380 fonts=F0-10.1 bbox=107.97,250.77,514.32,260.85 iscore=0.32:treat the null argument as something other than a null pronoun because it is indefinite, which would
+
+doc_id=28 page=16 block_id=16-11 bbox=107.97,202.77,522.64,236.85 label=tbbbb 381 382
+line=381 fonts=F0-10.1,F2-10.1 bbox=107.97,226.77,522.64,236.85    :conflict with the Chomsky (1982) proposal that pro must have definite reference. Campos also argues
+line=382 fonts=F0-10.1 bbox=107.97,202.77,443.97,212.85 iscore=0.20:that the syntactic behavior of these null objects is consistent with that of a variable.
+
+doc_id=28 page=16 block_id=16-12 bbox=107.97,102.69,537.35,125.49 label=bt 383 384
+line=383 fonts=F0-10.1,F0-7.9 bbox=143.97,114.69,537.35,125.49     :        ^{12}Bouchard also argues that the same phenomenon occurs in English, which I discuss in Chapter
+line=384 fonts=F0-10.1 bbox=107.97,102.69,115.65,112.77 iscore=0.00:3.
+
+doc_id=28 page=16 block_id=16-13 bbox=317.97,74.85,329.97,86.85 label=bb 385 385
+line=385 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   16
+
+doc_id=28 page=17 block_id=17-1 bbox=107.97,646.77,529.6,710.85 label=ttt 386 387
+line=386 fonts=F1-10.1 bbox=107.97,700.77,225.09,710.85           :1.2.5.                 PRO
+line=387 fonts=F0-10.1 bbox=143.97,646.77,529.6,656.85 iscore=0.00:        Of  course, another ‘special’ null argument that has received significant attention is the missing
+
+doc_id=28 page=17 block_id=17-2 bbox=107.97,598.77,526.3,632.85 label=ttbt 388 389
+line=388 fonts=F0-10.1 bbox=107.97,622.77,526.3,632.85             :subject in non-finite clauses. This is a phenomenon common to many languages, including English, as
+line=389 fonts=F0-10.1 bbox=107.97,598.77,293.25,608.85 iscore=0.27:shown  in the parallel examples in (19) below.
+
+doc_id=28 page=17 block_id=17-3 bbox=107.97,550.77,211.54,584.85 label=ttbblt 390 391
+line=390 fonts=F0-10.1 bbox=107.97,574.77,211.11,584.85            :(19).                    a.
+line=391 fonts=F0-10.1 bbox=203.97,550.77,211.54,560.85 iscore=1.00:                         b.
+
+doc_id=28 page=17 block_id=17-4 bbox=203.97,454.77,211.65,512.85 label=ttbblb 392 393
+line=392 fonts=F0-10.1 bbox=203.97,502.77,210.99,512.85                                                                   :                          c.
+line=393 tag=L+CR span_id=28-17 lang_name=Spanish lang_code=spa fonts=F0-10.1 iscore=1.00 bbox=203.97,454.77,211.65,464.85:                          d.
+
+doc_id=28 page=17 block_id=17-5 bbox=233.95,550.77,353.48,584.85 label=ttbbrt 394 395
+line=394 tag=G span_id=28-17 lang_name=Spanish lang_code=spa fonts=F0-10.1 bbox=233.95,574.77,322.53,584.85:                              John tried to help me.
+line=395 fonts=F0-10.1 bbox=234.0,550.77,353.48,561.57 iscore=0.33                                         :                              Jean a essaye´ de m'aider. (fr.)
+
+doc_id=28 page=17 block_id=17-6 bbox=233.94,502.77,350.87,536.85 label=ttbbrbt 396 397
+line=396 fonts=F2-10.1 bbox=261.19,526.77,339.08,536.85            :                                   tried to 1sg-help
+line=397 fonts=F0-10.1 bbox=233.94,502.77,350.87,513.57 iscore=0.20:                             Juan trato´ de ayudarme (Sp.)
+
+doc_id=28 page=17 block_id=17-7 bbox=233.97,430.77,464.12,488.85 label=ttbbrbb 398 400
+line=398 fonts=F2-10.1 bbox=252.45,478.77,332.84,488.85                                                                   :                               tried to help-1sg
+line=399 tag=L+AC span_id=28-18 lang_name=Chinese lang_code=cmn fonts=F0-10.1 iscore=0.00 bbox=233.97,454.77,464.12,464.85:                           zhangsan shefa bangmang wo (Chin. - Huang 1989:197)
+line=400 tag=G span_id=28-18 lang_name=Chinese lang_code=cmn fonts=F2-10.1 iscore=0.29 bbox=273.69,430.77,349.89,440.85   :                                    try   help     I
+
+doc_id=28 page=17 block_id=17-8 bbox=107.97,376.77,537.11,410.85 label=tbt 401 402
+line=401 fonts=F0-10.1 bbox=143.97,400.77,537.11,410.85                    :        One  theory is that these missing subjects are a unique type of empty category, PRO, with features
+line=402 fonts=F0-10.1,F2-10.1 bbox=107.97,376.77,504.98,386.85 iscore=0.06:that differ from other empty category types such aspro, traces and variables. The normal binding
+
+doc_id=28 page=17 block_id=17-9 bbox=107.97,328.76,525.8,362.85 label=tbbt 403 404
+line=403 fonts=F0-10.1 bbox=107.97,352.77,525.8,362.85                    :conditions on pronouns or anaphors do not consistently apply to this empty category, instead a separate
+line=404 fonts=F0-10.1,F2-10.1 bbox=107.97,328.76,417.8,338.84 iscore=0.19:theory of control attempts to explain how PRO is assigned an interpretation.
+
+doc_id=28 page=17 block_id=17-10 bbox=107.97,280.76,519.82,314.84 label=tbbbtt 405 406
+line=405 fonts=F0-10.1 bbox=107.97,304.76,519.82,314.84            :In an alternative approach, within the lexical-functional grammar framework, non-finite clauses have
+line=406 fonts=F0-10.1 bbox=107.97,280.76,503.04,290.84 iscore=0.11:been treated as lacking an NP position for a subject, though the subject is included in a functional
+
+doc_id=28 page=17 block_id=17-11 bbox=107.97,256.76,531.41,267.57 label=tbbbtb 407 407
+line=407 fonts=F0-10.1,F0-7.9,F2-10.1 bbox=107.97,256.76,531.41,267.57:representation of the sentence.13 In this theory, functional control is lexically-specified in the entry for
+
+doc_id=28 page=17 block_id=17-12 bbox=107.97,208.77,509.45,242.85 label=tbbbb 408 409
+line=408 fonts=F0-10.1 bbox=107.97,232.77,509.45,242.85            :the matrix verb, linking the subject of the non-finite clause to an argument in the matrix clause (cf.
+line=409 fonts=F0-10.1 bbox=107.97,208.77,170.14,218.85 iscore=0.06:Bresnan 1982).
+
+doc_id=28 page=17 block_id=17-13 bbox=107.97,114.69,525.57,137.49 label=bt 410 411
+line=410 fonts=F0-10.1,F0-7.9 bbox=143.97,126.69,525.57,137.49     :         ^{13}More precisely, the subject in these constructions is represented in `f-structure' but not in `c-
+line=411 fonts=F0-10.1 bbox=107.97,114.69,148.05,124.77 iscore=0.00:structure'.
+
+doc_id=28 page=17 block_id=17-14 bbox=317.97,74.85,329.97,86.85 label=bb 412 412
+line=412 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   17
+
+doc_id=28 page=18 block_id=18-1 bbox=107.97,676.77,538.27,710.85 label=ttt 413 414
+line=413 fonts=F0-10.1 bbox=143.97,700.77,520.01,710.85            :        These  theories both maintain a clear distinction between PRO and other null subjects. There
+line=414 fonts=F0-10.1 bbox=107.97,676.77,538.27,686.85 iscore=0.20:have, however, been proposed modifications to these theories which blur or eliminate this distinction. For
+
+doc_id=28 page=18 block_id=18-2 bbox=107.97,628.77,534.69,662.85 label=ttbt 415 416
+line=415 fonts=F0-10.1 bbox=107.97,652.77,529.68,662.85                    :instance, Huang (1989) proposes a generalized control theory intended to account for all null subjects in
+line=416 fonts=F0-10.1,F2-10.1 bbox=107.97,628.77,534.69,638.85 iscore=0.19:Chinese.  Specifically, he suggests that all null pronominals get controlled within their control domains if
+
+doc_id=28 page=18 block_id=18-3 bbox=107.97,556.77,538.96,614.85 label=ttbb 417 419
+line=417 fonts=F0-10.1,F2-10.1 bbox=107.97,604.77,509.03,614.85    :they have  one. Similarly, Bouchard (1985) argues that PRO, instead of bearing both [+pron] and
+line=418 fonts=F0-10.1 bbox=107.97,580.77,538.96,590.85 iscore=0.11:[+anaph] features is a null pronoun in some environments and a null anaphor in others; In other words, it
+line=419 fonts=F0-10.1 bbox=107.97,556.77,491.0,566.85 iscore=0.32 :is not a special type of empty category, it simply occurs in two different types of environments.
+
+doc_id=28 page=18 block_id=18-4 bbox=107.97,436.77,528.5,518.85 label=tbt 420 422
+line=420 fonts=F1-10.1 bbox=107.97,508.77,363.08,518.85            :1.2.6.                Some  (even) more idiosyncratic cases
+line=421 fonts=F0-10.1 bbox=143.97,460.77,509.21,470.85 iscore=0.06:        There are a number of languages that exhibit null arguments that do not fit into any of the
+line=422 fonts=F0-10.1 bbox=107.97,436.77,528.5,446.85 iscore=0.22 :categories described above. This section should be considered just a small sampling of these languages.
+
+doc_id=28 page=18 block_id=18-5 bbox=143.97,406.77,531.6,417.57 label=tbbt 423 423
+line=423 fonts=F0-10.1,F0-7.9 bbox=143.97,406.77,531.6,417.57:        In German  for instance, only expletives may be null, as shown in (20).14 More precisely, under
+
+doc_id=28 page=18 block_id=18-6 bbox=107.97,334.77,420.95,392.85 label=tbbbt 424 426
+line=424 fonts=F0-10.1,F2-10.1 bbox=107.97,382.77,420.95,392.85                                                              :certain conditions, expletives must be null, as shown in (21) (cf. Safir 1985).
+line=425 tag=L span_id=28-19 lang_name=German lang_code=deu fonts=F0-10.1,F0-9.1 iscore=0.08 bbox=107.97,358.77,254.35,368.85:(20).                  a.     *I"t.
+line=426 tag=G span_id=28-19 lang_name=German lang_code=deu fonts=F2-10.1 iscore=1.00 bbox=233.97,334.77,275.01,344.85       :                              eat-3sing
+
+doc_id=28 page=18 block_id=18-7 bbox=203.97,262.77,359.49,320.85 label=tbbbbt 427 429
+line=427 tag=L+CR span_id=28-20 lang_name=German lang_code=deu fonts=F0-10.1 bbox=233.97,310.77,302.37,320.85                   :                            “ (He/She) eats.”
+line=428 tag=M+CR span_id=28-20 lang_name=German lang_code=deu fonts=F0-10.1,F5-9.1 iscore=0.17 bbox=203.97,286.77,350.84,296.85:                     b.     Er sagte, da" getanzt wurde.
+line=429 tag=G span_id=28-20 lang_name=German lang_code=deu fonts=F2-10.1 iscore=0.20 bbox=233.97,262.77,359.49,272.85          :                            he said   that danced  was
+
+doc_id=28 page=18 block_id=18-8 bbox=107.97,214.77,445.16,248.85 label=tbbbbbt 430 431
+line=430 tag=L+CR span_id=28-21 lang_name=German lang_code=deu fonts=F0-10.1 bbox=233.97,238.77,445.16,248.85                   :                              “He said that there was dancing.” (Safir 1985:197)
+line=431 tag=M+CR span_id=28-21 lang_name=German lang_code=deu fonts=F0-10.1,F5-9.1 iscore=0.12 bbox=107.97,214.77,346.99,225.09:(21).                  Gestern wurde *(es) erklart¨ , da" ...
+
+doc_id=28 page=18 block_id=18-9 bbox=203.97,166.77,420.67,200.85 label=tbbbbbb 432 433
+line=432 tag=G span_id=28-21 lang_name=German lang_code=deu fonts=F2-10.1 bbox=203.97,190.77,358.53,200.85               :                      yesterday  was    it explained  that
+line=433 tag=T+AC span_id=28-21 lang_name=German lang_code=deu fonts=F0-10.1 iscore=0.12 bbox=203.97,166.77,420.67,176.85:                      “It was explained yesterday that ...” (Safir 1985:216)
+
+doc_id=28 page=18 block_id=18-10 bbox=143.97,102.69,475.88,113.49 label=bt 434 434
+line=434 fonts=F0-10.1,F0-7.9 bbox=143.97,102.69,475.88,113.49:        ^{14}Even the German equivalent of the English weather it apparently must be overt.
+
+doc_id=28 page=18 block_id=18-11 bbox=317.97,74.85,329.97,86.85 label=bb 435 435
+line=435 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   18
+
+doc_id=28 page=19 block_id=19-1 bbox=107.97,676.77,534.7,710.85 label=tt 436 437
+line=436 fonts=F0-10.1 bbox=143.97,700.77,534.7,710.85             :        The  basic analysis has been that es is not a subject but is simply a filler inserted to satisfy the V2
+line=437 fonts=F0-10.1 bbox=107.97,676.77,526.97,686.85 iscore=0.19:requirement in German (cf. Haiman 1974, Safir 1985). However, as with the impersonal passive in the
+
+doc_id=28 page=19 block_id=19-2 bbox=107.97,628.77,525.09,662.85 label=tbt 438 439
+line=438 fonts=F0-10.1 bbox=107.97,652.77,517.44,662.85            :subordinate clause in (20)b., sentences missing es may have nothing else that can qualify as an overt
+line=439 fonts=F0-10.1 bbox=107.97,628.77,525.09,638.85 iscore=0.06:subject. Therefore, according to Safir (1985), there must be a null subject of some sort. He argues that
+
+doc_id=28 page=19 block_id=19-3 bbox=107.97,556.77,535.38,614.85 label=tbb 440 442
+line=440 fonts=F0-10.1 bbox=107.97,604.77,535.38,614.85            :this null subject can only be a null expletive pronominal. In his theory, German differs from Italian only
+line=441 fonts=F0-10.1 bbox=107.97,580.77,525.57,590.85 iscore=0.11:in its lack of a “major clitic paradigm” to absorb the subject theta-role and thereby permit the null (still
+line=442 fonts=F0-10.1 bbox=107.97,556.77,275.97,566.85 iscore=0.16:expletive) pronominal in other situations.
+
+doc_id=28 page=19 block_id=19-4 bbox=107.97,502.77,538.53,536.85 label=btt 443 444
+line=443 fonts=F0-10.1 bbox=143.97,526.77,538.53,536.85            :        In Yiddish, as described in Prince (1994), null subjects are limited to the colloquial language, but
+line=444 fonts=F0-10.1 bbox=107.97,502.77,519.62,512.85 iscore=0.25:are a well-formed, non-telegraphic phenomenon in this register. Unlike German, null subjects do not
+
+doc_id=28 page=19 block_id=19-5 bbox=107.97,454.77,531.55,488.85 label=btbt 445 446
+line=445 fonts=F0-10.1 bbox=107.97,478.77,507.77,488.85            :occur only with expletives. Though Yiddish has historically been said to allow only second person
+line=446 fonts=F0-10.1 bbox=107.97,454.77,531.55,464.85 iscore=0.16:singular (du) null subjects, the data in Prince (1994) show null subjects of all types. Null subjects do not
+
+doc_id=28 page=19 block_id=19-6 bbox=107.97,406.77,518.88,440.85 label=btbb 447 448
+line=447 fonts=F0-10.1 bbox=107.97,430.77,518.88,440.85            :have to be sentence-initial, but they must be clause-initial and may not follow a filled COMP, and are
+line=448 fonts=F0-10.1 bbox=107.97,406.77,474.48,416.85 iscore=0.06:therefore not found in topicalized constructions or with other lexically-realized preverbals.
+
+doc_id=28 page=19 block_id=19-7 bbox=107.97,352.77,531.82,386.85 label=bbtt 449 450
+line=449 fonts=F0-10.1 bbox=143.97,376.77,531.82,386.85            :         The exception to this rule is discourse-deictic or ‘ambient’ subjects. In contrast to the restricted
+line=450 fonts=F0-10.1 bbox=107.97,352.77,503.02,362.85 iscore=0.11:German  expletive es, a broader range of ‘ambient’ es uses may also be null in Yiddish, and these
+
+doc_id=28 page=19 block_id=19-8 bbox=107.97,304.77,535.61,338.85 label=bbtbt 451 452
+line=451 fonts=F0-10.1 bbox=107.97,328.77,508.33,338.85            :environments  are not in complementary distribution with those that allow the overt ‘ambient’ es in
+line=452 fonts=F0-10.1 bbox=107.97,304.77,535.61,314.85 iscore=0.33:Yiddish. Therefore, Safir's analysis of German null expletives can not be transferred directly to Yiddish.
+
+doc_id=28 page=19 block_id=19-9 bbox=107.97,256.77,527.75,290.85 label=bbtbb 453 454
+line=453 fonts=F0-10.1 bbox=107.97,280.77,527.75,290.85            :Whether the same syntactic arguments indicating the presence of a null pronominal expletive subject in
+line=454 fonts=F0-10.1 bbox=107.97,256.77,340.29,266.85 iscore=0.13:German  nonetheless hold for Yiddish remains to be seen.
+
+doc_id=28 page=19 block_id=19-10 bbox=107.97,202.77,531.83,236.85 label=bbbtt 455 456
+line=455 fonts=F0-10.1 bbox=143.97,226.77,531.83,236.85            :        Example  (22) shows Yiddish sentences with sentence-initial null subjects of various types, (23)
+line=456 fonts=F0-10.1 bbox=107.97,202.77,464.28,212.85 iscore=0.14:shows a non-sentence-initial example, and (24) gives an example of a null ‘ambient’ es.
+
+doc_id=28 page=19 block_id=19-11 bbox=107.97,130.77,211.53,188.85 label=bbbtbl 457 458
+line=457 fonts=F0-10.1 bbox=107.97,178.77,211.09,188.85            :(22).                    a.
+line=458 fonts=F0-10.1 bbox=203.97,130.77,211.53,140.85 iscore=1.00:                         b.
+
+doc_id=28 page=19 block_id=19-12 bbox=233.93,154.77,356.86,188.85 label=bbbtbrt 459 460
+line=459 tag=L span_id=28-22 lang_name=Yiddish lang_code=ydd fonts=F0-10.1 bbox=233.93,178.77,353.5,188.85             :                            Veyst, az ikh bin dir mekane.
+line=460 tag=T span_id=28-22 lang_name=Yiddish lang_code=ydd fonts=F0-10.1 iscore=0.50 bbox=233.97,154.77,356.86,164.85:                            “(You) know that I envy you.”
+
+doc_id=28 page=19 block_id=19-13 bbox=233.97,106.77,367.41,140.85 label=bbbtbrb 461 462
+line=461 tag=L span_id=28-23 lang_name=Yiddish lang_code=ydd fonts=F0-10.1 bbox=233.98,130.77,346.04,140.85            :                             Bin opgeven  a khoydesh, ...
+line=462 tag=T span_id=28-23 lang_name=Yiddish lang_code=ydd fonts=F0-10.1 iscore=0.43 bbox=233.97,106.77,367.41,116.85:                             “(I) have been (here) a month, ...
+
+doc_id=28 page=19 block_id=19-14 bbox=317.97,74.85,329.97,86.85 label=bbbb 463 463
+line=463 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   19
+
+doc_id=28 page=20 block_id=20-1 bbox=203.97,676.77,437.02,710.85 label=ttt 464 465
+line=464 tag=L span_id=28-24 lang_name=Yiddish lang_code=ydd fonts=F0-10.1 bbox=203.97,700.77,329.02,710.85               :                      c.     Badarft bentshn goyml.
+line=465 tag=T+AC span_id=28-24 lang_name=Yiddish lang_code=ydd fonts=F0-10.1 iscore=0.33 bbox=233.97,676.77,437.02,686.85:                             (She) works too hard.”         (Prince 1994:2)
+
+doc_id=28 page=20 block_id=20-2 bbox=107.97,628.77,432.43,662.85 label=ttbt 466 467
+line=466 tag=L span_id=28-25 lang_name=Yiddish lang_code=ydd fonts=F0-10.1 bbox=107.97,652.77,318.21,662.85               :(23).                 Take, meynst mist an emes?
+line=467 tag=T+AC span_id=28-25 lang_name=Yiddish lang_code=ydd fonts=F0-10.1 iscore=0.29 bbox=203.97,628.77,432.43,638.85:                      “Indeed, (you) really mean it?”      (Prince 1994:4)
+
+doc_id=28 page=20 block_id=20-3 bbox=107.97,556.77,487.13,614.85 label=ttbb 468 470
+line=468 tag=L span_id=28-26 lang_name=German lang_code=deu fonts=F0-10.1 bbox=107.97,604.77,487.13,614.85               :(24).                 O, ven ikh volt es gekent makhn azoy, az aykh zol zayn gut bay undz.
+line=469 tag=T span_id=28-26 lang_name=German lang_code=deu fonts=F0-10.1 iscore=0.33 bbox=203.97,580.77,474.43,590.85   :                      “Oh, if I could have made it so that (it) was pleasant for you here.”
+line=470 tag=M+AC span_id=28-26 lang_name=German lang_code=deu fonts=F0-10.1 iscore=0.00 bbox=358.66,556.77,423.07,566.85:                                                         (Prince 1994:7)
+
+doc_id=28 page=20 block_id=20-4 bbox=107.97,502.77,532.96,536.85 label=tbtt 471 472
+line=471 fonts=F0-10.1 bbox=143.97,526.77,523.93,536.85            :        Prince (1994) demonstrates that null arguments are not a unitary phenomenon in Yiddish. In
+line=472 fonts=F0-10.1 bbox=107.97,502.77,532.96,512.85 iscore=0.19:addition to the different syntactic constraints described above, her data analysis indicates a diverse set of
+
+doc_id=28 page=20 block_id=20-5 bbox=107.97,454.77,531.77,488.85 label=tbtbt 473 474
+line=473 fonts=F0-10.1 bbox=107.97,478.77,522.44,488.85            :phenomena   with different discourse constraints. In particular, in her examination of null subjects that
+line=474 fonts=F0-10.1 bbox=107.97,454.77,531.77,464.85 iscore=0.21:represent ‘nominally-introduced’ discourse entities (i.e., those null subjects whose referents have already
+
+doc_id=28 page=20 block_id=20-6 bbox=107.97,406.76,533.96,440.85 label=tbtbbt 475 476
+line=475 fonts=F0-10.1 bbox=107.97,430.77,533.96,440.85            :been overtly introduced into the discourse context), the high frequency of missing second person singular
+line=476 fonts=F0-10.1 bbox=107.97,406.76,522.71,416.84 iscore=0.20:subjects ( Prince's “Du-Drop”), is attributable to its relative insensitivity to other discourse constraints.
+
+doc_id=28 page=20 block_id=20-7 bbox=107.97,358.76,530.86,392.84 label=tbtbbbtt 477 478
+line=477 fonts=F0-10.1 bbox=107.97,382.76,530.86,392.84            :All other null subjects in this class (i.e. 1sing/plur, 2plur, and 3sing/plur) are much rarer, being likely to
+line=478 fonts=F0-10.1 bbox=107.97,358.76,527.45,368.84 iscore=0.11:occur only when  their referent is the entity which the discourse just before that point was most centrally
+
+doc_id=28 page=20 block_id=20-8 bbox=107.97,334.76,523.14,345.57 label=tbtbbbtb 479 479
+line=479 fonts=F0-10.1,F0-7.9 bbox=107.97,334.76,523.14,345.57:about.15 Finally, Prince notes that Yiddish also has null objects. Unlike the null subjects, they are not
+
+doc_id=28 page=20 block_id=20-9 bbox=107.97,262.77,535.38,320.85 label=tbtbbbb 480 482
+line=480 fonts=F0-10.1 bbox=107.97,310.77,535.38,320.85            :restricted to colloquial language and are not licensed by overt agreement. Unfortunately, to the best of my
+line=481 fonts=F0-10.1 bbox=107.97,286.77,519.58,296.85 iscore=0.24:knowledge  no work has been done to determine exactly how extensive or how pronoun-like these null
+line=482 fonts=F0-10.1 bbox=107.97,262.77,153.33,272.85 iscore=0.06:objects are.
+
+doc_id=28 page=20 block_id=20-10 bbox=107.97,184.77,533.72,242.85 label=tbb 483 485
+line=483 fonts=F0-10.1 bbox=143.97,232.77,533.72,242.85            :        Null pronouns also occur in a variety of positions in Chamorro. Some of these positions involve
+line=484 fonts=F0-10.1 bbox=107.97,208.77,531.05,218.85 iscore=0.00:rich agreement and some do not. According to Chung (1984), there is no person/number morphology to
+line=485 fonts=F0-10.1 bbox=107.97,184.77,518.57,194.85 iscore=0.33:identify null objects, and yet they occur. These null objects do, in fact, behave like pronouns, not like
+
+doc_id=28 page=20 block_id=20-11 bbox=107.97,102.69,535.63,149.49 label=bt 486 489
+line=486 fonts=F0-10.1,F0-7.9 bbox=143.97,138.69,535.63,149.49     :         ^{15}This entity may be loosely thought of as the discourse topic, though Prince's study was actually
+line=487 fonts=F0-10.1 bbox=107.97,126.69,527.95,136.77 iscore=0.12:conducted more  formally within the framework of centering theory, a theory of local discourse structure
+line=488 fonts=F0-10.1 bbox=107.97,114.69,534.2,124.77 iscore=0.11 :which is discussed in some detail later in this thesis. In centering terms, these null subjects only occur in
+line=489 fonts=F0-10.1 bbox=107.97,102.69,198.46,112.77 iscore=0.05:`Continue' transitions.
+
+doc_id=28 page=20 block_id=20-12 bbox=317.97,74.85,329.97,86.85 label=bb 490 490
+line=490 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   20
+
+doc_id=28 page=21 block_id=21-1 bbox=107.97,676.77,537.34,710.85 label=tt 491 492
+line=491 fonts=F0-10.1 bbox=107.97,700.77,537.34,710.85            :variables. An interesting Chamorro constraint is that, if only one NP is overt, the overt argument must be
+line=492 fonts=F0-10.1 bbox=107.97,676.77,149.49,686.85 iscore=0.06:the object.
+
+doc_id=28 page=21 block_id=21-2 bbox=107.97,622.77,538.27,656.85 label=tbtt 493 494
+line=493 fonts=F0-10.1 bbox=143.97,646.77,538.27,656.85            :        Like Chamorro,  Brazilian Portuguese (BP) allows null objects though there are no morphological
+line=494 fonts=F0-10.1 bbox=107.97,622.77,526.01,632.85 iscore=0.21:features to make them syntactically ‘recoverable’. Farrell (1990) shows that, as with Chamorro, these
+
+doc_id=28 page=21 block_id=21-3 bbox=107.97,574.77,522.44,608.85 label=tbtbt 495 496
+line=495 fonts=F0-10.1 bbox=107.97,598.77,522.44,608.85            :null objects are pronominal in nature, but, unlike Chamorro, only third person objects may be null. In
+line=496 fonts=F0-10.1 bbox=107.97,574.77,512.39,584.85 iscore=0.35:addition, there is apparently a marked preference for null inanimate objects and overt animate ones.
+
+doc_id=28 page=21 block_id=21-4 bbox=107.97,526.77,532.8,560.85 label=tbtbb 497 498
+line=497 fonts=F0-10.1 bbox=107.97,550.77,503.72,560.85           :Farrell suggests that there is an appropriateness constraint on null objects based on animacy, with
+line=498 fonts=F0-10.1 bbox=107.97,526.77,532.8,536.85 iscore=0.07:inanimate objects being most appropriate and first/second person objects being completely inappropriate.
+
+doc_id=28 page=21 block_id=21-5 bbox=107.97,472.77,532.1,506.85 label=tbbt 499 500
+line=499 fonts=F0-10.1 bbox=143.97,496.77,503.93,506.85           :        Fijian is another interesting example because it marks the ‘suppression’ of an obligatory
+line=500 fonts=F0-10.1 bbox=107.97,472.77,532.1,482.85 iscore=0.13:argument with reduplication. Jonas and Lathroum (1992) note this pattern and offer the example below.
+
+doc_id=28 page=21 block_id=21-6 bbox=107.97,448.77,211.0,458.85 label=tbbbtl 501 501
+line=501 fonts=F0-10.1 bbox=107.97,448.77,211.0,458.85:(25).                    a.
+
+doc_id=28 page=21 block_id=21-7 bbox=233.84,424.77,348.76,458.85 label=tbbbtr 502 503
+line=502 tag=L span_id=28-27 lang_name=Fijian lang_code=fij fonts=F0-10.1,F0-7.0 bbox=233.84,447.33,348.76,458.85     :                             e vuli-ca [a fika]o [o Maria]s
+line=503 tag=T span_id=28-27 lang_name=Fijian lang_code=fij fonts=F0-10.1 iscore=0.50 bbox=233.97,424.77,336.93,434.85:                             “Mary  is studying math.”
+
+doc_id=28 page=21 block_id=21-8 bbox=203.97,376.77,368.37,410.85 label=tbbbbt 504 505
+line=504 tag=L span_id=28-28 lang_name=Fijian lang_code=fij fonts=F0-10.1,F0-7.0 bbox=203.97,399.33,321.4,410.85      :                       b.     e vuli.vuli. [o Maria]_{s}
+line=505 tag=T span_id=28-28 lang_name=Fijian lang_code=fij fonts=F0-10.1 iscore=0.20 bbox=233.97,376.77,368.37,386.85:                              “Mary  is studying and studying.”
+
+doc_id=28 page=21 block_id=21-9 bbox=107.97,328.77,534.46,362.85 label=tbbbbbt 506 507
+line=506 fonts=F0-10.1 bbox=107.97,352.77,508.34,362.85                    :Only truly transitive verbs reduplicate, not intransitives or unaccusatives. Fijian has the additional
+line=507 fonts=F0-10.1,F2-10.1 bbox=107.97,328.77,534.46,338.85 iscore=0.25:intriguing property, again described in Jonas and Lathroum (1992), that not all obligatory arguments of a
+
+doc_id=28 page=21 block_id=21-10 bbox=107.97,280.77,535.62,314.85 label=tbbbbbbt 508 509
+line=508 fonts=F0-10.1 bbox=107.97,304.77,535.62,314.85            :verb may be suppressed. So, when reduplication is applied to what they call a “Type E” verb (a verb with
+line=509 fonts=F0-10.1 bbox=107.97,280.77,451.89,290.85 iscore=0.20:an unccusative analysis), the missing object has definite reference, as in (26)b below.
+
+doc_id=28 page=21 block_id=21-11 bbox=107.97,160.77,211.57,266.85 label=tbbbbbbbl 510 512
+line=510 fonts=F0-10.1 bbox=107.97,256.77,211.07,266.85            :(26).                     a.
+line=511 fonts=F0-10.1 bbox=203.97,208.77,211.57,218.85 iscore=1.00:                          b.
+line=512 fonts=F0-10.1 bbox=203.97,160.77,211.01,170.85 iscore=1.00:                          c.
+
+doc_id=28 page=21 block_id=21-12 bbox=233.91,232.77,359.73,266.85 label=tbbbbbbbrt 513 514
+line=513 tag=L span_id=28-29 lang_name=Fijian lang_code=fij fonts=F0-10.1,F0-7.0 bbox=233.91,255.33,359.32,266.85     :                            e kama-ca [a isulu]o [o Maria]s
+line=514 tag=T span_id=28-29 lang_name=Fijian lang_code=fij fonts=F0-10.1 iscore=0.17 bbox=233.97,232.77,359.73,242.85:                            “Mary  is burning the garment”
+
+doc_id=28 page=21 block_id=21-13 bbox=233.97,184.77,378.21,218.85 label=tbbbbbbbrbt 515 516
+line=515 tag=L span_id=28-30 lang_name=Fijian lang_code=fij fonts=F0-10.1,F0-7.0 bbox=234.06,207.33,331.72,218.85     :                            e kama.kama  [o Maria]_{s}
+line=516 tag=T span_id=28-30 lang_name=Fijian lang_code=fij fonts=F0-10.1 iscore=0.17 bbox=233.97,184.77,378.21,194.85:                            “Mary is burning and burning (it).”
+
+doc_id=28 page=21 block_id=21-14 bbox=233.97,136.77,341.48,170.85 label=tbbbbbbbrbb 517 518
+line=517 tag=L span_id=28-31 lang_name=Fijian lang_code=fij fonts=F0-10.1,F0-7.0 bbox=233.97,159.33,301.96,170.85     :                            e kama  [a isulu]_{s}
+line=518 tag=T span_id=28-31 lang_name=Fijian lang_code=fij fonts=F0-10.1 iscore=0.25 bbox=233.97,136.77,341.48,146.85:                            “The  garment is burning.”
+
+doc_id=28 page=21 block_id=21-15 bbox=317.97,74.85,329.97,86.85 label=b 519 519
+line=519 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   21
+
+doc_id=28 page=22 block_id=22-1 bbox=107.97,676.77,538.31,710.85 label=ttt 520 521
+line=520 fonts=F0-10.1 bbox=143.97,700.77,534.22,710.85            :        Finally, Lillo-Martin (1986) argues that American Sign Language (ASL) has two different types
+line=521 fonts=F0-10.1 bbox=107.97,676.77,538.31,686.85 iscore=0.11:of null arguments, the type available being dependent on the verb. The first type, which occurs with verbs
+
+doc_id=28 page=22 block_id=22-2 bbox=107.97,604.77,530.63,662.85 label=ttb 522 524
+line=522 fonts=F0-10.1 bbox=107.97,652.77,488.41,662.85            :that can spatially mark agreement, is obligatory when this marking occurs, and behaves like a
+line=523 fonts=F0-10.1 bbox=107.97,628.77,530.63,638.85 iscore=0.18:pronominal.  In this sense, says Lillo-Martin, it is like null arguments in Irish, which are also obligatory
+line=524 fonts=F0-10.1 bbox=107.97,604.77,244.53,614.85 iscore=0.12:when  certain morphology is used.
+
+doc_id=28 page=22 block_id=22-3 bbox=107.97,550.77,528.42,584.85 label=tbt 525 526
+line=525 fonts=F0-10.1 bbox=143.97,574.77,523.65,584.85            :        The other type of null argument in ASL occurs with verbs that can not mark agreement (what
+line=526 fonts=F0-10.1 bbox=107.97,550.77,528.42,560.85 iscore=0.12:Lillo-Martin calls “plain verbs”). Lillo-Martin argues that ASL may be considered a discourse-oriented
+
+doc_id=28 page=22 block_id=22-4 bbox=107.97,502.77,524.34,536.85 label=tbbt 527 528
+line=527 fonts=F0-10.1 bbox=107.97,526.77,524.34,536.85            :language, and that Huang's theory of a null TOPIC-variable construction holds for null objects of these
+line=528 fonts=F0-10.1 bbox=107.97,502.77,520.99,512.85 iscore=0.39:plain verbs, while the null subjects in these cases would presumably be treated like the null subjects of
+
+doc_id=28 page=22 block_id=22-5 bbox=107.97,406.77,539.75,488.85 label=tbbb 529 531
+line=529 fonts=F0-10.1 bbox=107.97,478.77,539.75,488.85                    :other discourse-oriented languages. It seems to me that this raises an interesting issue, i.e., if Chamorro is
+line=530 fonts=F0-10.1,F2-10.1 bbox=107.97,454.77,452.03,464.85 iscore=0.12:a discourse-oriented language, why does subject agreement get marked for any verb?
+line=531 fonts=F1-10.1 bbox=107.97,406.77,284.83,416.85 iscore=0.08        :1.2.7.                A  unifying theory?
+
+doc_id=28 page=22 block_id=22-6 bbox=107.97,328.77,523.21,362.85 label=btt 532 533
+line=532 fonts=F0-10.1 bbox=143.97,352.77,523.21,362.85            :         It should be clear from this discussion of existing theories that the cross-linguistic data is rich
+line=533 fonts=F0-10.1 bbox=107.97,328.77,514.28,338.85 iscore=0.17:and diverse. None  of the theories above even attempt to capture all the data that has been described.
+
+doc_id=28 page=22 block_id=22-7 bbox=107.97,280.76,537.83,314.85 label=btbt 534 535
+line=534 fonts=F0-10.1 bbox=107.97,304.77,534.2,314.85                    :Of course, efforts have been made to form a typology of languages more completely or in other ways with
+line=535 fonts=F0-10.1,F0-7.9 bbox=107.97,280.76,537.83,291.57 iscore=0.16:respect to the availability of null arguments. One good example is Kameyama (1985).16 Considering two
+
+doc_id=28 page=22 block_id=22-8 bbox=107.97,232.77,540.0,266.85 label=btbbt 536 537
+line=536 fonts=F0-10.1 bbox=107.97,256.77,540.0,266.85             :characteristics, the need for overt pronouns and the presence of bound morphemes with argument features,
+line=537 fonts=F0-10.1 bbox=107.97,232.77,536.41,242.85 iscore=0.33:she argues for four basic types of null subjects: (I) languages which require free pronouns and have bound
+
+doc_id=28 page=22 block_id=22-9 bbox=107.97,160.77,526.09,218.85 label=btbbb 538 540
+line=538 fonts=F0-10.1 bbox=107.97,208.77,515.02,218.85            :morphemes   indicating argument features (eg., German, French, English), (II) languages which have
+line=539 fonts=F0-10.1 bbox=107.97,184.77,525.09,194.85 iscore=0.18:obligatory bound morphology  in the form of either inflections, affixes or clitics but do not require overt
+line=540 fonts=F0-10.1 bbox=107.97,160.77,526.09,170.85 iscore=0.12:free pronouns as well (eg., Italian, Spanish, Warlpiri, Chichewa), (III) languages which require neither
+
+doc_id=28 page=22 block_id=22-10 bbox=107.97,102.69,506.61,125.49 label=bbt 541 542
+line=541 fonts=F0-10.1,F0-7.9 bbox=143.97,114.69,506.61,125.49     :        ^{16}It should be noted though that Kameyama appears to be influenced by phylogenetic and
+line=542 fonts=F0-10.1 bbox=107.97,102.69,341.04,112.77 iscore=0.07:geographic patterns as well as by parametric possibilities.
+
+doc_id=28 page=22 block_id=22-11 bbox=317.97,74.85,329.97,86.85 label=bbb 543 543
+line=543 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   22
+
+doc_id=28 page=23 block_id=23-1 bbox=107.97,676.77,517.21,710.85 label=tt 544 545
+line=544 fonts=F0-10.1 bbox=107.97,700.77,517.21,710.85            :(Japanese, Chinese, Malayalam) and (IV) languages which require free pronominals and do not have
+line=545 fonts=F0-10.1 bbox=107.97,676.77,292.79,686.85 iscore=0.14:bound morphology  (eg., Afrikaans, Swedish).
+
+doc_id=28 page=23 block_id=23-2 bbox=107.97,622.77,539.21,656.85 label=tbtt 546 547
+line=546 fonts=F0-10.1 bbox=143.97,646.77,534.93,656.85            :        Kameyama   allows for a significant amount of variation within these types. For instance English
+line=547 fonts=F0-10.1 bbox=107.97,622.77,539.21,632.85 iscore=0.20:is classified with languages which require both overt subjects and overt bound subject morphology because
+
+doc_id=28 page=23 block_id=23-3 bbox=107.97,574.77,536.63,608.85 label=tbtbt 548 549
+line=548 fonts=F0-10.1 bbox=107.97,598.77,512.11,608.85            :of its solitary 3rd person singular marking, contrasting it with Afrikaans, which has no subject-verb
+line=549 fonts=F0-10.1 bbox=107.97,574.77,536.63,584.85 iscore=0.20:agreement, and equating it with German which has a richer inflectional system but nevertheless generally
+
+doc_id=28 page=23 block_id=23-4 bbox=107.97,502.77,538.05,560.85 label=tbtbb 550 552
+line=550 fonts=F0-10.1 bbox=107.97,550.77,528.26,560.85            :requires overt subjects. Kameyama also creates a special subtype of the type IV languages, to include a
+line=551 fonts=F0-10.1 bbox=107.97,526.77,538.05,536.85 iscore=0.24:group of languages which allow null third person subjects and have no overt “dummy” subject (though it's
+line=552 fonts=F0-10.1 bbox=107.97,502.77,489.11,512.85 iscore=0.24:not clear why these languages are not equally acceptable as members of a subclass of type III.)
+
+doc_id=28 page=23 block_id=23-5 bbox=107.97,448.77,515.49,482.85 label=tbbtt 553 554
+line=553 fonts=F0-10.1 bbox=143.97,472.77,515.49,482.85            :         This typology is designed to be enumerative, ie. every language of the world by definition is
+line=554 fonts=F0-10.1 bbox=107.97,448.77,496.76,458.85 iscore=0.20:assigned to one of these types, but it is not an explanatory one. First, it looks only at the surface
+
+doc_id=28 page=23 block_id=23-6 bbox=107.97,376.76,533.44,434.85 label=tbbtb 555 557
+line=555 fonts=F0-10.1 bbox=107.97,424.77,521.76,434.85            :similarities, eg., it does not distinguish between languages that represent null arguments differently or
+line=556 fonts=F0-10.1 bbox=107.97,400.77,533.44,410.85 iscore=0.20:allow them under different conditions. Secondly, it doesn't allow for degrees to which overt pronominals
+line=557 fonts=F0-10.1 bbox=107.97,376.76,431.76,386.84 iscore=0.20:are required or the relative strength or weakness of the bound morphology used.
+
+doc_id=28 page=23 block_id=23-7 bbox=107.97,322.76,527.25,356.84 label=tbbbt 558 559
+line=558 fonts=F0-10.1 bbox=143.97,346.76,527.25,356.84            :         It seems beneficial to question whether any simple set of parameters is sufficient to explain the
+line=559 fonts=F0-10.1 bbox=107.97,322.76,509.72,332.84 iscore=0.29:full universe of possibilities for null arguments. An alternative hypothesis is that there is, in fact, a
+
+doc_id=28 page=23 block_id=23-8 bbox=107.97,274.76,530.63,308.84 label=tbbbbt 560 561
+line=560 fonts=F0-10.1 bbox=107.97,298.76,530.63,308.84            :continuum  from null argument to non-null argument languages rather than a number of preset language
+line=561 fonts=F0-10.1 bbox=107.97,274.76,528.22,284.84 iscore=0.12:types. Under this analysis, the grammatical properties of a particular language, as well as other choices
+
+doc_id=28 page=23 block_id=23-9 bbox=107.97,226.76,537.6,260.84 label=tbbbbbt 562 563
+line=562 fonts=F0-10.1 bbox=107.97,250.76,526.06,260.84           :that the language makes about representing saliency and other discourse/pragmatic features, may affect
+line=563 fonts=F0-10.1 bbox=107.97,226.76,537.6,236.84 iscore=0.24:the likelihood of null arguments in that language but not predetermine it. The only absolute constraint on
+
+doc_id=28 page=23 block_id=23-10 bbox=107.97,178.76,535.62,212.84 label=tbbbbbbt 564 565
+line=564 fonts=F0-10.1,F2-10.1 bbox=107.97,202.76,535.62,212.84    :null arguments would then be related to the issue of interpretability, a necessary component of all aspects
+line=565 fonts=F0-10.1 bbox=107.97,178.76,530.61,188.84 iscore=0.28:of a language. A language may, in principle, obey this constraint by using null arguments that have one
+
+doc_id=28 page=23 block_id=23-11 bbox=107.97,154.76,270.21,165.57 label=tbbbbbbb 566 566
+line=566 fonts=F0-10.1,F0-7.9 bbox=107.97,154.76,270.21,165.57:(or more) of the characteristics below:^{17}
+
+doc_id=28 page=23 block_id=23-12 bbox=107.97,102.69,522.25,125.49 label=bt 567 568
+line=567 fonts=F0-10.1,F0-7.9 bbox=143.97,114.69,522.25,125.49     :         ^{17}I am not making the strong claim here that this is an exhaustive list. My main point is that
+line=568 fonts=F0-10.1 bbox=107.97,102.69,502.06,112.77 iscore=0.05:there are multiple ways to satisfy the interpretability condition. Note also that the interpretability
+
+doc_id=28 page=23 block_id=23-13 bbox=317.97,74.85,329.97,86.85 label=bb 569 569
+line=569 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   23
+
+doc_id=28 page=24 block_id=24-1 bbox=107.97,676.77,411.34,710.85 label=ttt 570 571
+line=570 fonts=F0-10.1,F1-10.1 bbox=107.97,700.77,396.22,710.85    :(27).       Means  for Achieving Interpretability of Null Pronouns
+line=571 fonts=F0-10.1 bbox=161.97,676.77,411.34,686.85 iscore=0.43:            i.       Recoverable from grammatical features in sentence
+
+doc_id=28 page=24 block_id=24-2 bbox=161.97,628.77,468.24,662.85 label=ttbt 572 573
+line=572 fonts=F0-10.1 bbox=161.97,652.77,393.11,662.85            :             ii.       Recoverable  from discourse/situational context
+line=573 fonts=F0-10.1 bbox=161.97,628.77,468.24,638.85 iscore=0.40:             iii.      Recoverable  because of limited feature variation in null pronouns
+
+doc_id=28 page=24 block_id=24-3 bbox=161.97,580.77,292.27,614.85 label=ttbb 574 575
+line=574 fonts=F0-10.1 bbox=161.97,604.77,292.27,614.85            :             iv        Arbitrary in reference
+line=575 fonts=F0-10.1 bbox=161.97,580.77,242.38,590.85 iscore=0.50:             v.        Expletive
+
+doc_id=28 page=24 block_id=24-4 bbox=107.97,526.77,530.42,560.85 label=tbt 576 577
+line=576 fonts=F0-10.1 bbox=143.97,550.77,520.27,560.85            :         We can also ask whether we can identify certain general discourse effects associated with the
+line=577 fonts=F0-10.1 bbox=107.97,526.77,530.42,536.85 iscore=0.06:types of null arguments available in a language and the way it satisfies interpretability, or if the function
+
+doc_id=28 page=24 block_id=24-5 bbox=107.97,454.77,415.17,513.57 label=tbb 578 579
+line=578 fonts=F0-10.1,F0-7.9 bbox=107.97,502.77,415.17,513.57     :of null arguments is partially or completely independent of these patterns.^{18}
+line=579 fonts=F1-10.1 bbox=107.97,454.77,404.87,464.85 iscore=0.27:1.3.               INTRODUCTION     TO  THE  ENGLISH  DATA
+
+doc_id=28 page=24 block_id=24-6 bbox=107.97,376.77,534.47,410.85 label=btt 580 581
+line=580 fonts=F0-10.1 bbox=143.97,400.77,534.47,410.85                   :        The  following are examples of the types of null arguments found in English, all of which will be
+line=581 fonts=F0-10.1,F0-7.9 bbox=107.97,376.77,213.57,387.57 iscore=0.00:discussed in this thesis. ^{19}
+
+doc_id=28 page=24 block_id=24-7 bbox=107.97,328.77,407.0,362.85 label=btbt 582 583
+line=582 fonts=F0-10.1 bbox=107.97,352.77,407.0,362.85            :(28).                  Should've left while I had the chance. (1st person)
+line=583 fonts=F0-10.1 bbox=107.97,328.77,377.0,338.85 iscore=0.20:(29).                  Arrived yesterday. (1st, 2nd or 3rd person)
+
+doc_id=28 page=24 block_id=24-8 bbox=107.97,256.77,410.64,314.85 label=btbb 584 586
+line=584 fonts=F0-10.1 bbox=107.97,304.77,410.64,314.85            :(30).                  Certainly is an unusual painting style. (3rd person)
+line=585 fonts=F0-10.1 bbox=107.97,280.77,331.63,290.85 iscore=0.22:(31).                  Looks  like rain. ( weather “it”)
+line=586 fonts=F0-10.1 bbox=107.97,256.77,358.3,266.85 iscore=0.43 :(32).                  Seems  to be working. (pleonastic “it”)
+
+doc_id=28 page=24 block_id=24-9 bbox=107.97,102.69,538.09,232.77 label=bbt 587 597
+line=587 fonts=F0-10.1 bbox=107.97,222.69,533.69,232.77                   :condition is, roughly speaking, a broadened and more robust version of the recoverability condition, but I
+line=588 fonts=F0-10.1 bbox=107.97,210.69,527.77,220.77 iscore=0.38       :avoid this term both to avoid confusion and because it carries connotations of a syntactic/morphological
+line=589 fonts=F0-10.1 bbox=107.97,198.69,140.37,208.77 iscore=0.07       :process.
+line=590 fonts=F0-10.1,F0-7.9 bbox=143.97,186.69,491.28,197.49 iscore=0.00:         ^{18}See Prince (1996?) for an interesting, related discussion of the independence of (the
+line=591 fonts=F0-10.1 bbox=107.97,174.69,518.35,184.77 iscore=0.07       :instantiated form of) a grammatical `construction' in a particular language and its discourse function.
+line=592 fonts=F0-10.1,F0-7.9 bbox=143.97,162.69,531.57,173.49 iscore=0.18:         ^{19}The reader may notice that I have left out the null arguments of nominalizations such as “the
+line=593 fonts=F0-10.1 bbox=107.97,150.69,508.06,160.77 iscore=0.12       :(boy's) destruction (of the sandcastle)", as well as the passive, tough and middle constructions (and
+line=594 fonts=F0-10.1 bbox=107.97,138.69,538.09,148.77 iscore=0.11       :probably other types as well). Although it would be interesting to see if the ideas expressed here extend to
+line=595 fonts=F0-10.1 bbox=107.97,126.69,526.32,136.77 iscore=0.26       :these cases, particularly in the discussion of discourse theory in Chapter 5, a treatment of each of these
+line=596 fonts=F0-10.1 bbox=107.97,114.69,529.88,124.77 iscore=0.44       :types involves more than just a null argument in its canonical position and is therefore beyond the scope
+line=597 fonts=F0-10.1 bbox=107.97,102.69,347.5,112.77 iscore=0.17        :of this current work. I leave this as an area of future study.
+
+doc_id=28 page=24 block_id=24-10 bbox=317.97,74.85,329.97,86.85 label=bbb 598 598
+line=598 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   24
+
+doc_id=28 page=25 block_id=25-1 bbox=107.97,676.77,434.13,710.85 label=ttt 599 600
+line=599 fonts=F0-10.1 bbox=107.97,700.77,434.13,710.85            :(33).                  Drive on the right side of the street. (imperative subject)
+line=600 fonts=F0-10.1 bbox=107.97,676.77,350.82,686.85 iscore=0.18:(34).                  Finish your project yet? (Aux - subj)
+
+doc_id=28 page=25 block_id=25-2 bbox=107.97,628.77,480.47,662.85 label=ttbt 601 602
+line=601 fonts=F0-10.1 bbox=107.97,652.77,480.47,662.85            :(35).                 John thinks that feeding himself will be difficult. (pronominal PRO)
+line=602 fonts=F0-10.1 bbox=107.97,628.77,375.32,638.85 iscore=0.18:(36).                 The children want to go. (anaphoric PRO)
+
+doc_id=28 page=25 block_id=25-3 bbox=107.97,580.77,360.68,614.85 label=ttbbt 603 604
+line=603 fonts=F0-10.1 bbox=107.97,604.77,285.59,614.85            :(37).                   John called. (object)
+line=604 fonts=F0-10.1 bbox=107.97,580.77,360.68,590.85 iscore=0.29:(38).                   Everyone  drank at Bill's party. (object)
+
+doc_id=28 page=25 block_id=25-4 bbox=107.97,508.77,490.59,566.85 label=ttbbb 605 607
+line=605 fonts=F0-10.1 bbox=107.97,556.77,401.5,566.85             :(39).                   The animals always  know  first. (event reference)
+line=606 fonts=F0-10.1 bbox=107.97,532.77,490.59,542.85 iscore=0.18:(40).                   This insurance policy only protects against theft. (arbitrary null object)
+line=607 fonts=F0-10.1 bbox=107.97,508.77,405.31,518.85 iscore=0.27:(41).                   Insert in slot B. (objects in instructional registers)
+
+doc_id=28 page=25 block_id=25-5 bbox=107.97,454.77,534.46,488.85 label=tbtt 608 609
+line=608 fonts=F0-10.1 bbox=143.97,478.77,500.86,488.85            :        Superficially, these examples look very similar to the types of constructions found in the
+line=609 fonts=F0-10.1 bbox=107.97,454.77,534.46,464.85 iscore=0.19:languages mentioned  above. In particular, examples (28) - (32) look identical to examples of pro-drop in
+
+doc_id=28 page=25 block_id=25-6 bbox=107.97,406.76,522.42,440.85 label=tbtbt 610 611
+line=610 fonts=F0-10.1 bbox=107.97,430.77,509.2,440.85             :other languages. (33) and (34) are examples that also look similar, though not identical. (33) is, of
+line=611 fonts=F0-10.1 bbox=107.97,406.76,522.42,416.84 iscore=0.18:course, an imperative construction with a null subject, distinguishable on the surface from pro-drop by
+
+doc_id=28 page=25 block_id=25-7 bbox=107.97,334.76,536.76,392.84 label=tbtbb 612 614
+line=612 fonts=F0-10.1 bbox=107.97,382.76,536.76,392.84            :verb form. (34) also looks like pro-drop but the auxiliary verb is missing as well. Examples (35)-(36) are
+line=613 fonts=F0-10.1 bbox=107.97,358.76,497.51,368.84 iscore=0.11:instances of English PRO. Finally, examples (37)-(41) could a priori be hypothesized to be zero
+line=614 fonts=F0-10.1 bbox=107.97,334.76,187.88,344.84 iscore=0.07:pronominal objects.
+
+doc_id=28 page=25 block_id=25-8 bbox=107.97,280.76,527.47,314.84 label=tbbt 615 616
+line=615 fonts=F0-10.1 bbox=143.97,304.76,507.6,314.84                     :         Of course, many of these examples may, under closer observation, reveal themselves to be
+line=616 fonts=F0-10.1,F2-10.1 bbox=107.97,280.76,527.47,290.84 iscore=0.36:instances of dramatically different grammatical forms, not at all syntactically like their cross-linguistic
+
+doc_id=28 page=25 block_id=25-9 bbox=107.97,232.76,533.77,266.84 label=tbbbt 617 618
+line=617 fonts=F0-10.1 bbox=107.97,256.76,519.1,266.84             :equivalents. Others may  turn out to have very similar syntactic effects, and even those which rely on
+line=618 fonts=F0-10.1 bbox=107.97,232.76,533.77,242.84 iscore=0.12:different grammatical explanations may play similar roles in discourse structure. The major goal for this
+
+doc_id=28 page=25 block_id=25-10 bbox=107.97,160.76,531.36,218.84 label=tbbbb 619 621
+line=619 fonts=F0-10.1 bbox=107.97,208.76,531.36,218.84            :thesis is to characterize both the grammatical and the discourse properties of the null arguments in these
+line=620 fonts=F0-10.1 bbox=107.97,184.76,519.13,194.84 iscore=0.18:English examples and point out the relation between the English constructions and the null argument
+line=621 fonts=F0-10.1 bbox=107.97,160.76,267.82,170.84 iscore=0.13:constructions found in other languages.
+
+doc_id=28 page=25 block_id=25-11 bbox=317.97,74.85,329.97,86.85 label=b 622 622
+line=622 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   25
+
+doc_id=28 page=26 block_id=26-1 bbox=107.97,640.77,509.01,710.85 label=ttt 623 624
+line=623 fonts=F1-10.1 bbox=107.97,700.77,329.73,710.85            :1.4.                 OUTLINE   OF  THE  THESIS
+line=624 fonts=F0-10.1 bbox=143.97,640.77,509.01,650.85 iscore=0.07:        Chapter 2 deals with null subjects in English. I argue that, while deletion of phonological
+
+doc_id=28 page=26 block_id=26-2 bbox=107.97,592.77,517.67,626.85 label=ttbt 625 626
+line=625 fonts=F0-10.1 bbox=107.97,616.77,491.04,626.85            :material in sentence-initial position does occur in conversational English there is evidence for
+line=626 fonts=F0-10.1 bbox=107.97,592.77,517.67,602.85 iscore=0.13:syntactically-present null subjects as well. Using a large corpus of spoken English, I demonstrate the
+
+doc_id=28 page=26 block_id=26-3 bbox=107.97,544.77,508.82,578.85 label=ttbb 627 628
+line=627 fonts=F0-10.1 bbox=107.97,568.77,508.82,578.85            :existence of unique discourse constraints on null subjects in English. In particular I show that null
+line=628 fonts=F0-10.1 bbox=107.97,544.77,458.14,554.85 iscore=0.12:subjects affect discourse structure at a both a hierarchical and a non-hierarchical level.
+
+doc_id=28 page=26 block_id=26-4 bbox=107.97,490.77,536.1,524.85 label=tbtt 629 630
+line=629 fonts=F0-10.1 bbox=143.97,514.77,521.49,524.85           :         Null objects are considered in Chapter 3. Treating the different types of English null objects
+line=630 fonts=F0-10.1 bbox=107.97,490.77,536.1,500.85 iscore=0.33:individually, I show that they are lexically-present but not syntactically-present. I argue that information
+
+doc_id=28 page=26 block_id=26-5 bbox=107.97,442.77,525.37,476.85 label=tbtb 631 632
+line=631 fonts=F0-10.1 bbox=107.97,466.77,525.37,476.85            :in lexical structure can be distinguished from world knowledge based on discourse effects and I discuss
+line=632 fonts=F0-10.1 bbox=107.97,442.77,352.06,452.85 iscore=0.12:the discourse properties of the different types of null objects.
+
+doc_id=28 page=26 block_id=26-6 bbox=107.97,364.77,528.96,422.85 label=tbbt 633 635
+line=633 fonts=F0-10.1 bbox=143.97,412.77,528.96,422.85            :        Chapter 4 addresses the issue of variation, considering differences between Standard American
+line=634 fonts=F0-10.1 bbox=107.97,388.77,513.09,398.85 iscore=0.20:English and null arguments in other dialects and registers of English. The special characteristics of
+line=635 fonts=F0-10.1 bbox=107.97,364.77,276.69,374.85 iscore=0.07:recipes and telegraphs are also examined.
+
+doc_id=28 page=26 block_id=26-7 bbox=107.97,310.76,513.35,344.85 label=tbbbtt 636 637
+line=636 fonts=F0-10.1 bbox=143.97,334.77,513.35,344.85            :         In Chapter 5, I further motivate the inclusion of discourse structure as a part of the study of
+line=637 fonts=F0-10.1 bbox=107.97,310.76,511.68,320.84 iscore=0.11:linguistic competence, outline the types of discourse theories that are available for this purpose, and
+
+doc_id=28 page=26 block_id=26-8 bbox=107.97,238.76,534.2,296.84 label=tbbbtb 638 640
+line=638 fonts=F0-10.1 bbox=107.97,286.76,526.96,296.84            :incorporate null arguments in English into a theory of local discourse structure. In order to accomplish
+line=639 fonts=F0-10.1 bbox=107.97,262.76,534.2,272.84 iscore=0.21 :this last goal, I define a modified version of Centering Theory that relies on the building blocks of lexical
+line=640 fonts=F0-10.1 bbox=107.97,238.76,146.13,248.84 iscore=0.05:structure.
+
+doc_id=28 page=26 block_id=26-9 bbox=107.97,184.76,530.87,218.84 label=tbbbbt 641 642
+line=641 fonts=F0-10.1 bbox=143.97,208.76,530.87,218.84           :        Finally, Chapter 6 reviews some of the results of earlier chapters and compares my treatment of
+line=642 fonts=F0-10.1 bbox=107.97,184.76,529.9,194.84 iscore=0.25:English null arguments with existing theories of null arguments, discussing differences and similarities,
+
+doc_id=28 page=26 block_id=26-10 bbox=107.97,136.76,528.49,170.84 label=tbbbbb 643 644
+line=643 fonts=F0-10.1 bbox=107.97,160.76,528.49,170.84            :and offering some suggestions about a more unified approach to null arguments. It concludes by briefly
+line=644 fonts=F0-10.1 bbox=107.97,136.76,304.77,146.84 iscore=0.12:describing a number of areas for future research.
+
+doc_id=28 page=26 block_id=26-11 bbox=317.97,74.85,329.97,86.85 label=b 645 645
+line=645 fonts=F0-12.0 bbox=317.97,74.85,329.97,86.85:                                   26
