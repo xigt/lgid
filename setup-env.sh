@@ -22,6 +22,15 @@ if ! $( python -c "import freki" 2>/dev/null >/dev/null ); then
     popd
     rm -rf "$TMP"
 fi
+# do the same for Xigt
+if ! $( python -c "import xigt" 2>/dev/null >/dev/null ); then
+    TMP=`mktemp -d`
+    pushd "$TMP"
+    git clone https://github.com/xigt/xigt.git
+    pip install ./xigt
+    popd
+    rm -rf "$TMP"
+fi
 
 echo "Exiting virtual environment"
 deactivate
