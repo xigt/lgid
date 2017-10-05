@@ -17,7 +17,7 @@ pip install docopt~=0.6 scipy~=0.19 scikit-learn~=0.19 requests~=2.18
 if ! $( python -c "import freki" 2>/dev/null >/dev/null ); then
     TMP=`mktemp -d`
     pushd "$TMP"
-    git clone https://github.com/xigt/freki.git
+    git clone --branch master https://github.com/xigt/freki.git
     pip install ./freki
     popd
     rm -rf "$TMP"
@@ -26,7 +26,7 @@ fi
 if ! $( python -c "import xigt" 2>/dev/null >/dev/null ); then
     TMP=`mktemp -d`
     pushd "$TMP"
-    git clone https://github.com/xigt/xigt.git
+    git clone --branch master https://github.com/xigt/xigt.git
     pip install ./xigt
     popd
     rm -rf "$TMP"
