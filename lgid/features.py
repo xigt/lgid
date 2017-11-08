@@ -30,7 +30,7 @@ from lgid.util import (
 lm_dict = {}
 
 
-def gl_features(features, mentions, context, config, common_table, eng_words):
+def gl_features(features, mentions, context, config, common_table, eng_words, num_langs):
     """
     Set matching global features to `True`
 
@@ -45,16 +45,16 @@ def gl_features(features, mentions, context, config, common_table, eng_words):
     last = context['last-lineno']
 
     if config['features']['GL-first-lines']:
-        window_mention('GL-first-lines', features, mentions, 0, wsize)
+        window_mention('GL-first-lines', features, mentions, 0, wsize, num_langs, True)
 
     if config['features']['GL-last-lines']:
-        window_mention('GL-last-lines', features, mentions, last-wsize, last)
+        window_mention('GL-last-lines', features, mentions, last-wsize, last, num_langs, True)
 
     if config['features']['GL-frequent']:
-        frequent_mention('GL-frequent', features, mentions, minfreq, 0, last)
+        frequent_mention('GL-frequent', features, mentions, minfreq, 0, last, num_langs, True)
 
     if config['features']['GL-most-frequent']:
-        frequent_mention('GL-most-frequent', features, mentions, None, 0, last)
+        frequent_mention('GL-most-frequent', features, mentions, None, 0, last, num_langs, True)
 
     if config['features']['GL-most-frequent-code']:
         most_frequent_code(features, common_table)
@@ -84,7 +84,6 @@ def w_features(features, mentions, context, config):
 
     t = context['span-top']
     b = context['span-bottom']
-
     if config['features']['W-prev']:
         window_mention('W-prev', features, mentions, t-wsize, t)
 
@@ -96,6 +95,8 @@ def w_features(features, mentions, context, config):
 
     if config['features']['W-frequent']:
         frequent_mention('W-frequent', features, mentions, minfreq, t-wsize, t)
+
+    frequent_mention('W=500-frequent', features, mentions, minfreq, t-500, t)
 
     if config['features']['W-after']:
         window_mention('W-after', features, mentions, b, b+a_wsize)
@@ -109,6 +110,8 @@ def w_features(features, mentions, context, config):
     if config['features']['W-frequent-after']:
         frequent_mention('W-frequent-after', features, mentions, minfreq, b,
                          b+a_wsize)
+    frequent_mention('W=500-frequent-after', features, mentions, minfreq, b,
+                     b + 500)
 
 
 def l_features(features, mentions, context, lms, config):
@@ -201,8 +204,12 @@ def get_window(mentions, top, bottom):
                 if m.startline <= bottom and m.endline >= top:
                     yield m
 
+def add_nums(feature, features, pair, num_langs):
+    for i in [5,10,15,20,40]:
+        if num_langs < i:
+            features[pair][feature + '&langs<' + str(i)] = True
 
-def window_mention(feature, features, mentions, top, bottom):
+def window_mention(feature, features, mentions, top, bottom, num_langs=0, add_num=False):
     """
     Set *feature* to `True` for mentions that occur within the window
 
@@ -215,9 +222,11 @@ def window_mention(feature, features, mentions, top, bottom):
     """
     for m in get_window(mentions, top, bottom):
         features[(m.name, m.code)][feature] = True
+        if add_num:
+            add_nums(feature, features, (m.name, m.code), num_langs)
 
 
-def frequent_mention(feature, features, mentions, thresh, top, bottom):
+def frequent_mention(feature, features, mentions, thresh, top, bottom, num_langs=0, add_num=False):
     """
     Set *feature* to `True` for mentions that occur frequently
 
@@ -240,6 +249,8 @@ def frequent_mention(feature, features, mentions, thresh, top, bottom):
     for pair, count in counts.items():
         if count >= thresh:
             features[pair][feature] = True
+            if add_num:
+                add_nums(feature, features, pair, num_langs)
 
 
 def closest_mention(feature, features, mentions, top, bottom, ref):
@@ -254,9 +265,11 @@ def closest_mention(feature, features, mentions, top, bottom, ref):
         bottom: bottom (i.e. largest) line number in the window
         ref: the reference line number for calculating distance
     """
+
     window = sorted(
         (abs(ref - m.startline), m)
-        for m in get_window(mentions, top, bottom)
+        for m in get_window(mentions, top, bottom),
+        #key=lambda x: (x[0], get_dist_to_ref(ref, x[1]))
     )
     if window:
         smallest_delta = window[0][0]
@@ -264,6 +277,13 @@ def closest_mention(feature, features, mentions, top, bottom, ref):
             if delta > smallest_delta:
                 break
             features[(mention.name, mention.code)][feature] = True
+
+
+#def get_dist_to_ref(ref, m):
+#    is_after = not bool(np.sign(ref - m.startline))
+#    if is_after:
+#        return -m.startcol
+#    return m.endcol
 
 
 def in_line_mention(feature, features, mentions, line):
@@ -351,6 +371,8 @@ def most_frequent_code(features, common_table):
         if name in common_table:
             if code in common_table[name]:
                 features[(name, code)]['GL-most-frequent-code'] = True
+        if len(name.split()) > 1:
+            features[(name, code)]['GL-multi-word-name'] = True
 
 
 def flag_common_words(features, words, config):
@@ -367,6 +389,9 @@ def flag_common_words(features, words, config):
         if config['features']['GL-short-lang-name']:
             if len(name) <= int(config['parameters']['short-name-size']):
                 features[(name, code)]['GL-short-lang-name'] = True
+            for i in range(1,10):
+                if len(name) <= i:
+                    features[(name, code)]['GL-C-name<' + str(i)] = True
 
 
 def get_mention_by_lines(mentions):

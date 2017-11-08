@@ -46,6 +46,7 @@ Examples:
 '''
 
 import time
+import pickle
 t0 = time.time()
 
 import os
@@ -55,9 +56,11 @@ from configparser import ConfigParser
 import logging
 import numpy as np
 import re
-from random import randint
+import random
+random.seed(1)
 import codecs
 import zipfile
+from scipy.stats import pearsonr
 
 import docopt
 
@@ -179,15 +182,24 @@ def calc_mention_recall(infiles, config, instances=None):
     print("Language mention recall: " + str(recall))
     return recall
 
+mistake_counts = {}
+lang_accs = {}
+lm_sizes = {}
+file_accs = {}
+file_mentions = {}
+
 def n_fold_validation(n, infiles, modelpath, vector_dir, config):
-    instance_dict = {}
+    try:
+        instance_dict = pickle.load(open('instances.p', 'rb'))
+    except FileNotFoundError:
+        instance_dict = {}
     accs_lang = []
     accs_both = []
     accs_code = []
     recalls = []
     groups = {}
     for file in infiles:
-        choice = randint(1, n)
+        choice = random.randint(1, n)
         if choice in groups:
             groups[choice].append(file)
         else:
@@ -215,6 +227,16 @@ def n_fold_validation(n, infiles, modelpath, vector_dir, config):
     print('Language and Code:\t' + str(np.average(accs_both)) + '\t' + str(np.std(accs_both)))
     print('Code Only:\t' + str(np.average(accs_code)) + '\t' + str(np.std(accs_code)))
     print('Language Mention Recall:\t' + str(np.average(recalls)) + '\t' + str(np.std(recalls)))
+    x = []
+    y = []
+    for file in file_accs:
+        file_acc = file_accs[file]
+        if file in file_mentions:
+            x.append(file_acc)
+            y.append(file_mentions[file])
+    print(pearsonr(x,y))
+    instance_file = open('instances.p', 'wb')
+    pickle.dump(instance_dict, instance_file)
     #pr.create_stats()
     #pr.print_stats('cumtime')
     #pr.disable()
@@ -364,7 +386,6 @@ def test(infiles, modelpath, vector_dir, config, instances=None):
     right_dialect = 0
     right_code = 0
     file_counts = {}
-    mistake_counts = {}
     for key in real_classes:
         key2 = key[0]
         if key2 not in file_counts:
@@ -379,13 +400,26 @@ def test(infiles, modelpath, vector_dir, config, instances=None):
                     right_dialect += 1
                     file_counts[key2][0] += 1
             if real_classes[key] != predicted_classes[key]:
+                print(key)
+                if real_classes[key] in lang_accs:
+                    lang_accs[real_classes[key]][1] += 1
+                else:
+                    lang_accs[real_classes[key]] = [0,1]
                 mistake_key = (real_classes[key], predicted_classes[key])
                 if mistake_key in mistake_counts:
                     mistake_counts[mistake_key] += 1
                 else:
                     mistake_counts[mistake_key] = 1
+            else:
+                if real_classes[key] in lang_accs:
+                    lang_accs[real_classes[key]][0] += 1
+                    lang_accs[real_classes[key]][1] += 1
+                else:
+                    lang_accs[real_classes[key]] = [1,1]
     for key2 in file_counts:
-        logging.info("Accuracy on file " + str(key2) + ':\t' + str(float(file_counts[key2][0]) / file_counts[key2][1]))
+        file_acc = float(file_counts[key2][0]) / file_counts[key2][1]
+        logging.info("Accuracy on file " + str(key2) + ':\t' + str(file_acc))
+        file_accs[key2] = file_acc
     mistakes = open(config['locations']['classify-error-file'], 'w')
     mistakes.write('(real, predicted)\tcount\n')
     for mistake_key in sorted(mistake_counts, key=lambda x: mistake_counts[x], reverse=True):
@@ -536,6 +570,8 @@ def get_instances(infiles, config, vector_dir, lgtable=None, common_table=None, 
         mention_dict = get_mention_by_lines(lgmentions)
 
         features_template = dict(((m.name, m.code), {}) for m in lgmentions)
+        lang_names = set(m.name for m in lgmentions)
+        file_mentions[doc.blocks[0].doc_id] = len(lang_names)
 
         name_code_pairs = list(features_template.keys())
         word_clm = read_crubadan_language_model(name_code_pairs, config, False)
@@ -544,6 +580,11 @@ def get_instances(infiles, config, vector_dir, lgtable=None, common_table=None, 
         char_olm = read_odin_language_model(name_code_pairs, config, True)
         morph_olm = read_morpheme_language_model(name_code_pairs, config)
         lms = (word_clm, char_clm, word_olm, char_olm, morph_olm)
+
+        for pair in name_code_pairs:
+            name = pair[0].replace(' ', '_') + '-' + pair[1]
+            if pair in word_olm and pair in char_olm:
+                lm_sizes[name] = len(word_olm[pair]) + len(char_olm[pair])
 
         for span in spans(doc):
             if not span:
@@ -579,7 +620,7 @@ def get_instances(infiles, config, vector_dir, lgtable=None, common_table=None, 
                     if 'M' in line.tag:
                         m_features(features, mention_dict, context, config)
 
-            gl_features(features, mention_dict, context, config, common_table, eng_words)
+            gl_features(features, mention_dict, context, config, common_table, eng_words, len(lang_names))
             w_features(features, mention_dict, context, config)
             for l_line, l_feats, lgname, lgcode in l_lines:
                 goldpair = (lgname, lgcode)
