@@ -178,7 +178,10 @@ def calc_mention_recall(infiles, config, instances=None):
                         positive += 1
                         break
 
-    recall = float(positive)/length
+    if length:
+        recall = float(positive)/length
+    else:
+        recall = 1
     print("Language mention recall: " + str(recall))
     return recall
 
@@ -621,7 +624,7 @@ def get_instances(infiles, config, vector_dir, lgtable=None, common_table=None, 
                         m_features(features, mention_dict, context, config)
 
             gl_features(features, mention_dict, context, config, common_table, eng_words, len(lang_names))
-            w_features(features, mention_dict, context, config)
+            w_features(features, mention_dict, context, config, len(lang_names), len(list(doc.lines())))
             for l_line, l_feats, lgname, lgcode in l_lines:
                 goldpair = (lgname, lgcode)
                 for pair, feats in l_feats.items():

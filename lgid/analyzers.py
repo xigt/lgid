@@ -32,7 +32,7 @@ except FileNotFoundError:
     mention_dict = {}
 
 
-def cached_language_mentions(doc, lgtable, capitalization):
+def language_mentions(doc, lgtable, capitalization):
     """
     Find mentions of languages in a document
 
@@ -75,80 +75,70 @@ def cached_language_mentions(doc, lgtable, capitalization):
     for block in doc.blocks:
         logging.debug(block.block_id)
         for i, line1 in enumerate(block.lines):
-            if 'tag' not in line1.attrs or 'LN' in line1.attrs['tag'] or 'M' in line1.attrs['tag']:
+            if i + 1 < len(block.lines):
+                line2 = block.lines[i + 1]
+                endline = line2.lineno
 
-                if i + 1 < len(block.lines):
-                    line2 = block.lines[i + 1]
-                    endline = line2.lineno
+                if line1.endswith('-') and line2.startswith('-'):
+                    lines = line1.rstrip(' -') + line2.lstrip(' -')
+                else:
+                    lines = line1.rstrip(' -') + ' ' + line2.lstrip(' -')
+            else: # line 1 is the last line in the block
+                line2 = None
+                endline = line1.lineno
+                lines = line1.rstrip(' -')
+            startline = line1.lineno
+            line_break = len(line1.rstrip(' -'))
+            for match in re.finditer(lg_re, normalize_characters(lines)):
 
-                    if line1.endswith('-') and line2.startswith('-'):
-                        lines = line1.rstrip(' -') + line2.lstrip(' -')
-                    else:
-                        lines = line1.rstrip(' -') + ' ' + line2.lstrip(' -')
-                else: # line 1 is the last line in the block
-                    line2 = None
-                    endline = line1.lineno
-                    lines = line1.rstrip(' -')
-                startline = line1.lineno
-                line_break = len(line1.rstrip(' -'))
-                for match in re.finditer(lg_re, normalize_characters(lines)):
+                k += 1
+                name = match.group(0).lower()
+                start, end = match.span()
 
-                    k += 1
-                    name = match.group(0).lower()
-                    start, end = match.span()
+                space_hyphen_count = 0
+                end_loop = end
+                for j, char in enumerate(lines[start:], start=start):
+                    if j == end_loop - 1:
+                        break
+                    if char == '-' or char == ' ':
+                        space_hyphen_count += 1
+                        end_loop += 1
 
-                    space_hyphen_count = 0
-                    end_loop = end
-                    for j, char in enumerate(lines[start:], start=start):
-                        if j == end_loop - 1:
-                            break
-                        if char == '-' or char == ' ':
-                            space_hyphen_count += 1
-                            end_loop += 1
+                orig_end = end + space_hyphen_count
+                this_startline, this_endline = startline, endline
+                hyphen_name = None
+                if start < line_break and end > line_break and line1 and line2: # match crosses lines
+                    orig_end -= len(line1) - 1
+                    orig_end += len(line2) - len(line2.lstrip(' -')) # account for leading whitespace on Freki lines
+                    text = line1[start:] + line2[:orig_end]
+                    hyphen_name = name[:line_break - start] + "-" + name[line_break - start:]
+                    space_name = name[:line_break - start] + " " + name[line_break - start:]
+                elif end <= line_break: # match is only in line 1
+                    this_endline = line1.lineno
+                    text = line1[start:orig_end]
+                else: # match is only in line 2
+                    continue # if we include matches only in line2, they'll be doubled
 
-                    orig_end = end + space_hyphen_count
-                    this_startline, this_endline = startline, endline
-                    hyphen_name = None
-                    if start < line_break and end > line_break and line1 and line2: # match crosses lines
-                        orig_end -= len(line1) - 1
-                        orig_end += len(line2) - len(line2.lstrip(' -')) # account for leading whitespace on Freki lines
-                        text = line1[start:] + line2[:orig_end]
-                        hyphen_name = name[:line_break - start] + "-" + name[line_break - start:]
-                        space_name = name[:line_break - start] + " " + name[line_break - start:]
-                    elif end <= line_break: # match is only in line 1
-                        this_endline = line1.lineno
-                        text = line1[start:orig_end]
-                    else: # match is only in line 2
-                        continue # if we include matches only in line2, they'll be doubled
-
-                    lg_codes = lgtable[name]
+                lg_codes = lgtable[name]
+                if lg_codes != []:
+                    for code in lg_codes:
+                        yield Mention(
+                            this_startline, start, this_endline, orig_end, name, code, text
+                        )
+                elif hyphen_name:
+                    lg_codes = lgtable[hyphen_name]
                     if lg_codes != []:
                         for code in lg_codes:
                             yield Mention(
-                                this_startline, start, this_endline, orig_end, name, code, text
+                                this_startline, start, this_endline, orig_end, hyphen_name, code, text
                             )
-                    elif hyphen_name:
-                        lg_codes = lgtable[hyphen_name]
-                        if lg_codes != []:
-                            for code in lg_codes:
-                                yield Mention(
-                                    this_startline, start, this_endline, orig_end, hyphen_name, code, text
-                                )
-                        else:
-                            for code in lgtable[space_name]:
-                                yield Mention(
-                                    this_startline, start, this_endline, orig_end, space_name, code, text
-                                )
+                    else:
+                        for code in lgtable[space_name]:
+                            yield Mention(
+                                this_startline, start, this_endline, orig_end, space_name, code, text
+                            )
     logging.info(str(k) + ' language mentions found')
 
-
-def language_mentions(doc, lgtable, capitalization):
-    h = doc.blocks[0].doc_id
-    if h not in mention_dict:
-        mention_dict[h] = list(cached_language_mentions(doc, lgtable, capitalization))
-        mention_file = open('mentions.p', 'wb')
-        pickle.dump(mention_dict, mention_file)
-    return mention_dict[h]
 
 
 def character_ngrams(s, ngram_range, lhs='<', rhs='>'):

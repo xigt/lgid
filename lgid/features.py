@@ -65,7 +65,7 @@ def gl_features(features, mentions, context, config, common_table, eng_words, nu
     flag_common_words(features, eng_words, config)
 
 
-def w_features(features, mentions, context, config):
+def w_features(features, mentions, context, config, num_langs, num_lines):
     """
     Set matching window features to `True`
 
@@ -96,8 +96,6 @@ def w_features(features, mentions, context, config):
     if config['features']['W-frequent']:
         frequent_mention('W-frequent', features, mentions, minfreq, t-wsize, t)
 
-    frequent_mention('W=500-frequent', features, mentions, minfreq, t-500, t)
-
     if config['features']['W-after']:
         window_mention('W-after', features, mentions, b, b+a_wsize)
 
@@ -110,8 +108,14 @@ def w_features(features, mentions, context, config):
     if config['features']['W-frequent-after']:
         frequent_mention('W-frequent-after', features, mentions, minfreq, b,
                          b+a_wsize)
-    frequent_mention('W=500-frequent-after', features, mentions, minfreq, b,
+    if num_langs > 20:
+        frequent_mention('W=500&langs>20-frequent', features, mentions, minfreq, t-500, t)
+        frequent_mention('W=500&langs>20-frequent-after', features, mentions, minfreq, b,
                      b + 500)
+    if num_lines > 2000:
+        frequent_mention('W=500&lines>2000-frequent', features, mentions, minfreq, t - 500, t)
+        frequent_mention('W=500&lines>2000-frequent-after', features, mentions, minfreq, b,
+                         b + 500)
 
 
 def l_features(features, mentions, context, lms, config):
