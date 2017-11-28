@@ -46,7 +46,6 @@ Examples:
 '''
 
 import time
-import pickle
 t0 = time.time()
 
 import os
@@ -192,10 +191,7 @@ file_accs = {}
 file_mentions = {}
 
 def n_fold_validation(n, infiles, modelpath, vector_dir, config):
-    try:
-        instance_dict = pickle.load(open('instances.p', 'rb'))
-    except FileNotFoundError:
-        instance_dict = {}
+    instance_dict = {}
     accs_lang = []
     accs_both = []
     accs_code = []
@@ -237,9 +233,6 @@ def n_fold_validation(n, infiles, modelpath, vector_dir, config):
         if file in file_mentions:
             x.append(file_acc)
             y.append(file_mentions[file])
-    print(pearsonr(x,y))
-    instance_file = open('instances.p', 'wb')
-    pickle.dump(instance_dict, instance_file)
     #pr.create_stats()
     #pr.print_stats('cumtime')
     #pr.disable()
