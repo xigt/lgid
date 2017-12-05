@@ -9,15 +9,14 @@ maintainable and easy to extend.
 
 ### Added
 
-- Download Crubadan data from the `lgid.sh` command
-- `res/Crubadan.csv` index to help with downloading data
-- `sample/input/W13-2710.freki` example file
+- N-fold validation
+- Calculate language mention finder recall
 
 ### Removed
-### Fixed
-### Changed
 
-- `setup-env.sh` can now be used to update an existing virtual environment
+### Fixed
+
+### Changed
 
 ### Deprecated
 

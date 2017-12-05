@@ -1,0 +1,471 @@
+doc_id=86 page=1 block_id=1-1 bbox=140.22,634.14,455.07,665.72 label=tt 1 2
+line=1 fonts=F0-14.0 bbox=172.8,651.72,422.48,665.72                    :      Parsing of an HPSG Grammar for German:
+line=2 fonts=F0-10.5,F0-14.0 bbox=140.22,634.14,455.07,650.4 iscore=0.14: Word  Order Domains and Discontinuous Constituents^{*}
+
+doc_id=86 page=1 block_id=1-2 bbox=259.5,605.94,335.78,617.94 label=tb 3 3
+line=3 fonts=F0-12.0,F0-9.6 bbox=259.5,605.94,335.78,617.94:                     Stefan MÜLLER
+
+doc_id=86 page=1 block_id=1-3 bbox=133.2,355.14,462.14,574.14 label=btt 4 20
+line=4 fonts=F0-12.0 bbox=133.2,562.14,252.9,574.14                                                                :1. Word  Order  Domains
+line=5 fonts=F0-11.0 bbox=155.88,547.5,462.07,558.5 iscore=0.00                                                    :     During the last years several grammarians have argued for linguistic
+line=6 fonts=F0-11.0 bbox=133.2,533.28,462.12,544.28 iscore=0.10                                                   :descriptions of language that use the concept of discontinuous constituents
+line=7 fonts=F0-11.0,F0-8.8 bbox=133.2,519.05,462.13,530.06 iscore=0.18                                            :(REAPE  1991; REAPE 1992; REAPE  1994; POLLARD   et al. 1992; POLLARD
+line=8 fonts=F0-11.0,F0-8.8 bbox=133.2,504.84,462.14,515.84 iscore=0.36                                            :et al. 1994; KATHOL  &  POLLARD  1995; KATHOL   1995; MÜLLER   1995;
+line=9 fonts=F0-11.0,F0-8.8 bbox=133.2,490.62,284.3,501.62 iscore=0.09                                             :MÜLLER   1996b; MÜLLER   1999a).
+line=10 fonts=F0-11.0,F0-8.8 bbox=155.88,476.4,462.07,487.4 iscore=0.00                                            :     REAPE  introduced word  order domains  and discontinuity into the
+line=11 fonts=F0-11.0 bbox=133.2,462.18,462.13,473.18 iscore=0.00                                                  :HPSG   framework   to describe clause union  phenomena   (see below).
+line=12 fonts=F0-11.0,F0-8.8 bbox=133.2,447.95,462.1,458.96 iscore=0.17                                            :KATHOL   (1995), KATHOL  &  POLLARD  (1995), and I, on the other hand,
+line=13 fonts=F0-11.0 bbox=133.2,433.74,462.07,444.74 iscore=0.25                                                  :use word  order domains to describe extraposition and permutability of
+line=14 fonts=F0-11.0 bbox=133.2,419.51,239.82,430.51 iscore=0.10                                                  :constituents in German.
+line=15 tag=L span_id=86-1 lang_name=German lang_code=deu fonts=F0-9.0 bbox=158.7,406.74,424.58,415.74 iscore=0.09 :     (1) a. ,   weil    der Mann   der  Frau   das  Buch gibt.
+line=16 tag=G span_id=86-1 lang_name=German lang_code=deu fonts=F0-9.0 bbox=208.56,398.22,427.31,407.22 iscore=1.00:                because the man    the  woman  the  book gives
+line=17 tag=T span_id=86-1 lang_name=German lang_code=deu fonts=F0-9.0 bbox=212.82,389.69,382.51,398.69 iscore=0.38:                 ‘because the man gives the woman the book.’
+line=18 tag=L span_id=86-2 lang_name=German lang_code=deu fonts=F0-9.0 bbox=175.67,377.63,420.3,386.63 iscore=0.10 :         b. ,   weil    der Mann  das  Buch der  Frau   gibt.
+line=19 tag=G span_id=86-2 lang_name=German lang_code=deu fonts=F0-9.0 bbox=208.55,369.11,423.04,378.11 iscore=1.00:                because the man   the  book the  woman  gives
+line=20 fonts=F0-11.0 bbox=133.2,355.14,462.09,366.14 iscore=0.06                                                  :The  idea is that in (1) the same lexical entry for gibt is used in the parse
+
+doc_id=86 page=1 block_id=1-4 bbox=133.2,252.77,462.13,349.7 label=btb 21 27
+line=21 fonts=F0-11.0,F1-11.0 bbox=133.2,338.7,462.1,349.7             :of both sentences. In the first sentence gibt is combined with der Frau
+line=22 fonts=F0-11.0,F1-11.0 bbox=133.2,324.3,462.12,335.3 iscore=0.15:forming a discontinuous constituent, and then der Frau gibt is combined
+line=23 fonts=F0-11.0,F1-11.0 bbox=133.2,309.9,462.13,320.9 iscore=0.14:with das Buch. In (1b), the elements are combined in the same way, but
+line=24 fonts=F0-11.0,F1-11.0 bbox=133.2,295.5,290.54,306.5 iscore=0.14:der Frau gibt is not discontinuous.
+line=25 fonts=F0-11.0 bbox=155.88,281.22,462.12,292.22 iscore=0.00     :     Parsing long sentences or highly ambiguous input with domain-based
+line=26 fonts=F0-11.0 bbox=133.2,267.0,462.11,278.0 iscore=0.09        :grammars  can lead to combinatorial explosion if the discontinuity is not
+line=27 fonts=F0-11.0 bbox=133.2,252.77,330.83,263.77 iscore=0.27      :restricted. To give an example consider (2):
+
+doc_id=86 page=1 block_id=1-5 bbox=133.2,170.28,462.12,224.62 label=bb 28 32
+line=28 fonts=F0-6.7,F0-7.2,F0-9.0 bbox=148.2,214.2,462.12,224.62:    ^{*} Some of the ideas presented in this paper can also be found in MÜLLER (1999b).
+line=29 fonts=F0-9.0 bbox=133.2,203.22,462.09,212.22 iscore=0.19 :This work was supported by the Bundesministerium für Bildung, Wissenschaft, Forschung
+line=30 fonts=F0-9.0 bbox=133.2,192.24,462.12,201.24 iscore=0.15 :und Technologie (BMBF)  (Project Verbmobil, Part 2.4, Grant Number 01 IV 701 V0).
+line=31 fonts=F0-9.0 bbox=133.2,181.26,462.12,190.26 iscore=0.19 :Thanks to Ewan Klein for some discussion. I also want to thank Godmar Back for proof
+line=32 fonts=F0-9.0 bbox=133.2,170.28,269.91,179.28 iscore=0.19 :reading and some general comments.
+
+doc_id=86 page=2 block_id=2-1 bbox=198.18,669.54,462.11,678.54 label=ttt 33 33
+line=33 fonts=F0-9.0 bbox=198.18,669.54,462.11,678.54:               Word  Order Domains and Discontinuous Constituents          293
+
+doc_id=86 page=2 block_id=2-2 bbox=133.2,559.13,462.13,655.56 label=ttb 34 41
+line=34 tag=L+SY span_id=86-3 lang_name=German lang_code=deu fonts=F0-9.0 bbox=158.7,646.56,357.91,655.56          :      (2) ,  weil    der  ||  der ||  das  ||  gibt.
+line=35 tag=G span_id=86-3 lang_name=German lang_code=deu fonts=F0-9.0 bbox=192.11,638.04,360.62,647.04 iscore=0.62:             because the      the     the      gives
+line=36 tag=T span_id=86-3 lang_name=German lang_code=deu fonts=F0-9.0 bbox=246.29,629.52,349.0,638.52 iscore=0.00 :                         ‘because he gives it to her.’
+line=37 fonts=F0-11.0 bbox=133.2,616.02,462.11,627.02 iscore=0.17                                                  :In (2) the NPs correspond to demonstrative pronouns. These are partly hom-
+line=38 fonts=F0-11.0 bbox=133.2,601.8,462.11,612.8 iscore=0.08                                                    :onymous   with the definite articles in German. Parsing (1a) produces the
+line=39 fonts=F0-11.0 bbox=133.2,587.57,460.74,598.57 iscore=0.25                                                  :discontinuous phrase (2). In (2) the discontinuous parts are marked by ‘||’.
+line=40 fonts=F0-11.0 bbox=155.88,573.35,462.13,584.35 iscore=0.00                                                 :     In the next section I will show how the search space can be dramati-
+line=41 fonts=F0-11.0 bbox=133.2,559.13,364.42,570.13 iscore=0.07                                                  :cally reduced for grammars  with  certain properties.
+
+doc_id=86 page=2 block_id=2-3 bbox=133.2,247.79,462.13,541.98 label=tb 42 63
+line=42 fonts=F0-12.0 bbox=133.2,529.98,268.25,541.98                                                                    :2. Restricting Discontinuity
+line=43 fonts=F0-11.0 bbox=155.88,515.34,462.12,526.34 iscore=0.00                                                       :     All grammars  cited above that use discontinuous constituents license
+line=44 fonts=F0-11.0 bbox=133.2,501.12,462.08,512.12 iscore=0.00                                                        :discontinuous phrasal signs that are never needed in any analysis. For an
+line=45 fonts=F0-11.0 bbox=133.2,486.89,211.69,497.89 iscore=0.17                                                        :example  take (3).
+line=46 tag=L span_id=86-4 lang_name=German lang_code=deu fonts=F0-9.0 bbox=158.94,474.12,398.87,483.12 iscore=0.12      :      (3) ,  weil    den  Männern   Frauen      Bücher      geben.
+line=47 tag=G span_id=86-4 lang_name=German lang_code=deu fonts=F0-9.0,F1-6.7 bbox=192.36,463.02,390.62,474.6 iscore=1.00:             because the  men_{dat} women_{nom} books_{acc} give
+line=48 tag=T span_id=86-4 lang_name=German lang_code=deu fonts=F0-9.0 bbox=227.16,453.84,368.12,462.84 iscore=0.17      :                     ‘because the men women books give’
+line=49 fonts=F0-11.0,F1-11.0 bbox=133.2,438.48,462.12,449.48 iscore=0.00                                                :Without  additional restrictions, the discontinuous dative NP den Frauen
+line=50 fonts=F0-11.0 bbox=133.2,424.2,462.1,435.2 iscore=0.17                                                           :will be built. Furthermore, this NP is combined with other material yield-
+line=51 fonts=F0-11.0 bbox=133.2,409.98,462.11,420.98 iscore=0.31                                                        :ing even  more  phrasal signs that are never used in any analysis. Using
+line=52 fonts=F0-11.0 bbox=133.2,395.76,435.62,406.76 iscore=0.15                                                        :binary branching structures, the following phrases will be licensed.
+line=53 fonts=F0-9.0,F1-6.7 bbox=158.7,380.4,297.97,391.98 iscore=0.00                                                   :      (4) a. [den  Frauen]_{dat} geben
+line=54 fonts=F0-9.0,F1-6.7 bbox=175.68,368.34,352.51,379.92 iscore=0.80                                                 :          b. [den  Frauen]_{dat} Bücher_{acc} geben
+line=55 fonts=F0-11.0 bbox=133.2,357.42,462.08,368.42 iscore=0.00                                                        :The phrasal signs in (4) can never be used in an analysis of (3), since (4b)
+line=56 fonts=F0-11.0,F1-11.0 bbox=133.2,343.08,462.13,354.08 iscore=0.12                                                :cannot be  combined  with the bare plural NP  Männer.  This combination
+line=57 fonts=F0-11.0 bbox=133.2,328.8,462.13,339.8 iscore=0.21                                                          :should be ruled out by LP-constraints that state that an NP cannot appear in
+line=58 fonts=F0-11.0 bbox=133.2,314.57,462.12,325.57 iscore=0.21                                                        :the middle of another NP. Without such constraints, the result would be (5).
+line=59 fonts=F0-9.0,F1-6.7 bbox=158.7,299.22,397.93,310.8 iscore=0.27                                                   :      (5) a. Männer_{nom} [den          Frauen]_{dat} Bücher_{acc} geben
+line=60 fonts=F0-9.0,F1-6.7 bbox=175.68,287.16,397.93,298.74 iscore=1.00                                                 :          b. [den         Frauen]_{dat} Männer_{nom}  Bücher_{acc} geben
+line=61 fonts=F0-11.0 bbox=133.2,276.24,462.11,287.24 iscore=0.00                                                        :The  phonology  of the domain elements  in (5) does not correspond to the
+line=62 fonts=F0-11.0 bbox=133.2,262.02,462.11,273.02 iscore=0.23                                                        :phonology   of the input. Therefore,  signs with such  domains   are not
+line=63 fonts=F0-11.0,F0-8.2 bbox=133.2,247.79,251.24,260.5 iscore=0.18                                                  :licensed by the grammar.^{1}
+
+doc_id=86 page=2 block_id=2-4 bbox=133.2,170.28,462.12,202.66 label=b 64 66
+line=64 fonts=F0-6.7,F0-7.2,F0-9.0 bbox=148.2,192.24,462.12,202.66:    ^{1} In (MÜLLER 1999a, p. 423-424) and (MÜLLER 1999b), I claimed that grammars that
+line=65 fonts=F0-9.0 bbox=133.2,181.26,462.07,190.26 iscore=0.14  :do not have continuity constraints as the one proposed below overgenerate. Ewan Klein
+line=66 fonts=F0-9.0 bbox=133.2,170.28,410.89,179.28 iscore=0.21  :pointed out to me that this claim is wrong for the reasons discussed above.
+
+doc_id=86 page=3 block_id=3-1 bbox=133.2,669.54,326.23,678.54 label=tt 67 67
+line=67 fonts=F0-7.2,F0-9.0 bbox=133.2,669.54,326.23,678.54:294                           Stefan MÜLLER
+
+doc_id=86 page=3 block_id=3-2 bbox=133.2,616.5,462.1,656.12 label=tb 68 70
+line=68 fonts=F0-11.0 bbox=155.88,645.12,462.09,656.12                  :     I formulate the following continuity constraint that rules out discon-
+line=69 fonts=F0-11.0,F1-11.0 bbox=133.2,630.78,462.1,641.78 iscore=0.08:tinuous NPs  such as den Frauen  and therefore also the unwanted struc-
+line=70 fonts=F0-11.0 bbox=133.2,616.5,186.04,627.5 iscore=0.17         :tures in (4).
+
+doc_id=86 page=3 block_id=3-3 bbox=155.88,573.54,439.46,598.94 label=btt 71 72
+line=71 fonts=F1-11.0,F2-11.0 bbox=155.88,587.94,439.46,598.94            :     Principle 1  (Continuity Constraint):  A  saturated phrasal
+line=72 fonts=F0-11.0,F1-11.0 bbox=155.88,573.54,396.88,584.54 iscore=0.38:     element (a maximal projection) has to be continuous.
+
+doc_id=86 page=3 block_id=3-4 bbox=133.2,472.56,462.12,556.04 label=btbt 73 79
+line=73 fonts=F0-11.0 bbox=133.21,545.04,462.05,556.04                                                                   :This principle is too strong if extraposition is described via a complex
+line=74 fonts=F0-11.0,F0-8.8 bbox=133.21,530.82,462.1,541.82 iscore=0.17                                                 :word  order domain  formation process  as suggested by KATHOL   &  POL-
+line=75 fonts=F0-11.0,F0-8.8 bbox=133.2,516.6,462.12,527.6 iscore=0.25                                                   :LARD  (1995). KATHOL  &  POLLARD   assume that the marked material in (6)
+line=76 fonts=F0-11.0 bbox=133.2,502.38,203.78,513.38 iscore=0.08                                                        :is a constituent.
+line=77 tag=L span_id=86-5 lang_name=German lang_code=deu fonts=F0-9.0,F1-9.0 bbox=155.88,489.48,426.45,498.6 iscore=0.00:     (6) , weil    der Mann ein Lied gesungen hat, das  jeder     kennt.
+line=78 tag=G span_id=86-5 lang_name=German lang_code=deu fonts=F0-9.0 bbox=183.66,481.09,428.21,490.09 iscore=1.00      :           because the man  a   song sung     has  that everybody knows
+line=79 tag=T span_id=86-5 lang_name=German lang_code=deu fonts=F0-9.0 bbox=194.71,472.56,400.64,481.56 iscore=0.11      :             ‘because the man sang a song which everybody knows’
+
+doc_id=86 page=3 block_id=3-5 bbox=133.2,373.37,462.16,455.72 label=btbb 80 85
+line=80 fonts=F0-11.0,F1-11.0 bbox=155.88,444.72,462.12,455.72          :     When  the NP  ein Lied, das jeder kennt is combined  with its head
+line=81 fonts=F0-11.0,F1-11.0 bbox=133.2,430.32,462.1,441.32 iscore=0.07:gesungen  hat, the object ein Lied, das jeder kennt is split into two parts
+line=82 fonts=F0-11.0 bbox=133.2,416.04,462.16,427.04 iscore=0.20       :that are inserted into the domain of the head. The two parts can then be
+line=83 fonts=F0-11.0 bbox=133.2,401.82,462.13,412.82 iscore=0.20       :serialized independently. If a grammar used this extraposition analysis, the
+line=84 fonts=F0-11.0 bbox=133.2,387.6,462.1,398.6 iscore=0.25          :Continuity Constraint as stated above would be too strong since it would
+line=85 fonts=F0-11.0 bbox=133.2,373.37,344.59,384.37 iscore=0.25       :rule out (6). Principle 2 is the adapted version.
+
+doc_id=86 page=3 block_id=3-6 bbox=155.87,330.42,439.39,355.82 label=bbt 86 87
+line=86 fonts=F1-11.0,F2-11.0 bbox=155.88,344.82,439.39,355.82    :     Principle 2 (Continuity Constraint): The non-extraposed part
+line=87 fonts=F1-11.0 bbox=155.87,330.42,393.87,341.42 iscore=0.22:     of a saturated phrasal element has to be continuous.
+
+doc_id=86 page=3 block_id=3-7 bbox=133.19,173.93,462.15,312.98 label=bbb 88 97
+line=88 fonts=F0-11.0,F1-11.0 bbox=133.19,301.98,452.66,312.98           :So, in (6) ein Lied has to be continuous, and das jeder kennt has to be
+line=89 fonts=F0-11.0 bbox=133.19,287.71,370.25,298.71 iscore=0.19       :continuous too, since it is a maximal relative clause.
+line=90 fonts=F0-11.0 bbox=155.87,273.48,462.15,284.48 iscore=0.17       :     The formulation of such a constraint might appear to be trivial, but
+line=91 fonts=F0-11.0 bbox=133.19,259.26,462.11,270.26 iscore=0.07       :it is not. It is dependent upon linguistic analyses for a number of phenom-
+line=92 fonts=F0-11.0 bbox=133.19,245.04,462.14,256.04 iscore=0.29       :ena. The constraint is compatible with grammars such as the one proposed
+line=93 fonts=F0-11.0,F0-8.8 bbox=133.19,230.81,462.13,241.82 iscore=0.21:by KATHOL   (1995) and the one argued for in (MÜLLER 1999a). It is not
+line=94 fonts=F0-11.0,F0-8.8 bbox=133.2,216.6,453.6,227.6 iscore=0.36    :compatible with grammars  such as the one proposed by REAPE (1992).
+line=95 fonts=F0-11.0,F0-8.8 bbox=133.2,202.38,462.14,213.38 iscore=0.09 :REAPE’s grammar  is not compatible because he explicitly assumes discon-
+line=96 fonts=F0-11.0 bbox=133.2,188.16,462.11,199.16 iscore=0.20        :tinuous sentential maximal projections in order to describe phenomena
+line=97 fonts=F0-11.0 bbox=133.2,173.93,360.78,184.93 iscore=0.22        :such as clause union and modification by adverbs.
+
+doc_id=86 page=4 block_id=4-1 bbox=198.18,669.54,462.11,678.54 label=ttt 98 98
+line=98 fonts=F0-9.0 bbox=198.18,669.54,462.11,678.54:               Word  Order Domains and Discontinuous Constituents          295
+
+doc_id=86 page=4 block_id=4-2 bbox=158.7,618.47,457.51,655.56 label=ttbt 99 102
+line=99 tag=L span_id=86-6 lang_name=German lang_code=deu fonts=F0-9.0 bbox=158.7,646.56,457.51,655.56                 :       (7) ,  weil     der   Fritz  die  Maria   seit langem     zu  lieben  scheint.
+line=100 tag=G span_id=86-6 lang_name=German lang_code=deu fonts=F0-9.0 bbox=186.48,638.04,451.76,647.04 iscore=0.91   :              because  the   Fritz  the  Maria   for  a long     to  love    seems
+line=101 tag=T span_id=86-6 lang_name=German lang_code=deu fonts=F0-9.0 bbox=188.82,627.0,406.49,636.0 iscore=0.36     :               ‘because Fritz seems to have loved Maria for a long time.’
+line=102 tag=T+AL span_id=86-6 lang_name=German lang_code=deu fonts=F0-9.0 bbox=182.04,618.47,413.22,627.47 iscore=0.17:             ‘because it has seemed for a long time that Fritz loves Maria.’
+
+doc_id=86 page=4 block_id=4-3 bbox=133.18,421.86,462.15,605.18 label=ttbb 103 115
+line=103 fonts=F0-11.0,F1-11.0 bbox=133.2,594.18,462.09,605.18             :He assumes  that in (7) scheint takes a sentential complement der Fritz die
+line=104 fonts=F0-11.0,F1-11.0 bbox=133.2,579.78,462.12,590.78 iscore=0.31 :Maria zu lieben which is discontinuous in the reading where the adverbial
+line=105 fonts=F0-11.0,F1-11.0 bbox=133.2,565.38,462.09,576.38 iscore=0.17 :phrase seit langem scopes over scheint. In this reading, the whole phrase
+line=106 fonts=F0-11.0,F1-11.0 bbox=133.21,550.98,462.12,561.98 iscore=0.46:Maria  den Mann  zu lieben is modified by the adverbial phrase seit lan-
+line=107 fonts=F0-11.0,F1-11.0 bbox=133.21,536.58,462.12,547.58 iscore=0.23:gem. If one analyzes zu lieben scheint as a verbal complex, as suggested
+line=108 fonts=F0-11.0,F0-8.8 bbox=133.21,522.3,462.07,533.31 iscore=0.08  :by HINRICHS  &  NAKAZAWA    (1989) and KISS (1995), one does not have
+line=109 fonts=F0-11.0 bbox=133.2,508.08,462.15,519.08 iscore=0.17         :to assume discontinuous maximal sentential projections. In my analysis of
+line=110 fonts=F0-11.0,F1-11.0 bbox=133.2,493.73,462.1,504.73 iscore=0.17  :(7) scheint is combined with either seit langem zu lieben (narrow scope)
+line=111 fonts=F0-11.0,F1-11.0 bbox=133.19,479.33,462.07,490.33 iscore=0.31:or zu lieben (wide scope). In the wide scope reading the adverbial phrase
+line=112 fonts=F0-11.0,F1-11.0 bbox=133.19,464.93,462.06,475.93 iscore=0.15:modifies the verbal complex  zu lieben scheint. Scheint raises the argu-
+line=113 fonts=F0-11.0,F1-11.0 bbox=133.18,450.54,462.09,461.54 iscore=0.36:ments of the verbal projection it embeds, i.e., zu lieben or seit langem zu
+line=114 fonts=F0-11.0,F1-11.0 bbox=133.18,436.14,444.76,447.14 iscore=0.21:lieben. These arguments are then combined with the verbal complex.
+line=115 fonts=F0-11.0 bbox=155.86,421.86,462.1,432.86 iscore=0.10         :     This principle can be strengthened to further improve the efficiency.
+
+doc_id=86 page=4 block_id=4-4 bbox=155.86,336.23,439.44,404.3 label=tb 116 120
+line=116 fonts=F1-11.0,F2-11.0 bbox=155.86,393.3,439.39,404.3      :     Principle 3 (Continuity Constraint, strong version): The non-
+line=117 fonts=F1-11.0 bbox=155.86,378.9,439.39,389.9 iscore=0.27  :     extraposed part of a saturated phrasal element has to be con-
+line=118 fonts=F1-11.0 bbox=155.86,364.68,439.43,375.68 iscore=0.18:     tinuous. The non-extraposed part of a phrasal  element may
+line=119 fonts=F1-11.0 bbox=155.86,350.46,439.44,361.46 iscore=0.22:     contain no  more  discontinuous parts  than the number   of
+line=120 fonts=F1-11.0 bbox=155.86,336.23,400.57,347.23 iscore=0.44:     elements in the phrasal element’s subcat list plus one.
+
+doc_id=86 page=4 block_id=4-5 bbox=133.18,279.18,462.13,318.8 label=bt 121 123
+line=121 fonts=F0-11.0,F1-11.0 bbox=133.18,307.8,462.07,318.8              :This means  that projections of the lexical element schlafen (sleep), which
+line=122 fonts=F0-11.0 bbox=133.18,293.52,462.13,304.52 iscore=0.15        :is an intransitive verb, may contain at most two gaps. Projections of the
+line=123 fonts=F0-11.0,F1-11.0 bbox=133.18,279.18,409.01,290.18 iscore=0.23:ditransitive verb geben (give) may contain at most four gaps.
+
+doc_id=86 page=4 block_id=4-6 bbox=135.9,245.76,461.99,263.28 label=bbt 124 125
+line=124 tag=L span_id=86-7 lang_name=German lang_code=deu fonts=F0-9.0,F1-9.0 bbox=135.9,254.16,459.24,263.28      : (8) weil    oft   ein Mann geschickt einer Frau  schnell ein Buchmit   Absicht   gibt.
+line=125 tag=G span_id=86-7 lang_name=German lang_code=deu fonts=F0-9.0 bbox=149.05,245.76,461.99,254.76 iscore=0.92:     because often a   man  clever    a     woman fast    a   book with intention gives
+
+doc_id=86 page=4 block_id=4-7 bbox=133.2,180.9,462.12,234.62 label=bbb 126 129
+line=126 fonts=F0-11.0,F1-11.0 bbox=133.2,223.62,462.12,234.62    :In the artificial example (8), the verb gibt is combined with its adjuncts
+line=127 fonts=F0-11.0 bbox=133.2,209.34,462.09,220.34 iscore=0.23:(the phrases in italics) before the complements are inserted into the gaps.
+line=128 fonts=F0-11.0 bbox=133.2,195.12,462.12,206.12 iscore=0.14:As there is no complement  that could fill another gap, the number of gaps
+line=129 fonts=F0-11.0 bbox=133.2,180.9,216.0,191.9 iscore=0.07   :is limited to three.
+
+doc_id=86 page=5 block_id=5-1 bbox=133.2,669.54,326.23,678.54 label=ttt 130 130
+line=130 fonts=F0-7.2,F0-9.0 bbox=133.2,669.54,326.23,678.54:296                           Stefan MÜLLER
+
+doc_id=86 page=5 block_id=5-2 bbox=155.88,623.83,451.23,656.12 label=ttbt 131 133
+line=131 fonts=F0-11.0 bbox=155.88,645.12,451.23,656.12                                                                   :     The  one  extra gap is needed to account  for examples  such  as (9).
+line=132 tag=L span_id=86-8 lang_name=German lang_code=deu fonts=F0-9.0,F1-9.0 bbox=158.7,632.22,413.84,641.34 iscore=0.17:      (9) Schlief im     Wohnzimmer   gestern   ein Mann   lange?
+line=133 tag=G span_id=86-8 lang_name=German lang_code=deu fonts=F0-9.0 bbox=175.68,623.83,405.34,632.83 iscore=0.88      :          slept   in.the sitting room yesterday a   man    long
+
+doc_id=86 page=5 block_id=5-3 bbox=133.19,368.52,462.17,610.64 label=ttbb 134 151
+line=134 fonts=F0-11.0 bbox=133.2,599.64,462.09,610.64                                                              :In the analysis of (9) the adverbial phrases are combined with the verbs
+line=135 fonts=F0-11.0,F0-8.2 bbox=133.2,585.42,462.14,598.12 iscore=0.15                                           :first. The adverbs are combined  from  right to left.^{2} In the intermediate
+line=136 fonts=F0-11.0,F1-11.0 bbox=133.19,571.08,462.1,582.08 iscore=0.17                                          :phrase Schlief gestern lange, there are two gaps. The gap between schlief
+line=137 fonts=F0-11.0,F1-11.0 bbox=133.2,556.68,462.13,567.68 iscore=0.15                                          :and  gestern has to be filled by an adverbial phrase since no  adverbial
+line=138 fonts=F0-11.0,F1-11.0 bbox=133.21,542.28,462.12,553.28 iscore=0.29                                         :phrase is allowed to be placed to the right of gestern. Therefore, the gap
+line=139 fonts=F0-11.0,F1-11.0 bbox=133.21,527.88,462.12,538.88 iscore=0.21                                         :between  gestern and  lange has  to be filled by an argument,  e.g., ein
+line=140 fonts=F0-11.0,F1-11.0 bbox=133.21,513.48,462.14,524.48 iscore=0.23                                         :Mann.  The  gap between  schlief and gestern can be filled by an arbitrary
+line=141 fonts=F0-11.0 bbox=133.2,499.2,462.08,510.2 iscore=0.23                                                    :number   of adverbial phrases. These  adverbial phrases have  to border
+line=142 fonts=F0-11.0 bbox=133.2,484.98,421.85,495.98 iscore=0.20                                                  :gestern since otherwise the number of gaps would  be increased.
+line=143 fonts=F0-11.0 bbox=155.88,470.76,462.17,481.76 iscore=0.08                                                 :     The  first of the two tables below shows  the parse  times and  the
+line=144 fonts=F0-11.0 bbox=133.2,456.53,462.16,467.53 iscore=0.15                                                  :number  of  passive edges in the chart that are constructed without  the
+line=145 fonts=F0-11.0 bbox=133.2,442.31,462.1,453.31 iscore=0.08                                                   :strong version of the Continuity Constraint. The second shows the results
+line=146 fonts=F0-11.0 bbox=133.2,428.09,369.98,439.09 iscore=0.09                                                  :with the strong version of the Continuity Constraint.
+line=147 fonts=F0-11.0 bbox=155.88,413.86,462.1,424.86 iscore=0.08                                                  :     I have chosen  example  sentences like the one in (10) that are very
+line=148 fonts=F0-11.0 bbox=133.2,399.64,330.84,410.64 iscore=0.08                                                  :complex  and have  a high lexical ambiguity.
+line=149 tag=L span_id=86-9 lang_name=German lang_code=deu fonts=F0-9.0 bbox=133.5,386.88,456.63,395.88 iscore=0.08 :(10) Hat der Mann oft   die Frau  Hans das Nilpferd füttern helfen lassen?
+line=150 tag=G span_id=86-9 lang_name=German lang_code=deu fonts=F0-9.0 bbox=154.98,378.36,439.63,387.36 iscore=1.00:     has the man  often the woman Hans the hippo    feed    help   let
+line=151 tag=T span_id=86-9 lang_name=German lang_code=deu fonts=F0-9.0 bbox=182.88,368.52,412.41,377.52 iscore=0.33:           ‘Did the man let the woman help Hans feed the hippo often?’
+
+doc_id=86 page=5 block_id=5-4 bbox=133.2,254.1,462.17,351.14 label=tb 152 158
+line=152 fonts=F0-11.0 bbox=133.2,340.14,462.11,351.14                     :The  examined  sentences have  a verbal complex  with four ambiguous
+line=153 fonts=F0-11.0,F1-11.0 bbox=133.2,325.8,462.13,336.8 iscore=0.07   :verbs. Helfen (help) can take a dative NP, or an infinitive with and with-
+line=154 fonts=F0-11.0,F1-11.0 bbox=133.21,311.4,462.09,322.4 iscore=0.21  :out zu (to), it can form a verbal complex  or take a VP   complement.
+line=155 fonts=F0-11.0,F1-11.0 bbox=133.21,297.0,462.11,308.0 iscore=0.29  :Furthermore, there is a lexical entry for the form of helfen that triggers
+line=156 fonts=F0-11.0 bbox=133.21,282.72,462.11,293.72 iscore=0.31        :auxiliary flip. The grammar contains lexical entries both for the auxiliary
+line=157 fonts=F0-11.0,F1-11.0 bbox=133.21,268.38,462.17,279.38 iscore=0.13:and the main verb reading of hat (have), and finally the case of the NPs
+line=158 fonts=F0-11.0 bbox=133.21,254.1,462.17,265.1 iscore=0.07          :in the example sentences is ambiguous in most of the sentences. For the
+
+doc_id=86 page=5 block_id=5-5 bbox=133.2,170.28,462.15,224.62 label=b 159 163
+line=159 fonts=F0-6.7,F0-7.2,F0-9.0 bbox=148.2,214.2,462.13,224.62      :    ^{2} BARTSCH & VENNEMANN (1972) and KASPER (1994) claimed that certain adverbial
+line=160 fonts=F0-7.2,F0-9.0 bbox=133.2,203.22,462.11,212.22 iscore=0.25:phrases have different scopings. However, previous work by KOSTER (1975) and REIS
+line=161 fonts=F0-7.2,F0-9.0 bbox=133.2,192.24,462.14,201.24 iscore=0.15:(1980) has demonstrated that the examples by BARTSCH  & VENNEMANN    are cases of
+line=162 fonts=F0-7.2,F0-9.0 bbox=133.2,181.26,462.15,190.26 iscore=0.14:extraposition. See MÜLLER (1999a, Ch. 11) for a more detailed discussion of the linear-
+line=163 fonts=F0-9.0 bbox=133.2,170.28,240.91,179.28 iscore=0.14       :ization of adverbs and scope.
+
+doc_id=86 page=6 block_id=6-1 bbox=198.18,669.54,462.11,678.54 label=ttt 164 164
+line=164 fonts=F0-9.0 bbox=198.18,669.54,462.11,678.54:               Word  Order Domains and Discontinuous Constituents          297
+
+doc_id=86 page=6 block_id=6-2 bbox=133.2,601.07,462.09,656.12 label=ttb 165 169
+line=165 fonts=F0-11.0 bbox=133.2,645.12,462.09,656.12                                                               :purpose  of comparison,   I have added  the simple  sentence  (11). Section 3
+line=166 fonts=F0-11.0 bbox=133.2,630.9,244.09,641.9 iscore=0.17                                                     :contains more   examples.
+line=167 tag=L span_id=86-10 lang_name=German lang_code=deu fonts=F0-9.0 bbox=157.32,618.12,427.23,627.12 iscore=0.00:      (11 Ich erwarte, daß  Karl der Frau  das Buch gibt, die  schläft.
+line=168 tag=G span_id=86-10 lang_name=German lang_code=deu fonts=F0-9.0 bbox=174.3,609.6,425.23,618.6 iscore=1.00   :          I   expect   that Karl the woman the book gives who  sleeps.
+line=169 tag=T span_id=86-10 lang_name=German lang_code=deu fonts=F0-9.0 bbox=184.09,601.07,411.26,610.07 iscore=0.08:            ‘I expect that Karl gives the book to the woman who sleeps.’
+
+doc_id=86 page=6 block_id=6-3 bbox=133.2,461.94,462.12,584.36 label=tbtt 170 179
+line=170 fonts=F0-11.0 bbox=133.2,573.36,462.12,584.36           :The  times were  measured   on  a 300 MHz   Sparc  Ultra 2 under  Solaris 2.5.1
+line=171 fonts=F0-11.0 bbox=133.2,559.14,243.5,570.14 iscore=0.07:with  SWI-Prolog   2.9.10.
+line=172 fonts=F0-9.0 bbox=133.2,546.36,462.09,555.36 iscore=0.25:Sentence                                                  Words  entries secedges
+line=173 fonts=F0-9.0 bbox=133.2,534.3,462.12,543.3 iscore=0.15  :Hat John Cecilia Hans das Nilpferd füttern helfen lassen?      9    59  17 1389
+line=174 fonts=F0-9.0 bbox=133.2,522.24,462.12,531.24 iscore=0.43:Hat John die Frau Hans das Nilpferd füttern helfen lassen?    10    62  19 1445
+line=175 fonts=F0-9.0 bbox=133.2,510.18,462.12,519.18 iscore=0.40:Hat der Mann die Frau John das Nilpferd füttern helfen lassen? 11   69  10  848
+line=176 fonts=F0-9.0 bbox=133.2,498.12,462.12,507.12 iscore=0.27:Hat John oft Cecilia Hans das Nilpferd füttern helfen lassen? 10    60 123 4597
+line=177 fonts=F0-9.0 bbox=133.2,486.06,462.12,495.06 iscore=0.53:Hat John oft die Frau Hans das Nilpferd füttern helfen lassen? 11   63 130 4742
+line=178 fonts=F0-9.0 bbox=133.2,474.0,462.12,483.0 iscore=0.38  :Hat der Mann oft die Frau Hans das Nilpferd füttern helfen lassen? 12 70 55 2687
+line=179 fonts=F0-9.0 bbox=133.2,461.94,462.11,470.94 iscore=0.25:Ich erwarte, daß Karl der Frau das Buch gibt, die schläft.    11    48   2  231
+
+doc_id=86 page=6 block_id=6-4 bbox=133.2,353.4,462.13,446.82 label=tbtb 180 187
+line=180 fonts=F0-9.0 bbox=133.2,437.82,462.1,446.82             :Sentence                                                       Words   entries  sec
+line=181 fonts=F0-9.0 bbox=133.2,425.76,462.13,434.76 iscore=0.17:Hat John Cecilia Hans das Nilpferd füttern helfen lassen?           9      7    701
+line=182 fonts=F0-9.0 bbox=133.2,413.7,462.13,422.7 iscore=0.38  :Hat John die Frau Hans das Nilpferd füttern helfen lassen?         10      8    697
+line=183 fonts=F0-9.0 bbox=133.2,401.64,462.13,410.64 iscore=0.43:Hat der Mann die Frau John das Nilpferd füttern helfen lassen?     11      5    501
+line=184 fonts=F0-9.0 bbox=133.2,389.58,462.13,398.58 iscore=0.21:Hat John oft Cecilia Hans das Nilpferd füttern helfen lassen?      10     35   2141
+line=185 fonts=F0-9.0 bbox=133.2,377.52,462.13,386.52 iscore=0.50:Hat John oft die Frau Hans das Nilpferd füttern helfen lassen?     11     32   1992
+line=186 fonts=F0-9.0 bbox=133.2,365.46,462.13,374.46 iscore=0.40:Hat der Mann oft die Frau Hans das Nilpferd füttern helfen lassen? 12     19   1302
+line=187 fonts=F0-9.0 bbox=133.2,353.4,462.13,362.4 iscore=0.27  :Ich erwarte, daß Karl der Frau das Buch gibt, die schläft.         11      2    189
+
+doc_id=86 page=6 block_id=6-5 bbox=133.2,226.12,462.18,336.68 label=tbb 188 195
+line=188 fonts=F0-11.0 bbox=133.2,325.68,462.11,336.68                   :The  introduction of the strong version  of the Continuity Constraint
+line=189 fonts=F0-11.0 bbox=133.2,311.46,462.18,322.46 iscore=0.13       :reduces the number of passive edges by a factor of up to 2.4. The parse
+line=190 fonts=F0-11.0 bbox=133.2,297.23,420.63,308.23 iscore=0.07       :time is reduced by a factor of 4 for the most complex example.
+line=191 fonts=F0-11.0 bbox=155.88,283.01,462.13,294.01 iscore=0.08      :     Figure 1 shows  the results of parsing 1,022 utterances form the
+line=192 fonts=F0-11.0 bbox=133.2,268.79,462.12,279.79 iscore=0.08       :Verbmobil  CD 32 with and without the condition. The average parse time
+line=193 fonts=F0-11.0 bbox=133.2,254.56,462.17,265.56 iscore=0.17       :for the Verbmobil sentences was reduced by factor 3. The sentences were
+line=194 fonts=F0-11.0 bbox=133.2,240.34,462.1,251.34 iscore=0.43        :parsed with an edge limit of 25,000. As the figure shows, this edge limit
+line=195 fonts=F0-11.0,F0-8.2 bbox=133.2,226.12,427.16,238.84 iscore=0.07:is reached for 18 word sentences already without the restriction.^{3}
+
+doc_id=86 page=6 block_id=6-6 bbox=133.2,170.28,462.14,191.68 label=b 196 197
+line=196 fonts=F0-6.7,F0-7.2,F0-9.0 bbox=148.2,181.26,462.14,191.68:   ^{3} The figure was created with TSDB++ by Stephan OEPEN (OEPEN & FLICKINGER
+line=197 fonts=F0-9.0 bbox=133.2,170.28,156.45,179.28 iscore=0.00  :1998).
+
+doc_id=86 page=7 block_id=7-1 bbox=133.2,669.54,326.23,678.54 label=t 198 198
+line=198 fonts=F0-7.2,F0-9.0 bbox=133.2,669.54,326.23,678.54:298                           Stefan MÜLLER
+
+doc_id=86 page=7 block_id=7-2 bbox=168.96,472.8,426.38,492.78 label=btt 199 200
+line=199 fonts=F0-9.0 bbox=272.4,483.78,322.9,492.78            :                                   String Length
+line=200 fonts=F0-9.0 bbox=168.96,472.8,426.38,481.8 iscore=0.08:         Figure 1: Passive edges generated by the grammar during a full parse
+
+doc_id=86 page=7 block_id=7-3 bbox=133.2,222.04,462.17,447.78 label=btb 201 216
+line=201 fonts=F0-12.0 bbox=133.2,435.78,276.95,447.78                    :3. Comparison  of the Results
+line=202 fonts=F0-11.0,F0-8.8 bbox=155.88,421.14,462.12,432.14 iscore=0.07:     As far as I know, KASPER et al. (1998; KCD) are the only ones that
+line=203 fonts=F0-11.0 bbox=133.2,406.92,462.15,417.92 iscore=0.20        :have published parse times of a  system that processes a word  order
+line=204 fonts=F0-11.0 bbox=133.2,392.69,462.16,403.69 iscore=0.17        :domain based HPSG   grammar. In their paper they claim that parsing with
+line=205 fonts=F0-11.0 bbox=133.2,378.47,462.15,389.47 iscore=0.25        :discontinuous constituents has never been applied to HPSG grammars for
+line=206 fonts=F0-11.0 bbox=133.2,364.25,462.12,375.25 iscore=0.18        :nontrivial fragments. This is not true. The Babel-system has been available
+line=207 fonts=F0-11.0,F0-8.2 bbox=133.2,350.02,462.09,362.74 iscore=0.31 :on the web^{4} since 1995 and its existence is documented in several publi-
+line=208 fonts=F0-11.0,F0-8.8 bbox=133.2,335.82,462.08,346.82 iscore=0.15 :cations (see for instance MÜLLER 1995; MÜLLER 1996a; MÜLLER 1996b).
+line=209 fonts=F0-11.0,F0-8.8 bbox=133.2,321.6,462.11,332.6 iscore=0.18   :The  linguistic analyses are documented in a 486 page book (MÜLLER
+line=210 fonts=F0-11.0 bbox=133.2,307.38,462.17,318.38 iscore=0.23        :1999a). The grammar  covers a wide range of phenomena, a list of which
+line=211 fonts=F0-11.0,F0-8.2 bbox=133.2,293.16,462.07,305.86 iscore=0.12 :can be found on the web.^{5} The test suite that I use is also provided and
+line=212 fonts=F0-11.0 bbox=133.2,278.94,348.56,289.94 iscore=0.25        :can be used for comparison with other systems.
+line=213 fonts=F0-11.0 bbox=155.89,264.71,461.36,275.71 iscore=0.08       :     The actual grammar that is processed by the system is much bigger
+line=214 fonts=F0-11.0 bbox=133.2,250.49,462.12,261.49 iscore=0.33        :than the one described by KCD.  The system currently has over 10,500
+line=215 fonts=F0-11.0 bbox=133.2,236.27,462.14,247.27 iscore=0.29        :entries in the stem lexicon and over 240,000 full forms. I use 21 phrase
+line=216 fonts=F0-11.0 bbox=133.2,222.04,462.14,233.04 iscore=0.21        :structure rules. In order to make the systems comparable, I reduced the
+
+doc_id=86 page=7 block_id=7-4 bbox=148.2,170.28,384.81,191.68 label=bb 217 218
+line=217 fonts=F0-6.7,F0-9.0,F3-7.5 bbox=148.2,181.26,362.31,191.68           :   4 http://www.dfki.de/~stefan/Babel/e_index.html .
+line=218 fonts=F0-6.7,F0-9.0,F3-7.5 bbox=148.2,170.28,384.81,180.7 iscore=0.67:   5 http://www.dfki.de/~stefan/Babel/e_phaenomene.html .
+
+doc_id=86 page=8 block_id=8-1 bbox=198.18,669.54,462.11,678.54 label=ttt 219 219
+line=219 fonts=F0-9.0 bbox=198.18,669.54,462.11,678.54:               Word  Order Domains and Discontinuous Constituents          299
+
+doc_id=86 page=8 block_id=8-2 bbox=133.2,417.3,462.15,656.12 label=ttb 220 236
+line=220 fonts=F0-11.0 bbox=133.2,645.12,462.12,656.12                   :amount of phrase structure rules to such an extent that the reduced gram-
+line=221 fonts=F0-11.0 bbox=133.2,630.9,462.09,641.9 iscore=0.23         :mar covers those phenomena  that the grammar described by KCD   can
+line=222 fonts=F0-11.0 bbox=133.2,616.67,462.09,627.67 iscore=0.27       :handle. From the description of their grammar and from the knowledge
+line=223 fonts=F0-11.0 bbox=133.2,602.45,462.09,613.45 iscore=0.17       :about general properties of HPSG grammars it can be concluded that even
+line=224 fonts=F0-11.0 bbox=133.2,588.23,462.07,599.23 iscore=0.25       :this reduced Babel grammar  has a broader coverage than the grammar
+line=225 fonts=F0-11.0 bbox=133.2,574.01,462.11,585.01 iscore=0.18       :KCD  describe. For instance, my grammar can handle extraposition using
+line=226 fonts=F0-11.0,F0-8.8 bbox=133.2,559.78,462.09,570.8 iscore=0.18 :KATHOL  &  POLLARD’s  (1995) approach; it also treats the German verbal
+line=227 fonts=F0-11.0 bbox=133.2,545.58,216.59,556.58 iscore=0.18       :complex correctly.
+line=228 fonts=F0-11.0 bbox=155.88,531.35,462.13,542.35 iscore=0.00      :     KCD  state that they measured their parsing times on a SPARCstation
+line=229 fonts=F0-11.0,F0-8.8 bbox=133.2,517.13,462.15,528.14 iscore=0.14:5. Paul DAVIS  informed me  that it was a 170 MHz  machine. For the
+line=230 fonts=F0-11.0 bbox=133.2,502.92,462.12,513.92 iscore=0.21       :purpose of comparison I tested the sentences on a SPARCstation 5 with
+line=231 fonts=F0-11.0 bbox=133.2,488.69,462.11,499.69 iscore=0.08       :110 MHz   and extrapolated to the larger clock rate. I measured the times
+line=232 fonts=F0-11.0 bbox=133.2,474.47,323.84,485.47 iscore=0.08       :under Solaris 2.5 with SWI-Prolog 2.9.10.
+line=233 fonts=F0-11.0 bbox=155.88,460.25,462.11,471.25 iscore=0.15      :     The list on the next page shows the examples that were given by
+line=234 fonts=F0-11.0,F0-8.2 bbox=133.2,446.02,462.05,458.74 iscore=0.23:KCD.^{6} I tested additional sentences because the word schnell is both an
+line=235 fonts=F0-11.0,F1-11.0 bbox=133.2,431.7,462.09,442.7 iscore=0.33 :adjective and an adverb. The adjective schnell can appear with a predicat-
+line=236 fonts=F0-11.0,F1-11.0 bbox=133.2,417.3,264.25,428.3 iscore=0.08 :ive meaning like roh in (12).
+
+doc_id=86 page=8 block_id=8-3 bbox=158.7,361.2,306.8,401.4 label=tbt 237 240
+line=237 tag=L span_id=86-11 lang_name=German lang_code=deu fonts=F0-9.0 bbox=158.7,392.4,299.32,401.4               :       (1  a.  Er   ißt   das  Fleisch  roh.
+line=238 tag=G span_id=86-11 lang_name=German lang_code=deu fonts=F0-9.0 bbox=192.12,383.88,298.55,392.88 iscore=1.00:               he   eats  the  meat     raw
+line=239 tag=L span_id=86-12 lang_name=German lang_code=deu fonts=F0-9.0 bbox=175.67,369.72,306.8,378.72 iscore=0.83 :           b.  Er   ißt   das  Fleisch  nackt.
+line=240 tag=G span_id=86-12 lang_name=German lang_code=deu fonts=F0-9.0 bbox=192.12,361.2,306.55,370.2 iscore=1.00  :               he   eats  the  meat     naked
+
+doc_id=86 page=8 block_id=8-4 bbox=133.19,253.31,462.11,350.18 label=tbb 241 247
+line=241 fonts=F0-11.0 bbox=133.2,339.18,462.11,350.18                    :Such  predicative adjectives are serialized similar to adverbs. They can
+line=242 fonts=F0-11.0,F1-11.0 bbox=133.2,324.84,462.11,335.84 iscore=0.20:refer to the subject or to the direct object. In T7, for instance, schnell can
+line=243 fonts=F0-11.0,F1-11.0 bbox=133.2,310.44,462.1,321.44 iscore=0.33 :refer to er or to ihn. To exclude these readings from the statistics, I have
+line=244 fonts=F0-11.0,F1-11.0 bbox=133.2,296.04,462.07,307.04 iscore=0.47:introduced the examples marked  with an apostrophe. Oft is a true adverb
+line=245 fonts=F0-11.0 bbox=133.19,281.76,462.11,292.76 iscore=0.36       :and does not produce these readings. The results are shown in table 1. For
+line=246 fonts=F0-11.0 bbox=133.19,267.54,462.1,278.54 iscore=0.21        :Babel, I state the number  of lexical entries and the number of passive
+line=247 fonts=F0-11.0 bbox=133.19,253.31,208.63,264.31 iscore=0.15       :edges in a parse.
+
+doc_id=86 page=8 block_id=8-5 bbox=148.2,170.28,363.76,180.7 label=b 248 248
+line=248 fonts=F0-6.7,F0-9.0 bbox=148.2,170.28,363.76,180.7:    ^{6} Due to space limitations I do not give a translation here.
+
+doc_id=86 page=9 block_id=9-1 bbox=133.2,669.54,326.23,678.54 label=tt 249 249
+line=249 fonts=F0-7.2,F0-9.0 bbox=133.2,669.54,326.23,678.54:300                           Stefan MÜLLER
+
+doc_id=86 page=9 block_id=9-2 bbox=155.88,453.6,403.02,655.56 label=tb 250 266
+line=250 fonts=F0-9.0 bbox=155.88,646.56,230.32,655.56            :      T1       Er hilft ihr.
+line=251 fonts=F0-9.0 bbox=155.88,634.5,279.55,643.5 iscore=0.60  :      T2       Hilft er seiner Freundin?
+line=252 fonts=F0-9.0 bbox=155.88,622.44,258.81,631.44 iscore=0.60:      T3       Er hilft ihr schnell.
+line=253 fonts=F0-9.0 bbox=155.88,610.38,243.32,619.38 iscore=1.00:      T3’      Er hilft ihr oft.
+line=254 fonts=F0-9.0 bbox=155.88,598.32,261.05,607.32 iscore=0.80:      T4       Hilft er ihr schnell?
+line=255 fonts=F0-9.0 bbox=155.88,586.26,245.56,595.26 iscore=1.00:      T4’      Hilft er ihr oft?
+line=256 fonts=F0-9.0 bbox=155.88,574.2,272.04,583.2 iscore=0.83  :      T5       Ließ  er ihr ihn helfen?
+line=257 fonts=F0-9.0 bbox=155.88,562.14,297.3,571.14 iscore=0.57 :      T6       Er ließ ihn ihr schnell helfen.
+line=258 fonts=F0-9.0 bbox=155.88,550.08,281.8,559.08 iscore=0.86 :      T6’      Er ließ ihn ihr oft helfen.
+line=259 fonts=F0-9.0 bbox=155.88,538.02,300.54,547.02 iscore=0.43:      T7       Ließ er ihn ihr schnell helfen?
+line=260 fonts=F0-9.0 bbox=155.88,525.96,285.04,534.96 iscore=0.86:      T7’      Ließ er ihn ihr oft helfen?
+line=261 fonts=F0-9.0 bbox=155.88,513.9,376.77,522.9 iscore=0.33  :      T8       Der Vater  ließ seiner Freundin seinen Sohn helfen.
+line=262 fonts=F0-9.0 bbox=155.88,501.84,284.55,510.84 iscore=0.67:      T9       Sie denkt, daß  er ihr hilft.
+line=263 fonts=F0-9.0 bbox=155.88,489.78,313.05,498.78 iscore=0.88:      T10      Sie denkt, daß  er ihr schnell hilft.
+line=264 fonts=F0-9.0 bbox=155.88,477.72,297.55,486.72 iscore=0.88:      T10’     Sie denkt, daß  er ihr oft hilft.
+line=265 fonts=F0-9.0 bbox=155.88,465.66,323.04,474.66 iscore=0.78:      T11      Sie denkt, daß  er ihr ihn helfen ließ.
+line=266 fonts=F0-9.0 bbox=155.88,453.6,403.02,462.6 iscore=0.55  :      T12      Sie denkt, daß er seiner Freundin seinen Sohn helfen ließ.
+
+doc_id=86 page=9 block_id=9-3 bbox=136.44,173.4,458.91,421.02 label=b 267 287
+line=267 fonts=F0-9.0 bbox=138.18,412.02,458.89,421.02            : Sent.  KCD98      Babel (reduced)       Babel (full)                Babel (full)
+line=268 fonts=F0-9.0 bbox=180.06,397.68,458.89,406.68 iscore=0.00:           time  time   lex.e. edges  time  lex.e. edges time on Ultra 2, 300Mhz
+line=269 fonts=F0-9.0 bbox=136.44,382.38,458.91,391.38 iscore=0.17: T1        1.8    0.2       5    14   0.5      11    25                     0.11
+line=270 fonts=F0-9.0 bbox=136.44,368.04,458.91,377.04 iscore=1.00: T2        3.6    0.2       5    17   0.7      10    29                     0.16
+line=271 fonts=F0-9.0 bbox=136.44,356.7,458.91,365.7 iscore=1.00  : T3        4.9    0.3       6    24   1.0      17    61                     0.22
+line=272 fonts=F0-9.0 bbox=136.44,345.36,458.91,354.36 iscore=0.89: T3’              0.3       6    24   0.8      12    41                     0.18
+line=273 fonts=F0-9.0 bbox=136.44,334.02,458.91,343.02 iscore=0.89: T4        5.2    0.3       6    29   1.9      17    73                     0.25
+line=274 fonts=F0-9.0 bbox=136.44,322.68,458.91,331.68 iscore=0.89: T4’              0.3       6    29   0.9      12    49                     0.20
+line=275 fonts=F0-9.0 bbox=136.44,311.34,458.91,320.34 iscore=0.78: T5        6.2    0.4       7    29   2.9      39   106                     0.70
+line=276 fonts=F0-9.0 bbox=136.44,300.0,458.91,309.0 iscore=0.89  : T6       32.4    0.8       8    64   7.7      45   374                     1.66
+line=277 fonts=F0-9.0 bbox=136.44,288.66,458.91,297.66 iscore=0.89: T6’              0.8       8    64   4.5      40   226                     1.90
+line=278 fonts=F0-9.0 bbox=136.44,277.32,458.91,286.32 iscore=0.89: T7       26.6    0.8       8    65   7.2      45   386                     1.71
+line=279 fonts=F0-9.0 bbox=136.44,265.98,458.91,274.98 iscore=0.89: T7’              0.8       8    65   4.7      40   228                     1.81
+line=280 fonts=F0-9.0 bbox=136.44,254.64,458.91,263.64 iscore=0.78: T8       52.1    0.6      10    29   3.5      48   113                     0.82
+line=281 fonts=F0-9.0 bbox=136.44,243.3,458.91,252.3 iscore=0.89  : T9       48.0    0.4       9    45   2.6      47   121                     0.61
+line=282 fonts=F0-9.0 bbox=136.44,231.96,458.91,240.96 iscore=0.78: T10     253.8    0.5      10    45   3.5      53   176                     0.85
+line=283 fonts=F0-9.0 bbox=136.44,220.62,458.91,229.62 iscore=0.89: T10’             0.5      10    45   3.6      48   136                     0.70
+line=284 fonts=F0-9.0 bbox=136.44,209.28,458.91,218.28 iscore=0.89: T11     176.5    0.6      11    46   5.0      75   204                     1.18
+line=285 fonts=F0-9.0 bbox=136.44,197.94,458.91,206.94 iscore=1.00: T12     528.1    0.7      12    49   5.2      76   207                     1.25
+line=286 fonts=F0-9.0 bbox=138.54,185.64,456.7,194.64 iscore=0.13 : Table 1: Parse times of T1-T12 in seconds, lexical entries and passive edges during a
+line=287 fonts=F0-9.0 bbox=266.63,173.4,328.62,182.4 iscore=0.12  :                                 parse with Babel
+
+doc_id=86 page=10 block_id=10-1 bbox=198.18,669.54,462.11,678.54 label=t 288 288
+line=288 fonts=F0-9.0 bbox=198.18,669.54,462.11,678.54:               Word  Order Domains and Discontinuous Constituents          301
+
+doc_id=86 page=10 block_id=10-2 bbox=237.42,170.28,357.91,179.28 label=b 289 289
+line=289 fonts=F0-9.0 bbox=237.42,170.28,357.91,179.28:                          Figure 2: Comparison of Results
+
+doc_id=86 page=11 block_id=11-1 bbox=133.2,669.54,326.23,678.54 label=ttt 290 290
+line=290 fonts=F0-7.2,F0-9.0 bbox=133.2,669.54,326.23,678.54:302                           Stefan MÜLLER
+
+doc_id=86 page=11 block_id=11-2 bbox=133.2,616.67,462.11,656.12 label=ttb 291 293
+line=291 fonts=F0-11.0 bbox=155.88,645.12,462.11,656.12           :     Figure 2 shows  the Babel results with the apostrophe examples,
+line=292 fonts=F0-11.0 bbox=133.2,630.9,462.1,641.9 iscore=0.09   :parsed with the full grammar. The examples without apostrophe are drawn
+line=293 fonts=F0-11.0 bbox=133.2,616.67,215.38,627.67 iscore=0.18:with a dotted line.
+
+doc_id=86 page=11 block_id=11-3 bbox=133.2,444.9,462.13,599.52 label=tb 294 304
+line=294 fonts=F0-12.0 bbox=133.2,587.52,200.89,599.52                  :4. Conclusion
+line=295 fonts=F0-11.0 bbox=155.88,572.88,462.1,583.88 iscore=0.00      :     In this paper, I proposed a constraint on the continuity of maximal
+line=296 fonts=F0-11.0 bbox=133.2,558.66,462.11,569.66 iscore=0.17      :projections. In order to speed up the processing of  input sentences, I
+line=297 fonts=F0-11.0 bbox=133.2,544.43,462.1,555.43 iscore=0.17       :strengthened the Continuity Constraint to restrict the number of discon-
+line=298 fonts=F0-11.0 bbox=133.2,530.21,462.12,541.21 iscore=0.17      :tinuous parts in a sentence. I implemented the strong constraint in the
+line=299 fonts=F0-11.0 bbox=133.2,515.99,462.12,526.99 iscore=0.23      :Babel  system and  demonstrated a reduction in parse times by  up to a
+line=300 fonts=F0-11.0 bbox=133.2,501.77,183.59,512.77 iscore=0.08      :factor of 4.
+line=301 fonts=F0-11.0 bbox=155.88,487.54,462.13,498.54 iscore=0.08     :     I showed that the parse times of the Babel system rise only moder-
+line=302 fonts=F0-11.0 bbox=133.2,473.32,462.13,484.32 iscore=0.38      :ately as the length of the sentence increases. I compared Babel to the
+line=303 fonts=F0-11.0,F0-8.8 bbox=133.2,459.1,462.11,470.12 iscore=0.15:system presented in KASPER   et al. (1998), and demonstrated that Babel
+line=304 fonts=F0-11.0 bbox=133.2,444.9,326.55,455.9 iscore=0.09        :can parse sentences up to 754 times faster.
+
+doc_id=86 page=11 block_id=11-4 bbox=133.2,414.6,186.5,426.6 label=bt 305 305
+line=305 fonts=F0-12.0 bbox=133.2,414.6,186.5,426.6:References
+
+doc_id=86 page=11 block_id=11-5 bbox=133.2,172.98,462.15,398.34 label=bb 306 324
+line=306 fonts=F0-7.2,F0-9.0 bbox=133.2,389.34,462.1,398.34              :BARTSCH,  Renate and VENNEMANN,   Theo  (1972): Semantic Structures. A Study in the
+line=307 fonts=F0-9.0 bbox=155.88,377.28,462.12,386.28 iscore=0.09       :      Relation between Semantics and Syntax (Athenäum-Skripten Linguistik, 9). Frank-
+line=308 fonts=F0-9.0 bbox=155.88,365.22,235.62,374.22 iscore=0.11       :      furt/Main: Athenäum.
+line=309 fonts=F0-7.2,F0-9.0 bbox=133.2,353.16,462.14,362.16 iscore=0.00 :HINRICHS, Erhard W. and NAKAZAWA,   Tsuneko (1989): Subcategorization and VP struc-
+line=310 fonts=F0-9.0,F1-9.0 bbox=155.88,340.98,462.12,349.98 iscore=0.27:      ture in German. In: Aspects of German VP Structure, SfS-Report-01-93. Eberhard-
+line=311 fonts=F0-9.0 bbox=155.88,328.92,258.12,337.92 iscore=0.09       :      Karls-Universität Tübingen.
+line=312 fonts=F0-7.2,F0-9.0 bbox=133.2,316.86,462.09,325.86 iscore=0.00 :KASPER, Robert T. (1994): Adjuncts in the Mittelfeld. In John NERBONNE, Klaus NETTER
+line=313 fonts=F0-7.2,F0-9.0 bbox=155.88,304.8,462.1,313.8 iscore=0.17   :      and Carl J. POLLARD (eds.), German in Head-Driven Phrase Structure Grammar
+line=314 fonts=F0-9.0 bbox=155.88,292.74,462.15,301.74 iscore=0.23       :      (CSLI Lecture Notes, 46), 39-70. Stanford: Center for the Study of Language and
+line=315 fonts=F0-9.0 bbox=155.88,280.68,201.12,289.68 iscore=0.08       :      Information.
+line=316 fonts=F0-7.2,F0-9.0 bbox=133.2,268.62,462.13,277.62 iscore=0.00 :KASPER  et al. (1998): Robert T. K., Mike CALCAGNO and Paul C. DAVIS, Know when to
+line=317 fonts=F0-9.0 bbox=155.88,256.56,462.09,265.56 iscore=0.13       :      hold ’em: Shuffling deterministically in a parser for nonconcatenative grammars. In:
+line=318 fonts=F0-9.0,F1-9.0 bbox=155.88,244.38,368.11,253.38 iscore=0.18:      Proceedings of the COLING-ACL  98, 663-669. Montreal.
+line=319 fonts=F0-7.2,F0-9.0 bbox=133.2,232.32,462.14,241.32 iscore=0.10 :KATHOL,  Andreas (1995): Linearization-Based German Syntax. Ph.D. thesis, Ohio State
+line=320 fonts=F0-9.0 bbox=155.88,220.26,196.13,229.26 iscore=0.00       :      University.
+line=321 fonts=F0-7.2,F0-9.0 bbox=133.2,208.2,462.15,217.2 iscore=0.00   :KATHOL,  Andreas and POLLARD, Carl J. (1995): Extraposition via complex domain forma-
+line=322 fonts=F0-9.0,F1-9.0 bbox=155.88,196.02,462.12,205.02 iscore=0.08:      tion. In: Proceedings of the Thrirty-Third Annual Meeting of the ACL, Boston,
+line=323 fonts=F0-9.0,F3-7.5 bbox=155.88,183.96,462.12,192.96 iscore=0.08:      Association for Computational Linguistics. http://linguistics.berkeley.edu/
+line=324 fonts=F0-9.0,F3-7.5 bbox=155.88,172.98,314.88,181.98 iscore=0.20:      ~kathol/Papers/ACL95.ps.gz   . 06.29.99.
+
+doc_id=86 page=12 block_id=12-1 bbox=198.18,669.54,462.11,678.54 label=t 325 325
+line=325 fonts=F0-9.0 bbox=198.18,669.54,462.11,678.54:               Word  Order Domains and Discontinuous Constituents          303
+
+doc_id=86 page=12 block_id=12-2 bbox=133.2,212.28,462.15,655.56 label=b 326 362
+line=326 fonts=F0-7.2,F0-9.0 bbox=133.2,646.56,462.12,655.56                    :KISS, Tibor (1995): Infinite Komplementation. Neue Studien zum  deutschen Verbum
+line=327 fonts=F0-9.0 bbox=155.88,634.5,430.07,643.5 iscore=0.11                :      infinitum (Linguistische Arbeiten, 333). Tübingen: Max Niemeyer Verlag.
+line=328 fonts=F0-7.2,F0-9.0,F1-9.0 bbox=133.2,622.32,455.95,631.32 iscore=0.15 :KOSTER, Jan (1975): Dutch as an SOV language. In: Linguistic Analysis 1(2), 111-136.
+line=329 fonts=F0-7.2,F0-9.0 bbox=133.2,610.26,462.06,619.26 iscore=0.15        :MÜLLER,  Stefan (1995): Scrambling in German   – extraction into the Mittelfeld. In:
+line=330 fonts=F0-7.2,F0-9.0,F1-9.0 bbox=155.88,598.08,462.08,607.08 iscore=0.21:      Benjamin K. T’SOU and Tom  B.Y. LAI (eds.), Proceedings of the tenth Pacific Asia
+line=331 fonts=F0-9.0,F1-9.0 bbox=155.88,585.9,462.09,594.9 iscore=0.14         :      Conference on Language, Information and Computation, 79-83. City University of
+line=332 fonts=F0-9.0,F3-7.5 bbox=155.87,573.84,462.13,582.84 iscore=0.10       :      HongKong.http://www.dfki.de/~stefan/Pub/e_scrambling.html.12.10.1999.
+line=333 fonts=F0-9.0,F1-9.0 bbox=142.2,561.66,462.09,570.66 iscore=0.00        :  —    (1996a): The Babel-System – an HPSG Prolog implementation. In: Proceedings of
+line=334 fonts=F0-9.0,F1-9.0 bbox=155.88,549.49,462.1,558.49 iscore=0.18        :      the Fourth International Conference on the Practical Application of Prolog, 263-
+line=335 fonts=F0-9.0,F3-7.5 bbox=155.88,537.42,452.37,546.43 iscore=0.18       :      277, London. http://www.dfki.de/~stefan/Pub/e_babel.html     . 12.10.1999.
+line=336 fonts=F0-9.0 bbox=142.2,525.36,462.07,534.36 iscore=0.00               :  —    (1996b): Yet another paper about partial verb phrase fronting in German. In Pro-
+line=337 fonts=F0-9.0,F3-7.5 bbox=155.88,513.3,462.09,522.3 iscore=0.23         :      ceedings of COLING  96, 800-805, Copenhagen. COLING   96. http://www.dfki.
+line=338 fonts=F0-9.0,F3-7.5 bbox=155.88,502.32,316.38,511.32 iscore=0.11       :      de/~stefan/Pub/e_pvp.html.  12.10.1999.
+line=339 fonts=F0-9.0 bbox=142.2,490.26,462.11,499.26 iscore=0.00               :  —    (1999a): Deutsche Syntax deklarativ. Head-Driven Phrase Structure Grammar für
+line=340 fonts=F0-9.0 bbox=155.88,478.2,445.05,487.2 iscore=0.11                :      das Deutsche (Linguistische Arbeiten, 394). Tübingen: Max Niemeyer Verlag.
+line=341 fonts=F0-9.0,F3-7.5 bbox=155.88,466.14,395.88,475.14 iscore=0.11       :      http://www.dfki.de/~stefan/Pub/e_hpsg.html     . 12.10.1999.
+line=342 fonts=F0-9.0,F1-9.0 bbox=142.2,453.96,462.1,462.96 iscore=0.09         :  —    (1999b): Restricting discontinuity. In: Proceedings of the 5th Natural Language
+line=343 fonts=F0-9.0,F1-9.0 bbox=155.88,441.79,388.36,450.79 iscore=0.00       :      Processing Pacific Rim Symposium 1999 (NLPRS’99). Peking.
+line=344 fonts=F0-7.2,F0-9.0 bbox=133.2,429.72,462.15,438.72 iscore=0.18        :OEPEN, Stephan and FLICKINGER, Daniel P. (1998): Towards systematic grammar profil-
+line=345 fonts=F0-9.0,F1-9.0 bbox=155.88,417.54,462.08,426.54 iscore=0.29       :      ing. Test suite technology ten years after. In: Journal of Computer Speech and Lan-
+line=346 fonts=F0-9.0,F1-9.0 bbox=155.88,405.37,348.83,414.37 iscore=0.07       :      guage 12(4), 411-436 (Special Issue on Evaluation).
+line=347 fonts=F0-7.2,F0-9.0 bbox=133.2,393.3,462.11,402.3 iscore=0.07          :POLLARD  et al. (1992): Carl J. P., Robert T. KASPER and Robert D. LEVINE, Linearization
+line=348 fonts=F0-9.0 bbox=155.88,381.24,396.33,390.24 iscore=0.00              :      grammar. Research Proposal to the National Science Foundation.
+line=349 fonts=F0-7.2,F0-9.0 bbox=133.2,369.18,462.09,378.18 iscore=0.19        :POLLARD  et al. (1994): Carl J. P., Robert T. KASPER and Robert D. LEVINE, Studies in
+line=350 fonts=F0-9.0 bbox=155.88,357.12,462.11,366.12 iscore=0.00              :      constituent ordering: Toward a theory of linearization in Head-Driven Phrase
+line=351 fonts=F0-9.0,F3-7.5 bbox=155.88,345.06,462.12,354.06 iscore=0.30       :      Structure Grammar. Research Proposal to the National Science Foundationftp://. csli-
+line=352 fonts=F0-9.0,F3-7.5 bbox=155.88,333.0,454.38,342.0 iscore=0.10         :      ftp.stanford.edu/linguistics/sag/linearization-prop.ps.gz      . 06.29.99.
+line=353 fonts=F0-7.2,F0-9.0 bbox=133.2,320.94,462.11,329.94 iscore=0.00        :REAPE, Mike  (1991): Word  order variation in Germanic and parsing. DYANA  Report
+line=354 fonts=F0-9.0 bbox=155.88,308.88,323.35,317.88 iscore=0.00              :      Deliverable R1.1.C, University of Edinburgh.
+line=355 fonts=F0-9.0 bbox=142.2,296.82,462.09,305.82 iscore=0.00               :  —    (1992): A Formal Theory of Word Order: A Case Study in West Germanic. Ph.D.
+line=356 fonts=F0-9.0 bbox=155.88,284.76,273.37,293.76 iscore=0.00              :      thesis, University of Edinburgh.
+line=357 fonts=F0-7.2,F0-9.0 bbox=142.2,272.7,462.11,281.7 iscore=0.08          :  —    (1994): Domain union and word order variation in German. In: John NERBONNE,
+line=358 fonts=F0-7.2,F0-9.0 bbox=155.88,260.64,462.09,269.64 iscore=0.08       :      Klaus NETTER and Carl J. POLLARD (eds.), German in Head-Driven Phrase Structure
+line=359 fonts=F0-9.0 bbox=155.88,248.58,462.13,257.58 iscore=0.31              :      Grammar  (CSLI Lecture Notes, 46), 5, 151-198. Stanford: Center for the Study of
+line=360 fonts=F0-9.0 bbox=155.88,236.52,255.6,245.52 iscore=0.15               :      Language and Information.
+line=361 fonts=F0-7.2,F0-9.0 bbox=133.2,224.46,462.09,233.46 iscore=0.08        :REIS, Marga (1980): On justifying topological frames: ‘positional field’ and the order of
+line=362 fonts=F0-9.0,F1-9.0 bbox=155.88,212.28,378.1,221.28 iscore=0.00        :      nonverbal constituents in German. In: DRLAV 22/23, 59-85.

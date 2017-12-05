@@ -13,11 +13,13 @@ See README.md for more information about features.
 from collections import Counter
 import numpy as np
 import logging
+import re
 
 
 from lgid.analyzers import (
     character_ngrams,
-    word_ngrams
+    word_ngrams,
+    morpheme_ngrams
 )
 
 from lgid.util import (
@@ -26,17 +28,9 @@ from lgid.util import (
 )
 
 lm_dict = {}
-percents = {}
-
-def get_threshold_info():
-    logging.info("LM threshold info:")
-    for feat in percents:
-        logging.info(feat)
-        logging.info("\tMean: " + str(np.mean(percents[feat])))
-        logging.info("\tStd. Dev: " + str(np.std(percents[feat])))
 
 
-def gl_features(features, mentions, context, config, common_table, eng_words):
+def gl_features(features, mentions, context, config, common_table, eng_words, num_langs):
     """
     Set matching global features to `True`
 
@@ -51,24 +45,27 @@ def gl_features(features, mentions, context, config, common_table, eng_words):
     last = context['last-lineno']
 
     if config['features']['GL-first-lines']:
-        window_mention('GL-first-lines', features, mentions, 0, wsize)
+        window_mention('GL-first-lines', features, mentions, 0, wsize, num_langs, True)
 
     if config['features']['GL-last-lines']:
-        window_mention('GL-last-lines', features, mentions, last-wsize, last)
+        window_mention('GL-last-lines', features, mentions, last-wsize, last, num_langs, True)
 
     if config['features']['GL-frequent']:
-        frequent_mention('GL-frequent', features, mentions, minfreq, 0, last)
+        frequent_mention('GL-frequent', features, mentions, minfreq, 0, last, num_langs, True)
 
     if config['features']['GL-most-frequent']:
-        frequent_mention('GL-most-frequent', features, mentions, None, 0, last)
+        frequent_mention('GL-most-frequent', features, mentions, None, 0, last, num_langs, True)
 
     if config['features']['GL-most-frequent-code']:
         most_frequent_code(features, common_table)
 
+    if config['features']['GL-is-english'] and ('english', 'eng') in features:
+        features[('english', 'eng')]['GL-is-english'] = True
+
     flag_common_words(features, eng_words, config)
 
 
-def w_features(features, mentions, context, config):
+def w_features(features, mentions, context, config, num_langs, num_lines):
     """
     Set matching window features to `True`
 
@@ -87,7 +84,6 @@ def w_features(features, mentions, context, config):
 
     t = context['span-top']
     b = context['span-bottom']
-
     if config['features']['W-prev']:
         window_mention('W-prev', features, mentions, t-wsize, t)
 
@@ -112,6 +108,14 @@ def w_features(features, mentions, context, config):
     if config['features']['W-frequent-after']:
         frequent_mention('W-frequent-after', features, mentions, minfreq, b,
                          b+a_wsize)
+    if num_langs > 20:
+        frequent_mention('W=500&langs>20-frequent', features, mentions, minfreq, t-500, t)
+        frequent_mention('W=500&langs>20-frequent-after', features, mentions, minfreq, b,
+                     b + 500)
+    if num_lines > 2000:
+        frequent_mention('W=500&lines>2000-frequent', features, mentions, minfreq, t - 500, t)
+        frequent_mention('W=500&lines>2000-frequent-after', features, mentions, minfreq, b,
+                         b + 500)
 
 
 def l_features(features, mentions, context, lms, config):
@@ -122,6 +126,7 @@ def l_features(features, mentions, context, lms, config):
         features: mapping from (lgname, lgcode) pair to features to values
         mentions: list of language mentions
         context: contextual information about the document
+        lms: tuple of different language models
         config: model-building parameters
     """
     line = context['line']
@@ -129,16 +134,16 @@ def l_features(features, mentions, context, lms, config):
     if config['features']['L-in-line']:
         in_line_mention('L-in-line', features, mentions, line)
 
-    word_clm, char_clm, word_olm, char_olm = lms
+    word_clm, char_clm, word_olm, char_olm, morph_olm = lms
     pairs = list(features.keys())
-    for name, code in pairs:
-        # ODIN n-grams
-        ngram_matching(features, 'L-LMw', line, name, code, False, 'odin', word_olm, config)
-        ngram_matching(features, 'L-LMc', line, name, code, True, 'odin', char_olm, config)
+    # ODIN n-grams
+    ngram_matching(features, 'L-LMw', line, pairs, 'word', 'odin', word_olm, config)
+    ngram_matching(features, 'L-LMc', line, pairs, 'character', 'odin', char_olm, config)
+    ngram_matching(features, 'L-LMm', line, pairs, 'morpheme', 'odin', morph_olm, config)
 
-        # Crubadan n-grams
-        ngram_matching(features, 'L-CR-LMw', line, name, code, False, 'crubadan', word_clm, config)
-        ngram_matching(features, 'L-CR-LMc', line, name, code, True, 'crubadan', char_clm, config)
+    # Crubadan n-grams
+    ngram_matching(features, 'L-CR-LMw', line, pairs, 'word', 'crubadan', word_clm, config)
+    ngram_matching(features, 'L-CR-LMc', line, pairs, 'character', 'crubadan', char_clm, config)
 
 
 def g_features(features, mentions, context, config):
@@ -197,12 +202,18 @@ def get_window(mentions, top, bottom):
         top: top (i.e. smallest) line number in the window
         bottom: bottom (i.e. largest) line number in the window
     """
-    for m in mentions:
-        if m.startline <= bottom and m.endline >= top:
-            yield m
+    for i in range(top, bottom + 1):
+        if i in mentions:
+            for m in mentions[i]:
+                if m.startline <= bottom and m.endline >= top:
+                    yield m
 
+def add_nums(feature, features, pair, num_langs):
+    for i in [5,10,15,20,40]:
+        if num_langs < i:
+            features[pair][feature + '&langs<' + str(i)] = True
 
-def window_mention(feature, features, mentions, top, bottom):
+def window_mention(feature, features, mentions, top, bottom, num_langs=0, add_num=False):
     """
     Set *feature* to `True` for mentions that occur within the window
 
@@ -215,9 +226,11 @@ def window_mention(feature, features, mentions, top, bottom):
     """
     for m in get_window(mentions, top, bottom):
         features[(m.name, m.code)][feature] = True
+        if add_num:
+            add_nums(feature, features, (m.name, m.code), num_langs)
 
 
-def frequent_mention(feature, features, mentions, thresh, top, bottom):
+def frequent_mention(feature, features, mentions, thresh, top, bottom, num_langs=0, add_num=False):
     """
     Set *feature* to `True` for mentions that occur frequently
 
@@ -240,6 +253,8 @@ def frequent_mention(feature, features, mentions, thresh, top, bottom):
     for pair, count in counts.items():
         if count >= thresh:
             features[pair][feature] = True
+            if add_num:
+                add_nums(feature, features, pair, num_langs)
 
 
 def closest_mention(feature, features, mentions, top, bottom, ref):
@@ -254,9 +269,11 @@ def closest_mention(feature, features, mentions, top, bottom, ref):
         bottom: bottom (i.e. largest) line number in the window
         ref: the reference line number for calculating distance
     """
+
     window = sorted(
         (abs(ref - m.startline), m)
-        for m in get_window(mentions, top, bottom)
+        for m in get_window(mentions, top, bottom),
+        #key=lambda x: (x[0], get_dist_to_ref(ref, x[1]))
     )
     if window:
         smallest_delta = window[0][0]
@@ -264,6 +281,13 @@ def closest_mention(feature, features, mentions, top, bottom, ref):
             if delta > smallest_delta:
                 break
             features[(mention.name, mention.code)][feature] = True
+
+
+#def get_dist_to_ref(ref, m):
+#    is_after = not bool(np.sign(ref - m.startline))
+#    if is_after:
+#        return -m.startcol
+#    return m.endcol
 
 
 def in_line_mention(feature, features, mentions, line):
@@ -279,43 +303,65 @@ def in_line_mention(feature, features, mentions, line):
     for m in get_window(mentions, line.lineno, line.lineno):
         features[(m.name, m.code)][feature] = True
 
-def ngram_matching(features, feature, line, name, code, characters, dataset, lm, config):
-    if characters:
-        threshold = float(config['parameters']['character-lm-threshold'])
+def ngram_matching(features, feature, line, pairs, gram_type, dataset, lms, config):
+    """
+    Set *feature* to `True` for features involving n-gram matching
+
+    Args:
+        features: mapping from (lgname, lgcode) pair to features to values
+        feature: feature name
+        line: FrekiLine object to inspect
+        pairs: list of (name, code) tuples
+        gram_type: what type of gram to use: 'character', 'word', or 'morpheme'
+        dataset: which language model to use: 'odin' or 'crubadan'
+        lms: the language model object to use
+        config: parameters
+    """
+    if gram_type == 'character':
+        # threshold = float(config['parameters']['character-lm-threshold'])
         if dataset == 'odin':
             n = int(config['parameters']['character-n-gram-size'])
         elif dataset == 'crubadan':
             n = int(config['parameters']['crubadan-char-size'])
+    elif gram_type == 'morpheme':
+        # threshold = float(config['parameters']['morpheme-lm-threshold'])
+        n = int(config['parameters']['morpheme-n-gram-size'])
     else:
-        threshold = float(config['parameters']['word-lm-threshold'])
+        # threshold = float(config['parameters']['word-lm-threshold'])
         if dataset == 'odin':
             n = int(config['parameters']['word-n-gram-size'])
         elif dataset == 'crubadan':
             n = int(config['parameters']['crubadan-word-size'])
 
-    if config['features'][feature]:
-        if (name, code) in lm:
-            lm = lm[(name, code)]
-            ngrams = character_ngrams(line, (n, n)) if characters else word_ngrams(line, n)
-            # remove the initial and final '\n' from Crubadan unigrams and all ODIN ngrams
-            if dataset == 'odin' or n == 1:
-                ngrams = ngrams[1:-1]
+    if gram_type == 'character':
+        ngrams = character_ngrams(line, (n, n))
+    elif gram_type == 'morpheme':
+        ngrams = morpheme_ngrams(line, n, re.compile(config['parameters']['morpheme-delimiter']))
+    else:
+        ngrams = word_ngrams(line, n)
 
-            matches = 0
-            for ngram in ngrams:
-                ngram = tuple(ngram)
-                if ngram in lm:
-                    matches += 1
-            try:
-                percent = matches / len(ngrams)
-                if feature in percents:
-                    percents[feature].append(percent)
-                else:
-                    percents[feature] = [percent]
-            except ZeroDivisionError:
-                return
-            if percent >= threshold:
-                features[(name, code)][feature] = True
+    # remove the initial and final '\n' from Crubadan unigrams and all ODIN ngrams
+    if dataset == 'odin' or n == 1:
+        ngrams = ngrams[1:-1]
+
+    if config['features'][feature]:
+        for (name, code) in pairs:
+            if (name, code) in lms:
+                lm = lms[(name, code)]
+                matches = 0
+                for ngram in ngrams:
+                    if ngram in lm:
+                        matches += 1
+                try:
+                    percent = matches / len(ngrams)
+                except ZeroDivisionError:
+                    return
+                inc = 0.1
+                threshold = 0
+                while threshold < 1:
+                    threshold = round(threshold + inc, 2)
+                    if percent >= threshold:
+                        features[(name, code)][feature + '>' + str(threshold)] = True
 
 
 def most_frequent_code(features, common_table):
@@ -329,6 +375,8 @@ def most_frequent_code(features, common_table):
         if name in common_table:
             if code in common_table[name]:
                 features[(name, code)]['GL-most-frequent-code'] = True
+        if len(name.split()) > 1:
+            features[(name, code)]['GL-multi-word-name'] = True
 
 
 def flag_common_words(features, words, config):
@@ -345,4 +393,16 @@ def flag_common_words(features, words, config):
         if config['features']['GL-short-lang-name']:
             if len(name) <= int(config['parameters']['short-name-size']):
                 features[(name, code)]['GL-short-lang-name'] = True
+            for i in range(1,10):
+                if len(name) <= i:
+                    features[(name, code)]['GL-C-name<' + str(i)] = True
 
+
+def get_mention_by_lines(mentions):
+    mention_dict = {}
+    for m in mentions:
+        key = m.startline
+        if key not in mention_dict:
+            mention_dict[key] = []
+        mention_dict[key].append(m)
+    return mention_dict

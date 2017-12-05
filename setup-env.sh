@@ -17,7 +17,7 @@ pip install docopt scipy scikit-learn requests
 if ! $( python -c "import freki" 2>/dev/null >/dev/null ); then
     TMP=`mktemp -d`
     pushd "$TMP"
-    git clone https://github.com/xigt/freki.git
+    git clone -b serialize-fixes https://github.com/xigt/freki.git
     pip install ./freki
     popd
     rm -rf "$TMP"

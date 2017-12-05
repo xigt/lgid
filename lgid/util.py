@@ -54,8 +54,7 @@ def read_odin_language_model(pairs, config, characters):
     Read an ODIN language model for a (language name, ISO code) pair.
 
     Args:
-        lang_name: unicode-normalized language name
-        iso_code: an ISO code
+        pairs: a list of (name, code) pairs to construct models for
         config: model parameters
         characters: whether to use character or word ngrams
     Returns:
@@ -73,21 +72,62 @@ def read_odin_language_model(pairs, config, characters):
         else:
             file_name = '{}/{}_{}.word'.format(base_path, iso_code, lang_name)
             n = int(config['parameters']['word-n-gram-size'])
-
+        file_name = file_name.encode('ascii', 'ignore').decode('ascii')
         try:
             with open(file_name, encoding='utf8') as f:
                 lines = f.readlines()
         except FileNotFoundError:
             continue
 
-        lm = []
+        lm = set()
         for line in lines:
             if line.strip() == '':
                 continue
             line = line.split()[0] if characters else line.split()[:-1]
-            if len(line) == n:
+            if len(line) <= n:
                 feature = tuple(line)
-                lm.append(feature)
+                lm.add(feature)
+        all_lms[(lang_name, iso_code)] = lm
+    return all_lms
+
+def read_morpheme_language_model(pairs, config):
+    """
+    Read an morpheme language model for a (language name, ISO code) pair using ODIN data.
+
+    Args:
+        pairs: a list of (name, code) pairs to construct models for
+        config: model parameters
+        characters: whether to use character or word ngrams
+    Returns:
+        list of tuples of morpheme ngrams, or None if no language model exists for
+        the given name-ISO pairing
+    """
+    splitter = re.compile(config['parameters']['morpheme-delimiter'])
+    all_lms = {}
+    for lang_name, iso_code in pairs:
+        lang_name = lang_name.replace('/', '-')
+        base_path = config['locations']['odin-language-model']
+        file_name = '{}/{}_{}.word'.format(base_path, iso_code, lang_name)
+        n = int(config['parameters']['morpheme-n-gram-size'])
+        try:
+            with open(file_name, encoding='utf8') as f:
+                lines = f.readlines()
+        except FileNotFoundError:
+            continue
+
+        lm = set()
+        for line in lines:
+            if line.strip() == '':
+                continue
+            line = re.split(splitter, line)[:-1]
+            i = 0
+            for i in range(len(line)):
+                try:
+                    feature = (line[i], line[i + 1])
+                    lm.add(feature)
+                    i += 1
+                except IndexError:
+                    break
         all_lms[(lang_name, iso_code)] = lm
     return all_lms
 
@@ -96,8 +136,7 @@ def read_crubadan_language_model(pairs, config, characters):
     Read a Crubadan language model for a (language name, ISO code) pair.
 
     Args:
-        lang_name: unicode-normalized language name
-        iso_code: an ISO code
+        pairs: a list of (name, code) pairs to construct models for
         config: model parameters
         characters: whether to use character or word ngrams
     Returns:
@@ -137,24 +176,24 @@ def read_crubadan_language_model(pairs, config, characters):
             crubadan_code = this_dir.split("_")[1]
             with open("{}/{}/{}{}".format(base_path, this_dir, crubadan_code, file_basename), encoding='utf8') as f:
                 lines = f.readlines()
-        except (FileNotFoundError, KeyError):
+        except (FileNotFoundError, KeyError, IndexError):
             continue
 
-        lm = []
+        lm = set()
         for line in lines:
             if line.strip() == '':
                 continue
             line = line.split()[:-1]
             feature = tuple(line[0]) if characters else tuple(line)
-            lm.append(feature)
+            lm.add(feature)
         all_lms[(lang_name, iso_code)] = lm
     return all_lms
 
 def encode_instance_id(doc_id, span_id, line_no, lang_name, lang_code):
-    return '-'.join(map(str, [doc_id, span_id, line_no, lang_name, lang_code]))
+    return (doc_id, span_id, line_no, lang_name, lang_code)
 
 def decode_instance_id(s):
-    doc_id, span_id, line_no, lang_name, lang_code = s.split('-')
+    doc_id, span_id, line_no, lang_name, lang_code = s.id
     return doc_id, span_id, int(line_no), lang_name, lang_code
 
 
@@ -175,6 +214,7 @@ def spans(doc):
             span_id = new_span_id
         if new_span_id is not None:
             span.append(line)
+            span_id = new_span_id
     if span:
         yield span
 

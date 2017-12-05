@@ -1,0 +1,910 @@
+doc_id=101 page=1 block_id=1-1 bbox=66.96,756.2,528.44,772.22 label=tt 1 1
+line=1 fonts=F0-16.0 bbox=66.96,756.2,528.44,772.22: Argument  linking types - approached from the perspective of LDG
+
+doc_id=101 page=1 block_id=1-2 bbox=195.12,731.84,400.13,747.86 label=tb 2 2
+line=2 fonts=F1-16.0 bbox=195.12,731.84,400.13,747.86:                    Dieter Wunderlich (Düsseldorf)
+
+doc_id=101 page=1 block_id=1-3 bbox=56.7,75.85,538.68,655.82 label=b 3 36
+line=3 fonts=F1-16.0 bbox=56.7,639.8,152.17,655.82                                :1. Introduction
+line=4 fonts=F1-14.0 bbox=56.7,617.42,538.55,631.4 iscore=0.08                    :Predicates can have one or more arguments. For nouns, one  can distinguish between
+line=5 fonts=F1-14.0,F2-14.0 bbox=56.7,601.34,538.67,615.32 iscore=0.21           :absolute nouns such  as tree or stick, which have a single argument, and relational
+line=6 fonts=F1-14.0,F2-14.0 bbox=56.7,585.2,538.62,599.18 iscore=0.29            :nouns such  as head and father, which have two  arguments that are strictly ordered:
+line=7 fonts=F1-14.0,F2-14.0 bbox=56.7,569.12,538.68,583.1 iscore=0.29            :head refers to the head of someone, and it is this lower argument that can be realized
+line=8 fonts=F1-14.0 bbox=56.7,553.04,538.56,567.02 iscore=0.24                   :by an inalienable possessor. Moreover, most absolute nouns can undergo a possessor
+line=9 fonts=F1-14.0 bbox=56.7,536.9,538.66,550.88 iscore=0.23                    :extension, as shown in (1c), thus becoming relational with an alienable possessor as
+line=10 fonts=F1-14.0 bbox=56.7,519.8,538.63,533.78 iscore=0.31                   :the lower argument. In the notation used here, a sequence of λ-abstractors precedes
+line=11 fonts=F1-14.0 bbox=56.7,503.66,538.63,517.64 iscore=0.31                  :the open proposition which  is formed by the predicate and the argument  variables,
+line=12 fonts=F1-14.0 bbox=56.7,487.58,538.68,501.56 iscore=0.29                  :and it reflects the ordering of arguments: the lower argument role is to the left and the
+line=13 fonts=F1-14.0 bbox=56.7,471.5,538.55,485.48 iscore=0.24                   :higher argument role to the right. Note that the higher argument of a noun is a refer-
+line=14 fonts=F1-14.0 bbox=56.7,455.36,538.57,469.34 iscore=0.29                  :ential argument, which is realized as a complement only in predicative use; otherwise
+line=15 fonts=F1-14.0 bbox=56.7,439.28,424.08,453.26 iscore=0.08                  :it is bound by functional categories such as articles or quantifiers.
+line=16 fonts=F1-14.0 bbox=56.7,417.2,219.89,431.18 iscore=0.09                   :(1)   Classification of nouns
+line=17 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=90.72,400.03,271.71,414.02 iscore=0.25 :      a. absolute:        λx TREE(x)
+line=18 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=209.68,382.87,275.97,396.86 iscore=1.00:                          λx STICK(x)
+line=19 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=90.72,365.77,303.4,379.76 iscore=0.40  :      b. relational:      λy λx HEAD(x,y)
+line=20 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=209.68,348.61,315.64,362.6 iscore=1.00 :                          λy λx FATHER(x,y)
+line=21 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=90.72,331.45,352.78,345.44 iscore=0.38 :      c. possessed nouns: λy λx [N(x) & POSS(y,x)]
+line=22 fonts=F1-14.0 bbox=56.7,309.32,538.61,323.3 iscore=0.07                   :The classification of verbs is more intricate: static verbs denoting states have an addi-
+line=23 fonts=F1-14.0 bbox=56.7,293.24,538.61,307.22 iscore=0.14                  :tional time variable t, while dynamic verbs denoting events have an additional situa-
+line=24 fonts=F1-14.0 bbox=56.7,277.1,538.64,291.08 iscore=0.25                   :tion variable s. Intransitive verbs thus have t or s as the referential argument (to be
+line=25 fonts=F1-14.0 bbox=56.7,261.02,538.61,275.0 iscore=0.19                   :bound  by tense) and a further argument to be realized as a complement, while rela-
+line=26 fonts=F1-14.0,F2-14.0 bbox=56.7,244.94,538.58,258.92 iscore=0.07          :tional verbs have two complements.  Static intransitives such as sit or dead (whose
+line=27 fonts=F1-14.0 bbox=56.7,228.8,538.64,242.78 iscore=0.15                   :counterpart is an adjective in some languages) can be compared with static relationals
+line=28 fonts=F1-14.0,F2-14.0 bbox=56.7,212.72,538.66,226.7 iscore=0.08           :such as surround. For dynamic  verbs, two classificatory factors play a role: inherent
+line=29 fonts=F1-14.0 bbox=56.7,196.64,538.66,210.62 iscore=0.23                  :aspect and inherent control. According to their inherent aspect, verbs can be telic
+line=30 fonts=F1-14.0,F2-14.0 bbox=56.7,180.56,538.6,194.54 iscore=0.07           :(such as return or die) or atelic (such as sing or boil). Inherent control distinguishes
+line=31 fonts=F1-14.0,F2-14.0 bbox=56.7,164.42,538.59,178.4 iscore=0.12           :whether the verb is agentive (such as return or sing) or non-agentive (such as die or
+line=32 fonts=F1-14.0,F2-14.0 bbox=56.7,148.34,502.37,162.32 iscore=0.06          :boil). (2b) illustrates the resulting cross-classification for dynamic intransitives.
+line=33 fonts=F1-14.0 bbox=56.7,126.26,469.69,140.24 iscore=0.30                  :(2)   Classification of intransitive verbs according to their semantic type.
+line=34 fonts=F1-14.0 bbox=90.72,110.12,153.97,124.1 iscore=0.11                  :      a. static (t)
+line=35 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=107.7,93.01,187.06,107.0 iscore=0.67   :         λx λt  SIT(x)(t)
+line=36 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=107.69,75.85,201.04,89.84 iscore=1.00  :         λx λt  DEAD(x)(t)
+
+doc_id=101 page=2 block_id=2-1 bbox=372.72,793.94,531.59,806.96 label=t 37 37
+line=37 fonts=F1-10.5,F1-13.0 bbox=372.72,793.94,531.59,806.96:                                               ARGUMENT  LINKING TYPES / 2
+
+doc_id=101 page=2 block_id=2-2 bbox=90.7,758.18,174.07,772.16 label=btlt 38 38
+line=38 fonts=F1-14.0 bbox=90.7,758.18,174.07,772.16:      b. dynamic (s)
+
+doc_id=101 page=2 block_id=2-3 bbox=116.88,685.1,246.68,716.72 label=btlb 39 40
+line=39 fonts=F1-14.0 bbox=116.88,702.74,220.95,716.72           :          inherent  agentive
+line=40 fonts=F1-14.0 bbox=116.88,685.1,246.68,700.64 iscore=1.00:          control   non-agentive
+
+doc_id=101 page=2 block_id=2-4 bbox=306.9,725.0,465.21,755.6 label=btrt 41 42
+line=41 fonts=F1-14.0 bbox=344.1,741.62,428.38,755.6            :                                                     inherent aspect
+line=42 fonts=F1-14.0 bbox=306.9,725.0,465.21,738.98 iscore=0.00:                                              telic                   atelic
+
+doc_id=101 page=2 block_id=2-5 bbox=264.0,684.07,495.88,715.7 label=btrb 43 44
+line=43 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=264.0,701.71,495.88,715.7              :                                  λx λs RETURN(x)(s)     λx λs SING(x)(s)
+line=44 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=276.78,684.07,495.88,698.06 iscore=0.50:                                    λx λs DIE(x)(s)      λx λs BOIL(x)(s)
+
+doc_id=101 page=2 block_id=2-6 bbox=56.7,75.2,538.65,674.42 label=bb 45 79
+line=45 fonts=F1-14.0,F2-14.0 bbox=56.7,660.44,538.62,674.42                      :Relational verbs can also be telic (such as kill) or atelic (such as to boil something), a
+line=46 fonts=F1-14.0 bbox=56.7,644.36,538.62,658.34 iscore=0.18                  :property which  is mostly determined with respect to the lower argument.  In (3b),
+line=47 fonts=F1-14.0 bbox=56.7,628.28,538.58,642.26 iscore=0.14                  :these verbs are decomposed,  and  the inherent aspect is a property of the second
+line=48 fonts=F1-11.0,F1-14.0 bbox=56.7,612.13,538.64,626.12 iscore=0.20          :predicate; the predicate ACT, which is taken as the first predicate, is a general atelic
+line=49 fonts=F1-14.0 bbox=56.7,596.06,538.61,610.04 iscore=0.27                  :activity predicate. Canonical transitive verbs have a patient (which is affected by the
+line=50 fonts=F1-14.0 bbox=56.7,579.98,538.59,593.96 iscore=0.08                  :event) and an agent (which controls the event); thus, the inherent control properties
+line=51 fonts=F1-14.0 bbox=56.7,563.84,538.6,577.82 iscore=0.15                   :are distributed among the two  predicates in (3b). There are other transitive verbs
+line=52 fonts=F1-14.0,F2-14.0 bbox=56.7,547.76,538.63,561.74 iscore=0.07          :(such as hit) that cannot as easily be decomposed into two predicates, but neverthe-
+line=53 fonts=F1-14.0 bbox=56.7,531.68,279.46,545.66 iscore=0.21                  :less show the same semantic properties.
+line=54 fonts=F1-14.0 bbox=56.7,509.54,273.07,523.52 iscore=0.33                  :(3)   Classification of relational verbs
+line=55 fonts=F1-14.0 bbox=90.71,493.46,153.96,507.44 iscore=0.25                 :      a. static (t)
+line=56 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=107.7,476.35,259.61,490.34 iscore=0.25 :         λy λx λt SURROUND(x,y)(t)
+line=57 fonts=F1-13.0,F1-14.0 bbox=90.72,460.22,174.05,474.2 iscore=0.50          :      b. dynamic (s)
+line=58 fonts=F1-14.0 bbox=344.1,443.66,428.38,457.64 iscore=0.00                 :                                                inherent aspect
+line=59 fonts=F1-14.0 bbox=310.44,427.04,468.75,441.02 iscore=0.00                :                                           telic                atelic
+line=60 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=116.88,403.75,501.57,418.76 iscore=0.10:          inherent  agentive         λy λx λs [ACT(x)      λy λx λs [ACT(x)
+line=61 fonts=F1-11.0,F1-14.0 bbox=116.88,387.61,491.44,402.14 iscore=0.20        :          control   non-agentive       & DIE(y)](s)         &  BOIL(y)](s)
+line=62 fonts=F1-14.0 bbox=56.7,364.04,538.63,378.02 iscore=0.08                  :Ditransitive verbs nearly always can be decomposed and have  a telic second predic-
+line=63 fonts=F1-14.0 bbox=56.7,347.9,538.6,361.88 iscore=0.15                    :ate. In the ‘give’ type verbs, denoting possession transactions, the second predicate is
+line=64 fonts=F1-11.0,F1-14.0 bbox=56.7,331.81,538.6,345.8 iscore=0.08            :BECOME  POSS, while in the ‘speech’ type verbs, denoting communicative transactions,
+line=65 fonts=F1-11.0,F1-14.0 bbox=56.7,315.73,273.38,329.72 iscore=0.27          :the second predicate is BECOME KNOW.
+line=66 fonts=F1-14.0 bbox=56.7,293.6,216.98,307.58 iscore=0.17                   :(4)   Ditransitive predicates
+line=67 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=90.72,276.49,427.02,290.48 iscore=0.10 :      ‘give’ type:   λz λy λx λs [ACT(x) & BECOME POSS(y,z)](s)
+line=68 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=90.72,259.33,434.88,273.32 iscore=0.90 :      ‘speech’ type: λz λy λx λs [ACT(x) & BECOME KNOW(y,z)](s)
+line=69 fonts=F1-14.0 bbox=56.7,237.2,538.65,251.18 iscore=0.14                   :We  are now in the position to define the notions ‘argument hierarchy’ and ‘argument
+line=70 fonts=F1-14.0 bbox=56.7,221.12,538.55,235.1 iscore=0.14                   :linking’ more precisely. Argument hierarchy means that the arguments of a predicate
+line=71 fonts=F1-14.0 bbox=56.7,204.02,538.59,218.0 iscore=0.14                   :are strictly ordered (as shown in the λ−sequences in the examples above), partly in
+line=72 fonts=F1-14.0 bbox=56.7,187.88,538.64,201.86 iscore=0.36                  :virtue of their semantic role (agents are always highest), partly for arbitrary reasons.
+line=73 fonts=F1-14.0 bbox=56.7,171.8,538.64,185.78 iscore=0.38                   :This ordering plays an important role for the morphosyntactic realization of argu-
+line=74 fonts=F1-11.0,F1-14.0 bbox=56.7,155.65,538.6,169.64 iscore=0.17           :ments. Even  arguments of semantically symmetric  predicates such as MEET(x,y) are
+line=75 fonts=F1-14.0 bbox=56.7,139.58,538.53,153.56 iscore=0.12                  :ordered; the same is true if such a predicate is part of a ditransitive verb, for instance,
+line=76 fonts=F1-11.0,F1-14.0,F2-14.0 bbox=56.7,123.49,406.96,137.48 iscore=0.12  :introduce can be decomposed  as follows: ACT(x) & MEET(y,z).
+line=77 fonts=F1-14.0 bbox=73.68,107.36,538.56,121.34 iscore=0.14                 :   Argument  linking means the way in which the arguments of a predicate are speci-
+line=78 fonts=F1-14.0 bbox=56.7,91.28,538.61,105.26 iscore=0.00                   :fied within a clause by  either morphological  or syntactic means. Morphological
+line=79 fonts=F1-14.0 bbox=56.7,75.2,538.57,89.18 iscore=0.23                     :means  include those that are specified on the head (the predicate expression itself),
+
+doc_id=101 page=3 block_id=3-1 bbox=56.7,793.94,186.86,806.96 label=t 80 80
+line=80 fonts=F1-10.5,F1-13.0 bbox=56.7,793.94,186.86,806.96:3 / DIETER WUNDERLICH
+
+doc_id=101 page=3 block_id=3-2 bbox=56.7,108.68,538.72,772.16 label=b 81 119
+line=81 fonts=F1-14.0 bbox=56.7,758.18,538.61,772.16                     :such as pronominal affixes, clitics, or agreement morphemes, as well as those that are
+line=82 fonts=F1-14.0 bbox=56.7,742.1,538.58,756.08 iscore=0.07          :specified on the dependent, namely morphological  case on complements.  Argument
+line=83 fonts=F1-14.0 bbox=56.7,726.02,538.61,740.0 iscore=0.20          :linking is syntactic if the argument role is only specified by the position with respect
+line=84 fonts=F1-14.0 bbox=56.7,709.88,121.51,723.86 iscore=0.07         :to the head.
+line=85 fonts=F1-14.0 bbox=73.68,693.8,538.66,707.78 iscore=0.08         :   In the literature, the notion of abstract case has been introduced for determining
+line=86 fonts=F1-14.0 bbox=56.7,677.72,538.65,691.7 iscore=0.08          :the morpho-syntactic realization of arguments. In Lexical Decomposition  Grammar
+line=87 fonts=F1-14.0 bbox=56.7,660.56,538.63,674.54 iscore=0.17         :(LDG),  abstract case is identified with argument hierarchy. The λ-abstractors for ar-
+line=88 fonts=F1-14.0 bbox=56.7,644.48,538.6,658.46 iscore=0.25          :gument  variables constitute the theta-roles; their ordering expresses the argument hi-
+line=89 fonts=F1-14.0 bbox=56.7,628.34,538.59,642.32 iscore=0.20         :erarchy (with the lowest argument to the left and the highest argument to the right).
+line=90 fonts=F1-14.0 bbox=56.7,612.26,538.67,626.24 iscore=0.27         :Abstract case, then, is encoded by means of two  relational features associated with
+line=91 fonts=F1-14.0 bbox=56.7,596.18,445.13,610.16 iscore=0.15         :theta-roles ([+hr] ‘there is a higher role’, [+lr] ‘there is a lower role’).
+line=92 fonts=F1-14.0 bbox=73.68,580.04,538.57,594.02 iscore=0.00        :   In this paper I will show, however, that abstract case is too a specific device for
+line=93 fonts=F1-14.0 bbox=56.7,563.96,538.64,577.94 iscore=0.00         :characterizing argument linking in general. Contrary to what many theorists believe,
+line=94 fonts=F1-14.0 bbox=56.7,547.88,538.72,561.86 iscore=0.14         :there seems to be no universal argument  linking device. I will claim that Universal
+line=95 fonts=F1-14.0 bbox=56.7,531.74,538.61,545.72 iscore=0.14         :Grammar   (UG)  only incorporates the idea of relational predicates whose arguments
+line=96 fonts=F1-14.0 bbox=56.7,515.66,538.65,529.64 iscore=0.07         :are ordered, as well as the semantic factors which can be chosen as the determining
+line=97 fonts=F1-14.0 bbox=56.7,499.58,538.67,513.56 iscore=0.20         :factors. More specifically, I will claim that all argument linking types are invented on
+line=98 fonts=F1-14.0 bbox=56.7,483.5,239.54,497.48 iscore=0.07          :the basis of mainly three factors:
+line=99 fonts=F1-14.0,F3-14.0 bbox=74.7,466.64,297.44,480.62 iscore=0.17 :   •  Semantic  roles (agent vs. non-agent)
+line=100 fonts=F1-14.0,F3-14.0 bbox=74.7,449.66,216.91,463.64 iscore=0.33:   •  Salience of arguments
+line=101 fonts=F1-14.0,F3-14.0 bbox=74.7,432.68,205.77,446.66 iscore=0.50:   •  Argument  hierarchy
+line=102 fonts=F1-14.0 bbox=56.7,409.64,538.55,423.62 iscore=0.05        :A  choice for salience can be made in terms of person (1, 2 > 3), number (sg > pl),
+line=103 fonts=F1-14.0 bbox=56.7,392.66,538.6,406.64 iscore=0.26         :animacy  (+anim > −anim), or specificity (+spec > −spec), however, I will restrict my-
+line=104 fonts=F1-14.0 bbox=56.7,375.68,269.23,389.66 iscore=0.21        :self in this paper to the role of person.
+line=105 fonts=F1-14.0 bbox=73.68,358.64,538.67,372.62 iscore=0.21       :   In general I will not refer to grammatical relations such as ‘subject’ and ‘object’,
+line=106 fonts=F1-14.0 bbox=56.7,341.66,538.59,355.64 iscore=0.21        :except these terms are related to the highest or a non-highest argument, respectively.
+line=107 fonts=F1-14.0 bbox=56.7,324.68,538.59,338.66 iscore=0.15        :Besides for semantic purposes, the term ‘subject’ is also used for morpho-syntactic
+line=108 fonts=F1-14.0 bbox=56.7,307.64,538.62,321.62 iscore=0.25        :purposes: then, ‘subject’ either relates to the nominative argument (morphologically)
+line=109 fonts=F1-14.0 bbox=56.7,290.66,538.57,304.64 iscore=0.13        :or to the argument designated for a syntactic position (such as SpecI). Because of this
+line=110 fonts=F1-14.0 bbox=56.7,273.68,538.61,287.66 iscore=0.20        :ambiguity, an undifferentiated use of ‘subject’ is problematic for typological needs.
+line=111 fonts=F1-14.0 bbox=56.7,256.64,538.61,270.62 iscore=0.14        :The problem  with the term ‘object’ is that the specification ‘direct’ vs. ‘indirect ob-
+line=112 fonts=F1-14.0 bbox=56.7,239.66,538.59,253.64 iscore=0.40        :ject’ often does not meet their grammatical relevance; I will turn to this problem be-
+line=113 fonts=F1-14.0 bbox=56.7,222.68,81.17,236.66 iscore=0.07         :low.
+line=114 fonts=F1-14.0 bbox=73.68,205.64,538.66,219.62 iscore=0.00       :   Let us assume that a grammar  imposes a number  of constraints for the realization
+line=115 fonts=F1-14.0 bbox=56.7,188.66,538.59,202.64 iscore=0.14        :of arguments.  Besides other, quite plausible constraints (such as ‘Mark  person’,
+line=116 fonts=F1-14.0 bbox=56.7,171.68,519.74,185.66 iscore=0.29        :‘Mark  number’), the following seems to be play a crucial role in argument linking:
+line=117 fonts=F1-14.0 bbox=56.7,148.64,367.72,162.62 iscore=0.07        :(5)   Avoid converse settings to be identically marked.
+line=118 fonts=F1-14.0 bbox=56.7,125.66,538.61,139.64 iscore=0.15        :Obviously, this is an important subcase of ‘Avoid ambiguity’. (6) illustrates two of
+line=119 fonts=F1-14.0 bbox=56.7,108.68,538.63,122.66 iscore=0.20        :the settings that are subject to (5), that is, should be expressed differently. In general,
+
+doc_id=101 page=4 block_id=4-1 bbox=372.72,793.94,531.59,806.96 label=tt 120 120
+line=120 fonts=F1-10.5,F1-13.0 bbox=372.72,793.94,531.59,806.96:                                               ARGUMENT  LINKING TYPES / 4
+
+doc_id=101 page=4 block_id=4-2 bbox=56.7,666.38,538.71,771.44 label=tbt 121 126
+line=121 fonts=F1-14.0 bbox=56.7,757.46,538.71,771.44                             :the higher argument is more  salient in a direct setting, while the lower argument is
+line=122 fonts=F1-14.0,F1-9.0 bbox=56.7,741.2,249.24,756.68 iscore=0.07           :more salient in an inverse setting.^{1}
+line=123 fonts=F1-14.0 bbox=56.7,718.4,324.83,732.38 iscore=0.25                  :(6)   Converse settings with 1st and 3rd person
+line=124 fonts=F1-14.0 bbox=132.6,700.88,382.0,714.86 iscore=0.00                 :             ‘direct’ setting           ‘inverse’ setting
+line=125 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=111.54,683.41,398.68,697.4 iscore=0.00:         λy    λx    VERB(x,y)       λy    λx   VERB(x,y)
+line=126 fonts=F1-14.0 bbox=116.52,666.38,320.09,680.36 iscore=0.20               :          3     1                     1    3
+
+doc_id=101 page=4 block_id=4-3 bbox=56.7,631.88,250.72,647.9 label=tbbtt 127 127
+line=127 fonts=F1-16.0 bbox=56.7,631.88,250.72,647.9:2. The argument linking types
+
+doc_id=101 page=4 block_id=4-4 bbox=56.7,506.9,538.65,622.88 label=tbbtb 128 134
+line=128 fonts=F1-14.0 bbox=56.7,608.9,538.55,622.88             :Six different types of argument linking will be discussed. The active type mainly uses
+line=129 fonts=F1-14.0 bbox=56.7,591.86,538.63,605.84 iscore=0.14:semantic role, while the salience type uses salience. The positional type realizes ar-
+line=130 fonts=F1-14.0 bbox=56.7,574.88,538.65,588.86 iscore=0.31:gument  hierarchy in the syntax. The inverse type maps salience hierarchy onto argu-
+line=131 fonts=F1-14.0 bbox=56.7,557.9,538.62,571.88 iscore=0.23 :ment hierarchy. The generalized case type introduces structural case, but can also use
+line=132 fonts=F1-14.0 bbox=56.7,540.86,538.62,554.84 iscore=0.15:salience (split systems) and semantic roles (lexical case). The portmanteau type sim-
+line=133 fonts=F1-14.0 bbox=56.7,523.88,538.61,537.86 iscore=0.21:ply lists the possible combinations of argument features. Some of these types can be
+line=134 fonts=F1-14.0 bbox=56.7,506.9,229.31,520.88 iscore=0.07 :mixed in individual languages.
+
+doc_id=101 page=4 block_id=4-5 bbox=56.7,125.3,538.65,493.88 label=tbbb 135 155
+line=135 fonts=F1-14.0,F1-16.0 bbox=56.7,477.86,538.59,493.88           :2.1.  Portmanteau   type: Affixes on the verb specify more than one argument si-
+line=136 fonts=F1-14.0 bbox=56.7,460.88,538.58,474.86 iscore=0.31       :multaneously. Single portmanteau affixes can be found in many languages, as the ex-
+line=137 fonts=F1-14.0 bbox=56.7,443.9,538.62,457.88 iscore=0.27        :amples in (7) illustrate. The notation ‘A→B’ means that the form specifies A for the
+line=138 fonts=F1-14.0 bbox=56.7,426.86,538.5,440.84 iscore=0.33        :higher argument and B for the lower argument of a transitive verb, for example, the
+line=139 fonts=F1-14.0,F2-14.0 bbox=56.7,409.88,468.8,423.86 iscore=0.27:Hungarian suffix -lak/-lek is used with 1sg subject and 2nd person object.
+line=140 fonts=F1-14.0 bbox=56.7,388.52,248.96,402.5 iscore=0.08        :(7)   Single portmanteau-suffixes
+line=141 fonts=F1-14.0 bbox=95.64,371.12,396.09,386.12 iscore=0.33      :      Hungarian                        -lak/-lek 1sg→2
+line=142 fonts=F1-14.0 bbox=95.64,353.48,389.85,368.48 iscore=0.17      :      Ayacucho  and Cuzco Quechua        -yki     1→2
+line=143 fonts=F1-14.0 bbox=95.64,335.78,396.09,350.78 iscore=0.29      :      Dumi  (Kiranti language in Nepal)   -n     1sg→2
+line=144 fonts=F1-14.0 bbox=95.64,318.68,396.09,334.7 iscore=0.43       :      [van Driem 1993]                    -u     1sg→3
+line=145 fonts=F1-14.0 bbox=56.7,295.28,538.54,309.26 iscore=0.00       :It is quite rare that pronominal affixes in general are of the portmanteau type. One
+line=146 fonts=F1-14.0 bbox=56.7,278.3,538.64,292.28 iscore=0.13        :can easily see that this way of argument marking is rather uneconomical because the
+line=147 fonts=F1-14.0 bbox=56.7,261.26,538.63,275.24 iscore=0.14       :speakers have to memorize a large number of morphological items, and it is difficult
+line=148 fonts=F1-14.0 bbox=56.7,244.28,538.65,258.26 iscore=0.14       :to make any generalizations. One example is Kiowa, spoken in the Tanoan pueblos of
+line=149 fonts=F1-14.0 bbox=56.7,227.3,538.57,241.28 iscore=0.14        :New  Mexico  and Arizona, illustrated by a few examples in (8). Watkins (1984) tries
+line=150 fonts=F1-14.0 bbox=56.7,210.26,538.59,224.24 iscore=0.21       :to derive the prefix forms from more minimal underlying features, however, the rules
+line=151 fonts=F1-14.0 bbox=56.7,193.28,538.65,207.26 iscore=0.21       :and exceptions he states are quite numerous, so that it is questionable whether such
+line=152 fonts=F1-14.0 bbox=56.7,176.3,538.65,190.28 iscore=0.21        :an analysis meets what speakers really know about their language. I simply assume
+line=153 fonts=F1-14.0 bbox=56.7,159.26,538.65,173.24 iscore=0.08       :here that they have memorized the prefixes with portmanteau information, which in
+line=154 fonts=F1-14.0 bbox=56.7,142.28,538.6,156.26 iscore=0.23        :fact is often very complex, including alternative specifications for either the higher or
+line=155 fonts=F1-14.0 bbox=56.7,125.3,168.89,139.28 iscore=0.08        :the lower argument.
+
+doc_id=101 page=4 block_id=4-6 bbox=56.7,59.29,538.67,101.48 label=b 156 158
+line=156 fonts=F1-11.0,F1-9.0 bbox=56.7,85.99,538.67,101.48           :1 Some  predicates already determine a certain sortal selection for their arguments, for instance, the higher
+line=157 fonts=F1-11.0,F2-11.0 bbox=56.7,72.31,538.62,83.3 iscore=0.17:argument  of see must be animate, while the lower argument of cut must be inanimate. Hence, predicates of
+line=158 fonts=F1-11.0 bbox=56.7,59.29,397.62,70.27 iscore=0.11       :the latter kind will never show an inverse setting of the kind illustrated in (6).
+
+doc_id=101 page=5 block_id=5-1 bbox=56.7,793.94,186.86,806.96 label=tt 159 159
+line=159 fonts=F1-10.5,F1-13.0 bbox=56.7,793.94,186.86,806.96:5 / DIETER WUNDERLICH
+
+doc_id=101 page=5 block_id=5-2 bbox=56.7,663.56,531.68,773.06 label=tbt 160 165
+line=160 fonts=F1-14.0 bbox=56.7,759.08,524.35,773.06                             :(8)   Portmanteau-prefixes in Kiowa [Watkins 1984]: one prefix bears information
+line=161 fonts=F1-14.0 bbox=90.72,744.08,223.2,758.06 iscore=0.11                 :      about 2 or 3 arguments.
+line=162 fonts=F1-14.0 bbox=90.72,722.18,251.37,736.16 iscore=0.20                :      a. transitive verbs (góp ‘hit’)
+line=163 fonts=F0-14.0,F1-14.0,F5-14.0 bbox=92.52,699.5,500.55,713.48 iscore=0.40 :      e$m-go@p              e@-go@p             dç@-go@p             gç$-go@p
+line=164 fonts=F1-13.0 bbox=80.28,681.08,529.37,694.1 iscore=0.00                 :    I hit you/him       you/he hit me      you/he/they hit us   we/he/they hit you
+line=165 fonts=F1-14.0,F3-14.0,F5-14.0 bbox=61.02,663.56,531.68,677.54 iscore=0.12: e$m: 1sg → 2 ∨ 3sg   e@: 2 ∨ 3sg → 1sg     dç@: 2 ∨ 3 → 1pl   gç$: 1pl ∨ 3 → 2sg
+
+doc_id=101 page=5 block_id=5-3 bbox=62.16,567.86,537.47,652.1 label=tbbt 166 170
+line=166 fonts=F1-14.0,F5-14.0 bbox=90.72,638.12,323.6,652.1                      :      b. ditransitive verbs (ç ‘give’, kut ‘book’)
+line=167 fonts=F0-14.0,F1-14.0,F5-14.0 bbox=91.02,618.68,509.53,632.66 iscore=0.25:      ku@t ne@-ç@          ku@t ne@n-ç@          ku@t be@de^-ç@        ku@t gya^-ç@
+line=168 fonts=F1-13.0 bbox=73.08,600.26,535.18,613.28 iscore=0.25                :   you/he gave me        I gave you/him         you (pl) gave     they gave me/us/him
+line=169 fonts=F1-13.0 bbox=87.3,585.32,511.89,598.34 iscore=0.27                 :     two  books            two books        me/us/him two books       some  books
+line=170 fonts=F1-14.0,F5-14.0 bbox=62.16,567.86,537.47,581.84 iscore=0.29        : ne@: 2∨3sg / 1sg/ dl ne@n: 1sg/ 2∨3sg/ dl  be@de^: 2pl/ 1∨3sg/ dl gya^: 3pl/ 1∨3sg/ pl
+
+doc_id=101 page=5 block_id=5-4 bbox=56.7,526.4,538.66,556.46 label=tbbb 171 172
+line=171 fonts=F1-14.0 bbox=56.7,542.48,538.66,556.46           :Note that the prefixes in (8b) not only specify person and number for the agent and
+line=172 fonts=F1-14.0 bbox=56.7,526.4,501.02,540.38 iscore=0.38:the recipient, but also number (here, the dual or plural) for the theme argument.
+
+doc_id=101 page=5 block_id=5-5 bbox=56.7,97.58,538.75,502.22 label=b 173 196
+line=173 fonts=F1-14.0,F1-16.0 bbox=56.7,486.2,538.64,502.22                                                                     :2.1   Active  type: Affixes on the verb specify for the more salient argument (or for
+line=174 fonts=F1-14.0 bbox=56.7,469.82,538.62,483.8 iscore=0.13                                                                 :each argument)  whether it is active (agent-like) or inactive (patient-like); the same
+line=175 fonts=F1-14.0 bbox=56.7,453.74,538.57,467.72 iscore=0.23                                                                :affixes are used for intransitive verbs. (9) shows that the Carib language Dekwana
+line=176 fonts=F1-14.0,F2-14.0 bbox=56.7,437.6,538.75,451.58 iscore=0.47                                                         :distinguishes the 1st person prefixes w- and y-, which both can be used with transitive
+line=177 fonts=F1-14.0 bbox=56.7,421.52,180.73,435.5 iscore=0.07                                                                 :and intransitive verbs.
+line=178 tag=M+AC+LN span_id=101-1 lang_name=Dekwana lang_code=mch fonts=F1-14.0 bbox=56.7,400.34,289.64,414.32 iscore=0.50      :(9)   Dekwana  [Derbyshire 1999:34/35]:
+line=179 tag=L+DB span_id=101-1 lang_name=Dekwana lang_code=mch fonts=F1-13.0 bbox=90.72,385.34,328.26,398.36 iscore=0.25        :      a. w-edant(ö)-a.          b. y-edant(ö)-a.
+line=180 tag=G+DB span_id=101-1 lang_name=Dekwana lang_code=mch fonts=F1-11.0,F1-14.0 bbox=107.7,370.33,367.43,384.32 iscore=0.67:         1.ACT-meet-PRES           1.INACT-meet-PRES
+line=181 tag=T+DB span_id=101-1 lang_name=Dekwana lang_code=mch fonts=F1-14.0 bbox=107.72,355.34,365.39,369.32 iscore=0.33       :         ‘I meet him/her.’         ‘He/she meets me’
+line=182 tag=L+DB span_id=101-2 lang_name=Dekwana lang_code=mch fonts=F1-14.0 bbox=90.72,340.34,313.92,354.32 iscore=0.33        :      c. w-amo-a.               d. y-a:wo-a.
+line=183 tag=G+DB span_id=101-2 lang_name=Dekwana lang_code=mch fonts=F1-11.0,F1-14.0 bbox=107.7,325.33,369.89,339.32 iscore=0.67:         1.ACT-cry-PRES            1.INACT-swell-PRES
+line=184 tag=T+DB span_id=101-2 lang_name=Dekwana lang_code=mch fonts=F1-14.0 bbox=107.69,310.34,349.57,324.32 iscore=0.33       :         ‘I am crying.’            ‘I am swelling.’
+line=185 fonts=F1-14.0,F2-14.0 bbox=56.7,287.72,538.59,301.7 iscore=0.20                                                         :Obviously, w- is the active and y- the inactive morpheme, and they realize the direct
+line=186 fonts=F1-14.0 bbox=56.7,270.68,538.73,284.66 iscore=0.33                                                                :vs. inverse setting of transitive verbs. Simultaneously, they also specify of whether an
+line=187 fonts=F1-14.0 bbox=56.7,253.7,367.34,267.68 iscore=0.23                                                                 :intransitive verb is inherently agentive or non-agentive.
+line=188 fonts=F1-14.0 bbox=56.7,232.34,477.32,246.32 iscore=0.29                                                                :(10)  Transitive verbs                                 Intransitive verbs
+line=189 fonts=F2-14.0 bbox=90.72,217.34,307.92,231.32 iscore=0.25                                                               :      direct setting         inverse setting
+line=190 fonts=F1-14.0,F3-14.0 bbox=90.72,202.34,494.61,216.32 iscore=0.30                                                       :      λy    λx   V(x,y)      λy    λx   V(x,y)         λx V(x)    λy  V(y)
+line=191 fonts=F1-14.0 bbox=94.18,186.44,458.17,200.42 iscore=0.20                                                               :      3      1                1     3                  1           1
+line=192 fonts=F1-11.0 bbox=124.68,171.19,481.24,182.17 iscore=0.00                                                              :            ACT              INACT                    ACT         INACT
+line=193 fonts=F1-14.0 bbox=56.7,148.58,538.58,162.56 iscore=0.00                                                                :The prefix-verb combination does not show  by itself whether the verb is transitive or
+line=194 fonts=F1-14.0 bbox=56.7,131.6,538.6,145.58 iscore=0.29                                                                  :intransitive. Moreover, all intransitive verbs must be classified semantically. That is,
+line=195 fonts=F1-14.0 bbox=56.7,114.62,538.67,128.6 iscore=0.31                                                                 :this type of argument linking heavily hinges on semantic classification and does not
+line=196 fonts=F1-14.0 bbox=56.7,97.58,417.65,111.56 iscore=0.15                                                                 :allow the kind of generalizations that are possible in other types.
+
+doc_id=101 page=6 block_id=6-1 bbox=372.72,793.94,531.59,806.96 label=t 197 197
+line=197 fonts=F1-10.5,F1-13.0 bbox=372.72,793.94,531.59,806.96:                                               ARGUMENT  LINKING TYPES / 6
+
+doc_id=101 page=6 block_id=6-2 bbox=56.7,101.54,538.69,772.22 label=b 198 237
+line=198 fonts=F1-14.0,F1-16.0 bbox=56.7,756.2,538.63,772.22                                                                              :2.3 Salience  type: Affixes on the verb specify the more salient argument; some af-
+line=199 fonts=F1-14.0 bbox=56.7,739.82,538.59,753.8 iscore=0.13                                                                          :fixes also specify whether a more salient argument is added to the verb. The exam-
+line=200 fonts=F1-14.0 bbox=56.7,723.68,538.64,737.66 iscore=0.20                                                                         :ples are taken from  Arizona Tewa,  another Tanoan   language, which, however,  is
+line=201 fonts=F1-14.0 bbox=56.7,707.6,538.57,721.58 iscore=0.31                                                                          :quite different from Kiowa in the way arguments are specified. Arizona Tewa exhib-
+line=202 fonts=F1-14.0 bbox=56.7,691.52,538.57,705.5 iscore=0.18                                                                          :its six distinct sets of person prefixes, listed in (11), but only one prefix is possible at
+line=203 fonts=F1-14.0 bbox=56.7,675.38,395.35,689.36 iscore=0.24                                                                         :a time. It is always the most salient argument that is marked.
+line=204 fonts=F1-14.0 bbox=73.68,658.58,538.51,672.56 iscore=0.00                                                                        :   Intransitive verbs only have one argument, marked by  a stative prefix, but if the
+line=205 fonts=F1-14.0 bbox=56.7,641.6,538.61,655.58 iscore=0.31                                                                          :argument  has a possessor, the latter counts as more salient and is marked by a sepa-
+line=206 fonts=F1-14.0 bbox=56.7,624.56,538.58,638.54 iscore=0.25                                                                         :rate prefix. With transitive verbs, prefixes from four different sets are possible.
+line=207 fonts=F1-14.0 bbox=56.7,607.58,538.57,621.56 iscore=0.13                                                                         :Agents  are marked if they are more salient than the patient (3rd person), while pa-
+line=208 fonts=F1-14.0 bbox=56.7,590.6,538.58,604.58 iscore=0.31                                                                          :tients are marked (in particular those being 1st or 2nd person) if they are more salient
+line=209 fonts=F1-14.0 bbox=56.7,573.56,538.67,587.54 iscore=0.25                                                                         :than the agent; in the latter case, the less salient syntactic argument must be marked
+line=210 fonts=F1-11.0,F1-14.0 bbox=56.7,556.57,538.61,570.56 iscore=0.20                                                                 :oblique. Thus, the direct and the inverse setting are distinguished by AGT vs. PAT
+line=211 fonts=F1-14.0 bbox=56.7,539.6,538.63,553.58 iscore=0.38                                                                          :marking, in this respect the salience type is similar to the active type. For reflexives, a
+line=212 fonts=F1-14.0 bbox=56.7,522.56,538.61,536.54 iscore=0.38                                                                         :separate marker exists. Finally, if a beneficiary is introduced, it counts as the most
+line=213 fonts=F1-14.0 bbox=56.7,505.58,355.47,519.56 iscore=0.07                                                                         :salient argument, and only this argument is specified.
+line=214 fonts=F1-14.0 bbox=56.7,484.22,441.61,498.2 iscore=0.18                                                                          :(11)  Arizona Tewa: the six sets of person prefixes [Kroskrity 1985]
+line=215 fonts=F1-11.0,F1-14.0 bbox=90.72,468.43,265.93,482.42 iscore=0.20                                                                :      a. STAT with intransitive verbs
+line=216 fonts=F1-11.0,F1-14.0 bbox=90.72,452.41,264.73,466.4 iscore=1.00                                                                 :      b. POSS with intransitive verbs
+line=217 fonts=F1-11.0,F1-14.0 bbox=90.72,436.39,250.09,450.38 iscore=0.40                                                                :      c. AGT with transitive verbs
+line=218 fonts=F1-11.0,F1-14.0 bbox=90.72,420.43,248.29,434.42 iscore=0.80                                                                :      d. PAT with transitive verbs
+line=219 fonts=F1-11.0,F1-14.0 bbox=90.72,404.41,254.41,418.4 iscore=0.40                                                                 :      e. REFL with transitive verbs
+line=220 fonts=F1-11.0,F1-14.0 bbox=90.72,388.39,249.49,402.38 iscore=0.60                                                                :      f. BEN with transitive  verbs
+line=221 fonts=F1-11.0,F1-14.0 bbox=56.7,366.31,538.62,380.3 iscore=0.00                                                                  :The examples  in (12) illustrate some of the prefixes from the POSS, AGT and PAT set.
+line=222 fonts=F1-14.0 bbox=56.7,350.18,538.62,364.16 iscore=0.12                                                                         :Note that (12b) realizes a direct setting, and (12c) an inverse setting. (12d) shows an
+line=223 fonts=F1-14.0 bbox=56.7,334.1,538.62,348.08 iscore=0.20                                                                          :example  with an inverse setting because the more proximate (more  salient) demon-
+line=224 fonts=F1-14.0 bbox=56.7,318.02,538.55,332.0 iscore=0.17                                                                          :strative appears with the lower argument. With ditransitive verbs, the theme argument
+line=225 fonts=F1-14.0 bbox=56.7,301.94,538.55,315.92 iscore=0.13                                                                         :can be incorporated so that a transitive pattern results, and the recipient in (12e) is
+line=226 fonts=F1-11.0,F1-14.0 bbox=56.7,285.79,538.69,299.78 iscore=0.25                                                                 :marked  with the PAT prefix because it is higher on the person scale. If both arguments
+line=227 fonts=F1-14.0 bbox=56.7,269.72,447.56,283.7 iscore=0.19                                                                          :are 1st or 2nd person, a portmanteau prefix is used, as shown in (12f).
+line=228 tag=M+AC+LN span_id=101-3 lang_name=Tewa lang_code=tew fonts=F1-14.0 bbox=56.7,248.54,268.27,262.52 iscore=0.14                  :(12)  Arizona Tewa  [Kroskrity 1985]
+line=229 tag=L span_id=101-3 lang_name=Tewa lang_code=tew fonts=F1-14.0 bbox=90.72,233.54,203.09,247.52 iscore=0.25                       :      a. semele  dín-han
+line=230 tag=G span_id=101-3 lang_name=Tewa lang_code=tew fonts=F1-14.0 bbox=107.68,218.53,243.71,232.52 iscore=1.00                      :         pot     1sg.POSS-break
+line=231 tag=T span_id=101-3 lang_name=Tewa lang_code=tew fonts=F1-14.0 bbox=107.7,203.54,193.29,217.52 iscore=0.67                       :         ‘My pot broke’
+line=232 tag=L span_id=101-4 lang_name=Tewa lang_code=tew fonts=F0-14.0,F1-14.0,F1-9.0,F5-14.0 bbox=90.72,182.54,264.28,198.02 iscore=0.50:      b. he’i-n  sen-en   dó-k^{hw}E@di
+line=233 tag=G span_id=101-4 lang_name=Tewa lang_code=tew fonts=F1-14.0 bbox=107.7,167.53,274.72,181.52 iscore=1.00                       :         this-pl man-pl   1sg.AGT-hit
+line=234 tag=T span_id=101-4 lang_name=Tewa lang_code=tew fonts=F1-14.0 bbox=107.7,152.54,203.21,166.52 iscore=0.20                       :         ‘ I hit these men’
+line=235 tag=L span_id=101-5 lang_name=Tewa lang_code=tew fonts=F0-14.0,F1-14.0,F1-9.0,F5-14.0 bbox=90.72,131.54,278.14,147.02 iscore=0.20:      c. he’i-n  sen-en-di   dí-k^{hw}E@di
+line=236 tag=G span_id=101-5 lang_name=Tewa lang_code=tew fonts=F1-11.0,F1-14.0 bbox=107.7,116.53,291.64,130.52 iscore=1.00               :         this-pl man-pl-OBL  1sg.PAT-hit
+line=237 tag=T span_id=101-5 lang_name=Tewa lang_code=tew fonts=F1-14.0 bbox=107.7,101.54,216.67,115.52 iscore=0.25                       :         ‘These men hit me’
+
+doc_id=101 page=7 block_id=7-1 bbox=56.7,793.94,186.86,806.96 label=tt 238 238
+line=238 fonts=F1-10.5,F1-13.0 bbox=56.7,793.94,186.86,806.96:7 / DIETER WUNDERLICH
+
+doc_id=101 page=7 block_id=7-2 bbox=56.7,512.36,538.65,768.56 label=tb 239 253
+line=239 tag=L span_id=101-6 lang_name=Tewa lang_code=tew fonts=F0-14.0,F1-14.0,F1-9.0,F5-14.0 bbox=90.72,753.08,402.28,768.56    :      d. nE@@’i-n ‘ayú-n  ’o:’i-n ’enú-n-di   ’ó:bé- k^{hw}E@di
+line=240 tag=G span_id=101-6 lang_name=Tewa lang_code=tew fonts=F1-11.0,F1-14.0 bbox=107.71,738.07,390.34,752.06 iscore=0.83      :         this-pl  girl-pl that-pl boy-pl-OBL  3pl.PAT-hit
+line=241 tag=T span_id=101-6 lang_name=Tewa lang_code=tew fonts=F1-14.0 bbox=107.7,722.18,260.11,736.16 iscore=0.20               :         ‘Those boys hit these girls’
+line=242 tag=L span_id=101-7 lang_name=Tewa lang_code=tew fonts=F0-14.0,F1-14.0,F5-14.0 bbox=90.72,701.0,246.52,714.98 iscore=0.20:      e. na:’in  dí-k’ú:wá-mE@gí
+line=243 tag=G span_id=101-7 lang_name=Tewa lang_code=tew fonts=F1-14.0 bbox=107.71,685.99,255.26,699.98 iscore=1.00              :         we      1.PAT-sheep-give
+line=244 tag=T span_id=101-7 lang_name=Tewa lang_code=tew fonts=F1-14.0 bbox=107.7,671.0,399.51,684.98 iscore=0.10                :         ‘we were given sheep (by you or some third person)
+line=245 tag=L span_id=101-8 lang_name=Tewa lang_code=tew fonts=F0-14.0,F1-14.0,F5-14.0 bbox=90.7,650.0,299.68,663.98 iscore=0.10 :      f. ’u-n    na:di    wí-k’ú:wá-mE@gí
+line=246 tag=G span_id=101-8 lang_name=Tewa lang_code=tew fonts=F1-11.0,F1-14.0 bbox=107.68,634.99,343.22,648.98 iscore=1.00      :         you-pl  I-obl    1.AGT/2.PAT-sheep-give
+line=247 tag=T span_id=101-8 lang_name=Tewa lang_code=tew fonts=F1-14.0 bbox=107.7,620.0,311.65,633.98 iscore=0.14                :         ‘You (pl.) were given sheep (by me)
+line=248 fonts=F1-11.0,F1-14.0 bbox=56.7,597.37,538.65,611.36 iscore=0.11                                                         :Prefixes from the AGT set cannot be said to be ergative, and those from the PAT set are
+line=249 fonts=F1-14.0 bbox=56.7,580.4,538.56,594.38 iscore=0.06                                                                  :not accusative, because these prefixes never contrast with an unmarked item nomina-
+line=250 fonts=F1-14.0 bbox=56.7,563.36,538.64,577.34 iscore=0.31                                                                 :tive. Hence, the Salience type is, like the Active type, purely semantically determined
+line=251 fonts=F1-14.0 bbox=56.7,546.38,418.32,560.36 iscore=0.23                                                                 :and should not be confounded with argument linking using case.
+line=252 fonts=F1-14.0 bbox=73.68,529.4,535.18,543.38 iscore=0.07                                                                 :   At the other extreme one can find a purely structural argument linking type, where
+line=253 fonts=F1-14.0 bbox=56.7,512.36,417.24,526.34 iscore=0.21                                                                 :the role of an argument correlates with its position in the syntax.
+
+doc_id=101 page=7 block_id=7-3 bbox=56.7,223.4,538.73,484.4 label=b 254 267
+line=254 fonts=F1-14.0,F1-16.0 bbox=56.7,468.38,538.63,484.4      :2.4   Positional  type: The argument  hierarchy is mapped  to syntactic positions,
+line=255 fonts=F1-14.0 bbox=56.7,451.4,538.57,465.38 iscore=0.13  :with the highest argument to the first and the lowest argument to the last position.
+line=256 fonts=F1-14.0 bbox=56.7,434.36,538.73,448.34 iscore=0.13 :This type is also the last resort under other circumstances; for instance, if two argu-
+line=257 fonts=F1-14.0 bbox=56.7,417.38,538.6,431.36 iscore=0.33  :ments bear the same case they usually are distinguished by their position. The map-
+line=258 fonts=F1-14.0 bbox=56.7,400.4,538.61,414.38 iscore=0.18  :ping to syntax is illustrated in (13) for a ditransitive verb of the ‘give’ type. Under the
+line=259 fonts=F1-14.0 bbox=56.7,383.36,538.6,397.34 iscore=0.18  :assumption  that ‘give’ can be decomposed  as shown  in (4), the argument ranking
+line=260 fonts=F1-14.0 bbox=56.7,366.38,538.63,380.36 iscore=0.24 :clearly is x (agent) > y (recipient) > z (theme). In a verbfinal language such as Ger-
+line=261 fonts=F1-14.0 bbox=56.7,349.4,420.2,363.38 iscore=0.35   :man  or Japanese (which both also have case), the default order is
+line=262 fonts=F1-14.0 bbox=73.68,326.36,386.82,340.34 iscore=0.27:   NP-x (nominative) – NP-y (dative) – NP-z (accusative).
+line=263 fonts=F1-14.0 bbox=56.7,303.38,538.59,317.36 iscore=0.12 :In a verbsecond language such as English or Chinese (which do not have case in full
+line=264 fonts=F1-14.0 bbox=56.7,286.4,224.97,300.38 iscore=0.06  :nominals), the default order is
+line=265 fonts=F1-14.0 bbox=73.68,263.36,217.03,277.34 iscore=0.43:   NP-x – V – NP-y  – NP-z,
+line=266 fonts=F1-14.0 bbox=56.7,240.38,538.61,254.36 iscore=0.07 :which is also known as double object construction. Such a construction is also found
+line=267 fonts=F1-14.0 bbox=56.7,223.4,385.63,237.38 iscore=0.21  :in Creole languages and especially in the Bantu languages.
+
+doc_id=101 page=8 block_id=8-1 bbox=372.72,793.94,531.59,806.96 label=tt 268 268
+line=268 fonts=F1-10.5,F1-13.0 bbox=372.72,793.94,531.59,806.96:                                               ARGUMENT  LINKING TYPES / 8
+
+doc_id=101 page=8 block_id=8-2 bbox=56.7,726.02,438.19,772.16 label=tbt 269 271
+line=269 fonts=F1-14.0 bbox=56.7,758.18,438.19,772.16                             :(13)  Illustration of the mapping from argument structure to syntax:
+line=270 fonts=F1-11.0,F1-14.0,F6-14.0 bbox=90.72,742.09,291.25,756.08 iscore=0.22:      ‘give’: ACT(x) & BECOME POSS(y,z)
+line=271 fonts=F1-14.0 bbox=90.7,726.02,100.38,740.0 iscore=0.20                  :      a.
+
+doc_id=101 page=8 block_id=8-3 bbox=141.72,627.79,405.95,709.52 label=tbb 272 276
+line=272 fonts=F7-14.0 bbox=145.2,695.54,187.14,709.52                     :           2
+line=273 fonts=F1-11.0,F1-14.0 bbox=141.72,676.09,186.15,690.08 iscore=0.00:          ACT  x
+line=274 fonts=F1-11.0,F1-14.0 bbox=209.7,659.95,289.5,673.94 iscore=0.00  :                  &    BECOME
+line=275 fonts=F1-14.0 bbox=196.2,643.88,318.72,657.86 iscore=0.00         :                 (cause)       y
+line=276 fonts=F1-11.0,F1-14.0 bbox=335.63,627.79,405.95,641.78 iscore=0.00:                                  z    POSS
+
+doc_id=101 page=8 block_id=8-4 bbox=56.7,219.26,538.64,593.48 label=bt 277 297
+line=277 fonts=F1-14.0 bbox=90.7,579.5,372.72,593.48                             :      b. Verbfinal:    NP-x       NP-y     NP-z     V
+line=278 fonts=F1-14.0 bbox=124.68,563.36,524.69,577.34 iscore=0.57              :           (weil)      sie        ihm      etwas    gab     (German,  Japanese)
+line=279 fonts=F1-11.0,F1-14.0 bbox=192.72,547.27,389.1,561.26 iscore=0.67       :                       she.NOM    he.DAT   sth.ACC  gave
+line=280 fonts=F1-14.0 bbox=90.72,525.2,340.33,539.18 iscore=0.33                :      c. Verbsecond:    NP-x  V   NP-y     NP-z
+line=281 fonts=F1-14.0 bbox=118.14,509.06,517.93,523.04 iscore=0.29              :          (because)    she   gave him      something        (English, Chinese)
+line=282 fonts=F1-14.0 bbox=56.7,486.26,538.61,500.24 iscore=0.00                :The argument  hierarchy can be encoded by the features [+hr] ‘there is a higher argu-
+line=283 fonts=F1-14.0 bbox=56.7,469.28,538.59,483.26 iscore=0.20                :ment, and (optionally) [+ho] ‘there is a higher object’; the same features can be used
+line=284 fonts=F1-14.0 bbox=56.7,452.24,538.61,466.22 iscore=0.33                :to specify the positions with respect to the verb: arguments specified as [+hr] are real-
+line=285 fonts=F1-14.0 bbox=56.7,435.26,538.61,449.24 iscore=0.18                :ized to the right of the verb, while the highest argument ([−hr]) is realized to the left
+line=286 fonts=F1-14.0 bbox=56.7,418.28,538.61,432.26 iscore=0.12                :of the verb, possibly in a Spec-position. This enables us to speak of a ‘subject posi-
+line=287 fonts=F1-14.0 bbox=56.7,401.24,538.59,415.22 iscore=0.31                :tion’. [+ho] is a more specific feature, which implies [+hr]; the highest object ([−ho])
+line=288 fonts=F1-14.0 bbox=56.7,384.26,538.64,398.24 iscore=0.12                :usually is realized next to the verb – it is called the ‘primary object’, while all other
+line=289 fonts=F1-14.0 bbox=56.7,367.28,538.6,381.26 iscore=0.24                 :objects are ‘secondary objects’. This terminology  differs from that for case lan-
+line=290 fonts=F1-14.0 bbox=56.7,350.24,499.03,364.22 iscore=0.17                :guages, where the lowest argument is designated as ‘direct object’ (see below).
+line=291 fonts=F1-14.0 bbox=56.7,327.98,536.37,341.96 iscore=0.33                :(14)  Possible features for encoding the positions in the positional type (verbsecond):
+line=292 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=111.18,304.4,472.14,319.4 iscore=0.00:         λz            λy                λx         λs  VERB(x,y,z)(s)
+line=293 fonts=F1-14.0 bbox=96.42,287.78,329.55,301.76 iscore=0.00               :       (theme)      (rec, ben)         (agent)
+line=294 fonts=F1-14.0 bbox=108.36,270.14,319.35,285.14 iscore=0.00              :         +hr           +hr               −hr
+line=295 fonts=F1-14.0 bbox=132.3,253.52,350.67,267.5 iscore=0.00                :             to the right of V      to the left of V
+line=296 fonts=F1-14.0 bbox=107.16,235.88,213.45,250.88 iscore=0.00              :         +ho           −ho
+line=297 fonts=F1-14.0 bbox=149.76,219.26,255.45,233.24 iscore=0.00              :                right-adjacent to V
+
+doc_id=101 page=8 block_id=8-5 bbox=56.7,144.92,538.65,209.9 label=bb 298 301
+line=298 fonts=F1-14.0 bbox=56.7,195.92,538.61,209.9             :Note that these features are similar to those proposed in Lexical Mapping Theory by
+line=299 fonts=F1-14.0 bbox=56.7,178.94,538.65,192.92 iscore=0.21:Bresnan and  collaborators: [+hr] corresponds to [+o], and [+ho] corresponds to [+r].
+line=300 fonts=F1-14.0 bbox=56.7,161.9,538.59,175.88 iscore=0.13 :However,  in my account the more specific feature [+ho] is only used in the positional
+line=301 fonts=F1-14.0 bbox=56.7,144.92,438.89,158.9 iscore=0.20 :type, in contrast to [+r], which is meant to be universally applicable.
+
+doc_id=101 page=9 block_id=9-1 bbox=56.7,793.94,186.86,806.96 label=t 302 302
+line=302 fonts=F1-10.5,F1-13.0 bbox=56.7,793.94,186.86,806.96:9 / DIETER WUNDERLICH
+
+doc_id=101 page=9 block_id=9-2 bbox=56.7,684.26,444.95,766.16 label=bt 303 307
+line=303 fonts=F1-14.0 bbox=56.7,752.18,444.95,766.16                      :(15) Features in Lexical Mapping Theory (Bresnan & Zaenen 1990)
+line=304 fonts=F1-14.0 bbox=90.72,736.1,255.45,750.08 iscore=0.11          :     [+r] ‘restricted’, [+o] ‘object’
+line=305 fonts=F3-14.0 bbox=117.12,718.52,256.05,732.5 iscore=0.33         :          λz        λy        λx
+line=306 fonts=F1-14.0 bbox=116.58,701.9,254.57,715.88 iscore=1.00         :          +o        +o        -o
+line=307 fonts=F1-14.0,F3-14.0 bbox=117.78,684.26,254.86,699.26 iscore=1.00:          +r        −r        −r
+
+doc_id=101 page=9 block_id=9-3 bbox=56.7,87.8,538.66,674.9 label=bb 308 340
+line=308 fonts=F1-14.0 bbox=56.7,660.92,538.53,674.9                                                                            :As many  researchers have shown  (Bresnan & Moshi  1990, among  others), the Bantu
+line=309 fonts=F1-14.0 bbox=56.7,643.88,538.57,657.86 iscore=0.38                                                               :languages suggest an interesting subtypology of the positional type: some languages
+line=310 fonts=F1-14.0 bbox=56.7,626.9,538.66,640.88 iscore=0.18                                                                :(such as Sesotho, Kichaga, Kinyarwanda, Marathi) exhibit so-called symmetrical ob-
+line=311 fonts=F1-14.0 bbox=56.7,609.92,538.62,623.9 iscore=0.18                                                                :jects, while other languages (such as  Kikuyu, Chichew^a,  Swahili) exhibit asym-
+line=312 fonts=F1-14.0 bbox=56.7,592.88,538.61,606.86 iscore=0.08                                                               :metrical objects. One can capture this difference by the assumption that the former
+line=313 fonts=F1-14.0 bbox=56.7,576.62,508.1,590.6 iscore=0.15                                                                 :subtype lacks the feature [+ho], while the latter subtype conforms to this feature.
+line=314 fonts=F1-14.0 bbox=73.68,559.82,538.51,573.8 iscore=0.14                                                               :   In the symmetrical object languages the positions to the right of V are equally
+line=315 fonts=F1-14.0 bbox=56.7,542.78,538.62,556.76 iscore=0.29                                                               :good  for both objects (only salience plays some role: animates usually precede in-
+line=316 fonts=F1-14.0 bbox=56.7,525.8,502.63,539.78 iscore=0.23                                                                :animates): consider (16), where both distributions allow for two interpretations.
+line=317 tag=M+AC+LN+CN span_id=101-9 lang_name=Sesotho lang_code=sot fonts=F1-14.0 bbox=56.7,502.82,332.67,516.8 iscore=0.10   :(16)  Symmetrical objects in Sesotho [Lee 2000]
+line=318 tag=L span_id=101-9 lang_name=Sesotho lang_code=sot fonts=F1-14.0 bbox=90.71,485.78,464.32,499.76 iscore=0.14          :      Sello o-shap-el-a         Lineo bashanyana. / bashanyana Lineo.
+line=319 tag=G span_id=101-9 lang_name=Sesotho lang_code=sot fonts=F1-14.0 bbox=90.72,468.79,306.34,482.78 iscore=0.57          :      Sello I.SBJ-beat-APPL-FV  Lineo boys
+line=320 tag=T span_id=101-9 lang_name=Sesotho lang_code=sot fonts=F1-14.0 bbox=90.72,451.82,281.95,465.8 iscore=0.14           :      i. ‘Sello beats the boys for Lineo.’
+line=321 tag=T+AL span_id=101-9 lang_name=Sesotho lang_code=sot fonts=F1-14.0 bbox=90.72,434.78,285.84,448.76 iscore=0.43       :      ii. ‘Sello beats Lineo for the boys.’
+line=322 fonts=F1-14.0 bbox=56.7,411.8,538.63,425.78 iscore=0.08                                                                :Furthermore, both objects can become  subject under passive (still with two interpre-
+line=323 fonts=F1-14.0 bbox=56.7,394.82,538.63,408.8 iscore=0.53                                                                :tations), and also can be marked with object affixes on the verb (not shown here).
+line=324 fonts=F1-14.0 bbox=56.7,377.78,362.1,391.76 iscore=0.20                                                                :(17) illustrates this again with examples from Sesotho.
+line=325 tag=M+AC+LN+CN span_id=101-10 lang_name=Sesotho lang_code=sot fonts=F1-14.0 bbox=56.7,354.8,260.16,368.78 iscore=0.38  :(17)  Passive in Sesotho [Lee 2000]
+line=326 tag=L span_id=101-10 lang_name=Sesotho lang_code=sot fonts=F1-14.0 bbox=90.71,337.82,341.52,351.8 iscore=0.20          :      a. Morena   ó-bítsel-íts-o-é           baná.
+line=327 tag=G span_id=101-10 lang_name=Sesotho lang_code=sot fonts=F1-11.0,F1-14.0 bbox=107.68,320.77,357.59,334.76 iscore=1.00:         chief    I.SBJ-call-APPL-PASS-PAST  children
+line=328 tag=L span_id=101-11 lang_name=Sesotho lang_code=sot fonts=F1-14.0 bbox=90.7,303.8,357.0,317.78 iscore=0.75            :      b. Baná     ba-bítsel-íts-o-é          morena.
+line=329 tag=G span_id=101-11 lang_name=Sesotho lang_code=sot fonts=F1-11.0,F1-14.0 bbox=107.7,286.81,339.67,300.8 iscore=1.00  :         children II.SBJ-call-APPL-PASS-PAST chief
+line=330 tag=T span_id=101-11 lang_name=Sesotho lang_code=sot fonts=F1-14.0 bbox=90.72,269.78,401.44,283.76 iscore=0.00         :      i. ‘The children benefitted from haven the chief called.’
+line=331 tag=T+AL span_id=101-11 lang_name=Sesotho lang_code=sot fonts=F1-14.0 bbox=90.72,252.8,412.29,266.78 iscore=0.11       :      ii. ‘The chief benefitted from having the children called.’
+line=332 fonts=F1-14.0 bbox=56.7,229.82,538.59,243.8 iscore=0.00                                                                :In contrast, asymmetrical object languages have  a fixed position of their objects,
+line=333 fonts=F1-14.0 bbox=56.7,212.78,538.59,226.76 iscore=0.13                                                               :only depending on  their ranking, and salience does not play any role. Thus, only one
+line=334 fonts=F1-14.0 bbox=56.7,195.8,538.59,209.78 iscore=0.13                                                                :interpretation is possible. This is shown by the following examples from Kikuyu; if
+line=335 fonts=F1-14.0 bbox=56.7,178.82,538.64,192.8 iscore=0.14                                                                :the NPs following the verbs are switched in their position, the interpretation is shifted
+line=336 fonts=F1-14.0 bbox=56.7,161.78,495.11,175.76 iscore=0.43                                                               :too. Thus, Kikuyu conforms to the notion of ‘primary’ vs. ‘secondary object’.
+line=337 tag=M+AC+LN+CN span_id=101-12 lang_name=Kikuyu lang_code=kik fonts=F1-14.0 bbox=56.7,138.8,338.1,152.78 iscore=0.17    :(18)  Asymmetrical  objects in Kikuyu (Lee 2000)
+line=338 tag=L span_id=101-12 lang_name=Kikuyu lang_code=kik fonts=F1-14.0,F5-14.0 bbox=90.72,121.82,352.41,135.8 iscore=0.33   :      a. Karioki ç:n-E-irE           gari  dereba.
+line=339 tag=G span_id=101-12 lang_name=Kikuyu lang_code=kik fonts=F1-11.0,F1-14.0 bbox=107.7,104.77,345.15,118.76 iscore=1.00  :         Karioki SBJ.find-APPL-PAST  car   driver
+line=340 tag=T span_id=101-12 lang_name=Kikuyu lang_code=kik fonts=F1-14.0 bbox=107.7,87.8,307.05,101.78 iscore=0.29            :         ‘Karioki found a driver for the car.’
+
+doc_id=101 page=10 block_id=10-1 bbox=366.18,793.94,531.57,806.96 label=tt 341 341
+line=341 fonts=F1-10.5,F1-13.0 bbox=366.18,793.94,531.57,806.96:                                              ARGUMENT  LINKING TYPES / 10
+
+doc_id=101 page=10 block_id=10-2 bbox=56.7,348.5,538.69,771.44 label=tb 342 365
+line=342 tag=L span_id=101-13 lang_name=Kikuyu lang_code=kik fonts=F1-14.0,F5-14.0 bbox=90.72,757.46,353.91,771.44            :      b. Karioki ç:n-E-irE           dereba   gari.
+line=343 tag=G span_id=101-13 lang_name=Kikuyu lang_code=kik fonts=F1-11.0,F1-14.0 bbox=107.7,740.47,345.69,754.46 iscore=1.00:         Karioki SBJ.find-APPL-PAST  driver   car
+line=344 tag=T span_id=101-13 lang_name=Kikuyu lang_code=kik fonts=F1-14.0 bbox=107.7,723.5,307.05,737.48 iscore=0.29         :         ‘Karioki found a car for the driver.’
+line=345 fonts=F1-14.0 bbox=56.7,700.46,538.65,714.44 iscore=0.00                                                             :However,  Kikuyu  is special in that it allows alternating passive if the semantic roles
+line=346 fonts=F1-14.0 bbox=56.7,683.48,319.6,697.46 iscore=0.14                                                              :of the participants can be uniquely determined.
+line=347 tag=M+AC+LN+CN span_id=101-14 lang_name=Kikuyu lang_code=kik fonts=F1-14.0 bbox=56.7,660.5,324.31,674.48 iscore=0.43 :(19)  Alternating passive in Kikuyu (Lee 2000)
+line=348 tag=L span_id=101-14 lang_name=Kikuyu lang_code=kik fonts=F1-14.0 bbox=90.72,643.46,418.55,657.44 iscore=0.17        :      a. Moarimo    ne-a-hE-ir-uç          ihoa    ne mo:do.
+line=349 tag=G span_id=101-14 lang_name=Kikuyu lang_code=kik fonts=F1-11.0,F1-14.0 bbox=107.7,626.47,404.18,640.46 iscore=1.00:         teacher    FOC-SBJ-give-PAST-PASS flower  by man
+line=350 tag=T span_id=101-14 lang_name=Kikuyu lang_code=kik fonts=F1-14.0 bbox=107.7,609.5,372.06,623.48 iscore=0.11         :         ‘The teacher was given the flower by the man.’
+line=351 tag=L span_id=101-15 lang_name=Kikuyu lang_code=kik fonts=F1-14.0 bbox=90.7,592.46,418.57,606.44 iscore=0.22         :      b. Ihoa    ne-re-hE-ir-uç          moarimo   ne mo:do.
+line=352 tag=G span_id=101-15 lang_name=Kikuyu lang_code=kik fonts=F1-11.0,F1-14.0 bbox=107.7,575.47,404.26,589.46 iscore=1.00:         flower  FOC-SBJ-give-PAST-PASS  teacher   by man
+line=353 tag=T span_id=101-15 lang_name=Kikuyu lang_code=kik fonts=F1-14.0 bbox=107.7,558.5,386.42,572.48 iscore=0.10         :         ‘The flower was given to the teacher by the man.’
+line=354 fonts=F1-14.0 bbox=56.7,535.46,538.57,549.44 iscore=0.08                                                             :The majority of asymmetrical object languages (e.g., Chichew^a and Swahili) are non-
+line=355 fonts=F1-14.0 bbox=56.7,518.48,538.69,532.46 iscore=0.27                                                             :alternating in that only the argument next to the verb (the primary object) can become
+line=356 fonts=F1-14.0 bbox=56.7,501.5,538.56,515.48 iscore=0.27                                                              :subject under passive. Note that in the Bantu languages the subject usually is co-
+line=357 fonts=F1-14.0 bbox=56.7,484.46,538.68,498.44 iscore=0.36                                                             :indexed with the verb, and that also object affixes are possible under special circum-
+line=358 fonts=F1-14.0 bbox=56.7,467.48,538.62,481.46 iscore=0.14                                                             :stances; these languages thus have some additional means to support argument link-
+line=359 fonts=F1-14.0 bbox=56.7,450.5,538.56,464.48 iscore=0.15                                                              :ing. There is nothing that reflects direct and inverse settings directly, however, the
+line=360 fonts=F1-14.0 bbox=56.7,433.46,538.6,447.44 iscore=0.13                                                              :existence of passive makes it possible to realize a more salient object in the desig-
+line=361 fonts=F1-14.0,F1-9.0 bbox=56.7,416.48,202.02,431.96 iscore=0.07                                                      :nated position of subject.^{2}
+line=362 fonts=F1-14.0 bbox=73.68,399.5,538.62,413.48 iscore=0.00                                                             :   The positional type of argument linking requires a syntax with rather fixed word
+line=363 fonts=F1-14.0 bbox=56.7,382.46,538.63,396.44 iscore=0.08                                                             :order; it does not need morphological means, notwithstanding that languages of this
+line=364 fonts=F1-14.0 bbox=56.7,365.48,538.61,379.46 iscore=0.15                                                             :type often exhibit those means, such as additional subject agreement. Next I discuss
+line=365 fonts=F1-14.0 bbox=56.7,348.5,380.77,362.48 iscore=0.08                                                              :the inverse type, which is only possible with morphology.
+
+doc_id=101 page=10 block_id=10-3 bbox=56.7,72.43,538.69,253.4 label=b 366 379
+line=366 fonts=F1-11.0,F1-7.0 bbox=56.7,241.39,538.51,253.4                                                                       :2   Besides sortal salience, also discourse prominence (such as topicality) plays a role in the choice of pas-
+line=367 fonts=F1-11.0 bbox=73.68,228.43,538.61,239.41 iscore=0.24                                                                :    sive. Some Bantu languages even allow discourse prominence to play a significant role in argument link-
+line=368 fonts=F1-11.0 bbox=73.68,215.41,538.49,226.39 iscore=0.06                                                                :    ing: Under the condition that the semantic roles of the arguments are obvious, the positions of the higher
+line=369 fonts=F1-11.0 bbox=73.68,202.39,538.61,213.37 iscore=0.25                                                                :    and lower argument can be reversed if the latter is topic. In such a case, the ‘subject’ agreement on the
+line=370 fonts=F1-11.0 bbox=73.68,189.43,538.63,200.41 iscore=0.30                                                                :    verb turns out to be in fact topic agreement. Consider the following examples from Kinyarwanda (Mori-
+line=371 fonts=F1-11.0 bbox=73.68,176.41,127.47,187.39 iscore=0.06                                                                :    moto 2000).
+line=372 tag=L span_id=101-16 lang_name=Kinyarwanda lang_code=kin fonts=F1-11.0 bbox=73.68,163.39,260.05,174.37 iscore=0.20       :    (i) b. Umuhuungu    ki-som-a   igitabo.
+line=373 tag=G span_id=101-16 lang_name=Kinyarwanda lang_code=kin fonts=F1-11.0,F1-9.0 bbox=107.7,150.43,301.83,161.41 iscore=0.67:           1.boy         1.TOP-PRES-read-ASP  7.book
+line=374 tag=T span_id=101-16 lang_name=Kinyarwanda lang_code=kin fonts=F1-11.0 bbox=107.7,137.41,241.23,148.39 iscore=0.17       :           ‘The boy is reading the book.’
+line=375 tag=L span_id=101-17 lang_name=Kinyarwanda lang_code=kin fonts=F1-11.0 bbox=90.72,124.39,299.07,135.37 iscore=0.33       :       b.  Igitabo    ki-som-a          umuhuungu.
+line=376 tag=G span_id=101-17 lang_name=Kinyarwanda lang_code=kin fonts=F1-11.0,F1-9.0 bbox=107.7,111.43,268.53,122.41 iscore=1.00:           7.book     7.TOP-read-ASP    1.boy
+line=377 tag=T span_id=101-17 lang_name=Kinyarwanda lang_code=kin fonts=F1-11.0 bbox=107.7,98.41,268.21,109.39 iscore=0.25        :           ‘The book is being read by the boy.’
+line=378 fonts=F1-11.0 bbox=73.68,85.39,538.69,96.37 iscore=0.00                                                                  :    Here, the feature [−hr] ‘there is no higher role’ is reinterpreted as [−hp] ‘there is no argument that is more
+line=379 fonts=F1-11.0 bbox=73.68,72.43,125.33,83.41 iscore=0.05                                                                  :    prominent’.
+
+doc_id=101 page=11 block_id=11-1 bbox=56.7,793.94,193.4,806.96 label=t 380 380
+line=380 fonts=F1-10.5,F1-13.0 bbox=56.7,793.94,193.4,806.96:11 / DIETER WUNDERLICH
+
+doc_id=101 page=11 block_id=11-2 bbox=56.7,79.82,538.65,761.48 label=b 381 419
+line=381 fonts=F1-14.0,F1-16.0 bbox=56.7,745.46,538.57,761.48                                                                      :2.5   Inverse type:  Affixes on the verb (the direct or inverse marker, often also
+line=382 fonts=F1-14.0 bbox=56.7,728.48,538.64,742.46 iscore=0.43                                                                  :called ‘voice marker’) encode whether the higher or the lower argument is more sali-
+line=383 fonts=F1-14.0 bbox=56.7,711.5,538.56,725.48 iscore=0.13                                                                   :ent; in other words, these voice markers assign relative salience in the context of ar-
+line=384 fonts=F1-14.0 bbox=56.7,694.46,538.57,708.44 iscore=0.13                                                                  :gument  hierarchy (Wunderlich 1996). Computationally, this is the most complex type
+line=385 fonts=F1-14.0 bbox=56.7,677.48,538.62,691.46 iscore=0.21                                                                  :of argument linking because two hierarchies are mapped onto each other. In its pure
+line=386 fonts=F1-14.0 bbox=56.7,660.5,538.54,674.48 iscore=0.07                                                                   :form, this type is only known from  the Algonquian languages, although there are
+line=387 fonts=F1-14.0 bbox=56.7,643.46,538.59,657.44 iscore=0.29                                                                  :more  languages that have an inverse marker, at least in some of their constructions.
+line=388 fonts=F1-14.0 bbox=56.7,626.48,538.63,640.46 iscore=0.27                                                                  :An illustration is given by the examples in (20) from Plains Cree, which are identical
+line=389 fonts=F1-14.0 bbox=56.7,609.5,382.29,623.48 iscore=0.13                                                                   :except the markers that immediately follow the verb stem.
+line=390 tag=M+AC+LN+CN span_id=101-18 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=56.7,587.18,499.19,601.16 iscore=0.17:(20)  Inverse morphology in Plains Cree [Wolfart & Carroll 1981, Fabri 1996]
+line=391 tag=L span_id=101-18 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=90.72,571.1,254.94,585.08 iscore=0.09         :      a. Ni-seekih-aa-naan  atim.
+line=392 tag=G span_id=101-18 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=107.7,555.02,247.69,569.0 iscore=1.00         :         1-scare-DIRECT-1pl dog
+line=393 tag=T span_id=101-18 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=107.7,538.88,213.64,552.86 iscore=0.25        :        ‘We  scare the dog’
+line=394 tag=L span_id=101-19 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=90.72,516.8,254.94,530.78 iscore=0.25         :      b. Ni-seekih-iko-naan atim.
+line=395 tag=G span_id=101-19 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=107.7,500.72,264.73,514.7 iscore=0.50         :        1-scare-INVERSE-1pl    dog
+line=396 tag=T span_id=101-19 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=107.7,484.58,216.89,498.56 iscore=0.25        :        ‘The dog scares us’
+line=397 fonts=F1-14.0 bbox=56.7,462.5,538.61,476.48 iscore=0.00                                                                   :The introduction of a direct vs. inverse marker seems to be an ingenious invention to
+line=398 fonts=F1-14.0 bbox=56.7,446.42,538.49,460.4 iscore=0.33                                                                   :solve the problem raised in the beginning, namely to mark an inverse setting differ-
+line=399 fonts=F1-14.0 bbox=56.7,430.34,538.6,444.32 iscore=0.21                                                                   :ently from a direct setting. However, this invention brings also some disadvantages,
+line=400 fonts=F1-14.0 bbox=56.7,414.2,315.0,428.18 iscore=0.08                                                                    :as well as other complexities for computation.
+line=401 fonts=F1-14.0 bbox=73.68,397.22,538.65,411.2 iscore=0.15                                                                  :   First, salience must be made explicit in every transitive setting, which might be
+line=402 fonts=F1-14.0 bbox=56.7,380.12,538.62,394.1 iscore=0.27                                                                   :seen as a disadvantage. In the settings 1→2 and 2→1 both persons, being speech act
+line=403 fonts=F1-14.0 bbox=56.7,363.08,538.59,377.06 iscore=0.13                                                                  :participants, are salient. Some languages, as we have seen above, use portmanteau
+line=404 fonts=F1-14.0 bbox=56.7,346.04,538.63,360.02 iscore=0.17                                                                  :morphemes   under this condition. The Algonquian languages have arbitrarily set the
+line=405 fonts=F1-14.0 bbox=56.7,329.06,538.59,343.04 iscore=0.12                                                                  :2nd person to be more salient than the 1st person, and a further pair of direct/inverse
+line=406 fonts=F1-14.0 bbox=56.7,312.08,538.57,326.06 iscore=0.06                                                                  :voice markers dealing with 1,2-settings has been introduced. Furthermore, in the set-
+line=407 fonts=F1-14.0 bbox=56.7,294.92,538.65,308.9 iscore=0.14                                                                   :ting 3→3 (where  both arguments are human or animate), one argument must be more
+line=408 fonts=F1-14.0 bbox=56.7,277.94,538.62,291.92 iscore=0.14                                                                  :salient than the other one, for instance in terms of discourse prominence. Here, the
+line=409 fonts=F1-14.0 bbox=56.7,260.78,538.64,274.76 iscore=0.21                                                                  :less salient argument is marked by obviative, so that 3→3obv and 3obv→3  can be
+line=410 fonts=F1-14.0 bbox=56.7,243.74,538.62,257.72 iscore=0.29                                                                  :distinguished. (21) illustrates the marking of local person in Plains Cree, and (22) the
+line=411 fonts=F1-14.0 bbox=56.7,226.64,203.08,240.62 iscore=0.07                                                                  :marking of 3→3   settings.
+line=412 tag=M+AC+LN+CN span_id=101-20 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=56.7,204.5,245.27,218.48 iscore=0.33 :(21)  Local person in Plains Cree
+line=413 tag=L-T+DB span_id=101-20 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=90.72,188.42,358.4,202.4 iscore=0.17     :      a. ki-waapam-i-naan      ‘We see you (sg/pl)’
+line=414 tag=G span_id=101-20 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=107.7,172.34,204.16,186.32 iscore=0.20        :        2-see-DIRECT-1pl
+line=415 tag=L-T+DB span_id=101-21 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=90.72,150.2,358.01,164.18 iscore=0.17    :      b. ki-waapam-u-naan      ‘You  (sg/pl) see us’
+line=416 tag=G span_id=101-21 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=107.7,134.12,210.88,148.1 iscore=0.20         :        2-see-INVERSE-1pl
+line=417 tag=M+AC+LN+CN span_id=101-22 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=56.7,112.04,391.06,126.02 iscore=0.00:(22)  Obviative in Plains Cree [Wolfart & Carroll 1981:30]
+line=418 tag=L-T+DB span_id=101-22 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=90.72,95.9,516.21,109.88 iscore=0.10     :      a. waapam-eew   naapeew     siisiip-a     ‘The man sees the duck (obv)’
+line=419 tag=G span_id=101-22 lang_name=Plains Cree lang_code=crk fonts=F1-11.0,F1-14.0 bbox=107.7,79.82,315.79,93.8 iscore=0.33   :        see-DIRECT    man         duck-OBV
+
+doc_id=101 page=12 block_id=12-1 bbox=366.18,793.94,531.57,806.96 label=tt 420 420
+line=420 fonts=F1-10.5,F1-13.0 bbox=366.18,793.94,531.57,806.96:                                              ARGUMENT  LINKING TYPES / 12
+
+doc_id=101 page=12 block_id=12-2 bbox=56.7,328.94,538.7,772.16 label=tb 421 445
+line=421 tag=L-T+DB span_id=101-23 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=90.72,758.18,516.15,772.16                   :      b. waapam-ik    naapeew     siisiip-a    ‘The duck (obv) sees the man’
+line=422 tag=G-T+DB span_id=101-23 lang_name=Plains Cree lang_code=crk fonts=F1-11.0,F1-14.0 bbox=107.7,742.1,534.9,756.08 iscore=0.36 :        see-INVERSE   man         duck-OBV     (= ‘The man  is seen by the duck’)
+line=423 tag=L-T+DB span_id=101-24 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=90.72,720.02,516.16,734.0 iscore=0.45        :      c. waapam-eew   naapeew-a   siisiip      ‘The duck sees the man (obv)’
+line=424 tag=G span_id=101-24 lang_name=Plains Cree lang_code=crk fonts=F1-11.0,F1-14.0 bbox=107.7,703.88,287.9,717.86 iscore=0.33     :        see-DIRECT    man-OBV     duck
+line=425 tag=L-T+DB span_id=101-25 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=90.72,681.8,516.12,695.78 iscore=0.30        :      d. waapam-ik    naapeew-a   siisiip      ‘The man  (obv) sees the duck’
+line=426 tag=G-T+DB span_id=101-25 lang_name=Plains Cree lang_code=crk fonts=F1-11.0,F1-14.0 bbox=107.7,665.72,534.87,679.7 iscore=0.64:         see-INVERSE  man-OBV     duck         (= ‘The duck is seen by  the man’)
+line=427 fonts=F1-14.0 bbox=56.7,642.68,538.53,656.66 iscore=0.14                                                                      :Note that with obviative marking on the dependent  noun, either the higher or the
+line=428 fonts=F1-14.0 bbox=56.7,625.7,538.63,639.68 iscore=0.29                                                                       :lower argument can be marked  as obviative, given that both arguments are animate.
+line=429 fonts=F1-14.0 bbox=56.7,608.72,538.7,622.7 iscore=0.06                                                                        :This raises the number of possible forms to four rather than two, which reminds at the
+line=430 fonts=F1-14.0 bbox=56.7,591.68,259.49,605.66 iscore=0.19                                                                      :situation in a language with passive.
+line=431 fonts=F1-14.0 bbox=84.12,574.58,538.62,588.56 iscore=0.08                                                                     :     In (23) the two settings 3→3obv and 3obv→3 are illustrated, the former realized
+line=432 fonts=F1-14.0 bbox=56.7,557.54,378.13,571.52 iscore=0.23                                                                      :by the direct marker, and the latter by the inverse marker.
+line=433 fonts=F1-14.0,F2-14.0 bbox=56.7,535.46,341.93,549.44 iscore=0.09                                                              :(23)       direct setting         inverse setting
+line=434 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=124.68,518.35,374.8,532.34 iscore=0.50                                                     :           λy    λx  VERB(x,y)    λy   λx  VERB(x,y)
+line=435 fonts=F1-14.0 bbox=124.69,502.22,311.15,516.2 iscore=0.67                                                                     :           +hr   +lr              +hr  +lr
+line=436 fonts=F1-14.0 bbox=124.73,486.08,322.7,500.06 iscore=0.50                                                                     :           3obv   3                3   3obv
+line=437 fonts=F1-14.0 bbox=124.7,470.0,315.03,483.98 iscore=0.50                                                                      :           +hs                         +hs
+line=438 fonts=F1-11.0 bbox=128.16,453.91,314.02,464.89 iscore=0.00                                                                    :            DIRECT                 INVERSE
+line=439 fonts=F1-14.0 bbox=56.7,430.94,538.64,444.92 iscore=0.00                                                                      :The reference to person (rather than abstract case) also has computational advantages
+line=440 fonts=F1-14.0 bbox=56.7,413.9,538.64,427.88 iscore=0.17                                                                       :beyond  argument linking; it allows reference-tracking across clause boundaries (es-
+line=441 fonts=F1-14.0 bbox=56.7,396.92,538.51,410.9 iscore=0.25                                                                       :pecially when obviative marking is involved). Consider the examples in (24), where
+line=442 fonts=F1-14.0 bbox=56.7,379.94,538.61,393.92 iscore=0.19                                                                      :the dependent verb in the conjunct mood can be marked for obviative; in this case it
+line=443 fonts=F1-14.0 bbox=56.7,362.9,538.64,376.88 iscore=0.12                                                                       :is interpreted as coindexed with the less salient (obviative) argument in the main
+line=444 fonts=F1-14.0,F1-9.0 bbox=56.7,345.92,538.6,361.4 iscore=0.15                                                                 :clause, otherwise it is coindexed with the more salient (proximate) argument.^{3} (Such
+line=445 fonts=F1-14.0 bbox=56.7,328.94,460.63,342.92 iscore=0.33                                                                      :a device could be reinterpreted as ‘same subject’ vs. ‘different subject’.)
+
+doc_id=101 page=12 block_id=12-3 bbox=56.7,59.29,538.63,257.06 label=b 446 460
+line=446 fonts=F1-11.0,F1-7.0 bbox=56.7,245.05,538.61,257.06                                                                  :3   Similar devices for the marking of discourse prominence have been developed in other languages, too.
+line=447 fonts=F1-11.0 bbox=73.68,232.09,538.62,243.07 iscore=0.27                                                            :    Navajo (an Athabascan  language exhibiting accusative in pronominal affixes) not only can mark a so-
+line=448 fonts=F1-11.0 bbox=73.68,219.07,538.63,230.05 iscore=0.12                                                            :    called 4th person as the least prominent 3rd person, but also distinguishes whether a 3rd person object
+line=449 fonts=F1-11.0,F2-11.0 bbox=73.68,206.05,538.61,217.03 iscore=0.29                                                    :    (including possessors) is less prominent than a 3rd person subject (marked by the prefix yi-) or more
+line=450 fonts=F1-11.0,F2-11.0 bbox=73.68,193.09,333.24,204.07 iscore=0.12                                                    :    prominent (marked by bi-) (Thompson  1996, Willie 2000).
+line=451 tag=L span_id=101-26 lang_name=Navajo lang_code=nav fonts=F1-11.0,F5-11.0 bbox=73.68,180.31,224.26,191.29 iscore=0.25:    (i) a. líí    dzaanééz   yi-zta¬.
+line=452 tag=G span_id=101-26 lang_name=Navajo lang_code=nav fonts=F1-11.0,F1-9.0 bbox=107.7,165.19,300.61,176.17 iscore=1.00 :           horse  mule       3OBJ.LESS.PROM-kicked
+line=453 tag=T span_id=101-26 lang_name=Navajo lang_code=nav fonts=F1-11.0 bbox=107.7,152.17,234.42,163.15 iscore=0.20        :           ‘The horse kicked the mule.’
+line=454 tag=L span_id=101-27 lang_name=Navajo lang_code=nav fonts=F1-11.0,F5-11.0 bbox=90.72,139.39,224.2,150.37 iscore=0.40 :       b.  dzaanééz   líí    bi-zta¬.
+line=455 tag=G span_id=101-27 lang_name=Navajo lang_code=nav fonts=F1-11.0,F1-9.0 bbox=107.7,124.27,305.59,135.25 iscore=1.00 :           mule       horse  3OBJ.MORE.PROM-kicked
+line=456 tag=T span_id=101-27 lang_name=Navajo lang_code=nav fonts=F1-11.0 bbox=107.7,111.31,234.44,122.29 iscore=0.20        :           ‘The mule kicked the horse.’
+line=457 fonts=F1-11.0 bbox=73.68,98.29,538.58,109.27 iscore=0.06                                                             :    Here, the reversal of setting is also expressed by different positions of the corresponding nouns in the
+line=458 fonts=F1-11.0 bbox=73.68,85.27,538.63,96.25 iscore=0.37                                                              :    syntax (see footnote 2), but this is not necessary for Navajo because the affixes on the verb already sat-
+line=459 fonts=F1-11.0,F2-11.0 bbox=73.68,72.31,538.6,83.3 iscore=0.32                                                        :    isfy the arguments. The yi-/bi- prefixes can also be used for reference tracking, similarly to the obviative
+line=460 fonts=F1-11.0 bbox=73.68,59.29,175.7,70.27 iscore=0.06                                                               :    suffixes in Plains Cree.
+
+doc_id=101 page=13 block_id=13-1 bbox=56.7,793.94,193.4,806.96 label=t 461 461
+line=461 fonts=F1-10.5,F1-13.0 bbox=56.7,793.94,193.4,806.96:13 / DIETER WUNDERLICH
+
+doc_id=101 page=13 block_id=13-2 bbox=56.7,479.12,538.67,765.44 label=bt 462 478
+line=462 fonts=F1-14.0 bbox=56.7,751.46,538.6,765.44                                                                                :(24)  Coreference with an argument of the matrix clause in Plains Cree [Wolfart &
+line=463 fonts=F1-14.0 bbox=90.72,734.48,188.0,748.46 iscore=0.15                                                                   :      Carroll 1981: 26]
+line=464 tag=L span_id=101-28 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=90.72,719.12,416.45,733.1 iscore=0.20          :      a. naapeew   atimw-a     waapam-eew    ee-sipweehtee-t
+line=465 tag=G span_id=101-28 lang_name=Plains Cree lang_code=crk fonts=F1-11.0,F1-14.0 bbox=107.67,704.11,431.84,718.1 iscore=1.00 :         man       dog-OBV     see-DIRECT    CONJUNCT-leave-3
+line=466 tag=T span_id=101-28 lang_name=Plains Cree lang_code=crk fonts=F1-14.0,F1-9.0 bbox=107.7,687.14,323.51,703.1 iscore=0.12   :        ‘The man_{prox} saw the dog as he_{prox} left’
+line=467 tag=L span_id=101-29 lang_name=Plains Cree lang_code=crk fonts=F1-14.0 bbox=90.72,667.22,427.31,681.2 iscore=0.12          :      b. naapeew   atimw-a     waapam-eew    ee-sipweehtee-yit
+line=468 tag=G span_id=101-29 lang_name=Plains Cree lang_code=crk fonts=F1-11.0,F1-14.0 bbox=107.67,651.97,454.99,665.96 iscore=1.00:         man       dog-OBV     see-DIRECT    CONJUNCT-leave-3OBV
+line=469 tag=T span_id=101-29 lang_name=Plains Cree lang_code=crk fonts=F1-14.0,F1-9.0 bbox=107.7,635.0,312.11,650.96 iscore=0.25   :        ‘The man  saw the dog_{obv} as it_{obv} left’
+line=470 fonts=F1-14.0 bbox=56.7,614.18,538.66,628.16 iscore=0.13                                                                   :It is still an open question why the inverse type of argument linking, as demonstrated
+line=471 fonts=F1-14.0 bbox=56.7,597.2,538.56,611.18 iscore=0.20                                                                    :by the Algonquian languages, is only rarely found among the languages of the world.
+line=472 fonts=F1-14.0 bbox=56.7,580.22,538.59,594.2 iscore=0.14                                                                    :It might be computationally too a complex type, which is disfavored because of in-
+line=473 fonts=F1-14.0 bbox=56.7,563.18,538.57,577.16 iscore=0.21                                                                   :herent problems, or the invention of an inverse morpheme might be very improbable
+line=474 fonts=F1-14.0 bbox=56.7,546.2,313.72,560.18 iscore=0.08                                                                    :so that the chance that it happens is quite low.
+line=475 fonts=F1-14.0 bbox=73.68,529.22,538.65,543.2 iscore=0.12                                                                   :   I turn now to the last type of argument linking to be discussed here, which is by
+line=476 fonts=F1-14.0 bbox=56.7,512.18,538.55,526.16 iscore=0.18                                                                   :far the most dominant type among the languages of the world, and allows for a large
+line=477 fonts=F1-14.0 bbox=56.7,495.2,538.67,509.18 iscore=0.25                                                                    :amount  of variation. It is therefore not a surprise that many linguists believe it to be
+line=478 fonts=F1-14.0 bbox=56.7,479.12,413.96,493.1 iscore=0.12                                                                    :the universal type of argument linking (which I think is wrong).
+
+doc_id=101 page=13 block_id=13-3 bbox=56.7,71.3,538.7,466.28 label=bb 479 501
+line=479 fonts=F1-14.0,F1-16.0 bbox=56.7,450.26,538.6,466.28              :2.6   Generalized   case type: Affixes on the verb, as well as morphological cases
+line=480 fonts=F1-14.0 bbox=56.7,433.28,538.59,447.26 iscore=0.23         :on the complement,  encode  argument hierarchy. It is also possible to encode argu-
+line=481 fonts=F1-14.0 bbox=56.7,416.3,538.61,430.28 iscore=0.20          :ment hierarchy in the context of salience values (split case). This type might be seen
+line=482 fonts=F1-14.0 bbox=56.7,399.26,538.65,413.24 iscore=0.20         :as the most effective type because it is structurally determined but does not need to
+line=483 fonts=F1-14.0 bbox=56.7,382.28,538.62,396.26 iscore=0.20         :map  hierarchies onto each other, as in the inverse type. The notion ‘generalized case’
+line=484 fonts=F1-14.0 bbox=56.7,365.3,538.66,379.28 iscore=0.14          :subsumes  morphological case and  pronominal affixes (as well as agreement morph-
+line=485 fonts=F1-14.0 bbox=56.7,348.26,437.89,362.24 iscore=0.36         :emes), which in many respects behave similarly, under one concept.
+line=486 fonts=F1-14.0 bbox=73.68,331.28,538.7,345.26 iscore=0.10         :   In Lexical Decomposition  Grammar   (LDG),  argument  hierarchy is encoded  by
+line=487 fonts=F1-14.0 bbox=56.7,314.3,538.59,328.28 iscore=0.00          :means  of two  relational features associated with the theta-roles: [+hr] ‘there is a
+line=488 fonts=F1-14.0 bbox=56.7,297.26,538.61,311.24 iscore=0.19         :higher role’, and [+lr] ‘there is a lower role’. These features are either based on the
+line=489 fonts=F1-14.0 bbox=56.7,280.28,538.64,294.26 iscore=0.31         :semantic hierarchy of arguments (in the unmarked  case, corresponding to the cano-
+line=490 fonts=F1-14.0 bbox=56.7,263.3,538.62,277.28 iscore=0.25          :nical realization of arguments), or they are assigned lexically (‘lexical case’). (Wun-
+line=491 fonts=F1-14.0 bbox=56.7,246.26,225.16,260.24 iscore=0.08         :derlich 1997, Stiebels 2000b.)
+line=492 fonts=F1-14.0 bbox=73.68,229.28,538.59,243.26 iscore=0.00        :   Pronominal  affixes or clitics as well as morphological case are specified by the
+line=493 fonts=F1-14.0 bbox=56.7,212.3,179.71,226.28 iscore=0.00          :same type of features:
+line=494 fonts=F1-14.0 bbox=56.7,189.98,222.33,203.96 iscore=0.40         :(25)  Linker features in LDG
+line=495 fonts=F1-11.0,F1-14.0 bbox=90.72,173.89,228.28,187.88 iscore=0.50:      [+hr,+lr]  dative (DAT)
+line=496 fonts=F1-11.0,F1-14.0 bbox=90.72,157.81,375.59,171.8 iscore=0.33 :      [+hr]      accusative (ACC) (genitive with nouns)
+line=497 fonts=F1-11.0,F1-14.0 bbox=90.72,141.67,241.0,155.66 iscore=0.33 :      [+lr]      ergative (ERG)
+line=498 fonts=F1-11.0,F1-14.0 bbox=90.72,125.59,260.08,139.58 iscore=0.50:      [ ]        nominative (NOM)
+line=499 fonts=F1-14.0 bbox=56.7,103.52,538.61,117.5 iscore=0.08          :These four linkers together form a complete lattice. Therefore, the prediction is that
+line=500 fonts=F1-14.0 bbox=56.7,87.44,538.6,101.42 iscore=0.23           :no other structural linkers can exist, except those that have additional semantic feat-
+line=501 fonts=F1-14.0 bbox=56.7,71.3,538.69,85.28 iscore=0.19            :ures (such as partitive). The main difference to the way in which the positional type is
+
+doc_id=101 page=14 block_id=14-1 bbox=366.18,793.94,531.57,806.96 label=t 502 502
+line=502 fonts=F1-10.5,F1-13.0 bbox=366.18,793.94,531.57,806.96:                                              ARGUMENT  LINKING TYPES / 14
+
+doc_id=101 page=14 block_id=14-2 bbox=56.7,83.42,538.68,772.16 label=b 503 543
+line=503 fonts=F1-14.0 bbox=56.7,758.18,538.64,772.16                              :characterized comes from  the feature [+lr], which encodes the argument hierarchy
+line=504 fonts=F1-14.0 bbox=56.7,741.08,538.57,755.06 iscore=0.14                  :under a reversed perspective: while the feature value [−hr] singles out the highest ar-
+line=505 fonts=F1-14.0 bbox=56.7,723.92,538.59,737.9 iscore=0.21                   :gument  as a designated argument (‘subject’), the feature value [−lr] singles out the
+line=506 fonts=F1-14.0 bbox=56.7,707.78,538.56,721.76 iscore=0.15                  :lowest argument  as designated (‘direct object’), in contrast to the positional type,
+line=507 fonts=F1-14.0 bbox=56.7,691.7,538.61,705.68 iscore=0.08                   :where the second-to-highest argument is designated (‘primary object’). Moreover, the
+line=508 fonts=F1-14.0 bbox=56.7,675.62,538.59,689.6 iscore=0.15                   :fact that both the underlying argument roles and the morphological items are speci-
+line=509 fonts=F1-14.0 bbox=56.7,659.48,538.67,673.46 iscore=0.23                  :fied by  the same  features makes  a correspondence-theoretic analysis promising
+line=510 fonts=F1-14.0 bbox=56.7,643.4,183.88,657.38 iscore=0.10                   :(Wunderlich 2001a,b).
+line=511 fonts=F1-14.0 bbox=73.68,626.6,538.6,640.58 iscore=0.00                   :   Generalized case is a purely structural device, independent of semantic role. (26)
+line=512 fonts=F1-14.0 bbox=56.7,609.56,538.63,623.54 iscore=0.08                  :shows  that canonical argument linking makes no  difference between agentive and
+line=513 fonts=F1-14.0 bbox=56.7,592.58,538.6,606.56 iscore=0.17                   :non-agentive verbs; only the number of arguments is relevant. All intransitive verbs
+line=514 fonts=F1-11.0,F1-14.0 bbox=56.7,575.59,538.61,589.58 iscore=0.08          :have a NOM  argument, whereas  transitive verbs show either the NOM-ACC pattern or
+line=515 fonts=F1-11.0,F1-14.0 bbox=56.7,558.55,538.68,572.54 iscore=0.08          :the ERG-NOM  pattern (depending on typological parameters). Under certain circum-
+line=516 fonts=F1-11.0,F1-14.0 bbox=56.7,541.57,538.61,555.56 iscore=0.13          :stances, ERG-ACC is possible, but in this case a direct contrast to the default case
+line=517 fonts=F1-11.0,F1-14.0 bbox=56.7,524.59,538.62,538.58 iscore=0.13          :(NOM)  is lacking. Similarly, ditransitive verbs show either the NOM-DAT-ACC pattern
+line=518 fonts=F1-11.0,F1-14.0 bbox=56.7,507.55,217.77,521.54 iscore=0.09          :or the ERG-DAT-NOM  pattern.
+line=519 fonts=F1-14.0 bbox=56.7,484.58,246.97,498.56 iscore=0.50                  :(26)  Canonical argument linking
+line=520 fonts=F1-14.0 bbox=90.72,469.22,402.28,483.2 iscore=0.17                  :      a. Intransitive verbs             b. Transitive verbs
+line=521 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=107.7,454.21,478.07,468.2 iscore=0.43  :        λx  DANCE(x)   agentive           λy    λx  HIT(x,y)  agentive
+line=522 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=107.7,439.21,503.78,453.2 iscore=1.00  :        λx  FALL(x)    non-agentive       λy    λx  LIKE(x,y) non-agentive
+line=523 fonts=F1-14.0 bbox=107.7,424.22,365.08,438.2 iscore=0.43                  :        −hr                               +hr   −hr
+line=524 fonts=F1-14.0 bbox=107.7,409.22,362.11,423.2 iscore=1.00                  :        −lr                               −lr   +lr
+line=525 fonts=F1-11.0 bbox=107.7,394.21,371.32,405.19 iscore=1.00                 :        NOM                               ACC   NOM
+line=526 fonts=F1-11.0 bbox=107.7,379.21,367.69,390.19 iscore=1.00                 :        NOM                               NOM   ERG
+line=527 fonts=F1-14.0 bbox=90.72,358.22,207.64,372.2 iscore=0.33                  :      c. Ditransitive verbs
+line=528 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=107.69,335.59,339.9,349.58 iscore=0.29 :        λz    λy    λx {ACT(x) & BEC POSS(y,z)}
+line=529 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=107.69,318.55,309.03,332.54 iscore=0.86:        λz    λy    λx {ACT(x) & SEE(y,z)}
+line=530 fonts=F1-14.0 bbox=107.7,301.58,195.03,315.56 iscore=0.50                 :        +hr   +hr   −hr
+line=531 fonts=F1-14.0,F3-14.0 bbox=107.7,284.6,192.1,298.58 iscore=1.00           :        −lr   +lr   +lr
+line=532 fonts=F1-11.0 bbox=107.7,267.55,201.29,278.53 iscore=1.00                 :        ACC   DAT   NOM
+line=533 fonts=F1-11.0 bbox=107.7,250.57,197.65,261.55 iscore=1.00                 :        NOM   DAT   ERG
+line=534 fonts=F1-14.0 bbox=56.7,228.32,538.62,242.3 iscore=0.00                   :As  already indicated, the generalized case type allows some typological variation:
+line=535 fonts=F1-11.0,F1-14.0 bbox=56.7,212.17,538.64,226.16 iscore=0.08          :some  languages exhibit ACC, others ERG, some have an ACC-ERG split; languages that
+line=536 fonts=F1-11.0,F1-14.0 bbox=56.7,196.09,538.61,210.08 iscore=0.24          :lack DAT may  vary in respect of how they realize the medial argument, if at all (Stie-
+line=537 fonts=F1-11.0,F1-14.0 bbox=56.7,180.01,538.63,194.0 iscore=0.12           :bels 2000a,b). Particularly interesting is the possibility of an ACC or ERG split, which
+line=538 fonts=F1-11.0,F1-14.0 bbox=56.7,163.93,538.65,177.92 iscore=0.21          :allows to encode salience. For instance, ACC is often lacking for 3rd person, while
+line=539 fonts=F1-11.0,F1-14.0 bbox=56.7,147.79,538.6,161.78 iscore=0.19           :ERG is lacking for 1st and 2nd person (as in Dyirbal, Dixon 1994). Similarly, ERG is
+line=540 fonts=F1-11.0,F1-14.0 bbox=56.7,131.71,538.63,145.7 iscore=0.38           :sometimes  restricted to the perfect, while ACC  occurs in  the imperfect (as in
+line=541 fonts=F1-14.0 bbox=56.7,115.64,538.57,129.62 iscore=0.23                  :Hindi/Urdu, Mohanan  1994). I will demonstrate here that the relevant constraints fol-
+line=542 fonts=F1-14.0 bbox=56.7,99.5,538.59,113.48 iscore=0.25                    :low  from the harmonic  alignment of scales (Prince &  Smolensky  1993,  Stiebels
+line=543 fonts=F1-14.0 bbox=56.7,83.42,336.14,97.4 iscore=0.17                     :2000a,b; see Aissen 1999 for a different account).
+
+doc_id=101 page=15 block_id=15-1 bbox=56.7,793.94,193.4,806.96 label=t 544 544
+line=544 fonts=F1-10.5,F1-13.0 bbox=56.7,793.94,193.4,806.96:15 / DIETER WUNDERLICH
+
+doc_id=101 page=15 block_id=15-2 bbox=56.7,103.1,538.69,772.16 label=b 545 583
+line=545 fonts=F1-14.0 bbox=73.68,758.18,538.55,772.16                            :   There is a fundamental semantic asymmetry between  the arguments of a transitive
+line=546 fonts=F1-14.0 bbox=56.7,742.1,538.59,756.08 iscore=0.14                  :verb: The direct setting is more natural than the inverse setting because local persons
+line=547 fonts=F1-14.0 bbox=56.7,726.02,538.65,740.0 iscore=0.21                  :(1st or 2nd) tend to be agent. Similarly, the highest argument (the logical subject)
+line=548 fonts=F1-14.0 bbox=56.7,709.88,538.6,723.86 iscore=0.14                  :ranks above the lower  arguments (logical objects) because agents, who control the
+line=549 fonts=F1-14.0 bbox=56.7,693.8,538.57,707.78 iscore=0.15                  :event denoted by a verb, are mostly in highest position. These asymmetries influence
+line=550 fonts=F1-14.0 bbox=56.7,677.72,538.62,691.7 iscore=0.15                  :morphological  realization: what has to be marked is the more  unnatural situation
+line=551 fonts=F1-14.0 bbox=56.7,661.58,538.61,675.56 iscore=0.13                 :rather than the more natural one. Therefore, the inverse setting is more likely to be
+line=552 fonts=F1-14.0 bbox=56.7,645.5,538.59,659.48 iscore=0.07                  :marked  morphologically than the direct setting. Similarly, highest arguments that are
+line=553 fonts=F1-14.0 bbox=56.7,629.42,538.58,643.4 iscore=0.28                  :not agents or not 1st or 2nd person are more likely to be marked than those that are
+line=554 fonts=F1-14.0 bbox=56.7,613.34,211.43,627.32 iscore=0.06                 :agents or 1st or 2nd person.
+line=555 fonts=F1-14.0 bbox=73.68,597.2,538.62,611.18 iscore=0.00                 :   Following Stiebels (2000a,b), I assume the two scales in (27a); the first concerns
+line=556 fonts=F1-14.0 bbox=56.7,581.12,538.54,595.1 iscore=0.31                  :the relation between meaning and morphosyntax, while the second is a pure semantic
+line=557 fonts=F1-14.0 bbox=56.7,565.04,538.64,579.02 iscore=0.23                 :relation. Harmonic alignment then yields the contextualized preferences expressed in
+line=558 fonts=F1-14.0 bbox=56.7,548.9,460.92,562.88 iscore=0.18                  :(27b), which in turn give the markedness hierarchies expressed in (27c).
+line=559 fonts=F1-14.0 bbox=56.7,526.82,321.25,540.8 iscore=0.18                  :(27)  Harmonic  alignment for generalized case
+line=560 fonts=F1-14.0 bbox=90.72,510.74,517.8,524.72 iscore=0.33                 :      a. +hr  > +lr       Morphological marking  by [+hr] is more effective than
+line=561 fonts=F1-14.0 bbox=209.7,494.6,280.82,508.58 iscore=0.12                 :                          that by [+lr].
+line=562 fonts=F1-14.0 bbox=107.7,477.5,356.34,491.48 iscore=0.25                 :         +loc >  −loc     Person hierarchy (1,2 > 3)
+line=563 fonts=F1-14.0 bbox=90.72,455.36,309.71,469.34 iscore=0.25                :      b. Case in the context of person values
+line=564 fonts=F1-14.0,F9-14.0 bbox=107.7,438.26,222.46,452.24 iscore=0.29        :         +hr/+loc n +hr/−loc
+line=565 fonts=F1-14.0,F9-14.0 bbox=107.7,421.1,219.71,435.08 iscore=1.00         :         +lr/−loc n +lr/+loc
+line=566 fonts=F1-14.0 bbox=90.72,398.96,240.23,412.94 iscore=0.67                :      c. Markedness hierarchies
+line=567 fonts=F1-11.0,F1-14.0 bbox=107.7,381.85,483.1,395.84 iscore=0.18         :         *(+hr)/−loc » *(+hr)/+loc   ACC for a 3rd person is more marked
+line=568 fonts=F1-11.0,F1-14.0 bbox=277.68,365.71,501.65,379.7 iscore=0.25        :                                     (less likely) than ACC for the 1st person.
+line=569 fonts=F1-11.0,F1-14.0 bbox=107.7,348.61,491.05,362.6 iscore=0.18         :         *(+lr)/+loc » *(+lr)/−loc   ERG for the 1st person is more marked
+line=570 fonts=F1-11.0,F1-14.0 bbox=277.68,332.47,492.49,346.46 iscore=0.38       :                                     (less likely) than ERG for a 3rd person.
+line=571 fonts=F1-14.0 bbox=56.7,310.4,538.66,324.38 iscore=0.09                  :These  markedness  hierarchies explain the phenomenon of split case, depending on
+line=572 fonts=F1-14.0 bbox=56.7,294.26,538.59,308.24 iscore=0.19                 :salience in terms of person. The split case type thus reflects the fact that only inverse
+line=573 fonts=F1-14.0 bbox=56.7,278.18,195.64,292.16 iscore=0.12                 :settings must be marked.
+line=574 fonts=F1-14.0 bbox=56.7,256.1,161.67,270.08 iscore=0.25                  :(28)     Split case
+line=575 fonts=F2-14.0 bbox=107.7,239.84,466.01,253.82 iscore=0.20                :         direct setting        inverse setting           intransitives
+line=576 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=107.7,222.85,476.31,236.84 iscore=0.38:         λy   λx  VERB(x,y)    λy    λx  VERB(x,y)       λx    VERB(x)
+line=577 fonts=F1-14.0 bbox=107.69,205.7,425.74,219.68 iscore=0.50                :         +hr  +lr              +hr   +lr               −hr,−lr
+line=578 fonts=F1-14.0 bbox=111.18,189.56,407.16,203.54 iscore=0.20               :         3     1                1     3                   1
+line=579 fonts=F1-11.0 bbox=141.72,173.47,422.32,184.45 iscore=0.00               :              NOM              ACC   ERG                 NOM
+line=580 fonts=F1-14.0 bbox=56.7,151.4,538.55,165.38 iscore=0.00                  :Straits Salish is rather near to this ideal type of split case; the table in (29) shows that
+line=581 fonts=F1-11.0,F1-14.0 bbox=56.7,135.25,538.69,149.24 iscore=0.22         :ACC  suffixes exist only for the 1st or 2nd person (as well as for reflexives), while
+line=582 fonts=F1-11.0,F1-14.0 bbox=56.7,119.17,538.55,133.16 iscore=0.44         :there is only one ERG suffix for the 3rd person (homonymous with a possessive suf-
+line=583 fonts=F1-14.0 bbox=56.7,103.1,80.43,117.08 iscore=0.07                   :fix).
+
+doc_id=101 page=16 block_id=16-1 bbox=366.18,793.94,531.57,806.96 label=t 584 584
+line=584 fonts=F1-10.5,F1-13.0 bbox=366.18,793.94,531.57,806.96:                                              ARGUMENT  LINKING TYPES / 16
+
+doc_id=101 page=16 block_id=16-2 bbox=56.7,655.04,449.87,766.16 label=bt 585 590
+line=585 fonts=F1-14.0 bbox=56.7,752.18,449.87,766.16                             :(29)  Morpheme   repertoire in Straits Salish [Jelinek & Demers 1994]
+line=586 fonts=F1-11.0,F1-14.0 bbox=102.42,729.61,449.71,743.6 iscore=0.00        :        NOM  clitics     ACC  suffixes ERG  suffixes  POSS affixes
+line=587 fonts=F1-14.0,F5-14.0 bbox=101.82,711.86,439.71,725.96 iscore=0.12       :        1sg     =s´n    local  -oN´s    3    -(´)s   1sg     n´-
+line=588 fonts=F1-14.0,F1-9.0,F5-14.0 bbox=101.82,692.96,442.05,708.56 iscore=0.50:        2sg     =sx^{w}  1pl   -oN´…                 2sg    ‘´n-
+line=589 fonts=F1-14.0,F5-14.0 bbox=102.6,674.0,435.33,688.1 iscore=0.50          :        1pl      =…      refl  -oN´t                  1pl    -…
+line=590 fonts=F1-14.0,F1-9.0,F5-14.0 bbox=102.6,655.04,443.62,670.52 iscore=0.17 :        2pl   =sx^{w}hel´                           others  -(´)s
+
+doc_id=101 page=16 block_id=16-3 bbox=56.7,75.13,538.69,643.7 label=bb 591 622
+line=591 fonts=F1-14.0 bbox=56.7,629.72,538.55,643.7                                                                                              :The use of these morphemes   is illustrated by the examples in (30). (30a) shows an
+line=592 fonts=F1-11.0,F1-14.0 bbox=56.7,613.57,538.6,627.56 iscore=0.20                                                                          :example  with ACC, and (30) one with ERG. However,  ACC  and ERG  cannot be com-
+line=593 fonts=F1-14.0 bbox=56.7,597.5,538.58,611.48 iscore=0.20                                                                                  :bined in one verb form, maybe because only one personal suffix can follow the verb:
+line=594 fonts=F1-14.0 bbox=56.7,581.42,538.62,595.4 iscore=0.53                                                                                  :(30d) is ungrammatical, instead the passive form in (30e) has to be used. More gen-
+line=595 fonts=F1-14.0 bbox=56.7,565.28,487.47,579.26 iscore=0.40                                                                                 :eral, all inverse settings with a local person must be expressed in the passive.
+line=596 tag=M+AC+LN+CN span_id=101-30 lang_name=Straits Salish lang_code=str fonts=F1-14.0 bbox=56.7,543.2,354.35,557.18 iscore=0.14             :(30)  Case in Straits Salish [Jelinek & Demers 1994]
+line=597 tag=L-T+DB span_id=101-30 lang_name=Straits Salish lang_code=str fonts=F1-14.0,F1-9.0,F5-14.0 bbox=90.72,527.0,442.05,542.48 iscore=0.25 :      a. k^{w}´niN-t -oN´s  =l´      =s´n          ‘I helped you’
+line=598 tag=G span_id=101-30 lang_name=Straits Salish lang_code=str fonts=F1-11.0,F1-14.0 bbox=107.7,508.15,321.64,522.14 iscore=0.57            :         help-TRANS -loc.ACC =PAST   =1.NOM
+line=599 tag=L-T+DB span_id=101-31 lang_name=Straits Salish lang_code=str fonts=F1-14.0,F1-9.0,F5-14.0 bbox=90.72,485.96,442.71,501.44 iscore=0.38:      b. k^{w}´niN-t =l´    = s´n                  ‘I helped him’
+line=600 tag=G span_id=101-31 lang_name=Straits Salish lang_code=str fonts=F1-11.0,F1-14.0 bbox=107.7,467.11,270.64,481.1 iscore=0.43             :         help-TRANS =PAST   =1.NOM
+line=601 tag=L+DB span_id=101-32 lang_name=Straits Salish lang_code=str fonts=F1-14.0,F1-9.0,F5-14.0 bbox=90.72,444.92,454.3,460.4 iscore=0.29    :      c. k^{w}´niN-t -s   =l´                      ‘He helped him’
+line=602 tag=G span_id=101-32 lang_name=Straits Salish lang_code=str fonts=F1-11.0,F1-14.0 bbox=107.7,426.07,250.31,440.06 iscore=0.33            :         help-TRANS -3.ERG =PAST
+line=603 tag=L-T+DB span_id=101-33 lang_name=Straits Salish lang_code=str fonts=F1-14.0,F1-9.0,F5-14.0 bbox=90.72,403.82,449.59,419.3 iscore=0.11 :      d. * k^{w}´niN-t -oN´s   -´s   =l´           ‘He helped me’
+line=604 tag=G span_id=101-33 lang_name=Straits Salish lang_code=str fonts=F1-11.0,F1-14.0 bbox=118.14,385.03,315.59,399.02 iscore=0.43           :          help-TRANS   -loc.ACC -3.ERG=PAST
+line=605 tag=L-T+DB span_id=101-34 lang_name=Straits Salish lang_code=str fonts=F1-14.0,F1-9.0,F5-14.0 bbox=90.72,362.78,442.77,378.26 iscore=0.00:      e. k^{w}´niN-t -N   =l´     =s´n             ‘I was helped’
+line=606 tag=G span_id=101-34 lang_name=Straits Salish lang_code=str fonts=F1-11.0,F1-14.0 bbox=107.7,343.93,304.66,357.92 iscore=0.57            :         help-TRANS -PASS =PAST   =1.NOM
+line=607 fonts=F1-14.0 bbox=56.7,321.86,538.61,335.84 iscore=0.06                                                                                 :We  have just seen that the format of generalized case allows to account for the factor
+line=608 fonts=F1-14.0 bbox=56.7,305.78,538.64,319.76 iscore=0.19                                                                                 :salience by means of split case. It can also account for the factor semantic role, this
+line=609 fonts=F1-14.0 bbox=56.7,289.64,538.55,303.62 iscore=0.38                                                                                 :time by the use of lexical marking. Lexical case can indicate a semantic role that de-
+line=610 fonts=F1-14.0 bbox=56.7,273.56,538.65,287.54 iscore=0.19                                                                                 :viates from the prototypical role properties associated with positions in the argument
+line=611 fonts=F1-14.0 bbox=56.7,257.48,538.63,271.46 iscore=0.25                                                                                 :hierarchy. Recall that in prototypical transitive verbs, the higher argument ([+lr]) is
+line=612 fonts=F1-14.0 bbox=56.7,241.4,538.69,255.38 iscore=0.07                                                                                  :an agent (a controller entity), while the lower argument ([+hr]) is a patient (an af-
+line=613 fonts=F1-14.0 bbox=56.7,225.26,538.59,239.24 iscore=0.27                                                                                 :fected entity). If these two features are lexically assigned to the ‘wrong’ role, they
+line=614 fonts=F1-14.0 bbox=56.7,209.18,538.63,223.16 iscore=0.21                                                                                 :invite a different reading: [+lr] for the lowest argument invites the controller (or
+line=615 fonts=F1-14.0 bbox=56.7,193.1,538.65,207.08 iscore=0.38                                                                                  :agentive) reading, whereas [+hr] for the highest argument invites the affectedness (or
+line=616 fonts=F1-14.0 bbox=56.7,176.96,175.56,190.94 iscore=0.08                                                                                 :experiencer) reading.
+line=617 fonts=F1-14.0 bbox=73.68,160.16,538.69,174.14 iscore=0.00                                                                                :   (31) illustrates this with some examples from German   and  one example  from
+line=618 fonts=F1-14.0 bbox=56.7,143.18,538.62,157.16 iscore=0.29                                                                                 :Hindi. In (31a) the lower argument is exceptionally marked with [+lr], while in (31b)
+line=619 fonts=F1-14.0 bbox=56.7,126.14,538.62,140.12 iscore=0.07                                                                                 :the higher argument is exceptionally marked with [+hr]. Together with the respective
+line=620 fonts=F1-14.0 bbox=56.7,109.15,538.6,123.14 iscore=0.07                                                                                  :default features, a constellation results in which dative is the optimal case. The DAT-
+line=621 fonts=F1-14.0 bbox=56.7,92.18,538.65,106.16 iscore=0.25                                                                                  :marking on the helpee in (31a) invites the reading that this is an argument with agent
+line=622 fonts=F1-14.0 bbox=56.7,75.13,538.64,89.12 iscore=0.25                                                                                   :properties, while the DAT-marking in (31b) invites the reading of being affected, that
+
+doc_id=101 page=17 block_id=17-1 bbox=56.7,793.94,193.4,806.96 label=t 623 623
+line=623 fonts=F1-10.5,F1-13.0 bbox=56.7,793.94,193.4,806.96:17 / DIETER WUNDERLICH
+
+doc_id=101 page=17 block_id=17-2 bbox=56.7,87.2,538.65,771.44 label=b 624 662
+line=624 fonts=F1-14.0 bbox=56.7,757.46,538.58,771.44                             :is, being an experiencer. (31c) is again an example with [+hr] marking, and (31d) an
+line=625 fonts=F1-11.0,F1-14.0 bbox=56.7,740.47,538.6,754.46 iscore=0.33          :example  with [+lr] marking, but here the cases ACC and ERG arise because the verbs
+line=626 fonts=F1-14.0 bbox=56.7,723.5,194.98,737.48 iscore=0.13                  :only have one argument.
+line=627 fonts=F1-14.0 bbox=56.7,701.18,304.59,715.16 iscore=0.14                 :(31)  Lexical marking in German and Hindi
+line=628 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=90.72,684.07,434.02,698.06 iscore=0.25:      a. (weil) ich ihm helfe              λy   λx    HELP(x,y)
+line=629 fonts=F1-11.0,F1-14.0 bbox=107.7,667.93,521.48,681.92 iscore=0.57        :         I.NOM he.DAT help        lexical: +lr                      (agentive)
+line=630 fonts=F1-14.0 bbox=107.71,651.86,362.16,665.84 iscore=0.50               :         ‘I help him’             default:      +lr
+line=631 fonts=F1-14.0 bbox=311.69,634.76,365.07,648.74 iscore=0.50               :                                           +hr  −hr
+line=632 fonts=F1-11.0 bbox=311.7,618.61,371.32,629.59 iscore=1.00                :                                           DAT  NOM
+line=633 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=90.72,595.45,431.56,609.44 iscore=0.25:      b. (weil) er mir gefällt             λy   λx    LIKE(x,y)
+line=634 fonts=F1-11.0,F1-14.0 bbox=107.7,579.37,519.06,593.36 iscore=0.29        :         he.NOM I.DAT like        lexical:      +hr                 (affected)
+line=635 fonts=F1-14.0 bbox=107.71,563.24,331.26,577.22 iscore=0.33               :         ‘I like him’             default: +hr
+line=636 fonts=F1-14.0 bbox=311.7,546.14,362.16,560.12 iscore=0.50                :                                           −lr  +lr
+line=637 fonts=F1-11.0 bbox=311.7,529.99,368.26,540.97 iscore=1.00                :                                           NOM  DAT
+line=638 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=90.7,506.89,425.97,520.88 iscore=0.40 :      c. Mich  dürstet.                    λx   BE.THIRSTY(x)
+line=639 fonts=F1-11.0,F1-14.0 bbox=107.7,490.75,519.07,504.74 iscore=0.60        :         I.ACC thirsty.is         lexical: +hr                      (affected)
+line=640 fonts=F1-14.0 bbox=107.69,473.66,327.94,487.64 iscore=0.80               :         ‘I am thirsty.’          default: −lr
+line=641 fonts=F1-11.0,F1-14.0,F3-14.0 bbox=90.72,450.49,398.67,464.48 iscore=0.40:      d. Ila-nee nahaa-yaa.                λx   BATHE(x)
+line=642 fonts=F1-11.0,F1-14.0 bbox=107.7,434.36,521.5,448.34 iscore=0.60         :         Ila-ERG bathe-PERF       lexical: +lr                      (agentive)
+line=643 fonts=F1-14.0 bbox=107.71,417.26,331.05,431.24 iscore=0.60               :         ‘Ila bathes.’(Hindi)     default: −hr
+line=644 fonts=F1-14.0 bbox=56.7,395.12,538.65,409.1 iscore=0.00                  :Note that the four instances of lexical marking are described by just two features,
+line=645 fonts=F1-14.0 bbox=56.7,379.04,538.57,393.02 iscore=0.07                 :which, moreover, are identical to the features independently used, but associated with
+line=646 fonts=F1-14.0 bbox=56.7,362.9,538.61,376.88 iscore=0.14                  :(possible) semantic information. This account is enabled by the fact that dative is de-
+line=647 fonts=F1-14.0 bbox=56.7,346.82,538.62,360.8 iscore=0.27                  :composed  into two features ([+hr,+lr]); it is more general, and at the same time more
+line=648 fonts=F1-14.0 bbox=56.7,330.74,353.63,344.72 iscore=0.07                 :explanative than simply stipulating ‘dative’ marking.
+line=649 fonts=F1-14.0 bbox=56.7,308.66,182.7,322.64 iscore=0.17                  :(32)  Lexical marking
+line=650 fonts=F1-14.0 bbox=90.72,292.58,529.7,306.56 iscore=0.07                 :      a. Lexical dative is induced by [+lr] or [+hr], depending on the position of the
+line=651 fonts=F1-14.0 bbox=108.54,276.5,210.19,290.48 iscore=0.14                :         marked argument.
+line=652 fonts=F1-11.0,F1-14.0 bbox=90.72,260.41,528.1,274.4 iscore=0.13          :      b. Lexical marking by [+hr] leads to DAT or ACC, depending on the number of
+line=653 fonts=F1-14.0 bbox=108.54,244.34,170.28,258.32 iscore=0.07               :         arguments.
+line=654 fonts=F1-11.0,F1-14.0 bbox=90.72,228.25,524.38,242.24 iscore=0.07        :      c. Lexical marking by [+lr] leads to DAT or ERG, depending on the number of
+line=655 fonts=F1-14.0 bbox=108.54,212.18,170.28,226.16 iscore=0.07               :         arguments.
+line=656 fonts=F1-14.0 bbox=56.7,189.2,538.54,203.18 iscore=0.06                  :There is, of course, much more  to say about generalized case. One point to be re-
+line=657 fonts=F1-14.0 bbox=56.7,172.16,538.55,186.14 iscore=0.06                 :peated here is the fact that languages belonging to this type, which clearly are the ma-
+line=658 fonts=F1-14.0 bbox=56.7,155.18,538.64,169.16 iscore=0.19                 :jority of languages, can identify the arguments on the head (by pronominal affixes,
+line=659 fonts=F1-14.0 bbox=56.7,138.2,538.6,152.18 iscore=0.46                   :clitics or agreement morphemes) or on the complement  (by morphological case), or
+line=660 fonts=F1-14.0 bbox=56.7,121.16,538.64,135.14 iscore=0.25                 :on both. Morphological case is interesting because it presupposes a strong syntactic
+line=661 fonts=F1-14.0 bbox=56.7,104.18,538.64,118.16 iscore=0.25                 :relation between head and complement.  By  contrast, coindexation by head-marking
+line=662 fonts=F1-14.0 bbox=56.7,87.2,538.64,101.18 iscore=0.25                   :only requires the weaker  adjunct relation between nominals and  the verbal head.
+
+doc_id=101 page=18 block_id=18-1 bbox=366.18,793.94,531.57,806.96 label=t 663 663
+line=663 fonts=F1-10.5,F1-13.0 bbox=366.18,793.94,531.57,806.96:                                              ARGUMENT  LINKING TYPES / 18
+
+doc_id=101 page=18 block_id=18-2 bbox=56.7,371.48,538.69,771.26 label=bt 664 686
+line=664 fonts=F1-14.0 bbox=56.7,757.28,538.69,771.26                                                                                  :Thus, the generalized case type is the only argument linking type which successfully
+line=665 fonts=F1-14.0 bbox=56.7,740.3,331.54,754.28 iscore=0.08                                                                       :bridges the gap between morphology and syntax.
+line=666 fonts=F1-14.0 bbox=73.68,723.32,538.65,737.3 iscore=0.00                                                                      :   Moreover, the possibility of having simultaneously head-marking and morpholo-
+line=667 fonts=F1-14.0 bbox=56.7,706.28,538.61,720.26 iscore=0.20                                                                      :gical case allows various kinds of split. For instance, head-marking can be of the ac-
+line=668 fonts=F1-14.0 bbox=56.7,689.3,538.64,703.28 iscore=0.07                                                                       :cusative type, while morphological case is ergative-based (an example is Kalkatungu,
+line=669 fonts=F1-14.0 bbox=56.7,672.32,538.68,686.3 iscore=0.15                                                                       :see Blake 1994). Or, as one finds in Austronesian languages, head-marking can be
+line=670 fonts=F1-14.0 bbox=56.7,655.28,538.61,669.26 iscore=0.23                                                                      :based on argument hierarchy, while morphological case depends on discourse promi-
+line=671 fonts=F1-14.0 bbox=56.7,638.3,538.64,652.28 iscore=0.25                                                                       :nence. Consider the following examples from Tukang Besi, spoken on some  islands
+line=672 fonts=F1-14.0 bbox=56.7,621.32,538.56,635.3 iscore=0.17                                                                       :of Indonesia (Donohue 1999); here, the accusative agreement morpheme is only real-
+line=673 fonts=F1-14.0 bbox=56.7,604.28,538.65,618.26 iscore=0.18                                                                      :ized on the verb if the object is the more prominent argument, to be marked by nomi-
+line=674 fonts=F1-14.0,F2-14.0 bbox=56.7,587.3,538.62,601.28 iscore=0.29                                                               :native case. (The less prominent argument is marked by the case particle te, which
+line=675 fonts=F1-14.0 bbox=56.7,570.32,538.65,584.3 iscore=0.21                                                                       :differs from oblique marking in adjuncts; the default syntactic ordering is VOS; only
+line=676 fonts=F1-14.0 bbox=56.7,553.28,361.62,567.26 iscore=0.15                                                                      :nominative arguments can be deleted in coordination.)
+line=677 fonts=F1-14.0 bbox=56.7,530.48,516.79,544.46 iscore=0.15                                                                      :(33)  Coreference with the most prominent argument of the first clause in Tukang
+line=678 tag=M+AC span_id=101-35 lang_name=Tukang Besi lang_code=khc:bhq fonts=F1-14.0 bbox=90.72,513.5,211.24,527.48 iscore=0.08      :      Besi [Donohue 1999]
+line=679 tag=L span_id=101-35 lang_name=Tukang Besi lang_code=khc:bhq fonts=F1-14.0 bbox=90.72,496.46,476.93,510.44 iscore=0.12        :      a. No-kiki’i    te          ana     na   ’obu     kene no-tode.
+line=680 tag=G span_id=101-35 lang_name=Tukang Besi lang_code=khc:bhq fonts=F1-11.0,F1-14.0 bbox=107.7,479.47,463.31,493.46 iscore=1.00:         3-bite       LESS.PROM   child   NOM  dog      and  3-flee
+line=681 tag=T span_id=101-35 lang_name=Tukang Besi lang_code=khc:bhq fonts=F1-14.0 bbox=107.7,462.5,289.58,476.48 iscore=0.14         :        ‘The dog bit the child, and fled.’
+line=682 tag=L span_id=101-36 lang_name=Tukang Besi lang_code=khc:bhq fonts=F1-14.0 bbox=90.72,445.46,476.94,459.44 iscore=0.12        :      b. No-kiki’i-ke na    ana     te         ’obu     kene no-tode.
+line=683 tag=G span_id=101-36 lang_name=Tukang Besi lang_code=khc:bhq fonts=F1-11.0,F1-14.0 bbox=107.7,428.47,463.28,442.46 iscore=1.00:         3-bite-3.ACC NOM   child   LESS.PROM  dog      and  3-flee
+line=684 tag=T span_id=101-36 lang_name=Tukang Besi lang_code=khc:bhq fonts=F1-14.0 bbox=107.7,411.5,349.42,425.48 iscore=0.22         :        ‘The child was bitten by the dog, and fled.’
+line=685 fonts=F1-14.0 bbox=56.7,388.46,538.65,402.44 iscore=0.15                                                                      :This shows that the resources of morphological case can be reinterpreted for purposes
+line=686 fonts=F1-14.0 bbox=56.7,371.48,515.22,385.46 iscore=0.08                                                                      :of discourse prominence, similarly to those of the positional type (see footnote 2).
+
+doc_id=101 page=18 block_id=18-3 bbox=56.7,335.24,152.15,351.26 label=bbt 687 687
+line=687 fonts=F1-16.0 bbox=56.7,335.24,152.15,351.26:3. Conclusions
+
+doc_id=101 page=18 block_id=18-4 bbox=56.7,91.1,538.7,326.06 label=bbb 688 701
+line=688 fonts=F1-14.0 bbox=56.7,312.08,538.63,326.06             :I have argued in this paper that argument linking depends on three factors: semantic
+line=689 fonts=F1-14.0 bbox=56.7,295.1,538.63,309.08 iscore=0.14  :role (by which semantic classes of verbs can be distinguished), salience (by which
+line=690 fonts=F1-14.0 bbox=56.7,278.06,538.7,292.04 iscore=0.23  :semantic properties of the arguments themselves are taken into account), and argu-
+line=691 fonts=F1-14.0 bbox=56.7,261.08,538.58,275.06 iscore=0.17 :ment  hierarchy (which distinguishes positions in a complex predicate). Four of the
+line=692 fonts=F1-14.0 bbox=56.7,244.1,538.64,258.08 iscore=0.23  :types discussed here are mainly realized by morphological means: one type uses se-
+line=693 fonts=F1-14.0 bbox=56.7,227.06,538.55,241.04 iscore=0.40 :mantic role, another type uses salience, and a third type, the inverse type, encodes the
+line=694 fonts=F1-14.0 bbox=56.7,210.08,538.6,224.06 iscore=0.07  :difference between direct and inverse settings directly by mapping relative salience
+line=695 fonts=F1-14.0 bbox=56.7,193.1,538.51,207.08 iscore=0.23  :onto argument hierarchy. The fourth type, the portmanteau type, consists in the pure
+line=696 fonts=F1-14.0 bbox=56.7,176.06,538.57,190.04 iscore=0.15 :listing of combinations of salience and argument positions, and thus does not allow
+line=697 fonts=F1-14.0 bbox=56.7,159.08,538.65,173.06 iscore=0.29 :any generalizations. It would be interesting to speculate on how this type may have
+line=698 fonts=F1-14.0 bbox=56.7,142.1,117.7,156.08 iscore=0.07   :developed.
+line=699 fonts=F1-14.0 bbox=73.68,125.06,538.61,139.04 iscore=0.00:   In contrast, the positional type only uses syntactic means, and the generalized case
+line=700 fonts=F1-14.0 bbox=56.7,108.08,538.58,122.06 iscore=0.23 :type, although overwhelmingly also of morphological nature, in some of its subtypes
+line=701 fonts=F1-14.0 bbox=56.7,91.1,538.67,105.08 iscore=0.38   :presupposes a strong syntactic relation. Moreover, this type also has variants in which
+
+doc_id=101 page=19 block_id=19-1 bbox=56.7,793.94,193.4,806.96 label=t 702 702
+line=702 fonts=F1-10.5,F1-13.0 bbox=56.7,793.94,193.4,806.96:19 / DIETER WUNDERLICH
+
+doc_id=101 page=19 block_id=19-2 bbox=56.7,69.2,538.67,771.44 label=b 703 742
+line=703 fonts=F1-14.0 bbox=56.7,757.46,538.55,771.44                   :semantic role and salience are encoded; so it turns out to be most effective type. (34)
+line=704 fonts=F1-14.0 bbox=56.7,740.48,295.07,754.46 iscore=0.12       :summarizes  these findings in an overview.
+line=705 fonts=F1-14.0 bbox=56.7,718.22,293.62,732.2 iscore=0.33        :(34)  Overview  of argument linking types
+line=706 fonts=F1-14.0 bbox=121.92,701.6,508.69,715.58 iscore=0.00      :           Semantic role      Salience     Argument  hierarchy       Domain
+line=707 fonts=F1-14.0 bbox=87.18,685.04,319.54,699.02 iscore=0.00      :     1                      Portmanteau  type
+line=708 fonts=F1-14.0 bbox=87.18,662.9,521.19,682.4 iscore=0.25        :     2      Active type                                            Morphology
+line=709 fonts=F1-14.0 bbox=87.18,635.24,356.91,649.22 iscore=0.25      :     5                                 Inverse type
+line=710 fonts=F1-14.0 bbox=87.18,618.62,533.09,632.6 iscore=0.17       :     6                                    Generalized case type  Morphology  and
+line=711 fonts=F1-14.0 bbox=114.54,602.0,505.6,616.52 iscore=0.00       :          Lexical marking    Case split                               Syntax
+line=712 fonts=F1-14.0 bbox=87.18,585.44,505.61,599.42 iscore=0.20      :     4                                       Positional type          Syntax
+line=713 fonts=F1-14.0 bbox=56.7,562.1,538.54,576.08 iscore=0.00        :Some  of these types also developed means  to encode  discourse prominence  in set-
+line=714 fonts=F1-14.0 bbox=56.7,545.12,538.63,559.1 iscore=0.29        :tings with 3rd persons that are sortally alike, and thus allow reference tracking across
+line=715 fonts=F1-14.0 bbox=56.7,528.08,538.65,542.06 iscore=0.07       :clause boundaries. It seems that, at least in some instances, these means are taken
+line=716 fonts=F1-14.0 bbox=56.7,511.1,538.61,525.08 iscore=0.21        :from the argument  linking device and then reinterpreted. In particular, devices that
+line=717 fonts=F1-14.0 bbox=56.7,494.12,538.61,508.1 iscore=0.25        :use argument  hierarchy can be  reinterpreted with regard to prominence hierarchy.
+line=718 fonts=F1-14.0 bbox=56.7,477.08,538.5,491.06 iscore=0.38        :This indicates that the encoding of discourse prominence is a secondary purpose of
+line=719 fonts=F1-14.0 bbox=56.7,460.1,538.58,474.08 iscore=0.15        :grammar,  interacting with an already existing system of argument linking. As illus-
+line=720 fonts=F1-14.0 bbox=56.7,443.12,538.61,457.1 iscore=0.21        :trated above, the inverse type, the positional type and the generalized case type have
+line=721 fonts=F1-14.0 bbox=56.7,426.08,538.59,440.06 iscore=0.29       :incorporated effective means of encoding discourse prominence. However,  this topic
+line=722 fonts=F1-14.0 bbox=56.7,409.1,305.62,423.08 iscore=0.20        :clearly deserves more detailed investigation.
+line=723 fonts=F1-14.0 bbox=73.68,392.12,538.62,406.1 iscore=0.00       :   One  may speculate about what may  have  prompted the evolution of so many dif-
+line=724 fonts=F1-14.0 bbox=56.7,375.08,538.52,389.06 iscore=0.14       :ferent types of argument linking. Why are the purely morphological types only found
+line=725 fonts=F1-14.0 bbox=56.7,358.1,538.66,372.08 iscore=0.20        :in languages of small populations and have never been  created in other parts of the
+line=726 fonts=F1-14.0 bbox=56.7,341.12,538.59,355.1 iscore=0.20        :world? Are  these types in any sense defective? Had the populations that speak these
+line=727 fonts=F1-14.0 bbox=56.7,324.08,538.61,338.06 iscore=0.36       :languages never  the chance to incorporate the notion of abstract case? It has been
+line=728 fonts=F1-14.0 bbox=56.7,307.1,538.62,321.08 iscore=0.20        :shown  that even the positional type and the generalized case type differ in one impor-
+line=729 fonts=F1-14.0 bbox=56.7,290.12,538.62,304.1 iscore=0.27        :tant aspect: they lead to different options for the designated object, which is either the
+line=730 fonts=F1-14.0 bbox=56.7,273.08,538.64,287.06 iscore=0.27       :second-to-highest argument  (‘primary object’) or the lowest argument  (‘direct ob-
+line=731 fonts=F1-14.0 bbox=56.7,256.1,538.67,270.08 iscore=0.15        :ject’). This variety of types makes it difficult to assume that Universal Grammar
+line=732 fonts=F1-14.0,F2-14.0 bbox=56.7,239.12,538.56,253.1 iscore=0.21:(UG), created in the evolution of homo sapiens, already incorporated the idea of ab-
+line=733 fonts=F1-14.0 bbox=56.7,222.08,538.6,236.06 iscore=0.29        :stract case. However, what we can assume to be part of UG are the main factors out-
+line=734 fonts=F1-14.0 bbox=56.7,205.1,538.64,219.08 iscore=0.29        :lined here (semantic role, salience, and argument hierarchy), which are differently
+line=735 fonts=F1-14.0 bbox=56.7,188.12,199.73,202.1 iscore=0.09        :used in argument linking.
+line=736 fonts=F1-14.0 bbox=56.7,167.9,118.75,181.88 iscore=0.25        :References
+line=737 fonts=F1-12.0,F2-12.0 bbox=56.7,150.2,538.65,162.2 iscore=0.08 :Aissen, Judith. 1999. Markedness and subject choice in Optimality Theory. Natural Language and
+line=738 fonts=F1-12.0,F2-12.0 bbox=73.68,135.2,223.19,147.2 iscore=0.08:   Linguistic Theory 17: 673-711.
+line=739 fonts=F1-12.0,F2-12.0 bbox=56.7,117.2,330.16,129.2 iscore=0.12 :Blake, Barry J. 1994. Case. Cambridge University Press.
+line=740 fonts=F1-12.0 bbox=56.7,99.2,538.62,111.2 iscore=0.14          :Bresnan, Joan & Annie Zaenen. 1990. Deep unaccusativity in LFG. In Katarzyna Dziwirek, Patrick
+line=741 fonts=F1-12.0,F2-12.0 bbox=73.68,84.2,538.62,96.2 iscore=0.15  :   Farrell & Errapel Majias-Bikandi (eds.) Grammatical relations: A cross-theoretical perspective,
+line=742 fonts=F1-12.0 bbox=73.68,69.2,246.2,81.2 iscore=0.20           :   45-58. Stanford: CSLI publications.
+
+doc_id=101 page=20 block_id=20-1 bbox=366.18,793.94,531.57,806.96 label=t 743 743
+line=743 fonts=F1-10.5,F1-13.0 bbox=366.18,793.94,531.57,806.96:                                              ARGUMENT  LINKING TYPES / 20
+
+doc_id=101 page=20 block_id=20-2 bbox=56.7,78.08,538.74,771.08 label=b 744 785
+line=744 fonts=F1-12.0,F2-12.0 bbox=56.7,759.08,538.62,771.08             :Bresnan, Joan & Lioba Moshi. 1990. Object asymmetries in comparative Bantu syntax. Linguistic
+line=745 fonts=F1-12.0,F2-12.0 bbox=73.68,744.08,173.45,756.08 iscore=0.08:   Inquiry 21: 147-185.
+line=746 fonts=F1-12.0,F2-12.0 bbox=56.7,726.08,538.63,738.08 iscore=0.00 :Derbyshire, Desmond  C. 1999. Carib. In R.M.W. Dixon  &  Alexandra Y. Aikhenvald (eds.) The
+line=747 fonts=F1-12.0,F2-12.0 bbox=73.68,711.08,338.04,723.08 iscore=0.00:   Amazonian  Languages, 23-64. Cambridge Univ. Press.
+line=748 fonts=F1-12.0,F2-12.0 bbox=56.7,693.08,363.1,705.08 iscore=0.11  :Dixon, R. M. W. 1994, Ergativity. Cambridge University Press.
+line=749 fonts=F1-12.0,F2-12.0 bbox=56.7,675.08,493.21,687.08 iscore=0.31 :Donohue, Mark. 1999. A Grammar   of Tukang Besi. Berlin/New York: Mouton de Gruyter.
+line=750 fonts=F1-12.0 bbox=56.7,657.08,538.69,669.08 iscore=0.25         :Fabri, Ray. 1996. The inverse morphology of Plains Cree (Algonquian). In Geert Booij & Jaap van
+line=751 fonts=F1-12.0,F2-12.0 bbox=73.68,642.08,417.37,654.08 iscore=0.00:   Marle (eds.) Yearbook of Morphology 1995, 17-41. Dordrecht: Kluwer.
+line=752 fonts=F1-12.0 bbox=56.7,624.08,538.61,636.08 iscore=0.07         :Jelinek, Eloise & Richard A. Demers. 1994. Predicates and pronominal arguments in Straits Salish.
+line=753 fonts=F1-12.0,F2-12.0 bbox=73.68,609.08,186.05,621.08 iscore=0.08:   Language  70: 697-736.
+line=754 fonts=F1-12.0 bbox=56.7,591.08,538.62,603.08 iscore=0.00         :Klaiman, M.H.  1993. The relationship of inverse voice and head-marking in Arizona Tewa and
+line=755 fonts=F1-12.0,F2-12.0 bbox=73.68,576.08,356.94,588.08 iscore=0.00:   other Tanoan languages. Studies in Language 17: 343-370.
+line=756 fonts=F1-12.0,F2-12.0 bbox=56.7,558.08,530.09,570.08 iscore=0.00 :Kroskrity, Paul. 1985. A holistic understanding of Arizona Tewa passives. Language 61:306-328.
+line=757 fonts=F1-12.0 bbox=56.7,540.08,538.63,552.08 iscore=0.17         :Lee, Hanjung. 2000. Bidirectional optimality and ambiguity in argument expression. Ms., Univ.
+line=758 fonts=F1-12.0 bbox=73.68,525.08,118.02,537.08 iscore=0.00        :   Stanford.
+line=759 fonts=F1-12.0,F2-12.0 bbox=56.7,507.08,478.39,519.08 iscore=0.00 :Mohanan,  Tara, 1994. 1994. Argument Structure in Hindi. Stanford: CSLI publications.
+line=760 fonts=F1-12.0,F1-8.0 bbox=56.7,489.08,538.64,502.58 iscore=0.29  :Morimoto,  Yukiko. 2000. The role of animacy and associational harmony in Bantu. 31^{st} Annual
+line=761 fonts=F1-12.0 bbox=73.68,474.08,336.93,486.08 iscore=0.15        :   Conference on African Linguistics, Boston University.
+line=762 fonts=F1-12.0 bbox=56.7,456.08,538.66,468.08 iscore=0.00         :Prince, Alan &  Paul Smolensky.  1993. Optimality Theory: constraint interaction in generative
+line=763 fonts=F1-12.0 bbox=73.68,441.08,448.95,453.08 iscore=0.09        :   grammar. Ms. Rutgers Univ., New Brunswick, & Univ. of Colorado, Boulder.
+line=764 fonts=F1-12.0 bbox=56.7,423.08,538.74,435.08 iscore=0.23         :Stiebels, Barbara. 2000a. Linker inventories, linking splits and lexical economy. In Barbara Stiebels
+line=765 fonts=F1-12.0,F2-12.0 bbox=73.68,408.08,467.96,420.08 iscore=0.17:   &  Dieter Wunderlich (eds.) Lexicon in Focus, 211-245. Berlin: Akademie Verlag.
+line=766 fonts=F1-12.0,F2-12.0 bbox=56.7,390.08,538.6,402.08 iscore=0.00  :Stiebels, Barbara. 2000b. Typologie des Argumentlinkings: Ökonomie und Expressivität. Habilita-
+line=767 fonts=F1-12.0 bbox=73.68,375.08,251.2,387.08 iscore=0.11         :   tion thesis, University of Düsseldorf.
+line=768 fonts=F1-12.0,F2-12.0 bbox=56.7,357.08,531.75,369.08 iscore=0.07 :Thompson,  Chad. 1996. The history and function of the yi-/bi- alternation in Athabascan. In Eloise
+line=769 fonts=F1-12.0,F2-12.0 bbox=73.68,342.08,533.8,354.08 iscore=0.06 :   Jelinek et al. (eds.) Athabascan Language Studies : Essays in Honor of Robert W. Young. Albu-
+line=770 fonts=F1-12.0 bbox=73.68,327.08,255.42,339.08 iscore=0.19        :   querque: Univ. of New Mexico Press.
+line=771 fonts=F1-12.0,F2-12.0 bbox=56.7,309.08,423.12,321.08 iscore=0.08 :van Driem, George. 1993. A grammar  of Dumi. Berlin: Mouton de Gruyter.
+line=772 fonts=F1-12.0,F2-12.0 bbox=56.7,291.08,447.09,303.08 iscore=0.17 :Watkins, Laurel. 1984. A grammar of Kiowa. Lincoln: Univ. of Nebraska Press.
+line=773 fonts=F1-12.0,F2-12.0 bbox=56.7,273.08,538.63,285.08 iscore=0.14 :Willie, Mary Ann. 2000. The inverse voice and possessive yi-/bi- in Navajo. International Journal
+line=774 fonts=F1-12.0,F2-12.0 bbox=73.68,258.08,252.89,270.08 iscore=0.00:   of American Linguistics 66: 360-382.
+line=775 fonts=F1-12.0,F2-12.0 bbox=56.7,240.08,538.61,252.08 iscore=0.00 :Wolfart, H. Christoph & Janet F. Carroll. 1981. Meet Cree. A guide to the language. Lincoln: Univ.
+line=776 fonts=F1-12.0 bbox=73.68,225.08,163.39,237.08 iscore=0.00        :   of Nebraska Press.
+line=777 fonts=F1-12.0 bbox=56.7,207.08,538.65,219.08 iscore=0.00         :Wunderlich, Dieter. 1996. A minimalist model of inflectional morphology. In: Chris Wilder, Man-
+line=778 fonts=F1-12.0,F2-12.0 bbox=73.68,192.08,538.65,204.08 iscore=0.08:   fred Bierwisch &  Hans-Martin Gärtner (eds.) The Role of Economy  Principles in Linguistic
+line=779 fonts=F1-12.0,F2-12.0 bbox=73.68,177.08,284.12,189.08 iscore=0.08:   Theory, 267-298. Berlin: Akademie Verlag.
+line=780 fonts=F1-12.0,F2-12.0 bbox=56.7,159.08,484.79,171.08 iscore=0.08 :Wunderlich, Dieter. 1997. Cause and the structure of verbs. Linguistic Inquiry 28: 27-68.
+line=781 fonts=F1-12.0 bbox=56.7,141.08,538.62,153.08 iscore=0.38         :Wunderlich, Dieter. 2001a. How gaps and substitutions can become optimal: the pronominal affix
+line=782 fonts=F1-12.0,F2-12.0 bbox=73.68,126.08,416.66,138.08 iscore=0.00:   paradigms on Yimas. Transactions of the Philological Society. In print.
+line=783 fonts=F1-12.0 bbox=56.7,108.08,538.71,120.08 iscore=0.08         :Wunderlich, Dieter. 2001b. Optimal  case patterns. German and Icelandic compared. In: Ellen
+line=784 fonts=F1-12.0,F2-12.0 bbox=73.68,93.08,538.59,105.08 iscore=0.15 :   Brandner &  Heike Zinsmeister (eds.) New Perspectives on Case Theory. CSLI publications. To
+line=785 fonts=F1-12.0 bbox=73.68,78.08,108.71,90.08 iscore=0.08          :   appear.

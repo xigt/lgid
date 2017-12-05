@@ -5,16 +5,37 @@ Build language models from the ODIN data and monolingual data.
 
 from xigt.codecs import xigtxml
 from sklearn.feature_extraction.text import CountVectorizer
-from lgid.analyzers import  word_ngrams, character_ngrams
+from lgid.analyzers import word_ngrams, character_ngrams
 import re
 import glob
 import numpy as np
 from lgid import analyzers
 
+
 def tokenizer(s):
     return s.split()
 
-def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>'):
+
+class morph_tokenizer:
+    """
+    Tokenizes strings by morpheme
+    """
+    def __init__(self, split):
+        """
+        :param split: string containing morpheme delimiting characters
+        """
+        self.split = split
+
+    def tok(self, s):
+        """
+        split a string into morphemes
+        :param s: string
+        :return: list of morpheme strings
+        """
+        return re.split(self.split, s)
+
+
+def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\s\-\=\+]+'):
     """
     Builds character and word language models from a directory of ODIN xml files, with each language in a separate
     file named with the language code.
@@ -29,6 +50,7 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>'):
         nw: maximum ngram length for words
         lhs: left-padding character (to show token boundaries)
         rhs: right-padding character (to show token boundaries)
+        morph_split: string containing morpheme delimiting characters
     """
     for fname in glob.glob(indirec + "/*.xml"):
         texts = {}
@@ -57,16 +79,25 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>'):
             cc = countsC.fit_transform([source])
             countsW = CountVectorizer(analyzer="word", tokenizer=tokenizer, ngram_range=(1, int(nw)))
             cw = countsW.fit_transform([source])
+            morph = morph_tokenizer(morph_split)
+            countsM = CountVectorizer(analyzer="word", tokenizer=morph.tok, ngram_range=(1, int(nw)))
+            cm = countsM.fit_transform([source])
             name = re.sub("/", "-", name)
             lmfileC = open(outdirec + "/" + langcode + "_" + name + ".char", "w")
             lmfileW = open(outdirec + "/" + langcode + "_" + name + ".word", "w")
+            lmfileM = open(outdirec + "/" + langcode + "_" + name + ".morph", "w")
             textC = ""
             for key in countsC.vocabulary_:
                 count = cc[0, countsC.vocabulary_[key]]
-                textC += key + "\t" + str(count) + '\n'
+                textC += ''.join(key) + "\t" + str(count) + '\n'
             lmfileC.write(textC)
             textW = ""
             for key in countsW.vocabulary_:
                 count = cw[0, countsW.vocabulary_[key]]
                 textW += key + "\t" + str(count) + '\n'
             lmfileW.write(textW)
+            textM = ""
+            for key in countsM.vocabulary_:
+                count = cm[0, countsM.vocabulary_[key]]
+                textM += key + "\t" + str(count) + '\n'
+            lmfileM.write(textM)

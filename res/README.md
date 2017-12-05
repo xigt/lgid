@@ -9,18 +9,20 @@ online, and I don't see any indication that such inclusion would be
 improper use. If any of these files should be removed from this
 repository, please file an [issue](https://github.com/xigt/lgid/issues).
 
+## Prebuilt Language Models
+
+The zip file odin-lm.zip contains word, character, and morpheme language models for 1999 languages. If you want to use your own LMs or build LMs from your own files, you can change the locations in `config.ini`, or download the raw ODIN data to the location in the config. LMs are in the format `Ngram\tFrequency\n`.
+
 ## ODIN
 
-The ODIN data used is in the odin-by-lang directory. Each file contains IGT for one language
+The [ODIN][] data used is in the odin-by-lang directory. Each file contains IGT for one language
 identified by its code, and is in the xigt format. 
-
-The odin_lm directory contains word and char LMs built from the odin data.
 
 ## Crúbadán
 
 The [Crúbadán][] data is under the [CC BY 4.0][] license, and that
-possibly extends to the included `res/Crubadan.csv` file, although I
-don't see the CSV file available on the Crúbadán website.
+possibly extends to the included `res/Crubadan.csv` file.
+The `res/Crubadan.csv` file is the CSV download available on the Crúbadán website.
 
 ## lang_table
 
@@ -29,11 +31,15 @@ data, but it could be produced from something else.
 
 ## common_codes
 
-The `res/common_codes.txt` is generated from the lang_table. It pairs a language name with the code most commonly associated with it. This file was trained on the ODIN data using the find-common-codes command.
+The `res/common_codes.txt` is generated from `lang_table.txt`. It pairs a language name with the code most commonly associated with it. This file was trained on the ODIN data using the find-common-codes command.
 
 ## english_word_language_names
 
-The `res/english_word_language_names.txt` contains language names that are also ENglish words or proper names, and so are often false positive language mentions predicted by the system.
+The `res/english_word_language_names.txt` file contains language names that are also English words or proper names, and so are often false positive language mentions predicted by the system. This list is hand-curated.
+
+## crubadan_directory_index
+
+The `res/crubadan_directory_index.csv` file contains information on which subdirectory of Crúbadán data to use for each language.
 
 [Crúbadán]: http://crubadan.org/
 [CC BY 4.0]: https://creativecommons.org/licenses/by/4.0/

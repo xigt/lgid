@@ -8,9 +8,9 @@ should be turned on.
 """
 
 import re
+import pickle
 from collections import namedtuple
 import logging
-import pickle
 
 from lgid.util import normalize_characters
 
@@ -26,8 +26,12 @@ Mention = namedtuple(
      'text')        # original text of matched name
 )
 
+try:
+    mention_dict = pickle.load(open('mentions.p', 'rb'))
+except FileNotFoundError:
+    mention_dict = {}
 
-def find_language_mentions(doc, lgtable, lang_mapping_tables, capitalization):
+def language_mentions(doc, lgtable, lang_mapping_tables, capitalization):
     """
     Find mentions of languages in a document
 
@@ -66,14 +70,18 @@ def find_language_mentions(doc, lgtable, lang_mapping_tables, capitalization):
         ),
         flags=re.U
      )
-    i = 0
+    k = 0
     for block in doc.blocks:
         logging.debug(block.block_id)
         for i, line1 in enumerate(block.lines):
             if i + 1 < len(block.lines):
                 line2 = block.lines[i + 1]
                 endline = line2.lineno
-                lines = line1.rstrip(' -') + line2.lstrip(' -')
+
+                if line1.endswith('-') and line2.startswith('-'):
+                    lines = line1.rstrip(' -') + line2.lstrip(' -')
+                else:
+                    lines = line1.rstrip(' -') + ' ' + line2.lstrip(' -')
             else: # line 1 is the last line in the block
                 line2 = None
                 endline = line1.lineno
@@ -106,7 +114,8 @@ def find_language_mentions(doc, lgtable, lang_mapping_tables, capitalization):
             startline = line1.lineno
             line_break = len(line1.rstrip(' -'))
             for match in re.finditer(lg_re, normalize_characters(lines)):
-                i += 1
+
+                k += 1
                 name = match.group(0).lower()
                 start, end = match.span()
 
@@ -128,7 +137,7 @@ def find_language_mentions(doc, lgtable, lang_mapping_tables, capitalization):
                     text = line1[start:] + line2[:orig_end]
                     hyphen_name = name[:line_break - start] + "-" + name[line_break - start:]
                     space_name = name[:line_break - start] + " " + name[line_break - start:]
-                elif end < line_break: # match is only in line 1
+                elif end <= line_break: # match is only in line 1
                     this_endline = line1.lineno
                     text = line1[start:orig_end]
                 else: # match is only in line 2
@@ -152,20 +161,8 @@ def find_language_mentions(doc, lgtable, lang_mapping_tables, capitalization):
                             yield Mention(
                                 this_startline, start, this_endline, orig_end, space_name, code, text
                             )
-    logging.info(str(i) + ' language mentions found')
+    logging.info(str(k) + ' language mentions found')
 
-
-def language_mentions(doc, lgtable, capitalization):
-    key = str(doc)[:20]
-    try:
-        mention_dict = pickle.load(open('mentions.p', 'rb'))
-    except FileNotFoundError:
-        mention_dict = {}
-    if key not in mention_dict:
-        mentions = list(find_language_mentions(doc, lgtable, capitalization))
-        mention_dict[key] = mentions
-        pickle.dump(mention_dict, open('mentions.p', 'wb'))
-    return mention_dict[key]
 
 
 def character_ngrams(s, ngram_range, lhs='<', rhs='>'):
@@ -191,7 +188,7 @@ def character_ngrams(s, ngram_range, lhs='<', rhs='>'):
 
         for i in range(rangemax):
             for j in range(ngram_range[0], ngram_range[1] + 1):
-                ngrams.append(word[i:i+j])
+                ngrams.append(tuple(word[i:i+j]))
 
     return ngrams
 
@@ -208,7 +205,7 @@ def word_ngrams(s, n, lhs='\\n', rhs='\\n'):
     Returns:
         list of n-grams in *s*
     """
-    ngrams = [] 
+    ngrams = []
 
     words = [lhs] + s.split() + [rhs]
 
@@ -217,6 +214,31 @@ def word_ngrams(s, n, lhs='\\n', rhs='\\n'):
         rangemax = 1
 
     for i in range(rangemax):
-        ngrams.append(words[i:i+n])
+        ngrams.append(tuple(words[i:i+n]))
+
+    return ngrams
+
+def morpheme_ngrams(s, n, splitter, lhs='', rhs=''):
+    """
+    Extract morpheme n-grams of length *n* from string *s*
+
+    Args:
+        s: the string whence n-grams are extracted
+        n: the length of each n-gram
+        lhs: left-padding character (to show token boundaries)
+        rhs: right-padding character (to show token boundaries)
+    Returns:
+        list of n-grams in *s*
+    """
+    ngrams = []
+
+    words = [lhs] + re.split(splitter, s) + [rhs]
+
+    rangemax = len(words) - (n-1)
+    if rangemax < 1:
+        rangemax = 1
+
+    for i in range(rangemax):
+        ngrams.append(tuple(words[i:i+n]))
 
     return ngrams
