@@ -88,13 +88,14 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization):
                 lines = line1.rstrip(' -')
 
             # speedy
-            int_to_lang = lang_mapping_tables[1]
             lang_to_int = lang_mapping_tables[0]
+            int_to_lang = lang_mapping_tables[1]
             idlines = ''
             for w in lines.split():
-                w = normcaps(w)
+                w = normcaps(normalize_characters(w))
+                w = re.sub(r"^.*?(\w+).*$", "\g<1>", w)
                 if w in lang_to_int:
-                    idlines += lang_to_int[w] # issue
+                    idlines += lang_to_int[w]
                 else:
                     idlines += 'N'
             idlines = [x for x in idlines.split('N') if x != '']
@@ -108,6 +109,7 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization):
                     language += word + ' '
                     i += 5
                 print(language)
+            # left to do: actually match the languages that are left in the line
 
             #end speedy
 

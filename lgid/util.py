@@ -7,6 +7,7 @@ from collections import defaultdict
 from freki.serialize import FrekiDoc
 import unicodedata
 import re
+import os
 import logging
 
 def read_language_table(path):
