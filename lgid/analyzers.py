@@ -157,7 +157,10 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
 
             # calculate the character spans of each in-vocab word on the line, referencing indices from result_locs 
             word_idx = 0
-            char_number = lines.index(lines.lstrip()[0])
+            try:
+                char_number = lines.index(lines.lstrip()[0])
+            except IndexError:
+                char_number = 0
             char_locs = []
             last_char = ''
             w_start, w_end = -1, -1
