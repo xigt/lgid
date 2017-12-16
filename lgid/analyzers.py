@@ -32,7 +32,7 @@ try:
 except FileNotFoundError:
     mention_dict = {}
 
-def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, match_all):
+def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_mention):
     """
     Find mentions of languages in a document
 
@@ -50,7 +50,7 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, match_a
             (uppercase the first letter of each token) helps prevent
             word-like language names (Even, She, Day, etc.) from
             over-firing.
-        match_all: if True, finds all mentions; if False, finds only the
+        single_mention: if True, finds all mentions; if False, finds only the
             longest mention within each string
     Yields:
         Mention objects
@@ -147,7 +147,7 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, match_a
                 if matched == []:
                     last_span = tuple(current_span)
                     continue
-                elif match_all:
+                elif not single_mention:
                     last_span = tuple(current_span)
                     total_matched += matched
                 else:
@@ -173,9 +173,9 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, match_a
                     if char_number + 1 == len(lines):
                         char_locs.append((w_start, w_start + 1))
                 elif not added and word_idx in result_locs and \
-                        (((char == ' ' and last_char not in punctuation) or (char in punctuation and char != '-'))
+                        (((char == ' ' and (last_char not in punctuation or last_char == '-')) or (char in punctuation and char != '-'))
                            and
-                           (last_char != ' ' and last_char not in punctuation)):
+                           (last_char != ' ' and (last_char not in punctuation or last_char == '-'))):
                     w_end = char_number
                     char_locs.append((w_start, w_end))
                     added = True
