@@ -126,7 +126,7 @@ def main():
         predictions = classify(infiles, modelpath, config, vector_dir, single_mention)
         write_to_files(infiles, predictions, output)
     elif args['get-lg-recall']:
-        calc_mention_recall(infiles, config)
+        calc_mention_recall(infiles, config, single_mention)
     elif args['test']:
         test(infiles, modelpath, vector_dir, config, single_mention)
     elif args['validate']:
