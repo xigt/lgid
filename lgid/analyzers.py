@@ -170,10 +170,10 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
                     new_word = True
                 if word_idx in result_locs and new_word:
                     w_start = char_number
-                    if char_number + 1 == len(lines):
+                    if char_number + 1 == len(lines) or (char == '+' and last_char == ' '):
                         char_locs.append((w_start, w_start + 1))
                 elif not added and word_idx in result_locs and \
-                        (((char == ' ' and (last_char not in punctuation or last_char == '-')) or (char in punctuation and char != '-'))
+                        ((char == ' ' or (char in punctuation and char != '-'))
                            and
                            (last_char != ' ' and (last_char not in punctuation or last_char == '-'))):
                     w_end = char_number
