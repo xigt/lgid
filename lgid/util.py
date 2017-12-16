@@ -340,7 +340,7 @@ def read_language_mapping_table(config):
         config: parameters/settings
 
     Returns:
-        a dictionary mapping from int to language name
+        a LangTable object containing all the mapping tables
     """
     locs = config['locations']
     lang_to_int = {}

@@ -32,7 +32,7 @@ try:
 except FileNotFoundError:
     mention_dict = {}
 
-def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, match_all=True):
+def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, match_all):
     """
     Find mentions of languages in a document
 
@@ -63,17 +63,6 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, match_a
         'title': str.title
     }.get(capitalization, str)
 
-    space_hyphen_re = re.compile(r'[-\s]+', flags=re.U)
-    lg_re = re.compile(
-        r'\b({})\b'.format(
-            r'|'.join(
-                r'[-\s]*'.join(
-                    map(re.escape, map(normcaps, re.split(space_hyphen_re, name))
-                )
-            ) for name in lgtable)
-        ),
-        flags=re.U
-     )
     k = 0
     for block in doc.blocks:
         logging.debug(block.block_id)
