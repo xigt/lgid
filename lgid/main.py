@@ -21,10 +21,12 @@ Commands:
   validate                  Perform n-fold cross validation on the data
   classify                  output predictions on new data using a saved model
   get-lg-recall             find the language mention recall upper bound for a set of files
-  list-mentions             just print language mentions from input files
-  find-common-codes         build the text file at most-common-codes showing the most common code for each language
   list-model-weights        show feature weights in a model and features not used
+  list-mentions             just print language mentions from input files
+  count-mentions            count the number of mentions of each language found in the input files
+  find-common-codes         build the text file at most-common-codes showing the most common code for each language
   download-crubadan-data    fetch the Crubadan language model data from the web
+  build-odin-lm             produces language model files from ODIN data
 
 Arguments:
   CONFIG                    path to a config file
