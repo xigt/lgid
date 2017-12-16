@@ -154,9 +154,10 @@ def calc_mention_recall(infiles, config, single_mention, instances=None):
     :return: none
     """
     if not instances:
-        instances = list(get_instances(infiles, config, None))
+        instances = list(get_instances(infiles, config, None, single_mention))
     lgtable = read_language_table(config['locations']['language-table'])
     caps = config['parameters'].get('mention-capitalization', 'default')
+    lang_mapping_tables = read_language_mapping_table(config)
     positive = 0
     length = 0
     file_dict = {}
@@ -172,7 +173,7 @@ def calc_mention_recall(infiles, config, single_mention, instances=None):
         doc = FrekiDoc.read(file)
         num = doc.get_line(1).block.doc_id
         if num in file_dict:
-            mentions = list(language_mentions(doc, lgtable, caps, single_mention))
+            mentions = list(language_mentions(doc, lgtable, lang_mapping_tables, caps, single_mention))
             length += len(file_dict[num])
             for label in file_dict[num]:
                 n = label.split('-')[0]
