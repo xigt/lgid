@@ -8,7 +8,6 @@ should be turned on.
 """
 
 import re
-import pickle
 from collections import namedtuple
 import logging
 from string import punctuation
@@ -27,10 +26,6 @@ Mention = namedtuple(
      'text')        # original text of matched name
 )
 
-try:
-    mention_dict = pickle.load(open('mentions.p', 'rb'))
-except FileNotFoundError:
-    mention_dict = {}
 
 def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_mention):
     """
@@ -155,7 +150,7 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
                     last_span = tuple(current_span)
                     total_matched.append(matched[0])
 
-            # calculate the character spans of each in-vocab word on the line, referencing indices from result_locs 
+            # calculate the character spans of each in-vocab word on the line, referencing indices from result_locs
             word_idx = 0
             try:
                 char_number = lines.index(lines.lstrip()[0])
@@ -194,7 +189,6 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
             # character span is itself a tuple of column numbers
             annotated_matches = []
             for j, match in enumerate(total_matched):
-                word_span = result_locs[language_spans[j][0]:language_spans[j][1]]
                 char_span = (char_locs[language_spans[j][0]][0], char_locs[language_spans[j][1] - 1][1])
                 annotation = (match, char_span)
                 annotated_matches.append(annotation)

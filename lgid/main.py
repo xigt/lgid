@@ -62,7 +62,6 @@ import random
 random.seed(1)
 import codecs
 import zipfile
-from scipy.stats import pearsonr
 
 import docopt
 
@@ -116,9 +115,9 @@ def main():
         if config['locations']['odin-language-model'] == './res/odin-lm':
             if not os.path.exists(config['locations']['odin-language-model']):
                 print("No LMs detected. Decompressing prebuilt LMs")
-                zip = zipfile.ZipFile('./res/odin-lm.zip', 'r')
-                zip.extractall('./res')
-                zip.close()
+                zipfi = zipfile.ZipFile('./res/odin-lm.zip', 'r')
+                zipfi.extractall('./res')
+                zipfi.close()
     if args['train']:
         train(infiles, modelpath, vector_dir, config, single_mention)
     elif args['classify']:
@@ -407,7 +406,7 @@ def test(infiles, modelpath, vector_dir, config, single_mention, instances=None)
                 if real_classes[key] in lang_accs:
                     lang_accs[real_classes[key]][1] += 1
                 else:
-                    lang_accs[real_classes[key]] = [0,1]
+                    lang_accs[real_classes[key]] = [0, 1]
                 mistake_key = (real_classes[key], predicted_classes[key])
                 if mistake_key in mistake_counts:
                     mistake_counts[mistake_key] += 1
@@ -418,7 +417,7 @@ def test(infiles, modelpath, vector_dir, config, single_mention, instances=None)
                     lang_accs[real_classes[key]][0] += 1
                     lang_accs[real_classes[key]][1] += 1
                 else:
-                    lang_accs[real_classes[key]] = [1,1]
+                    lang_accs[real_classes[key]] = [1, 1]
     for key2 in file_counts:
         file_acc = float(file_counts[key2][0]) / file_counts[key2][1]
         logging.info("Accuracy on file " + str(key2) + ':\t' + str(file_acc))
@@ -521,7 +520,6 @@ def cached_get_instances(infiles, config, vector_dir, instance_dict, single_ment
     common_table = {}
     if locs['most-common-codes']:
         common_table = read_language_table(locs['most-common-codes'])
-    lang_mapping_table = read_language_mapping_table(config)
     eng_words = open(locs['english-word-names'], 'r').read().split('\n')
     insts = []
     index = 1

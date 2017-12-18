@@ -113,8 +113,11 @@ lgid
 │    ├── lang_table.txt  # language name-code mapping
 │    ├── common_codes.txt  # Shows code most commonly paired with each language name
 │    ├── english_word_language_names.txt # list of language names that are English words
-│    ├── crubadan_directory_index.csv # table of what directory holds Crúbadán data for each language 
-     └── odin-lm.zip    # files for building the ODIN language model
+│    ├── crubadan_directory_index.csv # table of what directory holds Crúbadán data for each language
+│    ├── language_index.txt # table of each language and its ID
+│    ├── word_index.txt # table of each word present in a language name and its ID
+│    ├── word_language_mapping.txt # table of each word present in a language name and which languages it appears in (in ID form)
+│    └── odin-lm.zip    # files for building the ODIN language model
 ├── sample              # results from sample runs
 └── test                # files for testing the program
      ├── mentions_gold_output.txt   # the gold standard output when running list-mentions on mentions_test.freki
