@@ -26,6 +26,18 @@ Mention = namedtuple(
      'text')        # original text of matched name
 )
 
+def adjacent_powerset(iterable):
+    """
+    Returns every combination of elements in an iterable where elements remain ordered and adjacent.
+    For example, adjacent_powerset('ABCD') returns ['A', 'AB', 'ABC', 'ABCD', 'B', 'BC', 'BCD', 'C', 'CD', 'D']
+
+    Args:
+        iterable: an iterable
+    Returns:
+        a list of element groupings
+    """
+    return [iterable[a:b] for a in range(len(iterable)) for b in range(a + 1, len(iterable) + 1)]
+
 
 def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_mention):
     """
@@ -46,7 +58,8 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
             word-like language names (Even, She, Day, etc.) from
             over-firing.
         single_mention: if True, finds all mentions; if False, finds only the
-            longest mention within each string
+            longest mention (by words) within each string. If multiple mentions
+            are same length, returns only one, but which one is unspecified.
     Yields:
         Mention objects
     """
@@ -109,46 +122,53 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
 
             # add together words to find all the language matches
             total_matched = [] # list of every match on this line
-            language_spans = [] # list of tuples of the span of each language, referencing indices from result_locs
+            total_language_spans = [] # list of tuples of the span of each language, referencing indices from result_locs
             last_span = (0, 0)
             for result in language_strings:
                 matched = []
+                language_spans = []
                 current_span = [last_span[1], last_span[1]]
                 j = 0
-                language = ''
+                group = ''
                 while j < len(result):
                     num = result[j:j + 5]
                     word = lang_mapping_tables.int_to_word[num]
-                    language += word + ' '
+                    group += word + ' '
                     j += 5
                     current_span[1] += 1
+                group = group.split()
+                powerset = adjacent_powerset(group)
+                start, j = 0, 0
+                end = -(len(group) - 1)
+                for language in powerset:
+                    language = ' '.join(language)
+                    if j < len(group) - start:
+                        j += 1
+                    else:
+                        start += 1
+                        j = 1
+                        end = -(len(group) - 1) + start
                     if language.strip() in lang_mapping_tables.lang_to_int:
                         matched.append(language.strip())
-                        language_spans.append(tuple(current_span))
-                full_language = language.split()
-                idx = 1
-                for lg in full_language[1:-1]:
-                    if lg.strip() in lang_mapping_tables.lang_to_int:
-                        matched.append(lg.strip())
-                        language_spans.append((current_span[0] + idx, current_span[0] + idx + 1))
-                    idx += 1
-                while j > 5:
-                    language = ' '.join(language.split()[1:])
-                    j -= 5
-                    current_span[0] += 1
-                    if language.strip() in lang_mapping_tables.lang_to_int:
-                        matched.append(language.strip())
-                        language_spans.append(tuple(current_span))
+                        tempspan = (current_span[0] + start, current_span[1] + end)
+                        language_spans.append(tempspan)
+                    end += 1
                 if matched == []:
                     last_span = tuple(current_span)
                     continue
                 elif not single_mention:
                     last_span = tuple(current_span)
                     total_matched += matched
+                    total_language_spans += language_spans
                 else:
-                    matched.sort(key=lambda x: len(x.split()), reverse=True)
+                    combined = [(matched[idx], language_spans[idx]) for idx in range(len(matched))]
+                    combined.sort(key=lambda x: len(x[0].split()), reverse=True)
                     last_span = tuple(current_span)
-                    total_matched.append(matched[0])
+                    total_matched.append(combined[0][0])
+                    for j, span in enumerate(language_spans):
+                        if span != combined[0][1]:
+                            del language_spans[j]
+                    total_language_spans += language_spans
 
             # calculate the character spans of each in-vocab word on the line, referencing indices from result_locs
             word_idx = 0
@@ -189,7 +209,7 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
             # character span is itself a tuple of column numbers
             annotated_matches = []
             for j, match in enumerate(total_matched):
-                char_span = (char_locs[language_spans[j][0]][0], char_locs[language_spans[j][1] - 1][1])
+                char_span = (char_locs[total_language_spans[j][0]][0], char_locs[total_language_spans[j][1] - 1][1])
                 annotation = (match, char_span)
                 annotated_matches.append(annotation)
 
