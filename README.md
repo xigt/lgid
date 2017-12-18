@@ -32,7 +32,7 @@ The basic requirements are probably satisfied by any modern Linux or Mac setup:
 - bash
 - git
 - Python (3.3 or higher)
-- [virtualenv][] (15.1)
+- [virtualenv][]
 
 First clone the repository:
 
@@ -55,6 +55,7 @@ The dependencies installed by this script are:
 - [scikit-learn][] (0.19)
 - [Requests][] (2.18)
 - [Freki][]
+- [Xigt][]
 
 When completed, run `lgid.sh` as the front end to all tasks, as it
 manages the activation/deactivation of the virtual environment:
@@ -121,6 +122,7 @@ lgid
 ├── sample              # results from sample runs
 └── test                # files for testing the program
      ├── mentions_gold_output.txt   # the gold standard output when running list-mentions on mentions_test.freki
+     ├── mentions_single_gold_output.txt   # the gold standard output when running list-mentions on mentions_test.freki with the --single-mentions argument
      └── mentions_test.freki  # freki file for testing list-mentions
 
 ```
@@ -132,6 +134,21 @@ Only static files that we have rights to, like the language name-code
 mapping table, should be checked in. Other resources, like the compiled
 language model or [Crúbadán][] data, may reside here on a local machine,
 but they should not be committed to the remote repository.
+
+## Testing
+
+The `test/` subdirectory contains files for testing the `language_mentions` function in `lgid/analyzers.py`.
+The `test/mentions_test.freki` file is the Freki file for testing on. The `test/mentions_gold_output.txt`
+file is the gold standard file, and the `test/mentions_single_gold_outut.txt` is the gold standard file for running
+with the `single-mention` option turned on.
+
+Run the command `./lgid.sh list-mentions config.ini test/mentions_test.freki` to test against the `test/mentions_gold_output.txt`
+file. The output of the run should match the file contents exactly.
+
+Run the command `./lgid.sh list-mentions --single-mentions config.ini test/mentions_test.freki` to test against
+the `test/mentions_single_gold_output.txt` file. The output of the run should be similar, but because the behavior of
+`--single-mention` is unspecified when multiple mentions are the same length the output could be different without
+failing the test.
 
 ## File Formats
 

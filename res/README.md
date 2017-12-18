@@ -11,7 +11,8 @@ repository, please file an [issue](https://github.com/xigt/lgid/issues).
 
 ## Prebuilt Language Models
 
-The zip file odin-lm.zip contains word, character, and morpheme language models for 1999 languages. If you want to use your own LMs or build LMs from your own files, you can change the locations in `config.ini`, or download the raw ODIN data to the location in the config. LMs are in the format `Ngram\tFrequency\n`.
+The zip file odin-lm.zip contains word, character, and morpheme language models for 1999 languages. If you want to use your own LMs or build LMs from your own files, you can change the locations in `config.ini`, or download the raw ODIN data to the location in the config. The LM format is described in the parent `README.md` file under the
+`File Formats` section
 
 ## ODIN
 
@@ -23,6 +24,8 @@ identified by its code, and is in the xigt format.
 The [Crúbadán][] data is under the [CC BY 4.0][] license, and that
 possibly extends to the included `res/Crubadan.csv` file.
 The `res/Crubadan.csv` file is the CSV download available on the Crúbadán website.
+This one is built from multiple downloads (one with the website sorted A-Z, one with
+the website sorted Z-A), as the Crúbadán website caps the file at 2000 rows.
 
 ## lang_table
 
@@ -39,7 +42,8 @@ The `res/english_word_language_names.txt` file contains language names that are 
 
 ## crubadan_directory_index
 
-The `res/crubadan_directory_index.csv` file contains information on which subdirectory of Crúbadán data to use for each language.
+The `res/crubadan_directory_index.csv` file contains information on which subdirectory of Crúbadán data to use for each language. It built by a script
+and then manually edited and cleaned.
 
 [Crúbadán]: http://crubadan.org/
 [CC BY 4.0]: https://creativecommons.org/licenses/by/4.0/
