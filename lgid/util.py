@@ -3,10 +3,11 @@
 Utility functions for language idenfication tasks
 """
 
-from collections import defaultdict
+from collections import defaultdict, namedtuple
 from freki.serialize import FrekiDoc
 import unicodedata
 import re
+import os
 import logging
 
 def read_language_table(path):
@@ -259,3 +260,108 @@ def find_common_codes(infiles, config):
             a_line += '\n'
         out.write(a_line)
 
+
+def generate_language_name_mapping(config):
+    """
+    Generates mappings from all words appearing in the langauge table
+    to unique ints. Writes the mappings to a file.
+
+    Also generates and writes to a file mappings from each language
+    name to the sequence of ints making up its name.
+
+    Also generates and writes to a file mappings from each word appearing
+    in the language table to a list of languages where that word appears
+    in the name.
+
+    Args:
+        config: parameters/settings
+    """
+    normcaps = {
+        'upper': str.upper,
+        'lower': str.lower,
+        'title': str.title
+    }.get(config['parameters'].get('mention-capitalization', 'default'), str)
+
+    locs = config['locations']
+    lgtable = {}
+    if locs['language-table']:
+        lgtable = read_language_table(locs['language-table'])
+    words = set()
+    word_associations = {}
+    for lang in lgtable:
+        for word in lang.split():
+            words.add(normcaps(word.strip()))
+
+    word_mappings = {}
+    with open(locs['word-index'], 'w', encoding='utf8') as f:
+        i = 10000 # so that all words will have a mapping 5 digits long
+        for word in words:
+            f.write('{}\t{}\n'.format(word, i))
+            word_mappings[word] = i
+            i += 1
+
+    lang_mappings = {}
+    with open(locs['language-index'], 'w', encoding='utf8') as f:
+        for lang in lgtable:
+            index = ''
+            for word in lang.split():
+                index += str(word_mappings[normcaps(word.strip())])
+            f.write('{}\t{}\n'.format(normcaps(lang), index))
+            lang_mappings[lang] = index
+
+    word_associations = {}
+    with open(locs['word-language-mapping'], 'w', encoding='utf8') as f:
+        for lang in lgtable:
+            for word in lang.split():
+                word = normcaps(word.strip())
+                if word in word_associations:
+                    word_associations[word].append(lang_mappings[lang])
+                else:
+                    word_associations[word] = [lang_mappings[lang]]
+        for word in words:
+            f.write('{}\t{}\n'.format(word, ','.join(word_associations[word])))
+
+LangTable = namedtuple(
+    'LangTable',
+    ('int_to_lang',
+     'lang_to_int',
+     'int_to_word',
+     'word_to_int',
+     'word_to_lang')
+)
+
+def read_language_mapping_table(config):
+    """
+    Reads from a file mappings from language names to int sequences
+    and builds a dictionary mapping from ints to language names and
+    one mapping from language names to ints.
+
+    Args:
+        config: parameters/settings
+
+    Returns:
+        a LangTable object containing all the mapping tables
+    """
+    locs = config['locations']
+    lang_to_int = {}
+    int_to_lang = {}
+    word_to_int = {}
+    int_to_word = {}
+    word_to_lang = {}
+    if not os.path.exists(locs['language-index']) or not os.path.exists(locs['word-index']) or not os.path.exists(locs['word-language-mapping']):
+        generate_language_name_mapping(config)
+    with open(locs['language-index'], encoding='utf8') as f:
+        for line in f.readlines():
+            line = line.split('\t')
+            lang_to_int[line[0]] = line[1].strip()
+            int_to_lang[line[1].strip()] = line[0]
+    with open(locs['word-index'], encoding='utf8') as f:
+        for line in f.readlines():
+            line = line.split('\t')
+            word_to_int[line[0]] = line[1].strip()
+            int_to_word[line[1].strip()] = line[0]
+    with open(locs['word-language-mapping'], encoding='utf8') as f:
+        for line in f.readlines():
+            line = line.split('\t')
+            word_to_lang[line[0].strip()] = line[1].strip().split(',')
+    return LangTable(int_to_lang, lang_to_int, int_to_word, word_to_int, word_to_lang)

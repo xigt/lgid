@@ -2,14 +2,14 @@
 
 USAGE = '''
 Usage:
-  lgid [-v...] train    --model=PATH [--vectors=DIR] CONFIG INFILE...
-  lgid [-v...] test     --model=PATH [--vectors=DIR] CONFIG INFILE...
-  lgid [-v...] validate     --model=PATH [--vectors=DIR] CONFIG INFILE...
-  lgid [-v...] classify --model=PATH --out=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] train    --model=PATH [--vectors=DIR --single-mention] CONFIG INFILE...
+  lgid [-v...] test     --model=PATH [--vectors=DIR --single-mention] CONFIG INFILE...
+  lgid [-v...] validate     --model=PATH [--vectors=DIR --single-mention] CONFIG INFILE...
+  lgid [-v...] classify --model=PATH --out=PATH [--vectors=DIR --single-mention] CONFIG INFILE...
   lgid [-v...] get-lg-recall    CONFIG INFILE...
   lgid [-v...] list-model-weights   --model=PATH    CONFIG
-  lgid [-v...] list-mentions          CONFIG INFILE...
-  lgid [-v...] count-mentions         CONFIG INFILE...
+  lgid [-v...] list-mentions          [--single-mention] CONFIG INFILE...
+  lgid [-v...] count-mentions         [--single-mention] CONFIG INFILE...
   lgid [-v...] find-common-codes      CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
   lgid [-v...] build-odin-lm          CONFIG
@@ -21,10 +21,12 @@ Commands:
   validate                  Perform n-fold cross validation on the data
   classify                  output predictions on new data using a saved model
   get-lg-recall             find the language mention recall upper bound for a set of files
-  list-mentions             just print language mentions from input files
-  find-common-codes         build the text file at most-common-codes showing the most common code for each language
   list-model-weights        show feature weights in a model and features not used
+  list-mentions             just print language mentions from input files
+  count-mentions            count the number of mentions of each language found in the input files
+  find-common-codes         build the text file at most-common-codes showing the most common code for each language
   download-crubadan-data    fetch the Crubadan language model data from the web
+  build-odin-lm             produces language model files from ODIN data
 
 Arguments:
   CONFIG                    path to a config file
@@ -33,6 +35,7 @@ Arguments:
 Options:
   -h, --help                print this usage and exit
   -v, --verbose             increase logging verbosity
+  --single-mention          only use the single longest mention from each span when calculating language mentions instead of all mentions
   --model PATH              where to save/load a trained model
   --out PATH                where to write freki files with added information
   --vectors DIR             a directory to print feature vectors for inspection
@@ -59,7 +62,6 @@ import random
 random.seed(1)
 import codecs
 import zipfile
-from scipy.stats import pearsonr
 
 import docopt
 
@@ -79,7 +81,8 @@ from lgid.util import (
     read_odin_language_model,
     read_morpheme_language_model,
     spans,
-    find_common_codes
+    find_common_codes,
+    read_language_mapping_table
 )
 from lgid.analyzers import (
     language_mentions,
@@ -104,34 +107,38 @@ def main():
 
     modelpath = args['--model']
     vector_dir = args['--vectors']
+    single_mention = args['--single-mention']
     if vector_dir != None:
         vector_dir = vector_dir.strip('/')
     infiles = args['INFILE']
     if not args['build-odin-lm']:
         if config['locations']['odin-language-model'] == './res/odin-lm':
             if not os.path.exists(config['locations']['odin-language-model']):
-                print("No LMs detected. Decompressing prebuilt LMs")
-                zip = zipfile.ZipFile('./res/odin-lm.zip', 'r')
-                zip.extractall('./res')
-                zip.close()
+                print("No ODIN LMs detected. Decompressing prebuilt ODIN LMs")
+                zipfi = zipfile.ZipFile('./res/odin-lm.zip', 'r')
+                try:
+                    zipfi.extractall('./res')
+                except UnicodeEncodeError:
+                    print("Error unzipping prebuilt ODIN LMs. Continuing.")
+                zipfi.close()
     if args['train']:
-        train(infiles, modelpath, vector_dir, config)
+        train(infiles, modelpath, vector_dir, config, single_mention)
     elif args['classify']:
         output = args['--out']
-        predictions = classify(infiles, modelpath, config, vector_dir)
+        predictions = classify(infiles, modelpath, config, vector_dir, single_mention)
         write_to_files(infiles, predictions, output)
     elif args['get-lg-recall']:
-        calc_mention_recall(infiles, config)
+        calc_mention_recall(infiles, config, single_mention)
     elif args['test']:
-        test(infiles, modelpath, vector_dir, config)
+        test(infiles, modelpath, vector_dir, config, single_mention)
     elif args['validate']:
-        n_fold_validation(5, infiles, modelpath, vector_dir, config)
+        n_fold_validation(5, infiles, modelpath, vector_dir, config, single_mention)
     elif args['list-model-weights']:
         get_feature_weights(modelpath, config)
     elif args['list-mentions']:
-        list_mentions(infiles, config)
+        list_mentions(infiles, config, single_mention)
     elif args['count-mentions']:
-        count_mentions(infiles, config)
+        count_mentions(infiles, config, single_mention)
     elif args['find-common-codes']:
         find_common_codes(infiles, config)
     elif args['download-crubadan-data']:
@@ -140,17 +147,19 @@ def main():
         build_odin_lm(config)
 
 
-def calc_mention_recall(infiles, config, instances=None):
+def calc_mention_recall(infiles, config, single_mention, instances=None):
     """
     Calculate the upper bound for language mentions: the percentage of correct labels that are mentioned in the file
     :param infiles: a list of freki filepaths
     :param config: a config object
+    :param single_mention: whether to use the longest mention or all mentions from each language mention span
     :return: none
     """
     if not instances:
-        instances = list(get_instances(infiles, config, None))
+        instances = list(get_instances(infiles, config, None, single_mention))
     lgtable = read_language_table(config['locations']['language-table'])
     caps = config['parameters'].get('mention-capitalization', 'default')
+    lang_mapping_tables = read_language_mapping_table(config)
     positive = 0
     length = 0
     file_dict = {}
@@ -166,7 +175,7 @@ def calc_mention_recall(infiles, config, instances=None):
         doc = FrekiDoc.read(file)
         num = doc.get_line(1).block.doc_id
         if num in file_dict:
-            mentions = list(language_mentions(doc, lgtable, caps))
+            mentions = list(language_mentions(doc, lgtable, lang_mapping_tables, caps, single_mention))
             length += len(file_dict[num])
             for label in file_dict[num]:
                 n = label.split('-')[0]
@@ -190,7 +199,7 @@ lm_sizes = {}
 file_accs = {}
 file_mentions = {}
 
-def n_fold_validation(n, infiles, modelpath, vector_dir, config):
+def n_fold_validation(n, infiles, modelpath, vector_dir, config, single_mention):
     instance_dict = {}
     accs_lang = []
     accs_both = []
@@ -212,11 +221,11 @@ def n_fold_validation(n, infiles, modelpath, vector_dir, config):
         for g2 in groups:
             if g2 != group:
                 training.extend(groups[g2])
-        train_data = list(cached_get_instances(training, config, vector_dir, instance_dict))
-        train(training, modelpath, vector_dir, config, instances=train_data)
-        test_inst = list(cached_get_instances(testing, config, vector_dir, instance_dict))
-        recall = calc_mention_recall(testing, config, instances=test_inst)
-        acc_lang, acc_both, acc_code = test(testing, modelpath, vector_dir, config, instances=test_inst)
+        train_data = list(cached_get_instances(training, config, vector_dir, instance_dict, single_mention))
+        train(training, modelpath, vector_dir, config, single_mention, instances=train_data)
+        test_inst = list(cached_get_instances(testing, config, vector_dir, instance_dict, single_mention))
+        recall = calc_mention_recall(testing, config, single_mention, instances=test_inst)
+        acc_lang, acc_both, acc_code = test(testing, modelpath, vector_dir, config, single_mention, instances=test_inst)
         accs_lang.append(acc_lang)
         accs_both.append(acc_both)
         accs_code.append(acc_both)
@@ -284,7 +293,7 @@ def write_to_files(infiles, predictions, output):
         codecs.open(path, 'w', encoding='utf8').write(str(doc))
 
 
-def train(infiles, modelpath, vector_dir, config, instances=None):
+def train(infiles, modelpath, vector_dir, config, single_mention, instances=None):
     """
     Train a language-identification model from training data
 
@@ -296,7 +305,7 @@ def train(infiles, modelpath, vector_dir, config, instances=None):
     """
     if not instances:
         logging.info('Getting instances')
-        instances = list(get_instances(infiles, config, vector_dir))
+        instances = list(get_instances(infiles, config, vector_dir, single_mention))
     model = Model()
     model.feat_selector = chi2
     logging.info('Training')
@@ -330,7 +339,7 @@ def find_best_and_normalize(instances, dists):
     return labels[highest]
 
 
-def classify(infiles, modelpath, config, vector_dir, instances=None):
+def classify(infiles, modelpath, config, vector_dir, single_mention, instances=None):
     """
         Classify instances found in the given files
 
@@ -341,7 +350,7 @@ def classify(infiles, modelpath, config, vector_dir, instances=None):
             instances: a list of instances passed by test() to streamline
     """
     if not instances:
-        instances = list(get_instances(infiles, config, vector_dir))
+        instances = list(get_instances(infiles, config, vector_dir, single_mention))
 
     inst_dict = {}
     prediction_dict = {}
@@ -360,7 +369,7 @@ def classify(infiles, modelpath, config, vector_dir, instances=None):
     return prediction_dict
 
 
-def test(infiles, modelpath, vector_dir, config, instances=None):
+def test(infiles, modelpath, vector_dir, config, single_mention, instances=None):
     """
     Test a language-identification model
 
@@ -372,7 +381,7 @@ def test(infiles, modelpath, vector_dir, config, instances=None):
     """
     real_classes = {}
     if not instances:
-        instances = list(get_instances(infiles, config, vector_dir))
+        instances = list(get_instances(infiles, config, vector_dir, single_mention))
     for inst in instances:
         if bool(inst.label):
             num = tuple(decode_instance_id(inst)[:-2])
@@ -400,7 +409,7 @@ def test(infiles, modelpath, vector_dir, config, instances=None):
                 if real_classes[key] in lang_accs:
                     lang_accs[real_classes[key]][1] += 1
                 else:
-                    lang_accs[real_classes[key]] = [0,1]
+                    lang_accs[real_classes[key]] = [0, 1]
                 mistake_key = (real_classes[key], predicted_classes[key])
                 if mistake_key in mistake_counts:
                     mistake_counts[mistake_key] += 1
@@ -411,7 +420,7 @@ def test(infiles, modelpath, vector_dir, config, instances=None):
                     lang_accs[real_classes[key]][0] += 1
                     lang_accs[real_classes[key]][1] += 1
                 else:
-                    lang_accs[real_classes[key]] = [1,1]
+                    lang_accs[real_classes[key]] = [1, 1]
     for key2 in file_counts:
         file_acc = float(file_counts[key2][0]) / file_counts[key2][1]
         logging.info("Accuracy on file " + str(key2) + ':\t' + str(file_acc))
@@ -452,7 +461,7 @@ def get_feature_weights(modelpath, config):
         print('\t' + model.feat_names()[i] + ": " + str(model.learner.coef_[0][i]))
 
 
-def list_mentions(infiles, config):
+def list_mentions(infiles, config, single_mention):
     """
     List all language mentions found in the given files
 
@@ -461,15 +470,16 @@ def list_mentions(infiles, config):
         config: model parameters
     """
     lgtable = read_language_table(config['locations']['language-table'])
+    lang_mapping_tables = read_language_mapping_table(config)
     caps = config['parameters'].get('mention-capitalization', 'default')
     for infile in infiles:
         doc = FrekiDoc.read(infile)
-        lgmentions = list(language_mentions(doc, lgtable, caps))
+        lgmentions = list(language_mentions(doc, lgtable, lang_mapping_tables, caps, single_mention))
         for m in lgmentions:
             print('\t'.join(map(str, m)))
 
 
-def count_mentions(infiles, config):
+def count_mentions(infiles, config, single_mention):
     """
     List all languages mentioned found in the given files with their counts
 
@@ -478,11 +488,12 @@ def count_mentions(infiles, config):
         config: model parameters
     """
     lgtable = read_language_table(config['locations']['language-table'])
+    lang_mapping_tables = read_language_mapping_table(config)
     caps = config['parameters'].get('mention-capitalization', 'default')
     mentions = {}
     for infile in infiles:
         doc = FrekiDoc.read(infile)
-        lgmentions = list(language_mentions(doc, lgtable, caps))
+        lgmentions = list(language_mentions(doc, lgtable, lang_mapping_tables, caps, single_mention))
         for m in lgmentions:
             if m[4] in mentions:
                 mentions[m[4]] += 1
@@ -504,7 +515,7 @@ def print_feature_vector(_id, feats, file):
     file.write('{}: {}\n'.format(_id, ", ".join(feats)))
 
 
-def cached_get_instances(infiles, config, vector_dir, instance_dict):
+def cached_get_instances(infiles, config, vector_dir, instance_dict, single_mention):
     locs = config['locations']
     lgtable = {}
     if locs['language-table']:
@@ -519,12 +530,12 @@ def cached_get_instances(infiles, config, vector_dir, instance_dict):
         logging.info("Instances from file " + str(index) + '/' + str(len(infiles)))
         index += 1
         if file not in instance_dict:
-            instance_dict[file] = list(get_instances([file], config, vector_dir, lgtable, common_table, eng_words))
+            instance_dict[file] = list(get_instances([file], config, vector_dir, single_mention, lgtable, common_table, eng_words))
         insts.extend(instance_dict[file])
     return insts
 
 
-def get_instances(infiles, config, vector_dir, lgtable=None, common_table=None, eng_words=None):
+def get_instances(infiles, config, vector_dir, single_mention, lgtable=None, common_table=None, eng_words=None):
     vector_file = None
     """
     Read Freki documents from *infiles* and return training instances
@@ -545,6 +556,7 @@ def get_instances(infiles, config, vector_dir, lgtable=None, common_table=None, 
             common_table = read_language_table(locs['most-common-codes'])
         if locs['english-word-names']:
             eng_words = open(locs['english-word-names'], 'r').read().split('\n')
+    lang_mapping_tables = read_language_mapping_table(config)
     global t1
     i = 1
     for infile in infiles:
@@ -560,7 +572,7 @@ def get_instances(infiles, config, vector_dir, lgtable=None, common_table=None, 
         context['last-lineno'] = max(x.lineno for x in doc.lines())
         caps = config['parameters'].get('mention-capitalization', 'default')
 
-        lgmentions = list(language_mentions(doc, lgtable, caps))
+        lgmentions = list(language_mentions(doc, lgtable, lang_mapping_tables, caps, single_mention))
         if not lgmentions:
             lgmentions = []
         mention_dict = get_mention_by_lines(lgmentions)
