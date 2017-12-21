@@ -10,6 +10,7 @@ import re
 import glob
 import numpy as np
 from lgid import analyzers
+from util import normalize_characters
 
 
 def tokenizer(s):
@@ -83,9 +84,10 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
             countsM = CountVectorizer(analyzer="word", tokenizer=morph.tok, ngram_range=(1, int(nw)))
             cm = countsM.fit_transform([source])
             name = re.sub("/", "-", name)
-            lmfileC = open(outdirec + "/" + langcode + "_" + name + ".char", "w")
-            lmfileW = open(outdirec + "/" + langcode + "_" + name + ".word", "w")
-            lmfileM = open(outdirec + "/" + langcode + "_" + name + ".morph", "w")
+            norm_name = normalize_characters(name)
+            lmfileC = open(outdirec + "/" + langcode + "_" + norm_name + ".char", "w")
+            lmfileW = open(outdirec + "/" + langcode + "_" + norm_name + ".word", "w")
+            lmfileM = open(outdirec + "/" + langcode + "_" + norm_name + ".morph", "w")
             textC = ""
             for key in countsC.vocabulary_:
                 count = cc[0, countsC.vocabulary_[key]]
