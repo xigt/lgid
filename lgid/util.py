@@ -65,15 +65,15 @@ def read_odin_language_model(pairs, config, characters):
     all_lms = {}
     for lang_name, iso_code in pairs:
         lang_name = lang_name.replace('/', '-')
+        norm_name = normalize_characters(lang_name)
         base_path = config['locations']['odin-language-model']
 
         if characters:
-            file_name = '{}/{}_{}.char'.format(base_path, iso_code, lang_name)
+            file_name = '{}/{}_{}.char'.format(base_path, iso_code, norm_name)
             n = int(config['parameters']['character-n-gram-size'])
         else:
-            file_name = '{}/{}_{}.word'.format(base_path, iso_code, lang_name)
+            file_name = '{}/{}_{}.word'.format(base_path, iso_code, norm_name)
             n = int(config['parameters']['word-n-gram-size'])
-        file_name = file_name.encode('ascii', 'ignore').decode('ascii')
         try:
             with open(file_name, encoding='utf8') as f:
                 lines = f.readlines()
@@ -107,8 +107,9 @@ def read_morpheme_language_model(pairs, config):
     all_lms = {}
     for lang_name, iso_code in pairs:
         lang_name = lang_name.replace('/', '-')
+        norm_name = normalize_characters(lang_name)
         base_path = config['locations']['odin-language-model']
-        file_name = '{}/{}_{}.word'.format(base_path, iso_code, lang_name)
+        file_name = '{}/{}_{}.word'.format(base_path, iso_code, norm_name)
         n = int(config['parameters']['morpheme-n-gram-size'])
         try:
             with open(file_name, encoding='utf8') as f:
