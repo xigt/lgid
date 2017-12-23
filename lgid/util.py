@@ -9,6 +9,7 @@ import unicodedata
 import re
 import os
 import logging
+import unidecode
 
 def read_language_table(path):
     """
@@ -47,8 +48,7 @@ def normalize_characters(s):
     Apply a unicode transformation to normalize accented characters to
     their near-ASCII equivalent.
     """
-    return ''.join(c for c in unicodedata.normalize('NFKD', s)
-                     if not unicodedata.combining(c))
+    return unidecode.unidecode(s)
 
 def read_odin_language_model(pairs, config, characters):
     """
