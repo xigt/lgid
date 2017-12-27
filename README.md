@@ -213,6 +213,7 @@ after-frequent-mention-threshold   | min. mentions after an IGT to be "frequent"
 article-frequent-mention-threshold | min. mentions in document to be "frequent"
 mention-capitalization             | case-normalization for language mentions
 short-name-size             | a language name shorter than or equal to this length is flagged, as very short names are often false positive mentions
+single-longest-mention             | return all mentions in a given span or only the single longest one
 
 
 The `[features]` section has boolean flags for turning on/off specific
