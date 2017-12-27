@@ -54,6 +54,7 @@ The dependencies installed by this script are:
 - [SciPy][] (0.19)
 - [scikit-learn][] (0.19)
 - [Requests][] (2.18)
+- [Unidecode][] (0.4)
 - [Freki][]
 - [Xigt][]
 
@@ -267,5 +268,6 @@ M-             | feature is relevant for a meta line
 [SciPy]: https://www.scipy.org/
 [scikit-learn]: http://scikit-learn.org
 [Requests]: http://docs.python-requests.org/
+[Unidecode]: https://pypi.python.org/pypi/Unidecode/
 [Freki]: https://github.com/xigt/freki
 [Xigt]: http://depts.washington.edu/uwcl/xigt

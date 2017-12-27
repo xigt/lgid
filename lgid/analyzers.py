@@ -12,7 +12,7 @@ from collections import namedtuple
 import logging
 from string import punctuation
 
-from lgid.util import normalize_characters
+from lgid.util import unicode_normalize_characters
 
 
 Mention = namedtuple(
@@ -95,7 +95,7 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
             # in the vocabulary
             mapped_lines = ''
             for w in lines.split():
-                w = normcaps(normalize_characters(w))
+                w = normcaps(unicode_normalize_characters(w))
                 w = re.sub(r"^.*?(\w+(-\w+)?).*$", "\g<1>", w)
                 if w in lang_mapping_tables.word_to_int:
                     mapped_lines += lang_mapping_tables.word_to_int[w]
