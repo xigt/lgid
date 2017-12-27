@@ -11,24 +11,14 @@ See README.md for more information about features.
 """
 
 from collections import Counter
-import numpy as np
 import logging
 import re
-
 
 from lgid.analyzers import (
     character_ngrams,
     word_ngrams,
     morpheme_ngrams
 )
-
-from lgid.util import (
-    read_crubadan_language_model,
-    read_odin_language_model
-)
-
-lm_dict = {}
-
 
 def gl_features(features, mentions, context, config, common_table, eng_words, num_langs):
     """
@@ -109,13 +99,17 @@ def w_features(features, mentions, context, config, num_langs, num_lines):
         frequent_mention('W-frequent-after', features, mentions, minfreq, b,
                          b+a_wsize)
     if num_langs > 20:
-        frequent_mention('W=500&langs>20-frequent', features, mentions, minfreq, t-500, t)
-        frequent_mention('W=500&langs>20-frequent-after', features, mentions, minfreq, b,
-                     b + 500)
+        if config['features']['W-frequent'] == 'yes':
+            frequent_mention('W=500&langs>20-frequent', features, mentions, minfreq, t-500, t)
+        if config['features']['W-frequent-after'] == 'yes':
+            frequent_mention('W=500&langs>20-frequent-after', features, mentions, minfreq, b,
+                        b + 500)
     if num_lines > 2000:
-        frequent_mention('W=500&lines>2000-frequent', features, mentions, minfreq, t - 500, t)
-        frequent_mention('W=500&lines>2000-frequent-after', features, mentions, minfreq, b,
-                         b + 500)
+        if config['features']['W-frequent'] == 'yes':
+            frequent_mention('W=500&lines>2000-frequent', features, mentions, minfreq, t - 500, t)
+        if config['features']['W-frequent-after'] == 'yes':
+            frequent_mention('W=500&lines>2000-frequent-after', features, mentions, minfreq, b,
+                            b + 500)
 
 
 def l_features(features, mentions, context, lms, config):
@@ -287,13 +281,6 @@ def closest_mention(feature, features, mentions, top, bottom, ref):
             if delta > smallest_delta:
                 break
             features[(mention.name, mention.code)][feature] = True
-
-
-#def get_dist_to_ref(ref, m):
-#    is_after = not bool(np.sign(ref - m.startline))
-#    if is_after:
-#        return -m.startcol
-#    return m.endcol
 
 
 def in_line_mention(feature, features, mentions, line):
