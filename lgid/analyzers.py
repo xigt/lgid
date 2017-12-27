@@ -201,7 +201,8 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
             new_word = True # whether we're starting a new word
             for char in list(lines.lstrip()):
                 # if the previous char was a space and this one isn't, start a new word
-                if last_char == ' ' and char != ' ':
+                # the \u2028 is also allowed because of corrupted files
+                if (last_char == ' ' or last_char == '\u2028') and char != ' ':
                     word_idx += 1
                     added = False
                     new_word = True
