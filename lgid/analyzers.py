@@ -223,7 +223,7 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
                     built_word += lines[char_number]
                 # if the built word (stripped of punctuation) matches the target word and this span hasn't already been added,
                 # add the span of the word and reset the tracking variables
-                if re.sub(punc_strip_re, "\g<1>", built_word) == target_word and not added and word_idx in result_locs:
+                if not added and word_idx in result_locs and len(built_word) >= len(target_word) and re.sub(punc_strip_re, "\g<1>", built_word) == target_word:
                     w_end = char_number + 1
                     w_start += built_word.index(target_word[0])
                     char_locs.append((w_start, w_end))
