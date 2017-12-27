@@ -33,7 +33,7 @@ def read_language_table(path):
         if line.strip():
             name, codes = line.rstrip().split('\t', 1)
             codes = codes.split()
-            norm = normalize_characters(name)         # remove diacritics
+            norm = hard_normalize_characters(name)         # remove diacritics
             norm = re.sub(r' \([^)]*\)', '', norm)    # remove parentheticals
             norm = re.sub(r'\s+', ' ', norm).strip()  # normalize spacing
             norm = norm.lower()                       # lowercase
@@ -43,10 +43,18 @@ def read_language_table(path):
     logging.info(str(len(table)) + ' language names in table')
     return table
 
-def normalize_characters(s):
+def unicode_normalize_characters(s):
     """
     Apply a unicode transformation to normalize accented characters to
     their near-ASCII equivalent.
+    """
+    return ''.join(c for c in unicodedata.normalize('NFKD', s)
+                    if not unicodedata.combining(c))
+
+def hard_normalize_characters(s):
+    """
+    Apply a transformation to replace Unicode characters with
+    an ASCII representation.
     """
     return unidecode.unidecode(s)
 
@@ -65,7 +73,7 @@ def read_odin_language_model(pairs, config, characters):
     all_lms = {}
     for lang_name, iso_code in pairs:
         lang_name = lang_name.replace('/', '-')
-        norm_name = normalize_characters(lang_name)
+        norm_name = hard_normalize_characters(lang_name)
         base_path = config['locations']['odin-language-model']
 
         if characters:
@@ -107,7 +115,7 @@ def read_morpheme_language_model(pairs, config):
     all_lms = {}
     for lang_name, iso_code in pairs:
         lang_name = lang_name.replace('/', '-')
-        norm_name = normalize_characters(lang_name)
+        norm_name = hard_normalize_characters(lang_name)
         base_path = config['locations']['odin-language-model']
         file_name = '{}/{}_{}.word'.format(base_path, iso_code, norm_name)
         n = int(config['parameters']['morpheme-n-gram-size'])
@@ -125,9 +133,8 @@ def read_morpheme_language_model(pairs, config):
             i = 0
             for i in range(len(line)):
                 try:
-                    feature = (line[i], line[i + 1])
+                    feature = tuple(line[i:i + n])
                     lm.add(feature)
-                    i += 1
                 except IndexError:
                     break
         all_lms[(lang_name, iso_code)] = lm

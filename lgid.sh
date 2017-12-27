@@ -9,5 +9,5 @@ if [ ! -d "$curdir/env" ]; then
 fi
 
 source "$curdir/env/bin/activate"
-python -m lgid.main "$@"
+PYTHONIOENCODING=UTF-8 python -m lgid.main "$@"
 deactivate

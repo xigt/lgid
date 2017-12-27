@@ -11,7 +11,7 @@ import os
 import glob
 import numpy as np
 from lgid import analyzers
-from lgid.util import normalize_characters
+from lgid.util import hard_normalize_characters
 
 
 def tokenizer(s):
@@ -86,7 +86,7 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
             morph = morph_tokenizer(morph_split)
             countsM = CountVectorizer(analyzer="word", tokenizer=morph.tok, ngram_range=(1, int(nw)))
             cm = countsM.fit_transform([source])
-            norm_name = normalize_characters(name)
+            norm_name = hard_normalize_characters(name)
             norm_name = re.sub("/", "-", norm_name)
             print(norm_name)
             print(langcode)
