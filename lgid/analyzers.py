@@ -72,6 +72,7 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
     }.get(capitalization, str)
 
     k = 0
+    punc_strip_re = re.compile(r"^.*?(\w+(-\w+)?).*$")
     for block in doc.blocks:
         logging.debug(block.block_id)
         for i, line1 in enumerate(block.lines):
@@ -96,7 +97,7 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
             mapped_lines = ''
             for w in lines.split():
                 w = normcaps(unicode_normalize_characters(w))
-                w = re.sub(r"^.*?(\w+(-\w+)?).*$", "\g<1>", w)
+                w = re.sub(punc_strip_re, "\g<1>", w)
                 if w in lang_mapping_tables.word_to_int:
                     mapped_lines += lang_mapping_tables.word_to_int[w]
                 elif '-' in w:
@@ -179,6 +180,8 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
             char_locs = []
             last_char = ''
             w_start, w_end = -1, -1
+            built_word = ''
+            target_word = ''
             added = False
             new_word = True
             for char in list(lines.lstrip()):
@@ -188,14 +191,16 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
                     new_word = True
                 if word_idx in result_locs and new_word:
                     w_start = char_number
+                    target_word = w = re.sub(punc_strip_re, "\g<1>", lines.split()[word_idx])
                     if char_number + 1 == len(lines) or (char == '+' and last_char == ' '):
                         char_locs.append((w_start, w_start + 1))
-                elif not added and word_idx in result_locs and \
-                        ((char == ' ' or (char in punctuation and char != '-'))
-                           and
-                           (last_char != ' ' and (last_char not in punctuation or last_char == '-'))):
-                    w_end = char_number
+                if target_word != '' and not added and word_idx in result_locs:
+                    built_word += lines[char_number]
+                if built_word == target_word and not added and word_idx in result_locs:
+                    w_end = char_number + 1
                     char_locs.append((w_start, w_end))
+                    target_word = ''
+                    built_word = ''
                     added = True
                 elif not added and word_idx in result_locs and char_number + 1 == len(lines):
                     w_end = char_number + 1
