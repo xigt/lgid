@@ -64,14 +64,14 @@ manages the activation/deactivation of the virtual environment:
 ```bash
 ~/lgid$ ./lgid.sh 
 Usage:
-  lgid [-v...] train    --model=PATH [--vectors=DIR --single-mention] CONFIG INFILE...
-  lgid [-v...] test     --model=PATH [--vectors=DIR --single-mention] CONFIG INFILE...
-  lgid [-v...] validate     --model=PATH [--vectors=DIR --single-mention] CONFIG INFILE...
-  lgid [-v...] classify --model=PATH --out=PATH [--vectors=DIR --single-mention] CONFIG INFILE...
+  lgid [-v...] train    --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] test     --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] validate     --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] classify --model=PATH --out=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] get-lg-recall    CONFIG INFILE...
   lgid [-v...] list-model-weights   --model=PATH    CONFIG
-  lgid [-v...] list-mentions          [--single-mention] CONFIG INFILE...
-  lgid [-v...] count-mentions         [--single-mention] CONFIG INFILE...
+  lgid [-v...] list-mentions          CONFIG INFILE...
+  lgid [-v...] count-mentions         CONFIG INFILE...
   lgid [-v...] find-common-codes      CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
   lgid [-v...] build-odin-lm          CONFIG
@@ -123,9 +123,8 @@ lgid
 ├── sample              # results from sample runs
 └── test                # files for testing the program
      ├── mentions_gold_output.txt   # the gold standard output when running list-mentions on mentions_test.freki
-     ├── mentions_single_gold_output.txt   # the gold standard output when running list-mentions on mentions_test.freki with the --single-mentions argument
+     ├── mentions_single_gold_output.txt   # the gold standard output when running list-mentions on mentions_test.freki with the setting `single-longest-mention = yes`
      └── mentions_test.freki  # freki file for testing list-mentions
-
 ```
 
 In the repository, the `lgid/` subdirectory contains all code for data
@@ -136,27 +135,12 @@ mapping table, should be checked in. Other resources, like the compiled
 language model or [Crúbadán][] data, may reside here on a local machine,
 but they should not be committed to the remote repository.
 
-## Testing
-
-The `test/` subdirectory contains files for testing the `language_mentions` function in `lgid/analyzers.py`.
-The `test/mentions_test.freki` file is the Freki file for testing on. The `test/mentions_gold_output.txt`
-file is the gold standard file, and the `test/mentions_single_gold_outut.txt` is the gold standard file for running
-with the `single-mention` option turned on.
-
-Run the command `./lgid.sh list-mentions config.ini test/mentions_test.freki` to test against the `test/mentions_gold_output.txt`
-file. The output of the run should match the file contents exactly.
-
-Run the command `./lgid.sh list-mentions --single-mentions config.ini test/mentions_test.freki` to test against
-the `test/mentions_single_gold_output.txt` file. The output of the run should be similar, but because the behavior of
-`--single-mention` is unspecified when multiple mentions are the same length the output could be different without
-failing the test.
-
 ## File Formats
 
 All of the functions that take `INFILE` as an argument expect that file or files to be in [Freki](https://github.com/xigt/freki) format.
 The `classify` function produces Freki files as output.
 
-The `build-odin-lm` function expects its input files to be in the [Xigt][] format.
+The `build-odin-lm` function expects its input files (location specified in the config file) to be in the [Xigt][] format.
 
 The [ODIN][] language model files have one ngram on each line, with the format `<ngram>\t<count>`. There are no special symbols
 used for beginning or end of line. Each file contains ngrams for all values of n, 1-3 for characters and 1-2 for words. The
@@ -184,7 +168,7 @@ english-word-names                 | location of list of languages whose names a
 word-index                         | location of the file mapping words to IDs
 language-index                     | location of the file mapping languages to IDs
 word-language-mapping              | location of the file mapping words to the languages they appear in
-odin-source                        | 
+odin-source                        | location of the Xigt files for building ODIN language models from
 odin-language-model                | directory containing the ODIN language model files
 crubadan-index                     | location of file containing index and download location for Crúbadán language model data
 crubadan-base-uri                  | base URL where Crúbadán data files are downloaded from
@@ -217,7 +201,8 @@ single-longest-mention             | return all mentions in a given span or only
 
 
 The `[features]` section has boolean flags for turning on/off specific
-features. The available features are:
+features. The value `yes` turns the feature on, any other value turns it
+off. The available features are:
 
 feature name     | description    | notes
 ---------------- | -------------- | -------
@@ -229,6 +214,7 @@ GL-most-frequent-code | code is the most frequent one paired with language
 GL-possible-english-word | language name is possibly an English word or name
 GL-short-lang-name | language name is shorter than short-name-size, and may be a false positive because it occurs as a word in some language
 GL-is-english | language is English
+GL-multi-word-name | language name is multiple words
 W-prev           | language mentioned within the IGT's preceding window
 W-close          | language mentioned within a smaller preceding window
 W-closest        | language is closest to the IGT in the preceding window
