@@ -480,7 +480,8 @@ def list_mentions(infiles, config, single_mention):
 
 def count_mentions(infiles, config, single_mention):
     """
-    List all languages mentioned found in the given files with their counts
+    List all languages mentioned found in the given files with the count of
+    how many times each was mentioned
 
     Args:
         infiles: iterable of Freki file paths
@@ -498,6 +499,8 @@ def count_mentions(infiles, config, single_mention):
                 mentions[m[4]] += 1
             else:
                 mentions[m[4]] = 1
+    for m in mentions:
+        mentions[m] = int(mentions[m] / len(lgtable[m]))
     ordered = sorted(mentions, key=lambda x: mentions[x], reverse=True)
     for m in ordered:
         print('{}: {}'.format(m, mentions[m]))
