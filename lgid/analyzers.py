@@ -72,7 +72,7 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
     }.get(capitalization, str)
 
     k = 0
-    punc_strip_re = re.compile(r"^.*?(\w+(-\w+)?).*$")
+    punc_strip_re = re.compile(r"^.*?(\w+(-\w+)*).*$")
     for block in doc.blocks:
         logging.debug(block.block_id)
         for i, line1 in enumerate(block.lines):
@@ -191,9 +191,12 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
                     new_word = True
                 if word_idx in result_locs and new_word:
                     w_start = char_number
-                    target_word = w = re.sub(punc_strip_re, "\g<1>", lines.split()[word_idx])
+                    target_word = re.sub(punc_strip_re, "\g<1>", lines.split()[word_idx])
                     if char_number + 1 == len(lines) or (char == '+' and last_char == ' '):
                         char_locs.append((w_start, w_start + 1))
+                        added = True
+                        target_word = ''
+                        built_word = ''
                 if target_word != '' and not added and word_idx in result_locs:
                     built_word += lines[char_number]
                 if built_word == target_word and not added and word_idx in result_locs:
