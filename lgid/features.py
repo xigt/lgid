@@ -318,16 +318,13 @@ def ngram_matching(features, feature, line, pairs, gram_type, dataset, lms, conf
         config: parameters
     """
     if gram_type == 'character':
-        # threshold = float(config['parameters']['character-lm-threshold'])
         if dataset == 'odin':
             n = int(config['parameters']['character-n-gram-size'])
         elif dataset == 'crubadan':
             n = int(config['parameters']['crubadan-char-size'])
     elif gram_type == 'morpheme':
-        # threshold = float(config['parameters']['morpheme-lm-threshold'])
         n = int(config['parameters']['morpheme-n-gram-size'])
     else:
-        # threshold = float(config['parameters']['word-lm-threshold'])
         if dataset == 'odin':
             n = int(config['parameters']['word-n-gram-size'])
         elif dataset == 'crubadan':
@@ -340,8 +337,8 @@ def ngram_matching(features, feature, line, pairs, gram_type, dataset, lms, conf
     else:
         ngrams = word_ngrams(line, n)
 
-    # remove the initial and final '\n' from Crubadan unigrams and all ODIN ngrams
-    if dataset == 'odin' or n == 1:
+    # remove the initial and final '\n' from Crubadan unigrams and all ODIN ngrams except morpheme
+    if (dataset == 'odin' or n == 1) and gram_type != 'morpheme':
         ngrams = ngrams[1:-1]
 
     if config['features'][feature]:

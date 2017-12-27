@@ -125,9 +125,8 @@ def read_morpheme_language_model(pairs, config):
             i = 0
             for i in range(len(line)):
                 try:
-                    feature = (line[i], line[i + 1])
+                    feature = tuple(line[i:i + n])
                     lm.add(feature)
-                    i += 1
                 except IndexError:
                     break
         all_lms[(lang_name, iso_code)] = lm
