@@ -200,7 +200,7 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
             target_word = '' # the word we're aiming for, taken from lines and with punctuation stripped
             added = False # whether we've added this current word to char_locs or not
             new_word = True # whether we're starting a new word
-            templines = lines.replace('\u2028', ' ') # this is done to not crash on a messed-up file
+            templines = lines.replace('\u2028', ' ').replace('\u2029', ' ') # this is done to not crash on a few messed-up files
             for char in list(templines.lstrip()):
                 # if the previous char was a space and this one isn't, start a new word
                 if last_char == ' 'and char != ' ':
