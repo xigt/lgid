@@ -59,6 +59,8 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
     for fname in glob.glob(indirec + "/*.xml"):
         texts = {}
         langcode = re.search('.{3}\.xml', fname).group(0).split('.')[0]
+        langcode = re.sub("/", "-", langcode)
+        langcode = hard_normalize_characters(langcode)
         xc = xigtxml.load(open(fname, 'r'))
         for igt in xc:
             langname = ""
@@ -68,17 +70,19 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
                         langcode2 = oneMeta.attributes['iso-639-3']
                         if langcode == langcode2:
                             langname = oneMeta.attributes['name']
-                            langname = re.sub("/", "-", langname)
                             langname = hard_normalize_characters(langname)
+                            langname = re.sub("/", "-", langname)
+                            break
             if langname:
                 for item in igt['c'].items:
                     tag = item.attributes['tag']
                     if re.match("^L(\+(CR|AL|DB|SEG))*$", tag):
                         if item.value():
-                            if langname in texts:
-                                texts[langcode + "_" + langname] += " " + item.value()
+                            key = langcode + "_" + langname
+                            if key in texts:
+                                texts[key] += " " + item.value()
                             else:
-                                texts[langcode + "_" + langname] = item.value()
+                                texts[key] = item.value()
                             if langcode in texts:
                                 texts[langcode] += " " + item.value()
                             else:
