@@ -10,7 +10,7 @@ import re
 import glob
 import numpy as np
 from lgid import analyzers
-from util import normalize_characters
+from lgid.util import normalize_characters
 
 
 def tokenizer(s):
@@ -71,9 +71,13 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
                     if re.match("^L(\+(CR|AL|DB|SEG))*$", tag):
                         if item.value():
                             if langname in texts:
-                                texts[langname] += " " + item.value()
+                                texts[langcode + "_" + langname] += " " + item.value()
                             else:
-                                texts[langname] = item.value()
+                                texts[langcode + "_" + langname] = item.value()
+                            if langcode2 in texts:
+                                texts[langcode2] += " " + item.value()
+                            else:
+                                texts[langcode2] = item.value()
         for name in texts:
             source = re.sub(" +", " ", texts[name])
             countsC = CountVectorizer(analyzer=lambda doc: analyzers.character_ngrams(doc, (1, int(nc)), lhs, rhs))
@@ -85,9 +89,9 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
             cm = countsM.fit_transform([source])
             name = re.sub("/", "-", name)
             norm_name = normalize_characters(name)
-            lmfileC = open(outdirec + "/" + langcode + "_" + norm_name + ".char", "w")
-            lmfileW = open(outdirec + "/" + langcode + "_" + norm_name + ".word", "w")
-            lmfileM = open(outdirec + "/" + langcode + "_" + norm_name + ".morph", "w")
+            lmfileC = open(outdirec + "/" + norm_name + ".char", "w")
+            lmfileW = open(outdirec + "/" + norm_name + ".word", "w")
+            lmfileM = open(outdirec + "/" + norm_name + ".morph", "w")
             textC = ""
             for key in countsC.vocabulary_:
                 count = cc[0, countsC.vocabulary_[key]]
