@@ -3,14 +3,6 @@
 BASE=.
 
 if [ ! -d "$BASE/env" ]; then
-    if ! $( virtualenv 2>/dev/null >/dev/null ); then
-        if ! $( pip 2>/dev/null >/dev/null ); then
-            echo "Neither virtualenv nor pip found, please install one or both first"
-            exit 1
-        fi
-        echo "Installing virtualenv"
-        pip install virtualenv
-    fi
     echo "Creating virtual enviroment"
     virtualenv -p python3 "$BASE/env"
 fi
