@@ -11,6 +11,7 @@ import re
 from collections import namedtuple
 import logging
 from string import punctuation
+from sys import stderr
 
 from lgid.util import unicode_normalize_characters
 
@@ -243,10 +244,13 @@ def language_mentions(doc, lgtable, lang_mapping_tables, capitalization, single_
             # for each mention, form a tuple of (name, character span)
             # character span is itself a tuple of column numbers
             annotated_matches = []
-            for j, match in enumerate(total_matched):
-                char_span = (char_locs[total_language_spans[j][0]][0], char_locs[total_language_spans[j][1] - 1][1])
-                annotation = (match, char_span)
-                annotated_matches.append(annotation)
+            try:
+                for j, match in enumerate(total_matched):
+                    char_span = (char_locs[total_language_spans[j][0]][0], char_locs[total_language_spans[j][1] - 1][1])
+                    annotation = (match, char_span)
+                    annotated_matches.append(annotation)
+            except IndexError:
+                stderr.write("Mismatched indices: lines = '{}'\n".format(lines))
 
             # iterate through each match and create a Mention object out of it
             startline = line1.lineno
