@@ -68,6 +68,8 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
                         langcode2 = oneMeta.attributes['iso-639-3']
                         if langcode == langcode2:
                             langname = oneMeta.attributes['name']
+                            langname = re.sub("/", "-", langname)
+                            langname = hard_normalize_characters(langname)
             if langname:
                 for item in igt['c'].items:
                     tag = item.attributes['tag']
@@ -77,10 +79,10 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
                                 texts[langcode + "_" + langname] += " " + item.value()
                             else:
                                 texts[langcode + "_" + langname] = item.value()
-                            if langcode2 in texts:
-                                texts[langcode2] += " " + item.value()
+                            if langcode in texts:
+                                texts[langcode] += " " + item.value()
                             else:
-                                texts[langcode2] = item.value()
+                                texts[langcode] = item.value()
         for name in texts:
             source = re.sub(" +", " ", texts[name])
             countsC = CountVectorizer(analyzer=lambda doc: analyzers.character_ngrams(doc, (1, int(nc)), lhs, rhs))
@@ -90,11 +92,10 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
             morph = morph_tokenizer(morph_split)
             countsM = CountVectorizer(analyzer="word", tokenizer=morph.tok, ngram_range=(1, int(nw)))
             cm = countsM.fit_transform([source])
-            name = re.sub("/", "-", name)
-            norm_name = hard_normalize_characters(name)
-            lmfileC = open(outdirec + "/" + norm_name + ".char", "w")
-            lmfileW = open(outdirec + "/" + norm_name + ".word", "w")
-            lmfileM = open(outdirec + "/" + norm_name + ".morph", "w")
+            print(name)
+            lmfileC = open(outdirec + "/" + name + ".char", "w")
+            lmfileW = open(outdirec + "/" + name + ".word", "w")
+            lmfileM = open(outdirec + "/" + name + ".morph", "w")
 
             textC = ""
             for key in countsC.vocabulary_:
