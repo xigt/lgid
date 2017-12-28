@@ -7,10 +7,11 @@ from xigt.codecs import xigtxml
 from sklearn.feature_extraction.text import CountVectorizer
 from lgid.analyzers import word_ngrams, character_ngrams
 import re
+import os
 import glob
 import numpy as np
 from lgid import analyzers
-from lgid.util import normalize_characters
+from lgid.util import hard_normalize_characters
 
 
 def tokenizer(s):
@@ -53,6 +54,8 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
         rhs: right-padding character (to show token boundaries)
         morph_split: string containing morpheme delimiting characters
     """
+    if not os.path.exists(outdirec):
+        os.makedirs(outdirec)
     for fname in glob.glob(indirec + "/*.xml"):
         texts = {}
         langcode = re.search('.{3}\.xml', fname).group(0).split('.')[0]
@@ -88,10 +91,11 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
             countsM = CountVectorizer(analyzer="word", tokenizer=morph.tok, ngram_range=(1, int(nw)))
             cm = countsM.fit_transform([source])
             name = re.sub("/", "-", name)
-            norm_name = normalize_characters(name)
+            norm_name = hard_normalize_characters(name)
             lmfileC = open(outdirec + "/" + norm_name + ".char", "w")
             lmfileW = open(outdirec + "/" + norm_name + ".word", "w")
             lmfileM = open(outdirec + "/" + norm_name + ".morph", "w")
+
             textC = ""
             for key in countsC.vocabulary_:
                 count = cc[0, countsC.vocabulary_[key]]

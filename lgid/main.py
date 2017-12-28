@@ -2,14 +2,14 @@
 
 USAGE = '''
 Usage:
-  lgid [-v...] train    --model=PATH [--vectors=DIR --single-mention] CONFIG INFILE...
-  lgid [-v...] test     --model=PATH [--vectors=DIR --single-mention] CONFIG INFILE...
-  lgid [-v...] validate     --model=PATH [--vectors=DIR --single-mention] CONFIG INFILE...
-  lgid [-v...] classify --model=PATH --out=PATH [--vectors=DIR --single-mention] CONFIG INFILE...
+  lgid [-v...] train    --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] test     --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] validate     --model=PATH [--vectors=DIR] CONFIG INFILE...
+  lgid [-v...] classify --model=PATH --out=PATH [--vectors=DIR] CONFIG INFILE...
   lgid [-v...] get-lg-recall    CONFIG INFILE...
   lgid [-v...] list-model-weights   --model=PATH    CONFIG
-  lgid [-v...] list-mentions          [--single-mention] CONFIG INFILE...
-  lgid [-v...] count-mentions         [--single-mention] CONFIG INFILE...
+  lgid [-v...] list-mentions          CONFIG INFILE...
+  lgid [-v...] count-mentions         CONFIG INFILE...
   lgid [-v...] find-common-codes      CONFIG INFILE...
   lgid [-v...] download-crubadan-data CONFIG
   lgid [-v...] build-odin-lm          CONFIG
@@ -35,7 +35,6 @@ Arguments:
 Options:
   -h, --help                print this usage and exit
   -v, --verbose             increase logging verbosity
-  --single-mention          only use the single longest mention from each span when calculating language mentions instead of all mentions
   --model PATH              where to save/load a trained model
   --out PATH                where to write freki files with added information
   --vectors DIR             a directory to print feature vectors for inspection
@@ -107,7 +106,7 @@ def main():
 
     modelpath = args['--model']
     vector_dir = args['--vectors']
-    single_mention = args['--single-mention']
+    single_mention = config['parameters']['single-longest-mention'] == 'yes'
     if vector_dir != None:
         vector_dir = vector_dir.strip('/')
     infiles = args['INFILE']
@@ -481,7 +480,8 @@ def list_mentions(infiles, config, single_mention):
 
 def count_mentions(infiles, config, single_mention):
     """
-    List all languages mentioned found in the given files with their counts
+    List all languages mentioned found in the given files with the count of
+    how many times each was mentioned
 
     Args:
         infiles: iterable of Freki file paths
@@ -499,6 +499,8 @@ def count_mentions(infiles, config, single_mention):
                 mentions[m[4]] += 1
             else:
                 mentions[m[4]] = 1
+    for m in mentions:
+        mentions[m] = int(mentions[m] / len(lgtable[m]))
     ordered = sorted(mentions, key=lambda x: mentions[x], reverse=True)
     for m in ordered:
         print('{}: {}'.format(m, mentions[m]))
