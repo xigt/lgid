@@ -584,11 +584,12 @@ def get_instances(infiles, config, vector_dir, single_mention, lgtable=None, com
         file_mentions[doc.blocks[0].doc_id] = len(lang_names)
 
         name_code_pairs = list(features_template.keys())
-        word_clm = read_crubadan_language_model(name_code_pairs, config, False)
-        char_clm = read_crubadan_language_model(name_code_pairs, config, True)
-        word_olm = read_odin_language_model(name_code_pairs, config, False)
-        char_olm = read_odin_language_model(name_code_pairs, config, True)
-        morph_olm = read_morpheme_language_model(name_code_pairs, config)
+        word_clm = read_crubadan_language_model(name_code_pairs, config, 'word')
+        char_clm = read_crubadan_language_model(name_code_pairs, config, 'character')
+        word_olm = read_odin_language_model(name_code_pairs, config, 'word')
+        char_olm = read_odin_language_model(name_code_pairs, config, 'character')
+        morph_olm = read_odin_language_model(name_code_pairs, config, 'morpheme')
+        # morph_olm = read_morpheme_language_model(name_code_pairs, config)
         lms = (word_clm, char_clm, word_olm, char_olm, morph_olm)
 
         for pair in name_code_pairs:

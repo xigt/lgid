@@ -343,6 +343,7 @@ def morpheme_ngrams(s, n, splitter, lhs='', rhs=''):
     Args:
         s: the string whence n-grams are extracted
         n: the length of each n-gram
+        splitter: the regular expression to split morphemes with
         lhs: left-padding character (to show token boundaries)
         rhs: right-padding character (to show token boundaries)
     Returns:

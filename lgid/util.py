@@ -58,30 +58,43 @@ def hard_normalize_characters(s):
     """
     return unidecode.unidecode(s)
 
-def read_odin_language_model(pairs, config, characters):
+def read_odin_language_model(pairs, config, gram_type):
     """
     Read an ODIN language model for a (language name, ISO code) pair.
 
     Args:
         pairs: a list of (name, code) pairs to construct models for
         config: model parameters
-        characters: whether to use character or word ngrams
+        gram_type: what type of gram to use - 'character', 'word', or 'morpheme'
     Returns:
         list of tuples of ngrams, or None if no language model exists for
         the given name-ISO pairing
     """
+    if gram_type != 'character' and gram_type != 'word' and gram_type != 'morpheme':
+        raise ValueError("argument 'gram_type' not 'character', 'word', or 'morpheme'")
+
     all_lms = {}
     for lang_name, iso_code in pairs:
         lang_name = lang_name.replace('/', '-')
         norm_name = hard_normalize_characters(lang_name)
         base_path = config['locations']['odin-language-model']
+        code_only = config['parameters']['code-only-odin-lms'] == 'yes'
 
-        if characters:
-            file_name = '{}/{}_{}.char'.format(base_path, iso_code, norm_name)
-            n = int(config['parameters']['character-n-gram-size'])
+        if code_only:
+            file_basename = iso_code
         else:
-            file_name = '{}/{}_{}.word'.format(base_path, iso_code, norm_name)
+            file_basename = '{}_{}'.format(iso_code, norm_name)
+
+        if gram_type == 'character':
+            file_name = '{}/{}.char'.format(base_path, file_basename)
+            n = int(config['parameters']['character-n-gram-size'])
+        elif gram_type == 'word':
+            file_name = '{}/{}.word'.format(base_path, file_basename)
             n = int(config['parameters']['word-n-gram-size'])
+        else:
+            file_name = '{}/{}.morph'.format(base_path, file_basename)
+            n = int(config['parameters']['morpheme-n-gram-size'])
+        print(file_name)
         try:
             with open(file_name, encoding='utf8') as f:
                 lines = f.readlines()
@@ -92,7 +105,7 @@ def read_odin_language_model(pairs, config, characters):
         for line in lines:
             if line.strip() == '':
                 continue
-            line = line.split()[0] if characters else line.split()[:-1]
+            line = line.split()[0] if gram_type == 'characters' else line.split()[:-1]
             if len(line) <= n:
                 feature = tuple(line)
                 lm.add(feature)
@@ -140,18 +153,21 @@ def read_morpheme_language_model(pairs, config):
         all_lms[(lang_name, iso_code)] = lm
     return all_lms
 
-def read_crubadan_language_model(pairs, config, characters):
+def read_crubadan_language_model(pairs, config, gram_type):
     """
     Read a Crubadan language model for a (language name, ISO code) pair.
 
     Args:
         pairs: a list of (name, code) pairs to construct models for
         config: model parameters
-        characters: whether to use character or word ngrams
+        gram_type: what type of gram to use - 'character' or 'word'
     Returns:
         list of tuples of ngrams, or None if no language model exists for
         the given name-ISO pairing
     """
+    if gram_type != 'character' and gram_type != 'word':
+        raise ValueError("argument 'gram_type' not 'character' or 'word'")
+
     import csv
 
     base_path = config['locations']['crubadan-language-model']
@@ -168,7 +184,7 @@ def read_crubadan_language_model(pairs, config, characters):
         dir_map[(name, iso)] = directory
     table.close()
 
-    if characters:
+    if gram_type == 'character':
         file_basename = {
             3: "-chartrigrams.txt"
         }.get(int(config['parameters']['crubadan-char-size']))
@@ -193,7 +209,7 @@ def read_crubadan_language_model(pairs, config, characters):
             if line.strip() == '':
                 continue
             line = line.split()[:-1]
-            feature = tuple(line[0]) if characters else tuple(line)
+            feature = tuple(line[0]) if gram_type == 'character' else tuple(line)
             lm.add(feature)
         all_lms[(lang_name, iso_code)] = lm
     return all_lms
