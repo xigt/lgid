@@ -260,9 +260,7 @@ def write_to_files(infiles, predictions, output):
     :param output: filepath of the output directory
     :return: none
     """
-    if os.path.exists(output):
-        shutil.rmtree(output)
-    os.makedirs(output)
+    os.makedirs(output, exist_ok=True)
     for file in infiles:
         doc = FrekiDoc.read(file)
         f_name = file.split('/')[-1]
@@ -285,7 +283,7 @@ def write_to_files(infiles, predictions, output):
         path = output + '/' + file.split('/')[-1]
         if not os.path.exists(os.path.dirname(path)):
             try:
-                os.makedirs(os.path.dirname(path))
+                os.makedirs(os.path.dirname(path), exist_ok=True)
             except OSError as exc:  # Guard against race condition
                 if exc.errno != errno.EEXIST:
                     raise
