@@ -10,7 +10,6 @@ should be turned on.
 import re
 from collections import namedtuple
 import logging
-from string import punctuation
 from sys import stderr
 
 from lgid.util import unicode_normalize_characters

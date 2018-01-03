@@ -96,7 +96,7 @@ def w_features(features, mentions, context, config, num_langs, num_lines):
         closest_mention('W-closest-after', features, mentions, b, b+a_wsize, b)
 
     if config['features']['W-frequent-after'] == 'yes':
-        frequent_mention('W-frequent-after', features, mentions, minfreq, b,
+        frequent_mention('W-frequent-after', features, mentions, a_minfreq, b,
                          b+a_wsize)
     if num_langs > 20:
         if config['features']['W-frequent'] == 'yes':

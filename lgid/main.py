@@ -52,7 +52,6 @@ t0 = time.time()
 
 import os
 import errno
-import shutil
 from configparser import ConfigParser
 import logging
 import numpy as np
@@ -703,18 +702,18 @@ def download_crubadan_data(config):
 
 
 def build_odin_lm(config):
-    from lgid.buildlms import build_from_odin
-
     """
     Build the LMs from the odin data
     """
+    from lgid.buildlms import build_from_odin
+
     logging.info('Building ODIN LMs')
     indirec = config['locations']['odin-source']
     outdirec = config['locations']['odin-language-model']
-    nc = config['parameters']['character-n-gram-size']
-    nw = config['parameters']['word-n-gram-size']
+    nc = 3
+    nw = 2
     morph_split = config['parameters']['morpheme-delimiter']
-    build_from_odin(indirec, outdirec, nc, nw, morph_split)
+    build_from_odin(indirec, outdirec, nc, nw, morph_split=morph_split)
     logging.info('Successfully built ODIN LMs')
 
 

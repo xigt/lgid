@@ -33,7 +33,7 @@ def read_language_table(path):
         if line.strip():
             name, codes = line.rstrip().split('\t', 1)
             codes = codes.split()
-            norm = hard_normalize_characters(name)         # remove diacritics
+            norm = unicode_normalize_characters(name)         # remove diacritics
             norm = re.sub(r' \([^)]*\)', '', norm)    # remove parentheticals
             norm = re.sub(r'\s+', ' ', norm).strip()  # normalize spacing
             norm = norm.lower()                       # lowercase
@@ -94,7 +94,6 @@ def read_odin_language_model(pairs, config, gram_type):
         else:
             file_name = '{}/{}.morph'.format(base_path, file_basename)
             n = int(config['parameters']['morpheme-n-gram-size'])
-        print(file_name)
         try:
             with open(file_name, encoding='utf8') as f:
                 lines = f.readlines()
@@ -271,7 +270,7 @@ def find_common_codes(infiles, config):
                             dialect_count[lgname][part] += 1
                     else:
                         dialect_count[lgname][lgcode] += 1
-    out = open(locs['most-common-codes'], 'w')
+    out = open(locs['most-common-codes'], 'w', encoding='utf8')
     for key in lgtable:
         a_line = ''
         if len(lgtable[key]) == 1:
@@ -366,6 +365,12 @@ def read_language_mapping_table(config):
     Returns:
         a LangTable object containing all the mapping tables
     """
+    normcaps = {
+        'upper': str.upper,
+        'lower': str.lower,
+        'title': str.title
+    }.get(config['parameters'].get('mention-capitalization', 'default'), str)
+
     locs = config['locations']
     lang_to_int = {}
     int_to_lang = {}
@@ -377,15 +382,15 @@ def read_language_mapping_table(config):
     with open(locs['language-index'], encoding='utf8') as f:
         for line in f.readlines():
             line = line.split('\t')
-            lang_to_int[line[0]] = line[1].strip()
-            int_to_lang[line[1].strip()] = line[0]
+            lang_to_int[normcaps(line[0])] = line[1].strip()
+            int_to_lang[line[1].strip()] = normcaps(line[0])
     with open(locs['word-index'], encoding='utf8') as f:
         for line in f.readlines():
             line = line.split('\t')
-            word_to_int[line[0]] = line[1].strip()
-            int_to_word[line[1].strip()] = line[0]
+            word_to_int[normcaps(line[0])] = line[1].strip()
+            int_to_word[line[1].strip()] = normcaps(line[0])
     with open(locs['word-language-mapping'], encoding='utf8') as f:
         for line in f.readlines():
             line = line.split('\t')
-            word_to_lang[line[0].strip()] = line[1].strip().split(',')
+            word_to_lang[normcaps(line[0]).strip()] = line[1].strip().split(',')
     return LangTable(int_to_lang, lang_to_int, int_to_word, word_to_int, word_to_lang)

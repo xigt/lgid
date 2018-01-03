@@ -5,11 +5,9 @@ Build language models from the ODIN data and monolingual data.
 
 from xigt.codecs import xigtxml
 from sklearn.feature_extraction.text import CountVectorizer
-from lgid.analyzers import word_ngrams, character_ngrams
 import re
 import os
 import glob
-import numpy as np
 from lgid import analyzers
 from lgid.util import hard_normalize_characters
 
@@ -39,11 +37,11 @@ class morph_tokenizer:
 
 def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\s\-\=\+]+'):
     """
-    Builds character and word language models from a directory of ODIN xml files, with each language in a separate
-    file named with the language code.
+    Builds character, morpheme and word language models from a directory of ODIN xml files, with
+    each language in a separate file named with the language code.
 
     The LMs are output in the format ngram \t count \n. The filenames have the format
-    languageCode_languageName.char/.word.
+    languageCode_languageName.char/.word/.morph.
 
     Parameters:
         indirec: the directory containing the odin data
@@ -56,12 +54,12 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
     """
     if not os.path.exists(outdirec):
         os.makedirs(outdirec)
-    for fname in glob.glob(indirec + "/*.xml"):
+    for fname in glob.glob(os.path.join(indirec, "*.xml")):
         texts = {}
-        langcode = re.search('.{3}\.xml', fname).group(0).split('.')[0]
+        langcode = re.search('(.{3})\.xml', fname).group(1)
         langcode = re.sub("/", "-", langcode)
         langcode = hard_normalize_characters(langcode)
-        xc = xigtxml.load(open(fname, 'r'))
+        xc = xigtxml.load(open(fname, 'r', encoding='utf8'))
         for igt in xc:
             langname = ""
             for met in igt.metadata:
@@ -97,9 +95,9 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
             countsM = CountVectorizer(analyzer="word", tokenizer=morph.tok, ngram_range=(1, int(nw)))
             cm = countsM.fit_transform([source])
             print(name)
-            lmfileC = open(outdirec + "/" + name + ".char", "w")
-            lmfileW = open(outdirec + "/" + name + ".word", "w")
-            lmfileM = open(outdirec + "/" + name + ".morph", "w")
+            lmfileC = open(os.path.join(outdirec, name + ".char"), "w", encoding='utf8')
+            lmfileW = open(os.path.join(outdirec, name + ".word"), "w", encoding='utf8')
+            lmfileM = open(os.path.join(outdirec, name + ".morph"), "w", encoding='utf8')
 
             textC = ""
             for key in countsC.vocabulary_:
@@ -116,3 +114,7 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
                 count = cm[0, countsM.vocabulary_[key]]
                 textM += key + "\t" + str(count) + '\n'
             lmfileM.write(textM)
+
+            lmfileC.close()
+            lmfileW.close()
+            lmfileM.close()
