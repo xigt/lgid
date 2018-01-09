@@ -52,6 +52,8 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
         rhs: right-padding character (to show token boundaries)
         morph_split: string containing morpheme delimiting characters
     """
+    if not os.path.exists(indirec):
+        exit("The 'odin-source' directory specified in the config file does not exist. Quitting.")
     if not os.path.exists(outdirec):
         os.makedirs(outdirec)
     for fname in glob.glob(os.path.join(indirec, "*.xml")):

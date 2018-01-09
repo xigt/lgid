@@ -77,7 +77,6 @@ from lgid.util import (
     decode_instance_id,
     read_crubadan_language_model,
     read_odin_language_model,
-    read_morpheme_language_model,
     spans,
     find_common_codes,
     read_language_mapping_table
@@ -586,7 +585,6 @@ def get_instances(infiles, config, vector_dir, single_mention, lgtable=None, com
         word_olm = read_odin_language_model(name_code_pairs, config, 'word')
         char_olm = read_odin_language_model(name_code_pairs, config, 'character')
         morph_olm = read_odin_language_model(name_code_pairs, config, 'morpheme')
-        # morph_olm = read_morpheme_language_model(name_code_pairs, config)
         lms = (word_clm, char_clm, word_olm, char_olm, morph_olm)
 
         for pair in name_code_pairs:

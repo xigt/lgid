@@ -11,13 +11,17 @@ repository, please file an [issue](https://github.com/xigt/lgid/issues).
 
 ## Prebuilt Language Models
 
-The zip file odin-lm.zip contains word, character, and morpheme language models for 1999 languages. If you want to use your own LMs or build LMs from your own files, you can change the locations in `config.ini`, or download the raw ODIN data to the location in the config. The LM format is described in the parent `README.md` file under the
-`File Formats` section
+The zip file odin-lm.zip contains word, character, and morpheme language
+models for 1999 languages. The language models are built from ODIN
+version 2.1, using files in the the `by-lang/xigt` subdirectory. The
+language models included here will be automatically extracted whenever
+the program is run and the directory specified for ODIN language models
+in the config file doesn't exist.
 
-## ODIN
-
-The [ODIN][] data used is in the odin-by-lang directory. Each file contains IGT for one language
-identified by its code, and is in the xigt format. 
+If you want to use your own LMs or build LMs from your own files,
+you can change the locations in `config.ini`, or download the raw
+ODIN data to the location in the config. The LM format is described
+in the parent `README.md` file under the `File Formats` section.
 
 ## Crúbadán
 
