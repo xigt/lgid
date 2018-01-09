@@ -64,27 +64,33 @@ def build_from_odin(indirec, outdirec, nc, nw, lhs='<', rhs='>', morph_split='[\
             langname = ""
             for met in igt.metadata:
                 for oneMeta in met.metas:
-                    if oneMeta.type == "language" and 'iso-639-3' in oneMeta.attributes:
-                        langcode2 = oneMeta.attributes['iso-639-3']
+                    subjectChild = None
+                    for child in oneMeta.children:
+                        if child.name == 'subject':
+                            subjectChild = child
+                            break
+                    if subjectChild != None and '{http://www.language-archives.org/OLAC/1.1/}code' in subjectChild.attributes:
+                        langcode2 = subjectChild.attributes['{http://www.language-archives.org/OLAC/1.1/}code']
                         if langcode == langcode2:
-                            langname = oneMeta.attributes['name']
+                            langname = subjectChild.text.lower()
                             langname = hard_normalize_characters(langname)
                             langname = re.sub("/", "-", langname)
                             break
             if langname:
-                for item in igt['c'].items:
-                    tag = item.attributes['tag']
-                    if re.match("^L(\+(CR|AL|DB|SEG))*$", tag):
-                        if item.value():
-                            key = langcode + "_" + langname
-                            if key in texts:
-                                texts[key] += " " + item.value()
-                            else:
-                                texts[key] = item.value()
-                            if langcode in texts:
-                                texts[langcode] += " " + item.value()
-                            else:
-                                texts[langcode] = item.value()
+                for tier in [x for x in igt if x.type == 'odin' and x.attributes['state'] == 'normalized']:
+                    for item in tier.items:
+                        tag = item.attributes['tag']
+                        if re.match("^L(\+(CR|AL|DB|SEG))*$", tag):
+                            if item.value():
+                                key = langcode + "_" + langname
+                                if key in texts:
+                                    texts[key] += " " + item.value()
+                                else:
+                                    texts[key] = item.value()
+                                if langcode in texts:
+                                    texts[langcode] += " " + item.value()
+                                else:
+                                    texts[langcode] = item.value()
         for name in texts:
             source = re.sub(" +", " ", texts[name])
             countsC = CountVectorizer(analyzer=lambda doc: analyzers.character_ngrams(doc, (1, int(nc)), lhs, rhs))
