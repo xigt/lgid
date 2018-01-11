@@ -669,6 +669,7 @@ def download_crubadan_data(config):
 
     i = j = 0
     header = next(reader)  # discard header row
+    sess = requests.Session()
     for row in reader:
         code = row[0]
         iso_code = row[8].strip()
@@ -679,7 +680,20 @@ def download_crubadan_data(config):
         logging.debug(
             'Downloading Crubadan data for {} from {}'.format(combined_code, url)
         )
-        response = requests.get(url)
+        try:
+            response = sess.get(url, timeout=30)
+        except requests.exceptions.Timeout:
+            logging.error(
+                'Request timed out while trying to download data for {} from {}. Skipping...'
+                .format(combined_code, url)
+            )
+            continue
+        if response.status_code != requests.codes.ok:
+            logging.error(
+                'Failed to download the data for {} from {}. Response code {}. Skipping...'
+                .format(combined_code, url, response.status_code)
+            )
+            continue
         file = ZipFile(BytesIO(response.content))
         i += 1
 
