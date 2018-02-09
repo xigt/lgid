@@ -40,6 +40,12 @@ First clone the repository:
 ~$ git clone https://github.com/xigt/lgid.git
 ```
 
+If you wish to install a pre-trained model and ODIN language model files alongside
+the code, you can download the latest `code_and_data.zip` file from the 
+[releases page](https://github.com/xigt/lgid/releases) and unzip that instead of
+cloning the git repository. You may also clone the git repository, then download the
+latest `data_only.zip` file from the releases page and unzip that in the cloned directory.
+
 After cloning this repository, run the `setup-env.sh` script to create a
 [virtual environment][virtualenv] and download the necessary
 dependencies into it:
@@ -118,8 +124,7 @@ lgid
 │    ├── crubadan_directory_index.csv # table of what directory holds Crúbadán data for each language
 │    ├── language_index.txt # table of each language and its ID
 │    ├── word_index.txt # table of each word present in a language name and its ID
-│    ├── word_language_mapping.txt # table of each word present in a language name and which languages it appears in (in ID form)
-│    └── odin-lm.zip    # files for building the ODIN language model
+│    └── word_language_mapping.txt # table of each word present in a language name and which languages it appears in (in ID form)
 ├── sample              # results from sample runs
 └── test                # files for testing the program
      ├── mentions_gold_output.txt   # the gold standard output when running list-mentions on mentions_test.freki
@@ -140,7 +145,7 @@ but they should not be committed to the remote repository.
 All of the functions that take `INFILE` as an argument expect that file or files to be in [Freki](https://github.com/xigt/freki) format.
 The `classify` function produces Freki files as output.
 
-The `build-odin-lm` function expects its input files (location specified in the config file) to be in the [Xigt][] format.
+The `build-odin-lm` function expects its input files (location specified in the config file) to be in the [Xigt][] format, version 2.1.
 
 The [ODIN][] language model files have one ngram on each line, with the format `<ngram>\t<count>`. There are no special symbols
 used for beginning or end of line. Each file contains ngrams for all values of n, 1-3 for characters and 1-2 for words. The

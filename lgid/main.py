@@ -59,7 +59,6 @@ import re
 import random
 random.seed(1)
 import codecs
-import zipfile
 
 import docopt
 
@@ -108,16 +107,6 @@ def main():
     if vector_dir != None:
         vector_dir = vector_dir.strip('/')
     infiles = args['INFILE']
-    if not args['build-odin-lm']:
-        if config['locations']['odin-language-model'] == './res/odin-lm':
-            if not os.path.exists(config['locations']['odin-language-model']):
-                print("No ODIN LMs detected. Decompressing prebuilt ODIN LMs")
-                zipfi = zipfile.ZipFile('./res/odin-lm.zip', 'r')
-                try:
-                    zipfi.extractall('./res')
-                except UnicodeEncodeError:
-                    print("Error unzipping prebuilt ODIN LMs. Continuing.")
-                zipfi.close()
     if args['train']:
         train(infiles, modelpath, vector_dir, config, single_mention)
     elif args['classify']:
